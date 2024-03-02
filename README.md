@@ -76,5 +76,5 @@ Awesome List of PureData Externals/Libraries.
 | Name  | Description |
 |-------|-------------|
 | [hvcc](https://github.com/Wasted-Audio/hvcc) | hvcc is a python-based dataflow audio programming language compiler. |
-| [pd4web](https://github.com/charlesneimog/pd4web) |Run your Pure Data patches on the web.|
+| [pd4web](https://github.com/charlesneimog/pd4web) |Run your Pure Data patches on the web with externals.|
 | [Web Pd](https://github.com/sebpiq/WebPd) | Run your Pure Data patches on the web.|
