@@ -109,7 +109,6 @@ List of PureData externals. For objects/libraries marked with ✅️ in the `Dek
   </tr>
 </table>
 
------
 
 ### Reverbs
 
