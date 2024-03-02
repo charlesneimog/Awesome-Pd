@@ -130,7 +130,7 @@ List of PureData externals. For objects/libraries marked with ✅️ in the `Dek
   </tr>
 </table>
 
-### Synthesis<
+### Synthesis
 
 <table align="center">
   <tr>
