@@ -20,7 +20,7 @@ Awesome List of PureData Externals/Libraries/Compilers and another things.
 - [Compilation Tools for Pure Data Objects](#compilation-tools-for-pure-data-objects)
 - [Pd for Web Enviroments](#pd-for-web-enviroments)
 
-<h2 align="center">Externals</h2> 
+## Externals
 
 List of PureData externals. For objects/libraries marked with ✅️ in the `Deken` column, you can download them by opening PureData:
   1. Open PureData;
@@ -29,7 +29,7 @@ List of PureData externals. For objects/libraries marked with ✅️ in the `Dek
   4. Search for the object name;
   5. Click in `Install`.
 
-<h3 align="center">AI</h3> 
+### AI
 
 <table align="center" width="100%">
   <tr>
@@ -48,9 +48,8 @@ List of PureData externals. For objects/libraries marked with ✅️ in the `Dek
     <td>Pd External for real-time ai audio processing.</td>
   </tr>
 </table>
-
-
-<h3 align="center">Ambisonics</h3> 
+ 
+### Ambisonics
 
 <table align="center">
   <tr>
@@ -75,8 +74,7 @@ List of PureData externals. For objects/libraries marked with ✅️ in the `Dek
   </tr>
 </table>
 
-
-<h3 align="center">Binaural</h3> 
+### Binaural
 
 <table align="center">
   <tr>
@@ -96,8 +94,7 @@ List of PureData externals. For objects/libraries marked with ✅️ in the `Dek
   </tr>
 </table>
 
-<h3 align="center">PartialTracking</h3> 
-
+### PartialTracking
 
 <table align="center">
   <tr>
@@ -114,7 +111,7 @@ List of PureData externals. For objects/libraries marked with ✅️ in the `Dek
 
 -----
 
-<h3 align="center">Reverbs</h3> 
+### Reverbs
 
 <table align="center">
   <tr>
@@ -134,9 +131,7 @@ List of PureData externals. For objects/libraries marked with ✅️ in the `Dek
   </tr>
 </table>
 
-
-<h3 align="center">Synthesis</h3> 
-
+### Synthesis<
 
 <table align="center">
   <tr>
@@ -156,8 +151,7 @@ List of PureData externals. For objects/libraries marked with ✅️ in the `Dek
   </tr>
 </table>
 
-<h3 align="center">Python</h3> 
-
+### Python 
 
 <table align="center">
   <tr>
@@ -177,10 +171,7 @@ List of PureData externals. For objects/libraries marked with ✅️ in the `Dek
   </tr>
 </table>
 
------
-
-<h3 align="center">WebServers</h3> 
-
+### WebServers
 
 <table align="center">
   <tr>
@@ -200,7 +191,7 @@ List of PureData externals. For objects/libraries marked with ✅️ in the `Dek
   </tr>
 </table>
 
-<h2 align="center">Compilation Tools for Pure Data Objects</h2> 
+## Compilation Tools for Pure Data Objects
 
 <table align="center">
   <tr>
@@ -218,7 +209,7 @@ List of PureData externals. For objects/libraries marked with ✅️ in the `Dek
 </table>
 
 
-<h2 align="center">Pd for Web Enviroments</h2> 
+## Pd for Web Enviroments
 
 <table align="center">
   <tr>
