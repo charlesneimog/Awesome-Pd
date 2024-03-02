@@ -58,7 +58,7 @@ Awesome List of PureData Externals/Libraries/Compilers and another things.
 ### Python
 
 | Name  | Deken | Description |
-|-------|-------|-------------|
+|:-------:|:-------:|:-------------:|
 | [py](https://github.com/grrrr/py) |✅️|Python scripting objects.|
 | [py4pd](https://github.com/charlesneimog/py4pd) |✅️|Allows the use of complete Python enviroment within PureData.|
 
