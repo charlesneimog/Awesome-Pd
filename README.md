@@ -190,6 +190,7 @@ List of PureData externals. For objects/libraries marked with ✅️ in the `Dek
   </tr>
 </table>
 
+--- 
 ## Compilation Tools for Pure Data Objects
 
 <table align="center">
@@ -207,7 +208,7 @@ List of PureData externals. For objects/libraries marked with ✅️ in the `Dek
   </tr>
 </table>
 
-
+--- 
 ## Pd for Web Enviroments
 
 <table align="center">
