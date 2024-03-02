@@ -46,7 +46,7 @@ Awesome List of PureData Externals/Libraries.
 | Name  | Deken | Description |
 |-------|-------|-------------|
 | [convolve~](https://github.com/wbrent/convolve_tilde) |✅️|Partitioned impulse response (IR) convolution external for Pure Data.|
-| [piro](https://github.com/wbrent/convolve_tilde) |✅️|Partitioned impulse response (IR) convolution external for Pure Data.|
+| [piro](https://github.com/d-i-s/piro) |✅️|Pd-port of the HISSTools Impulse Response Toolbox.|
 
 
 ## Python
