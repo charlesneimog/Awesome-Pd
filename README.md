@@ -1,12 +1,10 @@
 <h1 align="center">Awesome Pd</h1> 
 
-
 Awesome List of PureData Externals/Libraries/Compilers and another things. 
 
 > [!IMPORTANT]  
 > I am starting this list now, if you know some cool (or not cool) object, please make a PR or tell me in [issues](https://github.com/charlesneimog/Awesome-Pd-Externals/issues/new).
 
-# Contents
 <h1 align="center">Contents</h1> 
 
 - [Externals](#externals) 
