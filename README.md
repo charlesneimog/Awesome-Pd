@@ -12,6 +12,8 @@ Awesome List of PureData Externals/Libraries.
 - [Binaural](#binaural)
 - [Partial Tracking](#partialtracking)
 - [Reverbs](#reverbs)
+- [WebServers](#webservers)
+
 
 ## AI
 
@@ -56,4 +58,10 @@ Awesome List of PureData Externals/Libraries.
 | [py](https://github.com/grrrr/py) |✅️|Python scripting objects.|
 | [py4pd](https://github.com/charlesneimog/py4pd) |✅️|Allows the use of complete Python enviroment within PureData.|
 
+## WebServers
+
+| Name  | Deken | Description |
+|-------|-------|-------------|
+| [pd-server](https://github.com/charlesneimog/pd-server) |✅️|HTTP and HTTPS server for PureData.|
+| [webserver](https://github.com/Lucarda/pd-webserver) |✅️| A web server for Pd.|
 
