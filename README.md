@@ -61,6 +61,8 @@ List of PureData externals. For objects/libraries marked with ✅️ in the `Dek
 |:-------:|:-------:|:-------------:|
 | [smspd](https://github.com/charlesneimog/smspd) |✅️|Spectral Modeling and Synthesis Techniques to accomplish SMS analysis, synthesis, and modifications in real-time.|
 
+-----
+
 ### Reverbs
 
 | Name  | Deken | Description |
