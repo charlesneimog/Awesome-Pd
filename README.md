@@ -13,6 +13,7 @@ Awesome List of PureData Externals/Libraries/Compilers and another things.
   - [Binaural](#binaural)
   - [Partial Tracking](#partialtracking)
   - [Reverbs](#reverbs)
+  - [Synthesis](#synthesis)
   - [WebServers](#webservers)
 - [Compilation Tools for Pure Data Objects](#compilation-tools-for-pure-data-objects)
 - [Pd for Web Enviroments](#pd-for-web-enviroments)
@@ -26,7 +27,6 @@ Awesome List of PureData Externals/Libraries/Compilers and another things.
 | [neuralnet](https://github.com/alexdrymonitis/neuralnet) |✅️| An Artificial Neural Network framework for Pure Data. |
 | [nn~](https://github.com/acids-ircam/nn_tilde) |❌| Pd External for real-time ai audio processing. |
 
-
 ### Ambisonics
 
 | Name  | Deken | Description |
@@ -39,6 +39,7 @@ Awesome List of PureData Externals/Libraries/Compilers and another things.
 | Name  | Deken | Description |
 |:-------:|:-------:|:-------------:|
 | [earplug~](https://github.com/pd-externals/earplug) |✅️| Binaural Filter Based on KEMAR impulse measurement. |
+| [SOFAlizer](https://github.com/sofacoustics/SOFAlizer-for-pd) |✅️| An interactive, low-cost, binaural, virtual acoustics embedded system through headphones. |
 
 
 ### PartialTracking
@@ -53,6 +54,14 @@ Awesome List of PureData Externals/Libraries/Compilers and another things.
 |:-------:|:-------:|:-------------:|
 | [convolve~](https://github.com/wbrent/convolve_tilde) |✅️|Partitioned impulse response (IR) convolution external for Pure Data.|
 | [piro](https://github.com/d-i-s/piro) |✅️|Pd-port of the HISSTools Impulse Response Toolbox.|
+
+### Synthesis
+| Name  | Deken | Description |
+|:-------:|:-------:|:-------------:|
+| [pd-percolate](https://github.com/megrimm/pd-percolate) |✅️|Variety of synthesis and signal processing.|
+| [grainer~](https://github.com/odiliscia/the_grainer_PureData_gh) |❌|Granular synthesis and Ambisonics spatialisation external for Pure Data|
+
+
 
 
 ### Python
