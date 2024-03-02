@@ -20,6 +20,13 @@ Awesome List of PureData Externals/Libraries/Compilers and another things.
 
 ## Externals
 
+List of PureData externals. For objects/libraries marked with ✅️ in the `Deken` column, you can download them by opening PureData:
+  1. Open PureData;
+  2. Go to Help;
+  3. Find Externals;
+  4. Search for the object name;
+  5. Click in `Install`.
+
 ### AI
 
 | Name  | Deken | Description |
@@ -36,6 +43,7 @@ Awesome List of PureData Externals/Libraries/Compilers and another things.
 | [abclib](https://github.com/alainbonardi/abclib) |❌️| It comes as a prolongation of the HOA library developed by the CICM. |
 
 ### Binaural
+
 | Name  | Deken | Description |
 |:-------:|:-------:|:-------------:|
 | [earplug~](https://github.com/pd-externals/earplug) |✅️| Binaural Filter Based on KEMAR impulse measurement. |
@@ -60,9 +68,6 @@ Awesome List of PureData Externals/Libraries/Compilers and another things.
 |:-------:|:-------:|:-------------:|
 | [pd-percolate](https://github.com/megrimm/pd-percolate) |✅️|Variety of synthesis and signal processing.|
 | [grainer~](https://github.com/odiliscia/the_grainer_PureData_gh) |❌|Granular synthesis and Ambisonics spatialisation external for Pure Data|
-
-
-
 
 ### Python
 
