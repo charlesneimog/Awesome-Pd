@@ -8,7 +8,7 @@ List of PureData Externals/Libraries.
 - [Ambisonics](#Ambisonics)
 - [AI](#AI)
 - [Video](#Video)
-- [Partial Tracking](#Partial Tracking)
+- [Partial Tracking](#Partial_Tracking)
 
 ## Ambisonics
 
