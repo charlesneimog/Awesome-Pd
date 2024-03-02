@@ -9,7 +9,6 @@ Awesome List of PureData Externals/Libraries/Compilers and another things.
 # Contents
 <h1 align="center">Contents</h1> 
 
-
 - [Externals](#externals) 
   - [AI](#ai)
   - [Ambisonics](#ambisonics)
