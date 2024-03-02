@@ -1,6 +1,6 @@
 # Awesome Pd Externals
 
-List of PureData Externals/Libraries.
+Awesome List of PureData Externals/Libraries.
 
 # Contents
 
