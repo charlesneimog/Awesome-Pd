@@ -3,7 +3,7 @@
 Awesome List of PureData Externals/Libraries. 
 
 > [!IMPORTANT]  
-> I am starting this list now, if you know some cool (or not) object, please make a PR or tell me in [issues](https://github.com/charlesneimog/Awesome-Pd-Externals/issues/new).
+> I am starting this list now, if you know some cool (or not cool) object, please make a PR or tell me in [issues](https://github.com/charlesneimog/Awesome-Pd-Externals/issues/new).
 
 # Contents
 
