@@ -1,3 +1,3 @@
-# pd-externals-list
+# Awesome Pd Externals
 
 List of PureData externals.
