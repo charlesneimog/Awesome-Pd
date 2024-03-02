@@ -1,6 +1,9 @@
 # Awesome Pd Externals
 
-Awesome List of PureData Externals/Libraries.
+Awesome List of PureData Externals/Libraries. 
+
+> [!IMPORTANT]  
+> I am starting this list now, if you know some cool (or not) object, please make a PR or tell me in [issues](https://github.com/charlesneimog/Awesome-Pd-Externals/issues/new).
 
 # Contents
 
@@ -39,5 +42,18 @@ Awesome List of PureData Externals/Libraries.
 | [smspd](https://github.com/charlesneimog/smspd) |✅️|Spectral Modeling and Synthesis Techniques to accomplish SMS analysis, synthesis, and modifications in real-time.|
 
 ## Reverbs
+
+| Name  | Deken | Description |
+|-------|-------|-------------|
+| [convolve~](https://github.com/wbrent/convolve_tilde) |✅️|Partitioned impulse response (IR) convolution external for Pure Data.|
+| [piro](https://github.com/wbrent/convolve_tilde) |✅️|Partitioned impulse response (IR) convolution external for Pure Data.|
+
+
+## Python
+
+| Name  | Deken | Description |
+|-------|-------|-------------|
+| [py](https://github.com/grrrr/py) |✅️|Python scripting objects.|
+| [py4pd](https://github.com/charlesneimog/py4pd) |✅️|Allows the use of complete Python enviroment within PureData.|
 
 
