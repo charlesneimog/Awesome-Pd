@@ -71,6 +71,12 @@ Awesome List of PureData Externals/Libraries.
 
 ## Compilation Tools for Pure Data Objects
 
+| Name  | Description |
+|-------|-------------|
+| [pd-lib-builder](https://github.com/pure-data/pd-lib-builder) | Helper Makefile for Pure Data external libraries. |
+| [pd.build](https://github.com/pierreguillot/pd.build) | Helper Cmake for Pure Data external libraries.|
+
+
 ## Pd for Web Enviroments
 
 | Name  | Description |
