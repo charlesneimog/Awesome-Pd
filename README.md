@@ -68,7 +68,7 @@ List of PureData externals. For objects/libraries marked with ✅️ in the `Dek
   <tr>
     <td><a href="https://github.com/alainbonardi/abclib">abclib</a></td>
     <td>❌️</td>
-    <td>It comes as a prolongation of the HOA library developed by the CICM.</td>
+    <td>It comes as a prolongation of the HOA library developed by the CICM between 2012 and 2015 which provided an impressive framework for ambisonics</td>
   </tr>
 </table>
 
