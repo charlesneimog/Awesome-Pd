@@ -14,6 +14,7 @@ Awesome List of PureData Externals/Libraries/Compilers and another things.
   - [Partial Tracking](#partialtracking)
   - [Reverbs](#reverbs)
   - [Synthesis](#synthesis)
+  - [VST](#vst)
   - [WebServers](#webservers)
 - [Compilation Tools for Pure Data Objects](#compilation-tools-for-pure-data-objects)
 - [Pd for Web Enviroments](#pd-for-web-enviroments)
@@ -167,6 +168,22 @@ List of PureData externals. For objects/libraries marked with ✅️ in the `Dek
     <td>Allows the use of complete Python environment within PureData.</td>
   </tr>
 </table>
+
+### Vst
+
+<table align="center">
+  <tr>
+    <th>Name</th>
+    <th>Deken</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><a href="https://git.iem.at/pd/vstplugin">vstplugin~</a></td>
+    <td>✅️</td>
+    <td>This project allows you to use VST plugins in Pd on Windows, MacOS and Linux.</td>
+  </tr>
+</table>
+
 
 ### WebServers
 
