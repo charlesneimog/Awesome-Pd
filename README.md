@@ -183,7 +183,7 @@ List of PureData externals. For objects/libraries marked with ✅️ in the `Dek
     <td>This project allows you to use VST plugins in Pd on Windows, MacOS and Linux.</td>
   </tr>
 </table>
-
+---
 
 ### WebServers
 
