@@ -183,7 +183,6 @@ List of PureData externals. For objects/libraries marked with ✅️ in the `Dek
     <td>This project allows you to use VST plugins in Pd on Windows, MacOS and Linux.</td>
   </tr>
 </table>
----
 
 ### WebServers
 
@@ -244,3 +243,17 @@ List of PureData externals. For objects/libraries marked with ✅️ in the `Dek
     <td>Run your Pure Data patches on the web.</td>
   </tr>
 </table>
+
+## Pd and Iot
+
+<table align="center">
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Wasted-Audio/hvcc">hvcc</a></td>
+    <td>hvcc is a python-based dataflow audio programming language compiler.</td>
+  </tr>
+</table>
+
