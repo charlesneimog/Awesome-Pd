@@ -35,16 +35,19 @@ List of PureData externals. For objects/libraries marked with ✅️ in the `Dek
     <th>Name</th>
     <th>Deken</th>
     <th>Description</th>
+    <th>Plataforms</th>
   </tr>
   <tr>
     <td><a href="https://github.com/alexdrymonitis/neuralnet">neuralnet</a></td>
     <td>✅️</td>
     <td>[neuralnet] is an artificial neural network Pd external, written in pure C, without any dependencies.</td>
+    <th>🐧, 🍏, 🪟️</th>
   </tr>
   <tr>
     <td><a href="https://github.com/acids-ircam/nn_tilde">nn~</a></td>
     <td>❌</td>
     <td>Pd External for real-time ai audio processing.</td>
+    <th>🐧, 🍏, 🪟️</th>
   </tr>
 </table>
  
