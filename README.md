@@ -1,262 +1,104 @@
-<h1 align="center">Awesome Pd</h1> 
+<h1 align="center">Awesome Pd</h1>
 
-Awesome List of PureData Externals/Libraries/Compilers and another things. 
+_Awesome List of PureData Externals, Libraries, Compilers, and More_
 
-> [!IMPORTANT]  
-> I am starting this list now, if you know some cool (or not cool) object, please make a PR or tell me in [issues](https://github.com/charlesneimog/Awesome-Pd-Externals/issues/new).
 
-<h1 align="center">Contents</h1> 
+<h1 align="center">Contents</h1>
 
-- [Externals](#externals) 
+- [Externals](#externals)
   - [AI](#ai)
   - [Ambisonics](#ambisonics)
   - [Binaural](#binaural)
-  - [Partial Tracking](#partialtracking)
+  - [Partial Tracking](#partial-tracking)
   - [Reverbs](#reverbs)
   - [Synthesis](#synthesis)
+  - [Python](#python)
   - [VST](#vst)
   - [WebServers](#webservers)
 - [Compilation Tools for Pure Data Objects](#compilation-tools-for-pure-data-objects)
-- [Pd for Web Enviroments](#pd-for-web-enviroments)
+- [Pd for Web Environments](#pd-for-web-environments)
+- [Pd-to-C Converter](#pd-to-c-converter)
+
+---
 
 ## Externals
 
-List of PureData externals. For objects/libraries marked with ✅️ in the `Deken` column, you can download them by opening PureData:
-  1. Open PureData;
-  2. Go to Help;
-  3. Find Externals;
-  4. Search for the object name;
-  5. Click in `Install`.
+A curated list of PureData externals. For objects/libraries marked with **(✅️)**, you can install them directly from within PureData using Help -> Find Externals.:
 
 ### AI
 
-<table align="center" width="100%">
-  <tr>
-    <th>Name</th>
-    <th>Deken</th>
-    <th>Description</th>
-    <th>Plataforms</th>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/alexdrymonitis/neuralnet">neuralnet</a></td>
-    <td>✅️</td>
-    <td>[neuralnet] is an artificial neural network Pd external, written in pure C, without any dependencies.</td>
-    <th>🐧, 🍏, 🪟️</th>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/acids-ircam/nn_tilde">nn~</a></td>
-    <td>❌</td>
-    <td>Pd External for real-time ai audio processing.</td>
-    <th>🐧, 🍏, 🪟️</th>
-  </tr>
-</table>
- 
+- **[neuralnet](https://github.com/alexdrymonitis/neuralnet)** (✅️): An artificial neural network Pd external written in pure C, without any dependencies.  
+- **[nn~](https://github.com/acids-ircam/nn_tilde)** (❌): An external for real-time AI audio processing.  
+
 ### Ambisonics
 
-<table align="center">
-  <tr>
-    <th>Name</th>
-    <th>Deken</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/CICM/HoaLibrary-PD">HoaLibrary</a></td>
-    <td>❌</td>
-    <td>Music spatialization models based on high order ambisonics and sound fields synthesis.</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/rickygraham/grambilib">grambilib</a></td>
-    <td>✅️</td>
-    <td>A simple ambisonics library for Pd, written in C.</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/alainbonardi/abclib">abclib</a></td>
-    <td>❌️</td>
-    <td>It comes as a prolongation of the HOA library developed by the CICM between 2012 and 2015 which provided an impressive framework for ambisonics</td>
-  </tr>
-</table>
+- **[HoaLibrary](https://github.com/CICM/HoaLibrary-PD)** (❌): Implements music spatialization models based on high order ambisonics and sound fields synthesis.
+- **[grambilib](https://github.com/rickygraham/grambilib)** (✅️): A simple ambisonics library for Pd, written in C.
+- **[abclib](https://github.com/alainbonardi/abclib)** (❌️): An extension of the HOA library from CICM (2012–2015) offering an impressive framework for ambisonics.
 
 ### Binaural
 
-<table align="center">
-  <tr>
-    <th>Name</th>
-    <th>Deken</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/pd-externals/earplug">earplug~</a></td>
-    <td>✅️</td>
-    <td>Binaural Filter Based on KEMAR impulse measurement.</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/sofacoustics/SOFAlizer-for-pd">SOFAlizer</a></td>
-    <td>✅️</td>
-    <td>An interactive, low-cost, binaural, virtual acoustics embedded system through headphones.</td>
-  </tr>
-</table>
+- **[earplug~](https://github.com/pd-externals/earplug)** (✅️): Binaural filter based on KEMAR impulse measurement.
+- **[SOFAlizer](https://github.com/sofacoustics/SOFAlizer-for-pd)** (✅️): An interactive, low-cost binaural virtual acoustics system for headphones.
 
-### PartialTracking
+### Partial Tracking
 
-<table align="center">
-  <tr>
-    <th>Name</th>
-    <th>Deken</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/charlesneimog/smspd">smspd</a></td>
-    <td>✅️</td>
-    <td>Spectral Modeling and Synthesis Techniques to accomplish SMS analysis, synthesis, and modifications in real-time.</td>
-  </tr>
-</table>
-
-
+- **[smspd](https://github.com/charlesneimog/smspd)** (✅️): Uses spectral modeling and synthesis techniques to achieve SMS analysis, synthesis, and modifications in real-time.
+- **[pd-partialtrack](https://github.com/charlesneimog/pd-partialtrack)** (✅️):  A realtime partial-tracking library for PureData implement SMS, Loris, Mq and SndObj partial-tracking.
 ### Reverbs
 
-<table align="center">
-  <tr>
-    <th>Name</th>
-    <th>Deken</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/wbrent/convolve_tilde">convolve~</a></td>
-    <td>✅️</td>
-    <td>Partitioned impulse response (IR) convolution external for Pure Data.</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/d-i-s/piro">piro</a></td>
-    <td>✅️</td>
-    <td>Pd-port of the HISSTools Impulse Response Toolbox.</td>
-  </tr>
-</table>
+- **[convolve~](https://github.com/wbrent/convolve_tilde)** (✅️): Partitioned impulse response (IR) convolution external for Pure Data.
+
+- **[piro](https://github.com/d-i-s/piro)** (✅️): A Pd port of the HISSTools Impulse Response Toolbox.
 
 ### Synthesis
 
-<table align="center">
-  <tr>
-    <th>Name</th>
-    <th>Deken</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/megrimm/pd-percolate">pd-percolate</a></td>
-    <td>✅️</td>
-    <td>Variety of synthesis and signal processing.</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/odiliscia/the_grainer_PureData_gh">grainer~</a></td>
-    <td>❌</td>
-    <td>Granular synthesis and Ambisonics spatialisation external for Pure Data.</td>
-  </tr>
-</table>
+- **[pd-percolate](https://github.com/megrimm/pd-percolate)** (✅️):  Offers a variety of synthesis and signal processing techniques.
+- **[grainer~](https://github.com/odiliscia/the_grainer_PureData_gh)** (❌): Granular synthesis and ambisonics spatialisation external for Pure Data.
 
-### Python 
+### Python
 
-<table align="center">
-  <tr>
-    <th>Name</th>
-    <th>Deken</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/grrrr/py">py</a></td>
-    <td>✅️</td>
-    <td>Python scripting objects.</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/charlesneimog/py4pd">py4pd</a></td>
-    <td>✅️</td>
-    <td>Allows the use of complete Python environment within PureData.</td>
-  </tr>
-</table>
+- **[py](https://github.com/grrrr/py)** (✅️): Provides Python scripting capabilities within Pure Data.
+- **[py4pd](https://github.com/charlesneimog/py4pd)** (✅️): Integrates the Python environment into Pure Data.
 
-### Vst
+### VST
 
-<table align="center">
-  <tr>
-    <th>Name</th>
-    <th>Deken</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td><a href="https://git.iem.at/pd/vstplugin">vstplugin~</a></td>
-    <td>✅️</td>
-    <td>This project allows you to use VST plugins in Pd on Windows, MacOS and Linux.</td>
-  </tr>
-</table>
+- **[vstplugin~](https://git.iem.at/pd/vstplugin)** (✅️): Enables the use of VST plugins in Pure Data on Windows, MacOS, and Linux.
 
 ### WebServers
 
-<table align="center">
-  <tr>
-    <th>Name</th>
-    <th>Deken</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/charlesneimog/pd-server">pd-server</a></td>
-    <td>✅️</td>
-    <td>HTTP and HTTPS server for PureData.</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Lucarda/pd-webserver">webserver</a></td>
-    <td>✅️</td>
-    <td>A web server for Pd.</td>
-  </tr>
-</table>
+- **[pd-server](https://github.com/charlesneimog/pd-server)** (✅️): HTTP and HTTPS server implementation for Pure Data.
+- **[webserver](https://github.com/Lucarda/pd-webserver)** (✅️): A simple web server designed for Pure Data.
 
---- 
+
+### Score Followers
+
+- **[antescofo~](https://forum.ircam.fr/projects/detail/antescofo/)** (❌): Antescofo is a real-time module for Max and PureData. 
+- **[o.scofo~](https://github.com/charlesneimog/OScofo)** (❌): A Open Source Score Follower based on the research of Arshia Cont (2010), base for `antescofo~` object.
+
+---
+
 ## Compilation Tools for Pure Data Objects
 
-<table align="center">
-  <tr>
-    <th>Name</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/pure-data/pd-lib-builder">pd-lib-builder</a></td>
-    <td>Helper Makefile for Pure Data external libraries.</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/pierreguillot/pd.build">pd.build</a></td>
-    <td>Helper CMake for Pure Data external libraries.</td>
-  </tr>
-</table>
+- **[pd-lib-builder](https://github.com/pure-data/pd-lib-builder)**: A helper Makefile for building Pure Data external libraries.
+- **[pd.cmake](https://github.com/pure-data/pd.cmake)**: A CMake-based tool to facilitate the compilation of Pure Data externals.
 
---- 
-## Pd for Web Enviroments
+---
 
-<table align="center">
-  <tr>
-    <th>Name</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Wasted-Audio/hvcc">hvcc</a></td>
-    <td>hvcc is a python-based dataflow audio programming language compiler.</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/charlesneimog/pd4web">pd4web</a></td>
-    <td>Run your Pure Data patches on the web with externals.</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/sebpiq/WebPd">Web Pd</a></td>
-    <td>Run your Pure Data patches on the web.</td>
-  </tr>
-</table>
+## Pd for Web Environments
 
-## Pd and Iot
+- **[hvcc](https://github.com/Wasted-Audio/hvcc)**: A Python-based compiler for a dataflow audio programming language.
+- **[pd4web](https://github.com/charlesneimog/pd4web)**: Run your Pure Data patches on the web, complete with external support.
+- **[Web Pd](https://github.com/sebpiq/WebPd)**: Bring your Pure Data patches to the web.
 
-<table align="center">
-  <tr>
-    <th>Name</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Wasted-Audio/hvcc">hvcc</a></td>
-    <td>hvcc is a python-based dataflow audio programming language compiler.</td>
-  </tr>
-</table>
+---
+
+## Pd-to-C Converter
+
+- **[hvcc](https://github.com/Wasted-Audio/hvcc)**: A Python-based compiler that converts dataflow audio programs (Pd patches) to C code.
+
+---
+
+_Contributions, suggestions, and improvements are very welcome. Feel free to fork the repository and submit your changes!_
+
 
