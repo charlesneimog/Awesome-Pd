@@ -1,4 +1,4 @@
-# ambi~
+# `ambi~`
 
 `ambi~` is a simple ambisonics (sometimes CPU hungry) object that implement the `libspatialaudio` and `libmysofa` used in the VLC video player. `libspatialaudio` is an open-source and cross-platform library for spatial audio encoding and decoding, filtering and binaural rendering. It is able to render High-Order Ambisonic (HOA) and VR/3D audio samples in multiple environments, from headphones to classic loudspeakers. Its binaural rendering can be used for classical 5.1/7.1 spatial channels as well as Ambisonics inputs. 
 

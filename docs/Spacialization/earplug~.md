@@ -1,4 +1,4 @@
-# earplug~
+# `earplug~`
 
 Binaural filter based on KEMAR impulse measurement for Pd.
 

@@ -1,4 +1,4 @@
-# scofo
+# `scofo`
 
 `scofo` is capable of reading the MIDI pitches prescribed from a text file (accompaniment score) and comparing them with those extracted from the flute signal.
 

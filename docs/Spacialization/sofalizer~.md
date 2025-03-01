@@ -1,4 +1,4 @@
-# SOFAlizer~
+# `SOFAlizer~`
 
 `SOFAlizer~` is a low-cost, interactive binaural system using real-time HRTF processing with Pure Data, supporting SOFA files and low-latency head tracking.
 

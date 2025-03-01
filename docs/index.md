@@ -1,8 +1,11 @@
 # Home
 
 <p align="center">
-    Awesome List of PureData Externals, Libraries, Compilers, and More.
+  WebSite that tries to list, with descriptiors, music examples, and links, all the objects, externals, and libraries available for PureData.
 </p>
+
+!!! note "Add missing objects or libraries"
+    Please, if you miss any object, external, or library, or you have any suggestion, tell us in this [issue](https://github.com/charlesneimog/Awesome-Pd/issues).
 
 --- 
 

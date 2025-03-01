@@ -1,4 +1,4 @@
-# o.scofo~
+# `o.scofo~`
 
 `OScofo` is an open-source project designed to provide score following capabilities for contemporary music applications. Originally developed as a PureData (Pd) object, OScofo has now been expanded into a versatile C++ library that integrates seamlessly with multiple environments, including a Max Object, Python package, and others comming. Currently under development, OScofo is already functional and serves as a valuable tool for researchers and musicians.
 
