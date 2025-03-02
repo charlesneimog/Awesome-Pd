@@ -110,7 +110,11 @@ nav:
         - Person/bsaylor.md
       # - Synthesis:
       #   - Granulador:
-    
+    - Library Objects:
+      - Libraries/abclib.md
+      - Libraries/pd-cyclone.md
+      - Libraries/pd-else.md
+
     - Compilers: 
         - Web:
           - Compilers/pd4web.md
@@ -118,6 +122,7 @@ nav:
           - Compilers/webpd.md
         - C/C++:
           - Compilers/hvcc.md
+    
 
 
 plugins:

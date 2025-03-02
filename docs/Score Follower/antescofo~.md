@@ -1,4 +1,4 @@
-# antescofo~
+# `antescofo~`
 
 `Antescofo~` for Max and PureData is a modular polyphonic Score Following system as well as a timed and reactive programming language for real-time computer music composition and live performance. The module allows for automatic recognition of music score position and tempo from a realtime audio Stream coming from performer(s), making it possible to synchronize an instrumental performance with computer realized elements. The synchronous language within Antescofo allows flexible writing of time and interaction in computer music.
 
