@@ -1,5 +1,9 @@
 # Home
 
+!!! danger "Under development"
+
+
+
 <p align="center">
   WebSite that tries to list, with descriptiors, music examples, and links, all the objects, externals, and libraries available for PureData.
 </p>
@@ -59,3 +63,131 @@
         crossorigin="anonymous"
         async>
 </script>
+
+
+# TODO
+
+*  net
+*  nGui
+*  nicinfo
+*  nilwind
+*  notesLib
+*  nsend
+*  nusmuk-audio
+*  nusmuk-utils
+*  ofelia
+*  orchidea
+*  osc
+*  oscx
+*  ossia
+*  pan
+*  patch2svg-plugin
+*  patcherize-plugin: Selections to SubPatch.
+*  pd-aubio: Various externals for PureData using the aubio library
+*  pd-ji: 
+*  pd-push-and-hold
+*  pd-score: 
+*  pd-server
+*  pd-wavelet
+*  pd-zmq
+*  Pd_Spectral_Toolkit
+*  PDContainer
+*  pdcontainer
+*  pddp
+*  pde
+
+*  pdjs
+*  pdlua
+
+*  pdmus
+*  pdogg: pdogg~ is a collection of ogg/vorbis externals for pd (by Miller Puckette).
+
+*  pdp
+*  pdpii2c
+*  pdpp
+*  pduino
+*  pii2c
+*  piloslib
+*  piro
+*  pispi
+*  pix_artoolkit
+*  pix_drum
+*  pix_fiducialtrack
+*  pix_mano
+*  pix_opencv
+*  planifolia: Pd Vanilla abstractions to do many different things.
+*  plugin~: LADSPA plug-in hosting for Pd.
+*  pmpd: Physical Modelling for Pure Data.
+*  pof
+*  pofbeam
+*  pool
+*  psycho:  Pd library with some psychoacoustic tools.
+*  pulqui
+*  punish
+*  puremapping
+*  purepd
+*  purest_json
+*  queryresponse
+*  quilt
+*  RabbitControl
+*  readdir
+*  rfpg
+*  rtc
+*  rtcmix~
+*  saturator: The saturator~ external performs a nonlinear compression on the input signal based on threshold (rms), attack/release (ms), push/pull, autogain, and polynomial order (N = [2, 736]) settings.
+
+*  scroll-test-plugin
+*  scrollpage-plugin
+*  search-plugin
+*  senselmorph
+*  sfruit
+*  shadylib
+*  shmem
+*  shotnoise
+*  sigpack
+*  simplex
+*  simplex~
+*  slip
+*  smlib: Signal processing for Mapping library for Pure Data by Johannes Taelman 
+*  soundhack
+
+*  soundtouch~: [soundtouch~] is a Pure Data implementation of Olli Parviainen's SoundTouch library, ported by Katja Vetter. The class is implemented as a real-time pitch shifter, converting an audio stream to different pitch.
+
+*  spect_scaled
+*  spring22
+*  ssr
+*  stash
+*  streamStretch~
+*  swe~
+*  syslog
+*  tabreceive_mult~
+*  tabwrite_dir~
+*  tclpd
+*  tclprompt-plugin
+*  tdh.lib
+*  tdh.satk
+*  testtools
+*  timbreIDLib
+*  timestretch
+*  timeStretch~
+*  tof
+*  tracker
+*  triggerize-plugin
+*  tune~
+*  ultraleap
+*  unauthorized
+*  unicode
+*  upp
+*  vabs
+*  vanilla
+*  vasp
+*  vbap
+*  vinylcontrol~
+*  websocketserver
+*  windowing
+*  ws
+*  xsample
+*  XXX-deken-test
+*  zconf
+*  zexy
+

@@ -114,6 +114,7 @@ nav:
       - Libraries/abclib.md
       - Libraries/pd-cyclone.md
       - Libraries/pd-else.md
+      - Libraries/timbreIDLib.md
 
     - Compilers: 
         - Web:

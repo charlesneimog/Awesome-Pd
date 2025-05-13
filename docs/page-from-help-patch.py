@@ -3,9 +3,9 @@ import pygit2
 import re
 
 library_github_repo = [
-    'alainbonardi/abclib',
-    'porres/pd-else',
-    'porres/pd-cyclone',
+    # 'alainbonardi/abclib',
+    # 'porres/pd-else',
+    # 'porres/pd-cyclone',
     'wbrent/timbreIDLib',
 ]
 
@@ -22,7 +22,7 @@ for repo in library_github_repo:
         repo = pygit2.Repository(repo_path)
         remote = repo.remotes['origin']
         remote.fetch()
-        repo.checkout('refs/remotes/origin/master')
+        # repo.checkout('refs/remotes/origin/master')
     else:
         print(f'Cloning {repo_name}')
         pygit2.clone_repository(repo_url, repo_path)
@@ -43,8 +43,7 @@ for repo in library_github_repo:
                 text_files = []
                 for line in lines:
                     length = len(line)
-                    #print(length)
-                    if line.startswith('#X text') and len(line) > 80:
+                    if line.startswith('#X text') and len(line) > 20:
                         text_files.append(line)
                 objects_found[objname] = text_files
     
