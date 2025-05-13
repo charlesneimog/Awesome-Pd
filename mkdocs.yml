@@ -1,0 +1,130 @@
+---
+site_name: PureData Library Ecossytem
+docs_dir: docs
+theme:
+  logo: assets/icon.svg
+  language: en
+  name: material
+  features:
+    - navigation.top
+    - navigation.sections
+    - content.code.annotate
+    - content.code.copy
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - search.highlight
+    - search.suggest
+    - toc.integrate
+    - toc.follow
+    - navigation.instant
+    - header.autohide
+  palette:
+    - media: (prefers-color-scheme)
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: white
+      accent: light blue
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      accent: light blue
+      primary: black
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+  icon:
+    annotation: material/plus-circle
+
+markdown_extensions:
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.extra
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.tasklist
+  - pymdownx.magiclink
+  - pymdownx.highlight
+  - abbr
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - footnotes
+  - pymdownx.keys
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+repo_url: https://github.com/charlesneimog/Awesome-Pd
+nav:
+    - index.md
+    - Objects: 
+      - Audio Descriptors:
+        - AI/flucoma.md
+        - Audio Descriptors/timbreIDLib.md
+        - Audio Descriptors/vamp~.md
+
+      - AI: 
+        - AI/nn~.md
+        - AI/neuranet.md
+        - AI/flucoma.md
+      - DAW plugins:
+        # - DAW plugins/plugin~.md
+        - DAW plugins/vstplugin~.md
+      - Filters:
+        - Filters/pd.md
+        - Filters/else.md
+        - Filters/mkmr.md
+      - Score Follower:
+        - Score Follower/antescofo~.md
+        - Score Follower/o.scofo~.md
+        - Score Follower/scofo.md
+
+      # - Languages:
+      #   - Python:
+      #   - JavaScript:
+      #   - Lua:
+      # - Network & Protocols:
+      #   - http:
+      #   - OSC:
+      # - Partial Tracking:
+      - Reverb:
+        - Reverb/else.md
+        - Reverb/freeverb~.md
+      - Spacialization: 
+        - Ambisonics:
+          - Spacialization/abclib.md
+          - Spacialization/ambi~.md
+        - Binaural:
+          - Spacialization/earplug~.md
+          - Spacialization/sofalizer~.md
+      - Person:
+        - Person/bsaylor.md
+      # - Synthesis:
+      #   - Granulador:
+    - Library Objects:
+      - Libraries/abclib.md
+      - Libraries/pd-cyclone.md
+      - Libraries/pd-else.md
+      - Libraries/timbreIDLib.md
+
+    - Compilers: 
+        - Web:
+          - Compilers/pd4web.md
+          - Compilers/hvcc.md
+          - Compilers/webpd.md
+        - C/C++:
+          - Compilers/hvcc.md
+    
+
+
+plugins:
+  - search

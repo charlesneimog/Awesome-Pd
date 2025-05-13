@@ -1,0 +1,65 @@
+# Home
+
+!!! danger "Under development"
+
+
+
+<p align="center">
+  WebSite that tries to list, with descriptiors, music examples, and links, all the objects, externals, and libraries available for PureData.
+</p>
+
+!!! note "Add missing objects or libraries"
+    Please, if you miss any object, external, or library, or you have any suggestion, tell us in this [issue](https://github.com/charlesneimog/Awesome-Pd/issues).
+
+--- 
+
+<h2 align="center"><b>Objects</b></h2>
+
+<div class="grid cards" markdown>
+  - :material-robot: [__AI__](AI/nn~.md) - related objects.
+  - :material-tune: [__DAW Plugins__](DAW plugins/vstplugin~.md) - plugins for DAWs inside Pd.
+  - :material-filter-variant: [__Filters__](Filters/filters~.md) - filter objects.
+  - :material-code-braces: [__Languages__](Languages/programming~.md) - programming languages.
+  - :material-network: [__Network & Protocols__](Network_&_Protocols/network~.md) - network and protocol objects.
+  - :material-pyramid: [__Partial Tracking__](Partial_Tracking/tracking~.md) - partial tracking objects.
+  - :material-replay: [__Reverb__](Reverb/reverb~.md) - reverb objects.
+  - :material-headset: [__Spatialization__](Spatialization/spatial~.md) - ambisonics and binaural objects.
+  - :material-wave: [__Synthesis__](Synthesis/synthesis~.md) - synthesis objects.
+</div>
+
+---
+<h2 align="center"><b>Compilers</b></h2>
+
+<div class="grid cards" markdown>
+  - :material-web: [__hvcc__](Compilers/pd4web.md) - use PureData in the browser.
+  - :material-web: [__pd4web__](Compilers/pd4web.md) - use PureData with externals in the browser.
+  - :material-web: [__webpd__](Compilers/pd4web.md) - simpler way to use PureData on the browser.
+</div>
+
+---
+<h2 align="center"><b>Books</b></h2>
+
+<div class="grid cards" markdown>
+  - :material-book: [__hvcc__](Compilers/pd4web.md) - use PureData in the browser.
+  - :material-book: [__pd4web__](Compilers/pd4web.md) - use PureData with externals in the browser.
+  - :material-book: [__webpd__](Compilers/pd4web.md) - simpler way to use PureData on the browser.
+</div>
+
+---
+
+<script src="https://giscus.app/client.js"
+        data-repo="charlesneimog/Awesome-PD"
+        data-repo-id="R_kgDOLaunFg"
+        data-category="Comments"
+        data-category-id="DIC_kwDOLaunFs4CnXHy"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
