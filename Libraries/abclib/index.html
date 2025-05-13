@@ -1,0 +1,2854 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../Person/bsaylor/">
+      
+      
+        <link rel="next" href="../pd-cyclone/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>abclib - PureData Library Ecossytem</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+  
+  
+  
+  
+  <style>:root{--md-annotation-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M17%2013h-4v4h-2v-4H7v-2h4V7h2v4h4m-5-9A10%2010%200%200%200%202%2012a10%2010%200%200%200%2010%2010%2010%2010%200%200%200%2010-10A10%2010%200%200%200%2012%202%22/%3E%3C/svg%3E');}</style>
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#abclib" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="PureData Library Ecossytem" class="md-header__button md-logo" aria-label="PureData Library Ecossytem" data-md-component="logo">
+      
+  <img src="../../assets/icon.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            PureData Library Ecossytem
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              abclib
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="light-blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="light-blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/charlesneimog/Awesome-Pd" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="PureData Library Ecossytem" class="md-nav__button md-logo" aria-label="PureData Library Ecossytem" data-md-component="logo">
+      
+  <img src="../../assets/icon.svg" alt="logo">
+
+    </a>
+    PureData Library Ecossytem
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/charlesneimog/Awesome-Pd" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Objects
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Objects
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Audio Descriptors
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Audio Descriptors
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../AI/flucoma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    flucoma
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Audio%20Descriptors/timbreIDLib/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    timbreIDLib
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Audio%20Descriptors/vamp~/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    vamp~
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    AI
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            AI
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../AI/nn~/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    nn~
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../AI/neuranet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    neuralnet
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../AI/flucoma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    flucoma
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    DAW plugins
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            DAW plugins
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DAW%20plugins/vstplugin~/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    vstplugin~
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Filters
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            Filters
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Filters/pd/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PureData Objects
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Filters/else/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    else
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Filters/mkmr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    mkmr
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Score Follower
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            Score Follower
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Score%20Follower/antescofo~/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    antescofo~
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Score%20Follower/o.scofo~/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    o.scofo~
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Score%20Follower/scofo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    scofo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Reverb
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            Reverb
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Reverb/else/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    else
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Reverb/freeverb~/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    freeverb~
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_7" id="__nav_2_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Spacialization
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_7">
+            <span class="md-nav__icon md-icon"></span>
+            Spacialization
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_7_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_7_1" id="__nav_2_7_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Ambisonics
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_7_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_7_1">
+            <span class="md-nav__icon md-icon"></span>
+            Ambisonics
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Spacialization/abclib/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    abclib
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Spacialization/ambi~/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ambi~
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_7_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_7_2" id="__nav_2_7_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Binaural
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_7_2">
+            <span class="md-nav__icon md-icon"></span>
+            Binaural
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Spacialization/earplug~/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    earplug~
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Spacialization/sofalizer~/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SOFAlizer~
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_8" id="__nav_2_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Person
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_8">
+            <span class="md-nav__icon md-icon"></span>
+            Person
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Person/bsaylor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    bsaylor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Library Objects
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Library Objects
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    abclib
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    abclib
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#abc_2d_decoder1" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_2d_decoder1~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_2d_encoder1" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_2d_encoder1~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_2d_map1" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_2d_map1~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_2d_mirror1" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_2d_mirror1~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_2d_multiencoder1" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_2d_multiencoder1~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_2d_optim1" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_2d_optim1~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_2d_rotate1" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_2d_rotate1~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_2d_scope1" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_2d_scope1~
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="abc_2d_scope1~">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#outputs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Outputs:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_2d_spatialtrajectories" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_2d_spatialtrajectories~
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="abc_2d_spatialtrajectories~">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#common-parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Common Parameters:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#circular-trajectories" class="md-nav__link">
+    <span class="md-ellipsis">
+      Circular Trajectories:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_2d_stereodecoder1" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_2d_stereodecoder1~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_2d_stereoencoder1" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_2d_stereoencoder1~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_2d_synfxdecorrelation1" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_2d_synfxdecorrelation1~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_2d_synfxdelay1" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_2d_synfxdelay1~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_2d_synfxgrain1" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_2d_synfxgrain1~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_2d_synfxringmod1" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_2d_synfxringmod1~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_2d_vbap2" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_2d_vbap2~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_2d_wider1" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_2d_wider1~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_addsynth1" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_addsynth1~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_ambi_scope" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_ambi_scope
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_ambi_scope_m" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_ambi_scope_m
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_amp_scope" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_amp_scope
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_busmult1" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_busmult1~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_busplus1" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_busplus1~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_busselect1" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_busselect1~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_cartopol" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_cartopol~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_chopan1" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_chopan1~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_cosrandenv1" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_cosrandenv1~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_delay1" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_delay1~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_delaychain2" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_delaychain2~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_drops" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_drops~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_env_noise" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_env_noise~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_envfollower" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_envfollower~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_flanger1" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_flanger1~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_freqshift1" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_freqshift1~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_gain" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_gain
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_gain1" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_gain1~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_generator" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_generator~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_gotoevent" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_gotoevent
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_grain1" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_grain1~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_harmo1" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_harmo1~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_jupiterbank2" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_jupiterbank2~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_jupiterbank" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_jupiterbank~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_linedrive" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_linedrive~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_linrandenv1" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_linrandenv1~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_matrix2" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_matrix2~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_mult2pi" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_mult2pi~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_multinoise1" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_multinoise1~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_musdur" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_musdur
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_peakamp" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_peakamp~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_phasor2pi" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_phasor2pi~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_poltocar" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_poltocar~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_puckettespaf" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_puckettespaf~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_quadriout" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_quadriout
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_rev4" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_rev4~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_rissetsbell" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_rissetsbell~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_simplefmburst" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_simplefmburst
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_slider2map" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_slider2map
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_sounddetector" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_sounddetector~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_spectrogram" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_spectrogram
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_stereoout" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_stereoout
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_subtractsynth1" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_subtractsynth1~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_synthesizers" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_synthesizers~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abc_xy_scope" class="md-nav__link">
+    <span class="md-ellipsis">
+      abc_xy_scope
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pd-cyclone/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    pd-cyclone
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pd-else/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    pd-else
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../timbreIDLib/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    timbreIDLib
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Compilers
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Compilers
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Web
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            Web
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Compilers/pd4web/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    pd4web
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Compilers/hvcc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hvcc
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Compilers/webpd/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    webpd
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    C/C++
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            C/C++
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Compilers/hvcc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hvcc
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="abclib">abclib</h1>
+<p>The abclib library also provides utility objects for mixed music, including chowning-like panners, matrices, envelopes, an attack and release detector, and various synthesizers (additive, subtractive, sound coat, sound grain, Risset's bell).</p>
+<p>Teaching mixed music at Paris 8 University influenced many implementation choices, considering practical requirements for composers, allowing them to test their patches in multichannel academic studios or at home in simple stereo setups.</p>
+<p>CICM (Centre de recherches Informatique et Création Musicale) - University Paris 8</p>
+<p>The abclib library represents 20 years of research, teaching, and creation in mixed music using the Faust language. It extends the HOA library developed by CICM between 2012 and 2015, which provided a robust framework for ambisonics: <a href="http://hoalibrary.mshparisnord.fr">HOA Library</a>.</p>
+<p>abclib builds on HOA, offering a wide range of processes written in Faust and implemented at various ambisonic orders (from 1 to 7, which means from 3 to 15 parallel instances). It also emphasizes multi-channel sound processing with dimensions ranging from 1 to 16 parallel instances. The use of Faust ensures software durability and interoperability between Mac and Windows systems, as well as Max and PureData software. Faust files are available on a <a href="https://github.com/alainbonardi/abclib/">GitHub repository</a>.</p>
+<p>The Faust processes are compiled into Max or PureData objects. Help patches are provided, along with overview patches or graphic abstractions based on jitter (in Max) or gem libraries (in PureData). In ambisonics, 2D objects are available, including general objects (encoders, decoders, optimizers, scopes), geometry objects (maps, mirrors, rotates, specific trajectory generators), and a set of spatial sound processes (decorrelators, delays, granulators, ring modulators) in both 'syn' and 'fx' modes. The names of the ambisonic objects in 2D use '2d' as a prefix: for instance, <code>abc_2d_decoder3~</code> is an ambisonic decoder in 2D at order 3. Multi-channel sound process objects do not use the '2d' prefix: for instance, <code>abc_delays16</code> implements a set of 16 parallel delay lines. Multi-channel sound processors include flangers, parallel and sequential delays, frequency shifters, harmonizers, granulators, and reverberations.</p>
+<h3 id="abc_2d_decoder1"><code>abc_2d_decoder1~</code></h3>
+<p>The <code>abc_2d_decoder1~</code> object (and its variants) decode ambisonic spatial components to loudspeaker sets. These decoders were developed using the Faust language and have fixed configurations based on ambisonic order:  </p>
+<ul>
+<li><strong>Order 1</strong> → 4 loudspeakers  </li>
+<li><strong>Order 2</strong> → 6 loudspeakers  </li>
+<li><strong>Order 3</strong> → 8 loudspeakers  </li>
+<li><strong>Order 7</strong> → 16 loudspeakers  </li>
+</ul>
+<p>Additional objects allow decoding for any number of loudspeakers between <strong>3 and 16</strong> at any order. Examples:<br />
+- <code>abc_2d_decoder1_8~</code> → Order 1 with 8 loudspeakers<br />
+- <code>abc_2d_decoder3_11~</code> → Order 3 with 11 loudspeakers<br />
+- <code>abc_2d_decoder1_4~</code> → Equivalent to <code>abc_2d_decoder1~</code>  </p>
+<h4> Parameters: </h4>
+<ul>
+<li><strong>angularoffset</strong> → Angular shift of the loudspeakers (in degrees)  </li>
+<li><strong>directangles</strong> → 1 for anticlockwise (as in ambisonic norm), 0 for clockwise  </li>
+<li><strong>a_0, a_1, ..., a_n</strong> → Loudspeaker angles in degrees, allowing for irregular setups  </li>
+<li><strong>stereo</strong> → 1 for stereo decoding, 0 for ambisonic decoding  </li>
+</ul>
+<p>A simple representation of the sound field can be visualized using <code>cyclone/scope~</code>.  </p>
+<hr />
+<h3 id="abc_2d_encoder1"><code>abc_2d_encoder1~</code></h3>
+<p>The <code>abc_2d_encoder1~</code> object (and its variants) generate sound sources either as rotating at a set speed or as static at a defined angle on the ambisonic circle.  </p>
+<h4> Parameters: </h4>
+
+<ul>
+<li><strong>angle</strong> → Default static angle (in degrees) when speed is zero  </li>
+<li><strong>returntime</strong> → Transition time (in ms) between the fixed angle and the dynamic position when speed &gt; 0  </li>
+</ul>
+<h3 id="abc_2d_map1"><code>abc_2d_map1~</code></h3>
+<p>The <code>abc_2d_map1_1~</code> to <code>abc_2d_map7_8~</code> objects receive three input signals:<br />
+1. The source to be spatialized<br />
+2. The radius (distance of the source from the center of the scene)<br />
+3. The angle of the source's position (in radians)  </p>
+<p>These objects handle multiple signal mappings:<br />
+- <code>abc_2d_map3_4~</code> → Manages 4 sources at ambisonic order 3<br />
+- <code>abc_2d_mapN_1~</code> is equivalent to <code>abc_2d_mapN~</code> when there is only one source (e.g., <code>abc_2d_map3_1~</code> = <code>abc_2d_map3~</code>)  </p>
+<h3 id="abc_2d_mirror1"><code>abc_2d_mirror1~</code></h3>
+<p>The <code>abc_2d_mirror1~</code>, <code>abc_2d_mirror2~</code>, etc., objects apply left/right symmetry to ambisonic spatial components by inverting certain components based on a <strong>factor</strong> parameter:<br />
+- <strong>1</strong> → Original sound field<br />
+- <strong>0</strong> → Original and mirrored sound fields combined<br />
+- <strong>-1</strong> → Only the mirrored sound field  </p>
+<p>Here’s the cleaned-up and structured version of the documentation:</p>
+<h3 id="abc_2d_multiencoder1"><code>abc_2d_multiencoder1~</code></h3>
+<p>The <code>abc_2d_multiencoderN_S~</code> objects combine multiple encoders within a single unit.<br />
+- <strong>N</strong> → Ambisonic order (1 to 7)<br />
+- <strong>S</strong> → Number of sources (up to 8)  </p>
+<p>For example, at ambisonic <strong>order 3</strong>, <code>abc_2d_multiencoder3_4~</code> encodes <strong>4 monophonic sources</strong>.  </p>
+<dl>
+<dt><h4> Parameters </h4></dt>
+<dd>
+<ul>
+<li><strong>s00, s01, ...</strong> → Source speeds (turns per second)  </li>
+<li><strong>a00, a01, ...</strong> → Fixed angles (degrees) when speed = 0  </li>
+<li><strong>returntime (it)</strong> → Transition time (ms) between static and dynamic positions  </li>
+</ul>
+</dd>
+</dl>
+<hr />
+<h3 id="abc_2d_optim1"><code>abc_2d_optim1~</code></h3>
+<p>The <code>abc_2d_optim1~</code>, <code>abc_2d_optim2~</code>, etc., objects optimize the sound field using <strong>three optimization levels</strong> based on the <code>optimtype</code> parameter:<br />
+- <strong>1 = maxRe</strong> → Best for audiences <strong>confined to the center</strong> of the circle<br />
+- <strong>2 = inPhase</strong> → Best when the audience <strong>covers the entire circle</strong>  </p>
+<p>These optimizations improve the listening experience when the audience is <strong>not centered</strong> in the ambisonic space.  </p>
+<h3 id="abc_2d_rotate1"><code>abc_2d_rotate1~</code></h3>
+<p>The <code>abc_2d_rotate1~</code>, <code>abc_2d_rotate2~</code>, etc., objects enable <strong>rotation of the entire ambisonic sound field</strong>:<br />
+- <strong>Continuous rotation</strong> → Controlled by <code>speed</code> (tours per second)<br />
+- <strong>Fixed rotation</strong> → Controlled by <code>angle</code> (degrees), when <code>speed = 0</code><br />
+- <strong>returntime</strong> → Transition time (ms) between fixed and continuous rotation  </p>
+<p>Unlike encoding, which rotates <strong>individual sources</strong>, <code>abc_2d_rotateN~</code> rotates the <strong>entire sound field</strong>.<br />
+Here's the cleaned-up and structured version of the documentation:</p>
+<hr />
+<h3 id="abc_2d_scope1"><code>abc_2d_scope1~</code></h3>
+<p>The <code>abc_2d_scope1~</code>, <code>abc_2d_scope2~</code>, etc., objects visualize the ambisonic sound field using <code>cyclone/scope~</code>.  </p>
+<h4 id="outputs">Outputs:</h4>
+<ol>
+<li><strong>X signal</strong>  </li>
+<li><strong>Y signal</strong>  </li>
+<li><strong>Sign of the spatial function</strong> (positive → red, negative → blue)  </li>
+</ol>
+<hr />
+<h3 id="abc_2d_spatialtrajectories"><code>abc_2d_spatialtrajectories~</code></h3>
+<p>These objects generate <strong>2D movement trajectories</strong> in Cartesian coordinates:<br />
+- <code>abc_2d_squaretrajectory~</code> → Square trajectory<br />
+- <code>abc_2d_ztrajectory~</code> → Z-shaped trajectory<br />
+- <code>abc_2d_squareandztrajectory~</code> → Interpolation between square and Z trajectories<br />
+- <code>abc_2d_randomtrajectory~</code> → Random trajectory  </p>
+<h4 id="common-parameters">Common Parameters:</h4>
+<ul>
+<li><strong>freq</strong> → Frequency of the trajectory (cycles per second)  </li>
+<li><strong>size</strong> → Size of the trajectory  </li>
+</ul>
+<p><strong>Additional Parameter for <code>abc_2d_squareandztrajectory~</code></strong>:<br />
+- <strong>crossfade</strong> → Blends between square and Z trajectories  </p>
+<h4 id="circular-trajectories">Circular Trajectories:</h4>
+<ul>
+<li><code>abc_2d_polarvariablecircle~</code> generates a circular trajectory (radius = 1) in <strong>polar coordinates</strong>.  </li>
+<li><strong>ampRho, freqRho</strong> → Control sinusoidal variation of the radius  </li>
+<li><strong>ampTheta, freqTheta</strong> → Control sinusoidal variation of the angle  </li>
+<li><strong>rotSpeed</strong> → Rotation speed (turns per second)  </li>
+</ul>
+<hr />
+<h3 id="abc_2d_stereodecoder1"><code>abc_2d_stereodecoder1~</code></h3>
+<p>The <code>abc_2d_stereodecoder1~</code>, <code>abc_2d_stereodecoder2~</code>, etc., objects <strong>decode ambisonic spatial components to stereo</strong>.  </p>
+<dl>
+<dt><h4> Parameters </h4></dt>
+<dd>
+<ul>
+<li><strong>gain</strong> → Output gain (dB)  </li>
+<li><strong>directangles</strong> → 1 for <strong>anticlockwise</strong> (ambisonic norm), 0 for <strong>clockwise</strong>  </li>
+</ul>
+</dd>
+</dl>
+<hr />
+<h3 id="abc_2d_stereoencoder1"><code>abc_2d_stereoencoder1~</code></h3>
+<p>The <code>abc_2d_stereoencoder1~</code>, <code>abc_2d_stereoencoder2~</code>, etc., objects <strong>encode stereo sources into ambisonics</strong> using <strong>two encoders</strong>.  </p>
+<h4> Parameter: </h4>
+<p>- <strong>Opening angle</strong> → Initialized to <strong>60 degrees</strong>  </p>
+<hr />
+<h3 id="abc_2d_synfxdecorrelation1"><code>abc_2d_synfxdecorrelation1~</code></h3>
+<p>The <code>abc_2d_syn_decorrelation1~</code>, <code>abc_2d_syn_decorrelation2~</code>, etc., objects <strong>generate spatially decorrelated ambisonic components from a mono signal</strong>.  </p>
+<p>The <code>abc_2d_fx_decorrelated1~</code>, <code>abc_2d_fx_decorrelated2~</code>, etc., <strong>apply decorrelation</strong> to pre-existing ambisonic spatial components (from encoders, maps, etc.).  </p>
+<p>If ambisonic <strong>order = N</strong>, the number of spatial components <strong>P = 2N + 1</strong>.<br />
+Each spatial component is delayed, and the <strong>P delay lines</strong> are controlled by the <strong>factor</strong> parameter (0 to 1).  </p>
+<dl>
+<dt><h4> Parameters </h4></dt>
+<dd>
+<ul>
+<li><strong>delay</strong> → Maximum delay in samples (default <strong>48,000</strong>, min <strong>10</strong>, max <strong>262,144</strong> ≈ <strong>5.46 sec @ 48 kHz</strong>)  </li>
+<li><strong>factor</strong> → Controls how much delay is applied (0 to 1)  </li>
+<li><strong>functiontype</strong> → Distribution mode for delay times (values: <strong>0 to 21</strong>)  </li>
+</ul>
+</dd>
+</dl>
+<h2 id="abc_2d_synfxdelay1"><code>abc_2d_synfxdelay1~</code></h2>
+<p>The <code>abc_2d_syn_delay1~</code>, <code>abc_2d_syn_delay2~</code>, etc., objects generate spatial delayed components in ambisonic from one mono signal. The <code>abc_2d_fx_delay1~</code>, <code>abc_2d_fx_delay2~</code>, etc., objects apply delays to spatial components already created by encoders or maps. </p>
+<p>If ambisonic order is N, the number of spatial components is P = 2N + 1. The P delays are equally spread between <code>deltime/N</code> and <code>deltime</code>, which is the maximum delay in milliseconds (H0 → <code>deltime/N</code>, H-1 &amp; H1 → <code>2*deltime/N</code>, etc., H-N &amp; HN → <code>deltime</code>).</p>
+<h4> Parameters </h4>
+<ul>
+<li><strong>deltime</strong>: Maximum delay in milliseconds of the upper spatial component (default 100, min 2, max 10000)</li>
+<li><strong>window</strong>: Duration in milliseconds of the interpolation between two values of delay without any click (default 400, min 10, max 1000)</li>
+<li><strong>feedback</strong>: Provides a possibility of reinjection on the P delay lines (between 0 and 1)</li>
+</ul>
+<h2 id="abc_2d_synfxgrain1"><code>abc_2d_synfxgrain1~</code></h2>
+<p>The <code>abc_2d_syn_grain1~</code>, <code>abc_2d_syn_grain2~</code>, etc., objects generate spatial granular components in ambisonic from one mono signal. The <code>abc_2d_fx_grain1~</code>, <code>abc_2d_fx_grain2~</code>, etc., objects apply granulators to spatial components already created by encoders or maps.</p>
+<p>If ambisonic order is N, the number of spatial components is P = 2N + 1. For these P granulators, grain sizes and maximum delays are equally spread. The grain sizes decrease from GS (H0) to GS/(N+1) (H-N &amp; HN) through GS<em>N/(N+1) (H-1 &amp; H1), etc. The maximum delays increase from 0 (H0) to D</em>N/(N+1) (H-N &amp; HN) through D/(N+1) (H-1 &amp; H1).</p>
+<h4> Parameters </h4>
+<ul>
+<li><strong>GS (grain size)</strong>: Grain size in milliseconds (default 400, min 2, max 3000)</li>
+<li><strong>D (deltime)</strong>: Delay in milliseconds (default 100, min 2, max 5000)</li>
+<li><strong>feedback</strong>: Provides a possibility of reinjection on the P delay lines (between 0 and 1)</li>
+</ul>
+<h2 id="abc_2d_synfxringmod1"><code>abc_2d_synfxringmod1~</code></h2>
+<p>The <code>abc_2d_syn_ringmod1~</code>, <code>abc_2d_syn_ringmod2~</code>, etc., objects generate spatial components in ambisonics from a mono signal using ring modulators. The <code>abc_2d_fx_ringmod1~</code>, <code>abc_2d_fx_ringmod2~</code>, etc., objects apply ring modulation to pre-existing spatial components.</p>
+<p>If the ambisonic order is N, the number of spatial components is P = 2N + 1. The P ring modulators are driven by a <code>factor</code> parameter (0 to 1). The ith ring modulation frequency is (i+1)*f0/P. The <code>factor</code> parameter determines whether ring modulation is applied or the direct sound is output.</p>
+<h4> Parameters </h4>
+<ul>
+<li><strong>factor</strong>: Controls the ring modulators (0 to 1)</li>
+<li><strong>functiontype</strong>: Sets the distribution used to spread delay time between spatial components (0 to 21)</li>
+<li><strong>f0</strong>: Maximum modulation frequency of the ring modulators (Hz, default 10, min 0, max 10000)</li>
+</ul>
+<h2 id="abc_2d_vbap2"><code>abc_2d_vbap2~</code></h2>
+<p>The <code>abc_vbap2~</code>, <code>abc_vbap3~</code>, etc., objects implement the VBAP algorithm by Ville Pulkki for various numbers of loudspeakers arranged in a circle with potentially irregular angles.</p>
+<h4> Parameters </h4>
+<ul>
+<li><strong>a-0, a-1, a-2, ...</strong>: Angles of the loudspeakers (degrees)</li>
+</ul>
+<h2 id="abc_2d_wider1"><code>abc_2d_wider1~</code></h2>
+<p>The <code>abc_2d_wider1~</code>, <code>abc_2d_wider2~</code>, etc., objects widen the diffusion of a localized sound. The order-dependent signals are weighted logarithmically for linear changes.</p>
+<h2 id="abc_addsynth1"><code>abc_addsynth1~</code></h2>
+<p>The <code>abc_addsynth1~</code>, <code>abc_addsynth2~</code>, etc., objects enable additive synthesis by combining elementary sound modules. Each module includes two oscillators that start at the same frequency but can be tuned finely using <code>fbeat</code> frequencies.</p>
+<h4> Parameters </h4>
+<ul>
+<li><strong>f0</strong>: General fundamental frequency</li>
+<li><strong>fmult00, fmult01, ...</strong>: Multipliers of f0 for partial frequencies</li>
+<li><strong>amp00, amp01, ...</strong>: Amplitudes of the partials (dB)</li>
+<li><strong>fbeat</strong>: Frequency increment of the second oscillator</li>
+</ul>
+<h2 id="abc_ambi_scope"><code>abc_ambi_scope</code></h2>
+<p>The <code>abc_ambi_scope1_m</code>, <code>abc_ambi_scope2_m</code>, ..., <code>abc_ambiscope7_m</code> objects include the necessary <code>abc_2d_scope1_m</code>, <code>abc_2d_scope2_m</code>, ..., <code>abc_2d_scope7_m</code> objects to enable direct visualization of the ambisonic sound field at the corresponding ambisonic order (1 to 7).</p>
+<h4> Parameters </h4>
+<ul>
+<li><strong>gridcolor, bgcolor, fgcolor, ...</strong>: Color parameters from the <code>scope~</code> object in the cyclone library</li>
+<li><strong>refresh time</strong>: Refresh time in milliseconds for the embedded <code>abc_2d_scope[N]</code> objects</li>
+</ul>
+<h2 id="abc_ambi_scope_m"><code>abc_ambi_scope_m</code></h2>
+<p>The <code>abc_ambi_scope_m</code> objects (<code>abc_ambi_scope1_m</code>, <code>abc_ambi_scope2_m</code>, ..., <code>abc_ambi_scope7_m</code>) include the necessary <code>abc_2d_scope1_m</code>, <code>abc_2d_scope2_m</code>, ..., <code>abc_2d_scope7_m</code> objects to enable direct visualization of the ambisonic sound field at the corresponding ambisonic order (1 to 7).</p>
+<h4> Parameters </h4>
+<ul>
+<li><strong>gridcolor, bgcolor, fgcolor, etc.</strong>: Color parameters from the <code>scope~</code> object in the cyclone library.</li>
+<li><strong>refresh time</strong>: Refresh time in milliseconds for the embedded <code>abc_2d_scope[N]</code> objects.</li>
+</ul>
+<h2 id="abc_amp_scope"><code>abc_amp_scope</code></h2>
+<p>The <code>abc_amp_scope</code> object offers a visual representation of the amplitude of a signal over time. The horizontal axis represents time in samples, and the vertical axis represents the amplitude of the signal.</p>
+<h4> Parameters </h4>
+<ul>
+<li><strong>ticktime</strong>: Duration in milliseconds between two triggerings of the display from left to right.</li>
+</ul>
+<h2 id="abc_busmult1"><code>abc_busmult1~</code></h2>
+<p>The <code>abc_busmult1~</code>, <code>abc_busmult2~</code>, ... objects enable multichannel bus multiplications (from 1 signal to 16 signals). Two buses are connected to the object, the left one and the right one.</p>
+<h2 id="abc_busplus1"><code>abc_busplus1~</code></h2>
+<p>The <code>abc_busplus1~</code>, <code>abc_busplus2~</code>, ... objects enable multichannel bus additions (from 1 signal to 16 signals). Two buses are connected to the object, the left one and the right one.</p>
+<h2 id="abc_busselect1"><code>abc_busselect1~</code></h2>
+<p>The <code>abc_busselect1~</code>, <code>abc_busselect2~</code>, ... objects enable multichannel bus selections (from 1 signal to 15 signals). Two buses are connected to the object, the left one and the right one.</p>
+<h4> Parameters </h4>
+<ul>
+<li><strong>leftOrRight</strong>: Selects between the left or the right bus.</li>
+<li><strong>ramp</strong>: Sets a crossfade duration when switching between the two buses.</li>
+</ul>
+<h2 id="abc_cartopol"><code>abc_cartopol~</code></h2>
+<p>The <code>abc_cartopol~</code> object converts Cartesian coordinates to polar coordinates (both as signals). The angle is in radians.</p>
+<h2 id="abc_chopan1"><code>abc_chopan1~</code></h2>
+<p>The <code>abc_chopan1~</code>, <code>abc_chopan2~</code>, ... objects enable multichannel stereo panning using the Chowning model to maintain constant acoustic energy and avoid a loss in the center of the scene.</p>
+<h4> Parameters </h4>
+<ul>
+<li><strong>phi0 angle</strong>: Sets the opening angle of the stereo in degrees.</li>
+<li><strong>incAngle</strong>: Controls the incident angle (in degrees) of the incoming sound (for <code>abc_chopan1~</code> only).</li>
+</ul>
+<h2 id="abc_cosrandenv1"><code>abc_cosrandenv1~</code></h2>
+<p>The <code>abc_cosrandenv1~</code>, <code>abc_cosrandenv2~</code>, ... objects provide multichannel envelopes based on the cosine curve.</p>
+<h4> Parameters </h4>
+<ul>
+<li><strong>rarefaction</strong>: A probability distribution applied to each channel, providing a factor that is 1 or 0 to apply a statistical duration of silence. A rarefaction of 0.3 means 30% of the envelopes are muted and 70% are played. When rarefaction is 0, the envelope is constantly played; when it is 1, no sound is played at all (maximum rarefaction).</li>
+</ul>
+<h2 id="abc_delay1"><code>abc_delay1~</code></h2>
+<p>The <code>abc_delay1~</code>, <code>abc_delay2~</code>, etc., objects provide multiple parallel delay lines with reinjection. Each line is a double overlapped delay enabling duration changes without clicking at a maximum speed set by the <code>updatefreq</code> parameter, initialized at 30 Hz. Durations are given as musical durations: 1 stands for a quarter note, 0.5 for an eighth note, 0.25 for a sixteenth note, etc.</p>
+<h4> Parameters </h4>
+<ul>
+<li><strong>dur-0, dur-1, dur-2, ...</strong>: Musical durations automatically converted to milliseconds based on the <code>tempo</code> parameter (in bpm).</li>
+<li><strong>fdbk-0, fdbk-1, fdbk-2, ...</strong>: Individual feedback for each delay line (between 0 and 1).</li>
+<li><strong>gain-0, gain-1, gain-2, ...</strong>: Individual gain for each delay line (in dB, between -127 and +18).</li>
+</ul>
+<h2 id="abc_delaychain2"><code>abc_delaychain2~</code></h2>
+<p>The <code>abc_delaychain2~</code>, <code>abc_delaychain3~</code>, etc., objects provide chains of delays where the output of delay #k is internally connected to the input of delay #k+1, with a global reinjection. Each line is a double overlapped delay enabling duration changes without clicking at a maximum speed set by the <code>updatefreq</code> parameter, initialized at 30 Hz. Durations are given as musical durations: 1 stands for a quarter note, 0.5 for an eighth note, 0.25 for a sixteenth note, etc.</p>
+<h4> Parameters </h4>
+<ul>
+<li><strong>dur-0, dur-1, dur-2, ...</strong>: Musical durations automatically converted to milliseconds based on the <code>tempo</code> parameter (in bpm).</li>
+<li><strong>gain-0, gain-1, gain-2, ...</strong>: Individual gain for each delay line (in dB, between -127 and +18).</li>
+<li><strong>fdbk</strong>: Feedback parameter to loop the rhythmic structure.</li>
+</ul>
+<h2 id="abc_drops"><code>abc_drops~</code></h2>
+<p>The <code>abc_drops~</code> object simulates raindrops with a periodic exciter that enters a resonant filter whose frequency varies randomly at a random speed.</p>
+<h4> Parameters </h4>
+<ul>
+<li><strong>dropperiod</strong>: Period of the drop (in milliseconds).</li>
+<li><strong>dropthinness</strong>: Thinness of the impulse entering the resonant filter (higher values mean thinner impulses).</li>
+<li><strong>qf</strong>: Quality factor of the resonant filter.</li>
+<li><strong>limiter</strong>: Use of the limiter at the output (1 for yes, 0 for no).</li>
+<li><strong>avgfreq</strong>: Average frequency of the randomization of drop frequencies (in Hz).</li>
+<li><strong>attackdur</strong>: Duration of the attack of the envelope (in milliseconds).</li>
+</ul>
+<h2 id="abc_env_noise"><code>abc_env_noise~</code></h2>
+<p>The <code>abc_env_noise~</code> object is a noise generator enveloped with a positive cosine shape (Hanning window). It uses rarefaction.</p>
+<h2 id="abc_envfollower"><code>abc_envfollower~</code></h2>
+<p>The <code>abc_envfollower~</code> object tracks the envelope of an incoming signal.</p>
+<h4> Parameters </h4>
+<ul>
+<li><strong>attack</strong>: Attack duration (in seconds, initial value: 0.001 sec).</li>
+<li><strong>release</strong>: Release duration (in seconds, initial value: 0.01 sec).</li>
+</ul>
+<h2 id="abc_flanger1"><code>abc_flanger1~</code></h2>
+<p>The <code>abc_flanger1~</code>, <code>abc_flanger2~</code>, etc., objects provide classic multichannel flangers with sinusoidal delay.</p>
+<h4> Parameters </h4>
+<ul>
+<li><strong>rate</strong>: Frequency of the sinusoid varying the delay duration.</li>
+<li><strong>depth</strong>: Maximum delay duration in milliseconds.</li>
+<li><strong>offset</strong>: Shifts the variation of the delay duration between <code>offset</code> and <code>offset + depth</code>.</li>
+<li><strong>spread</strong>: Controls spatial spreading (0 = mono, 1 = maximum spatial split).</li>
+</ul>
+<h2 id="abc_freqshift1"><code>abc_freqshift1~</code></h2>
+<p>The <code>abc_freqshift1~</code>, <code>abc_freqshift2~</code>, etc., objects provide parallel multiple frequency shifters. Each line is a frequency shifter in Direct Form 2 provided by a quadruple biquad.</p>
+<h4> Parameters </h4>
+<ul>
+<li><strong>fr-0, fr-1, ...</strong>: Shifting frequencies in Hz (positive or negative).</li>
+<li><strong>gain-0, gain-1, ...</strong>: Individual gain in dB (between -127 and +18).</li>
+</ul>
+<h2 id="abc_gain"><code>abc_gain</code></h2>
+<p>The <code>abc_gaincontrol</code> abstraction outputs a message 'gain' followed by an amplitude value in dB (from -127 to +18 dB). It enables control of <code>abc_gain</code> and <code>abc_decoder</code> objects.</p>
+<h2 id="abc_gain1"><code>abc_gain1~</code></h2>
+<p>The <code>abc_gain1~</code>, <code>abc_gain2~</code>, etc., objects provide multichannel gain controls in dB.</p>
+<h2 id="abc_generator"><code>abc_generator~</code></h2>
+<p>The <code>abc_generator~</code> object enables the generation of various sounds (noise, sinus, phasor). Generated sounds are pulsed at a certain frequency (pulse rate) and have a pulse ratio (or duty: ratio between sound and silence).</p>
+<h2 id="abc_gotoevent"><code>abc_gotoevent</code></h2>
+<p>The <code>abc_gotoevent</code> object is used to jump to a specific event in a sequence.</p>
+<h2 id="abc_grain1"><code>abc_grain1~</code></h2>
+<p>The <code>abc_grain1~</code>, <code>abc_grain2~</code>, etc., objects are parallel granular processes.</p>
+<h4> Parameters </h4>
+<ul>
+<li><strong>gs-0, gs-1, gs-2, ...</strong>: Grain sizes in milliseconds for the granulators.</li>
+<li><strong>dt-0, dt-1, dt-2, ...</strong>: Maximum delays in milliseconds for the granulators.</li>
+<li><strong>fdbk-0, fdbk-1, fdbk-2, ...</strong>: Feedback levels for the granulators (0 to 1).</li>
+<li><strong>rrf-0, rrf-1, rrf-2, ...</strong>: Rarefaction levels for the granulators (0 to 1, where 0 means no rarefaction and 1 means total rarefaction).</li>
+</ul>
+<h2 id="abc_harmo1"><code>abc_harmo1~</code></h2>
+<p>The <code>abc_harmo1~</code>, <code>abc_harmo2~</code>, etc., objects provide parallel multiple harmonizers using the Doppler effect.</p>
+<h4> Parameters </h4>
+<ul>
+<li><strong>gain-0, gain-1, gain-2, ...</strong>: Individual gains in dB (between -127 and +18).</li>
+<li><strong>trans-0, trans-1, trans-2, ...</strong>: Transposition coefficients in midicents (e.g., 100 for an upper semitone, 200 for an upper tone, -400 for a lower major third).</li>
+</ul>
+<h2 id="abc_jupiterbank2"><code>abc_jupiterbank2~</code></h2>
+<p>The <code>abc_jupiterbank2~</code> object is inspired by Philippe Manoury's bank of 14 oscillators used in "Jupiter" for flute and live electronics. It generates spectra that can evolve from harmonic to inharmonic content. Each partial has a separate output.</p>
+<h4> Parameters </h4>
+<ul>
+<li><strong>k</strong>: Constant determining the harmonic/inharmonic behavior.</li>
+<li><strong>f0</strong>: Fundamental frequency.</li>
+<li><strong>osc2filter</strong>: Crossfade between oscillators and filters (0 for oscillators, 1 for filters).</li>
+<li><strong>resg</strong>: Gain of the filters.</li>
+<li><strong>resq</strong>: Quality factor of the filters.</li>
+<li><strong>fa</strong>: Factor controlling the amplitudes of the 14 oscillators.</li>
+<li><strong>transfer function</strong>: Maps each frequency multiplied by <code>fa</code> to a level between 0 and 127.</li>
+</ul>
+<p>The Faust implementation is inspired by Maxence Larrieu's article: <a href="https://hal.archives-ouvertes.fr/hal-02135597">Maxence Larrieu's article</a>.</p>
+<h2 id="abc_jupiterbank"><code>abc_jupiterbank~</code></h2>
+<p>The <code>abc_jupiterbank~</code> object is inspired by Philippe Manoury's bank of 14 oscillators used in "Jupiter" for flute and live electronics. It generates spectra that can evolve from harmonic to inharmonic content. Each partial has a separate output.</p>
+<h4> Parameters </h4>
+<ul>
+<li><strong>k</strong>: Constant determining the harmonic/inharmonic behavior.</li>
+<li><strong>f0</strong>: Fundamental frequency.</li>
+<li><strong>osc2filter</strong>: Crossfade between oscillators and filters (0 for oscillators, 1 for filters).</li>
+<li><strong>resg</strong>: Gain of the filters.</li>
+<li><strong>resq</strong>: Quality factor of the filters.</li>
+</ul>
+<p>The 14 frequencies (i from 0 to 13) are given by the formula: ( f_i = (k+i) \times f0 ). When <code>k</code> is 1, the spectrum is harmonic (e.g., ( f0, 2 \times f0, \ldots, 14 \times f0 )). When <code>k</code> is not an integer, the spectrum is inharmonic. The crossfade between oscillators and filters is controlled by <code>osc2filter</code>.</p>
+<p>The Faust implementation is inspired by Maxence Larrieu's article: <a href="https://hal.archives-ouvertes.fr/hal-02135597">Maxence Larrieu's article</a>.</p>
+<h2 id="abc_linedrive"><code>abc_linedrive~</code></h2>
+<p>The <code>abc_linedrive~</code> object converts a signal between 0 and 127 to a signal between 0 and <code>outputmax</code> following an exponential profile defined by the <code>expcurve</code> parameter.</p>
+<h2 id="abc_linrandenv1"><code>abc_linrandenv1~</code></h2>
+<p>The <code>abc_linrandenv1~</code>, <code>abc_linrandenv2~</code>, etc., objects provide multichannel envelopes based on linear segments.</p>
+<p>A probability distribution is applied to each channel, providing a factor of 1 or 0 for each envelope, enabling a statistical duration of silence. For example, if the shortening is 0.3, it means 30% of the envelopes are muted (multiplied by 0) and 70% are played (multiplied by 1). When the shortening is 0, the envelope is constantly played, whereas when it is 1, no sound is played at all (maximum shortening).</p>
+<h2 id="abc_matrix2"><code>abc_matrix2~</code></h2>
+<p>The <code>abc_matrix2~</code>, <code>abc_matrix3~</code>, etc., objects provide signal matrices with coefficients ranging from -1 to 1. Note that there is no <code>abc_matrix1~</code>.</p>
+<p>The <code>ramp</code> parameter sets the crossfade duration (in milliseconds) between the current matrix status and the next.</p>
+<h2 id="abc_mult2pi"><code>abc_mult2pi~</code></h2>
+<p>The <code>abc_mult2pi~</code> object multiplies the incoming signal by 2π. Therefore, a <code>phasor~</code> signal between 0 and 1 becomes an angle between 0 and 2π.</p>
+<h2 id="abc_multinoise1"><code>abc_multinoise1~</code></h2>
+<p>The <code>abc_multinoise1~</code>, <code>abc_multinoise2~</code>, etc., objects produce multiple decorrelated white noise signals.</p>
+<h2 id="abc_musdur"><code>abc_musdur</code></h2>
+<p>The <code>abc_musdur</code> object provides a selection of musical durations:
+- <strong>whole</strong> = 4
+- <strong>half</strong> = 2
+- <strong>quarter</strong> = 1
+- <strong>8th</strong> = 0.5
+- <strong>16th</strong> = 0.25
+- <strong>32nd</strong> = 0.125
+- <strong>triplet</strong> = 0.333</p>
+<h2 id="abc_peakamp"><code>abc_peakamp~</code></h2>
+<p>The <code>abc_peakamp~</code> object computes the highest absolute value of the incoming signal over a duration defined by the <code>period</code> attribute in milliseconds.</p>
+<h4> Parameters </h4>
+<ul>
+<li><strong>period</strong>: Sets the measurement window for the peak amplitude (in milliseconds).</li>
+</ul>
+<h2 id="abc_phasor2pi"><code>abc_phasor2pi~</code></h2>
+<p>The <code>abc_phasor2pi~</code> object generates a phasor signal that ranges from 0 to 2π, directly expressing an angle in radians.</p>
+<h2 id="abc_poltocar"><code>abc_poltocar~</code></h2>
+<p>The <code>abc_poltocar~</code> object converts polar coordinates to Cartesian coordinates, with the angle expressed in radians.</p>
+<h2 id="abc_puckettespaf"><code>abc_puckettespaf~</code></h2>
+<p>The <code>abc_puckettespaf~</code> object is a Phase-Aligned Formant (PAF) generator based on Miller Puckette's technique. It consists of a two-cosine carrier signal multiplied by a waveshaping pulse generator.</p>
+<h4> Parameters </h4>
+<ul>
+<li><strong>cf</strong>: Central frequency (Hz).</li>
+<li><strong>f0</strong>: Fundamental frequency (Hz).</li>
+<li><strong>bw</strong>: Bandwidth (Hz) controlling the width of the central peak.</li>
+<li><strong>wf</strong>: Waveshaping function (0 for Gaussian, 1 for Cauchy).</li>
+<li><strong>sigma</strong>: Controls the Gaussian waveshaping function.</li>
+<li><strong>a</strong>: Controls the Cauchy waveshaping function.</li>
+</ul>
+<p>The <code>abc_puckettespaf2~</code> object adds the possibility of inharmonic generation by adding a variable phase to the driving phasor, controlled by:
+- <strong>ifreq</strong>: Inharmonic frequency (Hz).
+- <strong>iamp</strong>: Inharmonic amplitude (0 to 1).</p>
+<p>For more details, refer to Miller Puckette's paper: <a href="http://msp.ucsd.edu/techniques/v0.11/book-html/node96.html">Phase-Aligned Formant (PAF) Generator</a>.</p>
+<h2 id="abc_quadriout"><code>abc_quadriout</code></h2>
+<p>The <code>abc_quadriout</code> abstraction enables 4-channel output with global gain control in dB. The global gain and output numbers (for the <code>dac~</code> object) can be set as default values.</p>
+<h2 id="abc_rev4"><code>abc_rev4~</code></h2>
+<p>The <code>abc_rev4~</code> module is a classic reverberation effect. It is available in two versions: <code>abc_rev4stereo~</code> for stereo output and <code>abc_rev4quadri~</code> for quadriphonic output, which splits the delay line outputs to 4 channels.</p>
+<h4> Controls </h4>
+<ul>
+<li><strong>revDur</strong>: Reverberation duration (0 to 127, where 127 means 'infinite' duration)</li>
+<li><strong>revGain</strong>: Gain control (0 to 127)</li>
+</ul>
+<h2 id="abc_rissetsbell"><code>abc_rissetsbell~</code></h2>
+<p>The <code>abc_rissetsbell~</code> object synthesizes bell sounds based on Risset's bell model, using 11 oscillators and envelopes. The model is extended with a double oscillator for detuning and a filter for crossfading between synthesis and filtering.</p>
+<h4> Parameters </h4>
+<ul>
+<li><strong>freq</strong>: Base frequency (Hz) for computing the 11 partials</li>
+<li><strong>dur</strong>: Global duration of the synthesized bell (milliseconds)</li>
+<li><strong>pfreq2</strong>: Frequency multiplication factor for the second oscillator (1 means no detuning)</li>
+<li><strong>osc2filter</strong>: Crossfade factor between oscillators and filters (1 means no filtering)</li>
+<li><strong>resg</strong>: Gain of the filters when activated</li>
+<li><strong>resq</strong>: Quality factor of the filters when activated</li>
+</ul>
+<h2 id="abc_simplefmburst"><code>abc_simplefmburst</code></h2>
+<p>The <code>abc_simplefmburst</code> abstraction generates a short (110 milliseconds) FM synthesized sound with a carrier at 440 Hz, a modulator at 220 Hz, and a modulation index of 5.</p>
+<h2 id="abc_slider2map"><code>abc_slider2map</code></h2>
+<p>The <code>abc_slider2map</code> abstraction enables graphical control of the <code>abc_2d_map</code> objects.</p>
+<h2 id="abc_sounddetector"><code>abc_sounddetector~</code></h2>
+<p>The <code>abc_sounddetector~</code> object detects attacks and releases of incoming sound. It provides:
+- An on-off envelope (first outlet)
+- A binary signal for attack detection (second outlet)
+- A binary signal for release detection (third outlet)</p>
+<h4> Parameters </h4>
+<ul>
+<li><strong>offset</strong>: dB offset to increase amplitude measurement (default: 10 dB)</li>
+<li><strong>noiseFloor</strong>: dB threshold to distinguish between incoming sound and ambient noise (default: -50 dB)</li>
+<li><strong>noteOn</strong>: Threshold in dB for attack detection (default: 60 dB)</li>
+</ul>
+<h2 id="abc_spectrogram"><code>abc_spectrogram</code></h2>
+<p>The <code>abc_spectrogram</code> object visually represents the spectrum of frequencies of a signal. The horizontal axis represents frequency bins (dependent on FFT size), and the vertical axis represents the amplitude of frequency bins.</p>
+<h4> Parameters </h4>
+<ul>
+<li><strong>ampscale</strong>: Amplitude scale (0 for rms, 1 for decibel, 2 for power)</li>
+</ul>
+<h2 id="abc_stereoout"><code>abc_stereoout</code></h2>
+<p>The <code>abc_stereoout</code> abstraction enables 2-channel output (dac~ 1 &amp; 2) with global gain control in dB. The global gain can be set as a default value.</p>
+<h2 id="abc_subtractsynth1"><code>abc_subtractsynth1~</code></h2>
+<p>The <code>abc_subtractsynth1~</code>, <code>abc_subtract2~</code>, etc., objects enable subtractive synthesis by applying banks of band-pass filters to incoming sounds (e.g., white, pink, decorrelated). </p>
+<h4> Parameters </h4>
+<ul>
+<li><strong>f0</strong>: General fundamental frequency.</li>
+<li><strong>fmult00, fmult01, ...</strong>: Multipliers of f0 for partial frequencies.</li>
+<li><strong>amp00, amp01, ...</strong>: Amplitudes of the partials (dB).</li>
+<li><strong>gain</strong>: General amplitude control (dB).</li>
+<li><strong>filterQ</strong>: Quality factor of the filters.</li>
+<li><strong>filterG</strong>: Gain of the filters.</li>
+</ul>
+<h2 id="abc_synthesizers"><code>abc_synthesizers~</code></h2>
+<ul>
+<li>
+<p><strong>abc_soundcoat~</strong>: A set of 16 band-pass filters receiving a noise sound as input. The output gains of the filters are slowly randomized.</p>
+<ul>
+<li><strong>randwin</strong>: Duration of the randomization cycle (ms, default 3000, min 1, max 20000).</li>
+</ul>
+</li>
+<li>
+<p><strong>abc_soundgrain~</strong>: A granulator on a rainstick sound looped at a controllable speed.</p>
+<ul>
+<li><strong>freqmult</strong>: Loop speed multiplier (default 1, min 0.01, max 100).</li>
+</ul>
+</li>
+<li>
+<p><strong>abc_audiotester~</strong>: Tests the audio configuration from 1 to 16 loudspeakers by sending pink noise alternately to them.</p>
+</li>
+<li>
+<p><strong>abc_pulsedenv2synthN~</strong>: Multichannel sound burst generators based on a sinusoidal sound.</p>
+<ul>
+<li><strong>carrierFreq</strong>: Frequency of the carrier sinusoid.</li>
+<li><strong>envFreq</strong>: Frequency of the triangular envelopes.</li>
+<li><strong>ratio</strong>: Silence/sound ratio.</li>
+<li><strong>spread</strong>: Decorrelates short envelopes (0 to 1).</li>
+<li><strong>fc</strong>: Low-pass filter frequency.</li>
+</ul>
+<h2 id="abc_xy_scope"><code>abc_xy_scope</code></h2>
+<p>The <code>abc_xy_scope</code> abstraction visualizes X-Y signals, such as ambisonic components at order N, using <code>abc_2d_scopeN~</code> objects. It leverages the <code>scope~</code> object from the cyclone library.</p>
+<p><h4> Controls </h4>
+Refer to the <code>scope~</code> object documentation in the cyclone library for detailed control information.</p>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.sections", "content.code.annotate", "content.code.copy", "search.highlight", "search.suggest", "toc.integrate", "toc.follow", "navigation.instant", "header.autohide"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

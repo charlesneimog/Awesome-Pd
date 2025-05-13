@@ -1,0 +1,4671 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../pd-else/">
+      
+      
+        <link rel="next" href="../../Compilers/pd4web/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>timbreIDLib - PureData Library Ecossytem</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+  
+  
+  
+  
+  <style>:root{--md-annotation-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M17%2013h-4v4h-2v-4H7v-2h4V7h2v4h4m-5-9A10%2010%200%200%200%202%2012a10%2010%200%200%200%2010%2010%2010%2010%200%200%200%2010-10A10%2010%200%200%200%2012%202%22/%3E%3C/svg%3E');}</style>
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#timbreidlib" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="PureData Library Ecossytem" class="md-header__button md-logo" aria-label="PureData Library Ecossytem" data-md-component="logo">
+      
+  <img src="../../assets/icon.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            PureData Library Ecossytem
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              timbreIDLib
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="light-blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="light-blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/charlesneimog/Awesome-Pd" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="PureData Library Ecossytem" class="md-nav__button md-logo" aria-label="PureData Library Ecossytem" data-md-component="logo">
+      
+  <img src="../../assets/icon.svg" alt="logo">
+
+    </a>
+    PureData Library Ecossytem
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/charlesneimog/Awesome-Pd" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Objects
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Objects
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Audio Descriptors
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Audio Descriptors
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../AI/flucoma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    flucoma
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Audio%20Descriptors/timbreIDLib/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    timbreIDLib
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Audio%20Descriptors/vamp~/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    vamp~
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    AI
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            AI
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../AI/nn~/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    nn~
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../AI/neuranet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    neuralnet
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../AI/flucoma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    flucoma
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    DAW plugins
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            DAW plugins
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DAW%20plugins/vstplugin~/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    vstplugin~
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Filters
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            Filters
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Filters/pd/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PureData Objects
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Filters/else/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    else
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Filters/mkmr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    mkmr
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Score Follower
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            Score Follower
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Score%20Follower/antescofo~/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    antescofo~
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Score%20Follower/o.scofo~/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    o.scofo~
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Score%20Follower/scofo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    scofo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Reverb
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            Reverb
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Reverb/else/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    else
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Reverb/freeverb~/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    freeverb~
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_7" id="__nav_2_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Spacialization
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_7">
+            <span class="md-nav__icon md-icon"></span>
+            Spacialization
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_7_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_7_1" id="__nav_2_7_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Ambisonics
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_7_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_7_1">
+            <span class="md-nav__icon md-icon"></span>
+            Ambisonics
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Spacialization/abclib/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    abclib
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Spacialization/ambi~/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ambi~
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_7_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_7_2" id="__nav_2_7_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Binaural
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_7_2">
+            <span class="md-nav__icon md-icon"></span>
+            Binaural
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Spacialization/earplug~/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    earplug~
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Spacialization/sofalizer~/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SOFAlizer~
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_8" id="__nav_2_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Person
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_8">
+            <span class="md-nav__icon md-icon"></span>
+            Person
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Person/bsaylor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    bsaylor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Library Objects
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Library Objects
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../abclib/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    abclib
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pd-cyclone/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    pd-cyclone
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pd-else/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    pd-else
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    timbreIDLib
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    timbreIDLib
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#attacktime" class="md-nav__link">
+    <span class="md-ellipsis">
+      attackTime
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#attacktime_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      attackTime~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#autocorrpitch" class="md-nav__link">
+    <span class="md-ellipsis">
+      autoCorrPitch
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#autocorrpitch_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      autoCorrPitch~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bark" class="md-nav__link">
+    <span class="md-ellipsis">
+      bark
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#barkspec" class="md-nav__link">
+    <span class="md-ellipsis">
+      barkSpec
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#barkspecbrightness" class="md-nav__link">
+    <span class="md-ellipsis">
+      barkSpecBrightness
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#barkspecbrightness_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      barkSpecBrightness~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#barkspeccentroid" class="md-nav__link">
+    <span class="md-ellipsis">
+      barkSpecCentroid
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#barkspeccentroid_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      barkSpecCentroid~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#barkspecflatness" class="md-nav__link">
+    <span class="md-ellipsis">
+      barkSpecFlatness
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#barkspecflatness_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      barkSpecFlatness~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#barkspecflux" class="md-nav__link">
+    <span class="md-ellipsis">
+      barkSpecFlux
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#barkspecflux_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      barkSpecFlux~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#barkspecirregularity" class="md-nav__link">
+    <span class="md-ellipsis">
+      barkSpecIrregularity
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#barkspecirregularity_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      barkSpecIrregularity~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#barkspeckurtosis" class="md-nav__link">
+    <span class="md-ellipsis">
+      barkSpecKurtosis
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#barkspeckurtosis_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      barkSpecKurtosis~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#barkspecrolloff" class="md-nav__link">
+    <span class="md-ellipsis">
+      barkSpecRolloff
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#barkspecrolloff_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      barkSpecRolloff~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#barkspecskewness" class="md-nav__link">
+    <span class="md-ellipsis">
+      barkSpecSkewness
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#barkspecskewness_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      barkSpecSkewness~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#barkspecslope" class="md-nav__link">
+    <span class="md-ellipsis">
+      barkSpecSlope
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#barkspecslope_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      barkSpecSlope~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#barkspecspread" class="md-nav__link">
+    <span class="md-ellipsis">
+      barkSpecSpread
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#barkspecspread_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      barkSpecSpread~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#barkspec_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      barkSpec~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bark_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      bark~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bfcc" class="md-nav__link">
+    <span class="md-ellipsis">
+      bfcc
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bfcc_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      bfcc~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binwrangler" class="md-nav__link">
+    <span class="md-ellipsis">
+      binWrangler
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cepstrum" class="md-nav__link">
+    <span class="md-ellipsis">
+      cepstrum
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cepstrumpitch" class="md-nav__link">
+    <span class="md-ellipsis">
+      cepstrumPitch
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cepstrumpitch_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      cepstrumPitch~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cepstrum_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      cepstrum~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chroma" class="md-nav__link">
+    <span class="md-ellipsis">
+      chroma
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chroma_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      chroma~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dct" class="md-nav__link">
+    <span class="md-ellipsis">
+      dct
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dct_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      dct~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#energy" class="md-nav__link">
+    <span class="md-ellipsis">
+      energy
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#energyentropy" class="md-nav__link">
+    <span class="md-ellipsis">
+      energyEntropy
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#energyentropy_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      energyEntropy~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#energy_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      energy~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#featureaccum" class="md-nav__link">
+    <span class="md-ellipsis">
+      featureAccum
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#featuredelta" class="md-nav__link">
+    <span class="md-ellipsis">
+      featureDelta
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#featurenorm" class="md-nav__link">
+    <span class="md-ellipsis">
+      featureNorm
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#harmonicratio" class="md-nav__link">
+    <span class="md-ellipsis">
+      harmonicRatio
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#harmonicratio_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      harmonicRatio~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#magspec" class="md-nav__link">
+    <span class="md-ellipsis">
+      magSpec
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#magspec_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      magSpec~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#maxsample" class="md-nav__link">
+    <span class="md-ellipsis">
+      maxSample
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#maxsampledelta" class="md-nav__link">
+    <span class="md-ellipsis">
+      maxSampleDelta
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#maxsampledelta_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      maxSampleDelta~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#maxsample_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      maxSample~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#melspec" class="md-nav__link">
+    <span class="md-ellipsis">
+      melSpec
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#melspec_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      melSpec~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mfcc" class="md-nav__link">
+    <span class="md-ellipsis">
+      mfcc
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mfcc_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      mfcc~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#minsample" class="md-nav__link">
+    <span class="md-ellipsis">
+      minSample
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#minsampledelta" class="md-nav__link">
+    <span class="md-ellipsis">
+      minSampleDelta
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#minsampledelta_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      minSampleDelta~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#minsample_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      minSample~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nearestpoint" class="md-nav__link">
+    <span class="md-ellipsis">
+      nearestPoint
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#peaksample" class="md-nav__link">
+    <span class="md-ellipsis">
+      peakSample
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#peaksample_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      peakSample~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#phasespec" class="md-nav__link">
+    <span class="md-ellipsis">
+      phaseSpec
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#phasespec_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      phaseSpec~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#samplebuffer" class="md-nav__link">
+    <span class="md-ellipsis">
+      sampleBuffer~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specbrightness" class="md-nav__link">
+    <span class="md-ellipsis">
+      specBrightness
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specbrightness_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      specBrightness~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#speccentroid" class="md-nav__link">
+    <span class="md-ellipsis">
+      specCentroid
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#speccentroid_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      specCentroid~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specflatness" class="md-nav__link">
+    <span class="md-ellipsis">
+      specFlatness
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specflatness_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      specFlatness~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specflux" class="md-nav__link">
+    <span class="md-ellipsis">
+      specFlux
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specflux_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      specFlux~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specharmonicity" class="md-nav__link">
+    <span class="md-ellipsis">
+      specHarmonicity
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specharmonicity_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      specHarmonicity~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specirregularity" class="md-nav__link">
+    <span class="md-ellipsis">
+      specIrregularity
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specirregularity_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      specIrregularity~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#speckurtosis" class="md-nav__link">
+    <span class="md-ellipsis">
+      specKurtosis
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#speckurtosis_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      specKurtosis~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specrolloff" class="md-nav__link">
+    <span class="md-ellipsis">
+      specRolloff
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specrolloff_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      specRolloff~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specskewness" class="md-nav__link">
+    <span class="md-ellipsis">
+      specSkewness
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specskewness_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      specSkewness~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specslope" class="md-nav__link">
+    <span class="md-ellipsis">
+      specSlope
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specslope_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      specSlope~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specspread" class="md-nav__link">
+    <span class="md-ellipsis">
+      specSpread
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specspread_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      specSpread~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tid-conversion" class="md-nav__link">
+    <span class="md-ellipsis">
+      tID-conversion
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tid_fft" class="md-nav__link">
+    <span class="md-ellipsis">
+      tID_fft
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tid_fft_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      tID_fft~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tid_mean" class="md-nav__link">
+    <span class="md-ellipsis">
+      tID_mean
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tid_std" class="md-nav__link">
+    <span class="md-ellipsis">
+      tID_std
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabletool" class="md-nav__link">
+    <span class="md-ellipsis">
+      tabletool
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tempo" class="md-nav__link">
+    <span class="md-ellipsis">
+      tempo~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#timbreid" class="md-nav__link">
+    <span class="md-ellipsis">
+      timbreID
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wavenoise" class="md-nav__link">
+    <span class="md-ellipsis">
+      waveNoise
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wavenoise_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      waveNoise~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#waveslope" class="md-nav__link">
+    <span class="md-ellipsis">
+      waveSlope
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#waveslope_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      waveSlope~
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zerocrossing" class="md-nav__link">
+    <span class="md-ellipsis">
+      zeroCrossing
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zerocrossing_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      zeroCrossing~
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Compilers
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Compilers
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Web
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            Web
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Compilers/pd4web/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    pd4web
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Compilers/hvcc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hvcc
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Compilers/webpd/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    webpd
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    C/C++
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            C/C++
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Compilers/hvcc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hvcc
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="timbreidlib">timbreIDLib</h1>
+<h2 id="attacktime"><code>attackTime</code></h2>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Print the internal settings to the post window;</p>
+<p>Specify the sample magnitude threshold that the signal</p>
+<p>Specify the number of consecutive samples for which</p>
+<p>Specify the maximum time in milliseconds before the</p>
+<p>Creation argument is the name of the sample array to</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>July 2017;</p>
+<p>See the real-time version for more information on attack</p>
+<p>Outlet 1: attack time in milliseconds;</p>
+<p>Outlet 2: attack onset starting sample index;</p>
+<p>Outlet 3: attack onset peak sample index;</p>
+<p>Analyze a window starting at sample 27264 that is 2000</p>
+<h2 id="attacktime_1"><code>attackTime~</code></h2>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Specify the sample magnitude threshold that the signal</p>
+<p>Print the internal settings to the post window;</p>
+<p>Specify the number of consecutive samples for which</p>
+<p>Here, the mag thresh is set to zero since the default</p>
+<p>Specify the maximum time in milliseconds before the</p>
+<p>Change analysis window size.;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>When an onset is found, bang to output attack time</p>
+<p>Outlet 1: attack time in milliseconds;</p>
+<p>Outlet 2: attack onset starting sample index;</p>
+<p>Outlet 3: attack onset peak sample index;</p>
+<p>This uses [sampleBuffer~] to grab the same audio contained</p>
+<p>Look inside [pd other-settings] for more information</p>
+<p>Creation argument sets analysis window size in samples</p>
+<p>[attackTime~] does not contain an onset detector,</p>
+<p>Audio buffering is taken care of by the external,</p>
+<p>Updated for timbreIDLib version 0.9.0;</p>
+<p>June 2022;</p>
+<p>When [attackTime~] receives a bang, it locates the</p>
+<h2 id="autocorrpitch"><code>autoCorrPitch</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Print current settings in the post window;</p>
+<p>Set threshold for detecting correlation peak in percent</p>
+<p>Move through the soundfile with the slider above,</p>
+<p>Output value is pitch in MIDI units;</p>
+<p>Updated for timbreIDLib version 0.9;</p>
+<p>June 2022;</p>
+<p>See the real-time version for more information on autocorrelation</p>
+<p>Analyze a window starting at sample 24100 that is 2000</p>
+<p>Creation argument is the name of the sample array to</p>
+<h2 id="autocorrpitch_1"><code>autoCorrPitch~</code></h2>
+<p>Print current settings in the post window;</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Set threshold for detecting correlation peak in percent</p>
+<p>Change analysis window size;</p>
+<p>Bang repeatedly to keep refreshing..., f 21;</p>
+<p>Bang to output pitch;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Updated for timbreIDLib version 0.9;</p>
+<p>June 2022;</p>
+<p>Creation argument is window size in samples., f 45</p>
+<p>autoCorrPitch~ works by calculating the autocorrelation</p>
+<p>Autocorrelation is a time-domain calculation. In order</p>
+<p>Audio buffering is taken care of by the external,</p>
+<h2 id="bark"><code>bark</code></h2>
+<p>Apply a loudness weighting curve to the Bark spectrum</p>
+<p>With debug on, growth values will be posted for every</p>
+<p>Print current settings in the post window.;</p>
+<p>If your file uses a sample rate other than the default</p>
+<p>Spew growth data on every frame.;</p>
+<p>There is no "measure" function for the NRT version</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Normalize spectrum (default: OFF);</p>
+<p>Use power vs. magnitude spectrum (default: power).;</p>
+<p>Block onset reports for a given number of milliseconds</p>
+<p>If using the triangular Bark spaced filters, you</p>
+<p>Rather than sum energy in the triangular Bark spaced</p>
+<p>Ignore onsets that are below a certain amplitude threshold.</p>
+<p>As with bonk~, the thresh message lets you specify</p>
+<p>As with bonk~, you can specify a number of analysis</p>
+<p>The spectral flux that goes on during the first few milliseconds</p>
+<p>See the real-time version too:;</p>
+<p>Creation arguments are the array to analyze, window</p>
+<p>Use the "filter_range" message to specify a range of</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>bark is a non-real-time onset detector that makes use</p>
+<p>Outlet 2: total energy growth;</p>
+<p>Outlet 3: growth list per Bark band;</p>
+<p>Outlet 1: onset location (seconds);</p>
+<p>write to a text file and import as labels in Audacity</p>
+<p>convert from seconds to samples before writing to attacks</p>
+<p>Make the attacks table bigger as more attacks are found</p>
+<p>Analyze the whole array, or a range given in seconds.</p>
+<p>Turn on spew mode;</p>
+<p>then analyze a time range that is relatively silent.</p>
+<p>You can see from the results that this portion of the</p>
+<p>July 2017;</p>
+<h2 id="barkspec"><code>barkSpec</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Creation arguments are the name of the sample array</p>
+<p>Read from a different array;</p>
+<p>Construct a new filterbank with a specific spacing.</p>
+<p>Normalize spectrum (default: ON);</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Print current settings in the post window;</p>
+<p>If using the triangular Bark spaced filters, you</p>
+<p>Rather than sum energy in the triangular Bark spaced</p>
+<p>Change internal window size setting;</p>
+<p>See the real-time version for more information on Bark</p>
+<p>Move through the soundfile with the slider above;</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>Updated for timbreIDLib version 0.7.6;</p>
+<p>August 2018;</p>
+<p>Prepend the "chain_fftData" message in front of the</p>
+<p>[tID_fft~] outputs (N/2)+1 real values from the left</p>
+<p>fftData <data> should consist of (window/2)+1 real</p>
+<p>magSpec <data> should consist of (window/2)+1 magnitudes</p>
+<p>The object in this help file accepts the chain_ messages</p>
+<p>To minimize redundant calculations on the same window</p>
+<h2 id="barkspecbrightness"><code>barkSpecBrightness</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Rather than sum energy in the triangular Bark spaced</p>
+<p>Print current settings in the post window;</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Construct a new filterbank with a specific spacing.</p>
+<p>If using the triangular Bark spaced filters, you</p>
+<p>Change internal window size setting;</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>Change the boundary point in Barks;</p>
+<p>See the real-time version for more information on Bark</p>
+<p>Creation arguments are the name of the sample array</p>
+<p>Updated for timbreIDLib version 0.7.6;</p>
+<p>August 2018;</p>
+<p>Prepend the "chain_fftData" message in front of the</p>
+<p>[tID_fft~] outputs (N/2)+1 real values from the left</p>
+<p>fftData <data> should consist of (window/2)+1 real</p>
+<p>magSpec <data> should consist of (window/2)+1 magnitudes</p>
+<p>The object in this help file accepts the chain_ messages</p>
+<p>To minimize redundant calculations on the same window</p>
+<p>barkSpec <data> should consist of 50 Bark spectrum</p>
+<h2 id="barkspecbrightness_1"><code>barkSpecBrightness~</code></h2>
+<p>Change window size.;</p>
+<p>Bang to output brightness.;</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Print current settings in the post window;</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Construct a new filterbank with a specific spacing.</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>If using the triangular Bark spaced filters, you</p>
+<p>Rather than sum energy in the triangular Bark spaced</p>
+<p>Set boundary point in Barks;</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>Creation arguments are window size in samples, filterbank</p>
+<p>Bark Spectrum Brightness is the ratio of the sum of</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>July 2017;</p>
+<h2 id="barkspeccentroid"><code>barkSpecCentroid</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Print current settings in the post window;</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>If using the triangular Bark spaced filters, you</p>
+<p>Rather than sum energy in the triangular Bark spaced</p>
+<p>Construct a new filterbank with a specific spacing.</p>
+<p>Change internal window size setting;</p>
+<p>See the real-time version for more information on Bark</p>
+<p>Creation arguments are the name of the sample array</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>Updated for timbreIDLib version 0.7.6;</p>
+<p>August 2018;</p>
+<p>Prepend the "chain_fftData" message in front of the</p>
+<p>[tID_fft~] outputs (N/2)+1 real values from the left</p>
+<p>fftData <data> should consist of (window/2)+1 real</p>
+<p>magSpec <data> should consist of (window/2)+1 magnitudes</p>
+<p>The object in this help file accepts the chain_ messages</p>
+<p>To minimize redundant calculations on the same window</p>
+<p>barkSpec <data> should consist of 50 Bark spectrum</p>
+<h2 id="barkspeccentroid_1"><code>barkSpecCentroid~</code></h2>
+<p>Bang repeatedly...;</p>
+<p>Construct a new filterbank with a specific spacing.</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Print current settings in the post window;</p>
+<p>If using the triangular Bark spaced filters, you</p>
+<p>Rather than sum energy in the triangular Bark spaced</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Bang to output centroid;</p>
+<p>Change analysis window size;</p>
+<p>Creation arguments are window size in samples, and</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>July 2017;</p>
+<p>Bark spectrum centroid is the center of mass of the</p>
+<h2 id="barkspecflatness"><code>barkSpecFlatness</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Print current settings in the post window;</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>If using the triangular Bark spaced filters, you</p>
+<p>Rather than sum energy in the triangular Bark spaced</p>
+<p>Construct a new filterbank with a specific spacing.</p>
+<p>Change internal window size setting;</p>
+<p>Creation arguments are the name of the sample array</p>
+<p>See the real-time version for more information on Bark</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>Updated for timbreIDLib version 0.7.6;</p>
+<p>August 2018;</p>
+<p>Prepend the "chain_fftData" message in front of the</p>
+<p>[tID_fft~] outputs (N/2)+1 real values from the left</p>
+<p>fftData <data> should consist of (window/2)+1 real</p>
+<p>magSpec <data> should consist of (window/2)+1 magnitudes</p>
+<p>The object in this help file accepts the chain_ messages</p>
+<p>To minimize redundant calculations on the same window</p>
+<p>barkSpec <data> should consist of 50 Bark spectrum</p>
+<h2 id="barkspecflatness_1"><code>barkSpecFlatness~</code></h2>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Print current settings in the post window;</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>If using the triangular Bark spaced filters, you</p>
+<p>Rather than sum energy in the triangular Bark spaced</p>
+<p>Construct a new filterbank with a specific spacing.</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>Activate a signal;</p>
+<p>Creation arguments are window size in samples and filterbank</p>
+<p>Bark spectrum flatness is the ratio of the geometric</p>
+<p>bang to output flatness;</p>
+<p>Change window size;</p>
+<p>July 2017;</p>
+<h2 id="barkspecflux"><code>barkSpecFlux</code></h2>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Squared difference vs. Absolute value of difference.</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Construct a new filterbank with a specific spacing.</p>
+<p>Print current settings in the post window;</p>
+<p>If using the triangular Bark spaced filters, you</p>
+<p>Rather than sum energy in the triangular Bark spaced</p>
+<p>Set separation in samples between analysis windows</p>
+<p>Change internal window size setting;</p>
+<p>Normalize spectrum. (default: OFF);</p>
+<p>Use the natural logarithm of spectrum values. (default:</p>
+<p>See the real-time version for more information on Bark</p>
+<p>Creation arguments are the name of the sample array</p>
+<p>Analyze a FORWARD window starting at sample 44100 that</p>
+<p>Prepend the "chain_fftData" message in front of the</p>
+<p>[tID_fft~] outputs (N/2)+1 real values from the left</p>
+<p>The object in this help file accepts the chain_ messages</p>
+<p>To minimize redundant calculations on the same window</p>
+<p>Spectral flux is a special case, because measurements</p>
+<p>fftData <data> should consist of (window/2)+1 real</p>
+<p>magSpec <data> should consist of (window/2)+1 magnitudes</p>
+<p>at the default Bark filterbank spacing of 0.5, barkSpec</p>
+<p>Change modes to report flux, spectral growth only</p>
+<p>Updated for timbreIDLib version 0.9.0;</p>
+<p>June 2022;</p>
+<h2 id="barkspecflux_1"><code>barkSpecFlux~</code></h2>
+<p>Activate a signal above and bang to output its flux.</p>
+<p>Creation arguments are window size, filterbank spacing</p>
+<p>In the [attack-detection] sub-patch, the left outlet</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>Squared difference vs absolute value of difference</p>
+<p>Change distance between analysis windows in samples</p>
+<p>Construct a new filterbank with a specific spacing.</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Rather than sum energy in the triangular Bark spaced</p>
+<p>If using the triangular Bark spaced filters, you</p>
+<p>Print current settings in the post window;</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Change window size;</p>
+<p>Normalize spectrum (default: OFF);</p>
+<p>Use the natural logarithm of spectrum values. (default:</p>
+<p>barkSpecFlux~ reports the full list of per-Bark-band</p>
+<p>Typically, spectral flux is the sum of squared differences</p>
+<p>Change modes to report flux, spectral growth only</p>
+<p>June 2022;</p>
+<p>Updated for timbreIDLib version 0.9.0;</p>
+<p>Turn on for continuous analysis;</p>
+<p>For these purposes, we'll turn on "growth" mode so</p>
+<p>Bark spectrum flux can be used for basic attack detection.</p>
+<p>If 100 is too low or high, try a different threshhold.</p>
+<h2 id="barkspecirregularity"><code>barkSpecIrregularity</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Rather than sum energy in the triangular Bark spaced</p>
+<p>If using the triangular Bark spaced filters, you</p>
+<p>Print current settings in the post window;</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Construct a new filterbank with a specific spacing.</p>
+<p>Change internal window size setting;</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>Creation arguments are the name of the sample array</p>
+<p>See the real-time version for more information on Bark</p>
+<p>Change between Jensen (0) and Krimphoff (1) algorithm</p>
+<p>Updated for timbreIDLib version 0.7.6;</p>
+<p>August 2018;</p>
+<p>Prepend the "chain_fftData" message in front of the</p>
+<p>[tID_fft~] outputs (N/2)+1 real values from the left</p>
+<p>fftData <data> should consist of (window/2)+1 real</p>
+<p>magSpec <data> should consist of (window/2)+1 magnitudes</p>
+<p>The object in this help file accepts the chain_ messages</p>
+<p>To minimize redundant calculations on the same window</p>
+<p>barkSpec <data> should consist of 50 Bark spectrum</p>
+<h2 id="barkspecirregularity_1"><code>barkSpecIrregularity~</code></h2>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Change window size.;</p>
+<p>Turn spectrum normalization on/off. This only matters</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>If using the triangular Bark spaced filters, you</p>
+<p>Rather than sum energy in the triangular Bark spaced</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Construct a new filterbank with a specific spacing.</p>
+<p>Choose between Jensen (0) and Krimphoff (1) algorithms</p>
+<p>Bang to output irregularity;</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>Creation arguments are window size in samples, filterbank</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>July 2017;</p>
+<p>Spectral Irregularity has two common definitions: one</p>
+<h2 id="barkspeckurtosis"><code>barkSpecKurtosis</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Print current settings in the post window;</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>If using the triangular Bark spaced filters, you</p>
+<p>Rather than sum energy in the triangular Bark spaced</p>
+<p>Construct a new filterbank with a specific spacing.</p>
+<p>Change internal window size setting;</p>
+<p>Creation arguments are the name of the sample array</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>See the real-time version for more information on Bark</p>
+<p>Updated for timbreIDLib version 0.7.6;</p>
+<p>August 2018;</p>
+<p>Prepend the "chain_fftData" message in front of the</p>
+<p>[tID_fft~] outputs (N/2)+1 real values from the left</p>
+<p>fftData <data> should consist of (window/2)+1 real</p>
+<p>magSpec <data> should consist of (window/2)+1 magnitudes</p>
+<p>The object in this help file accepts the chain_ messages</p>
+<p>To minimize redundant calculations on the same window</p>
+<p>barkSpec <data> should consist of 50 Bark spectrum</p>
+<h2 id="barkspeckurtosis_1"><code>barkSpecKurtosis~</code></h2>
+<p>Bang repeatedly...;</p>
+<p>Construct a new filterbank with a specific spacing.</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Print current settings in the post window;</p>
+<p>If using the triangular Bark spaced filters, you</p>
+<p>Rather than sum energy in the triangular Bark spaced</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Change analysis window size;</p>
+<p>Creation arguments are window size in samples, and</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>Bark spectrum kurtosis measures the peakedness of a</p>
+<p>Bang to output kurtosis;</p>
+<p>July 2017;</p>
+<h2 id="barkspecrolloff"><code>barkSpecRolloff</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Rather than sum energy in the triangular Bark spaced</p>
+<p>If using the triangular Bark spaced filters, you</p>
+<p>Print current settings in the post window;</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Construct a new filterbank with a specific spacing.</p>
+<p>Change internal window size setting;</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>See the real-time version for more information on Bark</p>
+<p>Creation arguments are the name of the sample array</p>
+<p>Change the concentration threshold (0 - 1.0), f 26</p>
+<p>Updated for timbreIDLib version 0.7.6;</p>
+<p>August 2018;</p>
+<p>Prepend the "chain_fftData" message in front of the</p>
+<p>[tID_fft~] outputs (N/2)+1 real values from the left</p>
+<p>fftData <data> should consist of (window/2)+1 real</p>
+<p>magSpec <data> should consist of (window/2)+1 magnitudes</p>
+<p>The object in this help file accepts the chain_ messages</p>
+<p>To minimize redundant calculations on the same window</p>
+<p>barkSpec <data> should consist of 50 Bark spectrum</p>
+<h2 id="barkspecrolloff_1"><code>barkSpecRolloff~</code></h2>
+<p>Change window size.;</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Print current settings in the post window;</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Construct a new filterbank with a specific spacing.</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>If using the triangular Bark spaced filters, you</p>
+<p>Rather than sum energy in the triangular Bark spaced</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Creation arguments are window size in samples, filterbank</p>
+<p>Change the concentration threshold, f 23;</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>Output is the Bark frequency band below which most of</p>
+<p>Bark spectrum rolloff is the Bark frequency below which</p>
+<p>Bang to output rolloff;</p>
+<p>July 2017;</p>
+<h2 id="barkspecskewness"><code>barkSpecSkewness</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Print current settings in the post window;</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>If using the triangular Bark spaced filters, you</p>
+<p>Rather than sum energy in the triangular Bark spaced</p>
+<p>Construct a new filterbank with a specific spacing.</p>
+<p>Change internal window size setting;</p>
+<p>Creation arguments are the name of the sample array</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>See the real-time version for more information on Bark</p>
+<p>Updated for timbreIDLib version 0.7.6;</p>
+<p>August 2018;</p>
+<p>Prepend the "chain_fftData" message in front of the</p>
+<p>[tID_fft~] outputs (N/2)+1 real values from the left</p>
+<p>fftData <data> should consist of (window/2)+1 real</p>
+<p>magSpec <data> should consist of (window/2)+1 magnitudes</p>
+<p>The object in this help file accepts the chain_ messages</p>
+<p>To minimize redundant calculations on the same window</p>
+<p>barkSpec <data> should consist of 50 Bark spectrum</p>
+<h2 id="barkspecskewness_1"><code>barkSpecSkewness~</code></h2>
+<p>Bang repeatedly...;</p>
+<p>Construct a new filterbank with a specific spacing.</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Print current settings in the post window;</p>
+<p>If using the triangular Bark spaced filters, you</p>
+<p>Rather than sum energy in the triangular Bark spaced</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Change analysis window size;</p>
+<p>Creation arguments are window size in samples, and</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>Bang to output skewness;</p>
+<p>July 2017;</p>
+<p>Bark spectrum skewness measures the symmetry of a Bark</p>
+<h2 id="barkspecslope"><code>barkSpecSlope</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>Creation arguments are the name of the sample array</p>
+<p>See the real-time version for more information on Bark</p>
+<p>Read from a different array;</p>
+<p>Construct a new filterbank with a specific spacing.</p>
+<p>Normalize spectrum (default: ON);</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Print current settings in the post window;</p>
+<p>If using the triangular Bark spaced filters, you</p>
+<p>Rather than sum energy in the triangular Bark spaced</p>
+<p>Change internal window size setting;</p>
+<p>Use the slider above to move through the audio file</p>
+<p>Updated for timbreIDLib version 0.7.6;</p>
+<p>August 2018;</p>
+<p>Prepend the "chain_fftData" message in front of the</p>
+<p>[tID_fft~] outputs (N/2)+1 real values from the left</p>
+<p>fftData <data> should consist of (window/2)+1 real</p>
+<p>magSpec <data> should consist of (window/2)+1 magnitudes</p>
+<p>The object in this help file accepts the chain_ messages</p>
+<p>To minimize redundant calculations on the same window</p>
+<p>barkSpec <data> should consist of 50 Bark spectrum</p>
+<h2 id="barkspecslope_1"><code>barkSpecSlope~</code></h2>
+<p>Change analysis window size;</p>
+<p>Bang repeatedly...;</p>
+<p>Bang to output slope;</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>Construct a new filterbank with a specific spacing.</p>
+<p>Normalize spectrum (default: ON);</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Rather than sum energy in the triangular Bark spaced</p>
+<p>If using the triangular Bark spaced filters, you</p>
+<p>Print current settings in the post window;</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>Bark spectrum slope is the slope of the best-fit line</p>
+<p>July 2017;</p>
+<h2 id="barkspecspread"><code>barkSpecSpread</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Print current settings in the post window;</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>If using the triangular Bark spaced filters, you</p>
+<p>Rather than sum energy in the triangular Bark spaced</p>
+<p>Construct a new filterbank with a specific spacing.</p>
+<p>Change internal window size setting;</p>
+<p>Creation arguments are the name of the sample array</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>See the real-time version for more information on Bark</p>
+<p>Updated for timbreIDLib version 0.7.6;</p>
+<p>August 2018;</p>
+<p>Prepend the "chain_fftData" message in front of the</p>
+<p>[tID_fft~] outputs (N/2)+1 real values from the left</p>
+<p>fftData <data> should consist of (window/2)+1 real</p>
+<p>magSpec <data> should consist of (window/2)+1 magnitudes</p>
+<p>The object in this help file accepts the chain_ messages</p>
+<p>To minimize redundant calculations on the same window</p>
+<p>barkSpec <data> should consist of 50 Bark spectrum</p>
+<h2 id="barkspecspread_1"><code>barkSpecSpread~</code></h2>
+<p>Bang repeatedly...;</p>
+<p>Construct a new filterbank with a specific spacing.</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Print current settings in the post window;</p>
+<p>If using the triangular Bark spaced filters, you</p>
+<p>Rather than sum energy in the triangular Bark spaced</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Change analysis window size;</p>
+<p>Creation arguments are window size in samples, and</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>Bark spectrum spread is a measure of the concentration</p>
+<p>Bang to output spread;</p>
+<p>July 2017;</p>
+<h2 id="barkspec_1"><code>barkSpec~</code></h2>
+<p>Construct a new filterbank with a specific spacing.</p>
+<p>Normalize spectrum (default: ON);</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Rather than sum energy in the triangular Bark spaced</p>
+<p>If using the triangular Bark spaced filters, you</p>
+<p>Print current settings in the post window;</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Change analysis window size, f 16;</p>
+<p>Creation arguments are window size in samples and filterbank</p>
+<p>Bang repeatedly to keep refreshing...;</p>
+<p>Bang to output Bark spectrum as a list;</p>
+<p>Bark-frequency spectrum is a warping of normal magnitude</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>July 2017;</p>
+<h2 id="bark_1"><code>bark~</code></h2>
+<p>With debug on, growth values will be posted for every</p>
+<p>With spew mode on, the list of growth per band and</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Apply a loudness weighting curve to the Bark spectrum</p>
+<p>Block onset reports for a given number of millseconds</p>
+<p>Ignore onsets that are below a certain amplitude threshold.</p>
+<p>Rather than sum energy in the triangular Bark spaced</p>
+<p>If using the triangular Bark spaced filters, you</p>
+<p>Turn "measure" on, then off after a few seconds to</p>
+<p>Print current settings in the post window.;</p>
+<p>Normalize spectrum (default: OFF);</p>
+<p>Use power vs. magnitude spectrum (default: power).</p>
+<p>If you use bark~ inside a subpatch with re-blocking</p>
+<p>As with bonk~, the thresh message lets you specify</p>
+<p>See the [pd other-messages-and-settings] subpatch for</p>
+<p>As with bonk~, you can specify a number of analysis</p>
+<p>The spectral flux that goes on during the first few milliseconds</p>
+<p>bark~ is an onset detector that makes use of the perceptually</p>
+<p>bark~ also features some convenient functions for the</p>
+<p>Use the "filter_range" message to specify a range of</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>Creation arguments are window size in samples, hop</p>
+<p>This array displays the growth in each Bark frequency</p>
+<p>Outlet 1: "bang" for an onset;</p>
+<p>Outlet 2: total energy growth;</p>
+<p>Outlet 3: growth list per Bark band;</p>
+<p>July 2017;</p>
+<h2 id="bfcc"><code>bfcc</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Creation arguments are the name of the sample array</p>
+<p>Read from a different array;</p>
+<p>Construct a new filterbank with a specific spacing.</p>
+<p>Normalize spectrum (default: ON);</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Print current settings in the post window;</p>
+<p>If using the triangular Bark spaced filters, you</p>
+<p>Rather than sum energy in the triangular Bark spaced</p>
+<p>Change internal window size setting;</p>
+<p>Move through the soundfile with the slider above,</p>
+<p>See the real-time version for more information on Bark-frequency</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>Updated for timbreIDLib version 0.7.6;</p>
+<p>August 2018;</p>
+<p>Prepend the "chain_fftData" message in front of the</p>
+<p>[tID_fft~] outputs (N/2)+1 real values from the left</p>
+<p>fftData <data> should consist of (window/2)+1 real</p>
+<p>magSpec <data> should consist of (window/2)+1 magnitudes</p>
+<p>The object in this help file accepts the chain_ messages</p>
+<p>To minimize redundant calculations on the same window</p>
+<p>barkSpec <data> should consist of 50 Bark spectrum</p>
+<h2 id="bfcc_1"><code>bfcc~</code></h2>
+<p>Construct a new filterbank with a specific spacing.</p>
+<p>Normalize spectrum (default: ON);</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Rather than sum energy in the triangular Bark spaced</p>
+<p>If using the triangular Bark spaced filters, you</p>
+<p>Print current settings in the post window;</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>Change analysis window size;</p>
+<p>Creation arguments are window size in samples and filterbank</p>
+<p>Bang repeatedly to keep refreshing...;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Bang to output BFCCs as a list;</p>
+<p>July 2017;</p>
+<p>Bark-frequency cepstrum is much different than raw cepstrum.</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<h2 id="binwrangler"><code>binWrangler</code></h2>
+<p>To clear memory, send the "clear" message. Note that</p>
+<p>Also see:;</p>
+<p>Creation arguments are the number of frames to expect</p>
+<p>[binWrangler] accumulates a database of lists sent</p>
+<p>If the optional "spew" mode is activated, featureAccum</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>After the specified number of frames have been accumulated</p>
+<p>July 2017;</p>
+<h2 id="cepstrum"><code>cepstrum</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Print current settings in the post window;</p>
+<p>Report power cepstrum (default: magnitude);</p>
+<p>Add 1 to the power or magnitude spectrum before the</p>
+<p>Change internal window size setting;</p>
+<p>Move through the soundfile with the slider above;</p>
+<p>See the real-time version for more information on cepstrum</p>
+<p>clip to graph bounds because first value in cepstrum</p>
+<p>Creation argument is the name of the sample array to</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>Updated for timbreIDLib version 0.7.6;</p>
+<p>August 2018;</p>
+<p>Prepend the "chain_fftData" message in front of the</p>
+<p>[tID_fft~] outputs (N/2)+1 real values from the left</p>
+<p>fftData <data> should consist of (window/2)+1 real</p>
+<p>magSpec <data> should consist of (window/2)+1 magnitudes</p>
+<p>The object in this help file accepts the chain_ messages</p>
+<p>To minimize redundant calculations on the same window</p>
+<h2 id="cepstrumpitch"><code>cepstrumPitch</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Print current settings in the post window;</p>
+<p>Set threshold for detecting cepstral peak. In standard</p>
+<p>Set the expected pitch range (MIDI) to determine where</p>
+<p>Use power spectrum. (default: power);</p>
+<p>Report power cepstrum (default: magnitude);</p>
+<p>Add 1 to the power or magnitude spectrum before the</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>Move through the soundfile with the slider above,</p>
+<p>July 2017;</p>
+<p>See the real-time version for more information on cepstrum</p>
+<p>Output value is pitch in MIDI units;</p>
+<p>Analyze a window starting at sample 24100 that is 2000</p>
+<p>Creation arguments are the name of the sample array</p>
+<h2 id="cepstrumpitch_1"><code>cepstrumPitch~</code></h2>
+<p>Print current settings in the post window;</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Use power spectrum. (default: power);</p>
+<p>Set the expected pitch range (MIDI) to determine where</p>
+<p>Use power cepstrum (default: magnitude);</p>
+<p>Set threshold for detecting cepstral peak. In standard</p>
+<p>Add 1 to magnitude or power spectrum before cepstrum</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>Change analysis window size;</p>
+<p>Bang repeatedly to keep refreshing..., f 21;</p>
+<p>July 2017;</p>
+<p>Bang to output pitch;</p>
+<p>Creation arguments are window size in samples and the</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>Cepstrum analysis can be used for pitch tracking by</p>
+<h2 id="cepstrum_1"><code>cepstrum~</code></h2>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Print current settings in the post window;</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Report power cepstrum (default: magnitude);</p>
+<p>Add 1 to the power or magnitude spectrum before the</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>Change analysis window size, f 17;</p>
+<p>Bang repeatedly to keep refreshing...;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Creation argument is window size in samples, f 23</p>
+<p>Bang to output cepstrum as a list;</p>
+<p>clip to graph bounds because first value in cepstrum</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>Real cepstrum is defined as the real portion of the</p>
+<p>July 2017;</p>
+<h2 id="chroma"><code>chroma</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Print current settings in the post window;</p>
+<p>Change internal window size setting;</p>
+<p>Use power spectrum. (default: ON);</p>
+<p>pitch tolerance in MIDI units;</p>
+<p>Normalize pitch energy profile (default: OFF);</p>
+<p>spectral energy threshold. energy below this thresh</p>
+<p>Microtonal offset in cents for adapting to tuning systems</p>
+<p>Use semitone, half-semitone, or third-semitone</p>
+<p>analysis frequency range in Hz;</p>
+<p>Move through the soundfile with the slider above,</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>Prepend the "chain_fftData" message in front of the</p>
+<p>[tID_fft~] outputs (N/2)+1 real values from the left</p>
+<p>fftData <data> should consist of (window/2)+1 real</p>
+<p>The object in this help file accepts the chain_ messages</p>
+<p>To minimize redundant calculations on the same window</p>
+<p>magSpec <data> should consist of (window/2)+1 magnitudes</p>
+<p>See the real-time version for more information on pitch</p>
+<p>In "half" or "third" mode, there are 24 or 36 elements</p>
+<p>Creation arguments are: the name of the sample array</p>
+<p>Updated for timbreIDLib version 0.9.0;</p>
+<p>June 2022;</p>
+<h2 id="chroma_1"><code>chroma~</code></h2>
+<p>Print current settings in the post window;</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Normalize pitch energy profile (default: OFF);</p>
+<p>Use power spectrum. (default: ON);</p>
+<p>pitch tolerance in MIDI units;</p>
+<p>spectral energy threshold. energy below this thresh</p>
+<p>Microtonal offset in cents for adapting to tuning systems</p>
+<p>Use semitone, half-semitone, or third-semitone</p>
+<p>analysis frequency range in Hz;</p>
+<p>Change analysis window size, f 17;</p>
+<p>Bang repeatedly to keep refreshing...;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Bang to output magnitude spectrum as a list;</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>Pitch chroma indicates how much spectral energy is associated</p>
+<p>Various aspects of the process can be adjusted with</p>
+<p>In "half" or "third" mode, there are 24 or 36 elements</p>
+<p>Creation arguments are: window size in samples, low</p>
+<p>Updated for timbreIDLib version 0.9.0;</p>
+<p>June 2022;</p>
+<h2 id="dct"><code>dct</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Print current settings in the post window;</p>
+<p>Normalize (default: ON);</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>Move through the soundfile with the slider above,</p>
+<p>Creation argument is the name of the sample array to</p>
+<p>See the real-time version for more information on the</p>
+<p>July 2017;</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<h2 id="dct_1"><code>dct~</code></h2>
+<p>Normalize spectrum (default: ON);</p>
+<p>Print current settings in the post window;</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>Change analysis window size, f 17;</p>
+<p>Bang repeatedly to keep refreshing...;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Creation argument is window size in samples, f 23</p>
+<p>Bang to output DCT results as a list;</p>
+<p>July 2017;</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>The discrete cosine transform (DCT) multiplies an incoming</p>
+<h2 id="energy"><code>energy</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Normalize the energy total according to the current</p>
+<p>Output energy as power instead of RMS (default: OFF)</p>
+<p>Report result in dB units instead of linear. 100 dB</p>
+<p>Creation argument is the name of the sample array to</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>Updated for timbreIDLib version 0.9.0;</p>
+<p>June 2022;</p>
+<p>See the real-time version for more information on signal</p>
+<h2 id="energyentropy"><code>energyEntropy</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Set the number of sub-windows per mid-term window;</p>
+<p>Set the number of samples in each sub-window of mid-term</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>Updated for timbreIDLib version 0.9.0;</p>
+<p>June 2022;</p>
+<p>Creation arguments are the name of the sample array</p>
+<p>See the real-time version for more information on energy</p>
+<h2 id="energyentropy_1"><code>energyEntropy~</code></h2>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Updated for timbreIDLib version 0.9.0;</p>
+<p>Creation arguments:;</p>
+<p>Output energy entropy continuously;</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Set the number of sub-windows per mid-term window;</p>
+<p>Set the number of samples in each sub-window of mid-term</p>
+<p>Each bang sent to [energyEntropy~] processes a mid-term</p>
+<p>Here, because we're using 1024 (a quarter of the</p>
+<p>compressed speech;</p>
+<p>drum loop;</p>
+<p>percussion samples;</p>
+<p>June 2022;</p>
+<p>Click one of the radio buttons to play a test signal</p>
+<p>2) number of sub-windows per mid-term window, f 26</p>
+<p>1) sub-window size (samples);</p>
+<p>Energy entropy is a measure of abrupt changes in the</p>
+<p>Note that lower entropy values are produced for abrupt</p>
+<h2 id="energy_1"><code>energy~</code></h2>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Normalize the energy total according to the current</p>
+<p>Output energy as power instead of RMS (default: OFF)</p>
+<p>Report result in dB units instead of linear. 100 dB</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Creation argument is window size in samples;</p>
+<p>Audio buffering is taken care of by the external,</p>
+<p>June 2022;</p>
+<p>Updated for timbreIDLib version 0.9.0;</p>
+<p>Output signal energy continuously;</p>
+<p>Change window size;</p>
+<p>As an alternative to Pd's built-in [env~] object,</p>
+<h2 id="featureaccum"><code>featureAccum</code></h2>
+<p>To clear memory, send the "clear" message. Note that</p>
+<p>Also see:;</p>
+<p>Updated for timbreIDLib version 0.7.6;</p>
+<p>August 2018;</p>
+<p>In "concat" mode, feature frames are accumulated until</p>
+<p>In "sum" mode, incoming feature frames are accumulated</p>
+<p>The "mean" mode behaves similarly to "sum" mode,</p>
+<p>A simple moving average can be computed using "sma"</p>
+<p>See more details about the behavior of the "concat"</p>
+<p>If the optional "spew" feature is activated in the</p>
+<p>&lt;&lt; see inside;</p>
+<p>Creation arguments are the number of frames to expect</p>
+<p>[featureAccum] accumulates a database of lists sent</p>
+<h2 id="featuredelta"><code>featureDelta</code></h2>
+<p>Also see:;</p>
+<p>Analyze the most recent frame of audio and one from</p>
+<p>[featureDelta] calculates the difference between each</p>
+<p>Updated for timbreIDLib version 0.8.2;</p>
+<p>January 2020;</p>
+<p>Creation arguments are the length of the feature,</p>
+<h2 id="featurenorm"><code>featureNorm</code></h2>
+<p>Also see:;</p>
+<p>June 2019;</p>
+<p>Creation arguments are the length of the feature and</p>
+<p>mode 1: -1 to 1 normalization;</p>
+<p>mode 0: 0 to 1 normalization;</p>
+<p>Provide minimum value and maximum value lists in the</p>
+<p>Provide feature minimum and maximum attribute lists.</p>
+<p>[featureNorm] takes in raw feature lists and normalizes</p>
+<p>Updated for timbreIDLib version 0.8.0;</p>
+<h2 id="harmonicratio"><code>harmonicRatio</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Turn normalization on or off. With normalization on</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>Updated for timbreIDLib version 0.9.0;</p>
+<p>June 2022;</p>
+<p>See the real-time version for more information on harmonic</p>
+<p>Creation argument is the name of the sample array to</p>
+<h2 id="harmonicratio_1"><code>harmonicRatio~</code></h2>
+<p>Change window size.;</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Turn normalization on or off. With normalization on</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Creation argument is window size in samples, f 23</p>
+<p>Audio buffering is taken care of by the external,</p>
+<p>June 2022;</p>
+<p>Updated for timbreIDLib version 0.9.0;</p>
+<p>Bang to output harmonic ratio;</p>
+<p>Bang repeatedly to keep refreshing...;</p>
+<p>Harmonic ratio is an indicator of the periodicity of</p>
+<p>Turn on the metro at left to activate constant analysis</p>
+<h2 id="magspec"><code>magSpec</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Normalize spectrum (default: ON);</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Print current settings in the post window;</p>
+<p>Change internal window size setting;</p>
+<p>Move through the soundfile with the slider above,</p>
+<p>Creation argument is the name of the sample array to</p>
+<p>See the real-time version for more information on magnitude</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>Updated for timbreIDLib version 0.7.6;</p>
+<p>August 2018;</p>
+<p>Prepend the "chain_fftData" message in front of the</p>
+<p>[tID_fft~] outputs (N/2)+1 real values from the left</p>
+<p>fftData <data> should consist of (window/2)+1 real</p>
+<p>The object in this help file accepts the chain_ messages</p>
+<p>To minimize redundant calculations on the same window</p>
+<h2 id="magspec_1"><code>magSpec~</code></h2>
+<p>Normalize spectrum (default: ON);</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Print current settings in the post window;</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>Change analysis window size, f 17;</p>
+<p>Bang repeatedly to keep refreshing...;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Creation argument is window size in samples, f 23</p>
+<p>Bang to output magnitude spectrum as a list;</p>
+<p>July 2017;</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>Magnitude spectrum can be measured with a combination</p>
+<h2 id="maxsample"><code>maxSample</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Creation argument is the name of the sample array to</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>July 2017;</p>
+<p>See the real-time version too.;</p>
+<p>Outlet 1: maximum sample value;</p>
+<p>Outlet 2: maximum sample index relative to the analysis</p>
+<h2 id="maxsampledelta"><code>maxSampleDelta</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Creation argument is the name of the sample array to</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>See the real-time version for more information on sample</p>
+<p>July 2017;</p>
+<p>Outlet 1: maximum sample delta value, f 31;</p>
+<p>Outlet 2: maximum sample delta index relative to the</p>
+<h2 id="maxsampledelta_1"><code>maxSampleDelta~</code></h2>
+<p>Change window size.;</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Creation argument is window size in samples;</p>
+<p>July 2017;</p>
+<p>Bang to output maximum sample delta magnitude of most</p>
+<p>Outlet 1: maximum sample delta magnitude value;</p>
+<p>Outlet 2: index of maximum sample delta magnitude relative</p>
+<p>[maxSampleDelta~] takes the absolute value of the difference</p>
+<p>Audio buffering is taken care of by the external,</p>
+<h2 id="maxsample_1"><code>maxSample~</code></h2>
+<p>Print current settings in the post window;</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>Change analysis window size, f 17;</p>
+<p>Bang repeatedly to keep refreshing...;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Creation argument is window size in samples, f 23</p>
+<p>July 2017;</p>
+<p>Bang to output maximum sample value and index;</p>
+<p>[maxSample~] reports the value and index of the largest</p>
+<p>Audio buffering is taken care of by the external,</p>
+<h2 id="melspec"><code>melSpec</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Construct a new filterbank with a specific spacing.</p>
+<p>Normalize spectrum (default: ON);</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Print current settings in the post window;</p>
+<p>Rather than sum energy in the triangular mel spaced</p>
+<p>If using the triangular mel spaced filters, you can</p>
+<p>Change internal window size setting;</p>
+<p>Move through the soundfile with the slider above,</p>
+<p>See the real-time version for more information on mel</p>
+<p>Creation arguments are the name of the sample array</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>Updated for timbreIDLib version 0.7.6;</p>
+<p>August 2018;</p>
+<p>Prepend the "chain_fftData" message in front of the</p>
+<p>[tID_fft~] outputs (N/2)+1 real values from the left</p>
+<p>fftData <data> should consist of (window/2)+1 real</p>
+<p>magSpec <data> should consist of (window/2)+1 magnitudes</p>
+<p>The object in this help file accepts the chain_ messages</p>
+<p>To minimize redundant calculations on the same window</p>
+<h2 id="melspec_1"><code>melSpec~</code></h2>
+<p>Construct a new filterbank with a specific spacing.</p>
+<p>Normalize spectrum (default: ON);</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Print current settings in the post window;</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Rather than sum energy in the triangular mel spaced</p>
+<p>If using the triangular mel spaced filters, you can</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>Change analysis window size, f 17;</p>
+<p>Bang repeatedly to keep refreshing...;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Creation arguments are window size in samples and filterbank</p>
+<p>Bang to output mel spectrum as a list;</p>
+<p>July 2017;</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>Mel-frequency spectrum is a warping of normal magnitude</p>
+<h2 id="mfcc"><code>mfcc</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Construct a new filterbank with a specific spacing.</p>
+<p>Normalize spectrum (default: ON);</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Print current settings in the post window;</p>
+<p>Rather than sum energy in the triangular mel spaced</p>
+<p>If using the triangular mel spaced filters, you can</p>
+<p>Change internal window size setting;</p>
+<p>Move through the soundfile with the slider above,</p>
+<p>Creation arguments are the name of the sample array</p>
+<p>See the real-time version for more information on mel-frequency</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>Updated for timbreIDLib version 0.7.6;</p>
+<p>August 2018;</p>
+<p>Prepend the "chain_fftData" message in front of the</p>
+<p>[tID_fft~] outputs (N/2)+1 real values from the left</p>
+<p>fftData <data> should consist of (window/2)+1 real</p>
+<p>magSpec <data> should consist of (window/2)+1 magnitudes</p>
+<p>The object in this help file accepts the chain_ messages</p>
+<p>To minimize redundant calculations on the same window</p>
+<p>melSpec <data> should consist of 38 mel-spectrum energy</p>
+<h2 id="mfcc_1"><code>mfcc~</code></h2>
+<p>Construct a new filterbank with a specific spacing.</p>
+<p>Normalize spectrum (default: ON);</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Print current settings in the post window;</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Rather than sum energy in the triangular mel spaced</p>
+<p>If using the triangular mel spaced filters, you can</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>Change analysis window size, f 16;</p>
+<p>Bang repeatedly to keep refreshing...;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Creation arguments are window size in samples and filterbank</p>
+<p>Bang to output MFCCs as a list;</p>
+<p>July 2017;</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>Mel-frequency cepstrum is much different than raw cepstrum.</p>
+<h2 id="minsample"><code>minSample</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Creation argument is the name of the sample array to</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>July 2017;</p>
+<p>See the real-time version too.;</p>
+<p>Outlet 1: minimum sample value;</p>
+<p>Outlet 2: minimum sample index relative to the analysis</p>
+<h2 id="minsampledelta"><code>minSampleDelta</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Creation argument is the name of the sample array to</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>See the real-time version for more information on sample</p>
+<p>July 2017;</p>
+<p>Outlet 1: minimum sample delta value, f 25;</p>
+<p>Outlet 2: minimum sample delta index relative to the</p>
+<h2 id="minsampledelta_1"><code>minSampleDelta~</code></h2>
+<p>Change window size.;</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Creation argument is window size in samples;</p>
+<p>July 2017;</p>
+<p>Outlet 1: minimum sample delta magnitude value;</p>
+<p>Outlet 2: index of minimum sample delta magnitude relative</p>
+<p>Bang to output minimum sample delta magnitude of most</p>
+<p>[minSampleDelta~] takes the absolute value of the difference</p>
+<p>Audio buffering is taken care of by the external,</p>
+<h2 id="minsample_1"><code>minSample~</code></h2>
+<p>Print current settings in the post window;</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>Change analysis window size, f 17;</p>
+<p>Bang repeatedly to keep refreshing...;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Creation argument is window size in samples, f 23</p>
+<p>July 2017;</p>
+<p>[minSample~] reports the value and index of the smallest</p>
+<p>Bang to output minimum sample value and index;</p>
+<p>Audio buffering is taken care of by the external,</p>
+<h2 id="nearestpoint"><code>nearestPoint</code></h2>
+<p>Clear the current set of points.;</p>
+<p>Change dimensionality.;</p>
+<p>The index of the nearest point comes out the left outlet</p>
+<p>Generate a random point in space.;</p>
+<p>nearestPoint accepts members from a set of points in</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>Output the N nearest matches to the test point;</p>
+<p>July 2017;</p>
+<p>This object exists in order to enable the timbreID timbre-space</p>
+<h2 id="peaksample"><code>peakSample</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Creation argument is the name of the sample array to</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>July 2017;</p>
+<p>See the real-time version too.;</p>
+<p>Outlet 1: peak sample value;</p>
+<p>Outlet 2: peak sample index relative to the analysis</p>
+<h2 id="peaksample_1"><code>peakSample~</code></h2>
+<p>Print current settings in the post window;</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Change analysis window size, f 16;</p>
+<p>Bang repeatedly to keep refreshing...;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Creation argument is window size in samples, f 23</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>Bang to output peak sample value and location;</p>
+<p>June 2022;</p>
+<p>Updated for timbreIDLib version 0.9.0;</p>
+<p>[peakSample~] reports the value and index of the sample</p>
+<h2 id="phasespec"><code>phaseSpec</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Print current settings in the post window;</p>
+<p>Change internal window size setting;</p>
+<p>Move through the soundfile with the slider above,</p>
+<p>Creation argument is the name of the sample array to</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>-pi;</p>
+<p>Updated for timbreIDLib version 0.7.6;</p>
+<p>August 2018;</p>
+<p>Prepend the "chain_fftData" message in front of the</p>
+<p>[tID_fft~] outputs (N/2)+1 real values from the left</p>
+<p>fftData <data> should consist of (window/2)+1 real</p>
+<p>The object in this help file accepts the chain_ messages</p>
+<p>To minimize redundant calculations on the same window</p>
+<p>See the real-time version for more information on phase</p>
+<h2 id="phasespec_1"><code>phaseSpec~</code></h2>
+<p>Print current settings in the post window;</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Change analysis window size, f 17;</p>
+<p>Bang repeatedly to keep refreshing...;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Creation argument is window size in samples, f 23</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>-pi;</p>
+<p>Updated for timbreIDLib version 0.7.6;</p>
+<p>August 2018;</p>
+<p>Bang to output spectrum phases as a list;</p>
+<p>The phase spectrum is calculated by taking the arctangent</p>
+<h2 id="samplebuffer"><code>sampleBuffer~</code></h2>
+<p>Print current settings in the post window;</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>Change analysis window size, f 16;</p>
+<p>Bang repeatedly to keep refreshing...;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Creation argument is window size in samples, f 23</p>
+<p>July 2017;</p>
+<p>Bang to output the most recent N samples as a list,</p>
+<p>[sampleBuffer~] contains the same audio buffering routine</p>
+<p>Audio buffering is taken care of by the external,</p>
+<h2 id="specbrightness"><code>specBrightness</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>See the real-time version for more information on spectral</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Set boundary frequency (default: 1200);</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Change internal window size setting;</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>Creation arguments are the name of the sample array</p>
+<p>Updated for timbreIDLib version 0.7.6;</p>
+<p>August 2018;</p>
+<p>Prepend the "chain_fftData" message in front of the</p>
+<p>[tID_fft~] outputs (N/2)+1 real values from the left</p>
+<p>fftData <data> should consist of (window/2)+1 real</p>
+<p>magSpec <data> should consist of (window/2)+1 magnitudes</p>
+<p>The object in this help file accepts the chain_ messages</p>
+<p>To minimize redundant calculations on the same window</p>
+<h2 id="specbrightness_1"><code>specBrightness~</code></h2>
+<p>Change window size.;</p>
+<p>Set boundary freq.;</p>
+<p>Bang to output brightness.;</p>
+<p>Spectral Brightness is the ratio of the sum of magnitudes</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>Creation arguments are window size in samples, and</p>
+<p>July 2017;</p>
+<h2 id="speccentroid"><code>specCentroid</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>See the real-time version for more information on spectral</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Change internal window size setting;</p>
+<p>Creation argument is the name of the sample array to</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>Updated for timbreIDLib version 0.7.6;</p>
+<p>August 2018;</p>
+<p>Prepend the "chain_fftData" message in front of the</p>
+<p>[tID_fft~] outputs (N/2)+1 real values from the left</p>
+<p>fftData <data> should consist of (window/2)+1 real</p>
+<p>magSpec <data> should consist of (window/2)+1 magnitudes</p>
+<p>The object in this help file accepts the chain_ messages</p>
+<p>To minimize redundant calculations on the same window</p>
+<h2 id="speccentroid_1"><code>specCentroid~</code></h2>
+<p>Change window size.;</p>
+<p>Bang to output centroid.;</p>
+<p>Spectral Centroid is the center of mass of magnitude</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>Creation argument is window size in samples;</p>
+<p>July 2017;</p>
+<h2 id="specflatness"><code>specFlatness</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Change internal window size setting;</p>
+<p>Creation argument is the name of the sample array to</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>See the real-time version for more information on spectral</p>
+<p>Updated for timbreIDLib version 0.7.6;</p>
+<p>August 2018;</p>
+<p>Prepend the "chain_fftData" message in front of the</p>
+<p>[tID_fft~] outputs (N/2)+1 real values from the left</p>
+<p>fftData <data> should consist of (window/2)+1 real</p>
+<p>magSpec <data> should consist of (window/2)+1 magnitudes</p>
+<p>The object in this help file accepts the chain_ messages</p>
+<p>To minimize redundant calculations on the same window</p>
+<h2 id="specflatness_1"><code>specFlatness~</code></h2>
+<p>Change window size.;</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>Creation argument is window size in samples;</p>
+<p>Bang to output flatness;</p>
+<p>July 2017;</p>
+<p>Spectral Flatness is the ratio of the geometric mean</p>
+<h2 id="specflux"><code>specFlux</code></h2>
+<p>See the real-time version for more information on spectral</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Squared difference vs. Absolute value of difference.</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Set separation in samples between analysis windows</p>
+<p>Change internal window size setting;</p>
+<p>Normalize spectrum. (default: OFF);</p>
+<p>Use the natural logarithm of spectrum values. (default:</p>
+<p>Creation arguments are the name of the sample array</p>
+<p>Analyze a FORWARD window starting at sample 44100 that</p>
+<p>Change modes to report flux, spectral growth only</p>
+<p>Prepend the "chain_fftData" message in front of the</p>
+<p>The object in this help file accepts the chain_ messages</p>
+<p>To minimize redundant calculations on the same window</p>
+<p>[tID_fft~] outputs (N/2)+1 real values from the left</p>
+<p>fftData <data> should consist of (window/2)+1 real</p>
+<p>Spectral flux is a special case, because measurements</p>
+<p>magSpec <data> should consist of (window/2)+1 magnitudes</p>
+<p>Updated for timbreIDLib version 0.9.0;</p>
+<p>June 2022;</p>
+<h2 id="specflux_1"><code>specFlux~</code></h2>
+<p>Turn on for continuous analysis;</p>
+<p>Spectral flux can be used for basic attack detection.</p>
+<p>If 800 is too low or high, try a different threshhold.</p>
+<p>For these purposes, we'll turn on "growth" mode so</p>
+<p>Activate a signal above and bang to output its flux.</p>
+<p>Change window size.;</p>
+<p>Squared difference vs. Absolute value of difference.</p>
+<p>Use power instead of magnitude;</p>
+<p>Change distance between analysis windows in samples.</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Normalize spectrum. Default: OFF.;</p>
+<p>Use the natural logarithm of spectrum values;</p>
+<p>Creation arguments are window size and separation in</p>
+<p>specFlux~ reports the full list of differences (i.e.</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>In the [attack-detection] sub-patch, the left outlet</p>
+<p>Typically, spectral flux is the sum of squared difference</p>
+<p>Change modes to report flux, spectral growth only</p>
+<p>Updated for timbreIDLib version 0.9.0;</p>
+<p>June 2022;</p>
+<h2 id="specharmonicity"><code>specHarmonicity</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Print current settings in the post window;</p>
+<p>Threshold for detecting spectral peaks in percent relative</p>
+<p>Maximum number of peaks to consider. (default: 24)</p>
+<p>Minimum allowed fundamental frequency. (default: 30)</p>
+<p>Maximum allowed fundamental frequency. (default: 4000)</p>
+<p>Flag to use fundamental frequency data supplied to</p>
+<p>Change internal window size setting;</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>Move through the soundfile with the slider above;</p>
+<p>Creation argument is the name of the sample array to</p>
+<p>See the real-time version for more information on spectrum</p>
+<p>Outlet 1: spectrum harmonicity;</p>
+<p>Outlet 2: spectrum inharmonicity;</p>
+<p>Inlet 2: fundamental frequency in Hz (not MIDI!). Only</p>
+<p>Updated for timbreIDLib version 0.7.6;</p>
+<p>August 2018;</p>
+<p>Prepend the "chain_fftData" message in front of the</p>
+<p>[tID_fft~] outputs (N/2)+1 real values from the left</p>
+<p>fftData <data> should consist of (window/2)+1 real</p>
+<p>magSpec <data> should consist of (window/2)+1 magnitudes</p>
+<p>The object in this help file accepts the chain_ messages</p>
+<p>To minimize redundant calculations on the same window</p>
+<h2 id="specharmonicity_1"><code>specHarmonicity~</code></h2>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Change window size.;</p>
+<p>Print current settings in the post window;</p>
+<p>Threshold for detecting spectral peaks in percent relative</p>
+<p>Maximum number of peaks to consider. (default: 24)</p>
+<p>Minimum allowed fundamental frequency. (default: 30)</p>
+<p>Maximum allowed fundamental frequency. (default: 4000)</p>
+<p>Flag to use fundamental frequency data supplied to</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>Creation argument is window size in samples;</p>
+<p>July 2017;</p>
+<p>Bang to output harmonicity and inharmonicity, f 18</p>
+<p>only show the first 1/8th of the spectrum;</p>
+<p>If you choose to use the "input_fund" feature to specify</p>
+<p>Outlet 1: spectrum harmonicity;</p>
+<p>Outlet 2: spectrum inharmonicity;</p>
+<p>Inlet 2: fundamental frequency in Hz (not MIDI!). Only</p>
+<p>The two outlets supply separate harmonicity and inharmonicity</p>
+<p>[specHarmonicity~] quantifies the harmonic alignment</p>
+<h2 id="specirregularity"><code>specIrregularity</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Normalize spectrum. This only affects results when</p>
+<p>Change internal window size setting;</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>Creation arguments are the name of the sample array</p>
+<p>See the real-time version for more information on spectral</p>
+<p>Choose either Jensen (0) or Krimphoff (1) algorithm.</p>
+<p>Updated for timbreIDLib version 0.7.6;</p>
+<p>August 2018;</p>
+<p>Prepend the "chain_fftData" message in front of the</p>
+<p>[tID_fft~] outputs (N/2)+1 real values from the left</p>
+<p>fftData <data> should consist of (window/2)+1 real</p>
+<p>magSpec <data> should consist of (window/2)+1 magnitudes</p>
+<p>The object in this help file accepts the chain_ messages</p>
+<p>To minimize redundant calculations on the same window</p>
+<h2 id="specirregularity_1"><code>specIrregularity~</code></h2>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Normalize spectrum. This only affects results when</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Choose either Jensen (0) or Krimphoff (1) algorithm.</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>Creation arguments are window size in samples, and</p>
+<p>Bang to output irregularity;</p>
+<p>Change window size;</p>
+<p>July 2017;</p>
+<p>Spectral Irregularity has two common definitions: one</p>
+<h2 id="speckurtosis"><code>specKurtosis</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Change internal window size setting;</p>
+<p>Creation argument is the name of the sample array to</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>See the real-time version for more information on spectral</p>
+<p>Updated for timbreIDLib version 0.7.6;</p>
+<p>August 2018;</p>
+<p>Prepend the "chain_fftData" message in front of the</p>
+<p>[tID_fft~] outputs (N/2)+1 real values from the left</p>
+<p>fftData <data> should consist of (window/2)+1 real</p>
+<p>magSpec <data> should consist of (window/2)+1 magnitudes</p>
+<p>The object in this help file accepts the chain_ messages</p>
+<p>To minimize redundant calculations on the same window</p>
+<h2 id="speckurtosis_1"><code>specKurtosis~</code></h2>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>Creation argument is window size in samples;</p>
+<p>Bang continuously;</p>
+<p>Spectral kurtosis measures the peakedness of a spectrum.</p>
+<p>Change window size;</p>
+<p>Bang to output kurtosis;</p>
+<p>July 2017;</p>
+<h2 id="specrolloff"><code>specRolloff</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Set concentration target (default: 0.85);</p>
+<p>Change internal window size setting;</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>Creation arguments are the name of the sample array</p>
+<p>See the real-time version for more information on spectral</p>
+<p>Updated for timbreIDLib version 0.7.6;</p>
+<p>August 2018;</p>
+<p>Prepend the "chain_fftData" message in front of the</p>
+<p>[tID_fft~] outputs (N/2)+1 real values from the left</p>
+<p>fftData <data> should consist of (window/2)+1 real</p>
+<p>magSpec <data> should consist of (window/2)+1 magnitudes</p>
+<p>The object in this help file accepts the chain_ messages</p>
+<p>To minimize redundant calculations on the same window</p>
+<h2 id="specrolloff_1"><code>specRolloff~</code></h2>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>Set energy concentration target;</p>
+<p>Creation arguments are window size in samples, and</p>
+<p>Bang to output rolloff frequency;</p>
+<p>Change window size;</p>
+<p>Output continuously;</p>
+<p>Spectral Rolloff is the frequency below which a certain</p>
+<p>July 2017;</p>
+<h2 id="specskewness"><code>specSkewness</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Change internal window size setting;</p>
+<p>Creation argument is the name of the sample array to</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>See the real-time version for more information on spectral</p>
+<p>Updated for timbreIDLib version 0.7.6;</p>
+<p>August 2018;</p>
+<p>Prepend the "chain_fftData" message in front of the</p>
+<p>[tID_fft~] outputs (N/2)+1 real values from the left</p>
+<p>fftData <data> should consist of (window/2)+1 real</p>
+<p>magSpec <data> should consist of (window/2)+1 magnitudes</p>
+<p>The object in this help file accepts the chain_ messages</p>
+<p>To minimize redundant calculations on the same window</p>
+<h2 id="specskewness_1"><code>specSkewness~</code></h2>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>Creation argument is window size in samples;</p>
+<p>Bang continuously;</p>
+<p>Change window size;</p>
+<p>Bang to output skewness;</p>
+<p>July 2017;</p>
+<p>Spectral skewness measures the symmetry of a spectral</p>
+<h2 id="specslope"><code>specSlope</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>Read from a different array;</p>
+<p>Normalize spectrum (default: ON);</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Print current settings in the post window;</p>
+<p>Change window size;</p>
+<p>Use the slider above to move through the audio file</p>
+<p>Creation argument is the name of the sample array to</p>
+<p>See the real-time version for more information on spectral</p>
+<p>Updated for timbreIDLib version 0.7.6;</p>
+<p>August 2018;</p>
+<p>Prepend the "chain_fftData" message in front of the</p>
+<p>[tID_fft~] outputs (N/2)+1 real values from the left</p>
+<p>fftData <data> should consist of (window/2)+1 real</p>
+<p>magSpec <data> should consist of (window/2)+1 magnitudes</p>
+<p>The object in this help file accepts the chain_ messages</p>
+<p>To minimize redundant calculations on the same window</p>
+<h2 id="specslope_1"><code>specSlope~</code></h2>
+<p>Change analysis window size;</p>
+<p>Bang repeatedly...;</p>
+<p>Bang to output slope;</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>Normalize spectrum (default: ON);</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Print current settings in the post window;</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Spectrum slope is the slope of the best-fit line through</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>July 2017;</p>
+<h2 id="specspread"><code>specSpread</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Change internal window size setting;</p>
+<p>Creation argument is the name of the sample array to</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>See the real-time version for more information on spectral</p>
+<p>Updated for timbreIDLib version 0.7.6;</p>
+<p>August 2018;</p>
+<p>Prepend the "chain_fftData" message in front of the</p>
+<p>[tID_fft~] outputs (N/2)+1 real values from the left</p>
+<p>fftData <data> should consist of (window/2)+1 real</p>
+<p>magSpec <data> should consist of (window/2)+1 magnitudes</p>
+<p>The object in this help file accepts the chain_ messages</p>
+<p>To minimize redundant calculations on the same window</p>
+<h2 id="specspread_1"><code>specSpread~</code></h2>
+<p>Use power spectrum. (default: magnitude);</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>Creation argument is window size in samples;</p>
+<p>Bang continuously;</p>
+<p>Change window size;</p>
+<p>Bang to output spread;</p>
+<p>fundamental;</p>
+<p>waveshaper;</p>
+<p>divide by fundamental;</p>
+<p>range for table;</p>
+<p>offset to middle of table;</p>
+<p>C.F. relative;</p>
+<p>to fundamental;</p>
+<p>(MIDI units);</p>
+<p>ring mod;</p>
+<p>This is taken straight from Pd's built-in documentation</p>
+<p>Spectral spread is a measure of the concentration of</p>
+<p>July 2017;</p>
+<h2 id="tid-conversion"><code>tID-conversion</code></h2>
+<p>timbreID conversion objects use the same functions in</p>
+<p>Bark frequency is calculated as 6.0*asinh(freq/600.0)</p>
+<p>Mel frequency is calculated as 1127*log(1+(freq/700))</p>
+<p>Updated for timbreIDLib version 0.7.6;</p>
+<p>August 2018;</p>
+<p>Frequency is calculated as bin*R/N, and bin number</p>
+<h2 id="tid_fft"><code>tID_fft</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Change internal window size setting;</p>
+<p>Print current settings in the post window;</p>
+<p>Zero pad after the windowed signal content. A zero</p>
+<p>Normalize spectrum (default: OFF);</p>
+<p>Move through the soundfile with the slider above,</p>
+<p>Creation argument is the name of the sample array to</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>See the real-time version for more information on timbreID's</p>
+<p>Updated for timbreIDLib version 0.8.0;</p>
+<p>June 2019;</p>
+<h2 id="tid_fft_1"><code>tID_fft~</code></h2>
+<p>Print current settings in the post window;</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Zero pad after the windowed signal content. A zero</p>
+<p>Normalize spectrum (default: OFF);</p>
+<p>Change analysis window size, f 17;</p>
+<p>Bang repeatedly to keep refreshing...;</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Creation argument is window size in samples, f 23</p>
+<p>Audio buffering and windowing are taken care of by</p>
+<p>Outlet 1: real components;</p>
+<p>Outlet 2: imaginary components;</p>
+<p>Bang to output complex Fourier transform data as a</p>
+<p>The complex Fourier transform of a signal can be obtained</p>
+<p>Updated for timbreIDLib version 0.8.0;</p>
+<p>June 2019;</p>
+<h2 id="tid_mean"><code>tID_mean</code></h2>
+<p>Suppose you take 32 spectral centroid measurements over</p>
+<p>Creating a larger feature vector composed of several</p>
+<p>Also see:;</p>
+<p>Taking the mean and standard deviation for each of these</p>
+<p>[tID_mean] calculates the arithmetic mean (average) of</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>July 2017;</p>
+<h2 id="tid_std"><code>tID_std</code></h2>
+<p>Suppose you take 32 spectral centroid measurements over</p>
+<p>Creating a larger feature vector composed of several</p>
+<p>The [tID_std] object calculates the standard deviation</p>
+<p>Also see:;</p>
+<p>Taking the mean and standard deviation for each of these</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>July 2017;</p>
+<h2 id="tabletool"><code>tabletool</code></h2>
+<p>Dot product;</p>
+<p>Euclidean distance;</p>
+<p>Taxicab distance;</p>
+<p>Pearson correlation;</p>
+<p>Add value pairs by index., f 16;</p>
+<p>Multiply value pairs by index.;</p>
+<p>Divide value pairs by index.;</p>
+<p>Subtract value pairs by index., f 15;</p>
+<p>NOTE: data from the table specified in the message is</p>
+<p>NOTE: the active table's data is divided by data from</p>
+<p>These four methods operate between the active table and</p>
+<p>These methods perform arithmetic on the active table</p>
+<p>The "autocorr" method calculates cross correlation</p>
+<p>Add a positive or negative offset to all values.;</p>
+<p>Shift elements by index forward or back. The overflow</p>
+<p>Multiply all values by a scalar;</p>
+<p>Copy another table to the currently set table.;</p>
+<p>Copy part of another table to the currently set table.</p>
+<p>Like shift, but fill excess with zeros.;</p>
+<p>Remove the value at a certain index, and send it</p>
+<p>Starting at a certain index, insert a value. Remaining</p>
+<p>Write a constant (\$1) to a range of the table from</p>
+<p>Normalize to a range with a specified minimum (\$1)</p>
+<p>Normalize so that all values are between 0 and 1,</p>
+<p>Shuffle table elements in a random order.;</p>
+<p>Reverse the order of all elements.;</p>
+<p>Sort values from low to high and reorder. For high to</p>
+<p>Swap a pair of values at certain indices.;</p>
+<p>Replace all occurrences of the first value with the</p>
+<p>Flip all values. Low becomes high and vice versa.;</p>
+<p>Smooth out data by averaging with neighboring values.</p>
+<p>Sort only a specific range between indices$1 and</p>
+<p>Take the absolute value of the table data;</p>
+<p>Raise table data to a given power;</p>
+<p>Write common windowing functions to an array. Windows</p>
+<p>Fill an array with random numbers in a certain range.</p>
+<p>Shift drag to try different exponents.;</p>
+<p>Generate a random walk. Arguments: starting value,</p>
+<p>Generate a series of values between two points (\$1</p>
+<p>Clip all values in table to lower and upper limits;</p>
+<p>Set all values to the next highest integer;</p>
+<p>Set all values to the next lowest integer;</p>
+<p>Take the reciprocal of all values;</p>
+<p>Bash any values above a threshold (\$1) to the given</p>
+<p>Bash any values below a threshold (\$1) to the given</p>
+<p>Round all values in table to a given resolution (\$1)</p>
+<p>Convert all values from MIDI to frequency in Hz;</p>
+<p>Convert from Bark to frequency in Hz;</p>
+<p>Convert from frequency in Hz to Bark;</p>
+<p>Convert all values from frequency in Hz to MIDI;</p>
+<p>Convert all values from decibels to RMS amplitude;</p>
+<p>Convert all values from RMS amplitude decibels;</p>
+<p>&lt;&lt; MIDI range of a piano;</p>
+<p>Convert from bin number to frequency based on a given</p>
+<p>Convert from frequency to bin number based on a given</p>
+<p>Between commands, you should re-fit the boundaries</p>
+<p>The fit_bounds method finds the maximum and minimum values</p>
+<p>Finally, you can also search for peaks based on min</p>
+<p>You can search for valleys in a similar fashion based</p>
+<p>Search for peaks based on changes in slope from positive</p>
+<p>Search for any changes in the table. If any value has</p>
+<p>Search for zero crossings. Left outlet reports the</p>
+<p>Search for occurrences of a particular value, and</p>
+<p>Search for values that are greater than a particular</p>
+<p>Search for values that are less than a particular value</p>
+<p>Look for values between two bounds (non-inclusive)</p>
+<p>Minimum value in table.;</p>
+<p>Maximum value in table.;</p>
+<p>Nearest value in table.;</p>
+<p>For these methods, the value itself appears at the</p>
+<p>Find the k smallest values and output as a list;</p>
+<p>Find the k largest values and output as a list;</p>
+<p>Value and index of the item with the minimum/maximum</p>
+<p>[tabletool] manipulates, searches, and provides</p>
+<p>For non-real-time assembling of audio, the overlap_add</p>
+<p>Here's a toy example where we grab random 8192-point</p>
+<p>Arguments;$1: starting sample in source array;</p>
+<p>Window function names; rectangular; blackman;</p>
+<p>The permute method lists all permutations (with repetition)</p>
+<p>Or concatenate the active table with another table.</p>
+<p>Lace the active table with another table, sending</p>
+<p>If table size == N, this creates a list of N values</p>
+<p>This creates a list of N values where term_i = tablevalue_i</p>
+<p>Take the arithmetic mean.;</p>
+<p>Calculate standard deviation.;</p>
+<p>Take the geometric mean. You will get NANs on negative</p>
+<p>Return a copy of the table data as a set with no duplicate</p>
+<p>Find the median value. The median will be output from</p>
+<p>Find the mode. The mode will be output from the left</p>
+<p>Sum all values.;</p>
+<p>Find the range of the table data.;</p>
+<p>Dump all values to a list at the right outlet.;</p>
+<p>Ask for the length of the table.;</p>
+<p>Specify the active table.;</p>
+<p>Restore the stored values after you've messsed them</p>
+<p>Wipe all memory.;</p>
+<p>Store the table values to internal memory. Note that</p>
+<p>Randomly select a value from the table. The index of</p>
+<p>Iterate through the table and send each value out the</p>
+<p>Dump values from index$1 through index$2 to a list</p>
+<p>Arguments are: lower and upper indices to search between</p>
+<p>Add some INHARMONIC partials to try and screw up the</p>
+<p>Randomize the amplitudes;</p>
+<p>Wait 100ms for the pitch transition to settle, then</p>
+<p>If DSP is on, you can re-tune the fundamental of a</p>
+<p>The index of the most likely fundamental peak is sent</p>
+<p>Run the Harmonic Product Spectrum algorithm, which</p>
+<p>When building a label file based on classifications</p>
+<p>Updated for timbreIDLib version 0.9.0;</p>
+<p>June 2022;</p>
+<h2 id="tempo"><code>tempo~</code></h2>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Change windowing function. Rectangular (0), Blackman</p>
+<p>Change window size;</p>
+<p>Use power instead of magnitude spectrum for the spectral</p>
+<p>Change analysis hop and frame separation;</p>
+<p>Use squared spectral difference vs. absolute value</p>
+<p>Tempo range to search for (BPM);</p>
+<p>Number of harmonics to search for in HPS algorithm</p>
+<p>Reset the current maximum peak value and search for</p>
+<p>Enable/disable updating of the maximum onset peak value</p>
+<p>Onset peak threshold as percentage of the current maximum</p>
+<p>Specify a limited frequency band in Hz to use in spectral</p>
+<p>Specify a value that all onset data to be bashed to</p>
+<p>Onset buffer size (ms). This duration is also resized</p>
+<p>&lt;&lt; since spectral difference onset data has an unpredictable</p>
+<p>Updated for timbreIDLib version 0.7.6;</p>
+<p>While you can use the raw tempo results appearing at</p>
+<p>Fill the tempo buffer with a particular BPM value;</p>
+<p>Initialize the tempo buffer, filling it with -1's</p>
+<p>Size of the buffer holding the latest tempo measurements</p>
+<p>Activate debug mode;</p>
+<p>Print internal settings and info to the Pd console</p>
+<p>Some generally useful info:;</p>
+<p>The slower your tempo, the longer your onset buffer</p>
+<p>Don't set the "harmonics" setting too low (2) or too</p>
+<p>If you can live with very high latency, try making</p>
+<p>Tempo tracking works best on signals with a stable tempo</p>
+<p>Tempo tracking is prone to "octave errors" (i.e.,</p>
+<p>Onset peak data thresholding works based on a percent</p>
+<p>Before running the HPS algorithm on the onset peak</p>
+<p>Unlike pitch and onset tracking, tempo estimation</p>
+<p>Use the "reset_max_onset_peak" method any time your</p>
+<p>[tempo~] estimates the tempo (BPM) of an input signal.</p>
+<p>There are many settings that affect the accuracy and</p>
+<p>Outlets:;</p>
+<p>4) Spectral growth onset data list;</p>
+<p>Creation arguments:, f 20;</p>
+<p>1) Window size in samples;</p>
+<p>2) Analysis hop in samples;</p>
+<p>2) Confidence in mode tempo (percent);</p>
+<p>3) Raw tempo estimate (BPM);</p>
+<p>1) Mode of most recent tempo estimates (rounded BPM)</p>
+<p>August 2018;</p>
+<h2 id="timbreid"><code>timbreID</code></h2>
+<p>For more detailed examples, download the separate</p>
+<p>The aim of this library is to provide a flexible set</p>
+<p>Because there is a lot of flexibility, there are</p>
+<p>This help patch provides a basic example of how to classify</p>
+<p>BFCCs are used here, but [timbreID] can receive any</p>
+<p>Some other feature extraction objects in the timbreIDLib</p>
+<p>[timbreID] stores, clusters, and classifies feature</p>
+<p>Detect onsets with bark~;</p>
+<p>Doing the attack detection in a subpatch with the input</p>
+<p>These were good onset detection settings for the audio</p>
+<p>timbreIDLib comes with its own onset detection object:</p>
+<p>The third outlet reports a questionable confidence measure</p>
+<p>Specify a list of weights. Suppose you have a feature</p>
+<p>If you need to look at the feature database values,</p>
+<p>Write an OCTAVE data file in text data format. You can</p>
+<p>Write an ARFF file for direct import into WEKA (<a href="http://www.cs.waikato.ac.nz/ml/weka">www.cs.waikato.ac.nz/ml/weka</a>).</p>
+<p>Write a training database file for use with the FANN</p>
+<p>[timbreID]'s default binary file format is .timid. This</p>
+<p>Also note that "write_text" obeys the "attribute_order"</p>
+<p>Write a MATLAB matrix file, that can be loaded with</p>
+<p>The FANN method uses the current cluster index of each</p>
+<p>"write_text" arguments; 1) the file name to be written</p>
+<p>Arguments: 1) the file name to be written, 2) an</p>
+<p>Note that as of timbreIDLib version 0.7, the text</p>
+<p>Query the maximum and minimum instance lengths in the</p>
+<p>Request a specific instance's full feature list;</p>
+<p>Request a list of a specific attribute for all instances</p>
+<p>Get a list of the K largest or smallest values for</p>
+<p>Find out how many instances are in the database, f</p>
+<p>Print information about [timbreID]'s internal memory</p>
+<p>Spit out a list of the max or min values for all attributes</p>
+<p>Apart from "print", these methods produce output at</p>
+<p>Generate a similarity matrix. Arguments are starting</p>
+<p>Arguments; 1) attribute index; 2) optional normalization</p>
+<p>Arguments; 1) instance index; 2) optional normalization</p>
+<p>Arguments; 1) k (number of values to output); 2)</p>
+<p>These methods are only relevant when performing ID requests</p>
+<p>Restrict the search to a neighborhood of instances around</p>
+<p>Specify the center instance for searching within a neighborhood</p>
+<p>With reorient on, the search_center will be constantly</p>
+<p>With the "stutter_protect" option on, [timbreID] does</p>
+<p>Set a probability between 0-1 that search center will</p>
+<p>Turn on/off database search wrapping when using [timbreID]'s</p>
+<p>The "max_matches" setting can have an impact on how</p>
+<p>Another alternative to auto-clustering is "manual_cluster"</p>
+<p>The text format that results from "write_clusters_text"</p>
+<p>Find out what cluster a given database instance belongs</p>
+<p>If you have clustered your instances, send the full</p>
+<p>For small training datasets like the one in this help</p>
+<p>Also note that [timbreID] does not check to see if</p>
+<p>&lt;&lt; Methods designed for concatenative synthesis. They</p>
+<p>Output the distances and instance (or cluster) IDs of</p>
+<p>Manual step;</p>
+<p>Inter-onset time;</p>
+<p>Sorry, no envelope to make the transitions pretty...</p>
+<p>1) Load the training sample to a table:;</p>
+<p>3) Try an order starting from a particular instrument:</p>
+<p>2) Load a list of attack locations in samples:;</p>
+<p>Auto-play through timbre order, f 18;</p>
+<p>There are two options for timbre order requests: relative</p>
+<p>See the timbre-ordering example in the examples package</p>
+<p>Choose a distance metric.; 0 is Euclidean distance</p>
+<p>Order attributes by variance, so that only the most</p>
+<p>You can provide a list of symbolic names for attributes</p>
+<p>You can retrieve the symbolic name, weight, and</p>
+<p>Manually order the attributes. In conjunction with</p>
+<p>&lt;&lt; A small example of how to order sounds by timbre</p>
+<p>&lt;&lt; How to save cluster information;</p>
+<p>Specify a restricted range of attributes to use in</p>
+<p>Normalize all feature attributes to the 0-1 range.</p>
+<p>Go back to regular attribute order;</p>
+<p>This is only relevant if clustering has been performed.</p>
+<p>If you prepend an input feature list with "worst_match"</p>
+<p>Test with the given training/testing recordings. Turn</p>
+<p>3rd inlet has specific functionality for concatenative</p>
+<p>Several methods produce output at the fourth outlet</p>
+<p>&lt;&lt; this sends timbre order results to a table in [pd</p>
+<p>You can train on any combination of audio features.</p>
+<p>June 2022;</p>
+<p>Many more details inside &gt;&gt;;</p>
+<p>Perform hierarchical clustering to find a given number</p>
+<p>Wipe all instances to start over;</p>
+<p>First outlet reports the index of the nearest match</p>
+<p>During training, the first outlet reports the number</p>
+<p>Second outlet reports the distance to the nearest match</p>
+<p>Open this subpatch for a description of the object;</p>
+<p>Read &amp; write feature database (binary format);</p>
+<p>Go back to reporting raw instance indices;</p>
+<p>Updated for timbreIDLib version 0.9.0;</p>
+<h2 id="wavenoise"><code>waveNoise</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Creation argument is the name of the sample array to</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>See the real-time version for more information on waveform</p>
+<p>Updated for timbreIDLib version 0.9.0;</p>
+<p>June 2022;</p>
+<p>Note that with a real signal, low level noise will</p>
+<h2 id="wavenoise_1"><code>waveNoise~</code></h2>
+<p>Change window size.;</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Bang repeatedly to keep refreshing...;</p>
+<p>Audio buffering is taken care of by the external,</p>
+<p>June 2022;</p>
+<p>Updated for timbreIDLib version 0.9.0;</p>
+<p>Similar to zero crossing, another time-domain measure</p>
+<h2 id="waveslope"><code>waveSlope</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Print current settings in the post window;</p>
+<p>Normalize the waveform in the analysis window so that</p>
+<p>Use the slider above to move through the audio file</p>
+<p>Creation argument is the name of the sample array to</p>
+<p>See the real-time version for more information on waveform</p>
+<p>July 2017;</p>
+<p>Note that quiet moments between sound events will produce</p>
+<h2 id="waveslope_1"><code>waveSlope~</code></h2>
+<p>Change analysis window size;</p>
+<p>Bang repeatedly...;</p>
+<p>Bang to output slope;</p>
+<p>Updated for timbreIDLib version 0.7;</p>
+<p>Print current settings in the post window;</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Normalize the waveform in the analysis window so that</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>With a real signal, quiet moments between sound events</p>
+<p>July 2017;</p>
+<p>Waveform slope is the slope of the best-fit line through</p>
+<p>Audio buffering is taken care of by the external,</p>
+<h2 id="zerocrossing"><code>zeroCrossing</code></h2>
+<p>Bang to analyze the entire array.;</p>
+<p>Read from a different array;</p>
+<p>Specify your sample's sampling rate. (default: 44100)</p>
+<p>Normalize the zero crossing total according to the current</p>
+<p>Creation argument is the name of the sample array to</p>
+<p>Analyze a window starting at sample 44100 that is 2000</p>
+<p>See the real-time version for more information on zero</p>
+<p>Note that with a real signal, low level noise will</p>
+<p>Updated for timbreIDLib version 0.9.0;</p>
+<p>June 2022;</p>
+<h2 id="zerocrossing_1"><code>zeroCrossing~</code></h2>
+<p>Change window size.;</p>
+<p>Inside a subpatch with re-blocking involving overlap</p>
+<p>Normalize the zero crossing total according to the</p>
+<p>This feature can be sent to the timbreID external in</p>
+<p>Creation argument is window size in samples;</p>
+<p>Bang to output zero crossings;</p>
+<p>A simple way to measure a signal's noisiness is to count</p>
+<p>Audio buffering is taken care of by the external,</p>
+<p>June 2022;</p>
+<p>Updated for timbreIDLib version 0.9.0;</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.sections", "content.code.annotate", "content.code.copy", "search.highlight", "search.suggest", "toc.integrate", "toc.follow", "navigation.instant", "header.autohide"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
