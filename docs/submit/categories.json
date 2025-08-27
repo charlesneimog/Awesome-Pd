@@ -1,0 +1,64 @@
+{
+    "AI": {
+        "Machine Learning": [],
+        "Deep Learning": [
+            {
+                "nn~": "objects/nn~.md"
+            }
+        ],
+        "Statical Models": []
+    },
+    "Composition": {
+        "Algorithm Composition": [],
+        "Procedures": []
+    },
+    "Control": {
+        "Logic": [],
+        "Math": [],
+        "Routing": [],
+        "Envelopes": [],
+        "LFOs": [],
+        "Sequencers": [],
+        "MIDI": []
+    },
+    "Effects": {
+        "Reverb": [],
+        "Delay": [],
+        "Distortion": [],
+        "Chorus/Flanger/Phaser": [],
+        "Filters": [],
+        "Dynamics": []
+    },
+    "MIR": {
+        "Descriptors": [],
+        "Score Follower": [
+            {
+                "o.scofo~": "objects/o.scofo~.md"
+            }
+        ]
+    },
+    "Spatialization": {
+        "Ambisonics": [],
+        "Binaural": [
+            {
+                "earplug~": "objects/earplug~.md"
+            },
+            {
+                "sofalizer~": "objects/sofalizer~.md"
+            }
+        ]
+    },
+    "Synthesis": {
+        "Subtractive": [],
+        "Additive": [],
+        "Granular": [],
+        "Physical Modeling": [],
+        "Oscillators": [],
+        "Samplers": []
+    },
+    "Utilities": {
+        "Data Structures": [],
+        "File IO": [],
+        "Networking": []
+    }
+}

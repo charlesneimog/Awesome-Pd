@@ -1,0 +1,14 @@
+.invite {
+    position: relative;
+    font-weight: 600;
+    color: #000; /* preto */
+    cursor: default;
+    display: inline-block; /* mantém o underline certinho */
+    text-align: center; /* alinhamento do texto */
+    margin: 0 auto; /* centraliza o bloco */
+}
+
+.gsc-comments {
+    box-radius: 10px;
+    padding: 400px;
+}
