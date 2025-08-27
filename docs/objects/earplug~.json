@@ -1,0 +1,29 @@
+{
+    "title": "earplug~",
+    "description": "`earplug~` is a binaural filter based on KEMAR impulse measurement which allows you to spatialize a sound in realtime. It basically takes the KEMAR dummy head data set, and interpolates 368 locations where HRTF measurement exists in a spherical surface. You get azimuth 0 - 360 degrees and elevation -40 - 90 degrees.",
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/pd-externals/earplug",
+    "developers": [
+        "Pei Xiang",
+        "Jorge Castellanos",
+        "Hans-Christoph Steiner",
+        "Dan Wilcox",
+        "Chikashi Miyama"
+    ],
+    "part_of_library": false,
+    "library_name": "",
+    "categories": [
+        "Binaural"
+    ],
+    "category_groups": [],
+    "category_parents": {},
+    "articles": [],
+    "videos": [],
+    "musics": []
+}

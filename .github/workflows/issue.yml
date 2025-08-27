@@ -1,0 +1,37 @@
+name: Issue Submit Form
+
+on:
+  issues:
+    types: [opened]
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  handle_new_issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print issue info
+        run: |
+          echo "Issue title: ${{ github.event.issue.title }}"
+          echo "Issue body: ${{ github.event.issue.body }}"
+          echo "Issue opened by: ${{ github.event.issue.user.login }}"
+      - name: Checkout community branch
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+          ref: community
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: 'pip'
+      - name: Run Script
+        run: |
+          python -m pip install requests PyYAML mkdocs-material mkdocs-material-extensions
+          python python.py
+
+
+
+
