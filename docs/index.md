@@ -16,13 +16,25 @@ hide:
   WebSite that tries to list, with descriptiors, music examples, and links, all the objects, externals, and libraries available for PureData.
 </p>
 
-
 --- 
-<h2 align="center"><b>Check some objects</b></h2>
+<h2 align="center"><b>Random Objects</b></h2>
 
-<div class="grid cards">
+<div class="grid cards" style="grid-template-columns: repeat(2, 1fr);">
     <ul id="random-objects"></ul>
 </div>
+
+---
+<h2 align="center"><b>Random Videos</b></h2>
+
+<div id="random-videos" style="display: flex; justify-content: center; gap: 20px;"></div>
+
+
+--- 
+<!-- <h2 align="center"><b>Random Articles</b></h2> -->
+<!---->
+<!-- <div class="grid cards" style="grid-template-columns: repeat(2, 1fr);"> -->
+<!--     <ul id="random-article"></ul> -->
+<!-- </div> -->
 
 <script>
 async function addObjects() {
@@ -31,10 +43,15 @@ async function addObjects() {
 
     const categories = await response.json(); 
     const randomObjects = document.getElementById("random-objects");
+    const randomVideos = document.getElementById("random-videos");
+    const randomArticles = document.getElementById("random-article");
 
     // Shuffle and pick 6
     const shuffled = categories.sort(() => 0.5 - Math.random());
-    const selected = shuffled.slice(0, 6);
+    const selected = shuffled.slice(0, 4);
+
+    let videos = []
+    let articles = []
 
     for (const item of selected) {
         const li = document.createElement("li");
@@ -64,8 +81,65 @@ async function addObjects() {
         p.innerHTML = `${html}.`
         li.appendChild(span);
         li.appendChild(p);
+
         randomObjects.appendChild(li);
+
+        if (objresult["videos"]) videos.push(...objresult["videos"]);
+        if (objresult["musics"]) videos.push(...objresult["musics"]);
+        if (objresult["articles"]) articles.push(...objresult["articles"]);
     }
+
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]]; // troca
+        }
+        return array;
+    }
+
+    // random videos
+    const selectedVideos = shuffleArray([...videos]).slice(0, 2);
+    selectedVideos.forEach(v => {
+        let url = v.link || v; 
+        let videoId = null;
+
+        const match1 = url.match(/v=([^&]+)/);
+        if (match1) videoId = match1[1];
+        const match2 = url.match(/youtu\.be\/([^?&]+)/);
+        if (match2) videoId = match2[1];
+        if (videoId) {
+            url = `https://www.youtube.com/embed/${videoId}`;
+            const iframe = document.createElement("iframe");
+            iframe.width = "560";
+            iframe.height = "315";
+            iframe.style.borderRadius = "8px";
+            iframe.style.boxShadow = '0 8px 16px rgba(0, 0, 0, 0.25), 0 4px 6px rgba(0, 0, 0, 0.15)';
+            iframe.src = url;
+            iframe.frameBorder = "0";
+            iframe.allowFullscreen = true;
+            randomVideos.appendChild(iframe);
+        } 
+    });
+
+    // // random articles
+    // const selectedArticles = shuffleArray([...articles]).slice(0, 4);
+    // selectedArticles.forEach(v => {
+    //     let url = v.link || v; 
+    //
+    //     const li = document.createElement("li");
+    //     li.style.marginBottom = "1.5em";       // space between list items
+    //
+    //     // Link container (title)
+    //     const a = document.createElement("a");
+    //     a.href = url;
+    //     a.innerHTML = `<strong><code>${v.title}</code></strong>`;
+    //     a.classList.add("twemoji");
+    //     a.style.display = "block";             // ensures full width
+    //     a.style.wordWrap = "break-word";       // prevent overflow for long titles
+    //
+    //     li.appendChild(a);
+    //     randomArticles.appendChild(li);
+    // });
 }
 
 addObjects();

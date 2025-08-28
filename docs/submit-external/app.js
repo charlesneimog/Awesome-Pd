@@ -325,6 +325,7 @@ function getCategoryData() {
                     const len = description.value.length;
                     charCount.textContent = `${len} / 100 characters`;
                     charCount.style.color = len < 100 ? "#d64545" : "var(--muted)";
+
                 } else {
                     console.log("❌ Not found:", value);
                 }
@@ -663,3 +664,12 @@ async function loadCategories() {
 
 // Start loading the JSON
 loadCategories();
+
+function sendHeight() {
+    const height = document.documentElement.scrollHeight; // total height of the content
+    window.parent.postMessage({ type: "resize-iframe", height }, "*");
+}
+window.addEventListener("load", sendHeight);
+const observer = new MutationObserver(sendHeight);
+observer.observe(document.body, { childList: true, subtree: true });
+
