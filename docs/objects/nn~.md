@@ -1,6 +1,6 @@
 # nn~
 
-`nn~` is a bridge between **Max/MSP** or **PureData** and **LibTorch (PyTorch C++ interface)** for deep learning. It does not work alone and requires pretrained models.
+`nn~` is a bridge between **Max/MSP** or **PureData** and **LibTorch** (PyTorch C++ interface) for deep learning. It does not work alone and requires pretrained models.
 
 ### Key Points
 
@@ -39,7 +39,6 @@
     <iframe style="border-radius: 8px" width="560" height="315" src="https://www.youtube.com/embed/zBkDPgTyVCY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
----
 
 
 
