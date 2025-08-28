@@ -8,7 +8,6 @@ from typing import Union
 # Replace these with your own values
 owner = "charlesneimog"
 repo = "Awesome-Pd"
-issue_number = 16
 
 THIS_DIR = os.path.dirname(__file__)
 
@@ -90,7 +89,7 @@ def found_category(target_key: str, new_data: dict, obj=None) -> bool:
     return False
 
 
-with open("docs/submit/categories.json", "r") as f:
+with open("docs/submit-external/categories.json", "r") as f:
     objects = json.load(f)
 
 
@@ -147,19 +146,21 @@ for issue in issues:
     if os.path.exists("mkdocs.yml"):
         objects = ""
 
-        with open("docs/submit/categories.json", "r") as f:
+        with open("docs/submit-external/categories.json", "r") as f:
             objects = json.load(f)
         with open("mkdocs.yml", "r") as f:
             config = yaml.load(f, Loader=yaml.UnsafeLoader)
 
         NavItem = Union[str, dict[str, object]]
         nav: list[NavItem] = ["index.md"]
+        nav.append({"Submit Missing Externals": "submit.md"})
 
-        nav.append({"Objects": dict_to_nav(objects)})
+        nav.append({"Objects & Abstractions": dict_to_nav(objects)})
         nav.append({"Libraries": dict_to_nav(LIBRARIES)})
-        nav.append({"Developers": dict_to_nav(DEV_TOOLS)})
         nav.append({"Web": dict_to_nav(WEB_TOOLS)})
+
         nav.append({"Tools": dict_to_nav(TOOLS)})
+        nav.append({"Developers": dict_to_nav(DEV_TOOLS)})
 
         for category in json_file["categories"]:
             obj_name = json_file["title"]
@@ -173,7 +174,7 @@ for issue in issues:
 
             if found_category(category, {obj_name: f"objects/{obj_name}.md"}):
                 print("Adding object", obj_name)
-                with open("docs/submit/categories.json", "w") as f:
+                with open("docs/submit-external/categories.json", "w") as f:
                     json.dump(objects, f, indent=4, ensure_ascii=False)
             else:
                 raise Exception(f"Categoria '{category}' não encontrada")

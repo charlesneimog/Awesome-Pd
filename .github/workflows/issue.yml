@@ -2,36 +2,88 @@ name: Issue Submit Form
 
 on:
   issues:
-    types: [opened]
+    types: [opened, edited]
+  issue_comment:
+    types: [created]
   workflow_dispatch:
-  push:
-    branches: [main]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: read
 
 jobs:
   handle_new_issue:
     runs-on: ubuntu-latest
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      github.event_name == 'issues' ||
+      (github.event_name == 'issue_comment' && contains(github.event.comment.body, '@github action run'))
+
     steps:
-      - name: Print issue info
-        run: |
-          echo "Issue title: ${{ github.event.issue.title }}"
-          echo "Issue body: ${{ github.event.issue.body }}"
-          echo "Issue opened by: ${{ github.event.issue.user.login }}"
-      - name: Checkout community branch
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0
-          ref: community
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.13'
           cache: 'pip'
-      - name: Run Script
+
+      - name: Install dependencies
         run: |
           python -m pip install requests PyYAML mkdocs-material mkdocs-material-extensions
-          python python.py
 
+      - name: Run app.py to add new files
+        run: python app.py
 
+      # Option B: Let create-pull-request create the branch and commit
+      # We only compute metadata (branch name, PR title/body) and leave changes unstaged.
+      - name: Compute branch name, PR title and body
+        id: meta
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            SAFE_TITLE="manual-run"
+            BRANCH_NAME="issue-manual-run"
+            PR_TITLE="Automatic PR (manual run)"
+            {
+              echo "pr_body<<EOF"
+              echo "Automatic PR with the new files added by the script."
+              echo "EOF"
+            } >> "$GITHUB_OUTPUT"
+          else
+            SAFE_TITLE=$(echo "${{ github.event.issue.title }}" | tr '[:upper:]' '[:lower:]' | tr -cs 'a-z0-9' '-')
+            SAFE_TITLE=$(echo "$SAFE_TITLE" | sed 's/-*$//')
+            BRANCH_NAME="issue-${{ github.event.issue.number }}-$SAFE_TITLE"
+            PR_TITLE="Automatic PR for #${{ github.event.issue.number }}"
+            {
+              echo "pr_body<<EOF"
+              echo "Automatic PR with the new files added by the script."
+              echo
+              echo "Resolves #${{ github.event.issue.number }}"
+              echo "@${{ github.event.issue.user.login }} contributed the idea for this issue."
+              echo "EOF"
+            } >> "$GITHUB_OUTPUT"
+          fi
 
+          echo "branch_name=$BRANCH_NAME" >> "$GITHUB_OUTPUT"
+          echo "pr_title=$PR_TITLE" >> "$GITHUB_OUTPUT"
 
+      - name: Create Pull Request (auto-branch and commit)
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: Add new files from app.py
+          branch: ${{ steps.meta.outputs.branch_name }}
+          base: main
+          title: ${{ steps.meta.outputs.pr_title }}
+          body: ${{ steps.meta.outputs.pr_body }}
+          committer: GitHub <noreply@github.com>
+          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+          signoff: false
+          delete-branch: false
+          draft: false

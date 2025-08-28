@@ -447,17 +447,19 @@ ${lines.join("\n")}
 function buildCategories(container, data) {
     for (const key in data) {
         const value = data[key];
-
-        // Stop recursion if value is empty OR not an object
         if (
             !value ||
             typeof value !== "object" ||
             (Array.isArray(value) && value.length === 0) ||
             (Object.keys(value).length === 0 && !Array.isArray(value))
         ) {
-            container.appendChild(createCheckbox(key));
+            if (key !== "Object of day"){
+                container.appendChild(createCheckbox(key));
+            }
         } else if (Array.isArray(value)) {
-            container.appendChild(createCheckbox(key));
+            if (key !== "Object of day"){
+                container.appendChild(createCheckbox(key));
+            }
         } else {
             const subDiv = document.createElement("div");
             subDiv.className = "subcategory";

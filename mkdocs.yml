@@ -1,4 +1,4 @@
-site_name: PureData Library Ecossytem
+site_name: PureData Ecossytem
 docs_dir: docs
 theme:
   logo: assets/icon.svg
@@ -7,6 +7,8 @@ theme:
   features:
   - navigation.indexes
   - navigation.instant
+  - navigation.tabs.sticky
+  - navigation.tabs
   - search
   - search.highlight
   - search.share
@@ -62,7 +64,9 @@ extra_css:
 - stylesheets/extra.css
 nav:
 - index.md
-- Objects:
+- Submit Missing Externals: submit.md
+- Objects & Abstractions:
+  - Object of day: objects.md
   - AI:
     - Machine Learning: []
     - Deep Learning:
@@ -110,13 +114,13 @@ nav:
   - cyclone: libraries/cyclone.md
   - else: libraries/else.md
   - neimog: libraries/neimog.md
-- Developers:
-  - pd.cmake: devs/pd.cmake.md
-  - pd-lib-builder: devs/pdlibbuilder.md
 - Web:
   - pd4web: web/pd4web.md
   - pdwebparty: web/pdwebparty.md
 - Tools:
   - deken: deken.md
+- Developers:
+  - pd.cmake: devs/pd.cmake.md
+  - pd-lib-builder: devs/pdlibbuilder.md
 plugins:
 - search
