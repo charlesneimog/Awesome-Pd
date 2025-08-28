@@ -85,7 +85,8 @@
                 "plaits~": "objects/plaits~.md"
             }
         ],
-        "Samplers": []
+        "Samplers": [],
+        "Stochastic": []
     },
     "Utilities": {
         "Data Structures": [],

@@ -30,13 +30,16 @@ hide:
 
 
 --- 
-<!-- <h2 align="center"><b>Random Articles</b></h2> -->
-<!---->
-<!-- <div class="grid cards" style="grid-template-columns: repeat(2, 1fr);"> -->
-<!--     <ul id="random-article"></ul> -->
-<!-- </div> -->
 
 <script>
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]]; // troca
+    }
+    return array;
+}
+
 async function addObjects() {
     const response = await fetch(`${window.location.href}/all_objects.json`);
     if (!response.ok) throw new Error("Failed to load JSON");
@@ -47,8 +50,7 @@ async function addObjects() {
     const randomArticles = document.getElementById("random-article");
 
     // Shuffle and pick 6
-    const shuffled = categories.sort(() => 0.5 - Math.random());
-    const selected = shuffled.slice(0, 4);
+    const selected = shuffleArray([...categories]).slice(0, 4);
 
     let videos = []
     let articles = []
@@ -89,20 +91,18 @@ async function addObjects() {
         if (objresult["articles"]) articles.push(...objresult["articles"]);
     }
 
-    function shuffleArray(array) {
-        for (let i = array.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [array[i], array[j]] = [array[j], array[i]]; // troca
-        }
-        return array;
-    }
+    // filter to avoid tendencies
+    videos = videos.filter(
+      (item, index, self) =>
+        index === self.findIndex((v) => v.link === item.link)
+    );
+
 
     // random videos
     const selectedVideos = shuffleArray([...videos]).slice(0, 2);
     selectedVideos.forEach(v => {
         let url = v.link || v; 
         let videoId = null;
-
         const match1 = url.match(/v=([^&]+)/);
         if (match1) videoId = match1[1];
         const match2 = url.match(/youtu\.be\/([^?&]+)/);
