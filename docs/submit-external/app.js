@@ -1,3 +1,63 @@
+function setCategoryData(data) {
+    if (!data?.selected?.length) return;
+    document.querySelectorAll("#categories input[type='checkbox']").forEach((cb) => (cb.checked = false));
+    data.selected.forEach((cat) => {
+        const checkbox = document.querySelector(`#categories input[type="checkbox"][value="${cat}"]`);
+        if (checkbox) checkbox.checked = true;
+    });
+
+    // Optional: ensure parents are checked if any child is selected
+    Object.entries(data.parents || {}).forEach(([child, parent]) => {
+        const childCheckbox = document.querySelector(`#categories input[type="checkbox"][value="${child}"]`);
+        const parentCheckbox = document.querySelector(`#categories input[type="checkbox"][value="${parent}"]`);
+        if (childCheckbox?.checked && parentCheckbox && !parentCheckbox.checked) {
+            parentCheckbox.checked = true;
+        }
+    });
+}
+
+function getCategoryData() {
+    const selected = [];
+    const groups = [];
+    const parents = {};
+
+    document.querySelectorAll("#categories .subcategory, #categories .checkbox-group").forEach((container) => {
+        const parentHeading = container.querySelector("h5");
+        const parentName = parentHeading?.textContent || null;
+
+        const parentCheckbox = container.querySelector('input[type="checkbox"]');
+        const parentSelected = parentCheckbox?.checked || false;
+
+        const children = [];
+        const selectedChildren = [];
+
+        container.querySelectorAll('input[type="checkbox"]').forEach((cb) => {
+            const val = cb.value;
+            if (val !== parentName) {
+                children.push(val);
+                parents[val] = parentName;
+                if (cb.checked) selectedChildren.push(val);
+            } else if (parentSelected) {
+                selected.push(val);
+            }
+        });
+
+        if (parentName) {
+            groups.push({
+                parent: parentName,
+                parent_selected: parentSelected,
+                children,
+                selected_children: selectedChildren,
+            });
+        }
+
+        // Add selected children to flat list
+        selected.push(...selectedChildren);
+    });
+
+    return { selected, groups, parents };
+}
+
 (function () {
     const $ = (sel, ctx = document) => ctx.querySelector(sel);
     const $$ = (sel, ctx = document) => Array.from(ctx.querySelectorAll(sel));
@@ -183,6 +243,95 @@
             renderList(musicList, state.musics, "music");
         }
 
+        document.getElementById("title").addEventListener("blur", async function (event) {
+            const value = event.target.value.trim();
+            if (!value) return;
+
+            try {
+                const response = await fetch("../all_objects.json");
+                if (!response.ok) throw new Error("Failed to load JSON");
+                const objects = await response.json();
+
+                if (objects.includes(value)) {
+                    const response_obj = await fetch(`../objects/${value}.json`);
+                    if (!response_obj.ok) throw new Error("Failed to load object JSON");
+                    const obj_info = await response_obj.json();
+
+                    console.log("Loaded object data:", obj_info);
+
+                    // Fill basic form fields if empty
+                    const setIfEmpty = (selector, val) => {
+                        const el = document.querySelector(selector);
+                        if (!el) return;
+
+                        if (el.type === "checkbox") {
+                            if (!el.checked && typeof val === "boolean") el.checked = val;
+                        } else {
+                            if (!el.value) el.value = val ?? "";
+                        }
+                    };
+
+                    setIfEmpty("#title", obj_info.title);
+                    setIfEmpty("#description", obj_info.description);
+                    setIfEmpty("#download", obj_info.download_link);
+                    setIfEmpty("#bugs", obj_info.bug_reports);
+                    setIfEmpty("#developers", obj_info.developers?.join(", "));
+                    setIfEmpty("#dekenAvailable", obj_info.available_on_deken);
+                    setIfEmpty("#isPartOfLib", obj_info.part_of_library);
+                    setIfEmpty("#libraryName", obj_info.library_name);
+
+                    // Platforms checkboxes
+                    if (obj_info.runs_on?.length) {
+                        obj_info.runs_on.forEach((platform) => {
+                            const cb = document.querySelector(`input[name="platform"][value="${platform}"]`);
+                            if (cb && !cb.checked) cb.checked = true;
+                        });
+                    }
+
+                    // Categories: merge existing with JSON
+                    if (obj_info.categories?.length) {
+                        const currentCategories = getCategoryData()?.selected || [];
+                        const mergedCategories = [...new Set([...currentCategories, ...obj_info.categories])];
+                        const parentsMap = {};
+                        document.querySelectorAll("#categories .subcategory").forEach((sc) => {
+                            const parentInput = sc.querySelector(":scope > h5");
+                            const parentName = parentInput?.textContent;
+                            if (!parentName) return;
+
+                            sc.querySelectorAll('.nested-checkboxes input[name="category"]').forEach((childCb) => {
+                                parentsMap[childCb.value] = parentName;
+                            });
+                        });
+                        setCategoryData({ selected: mergedCategories, parents: parentsMap });
+                    }
+
+                    const mergeItems = (stateArray, jsonItems, type) => {
+                        if (!jsonItems?.length) return;
+                        jsonItems.forEach((item) => {
+                            if (!stateArray.some((existing) => existing.title === item.title)) {
+                                stateArray.push(item);
+                            }
+                        });
+                        renderAll();
+                    };
+
+                    // Inside your blur listener after loading obj_info
+                    mergeItems(state.articles, obj_info.articles, "article");
+                    mergeItems(state.videos, obj_info.videos, "video");
+                    mergeItems(state.musics, obj_info.musics, "music");
+
+                    const description = document.getElementById("description");
+                    const charCount = document.getElementById("char-count");
+                    const len = description.value.length;
+                    charCount.textContent = `${len} / 100 characters`;
+                    charCount.style.color = len < 100 ? "#d64545" : "var(--muted)";
+                } else {
+                    console.log("❌ Not found:", value);
+                }
+            } catch (err) {
+                console.error(err);
+            }
+        });
         // Adders
         addArticleBtn.addEventListener("click", () => {
             const title = articleTitle.value.trim();
@@ -453,11 +602,11 @@ function buildCategories(container, data) {
             (Array.isArray(value) && value.length === 0) ||
             (Object.keys(value).length === 0 && !Array.isArray(value))
         ) {
-            if (key !== "Object of day"){
+            if (key !== "Object of day") {
                 container.appendChild(createCheckbox(key));
             }
         } else if (Array.isArray(value)) {
-            if (key !== "Object of day"){
+            if (key !== "Object of day") {
                 container.appendChild(createCheckbox(key));
             }
         } else {

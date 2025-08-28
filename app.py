@@ -11,12 +11,6 @@ repo = "Awesome-Pd"
 
 THIS_DIR = os.path.dirname(__file__)
 
-LIBRARIES = {
-    "cyclone": "libraries/cyclone.md",
-    "else": "libraries/else.md",
-    "neimog": "libraries/neimog.md",
-}
-
 DEV_TOOLS = {
     "pd.cmake": "devs/pd.cmake.md",
     "pd-lib-builder": "devs/pdlibbuilder.md",
@@ -188,27 +182,25 @@ for issue in issues:
 nav.append({"Objects & Abstractions": dict_to_nav(objects)})
 libraries = {}
 
+all_objects = []
 for root, dirs, files in os.walk(os.path.join(THIS_DIR, "docs", "objects")):
     for filename in files:
         filepath = os.path.join(root, filename)
         if filepath.endswith(".json"):
+            all_objects.append(filename.replace(".json", ""))
             with open(filepath, "r") as f:
                 object_json = json.load(f)
                 if object_json["part_of_library"] == True:
                     libname = object_json["library_name"]
                     if libname != "":
                         objname = object_json["title"]
-                        description = object_json["description"].split(". ")[0]
+                        description = object_json["description"].split(". ")[0] + "."
                         if libname not in libraries:
                             libraries[libname] = []
                         libraries[libname].append([objname, description])
 
-
-LIBRARIES = {
-    "cyclone": "libraries/cyclone.md",
-    "else": "libraries/else.md",
-    "neimog": "libraries/neimog.md",
-}
+with open("docs/all_objects.json", "w") as f:
+    json.dump(all_objects, f, indent=4, ensure_ascii=False)
 
 nav_libs = {}
 for lib in libraries:
@@ -232,3 +224,8 @@ nav.append({"Developers": dict_to_nav(DEV_TOOLS)})
 config["nav"] = nav
 with open("mkdocs.yml", "w") as f:
     yaml.dump(config, f, default_flow_style=False, sort_keys=False)
+
+
+# list all objects
+
+
