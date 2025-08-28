@@ -98,7 +98,7 @@ nav:
     - Partial Tracking: []
     - Descriptors: []
     - Score Follower:
-      - o.scofo~: objects/o.scofo~.md
+      - {}
   - Spatialization:
     - Ambisonics: []
     - Binaural:

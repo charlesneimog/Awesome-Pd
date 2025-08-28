@@ -28,7 +28,6 @@
 </div>
 
 ---
----
 <h3>Music</h3>
 
 <div style="display: flex; justify-content: center; gap: 20px;">
