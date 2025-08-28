@@ -16,7 +16,11 @@
     },
     "Composition": {
         "Algorithm Composition": [],
-        "Procedures": []
+        "Procedures": [
+            {
+                "l.readsvg": "objects/l.readsvg.md"
+            }
+        ]
     },
     "Control": {
         "Logic": [],
