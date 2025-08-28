@@ -120,9 +120,7 @@ nav:
     - File IO: []
     - Networking: []
 - Libraries:
-  - cyclone: libraries/cyclone.md
   - else: libraries/else.md
-  - neimog: libraries/neimog.md
 - Web:
   - pd4web: web/pd4web.md
   - pdwebparty: web/pdwebparty.md

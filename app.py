@@ -103,6 +103,22 @@ response = requests.get(url, headers=headers)
 response.raise_for_status()
 issues = response.json()
 
+
+objects = None
+config = None
+with open("docs/submit-external/categories.json", "r") as f:
+    objects = json.load(f)
+with open("mkdocs.yml", "r") as f:
+    config = yaml.load(f, Loader=yaml.UnsafeLoader)
+
+if objects is None or config is None:
+    raise Exception("Error to open objects or config")
+
+
+NavItem = Union[str, dict[str, object]]
+nav: list[NavItem] = ["index.md"]
+nav.append({"Submit Missing Externals": "submit.md"})
+
 for issue in issues:
     text = issue["body"]
 
@@ -144,23 +160,6 @@ for issue in issues:
     )
 
     if os.path.exists("mkdocs.yml"):
-        objects = ""
-
-        with open("docs/submit-external/categories.json", "r") as f:
-            objects = json.load(f)
-        with open("mkdocs.yml", "r") as f:
-            config = yaml.load(f, Loader=yaml.UnsafeLoader)
-
-        NavItem = Union[str, dict[str, object]]
-        nav: list[NavItem] = ["index.md"]
-        nav.append({"Submit Missing Externals": "submit.md"})
-
-        nav.append({"Objects & Abstractions": dict_to_nav(objects)})
-        nav.append({"Libraries": dict_to_nav(LIBRARIES)})
-        nav.append({"Web": dict_to_nav(WEB_TOOLS)})
-
-        nav.append({"Tools": dict_to_nav(TOOLS)})
-        nav.append({"Developers": dict_to_nav(DEV_TOOLS)})
 
         for category in json_file["categories"]:
             obj_name = json_file["title"]
@@ -169,8 +168,14 @@ for issue in issues:
             OUTPUT_DIR = os.path.join(THIS_DIR, "docs", "objects")
             if not os.path.exists(OUTPUT_DIR):
                 os.mkdir(OUTPUT_DIR)
+
+            # save markdown files
             with open(os.path.join(OUTPUT_DIR, obj_name + ".md"), "w") as f:
                 f.write(md + "\n" + COMMENT_SYSTEM)
+
+            # save json files
+            with open(os.path.join(OUTPUT_DIR, obj_name + ".json"), "w") as f:
+                json.dump(json_file, f, indent=4)
 
             if found_category(category, {obj_name: f"objects/{obj_name}.md"}):
                 print("Adding object", obj_name)
@@ -179,7 +184,51 @@ for issue in issues:
             else:
                 raise Exception(f"Categoria '{category}' não encontrada")
 
-        config["nav"] = nav
 
-        with open("mkdocs.yml", "w") as f:
-            yaml.dump(config, f, default_flow_style=False, sort_keys=False)
+nav.append({"Objects & Abstractions": dict_to_nav(objects)})
+libraries = {}
+
+for root, dirs, files in os.walk(os.path.join(THIS_DIR, "docs", "objects")):
+    for filename in files:
+        filepath = os.path.join(root, filename)
+        if filepath.endswith(".json"):
+            with open(filepath, "r") as f:
+                object_json = json.load(f)
+                if object_json["part_of_library"] == True:
+                    libname = object_json["library_name"]
+                    if libname != "":
+                        objname = object_json["title"]
+                        description = object_json["description"].split(". ")[0]
+                        if libname not in libraries:
+                            libraries[libname] = []
+                        libraries[libname].append([objname, description])
+
+
+LIBRARIES = {
+    "cyclone": "libraries/cyclone.md",
+    "else": "libraries/else.md",
+    "neimog": "libraries/neimog.md",
+}
+
+nav_libs = {}
+for lib in libraries:
+    libmarkdownfile = f'# {lib} \n\n<div class="grid cards" markdown>\n'
+    objects_list = libraries[lib]
+    for obj in objects_list:
+        libmarkdownfile += (
+            f"- :material-tune: [__{obj[0]}__](../objects/{obj[0]}.md) {obj[1]}\n"
+        )
+    libmarkdownfile += "</div>"
+    with open(os.path.join(THIS_DIR, "docs", "libraries", lib + ".md"), "w") as f:
+        f.write(libmarkdownfile)
+        nav_libs[lib] = f"libraries/{lib}.md"
+
+
+nav.append({"Libraries": dict_to_nav(nav_libs)})
+nav.append({"Web": dict_to_nav(WEB_TOOLS)})
+nav.append({"Tools": dict_to_nav(TOOLS)})
+nav.append({"Developers": dict_to_nav(DEV_TOOLS)})
+
+config["nav"] = nav
+with open("mkdocs.yml", "w") as f:
+    yaml.dump(config, f, default_flow_style=False, sort_keys=False)
