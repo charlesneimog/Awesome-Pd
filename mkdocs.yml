@@ -101,10 +101,14 @@ nav:
       - sofalizer~: objects/sofalizer~.md
   - Synthesis:
     - Subtractive: []
-    - Additive: []
-    - Granular: []
-    - Physical Modeling: []
-    - Oscillators: []
+    - Additive:
+      - plaits~: objects/plaits~.md
+    - Granular:
+      - plaits~: objects/plaits~.md
+    - Physical Modeling:
+      - plaits~: objects/plaits~.md
+    - Oscillators:
+      - plaits~: objects/plaits~.md
     - Samplers: []
   - Utilities:
     - Data Structures: []
