@@ -1,7 +1,10 @@
 <h1 align="center">Awesome Pd</h1>
 
-_Awesome List of PureData Externals, Libraries, Compilers, and More_
+---
 
+<h3 align="center">Complete list go to https://charlesneimog.github.io/Awesome-Pd/</h3>
+
+---
 
 <h1 align="center">Contents</h1>
 

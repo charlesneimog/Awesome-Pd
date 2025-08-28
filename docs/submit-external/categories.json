@@ -45,10 +45,7 @@
     "MIR": {
         "Partial Tracking": [],
         "Descriptors": [],
-        "Score Follower": [
-            {
-            }
-        ]
+        "Score Follower": []
     },
     "Spatialization": {
         "Ambisonics": [],
