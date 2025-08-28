@@ -116,6 +116,8 @@ nav:
     - Physical Modeling:
       - plaits~: objects/plaits~.md
     - Samplers: []
+    - Stochastic:
+      - gendyn~: objects/gendyn~.md
   - Utilities:
     - Data Structures: []
     - File IO: []
