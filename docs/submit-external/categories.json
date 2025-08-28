@@ -7,6 +7,7 @@
                 "nn~": "objects/nn~.md"
             }
         ],
+        "Neural Networks": [],
         "Statical Models": []
     },
     "Composition": {
@@ -35,6 +36,7 @@
         "Dynamics": []
     },
     "MIR": {
+        "Partial Tracking": [],
         "Descriptors": [],
         "Score Follower": [
             {
@@ -65,17 +67,18 @@
                 "plaits~": "objects/plaits~.md"
             }
         ],
-        "Physical Modeling": [
-            {
-                "plaits~": "objects/plaits~.md"
-            }
-        ],
         "Oscillators": [
             {
                 "plaits~": "objects/plaits~.md"
             }
         ],
-        "Samplers": []
+        "Partial Tracking": [],
+        "Physical Modeling": [
+            {
+                "plaits~": "objects/plaits~.md"
+            }
+        ],
+        "Samplers": [],
     },
     "Utilities": {
         "Data Structures": [],
