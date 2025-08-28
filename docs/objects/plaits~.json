@@ -1,36 +1,52 @@
 {
-  "title": "plaits~",
-  "description": "`plaits~` is a Pure Data external based on the \"Plaits\" macro-oscillator module by Mutable Instruments. It is a powerful and versatile synthesizer object featuring 24 different synthesis engines (or \"models\"), ranging from virtual analog and FM to physical modeling, speech synthesis, and drum sounds.",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Additive",
-    "Granular",
-    "Physical Modeling",
-    "Oscillators"
-  ],
-  "category_groups": [],
-  "category_parents": {},
-  "articles": [
-    {
-      "title": "ELSE Library for Pure Data",
-      "authors": [
+    "title": "plaits~",
+    "description": "`plaits~` is a Pure Data external based on the \"Plaits\" macro-oscillator module by Mutable Instruments. It is a powerful and versatile synthesizer object featuring 24 different synthesis engines (or \"models\"), ranging from virtual analog and FM to physical modeling, speech synthesis, and drum sounds.",
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
         "Alexandre Porres"
-      ],
-      "link": "https://compmus.ime.usp.br/sbcm/2017/papers/sbcm-2017-6.pdf"
-    }
-  ],
-  "videos": [],
-  "musics": []
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "categories": [
+        "Additive",
+        "Granular",
+        "Oscillators",
+        "Physical Modeling"
+    ],
+    "category_groups": [],
+    "category_parents": {},
+    "articles": [
+        {
+            "title": "ELSE Library for Pure Data",
+            "authors": [
+                "Alexandre Porres"
+            ],
+            "link": "https://compmus.ime.usp.br/sbcm/2017/papers/sbcm-2017-6.pdf"
+        }
+    ],
+    "videos": [
+        {
+            "title": "Generative Modular - RIngs, Plaits, Clouds, Puredata Turing Machine, Radiomusic",
+            "authors": [
+                "c royale"
+            ],
+            "link": "https://www.youtube.com/watch?v=C_R7x1TplCw"
+        }
+    ],
+    "musics": [
+        {
+            "title": "Ideias Roubadas III",
+            "composers": [
+                "Charles K. Neimog"
+            ],
+            "link": "https://www.youtube.com/watch?v=CuJsBlbFBeM"
+        }
+    ]
 }
