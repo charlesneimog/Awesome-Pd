@@ -20,6 +20,22 @@
     [Link](https://compmus.ime.usp.br/sbcm/2017/papers/sbcm-2017-6.pdf)
 </div>
 
+---
+<h3>Videos</h3>
+
+<div style="display: flex; justify-content: center; gap: 20px;">
+    <iframe style="border-radius: 8px" width="560" height="315" src="https://www.youtube.com/embed/C_R7x1TplCw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+---
+---
+<h3>Music</h3>
+
+<div style="display: flex; justify-content: center; gap: 20px;">
+    <iframe style="border-radius: 8px" width="560" height="315" src="https://www.youtube.com/embed/CuJsBlbFBeM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+---
 
 
 
