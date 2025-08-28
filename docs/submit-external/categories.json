@@ -86,7 +86,11 @@
             }
         ],
         "Samplers": [],
-        "Stochastic": []
+        "Stochastic": [
+            {
+                "gendyn~": "objects/gendyn~.md"
+            }
+        ]
     },
     "Utilities": {
         "Data Structures": [],
