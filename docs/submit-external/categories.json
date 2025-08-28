@@ -23,7 +23,11 @@
         "MIDI": []
     },
     "Effects": {
-        "Reverb": [],
+        "Reverb": [
+            {
+                "convolve~": "objects/convolve~.md"
+            }
+        ],
         "Delay": [],
         "Distortion": [],
         "Chorus/Flanger/Phaser": [],
