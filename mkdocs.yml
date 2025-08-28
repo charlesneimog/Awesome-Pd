@@ -71,6 +71,8 @@ nav:
     - Machine Learning: []
     - Deep Learning:
       - nn~: objects/nn~.md
+    - Neural Networks:
+      - neuralnet: objects/neuralnet.md
     - Statical Models: []
   - Composition:
     - Algorithm Composition: []
@@ -92,6 +94,7 @@ nav:
     - Filters: []
     - Dynamics: []
   - MIR:
+    - Partial Tracking: []
     - Descriptors: []
     - Score Follower:
       - o.scofo~: objects/o.scofo~.md
@@ -106,9 +109,10 @@ nav:
       - plaits~: objects/plaits~.md
     - Granular:
       - plaits~: objects/plaits~.md
-    - Physical Modeling:
-      - plaits~: objects/plaits~.md
     - Oscillators:
+      - plaits~: objects/plaits~.md
+    - Partial Tracking: []
+    - Physical Modeling:
       - plaits~: objects/plaits~.md
     - Samplers: []
   - Utilities:
