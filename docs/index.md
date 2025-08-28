@@ -26,7 +26,7 @@ hide:
 
 <script>
 async function addObjects() {
-    const response = await fetch("../all_objects.json");
+    const response = await fetch(`${window.location.href}/all_objects.json`);
     if (!response.ok) throw new Error("Failed to load JSON");
 
     const categories = await response.json(); 
@@ -44,7 +44,7 @@ async function addObjects() {
         span.classList.add("twemoji");
 
         // Fetch individual object JSON
-        const objjson = await fetch(`../objects/${item}.json`);
+        const objjson = await fetch(`${window.location.href}/objects/${item}.json`);
         if (!objjson.ok) throw new Error("Failed to load JSON for " + item);
         const objresult = await objjson.json();
         let description = objresult["description"];
@@ -52,7 +52,7 @@ async function addObjects() {
 
         // Create link
         const a = document.createElement("a");
-        a.href = `./../objects/${item}`;
+        a.href = `${window.location.href}/objects/${item}`;
         a.innerHTML = `<strong><code>${item}</code></strong>`;
 
         span.appendChild(a);
