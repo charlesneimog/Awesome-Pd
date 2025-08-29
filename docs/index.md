@@ -19,7 +19,7 @@ hide:
 --- 
 <h2 align="center"><b>Random Objects</b></h2>
 
-<div class="grid cards adaptable">
+<div class="grid cards ">
     <ul id="random-objects"></ul>
 </div>
 
@@ -111,7 +111,7 @@ async function addObjects() {
         if (match2) videoId = match2[1];
 
         if (videoId) {
-            url = `https://www.youtube.com/embed/${videoId}`;
+            url = `https://www.youtube-nocookie.com/embed/${videoId}`;
             const iframe = document.createElement("iframe");
             iframe.width = "45%";  // overridden by CSS on small screens
             iframe.height = "350px"; // overridden by CSS on small screens

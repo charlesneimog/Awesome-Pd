@@ -51,6 +51,12 @@
         "Descriptors": [],
         "Score Follower": []
     },
+    "Plugins": {
+        "VST2/VST3": [],
+        "Vamp": [],
+        "LADSPA": [],
+        "AU": []
+    },
     "Spatialization": {
         "Ambisonics": [],
         "Binaural": [
@@ -98,3 +104,4 @@
         "Networking": []
     }
 }
+

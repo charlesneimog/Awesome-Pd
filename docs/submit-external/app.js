@@ -500,11 +500,15 @@ ${project.description}
 
             const lines = [];
             if (project.download_link || project.available_on_deken) {
-                const dekenText = project.available_on_deken ? " or use [Deken](../deken.md)" : "";
+                const dekenText = project.available_on_deken ? " or use [Deken](../deken.md)." : "";
                 const dlText = project.download_link ? `[here](${project.download_link})` : "";
-                const downloadLine = project.download_link
+                var downloadLine = project.download_link
                     ? `:octicons-download-16: __Download__ ${dlText}${dekenText}.`
                     : `:octicons-download-16: __Download__ Use [Deken](../deken.md).`;
+
+                if (project.library_name !== ""){
+                    downloadLine += `  <p>_Found inside <code>${project.library_name}</code> library._</p>`;
+                } 
                 lines.push(`- ${downloadLine}`);
             }
             if (project.developers.length) {

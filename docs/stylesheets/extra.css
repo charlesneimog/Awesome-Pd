@@ -16,7 +16,7 @@
 
 /* Only when adaptable class is present, make it 1 column on small screens */
 .grid.cards.adaptable {
-    /* keeps default 2 columns on larger screens */
+    grid-template-columns: repeat(2, 1fr);
 }
 
 @media (max-width: 600px) {

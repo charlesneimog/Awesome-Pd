@@ -1,34 +1,13 @@
 # Deken: Package Management for Pure Data Externals
 
-- Minimal package management system for Pure Data (Pd) externals  
-- Integrated since **Pd-0.47**  
-- Provides easy install/search via **Help → Find Packages**  
+`Deken` is the easiest way to download and install external objects in Pure Data (Pd).
 
-![Deken plugin demo](https://raw.githubusercontent.com/pure-data/deken/main/deken.gif)
+Open Deken from Pd’s menu:
 
----
+- Pd `0.56` and later: `Tools → Find Externals`.
+- Pd earlier versions: `Help → Find Externals`.
 
-## Key Features
+The video below shows how to install [`giga.rev~`](objects/giga.rev~.md) using Deken.
 
-- Search & install externals directly from Pd  
-- Packages hosted at <http://puredata.info/>  
-- Optional manual installation of latest plugin version  
-
----
-
-## Installation
-
-### Automatic (Pd ≥ 0.47)
-1. Open **Help → Find Packages**  
-2. Search for `deken-plugin`  
-3. Install the latest release  
-
-### Manual
-- Download [deken-plugin.tcl](https://raw.githubusercontent.com/pure-data/deken/main/deken-plugin.tcl)  
-- Save to:  
-  - Linux: `~/.local/lib/pd/extra/deken-plugin/`  
-  - macOS: `~/Library/Pd/deken-plugin/`  
-  - Windows: `%AppData%\Pd\deken-plugin\`
-
----
+<video src="../assets/deken.mp4" width="900" height="505" style="border-radius: 8px;" autoplay muted loop allowfullscreen/>
 
