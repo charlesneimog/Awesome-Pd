@@ -4,13 +4,10 @@
 
 ---
 <div class="grid cards" markdown>
-- :octicons-download-16: __Download__ Use [Deken](../deken.md).
+- :octicons-download-16: __Download__ Use [Deken](../deken.md) <p>_Found inside <code>else</code> library._</p>
 - :fontawesome-brands-dev: Developed by **Alexandre Porres**.
 - :fontawesome-brands-github: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 </div>
-
-
-
 
 <script src="https://giscus.app/client.js"
         data-repo="charlesneimog/Awesome-PD"
