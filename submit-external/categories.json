@@ -1,0 +1,100 @@
+{
+    "Object of day": "objects.md",
+    "AI": {
+        "Machine Learning": [],
+        "Deep Learning": [
+            {
+                "nn~": "objects/nn~.md"
+            }
+        ],
+        "Neural Networks": [
+            {
+                "neuralnet": "objects/neuralnet.md"
+            }
+        ],
+        "Statical Models": []
+    },
+    "Composition": {
+        "Algorithm Composition": [],
+        "Procedures": [
+            {
+                "l.readsvg": "objects/l.readsvg.md"
+            }
+        ]
+    },
+    "Control": {
+        "Logic": [],
+        "Math": [],
+        "Routing": [],
+        "Envelopes": [],
+        "LFOs": [],
+        "Sequencers": [],
+        "MIDI": []
+    },
+    "Effects": {
+        "Reverb": [
+            {
+                "convolve~": "objects/convolve~.md"
+            },
+            {
+                "giga.rev~": "objects/giga.rev~.md"
+            }
+        ],
+        "Delay": [],
+        "Distortion": [],
+        "Chorus/Flanger/Phaser": [],
+        "Filters": [],
+        "Dynamics": []
+    },
+    "MIR": {
+        "Partial Tracking": [],
+        "Descriptors": [],
+        "Score Follower": []
+    },
+    "Spatialization": {
+        "Ambisonics": [],
+        "Binaural": [
+            {
+                "earplug~": "objects/earplug~.md"
+            },
+            {
+                "sofalizer~": "objects/sofalizer~.md"
+            }
+        ]
+    },
+    "Synthesis": {
+        "Subtractive": [],
+        "Additive": [
+            {
+                "plaits~": "objects/plaits~.md"
+            }
+        ],
+        "Granular": [
+            {
+                "plaits~": "objects/plaits~.md"
+            }
+        ],
+        "Oscillators": [
+            {
+                "plaits~": "objects/plaits~.md"
+            }
+        ],
+        "Partial Tracking": [],
+        "Physical Modeling": [
+            {
+                "plaits~": "objects/plaits~.md"
+            }
+        ],
+        "Samplers": [],
+        "Stochastic": [
+            {
+                "gendyn~": "objects/gendyn~.md"
+            }
+        ]
+    },
+    "Utilities": {
+        "Data Structures": [],
+        "File IO": [],
+        "Networking": []
+    }
+}

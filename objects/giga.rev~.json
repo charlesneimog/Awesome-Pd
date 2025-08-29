@@ -1,0 +1,21 @@
+{
+    "title": "giga.rev~",
+    "description": "`giga.rev~` is a stereo reverb in Else based on Juhana Sadeharju\u2019s *Gigaverb* algorithm, known for producing large, spacious, and dense reverberation tails. It offers controls for decay time, room size, damping, bandwidth, and early/late reflections, along with a dry/wet balance, making it flexible for anything from subtle ambience to cathedral-like spaces. The object comes with presets for quick setup and, while more CPU-intensive than simpler reverbs, it delivers smooth, natural decays with a wide stereo image, making it especially useful for ambient, cinematic, and experimental sound design.",
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "categories": [
+        "Reverb"
+    ],
+    "category_groups": [],
+    "category_parents": {},
+    "articles": [],
+    "videos": [],
+    "musics": []
+}
