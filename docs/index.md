@@ -19,15 +19,14 @@ hide:
 --- 
 <h2 align="center"><b>Random Objects</b></h2>
 
-<div class="grid cards" style="grid-template-columns: repeat(2, 1fr);">
+<div class="grid cards adaptable">
     <ul id="random-objects"></ul>
 </div>
 
 ---
 <h2 align="center"><b>Random Videos</b></h2>
 
-<div id="random-videos" style="display: flex; justify-content: center; gap: 20px;"></div>
-
+<div id="random-videos" class="videos-container"></div>
 
 --- 
 
@@ -100,25 +99,27 @@ async function addObjects() {
 
     // random videos
     const selectedVideos = shuffleArray([...videos]).slice(0, 2);
+
     selectedVideos.forEach(v => {
         let url = v.link || v; 
         let videoId = null;
+
         const match1 = url.match(/v=([^&]+)/);
         if (match1) videoId = match1[1];
+
         const match2 = url.match(/youtu\.be\/([^?&]+)/);
         if (match2) videoId = match2[1];
+
         if (videoId) {
             url = `https://www.youtube.com/embed/${videoId}`;
             const iframe = document.createElement("iframe");
-            iframe.width = "560";
-            iframe.height = "315";
-            iframe.style.borderRadius = "8px";
-            iframe.style.boxShadow = '0 8px 16px rgba(0, 0, 0, 0.25), 0 4px 6px rgba(0, 0, 0, 0.15)';
+            iframe.width = "45%";  // overridden by CSS on small screens
+            iframe.height = "350px"; // overridden by CSS on small screens
             iframe.src = url;
             iframe.frameBorder = "0";
             iframe.allowFullscreen = true;
             randomVideos.appendChild(iframe);
-        } 
+        }
     });
 
     // // random articles

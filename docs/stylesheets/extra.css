@@ -8,7 +8,39 @@
     margin: 0 auto; /* centraliza o bloco */
 }
 
-.gsc-comments {
-    box-radius: 10px;
-    padding: 400px;
+.grid.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; /* optional spacing */
+}
+
+/* Only when adaptable class is present, make it 1 column on small screens */
+.grid.cards.adaptable {
+    /* keeps default 2 columns on larger screens */
+}
+
+@media (max-width: 600px) {
+    .grid.cards.adaptable {
+        grid-template-columns: 1fr; /* 1 column on smartphones */
+    }
+}
+
+.videos-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* so it adapts on small screens */
+}
+
+.videos-container iframe {
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25), 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Optional: make videos responsive on small screens */
+@media (max-width: 600px) {
+    .videos-container iframe {
+        width: 100%;
+        height: auto;
+    }
 }
