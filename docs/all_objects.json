@@ -6,6 +6,7 @@
     "gendyn~",
     "neuralnet",
     "convolve~",
+    "asr~",
     "nn~",
     "vstplugin~",
     "l.readsvg"

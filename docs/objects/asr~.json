@@ -1,0 +1,25 @@
+{
+    "title": "asr~",
+    "description": "The `asr~` object in Pure Data is an attack/sustain/release envelope generator, simplified compared to `adsr~`. It can be triggered by gate values, bangs, or impulses: a gate on starts the attack phase and a gate off triggers the release phase, with an optional immediate release mode via the `-rel` flag. Attack and release times are set in milliseconds, and the curve parameter controls the envelope shape, allowing exponential, linear (`-lin`), or lag-filter (`-lag`) behavior. The object accepts both control and signal inputs, with gate values mapped to the MIDI velocity range or beyond. Its right outlet outputs a status signal (1 when active, 0 when inactive), useful for managing DSP switches in subpatches or abstractions. While typically used for amplitude shaping, `asr~` can modulate any parameter in real time.",
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/else",
+    "developers": [
+        "Alexandre Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "categories": [
+        "Envelopes"
+    ],
+    "category_groups": [],
+    "category_parents": {},
+    "articles": [],
+    "videos": [],
+    "musics": []
+}
