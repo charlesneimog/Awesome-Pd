@@ -95,6 +95,10 @@ async function addObjects() {
       (item, index, self) =>
         index === self.findIndex((v) => v.link === item.link)
     );
+    if (videos.length == 0){
+        addObjects();
+        return;
+    }
 
 
     // random videos
