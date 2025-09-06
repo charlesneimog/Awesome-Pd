@@ -25,10 +25,10 @@
 
 <div style="display: flex; justify-content: center; gap: 20px;">
     <iframe style="border-radius: 8px" width="560" height="315"
-    src="https://www.youtube.com/embed/C_R7x1TplCw"
-    title="YouTube video player" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        src="https://www.youtube.com/embed/C_R7x1TplCw"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 ---
@@ -36,16 +36,17 @@
 
 <div style="display: flex; justify-content: center; gap: 20px;">
     <iframe style="border-radius: 8px" width="560" height="315"
-    src="https://www.youtube.com/embed/CuJsBlbFBeM"
-    title="YouTube video player" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        src="https://www.youtube.com/embed/CuJsBlbFBeM"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 ---
 
 
 ---
+
 <h3>Comments</h3>
 
 <script src="https://giscus.app/client.js"
@@ -64,7 +65,7 @@
     crossorigin="anonymous"
     async>
 </script>
-
+    
 <h3>Contributors</h3>
 
 <div id="avatars"></div>
@@ -84,3 +85,4 @@ nicknames.forEach(nick => {
   container.appendChild(link);
 });
 </script>
+    

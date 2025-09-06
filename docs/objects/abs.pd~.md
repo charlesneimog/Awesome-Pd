@@ -13,6 +13,7 @@ The `abs.pd~` object in Pure Data loads a `.pd` file into a subprocess, providin
 
 
 ---
+
 <h3>Comments</h3>
 
 <script src="https://giscus.app/client.js"
@@ -31,7 +32,7 @@ The `abs.pd~` object in Pure Data loads a `.pd` file into a subprocess, providin
     crossorigin="anonymous"
     async>
 </script>
-
+    
 <h3>Contributors</h3>
 
 <div id="avatars"></div>
@@ -51,3 +52,4 @@ nicknames.forEach(nick => {
   container.appendChild(link);
 });
 </script>
+    

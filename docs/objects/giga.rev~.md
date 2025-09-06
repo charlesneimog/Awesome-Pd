@@ -12,6 +12,7 @@
 
 
 ---
+
 <h3>Comments</h3>
 
 <script src="https://giscus.app/client.js"
@@ -30,7 +31,7 @@
     crossorigin="anonymous"
     async>
 </script>
-
+    
 <h3>Contributors</h3>
 
 <div id="avatars"></div>
@@ -50,3 +51,4 @@ nicknames.forEach(nick => {
   container.appendChild(link);
 });
 </script>
+    

@@ -1,12 +1,12 @@
-# above~
+# bend.in
 
-The `above~` object in Pure Data monitors a signal input and outputs impulses based on a threshold. Its **left outlet** sends an impulse when the input signal rises above the set threshold, and its **right outlet** sends an impulse when the signal falls back to or below the threshold. The threshold can be specified as an argument when creating the object or via the **second inlet**. If no threshold is set, `above~` behaves similarly to `zerocross~`. It accepts both float and signal inputs and is useful for detecting crossings in audio-rate signals.
+The `bend.in` object in Pure Data extracts MIDI Pitch Bend information from either a connected MIDI device (internal source) or raw MIDI input (external source). By default, it outputs normalized values from -1 to 1, but with the `-raw` flag it outputs integers in the range 0–16383. It supports MIDI channel selection via argument or right inlet, with channel 0 as omni mode, and can be set to listen exclusively to external sources using the `-ext` flag. Port numbers are encoded into channel numbers, extending the channel mapping across multiple ports.
 
 ---
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ Use [Deken](../deken.md).  <p>_Found inside <code>else</code> library._</p>
 - :fontawesome-brands-dev: Developed by **Alexandre Porres**.
-- :fontawesome-brands-github: __Report Bugs/Errors__ [here](https://github.com/porres/else)!
+- :fontawesome-brands-github: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>
 

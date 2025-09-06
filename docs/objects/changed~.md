@@ -13,6 +13,7 @@ The `changed~` object in Pure Data monitors an input signal and outputs an impul
 
 
 ---
+
 <h3>Comments</h3>
 
 <script src="https://giscus.app/client.js"
@@ -31,7 +32,7 @@ The `changed~` object in Pure Data monitors an input signal and outputs an impul
     crossorigin="anonymous"
     async>
 </script>
-
+    
 <h3>Contributors</h3>
 
 <div id="avatars"></div>
@@ -51,3 +52,4 @@ nicknames.forEach(nick => {
   container.appendChild(link);
 });
 </script>
+    

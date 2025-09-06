@@ -13,6 +13,7 @@ The `add` object in Pure Data accumulates input values to a running sum, startin
 
 
 ---
+
 <h3>Comments</h3>
 
 <script src="https://giscus.app/client.js"
@@ -31,7 +32,7 @@ The `add` object in Pure Data accumulates input values to a running sum, startin
     crossorigin="anonymous"
     async>
 </script>
-
+    
 <h3>Contributors</h3>
 
 <div id="avatars"></div>
@@ -51,3 +52,4 @@ nicknames.forEach(nick => {
   container.appendChild(link);
 });
 </script>
+    
