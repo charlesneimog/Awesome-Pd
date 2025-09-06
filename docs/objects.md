@@ -51,7 +51,8 @@ async function addObjects() {
 
         // Create link
         const a = document.createElement("a");
-        a.href = `${window.location.href}/objects/${item}`;
+        const objmdurl = new URL(`${item}`, window.location.href);
+        a.href = objmdurl;
         a.innerHTML = `<strong><code>${item}</code></strong>`;
 
         span.appendChild(a);
