@@ -52,7 +52,11 @@
         "Score Follower": []
     },
     "Plugins": {
-        "VST2/VST3": [],
+        "VST2/VST3": [
+            {
+                "vstplugin~": "objects/vstplugin~.md"
+            }
+        ],
         "Vamp": [],
         "LADSPA": [],
         "AU": []
@@ -104,4 +108,3 @@
         "Networking": []
     }
 }
-

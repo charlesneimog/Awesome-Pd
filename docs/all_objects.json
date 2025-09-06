@@ -7,5 +7,6 @@
     "neuralnet",
     "convolve~",
     "nn~",
+    "vstplugin~",
     "l.readsvg"
 ]
