@@ -23,7 +23,12 @@
         ]
     },
     "Control": {
-        "Logic": [],
+        "Logic": [
+            {
+                "above~": "objects/above~.md",
+                "above": "objects/above.md"
+            }
+        ],
         "Math": [
             {
                 "add": "objects/add.md"
@@ -119,7 +124,7 @@
         "Networking": [],
         "MultiThreading": [
             {
-                "add": "objects/add.md"
+                "abs.pd~": "objects/abs.pd~.md"
             }
         ]
     }
