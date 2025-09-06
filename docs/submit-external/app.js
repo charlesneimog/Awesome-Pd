@@ -453,6 +453,7 @@ function getCategoryData() {
             // NEW: collect categories with hierarchy
             const categoryData = getCategoryData();
             const categories = categoryData.selected;
+            const whatiam = "object";
 
             // Basic validation
             const errors = [];
@@ -467,6 +468,7 @@ function getCategoryData() {
 
             const project = {
                 title,
+                whatiam,
                 description: desc,
                 runs_on,
                 download_link,

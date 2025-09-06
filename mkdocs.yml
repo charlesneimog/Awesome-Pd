@@ -64,7 +64,7 @@ extra_css:
 - stylesheets/extra.css
 nav:
 - index.md
-- Submit Missing Externals: submit.md
+- Submit: submit.md
 - Objects & Abstractions:
   - Object of day: objects.md
   - AI:

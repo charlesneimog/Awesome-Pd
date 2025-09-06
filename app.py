@@ -421,7 +421,7 @@ nicknames.forEach(nick => {{
 
         NavItem = Union[str, Dict[str, object]]
         nav: List[NavItem] = ["index.md"]
-        nav.append({"Submit Missing Externals": "submit.md"})
+        nav.append({"Submit": "submit.md"})
 
         # Process open issues (same as original)
         issues = self._get_open_issues()
