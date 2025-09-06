@@ -19,7 +19,8 @@ function shuffleArray(array) {
 }
 
 async function addObjects() {
-    const response = await fetch(`${window.location.href}/../all_objects.json`);
+    const url = new URL('../all_objects.json', window.location.href);
+    const response = await fetch(url);
     if (!response.ok) throw new Error("Failed to load JSON");
 
     const categories = await response.json(); 
@@ -41,7 +42,8 @@ async function addObjects() {
         span.classList.add("twemoji");
 
         // Fetch individual object JSON
-        const objjson = await fetch(`${window.location.href}/objects/${item}.json`);
+        const objurl = new URL(`../objects/${item}.json`, window.location.href);
+        const objjson = await fetch(objurl);
         if (!objjson.ok) throw new Error("Failed to load JSON for " + item);
         const objresult = await objjson.json();
         let description = objresult["description"];
