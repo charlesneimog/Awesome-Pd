@@ -1,13 +1,24 @@
-# dust~
+# args
 
-The `dust~` object in Pure Data is a pseudo-random impulse generator that outputs positive random impulses (up to 1) according to a configurable density (rate) parameter. It can be seeded with a specific integer to reproduce the same sequence or left to generate a unique internal seed. The object supports multichannel outputs, with each channel optionally set to its own density via the `-mc` flag or list input. At high densities, consecutive impulses may occur, and at extreme densities, the output approximates white noise with a DC offset.
+The `args` object in Pure Data loads and manages the arguments of an abstraction, allowing them to be queried or changed dynamically. It outputs the current arguments through the left outlet, or a `bang` through the right outlet if no arguments are provided. Messages (float, list, or symbol) sent to `args` update the stored arguments immediately. Optional settings include a break character to split argument lists and a depth level for hierarchical abstractions. Dollar-sign placeholders like `$0`, `$1`, etc., are expanded automatically unless escaped.
 
 ---
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ Use [Deken](../deken.md).  <p>_Found inside <code>else</code> library._</p>
 - :fontawesome-brands-dev: Developed by **Alexandre Porres**.
-- :fontawesome-brands-github: __Report Bugs/Errors__ [here](https://github.com/porres/else/issues)!
+- :fontawesome-brands-github: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
+</div>
+
+---
+<h3>Videos</h3>
+
+<div style="display: flex; justify-content: center; gap: 20px;">
+    <iframe style="border-radius: 8px" width="560" height="315"
+    src="https://www.youtube.com/embed/C_R7x1TplCw"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 
