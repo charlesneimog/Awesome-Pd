@@ -23,6 +23,12 @@
         ]
     },
     "Control": {
+        "Logic": [
+            {
+                "above": "objects/above.md"
+            }
+        ],
+        "Math": [],
         "Logic": [],
         "Math": [
             {
