@@ -2,6 +2,7 @@
     "l.readsvg",
     "nn~",
     "sofalizer~",
+    "bend.in",
     "above~",
     "dust~",
     "add",
@@ -14,5 +15,7 @@
     "convolve~",
     "gendyn~",
     "giga.rev~",
+    "args",
+    "changed~",
     "earplug~"
 ]

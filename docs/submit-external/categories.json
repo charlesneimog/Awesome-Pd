@@ -25,7 +25,9 @@
     "Control": {
         "Logic": [
             {
-                "above~": "objects/above~.md",
+                "above~": "objects/above~.md"
+            },
+            {
                 "above": "objects/above.md"
             }
         ],
@@ -34,7 +36,11 @@
                 "add": "objects/add.md"
             }
         ],
-        "Routing": [],
+        "Routing": [
+            {
+                "changed~": "objects/changed~.md"
+            }
+        ],
         "Envelopes": [
             {
                 "asr~": "objects/asr~.md"
@@ -42,7 +48,11 @@
         ],
         "LFOs": [],
         "Sequencers": [],
-        "MIDI": []
+        "MIDI": [
+            {
+                "bend.in": "objects/bend.in.md"
+            }
+        ]
     },
     "Effects": {
         "Reverb": [
@@ -127,7 +137,10 @@
                 "abs.pd~": "objects/abs.pd~.md"
             }
         ],
-        "Patching": []
+        "Patching": [
+            {
+                "args": "objects/args.md"
+            }
+        ]
     }
 }
-
