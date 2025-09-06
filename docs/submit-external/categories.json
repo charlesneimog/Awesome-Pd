@@ -25,6 +25,7 @@
     "Control": {
         "Logic": [
             {
+                "above~": "objects/above~.md"
                 "above": "objects/above.md"
             }
         ],
