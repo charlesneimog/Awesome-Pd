@@ -24,7 +24,11 @@
     },
     "Control": {
         "Logic": [],
-        "Math": [],
+        "Math": [
+            {
+                "add": "objects/add.md"
+            }
+        ],
         "Routing": [],
         "Envelopes": [
             {
@@ -103,6 +107,9 @@
         "Stochastic": [
             {
                 "gendyn~": "objects/gendyn~.md"
+            },
+            {
+                "dust~": "objects/dust~.md"
             }
         ]
     },
@@ -110,6 +117,10 @@
         "Data Structures": [],
         "File IO": [],
         "Networking": [],
-        "MultiThreading": []
+        "MultiThreading": [
+            {
+                "add": "objects/add.md"
+            }
+        ]
     }
 }
