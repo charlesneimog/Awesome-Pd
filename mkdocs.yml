@@ -78,12 +78,14 @@ nav:
     - Algorithm Composition: []
     - Procedures:
       - l.readsvg: objects/l.readsvg.md
+      - l.attrfilter: objects/l.attrfilter.md
   - Control:
     - Logic:
       - above~: objects/above~.md
       - above: objects/above.md
     - Math:
       - add: objects/add.md
+      - a.sum: objects/a.sum.md
     - Routing:
       - changed~: objects/changed~.md
     - Envelopes:
@@ -132,7 +134,8 @@ nav:
       - gendyn~: objects/gendyn~.md
       - dust~: objects/dust~.md
   - Utilities:
-    - Data Structures: []
+    - Data Structures:
+      - a.rotate: objects/a.rotate.md
     - File IO:
       - dir: objects/dir.md
     - Networking: []

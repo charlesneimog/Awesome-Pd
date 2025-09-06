@@ -6,6 +6,7 @@
     "above~",
     "dust~",
     "add",
+    "l.attrfilter",
     "asr~",
     "above",
     "vstplugin~",
@@ -19,5 +20,7 @@
     "dispatch",
     "dir",
     "changed~",
+    "a.sum",
+    "a.rotate",
     "earplug~"
 ]

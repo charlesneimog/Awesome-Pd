@@ -19,6 +19,9 @@
         "Procedures": [
             {
                 "l.readsvg": "objects/l.readsvg.md"
+            },
+            {
+                "l.attrfilter": "objects/l.attrfilter.md"
             }
         ]
     },
@@ -34,6 +37,9 @@
         "Math": [
             {
                 "add": "objects/add.md"
+            },
+            {
+                "a.sum": "objects/a.sum.md"
             }
         ],
         "Routing": [
@@ -129,7 +135,11 @@
         ]
     },
     "Utilities": {
-        "Data Structures": [],
+        "Data Structures": [
+            {
+                "a.rotate": "objects/a.rotate.md"
+            }
+        ],
         "File IO": [
             {
                 "dir": "objects/dir.md"
