@@ -265,6 +265,7 @@ nicknames.forEach(nick => {{
         json_dir = os.path.join(self.THIS_DIR, "docs/objects")
         json_files = os.listdir(json_dir)
 
+        libraries = {}
         for json_file in json_files:
             if not json_file.endswith(".json"):
                 continue
@@ -272,6 +273,13 @@ nicknames.forEach(nick => {{
             path = os.path.join(json_dir, json_file)
             with open(path, "r", encoding="utf-8") as f:
                 project = json.load(f)
+
+            if project["part_of_library"]:
+                libraries[project["library_name"]] = {
+                    "description": "",
+                    "issues": project["bug_reports"],
+                    "link": "",
+                }
 
             title = project.get("title", "")
             description = project.get("description", "")
@@ -306,6 +314,14 @@ nicknames.forEach(nick => {{
             os.makedirs(os.path.dirname(output_path), exist_ok=True)
             with open(output_path, "w", encoding="utf-8") as out_file:
                 out_file.write(md)
+
+        for lib in libraries:
+            thislib = libraries[lib]
+            file = f"docs/libraries/{lib}.json"
+            if not os.path.exists(file):
+                thislib["link"] = thislib["issues"].replace("issues", "")
+                with open(file, "w") as f:
+                    json.dump(thislib, f, indent=4)
 
     # --------------------------
     # Issue Payload Ingestion
@@ -343,8 +359,9 @@ nicknames.forEach(nick => {{
     # --------------------------
     # Navigation Helpers
     # --------------------------
-    def update_json(self):
+    def update_main_json_of_objects(self):
         all_files = os.listdir(self.THIS_DIR + "/docs/objects")
+        print("")
         for file in all_files:
             json_path = self.THIS_DIR + f"/docs/objects/{file}"
             if file.endswith(".json"):
@@ -373,7 +390,7 @@ nicknames.forEach(nick => {{
         the same shape as the original implementation.
         """
         nav_list = []
-        for key, value in d.items():
+        for key, value in sorted(d.items()):
             if isinstance(value, dict):
                 nav_list.append({key: self.dict_to_nav(value)})
             else:
@@ -432,7 +449,7 @@ nicknames.forEach(nick => {{
         self.create_markdowns()
 
         # update main json
-        self.update_json()
+        self.update_main_json_of_objects()
 
         # Build "Objects & Abstractions" navigation
         nav.append({"Objects & Abstractions": self.dict_to_nav(self.objects)})
@@ -462,12 +479,68 @@ nicknames.forEach(nick => {{
         with open("docs/all_objects.json", "w", encoding="utf-8") as f:
             json.dump(all_objects, f, indent=4, ensure_ascii=False)
 
+        # create libraries markdown files
+        # update libraries
         nav_libs: Dict[str, str] = {}
+        print("")
         for lib in libraries:
-            libmarkdownfile = f'# {lib} \n\n<div class="grid cards" markdown>\n'
+            print(f"Update Library page: {lib}")
+            libmarkdownfile = f"---\nsearch:\n    exclude: true\n---\n\n# {lib}\n"
+            with open(f"docs/libraries/{lib}.json", "r") as f:
+                lib_data = json.load(f)
+            libmarkdownfile += lib_data["description"]
+            libmarkdownfile += """
+<h2>Contributors</h2>
+
+<div id="libcontributors"></div>
+
+<p align="center">
+<i>People who contribute to this project.</i>
+</p>\n\n"""
+
+            url = lib_data["link"]
+            parts = url.rstrip("/").split("/")
+
+            repo_owner = parts[-2]  # "porres"
+            repo_name = parts[-1]  # "pd-else"
+
+            libmarkdownfile += f"""
+<script>
+async function updateList() {{
+    const repoOwner = '{repo_owner}';
+    const repoName = '{repo_name}';
+    try {{
+        const res = await fetch(`https://api.github.com/repos/${{repoOwner}}/${{repoName}}/contributors`);
+        const contributors = await res.json();
+        const container = document.getElementById('libcontributors');
+        contributors.forEach(user => {{
+            const link = document.createElement('a');
+            link.href = `https://github.com/${{user.login}}`;
+            link.target = '_blank';
+            const img = document.createElement('img');
+            img.src = `https://github.com/${{user.login}}.png?size=100`;
+            img.alt = user.login;
+            img.className = 'libavatar';
+            link.appendChild(img);
+            container.appendChild(link);
+        }});
+    }} catch(err) {{
+        console.error(err);
+    }}
+}}
+updateList();
+</script>\n\n
+"""
+
+            libmarkdownfile += '<h2>Objects</h2>\n\n<div class="grid cards" markdown>\n'
             objects_list = libraries[lib]
+
             for obj in objects_list:
-                libmarkdownfile += f"- :material-tune: [__{obj[0]}__](../objects/{obj[0]}.md) {obj[1]}\n"
+                text = obj[1]
+                text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
+                libmarkdownfile += (
+                    f"- :material-tune: [__{obj[0]}__](../objects/{obj[0]}.md) {text}\n"
+                )
             libmarkdownfile += "</div>"
             with open(
                 os.path.join(self.THIS_DIR, "docs", "libraries", lib + ".md"),
@@ -479,6 +552,7 @@ nicknames.forEach(nick => {{
 
         # Append remaining nav sections (same ordering)
         nav.append({"Libraries": self.dict_to_nav(nav_libs)})
+        nav.append({"Pieces": "pieces.md"})
         nav.append({"Web": self.dict_to_nav(self.WEB_TOOLS)})
         nav.append({"Tools": self.dict_to_nav(self.TOOLS)})
         nav.append({"Developers": self.dict_to_nav(self.DEV_TOOLS)})
@@ -486,7 +560,6 @@ nicknames.forEach(nick => {{
         # Update mkdocs config
         self.config["nav"] = nav
         with open("mkdocs.yml", "w", encoding="utf-8") as f:
-            print("I am updating")
             yaml.dump(self.config, f, default_flow_style=False, sort_keys=False)
 
 

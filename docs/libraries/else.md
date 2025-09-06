@@ -1,4 +1,49 @@
-# else 
+---
+search:
+    exclude: true
+---
+
+# else
+`ELSE` is a big library of externals that extends the performance of Pd. `ELSE` provides a cohesive system for computer music; it also serves as a basis for a Live Electronics Tutorial by the same author, yours truly, Alexandre Torres Porres. This library's repository resides at https://github.com/porres/pd-else/. This tutorial is also included as part of the `ELSE` library download. Look for the 'Live-Electronics-Tutorial' folder inside it, and also check its README file for instructions on how to install it.
+ `ELSE` is also part of [PlugData](https://plugdata.org/) by Timothy Schoen, which is a fork of Pd that loads as a standalone or VST with a revamped GUI. `ELSE` has received collaboration from Tim and others involved with PlugData, and many objects have been included in `ELSE` just so they are supported in PlugData.
+`ELSE` also ships a modification of [pdlua](https://github.com/agraef/pd-lua), which is needed for a couple of GUI objects.
+<h2>Contributors</h2>
+
+<div id="libcontributors"></div>
+
+<p align="center">
+<i>People who contribute to this project.</i>
+</p>
+
+
+<script>
+async function updateList() {
+    const repoOwner = 'porres';
+    const repoName = 'pd-else';
+    try {
+        const res = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contributors`);
+        const contributors = await res.json();
+        const container = document.getElementById('libcontributors');
+        contributors.forEach(user => {
+            const link = document.createElement('a');
+            link.href = `https://github.com/${user.login}`;
+            link.target = '_blank';
+            const img = document.createElement('img');
+            img.src = `https://github.com/${user.login}.png?size=100`;
+            img.alt = user.login;
+            img.className = 'libavatar';
+            link.appendChild(img);
+            container.appendChild(link);
+        });
+    } catch(err) {
+        console.error(err);
+    }
+}
+updateList();
+</script>
+
+
+<h2>Objects</h2>
 
 <div class="grid cards" markdown>
 - :material-tune: [__bend.in__](../objects/bend.in.md) The `bend.in` object in Pure Data extracts MIDI Pitch Bend information from either a connected MIDI device (internal source) or raw MIDI input (external source).

@@ -1,11 +1,13 @@
-# Objects
+# Pieces
 
-In this section we list all the objects submit for the project. Note that, if there is some great object is missing, please submit it using [Submit](submit.md) form. It is very simple and easy. If you did some piece, publish article or recorded a Video for some object and it is not listed here also submit it. 
+!!! warning "This is not ready yet!"
 
-<h2 align="center"><b>Random Objects</b></h2>
+In this section we list all the pieces submit for the project. Note that, if there is some great piece is missing, please submit it using [Submit](submit.md) form. 
+
+<h2 align="center"><b>Pieces</b></h2>
 
 <div class="grid cards ">
-    <ul id="random-objects"></ul>
+    <ul id="random-pieces"></ul>
 </div>
 
 
@@ -19,14 +21,12 @@ function shuffleArray(array) {
 }
 
 async function addObjects() {
-    const url = new URL('../all_objects.json', window.location.href);
+    const url = new URL('../all_pieces.json', window.location.href);
     const response = await fetch(url);
     if (!response.ok) throw new Error("Failed to load JSON");
 
     const categories = await response.json(); 
-    const randomObjects = document.getElementById("random-objects");
-    const randomVideos = document.getElementById("random-videos");
-    const randomArticles = document.getElementById("random-article");
+    const randomArticles = document.getElementById("random-pieces");
 
     // Shuffle and pick 6
     const selected = shuffleArray([...categories]).slice(0, 4);
@@ -69,6 +69,6 @@ async function addObjects() {
     }
 }
 
-addObjects();
+addPieces();
 
 </script>

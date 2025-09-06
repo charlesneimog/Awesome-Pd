@@ -18,12 +18,10 @@ hide:
 
 
 <script>
-const iframe = document.getElementById("submit-frame");
-
 window.addEventListener("message", (event) => {
-    // Optional: check event.origin for security
+    const submitframe = document.getElementById("submit-frame");
     if (event.data.type === "resize-iframe") {
-        iframe.style.height = event.data.height + "px";
+        submitframe.style.height = event.data.height + "px";
     }
 });
 </script>

@@ -47,13 +47,43 @@
     }
 }
 
+.md-search__inner,
+.md-search__input,
+.md-search__form,
+.md-search__suggest {
+    border-radius: 5px;
+}
+
+/*
+ *╭─────────────────────────────────────╮
+ *│           Object Avatars            │
+ *╰─────────────────────────────────────╯
+*/
+/* TODO: Rename this */
 #avatars {
     display: flex;
-    gap: 10px; /* Espaço entre os círculos */
+    gap: 10px;
 }
 .avatar {
     width: 40px;
     height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/*
+ *╭─────────────────────────────────────╮
+ *│          Libraries Avatar           │
+ *╰─────────────────────────────────────╯
+*/
+#libcontributors {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#libcontributors img.libavatar {
+    width: 60px; /* adjust size */
+    height: 60px;
     border-radius: 50%;
     object-fit: cover;
 }
