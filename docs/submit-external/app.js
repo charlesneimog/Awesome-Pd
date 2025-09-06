@@ -256,7 +256,9 @@ function getCategoryData() {
                     const response_obj = await fetch(`../objects/${value}.json`);
                     if (!response_obj.ok) throw new Error("Failed to load object JSON");
                     const obj_info = await response_obj.json();
-
+                    if (!obj_info.hasOwnProperty("contributors")) {
+                        obj_info.contributors = [];
+                    }
                     console.log("Loaded object data:", obj_info);
 
                     // Fill basic form fields if empty
@@ -279,6 +281,9 @@ function getCategoryData() {
                     setIfEmpty("#dekenAvailable", obj_info.available_on_deken);
                     setIfEmpty("#isPartOfLib", obj_info.part_of_library);
                     setIfEmpty("#libraryName", obj_info.library_name);
+
+                    // hide
+                    setIfEmpty("#contributors", obj_info.contributors);
 
                     // Platforms checkboxes
                     if (obj_info.runs_on?.length) {
@@ -325,7 +330,6 @@ function getCategoryData() {
                     const len = description.value.length;
                     charCount.textContent = `${len} / 100 characters`;
                     charCount.style.color = len < 100 ? "#d64545" : "var(--muted)";
-
                 } else {
                     console.log("❌ Not found:", value);
                 }
@@ -444,6 +448,7 @@ function getCategoryData() {
             const available_on_deken = $("#dekenAvailable").checked;
             const part_of_lib = $("#isPartOfLib").checked;
             const library_name = $("#libraryName").value.trim();
+            const contributors = parseList($("#contributors").value);
 
             // NEW: collect categories with hierarchy
             const categoryData = getCategoryData();
@@ -477,6 +482,7 @@ function getCategoryData() {
                 articles: state.articles,
                 videos: state.videos,
                 musics: state.musics,
+                contributors: contributors,
             };
 
             // JSON block
@@ -506,9 +512,9 @@ ${project.description}
                     ? `:octicons-download-16: __Download__ ${dlText}${dekenText}.`
                     : `:octicons-download-16: __Download__ Use [Deken](../deken.md).`;
 
-                if (project.library_name !== ""){
+                if (project.library_name !== "") {
                     downloadLine += `  <p>_Found inside <code>${project.library_name}</code> library._</p>`;
-                } 
+                }
                 lines.push(`- ${downloadLine}`);
             }
             if (project.developers.length) {
@@ -676,4 +682,3 @@ function sendHeight() {
 window.addEventListener("load", sendHeight);
 const observer = new MutationObserver(sendHeight);
 observer.observe(document.body, { childList: true, subtree: true });
-

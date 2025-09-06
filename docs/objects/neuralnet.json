@@ -1,33 +1,36 @@
 {
-  "title": "neuralnet",
-  "description": "`neuralnet` is an artificial neural network Pd external, written in pure C, without any dependencies. It is inspired by the book \"Neural Networks from Scratch in Python\" by Harrison Kinsley & Daniel Kukieła. It is an attempt to translate the Python code to C with the Pure Data API, to run neural networks within Pd.\n\n`neuralnet` creates densely connected neural networks for classification, regression, and binary logistic regression. There are different activation functions and optimizers you can set, and various other settable parameters. The object's help patch and the examples found in the examples directory should cover all the necessary information.",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/alexdrymonitis/neuralnet/issues",
-  "developers": [
-    "Alexandros Drymonitis"
-  ],
-  "part_of_library": false,
-  "library_name": "",
-  "categories": [
-    "Neural Networks"
-  ],
-  "category_groups": [],
-  "category_parents": {},
-  "articles": [
-    {
-      "title": "[neuralnet]: A Pure Data External for the Creation of Neural Networks Written in Pure C",
-      "authors": [
+    "title": "neuralnet",
+    "description": "`neuralnet` is an artificial neural network Pd external, written in pure C, without any dependencies. It is inspired by the book \"Neural Networks from Scratch in Python\" by Harrison Kinsley & Daniel Kukie\u0142a. It is an attempt to translate the Python code to C with the Pure Data API, to run neural networks within Pd.\n\n`neuralnet` creates densely connected neural networks for classification, regression, and binary logistic regression. There are different activation functions and optimizers you can set, and various other settable parameters. The object's help patch and the examples found in the examples directory should cover all the necessary information.",
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/alexdrymonitis/neuralnet/issues",
+    "developers": [
         "Alexandros Drymonitis"
-      ],
-      "link": "https://aimc2023.pubpub.org/pub/3j3fx7y1/release/1"
-    }
-  ],
-  "videos": [],
-  "musics": []
+    ],
+    "part_of_library": false,
+    "library_name": "",
+    "categories": [
+        "Neural Networks"
+    ],
+    "category_groups": [],
+    "category_parents": {},
+    "articles": [
+        {
+            "title": "[neuralnet]: A Pure Data External for the Creation of Neural Networks Written in Pure C",
+            "authors": [
+                "Alexandros Drymonitis"
+            ],
+            "link": "https://aimc2023.pubpub.org/pub/3j3fx7y1/release/1"
+        }
+    ],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ]
 }
