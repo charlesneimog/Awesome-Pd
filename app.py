@@ -4,6 +4,7 @@ import re
 from html import escape
 from typing import Dict, List, Union
 from urllib.parse import parse_qs, urlparse
+import sys
 
 import requests
 import yaml
@@ -471,5 +472,7 @@ nicknames.forEach(nick => {{
 
 
 if __name__ == "__main__":
+
     print("Running...")
-    instance = AwesomePd(False)
+    update = "--update" in sys.argv
+    instance = AwesomePd(update)

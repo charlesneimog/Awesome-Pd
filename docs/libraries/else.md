@@ -12,5 +12,6 @@
 - :material-tune: [__gendyn~__](../objects/gendyn~.md) `gendyn~` implements "Dynamic Strochastic Synthesis" based on Xenakis' GenDyn algorithm.
 - :material-tune: [__giga.rev~__](../objects/giga.rev~.md) `giga.rev~` is a stereo reverb in Else based on Juhana Sadeharju’s *Gigaverb* algorithm, known for producing large, spacious, and dense reverberation tails.
 - :material-tune: [__args__](../objects/args.md) The `args` object in Pure Data loads and manages the arguments of an abstraction, allowing them to be queried or changed dynamically.
+- :material-tune: [__dir__](../objects/dir.md) The `dir` object in Pure Data is used to access and manage files from directories.
 - :material-tune: [__changed~__](../objects/changed~.md) The `changed~` object in Pure Data monitors an input signal and outputs an impulse whenever the signal changes by an amount equal to or greater than a specified threshold.
 </div>
