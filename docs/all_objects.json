@@ -16,6 +16,7 @@
     "gendyn~",
     "giga.rev~",
     "args",
+    "dispatch",
     "dir",
     "changed~",
     "earplug~"

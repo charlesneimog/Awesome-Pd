@@ -9,6 +9,9 @@ import sys
 import requests
 import yaml
 
+# use this to add object using IA + help processor
+# https://chatgpt.com/c/68bc1a52-7f84-8328-8dbb-13b4c294b3a0
+
 
 class AwesomePd:
     """
@@ -327,30 +330,42 @@ nicknames.forEach(nick => {{
             json_file["contributors"].append(creator)
 
         # Save JSON file once per category (matches original behavior)
-        for category in json_file["categories"]:
-            obj_name = json_file["title"]
-            output_dir = os.path.join(self.THIS_DIR, "docs", "objects")
-            if not os.path.exists(output_dir):
-                os.mkdir(output_dir)
+        obj_name = json_file["title"]
+        output_dir = os.path.join(self.THIS_DIR, "docs", "objects")
+        if not os.path.exists(output_dir):
+            os.mkdir(output_dir)
 
-            with open(
-                os.path.join(output_dir, obj_name + ".json"), "w", encoding="utf-8"
-            ) as f:
-                json.dump(json_file, f, indent=4)
-
-            if self.UPDATE_CATEGORIES_AND_MKDOCS:
-                if self.found_category(category, {obj_name: f"objects/{obj_name}.md"}):
-                    print("Adding object", obj_name)
-                    with open(
-                        "docs/submit-external/categories.json", "w", encoding="utf-8"
-                    ) as f:
-                        json.dump(self.objects, f, indent=4, ensure_ascii=False)
-                else:
-                    raise Exception(f"Categoria '{category}' não encontrada")
+        with open(
+            os.path.join(output_dir, obj_name + ".json"), "w", encoding="utf-8"
+        ) as f:
+            json.dump(json_file, f, indent=4)
 
     # --------------------------
     # Navigation Helpers
     # --------------------------
+    def update_json(self):
+        all_files = os.listdir(self.THIS_DIR + "/docs/objects")
+        for file in all_files:
+            json_path = self.THIS_DIR + f"/docs/objects/{file}"
+            if file.endswith(".json"):
+                with open(json_path, "r") as f:
+                    object_data = json.load(f)
+
+                obj_name = object_data["title"]
+                categories = object_data["categories"]
+                for category in categories:
+                    if self.found_category(
+                        category, {obj_name: f"objects/{obj_name}.md"}
+                    ):
+                        print("Adding object", obj_name)
+                        with open(
+                            "docs/submit-external/categories.json",
+                            "w",
+                            encoding="utf-8",
+                        ) as f:
+                            json.dump(self.objects, f, indent=4, ensure_ascii=False)
+                    else:
+                        raise Exception(f"Categoria '{category}' não encontrada")
 
     def dict_to_nav(self, d: dict) -> list:
         """
@@ -416,6 +431,9 @@ nicknames.forEach(nick => {{
         # Regenerate Markdown pages
         self.create_markdowns()
 
+        # update main json
+        self.update_json()
+
         # Build "Objects & Abstractions" navigation
         nav.append({"Objects & Abstractions": self.dict_to_nav(self.objects)})
 
@@ -468,6 +486,7 @@ nicknames.forEach(nick => {{
         # Update mkdocs config
         self.config["nav"] = nav
         with open("mkdocs.yml", "w", encoding="utf-8") as f:
+            print("I am updating")
             yaml.dump(self.config, f, default_flow_style=False, sort_keys=False)
 
 

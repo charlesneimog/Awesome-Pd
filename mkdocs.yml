@@ -133,12 +133,15 @@ nav:
       - dust~: objects/dust~.md
   - Utilities:
     - Data Structures: []
-    - File IO: []
+    - File IO:
+      - dir: objects/dir.md
     - Networking: []
     - MultiThreading:
       - abs.pd~: objects/abs.pd~.md
+      - add: objects/add.md
     - Patching:
       - args: objects/args.md
+      - dispatch: objects/dispatch.md
 - Libraries:
   - neimog: libraries/neimog.md
   - else: libraries/else.md

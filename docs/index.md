@@ -47,6 +47,10 @@ async function addObjects() {
     const randomObjects = document.getElementById("random-objects");
     const randomVideos = document.getElementById("random-videos");
     const randomArticles = document.getElementById("random-article");
+    while (randomObjects.firstChild) {
+        randomObjects.removeChild(randomObjects.firstChild);
+    }
+
 
     // Shuffle and pick 6
     const selected = shuffleArray([...categories]).slice(0, 4);
