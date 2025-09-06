@@ -106,6 +106,10 @@
         "Data Structures": [],
         "File IO": [],
         "Networking": [],
-        "MultiThreading": []
+        "MultiThreading": [
+            {
+                "abs.pd~": "objects/abs.pd~.md"
+            }
+        ]
     }
 }
