@@ -472,4 +472,4 @@ nicknames.forEach(nick => {{
 
 if __name__ == "__main__":
     print("Running...")
-    instance = AwesomePd(True)
+    instance = AwesomePd(False)
