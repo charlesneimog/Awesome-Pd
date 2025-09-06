@@ -117,7 +117,9 @@ nav:
       - vstplugin~: objects/vstplugin~.md
     - Vamp: []
   - Spatialization:
-    - Ambisonics: []
+    - Ambisonics:
+      - saf.decoder~: objects/saf.decoder~.md
+      - saf.encoder~: objects/saf.encoder~.md
     - Binaural:
       - earplug~: objects/earplug~.md
       - sofalizer~: objects/sofalizer~.md

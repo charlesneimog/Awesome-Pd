@@ -7,6 +7,7 @@ The `saf.encoder~` object in Pure Data implements the Ambisonic encoder from the
 - :octicons-download-16: __Download__ Use [Deken](../deken.md).  <p>_Found inside <code>neimog</code> library._</p>
 - :fontawesome-brands-dev: Developed by **Charles K. Neimog**.
 - :fontawesome-brands-github: __Report Bugs/Errors__ [here](https://github.com/charlesneimog/pd-neimog)!
+- :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>
 
 

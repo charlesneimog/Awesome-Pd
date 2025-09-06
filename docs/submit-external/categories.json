@@ -91,7 +91,14 @@
         "AU": []
     },
     "Spatialization": {
-        "Ambisonics": [],
+        "Ambisonics": [
+            {
+                "saf.decoder~": "objects/saf.decoder~.md"
+            },
+            {
+                "saf.encoder~": "objects/saf.encoder~.md"
+            }
+        ],
         "Binaural": [
             {
                 "earplug~": "objects/earplug~.md"
