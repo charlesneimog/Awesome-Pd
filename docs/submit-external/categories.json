@@ -23,10 +23,25 @@
         ]
     },
     "Control": {
-        "Logic": [],
+        "Logic": [
+            {
+                "above~": "objects/above~.md",
+                "above": "objects/above.md"
+            }
+        ],
         "Math": [],
+        "Logic": [],
+        "Math": [
+            {
+                "add": "objects/add.md"
+            }
+        ],
         "Routing": [],
-        "Envelopes": [],
+        "Envelopes": [
+            {
+                "asr~": "objects/asr~.md"
+            }
+        ],
         "LFOs": [],
         "Sequencers": [],
         "MIDI": []
