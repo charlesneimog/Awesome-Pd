@@ -1,3 +1,4 @@
+---
 site_name: PureData Ecossytem
 docs_dir: docs
 theme:
@@ -5,140 +6,144 @@ theme:
   language: en
   name: material
   features:
-  - navigation.indexes
-  - navigation.instant
-  - navigation.tabs.sticky
-  - navigation.tabs
-  - search
-  - search.highlight
-  - search.share
-  - search.suggest
-  - toc.integrate
-  - header.autohide
+    - navigation.indexes
+    - navigation.instant
+    - navigation.tabs.sticky
+    - navigation.tabs
+    - search
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.integrate
+    - header.autohide
   palette:
-  - media: (prefers-color-scheme)
-    toggle:
-      icon: material/brightness-auto
-      name: Switch to light mode
-  - media: '(prefers-color-scheme: light)'
-    scheme: default
-    primary: white
-    accent: light blue
-    toggle:
-      icon: material/lightbulb
-      name: Switch to dark mode
-  - media: '(prefers-color-scheme: dark)'
-    scheme: slate
-    accent: light blue
-    primary: black
-    toggle:
-      icon: material/lightbulb-outline
-      name: Switch to light mode
+    - media: (prefers-color-scheme)
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: white
+      accent: light blue
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      accent: light blue
+      primary: black
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
   icon:
     annotation: material/plus-circle
 markdown_extensions:
-- pymdownx.tabbed:
-    alternate_style: true
-- pymdownx.emoji:
-    emoji_index: !!python/name:material.extensions.emoji.twemoji ''
-    emoji_generator: !!python/name:material.extensions.emoji.to_svg ''
-- pymdownx.extra
-- pymdownx.details
-- pymdownx.inlinehilite
-- pymdownx.tasklist
-- pymdownx.magiclink
-- pymdownx.highlight
-- abbr
-- admonition
-- pymdownx.details
-- attr_list
-- md_in_html
-- pymdownx.superfences
-- footnotes
-- pymdownx.keys
-- def_list
-- pymdownx.tasklist:
-    custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji ''
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg ''
+  - pymdownx.extra
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.tasklist
+  - pymdownx.magiclink
+  - pymdownx.highlight
+  - abbr
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - footnotes
+  - pymdownx.keys
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
 repo_url: https://github.com/charlesneimog/Awesome-Pd
-extra_css:
-- stylesheets/extra.css
+extra_css: [stylesheets/extra.css]
 nav:
-- index.md
-- Submit Missing Externals: submit.md
-- Objects & Abstractions:
-  - Object of day: objects.md
-  - AI:
-    - Machine Learning: []
-    - Deep Learning:
-      - nn~: objects/nn~.md
-    - Neural Networks:
-      - neuralnet: objects/neuralnet.md
-    - Statical Models: []
-  - Composition:
-    - Algorithm Composition: []
-    - Procedures:
-      - l.readsvg: objects/l.readsvg.md
-  - Control:
-    - Logic: []
-    - Math: []
-    - Routing: []
-    - Envelopes:
-      - asr~: objects/asr~.md
-    - LFOs: []
-    - Sequencers: []
-    - MIDI: []
-  - Effects:
-    - Reverb:
-      - convolve~: objects/convolve~.md
-      - giga.rev~: objects/giga.rev~.md
-    - Delay: []
-    - Distortion: []
-    - Chorus/Flanger/Phaser: []
-    - Filters: []
-    - Dynamics: []
-  - MIR:
-    - Partial Tracking: []
-    - Descriptors: []
-    - Score Follower: []
-  - Plugins:
-    - VST2/VST3:
-      - vstplugin~: objects/vstplugin~.md
-    - Vamp: []
-    - LADSPA: []
-    - AU: []
-  - Spatialization:
-    - Ambisonics: []
-    - Binaural:
-      - earplug~: objects/earplug~.md
-      - sofalizer~: objects/sofalizer~.md
-  - Synthesis:
-    - Subtractive: []
-    - Additive:
-      - plaits~: objects/plaits~.md
-    - Granular:
-      - plaits~: objects/plaits~.md
-    - Oscillators:
-      - plaits~: objects/plaits~.md
-    - Partial Tracking: []
-    - Physical Modeling:
-      - plaits~: objects/plaits~.md
-    - Samplers: []
-    - Stochastic:
-      - gendyn~: objects/gendyn~.md
-  - Utilities:
-    - Data Structures: []
-    - File IO: []
-    - Networking: []
-- Libraries:
-  - else: libraries/else.md
-  - neimog: libraries/neimog.md
-- Web:
-  - pd4web: web/pd4web.md
-  - pdwebparty: web/pdwebparty.md
-- Tools:
-  - deken: deken.md
-- Developers:
-  - pd.cmake: devs/pd.cmake.md
-  - pd-lib-builder: devs/pdlibbuilder.md
-plugins:
-- search
+  - index.md
+  - Submit Missing Externals: submit.md
+  - Objects & Abstractions:
+      - Object of day: objects.md
+      - AI:
+          - Machine Learning: []
+          - Deep Learning:
+              - nn~: objects/nn~.md
+          - Neural Networks:
+              - neuralnet: objects/neuralnet.md
+          - Statical Models: []
+      - Composition:
+          - Algorithm Composition: []
+          - Procedures:
+              - l.readsvg: objects/l.readsvg.md
+      - Control:
+          - Logic:
+              - above~: objects/above~.md
+              - above: objects/above.md
+          - Math:
+              - add: objects/add.md
+          - Routing: []
+          - Envelopes:
+              - asr~: objects/asr~.md
+          - LFOs: []
+          - Sequencers: []
+          - MIDI: []
+      - Effects:
+          - Reverb:
+              - convolve~: objects/convolve~.md
+              - giga.rev~: objects/giga.rev~.md
+          - Delay: []
+          - Distortion: []
+          - Chorus/Flanger/Phaser: []
+          - Filters: []
+          - Dynamics: []
+      - MIR:
+          - Partial Tracking: []
+          - Descriptors: []
+          - Score Follower: []
+      - Plugins:
+          - VST2/VST3:
+              - vstplugin~: objects/vstplugin~.md
+          - Vamp: []
+          - LADSPA: []
+          - AU: []
+      - Spatialization:
+          - Ambisonics: []
+          - Binaural:
+              - earplug~: objects/earplug~.md
+              - sofalizer~: objects/sofalizer~.md
+      - Synthesis:
+          - Subtractive: []
+          - Additive:
+              - plaits~: objects/plaits~.md
+          - Granular:
+              - plaits~: objects/plaits~.md
+          - Oscillators:
+              - plaits~: objects/plaits~.md
+          - Partial Tracking: []
+          - Physical Modeling:
+              - plaits~: objects/plaits~.md
+          - Samplers: []
+          - Stochastic:
+              - gendyn~: objects/gendyn~.md
+              - dust~: objects/dust~.md
+      - Utilities:
+          - Data Structures: []
+          - File IO: []
+          - Networking: []
+          - MultiThreading:
+              - abs.pd~: objects/abs.pd~.md
+  - Libraries:
+      - neimog: libraries/neimog.md
+      - else: libraries/else.md
+  - Web:
+      - pd4web: web/pd4web.md
+      - pdwebparty: web/pdwebparty.md
+  - Tools:
+      - deken: deken.md
+  - Developers:
+      - pd.cmake: devs/pd.cmake.md
+      - pd-lib-builder: devs/pdlibbuilder.md
+plugins: [search]

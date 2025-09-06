@@ -65,7 +65,8 @@ jobs:
               echo "Automatic PR with the new files added by the script."
               echo
               echo "Resolves #${{ github.event.issue.number }}"
-              echo "@${{ github.event.issue.user.login }} contributed the idea for this issue."
+              echo
+              echo "@${{ github.event.issue.user.login }} contributed to add this object."
               echo "EOF"
             } >> "$GITHUB_OUTPUT"
           fi

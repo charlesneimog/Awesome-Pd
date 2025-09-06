@@ -1,13 +1,18 @@
 [
-    "earplug~",
-    "plaits~",
-    "giga.rev~",
-    "sofalizer~",
-    "gendyn~",
-    "neuralnet",
-    "convolve~",
-    "asr~",
+    "l.readsvg",
     "nn~",
+    "sofalizer~",
+    "above~",
+    "dust~",
+    "add",
+    "asr~",
+    "above",
     "vstplugin~",
-    "l.readsvg"
+    "plaits~",
+    "neuralnet",
+    "abs.pd~",
+    "convolve~",
+    "gendyn~",
+    "giga.rev~",
+    "earplug~"
 ]
