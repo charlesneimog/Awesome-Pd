@@ -29,8 +29,6 @@
                 "above": "objects/above.md"
             }
         ],
-        "Math": [],
-        "Logic": [],
         "Math": [
             {
                 "add": "objects/add.md"
@@ -114,6 +112,9 @@
         "Stochastic": [
             {
                 "gendyn~": "objects/gendyn~.md"
+            },
+            {
+                "dust~": "objects/dust~.md"
             }
         ]
     },
