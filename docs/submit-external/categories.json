@@ -26,7 +26,11 @@
         "Logic": [],
         "Math": [],
         "Routing": [],
-        "Envelopes": [],
+        "Envelopes": [
+            {
+                "asr~": "objects/asr~.md"
+            }
+        ],
         "LFOs": [],
         "Sequencers": [],
         "MIDI": []
