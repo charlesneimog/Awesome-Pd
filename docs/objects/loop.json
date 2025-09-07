@@ -1,0 +1,25 @@
+{
+    "title": "loop",
+    "description": "`loop` is a loop counter, but it can also loop bangs like `until` (using the -b flag). A float sets number of count iteration upwards. A list with two elements sets a start and end value (and allows counting upwards or downwards). A counter step value can be set with a third optional element in a list.\n",
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "categories": [],
+    "category_groups": [],
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "title": "slice",
+    "description": "`slice` splits lists. The 'n' split point is set via argument or right inlet. If you slice at 'n', the left outlet spits the first 'n' elements and the right outlet sends the remaining elements. If you slice at '-n', the right outlet spits the last 'n' elements and the left outlet sends the first elements. If the number of elements is less than the split point, the whole list is output to the left if 'n' is positive, and to the right if negative. Symbols and floats are also taken.\n",
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "categories": [],
+    "category_groups": [],
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ]
+}

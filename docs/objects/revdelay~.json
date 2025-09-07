@@ -1,0 +1,25 @@
+{
+    "title": "revdelay~",
+    "description": "`revdelay~` is a reverse delay effect. It takes a size amount in ms to play backwards from a delay line (default 1000 ms).\n",
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "categories": [],
+    "category_groups": [],
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ]
+}

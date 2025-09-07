@@ -1,0 +1,25 @@
+{
+    "title": "bl.tri~",
+    "description": "`bl.tri~` is a triangle oscillator like `else/tri~`, but it is bandlimited. Use `tri~` mostly if you need a perfect triangular wave, which is usually the case when you want a LFO. The `bl.tri~` version is for proper synthesis as it is anti-aliased. This version also has input for pitch in MIDI and no way to sync at control rate.\n",
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "categories": [],
+    "category_groups": [],
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ]
+}

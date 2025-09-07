@@ -1,0 +1,25 @@
+{
+    "title": "resonator~",
+    "description": "`resonator~` is just like `resonant~`, but the resonance parameter is defined as resonance time in 't60'. It has 3 modes, the default is bandpass, which is like `resonant~`, then you can also have lowpass (like `lowpass~`) and highpass (you guessed it, like `highpass~`). Note that a t60 value of 0 bypasses the input! For a bank of `resonator~` objects, see `resonbank~`. For another similar filter, see `resonator2~`.\n",
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "categories": [],
+    "category_groups": [],
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "title": "autofade.mc~",
+    "description": "`autofade.mc~` is an automatic fade in/out for multichanne inputs. It responds to a gate control and uses internal lookup tables just like `fader~`. A gate on happens when the last input value was zero or less and the incoming value isn't. A gate off happens when the last value was greater than zero value and the incoming value isn't! The maximum gain depends on the gate on level.\n",
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "categories": [],
+    "category_groups": [],
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ]
+}

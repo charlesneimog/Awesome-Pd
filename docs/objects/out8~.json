@@ -1,0 +1,25 @@
+{
+    "title": "out8~",
+    "description": "`out8~` is a convenient octaphonic input/output abstraction. It has controls for mute, DSP on/off, ramp time, maximum gain and scaling mode. Note that you need to specify at least 8 output channels in preferences => audio.\n",
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "categories": [],
+    "category_groups": [],
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ]
+}
