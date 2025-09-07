@@ -69,6 +69,7 @@ nav:
 - index.md
 - Submit: submit.md
 - Objects & Abstractions:
+  - Object of day: objects.md
   - AI:
     - Deep Learning:
       - nn~: objects/nn~.md
@@ -109,7 +110,6 @@ nav:
     - Descriptors: []
     - Partial Tracking: []
     - Score Follower: []
-  - Object of day: objects.md
   - Plugins:
     - AU: []
     - LADSPA: []
@@ -137,6 +137,7 @@ nav:
     - Stochastic:
       - gendyn~: objects/gendyn~.md
       - dust~: objects/dust~.md
+      - perlin~: objects/perlin~.md
     - Subtractive: []
   - Utilities:
     - Data Structures:
@@ -146,11 +147,13 @@ nav:
     - MultiThreading:
       - abs.pd~: objects/abs.pd~.md
       - add: objects/add.md
+    - Multichannel: []
     - Networking: []
     - Patching:
       - args: objects/args.md
       - dispatch: objects/dispatch.md
 - Libraries:
+  - cyclone: libraries/cyclone.md
   - else: libraries/else.md
   - neimog: libraries/neimog.md
 - Pieces: pieces.md

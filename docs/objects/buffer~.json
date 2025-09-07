@@ -1,0 +1,25 @@
+{
+    "title": "buffer~",
+    "description": "`buffer~` stores audio in a memory buffer (an array). It read/writes multichannel audio files and can be used in conjunction with `play~` and other related objects. This is an abstraction without the full functionalitites or compatibility to the MAX original and is based on `soundfiler`.\n",
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "categories": [],
+    "category_groups": [],
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ]
+}

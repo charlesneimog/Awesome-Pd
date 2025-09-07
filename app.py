@@ -266,10 +266,12 @@ nicknames.forEach(nick => {{
         json_files = os.listdir(json_dir)
 
         libraries = {}
+        print("")
         for json_file in json_files:
             if not json_file.endswith(".json"):
                 continue
 
+            print(f"Creating markdown for {json_file.replace('.json', "")}")
             path = os.path.join(json_dir, json_file)
             with open(path, "r", encoding="utf-8") as f:
                 project = json.load(f)
@@ -386,15 +388,28 @@ nicknames.forEach(nick => {{
 
     def dict_to_nav(self, d: dict) -> list:
         """
-        Convert a nested dict to a mkdocs 'nav' list structure, preserving
-        the same shape as the original implementation.
+        Convert a nested dict to a mkdocs 'nav' list structure,
+        ensuring "Object of day" is always first if present.
         """
         nav_list = []
+
+        # Force "Object of day" to the front if present
+        if "Object of day" in d:
+            value = d["Object of day"]
+            if isinstance(value, dict):
+                nav_list.append({"Object of day": self.dict_to_nav(value)})
+            else:
+                nav_list.append({"Object of day": value})
+
+        # Process the rest in sorted order, skipping the special key
         for key, value in sorted(d.items()):
+            if key == "Object of day":
+                continue
             if isinstance(value, dict):
                 nav_list.append({key: self.dict_to_nav(value)})
             else:
                 nav_list.append({key: value})
+
         return nav_list
 
     def found_category(self, target_key: str, new_data: dict, obj: dict = None) -> bool:
@@ -568,3 +583,4 @@ if __name__ == "__main__":
     print("Running...")
     update = "--update" in sys.argv
     instance = AwesomePd(update)
+    instance.home_update()

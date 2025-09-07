@@ -138,6 +138,9 @@
             },
             {
                 "dust~": "objects/dust~.md"
+            },
+            {
+                "perlin~": "objects/perlin~.md"
             }
         ]
     },
