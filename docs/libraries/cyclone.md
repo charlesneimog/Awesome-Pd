@@ -62,8 +62,7 @@ updateList();
 - :material-tune: [__trapezoid~__](../objects/trapezoid~.md) `trapezoid~` is a trapezoidal wavetable that is read with phase values from 0 to 1 into the first inlet, so a `phasor~` input turns it into a wavetable oscillator.
 - :material-tune: [__scale__](../objects/scale.md) `scale` maps an input range to an output range.
 - :material-tune: [__phaseshift~__](../objects/phaseshift~.md) `phaseshift~` is a 2nd allpass filter, which keeps the gain and only alters the phase from 0 (at 0 hz) to 360º (at the Nyquist frequency).
-- :material-tune: [__zl__](../objects/zl.md) `zl` processes messages with one or more elements ("list messages' or "anything") according to a mode set via argument/message or in the object name after a '.' (dot).
-.
+- :material-tune: [__zl__](../objects/zl.md) `zl` processes messages with one or more elements ("list messages' or "anything") according to a mode set via argument/message or in the object name after a `.` (dot)..
 - :material-tune: [__togedge__](../objects/togedge.md) `togedge` sends a bang in the left outlet for "zero to non-zero" transitions, and a bang in the right outlet for "non-zero to zero" transitions.
 .
 - :material-tune: [__buffer~__](../objects/buffer~.md) `buffer~` stores audio in a memory buffer (an array).

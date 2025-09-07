@@ -69,11 +69,25 @@ class AwesomePd:
         with open("mkdocs.yml", "r", encoding="utf-8") as f:
             self.config = yaml.load(f, Loader=yaml.UnsafeLoader)
 
+        self.videos = []
+        self.music = []
+        self.articles = []
+
         self.UPDATE_CATEGORIES_AND_MKDOCS = update_docs
         if update_docs:
             self.home_update()
         else:
             self.github_actions()
+
+        self.videos = list({item["link"]: item for item in self.videos}.values())
+        self.music = list({item["link"]: item for item in self.music}.values())
+        self.articles = list({item["link"]: item for item in self.articles}.values())
+        with open("docs/all_videos.json", "w") as f:
+            json.dump(self.videos, f, indent=4)
+        with open("docs/all_music.json", "w") as f:
+            json.dump(self.music, f, indent=4)
+        with open("docs/all_articles.json", "w") as f:
+            json.dump(self.articles, f, indent=4)
 
     # --------------------------
     # GitHub Issues Integration
@@ -181,6 +195,7 @@ class AwesomePd:
                 f"    *by {', '.join(map(escape, a['authors']))}*\n\n"
                 f"    [Link]({a['link']})\n"
             )
+            self.articles.append(a)
         md += "</div>\n\n"
         return md
 
@@ -189,6 +204,7 @@ class AwesomePd:
             return ""
         md = '---\n<h3>Videos</h3>\n\n<div style="display: flex; justify-content: center; gap: 20px;">\n'
         for v in project["videos"]:
+            self.videos.append(v)
             md += f"    {self.youtube_embed(v['link'])}\n"
         md += "</div>\n\n"
         return md
@@ -197,7 +213,9 @@ class AwesomePd:
         if not project.get("musics"):
             return ""
         md = '---\n<h3>Music</h3>\n\n<div style="display: flex; justify-content: center; gap: 20px;">\n'
+
         for m in project["musics"]:
+            self.music.append(m)
             md += f"    {self.youtube_embed(m['link'])}\n"
         md += "</div>\n\n---\n"
         return md
@@ -583,4 +601,3 @@ if __name__ == "__main__":
     print("Running...")
     update = "--update" in sys.argv
     instance = AwesomePd(update)
-    instance.home_update()

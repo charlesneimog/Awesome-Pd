@@ -5,7 +5,6 @@ import json
 
 dir = os.listdir("/home/neimog/Documents/plugdata/Documentation/9.else/")
 
-
 objects_that_were_not_added = []
 for file in dir:
     if file.endswith("-help.pd"):

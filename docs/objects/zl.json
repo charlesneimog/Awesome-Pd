@@ -1,6 +1,7 @@
 {
     "title": "zl",
-    "description": "`zl` processes messages with one or more elements (\"list messages' or \"anything\") according to a mode set via argument/message or in the object name after a '.' (dot).\n",
+    "whatiam": "object",
+    "description": "`zl` processes messages with one or more elements (\"list messages' or \"anything\") according to a mode set via argument/message or in the object name after a `.` (dot).",
     "runs_on": [
         "Mac",
         "Linux",
@@ -14,8 +15,11 @@
     ],
     "part_of_library": true,
     "library_name": "cyclone",
-    "categories": [],
+    "categories": [
+        "Patching"
+    ],
     "category_groups": [],
+    "category_parents": {},
     "articles": [],
     "videos": [],
     "musics": [],

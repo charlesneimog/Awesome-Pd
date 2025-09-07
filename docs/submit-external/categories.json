@@ -170,6 +170,9 @@
             },
             {
                 "dispatch": "objects/dispatch.md"
+            },
+            {
+                "zl": "objects/zl.md"
             }
         ],
         "Multichannel": []

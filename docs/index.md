@@ -55,9 +55,6 @@ async function addObjects() {
     // Shuffle and pick 6
     const selected = shuffleArray([...categories]).slice(0, 4);
 
-    let videos = []
-    let articles = []
-
     for (const item of selected) {
         const li = document.createElement("li");
 
@@ -88,26 +85,19 @@ async function addObjects() {
         li.appendChild(p);
 
         randomObjects.appendChild(li);
-
-        if (objresult["videos"]) videos.push(...objresult["videos"]);
-        if (objresult["musics"]) videos.push(...objresult["musics"]);
-        if (objresult["articles"]) articles.push(...objresult["articles"]);
-    }
-
-    // filter to avoid tendencies
-    videos = videos.filter(
-      (item, index, self) =>
-        index === self.findIndex((v) => v.link === item.link)
-    );
-    if (videos.length == 0){
-        addObjects();
-        return;
     }
 
 
-    // random videos
-    const selectedVideos = shuffleArray([...videos]).slice(0, 2);
+    const jsonvideos = await fetch(`${window.location.href}/all_videos.json`);
+    if (!jsonvideos.ok) throw new Error("Failed to load JSON");
+    const jsonmusic = await fetch(`${window.location.href}/all_music.json`);
+    if (!jsonmusic.ok) throw new Error("Failed to load JSON");
 
+    const videos = await jsonvideos.json(); 
+    const music = await jsonmusic.json();
+    const media = [...videos, ...music];
+    const shuffled = shuffleArray(media);
+    const selectedVideos = shuffled.slice(0, 2);
     selectedVideos.forEach(v => {
         let url = v.link || v; 
         let videoId = null;
