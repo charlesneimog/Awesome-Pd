@@ -1,19 +1,5 @@
 [
     {
-        "title": "Hierarchical temporal learning for multi-instrument and orchestral audio synthesis",
-        "authors": [
-            "Hierarchical temporal learning for multi-instrument and orchestral audio synthesis"
-        ],
-        "link": "https://theses.hal.science/tel-04137258"
-    },
-    {
-        "title": "[vstplugin~] \u2013 A Pd external for hosting VST plugins",
-        "authors": [
-            "Christof Ressi"
-        ],
-        "link": "https://doi.org/10.33871/23179937.2021.9.2.20"
-    },
-    {
         "title": "ELSE Library for Pure Data",
         "authors": [
             "Alexandre Porres"
@@ -26,5 +12,19 @@
             "Alexandros Drymonitis"
         ],
         "link": "https://aimc2023.pubpub.org/pub/3j3fx7y1/release/1"
+    },
+    {
+        "title": "Hierarchical temporal learning for multi-instrument and orchestral audio synthesis",
+        "authors": [
+            "Hierarchical temporal learning for multi-instrument and orchestral audio synthesis"
+        ],
+        "link": "https://theses.hal.science/tel-04137258"
+    },
+    {
+        "title": "[vstplugin~] \u2013 A Pd external for hosting VST plugins",
+        "authors": [
+            "Christof Ressi"
+        ],
+        "link": "https://doi.org/10.33871/23179937.2021.9.2.20"
     }
 ]

@@ -1,6 +1,7 @@
 {
     "title": "adsr~",
-    "description": "`adsr~` is an attack/decay/sustain/release gated envelope. The attack/decay/release times are set in ms. A gate on sets the maximum attack peak, the sustain point is a ratio of the gate on value. A gate off sets the release - but note that, by default, if the gate off comes before the sustain point is reached, the attack+decay stages still get completed before going into the release ramp. Another mode allows an immediate release. The object has multichannel support.\n",
+    "whatiam": "object",
+    "description": "`adsr~` is an attack/decay/sustain/release gated envelope. The attack/decay/release times are set in ms. A gate on sets the maximum attack peak, the sustain point is a ratio of the gate on value. A gate off sets the release - but note that, by default, if the gate off comes before the sustain point is reached, the attack+decay stages still get completed before going into the release ramp. Another mode allows an immediate release. The object has multichannel support.",
     "runs_on": [
         "Mac",
         "Linux",
@@ -14,8 +15,11 @@
     ],
     "part_of_library": true,
     "library_name": "else",
-    "categories": [],
+    "categories": [
+        "Envelopes"
+    ],
     "category_groups": [],
+    "category_parents": {},
     "articles": [],
     "videos": [],
     "musics": [],
