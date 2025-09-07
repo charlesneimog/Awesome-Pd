@@ -1,7 +1,6 @@
 # zl
 
-`zl` processes messages with one or more elements ("list messages' or "anything") according to a mode set via argument/message or in the object name after a '.' (dot).
-
+`zl` processes messages with one or more elements ("list messages' or "anything") according to a mode set via argument/message or in the object name after a `.` (dot).
 
 ---
 <div class="grid cards" markdown>
