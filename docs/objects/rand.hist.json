@@ -1,25 +1,29 @@
 {
-    "title": "rand.hist",
-    "description": "`rand.hist` generates weighted randomnumbers based on a histogram (which specifies how many times an index is output). Below to the left we have a random sequence where 0 has a 30% chance of occurring, 1 has 20% and 2 has 50%. A list sets a new histogram. In \"unrepeat\" mode, a random sequence is output without repetition, below to the right, the random sequence contains index 0 three times and index 1 twice. When the sequence is finished, a bang comes out the right outlet. In this case, the 'restart' message clears the memory so you can start a new sequence.\n",
-    "runs_on": [
-        "Mac",
-        "Linux",
-        "Windows"
-    ],
-    "download_link": "",
-    "available_on_deken": true,
-    "bug_reports": "https://github.com/porres/pd-else/issues",
-    "developers": [
-        "Alexandre Porres"
-    ],
-    "part_of_library": true,
-    "library_name": "else",
-    "categories": [],
-    "category_groups": [],
-    "articles": [],
-    "videos": [],
-    "musics": [],
-    "contributors": [
-        "charlesneimog"
-    ]
+  "title": "rand.hist",
+  "description": "`rand.hist` generates weighted randomnumbers based on a histogram (which specifies how many times an index is output). Below to the left we have a random sequence where 0 has a 30% chance of occurring, 1 has 20% and 2 has 50%. A list sets a new histogram. In \"unrepeat\" mode, a random sequence is output without repetition, below to the right, the random sequence contains index 0 three times and index 1 twice. When the sequence is finished, a bang comes out the right outlet. In this case, the 'restart' message clears the memory so you can start a new sequence.\n",
+  "runs_on": [
+    "Mac",
+    "Linux",
+    "Windows"
+  ],
+  "download_link": "",
+  "available_on_deken": true,
+  "bug_reports": "https://github.com/porres/pd-else/issues",
+  "developers": [
+    "Alexandre Porres"
+  ],
+  "part_of_library": true,
+  "library_name": "else",
+  "categories": [
+    "Stochastic",
+    "Patching",
+    "Procedures"
+  ],
+  "category_groups": [],
+  "articles": [],
+  "videos": [],
+  "musics": [],
+  "contributors": [
+    "charlesneimog"
+  ]
 }

@@ -1,6 +1,44 @@
 # pd4web
 
-`pd4web` enables PureData functionality directly in web browsers. Not just the vanilla Pd, but Pd with all the externals! 
+`pd4web` enables PureData functionality directly in web browsers. Not just the vanilla Pd, but Pd with all the externals!
+
+<h2>Contributors</h2>
+
+<div id="libcontributors"></div>
+
+<script>
+async function updateList() {
+    const repoOwner = 'charlesneimog';
+    const repoName = 'pd4web';
+    try {
+        const res = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contributors`);
+        const contributors = await res.json();
+        const container = document.getElementById('libcontributors');
+        contributors.forEach(user => {
+            console.log(user);
+            const link = document.createElement('a');
+            link.href = `https://github.com/${user.login}`;
+            link.target = '_blank';
+            const img = document.createElement('img');
+            img.src = `${user.avatar_url}`;
+            img.alt = user.login;
+            img.className = 'libavatar';
+            link.appendChild(img);
+            container.appendChild(link);
+        });
+    } catch(err) {
+        console.error(err);
+    }
+}
+updateList();
+</script>
+
+
+<h2>Key Features</h2>
+
+* Streamlined Development: Create fully online audio applications with a visual approach.
+* Easy Access: Performers can access compositions without complex PureData setups or library dependencies.
+* Live Electronic Music Preservation: Explore the potential of WebAudioApps to maintain the integrity of live electronic works. `pd4web` will download and make a repository for all code you need to run your music.
 
 ---
 <div class="grid cards" markdown>

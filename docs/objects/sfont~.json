@@ -1,25 +1,29 @@
 {
-    "title": "sfont~",
-    "description": "`sfont~` is a sampler synthesizer that plays SoundFont files. It is based on FluidLite, a light version of FluidSynth.\n",
-    "runs_on": [
-        "Mac",
-        "Linux",
-        "Windows"
-    ],
-    "download_link": "",
-    "available_on_deken": true,
-    "bug_reports": "https://github.com/porres/pd-else/issues",
-    "developers": [
-        "Alexandre Porres"
-    ],
-    "part_of_library": true,
-    "library_name": "else",
-    "categories": [],
-    "category_groups": [],
-    "articles": [],
-    "videos": [],
-    "musics": [],
-    "contributors": [
-        "charlesneimog"
-    ]
+  "title": "sfont~",
+  "description": "`sfont~` is a sampler synthesizer that plays SoundFont files. It is based on FluidLite, a light version of FluidSynth.\n",
+  "runs_on": [
+    "Mac",
+    "Linux",
+    "Windows"
+  ],
+  "download_link": "",
+  "available_on_deken": true,
+  "bug_reports": "https://github.com/porres/pd-else/issues",
+  "developers": [
+    "Alexandre Porres"
+  ],
+  "part_of_library": true,
+  "library_name": "else",
+  "categories": [
+    "Samplers",
+    "File IO",
+    "Oscillators"
+  ],
+  "category_groups": [],
+  "articles": [],
+  "videos": [],
+  "musics": [],
+  "contributors": [
+    "charlesneimog"
+  ]
 }

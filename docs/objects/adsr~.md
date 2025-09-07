@@ -2,7 +2,6 @@
 
 `adsr~` is an attack/decay/sustain/release gated envelope. The attack/decay/release times are set in ms. A gate on sets the maximum attack peak, the sustain point is a ratio of the gate on value. A gate off sets the release - but note that, by default, if the gate off comes before the sustain point is reached, the attack+decay stages still get completed before going into the release ramp. Another mode allows an immediate release. The object has multichannel support.
 
-
 ---
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ Use [Deken](../deken.md).  <p>_Found inside <code>else</code> library._</p>

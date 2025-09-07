@@ -1,25 +1,29 @@
 {
-    "title": "scope3d~",
-    "description": "`scope3d~` displays signals in 3D. This is an object coded in Lua and is very very experimental and likely to change and break.\n",
-    "runs_on": [
-        "Mac",
-        "Linux",
-        "Windows"
-    ],
-    "download_link": "",
-    "available_on_deken": true,
-    "bug_reports": "https://github.com/porres/pd-else/issues",
-    "developers": [
-        "Alexandre Porres"
-    ],
-    "part_of_library": true,
-    "library_name": "else",
-    "categories": [],
-    "category_groups": [],
-    "articles": [],
-    "videos": [],
-    "musics": [],
-    "contributors": [
-        "charlesneimog"
-    ]
+  "title": "scope3d~",
+  "description": "`scope3d~` displays signals in 3D. This is an object coded in Lua and is very very experimental and likely to change and break.\n",
+  "runs_on": [
+    "Mac",
+    "Linux",
+    "Windows"
+  ],
+  "download_link": "",
+  "available_on_deken": true,
+  "bug_reports": "https://github.com/porres/pd-else/issues",
+  "developers": [
+    "Alexandre Porres"
+  ],
+  "part_of_library": true,
+  "library_name": "else",
+  "categories": [
+    "Multichannel",
+    "Procedures",
+    "Math"
+  ],
+  "category_groups": [],
+  "articles": [],
+  "videos": [],
+  "musics": [],
+  "contributors": [
+    "charlesneimog"
+  ]
 }

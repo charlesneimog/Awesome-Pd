@@ -1,25 +1,29 @@
 {
-    "title": "maximum",
-    "description": "`maximum` outputs the maximum of two or more values. The right outlet outputs the index of the maximum. If given a float, it can compare to a 2nd value in the right inlet or argument. If given a list, the maximum of the list is given.\n",
-    "runs_on": [
-        "Mac",
-        "Linux",
-        "Windows"
-    ],
-    "download_link": "",
-    "available_on_deken": true,
-    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
-    "developers": [
-        "Alexandre Porres"
-    ],
-    "part_of_library": true,
-    "library_name": "cyclone",
-    "categories": [],
-    "category_groups": [],
-    "articles": [],
-    "videos": [],
-    "musics": [],
-    "contributors": [
-        "charlesneimog"
-    ]
+  "title": "maximum",
+  "description": "`maximum` outputs the maximum of two or more values. The right outlet outputs the index of the maximum. If given a float, it can compare to a 2nd value in the right inlet or argument. If given a list, the maximum of the list is given.\n",
+  "runs_on": [
+    "Mac",
+    "Linux",
+    "Windows"
+  ],
+  "download_link": "",
+  "available_on_deken": true,
+  "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+  "developers": [
+    "Alexandre Porres"
+  ],
+  "part_of_library": true,
+  "library_name": "cyclone",
+  "categories": [
+    "Math",
+    "Procedures",
+    "Logic"
+  ],
+  "category_groups": [],
+  "articles": [],
+  "videos": [],
+  "musics": [],
+  "contributors": [
+    "charlesneimog"
+  ]
 }

@@ -18,6 +18,37 @@
 !!! tip "Use `msys2` on Windows"
     On windows it is easiear to use `msys2` to build objects with `pd-lib-builder`. You can install `msys2` running `winget install msys2.msys2` or check [https://www.msys2.org/](https://www.msys2.org/).
     
+<h2>Contributors</h2>
+
+<div id="libcontributors"></div>
+
+<script>
+async function updateList() {
+    const repoOwner = 'pure-data';
+    const repoName = 'pd-lib-builder';
+    try {
+        const res = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contributors`);
+        const contributors = await res.json();
+        const container = document.getElementById('libcontributors');
+        contributors.forEach(user => {
+            console.log(user);
+            const link = document.createElement('a');
+            link.href = `https://github.com/${user.login}`;
+            link.target = '_blank';
+            const img = document.createElement('img');
+            img.src = `${user.avatar_url}`;
+            img.alt = user.login;
+            img.className = 'libavatar';
+            link.appendChild(img);
+            container.appendChild(link);
+        });
+    } catch(err) {
+        console.error(err);
+    }
+}
+updateList();
+</script>
+
 
 ---
 <div class="grid cards" markdown>

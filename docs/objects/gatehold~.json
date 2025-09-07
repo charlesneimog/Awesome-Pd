@@ -1,25 +1,29 @@
 {
-    "title": "gatehold~",
-    "description": "`gatehold~` holds a gate value for a certain amount of time (specified in ms) after the gate has closed. If a new gate starts before the hold time is finished, the object is retriggered. The object has support for multichannel signals.\n",
-    "runs_on": [
-        "Mac",
-        "Linux",
-        "Windows"
-    ],
-    "download_link": "",
-    "available_on_deken": true,
-    "bug_reports": "https://github.com/porres/pd-else/issues",
-    "developers": [
-        "Alexandre Porres"
-    ],
-    "part_of_library": true,
-    "library_name": "else",
-    "categories": [],
-    "category_groups": [],
-    "articles": [],
-    "videos": [],
-    "musics": [],
-    "contributors": [
-        "charlesneimog"
-    ]
+  "title": "gatehold~",
+  "description": "`gatehold~` holds a gate value for a certain amount of time (specified in ms) after the gate has closed. If a new gate starts before the hold time is finished, the object is retriggered. The object has support for multichannel signals.\n",
+  "runs_on": [
+    "Mac",
+    "Linux",
+    "Windows"
+  ],
+  "download_link": "",
+  "available_on_deken": true,
+  "bug_reports": "https://github.com/porres/pd-else/issues",
+  "developers": [
+    "Alexandre Porres"
+  ],
+  "part_of_library": true,
+  "library_name": "else",
+  "categories": [
+    "Envelopes",
+    "Multichannel",
+    "Algorithm Composition"
+  ],
+  "category_groups": [],
+  "articles": [],
+  "videos": [],
+  "musics": [],
+  "contributors": [
+    "charlesneimog"
+  ]
 }

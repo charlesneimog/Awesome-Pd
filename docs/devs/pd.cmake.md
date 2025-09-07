@@ -3,6 +3,7 @@
 `pd.cmake` is a collection of CMake scripts designed to simplify the process of creating build projects for Pure Data (Pd) externals.  
 It provides a unified, cross-platform way to generate build files (Makefiles, Xcode projects, Visual Studio solutions, etc.) for Pd externals using CMake.  
 
+
 ### Purpose
     
 - Automates the setup of CMake projects for Pd external development.  
@@ -11,6 +12,37 @@ It provides a unified, cross-platform way to generate build files (Makefiles, Xc
 
 ### Use case 
 Instead of manually writing platform-specific build scripts, developers can use `pd.cmake` to quickly generate the necessary build environment for compiling Pd externals.
+
+<h2>Contributors</h2>
+
+<div id="libcontributors"></div>
+
+<script>
+async function updateList() {
+    const repoOwner = 'pure-data';
+    const repoName = 'pd.cmake';
+    try {
+        const res = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contributors`);
+        const contributors = await res.json();
+        const container = document.getElementById('libcontributors');
+        contributors.forEach(user => {
+            console.log(user);
+            const link = document.createElement('a');
+            link.href = `https://github.com/${user.login}`;
+            link.target = '_blank';
+            const img = document.createElement('img');
+            img.src = `${user.avatar_url}`;
+            img.alt = user.login;
+            img.className = 'libavatar';
+            link.appendChild(img);
+            container.appendChild(link);
+        });
+    } catch(err) {
+        console.error(err);
+    }
+}
+updateList();
+</script>
 
 ---
 <div class="grid cards" markdown>

@@ -23,16 +23,16 @@ class AwesomePd:
 
     UPDATE_CATEGORIES_AND_MKDOCS = False
 
-    DEV_TOOLS = {
-        "pd.cmake": "devs/pd.cmake.md",
-        "pd-lib-builder": "devs/pdlibbuilder.md",
-    }
     WEB_TOOLS = {
         "pd4web": "web/pd4web.md",
         "pdwebparty": "web/pdwebparty.md",
+        "purrdata": "web/purrdata.md",
+        "pdxr": "web/pdxr.md",
     }
     TOOLS = {
         "deken": "deken.md",
+        "pd.cmake": "devs/pd.cmake.md",
+        "pd-lib-builder": "devs/pdlibbuilder.md",
     }
     OS_ICON_MAP = {
         "Windows": ":fontawesome-brands-windows:",
@@ -588,7 +588,7 @@ updateList();
         nav.append({"Pieces": "pieces.md"})
         nav.append({"Web": self.dict_to_nav(self.WEB_TOOLS)})
         nav.append({"Tools": self.dict_to_nav(self.TOOLS)})
-        nav.append({"Developers": self.dict_to_nav(self.DEV_TOOLS)})
+        # nav.append({"Developers": self.dict_to_nav(self.DEV_TOOLS)})
 
         # Update mkdocs config
         self.config["nav"] = nav

@@ -1,25 +1,29 @@
 {
-    "title": "level~",
-    "description": "`level~` is a convenient abstraction for adjusting a signal's gain in dB. At \"12 o'clock\" we have 'Unity Gain\", which is 0 dB. Moving clockwise we linearly up to 12dB, whereas counterclockwise moves nonlinearly to -100, and reaching '-100' effectively means -inf dB (total silence). It has support for multichannel signals.\n",
-    "runs_on": [
-        "Mac",
-        "Linux",
-        "Windows"
-    ],
-    "download_link": "",
-    "available_on_deken": true,
-    "bug_reports": "https://github.com/porres/pd-else/issues",
-    "developers": [
-        "Alexandre Porres"
-    ],
-    "part_of_library": true,
-    "library_name": "else",
-    "categories": [],
-    "category_groups": [],
-    "articles": [],
-    "videos": [],
-    "musics": [],
-    "contributors": [
-        "charlesneimog"
-    ]
+  "title": "level~",
+  "description": "`level~` is a convenient abstraction for adjusting a signal's gain in dB. At \"12 o'clock\" we have 'Unity Gain\", which is 0 dB. Moving clockwise we linearly up to 12dB, whereas counterclockwise moves nonlinearly to -100, and reaching '-100' effectively means -inf dB (total silence). It has support for multichannel signals.\n",
+  "runs_on": [
+    "Mac",
+    "Linux",
+    "Windows"
+  ],
+  "download_link": "",
+  "available_on_deken": true,
+  "bug_reports": "https://github.com/porres/pd-else/issues",
+  "developers": [
+    "Alexandre Porres"
+  ],
+  "part_of_library": true,
+  "library_name": "else",
+  "categories": [
+    "Dynamics",
+    "Multichannel",
+    "Procedures"
+  ],
+  "category_groups": [],
+  "articles": [],
+  "videos": [],
+  "musics": [],
+  "contributors": [
+    "charlesneimog"
+  ]
 }

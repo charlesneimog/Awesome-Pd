@@ -1,6 +1,10 @@
-# pdwebparty
+# purr-data
 
-`PdWebParty` is an open-source web application that allows Pd users to run their patches on any device through a web browser, making the patches easily shareable with a web link.
+`Purr Data` is the latest (2.x) branch of Ivica Ico Bukvic's Pd-l2ork. Pd-l2ork in turn was a fork of Hans-Christoph Steiner's Pd-extended, which has been the longest-running (and arguably the most popular) variant of Miller Puckette's Pd. Pd a.k.a. Pure Data, the common basis of all these variants, is Miller Puckette's interactive and graphical computer music and multimedia environment. Pd is also the premier open-source alternative to Cycling74's well-known commercial Max program (whose original version was also developed by Miller Puckette when he was at IRCAM in the 1980s). There are a few other popular and very capable applications in the realm of computer music and media art, most notably Csound and SuperCollider. But Max and Pd's special appeal is that you work in an intuitive graphical "patching" environment which allows you to put together advanced real-time signal processing applications without having to learn a "real" programming language.
+
+!!! tip "You can use the web version [here](https://charlesneimog.github.io/purr-data/)"
+    
+
 
 <h2>Contributors</h2>
 
@@ -8,8 +12,9 @@
 
 <script>
 async function updateList() {
-    const repoOwner = 'cuinjune';
-    const repoName = 'PdWebParty';
+    // https://github.com/agraef/purr-data
+    const repoOwner = 'agraef';
+    const repoName = 'purr-data';
     try {
         const res = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contributors`);
         const contributors = await res.json();
@@ -36,20 +41,10 @@ updateList();
 
 ---
 <div class="grid cards" markdown>
-- :octicons-download-16: __Download__ [here](https://github.com/cuinjune/PdWebParty).
-- :fontawesome-brands-dev: Developed by **Zack Lee**.
-- :fontawesome-brands-github: __Report Bugs/Errors__ [here](https://github.com/cuinjune/PdWebParty/issues)!
+- :octicons-download-16: __Download__ [here](https://github.com/charlesneimog/purr-data).
+- :fontawesome-brands-github: __Report Bugs/Errors__ [here](https://github.com/charlesneimog/purr-data/issues)!
 - :fontawesome-solid-computer: __Available__ for :material-web:.
 </div>
-
----
-<h3>Videos</h3>
-
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; justify-items: start;">
-    <iframe style="border-radius: 8px" width="560" height="315" src="https://www.youtube.com/embed/502TzbrUMN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
----
 
 <script src="https://giscus.app/client.js"
         data-repo="charlesneimog/Awesome-PD"
@@ -67,4 +62,5 @@ updateList();
         crossorigin="anonymous"
         async>
 </script>
+
 

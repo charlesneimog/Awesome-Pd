@@ -1,19 +1,21 @@
-# pdwebparty
+# PdXR
 
-`PdWebParty` is an open-source web application that allows Pd users to run their patches on any device through a web browser, making the patches easily shareable with a web link.
+`PdXR` is an open-source implementation of PureData for multiuser Metaverse environments. Use a Pd patch with your VR or AR devices together with other people in a shared virtual environment.
+    
 
-<h2>Contributors</h2>
 
 <div id="libcontributors"></div>
 
 <script>
 async function updateList() {
-    const repoOwner = 'cuinjune';
-    const repoName = 'PdWebParty';
+    // not work for some reason
+    const repoOwner = 'AudioGroupCologne';
+    const repoName = 'PdXR';
     try {
         const res = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contributors`);
         const contributors = await res.json();
         const container = document.getElementById('libcontributors');
+        console.log(contributors);
         contributors.forEach(user => {
             console.log(user);
             const link = document.createElement('a');
@@ -36,20 +38,10 @@ updateList();
 
 ---
 <div class="grid cards" markdown>
-- :octicons-download-16: __Download__ [here](https://github.com/cuinjune/PdWebParty).
-- :fontawesome-brands-dev: Developed by **Zack Lee**.
-- :fontawesome-brands-github: __Report Bugs/Errors__ [here](https://github.com/cuinjune/PdWebParty/issues)!
+- :octicons-download-16: __Download__ [here](https://github.com/charlesneimog/purr-data).
+- :fontawesome-brands-github: __Report Bugs/Errors__ [here](https://github.com/charlesneimog/purr-data/issues)!
 - :fontawesome-solid-computer: __Available__ for :material-web:.
 </div>
-
----
-<h3>Videos</h3>
-
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; justify-items: start;">
-    <iframe style="border-radius: 8px" width="560" height="315" src="https://www.youtube.com/embed/502TzbrUMN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
----
 
 <script src="https://giscus.app/client.js"
         data-repo="charlesneimog/Awesome-PD"
@@ -67,4 +59,6 @@ updateList();
         crossorigin="anonymous"
         async>
 </script>
+
+
 

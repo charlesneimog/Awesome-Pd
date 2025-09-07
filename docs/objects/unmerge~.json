@@ -1,25 +1,29 @@
 {
-    "title": "unmerge~",
-    "description": "`unmerge~` separates the channels of a multichannel signal in groups of any size (default 1). Each group is sent out a separate outlet, extra elements are sent to an extra rightmost outlet. If the number of channels is less than the number of outlets, zeroes are output.\n",
-    "runs_on": [
-        "Mac",
-        "Linux",
-        "Windows"
-    ],
-    "download_link": "",
-    "available_on_deken": true,
-    "bug_reports": "https://github.com/porres/pd-else/issues",
-    "developers": [
-        "Alexandre Porres"
-    ],
-    "part_of_library": true,
-    "library_name": "else",
-    "categories": [],
-    "category_groups": [],
-    "articles": [],
-    "videos": [],
-    "musics": [],
-    "contributors": [
-        "charlesneimog"
-    ]
+  "title": "unmerge~",
+  "description": "`unmerge~` separates the channels of a multichannel signal in groups of any size (default 1). Each group is sent out a separate outlet, extra elements are sent to an extra rightmost outlet. If the number of channels is less than the number of outlets, zeroes are output.\n",
+  "runs_on": [
+    "Mac",
+    "Linux",
+    "Windows"
+  ],
+  "download_link": "",
+  "available_on_deken": true,
+  "bug_reports": "https://github.com/porres/pd-else/issues",
+  "developers": [
+    "Alexandre Porres"
+  ],
+  "part_of_library": true,
+  "library_name": "else",
+  "categories": [
+    "Routing",
+    "Patching",
+    "Multichannel"
+  ],
+  "category_groups": [],
+  "articles": [],
+  "videos": [],
+  "musics": [],
+  "contributors": [
+    "charlesneimog"
+  ]
 }

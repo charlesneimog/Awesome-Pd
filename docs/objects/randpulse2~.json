@@ -1,25 +1,29 @@
 {
-    "title": "randpulse2~",
-    "description": "`randpulse2~` is a random pulse train oscillator. It alternates at random intervals according to a \"density\" parameter, which controls the average frequency. It has support for multichannels.\n",
-    "runs_on": [
-        "Mac",
-        "Linux",
-        "Windows"
-    ],
-    "download_link": "",
-    "available_on_deken": true,
-    "bug_reports": "https://github.com/porres/pd-else/issues",
-    "developers": [
-        "Alexandre Porres"
-    ],
-    "part_of_library": true,
-    "library_name": "else",
-    "categories": [],
-    "category_groups": [],
-    "articles": [],
-    "videos": [],
-    "musics": [],
-    "contributors": [
-        "charlesneimog"
-    ]
+  "title": "randpulse2~",
+  "description": "`randpulse2~` is a random pulse train oscillator. It alternates at random intervals according to a \"density\" parameter, which controls the average frequency. It has support for multichannels.\n",
+  "runs_on": [
+    "Mac",
+    "Linux",
+    "Windows"
+  ],
+  "download_link": "",
+  "available_on_deken": true,
+  "bug_reports": "https://github.com/porres/pd-else/issues",
+  "developers": [
+    "Alexandre Porres"
+  ],
+  "part_of_library": true,
+  "library_name": "else",
+  "categories": [
+    "Oscillators",
+    "Stochastic",
+    "Multichannel"
+  ],
+  "category_groups": [],
+  "articles": [],
+  "videos": [],
+  "musics": [],
+  "contributors": [
+    "charlesneimog"
+  ]
 }

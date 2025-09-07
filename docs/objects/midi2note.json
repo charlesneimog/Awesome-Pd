@@ -1,25 +1,29 @@
 {
-    "title": "midi2note",
-    "description": "`midi2note` converts a MIDI pitch value to note names (such as Eb3). The names end with an octave number, in a way that middle C (MIDI pitch = 60) represents C4 represents. Float inputs are rounded to quarter tones (yes, there's support for quarter tones, and the range is from octave 0 to 8).\n",
-    "runs_on": [
-        "Mac",
-        "Linux",
-        "Windows"
-    ],
-    "download_link": "",
-    "available_on_deken": true,
-    "bug_reports": "https://github.com/porres/pd-else/issues",
-    "developers": [
-        "Alexandre Porres"
-    ],
-    "part_of_library": true,
-    "library_name": "else",
-    "categories": [],
-    "category_groups": [],
-    "articles": [],
-    "videos": [],
-    "musics": [],
-    "contributors": [
-        "charlesneimog"
-    ]
+  "title": "midi2note",
+  "description": "`midi2note` converts a MIDI pitch value to note names (such as Eb3). The names end with an octave number, in a way that middle C (MIDI pitch = 60) represents C4 represents. Float inputs are rounded to quarter tones (yes, there's support for quarter tones, and the range is from octave 0 to 8).\n",
+  "runs_on": [
+    "Mac",
+    "Linux",
+    "Windows"
+  ],
+  "download_link": "",
+  "available_on_deken": true,
+  "bug_reports": "https://github.com/porres/pd-else/issues",
+  "developers": [
+    "Alexandre Porres"
+  ],
+  "part_of_library": true,
+  "library_name": "else",
+  "categories": [
+    "MIDI",
+    "Procedures",
+    "Math"
+  ],
+  "category_groups": [],
+  "articles": [],
+  "videos": [],
+  "musics": [],
+  "contributors": [
+    "charlesneimog"
+  ]
 }

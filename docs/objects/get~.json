@@ -1,25 +1,29 @@
 {
-    "title": "get~",
-    "description": "`get~` gets one or more channels from a multichannel connection. The channels are indexed from 1 (0 or less gives \"none\", the max channel number value is clipped to the input's channel size). You can give it lists to build or remap the signal arbitrarily like you'd do with dollar signs in a message.\n",
-    "runs_on": [
-        "Mac",
-        "Linux",
-        "Windows"
-    ],
-    "download_link": "",
-    "available_on_deken": true,
-    "bug_reports": "https://github.com/porres/pd-else/issues",
-    "developers": [
-        "Alexandre Porres"
-    ],
-    "part_of_library": true,
-    "library_name": "else",
-    "categories": [],
-    "category_groups": [],
-    "articles": [],
-    "videos": [],
-    "musics": [],
-    "contributors": [
-        "charlesneimog"
-    ]
+  "title": "get~",
+  "description": "`get~` gets one or more channels from a multichannel connection. The channels are indexed from 1 (0 or less gives \"none\", the max channel number value is clipped to the input's channel size). You can give it lists to build or remap the signal arbitrarily like you'd do with dollar signs in a message.\n",
+  "runs_on": [
+    "Mac",
+    "Linux",
+    "Windows"
+  ],
+  "download_link": "",
+  "available_on_deken": true,
+  "bug_reports": "https://github.com/porres/pd-else/issues",
+  "developers": [
+    "Alexandre Porres"
+  ],
+  "part_of_library": true,
+  "library_name": "else",
+  "categories": [
+    "Multichannel",
+    "Patching",
+    "Procedures"
+  ],
+  "category_groups": [],
+  "articles": [],
+  "videos": [],
+  "musics": [],
+  "contributors": [
+    "charlesneimog"
+  ]
 }

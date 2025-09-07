@@ -1,25 +1,29 @@
 {
-    "title": "pimpmul~",
-    "description": "`pimpmul~` is a \"pimp~\" multiplier. The `pimp~` object from ELSE is both a `phasor~` and an `imp~` oscillator. Use `pimpul~` to keep `phasor~` or `pimp~` objects in sync with different frequency ratios.\n",
-    "runs_on": [
-        "Mac",
-        "Linux",
-        "Windows"
-    ],
-    "download_link": "",
-    "available_on_deken": true,
-    "bug_reports": "https://github.com/porres/pd-else/issues",
-    "developers": [
-        "Alexandre Porres"
-    ],
-    "part_of_library": true,
-    "library_name": "else",
-    "categories": [],
-    "category_groups": [],
-    "articles": [],
-    "videos": [],
-    "musics": [],
-    "contributors": [
-        "charlesneimog"
-    ]
+  "title": "pimpmul~",
+  "description": "`pimpmul~` is a \"pimp~\" multiplier. The `pimp~` object from ELSE is both a `phasor~` and an `imp~` oscillator. Use `pimpul~` to keep `phasor~` or `pimp~` objects in sync with different frequency ratios.\n",
+  "runs_on": [
+    "Mac",
+    "Linux",
+    "Windows"
+  ],
+  "download_link": "",
+  "available_on_deken": true,
+  "bug_reports": "https://github.com/porres/pd-else/issues",
+  "developers": [
+    "Alexandre Porres"
+  ],
+  "part_of_library": true,
+  "library_name": "else",
+  "categories": [
+    "Oscillators",
+    "Math",
+    "Logic"
+  ],
+  "category_groups": [],
+  "articles": [],
+  "videos": [],
+  "musics": [],
+  "contributors": [
+    "charlesneimog"
+  ]
 }

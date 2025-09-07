@@ -1,25 +1,29 @@
 {
-    "title": "delete",
-    "description": "`delete` deletes one or more elements from an input message. The mid inlet or 1st argument sets the element index indexed from 1 (so 0 means no items are deleted) and negative values are wrapped (so -1 is the last element and so on). The rightmost inlet or 2nd argument sets number of elements to delete. Right outlet outputs deleted item(s) and left outlet the remaining elements from the list. Right outlet sends a bang if index and/or n elements are out of range.\n",
-    "runs_on": [
-        "Mac",
-        "Linux",
-        "Windows"
-    ],
-    "download_link": "",
-    "available_on_deken": true,
-    "bug_reports": "https://github.com/porres/pd-else/issues",
-    "developers": [
-        "Alexandre Porres"
-    ],
-    "part_of_library": true,
-    "library_name": "else",
-    "categories": [],
-    "category_groups": [],
-    "articles": [],
-    "videos": [],
-    "musics": [],
-    "contributors": [
-        "charlesneimog"
-    ]
+  "title": "delete",
+  "description": "`delete` deletes one or more elements from an input message. The mid inlet or 1st argument sets the element index indexed from 1 (so 0 means no items are deleted) and negative values are wrapped (so -1 is the last element and so on). The rightmost inlet or 2nd argument sets number of elements to delete. Right outlet outputs deleted item(s) and left outlet the remaining elements from the list. Right outlet sends a bang if index and/or n elements are out of range.\n",
+  "runs_on": [
+    "Mac",
+    "Linux",
+    "Windows"
+  ],
+  "download_link": "",
+  "available_on_deken": true,
+  "bug_reports": "https://github.com/porres/pd-else/issues",
+  "developers": [
+    "Alexandre Porres"
+  ],
+  "part_of_library": true,
+  "library_name": "else",
+  "categories": [
+    "Patching",
+    "Procedures",
+    "Logic"
+  ],
+  "category_groups": [],
+  "articles": [],
+  "videos": [],
+  "musics": [],
+  "contributors": [
+    "charlesneimog"
+  ]
 }

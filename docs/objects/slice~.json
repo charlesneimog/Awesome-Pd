@@ -1,25 +1,29 @@
 {
-    "title": "slice~",
-    "description": "`slice~` splits a multichannel signal. The 'n' split point is set via argument or float input. If you slice at 'n', the left outlet spits the first 'n' channels and the right outlet sends the remaining channels. If you slice at '-n', the right outlet spits the last 'n' channels and the left outlet sends the first channels. If the number of channels is less than the split point, the whole signal is output to the left if 'n' is positive (and the right outlet outputs zeros), and to the right if negative (and the left outlet outputs zeros).\n",
-    "runs_on": [
-        "Mac",
-        "Linux",
-        "Windows"
-    ],
-    "download_link": "",
-    "available_on_deken": true,
-    "bug_reports": "https://github.com/porres/pd-else/issues",
-    "developers": [
-        "Alexandre Porres"
-    ],
-    "part_of_library": true,
-    "library_name": "else",
-    "categories": [],
-    "category_groups": [],
-    "articles": [],
-    "videos": [],
-    "musics": [],
-    "contributors": [
-        "charlesneimog"
-    ]
+  "title": "slice~",
+  "description": "`slice~` splits a multichannel signal. The 'n' split point is set via argument or float input. If you slice at 'n', the left outlet spits the first 'n' channels and the right outlet sends the remaining channels. If you slice at '-n', the right outlet spits the last 'n' channels and the left outlet sends the first channels. If the number of channels is less than the split point, the whole signal is output to the left if 'n' is positive (and the right outlet outputs zeros), and to the right if negative (and the left outlet outputs zeros).\n",
+  "runs_on": [
+    "Mac",
+    "Linux",
+    "Windows"
+  ],
+  "download_link": "",
+  "available_on_deken": true,
+  "bug_reports": "https://github.com/porres/pd-else/issues",
+  "developers": [
+    "Alexandre Porres"
+  ],
+  "part_of_library": true,
+  "library_name": "else",
+  "categories": [
+    "Routing",
+    "Multichannel",
+    "Patching"
+  ],
+  "category_groups": [],
+  "articles": [],
+  "videos": [],
+  "musics": [],
+  "contributors": [
+    "charlesneimog"
+  ]
 }

@@ -1,25 +1,29 @@
 {
-    "title": "rotate.mc~",
-    "description": "`rotate.mc~` performs equal power rotation for any number of channels given by a multichannel signal input. It takes a position control in which a full cycle is from 0 to 1, negative values from 0 to -1 are wrapped.\n",
-    "runs_on": [
-        "Mac",
-        "Linux",
-        "Windows"
-    ],
-    "download_link": "",
-    "available_on_deken": true,
-    "bug_reports": "https://github.com/porres/pd-else/issues",
-    "developers": [
-        "Alexandre Porres"
-    ],
-    "part_of_library": true,
-    "library_name": "else",
-    "categories": [],
-    "category_groups": [],
-    "articles": [],
-    "videos": [],
-    "musics": [],
-    "contributors": [
-        "charlesneimog"
-    ]
+  "title": "rotate.mc~",
+  "description": "`rotate.mc~` performs equal power rotation for any number of channels given by a multichannel signal input. It takes a position control in which a full cycle is from 0 to 1, negative values from 0 to -1 are wrapped.\n",
+  "runs_on": [
+    "Mac",
+    "Linux",
+    "Windows"
+  ],
+  "download_link": "",
+  "available_on_deken": true,
+  "bug_reports": "https://github.com/porres/pd-else/issues",
+  "developers": [
+    "Alexandre Porres"
+  ],
+  "part_of_library": true,
+  "library_name": "else",
+  "categories": [
+    "Multichannel",
+    "Routing",
+    "Math"
+  ],
+  "category_groups": [],
+  "articles": [],
+  "videos": [],
+  "musics": [],
+  "contributors": [
+    "charlesneimog"
+  ]
 }
