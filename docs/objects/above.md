@@ -10,8 +10,6 @@ The `above` object in Pure Data monitors a float input and triggers events based
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>
 
-
-
 ---
 
 <h3>Comments</h3>

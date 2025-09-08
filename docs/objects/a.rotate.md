@@ -10,8 +10,6 @@ The `a.rotate` object in Pure Data appends a number to the end of an array, maki
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>
 
-
-
 ---
 
 <h3>Comments</h3>

@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/wbrent/timbreIDLib/issues",
+    "developers": [
+        "William Brent"
+    ],
+    "part_of_library": false,
+    "library_name": "timbreIDLib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "categories": [
+        "Descriptors"
+    ],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "tID_std",
+    "description": "The tID_std object calculates the standard deviation of a list of numbers, requiring at least two elements. It is primarily used to summarize time-varying timbre attributes, such as spectral centroid or flatness, measured by other timbreID externals. This allows for the comparison of spectro-temporal characteristics between sounds of varying durations by reducing complex time-series data into a single, compact descriptor."
+}

@@ -10,8 +10,6 @@
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>
 
-
-
 ---
 
 <h3>Comments</h3>

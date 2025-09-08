@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/wbrent/timbreIDLib/issues",
+    "developers": [
+        "William Brent"
+    ],
+    "part_of_library": false,
+    "library_name": "timbreIDLib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "categories": [
+        "Descriptors"
+    ],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "melSpec",
+    "description": "The 'melSpec' object computes a Mel-scaled spectrogram from an audio sample, providing a time-frequency representation of sound. It supports various windowing functions and can be configured for normalization, sampling rate, and filterbank parameters. This object can process raw audio data or accept pre-computed FFT or magnitude spectrum data, making it efficient for use in audio analysis chains."
+}

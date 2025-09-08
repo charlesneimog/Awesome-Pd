@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/wbrent/timbreIDLib/issues",
+    "developers": [
+        "William Brent"
+    ],
+    "part_of_library": false,
+    "library_name": "timbreIDLib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "categories": [
+        "Descriptors"
+    ],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "specFlatness",
+    "description": "The `specFlatness` object calculates the spectral flatness of an audio array, providing a measure of its noisiness. It supports analysis of the entire array or specific segments, with configurable windowing functions, sample rate, and spectrum type (magnitude or power). This object is designed for non-real-time audio analysis."
+}

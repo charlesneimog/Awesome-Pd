@@ -11,9 +11,7 @@ The object can **read** and **play** drawings, provided they follow specific rul
 - :fontawesome-brands-dev: Developed by **Charles K. Neimog**.
 - :fontawesome-brands-github: __Report Bugs/Errors__ [here](https://github.com/charlesneimog/pd-neimog/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
-</div>
-
----
+</div>---
 <h3>Music</h3>
 
 <div style="display: flex; justify-content: center; gap: 20px;">

@@ -10,8 +10,6 @@ The `saf.encoder~` object in Pure Data implements the Ambisonic encoder from the
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>
 
-
-
 ---
 
 <h3>Comments</h3>

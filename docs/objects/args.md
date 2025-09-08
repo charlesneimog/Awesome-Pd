@@ -8,9 +8,7 @@ The `args` object in Pure Data loads and manages the arguments of an abstraction
 - :fontawesome-brands-dev: Developed by **Alexandre Porres**.
 - :fontawesome-brands-github: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
-</div>
-
----
+</div>---
 <h3>Videos</h3>
 
 <div style="display: flex; justify-content: center; gap: 20px;">

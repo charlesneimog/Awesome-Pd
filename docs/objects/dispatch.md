@@ -10,8 +10,6 @@ The `dispatch` object in Pure Data takes a list and sends each element to specif
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>
 
-
-
 ---
 
 <h3>Comments</h3>

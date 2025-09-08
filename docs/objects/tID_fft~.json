@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/wbrent/timbreIDLib/issues",
+    "developers": [
+        "William Brent"
+    ],
+    "part_of_library": false,
+    "library_name": "timbreIDLib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "categories": [
+        "Descriptors"
+    ],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "tID_fft~",
+    "description": "The `tID_fft~` object computes the complex Fast Fourier Transform (FFT) of an audio signal, triggered by a bang. It outputs the real and imaginary components of the FFT as two separate lists, handling internal audio buffering and windowing. This object is designed for extracting frequency-domain features, particularly useful for timbre identification and classification tasks."
+}

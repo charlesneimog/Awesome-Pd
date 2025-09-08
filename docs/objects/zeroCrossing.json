@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/wbrent/timbreIDLib/issues",
+    "developers": [
+        "William Brent"
+    ],
+    "part_of_library": false,
+    "library_name": "timbreIDLib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "categories": [
+        "Descriptors"
+    ],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "zeroCrossing",
+    "description": "The `zeroCrossing` object calculates the zero-crossing rate of a specified audio array or a segment of it. It can normalize the result by window size and suggests applying an amplitude threshold to filter out noise. This object is designed for offline analysis, with a real-time counterpart `zeroCrossing~`."
+}

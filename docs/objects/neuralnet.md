@@ -10,9 +10,7 @@
 - :fontawesome-brands-dev: Developed by **Alexandros Drymonitis**.
 - :fontawesome-brands-github: __Report Bugs/Errors__ [here](https://github.com/alexdrymonitis/neuralnet/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
-</div>
-
-<h3>Articles</h3>
+</div><h3>Articles</h3>
 
 <div class="grid cards" markdown>
 - :octicons-book-24: 

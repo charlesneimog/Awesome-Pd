@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/wbrent/timbreIDLib/issues",
+    "developers": [
+        "William Brent"
+    ],
+    "part_of_library": false,
+    "library_name": "timbreIDLib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "categories": [
+        "Descriptors"
+    ],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "zeroCrossing~",
+    "description": "The `zeroCrossing~` object measures the noisiness or frequency-related characteristics of an audio signal by counting how many times it crosses the zero amplitude point within a specified window. It outputs this count as a numerical feature, often used as a crude timbre descriptor. Users can set the analysis window size via a creation argument or a 'window' message, and it's recommended to apply an amplitude threshold before measurement to avoid low-level noise interference."
+}

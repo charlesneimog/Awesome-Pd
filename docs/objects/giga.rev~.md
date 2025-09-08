@@ -9,8 +9,6 @@
 - :fontawesome-brands-github: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 </div>
 
-
-
 ---
 
 <h3>Comments</h3>
