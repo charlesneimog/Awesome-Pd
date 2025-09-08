@@ -4,53 +4,62 @@ import json
 import subprocess
 from typing import Dict, Any, List, Tuple
 
+LIBRARY_HELP_FILES = "/home/neimog/Documents/Pd/externals/else/"
 
-LIBRARY_HELP_FILES = "/home/neimog/Documents/Pd/externals/timbreIDLib/"
+CATEGORIES_DESCRIPTIONS = {
+    "Machine Learning": "General machine learning algorithms or tools.",
+    "Deep Learning": "Neural networks and deep learning models.",
+    "Neural Networks": "Artificial neural network structures.",
+    "Statical Models": "Statistical modeling tools.",
+    "Algorithm Composition": "Tools for composing or chaining algorithms.",
+    "Procedures": "Procedural logic or control.",
+    "Logic": "Boolean logic or logical operations.",
+    "Math": "Mathematical functions and calculations.",
+    "Routing": "Signal or data routing objects.",
+    "Envelopes": "Envelope generators or shapers.",
+    "LFOs": "Low frequency oscillators.",
+    "Sequencers": "Step or pattern sequencers.",
+    "MIDI": "For MIDI input, output, and MIDI parsing (not objects that just accept or output MIDI).",
+    "Reverb": "Audio effect for simulating reverberation.",
+    "Delay": "Audio effect for delaying signals.",
+    "Distortion": "Audio effect for distorting signals.",
+    "Chorus/Flanger/Phaser": "Modulation effects: chorus, flanger, phaser.",
+    "Filters": "Audio filters for modifying frequency response.",
+    "Dynamics": "Compression, expansion, or other dynamic range processing.",
+    "Partial Tracking": "Analysis, tracking or Synthesis of partials in audio.",
+    "Descriptors": "Audio descriptors or feature extraction. FFT, Pitch, chroma, cepstrum, etc...",
+    "Score Follower": "Follows musical score in real-time.",
+    "VST2/VST3": "VST plugin support.",
+    "Vamp": "Vamp plugin support.",
+    "LADSPA": "LADSPA plugin support.",
+    "AU": "Audio Unit plugin support.",
+    "Ambisonics": "Ambisonic audio tools.",
+    "Binaural": "Binaural audio tools.",
+    "VBAP": "VBAP audio toools.",
+    "Subtractive": "Subtractive synthesis.",
+    "Additive": "Additive synthesis.",
+    "Granular": "Granular synthesis.",
+    "Oscillators": "Signal generators/oscillators.",
+    "Physical Modeling": "Physical modeling synthesis.",
+    "Samplers": "Sample playback/manipulation.",
+    "Stochastic": "Stochastic/random processes.",
+    "Data Structures": "Data storage and manipulation.",
+    "File IO": "File input/output.",
+    "Networking": "Network communication, http, https, websocket, etc.",
+    "MultiThreading": "Multi-threaded processing.",
+    "Patching": "Patch management, dynamic patching.",
+    "Multichannel": "Multichannel audio support.",
+    #
+    "GUI": "Gui objects, they show something in the patch (keyboards, sliders, knob).",
+    "Graphics": "Objects for visual rendering and graphics (e.g., GEM, video, OpenGL).",
+    "Audio IO": "Audio input/output objects for interfacing with sound devices (e.g., adc~, dac~).",
+    "Control IO": "Objects for receiving input from keyboard, mouse, joystick, and other HID devices.",
+    "General Utilities": "Utilities general, system command, and others",
+    "Text": "Objects to process text",
+    "OSC": "Object that work with Open Sound Control (OSC)",
+    "Extensions": "Objects that can be used to write object in another languages other than C (pdlua, py4pd)",
+}
 
-CATEGORIES_RAW = [
-    "Machine Learning",
-    "Deep Learning",
-    "Neural Networks",
-    "Statical Models",
-    "Algorithm Composition",
-    "Procedures",
-    "Logic",
-    "Math",
-    "Routing",
-    "Envelopes",
-    "LFOs",
-    "Sequencers",
-    "MIDI",
-    "Reverb",
-    "Delay",
-    "Distortion",
-    "Chorus/Flanger/Phaser",
-    "Filters",
-    "Dynamics",
-    "Partial Tracking",
-    "Descriptors",
-    "Score Follower",
-    "VST2/VST3",
-    "Vamp",
-    "LADSPA",
-    "AU",
-    "Ambisonics",
-    "Binaural",
-    "Subtractive",
-    "Additive",
-    "Granular",
-    "Oscillators",
-    "Physical Modeling",
-    "Samplers",
-    "Stochastic",
-    "Data Structures",
-    "File IO",
-    "Networking",
-    "MultiThreading",
-    "Patching",
-    "Multichannel",
-    # Note: "Partial Tracking" appeared twice in the original list; kept only once.
-]
 _seen = set()
 CATEGORIES: List[str] = []
 for c in CATEGORIES_RAW:
@@ -59,31 +68,31 @@ for c in CATEGORIES_RAW:
         CATEGORIES.append(c)
 
 PROMPT_TEMPLATE = """You are both a technical writer and a classifier.
-
 Task:
-1) Produce a concise, clear English description (2–3 sentences max) of the Pure Data object described by the following help patch. Focus on what the object does, its purpose, and key usage hints if they are evident. Keep it simple and practical.
-2) Score ALL categories (listed below) with a confidence between 0.0 and 1.0 for how well the object's functionality fits each category.
+1) Produce a concise, clear English description (2–3 sentences max) of the Pure Data object described by the following help patch. Focus on what the object does, its purpose, and key usage hints if they are evident. Keep it simple and practical. Also put all pd objects as code block using the name between ``.
+2) Score ALL categories (listed below) with a confidence between 0.0 and 1.0 for how well the object's functionality fits each category, using the provided category descriptions for guidance.
 
-Very important output rules:
+Important: Use the exact category name as the key for scoring, but use the description to understand what each category means.
+
+Output rules:
 - Return ONLY a valid JSON object (no markdown and no extra text).
 - The JSON must have exactly these top-level keys:
-  - "description": string
+  - "description": string (can use markdown)
   - "scores": object mapping each category name to a float (0.0–1.0)
 - The "scores" object MUST include EVERY category key exactly as provided (same spelling).
 - Values in "scores" MUST be numbers (floats). If a category does not apply, use 0.0.
 - Do not add or remove keys. Do not include comments.
 - No trailing commas.
 
-Categories (use as keys in "scores", exactly):
-{CATEGORIES_JSON}
+Categories (as a JSON object: key = category name, value = description):
+{CATEGORIES_DESCRIPTIONS_JSON}
 
 Object title:
 {TITLE}
 
 Help Patch (.pd text):
 ```pd
-{PATCH_TEXT}
-```
+{PATCH_TEXT}```
 """
 
 
@@ -230,7 +239,7 @@ def build_description_and_categories(
     out = dict(base_json)  # shallow copy
     out["title"] = title
     out["description"] = payload["description"]
-    # out["categories"] = selected
+    out["categories"] = selected
     return out
 
 
@@ -239,14 +248,13 @@ base = {
     "runs_on": ["Mac", "Linux", "Windows"],
     "download_link": "",
     "available_on_deken": True,
-    "bug_reports": "https://github.com/wbrent/timbreIDLib/issues",
+    "bug_reports": "https://github.com/porres/pd-else/issues",
     "developers": ["William Brent"],
-    "part_of_library": False,
-    "library_name": "timbreIDLib",
+    "part_of_library": True,
+    "library_name": "else",
     "articles": [],
     "videos": [],
     "musics": [],
-    "categories": ["Descriptors"],
     "contributors": ["charlesneimog"],
     "ai": True,
 }

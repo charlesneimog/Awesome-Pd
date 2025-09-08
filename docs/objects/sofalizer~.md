@@ -5,8 +5,8 @@
 ---
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ [here](https://github.com/sofacoustics/SOFAlizer-for-pd) or use [Deken](../deken.md)..
-- :fontawesome-brands-dev: Developed by **Pei Xiang, Jorge Castellanos, Hans-Christoph Steiner, Christian Klemenschitz**.
-- :fontawesome-brands-github: __Report Bugs/Errors__ [here](https://github.com/sofacoustics/SOFAlizer-for-pd)!
+- :fontawesome-brands-dev: Library developed mainly by **Pei Xiang, Jorge Castellanos, Hans-Christoph Steiner, Christian Klemenschitz**.
+- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/sofacoustics/SOFAlizer-for-pd)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>
 

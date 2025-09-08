@@ -4,9 +4,9 @@
 
 ---
 <div class="grid cards" markdown>
-- :octicons-download-16: __Download__ Use [Deken](../deken.md).  <p>_Found inside <code>else</code> library._</p>
-- :fontawesome-brands-dev: Developed by **Alexandre Porres**.
-- :fontawesome-brands-github: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
+- :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `giga.rev~` or any other object from `else`._</p>
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 </div>
 
 ---

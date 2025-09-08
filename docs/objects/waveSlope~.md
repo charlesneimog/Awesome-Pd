@@ -10,9 +10,9 @@ The `waveSlope~` object calculates the slope of the best-fit line through the ab
 ---
 
 <div class="grid cards" markdown>
-- :octicons-download-16: __Download__ Use [Deken](../deken.md).  <p>_Found inside <code>timbreIDLib</code> library._</p>
-- :fontawesome-brands-dev: Developed by **William Brent**.
-- :fontawesome-brands-github: __Report Bugs/Errors__ [here](https://github.com/wbrent/timbreIDLib/issues)!
+- :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>timbreIDLib</code> and install it. Then create an object with `declare -lib timbreIDLib -path timbreIDLib`. Finally, use `waveSlope~` or any other object from `timbreIDLib`._</p>
+- :fontawesome-brands-dev: Library developed mainly by **William Brent**.
+- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/wbrent/timbreIDLib/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>
 

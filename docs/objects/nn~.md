@@ -16,8 +16,8 @@
 ---
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ [here](https://github.com/acids-ircam/nn_tilde) or use [Deken](../deken.md)..
-- :fontawesome-brands-dev: Developed by **ACIDS/Ircam**.
-- :fontawesome-brands-github: __Report Bugs/Errors__ [here](https://github.com/acids-ircam/nn_tilde/issues)!
+- :fontawesome-brands-dev: Library developed mainly by **ACIDS/Ircam**.
+- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/acids-ircam/nn_tilde/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div><h3>Articles</h3>
 

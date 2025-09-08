@@ -4,9 +4,9 @@
 
 ---
 <div class="grid cards" markdown>
-- :octicons-download-16: __Download__ Use [Deken](../deken.md).
-- :fontawesome-brands-dev: Developed by **William Brent**.
-- :fontawesome-brands-github: __Report Bugs/Errors__ [here](https://github.com/wbrent/convolve_tilde/issues)!
+- :octicons-download-16: __Download__ via [Deken](../deken.md).
+- :fontawesome-brands-dev: Library developed mainly by **William Brent**.
+- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/wbrent/convolve_tilde/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>
 

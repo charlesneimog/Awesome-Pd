@@ -4,9 +4,9 @@ The `saf.decoder~` object in Pure Data implements a frequency-dependent Ambisoni
 
 ---
 <div class="grid cards" markdown>
-- :octicons-download-16: __Download__ Use [Deken](../deken.md).  <p>_Found inside <code>neimog</code> library._</p>
-- :fontawesome-brands-dev: Developed by **Charles K. Neimog**.
-- :fontawesome-brands-github: __Report Bugs/Errors__ [here](https://github.com/charlesneimog/pd-neimog/issues)!
+- :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>neimog</code> and install it. Then create an object with `declare -lib neimog -path neimog`. Finally, use `saf.decoder~` or any other object from `neimog`._</p>
+- :fontawesome-brands-dev: Library developed mainly by **Charles K. Neimog**.
+- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/charlesneimog/pd-neimog/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>
 

@@ -157,20 +157,21 @@ class AwesomePd:
                 )
             else:
                 download_line = (
-                    f":octicons-download-16: __Download__ Use [Deken](../deken.md)."
+                    f":octicons-download-16: __Download__ via [Deken](../deken.md)."
                 )
             if project.get("library_name"):
-                download_line += f"  <p>_Found inside <code>{project['library_name']}</code> library._</p>"
+                download_line += f'  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>{project["library_name"]}</code> and install it. Then create an object with `declare -lib {project["library_name"]} -path {project["library_name"]}`. Finally, use `{project["title"]}` or any other object from `{project["library_name"]}`._</p>'
+
             lines.append(f"- {download_line}")
 
         if project.get("developers"):
             lines.append(
-                f"- :fontawesome-brands-dev: Developed by **{', '.join(project['developers'])}**."
+                f"- :fontawesome-brands-dev: Library developed mainly by **{', '.join(project['developers'])}**."
             )
 
         if project.get("bug_reports"):
             lines.append(
-                f"- :fontawesome-brands-github: __Report Bugs/Errors__ [here]({project['bug_reports']})!"
+                f"- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here]({project['bug_reports']})!"
             )
 
         if project.get("runs_on"):
@@ -275,6 +276,7 @@ nicknames.forEach(nick => {{
 </script>
     """
 
+    # This create the markdown for each object
     def create_markdowns(self) -> None:
         """
         Iterate over docs/objects/*.json and produce corresponding .md files.
@@ -340,6 +342,7 @@ nicknames.forEach(nick => {{
             with open(output_path, "w", encoding="utf-8") as out_file:
                 out_file.write(md)
 
+        # TODO: Put this in another function
         for lib in libraries:
             print(lib)
             thislib = libraries[lib]
@@ -574,7 +577,7 @@ updateList();
             libmarkdownfile += '<h2>Objects</h2>\n\n<div class="grid cards" markdown>\n'
             objects_list = libraries[lib]
 
-            for obj in objects_list:
+            for obj in sorted(objects_list):
                 text = obj[1]
                 text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
                 libmarkdownfile += (
@@ -594,12 +597,13 @@ updateList();
         nav.append({"Pieces": "pieces.md"})
         nav.append({"Web": self.dict_to_nav(self.WEB_TOOLS)})
         nav.append({"Tools": self.dict_to_nav(self.TOOLS)})
-        # nav.append({"Developers": self.dict_to_nav(self.DEV_TOOLS)})
 
         # Update mkdocs config
         self.config["nav"] = nav
         with open("mkdocs.yml", "w", encoding="utf-8") as f:
-            yaml.dump(self.config, f, default_flow_style=False, sort_keys=False)
+            yaml.dump(
+                self.config, f, default_flow_style=False, sort_keys=False, indent=4
+            )
 
 
 if __name__ == "__main__":
