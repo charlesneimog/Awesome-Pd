@@ -1894,6 +1894,318 @@
             },
             {
                 "morph~": "objects/morph~.md"
+            },
+            {
+                "attackTime~": "objects/attackTime~.md"
+            },
+            {
+                "peakSample": "objects/peakSample.md"
+            },
+            {
+                "phaseSpec": "objects/phaseSpec.md"
+            },
+            {
+                "barkSpecSlope~": "objects/barkSpecSlope~.md"
+            },
+            {
+                "tID_std": "objects/tID_std.md"
+            },
+            {
+                "phaseSpec~": "objects/phaseSpec~.md"
+            },
+            {
+                "barkSpecSlope": "objects/barkSpecSlope.md"
+            },
+            {
+                "featureDelta": "objects/featureDelta.md"
+            },
+            {
+                "barkSpecIrregularity": "objects/barkSpecIrregularity.md"
+            },
+            {
+                "barkSpecBrightness": "objects/barkSpecBrightness.md"
+            },
+            {
+                "chroma~": "objects/chroma~.md"
+            },
+            {
+                "specSlope": "objects/specSlope.md"
+            },
+            {
+                "cepstrumPitch~": "objects/cepstrumPitch~.md"
+            },
+            {
+                "attackTime": "objects/attackTime.md"
+            },
+            {
+                "minSampleDelta": "objects/minSampleDelta.md"
+            },
+            {
+                "tID_fft": "objects/tID_fft.md"
+            },
+            {
+                "maxSampleDelta~": "objects/maxSampleDelta~.md"
+            },
+            {
+                "barkSpecCentroid": "objects/barkSpecCentroid.md"
+            },
+            {
+                "waveSlope~": "objects/waveSlope~.md"
+            },
+            {
+                "specSpread": "objects/specSpread.md"
+            },
+            {
+                "specCentroid": "objects/specCentroid.md"
+            },
+            {
+                "zeroCrossing": "objects/zeroCrossing.md"
+            },
+            {
+                "autoCorrPitch": "objects/autoCorrPitch.md"
+            },
+            {
+                "harmonicRatio~": "objects/harmonicRatio~.md"
+            },
+            {
+                "waveNoise~": "objects/waveNoise~.md"
+            },
+            {
+                "specBrightness~": "objects/specBrightness~.md"
+            },
+            {
+                "melSpec~": "objects/melSpec~.md"
+            },
+            {
+                "barkSpecBrightness~": "objects/barkSpecBrightness~.md"
+            },
+            {
+                "minSampleDelta~": "objects/minSampleDelta~.md"
+            },
+            {
+                "cepstrumPitch": "objects/cepstrumPitch.md"
+            },
+            {
+                "dct~": "objects/dct~.md"
+            },
+            {
+                "binWrangler": "objects/binWrangler.md"
+            },
+            {
+                "maxSample~": "objects/maxSample~.md"
+            },
+            {
+                "specIrregularity": "objects/specIrregularity.md"
+            },
+            {
+                "specSlope~": "objects/specSlope~.md"
+            },
+            {
+                "peakSample~": "objects/peakSample~.md"
+            },
+            {
+                "specCentroid~": "objects/specCentroid~.md"
+            },
+            {
+                "specFlux~": "objects/specFlux~.md"
+            },
+            {
+                "bfcc~": "objects/bfcc~.md"
+            },
+            {
+                "specFlatness": "objects/specFlatness.md"
+            },
+            {
+                "mfcc": "objects/mfcc.md"
+            },
+            {
+                "cepstrum~": "objects/cepstrum~.md"
+            },
+            {
+                "mfcc~": "objects/mfcc~.md"
+            },
+            {
+                "waveSlope": "objects/waveSlope.md"
+            },
+            {
+                "specRolloff": "objects/specRolloff.md"
+            },
+            {
+                "energy": "objects/energy.md"
+            },
+            {
+                "timbreID": "objects/timbreID.md"
+            },
+            {
+                "waveNoise": "objects/waveNoise.md"
+            },
+            {
+                "barkSpecKurtosis": "objects/barkSpecKurtosis.md"
+            },
+            {
+                "barkSpecFlux": "objects/barkSpecFlux.md"
+            },
+            {
+                "barkSpecFlatness~": "objects/barkSpecFlatness~.md"
+            },
+            {
+                "specHarmonicity~": "objects/specHarmonicity~.md"
+            },
+            {
+                "specFlatness~": "objects/specFlatness~.md"
+            },
+            {
+                "magSpec~": "objects/magSpec~.md"
+            },
+            {
+                "specSkewness~": "objects/specSkewness~.md"
+            },
+            {
+                "featureAccum": "objects/featureAccum.md"
+            },
+            {
+                "specRolloff~": "objects/specRolloff~.md"
+            },
+            {
+                "tempo~": "objects/tempo~.md"
+            },
+            {
+                "chroma": "objects/chroma.md"
+            },
+            {
+                "specFlux": "objects/specFlux.md"
+            },
+            {
+                "barkSpecIrregularity~": "objects/barkSpecIrregularity~.md"
+            },
+            {
+                "maxSampleDelta": "objects/maxSampleDelta.md"
+            },
+            {
+                "specHarmonicity": "objects/specHarmonicity.md"
+            },
+            {
+                "zeroCrossing~": "objects/zeroCrossing~.md"
+            },
+            {
+                "specBrightness": "objects/specBrightness.md"
+            },
+            {
+                "bfcc": "objects/bfcc.md"
+            },
+            {
+                "barkSpecKurtosis~": "objects/barkSpecKurtosis~.md"
+            },
+            {
+                "barkSpecSpread": "objects/barkSpecSpread.md"
+            },
+            {
+                "barkSpecFlux~": "objects/barkSpecFlux~.md"
+            },
+            {
+                "barkSpecSpread~": "objects/barkSpecSpread~.md"
+            },
+            {
+                "specSkewness": "objects/specSkewness.md"
+            },
+            {
+                "barkSpec": "objects/barkSpec.md"
+            },
+            {
+                "tID-conversion": "objects/tID-conversion.md"
+            },
+            {
+                "autoCorrPitch~": "objects/autoCorrPitch~.md"
+            },
+            {
+                "tID_fft~": "objects/tID_fft~.md"
+            },
+            {
+                "bark": "objects/bark.md"
+            },
+            {
+                "energy~": "objects/energy~.md"
+            },
+            {
+                "melSpec": "objects/melSpec.md"
+            },
+            {
+                "dct": "objects/dct.md"
+            },
+            {
+                "tID_mean": "objects/tID_mean.md"
+            },
+            {
+                "barkSpecSkewness~": "objects/barkSpecSkewness~.md"
+            },
+            {
+                "harmonicRatio": "objects/harmonicRatio.md"
+            },
+            {
+                "barkSpecSkewness": "objects/barkSpecSkewness.md"
+            },
+            {
+                "barkSpecRolloff": "objects/barkSpecRolloff.md"
+            },
+            {
+                "sampleBuffer~": "objects/sampleBuffer~.md"
+            },
+            {
+                "bark~": "objects/bark~.md"
+            },
+            {
+                "specIrregularity~": "objects/specIrregularity~.md"
+            },
+            {
+                "maxSample": "objects/maxSample.md"
+            },
+            {
+                "specKurtosis~": "objects/specKurtosis~.md"
+            },
+            {
+                "cepstrum": "objects/cepstrum.md"
+            },
+            {
+                "nearestPoint": "objects/nearestPoint.md"
+            },
+            {
+                "tabletool": "objects/tabletool.md"
+            },
+            {
+                "featureNorm": "objects/featureNorm.md"
+            },
+            {
+                "energyEntropy": "objects/energyEntropy.md"
+            },
+            {
+                "magSpec": "objects/magSpec.md"
+            },
+            {
+                "minSample": "objects/minSample.md"
+            },
+            {
+                "barkSpecCentroid~": "objects/barkSpecCentroid~.md"
+            },
+            {
+                "minSample~": "objects/minSample~.md"
+            },
+            {
+                "barkSpecRolloff~": "objects/barkSpecRolloff~.md"
+            },
+            {
+                "specKurtosis": "objects/specKurtosis.md"
+            },
+            {
+                "barkSpecFlatness": "objects/barkSpecFlatness.md"
+            },
+            {
+                "energyEntropy~": "objects/energyEntropy~.md"
+            },
+            {
+                "specSpread~": "objects/specSpread~.md"
+            },
+            {
+                "barkSpec~": "objects/barkSpec~.md"
             }
         ],
         "Score Follower": []

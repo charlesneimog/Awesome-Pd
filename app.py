@@ -305,6 +305,11 @@ nicknames.forEach(nick => {{
             description = project.get("description", "")
 
             md = f"# {title}\n\n{description}\n\n---\n"
+            if project.get("ai", False):
+                md += """
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).\n\n---\n
+"""
 
             # Info lines inside grid
             lines = self._build_info_lines(project)
@@ -312,7 +317,7 @@ nicknames.forEach(nick => {{
                 md += (
                     f'<div class="grid cards" markdown>\n'
                     + "\n".join(lines)
-                    + "\n</div>\n\n"
+                    + "\n</div>"
                 )
 
             # Articles / Videos / Music
@@ -336,6 +341,7 @@ nicknames.forEach(nick => {{
                 out_file.write(md)
 
         for lib in libraries:
+            print(lib)
             thislib = libraries[lib]
             file = f"docs/libraries/{lib}.json"
             if not os.path.exists(file):
@@ -390,11 +396,11 @@ nicknames.forEach(nick => {{
 
                 obj_name = object_data["title"]
                 categories = object_data["categories"]
+                print("Adding object", obj_name)
                 for category in categories:
                     if self.found_category(
                         category, {obj_name: f"objects/{obj_name}.md"}
                     ):
-                        print("Adding object", obj_name)
                         with open(
                             "docs/submit-external/categories.json",
                             "w",

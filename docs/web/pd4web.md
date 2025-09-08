@@ -33,7 +33,6 @@ async function updateList() {
 updateList();
 </script>
 
-
 <h2>Key Features</h2>
 
 * Streamlined Development: Create fully online audio applications with a visual approach.
