@@ -10,7 +10,7 @@
     "developers": [
         "William Brent"
     ],
-    "part_of_library": false,
+    "part_of_library": true,
     "library_name": "timbreIDLib",
     "articles": [],
     "videos": [],

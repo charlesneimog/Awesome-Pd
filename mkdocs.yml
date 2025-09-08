@@ -65,6 +65,11 @@ markdown_extensions:
 repo_url: https://github.com/charlesneimog/Awesome-Pd
 extra_css:
 - stylesheets/extra.css
+not_in_nav: '/todo.md
+
+  /prompts/helppatchai.md
+
+  '
 nav:
 - index.md
 - Submit: submit.md
@@ -1195,6 +1200,7 @@ nav:
   - cyclone: libraries/cyclone.md
   - else: libraries/else.md
   - neimog: libraries/neimog.md
+  - timbreIDLib: libraries/timbreIDLib.md
 - Pieces: pieces.md
 - Web:
   - pd4web: web/pd4web.md

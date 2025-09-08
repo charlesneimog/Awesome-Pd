@@ -11,6 +11,11 @@ for file in os.listdir(objects):
 
         if data["library_name"] == "timbreIDLib":
             data["part_of_library"] = True
+            data["articles"] = {
+                "title": "A Timbre Analysis And Classification Toolkit For Pure Data",
+                "authors": ["William Brent"],
+                "link": "http://hdl.handle.net/2027/spo.bbp2372.2010.044",
+            }
 
-        with open(json_file, "w") as f:
-            json.dump(data, f, indent=4)
+            with open(json_file, "w") as f:
+                json.dump(data, f, indent=4)
