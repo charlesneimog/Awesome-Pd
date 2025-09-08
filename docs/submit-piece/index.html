@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <title>Project Info</title>
+        <link rel="stylesheet" href="../stylesheets/submit.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,7 +13,6 @@
             rel="stylesheet"
         />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet" />
-        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <header class="app-bar">
@@ -29,26 +29,38 @@
             <section class="card">
                 <form id="infoForm" novalidate>
                     <div class="field">
-                        <h2 for="title">External Name</h2>
+                        <h2 for="title">Name</h2>
                         <input type="text" id="title" name="title" required placeholder="Awesome External" />
-                        <div class="field-hint">Name of the object.</div>
+                        <div class="field-hint">Name of the project.</div>
                     </div>
 
-                    <div class="field row gap">
-                        <label class="checkbox pretty">
-                            <input type="checkbox" id="isPartOfLib" name="isPartOfLib" />
-                            <span>Part of a Pure Data library?</span>
-                        </label>
-                    </div>
-
-                    <div id="libraryField" class="field" hidden>
-                        <label for="libraryName">Library name</label>
-                        <input type="text" id="libraryName" name="libraryName" placeholder="Name of the PD library" />
+                    <div class="grid cols-2 stack-on-small">
+                        <div class="card inset">
+                            <div class="field">
+                                <label for="composer(s)">Composer(s)</label>
+                                <input
+                                    type="text"
+                                    id="developers"
+                                    name="developers"
+                                    placeholder="Comma separated: Jane Doe, John Doe"
+                                />
+                            </div>
+                        </div>
+                        <div class="card inset">
+                            <div class="field">
+                                <label for="performer">Performer(s)</label>
+                                <input
+                                    type="text"
+                                    id="performers"
+                                    name="performers"
+                                    placeholder="Comma separated: Jane Doe, John Doe"
+                                />
+                            </div>
+                        </div>
                     </div>
 
                     <div class="field">
-                        <hr />
-                        <h2 for="description">Initial description</h2>
+                        <h2 for="description">Description</h2>
                         <div class="md-help">
                             <h4>Use Markdown</h4>
                             <ul>
@@ -81,72 +93,6 @@
                     <div id="categories"></div>
                     <div class="divider"></div>
                     <hr />
-
-                    <div class="field">
-                        <h2>Technical details</h2>
-                        <label>Where it runs?</label>
-                        <div class="row wrap gap">
-                            <label class="chip-check">
-                                <input type="checkbox" name="platform" value="Mac" />
-                                <span class="chip">macOS <i class="fa-brands fa-apple" aria-hidden="true"></i></span>
-                            </label>
-                            <label class="chip-check">
-                                <input type="checkbox" name="platform" value="Linux" />
-                                <span class="chip">Linux <i class="fa-brands fa-linux" aria-hidden="true"></i></span>
-                            </label>
-                            <label class="chip-check">
-                                <input type="checkbox" name="platform" value="Windows" />
-                                <span class="chip"
-                                    >Windows <i class="fa-brands fa-windows" aria-hidden="true"></i
-                                ></span>
-                            </label>
-                        </div>
-                    </div>
-
-                    <div class="grid cols-2 stack-on-small">
-                        <div class="card inset">
-                            <div class="field">
-                                <label for="download">Download link</label>
-                                <input
-                                    type="url"
-                                    id="download"
-                                    name="download"
-                                    placeholder="https://example.com/releases"
-                                />
-                            </div>
-                            <label class="checkbox pretty">
-                                <input type="checkbox" id="dekenAvailable" name="dekenAvailable" />
-                                <span>Available on Deken <i class="fa-regular fa-circle-question"></i></span>
-                            </label>
-                            <p style="font-size: 13px">
-                                <i class="fa-regular fa-circle-question"></i> Deken is Pure Data’s tool for finding,
-                                downloading, and installing external objects inside PureData (<code
-                                    >Tools->Find Externals</code
-                                >).
-                            </p>
-                        </div>
-
-                        <div class="card inset">
-                            <div class="field">
-                                <label for="bugs">Bug reports link</label>
-                                <input
-                                    type="url"
-                                    id="bugs"
-                                    name="bugs"
-                                    placeholder="https://github.com/org/repo/issues"
-                                />
-                            </div>
-                            <div class="field">
-                                <label for="developers">Developers</label>
-                                <input
-                                    type="text"
-                                    id="developers"
-                                    name="developers"
-                                    placeholder="Comma separated: Jane Doe, John Doe"
-                                />
-                            </div>
-                        </div>
-                    </div>
 
                     <hr />
                     <h2>Media</h2>
@@ -251,4 +197,17 @@
 
         <script src="app.js" defer></script>
     </body>
+    <script>
+        function resizeParent() {
+            const height = document.body.scrollHeight;
+            window.parent.postMessage({ type: "resize-iframe", height }, "*");
+        }
+
+        // Chama quando o iframe estiver completamente carregado
+        window.addEventListener("load", resizeParent);
+
+        // Se houver conteúdo dinâmico que muda a altura, observe mudanças:
+        const observer = new MutationObserver(resizeParent);
+        observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+    </script>
 </html>

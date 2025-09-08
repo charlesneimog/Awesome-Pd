@@ -488,7 +488,8 @@ function getCategoryData() {
             };
 
             // JSON block
-            const jsonBlock = "\n\n*Don't delete the next lines please*\n```json\n" + JSON.stringify(project, null, 2) + "\n```";
+            const jsonBlock =
+                "\n\n*Don't delete the next lines please*\n```json\n" + JSON.stringify(project, null, 2) + "\n```";
             const repoURL = "https://github.com/charlesneimog/Awesome-Pd";
             const issueTitle = `Request to add library: ${project.title}`;
             const body = `${jsonBlock}`;
@@ -515,11 +516,11 @@ function buildCategories(container, data) {
             (Array.isArray(value) && value.length === 0) ||
             (Object.keys(value).length === 0 && !Array.isArray(value))
         ) {
-            if (key !== "Object of day") {
+            if (key !== "Piece of day") {
                 container.appendChild(createCheckbox(key));
             }
         } else if (Array.isArray(value)) {
-            if (key !== "Object of day") {
+            if (key !== "Piece of day") {
                 container.appendChild(createCheckbox(key));
             }
         } else {
@@ -577,11 +578,3 @@ async function loadCategories() {
 
 // Start loading the JSON
 loadCategories();
-
-function sendHeight() {
-    const height = document.documentElement.scrollHeight; // total height of the content
-    window.parent.postMessage({ type: "resize-iframe", height }, "*");
-}
-window.addEventListener("load", sendHeight);
-const observer = new MutationObserver(sendHeight);
-observer.observe(document.body, { childList: true, subtree: true });

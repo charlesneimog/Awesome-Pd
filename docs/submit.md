@@ -21,46 +21,52 @@ hide:
 </div>
 
 ---
-
 <iframe 
   id="submit-frame"
-  style="width: 100%; border: none; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); overflow:hidden;">
+  style="
+    display: block;          /* sempre block para transição funcionar */
+    width: 100%;
+    height: 200px;            /* altura inicial */
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    overflow: hidden;
+    opacity: 0;               /* inicia invisível */
+    transition: opacity 0.5s ease, height 0.5s ease;
+  ">
 </iframe>
 
-
 <script>
-  var newObjectBtn = document.getElementById('new-object');
-  var newPieceBtn = document.getElementById('new-piece');
+var newObjectBtn = document.getElementById('new-object');
+var newPieceBtn = document.getElementById('new-piece');
+var iframe = document.getElementById('submit-frame');
 
-  // Adiciona listener de clique
-    newObjectBtn.addEventListener('click', (event) => {
-        event.preventDefault();
-        var iframe = document.getElementById('submit-frame');
-        iframe.src = "../submit-external/index.html";
+function loadIframe(url) {
+    iframe.style.opacity = 0;   // esconde antes de carregar
+    iframe.src = url;
+    iframe.style.height = "200px"; // altura inicial mínima
+}
 
-        iframe.onload = function () {
-            // Get the content height
-            const iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
-            const height = iframeDocument.body.scrollHeight;
+// Botões
+newObjectBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    loadIframe("../submit-external/index.html");
+});
 
-            iframe.style.width = "100%";
-            iframe.style.height = height + "px";
-        }
-    });
+newPieceBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    loadIframe("../submit-piece/index.html");
+});
 
-  newPieceBtn.addEventListener('click', (event) => {
-    event.preventDefault();
-        var iframe = document.getElementById('submit-frame');
-        iframe.src = "../submit-piece/index.html";
-
-        iframe.onload = function () {
-            // Get the content height
-            const iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
-            const height = iframeDocument.body.scrollHeight;
-
-            iframe.style.width = "100%";
-            iframe.style.height = height + "px";
-        }
-    // Coloque aqui a ação que deseja
-  });
+// Recebe altura do iframe e faz fade-in
+window.addEventListener('message', function(event) {
+    if (event.data.type === 'resize-iframe') {
+        iframe.style.height = event.data.height + 'px';
+        // Aplica fade-in suave
+        setTimeout(() => {
+            iframe.style.opacity = 1;
+        }, 50); // curto delay para garantir renderização
+    }
+});
 </script>
+
