@@ -1,12 +1,17 @@
 # midi2note
 
-`midi2note` converts a MIDI pitch value to note names (such as Eb3). The names end with an octave number, in a way that middle C (MIDI pitch = 60) represents C4 represents. Float inputs are rounded to quarter tones (yes, there's support for quarter tones, and the range is from octave 0 to 8).
-
+The `midi2note` object converts MIDI pitch values into musical note names, such as 'Eb3', including an octave number where middle C (MIDI pitch 60) is C4. It supports quarter tones and various output formats, including Unicode symbols for sharps and flats, and can be configured with custom scales.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `midi2note` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

@@ -14,13 +14,6 @@
         "link": "https://doi.org/10.33871/23179937.2021.9.2.20"
     },
     {
-        "title": "ELSE Library for Pure Data",
-        "authors": [
-            "Alexandre Porres"
-        ],
-        "link": "https://compmus.ime.usp.br/sbcm/2017/papers/sbcm-2017-6.pdf"
-    },
-    {
         "title": "[neuralnet]: A Pure Data External for the Creation of Neural Networks Written in Pure C",
         "authors": [
             "Alexandros Drymonitis"

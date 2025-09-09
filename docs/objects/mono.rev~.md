@@ -1,12 +1,17 @@
 # mono.rev~
 
-`mono.rev~` is a reverb abstraction with mono input but stereo output. It's based on a feedback delay network like vanilla's `rev3~` object, but it offers a "room size" parameter whose typical value is around 0.5, values closer to 0 and 1 may create unusual results. Changing size values may generates unusual artifacts (you can clear the delay buffers when you do it to prevent it, but you may get clicks).
-
+The `mono.rev~` object is a reverb abstraction that takes a mono audio input and produces a stereo audio output. It is based on a feedback delay network, similar to Pure Data's `rev3~`, and includes parameters for decay time, high-frequency damping, room size, and wet/dry mix. The 'room size' parameter can produce unusual artifacts when changed, which can be mitigated by clearing the delay buffers.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `mono.rev~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

@@ -1,12 +1,17 @@
 # tabreader
 
-`tabreader` accepts indexes from 0 to 1 by default and reads an array with different interpolation methods with multi channel support. There's no need to have guard points in the array as these are taken care of internally.
-
+The `tabreader` object reads values from a Pure Data array (table), supporting various interpolation methods like `lin`, `cos`, and `spline`. It can operate in a phase-based mode (0-1) or an indexed mode, and features multichannel and looping capabilities, making it suitable for wavetable synthesis or general array manipulation.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `tabreader` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

@@ -1,12 +1,17 @@
 # function~
 
-`function~` generates functions from arguments/list input. Input values from 0 to 1 (hence, a phase input) reads the function. It needs an odd number of elements in a list (at least 3 ), the syntax is (point1, period, point2, period, point3, etc...). The overall sum of periods is normalized to 1! It has support for multichannels.
-
+The `function~` object generates arbitrary waveforms or functions from a list of points and periods. It takes a phase input (0 to 1) to read the defined function, making it suitable for creating custom oscillators or envelopes. It also supports defining the curvature of each segment and multichannel operation.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `function~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

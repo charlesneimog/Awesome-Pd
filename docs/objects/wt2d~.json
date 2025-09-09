@@ -1,28 +1,28 @@
 {
-  "title": "wt2d~",
-  "description": "`wt2d~` is an interpolating wavetable oscillator like `wt~`, but besides a horizontal dimension, it can also scan through a vertical dimension of a sliced wavetable. As other oscilltors in ELSE, it has input for phase modulation and sync. It also has support for multichannels.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Oscillators",
-    "Multichannel"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "wt2d~",
+    "description": "The `wt2d~` object is a 2-dimensional wavetable oscillator that reads from a Pure Data array. It can scan and crossfade through both horizontal and vertical dimensions of a sliced wavetable, enabling complex timbre manipulation. It supports phase modulation, synchronization, multichannel audio, and various interpolation methods.",
+    "categories": [
+        "Oscillators",
+        "Multichannel"
+    ]
 }

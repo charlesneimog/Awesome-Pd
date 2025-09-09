@@ -1,29 +1,27 @@
 {
-  "title": "any2symbol",
-  "description": "`any2symbol` converts any message to a symbol message.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Procedures",
-    "Algorithm Composition",
-    "Logic"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "any2symbol",
+    "description": "The `any2symbol` object converts any incoming message, regardless of its type (e.g., numbers, lists, or other symbols), into a single symbol message. This object is useful for standardizing diverse message inputs into a unified symbolic format for subsequent processing or display within a Pure Data patch.",
+    "categories": [
+        "General Utilities"
+    ]
 }

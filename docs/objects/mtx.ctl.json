@@ -1,29 +1,28 @@
 {
-  "title": "mtx.ctl",
-  "description": "`mtx.ctl` provides a user matrix interface control. The cells in the grid can be either on or off. The output is a list with 3 floats that specify: column, row and status.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Data Structures",
-    "Descriptors",
-    "Logic"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "mtx.ctl",
+    "description": "`mtx.ctl` provides a graphical user interface for controlling a matrix. Users can click on cells to toggle their on/off status. It outputs a list containing the column, row, and status (on/off) of the clicked cell, and can also be controlled via messages to set dimensions, cell size, and import/export matrix data.",
+    "categories": [
+        "GUI",
+        "Graphics"
+    ]
 }

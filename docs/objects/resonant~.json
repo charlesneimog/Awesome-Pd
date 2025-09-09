@@ -1,29 +1,27 @@
 {
-  "title": "resonant~",
-  "description": "`resonant~` is a bandpass resonator filter like `bandpass~`, but it doesn't have a maximum dB value of 0, so changing the Q increases the gain of the filter. Besides 'Q' and 'bw' you can also set the resonance as 't60' (like with `resonator~`).\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Filters",
-    "Subtractive",
-    "Dynamics"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "resonant~",
+    "description": "`resonant~` is a bandpass resonator filter that allows its resonance to be controlled by Q factor, decay time (t60), or bandwidth. Unlike `bandpass~`, its gain increases with higher Q values, making it suitable for creating resonant effects. It can also be bypassed.",
+    "categories": [
+        "Filters"
+    ]
 }

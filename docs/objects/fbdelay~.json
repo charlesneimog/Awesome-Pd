@@ -1,0 +1,28 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fbdelay~",
+    "description": "The `fbdelay~` object creates a feedback delay line, useful for delay effects, reverberation, and comb filtering. It allows setting delay time and decay time (t60) in milliseconds, or a direct gain coefficient for feedback. The delay line can also be frozen.",
+    "categories": [
+        "Delay",
+        "Reverb"
+    ]
+}

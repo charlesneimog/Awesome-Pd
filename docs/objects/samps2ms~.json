@@ -1,29 +1,28 @@
 {
-  "title": "samps2ms~",
-  "description": "`samps2ms~` is a simple abstraction that converts time values number of samples to ms. It has support for multichannel signals.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Multichannel",
-    "Procedures",
-    "Math"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "samps2ms~",
+    "description": "The `samps2ms~` object converts a time value given in samples to milliseconds. It performs this conversion using the current audio samplerate and supports multichannel signals. This is useful for translating sample-based timing into a more human-readable millisecond format.",
+    "categories": [
+        "Math",
+        "Multichannel"
+    ]
 }

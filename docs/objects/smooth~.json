@@ -1,29 +1,28 @@
 {
-  "title": "smooth~",
-  "description": "`smooth~` smoothens a signal transition with linear interpolation by default, at a given time in ms. You can also have exponential curves and there's support for multichannel signals.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Math",
-    "Envelopes",
-    "Multichannel"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "smooth~",
+    "description": "The `smooth~` object provides a signal smoothing function, transitioning input signals with linear or exponential interpolation over a specified time in milliseconds. This creates a portamento-like effect. It fully supports multichannel signals, allowing independent glide times per channel, and can be reset to the current input value.",
+    "categories": [
+        "Multichannel",
+        "General Utilities"
+    ]
 }

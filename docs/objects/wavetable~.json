@@ -1,29 +1,28 @@
 {
-  "title": "wavetable~",
-  "description": "`wavetable~` is an interpolating wavetable oscillator like `tabosc4~`, but has more features like more interpolation options, inlets for phase sync, phase modulation and also an inlet for scanning through slices. It also has support for multichannels.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Oscillators",
-    "Additive",
-    "Multichannel"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "wavetable~",
+    "description": "`wavetable~` is an interpolating wavetable oscillator that reads audio data from a Pure Data array. It offers various interpolation methods, supports phase synchronization and modulation, and can scan through multiple waveform slices within a single array. The object also features multichannel capabilities and allows frequency input in either Hertz or MIDI pitch.",
+    "categories": [
+        "Oscillators",
+        "Multichannel"
+    ]
 }

@@ -1,0 +1,28 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "midi2freq",
+    "description": "The `midi2freq` object converts MIDI note numbers (including fractional \"MIDI cents\") into corresponding frequencies in Hertz. It can process lists of MIDI values and allows users to set a custom A4 reference frequency, enabling exploration of different tuning systems.",
+    "categories": [
+        "Math",
+        "MIDI"
+    ]
+}

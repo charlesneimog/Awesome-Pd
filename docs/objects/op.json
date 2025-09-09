@@ -1,29 +1,28 @@
 {
-  "title": "op",
-  "description": "`op` provides many operators and is most useful for lists, as there are objects in Pd Vanilla for most of these operations.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Procedures",
-    "Data Structures",
-    "Algorithm Composition"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "op",
+    "description": "The `op` object in Pure Data performs a wide range of arithmetic, comparative, logical, and bitwise operations. It is particularly useful for processing lists, applying the chosen operation element-wise and handling mismatched list sizes by wrapping the shorter list. The desired operation can be specified as an argument or message, with `+` as the default.",
+    "categories": [
+        "Logic",
+        "Math"
+    ]
 }

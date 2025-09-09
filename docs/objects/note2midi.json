@@ -1,29 +1,29 @@
 {
-  "title": "note2midi",
-  "description": "`note2midi` converts note names (such as 'C4') to MIDI pitch values. All enharmonic names are included (even unusual ones like Cb and double sharps/flats). There's also support for quarter tones (syntax is '+' for quarter tone sharp and '-' for quarter tone flat). It takes symbols, lists or anythings that end with an octave number, in a way that C4 represents middle C (MIDI pitch = 60). Octave range is from '0' to '8'.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "MIDI",
-    "Procedures",
-    "Math"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "note2midi",
+    "description": "The `note2midi` object converts musical note names (e.g., 'C4', 'E#+5', 'Db-4') into their corresponding MIDI pitch values. It supports enharmonic spellings, double sharps/flats (using 'x' and 'bb'), and quarter tones (using '+' and '-'). The object expects note names as symbols or lists, with 'C4' representing MIDI pitch 60, and handles an octave range from 0 to 8.",
+    "categories": [
+        "MIDI",
+        "General Utilities",
+        "Text"
+    ]
 }

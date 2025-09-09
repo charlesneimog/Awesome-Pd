@@ -1,12 +1,17 @@
 # sfinfo
 
-`sfinfo` supports all files that `sfload` and `play.file~` support and can be used to query file sample information but so far only channels and 'inst' info for aif files (this object is still very experimental).
-
+The `sfinfo` object queries information from sound files, such as the number of channels or instrument metadata for AIFF files. It is an experimental object that works with files supported by `sfload` and `play.file~`, providing details like base note, detune, and velocity ranges from instrument metadata.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `sfinfo` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

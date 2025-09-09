@@ -1,0 +1,28 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "drive.m~",
+    "description": "`drive.m~` is a multichannel audio object that applies a distortion or overdrive effect to incoming audio signals. It functions as a wrapper for the `drive~` object from the ELSE library, offering controls for adjusting the drive amount and attenuation.",
+    "categories": [
+        "Distortion",
+        "Multichannel"
+    ]
+}

@@ -1,12 +1,17 @@
 # blip~
 
-`blip~` uses DSF (Discrete-Summation Formulae) to generate waveforms as a sum of cosines. It takes a frequency in hertz for the fundamental, a number of harmonics, a multiplier for the partials after the first one and the lowest harmonic number (by default it generates an impulse waveform). This object is based on Csound's 'gbuzz' opcode.
-
+`blip~` is a band-limited oscillator that generates waveforms by summing cosines using Discrete-Summation Formulae (DSF). It allows precise control over the fundamental frequency, number of harmonics, spectral multiplier, and lowest harmonic, enabling the creation of various timbres. It also supports phase modulation and hard/soft sync, with optional MIDI pitch input for frequency.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `blip~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

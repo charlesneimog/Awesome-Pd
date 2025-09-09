@@ -1,12 +1,17 @@
 # mag~
 
-`mag~` gets the spectrum magnitudes (amplitudes) from cartesian coordinates (real / imaginary). This is much like the amplitude output of `car2pol~`, but you can also get the power magnitudesinstead with the 1st argument.
-
+The `mag~` object calculates the magnitude (amplitude) or power magnitude of a complex signal from its real and imaginary parts. It takes real and imaginary components as inputs and outputs the corresponding magnitude, similar to the amplitude output of `car2pol~`. This object is particularly useful for spectral processing where phase information is not required, and it supports multichannel audio.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `mag~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

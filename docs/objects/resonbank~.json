@@ -1,29 +1,28 @@
 {
-  "title": "resonbank~",
-  "description": "`resonbank~` is a bank of resonators made of `resonator~` objects. The design and structure here is different than `resonator~` in order to make it better suited for sound synthesis. It has a list of partials for each resonator and a frequency multiplier in the left inlet, kinda like `oscbank~`. The mid inlet the trigger (or excitation) signal (kinda like `pluck~`) and the rightmost inlet is a time multiplier for the decay times. The number of filters is set via the parameter list size (such as the partial list). There's also support for multichannel output.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Additive",
-    "Physical Modeling",
-    "Filters"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "resonbank~",
+    "description": "`resonbank~` is a bank of resonators designed for sound synthesis, built upon `resonator~` objects. It takes a fundamental frequency, an excitation signal, and a decay time multiplier as inputs. Users can define lists of partials, decay times, and amplitudes for each resonator, with optional multichannel output.",
+    "categories": [
+        "Multichannel",
+        "Filters"
+    ]
 }

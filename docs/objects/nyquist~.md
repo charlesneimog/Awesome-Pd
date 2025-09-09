@@ -1,12 +1,17 @@
 # nyquist~
 
-`nyquist~` reports the nyquist (which is half the sample rate) as a frequency or period. It sends it when loading the patch 'init' time (that is before `loadbang`), when receiving a bang or when the sample rate changes. It reports it either in hz or khz and the period either in seconds os milliseconds. like `else/sr~`, it doesn't report up/down sampling rates.
-
+The `nyquist~` object reports the Nyquist frequency (half the audio sample rate) or its corresponding period. It outputs this value upon patch loading, when receiving a `bang`, or when the sample rate changes. Users can specify the output format as Hz, kHz, milliseconds, or seconds using flags like `-khz`, `-ms`, or `-sec`, and can also assign a `value` name to retrieve the output elsewhere.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `nyquist~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

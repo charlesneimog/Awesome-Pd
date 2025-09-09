@@ -1,29 +1,27 @@
 {
-  "title": "damp.osc~",
-  "description": "`damp.osc~` is an abstraction based `reonant2~` and also very very similar to it (to the point I think it wasn't worth having two objects with such subtle differences). It takes frequency in hertz or midi and a decay time in ms. It is triggered by signals at zero to non zero transitions or by lists at control rate.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "MIDI",
-    "Oscillators",
-    "Procedures"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "damp.osc~",
+    "description": "The `damp.osc~` object is a damped harmonic motion oscillator that generates audio signals. It accepts frequency (in Hz or MIDI pitch) and a decay time in milliseconds as inputs. The object can be triggered by zero-to-non-zero signal transitions or control-rate lists, providing both cosine and sine phase outputs.",
+    "categories": [
+        "Oscillators"
+    ]
 }

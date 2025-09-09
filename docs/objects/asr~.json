@@ -1,6 +1,4 @@
 {
-    "title": "asr~",
-    "description": "The `asr~` object in Pure Data is an attack/sustain/release envelope generator, simplified compared to `adsr~`. It can be triggered by gate values, bangs, or impulses: a gate on starts the attack phase and a gate off triggers the release phase, with an optional immediate release mode via the `-rel` flag. Attack and release times are set in milliseconds, and the curve parameter controls the envelope shape, allowing exponential, linear (`-lin`), or lag-filter (`-lag`) behavior. The object accepts both control and signal inputs, with gate values mapped to the MIDI velocity range or beyond. Its right outlet outputs a status signal (1 when active, 0 when inactive), useful for managing DSP switches in subpatches or abstractions. While typically used for amplitude shaping, `asr~` can modulate any parameter in real time.",
     "runs_on": [
         "Mac",
         "Linux",
@@ -8,21 +6,23 @@
     ],
     "download_link": "",
     "available_on_deken": true,
-    "bug_reports": "https://github.com/porres/else",
+    "bug_reports": "https://github.com/porres/pd-else/issues",
     "developers": [
-        "Alexandre Porres"
+        "Alexandre Torres Porres"
     ],
     "part_of_library": true,
     "library_name": "else",
-    "categories": [
-        "Envelopes"
-    ],
-    "category_groups": [],
-    "category_parents": {},
     "articles": [],
     "videos": [],
     "musics": [],
     "contributors": [
         "charlesneimog"
+    ],
+    "ai": true,
+    "title": "asr~",
+    "description": "The `asr~` object generates an attack/sustain/release envelope, acting as a simplified version of `adsr~`. It shapes an audio signal based on gate input (signal or bang), with adjustable attack and release times in milliseconds. The object supports various envelope curve shapes (linear, logarithmic, or lag filter) and provides a status outlet indicating its active state, making it useful for dynamic control and multichannel applications.",
+    "categories": [
+        "Envelopes",
+        "Multichannel"
     ]
 }

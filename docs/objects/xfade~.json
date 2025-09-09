@@ -1,29 +1,28 @@
 {
-  "title": "xfade~",
-  "description": "`xfade~` crossfades between two sources (that can have 1 to 64 channels each). By default, it performs equal power crossfade, but can also do linear.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Multichannel",
-    "Algorithm Composition",
-    "Math"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "xfade~",
+    "description": "The `xfade~` object crossfades between two audio sources, each supporting 1 to 64 channels. It performs an equal power crossfade by default, but can be set to linear using the `-lin` flag or `lin` message. The rightmost inlet controls the mix value from -1 (source A) to 1 (source B).",
+    "categories": [
+        "Multichannel",
+        "Routing"
+    ]
 }

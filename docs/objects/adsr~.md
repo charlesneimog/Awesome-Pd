@@ -1,11 +1,17 @@
 # adsr~
 
-`adsr~` is an attack/decay/sustain/release gated envelope. The attack/decay/release times are set in ms. A gate on sets the maximum attack peak, the sustain point is a ratio of the gate on value. A gate off sets the release - but note that, by default, if the gate off comes before the sustain point is reached, the attack+decay stages still get completed before going into the release ramp. Another mode allows an immediate release. The object has multichannel support.
+`adsr~` is an audio-rate Attack, Decay, Sustain, Release envelope generator. It shapes incoming gate signals into a dynamic amplitude curve, with configurable attack, decay, sustain level, and release times. The object supports retriggering, immediate release, multichannel processing, and adjustable curve shapes for its segments.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `adsr~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

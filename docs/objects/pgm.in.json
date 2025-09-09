@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pgm.in",
+    "description": "The `pgm.in` object extracts MIDI Program Change messages (0-127) from either a connected MIDI device or an external raw MIDI data stream. It outputs the program change value and the MIDI channel number. Users can filter by a specific MIDI channel or operate in omni mode to receive from all channels.",
+    "categories": [
+        "MIDI"
+    ]
+}

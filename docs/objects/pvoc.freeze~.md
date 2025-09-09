@@ -1,12 +1,17 @@
 # pvoc.freeze~
 
-`pvoc.freeze~` is a freeze object based on a phase vocoder.
-
+The `pvoc.freeze~` object is a phase vocoder-based audio processor that allows for "freezing" a sound. When frozen, it captures and sustains the spectral characteristics of the input audio, effectively holding a snapshot of the sound. A non-zero input to its control inlet freezes or refreezes the sound, while a zero input unfreezes it.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `pvoc.freeze~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

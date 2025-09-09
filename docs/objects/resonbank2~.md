@@ -1,12 +1,17 @@
 # resonbank2~
 
-`resonbank2~` is a bank of resonators made of `resonator2~` objects. The design and structure here is different than `resonator2~` in order to make it better suited for sound synthesis. It has the same design as `resonbank~` and has a list of partials for each resonator and a frequency multiplier in the left inlet, kinda like `oscbank~`. The mid inlet the trigger (or excitation) signal (kinda like `pluck~`) - this must be an impulse since noise sources and noise bursts generate very loud outputs! The rightmost inlet is a time multiplier for the decay times. The number of filters is set via the parameter list size (such as the partial list). There's also support for multichannel output.
-
+`resonbank2~` is a bank of resonant filters designed for sound synthesis. It takes an impulse-like excitation signal and applies it through multiple resonators, allowing control over their frequencies (via partials), decay times, and amplitudes. It supports multichannel output, where each resonator can be routed to a separate channel.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `resonbank2~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

@@ -1,29 +1,28 @@
 {
-  "title": "vsaw~",
-  "description": "`vsaw~` is a variable sawtooth waveform oscillator that also becomes a triangular osccilator. It accepts negative frequencies, has inlets for width, phase sync and phase modulation. It also has support for multichannels.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Oscillators",
-    "Multichannel",
-    "Subtractive"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "vsaw~",
+    "description": "`vsaw~` is a versatile audio oscillator that generates variable sawtooth and triangle waveforms. It allows control over frequency, waveform width (morphing between sawtooth and triangle), phase synchronization, and phase modulation. The object supports negative frequencies, soft/hard sync, and multichannel operation, making it suitable for a wide range of synthesis and LFO applications.",
+    "categories": [
+        "Oscillators",
+        "Multichannel"
+    ]
 }

@@ -1,29 +1,27 @@
 {
-  "title": "stretch.shift~",
-  "description": "`stretch.shift~` is like `gran.player~`, but for live input. It provides independent time stretching and pitch shifting via granulation.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Granular",
-    "Patching",
-    "Oscillators"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "stretch.shift~",
+    "description": "The `stretch.shift~` object performs real-time independent time stretching and pitch shifting on live audio input. It achieves this by employing granulation, allowing users to control parameters such as buffer size, playback speed, transposition in cents, and grain size for creative audio manipulation.",
+    "categories": [
+        "Granular"
+    ]
 }

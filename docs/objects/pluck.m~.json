@@ -1,0 +1,28 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pluck.m~",
+    "description": "The `pluck.m~` object is a polyphonic physical modeling synthesizer for plucked string sounds, acting as a wrapper around the `pluck~` object from the ELSE library. It can be controlled via MIDI input for pitch and trigger, and also supports signal-based control for these parameters, with adjustable cutoff and decay parameters.",
+    "categories": [
+        "Physical Modeling",
+        "MIDI"
+    ]
+}

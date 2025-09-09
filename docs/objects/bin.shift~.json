@@ -1,0 +1,25 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "bin.shift~",
+    "description": "`bin.shift~` is a Pure Data object designed for spectral processing, enabling the shifting of samples or frequency bins within an audio signal. Similar to `lrshift~`, it allows left or right shifts of audio data. It also features a \"wrap\" mode, where samples shifted out of bounds are reinserted on the opposite side, rather than being zeroed.",
+    "categories": []
+}

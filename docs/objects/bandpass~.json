@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "bandpass~",
+    "description": "The `bandpass~` object is a 2nd order resonant bandpass filter designed for audio signals, maintaining a constant 0dB gain. It allows frequencies around a specified center frequency to pass, with adjustable resonance via Q factor or bandwidth. It also includes `bypass` and `clear` messages for control.",
+    "categories": [
+        "Filters"
+    ]
+}

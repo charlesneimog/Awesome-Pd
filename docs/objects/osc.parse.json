@@ -1,29 +1,27 @@
 {
-  "title": "osc.parse",
-  "description": "`osc.parse` is similar to Vanilla's `oscparse` but the output is not a list and more closely related on how OSC messages are generally dealt with. It is still in the `osc.receive` abstraction and you can use the object for more edge and lower level cases.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Networking",
-    "Procedures",
-    "Algorithm Composition"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "osc.parse",
+    "description": "The `osc.parse` object in Pure Data is used to parse incoming Open Sound Control (OSC) messages. It extracts the address pattern and arguments from an OSC message, providing output in a format more directly usable for OSC message handling compared to the vanilla `oscparse` object. This object is typically employed for low-level or specialized OSC data parsing, often as part of the `osc.receive` abstraction.",
+    "categories": [
+        "OSC"
+    ]
 }

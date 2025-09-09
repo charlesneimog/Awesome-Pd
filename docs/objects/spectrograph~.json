@@ -1,29 +1,28 @@
 {
-  "title": "spectrograph~",
-  "description": "`spectrograph~` is an abstraction for visualizing FFT amplitudes from 0hz to Nyquist. It uses a hann table for the analysis.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Math",
-    "Algorithm Composition",
-    "Descriptors"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "spectrograph~",
+    "description": "The `spectrograph~` object visualizes the FFT amplitudes of an incoming audio signal, displaying frequencies from 0 Hz to Nyquist. It uses a Hann window for spectral analysis and allows customization of FFT size, amplitude scaling (linear or dB), frequency scaling (linear or logarithmic), and display dimensions. When its graph rate is set to 0, it can be triggered manually by a `bang` message.",
+    "categories": [
+        "Descriptors",
+        "Graphics"
+    ]
 }

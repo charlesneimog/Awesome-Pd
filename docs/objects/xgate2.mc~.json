@@ -1,29 +1,28 @@
 {
-  "title": "xgate2.mc~",
-  "description": "`xgate2.mc~` routes an input signal to 'n' specified channels in a multichannel output with crossfading between adjacent channels according to a spread parameter.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Routing",
-    "Multichannel",
-    "Dynamics"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "xgate2.mc~",
+    "description": "The `xgate2.mc~` object routes a single input signal to multiple output channels within a multichannel signal. It features crossfading between adjacent channels, controlled by a 'spread' parameter that determines how widely the signal is distributed. This allows for smooth transitions and distribution of audio across a specified number of output channels.",
+    "categories": [
+        "Routing",
+        "Multichannel"
+    ]
 }

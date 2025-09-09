@@ -1,29 +1,28 @@
 {
-  "title": "pick~",
-  "description": "`pick~` picks a channel from a multichannel connection. The channel is specified via argument or float input and is indexed from 1 (0 gives \"none\"). Negative values count from last to the first element. If you ask for an element number out of the range, you also get \"none\".\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Multichannel",
-    "Procedures",
-    "Logic"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pick~",
+    "description": "`pick~` selects a specific channel from a multichannel audio connection. The desired channel can be set via an argument or a float input, with indexing starting from 1 (0 or out-of-range values result in no output). Negative input values count channels from the last to the first.",
+    "categories": [
+        "Routing",
+        "Multichannel"
+    ]
 }

@@ -1,12 +1,17 @@
 # spectrograph~
 
-`spectrograph~` is an abstraction for visualizing FFT amplitudes from 0hz to Nyquist. It uses a hann table for the analysis.
-
+The `spectrograph~` object visualizes the FFT amplitudes of an incoming audio signal, displaying frequencies from 0 Hz to Nyquist. It uses a Hann window for spectral analysis and allows customization of FFT size, amplitude scaling (linear or dB), frequency scaling (linear or logarithmic), and display dimensions. When its graph rate is set to 0, it can be triggered manually by a `bang` message.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `spectrograph~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

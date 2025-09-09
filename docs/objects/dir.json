@@ -1,6 +1,4 @@
 {
-    "title": "dir",
-    "description": "The `dir` object in Pure Data is used to access and manage files from directories. It can open directories (relative or absolute), reset to the patch\u2019s directory, and reload contents. It outputs the list of files, the current directory path, and the number of files found through its outlets. The `seek` and `next` messages allow indexed or sequential access to files, while `n` reports the total number of files. You can filter results by extension using the `-ext` flag or `ext` message. Directory navigation supports relative paths like `.` (current), `..` (parent), and `~` (home).",
     "runs_on": [
         "Mac",
         "Linux",
@@ -10,19 +8,20 @@
     "available_on_deken": true,
     "bug_reports": "https://github.com/porres/pd-else/issues",
     "developers": [
-        "Alexandre Porres"
+        "Alexandre Torres Porres"
     ],
     "part_of_library": true,
     "library_name": "else",
-    "categories": [
-        "File IO"
-    ],
-    "category_groups": [],
-    "category_parents": {},
     "articles": [],
     "videos": [],
     "musics": [],
     "contributors": [
         "charlesneimog"
+    ],
+    "ai": true,
+    "title": "dir",
+    "description": "The `dir` object allows you to access and manage files within directories. It can open specified directories (absolute or relative paths), list their contents, and filter files by extension. It provides messages to query the current directory, count files, and iterate through them, facilitating file system navigation and content loading.",
+    "categories": [
+        "File IO"
     ]
 }

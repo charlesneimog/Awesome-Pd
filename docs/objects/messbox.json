@@ -1,0 +1,28 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "messbox",
+    "description": "The `messbox` object is an editable GUI element in Pure Data that functions similarly to a standard message box, allowing users to type and output various message types during run mode. It supports dollar sign arguments, comma-separated messages, and semicolon-separated messages, expanding them dynamically. It also offers control over its appearance, including font size, dimensions, and background/foreground colors.",
+    "categories": [
+        "GUI",
+        "Text"
+    ]
+}

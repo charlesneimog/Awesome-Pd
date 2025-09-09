@@ -1,47 +1,20 @@
 # plaits~
 
-`plaits~` is a Pure Data external based on the "Plaits" macro-oscillator module by Mutable Instruments. It is a powerful and versatile synthesizer object featuring 24 different synthesis engines (or "models"), ranging from virtual analog and FM to physical modeling, speech synthesis, and drum sounds.
+The `plaits~` object is a versatile audio synthesizer based on the Mutable Instruments Plaits module, offering 24 distinct synthesis engines. It features core controls for 'Harmonics', 'Timbre', and 'Morph', whose functions adapt to the selected engine, and includes a built-in Low-Pass Gate (LPG) with trigger and level inputs for dynamic sound shaping. It supports various pitch input modes (Hz, MIDI, CV) and extensive modulation capabilities for its synthesis parameters.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `plaits~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
-</div><h3>Articles</h3>
-
-<div class="grid cards" markdown>
-- :octicons-book-24: 
-    <h4>ELSE Library for Pure Data</h4>
-    *by Alexandre Porres*
-
-    [Link](https://compmus.ime.usp.br/sbcm/2017/papers/sbcm-2017-6.pdf)
 </div>
-
----
-<h3>Videos</h3>
-
-<div style="display: flex; justify-content: center; gap: 20px;">
-    <iframe style="border-radius: 8px" width="560" height="315"
-        src="https://www.youtube.com/embed/C_R7x1TplCw"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
----
-<h3>Music</h3>
-
-<div style="display: flex; justify-content: center; gap: 20px;">
-    <iframe style="border-radius: 8px" width="560" height="315"
-        src="https://www.youtube.com/embed/CuJsBlbFBeM"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
----
-
 
 ---
 

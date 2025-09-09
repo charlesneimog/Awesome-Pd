@@ -1,11 +1,17 @@
 # changed~
 
-The `changed~` object in Pure Data monitors an input signal and outputs an impulse whenever the signal changes by an amount equal to or greater than a specified threshold. If the threshold is set to 0, any change in the input triggers an impulse. The object outputs the detected changes as impulses.
+The `changed~` object detects changes in an incoming signal. It outputs an impulse whenever the signal's value changes by an amount equal to or greater than a specified threshold. This is useful for triggering events only when a significant alteration in the signal occurs.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `changed~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

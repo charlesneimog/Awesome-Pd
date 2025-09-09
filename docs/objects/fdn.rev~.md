@@ -1,12 +1,17 @@
 # fdn.rev~
 
-`fdn.rev~` is a feedback delay network reverberator which can be used for late reflections (a.k.a reverb tail). The main parameters are: decay time (t60) and high frequency damping.
-
+`fdn.rev~` is a feedback delay network (FDN) reverberator designed to simulate late reflections, commonly known as the reverb tail. Its primary parameters are the reverberation decay time (t60) and high-frequency damping, which controls how quickly higher frequencies decay. The object's internal delay lines can be configured using a list of values to set the matrix size and individual delay times, which can be spaced linearly or exponentially.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `fdn.rev~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

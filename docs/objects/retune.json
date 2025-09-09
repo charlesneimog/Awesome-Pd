@@ -1,29 +1,27 @@
 {
-  "title": "retune",
-  "description": "`retune` receives a scale as a list of steps in cents and a base MIDI pitch value (default 60). It then remaps the incoming MIDI ptches (as integers) and retunes the pitches above or below the base value according to the scale.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "MIDI",
-    "Oscillators",
-    "Math"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "retune",
+    "description": "The `retune` object remaps incoming MIDI pitches to a custom scale. It takes a list of steps in cents and a base MIDI pitch, then retunes subsequent MIDI pitch inputs relative to this base and scale. This allows for microtonal or alternative tunings.",
+    "categories": [
+        "MIDI"
+    ]
 }

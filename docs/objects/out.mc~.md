@@ -1,12 +1,17 @@
 # out.mc~
 
-`out.mc~` takes multichannel signals and outputs them from given `dac~` channel output (default 1). It has controls for mute, DSP on/off, ramp time, maximum gain and scaling mode.
-
+The `out.mc~` object routes multichannel audio signals to specified `dac~` output channels, with a default starting channel of 1. It provides controls for muting, toggling DSP on/off without clicks, setting a ramp time for gain changes, and adjusting maximum gain. The object also features three scaling modes (quartic, dB, and linear) for its internal slider values, allowing for flexible gain control.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `out.mc~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

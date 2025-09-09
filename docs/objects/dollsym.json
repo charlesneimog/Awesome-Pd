@@ -1,0 +1,28 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "dollsym",
+    "description": "The `dollsym` object in Pure Data expands dollar-prefixed symbols like `$0-x` or `$1-y` into their corresponding values within a patch. It is particularly useful for creating flexible abstractions, as it can resolve these symbols based on the current patch or a specified parent patch's context using a 'depth' argument. Symbols without dollar arguments are passed through unchanged.",
+    "categories": [
+        "Patching",
+        "Text"
+    ]
+}

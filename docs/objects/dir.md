@@ -1,11 +1,17 @@
 # dir
 
-The `dir` object in Pure Data is used to access and manage files from directories. It can open directories (relative or absolute), reset to the patch’s directory, and reload contents. It outputs the list of files, the current directory path, and the number of files found through its outlets. The `seek` and `next` messages allow indexed or sequential access to files, while `n` reports the total number of files. You can filter results by extension using the `-ext` flag or `ext` message. Directory navigation supports relative paths like `.` (current), `..` (parent), and `~` (home).
+The `dir` object allows you to access and manage files within directories. It can open specified directories (absolute or relative paths), list their contents, and filter files by extension. It provides messages to query the current directory, count files, and iterate through them, facilitating file system navigation and content loading.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `dir` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

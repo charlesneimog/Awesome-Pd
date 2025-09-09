@@ -1,29 +1,28 @@
 {
-  "title": "xselect.mc~",
-  "description": "`xselect.mc~` selects between multiple channels from a multichannel connection (maximum 512 channels) with equal power crossfading.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Multichannel",
-    "Routing",
-    "Algorithm Composition"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "xselect.mc~",
+    "description": "The `xselect.mc~` object selects a specific channel from a multichannel audio connection, supporting up to 512 channels. It features equal power crossfading between selected channels, with configurable crossfade time. This object is primarily used for dynamic routing and manipulation of individual streams within a multichannel signal.",
+    "categories": [
+        "Routing",
+        "Multichannel"
+    ]
 }

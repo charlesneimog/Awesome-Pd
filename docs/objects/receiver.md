@@ -1,12 +1,17 @@
 # receiver
 
-`receiver` is kinda like vanilla's `receive`. It can have up to two names, has an inlet to set the receive names and at load time can expand dollar symbols according to parent patches.
-
+The `receiver` object in Pure Data functions similarly to the vanilla `receive` object, allowing it to receive messages sent to a specified name. A key feature is its ability to listen for messages sent to up to two different names simultaneously, which can be dynamically set via an inlet. It also supports dollar symbol expansion for abstraction management, similar to `dollsym`.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `receiver` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

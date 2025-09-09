@@ -1,29 +1,29 @@
 {
-  "title": "loop",
-  "description": "`loop` is a loop counter, but it can also loop bangs like `until` (using the -b flag). A float sets number of count iteration upwards. A list with two elements sets a start and end value (and allows counting upwards or downwards). A counter step value can be set with a third optional element in a list.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Procedures",
-    "Logic",
-    "Algorithm Composition"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "loop",
+    "description": "The `loop` object in Pure Data provides a flexible iteration mechanism, functioning as a counter that can increment or decrement through a specified range. It supports various modes, including outputting numerical counts or bangs, and can be paused and resumed, making it suitable for tasks like sweeping through arrays or implementing programmatic loops.",
+    "categories": [
+        "Procedures",
+        "General Utilities",
+        "Algorithm Composition"
+    ]
 }

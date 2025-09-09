@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "range.hsl",
+    "description": "The `range.hsl` object is a graphical user interface (GUI) horizontal slider designed for selecting and manipulating numerical ranges. It offers four distinct modes of operation—shift, select, extend, and expand—to control how the range is adjusted. Users can configure its appearance, set the minimum and maximum range values, and define send/receive symbols for patch communication.",
+    "categories": [
+        "GUI"
+    ]
+}

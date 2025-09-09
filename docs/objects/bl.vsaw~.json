@@ -1,29 +1,29 @@
 {
-  "title": "bl.vsaw~",
-  "description": "`bl.vsaw~` is a variable sawtooth waveform oscillator that also becomes a triangular osccilator just like `else/vsaw~`, but it is bandlimited. Use `vsaw~` mostly if you need a wave form, which is usually the case when you want a LFO. The `bl.vsaw~` version is for proper synthesis as it is anti-aliased. This version also has input for pitch in MIDI and no way to sync at control rate.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "LFOs",
-    "MIDI",
-    "Oscillators"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "bl.vsaw~",
+    "description": "`bl.vsaw~` is a bandlimited variable sawtooth waveform oscillator that can also generate triangular waveforms. It is anti-aliased for high-quality audio synthesis and supports frequency input in both Hertz and MIDI pitch. The object includes inlets for controlling waveform width, phase synchronization, and phase offset, and it supports multichannel operation.",
+    "categories": [
+        "Oscillators",
+        "Subtractive",
+        "Audio IO"
+    ]
 }

@@ -1,12 +1,17 @@
 # suspedal
 
-`suspedal` holds MIDI Note Off messages when on and sends them out when it's switched off. It has two sustain modes, 'regular' (default) and 'tonal' - as in the design of modern pianos.
-
+The `suspedal` object emulates a MIDI sustain pedal, holding `Note Off` messages when active and releasing them when deactivated. It supports two sustain modes: a default 'regular' mode and a 'tonal' mode, which sustains currently playing notes without affecting new ones, similar to a piano's sostenuto pedal. It also offers various retrigger behaviors for repeated notes.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `suspedal` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

@@ -1,29 +1,28 @@
 {
-  "title": "midi.learn",
-  "description": "`midi.learn` is an abstraction based on `savestate` that learns and saves any MIDI input data. Activate it via bang or click and send it MIDI data so it learns where it comes from. The information gets stored in the owning patch.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "MIDI",
-    "Patching",
-    "Procedures"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "midi.learn",
+    "description": "The `midi.learn` object is a Pure Data abstraction designed to learn and store incoming MIDI data, such as control changes, program changes, notes, and bends. Activated by a bang or click, it facilitates the mapping of external MIDI controllers by saving the learned information directly within the owning patch.",
+    "categories": [
+        "MIDI",
+        "Control IO"
+    ]
 }

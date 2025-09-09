@@ -1,12 +1,17 @@
 # pack2
 
-`pack2` is kinda similar to Pd Vanilla's `pack`, but any inlet triggers the output (though a "set" message avoids the output). It can also initialize a symbol value and an element that was initialized as a float can become a symbol and vice versa.
-
+The `pack2` object combines incoming data from its inlets into a single list, similar to `pack`. Unlike `pack`, any input triggers an output, unless a 'set' message is used to store values without outputting. It dynamically adjusts its number of inlets based on initialization and can handle both float and symbol types.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `pack2` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

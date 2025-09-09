@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pimp",
+    "description": "The `pimp` object is a control-rate signal generator, analogous to `phasor~` but operating at a control rate with a maximum resolution of 1 ms. It generates a periodic signal based on an input frequency in Hertz and an initial phase offset. It also provides an inlet for phase synchronization and can output a bang at each period transition.",
+    "categories": [
+        "Oscillators"
+    ]
+}

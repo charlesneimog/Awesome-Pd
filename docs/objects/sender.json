@@ -1,29 +1,27 @@
 {
-  "title": "sender",
-  "description": "`sender` is much like vanilla's `send`, but can have up to two names and at load time can expand dollar symbols according to parent patches.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Patching",
-    "Routing",
-    "Logic"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "sender",
+    "description": "The `sender` object functions similarly to Pure Data's `send` object, but with enhanced capabilities. It can send messages to up to two distinct named receivers, with the ability to dynamically set these names via inlets. Additionally, `sender` supports dollar-sign expansion at load time, allowing for flexible naming within abstractions.",
+    "categories": [
+        "Routing"
+    ]
 }

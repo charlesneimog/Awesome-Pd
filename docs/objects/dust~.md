@@ -1,12 +1,18 @@
 # dust~
 
-The `dust~` object in Pure Data is a pseudo-random impulse generator that outputs positive random impulses (up to 1) according to a configurable density (rate) parameter. It can be seeded with a specific integer to reproduce the same sequence or left to generate a unique internal seed. The object supports multichannel outputs, with each channel optionally set to its own density via the `-mc` flag or list input. At high densities, consecutive impulses may occur, and at extreme densities, the output approximates white noise with a DC offset.
+`dust~` generates random positive impulses at a specified density, based on SuperCollider's "Dust" UGEN. At high densities, it can produce white noise with a DC offset. This object supports multichannel output and allows for seeding its internal random number generator.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `dust~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
-- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/else/issues)!
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
+- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>
 

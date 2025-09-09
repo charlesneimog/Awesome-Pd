@@ -1,6 +1,4 @@
 {
-    "title": "bend.in",
-    "description": "The `bend.in` object in Pure Data extracts MIDI Pitch Bend information from either a connected MIDI device (internal source) or raw MIDI input (external source). By default, it outputs normalized values from -1 to 1, but with the `-raw` flag it outputs integers in the range 0\u201316383. It supports MIDI channel selection via argument or right inlet, with channel 0 as omni mode, and can be set to listen exclusively to external sources using the `-ext` flag. Port numbers are encoded into channel numbers, extending the channel mapping across multiple ports.",
     "runs_on": [
         "Mac",
         "Linux",
@@ -10,19 +8,21 @@
     "available_on_deken": true,
     "bug_reports": "https://github.com/porres/pd-else/issues",
     "developers": [
-        "Alexandre Porres"
+        "Alexandre Torres Porres"
     ],
     "part_of_library": true,
     "library_name": "else",
-    "categories": [
-        "MIDI"
-    ],
-    "category_groups": [],
-    "category_parents": {},
     "articles": [],
     "videos": [],
     "musics": [],
     "contributors": [
         "charlesneimog"
+    ],
+    "ai": true,
+    "title": "bend.in",
+    "description": "The `bend.in` object extracts MIDI Pitch Bend messages from connected MIDI devices or raw MIDI data streams. It outputs normalized float values from -1 to 1 by default, or raw integer values from 0 to 16383 when in raw mode. It can filter by MIDI channel or operate in omni mode, also supporting external MIDI input.",
+    "categories": [
+        "MIDI",
+        "Control IO"
     ]
 }

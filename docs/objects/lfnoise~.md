@@ -1,12 +1,17 @@
 # lfnoise~
 
-`lfnoise~` is a low frequency (band limited) noise with or without interpolation. It generates random values (between -1 and 1) at a rate in hertz (negative frequencies accepted). It also has a 'sync' inlet that forces the object to generate a new random value when receiving an impulse. Use the seed message if you want a reproducible output.
-
+The `lfnoise~` object generates band-limited low-frequency noise, producing random values between -1 and 1 at a specified frequency. It can be synchronized by an impulse to generate a new random value and supports optional interpolation. This object is useful for creating modulated control signals or random audio textures.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `lfnoise~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

@@ -43,6 +43,9 @@
             },
             {
                 "velvet~": "objects/velvet~.md"
+            },
+            {
+                "median": "objects/median.md"
             }
         ]
     },
@@ -775,6 +778,51 @@
             },
             {
                 "bitshift~": "objects/bitshift~.md"
+            },
+            {
+                "chance~": "objects/chance~.md"
+            },
+            {
+                "drunkard": "objects/drunkard.md"
+            },
+            {
+                "rec": "objects/rec.md"
+            },
+            {
+                "mono~": "objects/mono~.md"
+            },
+            {
+                "count": "objects/count.md"
+            },
+            {
+                "nmess": "objects/nmess.md"
+            },
+            {
+                "euclid": "objects/euclid.md"
+            },
+            {
+                "abs.pd~": "objects/abs.pd~.md"
+            },
+            {
+                "timed.gate~": "objects/timed.gate~.md"
+            },
+            {
+                "tempo": "objects/tempo.md"
+            },
+            {
+                "speed": "objects/speed.md"
+            },
+            {
+                "limit": "objects/limit.md"
+            },
+            {
+                "chrono": "objects/chrono.md"
+            },
+            {
+                "clock": "objects/clock.md"
+            },
+            {
+                "sequencer~": "objects/sequencer~.md"
             }
         ]
     },
@@ -1001,6 +1049,36 @@
             },
             {
                 "note": "objects/note.md"
+            },
+            {
+                "schmitt~": "objects/schmitt~.md"
+            },
+            {
+                "op": "objects/op.md"
+            },
+            {
+                "match~": "objects/match~.md"
+            },
+            {
+                "mono~": "objects/mono~.md"
+            },
+            {
+                "schmitt": "objects/schmitt.md"
+            },
+            {
+                "nmess": "objects/nmess.md"
+            },
+            {
+                "routeall": "objects/routeall.md"
+            },
+            {
+                "gaterelease~": "objects/gaterelease~.md"
+            },
+            {
+                "status~": "objects/status~.md"
+            },
+            {
+                "mono": "objects/mono.md"
             }
         ],
         "Math": [
@@ -1213,6 +1291,243 @@
             },
             {
                 "bitshift~": "objects/bitshift~.md"
+            },
+            {
+                "allpass.2nd~": "objects/allpass.2nd~.md"
+            },
+            {
+                "ratio2cents": "objects/ratio2cents.md"
+            },
+            {
+                "trunc~": "objects/trunc~.md"
+            },
+            {
+                "car2pol~": "objects/car2pol~.md"
+            },
+            {
+                "cents2frac": "objects/cents2frac.md"
+            },
+            {
+                "coeff2pz": "objects/coeff2pz.md"
+            },
+            {
+                "pz2coeff": "objects/pz2coeff.md"
+            },
+            {
+                "cents2scale": "objects/cents2scale.md"
+            },
+            {
+                "ikeda~": "objects/ikeda~.md"
+            },
+            {
+                "op": "objects/op.md"
+            },
+            {
+                "floor~": "objects/floor~.md"
+            },
+            {
+                "henon~": "objects/henon~.md"
+            },
+            {
+                "frac2cents": "objects/frac2cents.md"
+            },
+            {
+                "car2pol": "objects/car2pol.md"
+            },
+            {
+                "bicoeff2": "objects/bicoeff2.md"
+            },
+            {
+                "ceil": "objects/ceil.md"
+            },
+            {
+                "deg2rad": "objects/deg2rad.md"
+            },
+            {
+                "lincong~": "objects/lincong~.md"
+            },
+            {
+                "mov.rms~": "objects/mov.rms~.md"
+            },
+            {
+                "fold~": "objects/fold~.md"
+            },
+            {
+                "factor": "objects/factor.md"
+            },
+            {
+                "add~": "objects/add~.md"
+            },
+            {
+                "bpm": "objects/bpm.md"
+            },
+            {
+                "sin~": "objects/sin~.md"
+            },
+            {
+                "hann~": "objects/hann~.md"
+            },
+            {
+                "euclid": "objects/euclid.md"
+            },
+            {
+                "dec2frac": "objects/dec2frac.md"
+            },
+            {
+                "interpolate": "objects/interpolate.md"
+            },
+            {
+                "floor": "objects/floor.md"
+            },
+            {
+                "lorenz~": "objects/lorenz~.md"
+            },
+            {
+                "spread~": "objects/spread~.md"
+            },
+            {
+                "list.inc": "objects/list.inc.md"
+            },
+            {
+                "pulse": "objects/pulse.md"
+            },
+            {
+                "sum~": "objects/sum~.md"
+            },
+            {
+                "wrap2": "objects/wrap2.md"
+            },
+            {
+                "cusp~": "objects/cusp~.md"
+            },
+            {
+                "wrap2~": "objects/wrap2~.md"
+            },
+            {
+                "mov.avg": "objects/mov.avg.md"
+            },
+            {
+                "rand.u": "objects/rand.u.md"
+            },
+            {
+                "ms2samps": "objects/ms2samps.md"
+            },
+            {
+                "lin2db": "objects/lin2db.md"
+            },
+            {
+                "rad2hz": "objects/rad2hz.md"
+            },
+            {
+                "latoocarfian~": "objects/latoocarfian~.md"
+            },
+            {
+                "frac.mul": "objects/frac.mul.md"
+            },
+            {
+                "ratio2cents~": "objects/ratio2cents~.md"
+            },
+            {
+                "samps2ms": "objects/samps2ms.md"
+            },
+            {
+                "gbman~": "objects/gbman~.md"
+            },
+            {
+                "median": "objects/median.md"
+            },
+            {
+                "bangdiv": "objects/bangdiv.md"
+            },
+            {
+                "gain~": "objects/gain~.md"
+            },
+            {
+                "freq2midi": "objects/freq2midi.md"
+            },
+            {
+                "morph": "objects/morph.md"
+            },
+            {
+                "quad~": "objects/quad~.md"
+            },
+            {
+                "pol2car": "objects/pol2car.md"
+            },
+            {
+                "cents2ratio": "objects/cents2ratio.md"
+            },
+            {
+                "histogram": "objects/histogram.md"
+            },
+            {
+                "tabgen": "objects/tabgen.md"
+            },
+            {
+                "mag": "objects/mag.md"
+            },
+            {
+                "mix2~": "objects/mix2~.md"
+            },
+            {
+                "cents2ratio~": "objects/cents2ratio~.md"
+            },
+            {
+                "pi": "objects/pi.md"
+            },
+            {
+                "fbsine2~": "objects/fbsine2~.md"
+            },
+            {
+                "gcd": "objects/gcd.md"
+            },
+            {
+                "midi2freq": "objects/midi2freq.md"
+            },
+            {
+                "crackle~": "objects/crackle~.md"
+            },
+            {
+                "rescale~": "objects/rescale~.md"
+            },
+            {
+                "frac.add": "objects/frac.add.md"
+            },
+            {
+                "frac2dec": "objects/frac2dec.md"
+            },
+            {
+                "eqdiv": "objects/eqdiv.md"
+            },
+            {
+                "rescale": "objects/rescale.md"
+            },
+            {
+                "lcm": "objects/lcm.md"
+            },
+            {
+                "rint~": "objects/rint~.md"
+            },
+            {
+                "ms2samps~": "objects/ms2samps~.md"
+            },
+            {
+                "notedur2ratio": "objects/notedur2ratio.md"
+            },
+            {
+                "rad2deg": "objects/rad2deg.md"
+            },
+            {
+                "scale2cents": "objects/scale2cents.md"
+            },
+            {
+                "op~": "objects/op~.md"
+            },
+            {
+                "avg": "objects/avg.md"
+            },
+            {
+                "e": "objects/e.md"
             }
         ],
         "Routing": [
@@ -1326,6 +1641,96 @@
             },
             {
                 "sender": "objects/sender.md"
+            },
+            {
+                "chance~": "objects/chance~.md"
+            },
+            {
+                "xgate~": "objects/xgate~.md"
+            },
+            {
+                "pdlink": "objects/pdlink.md"
+            },
+            {
+                "pan~": "objects/pan~.md"
+            },
+            {
+                "pan4~": "objects/pan4~.md"
+            },
+            {
+                "xgate.mc~": "objects/xgate.mc~.md"
+            },
+            {
+                "match~": "objects/match~.md"
+            },
+            {
+                "pan2~": "objects/pan2~.md"
+            },
+            {
+                "xfade~": "objects/xfade~.md"
+            },
+            {
+                "routetype": "objects/routetype.md"
+            },
+            {
+                "retrieve": "objects/retrieve.md"
+            },
+            {
+                "route2": "objects/route2.md"
+            },
+            {
+                "out4~": "objects/out4~.md"
+            },
+            {
+                "nmess": "objects/nmess.md"
+            },
+            {
+                "routeall": "objects/routeall.md"
+            },
+            {
+                "spread": "objects/spread.md"
+            },
+            {
+                "spread~": "objects/spread~.md"
+            },
+            {
+                "hot": "objects/hot.md"
+            },
+            {
+                "merge~": "objects/merge~.md"
+            },
+            {
+                "dispatch": "objects/dispatch.md"
+            },
+            {
+                "pick~": "objects/pick~.md"
+            },
+            {
+                "pan.mc~": "objects/pan.mc~.md"
+            },
+            {
+                "selector": "objects/selector.md"
+            },
+            {
+                "message": "objects/message.md"
+            },
+            {
+                "suspedal": "objects/suspedal.md"
+            },
+            {
+                "mono": "objects/mono.md"
+            },
+            {
+                "voices": "objects/voices.md"
+            },
+            {
+                "chance": "objects/chance.md"
+            },
+            {
+                "xselect~": "objects/xselect~.md"
+            },
+            {
+                "get~": "objects/get~.md"
             }
         ],
         "Envelopes": [
@@ -1406,6 +1811,27 @@
             },
             {
                 "rms~": "objects/rms~.md"
+            },
+            {
+                "grain.sampler~": "objects/grain.sampler~.md"
+            },
+            {
+                "grain.live~": "objects/grain.live~.md"
+            },
+            {
+                "grain.synth~": "objects/grain.synth~.md"
+            },
+            {
+                "ramp~": "objects/ramp~.md"
+            },
+            {
+                "peak~": "objects/peak~.md"
+            },
+            {
+                "autofade~": "objects/autofade~.md"
+            },
+            {
+                "adsr.m~": "objects/adsr.m~.md"
             }
         ],
         "LFOs": [
@@ -1441,6 +1867,9 @@
             },
             {
                 "bl.square~": "objects/bl.square~.md"
+            },
+            {
+                "lfo.m~": "objects/lfo.m~.md"
             }
         ],
         "Sequencers": [
@@ -1473,6 +1902,30 @@
             },
             {
                 "score2": "objects/score2.md"
+            },
+            {
+                "store": "objects/store.md"
+            },
+            {
+                "rec": "objects/rec.md"
+            },
+            {
+                "euclid": "objects/euclid.md"
+            },
+            {
+                "seq8.m~": "objects/seq8.m~.md"
+            },
+            {
+                "list.seq": "objects/list.seq.md"
+            },
+            {
+                "impseq~": "objects/impseq~.md"
+            },
+            {
+                "polymetro~": "objects/polymetro~.md"
+            },
+            {
+                "sequencer~": "objects/sequencer~.md"
             }
         ],
         "MIDI": [
@@ -1583,6 +2036,93 @@
             },
             {
                 "autotune": "objects/autotune.md"
+            },
+            {
+                "pgm.in": "objects/pgm.in.md"
+            },
+            {
+                "sfont.m~": "objects/sfont.m~.md"
+            },
+            {
+                "impulse~": "objects/impulse~.md"
+            },
+            {
+                "pgm.out": "objects/pgm.out.md"
+            },
+            {
+                "sfont~": "objects/sfont~.md"
+            },
+            {
+                "panic": "objects/panic.md"
+            },
+            {
+                "sysrt.out": "objects/sysrt.out.md"
+            },
+            {
+                "mono~": "objects/mono~.md"
+            },
+            {
+                "noteinfo": "objects/noteinfo.md"
+            },
+            {
+                "bl.saw~": "objects/bl.saw~.md"
+            },
+            {
+                "makenote2": "objects/makenote2.md"
+            },
+            {
+                "seq8.m~": "objects/seq8.m~.md"
+            },
+            {
+                "sendmidi": "objects/sendmidi.md"
+            },
+            {
+                "gaussian~": "objects/gaussian~.md"
+            },
+            {
+                "abs.pd~": "objects/abs.pd~.md"
+            },
+            {
+                "voices~": "objects/voices~.md"
+            },
+            {
+                "midi.clock": "objects/midi.clock.md"
+            },
+            {
+                "synth~": "objects/synth~.md"
+            },
+            {
+                "square~": "objects/square~.md"
+            },
+            {
+                "plaits.m~": "objects/plaits.m~.md"
+            },
+            {
+                "rec2": "objects/rec2.md"
+            },
+            {
+                "pluck.m~": "objects/pluck.m~.md"
+            },
+            {
+                "gain~": "objects/gain~.md"
+            },
+            {
+                "freq2midi": "objects/freq2midi.md"
+            },
+            {
+                "gain2~": "objects/gain2~.md"
+            },
+            {
+                "sfz~": "objects/sfz~.md"
+            },
+            {
+                "midi2freq": "objects/midi2freq.md"
+            },
+            {
+                "vco.m~": "objects/vco.m~.md"
+            },
+            {
+                "sysrt.in": "objects/sysrt.in.md"
             }
         ]
     },
@@ -1608,6 +2148,30 @@
             },
             {
                 "conv~": "objects/conv~.md"
+            },
+            {
+                "plate.rev~": "objects/plate.rev~.md"
+            },
+            {
+                "free.rev~": "objects/free.rev~.md"
+            },
+            {
+                "stereo.rev~": "objects/stereo.rev~.md"
+            },
+            {
+                "fbdelay~": "objects/fbdelay~.md"
+            },
+            {
+                "plate.rev.m~": "objects/plate.rev.m~.md"
+            },
+            {
+                "comb.rev~": "objects/comb.rev~.md"
+            },
+            {
+                "allpass.rev~": "objects/allpass.rev~.md"
+            },
+            {
+                "comb.filt~": "objects/comb.filt~.md"
             }
         ],
         "Delay": [
@@ -1634,6 +2198,36 @@
             },
             {
                 "repeat~": "objects/repeat~.md"
+            },
+            {
+                "fbdelay~": "objects/fbdelay~.md"
+            },
+            {
+                "trig.delay2~": "objects/trig.delay2~.md"
+            },
+            {
+                "ping.pong~": "objects/ping.pong~.md"
+            },
+            {
+                "delay.m~": "objects/delay.m~.md"
+            },
+            {
+                "gatehold~": "objects/gatehold~.md"
+            },
+            {
+                "ffdelay~": "objects/ffdelay~.md"
+            },
+            {
+                "comb.rev~": "objects/comb.rev~.md"
+            },
+            {
+                "gatedelay": "objects/gatedelay.md"
+            },
+            {
+                "allpass.rev~": "objects/allpass.rev~.md"
+            },
+            {
+                "comb.filt~": "objects/comb.filt~.md"
             }
         ],
         "Distortion": [
@@ -1660,6 +2254,21 @@
             },
             {
                 "rm~": "objects/rm~.md"
+            },
+            {
+                "drive.m~": "objects/drive.m~.md"
+            },
+            {
+                "crusher.m~": "objects/crusher.m~.md"
+            },
+            {
+                "fold~": "objects/fold~.md"
+            },
+            {
+                "drive~": "objects/drive~.md"
+            },
+            {
+                "circuit~": "objects/circuit~.md"
             }
         ],
         "Chorus/Flanger/Phaser": [
@@ -1668,6 +2277,24 @@
             },
             {
                 "phaser~": "objects/phaser~.md"
+            },
+            {
+                "chorus.m~": "objects/chorus.m~.md"
+            },
+            {
+                "chorus~": "objects/chorus~.md"
+            },
+            {
+                "flanger.m~": "objects/flanger.m~.md"
+            },
+            {
+                "flanger~": "objects/flanger~.md"
+            },
+            {
+                "circuit~": "objects/circuit~.md"
+            },
+            {
+                "phaser.m~": "objects/phaser.m~.md"
             }
         ],
         "Filters": [
@@ -1772,6 +2399,84 @@
             },
             {
                 "conv~": "objects/conv~.md"
+            },
+            {
+                "allpass.2nd~": "objects/allpass.2nd~.md"
+            },
+            {
+                "pz2coeff": "objects/pz2coeff.md"
+            },
+            {
+                "bicoeff2": "objects/bicoeff2.md"
+            },
+            {
+                "bandstop~": "objects/bandstop~.md"
+            },
+            {
+                "lop.bw~": "objects/lop.bw~.md"
+            },
+            {
+                "highshelf~": "objects/highshelf~.md"
+            },
+            {
+                "hip.bw~": "objects/hip.bw~.md"
+            },
+            {
+                "circuit~": "objects/circuit~.md"
+            },
+            {
+                "glide2~": "objects/glide2~.md"
+            },
+            {
+                "highpass~": "objects/highpass~.md"
+            },
+            {
+                "plaits.m~": "objects/plaits.m~.md"
+            },
+            {
+                "brickwall~": "objects/brickwall~.md"
+            },
+            {
+                "crossover~": "objects/crossover~.md"
+            },
+            {
+                "bandpass~": "objects/bandpass~.md"
+            },
+            {
+                "lowshelf~": "objects/lowshelf~.md"
+            },
+            {
+                "svfilter~": "objects/svfilter~.md"
+            },
+            {
+                "comb.rev~": "objects/comb.rev~.md"
+            },
+            {
+                "vcf.m~": "objects/vcf.m~.md"
+            },
+            {
+                "eq~": "objects/eq~.md"
+            },
+            {
+                "mov.avg~": "objects/mov.avg~.md"
+            },
+            {
+                "lowpass~": "objects/lowpass~.md"
+            },
+            {
+                "zbiplot": "objects/zbiplot.md"
+            },
+            {
+                "lop2~": "objects/lop2~.md"
+            },
+            {
+                "allpass.rev~": "objects/allpass.rev~.md"
+            },
+            {
+                "comb.filt~": "objects/comb.filt~.md"
+            },
+            {
+                "median~": "objects/median~.md"
             }
         ],
         "Dynamics": [
@@ -1846,10 +2551,29 @@
             },
             {
                 "autofade~": "objects/autofade~.md"
+            },
+            {
+                "expand~": "objects/expand~.md"
+            },
+            {
+                "duck~": "objects/duck~.md"
+            },
+            {
+                "dbgain~": "objects/dbgain~.md"
             }
         ]
     },
-    "Extensions": [],
+    "Extensions": [
+        {
+            "hello": "objects/hello.md"
+        },
+        {
+            "else": "objects/else.md"
+        },
+        {
+            "lua": "objects/lua.md"
+        }
+    ],
     "MIR": {
         "Partial Tracking": [
             {
@@ -1866,6 +2590,12 @@
             },
             {
                 "bl.osc~": "objects/bl.osc~.md"
+            },
+            {
+                "pvoc.player~": "objects/pvoc.player~.md"
+            },
+            {
+                "pvoc.live~": "objects/pvoc.live~.md"
             }
         ],
         "Descriptors": [
@@ -2207,6 +2937,39 @@
             },
             {
                 "barkSpec~": "objects/barkSpec~.md"
+            },
+            {
+                "range~": "objects/range~.md"
+            },
+            {
+                "nyquist~": "objects/nyquist~.md"
+            },
+            {
+                "mov.rms~": "objects/mov.rms~.md"
+            },
+            {
+                "zerocross~": "objects/zerocross~.md"
+            },
+            {
+                "maxpeak~": "objects/maxpeak~.md"
+            },
+            {
+                "meter8~": "objects/meter8~.md"
+            },
+            {
+                "hann~": "objects/hann~.md"
+            },
+            {
+                "peak~": "objects/peak~.md"
+            },
+            {
+                "vu~": "objects/vu~.md"
+            },
+            {
+                "meter2~": "objects/meter2~.md"
+            },
+            {
+                "rms~": "objects/rms~.md"
             }
         ],
         "Score Follower": []
@@ -2282,6 +3045,21 @@
             },
             {
                 "rm~": "objects/rm~.md"
+            },
+            {
+                "bl.vsaw~": "objects/bl.vsaw~.md"
+            },
+            {
+                "bl.square~": "objects/bl.square~.md"
+            },
+            {
+                "vcf.m~": "objects/vcf.m~.md"
+            },
+            {
+                "saw2~": "objects/saw2~.md"
+            },
+            {
+                "bl.osc~": "objects/bl.osc~.md"
             }
         ],
         "Additive": [
@@ -2334,6 +3112,18 @@
             },
             {
                 "pvoc.live~": "objects/pvoc.live~.md"
+            },
+            {
+                "brane.m~": "objects/brane.m~.md"
+            },
+            {
+                "grain.live~": "objects/grain.live~.md"
+            },
+            {
+                "grain.synth~": "objects/grain.synth~.md"
+            },
+            {
+                "plaits.m~": "objects/plaits.m~.md"
             }
         ],
         "Oscillators": [
@@ -2522,6 +3312,96 @@
             },
             {
                 "bitshift~": "objects/bitshift~.md"
+            },
+            {
+                "impulse": "objects/impulse.md"
+            },
+            {
+                "white~": "objects/white~.md"
+            },
+            {
+                "henon~": "objects/henon~.md"
+            },
+            {
+                "impulse~": "objects/impulse~.md"
+            },
+            {
+                "standard~": "objects/standard~.md"
+            },
+            {
+                "tabreader~": "objects/tabreader~.md"
+            },
+            {
+                "pm4~": "objects/pm4~.md"
+            },
+            {
+                "pimp": "objects/pimp.md"
+            },
+            {
+                "logistic~": "objects/logistic~.md"
+            },
+            {
+                "bl.imp~": "objects/bl.imp~.md"
+            },
+            {
+                "pm2~": "objects/pm2~.md"
+            },
+            {
+                "pm6~": "objects/pm6~.md"
+            },
+            {
+                "sig.m~": "objects/sig.m~.md"
+            },
+            {
+                "function~": "objects/function~.md"
+            },
+            {
+                "sin~": "objects/sin~.md"
+            },
+            {
+                "impulse2~": "objects/impulse2~.md"
+            },
+            {
+                "lfo.m~": "objects/lfo.m~.md"
+            },
+            {
+                "gendyn~": "objects/gendyn~.md"
+            },
+            {
+                "pulse": "objects/pulse.md"
+            },
+            {
+                "randpulse": "objects/randpulse.md"
+            },
+            {
+                "latoocarfian~": "objects/latoocarfian~.md"
+            },
+            {
+                "tempo~": "objects/tempo~.md"
+            },
+            {
+                "float2imp~": "objects/float2imp~.md"
+            },
+            {
+                "gendyn.m~": "objects/gendyn.m~.md"
+            },
+            {
+                "randpulse2": "objects/randpulse2.md"
+            },
+            {
+                "phasor": "objects/phasor.md"
+            },
+            {
+                "quad~": "objects/quad~.md"
+            },
+            {
+                "fbsine2~": "objects/fbsine2~.md"
+            },
+            {
+                "vco.m~": "objects/vco.m~.md"
+            },
+            {
+                "pm6.m~": "objects/pm6.m~.md"
             }
         ],
         "Partial Tracking": [],
@@ -2540,6 +3420,9 @@
             },
             {
                 "resonator2~": "objects/resonator2~.md"
+            },
+            {
+                "pluck.m~": "objects/pluck.m~.md"
             }
         ],
         "Samplers": [
@@ -2563,6 +3446,21 @@
             },
             {
                 "pimp~": "objects/pimp~.md"
+            },
+            {
+                "brane.m~": "objects/brane.m~.md"
+            },
+            {
+                "sfont.m~": "objects/sfont.m~.md"
+            },
+            {
+                "susloop~": "objects/susloop~.md"
+            },
+            {
+                "play.file~": "objects/play.file~.md"
+            },
+            {
+                "sfz~": "objects/sfz~.md"
             }
         ],
         "Stochastic": [
@@ -2634,6 +3532,63 @@
             },
             {
                 "randpulse2~": "objects/randpulse2~.md"
+            },
+            {
+                "chance~": "objects/chance~.md"
+            },
+            {
+                "grain.live~": "objects/grain.live~.md"
+            },
+            {
+                "lfnoise": "objects/lfnoise.md"
+            },
+            {
+                "ikeda~": "objects/ikeda~.md"
+            },
+            {
+                "drunkard": "objects/drunkard.md"
+            },
+            {
+                "standard~": "objects/standard~.md"
+            },
+            {
+                "lincong~": "objects/lincong~.md"
+            },
+            {
+                "rand.f~": "objects/rand.f~.md"
+            },
+            {
+                "scramble": "objects/scramble.md"
+            },
+            {
+                "rampnoise": "objects/rampnoise.md"
+            },
+            {
+                "randpulse": "objects/randpulse.md"
+            },
+            {
+                "stepnoise": "objects/stepnoise.md"
+            },
+            {
+                "rand.list": "objects/rand.list.md"
+            },
+            {
+                "tempo~": "objects/tempo~.md"
+            },
+            {
+                "dust2~": "objects/dust2~.md"
+            },
+            {
+                "randpulse2": "objects/randpulse2.md"
+            },
+            {
+                "markov": "objects/markov.md"
+            },
+            {
+                "crackle~": "objects/crackle~.md"
+            },
+            {
+                "chance": "objects/chance.md"
             }
         ]
     },
@@ -2765,6 +3720,57 @@
             },
             {
                 "table": "objects/table.md"
+            },
+            {
+                "presets": "objects/presets.md"
+            },
+            {
+                "insert": "objects/insert.md"
+            },
+            {
+                "sfload": "objects/sfload.md"
+            },
+            {
+                "buffer": "objects/buffer.md"
+            },
+            {
+                "stack": "objects/stack.md"
+            },
+            {
+                "sort": "objects/sort.md"
+            },
+            {
+                "float2bits": "objects/float2bits.md"
+            },
+            {
+                "iterate": "objects/iterate.md"
+            },
+            {
+                "unmerge": "objects/unmerge.md"
+            },
+            {
+                "multi.vsl": "objects/multi.vsl.md"
+            },
+            {
+                "rotate": "objects/rotate.md"
+            },
+            {
+                "group": "objects/group.md"
+            },
+            {
+                "break": "objects/break.md"
+            },
+            {
+                "replace": "objects/replace.md"
+            },
+            {
+                "order": "objects/order.md"
+            },
+            {
+                "batch.write~": "objects/batch.write~.md"
+            },
+            {
+                "lastvalue": "objects/lastvalue.md"
             }
         ],
         "File IO": [
@@ -2806,6 +3812,45 @@
             },
             {
                 "player~": "objects/player~.md"
+            },
+            {
+                "brane.m~": "objects/brane.m~.md"
+            },
+            {
+                "scala": "objects/scala.md"
+            },
+            {
+                "sfload": "objects/sfload.md"
+            },
+            {
+                "sfont.m~": "objects/sfont.m~.md"
+            },
+            {
+                "rec": "objects/rec.md"
+            },
+            {
+                "score": "objects/score.md"
+            },
+            {
+                "presets.m": "objects/presets.m.md"
+            },
+            {
+                "openfile": "objects/openfile.md"
+            },
+            {
+                "batch.rec~": "objects/batch.rec~.md"
+            },
+            {
+                "sfz~": "objects/sfz~.md"
+            },
+            {
+                "rec.file~": "objects/rec.file~.md"
+            },
+            {
+                "pvoc.player~": "objects/pvoc.player~.md"
+            },
+            {
+                "score2": "objects/score2.md"
             }
         ],
         "Networking": [
@@ -2832,6 +3877,9 @@
             },
             {
                 "osc.parse": "objects/osc.parse.md"
+            },
+            {
+                "sfload": "objects/sfload.md"
             }
         ],
         "MultiThreading": [
@@ -3025,6 +4073,45 @@
             },
             {
                 "note": "objects/note.md"
+            },
+            {
+                "properties": "objects/properties.md"
+            },
+            {
+                "canvas.zoom": "objects/canvas.zoom.md"
+            },
+            {
+                "retrieve": "objects/retrieve.md"
+            },
+            {
+                "route2": "objects/route2.md"
+            },
+            {
+                "canvas.gop": "objects/canvas.gop.md"
+            },
+            {
+                "canvas.active": "objects/canvas.active.md"
+            },
+            {
+                "synth~": "objects/synth~.md"
+            },
+            {
+                "canvas.name": "objects/canvas.name.md"
+            },
+            {
+                "loadbanger": "objects/loadbanger.md"
+            },
+            {
+                "canvas.edit": "objects/canvas.edit.md"
+            },
+            {
+                "message": "objects/message.md"
+            },
+            {
+                "dollsym": "objects/dollsym.md"
+            },
+            {
+                "click": "objects/click.md"
             }
         ],
         "Multichannel": [
@@ -3306,14 +4393,738 @@
             },
             {
                 "get~": "objects/get~.md"
+            },
+            {
+                "xgate~": "objects/xgate~.md"
+            },
+            {
+                "drive.m~": "objects/drive.m~.md"
+            },
+            {
+                "trunc~": "objects/trunc~.md"
+            },
+            {
+                "car2pol~": "objects/car2pol~.md"
+            },
+            {
+                "crusher.m~": "objects/crusher.m~.md"
+            },
+            {
+                "plate.rev~": "objects/plate.rev~.md"
+            },
+            {
+                "free.rev~": "objects/free.rev~.md"
+            },
+            {
+                "bl.tri~": "objects/bl.tri~.md"
+            },
+            {
+                "bl.imp2~": "objects/bl.imp2~.md"
+            },
+            {
+                "floor~": "objects/floor~.md"
+            },
+            {
+                "impulse~": "objects/impulse~.md"
+            },
+            {
+                "vocoder~": "objects/vocoder~.md"
+            },
+            {
+                "tabreader~": "objects/tabreader~.md"
+            },
+            {
+                "resonbank~": "objects/resonbank~.md"
+            },
+            {
+                "stereo.rev~": "objects/stereo.rev~.md"
+            },
+            {
+                "dust~": "objects/dust~.md"
+            },
+            {
+                "pan~": "objects/pan~.md"
+            },
+            {
+                "pan4~": "objects/pan4~.md"
+            },
+            {
+                "trig.delay~": "objects/trig.delay~.md"
+            },
+            {
+                "pm4~": "objects/pm4~.md"
+            },
+            {
+                "xgate.mc~": "objects/xgate.mc~.md"
+            },
+            {
+                "mag~": "objects/mag~.md"
+            },
+            {
+                "slew2~": "objects/slew2~.md"
+            },
+            {
+                "rand.f~": "objects/rand.f~.md"
+            },
+            {
+                "bl.imp~": "objects/bl.imp~.md"
+            },
+            {
+                "asr~": "objects/asr~.md"
+            },
+            {
+                "fold~": "objects/fold~.md"
+            },
+            {
+                "smooth2~": "objects/smooth2~.md"
+            },
+            {
+                "pm2~": "objects/pm2~.md"
+            },
+            {
+                "pm6~": "objects/pm6~.md"
+            },
+            {
+                "balance~": "objects/balance~.md"
+            },
+            {
+                "gatedelay~": "objects/gatedelay~.md"
+            },
+            {
+                "meter8~": "objects/meter8~.md"
+            },
+            {
+                "lag~": "objects/lag~.md"
+            },
+            {
+                "sin~": "objects/sin~.md"
+            },
+            {
+                "adsr~": "objects/adsr~.md"
+            },
+            {
+                "ping.pong~": "objects/ping.pong~.md"
+            },
+            {
+                "impulse2~": "objects/impulse2~.md"
+            },
+            {
+                "spread~": "objects/spread~.md"
+            },
+            {
+                "mtx~": "objects/mtx~.md"
+            },
+            {
+                "lace~": "objects/lace~.md"
+            },
+            {
+                "level.m~": "objects/level.m~.md"
+            },
+            {
+                "pol2car~": "objects/pol2car~.md"
+            },
+            {
+                "glide2~": "objects/glide2~.md"
+            },
+            {
+                "merge~": "objects/merge~.md"
+            },
+            {
+                "sum~": "objects/sum~.md"
+            },
+            {
+                "cusp~": "objects/cusp~.md"
+            },
+            {
+                "wrap2~": "objects/wrap2~.md"
+            },
+            {
+                "lag2~": "objects/lag2~.md"
+            },
+            {
+                "f2s~": "objects/f2s~.md"
+            },
+            {
+                "dbgain~": "objects/dbgain~.md"
+            },
+            {
+                "pan.mc~": "objects/pan.mc~.md"
+            },
+            {
+                "delay.m~": "objects/delay.m~.md"
+            },
+            {
+                "selector": "objects/selector.md"
+            },
+            {
+                "ratio2cents~": "objects/ratio2cents~.md"
+            },
+            {
+                "gbman~": "objects/gbman~.md"
+            },
+            {
+                "gaterelease~": "objects/gaterelease~.md"
+            },
+            {
+                "dust2~": "objects/dust2~.md"
+            },
+            {
+                "bl.square~": "objects/bl.square~.md"
+            },
+            {
+                "batch.rec~": "objects/batch.rec~.md"
+            },
+            {
+                "resonbank2~": "objects/resonbank2~.md"
+            },
+            {
+                "cents2ratio~": "objects/cents2ratio~.md"
+            },
+            {
+                "pvoc.player~": "objects/pvoc.player~.md"
+            },
+            {
+                "vco.m~": "objects/vco.m~.md"
+            },
+            {
+                "meter4~": "objects/meter4~.md"
+            },
+            {
+                "rescale~": "objects/rescale~.md"
+            },
+            {
+                "vca.m~": "objects/vca.m~.md"
+            },
+            {
+                "pimp~": "objects/pimp~.md"
+            },
+            {
+                "ms2samps~": "objects/ms2samps~.md"
+            },
+            {
+                "bl.osc~": "objects/bl.osc~.md"
+            },
+            {
+                "xfade.mc~": "objects/xfade.mc~.md"
+            },
+            {
+                "autofade~": "objects/autofade~.md"
+            },
+            {
+                "adsr.m~": "objects/adsr.m~.md"
             }
         ],
-        "OSC": [],
-        "General Utilities": [],
-        "Text": []
+        "OSC": [
+            {
+                "osc.format": "objects/osc.format.md"
+            },
+            {
+                "osc.receive": "objects/osc.receive.md"
+            },
+            {
+                "osc.send": "objects/osc.send.md"
+            },
+            {
+                "osc.route": "objects/osc.route.md"
+            },
+            {
+                "osc.parse": "objects/osc.parse.md"
+            }
+        ],
+        "General Utilities": [
+            {
+                "insert": "objects/insert.md"
+            },
+            {
+                "smooth~": "objects/smooth~.md"
+            },
+            {
+                "initmess": "objects/initmess.md"
+            },
+            {
+                "cents2scale": "objects/cents2scale.md"
+            },
+            {
+                "loop": "objects/loop.md"
+            },
+            {
+                "float2sig~": "objects/float2sig~.md"
+            },
+            {
+                "slice": "objects/slice.md"
+            },
+            {
+                "status": "objects/status.md"
+            },
+            {
+                "panic": "objects/panic.md"
+            },
+            {
+                "changed": "objects/changed.md"
+            },
+            {
+                "tabwriter~": "objects/tabwriter~.md"
+            },
+            {
+                "nyquist~": "objects/nyquist~.md"
+            },
+            {
+                "default": "objects/default.md"
+            },
+            {
+                "glide2": "objects/glide2.md"
+            },
+            {
+                "polymetro": "objects/polymetro.md"
+            },
+            {
+                "lastvalue~": "objects/lastvalue~.md"
+            },
+            {
+                "smooth2~": "objects/smooth2~.md"
+            },
+            {
+                "presets.m": "objects/presets.m.md"
+            },
+            {
+                "sort": "objects/sort.md"
+            },
+            {
+                "tap": "objects/tap.md"
+            },
+            {
+                "canvas.bounds": "objects/canvas.bounds.md"
+            },
+            {
+                "bpm": "objects/bpm.md"
+            },
+            {
+                "route2": "objects/route2.md"
+            },
+            {
+                "count": "objects/count.md"
+            },
+            {
+                "iterate": "objects/iterate.md"
+            },
+            {
+                "sh~": "objects/sh~.md"
+            },
+            {
+                "datetime": "objects/datetime.md"
+            },
+            {
+                "reverse": "objects/reverse.md"
+            },
+            {
+                "format": "objects/format.md"
+            },
+            {
+                "any2symbol": "objects/any2symbol.md"
+            },
+            {
+                "smooth": "objects/smooth.md"
+            },
+            {
+                "meter": "objects/meter.md"
+            },
+            {
+                "gaterelease": "objects/gaterelease.md"
+            },
+            {
+                "unite": "objects/unite.md"
+            },
+            {
+                "setdsp~": "objects/setdsp~.md"
+            },
+            {
+                "group": "objects/group.md"
+            },
+            {
+                "symbol2any": "objects/symbol2any.md"
+            },
+            {
+                "routeall": "objects/routeall.md"
+            },
+            {
+                "sr~": "objects/sr~.md"
+            },
+            {
+                "gatehold": "objects/gatehold.md"
+            },
+            {
+                "break": "objects/break.md"
+            },
+            {
+                "replace": "objects/replace.md"
+            },
+            {
+                "rad2hz": "objects/rad2hz.md"
+            },
+            {
+                "selector": "objects/selector.md"
+            },
+            {
+                "amean": "objects/amean.md"
+            },
+            {
+                "fontsize": "objects/fontsize.md"
+            },
+            {
+                "loadbanger": "objects/loadbanger.md"
+            },
+            {
+                "scope~": "objects/scope~.md"
+            },
+            {
+                "gatehold~": "objects/gatehold~.md"
+            },
+            {
+                "gaterelease~": "objects/gaterelease~.md"
+            },
+            {
+                "sig2float~": "objects/sig2float~.md"
+            },
+            {
+                "canvas.edit": "objects/canvas.edit.md"
+            },
+            {
+                "message": "objects/message.md"
+            },
+            {
+                "bangdiv": "objects/bangdiv.md"
+            },
+            {
+                "morph": "objects/morph.md"
+            },
+            {
+                "openfile": "objects/openfile.md"
+            },
+            {
+                "dec2hex": "objects/dec2hex.md"
+            },
+            {
+                "meter~": "objects/meter~.md"
+            },
+            {
+                "rand.dist": "objects/rand.dist.md"
+            },
+            {
+                "separate": "objects/separate.md"
+            },
+            {
+                "tempo": "objects/tempo.md"
+            },
+            {
+                "cents2ratio~": "objects/cents2ratio~.md"
+            },
+            {
+                "pick": "objects/pick.md"
+            },
+            {
+                "hex2dec": "objects/hex2dec.md"
+            },
+            {
+                "slew": "objects/slew.md"
+            },
+            {
+                "glide": "objects/glide.md"
+            },
+            {
+                "limit": "objects/limit.md"
+            },
+            {
+                "sum": "objects/sum.md"
+            },
+            {
+                "nop~": "objects/nop~.md"
+            },
+            {
+                "swap2": "objects/swap2.md"
+            },
+            {
+                "chrono": "objects/chrono.md"
+            },
+            {
+                "remove": "objects/remove.md"
+            },
+            {
+                "rescale~": "objects/rescale~.md"
+            },
+            {
+                "else": "objects/else.md"
+            },
+            {
+                "clock": "objects/clock.md"
+            },
+            {
+                "rescale": "objects/rescale.md"
+            },
+            {
+                "bitnormal~": "objects/bitnormal~.md"
+            },
+            {
+                "router": "objects/router.md"
+            },
+            {
+                "order": "objects/order.md"
+            },
+            {
+                "notedur2ratio": "objects/notedur2ratio.md"
+            },
+            {
+                "note2midi": "objects/note2midi.md"
+            },
+            {
+                "avg": "objects/avg.md"
+            },
+            {
+                "trig2bang": "objects/trig2bang.md"
+            }
+        ],
+        "Text": [
+            {
+                "stack": "objects/stack.md"
+            },
+            {
+                "format": "objects/format.md"
+            },
+            {
+                "unite": "objects/unite.md"
+            },
+            {
+                "messbox": "objects/messbox.md"
+            },
+            {
+                "midi2note": "objects/midi2note.md"
+            },
+            {
+                "dollsym": "objects/dollsym.md"
+            },
+            {
+                "lace": "objects/lace.md"
+            },
+            {
+                "display": "objects/display.md"
+            },
+            {
+                "separate": "objects/separate.md"
+            },
+            {
+                "note2midi": "objects/note2midi.md"
+            },
+            {
+                "note": "objects/note.md"
+            }
+        ]
     },
-    "GUI": [],
-    "Graphics": [],
-    "Audio IO": [],
-    "Control IO": []
+    "GUI": [
+        {
+            "keyboard": "objects/keyboard.md"
+        },
+        {
+            "circle": "objects/circle.md"
+        },
+        {
+            "mtx.ctl": "objects/mtx.ctl.md"
+        },
+        {
+            "canvas.zoom": "objects/canvas.zoom.md"
+        },
+        {
+            "range.hsl": "objects/range.hsl.md"
+        },
+        {
+            "drum.seq": "objects/drum.seq.md"
+        },
+        {
+            "button": "objects/button.md"
+        },
+        {
+            "scope3d~": "objects/scope3d~.md"
+        },
+        {
+            "pad": "objects/pad.md"
+        },
+        {
+            "meter8~": "objects/meter8~.md"
+        },
+        {
+            "canvas.mouse": "objects/canvas.mouse.md"
+        },
+        {
+            "numbox~": "objects/numbox~.md"
+        },
+        {
+            "multi.vsl": "objects/multi.vsl.md"
+        },
+        {
+            "function": "objects/function.md"
+        },
+        {
+            "meter": "objects/meter.md"
+        },
+        {
+            "setdsp~": "objects/setdsp~.md"
+        },
+        {
+            "pic": "objects/pic.md"
+        },
+        {
+            "messbox": "objects/messbox.md"
+        },
+        {
+            "bicoeff": "objects/bicoeff.md"
+        },
+        {
+            "scope~": "objects/scope~.md"
+        },
+        {
+            "biplot": "objects/biplot.md"
+        },
+        {
+            "popmenu": "objects/popmenu.md"
+        },
+        {
+            "canvas.pos": "objects/canvas.pos.md"
+        },
+        {
+            "knob": "objects/knob.md"
+        },
+        {
+            "display": "objects/display.md"
+        },
+        {
+            "graph~": "objects/graph~.md"
+        },
+        {
+            "slider2d": "objects/slider2d.md"
+        },
+        {
+            "meter2~": "objects/meter2~.md"
+        },
+        {
+            "meter4~": "objects/meter4~.md"
+        },
+        {
+            "colors": "objects/colors.md"
+        },
+        {
+            "zbiplot": "objects/zbiplot.md"
+        },
+        {
+            "note": "objects/note.md"
+        }
+    ],
+    "Graphics": [
+        {
+            "spectrograph~": "objects/spectrograph~.md"
+        },
+        {
+            "mtx.ctl": "objects/mtx.ctl.md"
+        },
+        {
+            "scope3d~": "objects/scope3d~.md"
+        },
+        {
+            "pic": "objects/pic.md"
+        },
+        {
+            "scope~": "objects/scope~.md"
+        },
+        {
+            "biplot": "objects/biplot.md"
+        },
+        {
+            "canvas.pos": "objects/canvas.pos.md"
+        },
+        {
+            "graph~": "objects/graph~.md"
+        },
+        {
+            "slider2d": "objects/slider2d.md"
+        }
+    ],
+    "Audio IO": [
+        {
+            "out~": "objects/out~.md"
+        },
+        {
+            "out8~": "objects/out8~.md"
+        },
+        {
+            "metronome~": "objects/metronome~.md"
+        },
+        {
+            "out4~": "objects/out4~.md"
+        },
+        {
+            "setdsp~": "objects/setdsp~.md"
+        },
+        {
+            "bl.vsaw~": "objects/bl.vsaw~.md"
+        },
+        {
+            "out.mc~": "objects/out.mc~.md"
+        }
+    ],
+    "Control IO": [
+        {
+            "keyboard": "objects/keyboard.md"
+        },
+        {
+            "touch.in": "objects/touch.in.md"
+        },
+        {
+            "circle": "objects/circle.md"
+        },
+        {
+            "midi.in": "objects/midi.in.md"
+        },
+        {
+            "bend.in": "objects/bend.in.md"
+        },
+        {
+            "keypress": "objects/keypress.md"
+        },
+        {
+            "pad": "objects/pad.md"
+        },
+        {
+            "canvas.mouse": "objects/canvas.mouse.md"
+        },
+        {
+            "numbox~": "objects/numbox~.md"
+        },
+        {
+            "mouse": "objects/mouse.md"
+        },
+        {
+            "ctl.in": "objects/ctl.in.md"
+        },
+        {
+            "suspedal": "objects/suspedal.md"
+        },
+        {
+            "knob": "objects/knob.md"
+        },
+        {
+            "mpe.in": "objects/mpe.in.md"
+        },
+        {
+            "midi.learn": "objects/midi.learn.md"
+        },
+        {
+            "ptouch.in": "objects/ptouch.in.md"
+        },
+        {
+            "click": "objects/click.md"
+        },
+        {
+            "keymap": "objects/keymap.md"
+        },
+        {
+            "keycode": "objects/keycode.md"
+        }
+    ]
 }

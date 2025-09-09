@@ -1,29 +1,29 @@
 {
-  "title": "saw2~",
-  "description": "`saw2~` is a sawtooth wave oscillator that accepts negative frequencies, has inlets for phase sync and phase modulation. It also has support for multichannels.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Oscillators",
-    "Multichannel",
-    "Procedures"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "saw2~",
+    "description": "The `saw2~` object is a versatile sawtooth wave oscillator that supports negative frequencies and multichannel operation. It features dedicated inlets for phase synchronization (including hard and soft sync modes) and phase modulation, allowing for complex timbral manipulation. Frequency input can be specified in Hertz or MIDI pitch, and initial phase offsets can be set via arguments or inlets.",
+    "categories": [
+        "Oscillators",
+        "Multichannel",
+        "Subtractive"
+    ]
 }

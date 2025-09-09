@@ -1,12 +1,17 @@
 # freeze~
 
-`freeze~` is an abstraction based on `sigmund~` (analysis & ressynthesis). It contains a bank with oscillators.
-
+The `freeze~` object captures a spectral snapshot of an incoming audio signal and resynthesizes it using a bank of oscillators, effectively "freezing" the sound. Based on `sigmund~` for analysis and resynthesis, it allows for the sustained playback of a specific moment from the input audio, controlled by a non-zero input to freeze/refreeze or a zero input to unfreeze.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `freeze~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

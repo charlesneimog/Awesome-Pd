@@ -1,0 +1,28 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "dbgain~",
+    "description": "The `dbgain~` object adjusts the gain of an audio signal to a specified decibel (dB) level. It functions similarly to `level~` but without a graphical user interface, making it suitable for programmatic control. A key feature is its multichannel support, allowing different dB levels to be applied to individual channels via its right inlet.",
+    "categories": [
+        "Dynamics",
+        "Multichannel"
+    ]
+}

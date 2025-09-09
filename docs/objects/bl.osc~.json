@@ -1,29 +1,29 @@
 {
-  "title": "bl.osc~",
-  "description": "`bl.osc~` is a bandlimited oscillator based on `else/wavetable~`. It has wavetables built with a variable number of partials for different waveforms: 'saw', 'saw2', 'tri', 'square' and 'imp'.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Oscillators",
-    "Additive",
-    "Partial Tracking"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "bl.osc~",
+    "description": "`bl.osc~` is a bandlimited oscillator that generates various waveforms like saw, triangle, square, and impulse. It supports hard and soft synchronization, phase modulation, and can have its frequency input set in either Hertz or MIDI pitch. The number of partials can be adjusted, and it also supports multichannel audio.",
+    "categories": [
+        "Oscillators",
+        "Subtractive",
+        "Multichannel"
+    ]
 }

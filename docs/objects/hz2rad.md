@@ -1,12 +1,17 @@
 # hz2rad
 
-`hz2rad` converts a frequency in Hertz to "Radians per Sample" - which depends on the patch's sample rate (sr). The conversion formula is \; rad = (hz * 2*pi / sr).
-
+The `hz2rad` object converts a frequency value in Hertz (Hz) to "Radians per Sample." This conversion is crucial for digital signal processing, as it calculates the phase increment per sample based on the patch's sample rate using the formula `rad = (hz * 2*pi / sr)`.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `hz2rad` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

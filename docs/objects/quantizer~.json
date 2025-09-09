@@ -1,30 +1,28 @@
 {
-  "title": "quantizer~",
-  "description": "`quantizer~` approximates a value to step values defined by the argument. There are 4 approximation modes: round (default), int, floor & ceil. It has support for multichannel signals.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Procedures",
-    "Logic",
-    "Math",
-    "Multichannel"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "quantizer~",
+    "description": "The `quantizer~` object quantizes an incoming audio signal to discrete step values, which can be defined by an argument or a second inlet. It supports multichannel signals and offers various approximation modes, including rounding, truncation, flooring, and ceiling.",
+    "categories": [
+        "Math",
+        "Multichannel"
+    ]
 }

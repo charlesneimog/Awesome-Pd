@@ -1,29 +1,28 @@
 {
-  "title": "spread.mc~",
-  "description": "`spread.mc~` spreads any number of input channels across any number of output channels with equal power panning according to a spread parameter. It takes and outputs a multichannel signal.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Multichannel",
-    "Routing",
-    "Dynamics"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "spread.mc~",
+    "description": "The `spread.mc~` object distributes multichannel audio input across a specified number of output channels using equal power panning. It allows control over the spread amount, determining how widely input signals are distributed across the output channels. This object is useful for spatializing multichannel audio or creating wider stereo/surround images from narrower inputs.",
+    "categories": [
+        "Multichannel",
+        "Routing"
+    ]
 }

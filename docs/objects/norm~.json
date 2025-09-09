@@ -1,29 +1,27 @@
 {
-  "title": "norm~",
-  "description": "`norm~` is a normalizer abstraction based on `mov.rms~`. It takes a normalization value in dBFS and a window analysis size.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Dynamics",
-    "Procedures",
-    "Algorithm Composition"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "norm~",
+    "description": "`norm~` is an audio normalizer that adjusts the loudness of an incoming signal to a specified decibel full scale (dBFS) level. It uses a moving root mean square (RMS) analysis window to achieve consistent output volume, making it useful for dynamic range processing.",
+    "categories": [
+        "Dynamics"
+    ]
 }

@@ -1,29 +1,27 @@
 {
-  "title": "slew2~",
-  "description": "`slew2~` is like `slew~` but has independent values for upwards & downwards ramps. It takes an amplitude limit per second and generates a line towards the incoming value. The difference between `slew~` and `glide~` is that `slew~` has a fixed speed, not a fixed period. A limit of zero stops the line generation and a negative value turns the limiter off (but again, up and down limits are independent).\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Envelopes",
-    "Dynamics",
-    "Filters"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "slew2~",
+    "description": "The `slew2~` object provides independent slew limiting for upward and downward signal ramps. It smoothly transitions an incoming signal to a new target value at a specified amplitude per second, preventing abrupt changes. This is particularly useful for audio or control signals where sudden jumps can cause undesirable artifacts, and it supports multichannel operation.",
+    "categories": [
+        "Multichannel"
+    ]
 }

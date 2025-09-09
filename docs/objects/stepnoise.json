@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "stepnoise",
+    "description": "The `stepnoise` object generates control-rate stepped random values, typically within the 0-127 range, without requiring the DSP to be on. It can be configured with a frequency (rate in Hz) and supports seeding for reproducible sequences, making it useful for generating quantized random control signals.",
+    "categories": [
+        "Stochastic"
+    ]
+}

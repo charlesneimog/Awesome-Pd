@@ -1,29 +1,28 @@
 {
-  "title": "velvet~",
-  "description": "`velvet~` is a velvet noise generator, which randomly chooses either positive (1) or negative (-1) impulses at random positions in a given period set in Hz. A polarity bias is possible to set the amount of positive and negative impulses. A time regularity parameter forces a impulses with less randomness. An amplitude irregularity forces random values (different than 1 or -1). The object has support for multichannel.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Stochastic",
-    "Multichannel",
-    "Statical Models"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "velvet~",
+    "description": "`velvet~` is a velvet noise generator that produces audio by randomly choosing positive (1) or negative (-1) impulses at random positions within a specified frequency period. It allows for control over the polarity bias, time regularity, and amplitude irregularity of these impulses, and supports multichannel operation.",
+    "categories": [
+        "Stochastic",
+        "Multichannel"
+    ]
 }

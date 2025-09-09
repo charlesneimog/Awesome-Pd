@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "plaits.m~",
+    "description": "The `plaits.m~` object is a versatile polyphonic sound synthesis module, wrapping the `[plaits~]` external. It offers numerous synthesis models, including virtual analog, FM, granular, physical modeling, and speech synthesis. It supports both MIDI and signal-based control for triggering, level, and various modulations, often incorporating an internal LowPass Gate for shaping sounds.",
+    "categories": [
+        "MIDI",
+        "Filters",
+        "Granular"
+    ]
+}

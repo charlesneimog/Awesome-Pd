@@ -1,6 +1,4 @@
 {
-    "title": "changed~",
-    "description": "The `changed~` object in Pure Data monitors an input signal and outputs an impulse whenever the signal changes by an amount equal to or greater than a specified threshold. If the threshold is set to 0, any change in the input triggers an impulse. The object outputs the detected changes as impulses.",
     "runs_on": [
         "Mac",
         "Linux",
@@ -10,19 +8,18 @@
     "available_on_deken": true,
     "bug_reports": "https://github.com/porres/pd-else/issues",
     "developers": [
-        "Alexandre Porres"
+        "Alexandre Torres Porres"
     ],
     "part_of_library": true,
     "library_name": "else",
-    "categories": [
-        "Routing"
-    ],
-    "category_groups": [],
-    "category_parents": {},
     "articles": [],
     "videos": [],
     "musics": [],
     "contributors": [
         "charlesneimog"
-    ]
+    ],
+    "ai": true,
+    "title": "changed~",
+    "description": "The `changed~` object detects changes in an incoming signal. It outputs an impulse whenever the signal's value changes by an amount equal to or greater than a specified threshold. This is useful for triggering events only when a significant alteration in the signal occurs.",
+    "categories": []
 }

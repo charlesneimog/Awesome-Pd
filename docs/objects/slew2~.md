@@ -1,12 +1,17 @@
 # slew2~
 
-`slew2~` is like `slew~` but has independent values for upwards & downwards ramps. It takes an amplitude limit per second and generates a line towards the incoming value. The difference between `slew~` and `glide~` is that `slew~` has a fixed speed, not a fixed period. A limit of zero stops the line generation and a negative value turns the limiter off (but again, up and down limits are independent).
-
+The `slew2~` object provides independent slew limiting for upward and downward signal ramps. It smoothly transitions an incoming signal to a new target value at a specified amplitude per second, preventing abrupt changes. This is particularly useful for audio or control signals where sudden jumps can cause undesirable artifacts, and it supports multichannel operation.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `slew2~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

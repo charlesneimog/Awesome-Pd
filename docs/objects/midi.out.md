@@ -1,12 +1,17 @@
 # midi.out
 
-`midi.out` sends MIDI data from "cooked" data, instead of "raw" data like `midiout`. It takes data type symbol, values and channel (but a note output is received as a simple numeric list). It outputs raw MIDI data but it also sends out to the connected MIDI device. A float argument or right input sets a single channel (0 is omni).
-
+The `midi.out` object sends MIDI messages to an external MIDI device, converting "cooked" MIDI data (e.g., `ctl`, `note`, `pgm`) into raw MIDI bytes. Unlike `midiout`, it handles various MIDI message types directly. It can also output raw MIDI data to its outlet, optionally exclusively via the `-ext` flag or `ext` message.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `midi.out` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

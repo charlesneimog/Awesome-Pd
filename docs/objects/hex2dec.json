@@ -1,29 +1,28 @@
 {
-  "title": "hex2dec",
-  "description": "`hex2dec` converts hexadecimal values to decimal ones. It takes symbols whose format allows lower and upper case letters and can also include \"0x\" or \"0X\" prefixes (necessary in the case of lists and arguments to avoid confusion with floats, which are ignored). List and symbol selectors aren't necessary.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Procedures",
-    "Logic",
-    "Math"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "hex2dec",
+    "description": "The `hex2dec` object converts hexadecimal values to their decimal equivalents. It accepts hexadecimal numbers as symbols, which can include '0x' or '0X' prefixes, and outputs the corresponding decimal value(s). This object is useful for handling hexadecimal data within Pure Data patches.",
+    "categories": [
+        "Math",
+        "General Utilities"
+    ]
 }

@@ -1,12 +1,17 @@
 # midi.in
 
-`midi.in` sends "cooked" MIDI data instead of "raw" data like `midiin` with MIDI data type symbol, values and channel (but a note output is sent as a simple numeric list). It can take a raw MIDI input via its inlet but it also listens to your connected MIDI device.
-
+The `midi.in` object processes incoming MIDI data, converting raw MIDI streams into "cooked" data with type symbols, values, and channel information. It can listen to connected MIDI devices or receive external raw MIDI input. Users can specify a MIDI channel for filtering or operate in omni mode to receive data from all channels, with port numbers encoded via channel ranges.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `midi.in` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

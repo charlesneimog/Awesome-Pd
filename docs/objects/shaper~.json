@@ -1,29 +1,28 @@
 {
-  "title": "shaper~",
-  "description": "`shaper~` performs waveshaping with transfer functions, in which signal input values (from -1 to 1) are mapped to the the transfer function's indexes. Values outside the -1 to 1 range are wrapped inside it.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Math",
-    "Filters",
-    "Distortion"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "shaper~",
+    "description": "The `shaper~` object performs waveshaping by applying a user-defined transfer function to an input signal. This function can be an external array or an internal Chebyshev polynomial, whose harmonic weights can be set via arguments or messages. It also features an optional internal high-pass filter and can be used for advanced sample manipulation, such as creating turntable scratch effects.",
+    "categories": [
+        "Math",
+        "Distortion"
+    ]
 }

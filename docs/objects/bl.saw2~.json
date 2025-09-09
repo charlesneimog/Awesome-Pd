@@ -1,29 +1,27 @@
 {
-  "title": "bl.saw2~",
-  "description": "`bl.saw2~` is a sawtooth oscillator like `else/saw2~`, but it is bandlimited. Use `saw2~` mostly if you need a perfect sawtooth, which is usually the case when you want a LFO. The `bl.saw2~` version is for proper synthesis as it is anti-aliased. This version also has input for pitch in MIDI and no way to sync at control rate.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "LFOs",
-    "MIDI",
-    "Oscillators"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "bl.saw2~",
+    "description": "The `bl.saw2~` object is a bandlimited, anti-aliased sawtooth oscillator designed for high-quality audio synthesis. It can receive frequency input in Hertz or MIDI pitch, and supports both hard and soft phase synchronization via impulse signals, allowing for complex timbral control and modulation.",
+    "categories": [
+        "Oscillators"
+    ]
 }

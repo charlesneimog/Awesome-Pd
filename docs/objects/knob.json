@@ -1,29 +1,28 @@
 {
-  "title": "knob",
-  "description": "`knob` has an exponential and log feature just like the `rescale` object. For more details, check the help file of `rescale`. Note that sometimes you may need to use `rescale` as well, like when knob receives data from MIDI controllers (see example to the left).\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "MIDI",
-    "Procedures",
-    "Math"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "knob",
+    "description": "The `knob` object is a graphical user interface (GUI) element in Pure Data that functions as a rotary control. It outputs float values, supports various input methods like mouse interaction and keyboard arrows, and offers extensive customization for its appearance and behavior, including exponential/logarithmic scaling, discrete steps, and MIDI learn functionality. It can also display its current value and send/receive data via symbols.",
+    "categories": [
+        "GUI",
+        "Control IO"
+    ]
 }

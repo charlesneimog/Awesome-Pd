@@ -1,29 +1,28 @@
 {
-  "title": "format",
-  "description": "`format` formats symbols similarly to `makefilename`, but it accepts more than one '%' variable, where each corresponds to an inlet.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Patching",
-    "Procedures",
-    "File IO"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "format",
+    "description": "The `format` object creates a single symbol (string) by combining a format string with multiple input values. It uses C-style `printf` specifiers (e.g., `%d`, `%f`, `%s`) to define how inputs are converted and inserted, allowing for flexible text generation, such as creating dynamic filenames or messages.",
+    "categories": [
+        "Text",
+        "General Utilities"
+    ]
 }

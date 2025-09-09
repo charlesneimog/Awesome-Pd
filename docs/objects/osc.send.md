@@ -1,12 +1,17 @@
 # osc.send
 
-`osc.send` sends OSC messages over the network and is an abstraction based on `osc.format` and `netsend`. A connect message expects a list with address and port. The port is a symbol (either 'localhost' or an IP address) but it's optional. If no address is given, it defaults to 'localhost'. A connect message will disconnect and reconnect to the new address/port and a 'disconnect' message closes the connection. The `osc.send` object sends OSC messages to `osc.receive` objects with a matching port.
-
+The `osc.send` object facilitates sending Open Sound Control (OSC) messages over a network. It acts as an abstraction built upon `osc.format` and `netsend`, allowing users to establish connections to a specified address and port using a `connect` message. It also provides a `disconnect` message to close the network connection and outputs its connection status.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `osc.send` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

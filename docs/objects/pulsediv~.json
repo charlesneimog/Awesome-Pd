@@ -1,29 +1,25 @@
 {
-  "title": "pulsediv~",
-  "description": "`pulsediv~` outputs impulses when receiving triggers (signal changes from non-positive to positive). The left outlt outputs impulses according to the division value and the right outlet outputs impulses for the other trigger inputs.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Patching",
-    "Procedures",
-    "Sequencers"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pulsediv~",
+    "description": "The `pulsediv~` object divides an incoming signal-rate trigger stream, outputting impulses from its left outlet based on a specified division value. Its right outlet outputs impulses for triggers that do not result in a divided pulse. The counter can be reset by an impulse or initialized with a start value.",
+    "categories": []
 }

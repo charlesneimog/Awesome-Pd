@@ -1,29 +1,27 @@
 {
-  "title": "sequencer",
-  "description": "`sequencer` sends an element from a given sequence when banged. Elements joined by \"-\" are sent at the same time but separately (allowing chords). A single \"-\" is treated as a rest. A \"_\" is ignored and can be thought as \"tie\". A \"|\" represents a barline. Symbol elements are sent without a symbol selector (and can be note names or anything else). A \"bang\" comes out as a proper \"bang\".\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Sequencers",
-    "MIDI",
-    "Procedures"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "sequencer",
+    "description": "The `sequencer` object in Pure Data plays back a user-defined sequence of elements, advancing one step per `bang`. It supports various data types including numbers, symbols, and lists (for chords), and special markers for rests, ties, and barlines. This versatile object is ideal for generating rhythmic and melodic patterns, providing distinct outputs for sequence elements, rests, end-of-sequence, and bar numbers.",
+    "categories": [
+        "Sequencers"
+    ]
 }

@@ -1,12 +1,17 @@
 # ramp~
 
-`ramp~` is a resettable linear ramp between a minimum and maximum value. You can trigger it with a bang or with a trigger signal (non-positive to positive transition).
-
+The `ramp~` object generates a linear signal that ramps between a specified minimum and maximum value. It can be configured with an increment, a reset point, and various modes (wrap, clip, reset) to control its behavior upon reaching boundaries. This versatile object is useful for creating envelopes, controlling playback speed for sample reading (e.g., with `tabread4~`), or even constructing basic oscillators.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `ramp~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

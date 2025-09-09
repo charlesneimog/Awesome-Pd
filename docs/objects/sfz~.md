@@ -1,12 +1,17 @@
 # sfz~
 
-`sfz~` also has microtonal capabilities. The 'scale' message sets a scale in cents and you can previously set a base value with the 'base' message. See `pd scale` for more details.
-
+The `sfz~` object is a Pure Data synthesizer that plays SFZ instruments, which are text-based definitions for sample-based and hybrid synthesis. It interprets `.sfz` files to arrange and play samples, and can also generate sounds using internal oscillators and apply effects like filters and envelopes. It supports extensive MIDI control for performance and microtonal tuning.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `sfz~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

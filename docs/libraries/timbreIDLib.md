@@ -140,7 +140,6 @@ updateList();
 - :material-tune: [__tID_mean__](../objects/tID_mean.md) The `tID_mean` object calculates the arithmetic mean of a list of numbers.
 - :material-tune: [__tID_std__](../objects/tID_std.md) The tID_std object calculates the standard deviation of a list of numbers, requiring at least two elements.
 - :material-tune: [__tabletool__](../objects/tabletool.md) The `tabletool` object provides a comprehensive set of functionalities for manipulating, analyzing, and querying data stored in Pure Data tables.
-- :material-tune: [__tempo~__](../objects/tempo~.md) The `tempo~` object estimates the tempo (BPM) of an incoming audio signal.
 - :material-tune: [__timbreID__](../objects/timbreID.md) The timbreID object stores, clusters, and classifies audio feature vectors, enabling tasks like sound identification and timbre ordering.
 - :material-tune: [__waveNoise__](../objects/waveNoise.md) The `waveNoise` object analyzes a specified sample array to quantify its "noisiness" or the rate of change in its waveform direction.
 - :material-tune: [__waveNoise~__](../objects/waveNoise~.md) The `waveNoise~` object measures the noisiness of an audio signal by counting the number of times the signal changes direction within a specified window.

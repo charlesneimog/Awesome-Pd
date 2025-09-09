@@ -1,25 +1,20 @@
 # args
 
-The `args` object in Pure Data loads and manages the arguments of an abstraction, allowing them to be queried or changed dynamically. It outputs the current arguments through the left outlet, or a `bang` through the right outlet if no arguments are provided. Messages (float, list, or symbol) sent to `args` update the stored arguments immediately. Optional settings include a break character to split argument lists and a depth level for hierarchical abstractions. Dollar-sign placeholders like `$0`, `$1`, etc., are expanded automatically unless escaped.
+The `args` object in Pure Data manages and manipulates arguments passed to an abstraction. It can load existing arguments, output them as a list, or dynamically set new arguments. This object is particularly useful for handling a variable number of arguments and for configuring abstractions within a patch.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `args` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
-</div>---
-<h3>Videos</h3>
-
-<div style="display: flex; justify-content: center; gap: 20px;">
-    <iframe style="border-radius: 8px" width="560" height="315"
-        src="https://www.youtube.com/embed/C_R7x1TplCw"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
-
-
 
 ---
 

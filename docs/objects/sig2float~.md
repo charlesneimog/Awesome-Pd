@@ -1,12 +1,17 @@
 # sig2float~
 
-`sig2float~` converts signals to floats. The conversion occurs at a time rate defined by the 1st argument or right inlet. It has support for multichannel signals.
-
+The `sig2float~` object converts audio signals into floating-point numbers. It performs this conversion at a user-defined rate, which can be set via its arguments or right inlet, and supports multichannel signals, outputting a list of floats for each channel. It also provides control over conversion timing, including syncing and sample offset.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `sig2float~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

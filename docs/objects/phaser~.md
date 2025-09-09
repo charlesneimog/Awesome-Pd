@@ -1,12 +1,17 @@
 # phaser~
 
-`phaser~` is a mono phaser effect abstraction. You can set the number of stages with the first argument, which sets the order of the internal allpass filter (needs to be a multiple of 2). It requires a signal LFO to control the frequency sweep.
-
+The `phaser~` object is a mono phaser audio effect. It allows control over the number of stages (which must be a multiple of 2), the Q-resonance, and the dry/wet mix. It requires a signal LFO connected to its second inlet to sweep the phaser's frequency.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `phaser~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

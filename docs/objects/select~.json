@@ -1,29 +1,28 @@
 {
-  "title": "select~",
-  "description": "`select~` selects an input signal without crossfade and the signals can be of different channel sizes. The number of inputs is set via the 1st argument. The 2nd argument sets the initial input (indexed from 1). The selection is clipped to the number of inputs.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Routing",
-    "Procedures",
-    "Multichannel"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "select~",
+    "description": "The `select~` object selects one of its input audio signals based on a control input, without applying any crossfade. It supports input signals of varying channel sizes. The number of available inputs is determined by the first creation argument, and the second argument sets the initially selected input (1-indexed).",
+    "categories": [
+        "Routing",
+        "Multichannel"
+    ]
 }

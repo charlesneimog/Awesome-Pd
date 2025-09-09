@@ -1,12 +1,17 @@
 # resonator2~
 
-`resonator2~` is a wrap around `cpole~`. It is very similar to `vcf~`, which is also a wrap around `cpole~`, but has no constant maximum gain at 0dB - so it works like `resonator~` with a constant skirt. Like `resonator~`, it takes a decay time for resonance. Unlike `resonant~`, you shouldn't excite it with noise as the filter produces very high gain output, so it's really suited just to be excited by impulses. By the way, this filter is the basis of `damp.osc~` and `resonbank2~`.
-
+The `resonator2~` object is a resonant complex one-pole filter, designed to be excited by impulses. It produces two oscillating outputs, one with a cosine and one with a sine initial phase, making it suitable for creating resonant effects and simplified physical models like a 'Spring Model'.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `resonator2~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

@@ -1,29 +1,27 @@
 {
-  "title": "scales",
-  "description": "`scales` generates scales as note names (default) or MIDI pitches. The scale is set as a list of semitones that define each step of the scale (major by default). The note symbol can also contain the octave number, otherwise you have to set the octave via the 2nd inlet of argument. If you bang the object without setting anything, the default is 'C 1'.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "MIDI",
-    "Patching",
-    "Data Structures"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "scales",
+    "description": "The `scales` object generates musical scales based on a list of semitone intervals, outputting them as note names or MIDI pitches. It allows specifying a starting note, octave, and can be configured to output MIDI pitch values using the `-pitch` flag.",
+    "categories": [
+        "MIDI"
+    ]
 }

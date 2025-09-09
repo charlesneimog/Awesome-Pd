@@ -1,12 +1,18 @@
 # add
 
-The `add` object in Pure Data accumulates input values to a running sum, starting from a configurable initial value (0 by default). The starting sum can be set as an argument or via the `set` message. Sending a `bang` resets the accumulated sum back to the starting value. The object outputs the current accumulated value and also accepts floats to update the sum directly.
+The `add` object accumulates incoming numerical values, adding them to a running total. This running total can be initialized with an argument or a `set` message, and reset to its initial value using a `bang` message. It functions as a basic numerical accumulator.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `add` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
-- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/else/issues)!
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
+- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>
 

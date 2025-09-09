@@ -1,12 +1,17 @@
 # delete
 
-`delete` deletes one or more elements from an input message. The mid inlet or 1st argument sets the element index indexed from 1 (so 0 means no items are deleted) and negative values are wrapped (so -1 is the last element and so on). The rightmost inlet or 2nd argument sets number of elements to delete. Right outlet outputs deleted item(s) and left outlet the remaining elements from the list. Right outlet sends a bang if index and/or n elements are out of range.
-
+The `delete` object removes one or more elements from an input message (list). It takes an element index (1-based, with negative values wrapping) and a count of elements to delete. The object outputs the remaining elements from the list via its left outlet and the deleted elements (or a bang if out of range) via its right outlet.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `delete` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

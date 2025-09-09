@@ -1,6 +1,6 @@
 # tempo~
 
-The `tempo~` object estimates the tempo (BPM) of an incoming audio signal. It employs spectral growth analysis for onset detection, a Harmonic Product Spectrum (HPS) algorithm, and mode analysis of recent tempo estimates to provide a stable result. Users can optimize accuracy by defining tempo and frequency ranges, making it suitable for signals with stable tempos and sharp transients, albeit with significant latency.
+The `tempo~` object functions as a metronome, generating impulses at a specified tempo in BPM, milliseconds, or Hertz. It can be turned on/off via a gate input and synchronized with a bang or impulse. Additionally, it features a 'swing' parameter for introducing controlled random timing deviations, which can be made reproducible using a seed.
 
 ---
 
@@ -10,9 +10,9 @@ The `tempo~` object estimates the tempo (BPM) of an incoming audio signal. It em
 ---
 
 <div class="grid cards" markdown>
-- :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>timbreIDLib</code> and install it. Then create an object with `declare -lib timbreIDLib -path timbreIDLib`. Finally, use `tempo~` or any other object from `timbreIDLib`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **William Brent**.
-- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/wbrent/timbreIDLib/issues)!
+- :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `tempo~` or any other object from `else`._</p>
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
+- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>
 

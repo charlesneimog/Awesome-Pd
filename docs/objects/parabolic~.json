@@ -1,29 +1,28 @@
 {
-  "title": "parabolic~",
-  "description": "`parabolic~` is a parabolic oscillator that accepts negative frequencies, has inlets for phase sync and and phase modulation. A parabolic waveform is similar to a sinusoid but it is not band limited (has aliasing). This oscillator has support for multichannels.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Oscillators",
-    "Multichannel",
-    "Math"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "parabolic~",
+    "description": "`parabolic~` is a parabolic oscillator that generates a non-band-limited waveform, similar to a sinusoid but with aliasing. It supports negative frequencies, phase synchronization via control data or impulse signals, and phase modulation. This object also features comprehensive multichannel audio support and can interpret frequency inputs in either Hertz or MIDI pitch.",
+    "categories": [
+        "Oscillators",
+        "Multichannel"
+    ]
 }

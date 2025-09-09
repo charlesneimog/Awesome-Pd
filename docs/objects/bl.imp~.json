@@ -1,0 +1,28 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "bl.imp~",
+    "description": "`bl.imp~` is a bandlimited impulse oscillator that generates an impulse signal at a specified frequency. Its frequency input can be set in Hertz or MIDI pitch. The object supports multichannel operation, adapting to multichannel inputs or initialized with a list of frequencies.",
+    "categories": [
+        "Oscillators",
+        "Multichannel"
+    ]
+}

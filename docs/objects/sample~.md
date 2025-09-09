@@ -1,12 +1,17 @@
 # sample~
 
-`sample~` is an abstraction that creates an audio buffer which you can use to load a sample or record into. It can load and save multichannel files. It is based on `sfload` and `soundfiler`.
-
+The `sample~` object creates and manages an audio buffer, enabling users to load, record, save, and manipulate audio samples. It supports multichannel files and provides messages for operations like opening, saving, clearing, trimming, and normalizing audio data. Its internal buffer can be accessed by other Pure Data objects for further processing.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `sample~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

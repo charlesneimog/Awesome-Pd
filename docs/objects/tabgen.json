@@ -1,29 +1,28 @@
 {
-  "title": "tabgen",
-  "description": "`tabgen` is an abstraction that generates different functions for a given table name.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Procedures",
-    "Algorithm Composition",
-    "Data Structures"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "tabgen",
+    "description": "`tabgen` is a Pure Data abstraction that generates various mathematical functions (e.g., sine, Gaussian, sinc, trapezoid, variable sawtooth, noise, and FFT window functions) and populates a specified table (array) with the generated data. It can also apply these functions as envelopes to existing values within a table. The object allows for initial table sizing and setting the table name.",
+    "categories": [
+        "Math",
+        "Data Structures"
+    ]
 }

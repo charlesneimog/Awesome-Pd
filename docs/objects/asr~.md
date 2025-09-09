@@ -1,12 +1,18 @@
 # asr~
 
-The `asr~` object in Pure Data is an attack/sustain/release envelope generator, simplified compared to `adsr~`. It can be triggered by gate values, bangs, or impulses: a gate on starts the attack phase and a gate off triggers the release phase, with an optional immediate release mode via the `-rel` flag. Attack and release times are set in milliseconds, and the curve parameter controls the envelope shape, allowing exponential, linear (`-lin`), or lag-filter (`-lag`) behavior. The object accepts both control and signal inputs, with gate values mapped to the MIDI velocity range or beyond. Its right outlet outputs a status signal (1 when active, 0 when inactive), useful for managing DSP switches in subpatches or abstractions. While typically used for amplitude shaping, `asr~` can modulate any parameter in real time.
+The `asr~` object generates an attack/sustain/release envelope, acting as a simplified version of `adsr~`. It shapes an audio signal based on gate input (signal or bang), with adjustable attack and release times in milliseconds. The object supports various envelope curve shapes (linear, logarithmic, or lag filter) and provides a status outlet indicating its active state, making it useful for dynamic control and multichannel applications.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `asr~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
-- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/else)!
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
+- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>
 

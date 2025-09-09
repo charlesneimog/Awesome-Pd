@@ -1,12 +1,17 @@
 # score2
 
-`score2` has a 'tempo' syntax where 'tempo 60' sets the bpm to 60! The 'tempo' messages are output in the third 'data' outlet. You can also set 'tempo 90 3' as in this example and it will accelerate or deaccelerate, going from whatever bpm setting you have to '90' in three beats. When changing the tempo speed, tempo values for each beat are also output.
-
+The `score2` object is a sequencer that plays back musical scores using a rhythmic notation syntax similar to `pattern`. It outputs event data, duration, bar numbers, and tempo information, and allows loading and saving scores from/to files. It also features an editable data window for score management.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `score2` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

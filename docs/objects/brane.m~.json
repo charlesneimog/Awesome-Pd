@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "brane.m~",
+    "description": "The `brane.m~` object is a comprehensive granulator sampler with stretch/compress capabilities and a harmonizer pitch shifter. It records or plays mono audio files, offering independent pitch shifting for 'root' and 'harmony' voices, and includes an autotuner that can quantize pitches to any scale, with a built-in equal division scale generator. Additional features include automatic looping, bouncing, freezing, audio slice selection, granular synthesis, random playback settings, and a dedicated preset management system.",
+    "categories": [
+        "Granular",
+        "Samplers",
+        "File IO"
+    ]
+}

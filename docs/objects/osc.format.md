@@ -1,12 +1,17 @@
 # osc.format
 
-`osc.format` is similar to Vanilla's `oscformat`. This is still way too simple and experimental. It is used in the `osc.send` abstraction and can be used for edge and lower level cases. It takes anything messages or lists whose first element is an address that start with "/". The type of data for each element in the message is either a float or a string only depenfing on the atom type, so there are only these options (so far). You can't send bundles either. Use the original Vanilla `oscformat` or mrpeach's packOSC object for more complete objects.
-
+The `osc.format` object converts Pure Data messages into Open Sound Control (OSC) format. It takes `anything` messages or lists where the first element is an OSC address (starting with `/`) and formats subsequent elements as float or string arguments. This object is a simplified formatter, primarily used internally by `else/osc.send`, and does not support OSC bundles.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `osc.format` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

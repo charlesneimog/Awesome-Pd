@@ -1,12 +1,17 @@
 # osc.route
 
-`osc.route` routes OSC messages received from `osc.receive`. It follows the same logic as Vanilla's `route` where arguments set the number of outlets and an extra is created for no matches. The difference is that it manages OSC addresses instead, specified with the "/" separator. Note how the '/hz' address matches input messages that start with '/hz' even if it has further sub addresses.
-
+The `osc.route` object routes incoming Open Sound Control (OSC) messages based on their address patterns. Similar to Pure Data's `route` object, it uses arguments to define specific OSC addresses to match, directing messages to corresponding outlets, with an additional outlet for unmatched messages. It supports OSC wildcard characters for flexible pattern matching.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `osc.route` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

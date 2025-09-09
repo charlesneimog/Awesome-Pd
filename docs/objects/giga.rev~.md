@@ -1,12 +1,19 @@
 # giga.rev~
 
-`giga.rev~` is a stereo reverb in Else based on Juhana Sadeharju’s *Gigaverb* algorithm, known for producing large, spacious, and dense reverberation tails. It offers controls for decay time, room size, damping, bandwidth, and early/late reflections, along with a dry/wet balance, making it flexible for anything from subtle ambience to cathedral-like spaces. The object comes with presets for quick setup and, while more CPU-intensive than simpler reverbs, it delivers smooth, natural decays with a wide stereo image, making it especially useful for ambient, cinematic, and experimental sound design.
+The `giga.rev~` object implements a Gigaverb-based reverberation algorithm, transforming a mono audio input into a stereo output. It offers extensive control over room characteristics, including size, decay time, high-frequency damping, input bandwidth, and the levels of dry, early, and late reflections, as well as stereo spread. This allows for simulating various acoustic spaces from small rooms to large canyons.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `giga.rev~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
+- :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>
 
 ---

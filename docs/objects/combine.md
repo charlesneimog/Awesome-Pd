@@ -1,12 +1,17 @@
 # combine
 
-`combine` collects messages (with one or more elements) into a single list if they come within a certain given amount of time, but not if greater than it. A "0" time is possible if messages are sent in a sequence usch as from a `loop` object. Each item or list is appended to the previous stored items. A negative time value will not combine anything.
-
+The `combine` object collects incoming messages into a single list if they arrive within a specified time interval. If messages arrive outside this interval, they are output individually. This is useful for grouping related data that arrives in quick succession.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `combine` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

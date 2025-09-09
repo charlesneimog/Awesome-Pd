@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "balance~",
+    "description": "The `balance~` object performs equal-power (sin/cos) stereo balancing. It takes two signal inputs (left and right channels) and a balance value (from -1 for full left to 1 for full right) as a float or signal. The object outputs the balanced stereo signals and supports multichannel output with the `-mc` flag.",
+    "categories": [
+        "Multichannel"
+    ]
+}

@@ -1,29 +1,27 @@
 {
-  "title": "beat~",
-  "description": "`beat~` takes an input signal and outputs a detected BPM value.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Descriptors",
-    "Statical Models",
-    "Algorithm Composition"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "beat~",
+    "description": "The `beat~` object analyzes an incoming audio signal to detect its tempo in beats per minute (BPM). It offers various onset detection algorithms, such as High-Frequency Content (HFC) and Spectral Flux, to accurately track rhythmic information in real-time.",
+    "categories": [
+        "Descriptors"
+    ]
 }

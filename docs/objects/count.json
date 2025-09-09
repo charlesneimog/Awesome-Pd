@@ -1,0 +1,28 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "count",
+    "description": "The `count` object in Pure Data generates a sequence of numbers, incrementing or decrementing between a defined minimum and maximum value. It supports counting up, down, or alternating directions, and can be reset or set to a specific value. It outputs the current count and can send a bang when reaching its limits.",
+    "categories": [
+        "Procedures",
+        "General Utilities"
+    ]
+}

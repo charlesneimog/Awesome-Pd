@@ -1,12 +1,17 @@
 # slice~
 
-`slice~` splits a multichannel signal. The 'n' split point is set via argument or float input. If you slice at 'n', the left outlet spits the first 'n' channels and the right outlet sends the remaining channels. If you slice at '-n', the right outlet spits the last 'n' channels and the left outlet sends the first channels. If the number of channels is less than the split point, the whole signal is output to the left if 'n' is positive (and the right outlet outputs zeros), and to the right if negative (and the left outlet outputs zeros).
-
+The `slice~` object splits a multichannel signal into two outputs based on a specified split point. A positive split point `n` sends the first `n` channels to the left outlet and the rest to the right, while a negative `n` sends the last `n` channels to the right outlet. If the number of channels is less than the split point, the entire signal is routed to one outlet, with the other outputting zeros.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `slice~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

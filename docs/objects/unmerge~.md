@@ -1,12 +1,17 @@
 # unmerge~
 
-`unmerge~` separates the channels of a multichannel signal in groups of any size (default 1). Each group is sent out a separate outlet, extra elements are sent to an extra rightmost outlet. If the number of channels is less than the number of outlets, zeroes are output.
-
+`unmerge~` separates the channels of a multichannel signal into groups of a specified size. Each group is sent to a dedicated outlet, with any remaining channels routed to an additional rightmost outlet. If the input signal has fewer channels than the configured outlets, the unused outlets output zeroes.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `unmerge~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

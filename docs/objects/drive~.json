@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "drive~",
+    "description": "The `drive~` object in Pure Data simulates analog soft-clipping distortion by applying various non-linear transfer functions. It processes an audio signal input, using a 'drive factor' to control the intensity and character of the distortion. Different modes offer distinct distortion curves, effectively shaping the signal's dynamics and adding harmonic content.",
+    "categories": [
+        "Distortion"
+    ]
+}

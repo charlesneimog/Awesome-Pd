@@ -1,12 +1,17 @@
 # shaper~
 
-`shaper~` performs waveshaping with transfer functions, in which signal input values (from -1 to 1) are mapped to the the transfer function's indexes. Values outside the -1 to 1 range are wrapped inside it.
-
+The `shaper~` object performs waveshaping by applying a user-defined transfer function to an input signal. This function can be an external array or an internal Chebyshev polynomial, whose harmonic weights can be set via arguments or messages. It also features an optional internal high-pass filter and can be used for advanced sample manipulation, such as creating turntable scratch effects.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `shaper~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

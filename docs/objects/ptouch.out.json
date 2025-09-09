@@ -1,29 +1,27 @@
 {
-  "title": "ptouch.out",
-  "description": "`ptouch.out` formats and sends raw MIDI polyphonic aftertouch messages to Pd's MIDI output and its outlet.. An argument sets channel number (the default is 1).\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "MIDI",
-    "Patching",
-    "Routing"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "ptouch.out",
+    "description": "The `ptouch.out` object formats and sends raw MIDI polyphonic aftertouch messages. It takes key, pressure, and an optional channel number as input, outputting the MIDI stream to Pd's MIDI output and its outlet. It can also be configured to output only to its outlet using the `-ext` flag or `ext` message.",
+    "categories": [
+        "MIDI"
+    ]
 }

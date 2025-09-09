@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "interpolate",
+    "description": "The `else/interpolate` object performs smooth interpolation between a set of start and target values, which can be single numbers or lists. It takes an interpolation factor (typically 0 to 1) and can apply an exponential curve to the interpolation. This object is ideal for creating dynamic transitions and parameter automation.",
+    "categories": [
+        "Math"
+    ]
+}

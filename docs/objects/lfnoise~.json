@@ -1,29 +1,27 @@
 {
-  "title": "lfnoise~",
-  "description": "`lfnoise~` is a low frequency (band limited) noise with or without interpolation. It generates random values (between -1 and 1) at a rate in hertz (negative frequencies accepted). It also has a 'sync' inlet that forces the object to generate a new random value when receiving an impulse. Use the seed message if you want a reproducible output.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "LFOs",
-    "Oscillators",
-    "Stochastic"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "lfnoise~",
+    "description": "The `lfnoise~` object generates band-limited low-frequency noise, producing random values between -1 and 1 at a specified frequency. It can be synchronized by an impulse to generate a new random value and supports optional interpolation. This object is useful for creating modulated control signals or random audio textures.",
+    "categories": [
+        "Stochastic"
+    ]
 }

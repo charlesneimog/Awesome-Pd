@@ -1,29 +1,28 @@
 {
-  "title": "mix4~",
-  "description": "`mix4~` has support for multichannel input.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Multichannel",
-    "Routing",
-    "Patching"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "mix4~",
+    "description": "The `mix4~` object is a 4-channel audio mixer abstraction that provides independent gain and panning control for each channel. It offers three scaling modes for its control inputs: quartic (default), decibel (dB), and linear, allowing flexible adjustment of signal levels.",
+    "categories": [
+        "Multichannel",
+        "Routing"
+    ]
 }

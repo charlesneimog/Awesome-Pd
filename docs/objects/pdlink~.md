@@ -1,12 +1,17 @@
 # pdlink~
 
-`pdlink~` allows you to send/receive audio streans to/from different Pd instances, as different versions, platforms and even forks of Pure Data (such as PlugData). It works like `send~`/`receive~` as it just needs a symbol address. It works via network but it's simpler as it doesn't require network configuration! It also allows you to communicate to a `pd~` subprocess. You can make up to 16 sends to a single receive, but you can receive as many times as you like.
-
+`pdlink~` enables sending and receiving audio streams between different Pure Data instances, including those on other platforms or forks, and `pd~` subprocesses. It functions like `send~` and `receive~` but operates over a network, simplifying inter-patch communication without requiring explicit network configuration. This object supports up to 16 audio sends to a single receiver.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `pdlink~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

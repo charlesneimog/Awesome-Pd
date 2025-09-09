@@ -1,29 +1,28 @@
 {
-  "title": "lin2db~",
-  "description": "`lin2db~` converts amplitude values from linear to a deciBel Full Scale (dBFS) with support for multichannel signals. Conversion expression: \"dbFS = log10(amp) * 20\".\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Math",
-    "Multichannel",
-    "Procedures"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "lin2db~",
+    "description": "The `lin2db~` object converts linear amplitude values to decibels full scale (dBFS). It performs the calculation `dBFS = log10(amplitude) * 20`, making it useful for signal processing where decibel representation is preferred. This object also supports multichannel audio signals.",
+    "categories": [
+        "Math",
+        "Multichannel"
+    ]
 }

@@ -1,12 +1,17 @@
 # level~
 
-`level~` is a convenient abstraction for adjusting a signal's gain in dB. At "12 o'clock" we have 'Unity Gain", which is 0 dB. Moving clockwise we linearly up to 12dB, whereas counterclockwise moves nonlinearly to -100, and reaching '-100' effectively means -inf dB (total silence). It has support for multichannel signals.
-
+The `level~` object is a convenient tool for adjusting the gain of audio signals in decibels (dB). It allows for linear gain increases up to +12 dB and non-linear decreases down to -100 dB (silence), with 0 dB representing unity gain. This object also supports multichannel audio signals.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `level~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

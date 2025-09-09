@@ -1,29 +1,28 @@
 {
-  "title": "pdlink",
-  "description": "`pdlink` allows you to communicate to/from different Pd instances over local network, as different versions and even forks of Pure Data (such as plugdata). It works like `send`/`receive` (or `else/sender`/`else/receiver`) as it just needs a symbol address. It works via network but it's simpler as it doesn't require network or OSC configuration! It also allows you to communicate to a `pd~` subprocess.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Procedures",
-    "Networking",
-    "Patching"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pdlink",
+    "description": "The `pdlink` object enables simplified communication between different Pure Data instances, including `[pd~]` subprocesses, over a local network. It functions like `[send]` and `[receive]` for inter-patch messaging, but extends this capability across separate Pd applications without requiring explicit network or OSC configuration. It uses a symbol as an address for sending and receiving data.",
+    "categories": [
+        "Routing",
+        "Networking"
+    ]
 }

@@ -1,12 +1,17 @@
 # pattern
 
-`pattern` is a rhythmic pattern sequencer. The note durations are specified as floats or fractions (where '1' is a whole note), negative values are rests! A '|' separates into different bars. When you set a new pattern via the right inlet, it only starts when the previous one ends.
-
+The `pattern` object is a rhythmic pattern sequencer that outputs note durations based on a defined sequence. Durations can be specified as floats or fractions (where 1 is a whole note), with negative values indicating rests, and a `|` symbol separating bars. It supports setting tempo, starting/stopping, and dynamically updating sequences, making it suitable for complex rhythmic generation.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `pattern` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

@@ -1,12 +1,17 @@
 # resonbank~
 
-`resonbank~` is a bank of resonators made of `resonator~` objects. The design and structure here is different than `resonator~` in order to make it better suited for sound synthesis. It has a list of partials for each resonator and a frequency multiplier in the left inlet, kinda like `oscbank~`. The mid inlet the trigger (or excitation) signal (kinda like `pluck~`) and the rightmost inlet is a time multiplier for the decay times. The number of filters is set via the parameter list size (such as the partial list). There's also support for multichannel output.
-
+`resonbank~` is a bank of resonators designed for sound synthesis, built upon `resonator~` objects. It takes a fundamental frequency, an excitation signal, and a decay time multiplier as inputs. Users can define lists of partials, decay times, and amplitudes for each resonator, with optional multichannel output.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `resonbank~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

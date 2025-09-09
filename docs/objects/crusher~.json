@@ -1,29 +1,27 @@
 {
-  "title": "crusher~",
-  "description": "`crusher~` is a bit-crusher/reducer and decimator abstraction based on the objects `quantizer~` (mode 4) and `downsample~`, where an input signal quantized and downsampled to generate distortion and aliasing. The parameters vary from 0 to 1, where 0 is the original sound and the higher the parameter is, the more crushing/decimation we have.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Distortion",
-    "Filters",
-    "Math"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "crusher~",
+    "description": "The `crusher~` object is an audio effect that performs bit-crushing and decimation on an input signal. It introduces distortion and aliasing by quantizing and downsampling the audio. Its two parameters, bit reduction and decimation, range from 0 (original sound) to 1 (maximum effect).",
+    "categories": [
+        "Distortion"
+    ]
 }

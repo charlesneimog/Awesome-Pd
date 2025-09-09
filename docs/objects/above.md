@@ -1,12 +1,18 @@
 # above
 
-The `above` object in Pure Data monitors a float input and triggers events based on a threshold. It sends a bang from its left outlet when the input rises above the set threshold, and a bang from its right outlet when the input falls back to or below the threshold. The threshold can be set as an argument when creating the object or via its second inlet. The object primarily handles floats as input and is useful for detecting crossings of a specific value in control or signal data.
+The `above` object detects when an incoming float value crosses a specified threshold. It sends a bang from its left outlet when the float rises above the threshold, and a bang from its right outlet when the float falls back to or below the threshold. The threshold can be set via an argument or the second inlet.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `above` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
-- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/else)!
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
+- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>
 

@@ -1,29 +1,28 @@
 {
-  "title": "note",
-  "description": "`note` is a GUI meant only to display text notes. This is basically the same of Pd's comment but with the advantage of being able to set the font, size, color, background color, bold, italic, underline and justification.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Patching",
-    "Procedures",
-    "Logic"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "note",
+    "description": "The `note` object is a GUI element in Pure Data designed to display text notes within a patch. It functions similarly to Pd's built-in comment box but offers enhanced customization options, including control over font, size, color, background, bold/italic/underline styles, justification, and width. Text content and display properties can be dynamically set via messages.",
+    "categories": [
+        "GUI",
+        "Text"
+    ]
 }

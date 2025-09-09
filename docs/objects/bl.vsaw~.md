@@ -1,12 +1,17 @@
 # bl.vsaw~
 
-`bl.vsaw~` is a variable sawtooth waveform oscillator that also becomes a triangular osccilator just like `else/vsaw~`, but it is bandlimited. Use `vsaw~` mostly if you need a wave form, which is usually the case when you want a LFO. The `bl.vsaw~` version is for proper synthesis as it is anti-aliased. This version also has input for pitch in MIDI and no way to sync at control rate.
-
+`bl.vsaw~` is a bandlimited variable sawtooth waveform oscillator that can also generate triangular waveforms. It is anti-aliased for high-quality audio synthesis and supports frequency input in both Hertz and MIDI pitch. The object includes inlets for controlling waveform width, phase synchronization, and phase offset, and it supports multichannel operation.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `bl.vsaw~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

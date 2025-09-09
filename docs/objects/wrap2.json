@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "wrap2",
+    "description": "The `wrap2` object constrains a numerical input value to a specified range by \"wrapping\" it around the minimum and maximum boundaries. It can be configured with one or two float arguments to define its range, and outputs the folded value.",
+    "categories": [
+        "Math"
+    ]
+}

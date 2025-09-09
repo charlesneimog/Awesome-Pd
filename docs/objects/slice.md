@@ -1,12 +1,17 @@
 # slice
 
-`slice` splits lists. The 'n' split point is set via argument or right inlet. If you slice at 'n', the left outlet spits the first 'n' elements and the right outlet sends the remaining elements. If you slice at '-n', the right outlet spits the last 'n' elements and the left outlet sends the first elements. If the number of elements is less than the split point, the whole list is output to the left if 'n' is positive, and to the right if negative. Symbols and floats are also taken.
-
+The `slice` object splits an incoming list into two parts based on a specified split point `n`. If `n` is positive, it outputs the first `n` elements to the left outlet and the remainder to the right. If `n` is negative, it outputs the last `n` elements to the right outlet and the remainder to the left.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `slice` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

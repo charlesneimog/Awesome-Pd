@@ -1,0 +1,28 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fbsine2~",
+    "description": "The `fbsine2~` object is a non-interpolating sound generator that produces a feedback sine chaotic signal. Based on SuperCollider's 'FBSineN' UGEN, it uses difference equations to create complex waveforms. It accepts various parameters to control its chaotic behavior, including frequency and initial values for its internal states.",
+    "categories": [
+        "Math",
+        "Oscillators"
+    ]
+}

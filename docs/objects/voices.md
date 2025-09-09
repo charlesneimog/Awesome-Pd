@@ -1,12 +1,17 @@
 # voices
 
-`voices` outputs a list with voice index, pitch, velocity and optional extra stuff. You can set the number of voices with the first argument or '-n' flag, and you can change the number of voices with the "n" message, which causes the object to flush and clear its memory. The index offset is 0 by default and you can set a different one with the "offset" message or flag.
-
+The `voices` object manages voice allocation for polyphonic synthesizers, offering advanced features beyond `poly`. It outputs voice index, pitch, and velocity, handling voice stealing, retrigger modes, and release times. This object is particularly useful with `clone` for constructing complex polyphonic instruments.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `voices` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

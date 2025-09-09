@@ -1,12 +1,17 @@
 # osc.receive
 
-`osc.receive` receives OSC messages from network connections and is an abstraction based on `osc.parse` and `netreceive`. You can use to receive OSC messages from an `osc.send` object with a matching port.
-
+The `osc.receive` object in Pure Data is designed to receive Open Sound Control (OSC) messages over a network connection. It acts as an abstraction built upon `osc.parse` and `netreceive`, allowing users to easily establish a connection to a specified port and process incoming OSC data.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `osc.receive` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

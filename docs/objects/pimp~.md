@@ -1,12 +1,17 @@
 # pimp~
 
-`pimp~` is very convenient for both driving a process with its phase output (such as reading a sample or envelope) and also triggering at period transitions other objects or processes (such as with `sh~` below).
-
+The `pimp~` object is an impulse oscillator that combines the functionality of `phasor~` and `else/imp~`. It outputs a phase signal and generates an impulse at the start of each phase period, supporting both hard and soft synchronization. It can be controlled by frequency in Hertz or MIDI pitch, and supports multichannel operation for complex signal generation and modulation.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `pimp~` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

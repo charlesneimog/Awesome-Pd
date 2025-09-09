@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "hot",
+    "description": "The `hot` object in Pure Data acts as a message router and temporary storage. When any of its inlets receives a message, it outputs the current values from all its inlets, from right to left. It can also store values without immediate output using the `set` message, and then output all stored values upon receiving a `bang`.",
+    "categories": [
+        "Routing"
+    ]
+}

@@ -1,12 +1,17 @@
 # hex2dec
 
-`hex2dec` converts hexadecimal values to decimal ones. It takes symbols whose format allows lower and upper case letters and can also include "0x" or "0X" prefixes (necessary in the case of lists and arguments to avoid confusion with floats, which are ignored). List and symbol selectors aren't necessary.
-
+The `hex2dec` object converts hexadecimal values to their decimal equivalents. It accepts hexadecimal numbers as symbols, which can include '0x' or '0X' prefixes, and outputs the corresponding decimal value(s). This object is useful for handling hexadecimal data within Pure Data patches.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `hex2dec` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

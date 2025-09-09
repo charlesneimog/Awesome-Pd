@@ -1,6 +1,4 @@
 {
-    "title": "abs.pd~",
-    "description": "The `abs.pd~` object in Pure Data loads a `.pd` file into a subprocess, providing two signal inlets and two signal outlets. It allows sending messages to the subprocess, starting it with `start <symbol>`, stopping it with `stop`, and opening its GUI with a click or the `show` message. If given a symbol argument, it automatically loads and starts the subprocess with DSP enabled; otherwise, it can be started manually. It also supports receiving MIDI data from devices connected to the parent process.",
     "runs_on": [
         "Mac",
         "Linux",
@@ -8,21 +6,24 @@
     ],
     "download_link": "",
     "available_on_deken": true,
-    "bug_reports": "https://github.com/porres/else/issues",
+    "bug_reports": "https://github.com/porres/pd-else/issues",
     "developers": [
-        "Alexandre Porres"
+        "Alexandre Torres Porres"
     ],
     "part_of_library": true,
     "library_name": "else",
-    "categories": [
-        "MultiThreading"
-    ],
-    "category_groups": [],
-    "category_parents": {},
     "articles": [],
     "videos": [],
     "musics": [],
     "contributors": [
         "charlesneimog"
+    ],
+    "ai": true,
+    "title": "abs.pd~",
+    "description": "The `abs.pd~` object loads a Pure Data patch as a subprocess, making it easier to manage complex patches. It automatically handles DSP state for both the parent and sub-process, and facilitates MIDI input to the subprocess. Users can interact with the subprocess by sending messages or opening its patch directly.",
+    "categories": [
+        "Procedures",
+        "MIDI",
+        "MultiThreading"
     ]
 }

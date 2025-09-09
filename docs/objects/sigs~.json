@@ -1,29 +1,27 @@
 {
-  "title": "sigs~",
-  "description": "`sigs~` is like vanilla's `sig~` but generates multichannel signals from an argument list and creates separate inlets for each argument (minimum size is 2).\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-else/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "else",
-  "categories": [
-    "Multichannel",
-    "Patching",
-    "Procedures"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "sigs~",
+    "description": "The `sigs~` object generates constant multichannel audio signals from a list of numerical arguments. It functions similarly to `sig~` but extends its capability to multiple channels, creating a dedicated inlet for each argument. This allows users to easily create and control static multichannel audio signals within a patch.",
+    "categories": [
+        "Multichannel"
+    ]
 }
