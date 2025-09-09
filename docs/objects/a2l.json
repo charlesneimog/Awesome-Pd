@@ -21,5 +21,5 @@
     "ai": true,
     "title": "a2l",
     "description": "The `a2l` object converts any incoming message into a list, providing a unified data format for further processing. This utility is primarily used for control flow within Pure Data patches, allowing various message types to be handled consistently as lists. It is part of the zexy library and is marked as deprecated.",
-    "categories": []
+    "categories": ["Patching"]
 }
