@@ -1,12 +1,17 @@
 # wave~
 
-`wave~`'s input phase varies between 0 and 1, which in 32-bit floating point arithmetic has 24 bits of index resolution. All interpolators (except mode 2: low quality linear) use double-precision index mapping, so behavior should be the same in all parts of a table.
-
+The `wave~` object reads audio data from a specified array (wavetable) using a phase signal (0-1) as an index. It offers seven different interpolation modes, including linear, cosine, cubic, and Hermite, allowing for precise control over playback quality. Additionally, `wave~` supports setting custom start and end points within the array and can handle multichannel audio up to 64 channels.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>cyclone</code> and install it. Then create an object with `declare -lib cyclone -path cyclone`. Finally, use `wave~` or any other object from `cyclone`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-cyclone/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

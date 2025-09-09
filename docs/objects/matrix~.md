@@ -1,12 +1,17 @@
 # matrix~
 
-`matrix~` routes signals from any inlets to one or more outlets. If an outlet connects to more than one inlet, they are summed.
-
+The `matrix~` object routes and mixes audio signals from multiple inlets to multiple outlets. It supports a "binary" mode for simple on/off connections, which can cause clicks, and a "non-binary" mode that allows for gain control and ramp times for smoother transitions. When multiple inlets route to the same outlet, their signals are summed.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>cyclone</code> and install it. Then create an object with `declare -lib cyclone -path cyclone`. Finally, use `matrix~` or any other object from `cyclone`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-cyclone/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

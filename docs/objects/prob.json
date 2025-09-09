@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "prob",
+    "description": "The `prob` object generates a weighted series of random numbers, functioning as a 1st-order Markov chain. It defines transitions between states using lists of three numbers: `value1`, `value2`, and `weight`. A bang triggers the output of the next state based on the defined probabilities, and its probability matrix can be embedded within the patch for persistence.",
+    "categories": [
+        "Stochastic"
+    ]
+}

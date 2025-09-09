@@ -1,6 +1,6 @@
 # scope~
 
-The `scope~` object functions as an oscilloscope display for audio signals in Pure Data. It can operate in a single-channel (Y-mode) to visualize a signal's amplitude over time, or in a two-channel (X-Y mode) to plot one signal against another, useful for visualizing phase relationships and Lissajous figures. Users can configure its display properties, including vertical range, trigger modes, and colors.
+`scope~` is a Pure Data object that functions as an oscilloscope, visualizing audio signals. It can operate in a single-signal (Y-mode) display or an X-Y mode, where it plots two signals against each other to create Lissajous figures. Users can configure various display parameters such as buffer size, samples per line, vertical range, trigger modes, and color settings.
 
 ---
 
@@ -10,9 +10,9 @@ The `scope~` object functions as an oscilloscope display for audio signals in Pu
 ---
 
 <div class="grid cards" markdown>
-- :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `scope~` or any other object from `else`._</p>
+- :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>cyclone</code> and install it. Then create an object with `declare -lib cyclone -path cyclone`. Finally, use `scope~` or any other object from `cyclone`._</p>
 - :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
-- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
+- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-cyclone/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>
 

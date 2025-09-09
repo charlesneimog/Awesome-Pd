@@ -1,12 +1,17 @@
 # bitand~
 
-`bitand~` compares the bits of two values with "Bitwise-AND" (bits are set to 1 if both are "1", 0 otherwise). It compares two signals or a signal to a given bitmask. It can produce NaNs and +/-INFs - but denormals are zeroed out and has 4 modes of comparison (see below).
-
+The `cyclone/bitand~` object performs a bitwise AND operation on two incoming signals or a signal and a given bitmask. It converts floating-point audio signals to 32-bit integers for the comparison, offering various modes for handling input conversion. This object is useful for low-level signal manipulation based on bit patterns.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>cyclone</code> and install it. Then create an object with `declare -lib cyclone -path cyclone`. Finally, use `bitand~` or any other object from `cyclone`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-cyclone/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

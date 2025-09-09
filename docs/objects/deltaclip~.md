@@ -1,12 +1,17 @@
 # deltaclip~
 
-`deltaclip~` limits the change between samples in an incoming signal. This is also known as 'slew limiting'. It has a negative maximum delta for when the signal decays and a positive maximum delta for when it rises. When they're both 0, the signal doesn't shift. Below we divide by the sample rate to get the max amplitude shift per second isntead of per sample.
-
+The `deltaclip~` object limits the rate of change (slew rate) of an incoming audio signal. It allows you to set independent maximum delta values for both signal decay and rise, effectively smoothing out abrupt changes. When both delta values are zero, the signal remains static.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>cyclone</code> and install it. Then create an object with `declare -lib cyclone -path cyclone`. Finally, use `deltaclip~` or any other object from `cyclone`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-cyclone/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

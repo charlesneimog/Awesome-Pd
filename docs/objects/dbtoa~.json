@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "dbtoa~",
+    "description": "The `dbtoa~` object converts a decibel full scale (dBFS) amplitude signal to a linear amplitude signal. It uses the formula `amp = 10^(dBFS / 20)` to perform this conversion, making it useful for translating decibel values into a linear scale for audio processing.",
+    "categories": [
+        "Math"
+    ]
+}

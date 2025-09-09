@@ -1,29 +1,25 @@
 {
-  "title": "rampsmooth~",
-  "description": "`rampsmooth~` smooths a signal across 'n' samples. Each time an incoming value changes, it begins a linear ramp of the given 'n' samples to reach this value. It is also useful for envelope following and lowpass filtering.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-cyclone/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "cyclone",
-  "categories": [
-    "Filters",
-    "Dynamics",
-    "Envelopes"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "rampsmooth~",
+    "description": "The `rampsmooth~` object smooths an incoming audio signal by applying a linear ramp whenever the input value changes. It allows independent control over ramp-up and ramp-down times in samples, making it useful for signal smoothing, envelope following, or low-pass filtering.",
+    "categories": []
 }

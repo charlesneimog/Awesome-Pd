@@ -1,0 +1,25 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "past",
+    "description": "The `past` object compares an incoming list of numbers against a corresponding list of thresholds. It outputs a `bang` when all input values exceed their respective thresholds, provided they were previously at or below those thresholds. This object is useful for detecting when multiple signals simultaneously cross specific upper limits, re-triggering only after values have dropped back down.",
+    "categories": []
+}

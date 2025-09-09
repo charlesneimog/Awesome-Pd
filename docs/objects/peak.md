@@ -1,12 +1,17 @@
 # peak
 
-`peak` compares the input to a 'peak' (maximum) value. If it's greater, the input becomes the new peak and is sent out. The middle outlet sends 1 when a new peak is set and 0 otherwise. The right outlet sends 1 when the input is not greater than the peak and 0 otherwise.
-
+The `peak` object compares incoming numbers to a stored "peak" (maximum) value. If an input is greater than the current peak, it becomes the new peak and is output from the left outlet. The middle and right outlets indicate whether a new peak was set or not, respectively. It can also be initialized with an argument or have its peak value set via its right inlet.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>cyclone</code> and install it. Then create an object with `declare -lib cyclone -path cyclone`. Finally, use `peak` or any other object from `cyclone`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-cyclone/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

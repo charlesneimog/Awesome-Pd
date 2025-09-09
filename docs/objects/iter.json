@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "iter",
+    "description": "The `iter` object splits an incoming message (which can contain floats or symbols) into its individual elements. It then outputs these elements sequentially, one by one, in the order they were received. This allows for processing each part of a message independently over time.",
+    "categories": [
+        "General Utilities"
+    ]
+}

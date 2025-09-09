@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "average~",
+    "description": "The `average~` object calculates a moving average of an audio signal over a specified number of samples. It supports three modes: bipolar (arithmetic mean), absolute (mean of absolute values), and RMS (root mean square). This object can also function as a lowpass filter in its default bipolar mode.",
+    "categories": [
+        "Math"
+    ]
+}

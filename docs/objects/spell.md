@@ -1,12 +1,17 @@
 # spell
 
-`spell` takes any message and converts each containing digit and character to UTF-8 (Unicode) values (`spell` doesn't understand non-integer float messages). The 1st argument sets the minimum output size. If the input doesn't "spell" to the minimum, the output is filled with characters (32 space character by default and specified by 2nd argumment).
-
+The `spell` object converts incoming messages, character by character, into their corresponding UTF-8 (Unicode) integer values. It can process symbols and lists of numbers/characters, outputting a list of integers. Optionally, the output can be padded to a minimum size with a specified fill character, making it useful for formatting text data.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>cyclone</code> and install it. Then create an object with `declare -lib cyclone -path cyclone`. Finally, use `spell` or any other object from `cyclone`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-cyclone/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

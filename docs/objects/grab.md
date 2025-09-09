@@ -1,12 +1,17 @@
 # grab
 
-`grab` sets the value of GUIs but also grabs its ouotput. See how when you send it number values, the number box is set but doesn't output anything.
-
+The `grab` object in Pure Data sends a message to another object and captures its output, routing it through `grab`'s own outlets. It can be configured with a numerical argument to specify the number of outlets, allowing it to grab multiple outputs from a single source. Additionally, `grab` can be linked to a `receive` object via a symbol argument, enabling it to retrieve values from objects connected to that `receive` or even directly from GUI elements, making it useful for data retrieval and preset management.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>cyclone</code> and install it. Then create an object with `declare -lib cyclone -path cyclone`. Finally, use `grab` or any other object from `cyclone`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-cyclone/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

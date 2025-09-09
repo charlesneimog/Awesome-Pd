@@ -1,6 +1,6 @@
 # tanh~
 
-The `tanh~` object calculates the hyperbolic tangent function of an input signal. It is primarily used for waveshaping, providing a soft-clipping distortion that simulates analog overdrive. This object also supports multichannel audio processing.
+The `tanh~` object calculates the hyperbolic tangent of an input audio signal. It is primarily used for waveshaping and simulating analog-style soft clipping distortion, gently limiting signal amplitude between -1 and 1. This makes it suitable for adding a warm, overdriven character to sounds.
 
 ---
 
@@ -10,9 +10,9 @@ The `tanh~` object calculates the hyperbolic tangent function of an input signal
 ---
 
 <div class="grid cards" markdown>
-- :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `tanh~` or any other object from `else`._</p>
+- :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>cyclone</code> and install it. Then create an object with `declare -lib cyclone -path cyclone`. Finally, use `tanh~` or any other object from `cyclone`._</p>
 - :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
-- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
+- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-cyclone/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>
 

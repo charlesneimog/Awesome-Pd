@@ -1,0 +1,28 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "comb~",
+    "description": "The `comb~` object implements a comb filter, an audio effect that combines a signal with a delayed version of itself to create a series of regularly spaced notches or peaks in the frequency response. It is primarily used for filtering and creating delay-based effects, with adjustable parameters for delay time (`D`), input gain (`a`), feedforward gain (`b`), and feedback gain (`c`).",
+    "categories": [
+        "Delay",
+        "Filters"
+    ]
+}

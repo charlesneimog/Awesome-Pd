@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fromsymbol",
+    "description": "The `fromsymbol` object converts an incoming `symbol` message into its corresponding Pure Data message type, such as a `float`, `bang`, `list`, or `anything` message. It effectively removes the \"symbol\" selector and parses the symbol's content. The object also supports an `@separator` attribute to define a custom character for splitting the symbol's content into a list.",
+    "categories": [
+        "Text"
+    ]
+}

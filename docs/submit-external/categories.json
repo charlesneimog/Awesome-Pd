@@ -823,6 +823,18 @@
             },
             {
                 "sequencer~": "objects/sequencer~.md"
+            },
+            {
+                "speedlim": "objects/speedlim.md"
+            },
+            {
+                "counter": "objects/counter.md"
+            },
+            {
+                "loadmess": "objects/loadmess.md"
+            },
+            {
+                "uzi": "objects/uzi.md"
             }
         ]
     },
@@ -1079,6 +1091,51 @@
             },
             {
                 "mono": "objects/mono.md"
+            },
+            {
+                "greaterthaneq~": "objects/greaterthaneq~.md"
+            },
+            {
+                "bitxor~": "objects/bitxor~.md"
+            },
+            {
+                "equals~": "objects/equals~.md"
+            },
+            {
+                "notequals~": "objects/notequals~.md"
+            },
+            {
+                "bitnot~": "objects/bitnot~.md"
+            },
+            {
+                "thresh~": "objects/thresh~.md"
+            },
+            {
+                "bitor~": "objects/bitor~.md"
+            },
+            {
+                "split": "objects/split.md"
+            },
+            {
+                "cyclone": "objects/cyclone.md"
+            },
+            {
+                "edge~": "objects/edge~.md"
+            },
+            {
+                "match": "objects/match.md"
+            },
+            {
+                "onebang": "objects/onebang.md"
+            },
+            {
+                "lessthaneq~": "objects/lessthaneq~.md"
+            },
+            {
+                "lessthan~": "objects/lessthan~.md"
+            },
+            {
+                "bitshift~": "objects/bitshift~.md"
             }
         ],
         "Math": [
@@ -1528,6 +1585,201 @@
             },
             {
                 "e": "objects/e.md"
+            },
+            {
+                "acos": "objects/acos.md"
+            },
+            {
+                "pow~": "objects/pow~.md"
+            },
+            {
+                "mean": "objects/mean.md"
+            },
+            {
+                "rdiv~": "objects/rdiv~.md"
+            },
+            {
+                "asin~": "objects/asin~.md"
+            },
+            {
+                "rdiv": "objects/rdiv.md"
+            },
+            {
+                "dbtoa~": "objects/dbtoa~.md"
+            },
+            {
+                "cosx~": "objects/cosx~.md"
+            },
+            {
+                "bitxor~": "objects/bitxor~.md"
+            },
+            {
+                "linedrive": "objects/linedrive.md"
+            },
+            {
+                "atodb~": "objects/atodb~.md"
+            },
+            {
+                "atodb": "objects/atodb.md"
+            },
+            {
+                "sampstoms~": "objects/sampstoms~.md"
+            },
+            {
+                "peak": "objects/peak.md"
+            },
+            {
+                "asinh~": "objects/asinh~.md"
+            },
+            {
+                "pong~": "objects/pong~.md"
+            },
+            {
+                "atan2~": "objects/atan2~.md"
+            },
+            {
+                "asinh": "objects/asinh.md"
+            },
+            {
+                "phasewrap~": "objects/phasewrap~.md"
+            },
+            {
+                "delta~": "objects/delta~.md"
+            },
+            {
+                "minimum~": "objects/minimum~.md"
+            },
+            {
+                "cartopol": "objects/cartopol.md"
+            },
+            {
+                "rminus~": "objects/rminus~.md"
+            },
+            {
+                "cosh~": "objects/cosh~.md"
+            },
+            {
+                "rminus": "objects/rminus.md"
+            },
+            {
+                "tanh": "objects/tanh.md"
+            },
+            {
+                "clip~": "objects/clip~.md"
+            },
+            {
+                "sinx~": "objects/sinx~.md"
+            },
+            {
+                "asin": "objects/asin.md"
+            },
+            {
+                "acosh": "objects/acosh.md"
+            },
+            {
+                "poltocar": "objects/poltocar.md"
+            },
+            {
+                "dbtoa": "objects/dbtoa.md"
+            },
+            {
+                "maximum~": "objects/maximum~.md"
+            },
+            {
+                "frameaccum~": "objects/frameaccum~.md"
+            },
+            {
+                "acosh~": "objects/acosh~.md"
+            },
+            {
+                "cartopol~": "objects/cartopol~.md"
+            },
+            {
+                "cyclone": "objects/cyclone.md"
+            },
+            {
+                "count~": "objects/count~.md"
+            },
+            {
+                "pong": "objects/pong.md"
+            },
+            {
+                "poltocar~": "objects/poltocar~.md"
+            },
+            {
+                "average~": "objects/average~.md"
+            },
+            {
+                "sinh": "objects/sinh.md"
+            },
+            {
+                "accum": "objects/accum.md"
+            },
+            {
+                "trough": "objects/trough.md"
+            },
+            {
+                "framedelta~": "objects/framedelta~.md"
+            },
+            {
+                "mstosamps~": "objects/mstosamps~.md"
+            },
+            {
+                "tanx~": "objects/tanx~.md"
+            },
+            {
+                "sinh~": "objects/sinh~.md"
+            },
+            {
+                "scale~": "objects/scale~.md"
+            },
+            {
+                "acos~": "objects/acos~.md"
+            },
+            {
+                "plusequals~": "objects/plusequals~.md"
+            },
+            {
+                "atan~": "objects/atan~.md"
+            },
+            {
+                "kink~": "objects/kink~.md"
+            },
+            {
+                "avg~": "objects/avg~.md"
+            },
+            {
+                "clip": "objects/clip.md"
+            },
+            {
+                "atanh~": "objects/atanh~.md"
+            },
+            {
+                "allpass~": "objects/allpass~.md"
+            },
+            {
+                "cosh": "objects/cosh.md"
+            },
+            {
+                "minimum": "objects/minimum.md"
+            },
+            {
+                "snapshot~": "objects/snapshot~.md"
+            },
+            {
+                "rand~": "objects/rand~.md"
+            },
+            {
+                "greaterthan~": "objects/greaterthan~.md"
+            },
+            {
+                "atanh": "objects/atanh.md"
+            },
+            {
+                "minmax~": "objects/minmax~.md"
+            },
+            {
+                "modulo~": "objects/modulo~.md"
             }
         ],
         "Routing": [
@@ -1731,6 +1983,54 @@
             },
             {
                 "get~": "objects/get~.md"
+            },
+            {
+                "grab": "objects/grab.md"
+            },
+            {
+                "gate~": "objects/gate~.md"
+            },
+            {
+                "universal": "objects/universal.md"
+            },
+            {
+                "gate": "objects/gate.md"
+            },
+            {
+                "bondo": "objects/bondo.md"
+            },
+            {
+                "funnel": "objects/funnel.md"
+            },
+            {
+                "forward": "objects/forward.md"
+            },
+            {
+                "decode": "objects/decode.md"
+            },
+            {
+                "spray": "objects/spray.md"
+            },
+            {
+                "switch": "objects/switch.md"
+            },
+            {
+                "next": "objects/next.md"
+            },
+            {
+                "selector~": "objects/selector~.md"
+            },
+            {
+                "cycle": "objects/cycle.md"
+            },
+            {
+                "split": "objects/split.md"
+            },
+            {
+                "bucket": "objects/bucket.md"
+            },
+            {
+                "onebang": "objects/onebang.md"
             }
         ],
         "Envelopes": [
@@ -1832,6 +2132,12 @@
             },
             {
                 "adsr.m~": "objects/adsr.m~.md"
+            },
+            {
+                "curve~": "objects/curve~.md"
+            },
+            {
+                "line~": "objects/line~.md"
             }
         ],
         "LFOs": [
@@ -1926,6 +2232,12 @@
             },
             {
                 "sequencer~": "objects/sequencer~.md"
+            },
+            {
+                "seq": "objects/seq.md"
+            },
+            {
+                "counter": "objects/counter.md"
             }
         ],
         "MIDI": [
@@ -2123,6 +2435,45 @@
             },
             {
                 "sysrt.in": "objects/sysrt.in.md"
+            },
+            {
+                "borax": "objects/borax.md"
+            },
+            {
+                "xbendin": "objects/xbendin.md"
+            },
+            {
+                "sustain": "objects/sustain.md"
+            },
+            {
+                "xbendin2": "objects/xbendin2.md"
+            },
+            {
+                "xbendout2": "objects/xbendout2.md"
+            },
+            {
+                "xbendout": "objects/xbendout.md"
+            },
+            {
+                "flush": "objects/flush.md"
+            },
+            {
+                "midiparse": "objects/midiparse.md"
+            },
+            {
+                "seq": "objects/seq.md"
+            },
+            {
+                "midiflush": "objects/midiflush.md"
+            },
+            {
+                "xnotein": "objects/xnotein.md"
+            },
+            {
+                "midiformat": "objects/midiformat.md"
+            },
+            {
+                "xnoteout": "objects/xnoteout.md"
             }
         ]
     },
@@ -2228,6 +2579,18 @@
             },
             {
                 "comb.filt~": "objects/comb.filt~.md"
+            },
+            {
+                "teeth~": "objects/teeth~.md"
+            },
+            {
+                "comb~": "objects/comb~.md"
+            },
+            {
+                "allpass~": "objects/allpass~.md"
+            },
+            {
+                "delay~": "objects/delay~.md"
             }
         ],
         "Distortion": [
@@ -2269,6 +2632,15 @@
             },
             {
                 "circuit~": "objects/circuit~.md"
+            },
+            {
+                "lookup~": "objects/lookup~.md"
+            },
+            {
+                "overdrive~": "objects/overdrive~.md"
+            },
+            {
+                "kink~": "objects/kink~.md"
             }
         ],
         "Chorus/Flanger/Phaser": [
@@ -2295,6 +2667,9 @@
             },
             {
                 "phaser.m~": "objects/phaser.m~.md"
+            },
+            {
+                "delay~": "objects/delay~.md"
             }
         ],
         "Filters": [
@@ -2477,6 +2852,27 @@
             },
             {
                 "median~": "objects/median~.md"
+            },
+            {
+                "reson~": "objects/reson~.md"
+            },
+            {
+                "teeth~": "objects/teeth~.md"
+            },
+            {
+                "cross~": "objects/cross~.md"
+            },
+            {
+                "onepole~": "objects/onepole~.md"
+            },
+            {
+                "comb~": "objects/comb~.md"
+            },
+            {
+                "buffir~": "objects/buffir~.md"
+            },
+            {
+                "allpass~": "objects/allpass~.md"
             }
         ],
         "Dynamics": [
@@ -2560,6 +2956,9 @@
             },
             {
                 "dbgain~": "objects/dbgain~.md"
+            },
+            {
+                "peakamp~": "objects/peakamp~.md"
             }
         ]
     },
@@ -2596,6 +2995,9 @@
             },
             {
                 "pvoc.live~": "objects/pvoc.live~.md"
+            },
+            {
+                "framedelta~": "objects/framedelta~.md"
             }
         ],
         "Descriptors": [
@@ -2970,6 +3372,12 @@
             },
             {
                 "rms~": "objects/rms~.md"
+            },
+            {
+                "framedelta~": "objects/framedelta~.md"
+            },
+            {
+                "peakamp~": "objects/peakamp~.md"
             }
         ],
         "Score Follower": []
@@ -3461,6 +3869,9 @@
             },
             {
                 "sfz~": "objects/sfz~.md"
+            },
+            {
+                "play~": "objects/play~.md"
             }
         ],
         "Stochastic": [
@@ -3589,6 +4000,18 @@
             },
             {
                 "chance": "objects/chance.md"
+            },
+            {
+                "drunk": "objects/drunk.md"
+            },
+            {
+                "decide": "objects/decide.md"
+            },
+            {
+                "prob": "objects/prob.md"
+            },
+            {
+                "rand~": "objects/rand~.md"
             }
         ]
     },
@@ -3771,6 +4194,42 @@
             },
             {
                 "lastvalue": "objects/lastvalue.md"
+            },
+            {
+                "index~": "objects/index~.md"
+            },
+            {
+                "lookup~": "objects/lookup~.md"
+            },
+            {
+                "thresh": "objects/thresh.md"
+            },
+            {
+                "poke~": "objects/poke~.md"
+            },
+            {
+                "zl": "objects/zl.md"
+            },
+            {
+                "join": "objects/join.md"
+            },
+            {
+                "funbuff": "objects/funbuff.md"
+            },
+            {
+                "pak": "objects/pak.md"
+            },
+            {
+                "unjoin": "objects/unjoin.md"
+            },
+            {
+                "capture": "objects/capture.md"
+            },
+            {
+                "peek~": "objects/peek~.md"
+            },
+            {
+                "pv": "objects/pv.md"
             }
         ],
         "File IO": [
@@ -3851,6 +4310,24 @@
             },
             {
                 "score2": "objects/score2.md"
+            },
+            {
+                "capture~": "objects/capture~.md"
+            },
+            {
+                "funbuff": "objects/funbuff.md"
+            },
+            {
+                "seq": "objects/seq.md"
+            },
+            {
+                "coll": "objects/coll.md"
+            },
+            {
+                "mtr": "objects/mtr.md"
+            },
+            {
+                "capture": "objects/capture.md"
             }
         ],
         "Networking": [
@@ -3888,6 +4365,9 @@
             },
             {
                 "add": "objects/add.md"
+            },
+            {
+                "coll": "objects/coll.md"
             }
         ],
         "Patching": [
@@ -4112,6 +4592,21 @@
             },
             {
                 "click": "objects/click.md"
+            },
+            {
+                "universal": "objects/universal.md"
+            },
+            {
+                "funnel": "objects/funnel.md"
+            },
+            {
+                "buddy": "objects/buddy.md"
+            },
+            {
+                "loadmess": "objects/loadmess.md"
+            },
+            {
+                "pv": "objects/pv.md"
             }
         ],
         "Multichannel": [
@@ -4612,6 +5107,18 @@
             },
             {
                 "adsr.m~": "objects/adsr.m~.md"
+            },
+            {
+                "wave~": "objects/wave~.md"
+            },
+            {
+                "index~": "objects/index~.md"
+            },
+            {
+                "play~": "objects/play~.md"
+            },
+            {
+                "peek~": "objects/peek~.md"
             }
         ],
         "OSC": [
@@ -4880,6 +5387,90 @@
             },
             {
                 "trig2bang": "objects/trig2bang.md"
+            },
+            {
+                "gate": "objects/gate.md"
+            },
+            {
+                "capture~": "objects/capture~.md"
+            },
+            {
+                "forward": "objects/forward.md"
+            },
+            {
+                "peak": "objects/peak.md"
+            },
+            {
+                "tosymbol": "objects/tosymbol.md"
+            },
+            {
+                "thresh": "objects/thresh.md"
+            },
+            {
+                "speedlim": "objects/speedlim.md"
+            },
+            {
+                "zl": "objects/zl.md"
+            },
+            {
+                "buddy": "objects/buddy.md"
+            },
+            {
+                "next": "objects/next.md"
+            },
+            {
+                "spell": "objects/spell.md"
+            },
+            {
+                "counter": "objects/counter.md"
+            },
+            {
+                "cycle": "objects/cycle.md"
+            },
+            {
+                "split": "objects/split.md"
+            },
+            {
+                "count~": "objects/count~.md"
+            },
+            {
+                "accum": "objects/accum.md"
+            },
+            {
+                "listfunnel": "objects/listfunnel.md"
+            },
+            {
+                "capture": "objects/capture.md"
+            },
+            {
+                "substitute": "objects/substitute.md"
+            },
+            {
+                "scale~": "objects/scale~.md"
+            },
+            {
+                "loadmess": "objects/loadmess.md"
+            },
+            {
+                "iter": "objects/iter.md"
+            },
+            {
+                "bangbang": "objects/bangbang.md"
+            },
+            {
+                "clip": "objects/clip.md"
+            },
+            {
+                "onebang": "objects/onebang.md"
+            },
+            {
+                "uzi": "objects/uzi.md"
+            },
+            {
+                "bitsafe~": "objects/bitsafe~.md"
+            },
+            {
+                "sprintf": "objects/sprintf.md"
             }
         ],
         "Text": [
@@ -4915,6 +5506,21 @@
             },
             {
                 "note": "objects/note.md"
+            },
+            {
+                "fromsymbol": "objects/fromsymbol.md"
+            },
+            {
+                "tosymbol": "objects/tosymbol.md"
+            },
+            {
+                "comment": "objects/comment.md"
+            },
+            {
+                "spell": "objects/spell.md"
+            },
+            {
+                "sprintf": "objects/sprintf.md"
             }
         ]
     },
@@ -5014,6 +5620,15 @@
         },
         {
             "note": "objects/note.md"
+        },
+        {
+            "universal": "objects/universal.md"
+        },
+        {
+            "number~": "objects/number~.md"
+        },
+        {
+            "comment": "objects/comment.md"
         }
     ],
     "Graphics": [
@@ -5125,6 +5740,12 @@
         },
         {
             "keycode": "objects/keycode.md"
+        },
+        {
+            "mousestate": "objects/mousestate.md"
+        },
+        {
+            "mousefilter": "objects/mousefilter.md"
         }
     ]
 }

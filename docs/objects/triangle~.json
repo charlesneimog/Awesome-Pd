@@ -1,29 +1,27 @@
 {
-  "title": "triangle~",
-  "description": "`triangle~` is a triangular wavetable that is read with phase values from 0 to 1 into the first inlet- a `phasor~` input turns it into a wavetable oscillator. A second inlet changes the position of the peak value (variable duty, from 0 to 1), going from sawtooth like waveforms to triangular ones. The default lo/hi points are -1 and 1, but may be changed using the lo/hi messages to any given range.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-cyclone/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "cyclone",
-  "categories": [
-    "Oscillators",
-    "Patching",
-    "Subtractive"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "triangle~",
+    "description": "The `triangle~` object generates a variable-duty triangle waveform at signal rate. It uses a phase input (0-1) to read its internal wavetable, effectively creating an oscillator when driven by a `phasor~`. The second inlet controls the peak position, allowing for waveforms ranging from sawtooth to symmetric triangles, and its output range can be adjusted via `lo` and `hi` messages.",
+    "categories": [
+        "Oscillators"
+    ]
 }

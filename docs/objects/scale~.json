@@ -1,0 +1,28 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "scale~",
+    "description": "`scale~` maps an input signal range to an output signal range, supporting both linear and exponential scaling. It does not clip values that fall outside the defined input range, continuing the scaling beyond the boundaries. The mapping can also be inverted by reversing one of the ranges.",
+    "categories": [
+        "Math",
+        "General Utilities"
+    ]
+}

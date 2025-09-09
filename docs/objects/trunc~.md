@@ -1,6 +1,6 @@
 # trunc~
 
-The `trunc~` object truncates an audio signal towards zero, effectively retaining only the integer part of the signal's value. It supports multichannel connections, allowing it to process multiple audio streams simultaneously.
+The `trunc~` object truncates an audio signal towards zero, effectively taking only the integer part of each sample's value. It operates on signals and supports multichannel connections, making it suitable for signal processing where integer-like values are desired.
 
 ---
 
@@ -10,9 +10,9 @@ The `trunc~` object truncates an audio signal towards zero, effectively retainin
 ---
 
 <div class="grid cards" markdown>
-- :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `trunc~` or any other object from `else`._</p>
+- :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>cyclone</code> and install it. Then create an object with `declare -lib cyclone -path cyclone`. Finally, use `trunc~` or any other object from `cyclone`._</p>
 - :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
-- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
+- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-cyclone/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>
 

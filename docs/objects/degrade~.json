@@ -1,0 +1,25 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "degrade~",
+    "description": "The `degrade~` object processes an audio signal, reducing its sampling rate and bit depth. It takes the input signal in its left inlet, with the middle and right inlets controlling the desired sample rate (0-1) and bit depth (1-24) respectively. This object is useful for simulating lower fidelity audio or creating intentional digital distortion effects.",
+    "categories": []
+}

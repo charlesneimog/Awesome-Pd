@@ -1,29 +1,27 @@
 {
-  "title": "grab",
-  "description": "`grab` sets the value of GUIs but also grabs its ouotput. See how when you send it number values, the number box is set but doesn't output anything.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-cyclone/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "cyclone",
-  "categories": [
-    "Procedures",
-    "Logic",
-    "Patching"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "grab",
+    "description": "The `grab` object in Pure Data sends a message to another object and captures its output, routing it through `grab`'s own outlets. It can be configured with a numerical argument to specify the number of outlets, allowing it to grab multiple outputs from a single source. Additionally, `grab` can be linked to a `receive` object via a symbol argument, enabling it to retrieve values from objects connected to that `receive` or even directly from GUI elements, making it useful for data retrieval and preset management.",
+    "categories": [
+        "Routing"
+    ]
 }

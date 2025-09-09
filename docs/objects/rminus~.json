@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "rminus~",
+    "description": "The `rminus~` (or `!-~`) object performs subtraction on audio signals. It functions similarly to the `~` object, but with its inlets reversed: the signal received in the right (cold) inlet is subtracted from the signal in the left (hot) inlet. This allows for flexible signal manipulation where the order of subtraction is critical.",
+    "categories": [
+        "Math"
+    ]
+}

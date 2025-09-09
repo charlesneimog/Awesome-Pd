@@ -1,12 +1,17 @@
 # sampstoms~
 
-`sampstoms~` works with floats and signal. A signal input converts only to the signal outlet, but a float input converts to both float and signal output. When a signal input is present, the float input is ignored.
-
+The `sampstoms~` object converts a time value from samples to milliseconds, adjusting for the current sample rate. It accepts both float and signal inputs, outputting a signal when a signal is received, or both float and signal outputs for a float input. This object is primarily used for precise timing calculations within a Pure Data patch.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>cyclone</code> and install it. Then create an object with `declare -lib cyclone -path cyclone`. Finally, use `sampstoms~` or any other object from `cyclone`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-cyclone/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

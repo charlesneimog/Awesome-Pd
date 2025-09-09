@@ -1,6 +1,6 @@
 # pink~
 
-`pink~` generates pink noise, characterized by constant power per octave and a 3dB per octave decrease in spectral power, making it sound less harsh than white noise. It utilizes a pseudo-random number generator and supports multi-channel output and reproducible sequences via seeding.
+The `pink~` object generates pink noise, an audio signal characterized by constant power per octave, with its energy decreasing by 3dB per octave. It supports setting a seed for reproducible noise sequences and allows adjustment of the "pinkness" by specifying the number of octaves.
 
 ---
 
@@ -10,9 +10,9 @@
 ---
 
 <div class="grid cards" markdown>
-- :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `pink~` or any other object from `else`._</p>
+- :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>cyclone</code> and install it. Then create an object with `declare -lib cyclone -path cyclone`. Finally, use `pink~` or any other object from `cyclone`._</p>
 - :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
-- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
+- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-cyclone/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>
 

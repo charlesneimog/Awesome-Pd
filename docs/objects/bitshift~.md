@@ -1,12 +1,17 @@
 # bitshift~
 
-`bitshift~` can produce NaNs and +/-INFs - but denormals are zeroed out. The operation is done in two modes (see below).
-
+`bitshift~` performs bitwise shifting on an incoming signal, moving its bit values to the left or right. The direction and number of shifts are determined by a control input, with positive values shifting left and negative values shifting right. It offers two modes: one that operates directly on the signal's 32-bit floating-point representation and another that first converts the signal to an integer.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>cyclone</code> and install it. Then create an object with `declare -lib cyclone -path cyclone`. Finally, use `bitshift~` or any other object from `cyclone`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-cyclone/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

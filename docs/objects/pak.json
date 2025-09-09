@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pak",
+    "description": "The `pak` object creates a list from its inlets, similar to `pack`. However, any incoming message to any inlet will trigger the output of the complete list. The `set` message can be used to update inlet values without triggering an output, which can then be forced by a `bang`.",
+    "categories": [
+        "Data Structures"
+    ]
+}

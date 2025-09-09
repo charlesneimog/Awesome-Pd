@@ -1,29 +1,28 @@
 {
-  "title": "spell",
-  "description": "`spell` takes any message and converts each containing digit and character to UTF-8 (Unicode) values (`spell` doesn't understand non-integer float messages). The 1st argument sets the minimum output size. If the input doesn't \"spell\" to the minimum, the output is filled with characters (32 space character by default and specified by 2nd argumment).\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-cyclone/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "cyclone",
-  "categories": [
-    "Procedures",
-    "Algorithm Composition",
-    "Data Structures"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "spell",
+    "description": "The `spell` object converts incoming messages, character by character, into their corresponding UTF-8 (Unicode) integer values. It can process symbols and lists of numbers/characters, outputting a list of integers. Optionally, the output can be padded to a minimum size with a specified fill character, making it useful for formatting text data.",
+    "categories": [
+        "Text",
+        "General Utilities"
+    ]
 }

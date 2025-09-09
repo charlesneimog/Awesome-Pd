@@ -1,12 +1,17 @@
 # anal
 
-`anal` reports how many times it received a number pair. It is designed to serve as input to `cyclone/prob` mostly to implement Markov Chains. The output is composed of: 1) the previously received number, 2) current input number, 3) occurrence (how many times this number pair has been received).
-
+The `anal` object reports the number of times it receives a specific number pair, effectively building a histogram of occurrences. It is primarily used as input for `cyclone/prob` to implement Markov Chains, allowing for the creation of transition probabilities between data points.
 
 ---
+
+!!! info "AI Generated"
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+
+---
+
 <div class="grid cards" markdown>
 - :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>cyclone</code> and install it. Then create an object with `declare -lib cyclone -path cyclone`. Finally, use `anal` or any other object from `cyclone`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Porres**.
+- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
 - :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-cyclone/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>

@@ -1,29 +1,28 @@
 {
-  "title": "record~",
-  "description": "`record~` records up to 64 signal channels into arrays. By default, recording stops when the array is filled.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-cyclone/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "cyclone",
-  "categories": [
-    "Data Structures",
-    "Multichannel",
-    "Procedures"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "record~",
+    "description": "The `record~` object captures audio signals and stores them into Pure Data arrays, supporting up to 64 channels. It offers control over recording behavior, including starting/stopping, looping sections, and appending new audio to existing recordings within the array. A sync signal is output to indicate recording progress.",
+    "categories": [
+        "Data Structures",
+        "Multichannel"
+    ]
 }

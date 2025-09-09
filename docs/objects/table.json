@@ -1,29 +1,27 @@
 {
-  "title": "table",
-  "description": "`table` stores and edits a number array. You can graphically edit it by opening it or double clicking on it. There are also several message methods, check it below.\n",
-  "runs_on": [
-    "Mac",
-    "Linux",
-    "Windows"
-  ],
-  "download_link": "",
-  "available_on_deken": true,
-  "bug_reports": "https://github.com/porres/pd-cyclone/issues",
-  "developers": [
-    "Alexandre Porres"
-  ],
-  "part_of_library": true,
-  "library_name": "cyclone",
-  "categories": [
-    "Data Structures",
-    "Patching",
-    "Procedures"
-  ],
-  "category_groups": [],
-  "articles": [],
-  "videos": [],
-  "musics": [],
-  "contributors": [
-    "charlesneimog"
-  ]
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "table",
+    "description": "The `table` object in Pure Data stores and manipulates a numerical array. It provides methods for graphical editing, setting and retrieving values, performing basic mathematical operations (e.g., sum, min, max), and loading/saving data from/to files. Multiple `table` instances can share the same data by assigning them a common name.",
+    "categories": [
+        "Data Structures"
+    ]
 }

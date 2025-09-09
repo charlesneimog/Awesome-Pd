@@ -398,7 +398,6 @@ updateList();
 - :material-tune: [__pimpmul~__](../objects/pimpmul~.md) `pimpmul~` is a signal object designed to multiply the phase signal of `pimp~` or `phasor~` objects.
 - :material-tune: [__pimp~__](../objects/pimp~.md) The `pimp~` object is an impulse oscillator that combines the functionality of `phasor~` and `else/imp~`.
 - :material-tune: [__ping.pong~__](../objects/ping.pong~.md) The `ping.pong~` object is an audio effect that creates a ping-pong delay.
-- :material-tune: [__pink~__](../objects/pink~.md) `pink~` generates pink noise, characterized by constant power per octave and a 3dB per octave decrease in spectral power, making it sound less harsh than white noise.
 - :material-tune: [__pipe2__](../objects/pipe2.md) The `pipe2` object functions similarly to Pure Data's vanilla `pipe` object, delaying incoming messages.
 - :material-tune: [__pitch.shift~__](../objects/pitch.shift~.md) `pitch.shift~` is a pitch shifter object that transposes audio signals up or down.
 - :material-tune: [__plaits.m~__](../objects/plaits.m~.md) The `plaits.m~` object is a versatile polyphonic sound synthesis module, wrapping the `[plaits~]` external.
@@ -500,7 +499,6 @@ updateList();
 - :material-tune: [__schmitt__](../objects/schmitt.md) The `schmitt` object implements a Schmitt trigger, a comparator with hysteresis.
 - :material-tune: [__schmitt~__](../objects/schmitt~.md) The `schmitt~` object implements a Schmitt trigger, converting an input signal into a binary output (1 or 0) based on two distinct threshold levels.
 - :material-tune: [__scope3d~__](../objects/scope3d~.md) The `scope3d~` object is an experimental 3D oscilloscope display for Pure Data.
-- :material-tune: [__scope~__](../objects/scope~.md) The `scope~` object functions as an oscilloscope display for audio signals in Pure Data.
 - :material-tune: [__score__](../objects/score.md) The `score` object is a Pure Data score sequencer that uses a custom text-based syntax to define musical events.
 - :material-tune: [__score2__](../objects/score2.md) The `score2` object is a sequencer that plays back musical scores using a rhythmic notation syntax similar to `pattern`.
 - :material-tune: [__scramble__](../objects/scramble.md) The `scramble` object reorders the elements of an input message.
@@ -570,7 +568,6 @@ updateList();
 - :material-tune: [__tabreader__](../objects/tabreader.md) The `tabreader` object reads values from a Pure Data array (table), supporting various interpolation methods like `lin`, `cos`, and `spline`.
 - :material-tune: [__tabreader~__](../objects/tabreader~.md) The `tabreader~` object reads signal data from a Pure Data array (table).
 - :material-tune: [__tabwriter~__](../objects/tabwriter~.md) The `tabwriter~` object records incoming audio signals into Pure Data arrays.
-- :material-tune: [__tanh~__](../objects/tanh~.md) The `tanh~` object calculates the hyperbolic tangent function of an input signal.
 - :material-tune: [__tap__](../objects/tap.md) The `tap` object detects tempo by analyzing the time interval between two consecutive bangs or the duration a gate is held open.
 - :material-tune: [__tempo__](../objects/tempo.md) The `tempo` object functions as a versatile metronome, sending bangs at a specified rate in BPM, milliseconds, or Hertz.
 - :material-tune: [__tempo~__](../objects/tempo~.md) The `tempo~` object functions as a metronome, generating impulses at a specified tempo in BPM, milliseconds, or Hertz.
@@ -587,7 +584,6 @@ updateList();
 - :material-tune: [__trighold~__](../objects/trighold~.md) The `trighold~` object in Pure Data holds an audio signal's value when a trigger occurs.
 - :material-tune: [__tri~__](../objects/tri~.md) `tri~` is a triangular wave oscillator that generates audio signals.
 - :material-tune: [__trunc__](../objects/trunc.md) The `trunc` object truncates floating-point numbers and lists of numbers towards zero, effectively extracting their integer part.
-- :material-tune: [__trunc~__](../objects/trunc~.md) The `trunc~` object truncates an audio signal towards zero, effectively retaining only the integer part of the signal's value.
 - :material-tune: [__unite__](../objects/unite.md) The `unite` object concatenates incoming messages and converts them into a single symbol message.
 - :material-tune: [__unmerge__](../objects/unmerge.md) The `unmerge` object splits an incoming message into multiple sub-messages, distributing elements into groups of a specified size across its outlets.
 - :material-tune: [__unmerge~__](../objects/unmerge~.md) `unmerge~` separates the channels of a multichannel signal into groups of a specified size.
