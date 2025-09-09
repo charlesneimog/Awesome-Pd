@@ -1,0 +1,36 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/ch-nry/pd-pmpd/issues",
+    "developers": [
+        "Cyrille Henry"
+    ],
+    "part_of_library": true,
+    "library_name": "pmpd",
+    "articles": [
+        {
+            "title": "Physical modeling for pure data (PMPD) and real-time interaction with an audio synthesis",
+            "authors": [
+                "Cyrille Henry"
+            ],
+            "link": "https://hal.science/hal-03354371/"
+        }
+    ],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "tSphere3D",
+    "description": "The `tSphere3D` object performs a spherical test to determine if a \"mass\" (likely a point or object) is located within a defined 3D spherical region. It takes the X, Y, Z coordinates of the sphere's center and its minimum and maximum radii as parameters. The object outputs a boolean (0 or 1) indicating whether the mass is inside the specified spherical boundaries.",
+    "categories": [
+        "Logic",
+        "Math"
+    ]
+}

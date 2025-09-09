@@ -1136,6 +1136,12 @@
             },
             {
                 "bitshift~": "objects/bitshift~.md"
+            },
+            {
+                "tSphere3D": "objects/tSphere3D.md"
+            },
+            {
+                "tCube3D": "objects/tCube3D.md"
             }
         ],
         "Math": [
@@ -1780,6 +1786,33 @@
             },
             {
                 "modulo~": "objects/modulo~.md"
+            },
+            {
+                "pmpd2d": "objects/pmpd2d.md"
+            },
+            {
+                "mass3D": "objects/mass3D.md"
+            },
+            {
+                "tCylinder3D": "objects/tCylinder3D.md"
+            },
+            {
+                "mass2D": "objects/mass2D.md"
+            },
+            {
+                "iCircle2D": "objects/iCircle2D.md"
+            },
+            {
+                "link": "objects/link.md"
+            },
+            {
+                "tLine2D": "objects/tLine2D.md"
+            },
+            {
+                "tSphere3D": "objects/tSphere3D.md"
+            },
+            {
+                "iAmbient2D": "objects/iAmbient2D.md"
             }
         ],
         "Routing": [
@@ -3831,6 +3864,72 @@
             },
             {
                 "pluck.m~": "objects/pluck.m~.md"
+            },
+            {
+                "tLink2D": "objects/tLink2D.md"
+            },
+            {
+                "mass": "objects/mass.md"
+            },
+            {
+                "pmpd2d": "objects/pmpd2d.md"
+            },
+            {
+                "link3D": "objects/link3D.md"
+            },
+            {
+                "pmpd~": "objects/pmpd~.md"
+            },
+            {
+                "mass3D": "objects/mass3D.md"
+            },
+            {
+                "mass2D": "objects/mass2D.md"
+            },
+            {
+                "tLink3D": "objects/tLink3D.md"
+            },
+            {
+                "iCircle2D": "objects/iCircle2D.md"
+            },
+            {
+                "iCircle3D": "objects/iCircle3D.md"
+            },
+            {
+                "pmpd3d": "objects/pmpd3d.md"
+            },
+            {
+                "link2D": "objects/link2D.md"
+            },
+            {
+                "tPlane3D": "objects/tPlane3D.md"
+            },
+            {
+                "link": "objects/link.md"
+            },
+            {
+                "iLine2D": "objects/iLine2D.md"
+            },
+            {
+                "pmpd2d~": "objects/pmpd2d~.md"
+            },
+            {
+                "iSeg2D": "objects/iSeg2D.md"
+            },
+            {
+                "iPlane3D": "objects/iPlane3D.md"
+            },
+            {
+                "pmpd": "objects/pmpd.md"
+            },
+            {
+                "iCylinder3D": "objects/iCylinder3D.md"
+            },
+            {
+                "pmpd3d~": "objects/pmpd3d~.md"
+            },
+            {
+                "iAmbient3D": "objects/iAmbient3D.md"
             }
         ],
         "Samplers": [
@@ -4230,6 +4329,9 @@
             },
             {
                 "pv": "objects/pv.md"
+            },
+            {
+                "pmpd": "objects/pmpd.md"
             }
         ],
         "File IO": [
@@ -4607,6 +4709,9 @@
             },
             {
                 "pv": "objects/pv.md"
+            },
+            {
+                "active": "objects/active.md"
             }
         ],
         "Multichannel": [
@@ -5119,6 +5224,12 @@
             },
             {
                 "peek~": "objects/peek~.md"
+            },
+            {
+                "pmpd~": "objects/pmpd~.md"
+            },
+            {
+                "pmpd3d~": "objects/pmpd3d~.md"
             }
         ],
         "OSC": [
@@ -5658,6 +5769,12 @@
         },
         {
             "slider2d": "objects/slider2d.md"
+        },
+        {
+            "tLink3D": "objects/tLink3D.md"
+        },
+        {
+            "pmpd3d": "objects/pmpd3d.md"
         }
     ],
     "Audio IO": [

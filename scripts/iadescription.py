@@ -4,13 +4,13 @@ import json
 import subprocess
 from typing import Dict, Any, List, Tuple
 
-LIBRARY_HELP_FILES = "/home/neimog/Documents/Pd/externals/else/"
+LIBRARY_HELP_FILES = "/home/neimog/Documents/Pd/externals/pmpd"
 
-CATEGORIES_DESCRIPTIONS = {
+CATEGORIES_DESCRIPTIONS: Dict[str, str] = {
     "Machine Learning": "General machine learning algorithms or tools.",
     "Deep Learning": "Neural networks and deep learning models.",
-    "Neural Networks": "Artificial neural network structures.",
-    "Statical Models": "Statistical modeling tools.",
+    "Neural Networks": "Artificial neural network structures used in AI.",
+    "Statical Models": "Statistical modeling tools used in AI.",
     "Algorithm Composition": "Tools for composing or chaining algorithms.",
     "Procedures": "Procedural logic or control.",
     "Logic": "Boolean logic or logical operations.",
@@ -26,16 +26,16 @@ CATEGORIES_DESCRIPTIONS = {
     "Chorus/Flanger/Phaser": "Modulation effects: chorus, flanger, phaser.",
     "Filters": "Audio filters for modifying frequency response.",
     "Dynamics": "Compression, expansion, or other dynamic range processing.",
-    "Partial Tracking": "Analysis, tracking or Synthesis of partials in audio.",
-    "Descriptors": "Audio descriptors or feature extraction. FFT, Pitch, chroma, cepstrum, etc...",
-    "Score Follower": "Follows musical score in real-time.",
+    "Partial Tracking": "Analysis, tracking, or synthesis of partials in audio.",
+    "Descriptors": "Audio descriptors or feature extraction (e.g., FFT, pitch, chroma, cepstrum).",
+    "Score Follower": "Follows a musical score in real-time.",
     "VST2/VST3": "VST plugin support.",
     "Vamp": "Vamp plugin support.",
     "LADSPA": "LADSPA plugin support.",
     "AU": "Audio Unit plugin support.",
     "Ambisonics": "Ambisonic audio tools.",
     "Binaural": "Binaural audio tools.",
-    "VBAP": "VBAP audio toools.",
+    "VBAP": "VBAP audio tools.",
     "Subtractive": "Subtractive synthesis.",
     "Additive": "Additive synthesis.",
     "Granular": "Granular synthesis.",
@@ -45,62 +45,66 @@ CATEGORIES_DESCRIPTIONS = {
     "Stochastic": "Stochastic/random processes.",
     "Data Structures": "Data storage and manipulation.",
     "File IO": "File input/output.",
-    "Networking": "Network communication, http, https, websocket, etc.",
+    "Networking": "Network communication (e.g., HTTP, HTTPS, WebSocket).",
     "MultiThreading": "Multi-threaded processing.",
-    "Patching": "Patch management, dynamic patching.",
+    "Patching": "Patch management or dynamic patching.",
     "Multichannel": "Multichannel audio support.",
-    #
-    "GUI": "Gui objects, they show something in the patch (keyboards, sliders, knob).",
+    "GUI": "GUI objects that render widgets in the patch (e.g., keyboards, sliders, knobs).",
     "Graphics": "Objects for visual rendering and graphics (e.g., GEM, video, OpenGL).",
-    "Audio IO": "Audio input/output objects for interfacing with sound devices (e.g., adc~, dac~).",
-    "Control IO": "Objects for receiving input from keyboard, mouse, joystick, and other HID devices.",
-    "General Utilities": "Utilities general, system command, and others",
-    "Text": "Objects to process text",
-    "OSC": "Object that work with Open Sound Control (OSC)",
-    "Extensions": "Objects that can be used to write object in another languages other than C (pdlua, py4pd)",
+    "Audio IO": "Audio input/output interfaces for sound devices (e.g., adc~, dac~).",
+    "Control IO": "Objects for input from keyboard, mouse, joystick, and other HID devices.",
+    "General Utilities": "General utilities (e.g., system commands, helpers).",
+    "Text": "Objects to parse or manipulate text.",
+    "OSC": "Objects that work with Open Sound Control (OSC).",
+    "Extensions": "Objects that enable writing externals in other languages than C (e.g., pdlua, py4pd).",
 }
 
-_seen = set()
-CATEGORIES: List[str] = []
-for c in CATEGORIES_RAW:
-    if c not in _seen:
-        _seen.add(c)
-        CATEGORIES.append(c)
+# Stable ordered list of category keys
+CATEGORIES: List[str] = list(CATEGORIES_DESCRIPTIONS.keys())
 
 PROMPT_TEMPLATE = """You are both a technical writer and a classifier.
 Task:
-1) Produce a concise, clear English description (2–3 sentences max) of the Pure Data object described by the following help patch. Focus on what the object does, its purpose, and key usage hints if they are evident. Keep it simple and practical. Also put all pd objects as code block using the name between ``.
+1) Write a concise, clear English description (2–3 sentences max) of the Pure Data object described by the help patch. Focus on what the object does, its purpose, and any evident usage hints. Keep it simple, practical, and readable. Wrap Pure Data object names in inline code using backticks (e.g., `osc~`, `route`, `nn~`).
 2) Score ALL categories (listed below) with a confidence between 0.0 and 1.0 for how well the object's functionality fits each category, using the provided category descriptions for guidance.
 
-Important: Use the exact category name as the key for scoring, but use the description to understand what each category means.
+Important: Use the exact category name as the key for scoring, but rely on the category description to understand what each category means.
 
 Output rules:
 - Return ONLY a valid JSON object (no markdown and no extra text).
 - The JSON must have exactly these top-level keys:
-  - "description": string (can use markdown)
+  - "description": string (markdown allowed)
   - "scores": object mapping each category name to a float (0.0–1.0)
 - The "scores" object MUST include EVERY category key exactly as provided (same spelling).
 - Values in "scores" MUST be numbers (floats). If a category does not apply, use 0.0.
 - Do not add or remove keys. Do not include comments.
 - No trailing commas.
 
-Categories (as a JSON object: key = category name, value = description):
+Categories (JSON object where key = category name, value = description):
 {CATEGORIES_DESCRIPTIONS_JSON}
 
 Object title:
 {TITLE}
 
-Help Patch (.pd text):
+Help Patch (.pd text): The content below is delimited by triple pipes. Treat everything between the delimiter lines as the literal .pd help patch text. Do not include the delimiters in your reasoning.
 ```pd
-{PATCH_TEXT}```
+{PATCH_TEXT}
+```
 """
 
 
 def _build_prompt(title: str, patch_text: str) -> str:
+    all_lines = []
+    for line in patch_text.splitlines():
+        if line.split(" ")[0] == "#X" and line.split(" ")[1] == "text":
+            all_lines.append(line)
+
+    filtered_patch = " ".join(all_lines)
     return PROMPT_TEMPLATE.format(
-        CATEGORIES_JSON=json.dumps(CATEGORIES, ensure_ascii=False),
+        CATEGORIES_DESCRIPTIONS_JSON=json.dumps(
+            CATEGORIES_DESCRIPTIONS, ensure_ascii=False, indent=2
+        ),
         TITLE=title.strip(),
-        PATCH_TEXT=patch_text.strip(),
+        PATCH_TEXT=filtered_patch,
     )
 
 
@@ -113,15 +117,7 @@ def _run_gemini(prompt: str, model: str = "gemini-2.5-flash") -> str:
     env["NODE_NO_WARNINGS"] = "1"  # silence Node warnings
     env["NO_COLOR"] = "1"  # plain output
 
-    cmd = [
-        "gemini",
-        "-m",
-        model,
-        "--approval-mode",
-        "yolo",
-        "-p",
-        prompt,
-    ]
+    cmd = ["gemini", "-m", model, "--approval-mode", "yolo", "-p", prompt]
     result = subprocess.run(
         cmd,
         stdout=subprocess.PIPE,
@@ -192,6 +188,7 @@ def build_description_and_categories(
     model: str = "gemini-2.5-flash",
     top_n: int = 3,
     threshold: float = 0.0,
+    aider: bool = False,
 ) -> Dict[str, Any]:
     """
     Build a concise English description and top-3 categories for a PD object using a .pd help patch.
@@ -208,11 +205,14 @@ def build_description_and_categories(
     Returns:
       - The merged JSON dict with title, description, and categories filled in.
     """
-    with open(help_patch_path, "r", encoding="utf-8") as f:
+    with open(help_patch_path, "r", encoding="utf-8", errors="replace") as f:
         patch_text = f.read()
 
     prompt = _build_prompt(title, patch_text)
-    stdout = _run_gemini(prompt, model=model)
+    if aider:
+        stdout = _run_gemini(prompt, model=model)
+    else:
+        stdout = _run_gemini(prompt, model=model)
     payload = _extract_json(stdout)
 
     # Validate structure
@@ -243,35 +243,66 @@ def build_description_and_categories(
     return out
 
 
-# Example usage (commented):
-base = {
-    "runs_on": ["Mac", "Linux", "Windows"],
-    "download_link": "",
-    "available_on_deken": True,
-    "bug_reports": "https://github.com/porres/pd-else/issues",
-    "developers": ["William Brent"],
-    "part_of_library": True,
-    "library_name": "else",
-    "articles": [],
-    "videos": [],
-    "musics": [],
-    "contributors": ["charlesneimog"],
-    "ai": True,
-}
+# Example usage
+errors_processing = []
+if __name__ == "__main__":
+    base = {
+        "runs_on": ["Mac", "Linux", "Windows"],
+        "download_link": "",
+        "available_on_deken": True,
+        "bug_reports": "https://github.com/ch-nry/pd-pmpd/issues",
+        "developers": ["Cyrille Henry"],
+        "part_of_library": True,
+        "library_name": "pmpd",
+        "articles": [
+            {
+                "title": "Physical modeling for pure data (PMPD) and real-time interaction with an audio synthesis",
+                "authors": [
+                    "Cyrille Henry",
+                ],
+                "link": "https://hal.science/hal-03354371/",
+            }
+        ],
+        "videos": [],
+        "musics": [],
+        "contributors": ["charlesneimog"],
+        "ai": True,
+    }
 
-for help in os.listdir(LIBRARY_HELP_FILES):
-    if help.endswith("-help.pd"):
-        file = os.path.join(LIBRARY_HELP_FILES, help)
-        print(f"Processing {help}...")
-        name = help.replace("-help.pd", "")
-        json_name = f"{name}.json"
-        result = build_description_and_categories(
-            title=name,
-            help_patch_path=file,
-            base_json=base,
-            model="gemini-2.5-flash",
-            top_n=3,
-            threshold=0.9,
-        )
-        with open(json_name, "w") as f:
-            json.dump(result, f, indent=4)
+    count = 0
+    for help_fname in os.listdir(LIBRARY_HELP_FILES):
+        if help_fname.endswith("-help.pd"):
+            count += 1
+
+    processed_count = 0
+    for help_fname in os.listdir(LIBRARY_HELP_FILES):
+        if help_fname.endswith("-help.pd"):
+            processed_count += 1
+            file_path = os.path.join(LIBRARY_HELP_FILES, help_fname)
+            name = help_fname.replace("-help.pd", "")
+            json_name = f"{name}.json"
+            if os.path.exists(json_name):
+                continue
+
+            try:
+                print(
+                    f"Processing {processed_count:04} of {count:04} | {help_fname}..."
+                )
+                result = build_description_and_categories(
+                    title=name,
+                    help_patch_path=file_path,
+                    base_json=base,
+                    model="gemini-2.5-flash",
+                    top_n=3,
+                    threshold=0.9,  # consider lowering if you often get 0 categories
+                    aider=False,
+                )
+                with open(json_name, "w", encoding="utf-8") as f:
+                    json.dump(result, f, ensure_ascii=False, indent=4)
+            except Exception as e:
+                print(f"[ERROR] {help_fname}: {e}")
+                errors_processing.append([help_fname, e])
+
+with open("../errors.json", "w") as f:
+    json.dump(errors_processing, f, indent=4)
+

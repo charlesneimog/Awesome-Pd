@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/ch-nry/pd-pmpd/issues",
+    "developers": [
+        "Cyrille Henry"
+    ],
+    "part_of_library": true,
+    "library_name": "pmpd",
+    "articles": [
+        {
+            "title": "Physical modeling for pure data (PMPD) and real-time interaction with an audio synthesis",
+            "authors": [
+                "Cyrille Henry"
+            ],
+            "link": "https://hal.science/hal-03354371/"
+        }
+    ],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "iSphere3D",
+    "description": "The `iSphere3D` object simulates interactions between a \"mass\" and a 3D spherical boundary. It allows defining the sphere's position and radius, and applies various forces and displacements (e.g., constant, proportional to distance, damped) to the interacting mass based on its proximity to the sphere's surface. This object is designed for physical interaction simulations in a 3D space.",
+    "categories": []
+}

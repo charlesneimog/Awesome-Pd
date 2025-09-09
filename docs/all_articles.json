@@ -1,5 +1,12 @@
 [
     {
+        "title": "Physical modeling for pure data (PMPD) and real-time interaction with an audio synthesis",
+        "authors": [
+            "Cyrille Henry"
+        ],
+        "link": "https://hal.science/hal-03354371/"
+    },
+    {
         "title": "Hierarchical temporal learning for multi-instrument and orchestral audio synthesis",
         "authors": [
             "Hierarchical temporal learning for multi-instrument and orchestral audio synthesis"

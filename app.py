@@ -344,7 +344,6 @@ nicknames.forEach(nick => {{
 
         # TODO: Put this in another function
         for lib in libraries:
-            print(lib)
             thislib = libraries[lib]
             file = f"docs/libraries/{lib}.json"
             if not os.path.exists(file):
@@ -391,6 +390,7 @@ nicknames.forEach(nick => {{
     def update_main_json_of_objects(self):
         all_files = os.listdir(self.THIS_DIR + "/docs/objects")
         print("")
+        print("Updating main object json")
         for file in all_files:
             json_path = self.THIS_DIR + f"/docs/objects/{file}"
             if file.endswith(".json"):
@@ -399,7 +399,6 @@ nicknames.forEach(nick => {{
 
                 obj_name = object_data["title"]
                 categories = object_data["categories"]
-                print("Adding object", obj_name)
                 for category in categories:
                     if self.found_category(
                         category, {obj_name: f"objects/{obj_name}.md"}
@@ -412,6 +411,64 @@ nicknames.forEach(nick => {{
                             json.dump(self.objects, f, indent=4, ensure_ascii=False)
                     else:
                         raise Exception(f"Categoria '{category}' não encontrada")
+
+    def build_obj_abs_nav(self, d: dict) -> dict:
+        """ """
+        objdir = "docs/objects/"
+        files = os.listdir(objdir)
+        categories = {}
+
+        for file in files:
+            if file.endswith(".json"):
+                with open(f"{objdir}{file}", "r") as f:
+                    data = json.load(f)
+
+                # TODO: replace by get
+                name = data["title"]
+                description = data["description"].split(". ")[0] + "."
+                for category in data["categories"]:
+                    if category not in categories:
+                        categories[category] = []
+                    categories[category].append([name, description])
+
+    def obj_dict_to_nav(self, d: dict) -> list:
+        """
+        Convert a nested dict to a mkdocs 'nav' list structure for Objects & Abstractions.
+        - "Object of day" always comes first if present.
+        - Dicts recurse into obj_dict_to_nav.
+        - Lists collapse into a single .md entry under categories/.
+        """
+        nav_list = []
+
+        def normalize(name: str) -> str:
+            return name.lower().replace(" ", "_").replace("/", "_")
+
+        # Force "Object of day" to the front if present
+        if "Object of day" in d:
+            value = d["Object of day"]
+            if isinstance(value, dict):
+                nav_list.append({"Object of day": self.obj_dict_to_nav(value)})
+            elif isinstance(value, list):
+                nav_list.append({"Object of day": f"categories/{normalize('Object of day')}.md"})
+            else:
+                nav_list.append({"Object of day": value})
+
+        # Process the rest in sorted order
+        for key, value in sorted(d.items()):
+            if key == "Object of day":
+                continue
+
+            if isinstance(value, dict):
+                nav_list.append({key: self.obj_dict_to_nav(value)})
+
+            elif isinstance(value, list):
+                nav_list.append({key: f"categories/{normalize(key)}.md"})
+
+            else:
+                nav_list.append({key: value})
+
+        return nav_list
+
 
     def dict_to_nav(self, d: dict) -> list:
         """
@@ -494,7 +551,8 @@ nicknames.forEach(nick => {{
         self.update_main_json_of_objects()
 
         # Build "Objects & Abstractions" navigation
-        nav.append({"Objects & Abstractions": self.dict_to_nav(self.objects)})
+        # obj_abs_nav = self.build_obj_abs_nav(self.objects)
+        nav.append({"Objects & Abstractions": self.obj_dict_to_nav(self.objects)})
 
         # Build Libraries pages + map
         libraries: Dict[str, List[List[str]]] = {}
@@ -573,12 +631,11 @@ async function updateList() {{
 updateList();
 </script>\n\n
 """
-
             libmarkdownfile += '<h2>Objects</h2>\n\n<div class="grid cards" markdown>\n'
             objects_list = libraries[lib]
-
             for obj in sorted(objects_list):
                 text = obj[1]
+                # remove links
                 text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
                 libmarkdownfile += (
                     f"- :material-tune: [__{obj[0]}__](../objects/{obj[0]}.md) {text}\n"
