@@ -1,6 +1,6 @@
 # mean
 
-The `cyclone/mean` object calculates a running or moving average of numerical inputs. It maintains a sum of all received values and their count, outputting the current average. It can be reset or calculate the mean from a list of numbers.
+The `mean` object calculates the arithmetic mean (average) of a list of floating-point numbers. It takes a list as its input and outputs a single float representing the calculated mean value. This object is part of the zexy library.
 
 ---
 
@@ -10,9 +10,9 @@ The `cyclone/mean` object calculates a running or moving average of numerical in
 ---
 
 <div class="grid cards" markdown>
-- :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>cyclone</code> and install it. Then create an object with `declare -lib cyclone -path cyclone`. Finally, use `mean` or any other object from `cyclone`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
-- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-cyclone/issues)!
+- :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>zexy</code> and install it. Then create an object with `declare -lib zexy -path zexy`. Finally, use `mean` or any other object from `zexy`._</p>
+- :fontawesome-brands-dev: Library developed mainly by **Johannes M. Zmölnig**.
+- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://git.iem.at/pd/zexy/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>
 

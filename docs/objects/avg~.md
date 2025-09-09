@@ -1,6 +1,6 @@
 # avg~
 
-The `avg~` object calculates the absolute average of an incoming audio signal. Upon receiving a bang, it outputs the sum of the absolute values of the input signal divided by the number of elapsed samples, providing a real-time measure of the signal's average amplitude.
+The `avg~` object calculates the arithmetic mean of an incoming audio signal. It processes the signal vector by vector, outputting the average as a float. This object is useful for converting a signal into a control value, often for analysis or display.
 
 ---
 
@@ -10,9 +10,9 @@ The `avg~` object calculates the absolute average of an incoming audio signal. U
 ---
 
 <div class="grid cards" markdown>
-- :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>cyclone</code> and install it. Then create an object with `declare -lib cyclone -path cyclone`. Finally, use `avg~` or any other object from `cyclone`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
-- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-cyclone/issues)!
+- :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>zexy</code> and install it. Then create an object with `declare -lib zexy -path zexy`. Finally, use `avg~` or any other object from `zexy`._</p>
+- :fontawesome-brands-dev: Library developed mainly by **Johannes M. Zmölnig**.
+- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://git.iem.at/pd/zexy/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>
 

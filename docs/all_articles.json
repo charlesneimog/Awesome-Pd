@@ -14,6 +14,13 @@
         "link": "https://theses.hal.science/tel-04137258"
     },
     {
+        "title": "Pd and Audio Programming in the 21st Century",
+        "authors": [
+            "Eric Lyon"
+        ],
+        "link": "https://doi.org/10.33871/23179937.2021.9.2.12"
+    },
+    {
         "title": "[vstplugin~] \u2013 A Pd external for hosting VST plugins",
         "authors": [
             "Christof Ressi"

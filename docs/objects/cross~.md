@@ -1,6 +1,6 @@
 # cross~
 
-The `cross~` object implements a 3rd order Butterworth crossover filter, splitting an input signal into lowpass and highpass components. It provides separate outlets for the lowpass and highpass filtered signals, allowing them to be used individually or combined to form a complete crossover. The cutoff frequency can be controlled by a float or signal.
+The `cross~` object performs block convolution for cross-synthesis. It uses a threshold to determine when to apply the cross-synthesis process, allowing for dynamic blending of audio signals.
 
 ---
 
@@ -10,11 +10,21 @@ The `cross~` object implements a 3rd order Butterworth crossover filter, splitti
 ---
 
 <div class="grid cards" markdown>
-- :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>cyclone</code> and install it. Then create an object with `declare -lib cyclone -path cyclone`. Finally, use `cross~` or any other object from `cyclone`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
-- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-cyclone/issues)!
+- :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>fftease</code> and install it. Then create an object with `declare -lib fftease -path fftease`. Finally, use `cross~` or any other object from `fftease`._</p>
+- :fontawesome-brands-dev: Library developed mainly by **Eric Lyon**.
+- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/ericlyon/pd-fftease/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
+</div><h3>Articles</h3>
+
+<div class="grid cards" markdown>
+- :octicons-book-24: 
+    <h4>Pd and Audio Programming in the 21st Century</h4>
+    *by Eric Lyon*
+
+    [Link](https://doi.org/10.33871/23179937.2021.9.2.12)
 </div>
+
+
 
 ---
 

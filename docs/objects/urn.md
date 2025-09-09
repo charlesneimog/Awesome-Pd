@@ -1,6 +1,6 @@
 # urn
 
-The `urn` object generates unique random numbers within a specified range (0 to n-1) without repetition. It can be cleared and reseeded, and it signals when all numbers in the sequence have been generated. This object is useful for creating non-repeating sequences of random values.
+The `urn` object is a unique random number generator. It generates integer numbers within a specified range (0 to n-1) without repetition, drawing from a pool of available numbers. It can be seeded for reproducible sequences and provides an outlet to signal when all numbers have been drawn.
 
 ---
 
@@ -10,9 +10,9 @@ The `urn` object generates unique random numbers within a specified range (0 to 
 ---
 
 <div class="grid cards" markdown>
-- :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>cyclone</code> and install it. Then create an object with `declare -lib cyclone -path cyclone`. Finally, use `urn` or any other object from `cyclone`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
-- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-cyclone/issues)!
+- :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>zexy</code> and install it. Then create an object with `declare -lib zexy -path zexy`. Finally, use `urn` or any other object from `zexy`._</p>
+- :fontawesome-brands-dev: Library developed mainly by **Johannes M. Zmölnig**.
+- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://git.iem.at/pd/zexy/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>
 

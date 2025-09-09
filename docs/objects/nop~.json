@@ -6,12 +6,12 @@
     ],
     "download_link": "",
     "available_on_deken": true,
-    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "bug_reports": "https://git.iem.at/pd/zexy/issues",
     "developers": [
-        "Alexandre Torres Porres"
+        "Johannes M. Zmölnig"
     ],
     "part_of_library": true,
-    "library_name": "else",
+    "library_name": "zexy",
     "articles": [],
     "videos": [],
     "musics": [],
@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "nop~",
-    "description": "The `nop~` object performs no operation on signals; it simply passes them through. Its primary purpose is to help manage and organize signal cords within a Pure Data patch.",
+    "description": "The `nop~` object is a signal-level no-operation (NOP) utility from the zexy library. It simply passes an incoming audio signal from its inlet directly to its outlet without any modification. This object can be useful as a placeholder or for debugging signal flow in a Pure Data patch.",
     "categories": [
         "General Utilities"
     ]

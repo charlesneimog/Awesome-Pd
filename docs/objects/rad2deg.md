@@ -1,6 +1,6 @@
 # rad2deg
 
-The `rad2deg` object converts radian values to degrees. It can handle both positive and negative radian inputs, wrapping values that exceed the 0 to 2*pi (or 0 to -2*pi) range. An optional `-pos` flag can be used to ensure the output is always a positive degree value.
+The `rad2deg` object converts radian values to degrees. It takes float inputs and outputs the corresponding degree values, making it useful for handling angular measurements in Pure Data patches.
 
 ---
 
@@ -10,9 +10,9 @@ The `rad2deg` object converts radian values to degrees. It can handle both posit
 ---
 
 <div class="grid cards" markdown>
-- :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `rad2deg` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
-- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
+- :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>zexy</code> and install it. Then create an object with `declare -lib zexy -path zexy`. Finally, use `rad2deg` or any other object from `zexy`._</p>
+- :fontawesome-brands-dev: Library developed mainly by **Johannes M. Zmölnig**.
+- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://git.iem.at/pd/zexy/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>
 

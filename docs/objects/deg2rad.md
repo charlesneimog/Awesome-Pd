@@ -1,6 +1,6 @@
 # deg2rad
 
-The `deg2rad` object converts an input value from degrees to radians. It accepts both positive and negative degree values, wrapping inputs outside the 0-360 range. An optional `-pos` argument can be used to ensure the output is always positive.
+The `deg2rad` object converts a float value from degrees to radians. Part of the `zexy` external library, it provides a straightforward utility for mathematical operations involving angular units.
 
 ---
 
@@ -10,9 +10,9 @@ The `deg2rad` object converts an input value from degrees to radians. It accepts
 ---
 
 <div class="grid cards" markdown>
-- :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>else</code> and install it. Then create an object with `declare -lib else -path else`. Finally, use `deg2rad` or any other object from `else`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Alexandre Torres Porres**.
-- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/porres/pd-else/issues)!
+- :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>zexy</code> and install it. Then create an object with `declare -lib zexy -path zexy`. Finally, use `deg2rad` or any other object from `zexy`._</p>
+- :fontawesome-brands-dev: Library developed mainly by **Johannes M. Zmölnig**.
+- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://git.iem.at/pd/zexy/issues)!
 - :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
 </div>
 

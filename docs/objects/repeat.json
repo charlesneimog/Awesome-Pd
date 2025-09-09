@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://git.iem.at/pd/zexy/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "repeat",
+    "description": "The `repeat` object in Pure Data outputs any incoming message a specified number of times. It can be initialized with a creation argument for the number of repetitions or dynamically controlled via its second inlet. This versatile object can repeat bangs, lists, or any other message type.",
+    "categories": [
+        "Procedures"
+    ]
+}

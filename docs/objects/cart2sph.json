@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://git.iem.at/pd/zexy/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "cart2sph",
+    "description": "The `cart2sph` object converts 3D Cartesian coordinates (x, y, z) into spherical coordinates (radius, azimuth, elevation). All output angles are in radians. This object is useful for transforming spatial data between different coordinate systems.",
+    "categories": [
+        "Math"
+    ]
+}

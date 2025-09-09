@@ -67,7 +67,6 @@ updateList();
 - :material-tune: [__atodb__](../objects/atodb.md) The `atodb` object converts linear amplitude values into decibels full scale (dBFS).
 - :material-tune: [__atodb~__](../objects/atodb~.md) The `atodb~` object converts a linear amplitude audio signal to its equivalent decibel full scale (dBFS) value.
 - :material-tune: [__average~__](../objects/average~.md) The `average~` object calculates a moving average of an audio signal over a specified number of samples.
-- :material-tune: [__avg~__](../objects/avg~.md) The `avg~` object calculates the absolute average of an incoming audio signal.
 - :material-tune: [__bangbang__](../objects/bangbang.md) The `bangbang` object outputs a specified number of `bang` messages from its outlets in right-to-left order when it receives any input.
 - :material-tune: [__bitand~__](../objects/bitand~.md) The `cyclone/bitand~` object performs a bitwise AND operation on two incoming signals or a signal and a given bitmask.
 - :material-tune: [__bitnot~__](../objects/bitnot~.md) The `bitnot~` object performs a bitwise NOT operation (one's complement) on an incoming audio signal, inverting all bits of its 32-bit representation.
@@ -97,7 +96,6 @@ updateList();
 - :material-tune: [__cosx~__](../objects/cosx~.md) The `cyclone/cosx~` object calculates the cosine of an incoming signal, expecting the input values to be in radians.
 - :material-tune: [__counter__](../objects/counter.md) The `counter` object in Pure Data increments or decrements an integer value within a specified range.
 - :material-tune: [__count~__](../objects/count~.md) The `count~` object is a sample-accurate counter that outputs a signal incrementing by one for each elapsed sample.
-- :material-tune: [__cross~__](../objects/cross~.md) The `cross~` object implements a 3rd order Butterworth crossover filter, splitting an input signal into lowpass and highpass components.
 - :material-tune: [__curve~__](../objects/curve~.md) `curve~` is a signal-rate object that generates non-linear (curved) ramp signals, functioning as an envelope generator.
 - :material-tune: [__cycle__](../objects/cycle.md) The `cycle` object distributes incoming messages to its outlets in a round-robin fashion.
 - :material-tune: [__cycle~__](../objects/cycle~.md) The `cycle~` object is a linear interpolating oscillator that generates an audio signal by repeatedly reading through a waveform.
@@ -143,7 +141,6 @@ updateList();
 - :material-tune: [__matrix~__](../objects/matrix~.md) The `matrix~` object routes and mixes audio signals from multiple inlets to multiple outlets.
 - :material-tune: [__maximum__](../objects/maximum.md) The `maximum` object outputs the largest value from its inputs.
 - :material-tune: [__maximum~__](../objects/maximum~.md) The `maximum~` object outputs the greater of two input signals, or the greater of an input signal and a given argument.
-- :material-tune: [__mean__](../objects/mean.md) The `cyclone/mean` object calculates a running or moving average of numerical inputs.
 - :material-tune: [__midiflush__](../objects/midiflush.md) The `midiflush` object acts as a "panic button" for MIDI notes.
 - :material-tune: [__midiformat__](../objects/midiformat.md) The `midiformat` object converts various discrete MIDI inputs, such as note, control change, and pitch bend messages, into a single raw MIDI message stream.
 - :material-tune: [__midiparse__](../objects/midiparse.md) The `midiparse` object receives raw MIDI data, typically from `midiin`, and parses it into various MIDI messages.
@@ -229,7 +226,6 @@ updateList();
 - :material-tune: [__trunc~__](../objects/trunc~.md) The `trunc~` object truncates an audio signal towards zero, effectively taking only the integer part of each sample's value.
 - :material-tune: [__universal__](../objects/universal.md) The `universal` object sends messages to all instances of a specified object type within the current Pure Data patch.
 - :material-tune: [__unjoin__](../objects/unjoin.md) The `unjoin` object separates an incoming list into smaller groups of elements.
-- :material-tune: [__urn__](../objects/urn.md) The `urn` object generates unique random numbers within a specified range (0 to n-1) without repetition.
 - :material-tune: [__uzi__](../objects/uzi.md) The `uzi` object generates a sequence of bangs and corresponding counter values, useful for iterating through a specified number of steps.
 - :material-tune: [__vectral~__](../objects/vectral~.md) The `vectral~` object smooths or filters frame-based signal data, such as the output of an `fft~` object, primarily for visualization purposes.
 - :material-tune: [__wave~__](../objects/wave~.md) The `wave~` object reads audio data from a specified array (wavetable) using a phase signal (0-1) as an index.

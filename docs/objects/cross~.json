@@ -6,13 +6,21 @@
     ],
     "download_link": "",
     "available_on_deken": true,
-    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "bug_reports": "https://github.com/ericlyon/pd-fftease/issues",
     "developers": [
-        "Alexandre Torres Porres"
+        "Eric Lyon"
     ],
     "part_of_library": true,
-    "library_name": "cyclone",
-    "articles": [],
+    "library_name": "fftease",
+    "articles": [
+        {
+            "title": "Pd and Audio Programming in the 21st Century",
+            "authors": [
+                "Eric Lyon"
+            ],
+            "link": "https://doi.org/10.33871/23179937.2021.9.2.12"
+        }
+    ],
     "videos": [],
     "musics": [],
     "contributors": [
@@ -20,8 +28,8 @@
     ],
     "ai": true,
     "title": "cross~",
-    "description": "The `cross~` object implements a 3rd order Butterworth crossover filter, splitting an input signal into lowpass and highpass components. It provides separate outlets for the lowpass and highpass filtered signals, allowing them to be used individually or combined to form a complete crossover. The cutoff frequency can be controlled by a float or signal.",
+    "description": "The `cross~` object performs block convolution for cross-synthesis. It uses a threshold to determine when to apply the cross-synthesis process, allowing for dynamic blending of audio signals.",
     "categories": [
-        "Filters"
+        "Math"
     ]
 }

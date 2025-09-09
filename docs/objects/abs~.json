@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://git.iem.at/pd/zexy/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "abs~",
+    "description": "The `abs~` object calculates the absolute value of an incoming audio signal. It converts all negative signal values to their positive counterparts, effectively rectifying the signal. This is useful for ensuring signal values are always non-negative.",
+    "categories": [
+        "Math"
+    ]
+}

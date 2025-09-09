@@ -6,12 +6,12 @@
     ],
     "download_link": "",
     "available_on_deken": true,
-    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "bug_reports": "https://git.iem.at/pd/zexy/issues",
     "developers": [
-        "Alexandre Torres Porres"
+        "Johannes M. Zmölnig"
     ],
     "part_of_library": true,
-    "library_name": "cyclone",
+    "library_name": "zexy",
     "articles": [],
     "videos": [],
     "musics": [],
@@ -20,8 +20,10 @@
     ],
     "ai": true,
     "title": "urn",
-    "description": "The `urn` object generates unique random numbers within a specified range (0 to n-1) without repetition. It can be cleared and reseeded, and it signals when all numbers in the sequence have been generated. This object is useful for creating non-repeating sequences of random values.",
+    "description": "The `urn` object is a unique random number generator. It generates integer numbers within a specified range (0 to n-1) without repetition, drawing from a pool of available numbers. It can be seeded for reproducible sequences and provides an outlet to signal when all numbers have been drawn.",
     "categories": [
-        "Stochastic"
+        "Stochastic",
+        "General Utilities",
+        "Data Structures"
     ]
 }

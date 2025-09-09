@@ -1,0 +1,28 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://git.iem.at/pd/zexy/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "wrap",
+    "description": "The `wrap` object functions as a float-capable modulo, constraining an input float value within specified limits. It can operate with no arguments (wrapping around 0), one argument (wrapping between 0 and the argument), or two arguments (wrapping between a lower and upper limit). The limits can also be set dynamically via its second inlet, with wrapping always inclusive of the lower limit and exclusive of the upper.",
+    "categories": [
+        "Math",
+        "General Utilities"
+    ]
+}

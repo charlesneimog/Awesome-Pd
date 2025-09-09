@@ -46,6 +46,9 @@
             },
             {
                 "median": "objects/median.md"
+            },
+            {
+                "pdf~": "objects/pdf~.md"
             }
         ]
     },
@@ -835,6 +838,18 @@
             },
             {
                 "uzi": "objects/uzi.md"
+            },
+            {
+                "segregate": "objects/segregate.md"
+            },
+            {
+                "drip": "objects/drip.md"
+            },
+            {
+                "niagara": "objects/niagara.md"
+            },
+            {
+                "repeat": "objects/repeat.md"
             }
         ]
     },
@@ -1142,6 +1157,33 @@
             },
             {
                 "tCube3D": "objects/tCube3D.md"
+            },
+            {
+                "regex": "objects/regex.md"
+            },
+            {
+                "0x3e0x7e": "objects/0x3e0x7e.md"
+            },
+            {
+                "strcmp": "objects/strcmp.md"
+            },
+            {
+                "matchbox": "objects/matchbox.md"
+            },
+            {
+                "&&~": "objects/&&~.md"
+            },
+            {
+                "zigbinops": "objects/zigbinops.md"
+            },
+            {
+                "0x7c0x7c0x7e": "objects/0x7c0x7c0x7e.md"
+            },
+            {
+                "==~": "objects/==~.md"
+            },
+            {
+                "0x3c0x7e": "objects/0x3c0x7e.md"
             }
         ],
         "Math": [
@@ -1813,6 +1855,75 @@
             },
             {
                 "iAmbient2D": "objects/iAmbient2D.md"
+            },
+            {
+                "cross~": "objects/cross~.md"
+            },
+            {
+                "taint~": "objects/taint~.md"
+            },
+            {
+                "mavg": "objects/mavg.md"
+            },
+            {
+                "pdf~": "objects/pdf~.md"
+            },
+            {
+                "prime": "objects/prime.md"
+            },
+            {
+                "pol2cart": "objects/pol2cart.md"
+            },
+            {
+                "sph2cart": "objects/sph2cart.md"
+            },
+            {
+                "coordinates": "objects/coordinates.md"
+            },
+            {
+                "minmax": "objects/minmax.md"
+            },
+            {
+                "wrap": "objects/wrap.md"
+            },
+            {
+                "polyfun": "objects/polyfun.md"
+            },
+            {
+                "abs~": "objects/abs~.md"
+            },
+            {
+                "sgn~": "objects/sgn~.md"
+            },
+            {
+                "zigbinops": "objects/zigbinops.md"
+            },
+            {
+                "pol2sph": "objects/pol2sph.md"
+            },
+            {
+                "sph2pol": "objects/sph2pol.md"
+            },
+            {
+                "absgn~": "objects/absgn~.md"
+            },
+            {
+                "scalarmult": "objects/scalarmult.md"
+            },
+            {
+                "tavg~": "objects/tavg~.md"
+            },
+            {
+                "quantize~": "objects/quantize~.md"
+            },
+            {
+                "cart2pol": "objects/cart2pol.md"
+            },
+            {
+                "multiline~": "objects/multiline~.md"
+            },
+            {
+                "cart2sph": "objects/cart2sph.md"
             }
         ],
         "Routing": [
@@ -2064,6 +2175,45 @@
             },
             {
                 "onebang": "objects/onebang.md"
+            },
+            {
+                "segregate": "objects/segregate.md"
+            },
+            {
+                "multiplex~": "objects/multiplex~.md"
+            },
+            {
+                "demux": "objects/demux.md"
+            },
+            {
+                "relay": "objects/relay.md"
+            },
+            {
+                "unpack": "objects/unpack.md"
+            },
+            {
+                "demux~": "objects/demux~.md"
+            },
+            {
+                "multiplex": "objects/multiplex.md"
+            },
+            {
+                "mux": "objects/mux.md"
+            },
+            {
+                "mux~": "objects/mux~.md"
+            },
+            {
+                "route~": "objects/route~.md"
+            },
+            {
+                "demultiplex": "objects/demultiplex.md"
+            },
+            {
+                "multireceive": "objects/multireceive.md"
+            },
+            {
+                "demultiplex~": "objects/demultiplex~.md"
             }
         ],
         "Envelopes": [
@@ -2171,6 +2321,9 @@
             },
             {
                 "line~": "objects/line~.md"
+            },
+            {
+                "envrms~": "objects/envrms~.md"
             }
         ],
         "LFOs": [
@@ -2624,6 +2777,9 @@
             },
             {
                 "delay~": "objects/delay~.md"
+            },
+            {
+                "z~": "objects/z~.md"
             }
         ],
         "Distortion": [
@@ -2674,6 +2830,9 @@
             },
             {
                 "kink~": "objects/kink~.md"
+            },
+            {
+                "digidistort": "objects/digidistort.md"
             }
         ],
         "Chorus/Flanger/Phaser": [
@@ -2906,6 +3065,27 @@
             },
             {
                 "allpass~": "objects/allpass~.md"
+            },
+            {
+                "mindwarp~": "objects/mindwarp~.md"
+            },
+            {
+                "xsyn~": "objects/xsyn~.md"
+            },
+            {
+                "burrow~": "objects/burrow~.md"
+            },
+            {
+                "drown~": "objects/drown~.md"
+            },
+            {
+                "multyq~": "objects/multyq~.md"
+            },
+            {
+                "dentist~": "objects/dentist~.md"
+            },
+            {
+                "mavg": "objects/mavg.md"
             }
         ],
         "Dynamics": [
@@ -2992,6 +3172,15 @@
             },
             {
                 "peakamp~": "objects/peakamp~.md"
+            },
+            {
+                "pvcompand~": "objects/pvcompand~.md"
+            },
+            {
+                "drown~": "objects/drown~.md"
+            },
+            {
+                "limiter~": "objects/limiter~.md"
             }
         ]
     },
@@ -3031,6 +3220,27 @@
             },
             {
                 "framedelta~": "objects/framedelta~.md"
+            },
+            {
+                "pvwarpb~": "objects/pvwarpb~.md"
+            },
+            {
+                "pvoc~": "objects/pvoc~.md"
+            },
+            {
+                "resent~": "objects/resent~.md"
+            },
+            {
+                "reanimator~": "objects/reanimator~.md"
+            },
+            {
+                "pileup~": "objects/pileup~.md"
+            },
+            {
+                "pvharm~": "objects/pvharm~.md"
+            },
+            {
+                "residency~": "objects/residency~.md"
             }
         ],
         "Descriptors": [
@@ -3411,6 +3621,18 @@
             },
             {
                 "peakamp~": "objects/peakamp~.md"
+            },
+            {
+                "pvoc~": "objects/pvoc~.md"
+            },
+            {
+                "morphine~": "objects/morphine~.md"
+            },
+            {
+                "dfreq~": "objects/dfreq~.md"
+            },
+            {
+                "envrms~": "objects/envrms~.md"
             }
         ],
         "Score Follower": []
@@ -3533,6 +3755,18 @@
             },
             {
                 "bl.osc~": "objects/bl.osc~.md"
+            },
+            {
+                "cavoc27~": "objects/cavoc27~.md"
+            },
+            {
+                "enrich~": "objects/enrich~.md"
+            },
+            {
+                "pileup~": "objects/pileup~.md"
+            },
+            {
+                "cavoc~": "objects/cavoc~.md"
             }
         ],
         "Granular": [
@@ -3565,6 +3799,9 @@
             },
             {
                 "plaits.m~": "objects/plaits.m~.md"
+            },
+            {
+                "pvgrain~": "objects/pvgrain~.md"
             }
         ],
         "Oscillators": [
@@ -3843,6 +4080,21 @@
             },
             {
                 "pm6.m~": "objects/pm6.m~.md"
+            },
+            {
+                "enrich~": "objects/enrich~.md"
+            },
+            {
+                "pvtuner~": "objects/pvtuner~.md"
+            },
+            {
+                "pvharm~": "objects/pvharm~.md"
+            },
+            {
+                "noisi~": "objects/noisi~.md"
+            },
+            {
+                "noish~": "objects/noish~.md"
             }
         ],
         "Partial Tracking": [],
@@ -3971,6 +4223,9 @@
             },
             {
                 "play~": "objects/play~.md"
+            },
+            {
+                "residency_buffer~": "objects/residency_buffer~.md"
             }
         ],
         "Stochastic": [
@@ -4111,6 +4366,18 @@
             },
             {
                 "rand~": "objects/rand~.md"
+            },
+            {
+                "pvgrain~": "objects/pvgrain~.md"
+            },
+            {
+                "disarrain~": "objects/disarrain~.md"
+            },
+            {
+                "noisi~": "objects/noisi~.md"
+            },
+            {
+                "noish~": "objects/noish~.md"
             }
         ]
     },
@@ -4332,6 +4599,93 @@
             },
             {
                 "pmpd": "objects/pmpd.md"
+            },
+            {
+                "pack": "objects/pack.md"
+            },
+            {
+                "symbol2list": "objects/symbol2list.md"
+            },
+            {
+                "list2symbol": "objects/list2symbol.md"
+            },
+            {
+                "glue": "objects/glue.md"
+            },
+            {
+                "s2l": "objects/s2l.md"
+            },
+            {
+                "any2list": "objects/any2list.md"
+            },
+            {
+                "lister": "objects/lister.md"
+            },
+            {
+                "urn": "objects/urn.md"
+            },
+            {
+                "unpack": "objects/unpack.md"
+            },
+            {
+                "msgfile": "objects/msgfile.md"
+            },
+            {
+                "repack": "objects/repack.md"
+            },
+            {
+                "unpack~": "objects/unpack~.md"
+            },
+            {
+                "tabdump": "objects/tabdump.md"
+            },
+            {
+                "niagara": "objects/niagara.md"
+            },
+            {
+                "pack~": "objects/pack~.md"
+            },
+            {
+                "tabset": "objects/tabset.md"
+            },
+            {
+                "matchbox": "objects/matchbox.md"
+            },
+            {
+                "l2i": "objects/l2i.md"
+            },
+            {
+                "l": "objects/l.md"
+            },
+            {
+                "length": "objects/length.md"
+            },
+            {
+                "fifop": "objects/fifop.md"
+            },
+            {
+                "listfind": "objects/listfind.md"
+            },
+            {
+                "lifop": "objects/lifop.md"
+            },
+            {
+                "tabminmax": "objects/tabminmax.md"
+            },
+            {
+                "uniqsym": "objects/uniqsym.md"
+            },
+            {
+                "packel": "objects/packel.md"
+            },
+            {
+                "l2s": "objects/l2s.md"
+            },
+            {
+                "list2lists": "objects/list2lists.md"
+            },
+            {
+                "index": "objects/index.md"
             }
         ],
         "File IO": [
@@ -4430,6 +4784,18 @@
             },
             {
                 "capture": "objects/capture.md"
+            },
+            {
+                "sf-play_record": "objects/sf-play_record.md"
+            },
+            {
+                "msgfile": "objects/msgfile.md"
+            },
+            {
+                "freadln": "objects/freadln.md"
+            },
+            {
+                "fwriteln": "objects/fwriteln.md"
             }
         ],
         "Networking": [
@@ -5230,6 +5596,15 @@
             },
             {
                 "pmpd3d~": "objects/pmpd3d~.md"
+            },
+            {
+                "sf-play_record": "objects/sf-play_record.md"
+            },
+            {
+                "limiter~": "objects/limiter~.md"
+            },
+            {
+                "multiline~": "objects/multiline~.md"
             }
         ],
         "OSC": [
@@ -5582,6 +5957,72 @@
             },
             {
                 "sprintf": "objects/sprintf.md"
+            },
+            {
+                "segregate": "objects/segregate.md"
+            },
+            {
+                "nop": "objects/nop.md"
+            },
+            {
+                "urn": "objects/urn.md"
+            },
+            {
+                "relay": "objects/relay.md"
+            },
+            {
+                "rawprint": "objects/rawprint.md"
+            },
+            {
+                "date": "objects/date.md"
+            },
+            {
+                "swap~": "objects/swap~.md"
+            },
+            {
+                "tabdump": "objects/tabdump.md"
+            },
+            {
+                "minmax": "objects/minmax.md"
+            },
+            {
+                "tabset": "objects/tabset.md"
+            },
+            {
+                "time": "objects/time.md"
+            },
+            {
+                "wrap": "objects/wrap.md"
+            },
+            {
+                "strcmp": "objects/strcmp.md"
+            },
+            {
+                "mux": "objects/mux.md"
+            },
+            {
+                "length": "objects/length.md"
+            },
+            {
+                "atoi": "objects/atoi.md"
+            },
+            {
+                "operating_system": "objects/operating_system.md"
+            },
+            {
+                "atof": "objects/atof.md"
+            },
+            {
+                "l2s": "objects/l2s.md"
+            },
+            {
+                "rad2deg": "objects/rad2deg.md"
+            },
+            {
+                "list2int": "objects/list2int.md"
+            },
+            {
+                "index": "objects/index.md"
             }
         ],
         "Text": [
@@ -5632,6 +6073,45 @@
             },
             {
                 "sprintf": "objects/sprintf.md"
+            },
+            {
+                "symbol2list": "objects/symbol2list.md"
+            },
+            {
+                "regex-help": "objects/regex-help.md"
+            },
+            {
+                "list2symbol": "objects/list2symbol.md"
+            },
+            {
+                "s2l": "objects/s2l.md"
+            },
+            {
+                "makesymbol": "objects/makesymbol.md"
+            },
+            {
+                "msgfile": "objects/msgfile.md"
+            },
+            {
+                "regex": "objects/regex.md"
+            },
+            {
+                "freadln": "objects/freadln.md"
+            },
+            {
+                "strcmp": "objects/strcmp.md"
+            },
+            {
+                "atoi": "objects/atoi.md"
+            },
+            {
+                "atof": "objects/atof.md"
+            },
+            {
+                "uniqsym": "objects/uniqsym.md"
+            },
+            {
+                "fwriteln": "objects/fwriteln.md"
             }
         ]
     },
@@ -5798,6 +6278,9 @@
         },
         {
             "out.mc~": "objects/out.mc~.md"
+        },
+        {
+            "pvgrain~": "objects/pvgrain~.md"
         }
     ],
     "Control IO": [
@@ -5863,6 +6346,9 @@
         },
         {
             "mousefilter": "objects/mousefilter.md"
+        },
+        {
+            "lpt": "objects/lpt.md"
         }
     ]
 }

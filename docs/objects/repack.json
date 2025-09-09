@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://git.iem.at/pd/zexy/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "repack",
+    "description": "The `repack` object in Pure Data is used to (re)pack various data types—floats, symbols, or pointers—into fixed-size packages. It can also unfold incoming packages back into individual atoms. The package size can be set upon creation using an argument or dynamically via its second inlet.",
+    "categories": [
+        "Data Structures"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://git.iem.at/pd/zexy/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "0x3e0x7e",
+    "description": "The `>~` object compares two incoming audio signals, outputting a signal that is true (non-zero) when the first inlet's signal is greater than the second. This is an abstraction from the `zexy` library and does not support arguments, unlike its external counterpart.",
+    "categories": [
+        "Logic"
+    ]
+}
