@@ -139,6 +139,9 @@ class AwesomePd:
         identical to the original implementation.
         """
         lines: List[str] = []
+        obj_name = project["title"]
+        if obj_name == "index":
+            obj_name = project["library_name"] + "_" + obj_name
 
         if project.get("download_link") or project.get("available_on_deken"):
             deken_text = (
@@ -160,7 +163,7 @@ class AwesomePd:
                     f":octicons-download-16: __Download__ via [Deken](../deken.md)."
                 )
             if project.get("library_name"):
-                download_line += f'  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>{project["library_name"]}</code> and install it. Then create an object with `declare -lib {project["library_name"]} -path {project["library_name"]}`. Finally, use `{project["title"]}` or any other object from `{project["library_name"]}`._</p>'
+                download_line += f'  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>{project["library_name"]}</code> and install it. Then create an object with `declare -lib {project["library_name"]} -path {project["library_name"]}`. Finally, use `{obj_name}` or any other object from `{project["library_name"]}`._</p>'
 
             lines.append(f"- {download_line}")
 
@@ -304,6 +307,11 @@ nicknames.forEach(nick => {{
                 }
 
             title = project.get("title", "")
+            lib = project.get("library_name", "")
+
+            if title == "index":
+                title = lib + "_" + title
+
             description = project.get("description", "")
 
             md = f"# {title}\n\n{description}\n\n---\n"
@@ -335,9 +343,13 @@ nicknames.forEach(nick => {{
             md += self._render_contributors(contributors)
 
             # Save to file (same path/behavior)
+            if json_file.replace(".json", "") == "index":
+                json_file = f"{lib}_{json_file}"
+
             output_path = os.path.join(
                 self.THIS_DIR, "docs/objects", json_file.replace(".json", ".md")
             )
+
             os.makedirs(os.path.dirname(output_path), exist_ok=True)
             with open(output_path, "w", encoding="utf-8") as out_file:
                 out_file.write(md)
@@ -374,10 +386,17 @@ nicknames.forEach(nick => {{
             json_file["contributors"].append(creator)
 
         # Save JSON file once per category (matches original behavior)
+        lib = json_file["library_name"]
         obj_name = json_file["title"]
+        if obj_name == "index":
+            obj_name = json_file["library_name"] + "_" + obj_name
+
         output_dir = os.path.join(self.THIS_DIR, "docs", "objects")
         if not os.path.exists(output_dir):
             os.mkdir(output_dir)
+
+        if obj_name == "index":
+            obj_name = f"{lib}_{obj_name}"
 
         with open(
             os.path.join(output_dir, obj_name + ".json"), "w", encoding="utf-8"
@@ -389,8 +408,9 @@ nicknames.forEach(nick => {{
     # --------------------------
     def update_main_json_of_objects(self):
         all_files = os.listdir(self.THIS_DIR + "/docs/objects")
-        print("")
+        print()
         print("Updating main object json")
+        print()
         for file in all_files:
             json_path = self.THIS_DIR + f"/docs/objects/{file}"
             if file.endswith(".json"):
@@ -398,7 +418,11 @@ nicknames.forEach(nick => {{
                     object_data = json.load(f)
 
                 obj_name = object_data["title"]
+                if obj_name == "index":
+                    obj_name = object_data["library_name"] + "_" + obj_name
+
                 categories = object_data["categories"]
+                print(f"Updating json : {obj_name}")
                 for category in categories:
                     if self.found_category(
                         category, {obj_name: f"objects/{obj_name}.md"}
@@ -425,11 +449,16 @@ nicknames.forEach(nick => {{
 
                 # TODO: replace by get
                 name = data["title"]
+                if name == "index":
+                    name = data["library_name"] + "_" + name
+
                 description = data["description"].split(". ")[0] + "."
                 for category in data["categories"]:
                     if category not in categories:
                         categories[category] = []
                     categories[category].append([name, description])
+
+        return categories
 
     def obj_dict_to_nav(self, d: dict) -> list:
         """
@@ -439,36 +468,28 @@ nicknames.forEach(nick => {{
         - Lists collapse into a single .md entry under categories/.
         """
         nav_list = []
-
-        def normalize(name: str) -> str:
-            return name.lower().replace(" ", "_").replace("/", "_")
-
-        # Force "Object of day" to the front if present
         if "Object of day" in d:
             value = d["Object of day"]
             if isinstance(value, dict):
                 nav_list.append({"Object of day": self.obj_dict_to_nav(value)})
-            elif isinstance(value, list):
-                nav_list.append({"Object of day": f"categories/{normalize('Object of day')}.md"})
             else:
                 nav_list.append({"Object of day": value})
 
-        # Process the rest in sorted order
+        # Process the rest in sorted order, skipping the special key
         for key, value in sorted(d.items()):
             if key == "Object of day":
                 continue
-
             if isinstance(value, dict):
                 nav_list.append({key: self.obj_dict_to_nav(value)})
-
             elif isinstance(value, list):
-                nav_list.append({key: f"categories/{normalize(key)}.md"})
-
+                # Collapse into categories/<snake_case>.md, then append list items
+                slug = key.lower().replace(" ", "_").replace("/", "_")
+                category_entry = [f"categories/{slug}/index.md"] + value
+                nav_list.append({key: category_entry})
             else:
                 nav_list.append({key: value})
 
         return nav_list
-
 
     def dict_to_nav(self, d: dict) -> list:
         """
@@ -535,10 +556,6 @@ nicknames.forEach(nick => {{
         if self.objects is None or self.config is None:
             raise Exception("Error to open objects or config")
 
-        NavItem = Union[str, Dict[str, object]]
-        nav: List[NavItem] = ["index.md"]
-        nav.append({"Submit": "submit.md"})
-
         # Process open issues (same as original)
         issues = self._get_open_issues()
         for issue in issues:
@@ -549,10 +566,6 @@ nicknames.forEach(nick => {{
 
         # update main json
         self.update_main_json_of_objects()
-
-        # Build "Objects & Abstractions" navigation
-        # obj_abs_nav = self.build_obj_abs_nav(self.objects)
-        nav.append({"Objects & Abstractions": self.obj_dict_to_nav(self.objects)})
 
         # Build Libraries pages + map
         libraries: Dict[str, List[List[str]]] = {}
@@ -569,6 +582,9 @@ nicknames.forEach(nick => {{
                             libname = object_json["library_name"]
                             if libname != "":
                                 objname = object_json["title"]
+                                if objname == "index":
+                                    objname = f"{libname}_{objname}"
+
                                 description = (
                                     object_json["description"].split(". ")[0] + "."
                                 )
@@ -650,10 +666,32 @@ updateList();
                 nav_libs[lib] = f"libraries/{lib}.md"
 
         # Append remaining nav sections (same ordering)
+        NavItem = Union[str, Dict[str, object]]
+        nav: List[NavItem] = [{"Home": "index.md"}]
+        nav.append({"Submit": "submit.md"})
+        nav.append({"Objects & Abstractions": self.obj_dict_to_nav(self.objects)})
         nav.append({"Libraries": self.dict_to_nav(nav_libs)})
         nav.append({"Pieces": "pieces.md"})
         nav.append({"Web": self.dict_to_nav(self.WEB_TOOLS)})
         nav.append({"Tools": self.dict_to_nav(self.TOOLS)})
+
+        # build categories
+        categories = self.build_obj_abs_nav(self.objects)
+        print()
+        for c in categories:
+            print(f"Category being created: {c}")
+            c_name = c.replace(" ", "_").replace("/", "_").lower()
+            c_md = f"# {c}\n\n"
+            descriptions = categories[c]
+            c_md += '<div class="grid cards" markdown>\n\n'
+            for d in descriptions:
+                obj = d[0]
+                des = d[1]
+                c_md += f"- :material-tune: [__{obj}__](../../objects/{obj}.md) {des}\n"
+            c_md += "\n</div>"
+            os.makedirs(f"docs/categories/{c_name}/", exist_ok=True)
+            with open(f"docs/categories/{c_name}/index.md", "w") as f:
+                f.write(c_md)
 
         # Update mkdocs config
         self.config["nav"] = nav

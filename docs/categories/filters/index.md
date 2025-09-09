@@ -1,0 +1,62 @@
+# Filters
+
+<div class="grid cards" markdown>
+
+- :material-tune: [__biquads~__](../../objects/biquads~.md) The `biquads~` object implements a series of cascaded biquad filters, allowing for complex frequency shaping.
+- :material-tune: [__mavg__](../../objects/mavg.md) The `mavg` object implements a moving average filter, smoothing incoming float values by averaging a specified number of recent samples.
+- :material-tune: [__allpass.2nd~__](../../objects/allpass.2nd~.md) The `allpass.2nd~` object is a 2nd order allpass filter that shifts the phase of an audio signal from 0 to 360 degrees across the frequency spectrum.
+- :material-tune: [__pz2coeff__](../../objects/pz2coeff.md) The `pz2coeff` object converts pole and zero coordinates into biquad filter coefficients.
+- :material-tune: [__pluck~__](../../objects/pluck~.md) The `pluck~` object implements the Karplus-Strong algorithm for physical modeling synthesis, simulating plucked string sounds.
+- :material-tune: [__resonant~__](../../objects/resonant~.md) `resonant~` is a bandpass resonator filter that allows its resonance to be controlled by Q factor, decay time (t60), or bandwidth.
+- :material-tune: [__resonbank~__](../../objects/resonbank~.md) `resonbank~` is a bank of resonators designed for sound synthesis, built upon `resonator~` objects.
+- :material-tune: [__bicoeff2__](../../objects/bicoeff2.md) The `bicoeff2` object generates coefficients for Pure Data's native `biquad~` object, allowing users to easily create various filter types such as lowpass, highpass, bandpass, and shelving filters.
+- :material-tune: [__bandstop~__](../../objects/bandstop~.md) `bandstop~` is a 2nd order band reject filter, also known as a notch filter.
+- :material-tune: [__mindwarp~__](../../objects/mindwarp~.md) The `mindwarp~` object performs spectral envelope warping, primarily utilizing frequency shaping.
+- :material-tune: [__lop.bw~__](../../objects/lop.bw~.md) The `lop.bw~` object is a lowpass Butterworth filter abstraction.
+- :material-tune: [__lores~__](../../objects/lores~.md) `lores~` is an inexpensive resonant lowpass filter for audio signals.
+- :material-tune: [__highshelf~__](../../objects/highshelf~.md) The `highshelf~` object is a 2nd order highshelf filter designed to modify the high-frequency content of an audio signal.
+- :material-tune: [__resonator~__](../../objects/resonator~.md) The `resonator~` object acts as a resonant filter, controlled by a central frequency and a t60 resonance time.
+- :material-tune: [__phaseshift~__](../../objects/phaseshift~.md) The `phaseshift~` object is a 2nd order allpass filter that alters the phase of an audio signal without changing its gain.
+- :material-tune: [__lag~__](../../objects/lag~.md) The `lag~` object is a one-pole audio filter that applies an exponential glide or portamento to changes in its signal input.
+- :material-tune: [__reson~__](../../objects/reson~.md) `reson~` is a bandpass resonant filter designed for audio signals.
+- :material-tune: [__hip.bw~__](../../objects/hip.bw~.md) `hip.bw~` is a highpass Butterworth filter designed for audio signals.
+- :material-tune: [__xsyn~__](../../objects/xsyn~.md) The `xsyn~` object performs cross synthesis by filtering its first audio input with the spectral characteristics of its second audio input.
+- :material-tune: [__circuit~__](../../objects/circuit~.md) The `circuit~` object simulates analog electronic circuits from a text description.
+- :material-tune: [__slide~__](../../objects/slide~.md) The `slide~` object logarithmically smooths an incoming audio signal, providing non-linear transitions between signal value changes.
+- :material-tune: [__resonator2~__](../../objects/resonator2~.md) The `resonator2~` object is a resonant complex one-pole filter, designed to be excited by impulses.
+- :material-tune: [__teeth~__](../../objects/teeth~.md) The `teeth~` object implements a comb filter, processing an audio signal with independent feedforward and feedback delays.
+- :material-tune: [__burrow~__](../../objects/burrow~.md) The `burrow~` object performs cross-filtering on an audio input, using a second audio input as a filter source.
+- :material-tune: [__glide2~__](../../objects/glide2~.md) `glide2~` is a signal processing object that smooths incoming signals with distinct ramp-up and ramp-down times, effectively creating a portamento or lag effect.
+- :material-tune: [__allpass.filt~__](../../objects/allpass.filt~.md) The `allpass.filt~` object implements an allpass filter, allowing control over its order, central frequency, and resonance (Q).
+- :material-tune: [__highpass~__](../../objects/highpass~.md) The `highpass~` object is a 2nd order highpass resonant filter designed for audio signals.
+- :material-tune: [__filterdelay~__](../../objects/filterdelay~.md) The `filterdelay~` object is a high-level audio delay unit that incorporates a resonant lowpass filter, a soft clipper, and a DC filter within its feedback path.
+- :material-tune: [__plaits.m~__](../../objects/plaits.m~.md) The `plaits.m~` object is a versatile polyphonic sound synthesis module, wrapping the `[plaits~]` external.
+- :material-tune: [__drown~__](../../objects/drown~.md) The `drown~` object performs spectral noise floor manipulation on audio signals using FFT.
+- :material-tune: [__brickwall~__](../../objects/brickwall~.md) The `brickwall~` object is a 10th order Butterworth lowpass filter with a very steep cutoff slope (60 dB/octave).
+- :material-tune: [__crossover~__](../../objects/crossover~.md) The `crossover~` object implements a 3rd order Butterworth crossover filter.
+- :material-tune: [__bicoeff__](../../objects/bicoeff.md) The `bicoeff` object is a graphical user interface (GUI) that generates coefficients for vanilla Pure Data's `biquad~` filter.
+- :material-tune: [__multyq~__](../../objects/multyq~.md) `multyq~` is a four-band spectral equalizer designed for audio processing.
+- :material-tune: [__bandpass~__](../../objects/bandpass~.md) The `bandpass~` object is a 2nd order resonant bandpass filter designed for audio signals, maintaining a constant 0dB gain.
+- :material-tune: [__lowshelf~__](../../objects/lowshelf~.md) The `lowshelf~` object implements a 2nd order lowshelf filter, designed to adjust the gain of frequencies below a specified shelving frequency.
+- :material-tune: [__svfilter~__](../../objects/svfilter~.md) The `svfilter~` object implements Chamberlin's state-variable filter algorithm.
+- :material-tune: [__onepole~__](../../objects/onepole~.md) The `onepole~` object implements a simple, efficient one-pole IIR low-pass filter, providing 6dB per octave attenuation.
+- :material-tune: [__resonbank2~__](../../objects/resonbank2~.md) `resonbank2~` is a bank of resonant filters designed for sound synthesis.
+- :material-tune: [__bpbank~__](../../objects/bpbank~.md) `bpbank~` creates a bank of bandpass filters, allowing independent control over the frequency, amplitude, and Q (resonance) of each filter via list inputs.
+- :material-tune: [__dentist~__](../../objects/dentist~.md) The `dentist~` object functions as a "spiky" filter, selectively allowing certain partials to pass while attenuating others.
+- :material-tune: [__comb~__](../../objects/comb~.md) The `comb~` object implements a comb filter, an audio effect that combines a signal with a delayed version of itself to create a series of regularly spaced notches or peaks in the frequency response.
+- :material-tune: [__comb.rev~__](../../objects/comb.rev~.md) The `comb.rev~` object implements a comb filter, functioning as a versatile audio effect for creating delays, reverberation, and resonant textures.
+- :material-tune: [__decay~__](../../objects/decay~.md) `decay~` is a one-pole filter that generates an exponential decay from input impulses.
+- :material-tune: [__svf~__](../../objects/svf~.md) The `svf~` object implements a Chamberlin state-variable filter, simultaneously outputting lowpass, highpass, bandpass, and notch filtered signals.
+- :material-tune: [__vcf.m~__](../../objects/vcf.m~.md) `vcf.m~` is a single-channel lowpass filter module.
+- :material-tune: [__eq~__](../../objects/eq~.md) The `eq~` object is a 2nd order parametric equalizer filter, capable of functioning as both a peak and a notch filter.
+- :material-tune: [__buffir~__](../../objects/buffir~.md) The `buffir~` object is a table/buffer-based Finite Impulse Response (FIR) filter.
+- :material-tune: [__allpass~__](../../objects/allpass~.md) The `allpass~` object implements an all-pass filter, which passes all frequencies without altering their gain but changes their phase.
+- :material-tune: [__mov.avg~__](../../objects/mov.avg~.md) The `mov.avg~` object calculates a moving (or running) average of an incoming audio signal.
+- :material-tune: [__lowpass~__](../../objects/lowpass~.md) The `lowpass~` object is a 2nd-order resonant lowpass filter designed for audio signals.
+- :material-tune: [__zbiplot__](../../objects/zbiplot.md) The `zbiplot` object visualizes biquad filter coefficients by plotting their poles and zeros on the Z-plane.
+- :material-tune: [__lop2~__](../../objects/lop2~.md) `lop2~` is a 1st order lowpass filter (1-pole, 1-zero) designed for audio signals.
+- :material-tune: [__allpass.rev~__](../../objects/allpass.rev~.md) The `allpass.rev~` object functions as an allpass filter, a delay, and a reverberator.
+- :material-tune: [__comb.filt~__](../../objects/comb.filt~.md) The `comb.filt~` object implements a feedback comb filter, designed primarily for use as a resonator.
+- :material-tune: [__median~__](../../objects/median~.md) The `median~` object calculates the median value of an incoming audio signal over a specified number of samples.
+
+</div>

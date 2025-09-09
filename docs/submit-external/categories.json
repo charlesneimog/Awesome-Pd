@@ -1,5 +1,5 @@
 {
-    "Object of day": "objects.md",
+    "Object of day": "categories/index.md",
     "AI": {
         "Machine Learning": [
             {
@@ -4685,7 +4685,7 @@
                 "list2lists": "objects/list2lists.md"
             },
             {
-                "index": "objects/index.md"
+                "zexy_index": "objects/zexy_index.md"
             }
         ],
         "File IO": [
@@ -6022,7 +6022,7 @@
                 "list2int": "objects/list2int.md"
             },
             {
-                "index": "objects/index.md"
+                "zexy_index": "objects/zexy_index.md"
             }
         ],
         "Text": [

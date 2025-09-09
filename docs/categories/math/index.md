@@ -1,0 +1,216 @@
+# Math
+
+<div class="grid cards" markdown>
+
+- :material-tune: [__quantizer~__](../../objects/quantizer~.md) The `quantizer~` object quantizes an incoming audio signal to discrete step values, which can be defined by an argument or a second inlet.
+- :material-tune: [__acos__](../../objects/acos.md) The `acos` object calculates the arc-cosine (inverse cosine) of a given number.
+- :material-tune: [__mavg__](../../objects/mavg.md) The `mavg` object implements a moving average filter, smoothing incoming float values by averaging a specified number of recent samples.
+- :material-tune: [__allpass.2nd~__](../../objects/allpass.2nd~.md) The `allpass.2nd~` object is a 2nd order allpass filter that shifts the phase of an audio signal from 0 to 360 degrees across the frequency spectrum.
+- :material-tune: [__ratio2cents__](../../objects/ratio2cents.md) The `ratio2cents` object converts rational number intervals (expressed as floating-point decimal values) into cents.
+- :material-tune: [__pdf~__](../../objects/pdf~.md) The `pdf~` object calculates the probability density function of an incoming signal.
+- :material-tune: [__trunc~__](../../objects/trunc~.md) The `trunc~` object truncates an audio signal towards zero, effectively taking only the integer part of each sample's value.
+- :material-tune: [__pow~__](../../objects/pow~.md) `cyclone/pow~` raises a base value to the power of an exponent.
+- :material-tune: [__car2pol~__](../../objects/car2pol~.md) The `car2pol~` object converts a signal from Cartesian coordinates (real and imaginary parts) to polar coordinates (amplitude and phase).
+- :material-tune: [__cents2frac__](../../objects/cents2frac.md) The `cents2frac` object converts a list of pitch values in cents into fractional representations, which are useful for defining musical intervals as ratios.
+- :material-tune: [__coeff2pz__](../../objects/coeff2pz.md) The `coeff2pz` object converts biquad filter coefficients into pole and zero coordinates, along with the overall gain of the filter's response.
+- :material-tune: [__pz2coeff__](../../objects/pz2coeff.md) The `pz2coeff` object converts pole and zero coordinates into biquad filter coefficients.
+- :material-tune: [__prime__](../../objects/prime.md) The `prime` object detects if an input number is prime.
+- :material-tune: [__mean__](../../objects/mean.md) The `mean` object calculates the arithmetic mean (average) of a list of floating-point numbers.
+- :material-tune: [__cents2scale__](../../objects/cents2scale.md) The `cents2scale` object converts a list of intervals, expressed in cents, into a scale defined by semitone steps.
+- :material-tune: [__pmpd2d__](../../objects/pmpd2d.md) The `pmpd2d` object implements a 2D mass-spring-damper physical model, designed for particle-based simulations in Pure Data.
+- :material-tune: [__pol2cart__](../../objects/pol2cart.md) The `pol2cart` object converts 3D polar coordinates (radius `r`, azimuthal angle `phi`, and polar angle `theta`) into Cartesian coordinates (x, y, z).
+- :material-tune: [__rdiv~__](../../objects/rdiv~.md) The `rdiv~` object, also known as `!/~`, performs division on audio signals.
+- :material-tune: [__ikeda~__](../../objects/ikeda~.md) The `ikeda~` object is a chaotic signal generator based on the Ikeda map, producing two audio outputs.
+- :material-tune: [__op__](../../objects/op.md) The `op` object in Pure Data performs a wide range of arithmetic, comparative, logical, and bitwise operations.
+- :material-tune: [__floor~__](../../objects/floor~.md) The `floor~` object performs a floor mathematical operation on incoming audio signals, rounding each sample down to the nearest integer.
+- :material-tune: [__autotune2__](../../objects/autotune2.md) The `autotune2` object retunes incoming pitch values (in cents) to the closest step within a specified musical scale, also defined in cents.
+- :material-tune: [__henon~__](../../objects/henon~.md) The `henon~` object is a chaotic signal generator that implements the Henon map difference equation.
+- :material-tune: [__wave~__](../../objects/wave~.md) The `wave~` object reads audio data from a specified array (wavetable) using a phase signal (0-1) as an index.
+- :material-tune: [__asin~__](../../objects/asin~.md) The `asin~` object calculates the arc-sine of an input signal.
+- :material-tune: [__rdiv__](../../objects/rdiv.md) The `rdiv` (or `!/`) object performs division with reversed inlet behavior compared to the standard `/` object.
+- :material-tune: [__dbtoa~__](../../objects/dbtoa~.md) The `dbtoa~` object converts a decibel full scale (dBFS) amplitude signal to a linear amplitude signal.
+- :material-tune: [__add__](../../objects/add.md) The `add` object accumulates incoming numerical values, adding them to a running total.
+- :material-tune: [__frac2cents__](../../objects/frac2cents.md) The `frac2cents` object converts musical intervals expressed as fractional symbols (e.g., `9/8`) into their corresponding values in cents.
+- :material-tune: [__maximum__](../../objects/maximum.md) The `maximum` object outputs the largest value from its inputs.
+- :material-tune: [__cosx~__](../../objects/cosx~.md) The `cyclone/cosx~` object calculates the cosine of an incoming signal, expecting the input values to be in radians.
+- :material-tune: [__bitxor~__](../../objects/bitxor~.md) The `bitxor~` object performs a bitwise exclusive OR (XOR) operation on two input signals, or a signal and a given bitmask.
+- :material-tune: [__linedrive__](../../objects/linedrive.md) The `linedrive` object scales numbers from an input range to an output range using an exponential curve.
+- :material-tune: [__round__](../../objects/round.md) The `round` object approximates incoming numbers (floats or lists of floats) to the nearest integer multiple of a specified value.
+- :material-tune: [__car2pol__](../../objects/car2pol.md) The `car2pol` object converts Cartesian coordinates (real and imaginary parts) into polar coordinates (amplitude and phase).
+- :material-tune: [__bicoeff2__](../../objects/bicoeff2.md) The `bicoeff2` object generates coefficients for Pure Data's native `biquad~` object, allowing users to easily create various filter types such as lowpass, highpass, bandpass, and shelving filters.
+- :material-tune: [__atodb~__](../../objects/atodb~.md) The `atodb~` object converts a linear amplitude audio signal to its equivalent decibel full scale (dBFS) value.
+- :material-tune: [__sph2cart__](../../objects/sph2cart.md) The `sph2cart` object converts spherical coordinates (radius, azimuth, elevation) to Cartesian coordinates (x, y, z).
+- :material-tune: [__mag~__](../../objects/mag~.md) The `mag~` object calculates the magnitude (amplitude) or power magnitude of a complex signal from its real and imaginary parts.
+- :material-tune: [__ceil__](../../objects/ceil.md) The `ceil` object from the `else` library computes the ceiling of its input.
+- :material-tune: [__coordinates__](../../objects/coordinates.md) The `cart2pol`, `pol2sph`, `sph2cart`, `cart2sph`, `pol2cart`, and `sph2pol` objects convert between Cartesian, Polar, and Spherical coordinate systems.
+- :material-tune: [__deg2rad__](../../objects/deg2rad.md) The `deg2rad` object converts a float value from degrees to radians.
+- :material-tune: [__lincong~__](../../objects/lincong~.md) The `lincong~` object is a chaotic signal generator based on a linear congruential difference equation.
+- :material-tune: [__atodb__](../../objects/atodb.md) The `atodb` object converts linear amplitude values into decibels full scale (dBFS).
+- :material-tune: [__mov.rms~__](../../objects/mov.rms~.md) The `mov.rms~` object calculates the Root Mean Square (RMS) of an incoming audio signal over a specified moving time window.
+- :material-tune: [__mass3D__](../../objects/mass3D.md) The `mass3D` object simulates a mass in a 3D space, calculating its position and velocity based on applied forces, weight, damping, and boundary conditions.
+- :material-tune: [__sampstoms~__](../../objects/sampstoms~.md) The `sampstoms~` object converts a time value from samples to milliseconds, adjusting for the current sample rate.
+- :material-tune: [__peak__](../../objects/peak.md) The `peak` object compares incoming numbers to a stored "peak" (maximum) value.
+- :material-tune: [__tanh~__](../../objects/tanh~.md) The `tanh~` object calculates the hyperbolic tangent of an input audio signal.
+- :material-tune: [__asinh~__](../../objects/asinh~.md) The `asinh~` object calculates the hyperbolic arc-sine of each incoming audio sample.
+- :material-tune: [__tCylinder3D__](../../objects/tCylinder3D.md) The `tCylinder3D` object defines a 3D cylindrical volume and tests if a given 3D point (referred to as a "mass") is located within its boundaries.
+- :material-tune: [__pong~__](../../objects/pong~.md) The `pong~` object limits an input audio signal within a specified low-high range.
+- :material-tune: [__scale__](../../objects/scale.md) The `scale` object maps an input numerical range to an output numerical range.
+- :material-tune: [__polymetro__](../../objects/polymetro.md) The `polymetro` object is a polyrhythmic metronome that generates rhythmic pulses based on a base tempo and a polyrhythmic multiplier.
+- :material-tune: [__atan2~__](../../objects/atan2~.md) The `atan2~` object calculates the arctangent of two input signals, 'a' and 'b', as atan(a/b).
+- :material-tune: [__asinh__](../../objects/asinh.md) The `asinh` object calculates the hyperbolic arc-sine of a given number.
+- :material-tune: [__mass2D__](../../objects/mass2D.md) The `mass2D` object simulates a 2D mass, calculating its position and velocity based on applied forces, weight, and damping.
+- :material-tune: [__fold~__](../../objects/fold~.md) The `fold~` object performs wavefolding, a waveshaping technique that mirrors audio signals back into a specified low and high range.
+- :material-tune: [__shaper~__](../../objects/shaper~.md) The `shaper~` object performs waveshaping by applying a user-defined transfer function to an input signal.
+- :material-tune: [__factor__](../../objects/factor.md) The `factor` object is a mathematical utility that takes a floating-point number as input.
+- :material-tune: [__add~__](../../objects/add~.md) The `add~` object accumulates input signal values to a starting sum, which defaults to 0.
+- :material-tune: [__phasewrap~__](../../objects/phasewrap~.md) The `phasewrap~` object wraps an incoming signal's value between -π and π.
+- :material-tune: [__iCircle2D__](../../objects/iCircle2D.md) The `iCircle2D` object simulates circular interactions in 2D space, applying various forces and displacements to an interacting mass.
+- :material-tune: [__delta~__](../../objects/delta~.md) The `delta~` object calculates the difference between the current and previous sample of an incoming audio signal.
+- :material-tune: [__minmax__](../../objects/minmax.md) The `minmax` object takes a list of floating-point numbers as input.
+- :material-tune: [__function~__](../../objects/function~.md) The `function~` object generates arbitrary waveforms or functions from a list of points and periods.
+- :material-tune: [__minimum~__](../../objects/minimum~.md) The `minimum~` object outputs a signal that represents the minimum value between two input signals, or between an input signal and a numerical argument.
+- :material-tune: [__bpm__](../../objects/bpm.md) The `bpm` object converts between beats per minute (BPM) and other time units.
+- :material-tune: [__sin~__](../../objects/sin~.md) The `sin~` object computes the sine of its signal input, scaled by two pi, outputting the result as a signal.
+- :material-tune: [__scale2freq__](../../objects/scale2freq.md) `scale2freq` converts a musical scale, provided as a list of cents values, into a corresponding list of frequencies in Hertz.
+- :material-tune: [__cartopol__](../../objects/cartopol.md) The `cartopol~` object converts Cartesian coordinates (real and imaginary parts) into polar coordinates (amplitude and phase).
+- :material-tune: [__rminus~__](../../objects/rminus~.md) The `rminus~` (or `!-~`) object performs subtraction on audio signals.
+- :material-tune: [__hann~__](../../objects/hann~.md) The `hann~` object applies a Hann window to a signal input, with the window size matching the current block size.
+- :material-tune: [__cosh~__](../../objects/cosh~.md) The `cosh~` object calculates the hyperbolic cosine of an input signal sample by sample.
+- :material-tune: [__iAmbient2D__](../../objects/iAmbient2D.md) The `iAmbient2D` object simulates ambient interactions in a 2D space, applying constant, random, and damping forces to named "masses." It also handles displacement if a mass moves outside a defined rectangular area.
+- :material-tune: [__rminus__](../../objects/rminus.md) The `rminus` (or `!-`) object performs subtraction with its inlets reversed compared to the standard `[-]` object.
+- :material-tune: [__ceil~__](../../objects/ceil~.md) The `ceil~` object is a signal-rate mathematical function that performs the ceiling operation on incoming audio signals.
+- :material-tune: [__euclid__](../../objects/euclid.md) The `euclid` object implements the Euclidean rhythm algorithm, which distributes a given number of "hits" as evenly as possible over a specified number of "steps".
+- :material-tune: [__wrap__](../../objects/wrap.md) The `wrap` object functions as a float-capable modulo, constraining an input float value within specified limits.
+- :material-tune: [__tanh__](../../objects/tanh.md) The `tanh` object calculates the hyperbolic tangent of its input.
+- :material-tune: [__db2lin~__](../../objects/db2lin~.md) The `db2lin~` object converts decibel Full Scale (dBFS) amplitude values to linear amplitude values.
+- :material-tune: [__dec2frac__](../../objects/dec2frac.md) The `dec2frac` object converts decimal numbers into fractional representations.
+- :material-tune: [__link__](../../objects/link.md) The `link` object calculates forces between two masses, simulating a physical connection with configurable rigidity and damping.
+- :material-tune: [__rand.f__](../../objects/rand.f.md) The `rand.f` object generates pseudo-random floating-point numbers within a user-defined range when triggered by a `bang`.
+- :material-tune: [__clip~__](../../objects/clip~.md) The `clip~` object constrains an input audio signal to a specified minimum and maximum value.
+- :material-tune: [__interpolate__](../../objects/interpolate.md) The `else/interpolate` object performs smooth interpolation between a set of start and target values, which can be single numbers or lists.
+- :material-tune: [__sinx~__](../../objects/sinx~.md) The `sinx~` object calculates the sine of an incoming audio signal.
+- :material-tune: [__asin__](../../objects/asin.md) The `asin` object calculates the arc-sine (inverse sine) of a given number.
+- :material-tune: [__acosh__](../../objects/acosh.md) The `acosh` object calculates the hyperbolic arc-cosine of a given float input.
+- :material-tune: [__floor__](../../objects/floor.md) The `floor` object, part of the `else` library, performs a mathematical floor operation.
+- :material-tune: [__lorenz~__](../../objects/lorenz~.md) The `lorenz~` object is a chaotic signal generator based on the Lorenz strange attractor, a mathematical model of atmospheric convection.
+- :material-tune: [__spread~__](../../objects/spread~.md) The `spread~` object distributes multiple input audio channels across multiple output channels using equal power panning.
+- :material-tune: [__hz2rad__](../../objects/hz2rad.md) The `hz2rad` object converts a frequency value in Hertz (Hz) to "Radians per Sample." This conversion is crucial for digital signal processing, as it calculates the phase increment per sample based on the patch's sample rate using the formula `rad = (hz * 2*pi / sr)`..
+- :material-tune: [__polyfun__](../../objects/polyfun.md) The `polyfun` object evaluates a polynomial function.
+- :material-tune: [__pol2car~__](../../objects/pol2car~.md) The `pol2car~` object converts audio signals from polar coordinates (amplitude and phase) to Cartesian coordinates (real and imaginary parts).
+- :material-tune: [__poltocar__](../../objects/poltocar.md) The `poltocar` object converts polar coordinates (amplitude and phase) to Cartesian coordinates (real and imaginary).
+- :material-tune: [__list.inc__](../../objects/list.inc.md) The `list.inc` object generates a list of numbers based on a starting value, an increment step, and the desired number of elements.
+- :material-tune: [__bitand~__](../../objects/bitand~.md) The `cyclone/bitand~` object performs a bitwise AND operation on two incoming signals or a signal and a given bitmask.
+- :material-tune: [__dbtoa__](../../objects/dbtoa.md) The `dbtoa` object converts decibel (dBFS) amplitude values to their corresponding linear amplitude.
+- :material-tune: [__round~__](../../objects/round~.md) The `round~` object quantizes an incoming audio signal by approximating its values to an integer multiple of a specified number.
+- :material-tune: [__pulse__](../../objects/pulse.md) The `pulse` object is a control-rate oscillator that generates a pulse wave, acting like a toggle switch.
+- :material-tune: [__maximum~__](../../objects/maximum~.md) The `maximum~` object outputs the greater of two input signals, or the greater of an input signal and a given argument.
+- :material-tune: [__sum~__](../../objects/sum~.md) The `sum~` object takes a multi-channel audio signal and sums all its channels into a single mono output signal.
+- :material-tune: [__wrap2__](../../objects/wrap2.md) The `wrap2` object constrains a numerical input value to a specified range by "wrapping" it around the minimum and maximum boundaries.
+- :material-tune: [__cusp~__](../../objects/cusp~.md) `cusp~` is a chaotic signal generator that implements the difference equation `y[n] = a - b * sqrt(abs(y[n-1]))`.
+- :material-tune: [__wrap2~__](../../objects/wrap2~.md) The `wrap2~` object wraps an input signal between a specified low and high value.
+- :material-tune: [__mov.avg__](../../objects/mov.avg.md) The `mov.avg` object calculates a running or moving average of incoming float values.
+- :material-tune: [__rand.u__](../../objects/rand.u.md) The `rand.u` object generates a sequence of unrepeated random integer values within a specified range (0 to `size-1`).
+- :material-tune: [__ms2samps__](../../objects/ms2samps.md) The `ms2samps` object is a simple utility that converts a time value in milliseconds to the equivalent number of audio samples.
+- :material-tune: [__frameaccum~__](../../objects/frameaccum~.md) `frameaccum~` accumulates the values of each sample across incoming signal blocks, primarily designed for computing a running phase of FFT frames.
+- :material-tune: [__acosh~__](../../objects/acosh~.md) The `acosh~` object computes the hyperbolic arc-cosine of an incoming audio signal, sample by sample.
+- :material-tune: [__rint__](../../objects/rint.md) The `rint` object rounds floating-point numbers to the nearest integer value.
+- :material-tune: [__cartopol~__](../../objects/cartopol~.md) The `cartopol~` object converts a complex signal from Cartesian coordinates (real and imaginary parts) to polar coordinates (amplitude and phase).
+- :material-tune: [__abs~__](../../objects/abs~.md) The `abs~` object calculates the absolute value of an incoming audio signal.
+- :material-tune: [__lin2db__](../../objects/lin2db.md) The `lin2db` object converts a linear amplitude value to its equivalent decibel full scale (dBFS) representation.
+- :material-tune: [__trunc__](../../objects/trunc.md) The `trunc` object truncates floating-point numbers and lists of numbers towards zero, effectively extracting their integer part.
+- :material-tune: [__sgn~__](../../objects/sgn~.md) The `sgn~` object calculates the signum of an incoming audio signal, outputting `1` for positive values, `-1` for negative values, and `0` for zero.
+- :material-tune: [__rad2hz__](../../objects/rad2hz.md) The `rad2hz` object converts a frequency value from "Radians per Sample" to Hertz.
+- :material-tune: [__latoocarfian~__](../../objects/latoocarfian~.md) The `latoocarfian~` object is a chaotic audio signal generator that implements the Latoocarfian attractor's difference equations.
+- :material-tune: [__zigbinops__](../../objects/zigbinops.md) The `zigbinops` help patch describes a collection of signal-rate Pure Data objects from the zexy library.
+- :material-tune: [__frac.mul__](../../objects/frac.mul.md) The `frac.mul` object in Pure Data performs multiplication of two fractional values.
+- :material-tune: [__cyclone__](../../objects/cyclone.md) The `cyclone` library for Pure Data provides a comprehensive set of mathematical and comparative operators, many of which are direct aliases for common Max/MSP objects.
+- :material-tune: [__amean__](../../objects/amean.md) The `amean` object generates a list of numbers representing arithmetic means between a specified start and end point.
+- :material-tune: [__tLine2D__](../../objects/tLine2D.md) The `tLine2D` object defines a 2D line segment using two points and tracks the position of a "mass" relative to it.
+- :material-tune: [__count~__](../../objects/count~.md) The `count~` object is a sample-accurate counter that outputs a signal incrementing by one for each elapsed sample.
+- :material-tune: [__pong__](../../objects/pong.md) The `pong` object in Pure Data is a utility for manipulating numerical inputs.
+- :material-tune: [__pol2sph__](../../objects/pol2sph.md) The `pol2sph` object converts 2D polar coordinates (radius, angle, and height) into 3D spherical coordinates.
+- :material-tune: [__ratio2cents~__](../../objects/ratio2cents~.md) The `ratio2cents~` object converts a signal representing a rational interval (e.g., a frequency ratio) into an interval expressed in cents.
+- :material-tune: [__poltocar~__](../../objects/poltocar~.md) The `poltocar~` object converts signal values from polar coordinates (amplitude and phase) to Cartesian coordinates (real and imaginary parts).
+- :material-tune: [__samps2ms__](../../objects/samps2ms.md) The `samps2ms` object is a simple abstraction that converts a time value given in audio samples into milliseconds.
+- :material-tune: [__average~__](../../objects/average~.md) The `average~` object calculates a moving average of an audio signal over a specified number of samples.
+- :material-tune: [__gbman~__](../../objects/gbman~.md) `gbman~` is a chaotic signal generator based on the Gingerbread Man map.
+- :material-tune: [__sinh__](../../objects/sinh.md) The `sinh` object calculates the hyperbolic sine of a given numerical input.
+- :material-tune: [__sph2pol__](../../objects/sph2pol.md) The `sph2pol` object converts spherical coordinates (radius R, azimuthal angle phi, and polar angle theta) into polar coordinates.
+- :material-tune: [__accum__](../../objects/accum.md) The `accum` object accumulates a numerical value by either adding an increment or multiplying by a given factor.
+- :material-tune: [__absgn~__](../../objects/absgn~.md) The `absgn~` object calculates the absolute value and the signum of an incoming audio signal.
+- :material-tune: [__scalarmult__](../../objects/scalarmult.md) The `scalarmult` object performs scalar multiplication, also known as a "dot product," on incoming lists of numbers.
+- :material-tune: [__median__](../../objects/median.md) The `median` object calculates the median value of a list of numbers.
+- :material-tune: [__tavg~__](../../objects/tavg~.md) The `tavg~` object calculates the arithmetic mean of an incoming audio signal.
+- :material-tune: [__cross~__](../../objects/cross~.md) The `cross~` object performs block convolution for cross-synthesis.
+- :material-tune: [__trough__](../../objects/trough.md) The `trough` object compares incoming float values to a stored 'trough' (minimum) value.
+- :material-tune: [__tSphere3D__](../../objects/tSphere3D.md) The `tSphere3D` object performs a spherical test to determine if a "mass" (likely a point or object) is located within a defined 3D spherical region.
+- :material-tune: [__bangdiv__](../../objects/bangdiv.md) The `bangdiv` object acts as a bang divider, outputting a bang only after a specified number of input bangs have been received, while always passing the very first bang.
+- :material-tune: [__gain~__](../../objects/gain~.md) The `gain~` object provides mono and multichannel gain control for audio signals.
+- :material-tune: [__freq2midi__](../../objects/freq2midi.md) The `freq2midi` object converts frequency values (Hz) to MIDI note numbers, similar to `ftom`.
+- :material-tune: [__morph__](../../objects/morph.md) The `morph` object is an abstraction that extends the functionality of Pure Data's `line` object to lists of numbers.
+- :material-tune: [__framedelta~__](../../objects/framedelta~.md) The `framedelta~` object calculates the running phase deviation of an FFT analysis.
+- :material-tune: [__power~__](../../objects/power~.md) `power~` is a signal processing object in Pure Data that acts as a power function waveshaper.
+- :material-tune: [__quad~__](../../objects/quad~.md) The `quad~` object generates a chaotic audio signal based on a quadratic difference equation: `y[n] = a * y[n-1]^2 + b * y[n-1] + c`.
+- :material-tune: [__mstosamps~__](../../objects/mstosamps~.md) The `mstosamps~` object converts a time value in milliseconds to the corresponding number of audio samples, taking the current sample rate into account.
+- :material-tune: [__pol2car__](../../objects/pol2car.md) The `pol2car` object converts polar coordinates (amplitude and phase) into Cartesian coordinates (real and imaginary parts).
+- :material-tune: [__tanx~__](../../objects/tanx~.md) The `tanx~` object calculates the tangent of an incoming audio signal, expecting the input values to be in radians.
+- :material-tune: [__cents2ratio__](../../objects/cents2ratio.md) The `cents2ratio` object converts musical intervals expressed in cents into frequency ratios (floating-point decimals).
+- :material-tune: [__sinh~__](../../objects/sinh~.md) The `sinh~` object calculates the hyperbolic sine of an incoming signal.
+- :material-tune: [__histogram__](../../objects/histogram.md) The `histogram` object records the frequency of incoming positive integer numbers (floats are truncated) into an internal table.
+- :material-tune: [__fold__](../../objects/fold.md) The `fold` object mirrors input values that exceed a defined range back into that range, effectively "folding" them.
+- :material-tune: [__tabgen__](../../objects/tabgen.md) `tabgen` is a Pure Data abstraction that generates various mathematical functions (e.g., sine, Gaussian, sinc, trapezoid, variable sawtooth, noise, and FFT window functions) and populates a specified table (array) with the generated data.
+- :material-tune: [__scale~__](../../objects/scale~.md) `scale~` maps an input signal range to an output signal range, supporting both linear and exponential scaling.
+- :material-tune: [__mag__](../../objects/mag.md) The `mag` object calculates the magnitude (amplitude) from Cartesian coordinates (real and imaginary parts), which is fundamental for analyzing frequency spectrum data.
+- :material-tune: [__mix2~__](../../objects/mix2~.md) The `mix2~` object is a 2-channel audio mixer that provides independent gain and panning control for each input signal.
+- :material-tune: [__quantizer__](../../objects/quantizer.md) The `quantizer` object approximates input values to discrete step values defined by an argument.
+- :material-tune: [__cents2ratio~__](../../objects/cents2ratio~.md) The `cents2ratio~` object converts an audio signal representing an interval in cents into a decimal ratio signal.
+- :material-tune: [__pi__](../../objects/pi.md) The `pi` object calculates and outputs the mathematical constant Pi.
+- :material-tune: [__acos~__](../../objects/acos~.md) The `acos~` object calculates the arc-cosine of an incoming signal.
+- :material-tune: [__hex2dec__](../../objects/hex2dec.md) The `hex2dec` object converts hexadecimal values to their decimal equivalents.
+- :material-tune: [__fbsine2~__](../../objects/fbsine2~.md) The `fbsine2~` object is a non-interpolating sound generator that produces a feedback sine chaotic signal.
+- :material-tune: [__gcd__](../../objects/gcd.md) The `gcd` object calculates the greatest common divisor (GCD) of two or more numbers.
+- :material-tune: [__plusequals~__](../../objects/plusequals~.md) The `plusequals~` (or `+=~`) object in Pure Data continuously sums incoming audio signal values, maintaining a running total.
+- :material-tune: [__atan~__](../../objects/atan~.md) `atan~` calculates the arc-tangent of an input signal, sample by sample.
+- :material-tune: [__gmean__](../../objects/gmean.md) The `gmean` object generates a list of numbers representing a geometric progression between a specified start and end point.
+- :material-tune: [__midi2freq__](../../objects/midi2freq.md) The `midi2freq` object converts MIDI note numbers (including fractional "MIDI cents") into corresponding frequencies in Hertz.
+- :material-tune: [__a.sum__](../../objects/a.sum.md) The `a.sum` object in Pure Data sums the last `x` numbers of an array.
+- :material-tune: [__kink~__](../../objects/kink~.md) The `kink~` object distorts a `phasor~` signal by applying a "kink" to its phase.
+- :material-tune: [__avg~__](../../objects/avg~.md) The `avg~` object calculates the arithmetic mean of an incoming audio signal.
+- :material-tune: [__sum__](../../objects/sum.md) The `sum` object takes a list of numbers as its input.
+- :material-tune: [__clip__](../../objects/clip.md) The `cyclone/clip` object constrains incoming float or list values to a specified numerical range.
+- :material-tune: [__atanh~__](../../objects/atanh~.md) The `atanh~` object calculates the hyperbolic arc-tangent of an input signal, sample by sample.
+- :material-tune: [__crackle~__](../../objects/crackle~.md) The `crackle~` object generates noise using a chaotic difference equation.
+- :material-tune: [__samps2ms~__](../../objects/samps2ms~.md) The `samps2ms~` object converts a time value given in samples to milliseconds.
+- :material-tune: [__taint~__](../../objects/taint~.md) The `taint~` object performs spectral multiplication, combining the frequency spectra of two input audio signals.
+- :material-tune: [__allpass~__](../../objects/allpass~.md) The `allpass~` object implements an all-pass filter, which passes all frequencies without altering their gain but changes their phase.
+- :material-tune: [__rescale~__](../../objects/rescale~.md) The `rescale~` object transforms incoming audio signals from a specified input range to a desired output range.
+- :material-tune: [__frac.add__](../../objects/frac.add.md) The `frac.add` object adds two fractional values together.
+- :material-tune: [__frac2dec__](../../objects/frac2dec.md) The `frac2dec` object converts fractional values, including nested fractions and those with decimal numbers, into their decimal floating-point equivalents.
+- :material-tune: [__eqdiv__](../../objects/eqdiv.md) The `eqdiv` object generates a musical scale by equally dividing a given interval into a specified number of divisions.
+- :material-tune: [__cosh__](../../objects/cosh.md) The `cosh` object calculates the hyperbolic cosine of a given number.
+- :material-tune: [__rescale__](../../objects/rescale.md) The `rescale` object maps input values from a specified input range to a new output range.
+- :material-tune: [__lcm__](../../objects/lcm.md) The `lcm` object calculates the least common multiple (LCM) of two or more numbers.
+- :material-tune: [__quantize~__](../../objects/quantize~.md) The `quantize~` object quantizes an incoming audio signal to a variable number of steps.
+- :material-tune: [__rint~__](../../objects/rint~.md) The `rint~` object rounds an incoming signal (float) to the nearest integer value.
+- :material-tune: [__minimum__](../../objects/minimum.md) The `minimum` object outputs the smallest value from its inputs.
+- :material-tune: [__snapshot~__](../../objects/snapshot~.md) The `cyclone/snapshot~` object converts a sample from an audio signal into a control-rate float.
+- :material-tune: [__ms2samps~__](../../objects/ms2samps~.md) The `ms2samps~` object converts time values from milliseconds to the corresponding number of audio samples, based on the current samplerate.
+- :material-tune: [__lin2db~__](../../objects/lin2db~.md) The `lin2db~` object converts linear amplitude values to decibels full scale (dBFS).
+- :material-tune: [__cart2pol__](../../objects/cart2pol.md) The `cart2pol` object converts 3D Cartesian coordinates (x, y, z) into 3D polar coordinates.
+- :material-tune: [__notedur2ratio__](../../objects/notedur2ratio.md) The `notedur2ratio` object converts musical note duration symbols (e.g., `1n` for whole note, `4n` for quarter note) into their corresponding numerical ratios, which can be output as fractions or floats.
+- :material-tune: [__db2lin__](../../objects/db2lin.md) `db2lin` converts amplitude values from deciBel Full Scale (dBFS) to linear amplitude.
+- :material-tune: [__rand~__](../../objects/rand~.md) `rand~` generates random values between -1 and 1 at a given frequency, linearly interpolating between these values to produce a bandlimited noise signal.
+- :material-tune: [__multiline~__](../../objects/multiline~.md) The `multiline~` object performs line-interpolated multiplication of multiple input signals.
+- :material-tune: [__rad2deg__](../../objects/rad2deg.md) The `rad2deg` object converts radian values to degrees.
+- :material-tune: [__greaterthan~__](../../objects/greaterthan~.md) The `greaterthan~` (or `>~`) object in Pure Data performs a signal comparison.
+- :material-tune: [__scale2cents__](../../objects/scale2cents.md) The `scale2cents` object converts a musical scale defined by semitone steps into cents values.
+- :material-tune: [__atanh__](../../objects/atanh.md) The `atanh` object calculates the hyperbolic arc-tangent of a given number.
+- :material-tune: [__op~__](../../objects/op~.md) The `op~` object performs various signal-rate operations, including comparative (e.g., `==`, `>`), logical (`&&`, `||`, `!`), bitwise (`&`, `|`, `~`, `^`, `<<`, `>>`), and modulus (`%`) calculations.
+- :material-tune: [__minmax~__](../../objects/minmax~.md) The `minmax~` object tracks and outputs the minimum and maximum signal levels it has received since its creation or last reset.
+- :material-tune: [__cart2sph__](../../objects/cart2sph.md) The `cart2sph` object converts 3D Cartesian coordinates (x, y, z) into spherical coordinates (radius, azimuth, elevation).
+- :material-tune: [__avg__](../../objects/avg.md) The `avg` object calculates the mean average of all numbers it has received.
+- :material-tune: [__modulo~__](../../objects/modulo~.md) The `modulo~` (or `%~`) object is a signal remainder operator.
+- :material-tune: [__e__](../../objects/e.md) The `e` object outputs the mathematical constant 'e' (Euler's number).
+- :material-tune: [__bitshift~__](../../objects/bitshift~.md) `bitshift~` performs bitwise shifting on an incoming signal, moving its bit values to the left or right.
+
+</div>

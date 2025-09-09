@@ -4,7 +4,7 @@ import json
 import subprocess
 from typing import Dict, Any, List, Tuple
 
-LIBRARY_HELP_FILES = "/home/neimog/Documents/Pd/externals/pmpd"
+LIBRARY_HELP_FILES = "/home/neimog/Documents/Pd/externals/zexy/"
 
 CATEGORIES_DESCRIPTIONS: Dict[str, str] = {
     "Machine Learning": "General machine learning algorithms or tools.",
@@ -250,19 +250,11 @@ if __name__ == "__main__":
         "runs_on": ["Mac", "Linux", "Windows"],
         "download_link": "",
         "available_on_deken": True,
-        "bug_reports": "https://github.com/ch-nry/pd-pmpd/issues",
-        "developers": ["Cyrille Henry"],
+        "bug_reports": "https://git.iem.at/pd/zexy/issues",
+        "developers": ["Johannes M. Zmölnig"],
         "part_of_library": True,
-        "library_name": "pmpd",
-        "articles": [
-            {
-                "title": "Physical modeling for pure data (PMPD) and real-time interaction with an audio synthesis",
-                "authors": [
-                    "Cyrille Henry",
-                ],
-                "link": "https://hal.science/hal-03354371/",
-            }
-        ],
+        "library_name": "zexy",
+        "articles": [],
         "videos": [],
         "musics": [],
         "contributors": ["charlesneimog"],
@@ -305,4 +297,3 @@ if __name__ == "__main__":
 
 with open("../errors.json", "w") as f:
     json.dump(errors_processing, f, indent=4)
-

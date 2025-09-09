@@ -8,10 +8,10 @@ theme:
     language: en
     name: material
     features:
-    - navigation.sections
     - navigation.indexes
     - navigation.instant
     - navigation.tabs
+    - navigation.path
     - search
     - search.highlight
     - search.share
@@ -63,8 +63,6 @@ markdown_extensions:
 - footnotes
 - pymdownx.keys
 - def_list
--   pymdownx.tasklist:
-        custom_checkbox: true
 repo_url: https://github.com/charlesneimog/Awesome-Pd
 extra_css:
 - stylesheets/extra.css
@@ -73,20 +71,26 @@ not_in_nav: '/todo.md
     /prompts/helppatchai.md
 
     '
+plugins:
+- search
 nav:
-- index.md
+-   Home: index.md
 -   Submit: submit.md
 -   Objects & Abstractions:
-    -   Object of day: objects.md
+    -   Object of day: categories/index.md
     -   AI:
         -   Deep Learning:
+            - categories/deep_learning/index.md
             -   nn~: objects/nn~.md
         -   Machine Learning:
+            - categories/machine_learning/index.md
             -   anal: objects/anal.md
             -   markov: objects/markov.md
         -   Neural Networks:
+            - categories/neural_networks/index.md
             -   neuralnet: objects/neuralnet.md
         -   Statical Models:
+            - categories/statical_models/index.md
             -   brown: objects/brown.md
             -   histo: objects/histo.md
             -   anal: objects/anal.md
@@ -96,7 +100,9 @@ nav:
             -   beat~: objects/beat~.md
             -   velvet~: objects/velvet~.md
             -   median: objects/median.md
+            -   pdf~: objects/pdf~.md
     -   Audio IO:
+        - categories/audio_io/index.md
         -   out~: objects/out~.md
         -   out8~: objects/out8~.md
         -   metronome~: objects/metronome~.md
@@ -104,8 +110,10 @@ nav:
         -   setdsp~: objects/setdsp~.md
         -   bl.vsaw~: objects/bl.vsaw~.md
         -   out.mc~: objects/out.mc~.md
+        -   pvgrain~: objects/pvgrain~.md
     -   Composition:
         -   Algorithm Composition:
+            - categories/algorithm_composition/index.md
             -   out~: objects/out~.md
             -   xmod2~: objects/xmod2~.md
             -   biquads~: objects/biquads~.md
@@ -182,6 +190,7 @@ nav:
             -   conv~: objects/conv~.md
             -   score2: objects/score2.md
         -   Procedures:
+            - categories/procedures/index.md
             -   l.readsvg: objects/l.readsvg.md
             -   l.attrfilter: objects/l.attrfilter.md
             -   out~: objects/out~.md
@@ -368,8 +377,13 @@ nav:
             -   counter: objects/counter.md
             -   loadmess: objects/loadmess.md
             -   uzi: objects/uzi.md
+            -   segregate: objects/segregate.md
+            -   drip: objects/drip.md
+            -   niagara: objects/niagara.md
+            -   repeat: objects/repeat.md
     -   Control:
         -   Envelopes:
+            - categories/envelopes/index.md
             -   asr~: objects/asr~.md
             -   smooth~: objects/smooth~.md
             -   envgen~: objects/envgen~.md
@@ -405,7 +419,9 @@ nav:
             -   adsr.m~: objects/adsr.m~.md
             -   curve~: objects/curve~.md
             -   line~: objects/line~.md
+            -   envrms~: objects/envrms~.md
         -   LFOs:
+            - categories/lfos/index.md
             -   lfnoise~: objects/lfnoise~.md
             -   bl.tri~: objects/bl.tri~.md
             -   vibrato~: objects/vibrato~.md
@@ -419,6 +435,7 @@ nav:
             -   bl.square~: objects/bl.square~.md
             -   lfo.m~: objects/lfo.m~.md
         -   Logic:
+            - categories/logic/index.md
             -   above~: objects/above~.md
             -   above: objects/above.md
             -   quantizer~: objects/quantizer~.md
@@ -520,7 +537,17 @@ nav:
             -   bitshift~: objects/bitshift~.md
             -   tSphere3D: objects/tSphere3D.md
             -   tCube3D: objects/tCube3D.md
+            -   regex: objects/regex.md
+            -   0x3e0x7e: objects/0x3e0x7e.md
+            -   strcmp: objects/strcmp.md
+            -   matchbox: objects/matchbox.md
+            -   '&&~': objects/&&~.md
+            -   zigbinops: objects/zigbinops.md
+            -   0x7c0x7c0x7e: objects/0x7c0x7c0x7e.md
+            -   ==~: objects/==~.md
+            -   0x3c0x7e: objects/0x3c0x7e.md
         -   MIDI:
+            - categories/midi/index.md
             -   bend.in: objects/bend.in.md
             -   keyboard: objects/keyboard.md
             -   midi: objects/midi.md
@@ -600,6 +627,7 @@ nav:
             -   midiformat: objects/midiformat.md
             -   xnoteout: objects/xnoteout.md
         -   Math:
+            - categories/math/index.md
             -   add: objects/add.md
             -   a.sum: objects/a.sum.md
             -   out~: objects/out~.md
@@ -823,7 +851,31 @@ nav:
             -   tLine2D: objects/tLine2D.md
             -   tSphere3D: objects/tSphere3D.md
             -   iAmbient2D: objects/iAmbient2D.md
+            -   cross~: objects/cross~.md
+            -   taint~: objects/taint~.md
+            -   mavg: objects/mavg.md
+            -   pdf~: objects/pdf~.md
+            -   prime: objects/prime.md
+            -   pol2cart: objects/pol2cart.md
+            -   sph2cart: objects/sph2cart.md
+            -   coordinates: objects/coordinates.md
+            -   minmax: objects/minmax.md
+            -   wrap: objects/wrap.md
+            -   polyfun: objects/polyfun.md
+            -   abs~: objects/abs~.md
+            -   sgn~: objects/sgn~.md
+            -   zigbinops: objects/zigbinops.md
+            -   pol2sph: objects/pol2sph.md
+            -   sph2pol: objects/sph2pol.md
+            -   absgn~: objects/absgn~.md
+            -   scalarmult: objects/scalarmult.md
+            -   tavg~: objects/tavg~.md
+            -   quantize~: objects/quantize~.md
+            -   cart2pol: objects/cart2pol.md
+            -   multiline~: objects/multiline~.md
+            -   cart2sph: objects/cart2sph.md
         -   Routing:
+            - categories/routing/index.md
             -   changed~: objects/changed~.md
             -   out~: objects/out~.md
             -   unmerge~: objects/unmerge~.md
@@ -907,7 +959,21 @@ nav:
             -   split: objects/split.md
             -   bucket: objects/bucket.md
             -   onebang: objects/onebang.md
+            -   segregate: objects/segregate.md
+            -   multiplex~: objects/multiplex~.md
+            -   demux: objects/demux.md
+            -   relay: objects/relay.md
+            -   unpack: objects/unpack.md
+            -   demux~: objects/demux~.md
+            -   multiplex: objects/multiplex.md
+            -   mux: objects/mux.md
+            -   mux~: objects/mux~.md
+            -   route~: objects/route~.md
+            -   demultiplex: objects/demultiplex.md
+            -   multireceive: objects/multireceive.md
+            -   demultiplex~: objects/demultiplex~.md
         -   Sequencers:
+            - categories/sequencers/index.md
             -   drum.seq: objects/drum.seq.md
             -   score: objects/score.md
             -   pulsediv~: objects/pulsediv~.md
@@ -929,6 +995,7 @@ nav:
             -   seq: objects/seq.md
             -   counter: objects/counter.md
     -   Control IO:
+        - categories/control_io/index.md
         -   keyboard: objects/keyboard.md
         -   touch.in: objects/touch.in.md
         -   circle: objects/circle.md
@@ -950,8 +1017,10 @@ nav:
         -   keycode: objects/keycode.md
         -   mousestate: objects/mousestate.md
         -   mousefilter: objects/mousefilter.md
+        -   lpt: objects/lpt.md
     -   Effects:
         -   Chorus/Flanger/Phaser:
+            - categories/chorus_flanger_phaser/index.md
             -   vibrato~: objects/vibrato~.md
             -   phaser~: objects/phaser~.md
             -   chorus.m~: objects/chorus.m~.md
@@ -962,6 +1031,7 @@ nav:
             -   phaser.m~: objects/phaser.m~.md
             -   delay~: objects/delay~.md
         -   Delay:
+            - categories/delay/index.md
             -   fdn.rev~: objects/fdn.rev~.md
             -   mono.rev~: objects/mono.rev~.md
             -   pipe2: objects/pipe2.md
@@ -984,7 +1054,9 @@ nav:
             -   comb~: objects/comb~.md
             -   allpass~: objects/allpass~.md
             -   delay~: objects/delay~.md
+            -   z~: objects/z~.md
         -   Distortion:
+            - categories/distortion/index.md
             -   tanh~: objects/tanh~.md
             -   shaper~: objects/shaper~.md
             -   xmod~: objects/xmod~.md
@@ -1001,7 +1073,9 @@ nav:
             -   lookup~: objects/lookup~.md
             -   overdrive~: objects/overdrive~.md
             -   kink~: objects/kink~.md
+            -   digidistort: objects/digidistort.md
         -   Dynamics:
+            - categories/dynamics/index.md
             -   resonant~: objects/resonant~.md
             -   autofade.mc~: objects/autofade.mc~.md
             -   autofade2.mc~: objects/autofade2.mc~.md
@@ -1030,7 +1104,11 @@ nav:
             -   duck~: objects/duck~.md
             -   dbgain~: objects/dbgain~.md
             -   peakamp~: objects/peakamp~.md
+            -   pvcompand~: objects/pvcompand~.md
+            -   drown~: objects/drown~.md
+            -   limiter~: objects/limiter~.md
         -   Filters:
+            - categories/filters/index.md
             -   pvoc.freeze~: objects/pvoc.freeze~.md
             -   biquads~: objects/biquads~.md
             -   click~: objects/click~.md
@@ -1098,7 +1176,15 @@ nav:
             -   comb~: objects/comb~.md
             -   buffir~: objects/buffir~.md
             -   allpass~: objects/allpass~.md
+            -   mindwarp~: objects/mindwarp~.md
+            -   xsyn~: objects/xsyn~.md
+            -   burrow~: objects/burrow~.md
+            -   drown~: objects/drown~.md
+            -   multyq~: objects/multyq~.md
+            -   dentist~: objects/dentist~.md
+            -   mavg: objects/mavg.md
         -   Reverb:
+            - categories/reverb/index.md
             -   convolve~: objects/convolve~.md
             -   giga.rev~: objects/giga.rev~.md
             -   fdn.rev~: objects/fdn.rev~.md
@@ -1115,10 +1201,12 @@ nav:
             -   allpass.rev~: objects/allpass.rev~.md
             -   comb.filt~: objects/comb.filt~.md
     -   Extensions:
+        - categories/extensions/index.md
         -   hello: objects/hello.md
         -   else: objects/else.md
         -   lua: objects/lua.md
     -   GUI:
+        - categories/gui/index.md
         -   keyboard: objects/keyboard.md
         -   circle: objects/circle.md
         -   mtx.ctl: objects/mtx.ctl.md
@@ -1155,6 +1243,7 @@ nav:
         -   number~: objects/number~.md
         -   comment: objects/comment.md
     -   Graphics:
+        - categories/graphics/index.md
         -   spectrograph~: objects/spectrograph~.md
         -   mtx.ctl: objects/mtx.ctl.md
         -   scope3d~: objects/scope3d~.md
@@ -1168,6 +1257,7 @@ nav:
         -   pmpd3d: objects/pmpd3d.md
     -   MIR:
         -   Descriptors:
+            - categories/descriptors/index.md
             -   spectrograph~: objects/spectrograph~.md
             -   mtx.ctl: objects/mtx.ctl.md
             -   mag~: objects/mag~.md
@@ -1294,7 +1384,12 @@ nav:
             -   rms~: objects/rms~.md
             -   framedelta~: objects/framedelta~.md
             -   peakamp~: objects/peakamp~.md
+            -   pvoc~: objects/pvoc~.md
+            -   morphine~: objects/morphine~.md
+            -   dfreq~: objects/dfreq~.md
+            -   envrms~: objects/envrms~.md
         -   Partial Tracking:
+            - categories/partial_tracking/index.md
             -   pvoc.freeze~: objects/pvoc.freeze~.md
             -   mag~: objects/mag~.md
             -   morph~: objects/morph~.md
@@ -1303,22 +1398,37 @@ nav:
             -   pvoc.player~: objects/pvoc.player~.md
             -   pvoc.live~: objects/pvoc.live~.md
             -   framedelta~: objects/framedelta~.md
-        -   Score Follower: []
+            -   pvwarpb~: objects/pvwarpb~.md
+            -   pvoc~: objects/pvoc~.md
+            -   resent~: objects/resent~.md
+            -   reanimator~: objects/reanimator~.md
+            -   pileup~: objects/pileup~.md
+            -   pvharm~: objects/pvharm~.md
+            -   residency~: objects/residency~.md
+        -   Score Follower:
+            - categories/score_follower/index.md
     -   Plugins:
-        -   AU: []
-        -   LADSPA: []
+        -   AU:
+            - categories/au/index.md
+        -   LADSPA:
+            - categories/ladspa/index.md
         -   VST2/VST3:
+            - categories/vst2_vst3/index.md
             -   vstplugin~: objects/vstplugin~.md
-        -   Vamp: []
+        -   Vamp:
+            - categories/vamp/index.md
     -   Spatialization:
         -   Ambisonics:
+            - categories/ambisonics/index.md
             -   saf.decoder~: objects/saf.decoder~.md
             -   saf.encoder~: objects/saf.encoder~.md
         -   Binaural:
+            - categories/binaural/index.md
             -   earplug~: objects/earplug~.md
             -   sofalizer~: objects/sofalizer~.md
     -   Synthesis:
         -   Additive:
+            - categories/additive/index.md
             -   plaits~: objects/plaits~.md
             -   pvoc.freeze~: objects/pvoc.freeze~.md
             -   resonbank~: objects/resonbank~.md
@@ -1329,7 +1439,12 @@ nav:
             -   morph~: objects/morph~.md
             -   freeze~: objects/freeze~.md
             -   bl.osc~: objects/bl.osc~.md
+            -   cavoc27~: objects/cavoc27~.md
+            -   enrich~: objects/enrich~.md
+            -   pileup~: objects/pileup~.md
+            -   cavoc~: objects/cavoc~.md
         -   Granular:
+            - categories/granular/index.md
             -   plaits~: objects/plaits~.md
             -   grain.sampler~: objects/grain.sampler~.md
             -   gran.player~: objects/gran.player~.md
@@ -1340,7 +1455,9 @@ nav:
             -   grain.live~: objects/grain.live~.md
             -   grain.synth~: objects/grain.synth~.md
             -   plaits.m~: objects/plaits.m~.md
+            -   pvgrain~: objects/pvgrain~.md
         -   Oscillators:
+            - categories/oscillators/index.md
             -   plaits~: objects/plaits~.md
             -   xmod2~: objects/xmod2~.md
             -   lfnoise~: objects/lfnoise~.md
@@ -1433,8 +1550,15 @@ nav:
             -   fbsine2~: objects/fbsine2~.md
             -   vco.m~: objects/vco.m~.md
             -   pm6.m~: objects/pm6.m~.md
-        -   Partial Tracking: []
+            -   enrich~: objects/enrich~.md
+            -   pvtuner~: objects/pvtuner~.md
+            -   pvharm~: objects/pvharm~.md
+            -   noisi~: objects/noisi~.md
+            -   noish~: objects/noish~.md
+        -   Partial Tracking:
+            - categories/partial_tracking/index.md
         -   Physical Modeling:
+            - categories/physical_modeling/index.md
             -   plaits~: objects/plaits~.md
             -   pluck~: objects/pluck~.md
             -   resonbank~: objects/resonbank~.md
@@ -1464,6 +1588,7 @@ nav:
             -   pmpd3d~: objects/pmpd3d~.md
             -   iAmbient3D: objects/iAmbient3D.md
         -   Samplers:
+            - categories/samplers/index.md
             -   tabplayer~: objects/tabplayer~.md
             -   grain.sampler~: objects/grain.sampler~.md
             -   gran.player~: objects/gran.player~.md
@@ -1477,7 +1602,9 @@ nav:
             -   play.file~: objects/play.file~.md
             -   sfz~: objects/sfz~.md
             -   play~: objects/play~.md
+            -   residency_buffer~: objects/residency_buffer~.md
         -   Stochastic:
+            - categories/stochastic/index.md
             -   gendyn~: objects/gendyn~.md
             -   dust~: objects/dust~.md
             -   perlin~: objects/perlin~.md
@@ -1524,7 +1651,12 @@ nav:
             -   decide: objects/decide.md
             -   prob: objects/prob.md
             -   rand~: objects/rand~.md
+            -   pvgrain~: objects/pvgrain~.md
+            -   disarrain~: objects/disarrain~.md
+            -   noisi~: objects/noisi~.md
+            -   noish~: objects/noish~.md
         -   Subtractive:
+            - categories/subtractive/index.md
             -   biquads~: objects/biquads~.md
             -   resonant~: objects/resonant~.md
             -   vsaw~: objects/vsaw~.md
@@ -1546,6 +1678,7 @@ nav:
             -   bl.osc~: objects/bl.osc~.md
     -   Utilities:
         -   Data Structures:
+            - categories/data_structures/index.md
             -   a.rotate: objects/a.rotate.md
             -   tabplayer~: objects/tabplayer~.md
             -   store: objects/store.md
@@ -1618,7 +1751,37 @@ nav:
             -   peek~: objects/peek~.md
             -   pv: objects/pv.md
             -   pmpd: objects/pmpd.md
+            -   pack: objects/pack.md
+            -   symbol2list: objects/symbol2list.md
+            -   list2symbol: objects/list2symbol.md
+            -   glue: objects/glue.md
+            -   s2l: objects/s2l.md
+            -   any2list: objects/any2list.md
+            -   lister: objects/lister.md
+            -   urn: objects/urn.md
+            -   unpack: objects/unpack.md
+            -   msgfile: objects/msgfile.md
+            -   repack: objects/repack.md
+            -   unpack~: objects/unpack~.md
+            -   tabdump: objects/tabdump.md
+            -   niagara: objects/niagara.md
+            -   pack~: objects/pack~.md
+            -   tabset: objects/tabset.md
+            -   matchbox: objects/matchbox.md
+            -   l2i: objects/l2i.md
+            -   l: objects/l.md
+            -   length: objects/length.md
+            -   fifop: objects/fifop.md
+            -   listfind: objects/listfind.md
+            -   lifop: objects/lifop.md
+            -   tabminmax: objects/tabminmax.md
+            -   uniqsym: objects/uniqsym.md
+            -   packel: objects/packel.md
+            -   l2s: objects/l2s.md
+            -   list2lists: objects/list2lists.md
+            -   zexy_index: objects/zexy_index.md
         -   File IO:
+            - categories/file_io/index.md
             -   dir: objects/dir.md
             -   presets: objects/presets.md
             -   midi: objects/midi.md
@@ -1651,8 +1814,14 @@ nav:
             -   coll: objects/coll.md
             -   mtr: objects/mtr.md
             -   capture: objects/capture.md
-        -   General: []
+            -   sf-play_record: objects/sf-play_record.md
+            -   msgfile: objects/msgfile.md
+            -   freadln: objects/freadln.md
+            -   fwriteln: objects/fwriteln.md
+        -   General:
+            - categories/general/index.md
         -   General Utilities:
+            - categories/general_utilities/index.md
             -   insert: objects/insert.md
             -   smooth~: objects/smooth~.md
             -   initmess: objects/initmess.md
@@ -1764,11 +1933,35 @@ nav:
             -   uzi: objects/uzi.md
             -   bitsafe~: objects/bitsafe~.md
             -   sprintf: objects/sprintf.md
+            -   segregate: objects/segregate.md
+            -   nop: objects/nop.md
+            -   urn: objects/urn.md
+            -   relay: objects/relay.md
+            -   rawprint: objects/rawprint.md
+            -   date: objects/date.md
+            -   swap~: objects/swap~.md
+            -   tabdump: objects/tabdump.md
+            -   minmax: objects/minmax.md
+            -   tabset: objects/tabset.md
+            -   time: objects/time.md
+            -   wrap: objects/wrap.md
+            -   strcmp: objects/strcmp.md
+            -   mux: objects/mux.md
+            -   length: objects/length.md
+            -   atoi: objects/atoi.md
+            -   operating_system: objects/operating_system.md
+            -   atof: objects/atof.md
+            -   l2s: objects/l2s.md
+            -   rad2deg: objects/rad2deg.md
+            -   list2int: objects/list2int.md
+            -   zexy_index: objects/zexy_index.md
         -   MultiThreading:
+            - categories/multithreading/index.md
             -   abs.pd~: objects/abs.pd~.md
             -   add: objects/add.md
             -   coll: objects/coll.md
         -   Multichannel:
+            - categories/multichannel/index.md
             -   out~: objects/out~.md
             -   quantizer~: objects/quantizer~.md
             -   unmerge~: objects/unmerge~.md
@@ -1941,7 +2134,11 @@ nav:
             -   peek~: objects/peek~.md
             -   pmpd~: objects/pmpd~.md
             -   pmpd3d~: objects/pmpd3d~.md
+            -   sf-play_record: objects/sf-play_record.md
+            -   limiter~: objects/limiter~.md
+            -   multiline~: objects/multiline~.md
         -   Networking:
+            - categories/networking/index.md
             -   pdlink: objects/pdlink.md
             -   pdlink~: objects/pdlink~.md
             -   osc.format: objects/osc.format.md
@@ -1952,12 +2149,14 @@ nav:
             -   osc.parse: objects/osc.parse.md
             -   sfload: objects/sfload.md
         -   OSC:
+            - categories/osc/index.md
             -   osc.format: objects/osc.format.md
             -   osc.receive: objects/osc.receive.md
             -   osc.send: objects/osc.send.md
             -   osc.route: objects/osc.route.md
             -   osc.parse: objects/osc.parse.md
         -   Patching:
+            - categories/patching/index.md
             -   args: objects/args.md
             -   dispatch: objects/dispatch.md
             -   zl: objects/zl.md
@@ -2039,6 +2238,7 @@ nav:
             -   pv: objects/pv.md
             -   active: objects/active.md
         -   Text:
+            - categories/text/index.md
             -   stack: objects/stack.md
             -   format: objects/format.md
             -   unite: objects/unite.md
@@ -2055,12 +2255,27 @@ nav:
             -   comment: objects/comment.md
             -   spell: objects/spell.md
             -   sprintf: objects/sprintf.md
+            -   symbol2list: objects/symbol2list.md
+            -   regex-help: objects/regex-help.md
+            -   list2symbol: objects/list2symbol.md
+            -   s2l: objects/s2l.md
+            -   makesymbol: objects/makesymbol.md
+            -   msgfile: objects/msgfile.md
+            -   regex: objects/regex.md
+            -   freadln: objects/freadln.md
+            -   strcmp: objects/strcmp.md
+            -   atoi: objects/atoi.md
+            -   atof: objects/atof.md
+            -   uniqsym: objects/uniqsym.md
+            -   fwriteln: objects/fwriteln.md
 -   Libraries:
     -   cyclone: libraries/cyclone.md
     -   else: libraries/else.md
+    -   fftease: libraries/fftease.md
     -   neimog: libraries/neimog.md
     -   pmpd: libraries/pmpd.md
     -   timbreIDLib: libraries/timbreIDLib.md
+    -   zexy: libraries/zexy.md
 -   Pieces: pieces.md
 -   Web:
     -   pd4web: web/pd4web.md
@@ -2071,5 +2286,3 @@ nav:
     -   deken: deken.md
     -   pd-lib-builder: devs/pdlibbuilder.md
     -   pd.cmake: devs/pd.cmake.md
-plugins:
-- search

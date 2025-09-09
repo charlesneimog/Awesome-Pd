@@ -76,7 +76,6 @@ updateList();
 - :material-tune: [__freadln__](../objects/freadln.md) The `freadln` object reads text files line by line, outputting each line as a list.
 - :material-tune: [__fwriteln__](../objects/fwriteln.md) The `fwriteln` object writes text files line by line, serving as a simplified version of `textfile`.
 - :material-tune: [__glue__](../objects/glue.md) The `glue` object combines two "packages" or messages, typically by appending or prepending one to the other.
-- :material-tune: [__index__](../objects/index.md) The `index` object creates and manages a symbol-to-integer map, allowing you to associate unique symbols with numerical indices.
 - :material-tune: [__l__](../objects/l.md) The `l` object (an alias for `list`) is used to store and manipulate lists in Pure Data.
 - :material-tune: [__l2i__](../objects/l2i.md) The `l2i` object converts all floating-point numbers within an incoming list to integers.
 - :material-tune: [__l2s__](../objects/l2s.md) The `list2symbol` (or `l2s`) object converts an incoming list into a single symbol.
@@ -149,6 +148,7 @@ updateList();
 - :material-tune: [__unpack~__](../objects/unpack~.md) The `unpack~` object converts a list of floating-point numbers into an audio signal.
 - :material-tune: [__urn__](../objects/urn.md) The `urn` object is a unique random number generator.
 - :material-tune: [__wrap__](../objects/wrap.md) The `wrap` object functions as a float-capable modulo, constraining an input float value within specified limits.
+- :material-tune: [__zexy_index__](../objects/zexy_index.md) The `index` object creates and manages a symbol-to-integer map, allowing you to associate unique symbols with numerical indices.
 - :material-tune: [__zigbinops__](../objects/zigbinops.md) The `zigbinops` help patch describes a collection of signal-rate Pure Data objects from the zexy library.
 - :material-tune: [__z~__](../objects/z~.md) The `z~` object provides a sample-wise delay for audio signals, effectively implementing a `z^-N` delay.
 </div>

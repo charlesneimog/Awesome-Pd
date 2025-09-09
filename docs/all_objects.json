@@ -229,6 +229,7 @@
     "metronome~",
     "slew2~",
     "duck~",
+    "zexy_index",
     "rampsmooth~",
     "mindwarp~",
     "specSpread",
@@ -1040,7 +1041,6 @@
     "e",
     "lastvalue",
     "bitshift~",
-    "index",
     "cavoc~",
     "delay~",
     "tremolo~"

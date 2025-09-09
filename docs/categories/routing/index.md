@@ -1,0 +1,89 @@
+# Routing
+
+<div class="grid cards" markdown>
+
+- :material-tune: [__out~__](../../objects/out~.md) `out~` is a convenient Pure Data abstraction for managing audio output.
+- :material-tune: [__unmerge~__](../../objects/unmerge~.md) `unmerge~` separates the channels of a multichannel signal into groups of a specified size.
+- :material-tune: [__grab__](../../objects/grab.md) The `grab` object in Pure Data sends a message to another object and captures its output, routing it through `grab`'s own outlets.
+- :material-tune: [__chance~__](../../objects/chance~.md) The `chance~` object probabilistically routes an incoming bang to one of its outlets based on a set of weighted chances.
+- :material-tune: [__xgate~__](../../objects/xgate~.md) The `xgate~` object routes an incoming audio signal to one of its multiple outlets, supporting up to 500 channels.
+- :material-tune: [__pdlink__](../../objects/pdlink.md) The `pdlink` object enables simplified communication between different Pure Data instances, including `[pd~]` subprocesses, over a local network.
+- :material-tune: [__gate~__](../../objects/gate~.md) The `gate~` object routes an incoming audio signal from its second inlet to one of its multiple outlets.
+- :material-tune: [__out8~__](../../objects/out8~.md) The `out8~` object is an octaphonic (8-channel) audio output abstraction for Pure Data.
+- :material-tune: [__segregate__](../../objects/segregate.md) The `segregate` object sorts incoming messages by their data type, sending them to dedicated outlets.
+- :material-tune: [__xgate2~__](../../objects/xgate2~.md) `xgate2~` routes a single input signal to a specified number of output channels, applying crossfading between adjacent channels.
+- :material-tune: [__universal__](../../objects/universal.md) The `universal` object sends messages to all instances of a specified object type within the current Pure Data patch.
+- :material-tune: [__gate__](../../objects/gate.md) The `gate` object functions as a message router, directing incoming messages from its second inlet to one of its multiple outlets.
+- :material-tune: [__bondo__](../../objects/bondo.md) The `bondo` object in Pure Data synchronizes and routes incoming messages.
+- :material-tune: [__funnel__](../../objects/funnel.md) The `funnel` object receives data from multiple inlets and outputs it through a single outlet, tagging the incoming data with its inlet number.
+- :material-tune: [__forward__](../../objects/forward.md) The `forward` object sends messages to various destinations, allowing the target to change dynamically with each message, similar to using semicolons in message boxes.
+- :material-tune: [__multiplex~__](../../objects/multiplex~.md) The `multiplex~` object functions as a signal multiplexer, allowing you to select one signal from multiple inputs to be passed to a single output.
+- :material-tune: [__pan~__](../../objects/pan~.md) `pan~` performs circular or azimuth panning of an input signal across a user-defined number of output channels.
+- :material-tune: [__demux__](../../objects/demux.md) The `demux` object acts as a demultiplexer, routing data from its left inlet to one of its multiple outlets.
+- :material-tune: [__pan4~__](../../objects/pan4~.md) The `pan4~` object is a 4-channel equal power (sine/cosine) panner designed for quadraphonic audio.
+- :material-tune: [__delace~__](../../objects/delace~.md) The `delace~` object deinterleaves a multichannel audio signal, splitting it into multiple separate signal outlets.
+- :material-tune: [__xgate.mc~__](../../objects/xgate.mc~.md) The `xgate.mc~` object routes a multichannel audio input to a selected multichannel output.
+- :material-tune: [__relay__](../../objects/relay.md) The `relay` object routes incoming messages based on their first element.
+- :material-tune: [__matrix~__](../../objects/matrix~.md) The `matrix~` object routes and mixes audio signals from multiple inlets to multiple outlets.
+- :material-tune: [__unpack__](../../objects/unpack.md) The `unpack` object splits an incoming message or list into its individual atoms, sending each atom to a separate outlet.
+- :material-tune: [__decode__](../../objects/decode.md) The `decode` object routes a `1` to a specific outlet and `0` to all others, based on a numerical input.
+- :material-tune: [__spread.mc~__](../../objects/spread.mc~.md) The `spread.mc~` object distributes multichannel audio input across a specified number of output channels using equal power panning.
+- :material-tune: [__match~__](../../objects/match~.md) The `match~` object compares an incoming signal to a list of numerical arguments.
+- :material-tune: [__pan2~__](../../objects/pan2~.md) `pan2~` performs equal-power (sin/cos) panning, distributing a mono audio signal across two output channels (left and right).
+- :material-tune: [__spray__](../../objects/spray.md) The `spray` object distributes incoming list elements to its outlets.
+- :material-tune: [__demux~__](../../objects/demux~.md) The `demux~` object acts as a signal demultiplexer, routing a single audio signal from its inlet to one of its multiple outlets.
+- :material-tune: [__xfade~__](../../objects/xfade~.md) The `xfade~` object crossfades between two audio sources, each supporting 1 to 64 channels.
+- :material-tune: [__routetype__](../../objects/routetype.md) The `routetype` object routes incoming messages to different outlets based on their data type.
+- :material-tune: [__retrieve__](../../objects/retrieve.md) The `retrieve` object in Pure Data fetches data from named receive objects (`r`, `else/receiver`) or GUI elements that have built-in receive names.
+- :material-tune: [__route2__](../../objects/route2.md) The `route2` object functions similarly to `route`, but it preserves the list selector in its output messages and supports both float and symbol arguments for routing.
+- :material-tune: [__out4~__](../../objects/out4~.md) `out4~` is a quadraphonic audio output abstraction for Pure Data, providing click-free control over DSP on/off, mute, and gain.
+- :material-tune: [__nmess__](../../objects/nmess.md) The `nmess` object acts as a message gate, allowing a specified number of messages (`n`) to pass through its left outlet.
+- :material-tune: [__multiplex__](../../objects/multiplex.md) The `multiplex` object routes data from one of its multiple inlets to a single outlet.
+- :material-tune: [__switch__](../../objects/switch.md) The `switch` object in Pure Data acts as a message router, allowing only one of its 'n' inlets to pass data through to its single outlet at a time.
+- :material-tune: [__xgate2.mc~__](../../objects/xgate2.mc~.md) The `xgate2.mc~` object routes a single input signal to multiple output channels within a multichannel signal.
+- :material-tune: [__routeall__](../../objects/routeall.md) The `routeall` object routes incoming messages to different outlets based on matching arguments, similar to `route` but with enhanced capabilities.
+- :material-tune: [__spread__](../../objects/spread.md) The `spread` object routes incoming lists to different outlets based on a comparison of the list's first element to a set of arguments.
+- :material-tune: [__mux__](../../objects/mux.md) The `mux` object functions as a multiplexer, directing the signal from one of its multiple input inlets to its single outlet.
+- :material-tune: [__spread~__](../../objects/spread~.md) The `spread~` object distributes multiple input audio channels across multiple output channels using equal power panning.
+- :material-tune: [__mtx~__](../../objects/mtx~.md) The `mtx~` object acts as an audio signal matrix router, enabling flexible connections between multiple audio inlets and outlets.
+- :material-tune: [__xselect2.mc~__](../../objects/xselect2.mc~.md) `xselect2.mc~` is a multichannel signal selector that crossfades between adjacent input channels.
+- :material-tune: [__next__](../../objects/next.md) The `next` object in Pure Data detects whether an incoming message is part of the same "logical event" as the previous one.
+- :material-tune: [__hot__](../../objects/hot.md) The `hot` object in Pure Data acts as a message router and temporary storage.
+- :material-tune: [__receiver__](../../objects/receiver.md) The `receiver` object in Pure Data functions similarly to the vanilla `receive` object, allowing it to receive messages sent to a specified name.
+- :material-tune: [__merge~__](../../objects/merge~.md) The `merge~` object combines multiple audio signals, potentially with varying channel lengths, into a single multichannel output.
+- :material-tune: [__dispatch__](../../objects/dispatch.md) The `dispatch` object takes a list as input and sends each element to a specified address.
+- :material-tune: [__osc.route__](../../objects/osc.route.md) The `osc.route` object routes incoming Open Sound Control (OSC) messages based on their address patterns.
+- :material-tune: [__pick~__](../../objects/pick~.md) `pick~` selects a specific channel from a multichannel audio connection.
+- :material-tune: [__selector~__](../../objects/selector~.md) The `selector~` object acts as a signal-rate multiplexer, routing one of its 'n' signal inputs to a single output.
+- :material-tune: [__cycle__](../../objects/cycle.md) The `cycle` object distributes incoming messages to its outlets in a round-robin fashion.
+- :material-tune: [__pan.mc~__](../../objects/pan.mc~.md) `pan.mc~` is a multichannel audio panner designed for circular speaker arrays.
+- :material-tune: [__split__](../../objects/split.md) The `split` object separates incoming float numbers into two outlets based on whether they fall within a specified minimum and maximum range.
+- :material-tune: [__selector__](../../objects/selector.md) The `selector` object routes incoming data from one of its multiple inlets to its single output.
+- :material-tune: [__message__](../../objects/message.md) The `message` object in Pure Data serves as a versatile container for storing and outputting any type of message, functioning similarly to a message box but as an object.
+- :material-tune: [__select~__](../../objects/select~.md) The `select~` object selects one of its input audio signals based on a control input, without applying any crossfade.
+- :material-tune: [__mtx.mc~__](../../objects/mtx.mc~.md) The `mtx.mc~` object is a multichannel signal routing matrix for Pure Data, designed to route audio signals from multiple input channels to multiple output channels.
+- :material-tune: [__suspedal__](../../objects/suspedal.md) The `suspedal` object emulates a MIDI sustain pedal, holding `Note Off` messages when active and releasing them when deactivated.
+- :material-tune: [__mux~__](../../objects/mux~.md) The `mux~` object acts as a signal multiplexer, routing one of its multiple signal inlets to a single signal outlet.
+- :material-tune: [__mix2~__](../../objects/mix2~.md) The `mix2~` object is a 2-channel audio mixer that provides independent gain and panning control for each input signal.
+- :material-tune: [__send2~__](../../objects/send2~.md) The `send2~` object transmits audio signals to a corresponding `r~` object, similar to `send~`.
+- :material-tune: [__bucket__](../../objects/bucket.md) The `bucket` object passes incoming numbers sequentially through its multiple outlets in a rotational pattern, like a bucket brigade.
+- :material-tune: [__rotate.mc~__](../../objects/rotate.mc~.md) The `rotate.mc~` object performs equal power rotation for multichannel audio signals.
+- :material-tune: [__mono__](../../objects/mono.md) The `else/mono` object manages incoming MIDI note messages to enforce monophonic behavior, allowing only one note to sound at a time based on configurable priority modes (last, high, or low note).
+- :material-tune: [__voices__](../../objects/voices.md) The `voices` object manages voice allocation for polyphonic synthesizers, offering advanced features beyond `poly`.
+- :material-tune: [__route~__](../../objects/route~.md) The `route~` object, part of the zexy library, separates incoming audio signals from control messages.
+- :material-tune: [__demultiplex__](../../objects/demultiplex.md) The `demultiplex` object routes data from its left inlet to one of its outlets.
+- :material-tune: [__xselect.mc~__](../../objects/xselect.mc~.md) The `xselect.mc~` object selects a specific channel from a multichannel audio connection, supporting up to 512 channels.
+- :material-tune: [__xselect2~__](../../objects/xselect2~.md) The `xselect2~` object selects and crossfades between multiple audio input signals.
+- :material-tune: [__onebang__](../../objects/onebang.md) The `onebang` object acts as a conditional gate for bang messages.
+- :material-tune: [__mix4~__](../../objects/mix4~.md) The `mix4~` object is a 4-channel audio mixer abstraction that provides independent gain and panning control for each channel.
+- :material-tune: [__multireceive__](../../objects/multireceive.md) The `multireceive` object allows a single outlet to receive messages from multiple `send` objects.
+- :material-tune: [__demultiplex~__](../../objects/demultiplex~.md) The `demultiplex~` (or `demux~`) object takes a single audio or control signal and routes it to one of its multiple outlets.
+- :material-tune: [__router__](../../objects/router.md) The `router` object routes incoming messages from its left inlet to a specific outlet.
+- :material-tune: [__out.mc~__](../../objects/out.mc~.md) The `out.mc~` object routes multichannel audio signals to specified `dac~` output channels, with a default starting channel of 1.
+- :material-tune: [__chance__](../../objects/chance.md) The `chance` object outputs a bang to one of its outlets based on a weighted probability distribution.
+- :material-tune: [__slice~__](../../objects/slice~.md) The `slice~` object splits a multichannel signal into two outputs based on a specified split point.
+- :material-tune: [__xselect~__](../../objects/xselect~.md) The `xselect~` object selects one of its multiple signal inputs and outputs it.
+- :material-tune: [__sender__](../../objects/sender.md) The `sender` object functions similarly to Pure Data's `send` object, but with enhanced capabilities.
+- :material-tune: [__get~__](../../objects/get~.md) `get~` extracts one or more specific channels from a multichannel audio connection.
+
+</div>
