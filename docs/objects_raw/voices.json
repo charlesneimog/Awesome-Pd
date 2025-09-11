@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "voices",
+    "description": "The `voices` object manages voice allocation for polyphonic synthesizers, offering advanced features beyond `poly`. It outputs voice index, pitch, and velocity, handling voice stealing, retrigger modes, and release times. This object is particularly useful with `clone` for constructing complex polyphonic instruments.",
+    "categories": [
+        "Procedural",
+        "Routing",
+        "MIDI"
+    ]
+}

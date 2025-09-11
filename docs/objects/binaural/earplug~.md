@@ -1,0 +1,53 @@
+# earplug~
+
+`earplug~` is a binaural filter based on KEMAR impulse measurement which allows you to spatialize a sound in realtime. It basically takes the KEMAR dummy head data set, and interpolates 368 locations where HRTF measurement exists in a spherical surface. You get azimuth 0 - 360 degrees and elevation -40 - 90 degrees.
+
+---
+<div class="grid cards" markdown>
+- :octicons-download-16: __Download__ via [Deken](../../deken.md).
+- :fontawesome-brands-dev: Library developed mainly by **Pei Xiang, Jorge Castellanos, Hans-Christoph Steiner, Dan Wilcox, Chikashi Miyama**.
+- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://github.com/pd-externals/earplug)!
+- :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
+</div>
+
+---
+
+<h3>Comments</h3>
+
+<script src="https://giscus.app/client.js"
+    data-repo="charlesneimog/Awesome-PD"
+    data-repo-id="R_kgDOLaunFg"
+    data-category="Comments"
+    data-category-id="DIC_kwDOLaunFs4CnXHy"
+    data-mapping="title"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+    
+<h3>Contributors</h3>
+
+<div id="avatars"></div>
+
+<script>
+const nicknames = ["charlesneimog"];
+const container = document.getElementById('avatars');
+nicknames.forEach(nick => {
+  const link = document.createElement('a');
+  link.href = `https://github.com/${nick}`;
+  link.target = '_blank'; // opens in new tab
+  const img = document.createElement('img');
+  img.src = `https://github.com/${nick}.png`;
+  img.alt = nick;
+  img.className = 'avatar';
+  link.appendChild(img);
+  container.appendChild(link);
+});
+</script>
+    

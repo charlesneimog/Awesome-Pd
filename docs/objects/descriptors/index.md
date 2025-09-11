@@ -1,0 +1,133 @@
+# Descriptors
+
+<div class="grid cards" markdown>
+
+- :material-tune: [__peakSample__](peakSample.md) The `peakSample` object analyzes a specified audio array or a segment of it to find the maximum sample value and its corresponding index.
+- :material-tune: [__phaseSpec__](phaseSpec.md) The `phaseSpec` object from `timbreIDLib` calculates the phase spectrum of a specified window within an audio sample array.
+- :material-tune: [__barkSpecSlope~__](barkSpecSlope~.md) The `barkSpecSlope~` object calculates the slope of the best-fit line through the data points of a Bark spectrum.
+- :material-tune: [__spectrograph~__](spectrograph~.md) The `spectrograph~` object visualizes the FFT amplitudes of an incoming audio signal, displaying frequencies from 0 Hz to Nyquist.
+- :material-tune: [__tID_std__](tID_std.md) The tID_std object calculates the standard deviation of a list of numbers, requiring at least two elements.
+- :material-tune: [__phaseSpec~__](phaseSpec~.md) The `phaseSpec~` object calculates and outputs the phase spectrum of an audio signal.
+- :material-tune: [__barkSpecSlope__](barkSpecSlope.md) The barkSpecSlope object calculates the slope of the Bark spectrum for a given audio segment.
+- :material-tune: [__featureDelta__](featureDelta.md) The `featureDelta` object calculates the difference between corresponding attributes of two incoming feature lists, such as audio descriptors.
+- :material-tune: [__barkSpecIrregularity__](barkSpecIrregularity.md) The barkSpecIrregularity object computes the Bark spectrum irregularity of an audio signal, a descriptor indicating the noisiness or irregularity of its spectral envelope.
+- :material-tune: [__pix_multiblob__](pix_multiblob.md) The `pix_multiblob` object detects multiple "blobs" within an image, defined as adjacent pixels exceeding a specified luminance `threshold` and minimum `blobSize`.
+- :material-tune: [__range~__](range~.md) The `range~` object analyzes an incoming audio signal to continuously output its minimum and maximum amplitude values.
+- :material-tune: [__barkSpecBrightness__](barkSpecBrightness.md) The `barkSpecBrightness` object calculates the brightness of an audio sample by analyzing its Bark spectrum.
+- :material-tune: [__pix_blobtracker__](pix_blobtracker.md) The `pix_blobtracker` object in Pure Data is a video analysis tool designed to detect and track multiple distinct regions (blobs) within an incoming video stream.
+- :material-tune: [__attackTime~__](attackTime~.md) The `attackTime~` object calculates the attack time of an audio event in milliseconds.
+- :material-tune: [__chroma~__](chroma~.md) The `chroma~` object analyzes incoming audio to determine the spectral energy present in each of the 12 musical pitch classes, regardless of octave.
+- :material-tune: [__specSlope__](specSlope.md) The `specSlope` object calculates the spectral slope of an audio sample, quantifying the average decrease in amplitude across increasing frequencies.
+- :material-tune: [__cepstrumPitch~__](cepstrumPitch~.md) The `cepstrumPitch~` object performs real-time pitch tracking of an audio signal using cepstrum analysis.
+- :material-tune: [__dfreq~__](dfreq~.md) The `dfreq~` object is a computationally efficient frequency detector that estimates the frequency of an incoming audio signal by counting zero-crossings.
+- :material-tune: [__attackTime__](attackTime.md) The `attackTime` object analyzes a specified segment of a sound sample array to determine its attack time.
+- :material-tune: [__minSampleDelta__](minSampleDelta.md) The minSampleDelta object analyzes a specified window within a sample array to find the smallest absolute difference between consecutive samples.
+- :material-tune: [__tID_fft__](tID_fft.md) The tID_fft object performs an offline Fast Fourier Transform (FFT) on a specified segment of an audio sample array in Pure Data.
+- :material-tune: [__maxSampleDelta~__](maxSampleDelta~.md) The `maxSampleDelta~` object analyzes an audio stream to find the largest absolute difference between adjacent samples within a specified window.
+- :material-tune: [__barkSpecCentroid__](barkSpecCentroid.md) The barkSpecCentroid object computes the Bark spectrum centroid, a psychoacoustically weighted measure of an audio signal's spectral balance.
+- :material-tune: [__waveSlope~__](waveSlope~.md) The `waveSlope~` object calculates the slope of the best-fit line through the absolute value of audio samples within a configurable analysis window.
+- :material-tune: [__specSpread__](specSpread.md) The `specSpread` object calculates the spectral spread, a measure of the dispersion of the spectrum around its centroid, for an audio signal stored in a Pure Data array.
+- :material-tune: [__specCentroid__](specCentroid.md) The `specCentroid` object calculates the spectral centroid of an audio array, providing a measure of the 'brightness' or 'timbral richness' of a sound.
+- :material-tune: [__zeroCrossing__](zeroCrossing.md) The `zeroCrossing` object calculates the zero-crossing rate of a specified audio array or a segment of it.
+- :material-tune: [__autoCorrPitch__](autoCorrPitch.md) The autoCorrPitch object performs offline pitch tracking on a specified audio sample array using an autocorrelation algorithm.
+- :material-tune: [__nyquist~__](nyquist~.md) The `nyquist~` object reports the Nyquist frequency (half the audio sample rate) or its corresponding period.
+- :material-tune: [__mov.rms~__](mov.rms~.md) The `mov.rms~` object calculates the Root Mean Square (RMS) of an incoming audio signal over a specified moving time window.
+- :material-tune: [__harmonicRatio~__](harmonicRatio~.md) The `harmonicRatio~` object calculates the harmonic ratio of an audio signal, providing an indicator of its periodicity.
+- :material-tune: [__pvoc~__](pvoc~.md) The `pvoc~` object performs phase vocoding, a technique for time-stretching or pitch-shifting audio by analyzing its frequency content.
+- :material-tune: [__waveNoise~__](waveNoise~.md) The `waveNoise~` object measures the noisiness of an audio signal by counting the number of times the signal changes direction within a specified window.
+- :material-tune: [__specBrightness~__](specBrightness~.md) The `specBrightness~` object calculates the spectral brightness of an audio signal, defined as the ratio of high-frequency spectral magnitudes to total spectral magnitudes.
+- :material-tune: [__melSpec~__](melSpec~.md) The `melSpec~` object computes the Mel-frequency spectrum of an incoming audio signal, transforming the linear frequency scale to the perceptually-motivated mel scale.
+- :material-tune: [__barkSpecBrightness~__](barkSpecBrightness~.md) The barkSpecBrightness~ object calculates the brightness of an audio signal's Bark spectrum.
+- :material-tune: [__minSampleDelta~__](minSampleDelta~.md) The `minSampleDelta~` object calculates the minimum absolute difference between adjacent samples within a specified audio window.
+- :material-tune: [__zerocross~__](zerocross~.md) The `zerocross~` object detects zero-crossings in an audio signal.
+- :material-tune: [__cepstrumPitch__](cepstrumPitch.md) The cepstrumPitch object performs offline pitch tracking on an audio sample array using cepstral analysis.
+- :material-tune: [__morphine~__](morphine~.md) `morphine~` performs spectral morphing, enabling a smooth transition between two audio signals in the frequency domain.
+- :material-tune: [__dct~__](dct~.md) The `dct~` object computes the Discrete Cosine Transform (DCT) of an incoming audio window, outputting a list of real numbers representing its spectral characteristics.
+- :material-tune: [__maxpeak~__](maxpeak~.md) The `maxpeak~` object continuously tracks and outputs the maximum peak amplitude of an incoming audio signal.
+- :material-tune: [__binWrangler__](binWrangler.md) The `binWrangler` Pure Data object accumulates a specified number of feature vector frames, such as BFCCs, and then outputs the time-varying information organized by bin number as a concatenated list.
+- :material-tune: [__maxSample~__](maxSample~.md) The `maxSample~` object reports the maximum sample value and its corresponding index within a specified audio window.
+- :material-tune: [__meter8~__](meter8~.md) The `meter8~` object provides an octaphonic (8-channel) VU-meter, displaying the RMS/peak amplitude of incoming audio signals.
+- :material-tune: [__specIrregularity__](specIrregularity.md) The `specIrregularity` object calculates the spectral irregularity of an audio signal, providing a numerical descriptor of its timbral characteristics.
+- :material-tune: [__specSlope~__](specSlope~.md) The `specSlope~` object calculates the spectral slope of an incoming audio signal, representing the slope of the best-fit line through its magnitude spectrum.
+- :material-tune: [__peakSample~__](peakSample~.md) The `peakSample~` object identifies the sample with the largest magnitude within a defined window of an incoming audio signal, outputting both its value and index.
+- :material-tune: [__specCentroid~__](specCentroid~.md) The `specCentroid~` object calculates the spectral centroid, a low-level timbre feature representing the "center of mass" of an audio signal's magnitude spectrum.
+- :material-tune: [__hann~__](hann~.md) The `hann~` object applies a Hann window to a signal input, with the window size matching the current block size.
+- :material-tune: [__specFlux~__](specFlux~.md) The `specFlux~` object calculates the spectral flux of an audio signal, quantifying how quickly its spectrum changes over time.
+- :material-tune: [__bfcc~__](bfcc~.md) The `bfcc~` object computes Bark-frequency cepstral coefficients (BFCCs) from an audio input, emphasizing lower spectral content and using a Discrete Cosine Transform.
+- :material-tune: [__specFlatness__](specFlatness.md) The `specFlatness` object calculates the spectral flatness of an audio array, providing a measure of its noisiness.
+- :material-tune: [__mfcc__](mfcc.md) The `mfcc` object calculates Mel-Frequency Cepstral Coefficients (MFCCs) from an audio sample array, providing a compact representation of the spectral envelope.
+- :material-tune: [__cepstrum~__](cepstrum~.md) The cepstrum~ object computes the real cepstrum of an audio signal, derived from the Inverse Fourier Transform of the log magnitude spectrum.
+- :material-tune: [__mfcc~__](mfcc~.md) The `mfcc~` object computes Mel-Frequency Cepstral Coefficients from an audio signal, emphasizing lower spectral content and using a Discrete Cosine Transform.
+- :material-tune: [__waveSlope__](waveSlope.md) The waveSlope object analyzes the slope of a waveform stored in a Pure Data array.
+- :material-tune: [__specRolloff__](specRolloff.md) The `specRolloff` object calculates the spectral rolloff of an audio signal, identifying the frequency below which a specified percentage of the total spectral energy lies.
+- :material-tune: [__energy__](energy.md) The `energy` object from the `timbreIDLib` library calculates the energy of a specified audio sample array or a segment within it.
+- :material-tune: [__timbreID__](timbreID.md) The timbreID object stores, clusters, and classifies audio feature vectors, enabling tasks like sound identification and timbre ordering.
+- :material-tune: [__waveNoise__](waveNoise.md) The `waveNoise` object analyzes a specified sample array to quantify its "noisiness" or the rate of change in its waveform direction.
+- :material-tune: [__barkSpecKurtosis__](barkSpecKurtosis.md) The barkSpecKurtosis object calculates the kurtosis of the Bark spectrum, serving as an audio descriptor within the timbreIDLib.
+- :material-tune: [__barkSpecFlux__](barkSpecFlux.md) The barkSpecFlux object calculates the spectral flux between two audio windows (forward and back) based on their Bark band energy differences.
+- :material-tune: [__barkSpecFlatness~__](barkSpecFlatness~.md) The `barkSpecFlatness~` object calculates the spectral flatness of an incoming audio signal within the Bark frequency scale, outputting a value between 0.0 and 1.0 that indicates how noise-like the spectrum is.
+- :material-tune: [__specHarmonicity~__](specHarmonicity~.md) The `specHarmonicity~` object quantifies the harmonic alignment of spectral peaks in an audio signal, outputting both harmonicity and inharmonicity values between 0 and 1.
+- :material-tune: [__specFlatness~__](specFlatness~.md) The `specFlatness~` object calculates the spectral flatness of an incoming audio signal, providing a measure of how noise-like a sound is.
+- :material-tune: [__magSpec~__](magSpec~.md) The magSpec~ object calculates the magnitude spectrum of an incoming audio signal over a specified window.
+- :material-tune: [__pix_drum__](pix_drum.md) The `pix_drum` object analyzes incoming video streams, specifically detecting black pixels from the top of the image.
+- :material-tune: [__peak~__](peak~.md) `peak~` is a Pure Data signal object that analyzes an incoming audio signal and outputs its peak amplitude.
+- :material-tune: [__pix_histo__](pix_histo.md) `pix_histo` calculates the histogram (density function) of an input image, storing the results in Pure Data tables.
+- :material-tune: [__specSkewness~__](specSkewness~.md) The `specSkewness~` object calculates the spectral skewness of an audio signal, providing a measure of the asymmetry of its spectral envelope.
+- :material-tune: [__featureAccum__](featureAccum.md) The `featureAccum` object accumulates incoming lists of feature frames, processing them into a single output based on a specified mode.
+- :material-tune: [__specRolloff~__](specRolloff~.md) The specRolloff~ object calculates the spectral rolloff frequency of an audio signal, representing the frequency below which a specified percentage of the total spectral energy is concentrated.
+- :material-tune: [__chroma__](chroma.md) The `chroma` object performs non-real-time pitch chroma analysis on audio data stored in a Pure Data array.
+- :material-tune: [__specFlux__](specFlux.md) The `specFlux` object calculates spectral flux, a measure of how quickly the spectrum of a sound is changing.
+- :material-tune: [__barkSpecIrregularity~__](barkSpecIrregularity~.md) The `barkSpecIrregularity~` object calculates the spectral irregularity of an audio signal's Bark spectrum.
+- :material-tune: [__maxSampleDelta__](maxSampleDelta.md) The `maxSampleDelta` object analyzes a specified segment of a sample array to identify the largest absolute difference between consecutive samples.
+- :material-tune: [__specHarmonicity__](specHarmonicity.md) The `specHarmonicity` object calculates the spectral harmonicity and inharmonicity of an audio sample.
+- :material-tune: [__zeroCrossing~__](zeroCrossing~.md) The `zeroCrossing~` object measures the noisiness or frequency-related characteristics of an audio signal by counting how many times it crosses the zero amplitude point within a specified window.
+- :material-tune: [__specBrightness__](specBrightness.md) The specBrightness object from the timbreIDLib analyzes the spectral brightness of an audio sample.
+- :material-tune: [__bfcc__](bfcc.md) The bfcc object computes Bark-frequency Cepstral Coefficients, which are a common audio descriptor used to characterize timbre.
+- :material-tune: [__barkSpecKurtosis~__](barkSpecKurtosis~.md) The barkSpecKurtosis~ object calculates the kurtosis (peakedness) of an audio signal's Bark spectrum.
+- :material-tune: [__barkSpecSpread__](barkSpecSpread.md) The barkSpecSpread object calculates the Bark spectrum spread, a measure of the spectral width of an audio signal based on the Bark scale.
+- :material-tune: [__barkSpecFlux~__](barkSpecFlux~.md) The `barkSpecFlux~` object calculates the spectral flux of an audio signal based on Bark-band energy differences.
+- :material-tune: [__barkSpecSpread~__](barkSpecSpread~.md) The barkSpecSpread~ object calculates the spread of an audio signal's Bark spectrum, indicating the concentration of energy around its centroid.
+- :material-tune: [__specSkewness__](specSkewness.md) The `specSkewness` object from the `timbreIDLib` calculates the spectral skewness of an audio sample array.
+- :material-tune: [__barkSpec__](barkSpec.md) The `barkSpec` object calculates the Bark spectrum of an audio sample or a specified segment within a sample array.
+- :material-tune: [__tID-conversion__](tID-conversion.md) This Pure Data object provides essential conversion utilities for audio frequency analysis.
+- :material-tune: [__framedelta~__](framedelta~.md) The `framedelta~` object calculates the running phase deviation of an FFT analysis.
+- :material-tune: [__autoCorrPitch~__](autoCorrPitch~.md) The autoCorrPitch~ object calculates the fundamental pitch of an incoming audio signal using autocorrelation, converting the result to Hertz and MIDI units.
+- :material-tune: [__tID_fft~__](tID_fft~.md) The `tID_fft~` object computes the complex Fast Fourier Transform (FFT) of an audio signal, triggered by a bang.
+- :material-tune: [__bark__](bark.md) The bark object is a non-real-time audio onset detector that identifies musical attacks by analyzing spectral changes.
+- :material-tune: [__meter~__](meter~.md) The `meter~` object functions as a mono VU-meter, providing real-time visual feedback on audio signal levels.
+- :material-tune: [__vu~__](vu~.md) The `vu~` object is an audio amplitude detector that combines the functionality of `else/rms~` and `else/peak~`.
+- :material-tune: [__energy~__](energy~.md) The `energy~` object from `timbreIDLib` continuously calculates the energy of an audio signal, offering output in power, RMS, or decibels with adjustable window sizing and normalization.
+- :material-tune: [__melSpec__](melSpec.md) The 'melSpec' object computes a Mel-scaled spectrogram from an audio sample, providing a time-frequency representation of sound.
+- :material-tune: [__dct__](dct.md) The `dct` object computes the Discrete Cosine Transform (DCT) of a specified portion or the entirety of a Pure Data array.
+- :material-tune: [__tID_mean__](tID_mean.md) The `tID_mean` object calculates the arithmetic mean of a list of numbers.
+- :material-tune: [__beat~__](beat~.md) The `beat~` object analyzes an incoming audio signal to detect its tempo in beats per minute (BPM).
+- :material-tune: [__barkSpecSkewness~__](barkSpecSkewness~.md) The `barkSpecSkewness~` object calculates the skewness of an audio signal's Bark spectrum, quantifying the symmetry of its energy distribution across frequency bands.
+- :material-tune: [__harmonicRatio__](harmonicRatio.md) The 'harmonicRatio' object calculates the harmonic ratio of a specified audio sample array or a window within it.
+- :material-tune: [__barkSpecSkewness__](barkSpecSkewness.md) The `barkSpecSkewness` object calculates the skewness of the Bark spectrum of an audio sample.
+- :material-tune: [__barkSpecRolloff__](barkSpecRolloff.md) The barkSpecRolloff object calculates the spectral rolloff of an audio signal based on its Bark scale spectrum.
+- :material-tune: [__sampleBuffer~__](sampleBuffer~.md) The `sampleBuffer~` object buffers incoming audio, providing a windowed segment of the audio stream for real-time analysis.
+- :material-tune: [__meter2~__](meter2~.md) The `meter2~` object functions as a stereo VU-meter, providing real-time RMS and peak amplitude measurements in dBFS for two incoming audio signals.
+- :material-tune: [__bark~__](bark~.md) The `bark~` object is a real-time onset detector for Pure Data, which analyzes spectral growth using the perceptually-based Bark frequency scale.
+- :material-tune: [__envrms~__](envrms~.md) The `envrms~` object is an envelope follower designed for audio signals.
+- :material-tune: [__specIrregularity~__](specIrregularity~.md) The `specIrregularity~` object calculates the spectral irregularity of an audio signal, indicating how jagged or smooth its frequency spectrum is.
+- :material-tune: [__maxSample__](maxSample.md) The `maxSample` object analyzes a specified portion of a Pure Data array (typically containing audio samples) to find the maximum sample value and its corresponding index within that segment.
+- :material-tune: [__specKurtosis~__](specKurtosis~.md) The `specKurtosis~` object calculates the spectral kurtosis of an audio signal, quantifying the peakedness of its spectrum.
+- :material-tune: [__cepstrum__](cepstrum.md) The `cepstrum` object computes the cepstrum of an audio signal from a specified sample array.
+- :material-tune: [__nearestPoint__](nearestPoint.md) The nearestPoint object identifies the closest point(s) within a stored dataset to a given input point in a multi-dimensional space.
+- :material-tune: [__tabletool__](tabletool.md) The `tabletool` object provides a comprehensive set of functionalities for manipulating, analyzing, and querying data stored in Pure Data tables.
+- :material-tune: [__featureNorm__](featureNorm.md) The `featureNorm` object normalizes incoming feature lists, scaling their values to a specified range (either 0 to 1 by default, or -1 to 1).
+- :material-tune: [__energyEntropy__](energyEntropy.md) The `energyEntropy` object calculates the energy entropy of an audio sample array.
+- :material-tune: [__magSpec__](magSpec.md) The `magSpec` object from the `timbreIDLib` library performs non-real-time spectral analysis on a given audio sample array.
+- :material-tune: [__minSample__](minSample.md) The `minSample` object analyzes a specified window within a Pure Data array, typically containing audio samples.
+- :material-tune: [__barkSpecCentroid~__](barkSpecCentroid~.md) The `barkSpecCentroid~` object calculates the Bark spectrum centroid, representing the "center of mass" of an audio signal's energy distribution on the Bark frequency scale.
+- :material-tune: [__minSample~__](minSample~.md) The `minSample~` object reports the value and index of the smallest sample within a configurable N-sample window of incoming audio.
+- :material-tune: [__barkSpecRolloff~__](barkSpecRolloff~.md) The `barkSpecRolloff~` object calculates the Bark spectrum rolloff, which is the Bark frequency below which a specified concentration of spectral energy is located.
+- :material-tune: [__specKurtosis__](specKurtosis.md) The `specKurtosis` object calculates the spectral kurtosis of an audio array, serving as a non-real-time spectral descriptor.
+- :material-tune: [__rms~__](rms~.md) The `rms~` object calculates the Root Mean Square (RMS) amplitude of an incoming audio signal, providing a stable output due to Hanning windowing.
+- :material-tune: [__barkSpecFlatness__](barkSpecFlatness.md) The `barkSpecFlatness` object calculates the spectral flatness of an audio signal within Bark-scaled frequency bands.
+- :material-tune: [__energyEntropy~__](energyEntropy~.md) The `energyEntropy~` object measures abrupt changes in the energy of an audio signal.
+- :material-tune: [__peakamp~__](peakamp~.md) The `peakamp~` object measures the absolute peak amplitude of an incoming audio signal.
+- :material-tune: [__specSpread~__](specSpread~.md) The `specSpread~` object calculates the spectral spread of an audio signal, quantifying the concentration of its energy around the spectral centroid in Hz.
+- :material-tune: [__barkSpec~__](barkSpec~.md) The `barkSpec~` object analyzes incoming audio to compute its Bark-frequency spectrum, which warps the normal spectrum to the Bark scale, emphasizing low-frequency detail.
+
+</div>

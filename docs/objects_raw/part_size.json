@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "part_size",
+    "description": "The `part_size` object controls the size of particles within a particle system, typically used in graphical contexts like GEM. It allows for dynamic adjustment of particle size and can be initialized with an argument. The default particle size is 1.0f.",
+    "categories": [
+        "Graphics"
+    ]
+}

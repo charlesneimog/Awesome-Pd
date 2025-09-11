@@ -1,0 +1,28 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "glsl_vertex",
+    "description": "The `glsl_vertex` object loads and compiles a GLSL vertex shader into a module. It outputs an ID for this module, which can then be linked with the `glsl_program` object to create custom OpenGL shaders. This object is essential for advanced graphics programming within GEM, requiring OpenGL 2.0 and GLSL support.",
+    "categories": [
+        "File I/O",
+        "Graphics"
+    ]
+}

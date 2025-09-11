@@ -19,4 +19,5 @@ jobs:
           key: ${{ github.ref }}
           path: .cache
       - run: pip install -r docs/requirements.txt
+      # - run: python app.py --update
       - run: mkdocs gh-deploy --force

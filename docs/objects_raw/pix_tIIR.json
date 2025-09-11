@@ -1,0 +1,28 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pix_tIIR",
+    "description": "The `pix_tIIR` object implements a time-based Infinite Impulse Response (IIR) filter for image processing within GEM. It applies feedback and feedforward coefficients to create temporal effects on visual data, similar to motion blur. Users can dynamically configure the filter's characteristics by providing coefficients through its inlets.",
+    "categories": [
+        "Filters",
+        "Graphics"
+    ]
+}

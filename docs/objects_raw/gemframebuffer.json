@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "gemframebuffer",
+    "description": "The `gemframebuffer` object renders a graphical scene into an off-screen texture, which can then be used as an input for further rendering operations. It allows control over the framebuffer's type, dimensions, color format, and perspective. This is useful for advanced graphics techniques like post-processing effects or reflections within a GEM patch.",
+    "categories": [
+        "Graphics"
+    ]
+}

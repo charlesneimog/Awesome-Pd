@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "gemglfw3window",
+    "description": "The `gemglfw3window` object uses GLFW (version 3) to create and manage graphical windows within Pure Data, primarily for OpenGL rendering. It allows users to control window properties such as dimensions, position, title, fullscreen mode, and anti-aliasing. It also provides feedback and handles keyboard input, making it central to visual applications in Gem.",
+    "categories": [
+        "Graphics"
+    ]
+}

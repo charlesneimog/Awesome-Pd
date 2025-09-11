@@ -249,6 +249,7 @@ function getCategoryData() {
 
             try {
                 const response = await fetch("../all_objects.json");
+                console.log(response);
                 if (!response.ok) throw new Error("Failed to load JSON");
                 const objects = await response.json();
 
@@ -488,7 +489,8 @@ function getCategoryData() {
             };
 
             // JSON block
-            const jsonBlock = "\n\n*Don't delete the next lines please*\n```json\n" + JSON.stringify(project, null, 2) + "\n```";
+            const jsonBlock =
+                "\n\n*Don't delete the next lines please*\n```json\n" + JSON.stringify(project, null, 2) + "\n```";
             const repoURL = "https://github.com/charlesneimog/Awesome-Pd";
             const issueTitle = `Request to add library: ${project.title}`;
             const body = `${jsonBlock}`;

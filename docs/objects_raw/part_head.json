@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "part_head",
+    "description": "The `part_head` object initializes and manages a particle system within GEM. It acts as the central hub for a particle list, connecting particle generators (`part_source`), various `part_` modifiers, and a particle renderer (`part_draw`). It can be configured with a maximum number of particles and allows control over particle emission speed.",
+    "categories": [
+        "Graphics"
+    ]
+}

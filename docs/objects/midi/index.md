@@ -1,0 +1,73 @@
+# MIDI
+
+<div class="grid cards" markdown>
+
+- :material-tune: [__keyboard__](keyboard.md) The `keyboard` object provides a graphical piano keyboard interface for Pure Data.
+- :material-tune: [__midi__](midi.md) The `midi` object in Pure Data is a versatile tool for playing, recording, and manipulating raw MIDI data streams.
+- :material-tune: [__borax__](borax.md) The `borax` object processes incoming MIDI note and velocity data, reporting detailed information about active notes.
+- :material-tune: [__pgm.in__](pgm.in.md) The `pgm.in` object extracts MIDI Program Change messages (0-127) from either a connected MIDI device or an external raw MIDI data stream.
+- :material-tune: [__retune__](retune.md) The `retune` object remaps incoming MIDI pitches to a custom scale.
+- :material-tune: [__sfont.m~__](sfont.m~.md) The `sfont.m~` object is a convenient wrapper around `sfont~` designed for soundfont-based synthesis.
+- :material-tune: [__pluck~__](pluck~.md) The `pluck~` object implements the Karplus-Strong algorithm for physical modeling synthesis, simulating plucked string sounds.
+- :material-tune: [__xbendin__](xbendin.md) The `xbendin` object retrieves 14-bit pitch bend messages from raw MIDI input data.
+- :material-tune: [__touch.in__](touch.in.md) The `touch.in` object extracts MIDI Aftertouch (channel pressure) information from either a connected MIDI device or an external raw MIDI data stream.
+- :material-tune: [__scales__](scales.md) The `scales` object generates musical scales based on a list of semitone intervals, outputting them as note names or MIDI pitches.
+- :material-tune: [__midi.in__](midi.in.md) The `midi.in` object processes incoming MIDI data, converting raw MIDI streams into "cooked" data with type symbols, values, and channel information.
+- :material-tune: [__impulse~__](impulse~.md) The `impulse~` object is an impulse oscillator capable of generating signals with negative frequencies.
+- :material-tune: [__midi.out__](midi.out.md) The `midi.out` object sends MIDI messages to an external MIDI device, converting "cooked" MIDI data (e.g., `ctl`, `note`, `pgm`) into raw MIDI bytes.
+- :material-tune: [__pgm.out__](pgm.out.md) The `pgm.out` object formats and sends raw MIDI program change messages (values 0-127) to Pure Data's MIDI output and its outlet.
+- :material-tune: [__bend.in__](bend.in.md) The `bend.in` object extracts MIDI Pitch Bend messages from connected MIDI devices or raw MIDI data streams.
+- :material-tune: [__note.out__](note.out.md) The `note.out` object formats and sends MIDI note messages, including Note On and Note Off (with optional release velocity), to Pure Data's MIDI output or its own outlet.
+- :material-tune: [__sfont~__](sfont~.md) `sfont~` is a sampler synthesizer that plays SoundFont (.sf2/.sf3) files, based on FluidLite.
+- :material-tune: [__panic__](panic.md) The `panic` object acts as a "panic button" for MIDI notes.
+- :material-tune: [__sustain__](sustain.md) The `sustain` object emulates a MIDI sustain pedal, holding note-off messages while active and releasing them when deactivated.
+- :material-tune: [__sysrt.out__](sysrt.out.md) The `sysrt.out` object formats and sends raw MIDI system real-time messages.
+- :material-tune: [__xbendin2__](xbendin2.md) The `xbendin2` object processes incoming raw MIDI data to extract the Most Significant Byte (MSB) and Least Significant Byte (LSB) of pitch bend messages.
+- :material-tune: [__xbendout2__](xbendout2.md) The `xbendout2` object formats 14-bit pitch bend messages into two 7-bit values (MSB and LSB) and sends them as a raw MIDI data stream.
+- :material-tune: [__mono~__](mono~.md) The `mono~` object acts as a monophonic signal voice manager, emulating monophonic synthesizer behavior.
+- :material-tune: [__ctl.out__](ctl.out.md) The `ctl.out` object formats and sends raw MIDI control messages.
+- :material-tune: [__xbendout__](xbendout.md) The `xbendout` object formats and sends 14-bit MIDI pitch bend messages.
+- :material-tune: [__noteinfo__](noteinfo.md) The `noteinfo` object tracks and outputs information about active MIDI notes.
+- :material-tune: [__bl.saw~__](bl.saw~.md) The `bl.saw~` object generates a bandlimited, anti-aliased sawtooth waveform, suitable for high-quality audio synthesis.
+- :material-tune: [__flush__](flush.md) The `flush` object functions as a "panic button" for MIDI Note-on messages.
+- :material-tune: [__midiparse__](midiparse.md) The `midiparse` object receives raw MIDI data, typically from `midiin`, and parses it into various MIDI messages.
+- :material-tune: [__makenote2__](makenote2.md) The `makenote2` object converts a list of pitch, velocity, and duration into MIDI note-on and note-off messages.
+- :material-tune: [__seq8.m~__](seq8.m~.md) The `seq8.m~` object is a simple 8-step sequencer for Pure Data, designed to generate musical sequences.
+- :material-tune: [__sendmidi__](sendmidi.md) The `sendmidi` object is a helper abstraction designed to send MIDI messages to the `pd~` object.
+- :material-tune: [__gaussian~__](gaussian~.md) The `gaussian~` object is a Gaussian oscillator that generates a bell-shaped waveform.
+- :material-tune: [__abs.pd~__](abs.pd~.md) The `abs.pd~` object loads a Pure Data patch as a subprocess, making it easier to manage complex patches.
+- :material-tune: [__seq__](seq.md) The `seq` object in Pure Data is a MIDI sequencer that can play, record, load, and save MIDI streams to and from MIDI or text files.
+- :material-tune: [__midiflush__](midiflush.md) The `midiflush` object acts as a "panic button" for MIDI notes.
+- :material-tune: [__voices~__](voices~.md) The `voices~` object is a polyphonic voice allocator that generates multichannel signals for controlling pitch and gate.
+- :material-tune: [__ptouch.out__](ptouch.out.md) The `ptouch.out` object formats and sends raw MIDI polyphonic aftertouch messages.
+- :material-tune: [__midi.clock__](midi.clock.md) The `midi.clock` object abstracts MIDI clock functionality, allowing synchronization with either an internal clock (set by a float input) or an external MIDI device.
+- :material-tune: [__synth~__](synth~.md) `synth~` is a Pure Data object that serves as a wrapper for loading and managing monophonic or polyphonic synthesizer abstractions.
+- :material-tune: [__xnotein__](xnotein.md) The `xnotein` object parses raw MIDI data streams, providing more detailed information than the standard `notein` object.
+- :material-tune: [__square~__](square~.md) `square~` is a versatile square wave oscillator that generates audio signals with adjustable pulse width, initial phase, and phase modulation.
+- :material-tune: [__ctl.in__](ctl.in.md) The `ctl.in` object extracts MIDI Control Change (CC) messages from either a connected MIDI device or an external raw MIDI data stream.
+- :material-tune: [__midiformat__](midiformat.md) The `midiformat` object converts various discrete MIDI inputs, such as note, control change, and pitch bend messages, into a single raw MIDI message stream.
+- :material-tune: [__plaits.m~__](plaits.m~.md) The `plaits.m~` object is a versatile polyphonic sound synthesis module, wrapping the `[plaits~]` external.
+- :material-tune: [__midi2note__](midi2note.md) The `midi2note` object converts MIDI pitch values into musical note names, such as 'Eb3', including an octave number where middle C (MIDI pitch 60) is C4.
+- :material-tune: [__rec2__](rec2.md) The `rec2` object records incoming MIDI note messages (pitch and velocity) into a `[text]` object.
+- :material-tune: [__pluck.m~__](pluck.m~.md) The `pluck.m~` object is a polyphonic physical modeling synthesizer for plucked string sounds, acting as a wrapper around the `pluck~` object from the ELSE library.
+- :material-tune: [__note.in__](note.in.md) The `note.in` object extracts MIDI pitch and velocity information from incoming MIDI data streams.
+- :material-tune: [__gain~__](gain~.md) The `gain~` object provides mono and multichannel gain control for audio signals.
+- :material-tune: [__freq2midi__](freq2midi.md) The `freq2midi` object converts frequency values (Hz) to MIDI note numbers, similar to `ftom`.
+- :material-tune: [__suspedal__](suspedal.md) The `suspedal` object emulates a MIDI sustain pedal, holding `Note Off` messages when active and releasing them when deactivated.
+- :material-tune: [__mpe.in__](mpe.in.md) The `mpe.in` object processes MIDI Polyphonic Expression (MPE) data, converting raw MIDI input from either an internal device or an external source into structured MPE messages.
+- :material-tune: [__gain2~__](gain2~.md) The `gain2~` object is a stereo gain abstraction for Pure Data, designed to adjust the gain of stereo audio signals.
+- :material-tune: [__sfz~__](sfz~.md) The `sfz~` object is a Pure Data synthesizer that plays SFZ instruments, which are text-based definitions for sample-based and hybrid synthesis.
+- :material-tune: [__midi2freq__](midi2freq.md) The `midi2freq` object converts MIDI note numbers (including fractional "MIDI cents") into corresponding frequencies in Hertz.
+- :material-tune: [__vco.m~__](vco.m~.md) The `vco.m~` object is a polyphonic voltage-controlled oscillator for Pure Data, offering various waveforms including sine, triangle, saw, variable saw, and square.
+- :material-tune: [__voices__](voices.md) The `voices` object manages voice allocation for polyphonic synthesizers, offering advanced features beyond `poly`.
+- :material-tune: [__touch.out__](touch.out.md) The `touch.out` object formats and sends MIDI aftertouch messages.
+- :material-tune: [__midi.learn__](midi.learn.md) The `midi.learn` object is a Pure Data abstraction designed to learn and store incoming MIDI data, such as control changes, program changes, notes, and bends.
+- :material-tune: [__ptouch.in__](ptouch.in.md) `ptouch.in` extracts MIDI polyphonic aftertouch messages from raw MIDI input, such as from a connected MIDI device or an external MIDI data stream.
+- :material-tune: [__sysrt.in__](sysrt.in.md) The `sysrt.in` object detects and parses System and real-time MIDI messages from an incoming raw MIDI data stream.
+- :material-tune: [__keymap__](keymap.md) The `keymap` object translates computer keyboard presses into MIDI note on/off messages, effectively turning your QWERTY keyboard into a musical input device.
+- :material-tune: [__xnoteout__](xnoteout.md) The `xnoteout` object sends MIDI note messages, offering enhanced control over the standard `noteout` object by including both Note On and Note Off (release) velocities.
+- :material-tune: [__note2midi__](note2midi.md) The `note2midi` object converts musical note names (e.g., 'C4', 'E#+5', 'Db-4') into their corresponding MIDI pitch values.
+- :material-tune: [__bend.out__](bend.out.md) The `bend.out` object formats and sends MIDI pitch bend messages.
+- :material-tune: [__autotune__](autotune.md) The `autotune` object retunes incoming MIDI pitches to the closest step within a specified musical scale.
+
+</div>

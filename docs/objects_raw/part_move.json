@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "part_move",
+    "description": "The `part_move` object is a core component of the GEM particle system. It is responsible for advancing particles based on their current velocity and defined constraints, while also updating their age. This object is typically used when `part_draw` or `part_render` are not handling particle movement automatically.",
+    "categories": [
+        "Graphics"
+    ]
+}

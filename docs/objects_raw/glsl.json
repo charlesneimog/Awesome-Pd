@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "glsl",
+    "description": "The `glsl` object simplifies the creation of OpenGL Shading Language (GLSL) programs by wrapping various GLSL compilers and the linker into a single, easy-to-use interface. It automatically loads shader files (e.g., `.vert`, `.frag`) based on a provided basename, allowing users to compile and link custom shaders for real-time graphics rendering. It also provides an inlet to set uniform variables within the compiled shader program.",
+    "categories": [
+        "Graphics"
+    ]
+}

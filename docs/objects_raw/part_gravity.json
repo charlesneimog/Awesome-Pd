@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "part_gravity",
+    "description": "The `part_gravity` object sets a gravitational vector for a particle system. It influences the movement of particles, causing them to follow the specified gravity vector regardless of their initial emission direction. This object is used to simulate gravitational forces within particle-based visual effects.",
+    "categories": [
+        "Graphics"
+    ]
+}

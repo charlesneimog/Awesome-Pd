@@ -1,59 +1,20 @@
-# index
+# Objects
 
-The `index` object creates and manages a symbol-to-integer map, allowing you to associate unique symbols with numerical indices. It supports adding new items, retrieving an item's index, and optionally auto-adding unknown symbols. This object is useful for efficiently mapping textual identifiers to numerical representations within a Pure Data patch.
+In this section we list all the objects submit for the project. Note that, if there is some great object is missing, please submit it using [Submit](../submit.md) form. It is very simple and easy. If you did some piece, publish article or recorded a Video for some object and it is not listed here also submit it. 
 
----
+!!! tip "AI Classification"
+    These libraries are extensive, and the first step involves AI-based classification. If you notice an error, please click "Submit" enter the object name, and update its description and classification.
 
-!!! info "AI Generated"
-    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).
+<h2 align="center"><b>Random Objects</b></h2>
 
----
-
-<div class="grid cards" markdown>
-- :octicons-download-16: __Download__ via [Deken](../deken.md).  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>zexy</code> and install it. Then create an object with `declare -lib zexy -path zexy`. Finally, use `index` or any other object from `zexy`._</p>
-- :fontawesome-brands-dev: Library developed mainly by **Johannes M. Zmölnig**.
-- :fontawesome-solid-bug-slash: __Report Bugs/Errors__ [here](https://git.iem.at/pd/zexy/issues)!
-- :fontawesome-solid-computer: __Available__ for :fontawesome-brands-apple: :fontawesome-brands-linux: :fontawesome-brands-windows:.
+<div class="grid cards ">
+    <ul id="random-objects"></ul>
 </div>
 
----
-
-<h3>Comments</h3>
-
-<script src="https://giscus.app/client.js"
-    data-repo="charlesneimog/Awesome-PD"
-    data-repo-id="R_kgDOLaunFg"
-    data-category="Comments"
-    data-category-id="DIC_kwDOLaunFs4CnXHy"
-    data-mapping="title"
-    data-strict="0"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="bottom"
-    data-theme="preferred_color_scheme"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
-    
-<h3>Contributors</h3>
-
-<div id="avatars"></div>
 
 <script>
-const nicknames = ["charlesneimog"];
-const container = document.getElementById('avatars');
-nicknames.forEach(nick => {
-  const link = document.createElement('a');
-  link.href = `https://github.com/${nick}`;
-  link.target = '_blank'; // opens in new tab
-  const img = document.createElement('img');
-  img.src = `https://github.com/${nick}.png`;
-  img.alt = nick;
-  img.className = 'avatar';
-  link.appendChild(img);
-  container.appendChild(link);
+document.addEventListener("DOMContentLoaded", () => {
+  addObjects(false);
 });
 </script>
-    
+

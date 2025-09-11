@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "gemkeyname",
+    "description": "The `gemkeyname` object captures keyboard events occurring within the GEM window. It outputs a symbolic description of the pressed key and its state (1 for KEY_DOWN, 0 for KEY_UP). This object is useful for controlling GEM patches using keyboard input.",
+    "categories": [
+        "Control I/O"
+    ]
+}

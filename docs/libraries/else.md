@@ -46,570 +46,568 @@ updateList();
 <h2>Objects</h2>
 
 <div class="grid cards" markdown>
-- :material-tune: [__above__](../objects/above.md) The `above` object detects when an incoming float value crosses a specified threshold.
-- :material-tune: [__above~__](../objects/above~.md) The `above~` object detects when an audio signal crosses a specified threshold.
-- :material-tune: [__abs.pd~__](../objects/abs.pd~.md) The `abs.pd~` object loads a Pure Data patch as a subprocess, making it easier to manage complex patches.
-- :material-tune: [__add__](../objects/add.md) The `add` object accumulates incoming numerical values, adding them to a running total.
-- :material-tune: [__add~__](../objects/add~.md) The `add~` object accumulates input signal values to a starting sum, which defaults to 0.
-- :material-tune: [__adsr.m~__](../objects/adsr.m~.md) The `adsr.m~` object is a polyphonic ADSR envelope generator.
-- :material-tune: [__adsr~__](../objects/adsr~.md) `adsr~` is an audio-rate Attack, Decay, Sustain, Release envelope generator.
-- :material-tune: [__allpass.2nd~__](../objects/allpass.2nd~.md) The `allpass.2nd~` object is a 2nd order allpass filter that shifts the phase of an audio signal from 0 to 360 degrees across the frequency spectrum.
-- :material-tune: [__allpass.filt~__](../objects/allpass.filt~.md) The `allpass.filt~` object implements an allpass filter, allowing control over its order, central frequency, and resonance (Q).
-- :material-tune: [__allpass.rev~__](../objects/allpass.rev~.md) The `allpass.rev~` object functions as an allpass filter, a delay, and a reverberator.
-- :material-tune: [__amean__](../objects/amean.md) The `amean` object generates a list of numbers representing arithmetic means between a specified start and end point.
-- :material-tune: [__any2symbol__](../objects/any2symbol.md) The `any2symbol` object converts any incoming message, regardless of its type (e.g., numbers, lists, or other symbols), into a single symbol message.
-- :material-tune: [__args__](../objects/args.md) The `args` object in Pure Data manages and manipulates arguments passed to an abstraction.
-- :material-tune: [__asr~__](../objects/asr~.md) The `asr~` object generates an attack/sustain/release envelope, acting as a simplified version of `adsr~`.
-- :material-tune: [__autofade.mc~__](../objects/autofade.mc~.md) The `autofade.mc~` object provides automatic fade-in and fade-out functionality for multichannel audio signals.
-- :material-tune: [__autofade2.mc~__](../objects/autofade2.mc~.md) The `autofade2.mc~` object provides automatic fade-in and fade-out functionality for multichannel audio signals.
-- :material-tune: [__autofade2~__](../objects/autofade2~.md) `autofade2~` is a Pure Data object that provides automatic fade-in and fade-out functionality for multiple audio inputs.
-- :material-tune: [__autofade~__](../objects/autofade~.md) The `autofade~` object provides automatic fade-in and fade-out functionality for multiple audio inputs.
-- :material-tune: [__autotune__](../objects/autotune.md) The `autotune` object retunes incoming MIDI pitches to the closest step within a specified musical scale.
-- :material-tune: [__autotune2__](../objects/autotune2.md) The `autotune2` object retunes incoming pitch values (in cents) to the closest step within a specified musical scale, also defined in cents.
-- :material-tune: [__avg__](../objects/avg.md) The `avg` object calculates the mean average of all numbers it has received.
-- :material-tune: [__balance~__](../objects/balance~.md) The `balance~` object performs equal-power (sin/cos) stereo balancing.
-- :material-tune: [__bandpass~__](../objects/bandpass~.md) The `bandpass~` object is a 2nd order resonant bandpass filter designed for audio signals, maintaining a constant 0dB gain.
-- :material-tune: [__bandstop~__](../objects/bandstop~.md) `bandstop~` is a 2nd order band reject filter, also known as a notch filter.
-- :material-tune: [__bangdiv__](../objects/bangdiv.md) The `bangdiv` object acts as a bang divider, outputting a bang only after a specified number of input bangs have been received, while always passing the very first bang.
-- :material-tune: [__batch.rec~__](../objects/batch.rec~.md) `batch.rec~` is a convenient Pure Data abstraction for batch recording audio signals to a sound file.
-- :material-tune: [__batch.write~__](../objects/batch.write~.md) The `batch.write~` object is an abstraction built upon `tabwriter~` that facilitates batch recording of audio signals into Pure Data arrays.
-- :material-tune: [__beat~__](../objects/beat~.md) The `beat~` object analyzes an incoming audio signal to detect its tempo in beats per minute (BPM).
-- :material-tune: [__bend.in__](../objects/bend.in.md) The `bend.in` object extracts MIDI Pitch Bend messages from connected MIDI devices or raw MIDI data streams.
-- :material-tune: [__bend.out__](../objects/bend.out.md) The `bend.out` object formats and sends MIDI pitch bend messages.
-- :material-tune: [__bicoeff__](../objects/bicoeff.md) The `bicoeff` object is a graphical user interface (GUI) that generates coefficients for vanilla Pure Data's `biquad~` filter.
-- :material-tune: [__bicoeff2__](../objects/bicoeff2.md) The `bicoeff2` object generates coefficients for Pure Data's native `biquad~` object, allowing users to easily create various filter types such as lowpass, highpass, bandpass, and shelving filters.
-- :material-tune: [__bin.shift~__](../objects/bin.shift~.md) `bin.shift~` is a Pure Data object designed for spectral processing, enabling the shifting of samples or frequency bins within an audio signal.
-- :material-tune: [__biplot__](../objects/biplot.md) The `biplot` object visualizes the frequency response of biquad filters.
-- :material-tune: [__biquads~__](../objects/biquads~.md) The `biquads~` object implements a series of cascaded biquad filters, allowing for complex frequency shaping.
-- :material-tune: [__bitnormal~__](../objects/bitnormal~.md) The `bitnormal~` object filters incoming audio signals, replacing any NaN (Not a Number), positive/negative infinity, or denormal values with zero.
-- :material-tune: [__bl.imp2~__](../objects/bl.imp2~.md) `bl.imp2~` is a bandlimited, two-sided impulse oscillator that generates an audio signal.
-- :material-tune: [__bl.imp~__](../objects/bl.imp~.md) `bl.imp~` is a bandlimited impulse oscillator that generates an impulse signal at a specified frequency.
-- :material-tune: [__bl.osc~__](../objects/bl.osc~.md) `bl.osc~` is a bandlimited oscillator that generates various waveforms like saw, triangle, square, and impulse.
-- :material-tune: [__bl.saw2~__](../objects/bl.saw2~.md) The `bl.saw2~` object is a bandlimited, anti-aliased sawtooth oscillator designed for high-quality audio synthesis.
-- :material-tune: [__bl.saw~__](../objects/bl.saw~.md) The `bl.saw~` object generates a bandlimited, anti-aliased sawtooth waveform, suitable for high-quality audio synthesis.
-- :material-tune: [__bl.square~__](../objects/bl.square~.md) `bl.square~` is a bandlimited square wave oscillator designed for synthesis, providing anti-aliased output.
-- :material-tune: [__bl.tri~__](../objects/bl.tri~.md) The `bl.tri~` object is a bandlimited (anti-aliased) triangle wave oscillator designed for audio synthesis.
-- :material-tune: [__bl.vsaw~__](../objects/bl.vsaw~.md) `bl.vsaw~` is a bandlimited variable sawtooth waveform oscillator that can also generate triangular waveforms.
-- :material-tune: [__bl.wavetable~__](../objects/bl.wavetable~.md) `bl.wavetable~` is a bandlimited wavetable oscillator that generates audio signals from a specified waveform array.
-- :material-tune: [__blip~__](../objects/blip~.md) `blip~` is a band-limited oscillator that generates waveforms by summing cosines using Discrete-Summation Formulae (DSF).
-- :material-tune: [__blocksize~__](../objects/blocksize~.md) The `blocksize~` object reports the current audio block size in Pure Data, updating when the audio DSP is turned on, when the block size changes, or upon receiving a bang.
-- :material-tune: [__bpbank~__](../objects/bpbank~.md) `bpbank~` creates a bank of bandpass filters, allowing independent control over the frequency, amplitude, and Q (resonance) of each filter via list inputs.
-- :material-tune: [__bpm__](../objects/bpm.md) The `bpm` object converts between beats per minute (BPM) and other time units.
-- :material-tune: [__brane.m~__](../objects/brane.m~.md) The `brane.m~` object is a comprehensive granulator sampler with stretch/compress capabilities and a harmonizer pitch shifter.
-- :material-tune: [__break__](../objects/break.md) The `break` object in Pure Data is used to split incoming messages, typically lists or symbols, into multiple parts based on a specified separator symbol.
-- :material-tune: [__brickwall~__](../objects/brickwall~.md) The `brickwall~` object is a 10th order Butterworth lowpass filter with a very steep cutoff slope (60 dB/octave).
-- :material-tune: [__brown__](../objects/brown.md) The `brown` object generates control signals based on a bounded Brownian motion, which is a pseudo-random walk.
-- :material-tune: [__brown~__](../objects/brown~.md) `brown~` is a brown noise generator, also known as Brownian or red noise, which produces a signal whose spectral energy drops 6dB per octave.
-- :material-tune: [__buffer__](../objects/buffer.md) The `buffer` object provides a convenient way to get and set values within Pure Data arrays, including those created by `array` or `table` objects.
-- :material-tune: [__button__](../objects/button.md) The `button` object is a graphical user interface element in Pure Data that responds to mouse clicks.
-- :material-tune: [__canvas.active__](../objects/canvas.active.md) The `canvas.active` object reports the activity status of a Pure Data canvas, outputting 1 when active (front-most window) and 0 when inactive.
-- :material-tune: [__canvas.bounds__](../objects/canvas.bounds.md) The `canvas.bounds` object outputs the pixel coordinates (top-left x, top-left y, bottom-right x, bottom-right y) of its Pure Data canvas.
-- :material-tune: [__canvas.edit__](../objects/canvas.edit.md) The `canvas.edit` object reports the edit status of a Pure Data canvas, outputting 1 when in edit mode and 0 in run mode.
-- :material-tune: [__canvas.gop__](../objects/canvas.gop.md) The `canvas.gop` object retrieves information about a "graph on parent" (GOP), which is a subpatch displayed graphically within its parent patch.
-- :material-tune: [__canvas.mouse__](../objects/canvas.mouse.md) The `canvas.mouse` object captures mouse click status and coordinates within a Pure Data canvas.
-- :material-tune: [__canvas.name__](../objects/canvas.name.md) The `canvas.name` object outputs the symbolic name of the Pure Data canvas it resides in.
-- :material-tune: [__canvas.pos__](../objects/canvas.pos.md) The `canvas.pos` object reports the x/y coordinates of a subpatch's canvas relative to its parent.
-- :material-tune: [__canvas.setname__](../objects/canvas.setname.md) `canvas.setname` assigns a symbolic name to a Pure Data canvas, enabling it to receive messages.
-- :material-tune: [__canvas.vis__](../objects/canvas.vis.md) The `canvas.vis` object reports the visibility status of a Pure Data window.
-- :material-tune: [__canvas.zoom__](../objects/canvas.zoom.md) The `canvas.zoom` object reports the zoom status of a Pure Data patch window.
-- :material-tune: [__car2pol__](../objects/car2pol.md) The `car2pol` object converts Cartesian coordinates (real and imaginary parts) into polar coordinates (amplitude and phase).
-- :material-tune: [__car2pol~__](../objects/car2pol~.md) The `car2pol~` object converts a signal from Cartesian coordinates (real and imaginary parts) to polar coordinates (amplitude and phase).
-- :material-tune: [__ceil__](../objects/ceil.md) The `ceil` object from the `else` library computes the ceiling of its input.
-- :material-tune: [__ceil~__](../objects/ceil~.md) The `ceil~` object is a signal-rate mathematical function that performs the ceiling operation on incoming audio signals.
-- :material-tune: [__cents2frac__](../objects/cents2frac.md) The `cents2frac` object converts a list of pitch values in cents into fractional representations, which are useful for defining musical intervals as ratios.
-- :material-tune: [__cents2ratio__](../objects/cents2ratio.md) The `cents2ratio` object converts musical intervals expressed in cents into frequency ratios (floating-point decimals).
-- :material-tune: [__cents2ratio~__](../objects/cents2ratio~.md) The `cents2ratio~` object converts an audio signal representing an interval in cents into a decimal ratio signal.
-- :material-tune: [__cents2scale__](../objects/cents2scale.md) The `cents2scale` object converts a list of intervals, expressed in cents, into a scale defined by semitone steps.
-- :material-tune: [__chance__](../objects/chance.md) The `chance` object outputs a bang to one of its outlets based on a weighted probability distribution.
-- :material-tune: [__chance~__](../objects/chance~.md) The `chance~` object probabilistically routes an incoming bang to one of its outlets based on a set of weighted chances.
-- :material-tune: [__changed__](../objects/changed.md) The `changed` object outputs its input only when the incoming message differs from the previously received message, effectively filtering out redundant data.
-- :material-tune: [__changed2~__](../objects/changed2~.md) The `changed2~` object detects changes in the direction of an incoming audio signal.
-- :material-tune: [__changed~__](../objects/changed~.md) The `changed~` object detects changes in an incoming signal.
-- :material-tune: [__chorus.m~__](../objects/chorus.m~.md) The `chorus.m~` object is a wrapper around the `chorus~` object from the ELSE library, designed to apply a chorus audio effect.
-- :material-tune: [__chorus~__](../objects/chorus~.md) `chorus~` is a mono chorus effect that uses an internal comb filter to create a modulated delay.
-- :material-tune: [__chrono__](../objects/chrono.md) The `chrono` object functions as a versatile stopwatch or timer.
-- :material-tune: [__circle__](../objects/circle.md) The `circle` object is a two-dimensional graphical user interface (GUI) slider that represents a circular area.
-- :material-tune: [__circuit~__](../objects/circuit~.md) The `circuit~` object simulates analog electronic circuits from a text description.
-- :material-tune: [__click__](../objects/click.md) The `click` object sends a `bang` message when its parent patch (abstraction or subpatch) is clicked.
-- :material-tune: [__clock__](../objects/clock.md) The `clock` object generates bangs at a regular tempo, functioning as either a "main" or "synced" clock.
-- :material-tune: [__coeff2pz__](../objects/coeff2pz.md) The `coeff2pz` object converts biquad filter coefficients into pole and zero coordinates, along with the overall gain of the filter's response.
-- :material-tune: [__colors__](../objects/colors.md) The `colors` object in Pure Data functions as a versatile color picker and converter.
-- :material-tune: [__comb.filt~__](../objects/comb.filt~.md) The `comb.filt~` object implements a feedback comb filter, designed primarily for use as a resonator.
-- :material-tune: [__comb.rev~__](../objects/comb.rev~.md) The `comb.rev~` object implements a comb filter, functioning as a versatile audio effect for creating delays, reverberation, and resonant textures.
-- :material-tune: [__combine__](../objects/combine.md) The `combine` object collects incoming messages into a single list if they arrive within a specified time interval.
-- :material-tune: [__compress~__](../objects/compress~.md) The `compress~` object is an audio compressor abstraction that attenuates an input signal when its level exceeds a specified threshold.
-- :material-tune: [__conv~__](../objects/conv~.md) The `conv~` object performs partitioned convolution, primarily used for applying impulse responses to audio signals.
-- :material-tune: [__cosine~__](../objects/cosine~.md) `cosine~` is a versatile cosine oscillator that generates audio signals.
-- :material-tune: [__count__](../objects/count.md) The `count` object in Pure Data generates a sequence of numbers, incrementing or decrementing between a defined minimum and maximum value.
-- :material-tune: [__crackle~__](../objects/crackle~.md) The `crackle~` object generates noise using a chaotic difference equation.
-- :material-tune: [__crossover~__](../objects/crossover~.md) The `crossover~` object implements a 3rd order Butterworth crossover filter.
-- :material-tune: [__crusher.m~__](../objects/crusher.m~.md) The `crusher.m~` object is a multichannel audio effect that wraps the `crusher~` object from the ELSE library.
-- :material-tune: [__crusher~__](../objects/crusher~.md) The `crusher~` object is an audio effect that performs bit-crushing and decimation on an input signal.
-- :material-tune: [__ctl.in__](../objects/ctl.in.md) The `ctl.in` object extracts MIDI Control Change (CC) messages from either a connected MIDI device or an external raw MIDI data stream.
-- :material-tune: [__ctl.out__](../objects/ctl.out.md) The `ctl.out` object formats and sends raw MIDI control messages.
-- :material-tune: [__cusp~__](../objects/cusp~.md) `cusp~` is a chaotic signal generator that implements the difference equation `y[n] = a - b * sqrt(abs(y[n-1]))`.
-- :material-tune: [__damp.osc~__](../objects/damp.osc~.md) The `damp.osc~` object is a damped harmonic motion oscillator that generates audio signals.
-- :material-tune: [__datetime__](../objects/datetime.md) The `datetime` object provides the current local date and time as lists.
-- :material-tune: [__db2lin__](../objects/db2lin.md) `db2lin` converts amplitude values from deciBel Full Scale (dBFS) to linear amplitude.
-- :material-tune: [__db2lin~__](../objects/db2lin~.md) The `db2lin~` object converts decibel Full Scale (dBFS) amplitude values to linear amplitude values.
-- :material-tune: [__dbgain~__](../objects/dbgain~.md) The `dbgain~` object adjusts the gain of an audio signal to a specified decibel (dB) level.
-- :material-tune: [__dec2frac__](../objects/dec2frac.md) The `dec2frac` object converts decimal numbers into fractional representations.
-- :material-tune: [__dec2hex__](../objects/dec2hex.md) The `dec2hex` object converts decimal numbers into their hexadecimal string representation.
-- :material-tune: [__decay~__](../objects/decay~.md) `decay~` is a one-pole filter that generates an exponential decay from input impulses.
-- :material-tune: [__default__](../objects/default.md) The `default` object sets and manages a default message.
-- :material-tune: [__delace__](../objects/delace.md) The `delace` object deinterleaves an incoming list into multiple sub-lists, distributing elements cyclically across its outlets.
-- :material-tune: [__delace~__](../objects/delace~.md) The `delace~` object deinterleaves a multichannel audio signal, splitting it into multiple separate signal outlets.
-- :material-tune: [__delay.m~__](../objects/delay.m~.md) `delay.m~` is an audio effect object that functions as a wrapper for the `filterdelay~` object from the ELSE library.
-- :material-tune: [__delete__](../objects/delete.md) The `delete` object removes one or more elements from an input message (list).
-- :material-tune: [__del~__](../objects/del~.md) The `del~` object in Pure Data manages audio delay lines.
-- :material-tune: [__detect~__](../objects/detect~.md) The `detect~` object measures the time between trigger events in an audio signal.
-- :material-tune: [__dir__](../objects/dir.md) The `dir` object allows you to access and manage files within directories.
-- :material-tune: [__dispatch__](../objects/dispatch.md) The `dispatch` object takes a list as input and sends each element to a specified address.
-- :material-tune: [__display__](../objects/display.md) The `display` object shows text messages within a Pure Data patch, similar to `print`.
-- :material-tune: [__dollsym__](../objects/dollsym.md) The `dollsym` object in Pure Data expands dollar-prefixed symbols like `$0-x` or `$1-y` into their corresponding values within a patch.
-- :material-tune: [__downsample~__](../objects/downsample~.md) The `downsample~` object reduces the sample rate of an incoming audio signal.
-- :material-tune: [__drive.m~__](../objects/drive.m~.md) `drive.m~` is a multichannel audio object that applies a distortion or overdrive effect to incoming audio signals.
-- :material-tune: [__drive~__](../objects/drive~.md) The `drive~` object in Pure Data simulates analog soft-clipping distortion by applying various non-linear transfer functions.
-- :material-tune: [__drum.seq__](../objects/drum.seq.md) The `drum.seq` object provides a graphical drum sequencer for creating and playing drum patterns.
-- :material-tune: [__drunkard__](../objects/drunkard.md) The `drunkard` object generates a sequence of pseudo-random numbers based on a drunkard's walk algorithm.
-- :material-tune: [__drunkard~__](../objects/drunkard~.md) The `drunkard~` object generates a random walk signal, stepping within a defined range from its previous output.
-- :material-tune: [__duck~__](../objects/duck~.md) `duck~` is a Pure Data object that implements sidechain compression, attenuating an input audio signal based on the level of a separate control signal.
-- :material-tune: [__dust2~__](../objects/dust2~.md) The `dust2~` object generates random impulses (values between -1 and 1) at random times, controlled by a density parameter.
-- :material-tune: [__dust~__](../objects/dust~.md) `dust~` generates random positive impulses at a specified density, based on SuperCollider's "Dust" UGEN.
-- :material-tune: [__e__](../objects/e.md) The `e` object outputs the mathematical constant 'e' (Euler's number).
-- :material-tune: [__echo.rev~__](../objects/echo.rev~.md) `echo.rev~` is an echo/reverb abstraction designed to produce early reflections in a reverb algorithm or function as a standalone effect.
-- :material-tune: [__else__](../objects/else.md) The `else` object provides information about the ELSE library, including its version, release date, and installation directory.
-- :material-tune: [__envelope~__](../objects/envelope~.md) The `envelope~` object generates various single-cycle envelope waveforms (e.g., sine, Hanning, triangular, Gaussian, trapezoidal) based on a phase input.
-- :material-tune: [__envgen~__](../objects/envgen~.md) `envgen~` is a versatile audio envelope and line generator that creates complex amplitude curves based on lists of duration and target values.
-- :material-tune: [__eqdiv__](../objects/eqdiv.md) The `eqdiv` object generates a musical scale by equally dividing a given interval into a specified number of divisions.
-- :material-tune: [__equal__](../objects/equal.md) The `equal` object compares two lists.
-- :material-tune: [__eq~__](../objects/eq~.md) The `eq~` object is a 2nd order parametric equalizer filter, capable of functioning as both a peak and a notch filter.
-- :material-tune: [__euclid__](../objects/euclid.md) The `euclid` object implements the Euclidean rhythm algorithm, which distributes a given number of "hits" as evenly as possible over a specified number of "steps".
-- :material-tune: [__expand~__](../objects/expand~.md) The `expand~` object functions as an audio expander, attenuating an input signal when its level falls below a specified threshold.
-- :material-tune: [__f2s~__](../objects/f2s~.md) The `f2s~` (or `float2sig~`) object converts incoming float values or lists of floats into audio signals.
-- :material-tune: [__factor__](../objects/factor.md) The `factor` object is a mathematical utility that takes a floating-point number as input.
-- :material-tune: [__fader~__](../objects/fader~.md) The `fader~` object is a waveshaper that applies various mathematical curves to input signals, typically ranging from 0 to 1.
-- :material-tune: [__fbdelay~__](../objects/fbdelay~.md) The `fbdelay~` object creates a feedback delay line, useful for delay effects, reverberation, and comb filtering.
-- :material-tune: [__fbsine2~__](../objects/fbsine2~.md) The `fbsine2~` object is a non-interpolating sound generator that produces a feedback sine chaotic signal.
-- :material-tune: [__fbsine~__](../objects/fbsine~.md) `fbsine~` is a sinusoidal audio oscillator that features phase modulation feedback.
-- :material-tune: [__fdn.rev~__](../objects/fdn.rev~.md) `fdn.rev~` is a feedback delay network (FDN) reverberator designed to simulate late reflections, commonly known as the reverb tail.
-- :material-tune: [__ffdelay~__](../objects/ffdelay~.md) The `ffdelay~` object provides a simple feed-forward audio delay with interpolation.
-- :material-tune: [__filterdelay~__](../objects/filterdelay~.md) The `filterdelay~` object is a high-level audio delay unit that incorporates a resonant lowpass filter, a soft clipper, and a DC filter within its feedback path.
-- :material-tune: [__flanger.m~__](../objects/flanger.m~.md) `flanger.m~` is a Pure Data audio effect object that serves as a simplified wrapper for the `flanger~` object from the ELSE library.
-- :material-tune: [__flanger~__](../objects/flanger~.md) The `flanger~` object is a simple audio effect that creates a flanging sound.
-- :material-tune: [__float2bits__](../objects/float2bits.md) The `float2bits` object converts a decimal floating-point number (IEEE754 Single precision 32-bit) into its binary representation, outputting a list of 32 bits.
-- :material-tune: [__float2imp~__](../objects/float2imp~.md) The `float2imp~` object converts floating-point numbers into sample-accurate audio impulses.
-- :material-tune: [__float2sig~__](../objects/float2sig~.md) The `float2sig~` (or `f2s~`) object converts control-rate floats or lists of floats into audio-rate signals.
-- :material-tune: [__floor__](../objects/floor.md) The `floor` object, part of the `else` library, performs a mathematical floor operation.
-- :material-tune: [__floor~__](../objects/floor~.md) The `floor~` object performs a floor mathematical operation on incoming audio signals, rounding each sample down to the nearest integer.
-- :material-tune: [__fm~__](../objects/fm~.md) The `fm~` object is a frequency modulation unit that generates audio by modulating the frequency of one sinusoidal oscillator with another.
-- :material-tune: [__fold__](../objects/fold.md) The `fold` object mirrors input values that exceed a defined range back into that range, effectively "folding" them.
-- :material-tune: [__fold~__](../objects/fold~.md) The `fold~` object performs wavefolding, a waveshaping technique that mirrors audio signals back into a specified low and high range.
-- :material-tune: [__fontsize__](../objects/fontsize.md) The `fontsize` object reports the current font size of a Pure Data patch.
-- :material-tune: [__format__](../objects/format.md) The `format` object creates a single symbol (string) by combining a format string with multiple input values.
-- :material-tune: [__frac.add__](../objects/frac.add.md) The `frac.add` object adds two fractional values together.
-- :material-tune: [__frac.mul__](../objects/frac.mul.md) The `frac.mul` object in Pure Data performs multiplication of two fractional values.
-- :material-tune: [__frac2cents__](../objects/frac2cents.md) The `frac2cents` object converts musical intervals expressed as fractional symbols (e.g., `9/8`) into their corresponding values in cents.
-- :material-tune: [__frac2dec__](../objects/frac2dec.md) The `frac2dec` object converts fractional values, including nested fractions and those with decimal numbers, into their decimal floating-point equivalents.
-- :material-tune: [__free.rev~__](../objects/free.rev~.md) The `free.rev~` object implements a stereo reverb effect based on the Freeverb algorithm, utilizing parallel comb filters and series allpass filters.
-- :material-tune: [__freeze~__](../objects/freeze~.md) The `freeze~` object captures a spectral snapshot of an incoming audio signal and resynthesizes it using a bank of oscillators, effectively "freezing" the sound.
-- :material-tune: [__freq.shift~__](../objects/freq.shift~.md) The `freq.shift~` object is a frequency shifter, not a pitch shifter, that operates via complex amplitude modulation.
-- :material-tune: [__freq2midi__](../objects/freq2midi.md) The `freq2midi` object converts frequency values (Hz) to MIDI note numbers, similar to `ftom`.
-- :material-tune: [__function__](../objects/function.md) The `function` object is a graphical user interface (GUI) for creating and manipulating breakpoint functions.
-- :material-tune: [__function~__](../objects/function~.md) The `function~` object generates arbitrary waveforms or functions from a list of points and periods.
-- :material-tune: [__gain2~__](../objects/gain2~.md) The `gain2~` object is a stereo gain abstraction for Pure Data, designed to adjust the gain of stereo audio signals.
-- :material-tune: [__gain~__](../objects/gain~.md) The `gain~` object provides mono and multichannel gain control for audio signals.
-- :material-tune: [__gate2imp~__](../objects/gate2imp~.md) The `gate2imp~` object converts an audio gate signal into an impulse.
-- :material-tune: [__gatedelay__](../objects/gatedelay.md) The `gatedelay` object delays the "on" message of a control gate by a specified time in milliseconds, while passing the "off" message immediately.
-- :material-tune: [__gatedelay~__](../objects/gatedelay~.md) The `gatedelay~` object delays the "on" state of an incoming gate signal by a specified time, while immediately passing through the "off" state.
-- :material-tune: [__gatehold__](../objects/gatehold.md) The `gatehold` object extends the duration of a gate signal by a specified amount of time (in milliseconds) after the gate has closed.
-- :material-tune: [__gatehold~__](../objects/gatehold~.md) The `gatehold~` object holds an incoming gate signal for a specified duration in milliseconds after the gate closes.
-- :material-tune: [__gaterelease__](../objects/gaterelease.md) The `gaterelease` object controls the release of a gate value.
-- :material-tune: [__gaterelease~__](../objects/gaterelease~.md) The `gaterelease~` object releases an audio-rate gate signal after a specified time in milliseconds, allowing for timed gate control even when other gates are held.
-- :material-tune: [__gaussian~__](../objects/gaussian~.md) The `gaussian~` object is a Gaussian oscillator that generates a bell-shaped waveform.
-- :material-tune: [__gbman~__](../objects/gbman~.md) `gbman~` is a chaotic signal generator based on the Gingerbread Man map.
-- :material-tune: [__gcd__](../objects/gcd.md) The `gcd` object calculates the greatest common divisor (GCD) of two or more numbers.
-- :material-tune: [__gendyn.m~__](../objects/gendyn.m~.md) gendyn.m~ is a wrapper for the `else/gendyn~` object, designed to generate dynamic waveforms.
-- :material-tune: [__gendyn~__](../objects/gendyn~.md) The `gendyn~` object generates audio using Dynamic Stochastic Synthesis, based on Xenakis' 'GenDyn' algorithm.
-- :material-tune: [__get~__](../objects/get~.md) `get~` extracts one or more specific channels from a multichannel audio connection.
-- :material-tune: [__giga.rev~__](../objects/giga.rev~.md) The `giga.rev~` object implements a Gigaverb-based reverberation algorithm, transforming a mono audio input into a stereo output.
-- :material-tune: [__glide__](../objects/glide.md) The `glide` object creates a smooth transition (portamento) for incoming numerical values over a specified time in milliseconds.
-- :material-tune: [__glide2__](../objects/glide2.md) The `glide2` object smoothly transitions (glides) an incoming float signal to new values over time, acting as a portamento or slew limiter.
-- :material-tune: [__glide2~__](../objects/glide2~.md) `glide2~` is a signal processing object that smooths incoming signals with distinct ramp-up and ramp-down times, effectively creating a portamento or lag effect.
-- :material-tune: [__glide~__](../objects/glide~.md) The `glide~` object smooths changes in its signal input, creating a portamento effect.
-- :material-tune: [__gmean__](../objects/gmean.md) The `gmean` object generates a list of numbers representing a geometric progression between a specified start and end point.
-- :material-tune: [__grain.live~__](../objects/grain.live~.md) `grain.live~` is a live input granulator that generates clouds of audio grains from an incoming signal.
-- :material-tune: [__grain.sampler~__](../objects/grain.sampler~.md) The `grain.sampler~` object is a sample-based granulator that generates clouds of audio grains from a loaded sample.
-- :material-tune: [__grain.synth~__](../objects/grain.synth~.md) `grain.synth~` is a waveform-based granular synthesizer that generates clouds of pitched grains.
-- :material-tune: [__gran.player~__](../objects/gran.player~.md) `gran.player~` is a granular audio player that allows for independent time stretching and pitch shifting of loaded sound files.
-- :material-tune: [__graph~__](../objects/graph~.md) `graph~` is a simple Pure Data abstraction designed for visualizing audio signals.
-- :material-tune: [__gray~__](../objects/gray~.md) The `gray~` object generates a unique type of noise based on "gray code" (reflected binary code), which results from flipping random bits using a pseudo-random number generator.
-- :material-tune: [__group__](../objects/group.md) The `group` object collects incoming messages and outputs them as a single list once a specified group size is reached.
-- :material-tune: [__hann~__](../objects/hann~.md) The `hann~` object applies a Hann window to a signal input, with the window size matching the current block size.
-- :material-tune: [__hello__](../objects/hello.md) The `hello` object is a simple example external for Pure Data, implemented in Lua and loaded as part of the `else` library.
-- :material-tune: [__henon~__](../objects/henon~.md) The `henon~` object is a chaotic signal generator that implements the Henon map difference equation.
-- :material-tune: [__hex2dec__](../objects/hex2dec.md) The `hex2dec` object converts hexadecimal values to their decimal equivalents.
-- :material-tune: [__highpass~__](../objects/highpass~.md) The `highpass~` object is a 2nd order highpass resonant filter designed for audio signals.
-- :material-tune: [__highshelf~__](../objects/highshelf~.md) The `highshelf~` object is a 2nd order highshelf filter designed to modify the high-frequency content of an audio signal.
-- :material-tune: [__hip.bw~__](../objects/hip.bw~.md) `hip.bw~` is a highpass Butterworth filter designed for audio signals.
-- :material-tune: [__histogram__](../objects/histogram.md) The `histogram` object records the frequency of incoming positive integer numbers (floats are truncated) into an internal table.
-- :material-tune: [__hot__](../objects/hot.md) The `hot` object in Pure Data acts as a message router and temporary storage.
-- :material-tune: [__hz2rad__](../objects/hz2rad.md) The `hz2rad` object converts a frequency value in Hertz (Hz) to "Radians per Sample." This conversion is crucial for digital signal processing, as it calculates the phase increment per sample based on the patch's sample rate using the formula `rad = (hz * 2*pi / sr)`..
-- :material-tune: [__ikeda~__](../objects/ikeda~.md) The `ikeda~` object is a chaotic signal generator based on the Ikeda map, producing two audio outputs.
-- :material-tune: [__impseq~__](../objects/impseq~.md) The `impseq~` object generates a sequence of impulses.
-- :material-tune: [__impulse__](../objects/impulse.md) The `impulse` object is a control-rate oscillator that generates bangs at a specified frequency, similar to `impulse~` but operating at a millisecond resolution.
-- :material-tune: [__impulse2~__](../objects/impulse2~.md) `impulse2~` (or `imp2~`) is a two-sided impulse oscillator that generates audio signals.
-- :material-tune: [__impulse~__](../objects/impulse~.md) The `impulse~` object is an impulse oscillator capable of generating signals with negative frequencies.
-- :material-tune: [__initmess__](../objects/initmess.md) The `initmess` object sends a specified message when a Pure Data patch is loaded.
-- :material-tune: [__insert__](../objects/insert.md) The `insert` object allows you to insert a message or a list of elements into an existing list at a specified index.
-- :material-tune: [__interpolate__](../objects/interpolate.md) The `else/interpolate` object performs smooth interpolation between a set of start and target values, which can be single numbers or lists.
-- :material-tune: [__iterate__](../objects/iterate.md) The `iterate` object splits an incoming message (typically a list of floats or symbols) into its individual elements and outputs them sequentially.
-- :material-tune: [__keyboard__](../objects/keyboard.md) The `keyboard` object provides a graphical piano keyboard interface for Pure Data.
-- :material-tune: [__keycode__](../objects/keycode.md) The `keycode` object provides layout-independent keyboard input, outputting a numerical key code based on the physical key location.
-- :material-tune: [__keymap__](../objects/keymap.md) The `keymap` object translates computer keyboard presses into MIDI note on/off messages, effectively turning your QWERTY keyboard into a musical input device.
-- :material-tune: [__keypress__](../objects/keypress.md) The `keypress` object detects presses of a single computer keyboard key, outputting a bang or a toggle (1 for pressed, 0 for released).
-- :material-tune: [__knob__](../objects/knob.md) The `knob` object is a graphical user interface (GUI) element in Pure Data that functions as a rotary control.
-- :material-tune: [__lace__](../objects/lace.md) The `lace` object interleaves elements from two or more input lists into a single output list.
-- :material-tune: [__lace~__](../objects/lace~.md) The `lace~` object interleaves two or more multichannel audio signals.
-- :material-tune: [__lag2~__](../objects/lag2~.md) The `lag2~` object smooths incoming signals, allowing for independent ramp-up and ramp-down times.
-- :material-tune: [__lag~__](../objects/lag~.md) The `lag~` object is a one-pole audio filter that applies an exponential glide or portamento to changes in its signal input.
-- :material-tune: [__lastvalue__](../objects/lastvalue.md) The `lastvalue` object stores the most recently received input value.
-- :material-tune: [__lastvalue~__](../objects/lastvalue~.md) The `lastvalue~` Pure Data object reports the last received signal value whenever the input signal changes.
-- :material-tune: [__latoocarfian~__](../objects/latoocarfian~.md) The `latoocarfian~` object is a chaotic audio signal generator that implements the Latoocarfian attractor's difference equations.
-- :material-tune: [__lcm__](../objects/lcm.md) The `lcm` object calculates the least common multiple (LCM) of two or more numbers.
-- :material-tune: [__level.m~__](../objects/level.m~.md) The `level.m~` object is a simple gain module designed to adjust the decibel level of audio signals.
-- :material-tune: [__level~__](../objects/level~.md) The `level~` object is a convenient tool for adjusting the gain of audio signals in decibels (dB).
-- :material-tune: [__lfnoise__](../objects/lfnoise.md) `lfnoise` is a control-rate low-frequency noise generator that outputs random values between 0 and 127.
-- :material-tune: [__lfnoise~__](../objects/lfnoise~.md) The `lfnoise~` object generates band-limited low-frequency noise, producing random values between -1 and 1 at a specified frequency.
-- :material-tune: [__lfo__](../objects/lfo.md) The `lfo` object is a control-rate Low Frequency Oscillator that generates various waveforms including sine, triangle, sawtooth, and variable square/sawtooth.
-- :material-tune: [__lfo.m~__](../objects/lfo.m~.md) `lfo.m~` is a low-frequency oscillator module that generates various waveforms including sine, triangle, saw, vsaw, and square.
-- :material-tune: [__limit__](../objects/limit.md) The `limit` object controls the rate of messages, ensuring a minimum time interval between outputs.
-- :material-tune: [__lin2db__](../objects/lin2db.md) The `lin2db` object converts a linear amplitude value to its equivalent decibel full scale (dBFS) representation.
-- :material-tune: [__lin2db~__](../objects/lin2db~.md) The `lin2db~` object converts linear amplitude values to decibels full scale (dBFS).
-- :material-tune: [__lincong~__](../objects/lincong~.md) The `lincong~` object is a chaotic signal generator based on a linear congruential difference equation.
-- :material-tune: [__list.inc__](../objects/list.inc.md) The `list.inc` object generates a list of numbers based on a starting value, an increment step, and the desired number of elements.
-- :material-tune: [__list.seq__](../objects/list.seq.md) The `list.seq` object sequences through elements of a given list, outputting one element at a time upon receiving a `bang`.
-- :material-tune: [__loadbanger__](../objects/loadbanger.md) The `loadbanger` (or `lb`) object in Pure Data sends "bang" messages when a patch is loaded, when it receives any message, or when clicked.
-- :material-tune: [__logistic~__](../objects/logistic~.md) `logistic~` is a chaotic signal generator based on the logistic map difference equation.
-- :material-tune: [__loop__](../objects/loop.md) The `loop` object in Pure Data provides a flexible iteration mechanism, functioning as a counter that can increment or decrement through a specified range.
-- :material-tune: [__lop.bw~__](../objects/lop.bw~.md) The `lop.bw~` object is a lowpass Butterworth filter abstraction.
-- :material-tune: [__lop2~__](../objects/lop2~.md) `lop2~` is a 1st order lowpass filter (1-pole, 1-zero) designed for audio signals.
-- :material-tune: [__lorenz~__](../objects/lorenz~.md) The `lorenz~` object is a chaotic signal generator based on the Lorenz strange attractor, a mathematical model of atmospheric convection.
-- :material-tune: [__lowpass~__](../objects/lowpass~.md) The `lowpass~` object is a 2nd-order resonant lowpass filter designed for audio signals.
-- :material-tune: [__lowshelf~__](../objects/lowshelf~.md) The `lowshelf~` object implements a 2nd order lowshelf filter, designed to adjust the gain of frequencies below a specified shelving frequency.
-- :material-tune: [__lua__](../objects/lua.md) The `lua` object allows for inline Lua scripting within Pure Data patches, enabling users to extend Pd's functionality with custom Lua code.
-- :material-tune: [__mag__](../objects/mag.md) The `mag` object calculates the magnitude (amplitude) from Cartesian coordinates (real and imaginary parts), which is fundamental for analyzing frequency spectrum data.
-- :material-tune: [__mag~__](../objects/mag~.md) The `mag~` object calculates the magnitude (amplitude) or power magnitude of a complex signal from its real and imaginary parts.
-- :material-tune: [__makenote2__](../objects/makenote2.md) The `makenote2` object converts a list of pitch, velocity, and duration into MIDI note-on and note-off messages.
-- :material-tune: [__markov__](../objects/markov.md) The `markov` object in Pure Data generates sequences based on Markov chains.
-- :material-tune: [__match~__](../objects/match~.md) The `match~` object compares an incoming signal to a list of numerical arguments.
-- :material-tune: [__maxpeak~__](../objects/maxpeak~.md) The `maxpeak~` object continuously tracks and outputs the maximum peak amplitude of an incoming audio signal.
-- :material-tune: [__median__](../objects/median.md) The `median` object calculates the median value of a list of numbers.
-- :material-tune: [__median~__](../objects/median~.md) The `median~` object calculates the median value of an incoming audio signal over a specified number of samples.
-- :material-tune: [__merge__](../objects/merge.md) The `merge` object takes any type of messages from its inlets and combines them into a single list message.
-- :material-tune: [__merge~__](../objects/merge~.md) The `merge~` object combines multiple audio signals, potentially with varying channel lengths, into a single multichannel output.
-- :material-tune: [__message__](../objects/message.md) The `message` object in Pure Data serves as a versatile container for storing and outputting any type of message, functioning similarly to a message box but as an object.
-- :material-tune: [__messbox__](../objects/messbox.md) The `messbox` object is an editable GUI element in Pure Data that functions similarly to a standard message box, allowing users to type and output various message types during run mode.
-- :material-tune: [__meter__](../objects/meter.md) The `meter` object functions as a CPU load meter, providing real-time monitoring of the system's processing usage.
-- :material-tune: [__meter2~__](../objects/meter2~.md) The `meter2~` object functions as a stereo VU-meter, providing real-time RMS and peak amplitude measurements in dBFS for two incoming audio signals.
-- :material-tune: [__meter4~__](../objects/meter4~.md) The `else/meter4~` object functions as a quadraphonic VU-meter, providing RMS/peak amplitude values in dBFS for four incoming audio signals.
-- :material-tune: [__meter8~__](../objects/meter8~.md) The `meter8~` object provides an octaphonic (8-channel) VU-meter, displaying the RMS/peak amplitude of incoming audio signals.
-- :material-tune: [__meter~__](../objects/meter~.md) The `meter~` object functions as a mono VU-meter, providing real-time visual feedback on audio signal levels.
-- :material-tune: [__metronome__](../objects/metronome.md) The `metronome` object generates rhythmic pulses based on a specified tempo, beat length, and time signature, including support for complex and irrational time signatures.
-- :material-tune: [__metronome~__](../objects/metronome~.md) The `metronome~` object generates audio metronome clicks, working in conjunction with the `metronome` control object.
-- :material-tune: [__midi__](../objects/midi.md) The `midi` object in Pure Data is a versatile tool for playing, recording, and manipulating raw MIDI data streams.
-- :material-tune: [__midi.clock__](../objects/midi.clock.md) The `midi.clock` object abstracts MIDI clock functionality, allowing synchronization with either an internal clock (set by a float input) or an external MIDI device.
-- :material-tune: [__midi.in__](../objects/midi.in.md) The `midi.in` object processes incoming MIDI data, converting raw MIDI streams into "cooked" data with type symbols, values, and channel information.
-- :material-tune: [__midi.learn__](../objects/midi.learn.md) The `midi.learn` object is a Pure Data abstraction designed to learn and store incoming MIDI data, such as control changes, program changes, notes, and bends.
-- :material-tune: [__midi.out__](../objects/midi.out.md) The `midi.out` object sends MIDI messages to an external MIDI device, converting "cooked" MIDI data (e.g., `ctl`, `note`, `pgm`) into raw MIDI bytes.
-- :material-tune: [__midi2freq__](../objects/midi2freq.md) The `midi2freq` object converts MIDI note numbers (including fractional "MIDI cents") into corresponding frequencies in Hertz.
-- :material-tune: [__midi2note__](../objects/midi2note.md) The `midi2note` object converts MIDI pitch values into musical note names, such as 'Eb3', including an octave number where middle C (MIDI pitch 60) is C4.
-- :material-tune: [__mix2~__](../objects/mix2~.md) The `mix2~` object is a 2-channel audio mixer that provides independent gain and panning control for each input signal.
-- :material-tune: [__mix4~__](../objects/mix4~.md) The `mix4~` object is a 4-channel audio mixer abstraction that provides independent gain and panning control for each channel.
-- :material-tune: [__mono__](../objects/mono.md) The `else/mono` object manages incoming MIDI note messages to enforce monophonic behavior, allowing only one note to sound at a time based on configurable priority modes (last, high, or low note).
-- :material-tune: [__mono.rev~__](../objects/mono.rev~.md) The `mono.rev~` object is a reverb abstraction that takes a mono audio input and produces a stereo audio output.
-- :material-tune: [__mono~__](../objects/mono~.md) The `mono~` object acts as a monophonic signal voice manager, emulating monophonic synthesizer behavior.
-- :material-tune: [__morph__](../objects/morph.md) The `morph` object is an abstraction that extends the functionality of Pure Data's `line` object to lists of numbers.
-- :material-tune: [__morph~__](../objects/morph~.md) The `morph~` object performs a spectral crossfade between the amplitudes and phases of two input signals.
-- :material-tune: [__mouse__](../objects/mouse.md) The `mouse` object captures global mouse interaction within Pure Data.
-- :material-tune: [__mov.avg__](../objects/mov.avg.md) The `mov.avg` object calculates a running or moving average of incoming float values.
-- :material-tune: [__mov.avg~__](../objects/mov.avg~.md) The `mov.avg~` object calculates a moving (or running) average of an incoming audio signal.
-- :material-tune: [__mov.rms~__](../objects/mov.rms~.md) The `mov.rms~` object calculates the Root Mean Square (RMS) of an incoming audio signal over a specified moving time window.
-- :material-tune: [__mpe.in__](../objects/mpe.in.md) The `mpe.in` object processes MIDI Polyphonic Expression (MPE) data, converting raw MIDI input from either an internal device or an external source into structured MPE messages.
-- :material-tune: [__ms2samps__](../objects/ms2samps.md) The `ms2samps` object is a simple utility that converts a time value in milliseconds to the equivalent number of audio samples.
-- :material-tune: [__ms2samps~__](../objects/ms2samps~.md) The `ms2samps~` object converts time values from milliseconds to the corresponding number of audio samples, based on the current samplerate.
-- :material-tune: [__mtx.ctl__](../objects/mtx.ctl.md) `mtx.ctl` provides a graphical user interface for controlling a matrix.
-- :material-tune: [__mtx.mc~__](../objects/mtx.mc~.md) The `mtx.mc~` object is a multichannel signal routing matrix for Pure Data, designed to route audio signals from multiple input channels to multiple output channels.
-- :material-tune: [__mtx~__](../objects/mtx~.md) The `mtx~` object acts as an audio signal matrix router, enabling flexible connections between multiple audio inlets and outlets.
-- :material-tune: [__multi.vsl__](../objects/multi.vsl.md) The `multi.vsl` object is a graphical user interface (GUI) element that provides multiple vertical sliders in a single abstraction.
-- :material-tune: [__nchs~__](../objects/nchs~.md) The `nchs~` object queries the number of channels in a multi-channel signal connection, such as those provided by `snake~ in` or `clone`.
-- :material-tune: [__nmess__](../objects/nmess.md) The `nmess` object acts as a message gate, allowing a specified number of messages (`n`) to pass through its left outlet.
-- :material-tune: [__noisegate~__](../objects/noisegate~.md) `noisegate~` is a noise gate abstraction that allows audio signals to pass only when their RMS value exceeds a specified threshold in dBFS.
-- :material-tune: [__norm~__](../objects/norm~.md) `norm~` is an audio normalizer that adjusts the loudness of an incoming signal to a specified decibel full scale (dBFS) level.
-- :material-tune: [__note__](../objects/note.md) The `note` object is a GUI element in Pure Data designed to display text notes within a patch.
-- :material-tune: [__note.in__](../objects/note.in.md) The `note.in` object extracts MIDI pitch and velocity information from incoming MIDI data streams.
-- :material-tune: [__note.out__](../objects/note.out.md) The `note.out` object formats and sends MIDI note messages, including Note On and Note Off (with optional release velocity), to Pure Data's MIDI output or its own outlet.
-- :material-tune: [__note2midi__](../objects/note2midi.md) The `note2midi` object converts musical note names (e.g., 'C4', 'E#+5', 'Db-4') into their corresponding MIDI pitch values.
-- :material-tune: [__notedur2ratio__](../objects/notedur2ratio.md) The `notedur2ratio` object converts musical note duration symbols (e.g., `1n` for whole note, `4n` for quarter note) into their corresponding numerical ratios, which can be output as fractions or floats.
-- :material-tune: [__noteinfo__](../objects/noteinfo.md) The `noteinfo` object tracks and outputs information about active MIDI notes.
-- :material-tune: [__numbox~__](../objects/numbox~.md) The `numbox~` object is a graphical user interface element in Pure Data designed to display and generate audio signal values.
-- :material-tune: [__nyquist~__](../objects/nyquist~.md) The `nyquist~` object reports the Nyquist frequency (half the audio sample rate) or its corresponding period.
-- :material-tune: [__op__](../objects/op.md) The `op` object in Pure Data performs a wide range of arithmetic, comparative, logical, and bitwise operations.
-- :material-tune: [__openfile__](../objects/openfile.md) The `openfile` object in Pure Data is a utility that allows users to open local folders, files, or web links.
-- :material-tune: [__op~__](../objects/op~.md) The `op~` object performs various signal-rate operations, including comparative (e.g., `==`, `>`), logical (`&&`, `||`, `!`), bitwise (`&`, `|`, `~`, `^`, `<<`, `>>`), and modulus (`%`) calculations.
-- :material-tune: [__order__](../objects/order.md) The `order` object splits an incoming list into successive sub-lists of a specified size, assigning an ordered index to each.
-- :material-tune: [__osc.format__](../objects/osc.format.md) The `osc.format` object converts Pure Data messages into Open Sound Control (OSC) format.
-- :material-tune: [__osc.parse__](../objects/osc.parse.md) The `osc.parse` object in Pure Data is used to parse incoming Open Sound Control (OSC) messages.
-- :material-tune: [__osc.receive__](../objects/osc.receive.md) The `osc.receive` object in Pure Data is designed to receive Open Sound Control (OSC) messages over a network connection.
-- :material-tune: [__osc.route__](../objects/osc.route.md) The `osc.route` object routes incoming Open Sound Control (OSC) messages based on their address patterns.
-- :material-tune: [__osc.send__](../objects/osc.send.md) The `osc.send` object facilitates sending Open Sound Control (OSC) messages over a network.
-- :material-tune: [__oscbank~__](../objects/oscbank~.md) The `oscbank~` object generates complex audio signals by combining multiple `sine~` oscillators, allowing users to define a list of partials, amplitudes, and phases for each.
-- :material-tune: [__oscnoise~__](../objects/oscnoise~.md) `oscnoise~` is an oscillator that generates a white noise waveform, which can be updated by a bang message.
-- :material-tune: [__out.mc~__](../objects/out.mc~.md) The `out.mc~` object routes multichannel audio signals to specified `dac~` output channels, with a default starting channel of 1.
-- :material-tune: [__out4~__](../objects/out4~.md) `out4~` is a quadraphonic audio output abstraction for Pure Data, providing click-free control over DSP on/off, mute, and gain.
-- :material-tune: [__out8~__](../objects/out8~.md) The `out8~` object is an octaphonic (8-channel) audio output abstraction for Pure Data.
-- :material-tune: [__out~__](../objects/out~.md) `out~` is a convenient Pure Data abstraction for managing audio output.
-- :material-tune: [__pack2__](../objects/pack2.md) The `pack2` object combines incoming data from its inlets into a single list, similar to `pack`.
-- :material-tune: [__pad__](../objects/pad.md) The `pad` object is a graphical user interface (GUI) element that reports mouse coordinates and click status within its area.
-- :material-tune: [__pan.mc~__](../objects/pan.mc~.md) `pan.mc~` is a multichannel audio panner designed for circular speaker arrays.
-- :material-tune: [__pan2~__](../objects/pan2~.md) `pan2~` performs equal-power (sin/cos) panning, distributing a mono audio signal across two output channels (left and right).
-- :material-tune: [__pan4~__](../objects/pan4~.md) The `pan4~` object is a 4-channel equal power (sine/cosine) panner designed for quadraphonic audio.
-- :material-tune: [__panic__](../objects/panic.md) The `panic` object acts as a "panic button" for MIDI notes.
-- :material-tune: [__pan~__](../objects/pan~.md) `pan~` performs circular or azimuth panning of an input signal across a user-defined number of output channels.
-- :material-tune: [__parabolic~__](../objects/parabolic~.md) `parabolic~` is a parabolic oscillator that generates a non-band-limited waveform, similar to a sinusoid but with aliasing.
-- :material-tune: [__pattern__](../objects/pattern.md) The `pattern` object is a rhythmic pattern sequencer that outputs note durations based on a defined sequence.
-- :material-tune: [__pdlink__](../objects/pdlink.md) The `pdlink` object enables simplified communication between different Pure Data instances, including `[pd~]` subprocesses, over a local network.
-- :material-tune: [__pdlink~__](../objects/pdlink~.md) `pdlink~` enables sending and receiving audio streams between different Pure Data instances, including those on other platforms or forks, and `pd~` subprocesses.
-- :material-tune: [__peak~__](../objects/peak~.md) `peak~` is a Pure Data signal object that analyzes an incoming audio signal and outputs its peak amplitude.
-- :material-tune: [__perlin~__](../objects/perlin~.md) The `perlin~` object generates 1-dimensional Perlin noise, producing a smoothly varying signal based on a specified frequency in Hertz.
-- :material-tune: [__pgm.in__](../objects/pgm.in.md) The `pgm.in` object extracts MIDI Program Change messages (0-127) from either a connected MIDI device or an external raw MIDI data stream.
-- :material-tune: [__pgm.out__](../objects/pgm.out.md) The `pgm.out` object formats and sends raw MIDI program change messages (values 0-127) to Pure Data's MIDI output and its outlet.
-- :material-tune: [__phaser.m~__](../objects/phaser.m~.md) The `phaser.m~` object is a wrapper for the `phaser~` audio effect from the ELSE library.
-- :material-tune: [__phaser~__](../objects/phaser~.md) The `phaser~` object is a mono phaser audio effect.
-- :material-tune: [__phaseseq~__](../objects/phaseseq~.md) `phaseseq~` is a signal-rate object that generates impulses when an incoming phase signal crosses a predefined list of threshold values.
-- :material-tune: [__phasor__](../objects/phasor.md) The `phasor` object generates a control-rate sawtooth wave, ramping continuously from 0 to 1 at a specified frequency.
-- :material-tune: [__pi__](../objects/pi.md) The `pi` object calculates and outputs the mathematical constant Pi.
-- :material-tune: [__pic__](../objects/pic.md) The `pic` object in Pure Data displays image files (`.gif`, `.ppm`, `.pgm`) within a patch.
-- :material-tune: [__pick__](../objects/pick.md) The `pick` object selects an element from an input message based on a provided element number.
-- :material-tune: [__pick~__](../objects/pick~.md) `pick~` selects a specific channel from a multichannel audio connection.
-- :material-tune: [__pimp__](../objects/pimp.md) The `pimp` object is a control-rate signal generator, analogous to `phasor~` but operating at a control rate with a maximum resolution of 1 ms.
-- :material-tune: [__pimpmul~__](../objects/pimpmul~.md) `pimpmul~` is a signal object designed to multiply the phase signal of `pimp~` or `phasor~` objects.
-- :material-tune: [__pimp~__](../objects/pimp~.md) The `pimp~` object is an impulse oscillator that combines the functionality of `phasor~` and `else/imp~`.
-- :material-tune: [__ping.pong~__](../objects/ping.pong~.md) The `ping.pong~` object is an audio effect that creates a ping-pong delay.
-- :material-tune: [__pipe2__](../objects/pipe2.md) The `pipe2` object functions similarly to Pure Data's vanilla `pipe` object, delaying incoming messages.
-- :material-tune: [__pitch.shift~__](../objects/pitch.shift~.md) `pitch.shift~` is a pitch shifter object that transposes audio signals up or down.
-- :material-tune: [__plaits.m~__](../objects/plaits.m~.md) The `plaits.m~` object is a versatile polyphonic sound synthesis module, wrapping the `[plaits~]` external.
-- :material-tune: [__plaits~__](../objects/plaits~.md) The `plaits~` object is a versatile audio synthesizer based on the Mutable Instruments Plaits module, offering 24 distinct synthesis engines.
-- :material-tune: [__plate.rev.m~__](../objects/plate.rev.m~.md) The `plate.rev.m~` object is a Pure Data audio effect that acts as a wrapper for the `else/plate.rev~` object, providing a plate reverberation effect.
-- :material-tune: [__plate.rev~__](../objects/plate.rev~.md) The `plate.rev~` object is a Pure Data abstraction that implements a stereo plate reverb audio effect.
-- :material-tune: [__play.file~__](../objects/play.file~.md) `play.file~` is a Pure Data object that reads and plays audio files from your computer, supporting various formats like AAC, FLAC, MP3, and WAV.
-- :material-tune: [__player~__](../objects/player~.md) `player~` is a versatile Pure Data object for playing back audio files.
-- :material-tune: [__pluck.m~__](../objects/pluck.m~.md) The `pluck.m~` object is a polyphonic physical modeling synthesizer for plucked string sounds, acting as a wrapper around the `pluck~` object from the ELSE library.
-- :material-tune: [__pluck~__](../objects/pluck~.md) The `pluck~` object implements the Karplus-Strong algorithm for physical modeling synthesis, simulating plucked string sounds.
-- :material-tune: [__pm2~__](../objects/pm2~.md) The `pm2~` object is a 2-operator phase modulation (PM) synthesizer.
-- :material-tune: [__pm4~__](../objects/pm4~.md) The `pm4~` object is a 4-operator phase modulation (FM) synthesizer.
-- :material-tune: [__pm6.m~__](../objects/pm6.m~.md) `pm6.m~` is a six-operator FM (phase modulation) synthesizer, inspired by the DX7, producing stereo output.
-- :material-tune: [__pm6~__](../objects/pm6~.md) The `pm6~` object is a 6-operator phase modulation (FM) synthesizer.
-- :material-tune: [__pm~__](../objects/pm~.md) The `pm~` object is a basic phase modulation unit that uses two sinusoidal oscillators, where one modulates the phase of the other.
-- :material-tune: [__pol2car__](../objects/pol2car.md) The `pol2car` object converts polar coordinates (amplitude and phase) into Cartesian coordinates (real and imaginary parts).
-- :material-tune: [__pol2car~__](../objects/pol2car~.md) The `pol2car~` object converts audio signals from polar coordinates (amplitude and phase) to Cartesian coordinates (real and imaginary parts).
-- :material-tune: [__polymetro__](../objects/polymetro.md) The `polymetro` object is a polyrhythmic metronome that generates rhythmic pulses based on a base tempo and a polyrhythmic multiplier.
-- :material-tune: [__polymetro~__](../objects/polymetro~.md) `polymetro~` is a polyrhythmic metronome for signal rate that outputs impulses.
-- :material-tune: [__popmenu__](../objects/popmenu.md) The `popmenu` object provides a graphical user interface (GUI) popup menu in Pure Data.
-- :material-tune: [__power~__](../objects/power~.md) `power~` is a signal processing object in Pure Data that acts as a power function waveshaper.
-- :material-tune: [__presets__](../objects/presets.md) The `presets` object in Pure Data allows users to save and recall multiple configurations of patch parameters, including GUI elements, numbers, symbols, and arrays.
-- :material-tune: [__presets.m__](../objects/presets.m.md) The `presets.m` object in Pure Data enables saving and recalling parameter presets for "MERDA modules" within a patch.
-- :material-tune: [__properties__](../objects/properties.md) The `properties` object in Pure Data sends a bang when its parent patch's properties are accessed, typically via a right-click menu.
-- :material-tune: [__ptouch.in__](../objects/ptouch.in.md) `ptouch.in` extracts MIDI polyphonic aftertouch messages from raw MIDI input, such as from a connected MIDI device or an external MIDI data stream.
-- :material-tune: [__ptouch.out__](../objects/ptouch.out.md) The `ptouch.out` object formats and sends raw MIDI polyphonic aftertouch messages.
-- :material-tune: [__pulse__](../objects/pulse.md) The `pulse` object is a control-rate oscillator that generates a pulse wave, acting like a toggle switch.
-- :material-tune: [__pulsecount~__](../objects/pulsecount~.md) The `pulsecount~` object counts rising edge triggers in an audio signal.
-- :material-tune: [__pulsediv~__](../objects/pulsediv~.md) The `pulsediv~` object divides an incoming signal-rate trigger stream, outputting impulses from its left outlet based on a specified division value.
-- :material-tune: [__pulse~__](../objects/pulse~.md) `pulse~` is a pulse train oscillator that generates a signal alternating between 1 and 0.
-- :material-tune: [__pvoc.freeze~__](../objects/pvoc.freeze~.md) The `pvoc.freeze~` object is a phase vocoder-based audio processor that allows for "freezing" a sound.
-- :material-tune: [__pvoc.live~__](../objects/pvoc.live~.md) The `pvoc.live~` object performs independent time stretching and pitch shifting on live audio input using granulation.
-- :material-tune: [__pvoc.player~__](../objects/pvoc.player~.md) The `pvoc.player~` object is an audio file player that offers independent time stretching and pitch shifting capabilities through a phase vocoder.
-- :material-tune: [__pz2coeff__](../objects/pz2coeff.md) The `pz2coeff` object converts pole and zero coordinates into biquad filter coefficients.
-- :material-tune: [__quad~__](../objects/quad~.md) The `quad~` object generates a chaotic audio signal based on a quadratic difference equation: `y[n] = a * y[n-1]^2 + b * y[n-1] + c`.
-- :material-tune: [__quantizer__](../objects/quantizer.md) The `quantizer` object approximates input values to discrete step values defined by an argument.
-- :material-tune: [__quantizer~__](../objects/quantizer~.md) The `quantizer~` object quantizes an incoming audio signal to discrete step values, which can be defined by an argument or a second inlet.
-- :material-tune: [__rad2hz__](../objects/rad2hz.md) The `rad2hz` object converts a frequency value from "Radians per Sample" to Hertz.
-- :material-tune: [__rampnoise__](../objects/rampnoise.md) The `rampnoise` object generates control-rate ramp noise, producing a pseudo-random waveform within the 0-127 range, making it suitable for MIDI control.
-- :material-tune: [__rampnoise~__](../objects/rampnoise~.md) The `rampnoise~` object generates band-limited noise by interpolating between random values, producing "random ramps" within a specified frequency range.
-- :material-tune: [__ramp~__](../objects/ramp~.md) The `ramp~` object generates a linear signal that ramps between a specified minimum and maximum value.
-- :material-tune: [__rand.dist__](../objects/rand.dist.md) The `rand.dist` object generates random numbers based on a user-defined probability density function (PDF) provided by a Pure Data array.
-- :material-tune: [__rand.f__](../objects/rand.f.md) The `rand.f` object generates pseudo-random floating-point numbers within a user-defined range when triggered by a `bang`.
-- :material-tune: [__rand.f~__](../objects/rand.f~.md) The `rand.f~` object generates random floating-point values within a specified range.
-- :material-tune: [__rand.hist__](../objects/rand.hist.md) The `rand.hist` object generates weighted random numbers based on a user-defined histogram, which dictates the probability of each index being output.
-- :material-tune: [__rand.i__](../objects/rand.i.md) The `rand.i` object generates pseudo-random integer values within a specified numerical range.
-- :material-tune: [__rand.i~__](../objects/rand.i~.md) The `rand.i~` object generates random integer values within a specified range, triggered by signal transitions.
-- :material-tune: [__rand.list__](../objects/rand.list.md) The `rand.list` object selects a random element from a given list of floats.
-- :material-tune: [__rand.u__](../objects/rand.u.md) The `rand.u` object generates a sequence of unrepeated random integer values within a specified range (0 to `size-1`).
-- :material-tune: [__randpulse__](../objects/randpulse.md) The `randpulse` object is a random pulse oscillator that alternates between a random value and zero at a control rate.
-- :material-tune: [__randpulse2__](../objects/randpulse2.md) `randpulse2` is a random pulse train oscillator that generates pulses (0 or 1, or random values between -1 and 1) at random intervals.
-- :material-tune: [__randpulse2~__](../objects/randpulse2~.md) `randpulse2~` is a random pulse train oscillator that generates signals at random intervals, with the average frequency controlled by a "density" parameter.
-- :material-tune: [__randpulse~__](../objects/randpulse~.md) `randpulse~` is a random pulse train oscillator that generates an audio signal alternating between a random value and zero.
-- :material-tune: [__range__](../objects/range.md) The `range~` object analyzes an incoming float or signal stream to determine its minimum and maximum values.
-- :material-tune: [__range.hsl__](../objects/range.hsl.md) The `range.hsl` object is a graphical user interface (GUI) horizontal slider designed for selecting and manipulating numerical ranges.
-- :material-tune: [__range~__](../objects/range~.md) The `range~` object analyzes an incoming audio signal to continuously output its minimum and maximum amplitude values.
-- :material-tune: [__ratio2cents__](../objects/ratio2cents.md) The `ratio2cents` object converts rational number intervals (expressed as floating-point decimal values) into cents.
-- :material-tune: [__ratio2cents~__](../objects/ratio2cents~.md) The `ratio2cents~` object converts a signal representing a rational interval (e.g., a frequency ratio) into an interval expressed in cents.
-- :material-tune: [__rec__](../objects/rec.md) The `rec` object records incoming messages across multiple tracks and plays them back.
-- :material-tune: [__rec.file~__](../objects/rec.file~.md) The `rec.file~` object records incoming audio signals to a sound file, serving as a convenient wrapper around `writesf~`.
-- :material-tune: [__rec2__](../objects/rec2.md) The `rec2` object records incoming MIDI note messages (pitch and velocity) into a `[text]` object.
-- :material-tune: [__receiver__](../objects/receiver.md) The `receiver` object in Pure Data functions similarly to the vanilla `receive` object, allowing it to receive messages sent to a specified name.
-- :material-tune: [__remove__](../objects/remove.md) The `remove` object filters elements from an input list.
-- :material-tune: [__repeat~__](../objects/repeat~.md) The `repeat~` object takes an input signal and duplicates it a specified number of times ('n' times).
-- :material-tune: [__replace__](../objects/replace.md) The `replace` object modifies an input message by substituting a specific element at a given index.
-- :material-tune: [__rescale__](../objects/rescale.md) The `rescale` object maps input values from a specified input range to a new output range.
-- :material-tune: [__rescale~__](../objects/rescale~.md) The `rescale~` object transforms incoming audio signals from a specified input range to a desired output range.
-- :material-tune: [__resonant~__](../objects/resonant~.md) `resonant~` is a bandpass resonator filter that allows its resonance to be controlled by Q factor, decay time (t60), or bandwidth.
-- :material-tune: [__resonator2~__](../objects/resonator2~.md) The `resonator2~` object is a resonant complex one-pole filter, designed to be excited by impulses.
-- :material-tune: [__resonator~__](../objects/resonator~.md) The `resonator~` object acts as a resonant filter, controlled by a central frequency and a t60 resonance time.
-- :material-tune: [__resonbank2~__](../objects/resonbank2~.md) `resonbank2~` is a bank of resonant filters designed for sound synthesis.
-- :material-tune: [__resonbank~__](../objects/resonbank~.md) `resonbank~` is a bank of resonators designed for sound synthesis, built upon `resonator~` objects.
-- :material-tune: [__retrieve__](../objects/retrieve.md) The `retrieve` object in Pure Data fetches data from named receive objects (`r`, `else/receiver`) or GUI elements that have built-in receive names.
-- :material-tune: [__retune__](../objects/retune.md) The `retune` object remaps incoming MIDI pitches to a custom scale.
-- :material-tune: [__revdelay~__](../objects/revdelay~.md) The `revdelay~` object creates a reverse delay effect.
-- :material-tune: [__reverse__](../objects/reverse.md) The `reverse` object reorders the elements of incoming messages or lists.
-- :material-tune: [__rint__](../objects/rint.md) The `rint` object rounds floating-point numbers to the nearest integer value.
-- :material-tune: [__rint~__](../objects/rint~.md) The `rint~` object rounds an incoming signal (float) to the nearest integer value.
-- :material-tune: [__rm.m~__](../objects/rm.m~.md) The `rm.m~` object is a wrapper for the `rm~` (ring modulator) object from the ELSE library.
-- :material-tune: [__rms~__](../objects/rms~.md) The `rms~` object calculates the Root Mean Square (RMS) amplitude of an incoming audio signal, providing a stable output due to Hanning windowing.
-- :material-tune: [__rm~__](../objects/rm~.md) The `rm~` object performs ring modulation on an input signal.
-- :material-tune: [__rotate__](../objects/rotate.md) The `rotate` object in Pure Data manipulates messages or lists by rotating their elements.
-- :material-tune: [__rotate.mc~__](../objects/rotate.mc~.md) The `rotate.mc~` object performs equal power rotation for multichannel audio signals.
-- :material-tune: [__rotate~__](../objects/rotate~.md) The `rotate~` object performs equal power rotation across 'n' audio channels, with a default of 2.
-- :material-tune: [__route2__](../objects/route2.md) The `route2` object functions similarly to `route`, but it preserves the list selector in its output messages and supports both float and symbol arguments for routing.
-- :material-tune: [__routeall__](../objects/routeall.md) The `routeall` object routes incoming messages to different outlets based on matching arguments, similar to `route` but with enhanced capabilities.
-- :material-tune: [__router__](../objects/router.md) The `router` object routes incoming messages from its left inlet to a specific outlet.
-- :material-tune: [__routetype__](../objects/routetype.md) The `routetype` object routes incoming messages to different outlets based on their data type.
-- :material-tune: [__sample~__](../objects/sample~.md) The `sample~` object creates and manages an audio buffer, enabling users to load, record, save, and manipulate audio samples.
-- :material-tune: [__samps2ms__](../objects/samps2ms.md) The `samps2ms` object is a simple abstraction that converts a time value given in audio samples into milliseconds.
-- :material-tune: [__samps2ms~__](../objects/samps2ms~.md) The `samps2ms~` object converts a time value given in samples to milliseconds.
-- :material-tune: [__saw2~__](../objects/saw2~.md) The `saw2~` object is a versatile sawtooth wave oscillator that supports negative frequencies and multichannel operation.
-- :material-tune: [__saw~__](../objects/saw~.md) The `saw~` object is a versatile sawtooth wave oscillator that supports negative frequencies, phase synchronization, and phase modulation.
-- :material-tune: [__scala__](../objects/scala.md) The `scala` object imports musical scales from `.scl` files, a format used by the Scala software for microtonal tunings.
-- :material-tune: [__scale2cents__](../objects/scale2cents.md) The `scale2cents` object converts a musical scale defined by semitone steps into cents values.
-- :material-tune: [__scale2freq__](../objects/scale2freq.md) `scale2freq` converts a musical scale, provided as a list of cents values, into a corresponding list of frequencies in Hertz.
-- :material-tune: [__scales__](../objects/scales.md) The `scales` object generates musical scales based on a list of semitone intervals, outputting them as note names or MIDI pitches.
-- :material-tune: [__schmitt__](../objects/schmitt.md) The `schmitt` object implements a Schmitt trigger, a comparator with hysteresis.
-- :material-tune: [__schmitt~__](../objects/schmitt~.md) The `schmitt~` object implements a Schmitt trigger, converting an input signal into a binary output (1 or 0) based on two distinct threshold levels.
-- :material-tune: [__scope3d~__](../objects/scope3d~.md) The `scope3d~` object is an experimental 3D oscilloscope display for Pure Data.
-- :material-tune: [__score__](../objects/score.md) The `score` object is a Pure Data score sequencer that uses a custom text-based syntax to define musical events.
-- :material-tune: [__score2__](../objects/score2.md) The `score2` object is a sequencer that plays back musical scores using a rhythmic notation syntax similar to `pattern`.
-- :material-tune: [__scramble__](../objects/scramble.md) The `scramble` object reorders the elements of an input message.
-- :material-tune: [__selector__](../objects/selector.md) The `selector` object routes incoming data from one of its multiple inlets to its single output.
-- :material-tune: [__select~__](../objects/select~.md) The `select~` object selects one of its input audio signals based on a control input, without applying any crossfade.
-- :material-tune: [__send2~__](../objects/send2~.md) The `send2~` object transmits audio signals to a corresponding `r~` object, similar to `send~`.
-- :material-tune: [__sender__](../objects/sender.md) The `sender` object functions similarly to Pure Data's `send` object, but with enhanced capabilities.
-- :material-tune: [__sendmidi__](../objects/sendmidi.md) The `sendmidi` object is a helper abstraction designed to send MIDI messages to the `pd~` object.
-- :material-tune: [__separate__](../objects/separate.md) The `separate` object in Pure Data splits an input symbol (string) into a list of individual elements.
-- :material-tune: [__seq8.m~__](../objects/seq8.m~.md) The `seq8.m~` object is a simple 8-step sequencer for Pure Data, designed to generate musical sequences.
-- :material-tune: [__sequencer__](../objects/sequencer.md) The `sequencer` object in Pure Data plays back a user-defined sequence of elements, advancing one step per `bang`.
-- :material-tune: [__sequencer~__](../objects/sequencer~.md) The `sequencer~` object outputs values from a predefined sequence when triggered by a signal (0 to non-0 transition) or a bang.
-- :material-tune: [__setdsp~__](../objects/setdsp~.md) The `setdsp~` object provides a convenient way to control Pure Data's audio engine (DSP) state.
-- :material-tune: [__sfinfo__](../objects/sfinfo.md) The `sfinfo` object queries information from sound files, such as the number of channels or instrument metadata for AIFF files.
-- :material-tune: [__sfload__](../objects/sfload.md) The `sfload` object loads sound files into Pure Data arrays, supporting various audio formats like MP3, WAV, and FLAC.
-- :material-tune: [__sfont.m~__](../objects/sfont.m~.md) The `sfont.m~` object is a convenient wrapper around `sfont~` designed for soundfont-based synthesis.
-- :material-tune: [__sfont~__](../objects/sfont~.md) `sfont~` is a sampler synthesizer that plays SoundFont (.sf2/.sf3) files, based on FluidLite.
-- :material-tune: [__sfz~__](../objects/sfz~.md) The `sfz~` object is a Pure Data synthesizer that plays SFZ instruments, which are text-based definitions for sample-based and hybrid synthesis.
-- :material-tune: [__shaper~__](../objects/shaper~.md) The `shaper~` object performs waveshaping by applying a user-defined transfer function to an input signal.
-- :material-tune: [__sh~__](../objects/sh~.md) The `sh~` object samples and holds an audio signal from its left inlet.
-- :material-tune: [__sig.m~__](../objects/sig.m~.md) The `sig.m~` object generates a constant audio signal.
-- :material-tune: [__sig2float~__](../objects/sig2float~.md) The `sig2float~` object converts audio signals into floating-point numbers.
-- :material-tune: [__sigs~__](../objects/sigs~.md) The `sigs~` object generates constant multichannel audio signals from a list of numerical arguments.
-- :material-tune: [__sine~__](../objects/sine~.md) `sine~` is a sinusoidal oscillator that generates an audio signal.
-- :material-tune: [__sin~__](../objects/sin~.md) The `sin~` object computes the sine of its signal input, scaled by two pi, outputting the result as a signal.
-- :material-tune: [__slew__](../objects/slew.md) The `slew` object limits the rate of change of an incoming signal, generating a smooth transition (portamento) towards the target value.
-- :material-tune: [__slew2__](../objects/slew2.md) The `slew2` object functions as a slew limiter, smoothing transitions between incoming values by restricting their rate of change.
-- :material-tune: [__slew2~__](../objects/slew2~.md) The `slew2~` object provides independent slew limiting for upward and downward signal ramps.
-- :material-tune: [__slew~__](../objects/slew~.md) The `slew~` object limits the rate of change of an incoming signal, smoothing transitions between values.
-- :material-tune: [__slice__](../objects/slice.md) The `slice` object splits an incoming list into two parts based on a specified split point `n`.
-- :material-tune: [__slice~__](../objects/slice~.md) The `slice~` object splits a multichannel signal into two outputs based on a specified split point.
-- :material-tune: [__slider2d__](../objects/slider2d.md) The `slider2d` object is a two-dimensional graphical user interface (GUI) slider for Pure Data.
-- :material-tune: [__smooth__](../objects/smooth.md) The `smooth` object in Pure Data is designed to smoothly interpolate control signals over a specified time in milliseconds, preventing abrupt changes.
-- :material-tune: [__smooth2__](../objects/smooth2.md) The `smooth2` object smooths incoming control signals, providing independent ramp-up and ramp-down times in milliseconds.
-- :material-tune: [__smooth2~__](../objects/smooth2~.md) The `smooth2~` object provides signal smoothing with independent ramp-up and ramp-down times, useful for creating portamento or glide effects between signal values.
-- :material-tune: [__smooth~__](../objects/smooth~.md) The `smooth~` object provides a signal smoothing function, transitioning input signals with linear or exponential interpolation over a specified time in milliseconds.
-- :material-tune: [__spectrograph~__](../objects/spectrograph~.md) The `spectrograph~` object visualizes the FFT amplitudes of an incoming audio signal, displaying frequencies from 0 Hz to Nyquist.
-- :material-tune: [__speed__](../objects/speed.md) The `speed` object facilitates gradual changes in tempo, enabling accelerando or ritardando effects.
-- :material-tune: [__spread__](../objects/spread.md) The `spread` object routes incoming lists to different outlets based on a comparison of the list's first element to a set of arguments.
-- :material-tune: [__spread.mc~__](../objects/spread.mc~.md) The `spread.mc~` object distributes multichannel audio input across a specified number of output channels using equal power panning.
-- :material-tune: [__spread~__](../objects/spread~.md) The `spread~` object distributes multiple input audio channels across multiple output channels using equal power panning.
-- :material-tune: [__square~__](../objects/square~.md) `square~` is a versatile square wave oscillator that generates audio signals with adjustable pulse width, initial phase, and phase modulation.
-- :material-tune: [__sr~__](../objects/sr~.md) `sr~` is a Pure Data object that reports and can set the global audio sample rate.
-- :material-tune: [__stack__](../objects/stack.md) The `stack` object stores and manages sequences of messages, outputting them one by one upon receiving a `bang`.
-- :material-tune: [__standard~__](../objects/standard~.md) `standard~` is a chaotic signal generator based on the standard map equations.
-- :material-tune: [__status__](../objects/status.md) The `status` object detects transitions in numerical input.
-- :material-tune: [__status~__](../objects/status~.md) The `status~` object is a signal-rate version of `status` that detects transitions in its input signal.
-- :material-tune: [__stepnoise__](../objects/stepnoise.md) The `stepnoise` object generates control-rate stepped random values, typically within the 0-127 range, without requiring the DSP to be on.
-- :material-tune: [__stepnoise~__](../objects/stepnoise~.md) The `stepnoise~` object generates band-limited noise with random, stepped values between -1 and 1.
-- :material-tune: [__stereo.rev~__](../objects/stereo.rev~.md) `stereo.rev~` is a stereo input/output reverb abstraction, providing two independent reverb channels.
-- :material-tune: [__store__](../objects/store.md) The `store` object is an abstraction built upon Pure Data's `text` object, designed for sequential storage and management of messages.
-- :material-tune: [__stream__](../objects/stream.md) The `stream` object collects the last N received numbers into a list.
-- :material-tune: [__stretch.shift~__](../objects/stretch.shift~.md) The `stretch.shift~` object performs real-time independent time stretching and pitch shifting on live audio input.
-- :material-tune: [__sum~__](../objects/sum~.md) The `sum~` object takes a multi-channel audio signal and sums all its channels into a single mono output signal.
-- :material-tune: [__susloop~__](../objects/susloop~.md) The `susloop~` object generates a control signal for reading audio buffers, specifically designed for sustained looping of a section.
-- :material-tune: [__suspedal__](../objects/suspedal.md) The `suspedal` object emulates a MIDI sustain pedal, holding `Note Off` messages when active and releasing them when deactivated.
-- :material-tune: [__svfilter~__](../objects/svfilter~.md) The `svfilter~` object implements Chamberlin's state-variable filter algorithm.
-- :material-tune: [__swap2__](../objects/swap2.md) The `else/swap2` object swaps the order of two incoming messages.
-- :material-tune: [__symbol2any__](../objects/symbol2any.md) The `symbol2any` object converts an incoming symbol message into a generic 'any' message.
-- :material-tune: [__synth~__](../objects/synth~.md) `synth~` is a Pure Data object that serves as a wrapper for loading and managing monophonic or polyphonic synthesizer abstractions.
-- :material-tune: [__sysrt.in__](../objects/sysrt.in.md) The `sysrt.in` object detects and parses System and real-time MIDI messages from an incoming raw MIDI data stream.
-- :material-tune: [__sysrt.out__](../objects/sysrt.out.md) The `sysrt.out` object formats and sends raw MIDI system real-time messages.
-- :material-tune: [__tabgen__](../objects/tabgen.md) `tabgen` is a Pure Data abstraction that generates various mathematical functions (e.g., sine, Gaussian, sinc, trapezoid, variable sawtooth, noise, and FFT window functions) and populates a specified table (array) with the generated data.
-- :material-tune: [__tabplayer~__](../objects/tabplayer~.md) `tabplayer~` is a multichannel array player for Pure Data, designed for flexible audio playback from tables.
-- :material-tune: [__tabreader__](../objects/tabreader.md) The `tabreader` object reads values from a Pure Data array (table), supporting various interpolation methods like `lin`, `cos`, and `spline`.
-- :material-tune: [__tabreader~__](../objects/tabreader~.md) The `tabreader~` object reads signal data from a Pure Data array (table).
-- :material-tune: [__tabwriter~__](../objects/tabwriter~.md) The `tabwriter~` object records incoming audio signals into Pure Data arrays.
-- :material-tune: [__tap__](../objects/tap.md) The `tap` object detects tempo by analyzing the time interval between two consecutive bangs or the duration a gate is held open.
-- :material-tune: [__tempo__](../objects/tempo.md) The `tempo` object functions as a versatile metronome, sending bangs at a specified rate in BPM, milliseconds, or Hertz.
-- :material-tune: [__tempo~__](../objects/tempo~.md) The `tempo~` object functions as a metronome, generating impulses at a specified tempo in BPM, milliseconds, or Hertz.
-- :material-tune: [__timed.gate__](../objects/timed.gate.md) The `timed.gate` object generates a timed gate signal.
-- :material-tune: [__timed.gate~__](../objects/timed.gate~.md) The `timed.gate~` object generates a timed gate signal or control output.
-- :material-tune: [__toggleff~__](../objects/toggleff~.md) The `toggleff~` object is a signal-rate toggle switch that outputs either 0 or 1.
-- :material-tune: [__touch.in__](../objects/touch.in.md) The `touch.in` object extracts MIDI Aftertouch (channel pressure) information from either a connected MIDI device or an external raw MIDI data stream.
-- :material-tune: [__touch.out__](../objects/touch.out.md) The `touch.out` object formats and sends MIDI aftertouch messages.
-- :material-tune: [__tremolo~__](../objects/tremolo~.md) The `tremolo~` object performs amplitude modulation on an input audio signal.
-- :material-tune: [__trig.delay2~__](../objects/trig.delay2~.md) The `trig.delay2~` object delays an incoming impulse signal by a specified time in milliseconds.
-- :material-tune: [__trig.delay~__](../objects/trig.delay~.md) The `trig.delay~` object delays an impulse signal by a specified time.
-- :material-tune: [__trig2bang__](../objects/trig2bang.md) The `trig2bang` object detects zero-to-non-zero transitions in an incoming signal (typically a float).
-- :material-tune: [__trig2bang~__](../objects/trig2bang~.md) The `trig2bang~` object detects zero to non-zero transitions within an audio signal.
-- :material-tune: [__trighold~__](../objects/trighold~.md) The `trighold~` object in Pure Data holds an audio signal's value when a trigger occurs.
-- :material-tune: [__tri~__](../objects/tri~.md) `tri~` is a triangular wave oscillator that generates audio signals.
-- :material-tune: [__trunc__](../objects/trunc.md) The `trunc` object truncates floating-point numbers and lists of numbers towards zero, effectively extracting their integer part.
-- :material-tune: [__unite__](../objects/unite.md) The `unite` object concatenates incoming messages and converts them into a single symbol message.
-- :material-tune: [__unmerge__](../objects/unmerge.md) The `unmerge` object splits an incoming message into multiple sub-messages, distributing elements into groups of a specified size across its outlets.
-- :material-tune: [__unmerge~__](../objects/unmerge~.md) `unmerge~` separates the channels of a multichannel signal into groups of a specified size.
-- :material-tune: [__var__](../objects/var.md) The `var` object in Pure Data functions as a variable storage mechanism, similar to `value`, but with the added capability to manage multiple named variables, including lists.
-- :material-tune: [__vca.m~__](../objects/vca.m~.md) The `vca.m~` object is a mono Voltage Controlled Amplifier (VCA) that takes an audio signal and a control voltage (CV) to dynamically adjust the signal's amplitude.
-- :material-tune: [__vcf.m~__](../objects/vcf.m~.md) `vcf.m~` is a single-channel lowpass filter module.
-- :material-tune: [__vco.m~__](../objects/vco.m~.md) The `vco.m~` object is a polyphonic voltage-controlled oscillator for Pure Data, offering various waveforms including sine, triangle, saw, variable saw, and square.
-- :material-tune: [__velvet~__](../objects/velvet~.md) `velvet~` is a velvet noise generator that produces audio by randomly choosing positive (1) or negative (-1) impulses at random positions within a specified frequency period.
-- :material-tune: [__vibrato~__](../objects/vibrato~.md) `vibrato~` is a pitch shifter that applies vibrato to an audio signal.
-- :material-tune: [__vocoder~__](../objects/vocoder~.md) The `vocoder~` object is a classic channel vocoder used for cross-synthesis.
-- :material-tune: [__voices__](../objects/voices.md) The `voices` object manages voice allocation for polyphonic synthesizers, offering advanced features beyond `poly`.
-- :material-tune: [__voices~__](../objects/voices~.md) The `voices~` object is a polyphonic voice allocator that generates multichannel signals for controlling pitch and gate.
-- :material-tune: [__vsaw~__](../objects/vsaw~.md) `vsaw~` is a versatile audio oscillator that generates variable sawtooth and triangle waveforms.
-- :material-tune: [__vu~__](../objects/vu~.md) The `vu~` object is an audio amplitude detector that combines the functionality of `else/rms~` and `else/peak~`.
-- :material-tune: [__wavetable~__](../objects/wavetable~.md) `wavetable~` is an interpolating wavetable oscillator that reads audio data from a Pure Data array.
-- :material-tune: [__white~__](../objects/white~.md) The `white~` object generates white noise using a pseudo-random number generator.
-- :material-tune: [__wrap2__](../objects/wrap2.md) The `wrap2` object constrains a numerical input value to a specified range by "wrapping" it around the minimum and maximum boundaries.
-- :material-tune: [__wrap2~__](../objects/wrap2~.md) The `wrap2~` object wraps an input signal between a specified low and high value.
-- :material-tune: [__wt2d~__](../objects/wt2d~.md) The `wt2d~` object is a 2-dimensional wavetable oscillator that reads from a Pure Data array.
-- :material-tune: [__xfade.mc~__](../objects/xfade.mc~.md) The `xfade.mc~` object crossfades between two multichannel audio sources.
-- :material-tune: [__xfade~__](../objects/xfade~.md) The `xfade~` object crossfades between two audio sources, each supporting 1 to 64 channels.
-- :material-tune: [__xgate.mc~__](../objects/xgate.mc~.md) The `xgate.mc~` object routes a multichannel audio input to a selected multichannel output.
-- :material-tune: [__xgate2.mc~__](../objects/xgate2.mc~.md) The `xgate2.mc~` object routes a single input signal to multiple output channels within a multichannel signal.
-- :material-tune: [__xgate2~__](../objects/xgate2~.md) `xgate2~` routes a single input signal to a specified number of output channels, applying crossfading between adjacent channels.
-- :material-tune: [__xgate~__](../objects/xgate~.md) The `xgate~` object routes an incoming audio signal to one of its multiple outlets, supporting up to 500 channels.
-- :material-tune: [__xmod2~__](../objects/xmod2~.md) The `xmod2~` object is a signal generator that performs frequency modulation (FM) using two internal oscillators.
-- :material-tune: [__xmod~__](../objects/xmod~.md) `xmod~` performs cross-modulation of two sine oscillators.
-- :material-tune: [__xselect.mc~__](../objects/xselect.mc~.md) The `xselect.mc~` object selects a specific channel from a multichannel audio connection, supporting up to 512 channels.
-- :material-tune: [__xselect2.mc~__](../objects/xselect2.mc~.md) `xselect2.mc~` is a multichannel signal selector that crossfades between adjacent input channels.
-- :material-tune: [__xselect2~__](../objects/xselect2~.md) The `xselect2~` object selects and crossfades between multiple audio input signals.
-- :material-tune: [__xselect~__](../objects/xselect~.md) The `xselect~` object selects one of its multiple signal inputs and outputs it.
-- :material-tune: [__zbiplot__](../objects/zbiplot.md) The `zbiplot` object visualizes biquad filter coefficients by plotting their poles and zeros on the Z-plane.
-- :material-tune: [__zerocross~__](../objects/zerocross~.md) The `zerocross~` object detects zero-crossings in an audio signal.
+- :material-tune: [__above__](../objects/logic/above.md) The `above` object detects when an incoming float value crosses a specified threshold.
+- :material-tune: [__above~__](../objects//above~.md) The `above~` object detects when an audio signal crosses a specified threshold.
+- :material-tune: [__abs.pd~__](../objects/procedural/abs.pd~.md) The `abs.pd~` object loads a Pure Data patch as a subprocess, making it easier to manage complex patches.
+- :material-tune: [__add__](../objects/math/add.md) The `add` object accumulates incoming numerical values, adding them to a running total.
+- :material-tune: [__add~__](../objects/math/add~.md) The `add~` object accumulates input signal values to a starting sum, which defaults to 0.
+- :material-tune: [__adsr.m~__](../objects/envelopes/adsr.m~.md) The `adsr.m~` object is a polyphonic ADSR envelope generator.
+- :material-tune: [__adsr~__](../objects/envelopes/adsr~.md) `adsr~` is an audio-rate Attack, Decay, Sustain, Release envelope generator.
+- :material-tune: [__allpass.2nd~__](../objects/filters/allpass.2nd~.md) The `allpass.2nd~` object is a 2nd order allpass filter that shifts the phase of an audio signal from 0 to 360 degrees across the frequency spectrum.
+- :material-tune: [__allpass.filt~__](../objects/filters/allpass.filt~.md) The `allpass.filt~` object implements an allpass filter, allowing control over its order, central frequency, and resonance (Q).
+- :material-tune: [__allpass.rev~__](../objects/reverb/allpass.rev~.md) The `allpass.rev~` object functions as an allpass filter, a delay, and a reverberator.
+- :material-tune: [__amean__](../objects/math/amean.md) The `amean` object generates a list of numbers representing arithmetic means between a specified start and end point.
+- :material-tune: [__any2symbol__](../objects/general_utilities/any2symbol.md) The `any2symbol` object converts any incoming message, regardless of its type (e.g., numbers, lists, or other symbols), into a single symbol message.
+- :material-tune: [__args__](../objects/patching/args.md) The `args` object in Pure Data manages and manipulates arguments passed to an abstraction.
+- :material-tune: [__asr~__](../objects/envelopes/asr~.md) The `asr~` object generates an attack/sustain/release envelope, acting as a simplified version of `adsr~`.
+- :material-tune: [__autofade.mc~__](../objects/envelopes/autofade.mc~.md) The `autofade.mc~` object provides automatic fade-in and fade-out functionality for multichannel audio signals.
+- :material-tune: [__autofade2.mc~__](../objects/envelopes/autofade2.mc~.md) The `autofade2.mc~` object provides automatic fade-in and fade-out functionality for multichannel audio signals.
+- :material-tune: [__autofade2~__](../objects/envelopes/autofade2~.md) `autofade2~` is a Pure Data object that provides automatic fade-in and fade-out functionality for multiple audio inputs.
+- :material-tune: [__autofade~__](../objects/envelopes/autofade~.md) The `autofade~` object provides automatic fade-in and fade-out functionality for multiple audio inputs.
+- :material-tune: [__autotune__](../objects/midi/autotune.md) The `autotune` object retunes incoming MIDI pitches to the closest step within a specified musical scale.
+- :material-tune: [__autotune2__](../objects/math/autotune2.md) The `autotune2` object retunes incoming pitch values (in cents) to the closest step within a specified musical scale, also defined in cents.
+- :material-tune: [__avg__](../objects/math/avg.md) The `avg` object calculates the mean average of all numbers it has received.
+- :material-tune: [__balance~__](../objects/multichannel/balance~.md) The `balance~` object performs equal-power (sin/cos) stereo balancing.
+- :material-tune: [__bandpass~__](../objects/filters/bandpass~.md) The `bandpass~` object is a 2nd order resonant bandpass filter designed for audio signals, maintaining a constant 0dB gain.
+- :material-tune: [__bandstop~__](../objects/filters/bandstop~.md) `bandstop~` is a 2nd order band reject filter, also known as a notch filter.
+- :material-tune: [__bangdiv__](../objects/math/bangdiv.md) The `bangdiv` object acts as a bang divider, outputting a bang only after a specified number of input bangs have been received, while always passing the very first bang.
+- :material-tune: [__batch.rec~__](../objects/file_i_o/batch.rec~.md) `batch.rec~` is a convenient Pure Data abstraction for batch recording audio signals to a sound file.
+- :material-tune: [__batch.write~__](../objects/data_structures/batch.write~.md) The `batch.write~` object is an abstraction built upon `tabwriter~` that facilitates batch recording of audio signals into Pure Data arrays.
+- :material-tune: [__beat~__](../objects/descriptors/beat~.md) The `beat~` object analyzes an incoming audio signal to detect its tempo in beats per minute (BPM).
+- :material-tune: [__bend.in__](../objects/midi/bend.in.md) The `bend.in` object extracts MIDI Pitch Bend messages from connected MIDI devices or raw MIDI data streams.
+- :material-tune: [__bend.out__](../objects/midi/bend.out.md) The `bend.out` object formats and sends MIDI pitch bend messages.
+- :material-tune: [__bicoeff__](../objects/filters/bicoeff.md) The `bicoeff` object is a graphical user interface (GUI) that generates coefficients for vanilla Pure Data's `biquad~` filter.
+- :material-tune: [__bicoeff2__](../objects/filters/bicoeff2.md) The `bicoeff2` object generates coefficients for Pure Data's native `biquad~` object, allowing users to easily create various filter types such as lowpass, highpass, bandpass, and shelving filters.
+- :material-tune: [__bin.shift~__](../objects//bin.shift~.md) `bin.shift~` is a Pure Data object designed for spectral processing, enabling the shifting of samples or frequency bins within an audio signal.
+- :material-tune: [__biplot__](../objects/gui/biplot.md) The `biplot` object visualizes the frequency response of biquad filters.
+- :material-tune: [__biquads~__](../objects/filters/biquads~.md) The `biquads~` object implements a series of cascaded biquad filters, allowing for complex frequency shaping.
+- :material-tune: [__bitnormal~__](../objects/multichannel/bitnormal~.md) The `bitnormal~` object filters incoming audio signals, replacing any NaN (Not a Number), positive/negative infinity, or denormal values with zero.
+- :material-tune: [__bl.imp2~__](../objects/oscillators/bl.imp2~.md) `bl.imp2~` is a bandlimited, two-sided impulse oscillator that generates an audio signal.
+- :material-tune: [__bl.imp~__](../objects/oscillators/bl.imp~.md) `bl.imp~` is a bandlimited impulse oscillator that generates an impulse signal at a specified frequency.
+- :material-tune: [__bl.osc~__](../objects/oscillators/bl.osc~.md) `bl.osc~` is a bandlimited oscillator that generates various waveforms like saw, triangle, square, and impulse.
+- :material-tune: [__bl.saw2~__](../objects/oscillators/bl.saw2~.md) The `bl.saw2~` object is a bandlimited, anti-aliased sawtooth oscillator designed for high-quality audio synthesis.
+- :material-tune: [__bl.saw~__](../objects/midi/bl.saw~.md) The `bl.saw~` object generates a bandlimited, anti-aliased sawtooth waveform, suitable for high-quality audio synthesis.
+- :material-tune: [__bl.square~__](../objects/oscillators/bl.square~.md) `bl.square~` is a bandlimited square wave oscillator designed for synthesis, providing anti-aliased output.
+- :material-tune: [__bl.tri~__](../objects/oscillators/bl.tri~.md) The `bl.tri~` object is a bandlimited (anti-aliased) triangle wave oscillator designed for audio synthesis.
+- :material-tune: [__bl.vsaw~__](../objects/oscillators/bl.vsaw~.md) `bl.vsaw~` is a bandlimited variable sawtooth waveform oscillator that can also generate triangular waveforms.
+- :material-tune: [__bl.wavetable~__](../objects/oscillators/bl.wavetable~.md) `bl.wavetable~` is a bandlimited wavetable oscillator that generates audio signals from a specified waveform array.
+- :material-tune: [__blip~__](../objects/additive/blip~.md) `blip~` is a band-limited oscillator that generates waveforms by summing cosines using Discrete-Summation Formulae (DSF).
+- :material-tune: [__blocksize~__](../objects//blocksize~.md) The `blocksize~` object reports the current audio block size in Pure Data, updating when the audio DSP is turned on, when the block size changes, or upon receiving a bang.
+- :material-tune: [__bpbank~__](../objects/filters/bpbank~.md) `bpbank~` creates a bank of bandpass filters, allowing independent control over the frequency, amplitude, and Q (resonance) of each filter via list inputs.
+- :material-tune: [__bpm__](../objects/math/bpm.md) The `bpm` object converts between beats per minute (BPM) and other time units.
+- :material-tune: [__brane.m~__](../objects/granular/brane.m~.md) The `brane.m~` object is a comprehensive granulator sampler with stretch/compress capabilities and a harmonizer pitch shifter.
+- :material-tune: [__break__](../objects/data_structures/break.md) The `break` object in Pure Data is used to split incoming messages, typically lists or symbols, into multiple parts based on a specified separator symbol.
+- :material-tune: [__brickwall~__](../objects/filters/brickwall~.md) The `brickwall~` object is a 10th order Butterworth lowpass filter with a very steep cutoff slope (60 dB/octave).
+- :material-tune: [__brown__](../objects/stochastic/brown.md) The `brown` object generates control signals based on a bounded Brownian motion, which is a pseudo-random walk.
+- :material-tune: [__brown~__](../objects/oscillators/brown~.md) `brown~` is a brown noise generator, also known as Brownian or red noise, which produces a signal whose spectral energy drops 6dB per octave.
+- :material-tune: [__buffer__](../objects/data_structures/buffer.md) The `buffer` object provides a convenient way to get and set values within Pure Data arrays, including those created by `array` or `table` objects.
+- :material-tune: [__button__](../objects/gui/button.md) The `button` object is a graphical user interface element in Pure Data that responds to mouse clicks.
+- :material-tune: [__canvas.active__](../objects/patching/canvas.active.md) The `canvas.active` object reports the activity status of a Pure Data canvas, outputting 1 when active (front-most window) and 0 when inactive.
+- :material-tune: [__canvas.bounds__](../objects/general_utilities/canvas.bounds.md) The `canvas.bounds` object outputs the pixel coordinates (top-left x, top-left y, bottom-right x, bottom-right y) of its Pure Data canvas.
+- :material-tune: [__canvas.edit__](../objects/patching/canvas.edit.md) The `canvas.edit` object reports the edit status of a Pure Data canvas, outputting 1 when in edit mode and 0 in run mode.
+- :material-tune: [__canvas.gop__](../objects/patching/canvas.gop.md) The `canvas.gop` object retrieves information about a "graph on parent" (GOP), which is a subpatch displayed graphically within its parent patch.
+- :material-tune: [__canvas.mouse__](../objects/control_i_o/canvas.mouse.md) The `canvas.mouse` object captures mouse click status and coordinates within a Pure Data canvas.
+- :material-tune: [__canvas.name__](../objects/patching/canvas.name.md) The `canvas.name` object outputs the symbolic name of the Pure Data canvas it resides in.
+- :material-tune: [__canvas.pos__](../objects/gui/canvas.pos.md) The `canvas.pos` object reports the x/y coordinates of a subpatch's canvas relative to its parent.
+- :material-tune: [__canvas.setname__](../objects/patching/canvas.setname.md) `canvas.setname` assigns a symbolic name to a Pure Data canvas, enabling it to receive messages.
+- :material-tune: [__canvas.vis__](../objects/patching/canvas.vis.md) The `canvas.vis` object reports the visibility status of a Pure Data window.
+- :material-tune: [__canvas.zoom__](../objects/gui/canvas.zoom.md) The `canvas.zoom` object reports the zoom status of a Pure Data patch window.
+- :material-tune: [__car2pol__](../objects/math/car2pol.md) The `car2pol` object converts Cartesian coordinates (real and imaginary parts) into polar coordinates (amplitude and phase).
+- :material-tune: [__car2pol~__](../objects/math/car2pol~.md) The `car2pol~` object converts a signal from Cartesian coordinates (real and imaginary parts) to polar coordinates (amplitude and phase).
+- :material-tune: [__ceil__](../objects/math/ceil.md) The `ceil` object from the `else` library computes the ceiling of its input.
+- :material-tune: [__ceil~__](../objects/math/ceil~.md) The `ceil~` object is a signal-rate mathematical function that performs the ceiling operation on incoming audio signals.
+- :material-tune: [__cents2frac__](../objects/math/cents2frac.md) The `cents2frac` object converts a list of pitch values in cents into fractional representations, which are useful for defining musical intervals as ratios.
+- :material-tune: [__cents2ratio__](../objects/math/cents2ratio.md) The `cents2ratio` object converts musical intervals expressed in cents into frequency ratios (floating-point decimals).
+- :material-tune: [__cents2ratio~__](../objects/math/cents2ratio~.md) The `cents2ratio~` object converts an audio signal representing an interval in cents into a decimal ratio signal.
+- :material-tune: [__cents2scale__](../objects/math/cents2scale.md) The `cents2scale` object converts a list of intervals, expressed in cents, into a scale defined by semitone steps.
+- :material-tune: [__chance__](../objects/stochastic/chance.md) The `chance` object outputs a bang to one of its outlets based on a weighted probability distribution.
+- :material-tune: [__chance~__](../objects/stochastic/chance~.md) The `chance~` object probabilistically routes an incoming bang to one of its outlets based on a set of weighted chances.
+- :material-tune: [__changed__](../objects/logic/changed.md) The `changed` object outputs its input only when the incoming message differs from the previously received message, effectively filtering out redundant data.
+- :material-tune: [__changed2~__](../objects//changed2~.md) The `changed2~` object detects changes in the direction of an incoming audio signal.
+- :material-tune: [__changed~__](../objects//changed~.md) The `changed~` object detects changes in an incoming signal.
+- :material-tune: [__chorus.m~__](../objects/chorus_flanger_phaser/chorus.m~.md) The `chorus.m~` object is a wrapper around the `chorus~` object from the ELSE library, designed to apply a chorus audio effect.
+- :material-tune: [__chorus~__](../objects/chorus_flanger_phaser/chorus~.md) `chorus~` is a mono chorus effect that uses an internal comb filter to create a modulated delay.
+- :material-tune: [__chrono__](../objects/procedural/chrono.md) The `chrono` object functions as a versatile stopwatch or timer.
+- :material-tune: [__circuit~__](../objects/distortion/circuit~.md) The `circuit~` object simulates analog electronic circuits from a text description.
+- :material-tune: [__click__](../objects/patching/click.md) The `click` object sends a `bang` message when its parent patch (abstraction or subpatch) is clicked.
+- :material-tune: [__clock__](../objects/procedural/clock.md) The `clock` object generates bangs at a regular tempo, functioning as either a "main" or "synced" clock.
+- :material-tune: [__coeff2pz__](../objects/math/coeff2pz.md) The `coeff2pz` object converts biquad filter coefficients into pole and zero coordinates, along with the overall gain of the filter's response.
+- :material-tune: [__colors__](../objects/gui/colors.md) The `colors` object in Pure Data functions as a versatile color picker and converter.
+- :material-tune: [__comb.filt~__](../objects/delay/comb.filt~.md) The `comb.filt~` object implements a feedback comb filter, designed primarily for use as a resonator.
+- :material-tune: [__comb.rev~__](../objects/reverb/comb.rev~.md) The `comb.rev~` object implements a comb filter, functioning as a versatile audio effect for creating delays, reverberation, and resonant textures.
+- :material-tune: [__combine__](../objects//combine.md) The `combine` object collects incoming messages into a single list if they arrive within a specified time interval.
+- :material-tune: [__compress~__](../objects/dynamics/compress~.md) The `compress~` object is an audio compressor abstraction that attenuates an input signal when its level exceeds a specified threshold.
+- :material-tune: [__conv~__](../objects/reverb/conv~.md) The `conv~` object performs partitioned convolution, primarily used for applying impulse responses to audio signals.
+- :material-tune: [__cosine~__](../objects/oscillators/cosine~.md) `cosine~` is a versatile cosine oscillator that generates audio signals.
+- :material-tune: [__count__](../objects/procedural/count.md) The `count` object in Pure Data generates a sequence of numbers, incrementing or decrementing between a defined minimum and maximum value.
+- :material-tune: [__crackle~__](../objects/math/crackle~.md) The `crackle~` object generates noise using a chaotic difference equation.
+- :material-tune: [__crossover~__](../objects/filters/crossover~.md) The `crossover~` object implements a 3rd order Butterworth crossover filter.
+- :material-tune: [__crusher.m~__](../objects/distortion/crusher.m~.md) The `crusher.m~` object is a multichannel audio effect that wraps the `crusher~` object from the ELSE library.
+- :material-tune: [__crusher~__](../objects/distortion/crusher~.md) The `crusher~` object is an audio effect that performs bit-crushing and decimation on an input signal.
+- :material-tune: [__ctl.in__](../objects/midi/ctl.in.md) The `ctl.in` object extracts MIDI Control Change (CC) messages from either a connected MIDI device or an external raw MIDI data stream.
+- :material-tune: [__ctl.out__](../objects/midi/ctl.out.md) The `ctl.out` object formats and sends raw MIDI control messages.
+- :material-tune: [__cusp~__](../objects/multichannel/cusp~.md) `cusp~` is a chaotic signal generator that implements the difference equation `y[n] = a - b * sqrt(abs(y[n-1]))`.
+- :material-tune: [__damp.osc~__](../objects/oscillators/damp.osc~.md) The `damp.osc~` object is a damped harmonic motion oscillator that generates audio signals.
+- :material-tune: [__datetime__](../objects/general_utilities/datetime.md) The `datetime` object provides the current local date and time as lists.
+- :material-tune: [__db2lin__](../objects/math/db2lin.md) `db2lin` converts amplitude values from deciBel Full Scale (dBFS) to linear amplitude.
+- :material-tune: [__db2lin~__](../objects/math/db2lin~.md) The `db2lin~` object converts decibel Full Scale (dBFS) amplitude values to linear amplitude values.
+- :material-tune: [__dbgain~__](../objects/dynamics/dbgain~.md) The `dbgain~` object adjusts the gain of an audio signal to a specified decibel (dB) level.
+- :material-tune: [__dec2frac__](../objects/math/dec2frac.md) The `dec2frac` object converts decimal numbers into fractional representations.
+- :material-tune: [__dec2hex__](../objects/general_utilities/dec2hex.md) The `dec2hex` object converts decimal numbers into their hexadecimal string representation.
+- :material-tune: [__decay~__](../objects/envelopes/decay~.md) `decay~` is a one-pole filter that generates an exponential decay from input impulses.
+- :material-tune: [__default__](../objects/general_utilities/default.md) The `default` object sets and manages a default message.
+- :material-tune: [__delace__](../objects/data_structures/delace.md) The `delace` object deinterleaves an incoming list into multiple sub-lists, distributing elements cyclically across its outlets.
+- :material-tune: [__delace~__](../objects/multichannel/delace~.md) The `delace~` object deinterleaves a multichannel audio signal, splitting it into multiple separate signal outlets.
+- :material-tune: [__delay.m~__](../objects/delay/delay.m~.md) `delay.m~` is an audio effect object that functions as a wrapper for the `filterdelay~` object from the ELSE library.
+- :material-tune: [__delete__](../objects//delete.md) The `delete` object removes one or more elements from an input message (list).
+- :material-tune: [__del~__](../objects/delay/del~.md) The `del~` object in Pure Data manages audio delay lines.
+- :material-tune: [__detect~__](../objects//detect~.md) The `detect~` object measures the time between trigger events in an audio signal.
+- :material-tune: [__dir__](../objects/file_i_o/dir.md) The `dir` object allows you to access and manage files within directories.
+- :material-tune: [__dispatch__](../objects/routing/dispatch.md) The `dispatch` object takes a list as input and sends each element to a specified address.
+- :material-tune: [__display__](../objects/gui/display.md) The `display` object shows text messages within a Pure Data patch, similar to `print`.
+- :material-tune: [__dollsym__](../objects/patching/dollsym.md) The `dollsym` object in Pure Data expands dollar-prefixed symbols like `$0-x` or `$1-y` into their corresponding values within a patch.
+- :material-tune: [__downsample~__](../objects//downsample~.md) The `downsample~` object reduces the sample rate of an incoming audio signal.
+- :material-tune: [__drive.m~__](../objects/distortion/drive.m~.md) `drive.m~` is a multichannel audio object that applies a distortion or overdrive effect to incoming audio signals.
+- :material-tune: [__drive~__](../objects/distortion/drive~.md) The `drive~` object in Pure Data simulates analog soft-clipping distortion by applying various non-linear transfer functions.
+- :material-tune: [__drum.seq__](../objects/sequencers/drum.seq.md) The `drum.seq` object provides a graphical drum sequencer for creating and playing drum patterns.
+- :material-tune: [__drunkard__](../objects/stochastic/drunkard.md) The `drunkard` object generates a sequence of pseudo-random numbers based on a drunkard's walk algorithm.
+- :material-tune: [__drunkard~__](../objects/stochastic/drunkard~.md) The `drunkard~` object generates a random walk signal, stepping within a defined range from its previous output.
+- :material-tune: [__duck~__](../objects/dynamics/duck~.md) `duck~` is a Pure Data object that implements sidechain compression, attenuating an input audio signal based on the level of a separate control signal.
+- :material-tune: [__dust2~__](../objects/stochastic/dust2~.md) The `dust2~` object generates random impulses (values between -1 and 1) at random times, controlled by a density parameter.
+- :material-tune: [__dust~__](../objects/stochastic/dust~.md) `dust~` generates random positive impulses at a specified density, based on SuperCollider's "Dust" UGEN.
+- :material-tune: [__e__](../objects/math/e.md) The `e` object outputs the mathematical constant 'e' (Euler's number).
+- :material-tune: [__echo.rev~__](../objects/reverb/echo.rev~.md) `echo.rev~` is an echo/reverb abstraction designed to produce early reflections in a reverb algorithm or function as a standalone effect.
+- :material-tune: [__else__](../objects/general_utilities/else.md) The `else` object provides information about the ELSE library, including its version, release date, and installation directory.
+- :material-tune: [__envelope~__](../objects/envelopes/envelope~.md) The `envelope~` object generates various single-cycle envelope waveforms (e.g., sine, Hanning, triangular, Gaussian, trapezoidal) based on a phase input.
+- :material-tune: [__envgen~__](../objects/envelopes/envgen~.md) `envgen~` is a versatile audio envelope and line generator that creates complex amplitude curves based on lists of duration and target values.
+- :material-tune: [__eqdiv__](../objects/math/eqdiv.md) The `eqdiv` object generates a musical scale by equally dividing a given interval into a specified number of divisions.
+- :material-tune: [__equal__](../objects/logic/equal.md) The `equal` object compares two lists.
+- :material-tune: [__eq~__](../objects/filters/eq~.md) The `eq~` object is a 2nd order parametric equalizer filter, capable of functioning as both a peak and a notch filter.
+- :material-tune: [__euclid__](../objects/procedural/euclid.md) The `euclid` object implements the Euclidean rhythm algorithm, which distributes a given number of "hits" as evenly as possible over a specified number of "steps".
+- :material-tune: [__expand~__](../objects/dynamics/expand~.md) The `expand~` object functions as an audio expander, attenuating an input signal when its level falls below a specified threshold.
+- :material-tune: [__f2s~__](../objects/multichannel/f2s~.md) The `f2s~` (or `float2sig~`) object converts incoming float values or lists of floats into audio signals.
+- :material-tune: [__factor__](../objects/math/factor.md) The `factor` object is a mathematical utility that takes a floating-point number as input.
+- :material-tune: [__fader~__](../objects//fader~.md) The `fader~` object is a waveshaper that applies various mathematical curves to input signals, typically ranging from 0 to 1.
+- :material-tune: [__fbdelay~__](../objects/delay/fbdelay~.md) The `fbdelay~` object creates a feedback delay line, useful for delay effects, reverberation, and comb filtering.
+- :material-tune: [__fbsine2~__](../objects/math/fbsine2~.md) The `fbsine2~` object is a non-interpolating sound generator that produces a feedback sine chaotic signal.
+- :material-tune: [__fbsine~__](../objects/oscillators/fbsine~.md) `fbsine~` is a sinusoidal audio oscillator that features phase modulation feedback.
+- :material-tune: [__fdn.rev~__](../objects/reverb/fdn.rev~.md) `fdn.rev~` is a feedback delay network (FDN) reverberator designed to simulate late reflections, commonly known as the reverb tail.
+- :material-tune: [__ffdelay~__](../objects/delay/ffdelay~.md) The `ffdelay~` object provides a simple feed-forward audio delay with interpolation.
+- :material-tune: [__filterdelay~__](../objects/delay/filterdelay~.md) The `filterdelay~` object is a high-level audio delay unit that incorporates a resonant lowpass filter, a soft clipper, and a DC filter within its feedback path.
+- :material-tune: [__flanger.m~__](../objects/chorus_flanger_phaser/flanger.m~.md) `flanger.m~` is a Pure Data audio effect object that serves as a simplified wrapper for the `flanger~` object from the ELSE library.
+- :material-tune: [__flanger~__](../objects/chorus_flanger_phaser/flanger~.md) The `flanger~` object is a simple audio effect that creates a flanging sound.
+- :material-tune: [__float2bits__](../objects/data_structures/float2bits.md) The `float2bits` object converts a decimal floating-point number (IEEE754 Single precision 32-bit) into its binary representation, outputting a list of 32 bits.
+- :material-tune: [__float2imp~__](../objects/oscillators/float2imp~.md) The `float2imp~` object converts floating-point numbers into sample-accurate audio impulses.
+- :material-tune: [__float2sig~__](../objects/multichannel/float2sig~.md) The `float2sig~` (or `f2s~`) object converts control-rate floats or lists of floats into audio-rate signals.
+- :material-tune: [__floor__](../objects/math/floor.md) The `floor` object, part of the `else` library, performs a mathematical floor operation.
+- :material-tune: [__floor~__](../objects/math/floor~.md) The `floor~` object performs a floor mathematical operation on incoming audio signals, rounding each sample down to the nearest integer.
+- :material-tune: [__fm~__](../objects/oscillators/fm~.md) The `fm~` object is a frequency modulation unit that generates audio by modulating the frequency of one sinusoidal oscillator with another.
+- :material-tune: [__fold__](../objects/math/fold.md) The `fold` object mirrors input values that exceed a defined range back into that range, effectively "folding" them.
+- :material-tune: [__fold~__](../objects/multichannel/fold~.md) The `fold~` object performs wavefolding, a waveshaping technique that mirrors audio signals back into a specified low and high range.
+- :material-tune: [__fontsize__](../objects/general_utilities/fontsize.md) The `fontsize` object reports the current font size of a Pure Data patch.
+- :material-tune: [__format__](../objects/text/format.md) The `format` object creates a single symbol (string) by combining a format string with multiple input values.
+- :material-tune: [__frac.add__](../objects/math/frac.add.md) The `frac.add` object adds two fractional values together.
+- :material-tune: [__frac.mul__](../objects/math/frac.mul.md) The `frac.mul` object in Pure Data performs multiplication of two fractional values.
+- :material-tune: [__frac2cents__](../objects/math/frac2cents.md) The `frac2cents` object converts musical intervals expressed as fractional symbols (e.g., `9/8`) into their corresponding values in cents.
+- :material-tune: [__frac2dec__](../objects/math/frac2dec.md) The `frac2dec` object converts fractional values, including nested fractions and those with decimal numbers, into their decimal floating-point equivalents.
+- :material-tune: [__free.rev~__](../objects/reverb/free.rev~.md) The `free.rev~` object implements a stereo reverb effect based on the Freeverb algorithm, utilizing parallel comb filters and series allpass filters.
+- :material-tune: [__freeze~__](../objects/partial_tracking/freeze~.md) The `freeze~` object captures a spectral snapshot of an incoming audio signal and resynthesizes it using a bank of oscillators, effectively "freezing" the sound.
+- :material-tune: [__freq.shift~__](../objects//freq.shift~.md) The `freq.shift~` object is a frequency shifter, not a pitch shifter, that operates via complex amplitude modulation.
+- :material-tune: [__freq2midi__](../objects/math/freq2midi.md) The `freq2midi` object converts frequency values (Hz) to MIDI note numbers, similar to `ftom`.
+- :material-tune: [__function__](../objects/envelopes/function.md) The `function` object is a graphical user interface (GUI) for creating and manipulating breakpoint functions.
+- :material-tune: [__function~__](../objects/math/function~.md) The `function~` object generates arbitrary waveforms or functions from a list of points and periods.
+- :material-tune: [__gain2~__](../objects/midi/gain2~.md) The `gain2~` object is a stereo gain abstraction for Pure Data, designed to adjust the gain of stereo audio signals.
+- :material-tune: [__gain~__](../objects/math/gain~.md) The `gain~` object provides mono and multichannel gain control for audio signals.
+- :material-tune: [__gate2imp~__](../objects//gate2imp~.md) The `gate2imp~` object converts an audio gate signal into an impulse.
+- :material-tune: [__gatedelay__](../objects/delay/gatedelay.md) The `gatedelay` object delays the "on" message of a control gate by a specified time in milliseconds, while passing the "off" message immediately.
+- :material-tune: [__gatedelay~__](../objects/multichannel/gatedelay~.md) The `gatedelay~` object delays the "on" state of an incoming gate signal by a specified time, while immediately passing through the "off" state.
+- :material-tune: [__gatehold__](../objects/general_utilities/gatehold.md) The `gatehold` object extends the duration of a gate signal by a specified amount of time (in milliseconds) after the gate has closed.
+- :material-tune: [__gatehold~__](../objects/multichannel/gatehold~.md) The `gatehold~` object holds an incoming gate signal for a specified duration in milliseconds after the gate closes.
+- :material-tune: [__gaterelease__](../objects/general_utilities/gaterelease.md) The `gaterelease` object controls the release of a gate value.
+- :material-tune: [__gaterelease~__](../objects/multichannel/gaterelease~.md) The `gaterelease~` object releases an audio-rate gate signal after a specified time in milliseconds, allowing for timed gate control even when other gates are held.
+- :material-tune: [__gaussian~__](../objects/midi/gaussian~.md) The `gaussian~` object is a Gaussian oscillator that generates a bell-shaped waveform.
+- :material-tune: [__gbman~__](../objects/math/gbman~.md) `gbman~` is a chaotic signal generator based on the Gingerbread Man map.
+- :material-tune: [__gcd__](../objects/math/gcd.md) The `gcd` object calculates the greatest common divisor (GCD) of two or more numbers.
+- :material-tune: [__gendyn.m~__](../objects/oscillators/gendyn.m~.md) gendyn.m~ is a wrapper for the `else/gendyn~` object, designed to generate dynamic waveforms.
+- :material-tune: [__gendyn~__](../objects/stochastic/gendyn~.md) The `gendyn~` object generates audio using Dynamic Stochastic Synthesis, based on Xenakis' 'GenDyn' algorithm.
+- :material-tune: [__get~__](../objects/multichannel/get~.md) `get~` extracts one or more specific channels from a multichannel audio connection.
+- :material-tune: [__giga.rev~__](../objects/reverb/giga.rev~.md) The `giga.rev~` object implements a Gigaverb-based reverberation algorithm, transforming a mono audio input into a stereo output.
+- :material-tune: [__glide__](../objects/general_utilities/glide.md) The `glide` object creates a smooth transition (portamento) for incoming numerical values over a specified time in milliseconds.
+- :material-tune: [__glide2__](../objects/general_utilities/glide2.md) The `glide2` object smoothly transitions (glides) an incoming float signal to new values over time, acting as a portamento or slew limiter.
+- :material-tune: [__glide2~__](../objects/multichannel/glide2~.md) `glide2~` is a signal processing object that smooths incoming signals with distinct ramp-up and ramp-down times, effectively creating a portamento or lag effect.
+- :material-tune: [__glide~__](../objects/multichannel/glide~.md) The `glide~` object smooths changes in its signal input, creating a portamento effect.
+- :material-tune: [__gmean__](../objects/math/gmean.md) The `gmean` object generates a list of numbers representing a geometric progression between a specified start and end point.
+- :material-tune: [__grain.live~__](../objects/envelopes/grain.live~.md) `grain.live~` is a live input granulator that generates clouds of audio grains from an incoming signal.
+- :material-tune: [__grain.sampler~__](../objects/granular/grain.sampler~.md) The `grain.sampler~` object is a sample-based granulator that generates clouds of audio grains from a loaded sample.
+- :material-tune: [__grain.synth~__](../objects/granular/grain.synth~.md) `grain.synth~` is a waveform-based granular synthesizer that generates clouds of pitched grains.
+- :material-tune: [__gran.player~__](../objects/granular/gran.player~.md) `gran.player~` is a granular audio player that allows for independent time stretching and pitch shifting of loaded sound files.
+- :material-tune: [__graph~__](../objects/gui/graph~.md) `graph~` is a simple Pure Data abstraction designed for visualizing audio signals.
+- :material-tune: [__gray~__](../objects/stochastic/gray~.md) The `gray~` object generates a unique type of noise based on "gray code" (reflected binary code), which results from flipping random bits using a pseudo-random number generator.
+- :material-tune: [__group__](../objects/data_structures/group.md) The `group` object collects incoming messages and outputs them as a single list once a specified group size is reached.
+- :material-tune: [__hann~__](../objects/math/hann~.md) The `hann~` object applies a Hann window to a signal input, with the window size matching the current block size.
+- :material-tune: [__hello__](../objects/lua/hello.md) The `hello` object is a simple example external for Pure Data, implemented in Lua and loaded as part of the `else` library.
+- :material-tune: [__henon~__](../objects/math/henon~.md) The `henon~` object is a chaotic signal generator that implements the Henon map difference equation.
+- :material-tune: [__hex2dec__](../objects/math/hex2dec.md) The `hex2dec` object converts hexadecimal values to their decimal equivalents.
+- :material-tune: [__highpass~__](../objects/filters/highpass~.md) The `highpass~` object is a 2nd order highpass resonant filter designed for audio signals.
+- :material-tune: [__highshelf~__](../objects/filters/highshelf~.md) The `highshelf~` object is a 2nd order highshelf filter designed to modify the high-frequency content of an audio signal.
+- :material-tune: [__hip.bw~__](../objects/filters/hip.bw~.md) `hip.bw~` is a highpass Butterworth filter designed for audio signals.
+- :material-tune: [__histogram__](../objects/math/histogram.md) The `histogram` object records the frequency of incoming positive integer numbers (floats are truncated) into an internal table.
+- :material-tune: [__hot__](../objects/routing/hot.md) The `hot` object in Pure Data acts as a message router and temporary storage.
+- :material-tune: [__hz2rad__](../objects/math/hz2rad.md) The `hz2rad` object converts a frequency value in Hertz (Hz) to "Radians per Sample." This conversion is crucial for digital signal processing, as it calculates the phase increment per sample based on the patch's sample rate using the formula `rad = (hz * 2*pi / sr)`..
+- :material-tune: [__ikeda~__](../objects/math/ikeda~.md) The `ikeda~` object is a chaotic signal generator based on the Ikeda map, producing two audio outputs.
+- :material-tune: [__impseq~__](../objects/sequencers/impseq~.md) The `impseq~` object generates a sequence of impulses.
+- :material-tune: [__impulse__](../objects/oscillators/impulse.md) The `impulse` object is a control-rate oscillator that generates bangs at a specified frequency, similar to `impulse~` but operating at a millisecond resolution.
+- :material-tune: [__impulse2~__](../objects/oscillators/impulse2~.md) `impulse2~` (or `imp2~`) is a two-sided impulse oscillator that generates audio signals.
+- :material-tune: [__impulse~__](../objects/oscillators/impulse~.md) The `impulse~` object is an impulse oscillator capable of generating signals with negative frequencies.
+- :material-tune: [__initmess__](../objects/general_utilities/initmess.md) The `initmess` object sends a specified message when a Pure Data patch is loaded.
+- :material-tune: [__insert__](../objects/data_structures/insert.md) The `insert` object allows you to insert a message or a list of elements into an existing list at a specified index.
+- :material-tune: [__interpolate__](../objects/math/interpolate.md) The `else/interpolate` object performs smooth interpolation between a set of start and target values, which can be single numbers or lists.
+- :material-tune: [__iterate__](../objects/data_structures/iterate.md) The `iterate` object splits an incoming message (typically a list of floats or symbols) into its individual elements and outputs them sequentially.
+- :material-tune: [__keyboard__](../objects/midi/keyboard.md) The `keyboard` object provides a graphical piano keyboard interface for Pure Data.
+- :material-tune: [__keycode__](../objects/control_i_o/keycode.md) The `keycode` object provides layout-independent keyboard input, outputting a numerical key code based on the physical key location.
+- :material-tune: [__keymap__](../objects/midi/keymap.md) The `keymap` object translates computer keyboard presses into MIDI note on/off messages, effectively turning your QWERTY keyboard into a musical input device.
+- :material-tune: [__keypress__](../objects/control_i_o/keypress.md) The `keypress` object detects presses of a single computer keyboard key, outputting a bang or a toggle (1 for pressed, 0 for released).
+- :material-tune: [__knob__](../objects/gui/knob.md) The `knob` object is a graphical user interface (GUI) element in Pure Data that functions as a rotary control.
+- :material-tune: [__lace__](../objects/data_structures/lace.md) The `lace` object interleaves elements from two or more input lists into a single output list.
+- :material-tune: [__lace~__](../objects/multichannel/lace~.md) The `lace~` object interleaves two or more multichannel audio signals.
+- :material-tune: [__lag2~__](../objects/multichannel/lag2~.md) The `lag2~` object smooths incoming signals, allowing for independent ramp-up and ramp-down times.
+- :material-tune: [__lag~__](../objects/multichannel/lag~.md) The `lag~` object is a one-pole audio filter that applies an exponential glide or portamento to changes in its signal input.
+- :material-tune: [__lastvalue__](../objects/data_structures/lastvalue.md) The `lastvalue` object stores the most recently received input value.
+- :material-tune: [__lastvalue~__](../objects/general_utilities/lastvalue~.md) The `lastvalue~` Pure Data object reports the last received signal value whenever the input signal changes.
+- :material-tune: [__latoocarfian~__](../objects/math/latoocarfian~.md) The `latoocarfian~` object is a chaotic audio signal generator that implements the Latoocarfian attractor's difference equations.
+- :material-tune: [__lcm__](../objects/math/lcm.md) The `lcm` object calculates the least common multiple (LCM) of two or more numbers.
+- :material-tune: [__level.m~__](../objects/multichannel/level.m~.md) The `level.m~` object is a simple gain module designed to adjust the decibel level of audio signals.
+- :material-tune: [__level~__](../objects/dynamics/level~.md) The `level~` object is a convenient tool for adjusting the gain of audio signals in decibels (dB).
+- :material-tune: [__lfnoise__](../objects/stochastic/lfnoise.md) `lfnoise` is a control-rate low-frequency noise generator that outputs random values between 0 and 127.
+- :material-tune: [__lfnoise~__](../objects/stochastic/lfnoise~.md) The `lfnoise~` object generates band-limited low-frequency noise, producing random values between -1 and 1 at a specified frequency.
+- :material-tune: [__lfo__](../objects/lfos/lfo.md) The `lfo` object is a control-rate Low Frequency Oscillator that generates various waveforms including sine, triangle, sawtooth, and variable square/sawtooth.
+- :material-tune: [__lfo.m~__](../objects/lfos/lfo.m~.md) `lfo.m~` is a low-frequency oscillator module that generates various waveforms including sine, triangle, saw, vsaw, and square.
+- :material-tune: [__limit__](../objects/general_utilities/limit.md) The `limit` object controls the rate of messages, ensuring a minimum time interval between outputs.
+- :material-tune: [__lin2db__](../objects/math/lin2db.md) The `lin2db` object converts a linear amplitude value to its equivalent decibel full scale (dBFS) representation.
+- :material-tune: [__lin2db~__](../objects/math/lin2db~.md) The `lin2db~` object converts linear amplitude values to decibels full scale (dBFS).
+- :material-tune: [__lincong~__](../objects/math/lincong~.md) The `lincong~` object is a chaotic signal generator based on a linear congruential difference equation.
+- :material-tune: [__list.inc__](../objects/math/list.inc.md) The `list.inc` object generates a list of numbers based on a starting value, an increment step, and the desired number of elements.
+- :material-tune: [__list.seq__](../objects/sequencers/list.seq.md) The `list.seq` object sequences through elements of a given list, outputting one element at a time upon receiving a `bang`.
+- :material-tune: [__loadbanger__](../objects/procedural/loadbanger.md) The `loadbanger` (or `lb`) object in Pure Data sends "bang" messages when a patch is loaded, when it receives any message, or when clicked.
+- :material-tune: [__logistic~__](../objects/oscillators/logistic~.md) `logistic~` is a chaotic signal generator based on the logistic map difference equation.
+- :material-tune: [__loop__](../objects/procedural/loop.md) The `loop` object in Pure Data provides a flexible iteration mechanism, functioning as a counter that can increment or decrement through a specified range.
+- :material-tune: [__lop.bw~__](../objects/filters/lop.bw~.md) The `lop.bw~` object is a lowpass Butterworth filter abstraction.
+- :material-tune: [__lop2~__](../objects/filters/lop2~.md) `lop2~` is a 1st order lowpass filter (1-pole, 1-zero) designed for audio signals.
+- :material-tune: [__lorenz~__](../objects/math/lorenz~.md) The `lorenz~` object is a chaotic signal generator based on the Lorenz strange attractor, a mathematical model of atmospheric convection.
+- :material-tune: [__lowpass~__](../objects/filters/lowpass~.md) The `lowpass~` object is a 2nd-order resonant lowpass filter designed for audio signals.
+- :material-tune: [__lowshelf~__](../objects/filters/lowshelf~.md) The `lowshelf~` object implements a 2nd order lowshelf filter, designed to adjust the gain of frequencies below a specified shelving frequency.
+- :material-tune: [__lua__](../objects/lua/lua.md) The `lua` object allows for inline Lua scripting within Pure Data patches, enabling users to extend Pd's functionality with custom Lua code.
+- :material-tune: [__mag__](../objects/math/mag.md) The `mag` object calculates the magnitude (amplitude) from Cartesian coordinates (real and imaginary parts), which is fundamental for analyzing frequency spectrum data.
+- :material-tune: [__mag~__](../objects/math/mag~.md) The `mag~` object calculates the magnitude (amplitude) or power magnitude of a complex signal from its real and imaginary parts.
+- :material-tune: [__makenote2__](../objects/midi/makenote2.md) The `makenote2` object converts a list of pitch, velocity, and duration into MIDI note-on and note-off messages.
+- :material-tune: [__markov__](../objects/math/markov.md) The `markov` object in Pure Data generates sequences based on Markov chains.
+- :material-tune: [__match~__](../objects/routing/match~.md) The `match~` object compares an incoming signal to a list of numerical arguments.
+- :material-tune: [__maxpeak~__](../objects/descriptors/maxpeak~.md) The `maxpeak~` object continuously tracks and outputs the maximum peak amplitude of an incoming audio signal.
+- :material-tune: [__median__](../objects/math/median.md) The `median` object calculates the median value of a list of numbers.
+- :material-tune: [__median~__](../objects/filters/median~.md) The `median~` object calculates the median value of an incoming audio signal over a specified number of samples.
+- :material-tune: [__merge__](../objects/data_structures/merge.md) The `merge` object takes any type of messages from its inlets and combines them into a single list message.
+- :material-tune: [__merge~__](../objects/routing/merge~.md) The `merge~` object combines multiple audio signals, potentially with varying channel lengths, into a single multichannel output.
+- :material-tune: [__message__](../objects/patching/message.md) The `message` object in Pure Data serves as a versatile container for storing and outputting any type of message, functioning similarly to a message box but as an object.
+- :material-tune: [__messbox__](../objects/gui/messbox.md) The `messbox` object is an editable GUI element in Pure Data that functions similarly to a standard message box, allowing users to type and output various message types during run mode.
+- :material-tune: [__meter__](../objects/gui/meter.md) The `meter` object functions as a CPU load meter, providing real-time monitoring of the system's processing usage.
+- :material-tune: [__meter2~__](../objects/descriptors/meter2~.md) The `meter2~` object functions as a stereo VU-meter, providing real-time RMS and peak amplitude measurements in dBFS for two incoming audio signals.
+- :material-tune: [__meter4~__](../objects/multichannel/meter4~.md) The `else/meter4~` object functions as a quadraphonic VU-meter, providing RMS/peak amplitude values in dBFS for four incoming audio signals.
+- :material-tune: [__meter8~__](../objects/descriptors/meter8~.md) The `meter8~` object provides an octaphonic (8-channel) VU-meter, displaying the RMS/peak amplitude of incoming audio signals.
+- :material-tune: [__meter~__](../objects/descriptors/meter~.md) The `meter~` object functions as a mono VU-meter, providing real-time visual feedback on audio signal levels.
+- :material-tune: [__metronome__](../objects//metronome.md) The `metronome` object generates rhythmic pulses based on a specified tempo, beat length, and time signature, including support for complex and irrational time signatures.
+- :material-tune: [__metronome~__](../objects/audio_i_o/metronome~.md) The `metronome~` object generates audio metronome clicks, working in conjunction with the `metronome` control object.
+- :material-tune: [__midi__](../objects/midi/midi.md) The `midi` object in Pure Data is a versatile tool for playing, recording, and manipulating raw MIDI data streams.
+- :material-tune: [__midi.clock__](../objects/midi/midi.clock.md) The `midi.clock` object abstracts MIDI clock functionality, allowing synchronization with either an internal clock (set by a float input) or an external MIDI device.
+- :material-tune: [__midi.in__](../objects/midi/midi.in.md) The `midi.in` object processes incoming MIDI data, converting raw MIDI streams into "cooked" data with type symbols, values, and channel information.
+- :material-tune: [__midi.learn__](../objects/midi/midi.learn.md) The `midi.learn` object is a Pure Data abstraction designed to learn and store incoming MIDI data, such as control changes, program changes, notes, and bends.
+- :material-tune: [__midi.out__](../objects/midi/midi.out.md) The `midi.out` object sends MIDI messages to an external MIDI device, converting "cooked" MIDI data (e.g., `ctl`, `note`, `pgm`) into raw MIDI bytes.
+- :material-tune: [__midi2freq__](../objects/math/midi2freq.md) The `midi2freq` object converts MIDI note numbers (including fractional "MIDI cents") into corresponding frequencies in Hertz.
+- :material-tune: [__midi2note__](../objects/midi/midi2note.md) The `midi2note` object converts MIDI pitch values into musical note names, such as 'Eb3', including an octave number where middle C (MIDI pitch 60) is C4.
+- :material-tune: [__mix2~__](../objects/math/mix2~.md) The `mix2~` object is a 2-channel audio mixer that provides independent gain and panning control for each input signal.
+- :material-tune: [__mix4~__](../objects/multichannel/mix4~.md) The `mix4~` object is a 4-channel audio mixer abstraction that provides independent gain and panning control for each channel.
+- :material-tune: [__mono__](../objects/procedural/mono.md) The `else/mono` object manages incoming MIDI note messages to enforce monophonic behavior, allowing only one note to sound at a time based on configurable priority modes (last, high, or low note).
+- :material-tune: [__mono.rev~__](../objects/reverb/mono.rev~.md) The `mono.rev~` object is a reverb abstraction that takes a mono audio input and produces a stereo audio output.
+- :material-tune: [__mono~__](../objects/procedural/mono~.md) The `mono~` object acts as a monophonic signal voice manager, emulating monophonic synthesizer behavior.
+- :material-tune: [__morph__](../objects/math/morph.md) The `morph` object is an abstraction that extends the functionality of Pure Data's `line` object to lists of numbers.
+- :material-tune: [__morph~__](../objects/partial_tracking/morph~.md) The `morph~` object performs a spectral crossfade between the amplitudes and phases of two input signals.
+- :material-tune: [__mouse__](../objects/control_i_o/mouse.md) The `mouse` object captures global mouse interaction within Pure Data.
+- :material-tune: [__mov.avg__](../objects/math/mov.avg.md) The `mov.avg` object calculates a running or moving average of incoming float values.
+- :material-tune: [__mov.avg~__](../objects/filters/mov.avg~.md) The `mov.avg~` object calculates a moving (or running) average of an incoming audio signal.
+- :material-tune: [__mov.rms~__](../objects/math/mov.rms~.md) The `mov.rms~` object calculates the Root Mean Square (RMS) of an incoming audio signal over a specified moving time window.
+- :material-tune: [__mpe.in__](../objects/midi/mpe.in.md) The `mpe.in` object processes MIDI Polyphonic Expression (MPE) data, converting raw MIDI input from either an internal device or an external source into structured MPE messages.
+- :material-tune: [__ms2samps__](../objects/math/ms2samps.md) The `ms2samps` object is a simple utility that converts a time value in milliseconds to the equivalent number of audio samples.
+- :material-tune: [__ms2samps~__](../objects/math/ms2samps~.md) The `ms2samps~` object converts time values from milliseconds to the corresponding number of audio samples, based on the current samplerate.
+- :material-tune: [__mtx.ctl__](../objects/gui/mtx.ctl.md) `mtx.ctl` provides a graphical user interface for controlling a matrix.
+- :material-tune: [__mtx.mc~__](../objects/routing/mtx.mc~.md) The `mtx.mc~` object is a multichannel signal routing matrix for Pure Data, designed to route audio signals from multiple input channels to multiple output channels.
+- :material-tune: [__mtx~__](../objects/routing/mtx~.md) The `mtx~` object acts as an audio signal matrix router, enabling flexible connections between multiple audio inlets and outlets.
+- :material-tune: [__multi.vsl__](../objects/gui/multi.vsl.md) The `multi.vsl` object is a graphical user interface (GUI) element that provides multiple vertical sliders in a single abstraction.
+- :material-tune: [__nchs~__](../objects/multichannel/nchs~.md) The `nchs~` object queries the number of channels in a multi-channel signal connection, such as those provided by `snake~ in` or `clone`.
+- :material-tune: [__nmess__](../objects/procedural/nmess.md) The `nmess` object acts as a message gate, allowing a specified number of messages (`n`) to pass through its left outlet.
+- :material-tune: [__noisegate~__](../objects/dynamics/noisegate~.md) `noisegate~` is a noise gate abstraction that allows audio signals to pass only when their RMS value exceeds a specified threshold in dBFS.
+- :material-tune: [__norm~__](../objects/dynamics/norm~.md) `norm~` is an audio normalizer that adjusts the loudness of an incoming signal to a specified decibel full scale (dBFS) level.
+- :material-tune: [__note__](../objects/gui/note.md) The `note` object is a GUI element in Pure Data designed to display text notes within a patch.
+- :material-tune: [__note.in__](../objects/midi/note.in.md) The `note.in` object extracts MIDI pitch and velocity information from incoming MIDI data streams.
+- :material-tune: [__note.out__](../objects/midi/note.out.md) The `note.out` object formats and sends MIDI note messages, including Note On and Note Off (with optional release velocity), to Pure Data's MIDI output or its own outlet.
+- :material-tune: [__note2midi__](../objects/midi/note2midi.md) The `note2midi` object converts musical note names (e.g., 'C4', 'E#+5', 'Db-4') into their corresponding MIDI pitch values.
+- :material-tune: [__notedur2ratio__](../objects/math/notedur2ratio.md) The `notedur2ratio` object converts musical note duration symbols (e.g., `1n` for whole note, `4n` for quarter note) into their corresponding numerical ratios, which can be output as fractions or floats.
+- :material-tune: [__noteinfo__](../objects/midi/noteinfo.md) The `noteinfo` object tracks and outputs information about active MIDI notes.
+- :material-tune: [__numbox~__](../objects/gui/numbox~.md) The `numbox~` object is a graphical user interface element in Pure Data designed to display and generate audio signal values.
+- :material-tune: [__nyquist~__](../objects/general_utilities/nyquist~.md) The `nyquist~` object reports the Nyquist frequency (half the audio sample rate) or its corresponding period.
+- :material-tune: [__op__](../objects/logic/op.md) The `op` object in Pure Data performs a wide range of arithmetic, comparative, logical, and bitwise operations.
+- :material-tune: [__openfile__](../objects/file_i_o/openfile.md) The `openfile` object in Pure Data is a utility that allows users to open local folders, files, or web links.
+- :material-tune: [__op~__](../objects/logic/op~.md) The `op~` object performs various signal-rate operations, including comparative (e.g., `==`, `>`), logical (`&&`, `||`, `!`), bitwise (`&`, `|`, `~`, `^`, `<<`, `>>`), and modulus (`%`) calculations.
+- :material-tune: [__order__](../objects/data_structures/order.md) The `order` object splits an incoming list into successive sub-lists of a specified size, assigning an ordered index to each.
+- :material-tune: [__osc.format__](../objects/osc/osc.format.md) The `osc.format` object converts Pure Data messages into Open Sound Control (OSC) format.
+- :material-tune: [__osc.parse__](../objects/osc/osc.parse.md) The `osc.parse` object in Pure Data is used to parse incoming Open Sound Control (OSC) messages.
+- :material-tune: [__osc.receive__](../objects/networking/osc.receive.md) The `osc.receive` object in Pure Data is designed to receive Open Sound Control (OSC) messages over a network connection.
+- :material-tune: [__osc.route__](../objects/routing/osc.route.md) The `osc.route` object routes incoming Open Sound Control (OSC) messages based on their address patterns.
+- :material-tune: [__osc.send__](../objects/networking/osc.send.md) The `osc.send` object facilitates sending Open Sound Control (OSC) messages over a network.
+- :material-tune: [__oscbank~__](../objects/additive/oscbank~.md) The `oscbank~` object generates complex audio signals by combining multiple `sine~` oscillators, allowing users to define a list of partials, amplitudes, and phases for each.
+- :material-tune: [__oscnoise~__](../objects/oscillators/oscnoise~.md) `oscnoise~` is an oscillator that generates a white noise waveform, which can be updated by a bang message.
+- :material-tune: [__out.mc~__](../objects/routing/out.mc~.md) The `out.mc~` object routes multichannel audio signals to specified `dac~` output channels, with a default starting channel of 1.
+- :material-tune: [__out4~__](../objects/routing/out4~.md) `out4~` is a quadraphonic audio output abstraction for Pure Data, providing click-free control over DSP on/off, mute, and gain.
+- :material-tune: [__out8~__](../objects/multichannel/out8~.md) The `out8~` object is an octaphonic (8-channel) audio output abstraction for Pure Data.
+- :material-tune: [__out~__](../objects/audio_i_o/out~.md) `out~` is a convenient Pure Data abstraction for managing audio output.
+- :material-tune: [__pack2__](../objects/data_structures/pack2.md) The `pack2` object combines incoming data from its inlets into a single list, similar to `pack`.
+- :material-tune: [__pad__](../objects/gui/pad.md) The `pad` object is a graphical user interface (GUI) element that reports mouse coordinates and click status within its area.
+- :material-tune: [__pan.mc~__](../objects/multichannel/pan.mc~.md) `pan.mc~` is a multichannel audio panner designed for circular speaker arrays.
+- :material-tune: [__pan2~__](../objects/routing/pan2~.md) `pan2~` performs equal-power (sin/cos) panning, distributing a mono audio signal across two output channels (left and right).
+- :material-tune: [__pan4~__](../objects/routing/pan4~.md) The `pan4~` object is a 4-channel equal power (sine/cosine) panner designed for quadraphonic audio.
+- :material-tune: [__panic__](../objects/midi/panic.md) The `panic` object acts as a "panic button" for MIDI notes.
+- :material-tune: [__pan~__](../objects/routing/pan~.md) `pan~` performs circular or azimuth panning of an input signal across a user-defined number of output channels.
+- :material-tune: [__parabolic~__](../objects/oscillators/parabolic~.md) `parabolic~` is a parabolic oscillator that generates a non-band-limited waveform, similar to a sinusoid but with aliasing.
+- :material-tune: [__pattern__](../objects/sequencers/pattern.md) The `pattern` object is a rhythmic pattern sequencer that outputs note durations based on a defined sequence.
+- :material-tune: [__pdlink__](../objects/routing/pdlink.md) The `pdlink` object enables simplified communication between different Pure Data instances, including `[pd~]` subprocesses, over a local network.
+- :material-tune: [__pdlink~__](../objects/networking/pdlink~.md) `pdlink~` enables sending and receiving audio streams between different Pure Data instances, including those on other platforms or forks, and `pd~` subprocesses.
+- :material-tune: [__peak~__](../objects/envelopes/peak~.md) `peak~` is a Pure Data signal object that analyzes an incoming audio signal and outputs its peak amplitude.
+- :material-tune: [__perlin~__](../objects/stochastic/perlin~.md) The `perlin~` object generates 1-dimensional Perlin noise, producing a smoothly varying signal based on a specified frequency in Hertz.
+- :material-tune: [__pgm.in__](../objects/midi/pgm.in.md) The `pgm.in` object extracts MIDI Program Change messages (0-127) from either a connected MIDI device or an external raw MIDI data stream.
+- :material-tune: [__pgm.out__](../objects/midi/pgm.out.md) The `pgm.out` object formats and sends raw MIDI program change messages (values 0-127) to Pure Data's MIDI output and its outlet.
+- :material-tune: [__phaser.m~__](../objects/chorus_flanger_phaser/phaser.m~.md) The `phaser.m~` object is a wrapper for the `phaser~` audio effect from the ELSE library.
+- :material-tune: [__phaser~__](../objects/chorus_flanger_phaser/phaser~.md) The `phaser~` object is a mono phaser audio effect.
+- :material-tune: [__phaseseq~__](../objects/sequencers/phaseseq~.md) `phaseseq~` is a signal-rate object that generates impulses when an incoming phase signal crosses a predefined list of threshold values.
+- :material-tune: [__phasor__](../objects/oscillators/phasor.md) The `phasor` object generates a control-rate sawtooth wave, ramping continuously from 0 to 1 at a specified frequency.
+- :material-tune: [__pi__](../objects/math/pi.md) The `pi` object calculates and outputs the mathematical constant Pi.
+- :material-tune: [__pic__](../objects/file_i_o/pic.md) The `pic` object in Pure Data displays image files (`.gif`, `.ppm`, `.pgm`) within a patch.
+- :material-tune: [__pick__](../objects/general_utilities/pick.md) The `pick` object selects an element from an input message based on a provided element number.
+- :material-tune: [__pick~__](../objects/routing/pick~.md) `pick~` selects a specific channel from a multichannel audio connection.
+- :material-tune: [__pimp__](../objects/oscillators/pimp.md) The `pimp` object is a control-rate signal generator, analogous to `phasor~` but operating at a control rate with a maximum resolution of 1 ms.
+- :material-tune: [__pimpmul~__](../objects/oscillators/pimpmul~.md) `pimpmul~` is a signal object designed to multiply the phase signal of `pimp~` or `phasor~` objects.
+- :material-tune: [__pimp~__](../objects/oscillators/pimp~.md) The `pimp~` object is an impulse oscillator that combines the functionality of `phasor~` and `else/imp~`.
+- :material-tune: [__ping.pong~__](../objects/delay/ping.pong~.md) The `ping.pong~` object is an audio effect that creates a ping-pong delay.
+- :material-tune: [__pipe2__](../objects/delay/pipe2.md) The `pipe2` object functions similarly to Pure Data's vanilla `pipe` object, delaying incoming messages.
+- :material-tune: [__pitch.shift~__](../objects/granular/pitch.shift~.md) `pitch.shift~` is a pitch shifter object that transposes audio signals up or down.
+- :material-tune: [__plaits.m~__](../objects/midi/plaits.m~.md) The `plaits.m~` object is a versatile polyphonic sound synthesis module, wrapping the `[plaits~]` external.
+- :material-tune: [__plaits~__](../objects/granular/plaits~.md) The `plaits~` object is a versatile audio synthesizer based on the Mutable Instruments Plaits module, offering 24 distinct synthesis engines.
+- :material-tune: [__plate.rev.m~__](../objects/reverb/plate.rev.m~.md) The `plate.rev.m~` object is a Pure Data audio effect that acts as a wrapper for the `else/plate.rev~` object, providing a plate reverberation effect.
+- :material-tune: [__plate.rev~__](../objects/reverb/plate.rev~.md) The `plate.rev~` object is a Pure Data abstraction that implements a stereo plate reverb audio effect.
+- :material-tune: [__play.file~__](../objects/samplers/play.file~.md) `play.file~` is a Pure Data object that reads and plays audio files from your computer, supporting various formats like AAC, FLAC, MP3, and WAV.
+- :material-tune: [__player~__](../objects/samplers/player~.md) `player~` is a versatile Pure Data object for playing back audio files.
+- :material-tune: [__pluck.m~__](../objects/physical_modeling/pluck.m~.md) The `pluck.m~` object is a polyphonic physical modeling synthesizer for plucked string sounds, acting as a wrapper around the `pluck~` object from the ELSE library.
+- :material-tune: [__pluck~__](../objects/midi/pluck~.md) The `pluck~` object implements the Karplus-Strong algorithm for physical modeling synthesis, simulating plucked string sounds.
+- :material-tune: [__pm2~__](../objects/oscillators/pm2~.md) The `pm2~` object is a 2-operator phase modulation (PM) synthesizer.
+- :material-tune: [__pm4~__](../objects/oscillators/pm4~.md) The `pm4~` object is a 4-operator phase modulation (FM) synthesizer.
+- :material-tune: [__pm6.m~__](../objects/oscillators/pm6.m~.md) `pm6.m~` is a six-operator FM (phase modulation) synthesizer, inspired by the DX7, producing stereo output.
+- :material-tune: [__pm6~__](../objects/oscillators/pm6~.md) The `pm6~` object is a 6-operator phase modulation (FM) synthesizer.
+- :material-tune: [__pm~__](../objects/oscillators/pm~.md) The `pm~` object is a basic phase modulation unit that uses two sinusoidal oscillators, where one modulates the phase of the other.
+- :material-tune: [__pol2car__](../objects/math/pol2car.md) The `pol2car` object converts polar coordinates (amplitude and phase) into Cartesian coordinates (real and imaginary parts).
+- :material-tune: [__pol2car~__](../objects/math/pol2car~.md) The `pol2car~` object converts audio signals from polar coordinates (amplitude and phase) to Cartesian coordinates (real and imaginary parts).
+- :material-tune: [__polymetro__](../objects/math/polymetro.md) The `polymetro` object is a polyrhythmic metronome that generates rhythmic pulses based on a base tempo and a polyrhythmic multiplier.
+- :material-tune: [__polymetro~__](../objects/sequencers/polymetro~.md) `polymetro~` is a polyrhythmic metronome for signal rate that outputs impulses.
+- :material-tune: [__popmenu__](../objects/gui/popmenu.md) The `popmenu` object provides a graphical user interface (GUI) popup menu in Pure Data.
+- :material-tune: [__power~__](../objects/math/power~.md) `power~` is a signal processing object in Pure Data that acts as a power function waveshaper.
+- :material-tune: [__presets__](../objects/data_structures/presets.md) The `presets` object in Pure Data allows users to save and recall multiple configurations of patch parameters, including GUI elements, numbers, symbols, and arrays.
+- :material-tune: [__presets.m__](../objects/file_i_o/presets.m.md) The `presets.m` object in Pure Data enables saving and recalling parameter presets for "MERDA modules" within a patch.
+- :material-tune: [__properties__](../objects/patching/properties.md) The `properties` object in Pure Data sends a bang when its parent patch's properties are accessed, typically via a right-click menu.
+- :material-tune: [__ptouch.in__](../objects/midi/ptouch.in.md) `ptouch.in` extracts MIDI polyphonic aftertouch messages from raw MIDI input, such as from a connected MIDI device or an external MIDI data stream.
+- :material-tune: [__ptouch.out__](../objects/midi/ptouch.out.md) The `ptouch.out` object formats and sends raw MIDI polyphonic aftertouch messages.
+- :material-tune: [__pulse__](../objects/oscillators/pulse.md) The `pulse` object is a control-rate oscillator that generates a pulse wave, acting like a toggle switch.
+- :material-tune: [__pulsecount~__](../objects//pulsecount~.md) The `pulsecount~` object counts rising edge triggers in an audio signal.
+- :material-tune: [__pulsediv~__](../objects//pulsediv~.md) The `pulsediv~` object divides an incoming signal-rate trigger stream, outputting impulses from its left outlet based on a specified division value.
+- :material-tune: [__pulse~__](../objects/oscillators/pulse~.md) `pulse~` is a pulse train oscillator that generates a signal alternating between 1 and 0.
+- :material-tune: [__pvoc.freeze~__](../objects/partial_tracking/pvoc.freeze~.md) The `pvoc.freeze~` object is a phase vocoder-based audio processor that allows for "freezing" a sound.
+- :material-tune: [__pvoc.live~__](../objects/granular/pvoc.live~.md) The `pvoc.live~` object performs independent time stretching and pitch shifting on live audio input using granulation.
+- :material-tune: [__pvoc.player~__](../objects/partial_tracking/pvoc.player~.md) The `pvoc.player~` object is an audio file player that offers independent time stretching and pitch shifting capabilities through a phase vocoder.
+- :material-tune: [__pz2coeff__](../objects/math/pz2coeff.md) The `pz2coeff` object converts pole and zero coordinates into biquad filter coefficients.
+- :material-tune: [__quad~__](../objects/math/quad~.md) The `quad~` object generates a chaotic audio signal based on a quadratic difference equation: `y[n] = a * y[n-1]^2 + b * y[n-1] + c`.
+- :material-tune: [__quantizer__](../objects/math/quantizer.md) The `quantizer` object approximates input values to discrete step values defined by an argument.
+- :material-tune: [__quantizer~__](../objects/math/quantizer~.md) The `quantizer~` object quantizes an incoming audio signal to discrete step values, which can be defined by an argument or a second inlet.
+- :material-tune: [__rad2hz__](../objects/math/rad2hz.md) The `rad2hz` object converts a frequency value from "Radians per Sample" to Hertz.
+- :material-tune: [__rampnoise__](../objects/stochastic/rampnoise.md) The `rampnoise` object generates control-rate ramp noise, producing a pseudo-random waveform within the 0-127 range, making it suitable for MIDI control.
+- :material-tune: [__rampnoise~__](../objects/stochastic/rampnoise~.md) The `rampnoise~` object generates band-limited noise by interpolating between random values, producing "random ramps" within a specified frequency range.
+- :material-tune: [__ramp~__](../objects/envelopes/ramp~.md) The `ramp~` object generates a linear signal that ramps between a specified minimum and maximum value.
+- :material-tune: [__rand.dist__](../objects/stochastic/rand.dist.md) The `rand.dist` object generates random numbers based on a user-defined probability density function (PDF) provided by a Pure Data array.
+- :material-tune: [__rand.f__](../objects/stochastic/rand.f.md) The `rand.f` object generates pseudo-random floating-point numbers within a user-defined range when triggered by a `bang`.
+- :material-tune: [__rand.f~__](../objects/stochastic/rand.f~.md) The `rand.f~` object generates random floating-point values within a specified range.
+- :material-tune: [__rand.hist__](../objects/stochastic/rand.hist.md) The `rand.hist` object generates weighted random numbers based on a user-defined histogram, which dictates the probability of each index being output.
+- :material-tune: [__rand.i__](../objects/stochastic/rand.i.md) The `rand.i` object generates pseudo-random integer values within a specified numerical range.
+- :material-tune: [__rand.i~__](../objects/stochastic/rand.i~.md) The `rand.i~` object generates random integer values within a specified range, triggered by signal transitions.
+- :material-tune: [__rand.list__](../objects/stochastic/rand.list.md) The `rand.list` object selects a random element from a given list of floats.
+- :material-tune: [__rand.u__](../objects/stochastic/rand.u.md) The `rand.u` object generates a sequence of unrepeated random integer values within a specified range (0 to `size-1`).
+- :material-tune: [__randpulse__](../objects/oscillators/randpulse.md) The `randpulse` object is a random pulse oscillator that alternates between a random value and zero at a control rate.
+- :material-tune: [__randpulse2__](../objects/oscillators/randpulse2.md) `randpulse2` is a random pulse train oscillator that generates pulses (0 or 1, or random values between -1 and 1) at random intervals.
+- :material-tune: [__randpulse2~__](../objects/oscillators/randpulse2~.md) `randpulse2~` is a random pulse train oscillator that generates signals at random intervals, with the average frequency controlled by a "density" parameter.
+- :material-tune: [__randpulse~__](../objects/oscillators/randpulse~.md) `randpulse~` is a random pulse train oscillator that generates an audio signal alternating between a random value and zero.
+- :material-tune: [__range__](../objects//range.md) The `range~` object analyzes an incoming float or signal stream to determine its minimum and maximum values.
+- :material-tune: [__range.hsl__](../objects/gui/range.hsl.md) The `range.hsl` object is a graphical user interface (GUI) horizontal slider designed for selecting and manipulating numerical ranges.
+- :material-tune: [__range~__](../objects/descriptors/range~.md) The `range~` object analyzes an incoming audio signal to continuously output its minimum and maximum amplitude values.
+- :material-tune: [__ratio2cents__](../objects/math/ratio2cents.md) The `ratio2cents` object converts rational number intervals (expressed as floating-point decimal values) into cents.
+- :material-tune: [__ratio2cents~__](../objects/math/ratio2cents~.md) The `ratio2cents~` object converts a signal representing a rational interval (e.g., a frequency ratio) into an interval expressed in cents.
+- :material-tune: [__rec__](../objects/procedural/rec.md) The `rec` object records incoming messages across multiple tracks and plays them back.
+- :material-tune: [__rec.file~__](../objects/file_i_o/rec.file~.md) The `rec.file~` object records incoming audio signals to a sound file, serving as a convenient wrapper around `writesf~`.
+- :material-tune: [__rec2__](../objects/midi/rec2.md) The `rec2` object records incoming MIDI note messages (pitch and velocity) into a `[text]` object.
+- :material-tune: [__receiver__](../objects/routing/receiver.md) The `receiver` object in Pure Data functions similarly to the vanilla `receive` object, allowing it to receive messages sent to a specified name.
+- :material-tune: [__remove__](../objects/data_structures/remove.md) The `remove` object filters elements from an input list.
+- :material-tune: [__repeat~__](../objects/multichannel/repeat~.md) The `repeat~` object takes an input signal and duplicates it a specified number of times ('n' times).
+- :material-tune: [__replace__](../objects/data_structures/replace.md) The `replace` object modifies an input message by substituting a specific element at a given index.
+- :material-tune: [__rescale__](../objects/math/rescale.md) The `rescale` object maps input values from a specified input range to a new output range.
+- :material-tune: [__rescale~__](../objects/math/rescale~.md) The `rescale~` object transforms incoming audio signals from a specified input range to a desired output range.
+- :material-tune: [__resonant~__](../objects/filters/resonant~.md) `resonant~` is a bandpass resonator filter that allows its resonance to be controlled by Q factor, decay time (t60), or bandwidth.
+- :material-tune: [__resonator2~__](../objects/filters/resonator2~.md) The `resonator2~` object is a resonant complex one-pole filter, designed to be excited by impulses.
+- :material-tune: [__resonator~__](../objects/filters/resonator~.md) The `resonator~` object acts as a resonant filter, controlled by a central frequency and a t60 resonance time.
+- :material-tune: [__resonbank2~__](../objects/filters/resonbank2~.md) `resonbank2~` is a bank of resonant filters designed for sound synthesis.
+- :material-tune: [__resonbank~__](../objects/multichannel/resonbank~.md) `resonbank~` is a bank of resonators designed for sound synthesis, built upon `resonator~` objects.
+- :material-tune: [__retrieve__](../objects/routing/retrieve.md) The `retrieve` object in Pure Data fetches data from named receive objects (`r`, `else/receiver`) or GUI elements that have built-in receive names.
+- :material-tune: [__retune__](../objects/midi/retune.md) The `retune` object remaps incoming MIDI pitches to a custom scale.
+- :material-tune: [__revdelay~__](../objects/delay/revdelay~.md) The `revdelay~` object creates a reverse delay effect.
+- :material-tune: [__reverse__](../objects/general_utilities/reverse.md) The `reverse` object reorders the elements of incoming messages or lists.
+- :material-tune: [__rint__](../objects/math/rint.md) The `rint` object rounds floating-point numbers to the nearest integer value.
+- :material-tune: [__rint~__](../objects/math/rint~.md) The `rint~` object rounds an incoming signal (float) to the nearest integer value.
+- :material-tune: [__rm.m~__](../objects//rm.m~.md) The `rm.m~` object is a wrapper for the `rm~` (ring modulator) object from the ELSE library.
+- :material-tune: [__rms~__](../objects/descriptors/rms~.md) The `rms~` object calculates the Root Mean Square (RMS) amplitude of an incoming audio signal, providing a stable output due to Hanning windowing.
+- :material-tune: [__rm~__](../objects/distortion/rm~.md) The `rm~` object performs ring modulation on an input signal.
+- :material-tune: [__rotate.mc~__](../objects/multichannel/rotate.mc~.md) The `rotate.mc~` object performs equal power rotation for multichannel audio signals.
+- :material-tune: [__rotate~__](../objects/multichannel/rotate~.md) The `rotate~` object performs equal power rotation across 'n' audio channels, with a default of 2.
+- :material-tune: [__route2__](../objects/routing/route2.md) The `route2` object functions similarly to `route`, but it preserves the list selector in its output messages and supports both float and symbol arguments for routing.
+- :material-tune: [__routeall__](../objects/routing/routeall.md) The `routeall` object routes incoming messages to different outlets based on matching arguments, similar to `route` but with enhanced capabilities.
+- :material-tune: [__router__](../objects/routing/router.md) The `router` object routes incoming messages from its left inlet to a specific outlet.
+- :material-tune: [__routetype__](../objects/routing/routetype.md) The `routetype` object routes incoming messages to different outlets based on their data type.
+- :material-tune: [__sample~__](../objects/samplers/sample~.md) The `sample~` object creates and manages an audio buffer, enabling users to load, record, save, and manipulate audio samples.
+- :material-tune: [__samps2ms__](../objects/math/samps2ms.md) The `samps2ms` object is a simple abstraction that converts a time value given in audio samples into milliseconds.
+- :material-tune: [__samps2ms~__](../objects/math/samps2ms~.md) The `samps2ms~` object converts a time value given in samples to milliseconds.
+- :material-tune: [__saw2~__](../objects/oscillators/saw2~.md) The `saw2~` object is a versatile sawtooth wave oscillator that supports negative frequencies and multichannel operation.
+- :material-tune: [__saw~__](../objects/oscillators/saw~.md) The `saw~` object is a versatile sawtooth wave oscillator that supports negative frequencies, phase synchronization, and phase modulation.
+- :material-tune: [__scala__](../objects/file_i_o/scala.md) The `scala` object imports musical scales from `.scl` files, a format used by the Scala software for microtonal tunings.
+- :material-tune: [__scale2cents__](../objects/math/scale2cents.md) The `scale2cents` object converts a musical scale defined by semitone steps into cents values.
+- :material-tune: [__scale2freq__](../objects/math/scale2freq.md) `scale2freq` converts a musical scale, provided as a list of cents values, into a corresponding list of frequencies in Hertz.
+- :material-tune: [__scales__](../objects/midi/scales.md) The `scales` object generates musical scales based on a list of semitone intervals, outputting them as note names or MIDI pitches.
+- :material-tune: [__schmitt__](../objects/logic/schmitt.md) The `schmitt` object implements a Schmitt trigger, a comparator with hysteresis.
+- :material-tune: [__schmitt~__](../objects/logic/schmitt~.md) The `schmitt~` object implements a Schmitt trigger, converting an input signal into a binary output (1 or 0) based on two distinct threshold levels.
+- :material-tune: [__scope3d~__](../objects/multichannel/scope3d~.md) The `scope3d~` object is an experimental 3D oscilloscope display for Pure Data.
+- :material-tune: [__score__](../objects/sequencers/score.md) The `score` object is a Pure Data score sequencer that uses a custom text-based syntax to define musical events.
+- :material-tune: [__score2__](../objects/sequencers/score2.md) The `score2` object is a sequencer that plays back musical scores using a rhythmic notation syntax similar to `pattern`.
+- :material-tune: [__scramble__](../objects/stochastic/scramble.md) The `scramble` object reorders the elements of an input message.
+- :material-tune: [__selector__](../objects/routing/selector.md) The `selector` object routes incoming data from one of its multiple inlets to its single output.
+- :material-tune: [__select~__](../objects/routing/select~.md) The `select~` object selects one of its input audio signals based on a control input, without applying any crossfade.
+- :material-tune: [__send2~__](../objects/routing/send2~.md) The `send2~` object transmits audio signals to a corresponding `r~` object, similar to `send~`.
+- :material-tune: [__sender__](../objects/routing/sender.md) The `sender` object functions similarly to Pure Data's `send` object, but with enhanced capabilities.
+- :material-tune: [__sendmidi__](../objects/midi/sendmidi.md) The `sendmidi` object is a helper abstraction designed to send MIDI messages to the `pd~` object.
+- :material-tune: [__separate__](../objects/text/separate.md) The `separate` object in Pure Data splits an input symbol (string) into a list of individual elements.
+- :material-tune: [__seq8.m~__](../objects/sequencers/seq8.m~.md) The `seq8.m~` object is a simple 8-step sequencer for Pure Data, designed to generate musical sequences.
+- :material-tune: [__sequencer__](../objects/sequencers/sequencer.md) The `sequencer` object in Pure Data plays back a user-defined sequence of elements, advancing one step per `bang`.
+- :material-tune: [__sequencer~__](../objects/procedural/sequencer~.md) The `sequencer~` object outputs values from a predefined sequence when triggered by a signal (0 to non-0 transition) or a bang.
+- :material-tune: [__setdsp~__](../objects/gui/setdsp~.md) The `setdsp~` object provides a convenient way to control Pure Data's audio engine (DSP) state.
+- :material-tune: [__sfinfo__](../objects/file_i_o/sfinfo.md) The `sfinfo` object queries information from sound files, such as the number of channels or instrument metadata for AIFF files.
+- :material-tune: [__sfload__](../objects/file_i_o/sfload.md) The `sfload` object loads sound files into Pure Data arrays, supporting various audio formats like MP3, WAV, and FLAC.
+- :material-tune: [__sfont.m~__](../objects/samplers/sfont.m~.md) The `sfont.m~` object is a convenient wrapper around `sfont~` designed for soundfont-based synthesis.
+- :material-tune: [__sfont~__](../objects/midi/sfont~.md) `sfont~` is a sampler synthesizer that plays SoundFont (.sf2/.sf3) files, based on FluidLite.
+- :material-tune: [__sfz~__](../objects/midi/sfz~.md) The `sfz~` object is a Pure Data synthesizer that plays SFZ instruments, which are text-based definitions for sample-based and hybrid synthesis.
+- :material-tune: [__shaper~__](../objects/math/shaper~.md) The `shaper~` object performs waveshaping by applying a user-defined transfer function to an input signal.
+- :material-tune: [__sh~__](../objects/general_utilities/sh~.md) The `sh~` object samples and holds an audio signal from its left inlet.
+- :material-tune: [__sig.m~__](../objects/oscillators/sig.m~.md) The `sig.m~` object generates a constant audio signal.
+- :material-tune: [__sig2float~__](../objects/multichannel/sig2float~.md) The `sig2float~` object converts audio signals into floating-point numbers.
+- :material-tune: [__sigs~__](../objects/multichannel/sigs~.md) The `sigs~` object generates constant multichannel audio signals from a list of numerical arguments.
+- :material-tune: [__sine~__](../objects/oscillators/sine~.md) `sine~` is a sinusoidal oscillator that generates an audio signal.
+- :material-tune: [__sin~__](../objects/math/sin~.md) The `sin~` object computes the sine of its signal input, scaled by two pi, outputting the result as a signal.
+- :material-tune: [__slew__](../objects/general_utilities/slew.md) The `slew` object limits the rate of change of an incoming signal, generating a smooth transition (portamento) towards the target value.
+- :material-tune: [__slew2__](../objects//slew2.md) The `slew2` object functions as a slew limiter, smoothing transitions between incoming values by restricting their rate of change.
+- :material-tune: [__slew2~__](../objects/multichannel/slew2~.md) The `slew2~` object provides independent slew limiting for upward and downward signal ramps.
+- :material-tune: [__slew~__](../objects/multichannel/slew~.md) The `slew~` object limits the rate of change of an incoming signal, smoothing transitions between values.
+- :material-tune: [__slice__](../objects/data_structures/slice.md) The `slice` object splits an incoming list into two parts based on a specified split point `n`.
+- :material-tune: [__slice~__](../objects/routing/slice~.md) The `slice~` object splits a multichannel signal into two outputs based on a specified split point.
+- :material-tune: [__slider2d__](../objects/gui/slider2d.md) The `slider2d` object is a two-dimensional graphical user interface (GUI) slider for Pure Data.
+- :material-tune: [__smooth__](../objects/general_utilities/smooth.md) The `smooth` object in Pure Data is designed to smoothly interpolate control signals over a specified time in milliseconds, preventing abrupt changes.
+- :material-tune: [__smooth2__](../objects//smooth2.md) The `smooth2` object smooths incoming control signals, providing independent ramp-up and ramp-down times in milliseconds.
+- :material-tune: [__smooth2~__](../objects/multichannel/smooth2~.md) The `smooth2~` object provides signal smoothing with independent ramp-up and ramp-down times, useful for creating portamento or glide effects between signal values.
+- :material-tune: [__smooth~__](../objects/multichannel/smooth~.md) The `smooth~` object provides a signal smoothing function, transitioning input signals with linear or exponential interpolation over a specified time in milliseconds.
+- :material-tune: [__spectrograph~__](../objects/descriptors/spectrograph~.md) The `spectrograph~` object visualizes the FFT amplitudes of an incoming audio signal, displaying frequencies from 0 Hz to Nyquist.
+- :material-tune: [__speed__](../objects/procedural/speed.md) The `speed` object facilitates gradual changes in tempo, enabling accelerando or ritardando effects.
+- :material-tune: [__spread__](../objects/routing/spread.md) The `spread` object routes incoming lists to different outlets based on a comparison of the list's first element to a set of arguments.
+- :material-tune: [__spread.mc~__](../objects/multichannel/spread.mc~.md) The `spread.mc~` object distributes multichannel audio input across a specified number of output channels using equal power panning.
+- :material-tune: [__spread~__](../objects/routing/spread~.md) The `spread~` object distributes multiple input audio channels across multiple output channels using equal power panning.
+- :material-tune: [__square~__](../objects/midi/square~.md) `square~` is a versatile square wave oscillator that generates audio signals with adjustable pulse width, initial phase, and phase modulation.
+- :material-tune: [__sr~__](../objects/general_utilities/sr~.md) `sr~` is a Pure Data object that reports and can set the global audio sample rate.
+- :material-tune: [__stack__](../objects/data_structures/stack.md) The `stack` object stores and manages sequences of messages, outputting them one by one upon receiving a `bang`.
+- :material-tune: [__standard~__](../objects/oscillators/standard~.md) `standard~` is a chaotic signal generator based on the standard map equations.
+- :material-tune: [__status__](../objects/general_utilities/status.md) The `status` object detects transitions in numerical input.
+- :material-tune: [__status~__](../objects/logic/status~.md) The `status~` object is a signal-rate version of `status` that detects transitions in its input signal.
+- :material-tune: [__stepnoise__](../objects/stochastic/stepnoise.md) The `stepnoise` object generates control-rate stepped random values, typically within the 0-127 range, without requiring the DSP to be on.
+- :material-tune: [__stepnoise~__](../objects/stochastic/stepnoise~.md) The `stepnoise~` object generates band-limited noise with random, stepped values between -1 and 1.
+- :material-tune: [__stereo.rev~__](../objects/reverb/stereo.rev~.md) `stereo.rev~` is a stereo input/output reverb abstraction, providing two independent reverb channels.
+- :material-tune: [__store__](../objects/sequencers/store.md) The `store` object is an abstraction built upon Pure Data's `text` object, designed for sequential storage and management of messages.
+- :material-tune: [__stream__](../objects//stream.md) The `stream` object collects the last N received numbers into a list.
+- :material-tune: [__stretch.shift~__](../objects/granular/stretch.shift~.md) The `stretch.shift~` object performs real-time independent time stretching and pitch shifting on live audio input.
+- :material-tune: [__sum~__](../objects/math/sum~.md) The `sum~` object takes a multi-channel audio signal and sums all its channels into a single mono output signal.
+- :material-tune: [__susloop~__](../objects/samplers/susloop~.md) The `susloop~` object generates a control signal for reading audio buffers, specifically designed for sustained looping of a section.
+- :material-tune: [__suspedal__](../objects/midi/suspedal.md) The `suspedal` object emulates a MIDI sustain pedal, holding `Note Off` messages when active and releasing them when deactivated.
+- :material-tune: [__svfilter~__](../objects/filters/svfilter~.md) The `svfilter~` object implements Chamberlin's state-variable filter algorithm.
+- :material-tune: [__swap2__](../objects/general_utilities/swap2.md) The `else/swap2` object swaps the order of two incoming messages.
+- :material-tune: [__symbol2any__](../objects/general_utilities/symbol2any.md) The `symbol2any` object converts an incoming symbol message into a generic 'any' message.
+- :material-tune: [__synth~__](../objects/midi/synth~.md) `synth~` is a Pure Data object that serves as a wrapper for loading and managing monophonic or polyphonic synthesizer abstractions.
+- :material-tune: [__sysrt.in__](../objects/midi/sysrt.in.md) The `sysrt.in` object detects and parses System and real-time MIDI messages from an incoming raw MIDI data stream.
+- :material-tune: [__sysrt.out__](../objects/midi/sysrt.out.md) The `sysrt.out` object formats and sends raw MIDI system real-time messages.
+- :material-tune: [__tabgen__](../objects/math/tabgen.md) `tabgen` is a Pure Data abstraction that generates various mathematical functions (e.g., sine, Gaussian, sinc, trapezoid, variable sawtooth, noise, and FFT window functions) and populates a specified table (array) with the generated data.
+- :material-tune: [__tabplayer~__](../objects/samplers/tabplayer~.md) `tabplayer~` is a multichannel array player for Pure Data, designed for flexible audio playback from tables.
+- :material-tune: [__tabreader__](../objects/data_structures/tabreader.md) The `tabreader` object reads values from a Pure Data array (table), supporting various interpolation methods like `lin`, `cos`, and `spline`.
+- :material-tune: [__tabreader~__](../objects/oscillators/tabreader~.md) The `tabreader~` object reads signal data from a Pure Data array (table).
+- :material-tune: [__tabwriter~__](../objects/data_structures/tabwriter~.md) The `tabwriter~` object records incoming audio signals into Pure Data arrays.
+- :material-tune: [__tap__](../objects/general_utilities/tap.md) The `tap` object detects tempo by analyzing the time interval between two consecutive bangs or the duration a gate is held open.
+- :material-tune: [__tempo__](../objects/procedural/tempo.md) The `tempo` object functions as a versatile metronome, sending bangs at a specified rate in BPM, milliseconds, or Hertz.
+- :material-tune: [__tempo~__](../objects/oscillators/tempo~.md) The `tempo~` object functions as a metronome, generating impulses at a specified tempo in BPM, milliseconds, or Hertz.
+- :material-tune: [__timed.gate__](../objects//timed.gate.md) The `timed.gate` object generates a timed gate signal.
+- :material-tune: [__timed.gate~__](../objects/procedural/timed.gate~.md) The `timed.gate~` object generates a timed gate signal or control output.
+- :material-tune: [__toggleff~__](../objects//toggleff~.md) The `toggleff~` object is a signal-rate toggle switch that outputs either 0 or 1.
+- :material-tune: [__touch.in__](../objects/midi/touch.in.md) The `touch.in` object extracts MIDI Aftertouch (channel pressure) information from either a connected MIDI device or an external raw MIDI data stream.
+- :material-tune: [__touch.out__](../objects/midi/touch.out.md) The `touch.out` object formats and sends MIDI aftertouch messages.
+- :material-tune: [__tremolo~__](../objects//tremolo~.md) The `tremolo~` object performs amplitude modulation on an input audio signal.
+- :material-tune: [__trig.delay2~__](../objects/delay/trig.delay2~.md) The `trig.delay2~` object delays an incoming impulse signal by a specified time in milliseconds.
+- :material-tune: [__trig.delay~__](../objects/multichannel/trig.delay~.md) The `trig.delay~` object delays an impulse signal by a specified time.
+- :material-tune: [__trig2bang__](../objects/general_utilities/trig2bang.md) The `trig2bang` object detects zero-to-non-zero transitions in an incoming signal (typically a float).
+- :material-tune: [__trig2bang~__](../objects//trig2bang~.md) The `trig2bang~` object detects zero to non-zero transitions within an audio signal.
+- :material-tune: [__trighold~__](../objects//trighold~.md) The `trighold~` object in Pure Data holds an audio signal's value when a trigger occurs.
+- :material-tune: [__tri~__](../objects/oscillators/tri~.md) `tri~` is a triangular wave oscillator that generates audio signals.
+- :material-tune: [__trunc__](../objects/math/trunc.md) The `trunc` object truncates floating-point numbers and lists of numbers towards zero, effectively extracting their integer part.
+- :material-tune: [__unite__](../objects/text/unite.md) The `unite` object concatenates incoming messages and converts them into a single symbol message.
+- :material-tune: [__unmerge__](../objects/data_structures/unmerge.md) The `unmerge` object splits an incoming message into multiple sub-messages, distributing elements into groups of a specified size across its outlets.
+- :material-tune: [__unmerge~__](../objects/routing/unmerge~.md) `unmerge~` separates the channels of a multichannel signal into groups of a specified size.
+- :material-tune: [__var__](../objects/data_structures/var.md) The `var` object in Pure Data functions as a variable storage mechanism, similar to `value`, but with the added capability to manage multiple named variables, including lists.
+- :material-tune: [__vca.m~__](../objects/multichannel/vca.m~.md) The `vca.m~` object is a mono Voltage Controlled Amplifier (VCA) that takes an audio signal and a control voltage (CV) to dynamically adjust the signal's amplitude.
+- :material-tune: [__vcf.m~__](../objects/filters/vcf.m~.md) `vcf.m~` is a single-channel lowpass filter module.
+- :material-tune: [__vco.m~__](../objects/midi/vco.m~.md) The `vco.m~` object is a polyphonic voltage-controlled oscillator for Pure Data, offering various waveforms including sine, triangle, saw, variable saw, and square.
+- :material-tune: [__velvet~__](../objects/stochastic/velvet~.md) `velvet~` is a velvet noise generator that produces audio by randomly choosing positive (1) or negative (-1) impulses at random positions within a specified frequency period.
+- :material-tune: [__vibrato~__](../objects/lfos/vibrato~.md) `vibrato~` is a pitch shifter that applies vibrato to an audio signal.
+- :material-tune: [__vocoder~__](../objects/multichannel/vocoder~.md) The `vocoder~` object is a classic channel vocoder used for cross-synthesis.
+- :material-tune: [__voices__](../objects/procedural/voices.md) The `voices` object manages voice allocation for polyphonic synthesizers, offering advanced features beyond `poly`.
+- :material-tune: [__voices~__](../objects/midi/voices~.md) The `voices~` object is a polyphonic voice allocator that generates multichannel signals for controlling pitch and gate.
+- :material-tune: [__vsaw~__](../objects/oscillators/vsaw~.md) `vsaw~` is a versatile audio oscillator that generates variable sawtooth and triangle waveforms.
+- :material-tune: [__vu~__](../objects/descriptors/vu~.md) The `vu~` object is an audio amplitude detector that combines the functionality of `else/rms~` and `else/peak~`.
+- :material-tune: [__wavetable~__](../objects/oscillators/wavetable~.md) `wavetable~` is an interpolating wavetable oscillator that reads audio data from a Pure Data array.
+- :material-tune: [__white~__](../objects/oscillators/white~.md) The `white~` object generates white noise using a pseudo-random number generator.
+- :material-tune: [__wrap2__](../objects/math/wrap2.md) The `wrap2` object constrains a numerical input value to a specified range by "wrapping" it around the minimum and maximum boundaries.
+- :material-tune: [__wrap2~__](../objects/math/wrap2~.md) The `wrap2~` object wraps an input signal between a specified low and high value.
+- :material-tune: [__wt2d~__](../objects/oscillators/wt2d~.md) The `wt2d~` object is a 2-dimensional wavetable oscillator that reads from a Pure Data array.
+- :material-tune: [__xfade.mc~__](../objects/multichannel/xfade.mc~.md) The `xfade.mc~` object crossfades between two multichannel audio sources.
+- :material-tune: [__xfade~__](../objects/multichannel/xfade~.md) The `xfade~` object crossfades between two audio sources, each supporting 1 to 64 channels.
+- :material-tune: [__xgate.mc~__](../objects/routing/xgate.mc~.md) The `xgate.mc~` object routes a multichannel audio input to a selected multichannel output.
+- :material-tune: [__xgate2.mc~__](../objects/routing/xgate2.mc~.md) The `xgate2.mc~` object routes a single input signal to multiple output channels within a multichannel signal.
+- :material-tune: [__xgate2~__](../objects/routing/xgate2~.md) `xgate2~` routes a single input signal to a specified number of output channels, applying crossfading between adjacent channels.
+- :material-tune: [__xgate~__](../objects/routing/xgate~.md) The `xgate~` object routes an incoming audio signal to one of its multiple outlets, supporting up to 500 channels.
+- :material-tune: [__xmod2~__](../objects/oscillators/xmod2~.md) The `xmod2~` object is a signal generator that performs frequency modulation (FM) using two internal oscillators.
+- :material-tune: [__xmod~__](../objects/oscillators/xmod~.md) `xmod~` performs cross-modulation of two sine oscillators.
+- :material-tune: [__xselect.mc~__](../objects/routing/xselect.mc~.md) The `xselect.mc~` object selects a specific channel from a multichannel audio connection, supporting up to 512 channels.
+- :material-tune: [__xselect2.mc~__](../objects/routing/xselect2.mc~.md) `xselect2.mc~` is a multichannel signal selector that crossfades between adjacent input channels.
+- :material-tune: [__xselect2~__](../objects/routing/xselect2~.md) The `xselect2~` object selects and crossfades between multiple audio input signals.
+- :material-tune: [__xselect~__](../objects/routing/xselect~.md) The `xselect~` object selects one of its multiple signal inputs and outputs it.
+- :material-tune: [__zbiplot__](../objects/filters/zbiplot.md) The `zbiplot` object visualizes biquad filter coefficients by plotting their poles and zeros on the Z-plane.
+- :material-tune: [__zerocross~__](../objects/descriptors/zerocross~.md) The `zerocross~` object detects zero-crossings in an audio signal.
 </div>

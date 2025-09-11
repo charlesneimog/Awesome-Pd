@@ -7,57 +7,58 @@ from typing import Dict, Any, List, Tuple
 LIBRARY_HELP_FILES = "/home/neimog/Documents/Pd/externals/Gem/"
 
 CATEGORIES_DESCRIPTIONS: Dict[str, str] = {
-    "Machine Learning": "General machine learning algorithms or tools.",
-    "Deep Learning": "Neural networks and deep learning models.",
-    "Neural Networks": "Artificial neural network structures used in AI.",
-    "Statical Models": "Statistical modeling tools used in AI.",
-    "Algorithm Composition": "Tools for composing or chaining algorithms.",
-    "Procedures": "Procedural logic or control.",
-    "Logic": "Boolean logic or logical operations.",
-    "Math": "Mathematical functions and calculations.",
-    "Routing": "Signal or data routing objects.",
-    "Envelopes": "Envelope generators or shapers.",
-    "LFOs": "Low frequency oscillators.",
-    "Sequencers": "Step or pattern sequencers.",
-    "MIDI": "For MIDI input, output, and MIDI parsing (not objects that just accept or output MIDI).",
-    "Reverb": "Audio effect for simulating reverberation.",
-    "Delay": "Audio effect for delaying signals.",
-    "Distortion": "Audio effect for distorting signals.",
-    "Chorus/Flanger/Phaser": "Modulation effects: chorus, flanger, phaser.",
-    "Filters": "Audio filters for modifying frequency response.",
-    "Dynamics": "Compression, expansion, or other dynamic range processing.",
-    "Partial Tracking": "Analysis, tracking, or synthesis of partials in audio.",
-    "Descriptors": "Audio descriptors or feature extraction (e.g., FFT, pitch, chroma, cepstrum).",
-    "Score Follower": "Follows a musical score in real-time.",
-    "VST2/VST3": "VST plugin support.",
-    "Vamp": "Vamp plugin support.",
-    "LADSPA": "LADSPA plugin support.",
-    "AU": "Audio Unit plugin support.",
-    "Ambisonics": "Ambisonic audio tools.",
-    "Binaural": "Binaural audio tools.",
-    "VBAP": "VBAP audio tools.",
-    "Subtractive": "Subtractive synthesis.",
-    "Additive": "Additive synthesis.",
-    "Granular": "Granular synthesis.",
-    "Oscillators": "Signal generators/oscillators.",
-    "Physical Modeling": "Physical modeling synthesis.",
-    "Samplers": "Sample playback/manipulation.",
-    "Stochastic": "Stochastic/random processes.",
-    "Data Structures": "Data storage and manipulation.",
-    "File IO": "File input/output.",
-    "Networking": "Network communication (e.g., HTTP, HTTPS, WebSocket).",
-    "MultiThreading": "Multi-threaded processing.",
-    "Patching": "Patch management or dynamic patching.",
-    "Multichannel": "Multichannel audio support.",
-    "GUI": "GUI objects that render widgets in the patch (e.g., keyboards, sliders, knobs).",
-    "Graphics": "Objects for visual rendering and graphics (e.g., GEM, video, OpenGL).",
-    "Audio IO": "Audio input/output interfaces for sound devices (e.g., adc~, dac~).",
-    "Control IO": "Objects for input from keyboard, mouse, joystick, and other HID devices.",
-    "General Utilities": "General utilities (e.g., system commands, helpers).",
-    "Text": "Objects to parse or manipulate text.",
-    "OSC": "Objects that work with Open Sound Control (OSC).",
-    "Extensions": "Objects that enable writing externals in other languages than C (e.g., pdlua, py4pd).",
+    "Machine Learning": "AI → General machine learning algorithms or tools for data analysis and prediction.",
+    "Deep Learning": "AI → Neural networks and deep learning models for complex pattern recognition.",
+    "Neural Networks": "AI → Artificial neural network structures used in AI tasks.",
+    "Statistical Models": "AI → Statistical modeling techniques for analyzing and predicting data.",
+    "Algorithmic Composition": "Composition → Tools for composing or chaining algorithms in a musical context.",
+    "Procedural": "Composition → Procedural logic or structured musical processes.",
+    "Logic": "Control → Boolean logic or logical operations for controlling signal or data flow.",
+    "Math": "Control → Mathematical functions and calculations used in signal processing and control.",
+    "Routing": "Control → Signal or data routing objects to direct flow between modules.",
+    "Envelopes": "Control → Envelope generators or shapers for controlling amplitude or other parameters.",
+    "LFOs": "Control → Low frequency oscillators for modulation purposes.",
+    "Sequencers": "Control → Step or pattern sequencers for timing and order of events.",
+    "MIDI": "Control → Objects for MIDI input, output, and parsing musical control messages.",
+    "Reverb": "Effects → Audio effect for simulating reverberation in signals.",
+    "Delay": "Effects → Audio effect for delaying signals with optional feedback.",
+    "Distortion": "Effects → Audio effect that alters and distorts the sound signal.",
+    "Chorus/Flanger/Phaser": "Effects → Modulation effects: chorus, flanger, or phaser for thickening or movement.",
+    "Filters": "Effects → Audio filters to modify frequency content of signals.",
+    "Dynamics": "Effects → Compression, expansion, or other dynamic range processing.",
+    "Partial Tracking": "MIR/Analysis → Analysis, tracking, or synthesis of partials in audio signals.",
+    "Descriptors": "MIR/Analysis → Audio descriptors or feature extraction (e.g., FFT, pitch, chroma).",
+    "Score Follower": "MIR/Analysis → Follows a musical score in real-time for synchronization.",
+    "VST2/VST3": "Plugins → Support for VST2/VST3 plugin integration.",
+    "Vamp": "Plugins → Support for Vamp plugin integration.",
+    "LADSPA": "Plugins → Support for LADSPA plugin integration.",
+    "AU": "Plugins → Support for Audio Unit plugin integration.",
+    "Ambisonics": "Spatialization → Ambisonic audio tools for spatial sound rendering.",
+    "Binaural": "Spatialization → Binaural audio tools for 3D sound perception.",
+    "VBAP": "Spatialization → Vector-based amplitude panning tools.",
+    "Subtractive": "Synthesis → Subtractive synthesis techniques.",
+    "Additive": "Synthesis → Additive synthesis techniques.",
+    "Granular": "Synthesis → Granular synthesis techniques.",
+    "Oscillators": "Synthesis → Signal generators or oscillators for sound creation.",
+    "Physical Modeling": "Synthesis → Physical modeling synthesis simulating real-world instruments.",
+    "Samplers": "Synthesis → Sample playback and manipulation.",
+    "Stochastic": "Synthesis → Stochastic or random process-based synthesis.",
+    "Data Structures": "Utilities → Data storage and manipulation objects.",
+    "File IO": "I/O → File input/output operations for audio, text, or patches.",
+    "Networking": "I/O → Network communication objects (TCP, UDP, WebSocket).",
+    "MultiThreading": "Utilities → Multi-threaded processing support.",
+    "Patching": "Utilities → Patch management or dynamic patching tools.",
+    "Multichannel": "Utilities → Multichannel audio support objects.",
+    "GUI": "Interfaces → GUI objects that render widgets in the patch (e.g., sliders, knobs).",
+    "Graphics": "Interfaces → Objects for visual rendering (e.g., GEM, video, OpenGL).",
+    "Audio IO": "I/O → Audio input/output interfaces for sound devices (e.g., adc~, dac~).",
+    "Control IO": "I/O → Objects for input from keyboard, mouse, joystick, or other HID devices.",
+    "General Utilities": "Utilities → General utilities for system commands and helper functions.",
+    "Text": "Utilities → Objects to parse or manipulate text data.",
+    "OSC": "I/O → Objects that work with Open Sound Control (OSC).",
+    "Extensions": "Extensions → Enable writing externals in languages other than C (e.g., Lua, Python)."
 }
+
 
 # Stable ordered list of category keys
 CATEGORIES: List[str] = list(CATEGORIES_DESCRIPTIONS.keys())
@@ -65,12 +66,12 @@ CATEGORIES: List[str] = list(CATEGORIES_DESCRIPTIONS.keys())
 PROMPT_TEMPLATE = """You are both a technical writer and a classifier.
 Task:
 1) Write a concise, clear English description (2–3 sentences max) of the Pure Data object described by the help patch. Focus on what the object does, its purpose, and any evident usage hints. Keep it simple, practical, and readable. Wrap Pure Data object names in inline code using backticks (e.g., `osc~`, `route`, `nn~`).
-2) Score ALL categories (listed below) with a confidence between 0.0 and 1.0 for how well the object's functionality fits each category, using the provided category descriptions for guidance.
+2) Score ALL categories (listed below) with a confidence between 0.0 and 1.0 for how well the object's functionality fits each category. Consider the category description carefully, which now includes its parent category. 
 
-Important: Use the exact category name as the key for scoring, but rely on the category description to understand what each category means.
+Important: Use the exact category name as the key for scoring, but rely on the description (which includes parent context) to understand each category's scope.
 
 Output rules:
-- Return ONLY a valid JSON object (no markdown and no extra text).
+- Return ONLY a valid JSON object (no extra text).
 - The JSON must have exactly these top-level keys:
   - "description": string (markdown allowed)
   - "scores": object mapping each category name to a float (0.0–1.0)
@@ -85,7 +86,7 @@ Categories (JSON object where key = category name, value = description):
 Object title:
 {TITLE}
 
-Help Patch (.pd text): The content below is delimited by triple pipes. Treat everything between the delimiter lines as the literal .pd help patch text. Do not include the delimiters in your reasoning.
+Help Patch (.pd text): The content below is delimited by triple pipes. Treat everything between the delimiter lines as the literal .pd help patch text. Do not modify it.
 ```pd
 {PATCH_TEXT}
 ```

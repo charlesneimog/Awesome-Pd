@@ -1,0 +1,28 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "sequencer~",
+    "description": "The `sequencer~` object outputs values from a predefined sequence when triggered by a signal (0 to non-0 transition) or a bang. You can set the sequence using a list of floats and navigate to specific positions within it. It also outputs an impulse when the end of the sequence is reached.",
+    "categories": [
+        "Procedural",
+        "Sequencers"
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "AI": {
+        "Machine Learning": [],
+        "Deep Learning": [],
+        "Neural Networks": [],
+        "Statistical Models": []
+    },
+    "Composition": {
+        "Algorithmic": [],
+        "Procedural": [],
+        "Stochastic / Probabilistic": [],
+        "Score-based": []
+    },
+    "Control": {
+        "Logic": [],
+        "Math": [],
+        "Routing": [],
+        "Envelopes": [],
+        "LFOs": [],
+        "Sequencers": [],
+        "MIDI": []
+    },
+    "Effects": {
+        "Reverb": [],
+        "Delay": [],
+        "Distortion": [],
+        "Chorus/Flanger/Phaser": [],
+        "Filters": [],
+        "Dynamics": []
+    },
+    "MIR / Analysis": {
+        "Partial Tracking": [],
+        "Descriptors": [],
+        "Score Follower": []
+    },
+    "Synthesis": {
+        "Subtractive": [],
+        "Additive": [],
+        "Granular": [],
+        "Oscillators": [],
+        "Physical Modeling": [],
+        "Samplers": [],
+        "Stochastic": [],
+        "Spectral / Resynthesis": []
+    },
+    "Analysis / Transform": {
+        "FFT": [],
+        "Spectral Processing": [],
+        "Wavelets": []
+    },
+    "Plugins": {
+        "VST2/VST3": [],
+        "Vamp": [],
+        "LADSPA": [],
+        "AU": []
+    },
+    "Spatialization": {
+        "Ambisonics": [],
+        "Binaural": [],
+        "VBAP": []
+    },
+    "I/O": {
+        "File I/O": [],
+        "Audio I/O": [],
+        "Control I/O": [],
+        "Networking": [],
+        "OSC": []
+    },
+    "Utilities": {
+        "General Utilities": [],
+        "Data Structures": [],
+        "MultiThreading": [],
+        "Patching": [],
+        "Multichannel": [],
+        "Text": [],
+        "Debugging": []
+    },
+    "Interfaces": {
+        "GUI": [],
+        "Graphics": []
+    },
+    "Scripting": {
+        "Python": [],
+        "Lua": []
+    }
+}

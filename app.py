@@ -5,12 +5,12 @@ from html import escape
 from typing import Dict, List, Union
 from urllib.parse import parse_qs, urlparse
 import sys
+import copy
 
 import requests
 import yaml
 
-# use this to add object using IA + help processor
-# https://chatgpt.com/c/68bc1a52-7f84-8328-8dbb-13b4c294b3a0
+# TODO: Need to update the nav
 
 
 class AwesomePd:
@@ -62,9 +62,15 @@ class AwesomePd:
     """
 
     THIS_DIR = os.path.dirname(__file__)
+    DIR_DOCS = "docs/"
+    DIR_OBJECT_RAW = "docs/object_raw"
+    DIR_OBJECT_RAW = "docs/object_md"
+    OWNER = "charlesneimog"
+    REPO = "Awesome-Pd"
 
     def __init__(self, update_docs: bool = False) -> None:
-        with open("docs/submit-external/categories.json", "r", encoding="utf-8") as f:
+        # TODO: final.json
+        with open("final.json", "r", encoding="utf-8") as f:
             self.objects: Dict[str, Union[dict, list]] = json.load(f)
         with open("mkdocs.yml", "r", encoding="utf-8") as f:
             self.config = yaml.load(f, Loader=yaml.UnsafeLoader)
@@ -82,11 +88,11 @@ class AwesomePd:
         self.videos = list({item["link"]: item for item in self.videos}.values())
         self.music = list({item["link"]: item for item in self.music}.values())
         self.articles = list({item["link"]: item for item in self.articles}.values())
-        with open("docs/all_videos.json", "w") as f:
+        with open(f"{self.DIR_DOCS}/all_videos.json", "w") as f:
             json.dump(self.videos, f, indent=4)
-        with open("docs/all_music.json", "w") as f:
+        with open(f"{self.DIR_DOCS}/all_music.json", "w") as f:
             json.dump(self.music, f, indent=4)
-        with open("docs/all_articles.json", "w") as f:
+        with open(f"{self.DIR_DOCS}/all_articles.json", "w") as f:
             json.dump(self.articles, f, indent=4)
 
     # --------------------------
@@ -94,9 +100,7 @@ class AwesomePd:
     # --------------------------
 
     def _get_open_issues(self) -> List[dict]:
-        owner = "charlesneimog"
-        repo = "Awesome-Pd"
-        url = f"https://api.github.com/repos/{owner}/{repo}/issues?state=open"
+        url = f"https://api.github.com/repos/{self.OWNER}/{self.REPO}/issues?state=open"
         headers = {"Accept": "application/vnd.github+json"}
         response = requests.get(url, headers=headers)
         response.raise_for_status()
@@ -145,7 +149,7 @@ class AwesomePd:
 
         if project.get("download_link") or project.get("available_on_deken"):
             deken_text = (
-                " or use [Deken](../deken.md)."
+                " or use [Deken](../../deken.md)."
                 if project.get("available_on_deken")
                 else ""
             )
@@ -160,7 +164,7 @@ class AwesomePd:
                 )
             else:
                 download_line = (
-                    f":octicons-download-16: __Download__ via [Deken](../deken.md)."
+                    f":octicons-download-16: __Download__ via [Deken](../../deken.md)."
                 )
             if project.get("library_name"):
                 download_line += f'  <p style="font-size: 14px">_Open `Pd` and go to `Tools`:material-arrow-right:`Find Externals`. Search for <code>{project["library_name"]}</code> and install it. Then create an object with `declare -lib {project["library_name"]} -path {project["library_name"]}`. Finally, use `{obj_name}` or any other object from `{project["library_name"]}`._</p>'
@@ -285,7 +289,9 @@ nicknames.forEach(nick => {{
         Iterate over docs/objects/*.json and produce corresponding .md files.
         Output must be identical to the original implementation.
         """
-        json_dir = os.path.join(self.THIS_DIR, "docs/objects")
+
+        obj_dir = os.path.join(self.THIS_DIR, "docs/objects")
+        json_dir = os.path.join(self.THIS_DIR, "docs/objects_raw")
         json_files = os.listdir(json_dir)
 
         libraries = {}
@@ -318,7 +324,7 @@ nicknames.forEach(nick => {{
             if project.get("ai", False):
                 md += """
 !!! info "AI Generated"
-    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../submit.md). Check the prompt used [here](../prompts/helppatchai.md).\n\n---\n
+    This content was generated with the assistance of AI. If you notice any errors, please report them or submit a fix using [Submit](../../submit.md). Check the prompt used [here](../../prompts/helppatchai.md).\n\n---\n
 """
 
             # Info lines inside grid
@@ -346,19 +352,27 @@ nicknames.forEach(nick => {{
             if json_file.replace(".json", "") == "index":
                 json_file = f"{lib}_{json_file}"
 
-            output_path = os.path.join(
-                self.THIS_DIR, "docs/objects", json_file.replace(".json", ".md")
-            )
+            first = True
+            for c in project["categories"]:
+                final_md = md
+                if not first:
+                    final_md = f"---\nsearch:\n    exclude: true\n---\n\n" + md
 
-            os.makedirs(os.path.dirname(output_path), exist_ok=True)
-            with open(output_path, "w", encoding="utf-8") as out_file:
-                out_file.write(md)
+                c = c.replace(" ", "_").replace("/", "_").lower()
+                output_path = os.path.join(
+                    self.THIS_DIR, obj_dir, c, json_file.replace(".json", ".md")
+                )
+                os.makedirs(os.path.dirname(output_path), exist_ok=True)
+                with open(output_path, "w", encoding="utf-8") as out_file:
+                    out_file.write(final_md)
+                first = False
 
         # TODO: Put this in another function
         for lib in libraries:
             thislib = libraries[lib]
             file = f"docs/libraries/{lib}.json"
             if not os.path.exists(file):
+                # TODO: add here gitlab
                 thislib["link"] = thislib["issues"].replace("issues", "")
                 with open(file, "w") as f:
                     json.dump(thislib, f, indent=4)
@@ -407,47 +421,46 @@ nicknames.forEach(nick => {{
     # Navigation Helpers
     # --------------------------
     def update_main_json_of_objects(self):
-        all_files = os.listdir(self.THIS_DIR + "/docs/objects")
-        print()
-        print("Updating main object json")
-        print()
-        for file in all_files:
-            json_path = self.THIS_DIR + f"/docs/objects/{file}"
-            if file.endswith(".json"):
-                with open(json_path, "r") as f:
-                    object_data = json.load(f)
-
-                obj_name = object_data["title"]
-                if obj_name == "index":
-                    obj_name = object_data["library_name"] + "_" + obj_name
-
-                categories = object_data["categories"]
-                print(f"Updating json : {obj_name}")
-                for category in categories:
-                    if self.found_category(
-                        category, {obj_name: f"objects/{obj_name}.md"}
-                    ):
-                        with open(
-                            "docs/submit-external/categories.json",
-                            "w",
-                            encoding="utf-8",
-                        ) as f:
-                            json.dump(self.objects, f, indent=4, ensure_ascii=False)
-                    else:
-                        raise Exception(f"Categoria '{category}' não encontrada")
+        """
+        (Opcional) Se você quiser parar de inserir 'objects/<obj>.md', comente a chamada de found_category.
+        """
+        pass
+        # all_files = os.listdir(self.THIS_DIR + "/docs/objects_raw")
+        # print("\nUpdating main object json\n")
+        # for file in all_files:
+        #     if not file.endswith(".json"):
+        #         continue
+        #     json_path = self.THIS_DIR + f"/docs/objects_raw/{file}"
+        #     with open(json_path, "r", encoding="utf-8") as f:
+        #         object_data = json.load(f)
+        #
+        #     obj_name = object_data["title"]
+        #     if obj_name == "index":
+        #         obj_name = object_data["library_name"] + "_" + obj_name
+        #
+        #     categories = object_data["categories"]
+        #     print(f"Updating json : {obj_name}")
+        #     for category in categories:
+        #         if self.found_category(category, {obj_name: f"objects/{obj_name}.md"}):
+        #             with open(
+        #                 "docs/submit-external/categories.json",
+        #                 "w",
+        #                 encoding="utf-8",
+        #             ) as f:
+        #                 json.dump(self.objects, f, indent=4, ensure_ascii=False)
+        #         else:
+        #             raise Exception(f"Categoria '{category}' não encontrada")
 
     def build_obj_abs_nav(self, d: dict) -> dict:
         """ """
-        objdir = "docs/objects/"
+        objdir = "docs/objects_raw/"
         files = os.listdir(objdir)
         categories = {}
-
         for file in files:
             if file.endswith(".json"):
                 with open(f"{objdir}{file}", "r") as f:
                     data = json.load(f)
 
-                # TODO: replace by get
                 name = data["title"]
                 if name == "index":
                     name = data["library_name"] + "_" + name
@@ -460,36 +473,58 @@ nicknames.forEach(nick => {{
 
         return categories
 
+    def add_md_to_category(self, d: dict, objname: str, category: str, value: str):
+        """
+        Procura recursivamente a categoria e adiciona o value na lista correspondente,
+        evitando duplicações do mesmo objeto.
+        """
+        for k, v in d.items():
+            if k == category and isinstance(v, list):
+                if len(v) == 0:
+                    c = category.replace(" ", "_").replace("/", "_").lower()
+                    v.append(f"objects/{c}/index.md")
+                for item in v:
+                    if isinstance(item, dict) and objname in item:
+                        return True
+                v.append({objname: value})
+                return True
+            elif isinstance(v, dict):
+                if self.add_md_to_category(v, objname, category, value):
+                    return True
+        return False
+
     def obj_dict_to_nav(self, d: dict) -> list:
         """
-        Convert a nested dict to a mkdocs 'nav' list structure for Objects & Abstractions.
-        - "Object of day" always comes first if present.
-        - Dicts recurse into obj_dict_to_nav.
-        - Lists collapse into a single .md entry under categories/.
+        Constrói a nav SEM mutar self.objects.
+        Lê os JSONs em docs/objects_raw e monta uma estrutura temporária.
         """
-        nav_list = []
-        if "Object of day" in d:
-            value = d["Object of day"]
-            if isinstance(value, dict):
-                nav_list.append({"Object of day": self.obj_dict_to_nav(value)})
-            else:
-                nav_list.append({"Object of day": value})
+        temp = copy.deepcopy(d)
+        all_json = os.listdir("docs/objects_raw")
 
-        # Process the rest in sorted order, skipping the special key
-        for key, value in sorted(d.items()):
-            if key == "Object of day":
+        for j in all_json:
+            if not j.endswith(".json"):
                 continue
-            if isinstance(value, dict):
-                nav_list.append({key: self.obj_dict_to_nav(value)})
-            elif isinstance(value, list):
-                # Collapse into categories/<snake_case>.md, then append list items
-                slug = key.lower().replace(" ", "_").replace("/", "_")
-                category_entry = [f"categories/{slug}/index.md"] + value
-                nav_list.append({key: category_entry})
-            else:
-                nav_list.append({key: value})
+            with open(f"docs/objects_raw/{j}", "r", encoding="utf-8") as f:
+                obj = json.load(f)
+            objname = obj["title"]
+            if objname == "index":
+                objname = obj["library_name"] + "_" + objname
+            for c in obj["categories"]:
+                c_key = c.replace(" ", "_").replace("/", "_").lower()
+                value = f"objects/{c_key}/{objname}.md"
+                self.add_md_to_category(temp, objname, c, value)
 
-        return nav_list
+        def recurse(x):
+            nav_list = []
+            for key, value in sorted(x.items()):
+                if isinstance(value, dict):
+                    nav_list.append({key: recurse(value)})
+                else:
+                    if len(value) != 0:
+                        nav_list.append({key: value})
+            return nav_list
+
+        return ["objects/index.md"] + recurse(temp)
 
     def dict_to_nav(self, d: dict) -> list:
         """
@@ -498,18 +533,8 @@ nicknames.forEach(nick => {{
         """
         nav_list = []
 
-        # Force "Object of day" to the front if present
-        if "Object of day" in d:
-            value = d["Object of day"]
-            if isinstance(value, dict):
-                nav_list.append({"Object of day": self.dict_to_nav(value)})
-            else:
-                nav_list.append({"Object of day": value})
-
         # Process the rest in sorted order, skipping the special key
         for key, value in sorted(d.items()):
-            if key == "Object of day":
-                continue
             if isinstance(value, dict):
                 nav_list.append({key: self.dict_to_nav(value)})
             else:
@@ -517,13 +542,16 @@ nicknames.forEach(nick => {{
 
         return nav_list
 
-    def found_category(self, target_key: str, new_data: dict, obj: dict = None) -> bool:
+    def found_category(
+        self, target_key: str, new_data: dict, obj: dict | None = None
+    ) -> bool:
         """
         Procura target_key dentro de obj (dict aninhado) e insere new_data
         apenas dentro da lista correspondente a target_key.
         """
         if obj is None:
             obj = self.objects
+
         for key, value in obj.items():
             if key == target_key:
                 if isinstance(value, list):
@@ -571,7 +599,9 @@ nicknames.forEach(nick => {{
         libraries: Dict[str, List[List[str]]] = {}
         all_objects: List[str] = []
 
-        for root, _, files in os.walk(os.path.join(self.THIS_DIR, "docs", "objects")):
+        for root, _, files in os.walk(
+            os.path.join(self.THIS_DIR, "docs", "objects_raw")
+        ):
             for filename in files:
                 filepath = os.path.join(root, filename)
                 if filepath.endswith(".json"):
@@ -588,14 +618,28 @@ nicknames.forEach(nick => {{
                                 description = (
                                     object_json["description"].split(". ")[0] + "."
                                 )
+                                c = ""
+                                if len(object_json["categories"]) > 0:
+                                    c = (
+                                        object_json["categories"][0]
+                                        .replace("/", "_")
+                                        .replace(" ", "_")
+                                        .lower()
+                                    )
+
                                 if libname not in libraries:
                                     libraries[libname] = []
-                                libraries[libname].append([objname, description])
+                                libraries[libname].append(
+                                    [
+                                        objname,
+                                        description,
+                                        f"../objects/{c}/{objname}.md",
+                                    ]
+                                )
 
         with open("docs/all_objects.json", "w", encoding="utf-8") as f:
             json.dump(all_objects, f, indent=4, ensure_ascii=False)
 
-        # create libraries markdown files
         # update libraries
         nav_libs: Dict[str, str] = {}
         print("")
@@ -616,10 +660,8 @@ nicknames.forEach(nick => {{
 
             url = lib_data["link"]
             parts = url.rstrip("/").split("/")
-
             repo_owner = parts[-2]  # "porres"
             repo_name = parts[-1]  # "pd-else"
-
             libmarkdownfile += f"""
 <script>
 async function updateList() {{
@@ -651,10 +693,9 @@ updateList();
             objects_list = libraries[lib]
             for obj in sorted(objects_list):
                 text = obj[1]
-                # remove links
                 text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
                 libmarkdownfile += (
-                    f"- :material-tune: [__{obj[0]}__](../objects/{obj[0]}.md) {text}\n"
+                    f"- :material-tune: [__{obj[0]}__]({obj[2]}) {text}\n"
                 )
             libmarkdownfile += "</div>"
             with open(
@@ -687,15 +728,14 @@ updateList();
             for d in descriptions:
                 obj = d[0]
                 des = d[1]
-                c_md += f"- :material-tune: [__{obj}__](../../objects/{obj}.md) {des}\n"
+                c_md += f"- :material-tune: [__{obj}__]({obj}.md) {des}\n"
             c_md += "\n</div>"
-            os.makedirs(f"docs/categories/{c_name}/", exist_ok=True)
-            with open(f"docs/categories/{c_name}/index.md", "w") as f:
+            with open(f"docs/objects/{c_name}/index.md", "w") as f:
                 f.write(c_md)
 
         # Update mkdocs config
         self.config["nav"] = nav
-        with open("mkdocs.yml", "w", encoding="utf-8") as f:
+        with open("mkdocs2.yml", "w", encoding="utf-8") as f:
             yaml.dump(
                 self.config, f, default_flow_style=False, sort_keys=False, indent=4
             )

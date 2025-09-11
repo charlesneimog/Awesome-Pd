@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pix_contrast",
+    "description": "`pix_contrast` is a GEM object designed to adjust the contrast and saturation of an input image. It accepts an image via its first inlet and float values for contrast and saturation via its second and third inlets, respectively. For grayscale images, only contrast can be modified, and both parameters must be non-negative, with a value of 1.0 indicating no change.",
+    "categories": [
+        "Graphics"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "cylinder",
+    "description": "The `cylinder` object renders a 3D cylinder shape within the GEM environment, utilizing OpenGL. It allows users to control the cylinder's size and the number of segments for its rendering. Additionally, its visual appearance can be modified via a `draw` message to display it as lines, filled, or points.",
+    "categories": [
+        "Graphics"
+    ]
+}

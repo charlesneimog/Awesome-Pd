@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "gemlist_matrix",
+    "description": "`gemlist_matrix` is a Pure Data object within the GEM library that retrieves the current transformation matrix of an incoming `gemlist`. It outputs the original `gemlist` and the 16-float transformation matrix, enabling programmatic access and manipulation of 3D object transformations.",
+    "categories": [
+        "Graphics"
+    ]
+}
