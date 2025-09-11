@@ -1,0 +1,28 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "stack",
+    "description": "The `stack` object stores and manages sequences of messages, outputting them one by one upon receiving a `bang`. It supports both First-In, First-Out (FIFO) and Last-In, First-Out (LIFO) ordering, which can be configured as an argument. Users can add messages, clear the stack, or dump all contents, and its internal state can be viewed and edited via a dedicated window.",
+    "categories": [
+        "Data Structures",
+        "Text"
+    ]
+}

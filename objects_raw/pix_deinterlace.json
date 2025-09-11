@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pix_deinterlace",
+    "description": "The `pix_deinterlace` object applies a deinterlacing algorithm to incoming images, primarily by averaging neighboring rows. It can operate in an automatic mode (`0`) that detects interlacing or a forced mode (`1`) that always deinterlaces the image. This object is useful for processing interlaced video frames within GEM.",
+    "categories": [
+        "Graphics"
+    ]
+}

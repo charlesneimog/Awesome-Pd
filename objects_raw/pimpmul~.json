@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pimpmul~",
+    "description": "`pimpmul~` is a signal object designed to multiply the phase signal of `pimp~` or `phasor~` objects. It enables the synchronization of these oscillators at various frequency ratios, outputting both the multiplied phase signal and an impulse at each period transition.",
+    "categories": [
+        "Oscillators"
+    ]
+}

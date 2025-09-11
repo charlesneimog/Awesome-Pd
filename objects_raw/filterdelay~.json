@@ -1,0 +1,28 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "filterdelay~",
+    "description": "The `filterdelay~` object is a high-level audio delay unit that incorporates a resonant lowpass filter, a soft clipper, and a DC filter within its feedback path. It allows for control over delay time, feedback amount, filter cutoff, resonance, and wet/dry mix. The object can also be frozen or cleared, making it suitable for creating complex, filtered echo and reverb-like effects.",
+    "categories": [
+        "Delay",
+        "Filters"
+    ]
+}

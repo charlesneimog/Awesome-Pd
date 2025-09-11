@@ -1,0 +1,28 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "cents2scale",
+    "description": "The `cents2scale` object converts a list of intervals, expressed in cents, into a scale defined by semitone steps. It is useful for translating microtonal or fine-tuned pitch relationships into a standard musical scale representation.",
+    "categories": [
+        "Math",
+        "General Utilities"
+    ]
+}

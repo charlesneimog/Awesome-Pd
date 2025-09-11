@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "highshelf~",
+    "description": "The `highshelf~` object is a 2nd order highshelf filter designed to modify the high-frequency content of an audio signal. It allows control over the shelving frequency, slope, and gain in decibels, enabling precise tonal shaping.",
+    "categories": [
+        "Filters"
+    ]
+}

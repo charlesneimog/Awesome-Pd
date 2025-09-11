@@ -1,0 +1,28 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "cycle",
+    "description": "The `cycle` object distributes incoming messages to its outlets in a round-robin fashion. Each subsequent message is sent to the next available outlet, wrapping around to the first after the last has been used. It can operate in a default mode, cycling continuously, or an \"event sensitive\" mode where each new event restarts the output from the first outlet.",
+    "categories": [
+        "Routing",
+        "General Utilities"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "args",
+    "description": "The `args` object in Pure Data manages and manipulates arguments passed to an abstraction. It can load existing arguments, output them as a list, or dynamically set new arguments. This object is particularly useful for handling a variable number of arguments and for configuring abstractions within a patch.",
+    "categories": [
+        "Patching"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "buffir~",
+    "description": "The `buffir~` object is a table/buffer-based Finite Impulse Response (FIR) filter. It convolves an input signal with samples from a specified buffer, effectively applying the buffer's content as an impulse response. This allows for flexible filtering operations, though it only reads the first channel of multichannel buffers.",
+    "categories": [
+        "Filters"
+    ]
+}

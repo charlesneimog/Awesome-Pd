@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "gemsdlwindow",
+    "description": "`gemsdlwindow` is a Pure Data object that utilizes the SDL (Simple DirectMedia Layer) toolkit to create and manage graphical windows. It allows for setting window properties like title, dimensions, position, and full-screen mode, and activates an OpenGL context for rendering. The object also provides feedback related to window events, including keyboard input.",
+    "categories": [
+        "Graphics"
+    ]
+}

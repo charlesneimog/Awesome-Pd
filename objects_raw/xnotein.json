@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "xnotein",
+    "description": "The `xnotein` object parses raw MIDI data streams, providing more detailed information than the standard `notein` object. It outputs the MIDI note number, the velocity for both Note On and Note Off messages, and a state indicator for Note On (1) or Note Off (0). This object is particularly useful for capturing release velocity from MIDI devices.",
+    "categories": [
+        "MIDI"
+    ]
+}

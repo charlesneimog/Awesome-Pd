@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "lace~",
+    "description": "The `lace~` object interleaves two or more multichannel audio signals. It takes multiple multichannel signals as input and outputs a single multichannel signal where the channels from the inputs are interleaved. An optional `-z` flag can be used to pad shorter multichannel signals with zeros to match the channel count of the longest input.",
+    "categories": [
+        "Multichannel"
+    ]
+}

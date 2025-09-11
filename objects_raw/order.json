@@ -1,0 +1,28 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "order",
+    "description": "The `order` object splits an incoming list into successive sub-lists of a specified size, assigning an ordered index to each. This utility is particularly useful for distributing individual values or segments of a list to multiple instances of an object, commonly in conjunction with `clone` for parallel processing. It ensures that even partial lists at the end are output.",
+    "categories": [
+        "Data Structures",
+        "General Utilities"
+    ]
+}

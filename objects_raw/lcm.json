@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "lcm",
+    "description": "The `lcm` object calculates the least common multiple (LCM) of two or more numbers. It truncates float inputs to integers for calculation, treating negative values and zero (as one) appropriately. The object can compute the LCM of two numbers via its inlets or a list of numbers provided to its left inlet.",
+    "categories": [
+        "Math"
+    ]
+}

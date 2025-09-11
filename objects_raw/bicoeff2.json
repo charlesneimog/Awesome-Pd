@@ -1,0 +1,28 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "bicoeff2",
+    "description": "The `bicoeff2` object generates coefficients for Pure Data's native `biquad~` object, allowing users to easily create various filter types such as lowpass, highpass, bandpass, and shelving filters. It takes parameters like frequency, Q/slope, and gain, simplifying the process of designing biquad filters without manual coefficient calculation. This object acts as a utility to configure `biquad~` for specific filtering needs.",
+    "categories": [
+        "Filters",
+        "Math"
+    ]
+}

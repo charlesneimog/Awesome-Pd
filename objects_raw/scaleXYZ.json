@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "scaleXYZ",
+    "description": "The `scaleXYZ` object scales a GEM (Graphics Environment for Multimedia) object along its X, Y, and Z axes. It accepts a `gemlist` to modify the current transformation matrix, with individual scaling factors for each axis controllable via separate float inlets.",
+    "categories": [
+        "Graphics"
+    ]
+}

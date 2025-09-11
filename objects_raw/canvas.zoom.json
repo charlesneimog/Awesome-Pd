@@ -1,0 +1,28 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "canvas.zoom",
+    "description": "The `canvas.zoom` object reports the zoom status of a Pure Data patch window. It outputs `1` when the window is in zoom mode and `0` when it is not, updating at load time and when the zoom status changes. You can also query its status with a bang, and specify a `depth` argument to query the zoom status of parent patches.",
+    "categories": [
+        "GUI",
+        "Patching"
+    ]
+}

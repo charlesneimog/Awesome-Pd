@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "crossover~",
+    "description": "The `crossover~` object implements a 3rd order Butterworth crossover filter. It takes an audio signal and a cutoff frequency as input, providing separate lowpass and highpass filtered outputs. This allows for splitting an audio signal into different frequency bands.",
+    "categories": [
+        "Filters"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "bondo",
+    "description": "The `bondo` object in Pure Data synchronizes and routes incoming messages. It can distribute elements of multi-element messages across its outlets or collect messages over a specified time interval before outputting them all at once. This allows for flexible control over message flow and timing within a patch.",
+    "categories": [
+        "Routing"
+    ]
+}

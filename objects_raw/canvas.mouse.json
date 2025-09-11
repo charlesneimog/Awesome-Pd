@@ -1,0 +1,28 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "canvas.mouse",
+    "description": "The `canvas.mouse` object captures mouse click status and coordinates within a Pure Data canvas. It can be configured to report coordinates relative to parent patches or subpatches, and to output data even when in edit mode.",
+    "categories": [
+        "Control I/O",
+        "GUI"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "spread",
+    "description": "The `spread` object routes incoming lists to different outlets based on a comparison of the list's first element to a set of arguments. Similar to `moses`, it provides conditional routing but offers multiple comparison arguments and an additional mode for splitting lists. This allows for flexible distribution of data based on numerical thresholds.",
+    "categories": [
+        "Routing"
+    ]
+}

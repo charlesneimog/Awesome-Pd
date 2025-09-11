@@ -1,0 +1,28 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "bpm",
+    "description": "The `bpm` object converts between beats per minute (BPM) and other time units. By default, it converts to and from milliseconds (ms), but it can also be configured to convert to and from samples using the `-samps` argument. This object is useful for tempo-related calculations in Pure Data patches.",
+    "categories": [
+        "Math",
+        "General Utilities"
+    ]
+}

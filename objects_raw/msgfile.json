@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://git.iem.at/pd/zexy/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "msgfile",
+    "description": "The `msgfile` object reads and writes messages to text files, extending the functionality of `textfile`. It allows for in-place editing of file content, including inserting, appending, deleting, and replacing lines. It also provides navigation, searching, and debugging features, and can handle CSV files.",
+    "categories": [
+        "File I/O",
+        "Data Structures",
+        "Text"
+    ]
+}

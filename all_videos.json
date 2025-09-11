@@ -1,0 +1,23 @@
+[
+    {
+        "title": "IRCAM Tutorials / RAVE - Neural Synthesis in Max",
+        "authors": [
+            "Ircam"
+        ],
+        "link": "https://www.youtube.com/watch?v=Dy1WTc022rQ&source_ve_path=MjM4NTE"
+    },
+    {
+        "title": "Neural audio timbre transfer with RAVE trained on Amen breaks using nn~ in Pure Data",
+        "authors": [
+            "MARTSM_N /// martsman"
+        ],
+        "link": "https://www.youtube.com/watch?v=zBkDPgTyVCY"
+    },
+    {
+        "title": "VST Plugins Inside of Pure Data!",
+        "authors": [
+            "Sound Simulator"
+        ],
+        "link": "https://www.youtube.com/watch?v=Cs0NPime0kU"
+    }
+]

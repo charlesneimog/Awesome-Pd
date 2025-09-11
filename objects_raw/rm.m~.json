@@ -1,0 +1,25 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "rm.m~",
+    "description": "The `rm.m~` object is a wrapper for the `rm~` (ring modulator) object from the ELSE library. It performs ring modulation on an audio signal, combining it with a carrier frequency. It provides control over the carrier frequency and an \"att\" parameter, likely related to attack or amplitude.",
+    "categories": []
+}

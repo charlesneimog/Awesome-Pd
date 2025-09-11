@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "xbendin",
+    "description": "The `xbendin` object retrieves 14-bit pitch bend messages from raw MIDI input data. It outputs the 14-bit pitch bend value (0-16383) and optionally the MIDI channel. This object is considered redundant and deprecated, with `bendin` or `cyclone/midiparse` being preferred alternatives.",
+    "categories": [
+        "MIDI"
+    ]
+}

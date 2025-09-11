@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "switch",
+    "description": "The `switch` object in Pure Data acts as a message router, allowing only one of its 'n' inlets to pass data through to its single outlet at a time. The leftmost inlet controls which of the other inlets is \"switched on\" by receiving a float value (0 closes all, positive integers select the corresponding inlet). It can handle any type of message.",
+    "categories": [
+        "Routing"
+    ]
+}

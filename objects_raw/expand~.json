@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "expand~",
+    "description": "The `expand~` object functions as an audio expander, attenuating an input signal when its level falls below a specified threshold. It provides control over the threshold, attenuation ratio, and attack and release times for dynamic processing.",
+    "categories": [
+        "Dynamics"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "batch.write~",
+    "description": "The `batch.write~` object is an abstraction built upon `tabwriter~` that facilitates batch recording of audio signals into Pure Data arrays. It efficiently captures audio streams from signal-generating objects into specified arrays, outputting a bang when recording completes. It supports recording up to 64 channels.",
+    "categories": [
+        "Data Structures"
+    ]
+}

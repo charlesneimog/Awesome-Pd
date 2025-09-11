@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "comb.filt~",
+    "description": "The `comb.filt~` object implements a feedback comb filter, designed primarily for use as a resonator. It processes an audio signal by adding a delayed and attenuated version of itself, creating a series of notches and peaks in the frequency response. Parameters include delay time (in Hz or milliseconds) and a decay coefficient, which can be set as a 60dB decay time (t60) or a direct gain value.",
+    "categories": [
+        "Delay",
+        "Filters",
+        "Reverb"
+    ]
+}

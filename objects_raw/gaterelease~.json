@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "gaterelease~",
+    "description": "The `gaterelease~` object releases an audio-rate gate signal after a specified time in milliseconds, allowing for timed gate control even when other gates are held. If the input gate closes before the release time, the object resets, and a release time of 0 or less bypasses the object. It supports multichannel operation.",
+    "categories": [
+        "Multichannel",
+        "Logic",
+        "General Utilities"
+    ]
+}

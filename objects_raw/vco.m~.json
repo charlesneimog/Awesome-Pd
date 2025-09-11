@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "vco.m~",
+    "description": "The `vco.m~` object is a polyphonic voltage-controlled oscillator for Pure Data, offering various waveforms including sine, triangle, saw, variable saw, and square. It supports linear frequency modulation (FM), phase modulation (PM), pulse width modulation (PWM), and soft sync, with attenuverters for modulation inputs. It accepts MIDI pitch input and outputs audio signals.",
+    "categories": [
+        "MIDI",
+        "Oscillators",
+        "Multichannel"
+    ]
+}

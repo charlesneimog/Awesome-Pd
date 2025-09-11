@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pluck~",
+    "description": "The `pluck~` object implements the Karplus-Strong algorithm for physical modeling synthesis, simulating plucked string sounds. It takes parameters for frequency, decay time, and a lowpass filter cutoff, and can be triggered by signal transitions or control rate lists. It supports both internal white noise excitation and external input via the `-in` flag.",
+    "categories": [
+        "MIDI",
+        "Filters",
+        "Physical Modeling"
+    ]
+}

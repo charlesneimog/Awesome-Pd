@@ -1,0 +1,18 @@
+{
+    "runs_on": ["Mac", "Linux", "Windows"],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": ["Alexandre Torres Porres"],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": ["charlesneimog"],
+    "ai": true,
+    "title": "else",
+    "description": "The `else` object provides information about the ELSE library, including its version, release date, and installation directory. It responds to messages like `about` and `version` to output details as text or lists, and `dir` to output its binary directory. This object is also integral for loading the ELSE library and enabling Lua externals.",
+    "categories": ["General Utilities"]
+}
+

@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "tanx~",
+    "description": "The `tanx~` object calculates the tangent of an incoming audio signal, expecting the input values to be in radians. It processes each sample individually, outputting the tangent of that sample. This object is part of a suite of mathematical signal processing tools designed for precise trigonometric operations.",
+    "categories": [
+        "Math"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pix_buffer",
+    "description": "`pix_buffer` is a named storage object for images, functioning similarly to a table but without direct visual access to its contents. It can store images of varying dimensions and color spaces, dynamically allocating memory or pre-allocating it via the `allocate` message. Images can be written to or read from the buffer using associated objects like `pix_buffer_write` and `pix_buffer_read`, and it supports loading from and saving to files.",
+    "categories": [
+        "Data Structures",
+        "File I/O",
+        "Graphics"
+    ]
+}

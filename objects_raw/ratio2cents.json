@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "ratio2cents",
+    "description": "The `ratio2cents` object converts rational number intervals (expressed as floating-point decimal values) into cents. It uses the formula `cents = log2(rational) * 1200` to perform this mathematical conversion, providing a way to represent musical intervals in a standardized unit.",
+    "categories": [
+        "Math"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "player~",
+    "description": "`player~` is a versatile Pure Data object for playing back audio files. It supports various file formats, multi-channel audio (up to 64 channels), and advanced playback controls such as speed adjustment (including backwards playback), looping, fading, and crossfading. It automatically adjusts for sample rate differences between the audio file and Pure Data's current sample rate.",
+    "categories": [
+        "Samplers",
+        "File I/O"
+    ]
+}

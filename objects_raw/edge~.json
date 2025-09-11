@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "edge~",
+    "description": "The `edge~` object detects transitions in an audio signal. It outputs a bang from its left outlet when the signal crosses from zero to non-zero, and a bang from its right outlet when the signal crosses from non-zero to zero. This is useful for triggering events based on the presence or absence of an audio signal.",
+    "categories": [
+        "Logic"
+    ]
+}

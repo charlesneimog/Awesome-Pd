@@ -1,0 +1,35 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/ericlyon/pd-fftease/issues",
+    "developers": [
+        "Eric Lyon"
+    ],
+    "part_of_library": true,
+    "library_name": "fftease",
+    "articles": [
+        {
+            "title": "Pd and Audio Programming in the 21st Century",
+            "authors": [
+                "Eric Lyon"
+            ],
+            "link": "https://doi.org/10.33871/23179937.2021.9.2.12"
+        }
+    ],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "cavoc27~",
+    "description": "The `cavoc27~` object generates audio spectra using a 27-rule cellular automaton. It can interpolate between spectra, freeze the current spectrum, and transpose its output, especially when using its internal oscillator bank for resynthesis. Additionally, `cavoc27~` can capture external audio spectra to use as a tuning source, allowing for dynamic interaction with other audio signals.",
+    "categories": [
+        "Additive"
+    ]
+}

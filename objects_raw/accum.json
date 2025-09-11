@@ -1,0 +1,28 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "accum",
+    "description": "The `accum` object accumulates a numerical value by either adding an increment or multiplying by a given factor. It can be initialized to a specific value and outputs the current accumulated total. This object is useful for maintaining running sums or creating simple counters within a Pure Data patch.",
+    "categories": [
+        "Math",
+        "General Utilities"
+    ]
+}

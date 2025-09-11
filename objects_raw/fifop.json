@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://git.iem.at/pd/zexy/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fifop",
+    "description": "The `fifop` object implements a First-In-First-Out (FIFO) queue system that manages multiple internal queues, each capable of being assigned a floating-point priority. It stores incoming lists and outputs them in order of priority, then FIFO order, upon receiving a `bang` message. This object is primarily used for managing and prioritizing sequences of data.",
+    "categories": [
+        "Data Structures"
+    ]
+}

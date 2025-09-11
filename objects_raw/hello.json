@@ -1,0 +1,18 @@
+{
+    "runs_on": ["Mac", "Linux", "Windows"],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": ["Alexandre Torres Porres"],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": ["charlesneimog"],
+    "ai": true,
+    "title": "hello",
+    "description": "The `hello` object is a simple example external for Pure Data, implemented in Lua and loaded as part of the `else` library. Its primary purpose is to demonstrate how to create custom externals using Lua and how to properly link them with their respective help files within the Pure Data environment. It serves as a template for developers looking to extend Pure Data's functionality with Lua.",
+    "categories": ["Lua"]
+}
+

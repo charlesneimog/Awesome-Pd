@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pow~",
+    "description": "`cyclone/pow~` raises a base value to the power of an exponent. It accepts both signal and float inputs for both the base (right inlet) and the exponent (left inlet). This object is useful for generating non-linear curves, such as those used with `line~`.",
+    "categories": [
+        "Math"
+    ]
+}
