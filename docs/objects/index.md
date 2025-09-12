@@ -14,7 +14,8 @@ In this section we list all the objects submit for the project. Note that, if th
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  addObjects(false);
+    const response = await fetch(`${window.location.href}/../all_objects.json`);
+    addObjects(false, response);
 });
 </script>
 

@@ -8,9 +8,7 @@ function shuffleArray(array) {
     return array;
 }
 
-async function addObjects(render_videos) {
-    const response = await fetch(`${window.location.href}/all_objects.json`);
-    if (!response.ok) throw new Error("Failed to load JSON");
+async function addObjects(render_videos, response)  {
 
     const categories = await response.json();
     const randomObjects = document.getElementById("random-objects");
