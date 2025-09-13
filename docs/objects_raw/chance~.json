@@ -20,10 +20,9 @@
     ],
     "ai": true,
     "title": "chance~",
-    "description": "The `chance~` object probabilistically routes an incoming bang to one of its outlets based on a set of weighted chances. These chances can be defined by creation arguments (acting as a histogram) or dynamically updated via a float or list message. It uses a pseudo-random number generator, which can be seeded for reproducible sequences.",
+    "description": "The `chance~` object acts as a probabilistic router for impulses, directing an incoming bang to one of its outlets based on user-defined probability weights. These probabilities can be set as percentages or a histogram, and the object utilizes a pseudo-random number generator, allowing for reproducible sequences via a seed value.",
     "categories": [
-        "Stochastic",
-        "Procedural",
-        "Routing"
+        "Routing",
+        "Stochastic"
     ]
 }

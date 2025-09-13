@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "db2lin",
-    "description": "`db2lin` converts amplitude values from deciBel Full Scale (dBFS) to linear amplitude. It uses the formula `amp = pow(10, dBFS / 20)`. By default, a -100 dBFS input maps to zero linear amplitude, with the option to set a different minimum dB value.",
+    "description": "The `db2lin` object converts amplitude values from decibels full scale (dBFS) to a linear scale. It uses the formula `amp = 10^(dBFS / 20)` for conversion, with a default minimum dBFS value of -100 mapping to zero. This object is useful for translating logarithmic decibel values into linear amplitude for audio processing.",
     "categories": [
         "Math"
     ]

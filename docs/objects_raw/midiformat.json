@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "midiformat",
-    "description": "The `midiformat` object converts various discrete MIDI inputs, such as note, control change, and pitch bend messages, into a single raw MIDI message stream. It serves as the counterpart to `midiparse`, enabling the construction of complete MIDI messages from individual components. This object is essential for preparing structured MIDI data for output or further processing.",
+    "description": "The `midiformat` object receives various MIDI messages (note on/off, polyphonic aftertouch, control change, program change, channel aftertouch, pitch bend) through its inlets and formats them into a raw MIDI message output. It is the counterpart to the `midiparse` object and supports high-resolution 14-bit pitch bend messages via the `hires` message or attribute.",
     "categories": [
         "MIDI"
     ]

@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "index~",
-    "description": "The `index~` object reads values from an array without interpolation, using a signal as the index to read the array. It supports multi-channel arrays (up to 64 channels), allowing a specific channel to be selected via an argument or a float input. This object is primarily designed for direct, non-interpolated access to array data, rather than general sample playback.",
+    "description": "The `index~` object reads values from an array without interpolation, similar to `tabread~` but with rounded index values. It supports multi-channel arrays (up to 64 channels), which are accessed via a `channel_number-arrayname` convention. Due to its non-interpolating nature, it is primarily suited for specific tasks like reading samples at their original speed, rather than general sample playback.",
     "categories": [
-        "Multichannel",
         "Data Structures"
     ]
 }

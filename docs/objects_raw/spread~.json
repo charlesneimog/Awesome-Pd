@@ -20,10 +20,9 @@
     ],
     "ai": true,
     "title": "spread~",
-    "description": "The `spread~` object distributes multiple input audio channels across multiple output channels using equal power panning. It allows control over a 'spread' parameter, where values greater than 1 expand the signal to more channels, and values less than 1 narrow the crossfading point. This object functions similarly to `pan~` but is designed for multi-channel signal distribution.",
+    "description": "The `spread~` object distributes a variable number of input audio channels across a variable number of output channels using equal power panning. It allows for a 'spread' parameter to control how widely the input signals are panned across the outputs, enabling signals to be distributed to adjacent channels or narrowed to specific ones. This object is useful for creating spatial effects or managing multichannel audio routing.",
     "categories": [
         "Routing",
-        "Multichannel",
-        "Math"
+        "Multichannel"
     ]
 }

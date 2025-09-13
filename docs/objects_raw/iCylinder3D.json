@@ -31,5 +31,11 @@
     "description": "The `iCylinder3D` object simulates the interaction between a 'mass' and a 3D cylinder. It allows users to define the cylinder's geometry (center, orientation, radius, height) and configure various physical interaction properties such as normal and tangential forces, rigidity, damping, and displacement. These properties can be constant or proportional to distance, enabling detailed physical modeling within a 3D space.",
     "categories": [
         "Physical Modeling"
+    ],
+    "similar": [
+        "iSeg2D",
+        "iPlane3D",
+        "iLine2D",
+        "iCircle3D"
     ]
 }

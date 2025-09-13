@@ -23,5 +23,11 @@
     "description": "The `sphere` object renders a 3D sphere within the GEM (Graphics Environment for Multimedia) context. Its visual style can be controlled using `draw` messages, while its size and segmentation can be dynamically adjusted via dedicated inlets. This object is fundamental for creating geometric shapes in 3D graphics.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "cube",
+        "cuboid",
+        "sphere3d",
+        "colorSquare"
     ]
 }

@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "rampnoise",
-    "description": "The `rampnoise` object generates control-rate ramp noise, producing a pseudo-random waveform within the 0-127 range, making it suitable for MIDI control. It operates independently of the DSP engine and allows for reproducible sequences by setting a seed value.",
+    "description": "`rampnoise` is a control-rate pseudo-random noise generator that produces a ramp-like waveform. Its output ranges from 0 to 127, making it suitable for control signals. Users can set a seed to synchronize multiple `rampnoise` objects or generate repeatable sequences.",
     "categories": [
         "Stochastic"
     ]

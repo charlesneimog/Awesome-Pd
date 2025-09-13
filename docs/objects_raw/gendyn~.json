@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "gendyn~",
-    "description": "The `gendyn~` object generates audio using Dynamic Stochastic Synthesis, based on Xenakis' 'GenDyn' algorithm. It creates a waveform whose points undergo a random walk in both amplitude and frequency, allowing control over the number of points, frequency range, amplitude/frequency step percentages, and interpolation type. Users can also specify different probability distributions for the random steps and seed the random number generator for reproducible results.",
+    "description": "The `gendyn~` object implements Dynamic Stochastic Synthesis, generating waveforms where each point's amplitude and frequency evolve via a random walk. Users can control parameters such as the number of waveform points, frequency range, step sizes, and the statistical distributions governing these random changes. This allows for a wide spectrum of sounds, from bright tones to noise, by manipulating interpolation and random walk characteristics.",
     "categories": [
         "Stochastic",
-        "Oscillators"
+        "Statistical Models",
+        "Math"
     ]
 }

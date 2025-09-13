@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "separate",
-    "description": "The `separate` object in Pure Data splits an input symbol (string) into a list of individual elements. It uses a specified separator character, which defaults to a space, but can be configured via a \"symbol\" message. An empty symbol can be used as a separator to split the input into a list of single characters.",
+    "description": "The `separate` object splits an input symbol (string) into a list of elements based on a specified separator character. By default, it uses a space as the separator, but this can be changed by sending a symbol to its right inlet. This utility is useful for parsing text data, such as file paths or other delimited strings, into manageable lists.",
     "categories": [
         "Text",
         "General Utilities"

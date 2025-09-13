@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "amean",
-    "description": "The `amean` object generates a list of numbers representing arithmetic means between a specified start and end point. It takes arguments for the start value, end value, and the number of steps, which determines the length of the output list. This object is useful for creating sequences of numbers with linear progression.",
+    "description": "The `amean` object generates a list of arithmetic means. It takes a starting value, an ending value, and the number of steps between them. The number of steps determines the length of the output list, where the list length is `steps + 1`.",
     "categories": [
         "Math",
-        "General Utilities"
+        "Procedural"
     ]
 }

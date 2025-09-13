@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "bend.out",
-    "description": "The `bend.out` object formats and sends MIDI pitch bend messages. It takes normalized float values (from -1 to 1) by default, or raw 0-16383 values with the `-raw` flag, and outputs them to Pd's MIDI output and its outlet. It can also be configured to output only to its outlet using the `-ext` flag or `ext` message, allowing for flexible routing of pitch bend data.",
+    "description": "The `bend.out` object formats and sends MIDI pitch bend messages. It converts normalized float values (-1 to 1) or raw integer values (0 to 16383) into MIDI pitch bend data, sending it to Pure Data's MIDI output or its outlet. This object is useful for controlling pitch bend on external MIDI devices or within Pure Data patches.",
     "categories": [
         "MIDI"
     ]

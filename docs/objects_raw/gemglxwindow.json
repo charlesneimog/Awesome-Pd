@@ -23,5 +23,11 @@
     "description": "`gemglxwindow` is a Gem object designed for direct interaction with the X-window system, enabling the creation and management of an OpenGL rendering window. It provides comprehensive control over window properties such as size, position, title, buffering, anti-aliasing, and fullscreen mode. Additionally, it outputs feedback about the window state and handles keyboard input.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "gemcocoawindow",
+        "gemglutwindow",
+        "gemglfw3window",
+        "gemglfw2window"
     ]
 }

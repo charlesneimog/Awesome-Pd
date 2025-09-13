@@ -20,10 +20,10 @@
     ],
     "ai": true,
     "title": "sfz~",
-    "description": "The `sfz~` object is a Pure Data synthesizer that plays SFZ instruments, which are text-based definitions for sample-based and hybrid synthesis. It interprets `.sfz` files to arrange and play samples, and can also generate sounds using internal oscillators and apply effects like filters and envelopes. It supports extensive MIDI control for performance and microtonal tuning.",
+    "description": "The `sfz~` object is an SFZ player that loads and interprets SFZ instrument definitions, which can include samples, internal oscillators, and synthesis parameters like ADSR and filters. It responds to various MIDI messages for note playback, control changes, pitch bend, and aftertouch, and supports microtonal tuning.",
     "categories": [
         "MIDI",
         "Samplers",
-        "File I/O"
+        "File IO"
     ]
 }

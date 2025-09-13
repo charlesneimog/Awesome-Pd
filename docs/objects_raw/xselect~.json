@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "xselect~",
-    "description": "The `xselect~` object selects one of its multiple signal inputs and outputs it. It features equal-power crossfading between selected inputs, controlled by a float message for crossfade duration. The object also provides an outlet to report the currently selected input and its \"off status,\" enabling dynamic control over subpatches.",
+    "description": "The `xselect~` object allows for seamless selection between multiple audio signal inputs, utilizing equal power crossfading to prevent clicks or abrupt transitions. It can handle up to 512 inputs and provides control over the crossfade duration. The right outlet reports the currently selected input and an \"off\" status, useful for controlling other objects like `switch~`.",
     "categories": [
-        "Routing"
+        "Routing",
+        "Multichannel"
     ]
 }

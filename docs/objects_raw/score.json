@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "score",
-    "description": "The `score` object is a Pure Data score sequencer that uses a custom text-based syntax to define musical events. It manages tempo and time signature changes, outputting event data, bar numbers, and tempo information. It supports polyphonic events and allows for loading and saving scores from/to files, with controls for playback and an editable data window.",
+    "description": "The `score` object is a powerful sequencer and score playback tool for Pure Data, built upon the `text` object. It allows users to define musical scores with custom syntax for tempo changes, time signatures, bar divisions, and polyphonic note events. It outputs timing and event data, enabling complex musical control and synchronization.",
     "categories": [
         "Sequencers",
-        "File I/O"
+        "File IO",
+        "Text"
     ]
 }

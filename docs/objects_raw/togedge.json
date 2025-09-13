@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "togedge",
-    "description": "The `togedge` object detects transitions in numerical input. It outputs a bang from its left outlet when the input changes from zero to a non-zero value, and a bang from its right outlet when the input changes from a non-zero value back to zero. This is useful for triggering events based on the state changes of a signal or control value.",
+    "description": "The `togedge` object detects transitions in numerical input. It outputs a `bang` from its left outlet when the input changes from zero to a non-zero value, and a `bang` from its right outlet when the input changes from a non-zero value back to zero. This allows for triggering events based on the state changes of a numerical signal.",
     "categories": [
         "Logic"
     ]

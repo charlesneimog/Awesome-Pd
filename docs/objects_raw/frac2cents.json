@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "frac2cents",
-    "description": "The `frac2cents` object converts musical intervals expressed as fractional symbols (e.g., `9/8`) into their corresponding values in cents. It takes a list of fractional values as input and outputs a list of numerical cents values.",
+    "description": "The `frac2cents` object converts fractional interval values into cents. It takes a list of fractional values as input and outputs a corresponding list of cents values, useful for microtonal or precise pitch calculations.",
     "categories": [
-        "Math"
+        "Math",
+        "General Utilities"
     ]
 }

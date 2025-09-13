@@ -20,8 +20,8 @@
     ],
     "ai": true,
     "title": "coeff2pz",
-    "description": "The `coeff2pz` object converts biquad filter coefficients into pole and zero coordinates, along with the overall gain of the filter's response. This is primarily used for analyzing or visualizing the frequency response characteristics of a biquad filter.",
+    "description": "The `coeff2pz` object converts biquad filter coefficients into their pole-zero representation. It outputs the coordinates of two poles, two zeros, and the overall gain of the filter's frequency response. This is useful for analyzing or visualizing the characteristics of a biquad filter.",
     "categories": [
-        "Math"
+        "Filters"
     ]
 }

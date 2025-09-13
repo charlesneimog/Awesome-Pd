@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "tabreader~",
-    "description": "The `tabreader~` object reads signal data from a Pure Data array (table). It supports various interpolation methods and multichannel arrays, allowing for flexible waveform playback. When used with a `phasor~` in loop mode, it functions as a wavetable oscillator.",
+    "description": "`tabreader~` is a signal object that reads values from a Pure Data array (table) using various interpolation methods, including spline, linear, and cosine. It supports multi-channel arrays and can function as a wavetable oscillator when driven by a `phasor~` in loop mode. It handles both 0-1 normalized indexing and direct table indexing.",
     "categories": [
-        "Oscillators",
-        "Multichannel"
+        "Multichannel",
+        "Oscillators"
     ]
 }

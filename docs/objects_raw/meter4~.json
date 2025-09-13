@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "meter4~",
-    "description": "The `else/meter4~` object functions as a quadraphonic VU-meter, providing RMS/peak amplitude values in dBFS for four incoming audio signals. It passes the input signals through, allowing for simultaneous metering and signal flow. This object is part of a family of metering tools, including `meter~`, `meter2~`, and `meter8~`.",
+    "description": "`meter4~` is a convenient quadraphonic VU-meter abstraction that measures the RMS and peak amplitude (in dBFS) of four incoming audio channels. It passes the input signals through and outputs the VU values as a list. Users can configure the window and hop sizes for the internal `vu~` objects.",
     "categories": [
         "Multichannel",
-        "GUI"
+        "Descriptors"
     ]
 }

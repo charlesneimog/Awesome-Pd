@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "magSpec~",
-    "description": "The magSpec~ object calculates the magnitude spectrum of an incoming audio signal over a specified window. Upon receiving a bang, it outputs the spectrum as a list of normalized values, handling internal buffering and various windowing functions. Its output is suitable for real-time audio feature extraction and analysis."
+    "description": "The magSpec~ object calculates the magnitude spectrum of an incoming audio signal over a specified window. Upon receiving a bang, it outputs the spectrum as a list of normalized values, handling internal buffering and various windowing functions. Its output is suitable for real-time audio feature extraction and analysis.",
+    "similar": [
+        "magSpec",
+        "phaseSpec",
+        "peakSample~",
+        "cepstrum"
+    ]
 }

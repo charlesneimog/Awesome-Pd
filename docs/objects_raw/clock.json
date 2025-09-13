@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "clock",
-    "description": "The `clock` object generates bangs at a regular tempo, functioning as either a \"main\" or \"synced\" clock. A main `clock` sets the tempo in BPM and controls synced `clock` instances, which operate at a relative tempo (multiplier) to the main clock. It is primarily used for precise timing and synchronization within a Pure Data patch.",
+    "description": "The `clock` object sends bangs at a regular tempo, acting as a 'main' clock or a 'synced' clock. A main clock controls other synced clocks with a relative tempo, allowing for synchronized timing across a patch. It can be set to a specific BPM or a multiplier for synced clocks, and can also be synced to a `metronome` object.",
     "categories": [
         "Procedural",
+        "Math",
         "General Utilities"
     ]
 }

@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "barkSpecFlatness",
-    "description": "The `barkSpecFlatness` object calculates the spectral flatness of an audio signal within Bark-scaled frequency bands. It analyzes a specified window of a sample array, providing a measure of how noise-like or tone-like the sound is in perceptually relevant frequency regions. It supports various analysis parameters like windowing functions and can process pre-computed spectral data."
+    "description": "The `barkSpecFlatness` object calculates the spectral flatness of an audio signal within Bark-scaled frequency bands. It analyzes a specified window of a sample array, providing a measure of how noise-like or tone-like the sound is in perceptually relevant frequency regions. It supports various analysis parameters like windowing functions and can process pre-computed spectral data.",
+    "similar": [
+        "barkSpecSkewness",
+        "barkSpecFlatness~",
+        "barkSpecSpread",
+        "specFlatness~"
+    ]
 }

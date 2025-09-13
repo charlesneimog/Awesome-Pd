@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "eqdiv",
-    "description": "The `eqdiv` object generates a musical scale by equally dividing a given interval into a specified number of divisions. It outputs a list of ratios, either in cents or as direct ratios, representing the scale. This object is primarily used for creating custom temperaments and microtonal scales.",
+    "description": "The `eqdiv` object generates equal temperament scales. It takes the desired number of equal divisions and an interval ratio (e.g., 2 for an octave) as inputs. The output is a list of ratios or cents representing the scale, which can be toggled using a `-ratio` flag.",
     "categories": [
+        "Procedural",
         "Math"
     ]
 }

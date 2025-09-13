@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "pluck.m~",
-    "description": "The `pluck.m~` object is a polyphonic physical modeling synthesizer for plucked string sounds, acting as a wrapper around the `pluck~` object from the ELSE library. It can be controlled via MIDI input for pitch and trigger, and also supports signal-based control for these parameters, with adjustable cutoff and decay parameters.",
+    "description": "The `pluck.m~` object is a polyphonic wrapper for the `pluck~` object from the ELSE library, designed for physical modeling synthesis of plucked string sounds. It accepts MIDI input for pitch and triggering, and also supports signal input for these parameters, allowing for multi-voice operation with configurable cutoff and decay time.",
     "categories": [
-        "Physical Modeling",
-        "MIDI"
+        "MIDI",
+        "Oscillators",
+        "Physical Modeling"
     ]
 }

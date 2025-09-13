@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "midi.in",
-    "description": "The `midi.in` object processes incoming MIDI data, converting raw MIDI streams into \"cooked\" data with type symbols, values, and channel information. It can listen to connected MIDI devices or receive external raw MIDI input. Users can specify a MIDI channel for filtering or operate in omni mode to receive data from all channels, with port numbers encoded via channel ranges.",
+    "description": "The `midi.in` object processes incoming MIDI data, converting raw MIDI streams into \"cooked\" data with type symbols, values, and channel information. It can receive MIDI from connected devices or an external source, and allows filtering by MIDI channel or operating in omni mode. This object is particularly useful for routing and managing various MIDI message types within a Pure Data patch.",
     "categories": [
         "MIDI",
-        "Control I/O"
+        "Control IO"
     ]
 }

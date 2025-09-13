@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "bark~",
-    "description": "The `bark~` object is a real-time onset detector for Pure Data, which analyzes spectral growth using the perceptually-based Bark frequency scale. It outputs a bang upon detecting an onset, along with the total energy growth and a list of growth values per Bark band. This object is ideal for applications requiring robust transient detection in audio signals."
+    "description": "The `bark~` object is a real-time onset detector for Pure Data, which analyzes spectral growth using the perceptually-based Bark frequency scale. It outputs a bang upon detecting an onset, along with the total energy growth and a list of growth values per Bark band. This object is ideal for applications requiring robust transient detection in audio signals.",
+    "similar": [
+        "bark",
+        "barkSpecCentroid~",
+        "barkSpecFlux",
+        "barkSpecRolloff"
+    ]
 }

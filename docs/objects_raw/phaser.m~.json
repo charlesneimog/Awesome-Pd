@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "phaser.m~",
-    "description": "The `phaser.m~` object is a wrapper for the `phaser~` audio effect from the ELSE library. It applies a phaser modulation effect to an incoming audio signal, with controls for rate, bandwidth, and wet/dry mix. This module functions like an audio pedal, currently without control voltage input.",
+    "description": "The `phaser.m~` object is a wrapper around the `phaser~` object from the ELSE library. It functions as a simple phaser module, akin to a stompbox pedal, designed to apply phase modulation effects to audio signals.",
     "categories": [
         "Chorus/Flanger/Phaser"
     ]

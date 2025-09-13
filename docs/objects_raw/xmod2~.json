@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "xmod2~",
-    "description": "The `xmod2~` object is a signal generator that performs frequency modulation (FM) using two internal oscillators. It is a variant of `xmod~` designed to produce chaotic and interesting sounds through its specific sine waveform and FM capabilities. Users can control the frequencies and modulation indices of both oscillators via inlets or creation arguments.",
+    "description": "The `xmod2~` object is a variant of `xmod~` that performs frequency modulation (FM) using a distinct, \"cheap\" sine waveform. It generates two independent modulated audio signals, allowing control over the frequency and modulation index for each oscillator. This object is designed to produce chaotic and interesting sounds through its unique FM implementation.",
     "categories": [
         "Oscillators"
     ]

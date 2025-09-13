@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "stereo.rev~",
-    "description": "`stereo.rev~` is a stereo input/output reverb abstraction, providing two independent reverb channels. It simulates room acoustics with adjustable decay time, high-frequency damping, room size, and wet/dry mix.",
+    "description": "The `stereo.rev~` object is a stereo input/output reverb abstraction, designed to simulate reverberation with two independent channels. It allows control over decay time, high-frequency damping, room size, and wet/dry mix, providing a versatile tool for spatializing audio.",
     "categories": [
         "Reverb",
-        "Multichannel"
+        "Audio IO"
     ]
 }

@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "vu~",
-    "description": "The `vu~` object is an audio amplitude detector that combines the functionality of `else/rms~` and `else/peak~`. It analyzes an incoming audio signal and outputs its RMS and peak amplitude values in dBFs, making it suitable for driving visual level meters like the `vu` GUI object. Analysis window and hop sizes can be configured.",
+    "description": "The `vu~` object analyzes an incoming audio signal, providing both its RMS (Root Mean Square) amplitude and peak amplitude, expressed in dBFS. Users can configure the analysis window and hop size in samples via creation arguments or by sending a `set` message to the object.",
     "categories": [
         "Descriptors"
     ]

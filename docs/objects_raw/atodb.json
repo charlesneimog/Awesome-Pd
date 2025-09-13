@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "atodb",
-    "description": "The `atodb` object converts linear amplitude values into decibels full scale (dBFS). It uses the formula `dbFS = log10(amplitude) * 20`, treating negative inputs as zero, which results in -inf dBFS. This object is useful for displaying or processing numerical amplitude data in a logarithmic scale.",
+    "description": "The `atodb` object converts linear amplitude values to their decibel full scale (dBFS) equivalents. It takes linear amplitude as input and outputs the corresponding dBFS value, treating negative inputs as zero (resulting in -inf dBFS). This is useful for working with audio levels in a logarithmic scale.",
     "categories": [
         "Math"
     ]

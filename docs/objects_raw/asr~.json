@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "asr~",
-    "description": "The `asr~` object generates an attack/sustain/release envelope, acting as a simplified version of `adsr~`. It shapes an audio signal based on gate input (signal or bang), with adjustable attack and release times in milliseconds. The object supports various envelope curve shapes (linear, logarithmic, or lag filter) and provides a status outlet indicating its active state, making it useful for dynamic control and multichannel applications.",
+    "description": "`asr~` is a gated attack/sustain/release envelope generator, functioning as a simplified version of `adsr~`. It produces an envelope signal based on a gate input, with configurable attack and release times in milliseconds, and offers options for linear, logarithmic, or 'lag' curves. The object also provides a status output indicating when the envelope is active, which is useful for controlling DSP processing, and supports multichannel operation.",
     "categories": [
-        "Envelopes",
-        "Multichannel"
+        "Envelopes"
     ]
 }

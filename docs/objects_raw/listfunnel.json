@@ -20,8 +20,8 @@
     ],
     "ai": true,
     "title": "listfunnel",
-    "description": "The `listfunnel` object takes an incoming list and outputs its elements sequentially, each preceded by its corresponding index. This allows for easy processing of individual list items along with their positional information. An optional argument or `offset` message can be used to set a starting index other than zero.",
+    "description": "The `listfunnel` object receives any list and outputs its elements sequentially, each preceded by its index. It supports an optional index offset, which is useful for combining outputs from multiple `listfunnel` objects or for use with `spray`.",
     "categories": [
-        "General Utilities"
+        "Data Structures"
     ]
 }

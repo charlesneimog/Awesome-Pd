@@ -32,5 +32,11 @@
     "categories": [
         "Physical Modeling",
         "Graphics"
+    ],
+    "similar": [
+        "tLink3D",
+        "pmpd2d",
+        "pmpd",
+        "newWave"
     ]
 }

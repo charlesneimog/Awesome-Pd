@@ -32,5 +32,11 @@
     "categories": [
         "Filters",
         "Dynamics"
+    ],
+    "similar": [
+        "burrow~",
+        "compress~",
+        "noisegate~",
+        "mindwarp~"
     ]
 }

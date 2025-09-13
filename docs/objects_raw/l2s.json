@@ -24,5 +24,11 @@
     "categories": [
         "Data Structures",
         "General Utilities"
+    ],
+    "similar": [
+        "list2symbol",
+        "remove",
+        "s2l",
+        "insert"
     ]
 }

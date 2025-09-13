@@ -23,5 +23,11 @@
     "description": "`gemlist_matrix` is a Pure Data object within the GEM library that retrieves the current transformation matrix of an incoming `gemlist`. It outputs the original `gemlist` and the 16-float transformation matrix, enabling programmatic access and manipulation of 3D object transformations.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "shearYX",
+        "translate",
+        "shearZY",
+        "shearZX"
     ]
 }

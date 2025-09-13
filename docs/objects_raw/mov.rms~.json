@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "mov.rms~",
-    "description": "The `mov.rms~` object calculates the Root Mean Square (RMS) of an incoming audio signal over a specified moving time window. It outputs the RMS value at each sample, allowing for dynamic analysis of signal loudness. Users can control the window size and output format (linear or dBFS).",
+    "description": "The `mov.rms~` object calculates a running Root Mean Square (RMS) of an audio signal over a specified time window (number of samples). It outputs the RMS value at each sample, which can be configured to be in dBFS or linear scale. This object is useful for analyzing the short-term energy or loudness of an audio signal.",
     "categories": [
         "Math",
         "Descriptors"

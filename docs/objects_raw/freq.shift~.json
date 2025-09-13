@@ -20,6 +20,6 @@
     ],
     "ai": true,
     "title": "freq.shift~",
-    "description": "The `freq.shift~` object is a frequency shifter, not a pitch shifter, that operates via complex amplitude modulation. It takes an audio signal and a frequency shift value as input. The left outlet outputs the frequency-shifted signal, while the right outlet provides a signal shifted in the opposite direction, similar to a second sideband in ring modulation.",
+    "description": "The `freq.shift~` object performs frequency shifting on an input signal, displacing all its frequency components by a specified amount in Hertz. Unlike a pitch shifter, it does not preserve harmonic relationships. It provides two outputs: the frequency-shifted signal and an oppositely shifted signal, and can clear its internal memory.",
     "categories": []
 }

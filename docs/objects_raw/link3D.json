@@ -31,5 +31,11 @@
     "description": "The `link3D` object simulates a physical link between two masses in a 3D environment. It calculates and outputs forces based on the link's physical properties such as length, rigidity, and damping, and the positions of the connected masses. It allows for dynamic adjustments to these properties and can be used to apply forces to the masses.",
     "categories": [
         "Physical Modeling"
+    ],
+    "similar": [
+        "link2D",
+        "tLink2D",
+        "pmpd2d~",
+        "link"
     ]
 }

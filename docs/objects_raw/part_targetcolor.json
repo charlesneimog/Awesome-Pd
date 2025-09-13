@@ -23,5 +23,11 @@
     "description": "The `part_targetcolor` object is a GEM object designed for particle systems, enabling dynamic color changes for particles. It continuously adjusts particle colors towards a specified RGB or RGBA target color by applying a scale factor each frame, with a default scale of 0.05.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "part_color",
+        "part_targetsize",
+        "part_vertex",
+        "part_render"
     ]
 }

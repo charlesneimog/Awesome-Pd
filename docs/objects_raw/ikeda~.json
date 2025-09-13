@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "ikeda~",
-    "description": "The `ikeda~` object is a chaotic signal generator based on the Ikeda map, producing two audio outputs. It calculates these outputs using a set of difference equations, allowing for dynamic and unpredictable signal generation. Users can control its behavior by setting the `u` parameter and initial values for its internal states.",
+    "description": "`ikeda~` is a chaotic signal generator based on the Ikeda map, producing two outputs: `y1[n]` and `y2[n]`. It allows control over its rate, a 'u' parameter, and initial `y1[n-1]` and `y2[n-1]` values. This object generates a DC offset and is inherently unstable, often requiring external filtering and a 'clear' message to reset its state.",
     "categories": [
-        "Math",
         "Stochastic"
     ]
 }

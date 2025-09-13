@@ -20,6 +20,8 @@
     ],
     "ai": true,
     "title": "stream",
-    "description": "The `stream` object collects the last N received numbers into a list. The size of the list (N) can be set as an argument or via the right inlet. A negative N will output the list in reverse order.",
-    "categories": []
+    "description": "The `stream` object collects incoming numbers into an internal list. It outputs this list as a single message when a specified group size (N) is reached, or when triggered by a `bang` message to resend the last output. The internal list can be cleared using a `clear` message.",
+    "categories": [
+        "Data Structures"
+    ]
 }

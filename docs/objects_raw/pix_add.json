@@ -24,5 +24,11 @@
     "categories": [
         "Graphics",
         "Math"
+    ],
+    "similar": [
+        "pix_subtract",
+        "pix_threshold_bernsen",
+        "pix_multiply",
+        "gemlist_info"
     ]
 }

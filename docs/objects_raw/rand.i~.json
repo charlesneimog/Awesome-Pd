@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "rand.i~",
-    "description": "The `rand.i~` object generates random integer values within a specified range, triggered by signal transitions. It supports multichannel operation and allows for reproducible sequences via a seed value.",
+    "description": "The `rand.i~` object generates pseudo-random integer values within a specified range, outputting them as an audio signal. It is triggered by signal transitions or a `bang` message, and its output sequence can be made reproducible by setting a seed. It also supports multichannel operation.",
     "categories": [
-        "Stochastic",
-        "Multichannel"
+        "Math",
+        "Multichannel",
+        "General Utilities"
     ]
 }

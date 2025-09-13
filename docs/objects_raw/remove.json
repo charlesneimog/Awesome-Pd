@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "remove",
-    "description": "The `remove` object filters elements from an input list. It removes one or more specified elements (numbers or symbols), which can be set via arguments during object creation or dynamically through its right inlet. The output is the original list with the specified elements excluded.",
+    "description": "The `remove` object filters a list by excluding specified numeric elements. It takes an input list in its left inlet and a list of elements to remove (or a single element) in its right inlet or as creation arguments. The object outputs the modified list with the specified elements excluded.",
     "categories": [
-        "Data Structures",
-        "General Utilities"
+        "Data Structures"
     ]
 }

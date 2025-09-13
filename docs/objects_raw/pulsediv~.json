@@ -20,6 +20,8 @@
     ],
     "ai": true,
     "title": "pulsediv~",
-    "description": "The `pulsediv~` object divides an incoming signal-rate trigger stream, outputting impulses from its left outlet based on a specified division value. Its right outlet outputs impulses for triggers that do not result in a divided pulse. The counter can be reset by an impulse or initialized with a start value.",
-    "categories": []
+    "description": "`pulsediv~` is a signal-rate trigger divider that outputs an impulse on its left outlet after a specified number of input triggers. It can be configured with a division value and a starting count, and its internal counter can be reset by an impulse on its third inlet. This object is useful for creating rhythmic divisions or delayed triggers from a continuous stream of impulses.",
+    "categories": [
+        "General Utilities"
+    ]
 }

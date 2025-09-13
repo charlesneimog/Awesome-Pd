@@ -23,5 +23,11 @@
     "description": "The `time` object outputs the current system time in milliseconds, seconds, minutes, and hours when triggered by a `bang`. Its counterpart, `time_GMT`, provides the same time information but adjusted to Greenwich Mean Time. These objects are useful for timestamping events or synchronizing processes within a Pure Data patch.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "datetime",
+        "date",
+        "gatehold",
+        "smooth"
     ]
 }

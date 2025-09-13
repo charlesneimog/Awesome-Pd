@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "pad",
-    "description": "The `pad` object is a graphical user interface (GUI) element that reports mouse coordinates and click status within its area. It outputs a list of (x, y) coordinates and a float indicating mouse button presses (1) or releases (0). It can be configured with messages to set its dimensions and RGB color.",
+    "description": "The `pad` object is a graphical user interface (GUI) element in Pure Data that reports the mouse coordinates (x, y) over its area and its click status. It can be configured with dimensions (width, height) and color, and it outputs mouse position and click events, even when dragging outside its visible area.",
     "categories": [
         "GUI",
-        "Control I/O"
+        "Control IO"
     ]
 }

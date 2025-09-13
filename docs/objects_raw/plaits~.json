@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "plaits~",
-    "description": "The `plaits~` object is a versatile audio synthesizer based on the Mutable Instruments Plaits module, offering 24 distinct synthesis engines. It features core controls for 'Harmonics', 'Timbre', and 'Morph', whose functions adapt to the selected engine, and includes a built-in Low-Pass Gate (LPG) with trigger and level inputs for dynamic sound shaping. It supports various pitch input modes (Hz, MIDI, CV) and extensive modulation capabilities for its synthesis parameters.",
+    "description": "`plaits~` is a versatile Pure Data object based on Mutable Instruments' Plaits module, offering 24 distinct synthesis engines. It generates a wide array of sounds, from physical modeling and granular textures to classic waveforms and FM synthesis, often featuring a built-in Low-Pass Gate (LPG) for dynamic shaping. The object takes pitch, trigger, and level inputs, with extensive modulation capabilities for its 'Harmonics', 'Timbre', and 'Morph' parameters.",
     "categories": [
         "Granular",
         "Oscillators",

@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "accum",
-    "description": "The `accum` object accumulates a numerical value by either adding an increment or multiplying by a given factor. It can be initialized to a specific value and outputs the current accumulated total. This object is useful for maintaining running sums or creating simple counters within a Pure Data patch.",
+    "description": "The `accum` object maintains an internal numerical value, which can be initialized or set at any time. It allows for this value to be incremented by addition or multiplied by a given factor. The current accumulated value is outputted upon receiving a bang or when the value is set.",
     "categories": [
-        "Math",
         "General Utilities"
     ]
 }

@@ -20,6 +20,6 @@
     ],
     "ai": true,
     "title": "slew2",
-    "description": "The `slew2` object functions as a slew limiter, smoothing transitions between incoming values by restricting their rate of change. It provides independent control over the maximum rate of change for both rising and falling signals, making it ideal for creating portamento effects or smoothing control signals. A speed of '0' stops the line generation, while negative values disable the limiter.",
+    "description": "`slew2` is a slew limiter that smooths incoming numerical values by limiting their rate of change, effectively creating a portamento effect. It allows independent control over the upward and downward slew speeds, as well as a refresh rate for its internal processing.",
     "categories": []
 }

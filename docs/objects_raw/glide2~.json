@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "glide2~",
-    "description": "`glide2~` is a signal processing object that smooths incoming signals with distinct ramp-up and ramp-down times, effectively creating a portamento or lag effect. It can operate on both float and signal inputs, and supports an exponential factor for non-linear smoothing.",
+    "description": "The `glide2~` object smooths incoming audio signals by applying distinct ramp-up and ramp-down times, effectively creating a portamento effect. It supports both linear and exponential glide curves and can handle multichannel signals, applying individual glide times per channel when provided.",
     "categories": [
+        "Filters",
         "Multichannel",
-        "Filters"
+        "Audio IO"
     ]
 }

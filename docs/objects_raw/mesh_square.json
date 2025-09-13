@@ -23,5 +23,11 @@
     "description": "The `mesh_square` object renders a square mesh at the current position and color, with its size controllable via the second inlet. It supports various drawing modes and allows dynamic adjustment of its grid resolution, making it useful for `vertex_shader` applications.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "mesh_line",
+        "square",
+        "ripple",
+        "vertex_program"
     ]
 }

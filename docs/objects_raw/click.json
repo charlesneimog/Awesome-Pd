@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "click",
-    "description": "The `click` object sends a `bang` message when its parent patch (abstraction or subpatch) is clicked. It is primarily used to enable non-graphical abstractions to respond to user clicks, similar to how compiled objects behave. It has an argument to switch between 'abstraction' mode (default, responds to clicks on the abstraction's parent) and 'subpatch' mode (responds to clicks on the subpatch's owner window).",
+    "description": "The `click` object generates a `bang` message when its graphical representation is clicked within a parent patch or abstraction. By default, it operates in \"abstraction\" mode, making it ideal for creating interactive elements in reusable Pure Data modules. It can also be used within subpatches.",
     "categories": [
-        "Patching",
-        "Control I/O"
+        "GUI",
+        "Control IO"
     ]
 }

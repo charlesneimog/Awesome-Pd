@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "pm4~",
-    "description": "The `pm4~` object is a 4-operator phase modulation (FM) synthesizer. It allows for complex sound generation by enabling each of its sine wave oscillators to modulate itself and any other operator. Users can control parameters such as frequency, ratio, detune, panning, volume, and the modulation matrix for each operator, and it supports multichannel audio.",
+    "description": "The `pm4~` object is a 4-operator phase modulation (PM) synthesizer, utilizing sine wave oscillators. It offers extensive control over each operator's frequency ratio, detuning, panning, and volume, alongside a comprehensive modulation matrix for inter-operator modulation. Signal inputs allow dynamic control of individual operator levels, making it suitable for complex sound design and multichannel applications.",
     "categories": [
         "Oscillators",
-        "Multichannel"
+        "Multichannel",
+        "Audio IO"
     ]
 }

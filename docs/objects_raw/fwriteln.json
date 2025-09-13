@@ -24,5 +24,11 @@
     "categories": [
         "File I/O",
         "Text"
+    ],
+    "similar": [
+        "freadln",
+        "msgfile",
+        "dir",
+        "rec.file~"
     ]
 }

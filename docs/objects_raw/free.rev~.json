@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "free.rev~",
-    "description": "The `free.rev~` object implements a stereo reverb effect based on the Freeverb algorithm, utilizing parallel comb filters and series allpass filters. It allows control over decay time, high-frequency damping, stereo width, and the dry/wet mix, making it suitable for simulating various room acoustics.",
+    "description": "The `free.rev~` object is a stereo reverb abstraction based on the 'freeverb' algorithm, implementing a Schroeder/Moorer reverb model using comb and allpass filters. It allows control over decay time, high-frequency damping, stereo width, and dry/wet mix. Use `decay` to set the reverb's length, `damp` to filter high frequencies, and `width` to adjust the stereo image.",
     "categories": [
-        "Reverb",
-        "Multichannel"
+        "Reverb"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `pack` object combines multiple incoming atoms (numbers, symbols, or pointers) from its inlets into a single list message. Part of the zexy library, this version offers enhanced initialization capabilities compared to Pure Data's built-in `pack`, particularly for symbols. It is primarily used for structuring diverse data types into a coherent message for subsequent processing.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "pack2",
+        "repack",
+        "join",
+        "pak"
     ]
 }

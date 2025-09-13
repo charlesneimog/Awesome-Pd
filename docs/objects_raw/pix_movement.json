@@ -23,5 +23,11 @@
     "description": "The `pix_movement` object is a time-based IIR filter that detects movement between consecutive video frames. It stores the detected motion in the alpha channel for RGBA images or the luminance channel for YUV/Grayscale images, ignoring pixel changes below a specified threshold. This object is useful for creating movement detectors, often used in conjunction with `pix_blob` to analyze the resulting alpha channel.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_a_2grey",
+        "pix_movement2",
+        "pix_takealpha",
+        "pix_composite"
     ]
 }

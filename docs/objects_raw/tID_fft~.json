@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "tID_fft~",
-    "description": "The `tID_fft~` object computes the complex Fast Fourier Transform (FFT) of an audio signal, triggered by a bang. It outputs the real and imaginary components of the FFT as two separate lists, handling internal audio buffering and windowing. This object is designed for extracting frequency-domain features, particularly useful for timbre identification and classification tasks."
+    "description": "The `tID_fft~` object computes the complex Fast Fourier Transform (FFT) of an audio signal, triggered by a bang. It outputs the real and imaginary components of the FFT as two separate lists, handling internal audio buffering and windowing. This object is designed for extracting frequency-domain features, particularly useful for timbre identification and classification tasks.",
+    "similar": [
+        "tID_fft",
+        "bfcc~",
+        "peakSample~",
+        "tID-conversion"
+    ]
 }

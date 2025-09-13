@@ -23,5 +23,11 @@
     "description": "The `gemglutwindow` object creates and manages an OpenGL rendering window using the GLUT (OpenGL Utility Toolkit) library. It provides messages to control window properties such as size, position, title, fullscreen mode, and buffering, and also handles keyboard input and right-click menus within the window. This object is fundamental for displaying graphical output in GEM patches.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "gemglxwindow",
+        "gemcocoawindow",
+        "gemglfw2window",
+        "gemglfw3window"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `pix_blur` object applies a blur effect to an image or video stream within Pure Data's GEM environment. However, this object is deprecated, and users should consider alternative methods for achieving blur effects.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_motionblur",
+        "pix_freeframe",
+        "pix_indycam",
+        "pix_frei0r"
     ]
 }

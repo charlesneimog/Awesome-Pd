@@ -20,10 +20,10 @@
     ],
     "ai": true,
     "title": "gran.player~",
-    "description": "`gran.player~` is a granular audio player that allows for independent time stretching and pitch shifting of loaded sound files. It supports various file formats and offers control over playback, looping, grain size, and sample range.",
+    "description": "`gran.player~` is a Pure Data object designed for granular playback of audio files, offering independent control over time stretching and pitch shifting. It loads sound files, similar to `player~`, and provides messages to control playback (start, stop, pause, loop), set playback speed, transposition in cents, and grain size. It also supports multichannel audio output.",
     "categories": [
         "Granular",
         "Samplers",
-        "File I/O"
+        "File IO"
     ]
 }

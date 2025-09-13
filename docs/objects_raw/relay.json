@@ -24,5 +24,11 @@
     "categories": [
         "Routing",
         "General Utilities"
+    ],
+    "similar": [
+        "route2",
+        "routeall",
+        "next",
+        "cycle"
     ]
 }

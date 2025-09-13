@@ -23,5 +23,11 @@
     "description": "The `pix_mask` object applies a mask to an image using the luminance of a second image. Where the mask image contains black pixels, the corresponding areas in the primary image will become transparent. This allows for dynamic alpha masking based on image content, requiring both input images to be of the same size and the primary image to be in RGBA format.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_bitmask",
+        "pix_takealpha",
+        "pix_multiply",
+        "pix_colorclassify"
     ]
 }

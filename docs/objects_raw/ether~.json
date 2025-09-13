@@ -29,5 +29,11 @@
     "ai": true,
     "title": "ether~",
     "description": "`ether~` performs spectral compositing by selecting portions of two input signals based on a composite index. It then combines these selected spectral components to create a new output signal, useful for blending or morphing between audio sources at a spectral level.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "leaker~",
+        "morph~",
+        "vacancy~",
+        "pix_composite"
+    ]
 }

@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "comment",
-    "description": "The `cyclone/comment` object is a GUI element for displaying customizable text within a Pure Data patch. It allows users to set various text properties such as font, size, color, background, bold, italic, underline, and justification via messages or attributes. Primarily used for labels or notes, it supports different character sets and can be resized.",
+    "description": "The `comment` object is a GUI element in Pure Data used for displaying customizable text labels or notes within a patch. It allows extensive control over font, size, color, background, bold, italic, underline, and text justification, configurable via messages or attributes. This object is considered deprecated in favor of `else/note`.",
     "categories": [
         "GUI",
         "Text"

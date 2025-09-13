@@ -32,8 +32,7 @@ hide:
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-    const response = await fetch(`${window.location.href}/all_objects.json`);
-    addObjects(true, response);
+  addObjects(true);
 });
 </script>
 

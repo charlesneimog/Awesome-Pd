@@ -20,6 +20,6 @@
     ],
     "ai": true,
     "title": "deltaclip~",
-    "description": "The `deltaclip~` object limits the rate of change (slew rate) of an incoming audio signal. It allows you to set independent maximum delta values for both signal decay and rise, effectively smoothing out abrupt changes. When both delta values are zero, the signal remains static.",
+    "description": "The `deltaclip~` object limits the rate of change between consecutive samples in an incoming signal, a process also known as 'slew limiting'. It allows independent control over the maximum positive (rise) and negative (decay) delta values. Setting both delta values to zero effectively freezes the signal's current value.",
     "categories": []
 }

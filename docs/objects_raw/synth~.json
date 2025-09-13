@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "synth~",
-    "description": "`synth~` is a Pure Data object that serves as a wrapper for loading and managing monophonic or polyphonic synthesizer abstractions. It simplifies synth creation by handling voice allocation, MIDI note input, and multichannel audio output, while also allowing custom messages to be passed to the loaded synth abstraction.",
+    "description": "`synth~` is a Pure Data object that simplifies the creation and management of polyphonic or monophonic synthesizers. It acts as a wrapper around `clone`, `mono`, and `voices`, loading synth abstractions and handling voice allocation. It accepts MIDI note messages for pitch and velocity, and allows custom messages to be sent to the loaded synth.",
     "categories": [
         "MIDI",
         "Patching",

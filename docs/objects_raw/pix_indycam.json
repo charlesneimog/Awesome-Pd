@@ -23,5 +23,11 @@
     "description": "The `pix_indycam` object captures video signals from an SGI video camera, outputting them as pixel data within Pure Data. It is specifically designed for SGI video workstations. Users can control video properties such as dimensions, zoom, brightness, contrast, hue, and saturation.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "camera",
+        "pix_frei0r",
+        "pix_freeframe",
+        "pix_contrast"
     ]
 }

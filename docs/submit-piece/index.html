@@ -28,13 +28,22 @@
         <main class="container">
             <section class="card">
                 <form id="infoForm" novalidate>
-                    <div class="field">
-                        <h2 for="title">Name</h2>
-                        <input type="text" id="title" name="title" required placeholder="Awesome External" />
-                        <div class="field-hint">Name of the project.</div>
+                    <div class="grid cols-1 stack-on-small">
+                        <div class="card inset">
+                            <h2 for="title">Name</h2>
+                            <input type="text" id="title" name="title" required placeholder="Cânticos de Silício" />
+                            <div class="field-hint">Title of Piece/Work/Installation.</div>
+                        </div>
                     </div>
 
-                    <div class="grid cols-2 stack-on-small">
+                    <div class="grid cols-3 stack-on-small">
+                        <div class="card inset">
+                            <div class="field">
+                                <label for="year">Year</label>
+                                <input type="text" id="year" name="year" placeholder="2019" />
+                            </div>
+                        </div>
+
                         <div class="card inset">
                             <div class="field">
                                 <label for="composer(s)">Composer(s)</label>
@@ -42,7 +51,7 @@
                                     type="text"
                                     id="developers"
                                     name="developers"
-                                    placeholder="Comma separated: Jane Doe, John Doe"
+                                    placeholder="Comma separated: John Doe"
                                 />
                             </div>
                         </div>
@@ -92,7 +101,6 @@
                     <h2 for="description">External Category</h2>
                     <div id="categories"></div>
                     <div class="divider"></div>
-                    <hr />
 
                     <hr />
                     <h2>Media</h2>

@@ -23,5 +23,11 @@
     "description": "The `pix_resize` object resizes an image to specified dimensions. If no dimensions are provided, it automatically resizes the image to the next power of 2. Dimensions can also be set dynamically using the `dimen` message.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_sig2pix~",
+        "pix_crop",
+        "pix_mix",
+        "gemmanager"
     ]
 }

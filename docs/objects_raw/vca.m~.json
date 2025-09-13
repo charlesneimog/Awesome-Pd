@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "vca.m~",
-    "description": "The `vca.m~` object is a mono Voltage Controlled Amplifier (VCA) that takes an audio signal and a control voltage (CV) to dynamically adjust the signal's amplitude. It supports multichannel audio processing, and its integrated VU meter displays the average sum of all channels.",
+    "description": "The `vca.m~` object functions as a mono Voltage Controlled Amplifier (VCA), allowing dynamic control over an audio signal's level via a Control Voltage (CV) input. It supports multichannel audio and includes a VU meter that displays the average sum of all channels.",
     "categories": [
+        "Dynamics",
         "Multichannel"
     ]
 }

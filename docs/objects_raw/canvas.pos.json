@@ -20,9 +20,6 @@
     ],
     "ai": true,
     "title": "canvas.pos",
-    "description": "The `canvas.pos` object reports the x/y coordinates of a subpatch's canvas relative to its parent. It can also query the position of higher-level parent patches by providing a depth argument. This object is useful for understanding and dynamically manipulating the graphical layout of Pure Data patches.",
-    "categories": [
-        "GUI",
-        "Graphics"
-    ]
+    "description": "The `canvas.pos` object reports the screen coordinates (x, y) of its parent subpatch or subwindow. When triggered by a `bang`, it outputs a list of two floats representing these coordinates. This object is useful for dynamically querying the visual layout of nested Pure Data patches.",
+    "categories": []
 }

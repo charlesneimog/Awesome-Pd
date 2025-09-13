@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "power~",
-    "description": "`power~` is a signal processing object in Pure Data that acts as a power function waveshaper. It raises an input signal to a specified exponential factor, extending standard exponentiation to correctly handle negative signal inputs by returning `-pow(-a, b)`. This allows for the exponentiation of negative values by non-integer exponents, making it useful for various signal transformations.",
+    "description": "The `power~` object is a signal waveshaper that raises an input signal to a specified exponential factor. It extends standard exponentiation to correctly handle negative signal inputs, allowing for negative outputs and non-integer exponents on negative values. This enables flexible signal manipulation, often used for non-linear processing or distortion.",
     "categories": [
         "Math"
     ]

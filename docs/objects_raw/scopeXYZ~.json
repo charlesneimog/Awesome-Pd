@@ -23,5 +23,11 @@
     "description": "The `scopeXYZ~` object functions as a 3-dimensional oscilloscope, visualizing three input signals as excursions along the X, Y, and Z axes. It is commonly used to generate and display Lissajous patterns. The object takes an argument to specify the number of signal points to store for rendering the trace.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "cylinder",
+        "teapot",
+        "gemrepeat",
+        "primTri"
     ]
 }

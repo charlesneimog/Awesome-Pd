@@ -23,5 +23,11 @@
     "description": "The `colorSquare` object renders a square at the current position within a GEM (Graphics Environment for Multimedia) context. Its size can be adjusted via an inlet, and the colors of its four corners can be individually specified as RGB values, resulting in gradient fills. This object is primarily used for generating colored geometric shapes in real-time graphics.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "sphere",
+        "cube",
+        "triangle",
+        "square"
     ]
 }

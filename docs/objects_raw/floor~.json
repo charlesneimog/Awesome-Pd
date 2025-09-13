@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "floor~",
-    "description": "The `floor~` object performs a floor mathematical operation on incoming audio signals, rounding each sample down to the nearest integer. This object is designed for signal processing and supports multichannel audio connections.",
+    "description": "The `floor~` object applies the floor mathematical function to incoming audio signals, rounding each sample down to the nearest integer. This object is designed for signal processing and supports multichannel audio connections.",
     "categories": [
         "Math",
         "Multichannel"

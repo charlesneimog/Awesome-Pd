@@ -24,5 +24,11 @@
     "musics": [],
     "contributors": [
         "charlesneimog"
+    ],
+    "similar": [
+        "buffer",
+        "poke~",
+        "packel",
+        "table"
     ]
 }

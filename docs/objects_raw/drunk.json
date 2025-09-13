@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "drunk",
-    "description": "The `drunk` object generates a \"drunk walk\" sequence of random numbers. It produces numbers within a specified range (0 to maximum) where each new number differs from the previous one by a random value less than a given step size. You can control the maximum value, step size, and seed the random number generator.",
+    "description": "The `drunk` object generates a \"drunk walk\" sequence of random numbers. It produces a float output within a specified maximum range (default 0-128) that differs from the previous number by a random value less than a given step size (default 2). It can be controlled by bangs, floats, or lists to set its current value, maximum, and step size, and its internal random number generator can be seeded.",
     "categories": [
         "Stochastic"
     ]

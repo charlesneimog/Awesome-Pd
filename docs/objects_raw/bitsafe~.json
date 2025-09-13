@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "bitsafe~",
-    "description": "The `bitsafe~` object processes incoming audio signals, replacing any \"Not a Number\" (NaN) or infinity values with zero. It also filters out denormal numbers, converting them to zero. This is particularly useful before performing bitwise operations or in any context where such problematic signal values might occur.",
+    "description": "The `bitsafe~` object replaces NaN (Not a Number) and infinity values in an incoming signal with zero. It also filters out denormal numbers, converting them to zero, which is particularly useful when working with bitwise operations or other contexts where these values can cause issues.",
     "categories": [
         "General Utilities"
     ]

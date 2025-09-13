@@ -23,5 +23,11 @@
     "description": "The `repeat` object in Pure Data outputs any incoming message a specified number of times. It can be initialized with a creation argument for the number of repetitions or dynamically controlled via its second inlet. This versatile object can repeat bangs, lists, or any other message type.",
     "categories": [
         "Procedural"
+    ],
+    "similar": [
+        "l.attrfilter",
+        "timed.gate~",
+        "l.readsvg",
+        "drip"
     ]
 }

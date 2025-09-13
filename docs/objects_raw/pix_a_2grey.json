@@ -23,5 +23,11 @@
     "description": "The `pix_a_2grey` object converts an input RGBA image to grayscale based on its alpha channel. It uses an `alpha-threshold` to selectively apply the conversion: pixels with alpha values above a positive threshold or below a negative threshold are affected. This object is designed for image manipulation within the GEM environment.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_alpha",
+        "pix_takealpha",
+        "alpha",
+        "pix_threshold"
     ]
 }

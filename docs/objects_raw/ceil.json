@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "ceil",
-    "description": "The `ceil` object from the `else` library computes the ceiling of its input. It takes a number or a list of numbers and outputs the smallest integer greater than or equal to each input value. This is a fundamental mathematical operation for rounding up numerical data.",
+    "description": "The `ceil` object is a mathematical function that rounds a number up to the nearest integer. It can process single numerical inputs or lists of numbers, outputting the ceiling value for each.",
     "categories": [
         "Math"
     ]

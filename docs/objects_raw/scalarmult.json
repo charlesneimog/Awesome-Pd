@@ -23,5 +23,11 @@
     "description": "The `scalarmult` object performs scalar multiplication, also known as a \"dot product,\" on incoming lists of numbers. It takes two lists as input and outputs a single list containing the result. It can also multiply a list by a single float value, effectively casting the float to a list for the operation.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "sum",
+        "mean",
+        "median",
+        "frac.mul"
     ]
 }

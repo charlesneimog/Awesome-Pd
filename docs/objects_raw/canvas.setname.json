@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "canvas.setname",
-    "description": "`canvas.setname` assigns a symbolic name to a Pure Data canvas, enabling it to receive messages. Similar to `namecanvas`, it uniquely allows naming parent patches using an optional depth argument. It also supports an 'abstraction mode' to name the main window of a parent patch, ensuring the abstraction owner is always targeted.",
+    "description": "The `canvas.setname` object assigns a symbolic name to a Pure Data canvas, allowing it to receive messages. It extends the functionality of `namecanvas` by enabling the naming of parent canvases at specified depth levels. An optional third argument can switch between naming subpatches or the main abstraction owner.",
     "categories": [
         "Patching"
     ]

@@ -20,8 +20,10 @@
     ],
     "ai": true,
     "title": "mov.avg",
-    "description": "The `mov.avg` object calculates a running or moving average of incoming float values. It maintains an average over the last 'n' values, where 'n' can be set via its inlet. Sending a `clear` message resets the accumulated values.",
+    "description": "The `mov.avg` object calculates a running or moving average of incoming float values. It can be configured to average over a specified number of values (`n`) and can be reset using a `clear` message.",
     "categories": [
-        "Math"
+        "Math",
+        "Filters",
+        "General Utilities"
     ]
 }

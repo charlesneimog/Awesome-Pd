@@ -23,5 +23,11 @@
     "description": "The `curve` object in Pure Data generates and renders a Bezier curve within the GEM environment. It requires an initial argument for the number of control points, which are then specified as 3D (XYZ) float lists via its subsequent inlets. The object outputs a `gemlist` and allows customization of its drawing mode, resolution, and line width through messages to its first inlet.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "polygon",
+        "curve3d",
+        "surface3d",
+        "trapezoid"
     ]
 }

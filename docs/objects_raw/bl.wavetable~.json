@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "bl.wavetable~",
-    "description": "`bl.wavetable~` is a bandlimited wavetable oscillator that generates audio signals from a specified waveform array. It employs upsampling and filtering to minimize aliasing, especially during hard sync and phase modulation. It supports various interpolation methods, phase synchronization, and phase modulation, with options for frequency input in Hz or MIDI pitch.",
+    "description": "`bl.wavetable~` is a bandlimited wavetable oscillator that generates audio signals from a specified array (waveform). It supports various interpolation methods and offers advanced phase synchronization and modulation capabilities, including hard and soft sync, while minimizing aliasing.",
     "categories": [
         "Oscillators"
     ]

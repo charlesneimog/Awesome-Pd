@@ -24,5 +24,11 @@
     "categories": [
         "Graphics",
         "Audio I/O"
+    ],
+    "similar": [
+        "pix_sig2pix~",
+        "pix_hsv2rgb",
+        "pix_blob",
+        "pix_rgb2hsv"
     ]
 }

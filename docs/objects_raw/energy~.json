@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "energy~",
-    "description": "The `energy~` object from `timbreIDLib` continuously calculates the energy of an audio signal, offering output in power, RMS, or decibels with adjustable window sizing and normalization. It serves as a flexible alternative to `[env~]` for real-time audio analysis, particularly useful for generating features for timbre identification and classification."
+    "description": "The `energy~` object from `timbreIDLib` continuously calculates the energy of an audio signal, offering output in power, RMS, or decibels with adjustable window sizing and normalization. It serves as a flexible alternative to `[env~]` for real-time audio analysis, particularly useful for generating features for timbre identification and classification.",
+    "similar": [
+        "energy",
+        "specRolloff~",
+        "barkSpecSkewness~",
+        "specSpread~"
+    ]
 }

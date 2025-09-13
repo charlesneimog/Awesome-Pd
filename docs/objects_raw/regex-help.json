@@ -23,5 +23,11 @@
     "description": "The `regex` object checks if an incoming symbol matches a specified regular expression. It can be configured for case sensitivity and outputs a float indicating a match, along with a list that likely contains matched groups or substrings.",
     "categories": [
         "Text"
+    ],
+    "similar": [
+        "regex",
+        "fromsymbol",
+        "makesymbol",
+        "separate"
     ]
 }

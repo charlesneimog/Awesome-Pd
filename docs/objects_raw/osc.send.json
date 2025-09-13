@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "osc.send",
-    "description": "The `osc.send` object facilitates sending Open Sound Control (OSC) messages over a network. It acts as an abstraction built upon `osc.format` and `netsend`, allowing users to establish connections to a specified address and port using a `connect` message. It also provides a `disconnect` message to close the network connection and outputs its connection status.",
+    "description": "The `osc.send` object transmits Open Sound Control (OSC) messages over a network. It functions as an abstraction built upon `osc.format` and `netsend`, allowing users to specify a target address and port for communication. This object is designed to send OSC data to corresponding `osc.receive` objects.",
     "categories": [
         "Networking",
         "OSC"

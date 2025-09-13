@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "specFlux",
-    "description": "The `specFlux` object calculates spectral flux, a measure of how quickly the spectrum of a sound is changing. It determines the difference between consecutive spectral frames, offering insights into sound events like onsets. Users can configure windowing functions, power spectrum usage, normalization, logarithmic scaling, and choose between flux, growth, or decay modes."
+    "description": "The `specFlux` object calculates spectral flux, a measure of how quickly the spectrum of a sound is changing. It determines the difference between consecutive spectral frames, offering insights into sound events like onsets. Users can configure windowing functions, power spectrum usage, normalization, logarithmic scaling, and choose between flux, growth, or decay modes.",
+    "similar": [
+        "specFlux~",
+        "barkSpecFlux",
+        "specCentroid",
+        "barkSpecSpread"
+    ]
 }

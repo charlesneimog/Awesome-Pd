@@ -23,5 +23,11 @@
     "description": "The `rotateXYZ` object in GEM applies a 3D rotation to the current transformation matrix. It allows independent control over rotation around the X, Y, and Z axes, specified either as arguments or dynamically through its inlets. This object is primarily used for manipulating the orientation of graphical elements within a GEM patch.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "accumrotate",
+        "rotate",
+        "shearXZ",
+        "translateXYZ"
     ]
 }

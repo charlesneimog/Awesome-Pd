@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "specSlope~",
-    "description": "The `specSlope~` object calculates the spectral slope of an incoming audio signal, representing the slope of the best-fit line through its magnitude spectrum. It handles internal audio buffering and windowing, allowing configuration of window size and function. This object is primarily used as a feature extractor for timbre analysis and classification within the `timbreIDLib`."
+    "description": "The `specSlope~` object calculates the spectral slope of an incoming audio signal, representing the slope of the best-fit line through its magnitude spectrum. It handles internal audio buffering and windowing, allowing configuration of window size and function. This object is primarily used as a feature extractor for timbre analysis and classification within the `timbreIDLib`.",
+    "similar": [
+        "barkSpecSlope~",
+        "waveSlope~",
+        "magSpec~",
+        "specSlope"
+    ]
 }

@@ -24,5 +24,11 @@
     "categories": [
         "Math",
         "Graphics"
+    ],
+    "similar": [
+        "rgb2hsv",
+        "rgb2yuv",
+        "pix_hsv2rgb",
+        "pix_rgb2hsv"
     ]
 }

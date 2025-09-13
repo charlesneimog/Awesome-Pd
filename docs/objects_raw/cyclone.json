@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "cyclone",
-    "description": "The `cyclone` library for Pure Data provides a comprehensive set of mathematical and comparative operators, many of which are direct aliases for common Max/MSP objects. It includes essential functions like equality (`==~`), inequality (`!=~`), less than (`<~`), greater than (`>~`), modulo (`%~`), and various arithmetic operations. This library is designed to offer familiar functionality and ease the transition for users accustomed to Max/MSP's object naming conventions.",
+    "description": "The `cyclone` object acts as an interface to the Cyclone library, a collection of common Pure Data objects, often with Max/MSP-compatible alphanumeric aliases. It accepts \"about\" and \"version\" messages to display library information and its version number. The `cyclone` library must be loaded to access its various utility, comparative, and mathematical objects.",
     "categories": [
-        "Math",
-        "Logic"
+        "Extensions"
     ]
 }

@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "float2sig~",
-    "description": "The `float2sig~` (or `f2s~`) object converts control-rate floats or lists of floats into audio-rate signals. It applies a ramp time for smooth transitions between values and supports multichannel signals, making it ideal for controlling signal parameters from control data.",
+    "description": "The `float2sig~` (or `f2s~`) object converts incoming float or list messages into audio signals. It uses a ramp time, similar to `vline~`, to smoothly transition between values, preventing clicks or abrupt changes. This object supports multichannel operation, allowing for simultaneous conversion of multiple values to signals.",
     "categories": [
         "Multichannel",
         "General Utilities"

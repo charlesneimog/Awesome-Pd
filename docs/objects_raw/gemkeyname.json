@@ -23,5 +23,11 @@
     "description": "The `gemkeyname` object captures keyboard events occurring within the GEM window. It outputs a symbolic description of the pressed key and its state (1 for KEY_DOWN, 0 for KEY_UP). This object is useful for controlling GEM patches using keyboard input.",
     "categories": [
         "Control I/O"
+    ],
+    "similar": [
+        "keycode",
+        "keypress",
+        "gemkeyboard",
+        "gemtablet"
     ]
 }

@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "asin",
-    "description": "The `asin` object calculates the arc-sine (inverse sine) of a given number. It takes a float as input and outputs the corresponding arc-sine value. This object is part of the Cyclone library, providing a control-rate trigonometric function.",
+    "description": "The `asin` object calculates the arc-sine of a given float input. It is a control-rate trigonometric function from the Cyclone library, providing mathematical operations on numerical data. Sending a `bang` message outputs the arc-sine of the currently stored value.",
     "categories": [
         "Math"
     ]

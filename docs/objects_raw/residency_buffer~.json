@@ -31,5 +31,11 @@
     "description": "`residency_buffer~` is an audio object that manages a spectral sample buffer, similar to `residency~`. It allows for recording audio into this internal buffer and reports the required storage size. Users should avoid directly writing into the array managed by this object.",
     "categories": [
         "Samplers"
+    ],
+    "similar": [
+        "susloop~",
+        "sample~",
+        "residency~",
+        "pix_buffer_read"
     ]
 }

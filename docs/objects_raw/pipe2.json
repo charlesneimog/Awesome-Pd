@@ -20,8 +20,8 @@
     ],
     "ai": true,
     "title": "pipe2",
-    "description": "The `pipe2` object functions similarly to Pure Data's vanilla `pipe` object, delaying incoming messages. It accepts any type of message for delay and a float to set the delay time in milliseconds. The delayed message is then output.",
+    "description": "The `pipe2` object functions similarly to Pure Data's vanilla `pipe` object, delaying incoming messages. It accepts any type of message and outputs it after a specified delay time. The delay can be set as an argument during creation or dynamically via a float message in milliseconds.",
     "categories": [
-        "Delay"
+        "General Utilities"
     ]
 }

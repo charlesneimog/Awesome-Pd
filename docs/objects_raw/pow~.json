@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "pow~",
-    "description": "`cyclone/pow~` raises a base value to the power of an exponent. It accepts both signal and float inputs for both the base (right inlet) and the exponent (left inlet). This object is useful for generating non-linear curves, such as those used with `line~`.",
+    "description": "The `cyclone/pow~` object calculates the power of a base value, raising it to the exponent. The right inlet sets the base, and the left inlet sets the exponent, both accepting signals or floats. It functions as a signal power utility, useful for generating curves, and outputs `0` for `inf/nan` results.",
     "categories": [
         "Math"
     ]

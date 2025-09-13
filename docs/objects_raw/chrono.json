@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "chrono",
-    "description": "The `chrono` object functions as a versatile stopwatch or timer. It can be started, stopped, and rewound using float and bang messages, and its timer duration can be set with a list of minutes and seconds. It outputs the current time as a symbol and sends a bang when the timer completes.",
+    "description": "The `chrono` object functions as either a stopwatch chronometer or a timer. It can be started, stopped, continued, and rewound using `bang` or `float` inputs. When configured as a timer with the `-t` flag, its duration can be set via a `list` input specifying minutes and seconds.",
     "categories": [
-        "Procedural",
         "General Utilities"
     ]
 }

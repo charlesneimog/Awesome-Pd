@@ -23,5 +23,11 @@
     "description": "`pix_rectangle` is a GEM object that renders a rectangle onto an existing image buffer (pix-buffer). It takes four float values to define the two corners of the rectangle for position and size, and optional RGB or RGBA float values to set its color. This object is used for drawing graphical primitives within the GEM environment.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "rectangle",
+        "pix_buffer_read",
+        "pix_color",
+        "pix_set"
     ]
 }

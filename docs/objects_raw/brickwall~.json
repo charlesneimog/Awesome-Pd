@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "brickwall~",
-    "description": "The `brickwall~` object is a 10th order Butterworth lowpass filter with a very steep cutoff slope (60 dB/octave). It is primarily used as an anti-aliasing filter, especially in upsampling and filtering techniques. Its cutoff frequency can be set via an argument or its second inlet, defaulting to 0.75 times the Nyquist frequency.",
+    "description": "The `brickwall~` object is a 10th-order Butterworth lowpass filter primarily designed for anti-aliasing. It applies 16x oversampling to effectively remove high-frequency components from a signal. Its cutoff frequency can be controlled via its second inlet, defaulting to 0.75 times the global Nyquist frequency.",
     "categories": [
         "Filters"
     ]

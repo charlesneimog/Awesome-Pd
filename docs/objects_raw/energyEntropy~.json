@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "energyEntropy~",
-    "description": "The `energyEntropy~` object measures abrupt changes in the energy of an audio signal. It processes audio in mid-term windows, which are composed of smaller sub-windows, and outputs a lower entropy value when there are more abrupt energy changes. This feature is useful for identifying sudden energy shifts in either direction, making it suitable for real-time timbre identification."
+    "description": "The `energyEntropy~` object measures abrupt changes in the energy of an audio signal. It processes audio in mid-term windows, which are composed of smaller sub-windows, and outputs a lower entropy value when there are more abrupt energy changes. This feature is useful for identifying sudden energy shifts in either direction, making it suitable for real-time timbre identification.",
+    "similar": [
+        "energyEntropy",
+        "barkSpecSkewness~",
+        "energy",
+        "specSkewness~"
+    ]
 }

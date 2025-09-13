@@ -23,5 +23,11 @@
     "description": "The `ambient` object is a GEM manipulation object that sets the ambient color for all subsequent vertex operations in a 3D scene. It accepts a `gemList` and requires a list of 3 (RGB) or 4 (RGBA) float values to define the color. To observe its effect, lighting must be enabled in the GEM environment.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "ambientRGB",
+        "diffuse",
+        "specularRGB",
+        "diffuseRGB"
     ]
 }

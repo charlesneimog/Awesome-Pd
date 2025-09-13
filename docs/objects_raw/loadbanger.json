@@ -20,10 +20,8 @@
     ],
     "ai": true,
     "title": "loadbanger",
-    "description": "The `loadbanger` (or `lb`) object in Pure Data sends \"bang\" messages when a patch is loaded, when it receives any message, or when clicked. It supports different modes for sending bangs: a default \"load\" mode, an \"init\" mode (using the `-init` flag) which sends bangs earlier for dynamic patching, and a \"finalize\" mode (using the `-fin` flag) for actions after patch loading. The number of outputs can be configured by an argument.",
+    "description": "The `loadbanger` (or `lb`) object sends bang messages when a patch loads, when clicked, or upon receiving any message. It supports both \"load\" and \"init\" bang types, with \"init\" bangs being particularly useful for dynamic patching in abstractions by triggering before connections are established. The object's number of outputs can be configured via an argument.",
     "categories": [
-        "Procedural",
-        "Patching",
-        "General Utilities"
+        "Patching"
     ]
 }

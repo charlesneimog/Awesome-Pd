@@ -31,5 +31,11 @@
     "description": "The `dentist~` object functions as a \"spiky\" filter, selectively allowing certain partials to pass while attenuating others. It offers dynamic control over filter configurations, including the number of frequency bins, randomization of settings, and smooth interpolation between different filter states.",
     "categories": [
         "Filters"
+    ],
+    "similar": [
+        "reson~",
+        "highpass~",
+        "eq~",
+        "bandstop~"
     ]
 }

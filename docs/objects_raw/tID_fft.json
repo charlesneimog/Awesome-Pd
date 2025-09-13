@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "tID_fft",
-    "description": "The tID_fft object performs an offline Fast Fourier Transform (FFT) on a specified segment of an audio sample array in Pure Data. It offers configurable windowing functions, normalization, and zero-padding for detailed spectral analysis. The object outputs the real and imaginary components of the FFT, which are useful for further frequency-domain processing or visualization."
+    "description": "The tID_fft object performs an offline Fast Fourier Transform (FFT) on a specified segment of an audio sample array in Pure Data. It offers configurable windowing functions, normalization, and zero-padding for detailed spectral analysis. The object outputs the real and imaginary components of the FFT, which are useful for further frequency-domain processing or visualization.",
+    "similar": [
+        "tID_fft~",
+        "magSpec",
+        "phaseSpec",
+        "specBrightness"
+    ]
 }

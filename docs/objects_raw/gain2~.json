@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "gain2~",
-    "description": "The `gain2~` object is a stereo gain abstraction for Pure Data, designed to adjust the gain of stereo audio signals. It offers flexible control over gain scaling (quartic, dB, or linear), allows setting a maximum gain, and includes a configurable ramp time for smooth transitions. It also supports MIDI learning for external control and can handle multichannel audio input.",
+    "description": "`gain2~` is a stereo gain control object for Pure Data, designed to adjust the amplitude of stereo audio signals. It offers flexible gain scaling modes (quartic, dB, and linear) and adjustable ramp times for smooth transitions. The object also supports multichannel input and can be controlled via MIDI learn functionality.",
     "categories": [
         "MIDI",
         "Multichannel"

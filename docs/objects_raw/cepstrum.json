@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "cepstrum",
-    "description": "The `cepstrum` object computes the cepstrum of an audio signal from a specified sample array. It allows for analysis of a defined window of samples, offering options for various windowing functions and the choice between magnitude or power cepstrum. This object is designed for non-real-time audio feature extraction and can integrate into analysis chains by accepting pre-computed FFT or magnitude spectrum data."
+    "description": "The `cepstrum` object computes the cepstrum of an audio signal from a specified sample array. It allows for analysis of a defined window of samples, offering options for various windowing functions and the choice between magnitude or power cepstrum. This object is designed for non-real-time audio feature extraction and can integrate into analysis chains by accepting pre-computed FFT or magnitude spectrum data.",
+    "similar": [
+        "cepstrum~",
+        "specCentroid",
+        "specRolloff",
+        "magSpec"
+    ]
 }

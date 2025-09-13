@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "pv",
-    "description": "The `pv` object in Pure Data functions as a private variable, storing any type of message. Multiple `pv` objects with the same name within a patch or its subpatches share the same stored message, allowing for data persistence and retrieval across different parts of a patch. Sending a `bang` to `pv` outputs the currently held message.",
+    "description": "The `pv` object functions as a private variable, storing and retrieving any message type by name within a patch and its subpatches. Unlike `value`, it can handle diverse message formats, but it does not communicate with `send` or `value` objects, even if they share the same name. The help patch notes that `pv` is largely redundant and `send` is often a better alternative.",
     "categories": [
         "Data Structures",
-        "Patching"
+        "General Utilities"
     ]
 }

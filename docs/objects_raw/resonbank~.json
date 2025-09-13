@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "resonbank~",
-    "description": "`resonbank~` is a bank of resonators designed for sound synthesis, built upon `resonator~` objects. It takes a fundamental frequency, an excitation signal, and a decay time multiplier as inputs. Users can define lists of partials, decay times, and amplitudes for each resonator, with optional multichannel output.",
+    "description": "`resonbank~` is a synthesis object that creates a bank of resonant filters, ideal for generating complex, harmonically rich sounds. It allows precise control over individual resonator frequencies (via partials and a fundamental), amplitudes, and decay times, responding to an excitation signal. The object supports multichannel output and smooth parameter transitions with a configurable ramp time.",
     "categories": [
-        "Multichannel",
-        "Filters"
+        "Filters",
+        "Multichannel"
     ]
 }

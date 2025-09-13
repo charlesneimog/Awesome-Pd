@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "barkSpecBrightness",
-    "description": "The `barkSpecBrightness` object calculates the brightness of an audio sample by analyzing its Bark spectrum. It takes an audio array, filterbank spacing, and a Bark boundary point as arguments to customize the spectral analysis. This object is designed for efficient descriptor extraction within signal processing chains, capable of accepting pre-computed FFT, magnitude, or Bark spectrum data."
+    "description": "The `barkSpecBrightness` object calculates the brightness of an audio sample by analyzing its Bark spectrum. It takes an audio array, filterbank spacing, and a Bark boundary point as arguments to customize the spectral analysis. This object is designed for efficient descriptor extraction within signal processing chains, capable of accepting pre-computed FFT, magnitude, or Bark spectrum data.",
+    "similar": [
+        "barkSpecRolloff",
+        "barkSpecSlope",
+        "barkSpecBrightness~",
+        "specCentroid"
+    ]
 }

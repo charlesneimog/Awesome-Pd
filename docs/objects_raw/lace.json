@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "lace",
-    "description": "The `lace` object interleaves elements from two or more input lists into a single output list. It supports a configurable number of inlets (from 2 to 255) and can optionally pad shorter lists with zeros using the `-z` flag to match the length of the longest input list. A bang input is treated as an empty list.",
+    "description": "The `lace` object interleaves two or more incoming lists into a single output list. It can take an optional `-z` flag to pad shorter lists with zeros, ensuring all output lists match the length of the longest input list. A `bang` input is treated as an empty list.",
     "categories": [
-        "Data Structures",
-        "Text"
+        "Data Structures"
     ]
 }

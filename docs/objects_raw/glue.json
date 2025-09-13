@@ -23,5 +23,11 @@
     "description": "The `glue` object combines two \"packages\" or messages, typically by appending or prepending one to the other. It accepts any type of data in its inlets and can be initialized with a creation argument to preset the second inlet's content. This object is useful for manipulating data structures or message lists.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "repack",
+        "join",
+        "merge",
+        "pack2"
     ]
 }

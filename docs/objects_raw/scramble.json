@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "scramble",
-    "description": "The `scramble` object reorders the elements of an input message. Its left outlet outputs the scrambled message, while its right outlet sends a list of the original indexes (starting from 0) in their new, scrambled order. This object is useful for randomizing the order of data.",
+    "description": "The `scramble` object randomly reorders the elements of an input message. It outputs the scrambled message through its middle outlet and the corresponding scrambled indexes as a list through its rightmost outlet. This object is useful for introducing controlled randomness into data sequences.",
     "categories": [
         "Stochastic"
     ]

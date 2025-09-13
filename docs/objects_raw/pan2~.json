@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "pan2~",
-    "description": "`pan2~` performs equal-power (sin/cos) panning, distributing a mono audio signal across two output channels (left and right). It takes a signal input and a pan value (from -1 for full left to 1 for full right) to control the stereo position. An optional `-mc` flag enables multichannel output, providing both stereo signals.",
+    "description": "The `pan2~` object performs equal power (sin/cos) stereo panning. It takes an audio signal and a pan value (from -1 for left to 1 for right) as inputs, outputting the panned signal to left and right channels. An optional `-mc` flag allows for multichannel output of both stereo signals.",
     "categories": [
-        "Routing"
+        "Routing",
+        "Multichannel"
     ]
 }

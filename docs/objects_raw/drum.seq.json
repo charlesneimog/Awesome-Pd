@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "drum.seq",
-    "description": "The `drum.seq` object provides a graphical drum sequencer for creating and playing drum patterns. Users can activate cells in a grid to represent drum hits, and the object outputs bangs to trigger sounds based on the sequence. It supports managing multiple tracks and slots, and allows importing and exporting patterns.",
+    "description": "The `drum.seq` object provides a visual drum grid for creating and playing drum patterns. Users can activate cells to represent attacks, set track and slot values, and export patterns. It functions as a step sequencer, managing and outputting stored musical sequences.",
     "categories": [
         "Sequencers",
         "GUI"

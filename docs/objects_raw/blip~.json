@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "blip~",
-    "description": "`blip~` is a band-limited oscillator that generates waveforms by summing cosines using Discrete-Summation Formulae (DSF). It allows precise control over the fundamental frequency, number of harmonics, spectral multiplier, and lowest harmonic, enabling the creation of various timbres. It also supports phase modulation and hard/soft sync, with optional MIDI pitch input for frequency.",
+    "description": "`blip~` is a band-limited oscillator that generates waveforms by summing cosines, allowing precise control over the fundamental frequency, number of partials, and spectral multiplier. It supports phase modulation and hard/soft sync, making it suitable for creating harmonically rich sounds. This object is based on Csound's 'gbuzz' opcode.",
     "categories": [
-        "Additive",
-        "Oscillators"
+        "Oscillators",
+        "Additive"
     ]
 }

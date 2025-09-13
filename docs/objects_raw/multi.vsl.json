@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "multi.vsl",
-    "description": "The `multi.vsl` object is a graphical user interface (GUI) element that provides multiple vertical sliders in a single abstraction. It allows users to control and visualize several numerical parameters simultaneously, with options to customize range, dimensions, and colors. The object stores slider values in an internal array and supports various input/output messages for programmatic control and state saving.",
+    "description": "The `multi.vsl` object provides a graphical multi-slider interface for Pure Data, allowing users to control and visualize multiple numerical values. It stores these values in an internal array, offering customizable ranges, dimensions, and colors. Values can be set interactively, programmatically via messages, and output either as individual slider/value pairs or as a complete list.",
     "categories": [
         "GUI",
         "Data Structures"

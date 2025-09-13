@@ -23,5 +23,11 @@
     "description": "The `part_move` object is a core component of the GEM particle system. It is responsible for advancing particles based on their current velocity and defined constraints, while also updating their age. This object is typically used when `part_draw` or `part_render` are not handling particle movement automatically.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "part_vertex",
+        "part_render",
+        "part_damp",
+        "part_head"
     ]
 }

@@ -31,5 +31,11 @@
     "description": "The `tLink2D` object calculates properties of a link connecting two masses in a 2D physical simulation. It takes the 2D positions of two masses as input and outputs their distance, the link's elongation speed, its orientation, and the position of its center. This object is designed to compute and output forces, making it suitable for building interactive physical models.",
     "categories": [
         "Physical Modeling"
+    ],
+    "similar": [
+        "link3D",
+        "link2D",
+        "tLink3D",
+        "pmpd2d~"
     ]
 }

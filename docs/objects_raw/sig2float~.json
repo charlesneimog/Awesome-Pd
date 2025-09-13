@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "sig2float~",
-    "description": "The `sig2float~` object converts audio signals into floating-point numbers. It performs this conversion at a user-defined rate, which can be set via its arguments or right inlet, and supports multichannel signals, outputting a list of floats for each channel. It also provides control over conversion timing, including syncing and sample offset.",
+    "description": "The `sig2float~` object converts audio signals into floating-point numbers, enabling the use of signal data within the control domain. It supports multichannel signals, outputting a list of floats, and allows for precise control over the conversion rate and sample offset.",
     "categories": [
         "Multichannel",
         "General Utilities"

@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "rms~",
-    "description": "The `rms~` object calculates the Root Mean Square (RMS) amplitude of an incoming audio signal, providing a stable output due to Hanning windowing. It can report the RMS value in linear amplitude or dBFS, and its analysis window and hop size are configurable via creation arguments or the `set` message.",
+    "description": "The `rms~` object calculates the Root Mean Square (RMS) value of an incoming audio signal, similar to `env~` but providing RMS in linear amplitude or dBFS. It allows configuration of analysis window and hop sizes, making it suitable for dynamic loudness analysis.",
     "categories": [
+        "Math",
         "Descriptors"
     ]
 }

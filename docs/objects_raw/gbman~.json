@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "gbman~",
-    "description": "`gbman~` is a chaotic signal generator based on the Gingerbread Man map. It produces audio by iterating a difference equation, with its output filtered to remove DC offset and rescaled for audio range. The object's rate is set in Hertz, and it supports multichannel operation.",
+    "description": "`gbman~` is a chaotic audio generator based on the gingerbread man map difference equation, `y[n] = 1 + abs(y[n-1]) - y[n-2]`. It produces a filtered and rescaled audio signal, with its chaotic behavior controlled by a frequency input and initial feedback values for `y[n-1]` and `y[n-2]`. It supports multichannel operation and allows dynamic adjustment of its parameters.",
     "categories": [
         "Math",
-        "Multichannel"
+        "Oscillators",
+        "Procedural"
     ]
 }

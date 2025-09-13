@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "table",
-    "description": "The `table` object in Pure Data stores and manipulates a numerical array. It provides methods for graphical editing, setting and retrieving values, performing basic mathematical operations (e.g., sum, min, max), and loading/saving data from/to files. Multiple `table` instances can share the same data by assigning them a common name.",
+    "description": "The `table` object stores and edits a number array, which can be graphically manipulated via an editor window or by double-clicking. It supports various message-based operations for setting values, reading from and writing to files, and performing basic mathematical operations like sum, min, and max. Multiple `table` objects can share the same data by using a common name.",
     "categories": [
-        "Data Structures"
+        "Data Structures",
+        "File IO"
     ]
 }

@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "xselect2~",
-    "description": "The `xselect2~` object selects and crossfades between multiple audio input signals. It uses a control signal or float to determine the active input channel, and a spread parameter to adjust the crossfade amount between adjacent channels, allowing for smooth transitions between different audio sources.",
+    "description": "The `xselect2~` object selects and crossfades between multiple signal inputs based on an input position and a spread parameter. It allows for flexible signal routing and blending across up to 512 channels, supporting both indexed and circular selection modes. The crossfading uses a Sine/Cosine function for equal power blending between adjacent channels.",
     "categories": [
         "Routing",
         "Multichannel"

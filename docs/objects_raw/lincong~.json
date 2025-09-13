@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "lincong~",
-    "description": "The `lincong~` object is a chaotic signal generator based on a linear congruential difference equation. It produces an audio signal scaled between -1 and 1, with its output rate controllable in Hertz. Parameters 'a', 'c', 'm', and the initial value can be set via a list of floats.",
+    "description": "The `lincong~` object is a chaotic signal generator based on the linear congruential algorithm, similar to SuperCollider's `LincongN` UGEN. It produces a continuous chaotic signal at a specified frequency, which can be controlled via its first inlet. The object's chaotic behavior can be further shaped by setting parameters 'a', 'c', 'm', and an initial value through its other inlets or a list.",
     "categories": [
         "Math",
         "Stochastic"

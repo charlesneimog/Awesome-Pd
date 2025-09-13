@@ -23,5 +23,11 @@
     "description": "The `part_vertex` object is a core component for GEM-based particle systems. It adds a single particle at a specified `x y z` offset, essential for creating and managing particles within a visual particle system, especially when dealing with moving particle sources.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "part_head",
+        "part_render",
+        "part_killslow",
+        "part_size"
     ]
 }

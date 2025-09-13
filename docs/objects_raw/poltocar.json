@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "poltocar",
-    "description": "The `poltocar` object converts polar coordinates (amplitude and phase) to Cartesian coordinates (real and imaginary). It takes amplitude and phase as inputs and outputs the corresponding real and imaginary values.",
+    "description": "The `poltocar` object converts polar coordinates (amplitude and phase in radians) into cartesian coordinates (real and imaginary parts). It takes amplitude in its left inlet and phase in its right, outputting the real part from its left outlet and the imaginary part from its right. A `bang` can trigger the conversion of the last received coordinate pair.",
     "categories": [
         "Math"
     ]

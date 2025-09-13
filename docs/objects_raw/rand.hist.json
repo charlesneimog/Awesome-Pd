@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "rand.hist",
-    "description": "The `rand.hist` object generates weighted random numbers based on a user-defined histogram, which dictates the probability of each index being output. It can operate in a standard random mode or an \"unrepeat\" mode, where it outputs a sequence without repetition until all elements have been used, signaling completion with a bang. Users can dynamically modify the histogram, set a seed for reproducibility, and control its size.",
+    "description": "The `rand.hist` object generates weighted random numbers based on an internal histogram, allowing control over the probability of each output. It can produce sequences with or without repetition, and bangs its right outlet when a sequence is exhausted. The histogram can be dynamically updated using messages like `inc`, `dec`, `set`, `eq`, `clear`, and `size`, and the random sequence can be seeded for reproducibility.",
     "categories": [
+        "Algorithmic Composition",
         "Stochastic"
     ]
 }

@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "schmitt~",
-    "description": "The `schmitt~` object implements a Schmitt trigger, converting an input signal into a binary output (1 or 0) based on two distinct threshold levels. When the input exceeds the high threshold, the output becomes 1, and it reverts to 0 only when the input falls below the low threshold, providing hysteresis.",
+    "description": "The `schmitt~` object implements a Schmitt trigger, outputting a 1 or 0 signal based on whether its input crosses a high or low threshold. It is useful for converting noisy or fluctuating signals into clean binary (on/off) signals, with adjustable low and high threshold levels.",
     "categories": [
         "Logic"
     ]

@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "colors",
-    "description": "The `colors` object in Pure Data functions as a versatile color picker and converter. It allows users to select colors via a GUI, convert between various color formats like RGB, Hex, HSL, HSV, CMYK, and grayscale, and output them in different representations, including formats suitable for Pd's GUI objects and Data Structures. This object is particularly useful for managing and applying color properties within Pure Data patches and abstractions.",
+    "description": "The `colors` object in Pure Data functions as a color picker and converter, allowing users to select colors via a GUI and convert between various color formats like RGB, Hex, CMYK, HSL, and HSV. It's particularly useful for managing and setting color properties for GUI objects (`iemguis`) and Data Structures within Pure Data patches.",
     "categories": [
-        "GUI"
+        "GUI",
+        "Data Structures"
     ]
 }

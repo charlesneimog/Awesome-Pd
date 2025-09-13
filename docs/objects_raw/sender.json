@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "sender",
-    "description": "The `sender` object functions similarly to Pure Data's `send` object, but with enhanced capabilities. It can send messages to up to two distinct named receivers, with the ability to dynamically set these names via inlets. Additionally, `sender` supports dollar-sign expansion at load time, allowing for flexible naming within abstractions.",
+    "description": "The `sender` object functions similarly to Pure Data's `send` object but offers enhanced capabilities. It can manage up to two distinct send names, allowing data to be directed to two different addresses. Additionally, `sender` supports dollar symbol expansion at load time, enabling dynamic routing within parent patches and abstractions.",
     "categories": [
         "Routing"
     ]

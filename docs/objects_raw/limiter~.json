@@ -24,5 +24,11 @@
     "categories": [
         "Dynamics",
         "Multichannel"
+    ],
+    "similar": [
+        "dbgain~",
+        "level~",
+        "expand~",
+        "compress~"
     ]
 }

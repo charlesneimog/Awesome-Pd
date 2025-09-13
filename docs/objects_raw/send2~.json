@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "send2~",
-    "description": "The `send2~` object transmits audio signals to a corresponding `r~` object, similar to `send~`. Its primary advantage is automatically adapting its internal structure to the number of input channels, making it ideal for dynamic multichannel audio routing. It requires a symbol as an argument, which serves as the destination name for the signals.",
+    "description": "The `send2~` object transmits audio signals to a named receiver, similar to `send~`. Its unique feature is automatically adapting its internal channel count to match the number of input channels it receives. This makes it particularly useful for dynamically routing multichannel audio within a Pure Data patch.",
     "categories": [
         "Routing",
         "Multichannel"

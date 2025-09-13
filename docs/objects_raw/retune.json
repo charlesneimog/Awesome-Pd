@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "retune",
-    "description": "The `retune` object remaps incoming MIDI pitches to a custom scale. It takes a list of steps in cents and a base MIDI pitch, then retunes subsequent MIDI pitch inputs relative to this base and scale. This allows for microtonal or alternative tunings.",
+    "description": "The `retune` object remaps incoming MIDI pitches to a custom scale. It takes a list of steps in cents defining the scale and a base MIDI pitch, then retunes subsequent MIDI pitch inputs according to this scale. This allows for microtonal adjustments or alternative tunings.",
     "categories": [
         "MIDI"
     ]

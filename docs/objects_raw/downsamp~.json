@@ -20,6 +20,6 @@
     ],
     "ai": true,
     "title": "downsamp~",
-    "description": "The `downsamp~` object performs a sample-and-hold operation on an input audio signal, effectively reducing its sample rate. It takes a signal in the left inlet and a rate (in samples) in the right inlet, without performing any interpolation on the output. This can be used to create aliasing effects or to simulate lower fidelity audio.",
+    "description": "The `downsamp~` object samples and holds an input signal at a specified rate, expressed in samples, without interpolation. It effectively reduces the sample rate of a signal, holding the last sampled value until the next sample is taken. The sampling rate can be controlled by a float or signal, and `mstosamps~` can be used to convert milliseconds to samples for rate control.",
     "categories": []
 }

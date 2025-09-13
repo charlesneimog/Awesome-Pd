@@ -20,8 +20,8 @@
     ],
     "ai": true,
     "title": "unmerge",
-    "description": "The `unmerge` object splits an incoming message into multiple sub-messages, distributing elements into groups of a specified size across its outlets. Any remaining elements are sent to an additional rightmost outlet. It is useful for deconstructing message lists for further processing.",
+    "description": "The `unmerge` object separates an incoming message into groups of elements, sending each group to a dedicated outlet. It allows specifying the number of elements per group, with any remaining elements directed to an additional rightmost outlet. This object is primarily used for distributing message contents to different parts of a Pure Data patch.",
     "categories": [
-        "Data Structures"
+        "Routing"
     ]
 }

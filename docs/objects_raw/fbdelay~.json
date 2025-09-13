@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "fbdelay~",
-    "description": "The `fbdelay~` object creates a feedback delay line, useful for delay effects, reverberation, and comb filtering. It allows setting delay time and decay time (t60) in milliseconds, or a direct gain coefficient for feedback. The delay line can also be frozen.",
+    "description": "`fbdelay~` implements a simple feedback delay line, useful for creating delay effects, reverberation, and comb filtering. It allows control over delay time and feedback, which can be set via a \"t60\" decay time (time for impulse to fall 60dB) or directly as a gain coefficient. The object supports interpolation for sub-sample delay times and features options to set maximum delay size, clear the buffer, and freeze the delay line.",
     "categories": [
+        "Reverb",
         "Delay",
-        "Reverb"
+        "Audio IO"
     ]
 }

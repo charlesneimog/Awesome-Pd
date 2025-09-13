@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "impulse2~",
-    "description": "`impulse2~` (or `imp2~`) is a two-sided impulse oscillator that generates audio signals. It supports negative frequencies, pulse width control, phase synchronization, and phase modulation. This object also features multichannel capabilities and can interpret frequency input in either Hertz or MIDI pitch.",
+    "description": "`impulse2~` is a two-sided impulse oscillator, a variant of `else/impulse~`, capable of accepting negative frequencies. It features inlets for pulse width, phase synchronization, and phase modulation, and also supports multichannel audio operation. This object is particularly useful for generating impulse signals and can be synced for applications like LFOs or hard sync techniques.",
     "categories": [
-        "Oscillators",
-        "Multichannel"
+        "Oscillators"
     ]
 }

@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "pimp~",
-    "description": "The `pimp~` object is an impulse oscillator that combines the functionality of `phasor~` and `else/imp~`. It outputs a phase signal and generates an impulse at the start of each phase period, supporting both hard and soft synchronization. It can be controlled by frequency in Hertz or MIDI pitch, and supports multichannel operation for complex signal generation and modulation.",
+    "description": "`pimp~` is a signal generator combining `phasor~` and `else/imp~`, outputting both a phase signal (0-1) and an impulse at each cycle's start. It features phase synchronization, phase modulation, and configurable hard/soft sync, with support for Hertz or MIDI frequency input and multichannel operation. This object is ideal for driving processes with its phase output and triggering events with its impulses.",
     "categories": [
         "Oscillators",
-        "Multichannel"
+        "Multichannel",
+        "MIDI"
     ]
 }

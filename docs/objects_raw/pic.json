@@ -20,10 +20,9 @@
     ],
     "ai": true,
     "title": "pic",
-    "description": "The `pic` object in Pure Data displays image files (`.gif`, `.ppm`, `.pgm`) within a patch. Users can interact with the displayed image by clicking it, which triggers a bang or a 1/0 output depending on its mode. It also supports setting send/receive symbols and reporting image dimensions.",
+    "description": "The `pic` object loads and displays image files (`.gif`, `.ppm`, `.pgm`) within a Pure Data patch. It acts as a clickable GUI element, outputting a `bang` on click (or 1/0 in latch mode) and can report image dimensions. It's useful for creating interactive buttons or visual feedback.",
     "categories": [
-        "File I/O",
-        "GUI",
-        "Graphics"
+        "File IO",
+        "GUI"
     ]
 }

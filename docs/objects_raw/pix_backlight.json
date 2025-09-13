@@ -23,5 +23,11 @@
     "description": "The `pix_backlight` object applies a backlighting effect to images by radially displacing pixels based on their luminance. Users can control the displacement amount using a scale factor, and define a luminance range (floor and ceiling) within which the displacement occurs. It takes a `gemlist` as input and outputs a modified `gemlist`.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "translate",
+        "shearYX",
+        "rotate",
+        "pix_lumaoffset"
     ]
 }

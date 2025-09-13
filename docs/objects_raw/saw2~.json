@@ -20,10 +20,9 @@
     ],
     "ai": true,
     "title": "saw2~",
-    "description": "The `saw2~` object is a versatile sawtooth wave oscillator that supports negative frequencies and multichannel operation. It features dedicated inlets for phase synchronization (including hard and soft sync modes) and phase modulation, allowing for complex timbral manipulation. Frequency input can be specified in Hertz or MIDI pitch, and initial phase offsets can be set via arguments or inlets.",
+    "description": "The `saw2~` object is a versatile sawtooth wave oscillator that also supports negative frequencies and can function as a triangular oscillator. It features inlets for phase synchronization and phase modulation, allowing for complex waveform manipulation, and supports multichannel audio with frequency input in Hertz or MIDI pitch.",
     "categories": [
         "Oscillators",
-        "Multichannel",
-        "Subtractive"
+        "Multichannel"
     ]
 }

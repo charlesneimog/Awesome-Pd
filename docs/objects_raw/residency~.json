@@ -31,5 +31,11 @@
     "description": "The `residency~` object samples audio input into an internal buffer, primarily for spectral processing. It can resynthesize the buffered audio using an internal oscillator bank, with controls for transposition and synthesis threshold. Configuration includes buffer size in milliseconds, FFT size, and overlap factor.",
     "categories": [
         "Partial Tracking"
+    ],
+    "similar": [
+        "reanimator~",
+        "resent~",
+        "freeze~",
+        "morph~"
     ]
 }

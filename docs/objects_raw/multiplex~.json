@@ -23,5 +23,11 @@
     "description": "The `multiplex~` object functions as a signal multiplexer, allowing you to select one signal from multiple inputs to be passed to a single output. The number of signal inlets is dynamically set by the number of creation arguments, and a float value in the first inlet determines which signal is routed.",
     "categories": [
         "Routing"
+    ],
+    "similar": [
+        "mux~",
+        "selector~",
+        "multiplex",
+        "demultiplex~"
     ]
 }

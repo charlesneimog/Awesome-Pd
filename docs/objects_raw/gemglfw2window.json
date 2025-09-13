@@ -23,5 +23,11 @@
     "description": "The `gemglfw2window` object creates and manages a graphical window using GLFW (version 2) within Pure Data's GEM environment. It provides controls for window properties like dimensions, position, title, buffering, anti-aliasing, and fullscreen mode. Additionally, it outputs keyboard events, making it suitable for interactive graphical applications.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "gemglfw3window",
+        "gemcocoawindow",
+        "gemglxwindow",
+        "gemmacoswindow"
     ]
 }

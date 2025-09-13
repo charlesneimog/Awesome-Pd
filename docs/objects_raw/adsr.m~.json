@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "adsr.m~",
-    "description": "The `adsr.m~` object is a polyphonic ADSR envelope generator. It accepts multichannel gate signals in its left inlet and can be retriggered by impulses or bangs in its second inlet. Attack, decay, and release times are specified in milliseconds, while the sustain level is a ratio of the gate input, with additional audio CV controls for each stage.",
+    "description": "The `adsr.m~` object is a polyphonic ADSR envelope generator designed for multichannel audio signals. It takes gate input in its left inlet and can be retriggered by impulses or a `bang` message. Attack, decay, and release times are specified in milliseconds, while the sustain point is a ratio of the gate input, with additional audio CV controls for these parameters.",
     "categories": [
         "Envelopes",
         "Multichannel"

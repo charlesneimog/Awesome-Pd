@@ -23,5 +23,11 @@
     "description": "The `date` object retrieves the current system date and time. Upon receiving a `bang`, it outputs various components of the date, such as month, year, day of month, day of week, and day of year, as floats. It can provide this information for both local time and GMT.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "datetime",
+        "time",
+        "else",
+        "sr~"
     ]
 }

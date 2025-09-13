@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "keymap",
-    "description": "The `keymap` object translates computer keyboard presses into MIDI note on/off messages, effectively turning your QWERTY keyboard into a musical input device. It supports various keyboard layouts and can be configured for octave shifts and transposition. A \"toggle\" mode is available for sustained notes.",
+    "description": "The `keymap` object translates computer keyboard presses into MIDI note on/off messages, mapping keys to specific pitches across two rows (e.g., 'z' row for C3, 'q' row for C4). It supports octave shifting and transposition, and can operate in a 'toggle' mode for sustained notes. This object is primarily used to control synthesizers or other MIDI-aware modules directly from the computer keyboard.",
     "categories": [
         "MIDI",
-        "Control I/O"
+        "Control IO"
     ]
 }

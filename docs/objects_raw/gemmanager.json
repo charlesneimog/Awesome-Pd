@@ -23,5 +23,11 @@
     "description": "The `gemmanager` object is an internal helper designed to interact with Gem's global state. Its primary function is to allow setting global parameters, such as window dimensions using the `dimen <w> <h>` message. This object is generally not intended for direct use by end-users.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_resize",
+        "gemglxwindow",
+        "Gem",
+        "gemmacwindow"
     ]
 }

@@ -65,17 +65,15 @@ function getCategoryData() {
     const state = {
         articles: [],
         videos: [],
-        musics: [], // musical works
-        theme: "auto", // auto | light | dark
+        musics: [],
     };
 
     document.addEventListener("DOMContentLoaded", () => {
         // Elements
-        const themeToggle = $("#themeToggle");
-        const isPartOfLib = $("#isPartOfLib");
-        const libraryField = $("#libraryField");
+        const titleEl = $("#title");
         const description = $("#description");
         const charCount = $("#char-count");
+        const yearEl = $("#year");
 
         // Repeaters
         const addArticleBtn = $("#addArticle");
@@ -98,42 +96,6 @@ function getCategoryData() {
 
         const saveSend = $("#saveSend");
 
-        // Theme toggle (persist in localStorage)
-        try {
-            const savedTheme = localStorage.getItem("theme-preference");
-            if (savedTheme) {
-                state.theme = savedTheme;
-                applyTheme(savedTheme);
-            }
-        } catch {}
-        themeToggle?.addEventListener("click", () => {
-            const next = getNextTheme(state.theme);
-            state.theme = next;
-            try {
-                localStorage.setItem("theme-preference", next);
-            } catch {}
-            applyTheme(next);
-        });
-
-        function getNextTheme(current) {
-            if (current === "auto") return "dark";
-            if (current === "dark") return "light";
-            return "auto";
-        }
-        function applyTheme(mode) {
-            document.documentElement.dataset.theme = mode;
-            const icon = mode === "dark" ? "light_mode" : mode === "light" ? "dark_mode" : "contrast";
-            // themeToggle?.querySelector?.(".material-symbols-rounded")?.textContent = icon;
-        }
-
-        // Toggle library field
-        isPartOfLib.addEventListener("change", () => {
-            libraryField.hidden = !isPartOfLib.checked;
-            if (!isPartOfLib.checked) {
-                $("#libraryName").value = "";
-            }
-        });
-
         // Character count (include spaces to match minlength behavior)
         const updateCharCount = () => {
             const len = description.value.length;
@@ -145,7 +107,7 @@ function getCategoryData() {
 
         // Helpers
         const parseList = (val) =>
-            val
+            (val || "")
                 .split(",")
                 .map((s) => s.trim())
                 .filter(Boolean);
@@ -160,32 +122,102 @@ function getCategoryData() {
             }
         };
 
-        // Build category hierarchy from DOM structure
+        // Build categories from JSON structure
+        function createCheckbox(name) {
+            const label = document.createElement("label");
+            label.className = "checkbox pretty";
+
+            const input = document.createElement("input");
+            input.type = "checkbox";
+            input.name = "category";
+            input.value = name;
+
+            const span = document.createElement("span");
+            span.textContent = name;
+
+            label.appendChild(input);
+            label.appendChild(span);
+            return label;
+        }
+
+        function buildCategories(container, data) {
+            for (const key in data) {
+                const value = data[key];
+
+                // Skip this key explicitly if present
+                if (key === "Object of day") continue;
+
+                // Primitive or empty object/array: render as a checkbox
+                if (
+                    !value ||
+                    typeof value !== "object" ||
+                    (Array.isArray(value) && value.length === 0) ||
+                    (Object.keys(value).length === 0 && !Array.isArray(value))
+                ) {
+                    container.appendChild(createCheckbox(key));
+                } else if (Array.isArray(value)) {
+                    container.appendChild(createCheckbox(key));
+                } else {
+                    // Nested object -> create a subcategory section with heading + nested checkboxes
+                    const subDiv = document.createElement("div");
+                    subDiv.className = "subcategory";
+
+                    const h5 = document.createElement("h5");
+                    h5.textContent = key;
+                    subDiv.appendChild(h5);
+
+                    const nestedDiv = document.createElement("div");
+                    nestedDiv.className = "nested-checkboxes";
+
+                    buildCategories(nestedDiv, value);
+
+                    subDiv.appendChild(nestedDiv);
+                    container.appendChild(subDiv);
+                }
+            }
+        }
+
+        async function loadCategories() {
+            try {
+                const response = await fetch("categories.json");
+                if (!response.ok) throw new Error("Failed to load JSON");
+                const categories = await response.json();
+
+                const container = document.getElementById("categories");
+                const checkboxGroup = document.createElement("div");
+                checkboxGroup.className = "checkbox-group";
+
+                buildCategories(checkboxGroup, categories);
+                container.appendChild(checkboxGroup);
+            } catch (err) {
+                console.error(err);
+            }
+        }
+
+        // Category data extraction (hierarchy awareness)
         function getCategoryData() {
+            // Flat selected list
             const selected = $$('input[name="category"]:checked').map((cb) => cb.value);
 
             const groups = [];
             const parentsMap = {};
 
-            // For each subcategory block, find its parent and its children
+            // For each subcategory block, capture parent heading and children
             $$(".subcategory").forEach((sc) => {
-                // parent checkbox is the direct label under .subcategory
-                const parentInput = sc.querySelector(':scope > label.checkbox input[name="category"]');
-                if (!parentInput) return;
-                const parent = parentInput.value;
-                const parent_selected = parentInput.checked;
+                const parentHeading = sc.querySelector(":scope > h5");
+                const parent = parentHeading?.textContent || null;
+                const parent_selected = false; // no parent checkbox rendered
 
-                // children are inside .nested-checkboxes
                 const childInputs = Array.from(sc.querySelectorAll('.nested-checkboxes input[name="category"]'));
                 const children = childInputs.map((i) => i.value);
                 const selected_children = childInputs.filter((i) => i.checked).map((i) => i.value);
 
-                // record parent for each child
-                children.forEach((c) => {
-                    parentsMap[c] = parent;
-                });
+                // Record parent for each child
+                children.forEach((c) => (parentsMap[c] = parent));
 
-                groups.push({ parent, parent_selected, children, selected_children });
+                if (parent) {
+                    groups.push({ parent, parent_selected, children, selected_children });
+                }
             });
 
             return { selected, groups, parents: parentsMap };
@@ -243,100 +275,6 @@ function getCategoryData() {
             renderList(musicList, state.musics, "music");
         }
 
-        document.getElementById("title").addEventListener("blur", async function (event) {
-            const value = event.target.value.trim();
-            if (!value) return;
-
-            try {
-                const response = await fetch("../all_objects.json");
-                if (!response.ok) throw new Error("Failed to load JSON");
-                const objects = await response.json();
-
-                if (objects.includes(value)) {
-                    const response_obj = await fetch(`../objects/${value}.json`);
-                    if (!response_obj.ok) throw new Error("Failed to load object JSON");
-                    const obj_info = await response_obj.json();
-                    if (!obj_info.hasOwnProperty("contributors")) {
-                        obj_info.contributors = [];
-                    }
-                    console.log("Loaded object data:", obj_info);
-
-                    // Fill basic form fields if empty
-                    const setIfEmpty = (selector, val) => {
-                        const el = document.querySelector(selector);
-                        if (!el) return;
-
-                        if (el.type === "checkbox") {
-                            if (!el.checked && typeof val === "boolean") el.checked = val;
-                        } else {
-                            if (!el.value) el.value = val ?? "";
-                        }
-                    };
-
-                    setIfEmpty("#title", obj_info.title);
-                    setIfEmpty("#description", obj_info.description);
-                    setIfEmpty("#download", obj_info.download_link);
-                    setIfEmpty("#bugs", obj_info.bug_reports);
-                    setIfEmpty("#developers", obj_info.developers?.join(", "));
-                    setIfEmpty("#dekenAvailable", obj_info.available_on_deken);
-                    setIfEmpty("#isPartOfLib", obj_info.part_of_library);
-                    setIfEmpty("#libraryName", obj_info.library_name);
-
-                    // hide
-                    setIfEmpty("#contributors", obj_info.contributors);
-
-                    // Platforms checkboxes
-                    if (obj_info.runs_on?.length) {
-                        obj_info.runs_on.forEach((platform) => {
-                            const cb = document.querySelector(`input[name="platform"][value="${platform}"]`);
-                            if (cb && !cb.checked) cb.checked = true;
-                        });
-                    }
-
-                    // Categories: merge existing with JSON
-                    if (obj_info.categories?.length) {
-                        const currentCategories = getCategoryData()?.selected || [];
-                        const mergedCategories = [...new Set([...currentCategories, ...obj_info.categories])];
-                        const parentsMap = {};
-                        document.querySelectorAll("#categories .subcategory").forEach((sc) => {
-                            const parentInput = sc.querySelector(":scope > h5");
-                            const parentName = parentInput?.textContent;
-                            if (!parentName) return;
-
-                            sc.querySelectorAll('.nested-checkboxes input[name="category"]').forEach((childCb) => {
-                                parentsMap[childCb.value] = parentName;
-                            });
-                        });
-                        setCategoryData({ selected: mergedCategories, parents: parentsMap });
-                    }
-
-                    const mergeItems = (stateArray, jsonItems, type) => {
-                        if (!jsonItems?.length) return;
-                        jsonItems.forEach((item) => {
-                            if (!stateArray.some((existing) => existing.title === item.title)) {
-                                stateArray.push(item);
-                            }
-                        });
-                        renderAll();
-                    };
-
-                    // Inside your blur listener after loading obj_info
-                    mergeItems(state.articles, obj_info.articles, "article");
-                    mergeItems(state.videos, obj_info.videos, "video");
-                    mergeItems(state.musics, obj_info.musics, "music");
-
-                    const description = document.getElementById("description");
-                    const charCount = document.getElementById("char-count");
-                    const len = description.value.length;
-                    charCount.textContent = `${len} / 100 characters`;
-                    charCount.style.color = len < 100 ? "#d64545" : "var(--muted)";
-                } else {
-                    console.log("❌ Not found:", value);
-                }
-            } catch (err) {
-                console.error(err);
-            }
-        });
         // Adders
         addArticleBtn.addEventListener("click", () => {
             const title = articleTitle.value.trim();
@@ -383,84 +321,24 @@ function getCategoryData() {
             renderAll();
         });
 
-        // Time parser for YouTube "t" param (e.g., 1m23s, 90)
-        function parseYouTubeTime(t) {
-            if (!t) return "";
-            if (/^\d+$/.test(t)) return t; // seconds
-            const m = /(?:(\d+)h)?(?:(\d+)m)?(?:(\d+)s)?/i.exec(t);
-            if (!m) return "";
-            const h = parseInt(m[1] || "0", 10);
-            const mi = parseInt(m[2] || "0", 10);
-            const s = parseInt(m[3] || "0", 10);
-            return String(h * 3600 + mi * 60 + s);
-        }
-
-        // YouTube embed (iframe) exactly like the requested style
-        function youtubeEmbed(url) {
-            try {
-                const u = new URL(url);
-                const host = u.hostname.replace(/^www\./, "");
-                let videoId = "";
-                let start = "";
-                let si = "";
-                let list = "";
-                let index = "";
-
-                if (host.includes("youtube.com")) {
-                    videoId = u.searchParams.get("v") || "";
-                    start = u.searchParams.get("start") || u.searchParams.get("t") || "";
-                    if (start) start = parseYouTubeTime(start);
-                    si = u.searchParams.get("si") || "";
-                    list = u.searchParams.get("list") || "";
-                    index = u.searchParams.get("index") || "";
-                } else if (host === "youtu.be" || host === "m.youtube.com") {
-                    videoId = u.pathname.slice(1);
-                    start = u.searchParams.get("start") || u.searchParams.get("t") || "";
-                    if (start) start = parseYouTubeTime(start);
-                    si = u.searchParams.get("si") || "";
-                    list = u.searchParams.get("list") || "";
-                    index = u.searchParams.get("index") || "";
-                }
-
-                if (!videoId) return url;
-
-                const qs = new URLSearchParams();
-                if (si) qs.set("si", si);
-                if (start) qs.set("start", start);
-                if (list) qs.set("list", list);
-                if (index) qs.set("index", index);
-
-                const src = `https://www.youtube.com/embed/${videoId}${qs.toString() ? `?${qs}` : ""}`;
-                return `<iframe style="border-radius: 8px" width="560" height="315" src="${src}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
-            } catch {
-                return url;
-            }
-        }
-
-        // GitHub issue generation (do not change the markdown generation)
+        // Save & Send (open GitHub issue with JSON block)
         saveSend.addEventListener("click", () => {
-            const title = $("#title").value.trim();
-            const desc = $("#description").value.trim();
-            const runs_on = $$('input[name="platform"]:checked').map((cb) => cb.value);
-            const download_link = $("#download").value.trim();
-            const bug_reports = $("#bugs").value.trim();
-            const developers = parseList($("#developers").value);
-            const available_on_deken = $("#dekenAvailable").checked;
-            const part_of_lib = $("#isPartOfLib").checked;
-            const library_name = $("#libraryName").value.trim();
-            const contributors = parseList($("#contributors").value);
+            const title = titleEl.value.trim();
+            const desc = description.value.trim();
+            const developers = parseList($("#developers")?.value || ""); // Composer(s)
+            const performers = parseList($("#performers")?.value || "");
+            const contributors = parseList($("#contributors")?.value || "");
+            const year = yearEl?.value.trim() || "";
 
-            // NEW: collect categories with hierarchy
+            // Categories
             const categoryData = getCategoryData();
             const categories = categoryData.selected;
-            const whatiam = "object";
 
             // Basic validation
             const errors = [];
-            if (!title) errors.push("Title is required.");
+            if (!title) errors.push("Name is required.");
             if (desc.length < 100) errors.push("Description must be at least 100 characters.");
-            if (download_link && !isValidUrl(download_link)) errors.push("Download link must be a valid URL.");
-            if (bug_reports && !isValidUrl(bug_reports)) errors.push("Bug reports link must be a valid URL.");
+            if (year && !/^\d{4}$/.test(year)) errors.push("Year must be a 4-digit number (e.g., 2019).");
             if (errors.length) {
                 alert(errors.join("\n"));
                 return;
@@ -468,39 +346,34 @@ function getCategoryData() {
 
             const project = {
                 title,
-                whatiam,
+                whatiam: "piece",
                 description: desc,
-                runs_on,
-                download_link,
-                available_on_deken,
-                bug_reports,
-                developers,
-                part_of_library: part_of_lib,
-                library_name: part_of_lib ? library_name : "",
-                // Categories: add flat selection and hierarchy so you know which are subcategories
+                developers, // composers
+                performers,
+                year, // NEW: included in payload
+                // Categories: flat selection and hierarchy
                 categories, // flat list of selected values
                 category_groups: categoryData.groups, // [{ parent, parent_selected, children, selected_children }]
                 category_parents: categoryData.parents, // { childValue: parentValue }
                 articles: state.articles,
                 videos: state.videos,
                 musics: state.musics,
-                contributors: contributors,
+                contributors,
             };
 
-            // JSON block
+            // JSON block (do not change the markdown generation)
             const jsonBlock =
                 "\n\n*Don't delete the next lines please*\n```json\n" + JSON.stringify(project, null, 2) + "\n```";
             const repoURL = "https://github.com/charlesneimog/Awesome-Pd";
-            const issueTitle = `Request to add library: ${project.title}`;
+            const issueTitle = `Request to add piece: ${project.title}`;
             const body = `${jsonBlock}`;
             const issueURL = `${repoURL}/issues/new?title=${encodeURIComponent(issueTitle)}&body=${encodeURIComponent(body)}`;
 
             window.open(issueURL, "_blank", "noopener,noreferrer");
         });
 
-        function escapeHtml(str) {
-            return String(str).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-        }
+        // Load category tree
+        loadCategories();
     });
 })();
 

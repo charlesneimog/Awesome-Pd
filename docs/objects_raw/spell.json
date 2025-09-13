@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "spell",
-    "description": "The `spell` object converts incoming messages, character by character, into their corresponding UTF-8 (Unicode) integer values. It can process symbols and lists of numbers/characters, outputting a list of integers. Optionally, the output can be padded to a minimum size with a specified fill character, making it useful for formatting text data.",
+    "description": "The `spell` object converts incoming messages, including digits and characters, into their corresponding UTF-8 (Unicode) integer values. It can pad the output to a minimum size using a specified fill character. This object is useful for manipulating text as numerical data within Pure Data.",
     "categories": [
-        "Text",
-        "General Utilities"
+        "Text"
     ]
 }

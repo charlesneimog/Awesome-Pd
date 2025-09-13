@@ -20,10 +20,10 @@
     ],
     "ai": true,
     "title": "bl.saw~",
-    "description": "The `bl.saw~` object generates a bandlimited, anti-aliased sawtooth waveform, suitable for high-quality audio synthesis. It accepts frequency input in Hertz or MIDI pitch, and features inlets for phase synchronization and phase offset, with support for multichannel signals.",
+    "description": "bl.saw~ is a bandlimited, anti-aliased sawtooth oscillator designed for high-quality synthesis. It supports frequency input in Hertz or MIDI pitch, and features inlets for phase reset (hard or soft sync) and phase offset modulation. The object also provides robust multichannel signal support for complex sound design.",
     "categories": [
         "MIDI",
-        "Oscillators",
-        "Multichannel"
+        "Subtractive",
+        "Oscillators"
     ]
 }

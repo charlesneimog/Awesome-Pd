@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "pitch.shift~",
-    "description": "`pitch.shift~` is a pitch shifter object that transposes audio signals up or down. It operates using a granulation technique, allowing users to control the transposition factor in cents and the grain size in milliseconds.",
+    "description": "The `pitch.shift~` object performs real-time pitch shifting on an audio signal using granulation. It allows users to control the transposition amount in cents and adjust the grain size in milliseconds for the granulation process. This enables altering the pitch of a sound without changing its duration.",
     "categories": [
         "Granular"
     ]

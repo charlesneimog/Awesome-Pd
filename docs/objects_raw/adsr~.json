@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "adsr~",
-    "description": "`adsr~` is an audio-rate Attack, Decay, Sustain, Release envelope generator. It shapes incoming gate signals into a dynamic amplitude curve, with configurable attack, decay, sustain level, and release times. The object supports retriggering, immediate release, multichannel processing, and adjustable curve shapes for its segments.",
+    "description": "The `adsr~` object generates an Attack-Decay-Sustain-Release envelope signal, primarily used for amplitude or parameter control. It supports both control and signal rate gating, retriggering, and offers curve and lag modes for shaping the envelope. The object also provides a status outlet indicating when the envelope is active and supports multichannel operation.",
     "categories": [
         "Envelopes",
         "Multichannel"

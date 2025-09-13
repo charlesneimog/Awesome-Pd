@@ -6,12 +6,12 @@
     ],
     "download_link": "",
     "available_on_deken": true,
-    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
     "developers": [
-        "Johannes M. Zmölnig"
+        "Alexandre Torres Porres"
     ],
     "part_of_library": true,
-    "library_name": "zexy",
+    "library_name": "cyclone",
     "articles": [],
     "videos": [],
     "musics": [],
@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "scale",
-    "description": "The `scale` object in Pure Data is a GEM object used to manipulate the current transformation matrix for graphical objects. It accepts a `gemList` and applies scaling based on its arguments: a single float for uniform scaling, three floats for per-axis scaling (X, Y, Z), or four arguments for scaling by an amount along a specified vector. This object is fundamental for resizing and transforming visual elements within a GEM patch.",
+    "description": "The `scale` object maps an input numerical range to an output numerical range, allowing for inversion and exponential scaling. It does not clip values that fall outside the input range, instead continuing to scale them proportionally. The modern exponential mode is recommended over the buggy \"classic\" mode.",
     "categories": [
-        "Graphics"
+        "Math",
+        "General Utilities"
     ]
 }

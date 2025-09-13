@@ -23,5 +23,11 @@
     "description": "The `shearZX` object is a GEM manipulation object that applies a shear transformation to the current transformation matrix. It accepts a `gemList` and modifies the Z translation of graphical elements based on their X position and a specified shear factor. This allows for skewing objects along the ZX plane.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "shearYZ",
+        "shearYX",
+        "shearXY",
+        "shearZY"
     ]
 }

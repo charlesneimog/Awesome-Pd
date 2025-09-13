@@ -20,6 +20,8 @@
     ],
     "ai": true,
     "title": "bin.shift~",
-    "description": "`bin.shift~` is a Pure Data object designed for spectral processing, enabling the shifting of samples or frequency bins within an audio signal. Similar to `lrshift~`, it allows left or right shifts of audio data. It also features a \"wrap\" mode, where samples shifted out of bounds are reinserted on the opposite side, rather than being zeroed.",
-    "categories": []
+    "description": "The `bin.shift~` object is designed for spectral processing, allowing users to shift frequency bins of an incoming signal. It takes a signal to be processed and a float to specify the number of bins to shift, with positive values shifting right and negative values shifting left. An optional \"wrap\" mode can be enabled to prevent samples outside the bounds from being zeroed.",
+    "categories": [
+        "Audio IO"
+    ]
 }

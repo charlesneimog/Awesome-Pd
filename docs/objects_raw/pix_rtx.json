@@ -23,5 +23,11 @@
     "description": "The `pix_rtx` object performs a real-time \"Time-X transformation\" on incoming video frames, effectively swapping the time axis with the x-axis of the image. This creates a visual effect similar to `tx-transform` but operates dynamically. It requires substantial memory for its internal buffer and processes video input, outputting a `gemlist`.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_frei0r",
+        "pix_indycam",
+        "translate",
+        "pix_freeframe"
     ]
 }

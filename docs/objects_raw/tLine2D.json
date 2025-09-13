@@ -31,5 +31,11 @@
     "description": "The `tLine2D` object defines a 2D line segment using two points and tracks the position of a \"mass\" relative to it. It outputs the mass's distance from the segment, a related \"speed\" value, and a binary (0 or 1) indicator based on the mass's position. This object is primarily used for testing and interacting with 2D mass positions within a defined linear boundary.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "tCylinder3D",
+        "tSeg2D",
+        "iAmbient2D",
+        "clip~"
     ]
 }

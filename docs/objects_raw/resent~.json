@@ -31,5 +31,11 @@
     "description": "`resent~` is a spectral sample buffer that captures an input audio signal for manipulation. It allows for detailed control over individual spectral bins, including their speeds, phases, and transposition, often utilizing an internal oscillator bank for resynthesis. The object also provides global speed control and options for randomizing spectral parameters.",
     "categories": [
         "Partial Tracking"
+    ],
+    "similar": [
+        "residency~",
+        "reanimator~",
+        "morph~",
+        "freeze~"
     ]
 }

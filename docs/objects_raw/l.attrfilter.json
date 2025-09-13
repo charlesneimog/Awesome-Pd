@@ -32,5 +32,11 @@
     ],
     "contributors": [
         "charlesneimog"
+    ],
+    "similar": [
+        "l.readsvg",
+        "drip",
+        "repeat",
+        "timed.gate~"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `packel` object extracts elements from a list, referred to as a \"package.\" It can retrieve a specific element by its index (positive for from the beginning, negative for from the end), or the entire list if the index is 0. This object is useful for accessing and manipulating data within lists.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "l2i",
+        "l",
+        "delace",
+        "any2list"
     ]
 }

@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "zeroCrossing~",
-    "description": "The `zeroCrossing~` object measures the noisiness or frequency-related characteristics of an audio signal by counting how many times it crosses the zero amplitude point within a specified window. It outputs this count as a numerical feature, often used as a crude timbre descriptor. Users can set the analysis window size via a creation argument or a 'window' message, and it's recommended to apply an amplitude threshold before measurement to avoid low-level noise interference."
+    "description": "The `zeroCrossing~` object measures the noisiness or frequency-related characteristics of an audio signal by counting how many times it crosses the zero amplitude point within a specified window. It outputs this count as a numerical feature, often used as a crude timbre descriptor. Users can set the analysis window size via a creation argument or a 'window' message, and it's recommended to apply an amplitude threshold before measurement to avoid low-level noise interference.",
+    "similar": [
+        "waveNoise~",
+        "zeroCrossing",
+        "maxSample~",
+        "maxSampleDelta~"
+    ]
 }

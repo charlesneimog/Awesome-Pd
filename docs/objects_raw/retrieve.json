@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "retrieve",
-    "description": "The `retrieve` object in Pure Data fetches data from named receive objects (`r`, `else/receiver`) or GUI elements that have built-in receive names. It effectively acts as a \"send\" mechanism for these receive names, allowing data to be recalled from various parts of a patch. This functionality is particularly useful for implementing preset systems or recalling specific values.",
+    "description": "The `retrieve` object fetches data from other connected Pure Data objects or GUI elements. It can be configured with a `set <symbol>` message to specify a receive name, and a `bang` message triggers the retrieval of the current value. This object is useful for accessing and storing dynamic data within a patch.",
     "categories": [
-        "Routing",
-        "Patching"
+        "General Utilities"
     ]
 }

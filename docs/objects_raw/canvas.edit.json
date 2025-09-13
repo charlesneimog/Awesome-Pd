@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "canvas.edit",
-    "description": "The `canvas.edit` object reports the edit status of a Pure Data canvas, outputting 1 when in edit mode and 0 in run mode. It can also query the edit status of parent canvases by providing a depth argument.",
+    "description": "The `canvas.edit` object reports the edit status of a Pure Data canvas. It outputs a float indicating whether the canvas is currently in edit mode. Users can query the status of the current canvas or a parent canvas by providing a `depth` argument.",
     "categories": [
-        "Patching",
-        "General Utilities"
+        "Patching"
     ]
 }

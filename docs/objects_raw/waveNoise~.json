@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "waveNoise~",
-    "description": "The `waveNoise~` object measures the noisiness of an audio signal by counting the number of times the signal changes direction within a specified window. It provides a time-domain descriptor that can be used for audio analysis, such as identifying timbres. The window size is configurable."
+    "description": "The `waveNoise~` object measures the noisiness of an audio signal by counting the number of times the signal changes direction within a specified window. It provides a time-domain descriptor that can be used for audio analysis, such as identifying timbres. The window size is configurable.",
+    "similar": [
+        "zeroCrossing~",
+        "waveNoise",
+        "energyEntropy~",
+        "minSample"
+    ]
 }

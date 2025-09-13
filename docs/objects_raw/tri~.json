@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "tri~",
-    "description": "`tri~` is a triangular wave oscillator that generates audio signals. It supports negative frequencies, phase synchronization, and phase modulation. It can also operate in multichannel mode and accept frequency input in either Hertz or MIDI pitch.",
+    "description": "`tri~` is a triangular wave oscillator that generates audio signals. It supports negative frequencies, phase synchronization, and phase modulation, making it versatile for both audio synthesis and LFO applications. The object also features multichannel support and can accept frequency input in either Hertz or MIDI pitch.",
     "categories": [
         "Oscillators",
+        "LFOs",
         "Multichannel"
     ]
 }

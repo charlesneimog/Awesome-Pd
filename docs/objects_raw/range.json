@@ -20,6 +20,8 @@
     ],
     "ai": true,
     "title": "range",
-    "description": "The `range~` object analyzes an incoming float or signal stream to determine its minimum and maximum values. It continuously outputs these observed range boundaries, and can be reset to start a new analysis period.",
-    "categories": []
+    "description": "The `range~` object analyzes an incoming signal (float or signal) to determine its minimum and maximum values. It can be reset to restart the analysis. This object is useful for tracking the dynamic range of a signal over time.",
+    "categories": [
+        "Descriptors"
+    ]
 }

@@ -20,6 +20,9 @@
     ],
     "ai": true,
     "title": "metronome",
-    "description": "The `metronome` object generates rhythmic pulses based on a specified tempo, beat length, and time signature, including support for complex and irrational time signatures. It outputs a bang at each beat, a phase value (0-1), and a list of bar, sub-bar, beat, and sub-beat counts, making it suitable for precise rhythmic control and event sequencing. It can also operate in a subdivision mode, banging at sub-tempos.",
-    "categories": []
+    "description": "The `metronome` object provides precise timing and synchronization, outputting bangs at specified tempos and beat phases. It supports various time signatures, including complex and irrational ones, and allows for flexible beat length definitions. It outputs detailed timeline data (bar, sub-bar, beat, sub-beat counts) and a 0-1 beat phase, serving as a core timing engine for musical and event sequencing.",
+    "categories": [
+        "General Utilities",
+        "Sequencers"
+    ]
 }

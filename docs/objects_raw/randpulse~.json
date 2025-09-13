@@ -20,10 +20,10 @@
     ],
     "ai": true,
     "title": "randpulse~",
-    "description": "`randpulse~` is a random pulse train oscillator that generates an audio signal alternating between a random value and zero. It allows control over the pulse frequency, width (duty cycle), and phase synchronization. The object also supports multichannel operation and can be seeded for reproducible random sequences.",
+    "description": "`randpulse~` is a random pulse train oscillator that generates a signal alternating between a random value and zero, with configurable pulse width. It supports multichannel operation, allowing independent control over frequency, pulse width, and phase synchronization for each channel. The object also features a seeding mechanism for its pseudo-random number generator, enabling reproducible random sequences.",
     "categories": [
         "Oscillators",
-        "Stochastic",
-        "Multichannel"
+        "Multichannel",
+        "Stochastic"
     ]
 }

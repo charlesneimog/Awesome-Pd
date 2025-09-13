@@ -23,5 +23,11 @@
     "description": "The `listfind` object searches for occurrences of a sublist within a larger list. It takes the main list to be searched and the sublist to find as inputs. The object then outputs a list containing the 0-based indices of all positions where the sublist is found within the main list.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "list2lists",
+        "l",
+        "l2i",
+        "merge"
     ]
 }

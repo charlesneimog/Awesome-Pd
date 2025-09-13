@@ -20,8 +20,8 @@
     ],
     "ai": true,
     "title": "vocoder~",
-    "description": "The `vocoder~` object is a classic channel vocoder used for cross-synthesis. It takes two audio signals—a synthesis source (carrier) and a control source (modulator)—to produce an output where the spectral characteristics of the modulator are applied to the carrier. Users can control the number of channels, filter Q, and the MIDI frequencies for each channel.",
+    "description": "The `vocoder~` object is a classic cross-synthesis channel vocoder. It processes a \"synth source\" signal by applying the spectral characteristics of a \"control source\" signal, producing a vocoded output. Users can define the number of channels, filter Q, and specific frequencies for each channel using MIDI values.",
     "categories": [
-        "Multichannel"
+        "Filters"
     ]
 }

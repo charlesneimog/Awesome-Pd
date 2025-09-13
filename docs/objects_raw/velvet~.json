@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "velvet~",
-    "description": "`velvet~` is a velvet noise generator that produces audio by randomly choosing positive (1) or negative (-1) impulses at random positions within a specified frequency period. It allows for control over the polarity bias, time regularity, and amplitude irregularity of these impulses, and supports multichannel operation.",
+    "description": "The `velvet~` object is a velvet noise generator that produces a signal of random positive or negative impulses at a specified frequency. It allows control over the polarity bias (chance of positive/negative impulses), time regularity (randomness of impulse timing), and amplitude irregularity (randomness of impulse amplitude). It supports multichannel output and seedable pseudo-random number generation.",
     "categories": [
         "Stochastic",
-        "Multichannel"
+        "Multichannel",
+        "Procedural"
     ]
 }

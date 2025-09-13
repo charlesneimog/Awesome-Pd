@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "featureAccum",
-    "description": "The `featureAccum` object accumulates incoming lists of feature frames, processing them into a single output based on a specified mode. It can concatenate frames, compute a running sum, a running mean, or a simple moving average. This object is primarily used for preparing time-series feature data for further analysis or machine learning tasks."
+    "description": "The `featureAccum` object accumulates incoming lists of feature frames, processing them into a single output based on a specified mode. It can concatenate frames, compute a running sum, a running mean, or a simple moving average. This object is primarily used for preparing time-series feature data for further analysis or machine learning tasks.",
+    "similar": [
+        "binWrangler",
+        "tID_mean",
+        "barkSpec~",
+        "magSpec~"
+    ]
 }

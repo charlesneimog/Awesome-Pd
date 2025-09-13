@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "tanx~",
-    "description": "The `tanx~` object calculates the tangent of an incoming audio signal, expecting the input values to be in radians. It processes each sample individually, outputting the tangent of that sample. This object is part of a suite of mathematical signal processing tools designed for precise trigonometric operations.",
+    "description": "`tanx~` calculates the tangent of an incoming signal, expecting its input in radians. Designed for mathematical operations on audio signals, it outputs the tangent of each input sample. This object is part of a set of trigonometric functions for signal processing.",
     "categories": [
         "Math"
     ]

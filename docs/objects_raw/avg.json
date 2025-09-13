@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "avg",
-    "description": "The `avg` object calculates the mean average of all numbers it has received. It maintains an internal sum and count of the numbers. Sending a `clear` message to the object resets its internal memory, allowing a new average calculation to begin.",
+    "description": "The `avg` object calculates the mean average of all incoming numbers. It outputs the current average and the total count of values processed. A `clear` message resets the internal memory, allowing for a new average calculation.",
     "categories": [
         "Math",
         "General Utilities"

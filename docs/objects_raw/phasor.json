@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "phasor",
-    "description": "The `phasor` object generates a control-rate sawtooth wave, ramping continuously from 0 to 1 at a specified frequency. It functions similarly to the audio-rate `phasor~` but is designed for control signals, with a default rate period of 1ms. It can be initialized with a frequency and phase offset, and its phase can be synchronized via an inlet.",
+    "description": "The `phasor` object generates a control-rate ramp signal, similar to `phasor~` but for control signals rather than audio. It can be configured by frequency in Hz or by a rate period in milliseconds, and its phase can be offset or synced. It outputs a phase value scaled from 0 to 127, making it suitable for MIDI or other control parameter modulation.",
     "categories": [
+        "LFOs",
         "Oscillators"
     ]
 }

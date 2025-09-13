@@ -32,5 +32,11 @@
     "categories": [
         "Physical Modeling",
         "Graphics"
+    ],
+    "similar": [
+        "tLink2D",
+        "link3D",
+        "pmpd3d",
+        "link2D"
     ]
 }

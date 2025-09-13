@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "delay~",
-    "description": "The `delay~` object delays an audio signal by a specified number of samples. The delay time can be set by a float (for non-interpolated delays) or a signal (for interpolated, dynamic delays, which adds a 1-sample latency). It also supports messages to clear its buffer, set a maximum delay size, and smoothly ramp to new delay times, making it fundamental for creating effects like vibrato and flanger.",
+    "description": "The `delay~` object delays an audio signal by a specified number of samples, with the delay time dependent on the sample rate. It supports both fixed and signal-controlled delay times, offering optional interpolation for smooth transitions. This object is fundamental for creating various time-based audio effects, such as flanging or vibrato.",
     "categories": [
-        "Delay",
-        "Chorus/Flanger/Phaser"
+        "Delay"
     ]
 }

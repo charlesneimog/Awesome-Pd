@@ -126,14 +126,6 @@ function getCategoryData() {
             // themeToggle?.querySelector?.(".material-symbols-rounded")?.textContent = icon;
         }
 
-        // Toggle library field
-        isPartOfLib.addEventListener("change", () => {
-            libraryField.hidden = !isPartOfLib.checked;
-            if (!isPartOfLib.checked) {
-                $("#libraryName").value = "";
-            }
-        });
-
         // Character count (include spaces to match minlength behavior)
         const updateCharCount = () => {
             const len = description.value.length;
@@ -254,7 +246,7 @@ function getCategoryData() {
                 const objects = await response.json();
 
                 if (objects.includes(value)) {
-                    const response_obj = await fetch(`../objects/${value}.json`);
+                    const response_obj = await fetch(`../objects_raw/${value}.json`);
                     if (!response_obj.ok) throw new Error("Failed to load object JSON");
                     const obj_info = await response_obj.json();
                     if (!obj_info.hasOwnProperty("contributors")) {

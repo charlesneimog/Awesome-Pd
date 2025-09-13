@@ -23,5 +23,11 @@
     "description": "The `pix_share_read` object reads pixel data from a shared memory region, identified by a unique ID. It works in conjunction with a `pix_share_write` object, which writes data to the same shared memory. This allows for inter-patch or inter-instance communication of image data, requiring prior knowledge of image dimensions and color space.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_share_write",
+        "pix_grey",
+        "pix_set",
+        "pix_sig2pix~"
     ]
 }

@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "mix4~",
-    "description": "The `mix4~` object is a 4-channel audio mixer abstraction that provides independent gain and panning control for each channel. It offers three scaling modes for its control inputs: quartic (default), decibel (dB), and linear, allowing flexible adjustment of signal levels.",
+    "description": "The `mix4~` object is a convenient 4-channel audio mixer abstraction for Pure Data, offering independent gain and panning controls for each input. It supports three scaling modes for its internal gain sliders—quartic (default), decibel (dB), and linear—which can be dynamically selected. This object is designed to simplify multichannel audio signal mixing.",
     "categories": [
+        "Routing",
         "Multichannel",
-        "Routing"
+        "Math"
     ]
 }

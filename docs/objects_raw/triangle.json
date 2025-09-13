@@ -23,5 +23,11 @@
     "description": "The `triangle` object in Pure Data is a GEM (Graphics Environment for Multimedia) object that renders an isosceles triangle. It can draw the triangle as an outline, filled, or as a point, and its size can be dynamically adjusted via its second inlet. This object is primarily used for generating basic geometric shapes within a visual patch.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "cube",
+        "sphere",
+        "colorSquare",
+        "square"
     ]
 }

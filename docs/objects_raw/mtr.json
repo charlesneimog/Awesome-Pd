@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "mtr",
-    "description": "The `mtr` object in Pure Data functions as a multi-track message recorder and playback system. It captures incoming messages on separate tracks, allowing for synchronized or independent playback of these recorded sequences, with controls for speed, looping, and file I/O.",
+    "description": "The `mtr` object records and plays back sequences of messages across multiple tracks. It allows for control over playback speed, looping, and initial delays, making it useful for sequencing and replaying complex control flows. It also supports saving and loading recorded tracks to and from files.",
     "categories": [
         "Sequencers",
-        "File I/O"
+        "File IO"
     ]
 }

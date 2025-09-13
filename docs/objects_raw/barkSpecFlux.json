@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "barkSpecFlux",
-    "description": "The barkSpecFlux object calculates the spectral flux between two audio windows (forward and back) based on their Bark band energy differences. It sums these per-Bark-band energy differences, providing a measure of how quickly the spectral content of an audio signal is changing. This object is highly configurable, allowing adjustments to windowing, filterbank spacing, and the type of difference calculation, and can operate in flux, growth, or decay modes."
+    "description": "The barkSpecFlux object calculates the spectral flux between two audio windows (forward and back) based on their Bark band energy differences. It sums these per-Bark-band energy differences, providing a measure of how quickly the spectral content of an audio signal is changing. This object is highly configurable, allowing adjustments to windowing, filterbank spacing, and the type of difference calculation, and can operate in flux, growth, or decay modes.",
+    "similar": [
+        "barkSpecFlux~",
+        "specFlux",
+        "specFlux~",
+        "bark~"
+    ]
 }

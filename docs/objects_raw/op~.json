@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "op~",
-    "description": "The `op~` object performs various signal-rate operations, including comparative (e.g., `==`, `>`), logical (`&&`, `||`, `!`), bitwise (`&`, `|`, `~`, `^`, `<<`, `>>`), and modulus (`%`) calculations. It takes the desired operator as its first argument and processes incoming signals efficiently. This object also supports multichannel signals, handling channel mismatches by wrapping the input with fewer channels.",
+    "description": "The `op~` object performs various signal operations, including comparative, logical, bitwise, and modulo calculations. It is designed for efficiency and supports multichannel signals, allowing for per-channel operations or applying a single value across multiple channels. This object provides a more optimized alternative to `expr~` for these specific operations.",
     "categories": [
         "Logic",
         "Math",

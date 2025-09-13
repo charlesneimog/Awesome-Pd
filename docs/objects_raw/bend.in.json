@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "bend.in",
-    "description": "The `bend.in` object extracts MIDI Pitch Bend messages from connected MIDI devices or raw MIDI data streams. It outputs normalized float values from -1 to 1 by default, or raw integer values from 0 to 16383 when in raw mode. It can filter by MIDI channel or operate in omni mode, also supporting external MIDI input.",
+    "description": "`bend.in` extracts MIDI Pitch Bend messages from either an internal MIDI device or an external raw MIDI data stream. It outputs pitch bend values as normalized floats (-1 to 1) by default, or as raw integers (0 to 16383) if specified. The object can filter by MIDI channel or operate in omni mode.",
     "categories": [
         "MIDI",
-        "Control I/O"
+        "Control IO"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `cart2sph` object converts 3D Cartesian coordinates (x, y, z) into spherical coordinates (radius, azimuth, elevation). All output angles are in radians. This object is useful for transforming spatial data between different coordinate systems.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "sph2cart",
+        "pol2sph",
+        "coordinates",
+        "cart2pol"
     ]
 }

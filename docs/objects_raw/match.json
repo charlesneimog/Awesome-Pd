@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "match",
-    "description": "The `match` object outputs incoming data when it matches a predefined pattern. It can match against single elements or portions of lists, supporting a wildcard `nn` for any number. The pattern can be dynamically updated using the `set` message or cleared with `clear`.",
+    "description": "The `match` object outputs data when its input matches its arguments. It can match either a portion of an input list or a sequence of single elements. The special symbol `nn` acts as a wildcard for any number, and the object can be configured with `set` or `clear` messages.",
     "categories": [
-        "Logic"
+        "Logic",
+        "General Utilities"
     ]
 }

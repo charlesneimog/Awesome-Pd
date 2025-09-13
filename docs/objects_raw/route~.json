@@ -23,5 +23,11 @@
     "description": "The `route~` object, part of the zexy library, separates incoming audio signals from control messages. It outputs the audio signal through its first outlet and any non-signal messages through its second outlet, allowing for distinct processing paths for audio and control data.",
     "categories": [
         "Routing"
+    ],
+    "similar": [
+        "gate~",
+        "routetype",
+        "spray",
+        "demultiplex~"
     ]
 }

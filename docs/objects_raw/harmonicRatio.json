@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "harmonicRatio",
-    "description": "The 'harmonicRatio' object calculates the harmonic ratio of a specified audio sample array or a window within it. It is used for timbre analysis, providing a numerical descriptor of the sound's harmonic content. The object takes the name of the sample array as a creation argument and can be triggered to analyze the entire array or a specific segment."
+    "description": "The 'harmonicRatio' object calculates the harmonic ratio of a specified audio sample array or a window within it. It is used for timbre analysis, providing a numerical descriptor of the sound's harmonic content. The object takes the name of the sample array as a creation argument and can be triggered to analyze the entire array or a specific segment.",
+    "similar": [
+        "waveNoise",
+        "peakSample",
+        "autoCorrPitch",
+        "specFlatness"
+    ]
 }

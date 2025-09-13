@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "xmod~",
-    "description": "`xmod~` performs cross-modulation of two sine oscillators. It can be configured for either frequency modulation (default) or phase modulation using the `-fm` or `-pm` flags, respectively. It takes frequency and modulation index inputs for each oscillator and outputs two modulated signals.",
+    "description": "`xmod~` performs cross-modulation between two sine oscillators, allowing for complex timbral changes. It supports both frequency modulation (default) and phase modulation. Users can control the frequencies and modulation indices of both oscillators.",
     "categories": [
         "Oscillators"
     ]

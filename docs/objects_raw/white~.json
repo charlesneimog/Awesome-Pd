@@ -20,10 +20,9 @@
     ],
     "ai": true,
     "title": "white~",
-    "description": "The `white~` object generates white noise using a pseudo-random number generator. It supports multichannel output and can be configured with a seed to produce reproducible noise sequences. It also features a \"clipped\" mode, limiting output to -1 or 1, which creates a form of \"clip noise.\"",
+    "description": "The `white~` object generates white noise using a pseudo-random number generator algorithm. It supports multiple output channels and allows for reproducible noise sequences by setting a seed. Additionally, `white~` can operate in a \"clipped\" mode, where its output is constrained to -1 or 1, producing \"clip noise.\"",
     "categories": [
         "Oscillators",
-        "Stochastic",
         "Multichannel"
     ]
 }

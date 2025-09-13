@@ -23,5 +23,11 @@
     "description": "The `pix_set` object allows you to create or modify image data by providing a flat list of pixel values. It supports RGBA, RGB, and GREY modes for interpreting the input list, and the image size can be configured via creation arguments or the `set` message. The object outputs a `gemlist` representing the image, which is always in RGBA color space.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_convert",
+        "pix_color",
+        "pix_dump",
+        "pix_takealpha"
     ]
 }

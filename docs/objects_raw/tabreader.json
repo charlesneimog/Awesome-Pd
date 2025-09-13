@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "tabreader",
-    "description": "The `tabreader` object reads values from a Pure Data array (table), supporting various interpolation methods like `lin`, `cos`, and `spline`. It can operate in a phase-based mode (0-1) or an indexed mode, and features multichannel and looping capabilities, making it suitable for wavetable synthesis or general array manipulation.",
+    "description": "`tabreader` is a Pure Data object that reads values from an array (table) using various interpolation methods, including spline, cosine, linear, and Hermite. It supports multichannel arrays and can operate in indexed or loop modes. When driven by a `phasor~`, `tabreader` functions as a low-frequency wavetable oscillator, making it suitable for waveform generation and sample playback.",
     "categories": [
+        "Oscillators",
         "Data Structures",
         "Multichannel"
     ]

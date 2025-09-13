@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "shaper~",
-    "description": "The `shaper~` object performs waveshaping by applying a user-defined transfer function to an input signal. This function can be an external array or an internal Chebyshev polynomial, whose harmonic weights can be set via arguments or messages. It also features an optional internal high-pass filter and can be used for advanced sample manipulation, such as creating turntable scratch effects.",
+    "description": "The `shaper~` object performs waveshaping by mapping input signal values to a transfer function, which can be defined by an external array or an internal Chebyshev polynomial. It allows for dynamic control over the transfer function's normalization, DC offset, and includes an optional internal DC filter. This versatile object can be used for various audio effects, including harmonic generation and dynamic sample manipulation.",
     "categories": [
         "Math",
         "Distortion"

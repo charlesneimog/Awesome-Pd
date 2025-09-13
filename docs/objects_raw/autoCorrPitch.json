@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "autoCorrPitch",
-    "description": "The autoCorrPitch object performs offline pitch tracking on a specified audio sample array using an autocorrelation algorithm. It analyzes a segment of the array (or the entire array) and outputs the detected fundamental frequency as a MIDI pitch value. It can be configured with a sample rate and a correlation threshold for detection."
+    "description": "The autoCorrPitch object performs offline pitch tracking on a specified audio sample array using an autocorrelation algorithm. It analyzes a segment of the array (or the entire array) and outputs the detected fundamental frequency as a MIDI pitch value. It can be configured with a sample rate and a correlation threshold for detection.",
+    "similar": [
+        "cepstrumPitch",
+        "peakSample",
+        "harmonicRatio",
+        "cepstrumPitch~"
+    ]
 }

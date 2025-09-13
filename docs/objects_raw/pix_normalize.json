@@ -23,5 +23,11 @@
     "description": "The `pix_normalize` object processes image data to enhance visual contrast. It normalizes an input image (received as a `gemlist`), making contrasts appear sharper, and outputs the processed image as a `gemlist`. The normalization can be toggled on or off via its inlet.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_contrast",
+        "pix_grey",
+        "pix_set",
+        "pix_convert"
     ]
 }

@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "scale2cents",
-    "description": "The `scale2cents` object converts a musical scale defined by semitone steps into cents values. It takes a list of semitone intervals as input and outputs the corresponding cents values, which are useful for precise microtonal adjustments for microtonal scales. This object is part of the `else` library.",
+    "description": "The `scale2cents` object converts a musical scale defined by steps in semitones into corresponding cent values. It is useful for precise microtonal adjustments or when working with non-standard tunings.",
     "categories": [
         "Math"
     ]

@@ -20,10 +20,10 @@
     ],
     "ai": true,
     "title": "voices",
-    "description": "The `voices` object manages voice allocation for polyphonic synthesizers, offering advanced features beyond `poly`. It outputs voice index, pitch, and velocity, handling voice stealing, retrigger modes, and release times. This object is particularly useful with `clone` for constructing complex polyphonic instruments.",
+    "description": "The `voices` object manages voice allocation for polyphonic synthesizers, similar to `poly` but with enhanced features. It outputs a list containing the voice index, pitch, and velocity, and supports various retriggering modes and a configurable release time. This object is particularly useful when combined with `clone` to build complex polyphonic instruments.",
     "categories": [
-        "Procedural",
         "Routing",
-        "MIDI"
+        "MIDI",
+        "Patching"
     ]
 }

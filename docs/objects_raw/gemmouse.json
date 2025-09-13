@@ -24,5 +24,11 @@
     "categories": [
         "Control I/O",
         "Graphics"
+    ],
+    "similar": [
+        "mouse",
+        "gemsdl2window",
+        "gemw32window",
+        "mousefilter"
     ]
 }

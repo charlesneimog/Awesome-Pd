@@ -31,5 +31,11 @@
     "description": "The `cavoc~` object generates audio spectra using an 8-rule cellular automaton. It can be triggered by an internal clock or external bangs, allowing for dynamic control over spectral density, frequency range, and phase transposition. This object is ideal for creating evolving and complex timbres through algorithmic synthesis.",
     "categories": [
         "Additive"
+    ],
+    "similar": [
+        "cavoc27~",
+        "pileup~",
+        "blip~",
+        "enrich~"
     ]
 }

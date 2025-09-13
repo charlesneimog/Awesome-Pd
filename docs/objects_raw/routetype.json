@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "routetype",
-    "description": "The `routetype` object routes incoming messages to different outlets based on their data type. It can distinguish between `bang`, `float`, `list`, `symbol`, `anything`, and `pointer` messages, with each type corresponding to a specific outlet defined by its creation arguments. An additional rightmost outlet handles messages that do not match any specified type.",
+    "description": "The `routetype` object routes incoming messages to different outlets based on their data type, such as bang, float, symbol, or list. It takes arguments to define the types it should route, with an additional outlet for unmatched messages. This object is useful for directing control flow based on the nature of the data received.",
     "categories": [
         "Routing"
     ]

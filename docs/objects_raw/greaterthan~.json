@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "greaterthan~",
-    "description": "The `greaterthan~` (or `>~`) object in Pure Data performs a signal comparison. It outputs a signal of 1 when its left input signal is strictly greater than its right input signal or argument, and a signal of 0 otherwise. This allows for real-time, sample-accurate conditional logic based on signal values.",
+    "description": "The `greaterthan~` (or `>~`) object performs a sample-by-sample comparison between two signal inputs. It outputs a signal of 1 if the left inlet's signal is strictly greater than the right inlet's signal or argument, otherwise it outputs 0. This object is fundamental for implementing conditional logic within signal processing.",
     "categories": [
         "Logic",
         "Math"

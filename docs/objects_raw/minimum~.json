@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "minimum~",
-    "description": "The `minimum~` object outputs a signal that represents the minimum value between two input signals, or between an input signal and a numerical argument. This object is considered redundant and deprecated; users are advised to use Pure Data Vanilla's `min~` object instead for similar functionality.",
+    "description": "The `minimum~` object outputs the smaller of two input signals, or the smaller of an input signal and a numerical argument. This object is considered redundant and deprecated; users should instead use Pd Vanilla's `min~` object for the same functionality.",
     "categories": [
         "Math"
     ]

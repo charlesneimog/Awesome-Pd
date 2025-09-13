@@ -23,5 +23,11 @@
     "description": "The `gemvertexbuffer` object efficiently renders geometric objects by managing a Vertex Buffer Object (VBO). It allows updating vertex positions, colors, textures, and normals from Pure Data tables, making it suitable for drawing a large number of points or complex shapes with dynamic data. It also supports GLSL programs and custom attributes.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "glsl_program",
+        "vertex_program",
+        "mesh_square",
+        "glsl"
     ]
 }

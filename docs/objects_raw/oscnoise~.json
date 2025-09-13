@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "oscnoise~",
-    "description": "`oscnoise~` is an oscillator that generates a white noise waveform, which can be updated by a bang message. It supports negative frequencies, phase synchronization via an impulse input, and phase modulation. The frequency input can be set to either Hertz or MIDI pitch.",
+    "description": "`oscnoise~` is an oscillator that generates a waveform from a white noise table, which can be updated by a bang. It supports negative frequencies, phase synchronization via control messages or audio impulses, and phase modulation, making it versatile for various synthesis and LFO applications. Its frequency input can be set to Hertz or MIDI pitch.",
     "categories": [
         "Oscillators",
-        "Stochastic"
+        "LFOs"
     ]
 }

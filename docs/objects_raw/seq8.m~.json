@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "seq8.m~",
-    "description": "The `seq8.m~` object is a simple 8-step sequencer for Pure Data, designed to generate musical sequences. It outputs MIDI note values and timing impulses, allowing users to control the pitch and trigger state of each step. The sequencer supports external clocking, BPM adjustments, and precise MIDI note input.",
+    "description": "The `seq8.m~` object is a simple 8-step sequencer that generates musical sequences. It outputs MIDI notes and impulses, allowing users to set pitches and trigger toggles for each step. Pitches can be defined using MIDI values, note names, or octaves, with support for quarter tones and MIDIcents.",
     "categories": [
         "Sequencers",
         "MIDI"

@@ -23,5 +23,11 @@
     "description": "The `pol2sph` object converts 2D polar coordinates (radius, angle, and height) into 3D spherical coordinates. It takes three float inlets for `r` (radius), `phi` (angle in radians), and `z` (height), and outputs the corresponding spherical coordinates as three floats. This object is useful for transformations between different coordinate systems, particularly in control applications.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "sph2cart",
+        "sph2pol",
+        "pol2cart",
+        "cart2sph"
     ]
 }

@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "train~",
-    "description": "The `train~` object generates a periodic pulse signal that alternates between 1 (on) and 0 (off), with configurable period, pulse width, and an onset phase offset. It also outputs a `bang` message at the start of each pulse, making it suitable for use as a metronome or for triggering events.",
+    "description": "The `train~` object generates a pulse signal that alternates between 1 and 0, with configurable period, pulse width, and onset phase offset. It outputs the pulse signal and sends a `bang` message upon each 0-to-1 transition, making it suitable for use as a metronome or for triggering events. The pulse width controls the duration of the \"on\" state, while the onset phase delays the start of the \"on\" portion.",
     "categories": [
+        "LFOs",
         "Oscillators"
     ]
 }

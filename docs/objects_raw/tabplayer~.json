@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "tabplayer~",
-    "description": "`tabplayer~` is a multichannel array player for Pure Data, designed for flexible audio playback from tables. It supports variable speed playback (including reverse), looping, and adjustable start/end points within the array. The object also features fade in/out, crossfading for loops, and selectable interpolation modes.",
+    "description": "The `tabplayer~` object is a multichannel audio player for Pure Data arrays (tables). It offers flexible playback controls including variable speed (forward/backward), looping with crossfading, and adjustable start/end points. It also supports different interpolation modes and can handle sample rate adjustments for accurate playback of loaded audio.",
     "categories": [
-        "Samplers",
-        "Multichannel"
+        "Multichannel",
+        "Samplers"
     ]
 }

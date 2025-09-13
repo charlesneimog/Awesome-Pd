@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "midi.out",
-    "description": "The `midi.out` object sends MIDI messages to an external MIDI device, converting \"cooked\" MIDI data (e.g., `ctl`, `note`, `pgm`) into raw MIDI bytes. Unlike `midiout`, it handles various MIDI message types directly. It can also output raw MIDI data to its outlet, optionally exclusively via the `-ext` flag or `ext` message.",
+    "description": "The `midi.out` object sends \"cooked\" MIDI messages (Note On/Off, Control Change, Program Change, Aftertouch, Pitch Bend) to a connected MIDI device, unlike `midiout` which handles raw data. It accepts symbol data types, values, and a channel, with an optional argument or right inlet to set the MIDI channel (0 for omni). An `-ext` flag or `ext` message can be used to direct output solely to its outlet.",
     "categories": [
-        "MIDI"
+        "MIDI",
+        "Control IO"
     ]
 }

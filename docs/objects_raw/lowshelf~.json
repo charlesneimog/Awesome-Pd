@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "lowshelf~",
-    "description": "The `lowshelf~` object implements a 2nd order lowshelf filter, designed to adjust the gain of frequencies below a specified shelving frequency. It allows control over the shelving frequency, slope, and gain in decibels, and can also be bypassed.",
+    "description": "`lowshelf~` is a 2nd order lowshelf filter designed to modify the low-frequency content of an audio signal. It provides control over the shelving frequency, slope, and gain in dB, allowing for precise tonal shaping. The object also includes a `clear` message to reset its internal memory and a `bypass` inlet to toggle its effect.",
     "categories": [
         "Filters"
     ]

@@ -23,5 +23,11 @@
     "description": "The `spot_light` object adds a customizable spot-light to a GEM scene, allowing control over its position, color (via RGB list), and properties like linear attenuation, cone cutoff angle, and decay at edges. It can be adjusted with objects like `rotate` and includes a debug mode to visualize the light source. For frame-accurate rendering, its attributes should be set early in the `gemhead` order.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "world_light",
+        "light",
+        "cone",
+        "depth"
     ]
 }

@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "tabgen",
-    "description": "`tabgen` is a Pure Data abstraction that generates various mathematical functions (e.g., sine, Gaussian, sinc, trapezoid, variable sawtooth, noise, and FFT window functions) and populates a specified table (array) with the generated data. It can also apply these functions as envelopes to existing values within a table. The object allows for initial table sizing and setting the table name.",
+    "description": "The `tabgen` object is a Pure Data abstraction for generating and populating named tables (arrays) with various mathematical functions. It can create waveforms like sinusoids, Gaussian curves, sinc functions, noise, and FFT window functions such as Hanning and Kaiser. This versatile tool also allows applying these generated functions as envelopes to existing table data, making it useful for waveform synthesis and control signal shaping.",
     "categories": [
         "Math",
-        "Data Structures"
+        "Envelopes",
+        "Oscillators"
     ]
 }

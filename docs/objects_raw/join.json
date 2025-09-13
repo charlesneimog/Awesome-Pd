@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "join",
-    "description": "The `join` object in Pure Data combines messages from multiple inlets into a single output list. It can handle various message types, including floats, symbols, and lists. Users can configure which inlets trigger an output using the `@triggers` attribute, allowing for flexible data aggregation.",
+    "description": "The `join` object combines messages of any type from its multiple inlets into a single output list. Users can specify which inlets trigger an output using the `@triggers` attribute, or force an output with a `bang`. Individual inlet values can also be set without triggering an output.",
     "categories": [
-        "Data Structures"
+        "Data Structures",
+        "General Utilities"
     ]
 }

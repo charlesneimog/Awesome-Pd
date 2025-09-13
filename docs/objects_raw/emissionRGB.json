@@ -23,5 +23,11 @@
     "description": "The `emissionRGB` object sets the emission color for subsequent vertex operations within a GEM (Graphics Environment for Multimedia) context. It accepts a `gemList` or individual float values for red, green, blue, and an optional alpha channel. To see its effect, lighting must be enabled in the GEM patch.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "specularRGB",
+        "ambientRGB",
+        "diffuse",
+        "diffuseRGB"
     ]
 }

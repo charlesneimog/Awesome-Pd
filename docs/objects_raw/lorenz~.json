@@ -20,8 +20,10 @@
     ],
     "ai": true,
     "title": "lorenz~",
-    "description": "The `lorenz~` object is a chaotic signal generator based on the Lorenz strange attractor, a mathematical model of atmospheric convection. It outputs the 'x' dimension of the system's state as an audio signal. Users can control its behavior by setting the frequency and the Lorenz system's 's', 'r', 'b', and 'h' coefficients, as well as initial x, y, and z values.",
+    "description": "The `lorenz~` object generates a chaotic audio signal based on the Lorenz strange attractor, a 3D mathematical model. It outputs the 'x' dimension of this system as a signal. Users can influence the chaotic behavior by setting coefficients (`s`, `r`, `b`, `h`) and initial state values for `x`, `y`, and `z`.",
     "categories": [
-        "Math"
+        "Procedural",
+        "Math",
+        "Audio IO"
     ]
 }

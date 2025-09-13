@@ -23,5 +23,11 @@
     "description": "The `shearYX` object applies a shear transformation to a GEM object's current transformation matrix. It takes a `gemlist` as input and outputs a modified `gemlist`. The X translation of the transformation depends on the Y position and a specified shear factor, which can be set as an argument or via the second inlet.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "shearXY",
+        "shearZX",
+        "shearYZ",
+        "shearZY"
     ]
 }

@@ -20,10 +20,9 @@
     ],
     "ai": true,
     "title": "routeall",
-    "description": "The `routeall` object routes incoming messages to different outlets based on matching arguments, similar to `route` but with enhanced capabilities. It preserves the first element of the message, can match symbols to symbols or lists, accepts both float and symbol messages, and allows matching against elements beyond just the first in a message.",
+    "description": "The `routeall` object routes incoming messages based on whether their first element (or a specified element) matches its arguments. Unlike `route`, it preserves the original message, sending it out the corresponding outlet. It also handles special conversions for single-element lists to bangs, floats, or symbols.",
     "categories": [
         "Routing",
-        "General Utilities",
         "Logic"
     ]
 }

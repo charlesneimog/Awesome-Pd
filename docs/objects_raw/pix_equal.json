@@ -23,5 +23,11 @@
     "description": "The `pix_equal` object processes an input RGBA image, generating a binary output image. Pixels whose RGBA values fall within a specified lower and upper bound (for each channel) are marked white, while all other pixels are marked black. This object is useful for isolating specific color ranges or 'blobs' within an image.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_colorclassify",
+        "pix_mask",
+        "pix_takealpha",
+        "pix_set"
     ]
 }

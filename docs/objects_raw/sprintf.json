@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "sprintf",
-    "description": "The `sprintf` object in Pure Data formats messages similar to C's `printf` function. It takes a format string with placeholders (e.g., `%d` for integers, `%s` for strings) and creates inlets for each placeholder. Incoming data to these inlets is then formatted and output as a single message, optionally as a symbol using the `symout` argument.",
+    "description": "The `sprintf` object formats messages using C-style `printf` syntax, where each '%' format specifier (e.g., `%f` for float, `%s` for string) creates a corresponding inlet. It allows for flexible message construction and type conversion. An optional `symout` argument can output the entire formatted message as a single symbol, useful for handling special characters.",
     "categories": [
         "Text",
         "General Utilities"

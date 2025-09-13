@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "asinh",
-    "description": "The `asinh` object calculates the hyperbolic arc-sine of a given number. It takes a float as input, which is stored and used for the calculation, and outputs the hyperbolic arc-sine of this value.",
+    "description": "The `asinh` object calculates the hyperbolic arc-sine of a given floating-point number. It takes a float as input, which is stored, and outputs the result. A `bang` message can also trigger the calculation with the currently stored input.",
     "categories": [
         "Math"
     ]

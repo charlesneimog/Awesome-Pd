@@ -23,5 +23,11 @@
     "description": "The `shearXZ` object applies a shear transformation to a GEM list, modifying the current OpenGL transformation matrix. It causes the X translation of objects to depend on their Z position and a specified shear factor. This object is primarily used for manipulating 3D graphics within GEM, allowing for visual distortions along the X and Z axes.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "shearZY",
+        "shearXY",
+        "shearYX",
+        "shearYZ"
     ]
 }

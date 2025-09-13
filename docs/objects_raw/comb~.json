@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "comb~",
-    "description": "The `comb~` object implements a comb filter, an audio effect that combines a signal with a delayed version of itself to create a series of regularly spaced notches or peaks in the frequency response. It is primarily used for filtering and creating delay-based effects, with adjustable parameters for delay time (`D`), input gain (`a`), feedforward gain (`b`), and feedback gain (`c`).",
+    "description": "The `comb~` object implements a comb filter, which can be used for both filtering and delay effects on audio signals. It takes an input signal and applies a delay with feedforward and feedback gain coefficients, defined by the equation `y[n] = a * x[n] + b * x[n-D] + c * y[n-D]`. Parameters for delay time (`D`), input gain (`a`), feedforward gain (`b`), and feedback gain (`c`) can be controlled via inlets or arguments.",
     "categories": [
         "Delay",
-        "Filters"
+        "Filters",
+        "Chorus/Flanger/Phaser"
     ]
 }

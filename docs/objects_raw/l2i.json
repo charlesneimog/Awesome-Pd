@@ -23,5 +23,11 @@
     "description": "The `l2i` object converts all floating-point numbers within an incoming list to integers. It takes any type of list as input and outputs a list where all float elements have been cast to their integer equivalents, while other elements are passed through. This is useful for ensuring list elements are whole numbers for control or data processing.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "l",
+        "unpack~",
+        "merge",
+        "pack~"
     ]
 }

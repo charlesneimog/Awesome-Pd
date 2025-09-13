@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "tID_mean",
-    "description": "The `tID_mean` object calculates the arithmetic mean of a list of numbers. It is designed to summarize time-varying timbre attributes, such as spectral centroid, measured by other `timbreID` externals. This enables the creation of compact, comparable descriptors for sounds of different durations."
+    "description": "The `tID_mean` object calculates the arithmetic mean of a list of numbers. It is designed to summarize time-varying timbre attributes, such as spectral centroid, measured by other `timbreID` externals. This enables the creation of compact, comparable descriptors for sounds of different durations.",
+    "similar": [
+        "tID_std",
+        "specSpread~",
+        "mfcc",
+        "specCentroid~"
+    ]
 }

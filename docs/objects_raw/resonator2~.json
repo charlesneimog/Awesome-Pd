@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "resonator2~",
-    "description": "The `resonator2~` object is a resonant complex one-pole filter, designed to be excited by impulses. It produces two oscillating outputs, one with a cosine and one with a sine initial phase, making it suitable for creating resonant effects and simplified physical models like a 'Spring Model'.",
+    "description": "`resonator2~` is a resonant filter, similar to `vcf~` and `resonator~`, designed to be excited by impulses. It takes a frequency and a decay time to produce an oscillating output, with separate outlets for cosine and sine initial phases. This object can simulate a simplified spring model and is suitable for creating resonant textures or pitched feedback.",
     "categories": [
-        "Filters",
-        "Physical Modeling"
+        "Filters"
     ]
 }

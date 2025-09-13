@@ -23,5 +23,11 @@
     "description": "The `pix_yuv` object converts the colorspace of an image to the YUV format. This format is more memory-efficient and faster to process than RGBA, making it suitable for video applications. The conversion can be toggled on or off via its second inlet.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_rgba",
+        "pix_2grey",
+        "pix_convert",
+        "yuv2rgb"
     ]
 }

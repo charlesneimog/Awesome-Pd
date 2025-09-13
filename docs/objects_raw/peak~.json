@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "peak~",
-    "description": "`peak~` is a Pure Data signal object that analyzes an incoming audio signal and outputs its peak amplitude. Similar to `env~`, it can be configured with an analysis window size and hop period, and its output can be set to linear or decibels (dBFS).",
+    "description": "The `peak~` object analyzes an incoming audio signal to report its peak amplitude. Similar to `env~`, it calculates the peak value within a specified window size and outputs it as a float, either in linear scale or dBFS. It is useful for dynamic analysis and control based on signal loudness.",
     "categories": [
         "Envelopes",
         "Descriptors"

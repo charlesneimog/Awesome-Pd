@@ -23,5 +23,11 @@
     "description": "`world_light` adds a directional light source to a GEM scene, simulating light rays from an infinite distance (parallel rays). It allows control over the light's on/off state and color using RGB or RGBA values. The light's direction can be adjusted using other GEM objects like `rotate`, and a debug mode helps visualize its position.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "light",
+        "spot_light",
+        "ambientRGB",
+        "pix_aging"
     ]
 }

@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "samps2ms~",
-    "description": "The `samps2ms~` object converts a time value given in samples to milliseconds. It performs this conversion using the current audio samplerate and supports multichannel signals. This is useful for translating sample-based timing into a more human-readable millisecond format.",
+    "description": "The `samps2ms~` object converts a time value given in samples to milliseconds. It performs the calculation `ms = 1000 * samples / samplerate` and supports multichannel signals, making it useful for precise timing adjustments in audio processing.",
     "categories": [
         "Math",
-        "Multichannel"
+        "Multichannel",
+        "General Utilities"
     ]
 }

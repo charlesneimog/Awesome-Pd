@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "pgm.in",
-    "description": "The `pgm.in` object extracts MIDI Program Change messages (0-127) from either a connected MIDI device or an external raw MIDI data stream. It outputs the program change value and the MIDI channel number. Users can filter by a specific MIDI channel or operate in omni mode to receive from all channels.",
+    "description": "The `pgm.in` object extracts MIDI Program Change messages from either a connected MIDI device or an external raw MIDI data stream. It outputs program change values from 0 to 127, unlike vanilla Pure Data objects. The object can operate in omni mode, receiving from all channels, or be configured for a specific MIDI channel, with support for multiple MIDI ports via extended channel numbering.",
     "categories": [
-        "MIDI"
+        "MIDI",
+        "Control IO"
     ]
 }

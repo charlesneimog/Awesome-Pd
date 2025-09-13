@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "xfade.mc~",
-    "description": "The `xfade.mc~` object crossfades between two multichannel audio sources. It supports both equal power (default) and linear crossfading, controlled by a mix value ranging from -1 (source A) to 1 (source B). This object is useful for smoothly transitioning between complex audio signals.",
+    "description": "The `xfade.mc~` object crossfades between two multichannel audio sources. It supports both equal power (default) and linear crossfading, controlled by a mix value from -1 (source A) to 1 (source B) or by a 'lin' message. This object is useful for smoothly transitioning between complex audio signals.",
     "categories": [
-        "Multichannel"
+        "Multichannel",
+        "Routing"
     ]
 }

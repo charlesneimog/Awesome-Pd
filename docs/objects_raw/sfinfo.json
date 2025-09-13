@@ -20,8 +20,8 @@
     ],
     "ai": true,
     "title": "sfinfo",
-    "description": "The `sfinfo` object queries information from sound files, such as the number of channels or instrument metadata for AIFF files. It is an experimental object that works with files supported by `sfload` and `play.file~`, providing details like base note, detune, and velocity ranges from instrument metadata.",
+    "description": "The `sfinfo` object queries information about sound files, supporting formats compatible with `sfload` and `play.file~`. It can retrieve the number of audio channels and, for AIFF files, detailed instrument metadata such as base note, velocity ranges, gain, and loop points. This object is currently experimental.",
     "categories": [
-        "File I/O"
+        "File IO"
     ]
 }

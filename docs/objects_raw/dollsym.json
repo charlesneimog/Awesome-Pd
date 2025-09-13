@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "dollsym",
-    "description": "The `dollsym` object in Pure Data expands dollar-prefixed symbols like `$0-x` or `$1-y` into their corresponding values within a patch. It is particularly useful for creating flexible abstractions, as it can resolve these symbols based on the current patch or a specified parent patch's context using a 'depth' argument. Symbols without dollar arguments are passed through unchanged.",
+    "description": "The `dollsym` object expands dollar arguments (e.g., `$0`, `$1`) within an input symbol, replacing them with their corresponding values from the current Pure Data abstraction's context. It can optionally take a depth argument to control the expansion scope, making it useful for managing unique identifiers and arguments within nested abstractions.",
     "categories": [
-        "Patching",
+        "General Utilities",
         "Text"
     ]
 }

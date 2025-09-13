@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "chance",
-    "description": "The `chance` object outputs a bang to one of its outlets based on a weighted probability distribution. It can be configured with a single percentage for a binary choice or a list of values to define a multi-outlet histogram. This allows for probabilistic routing of events, and its behavior can be made reproducible using a seed.",
+    "description": "The `chance` object outputs a bang to one of its outlets based on a set of probabilities. These probabilities can be configured with a single float for two outlets (e.g., 50% chance for the left, 50% for the right) or a list of floats for multiple outlets. It supports seeding for reproducible random sequences, making it useful for introducing controlled randomness into patches.",
     "categories": [
         "Stochastic",
-        "Routing"
+        "Routing",
+        "General Utilities"
     ]
 }

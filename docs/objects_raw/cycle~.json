@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "cycle~",
-    "description": "The `cycle~` object is a linear interpolating oscillator that generates an audio signal by repeatedly reading through a waveform. It can use an internal cosine wave or custom waveforms from Pure Data arrays or `buffer~` objects, with controls for frequency, phase, buffer offset, and size. This object is fundamental for creating periodic audio signals and can be used as a building block for various synthesis techniques.",
+    "description": "The `cycle~` object is a linear interpolating oscillator that generates a periodic waveform. It defaults to an internal cosine wave but can read waveforms from Pure Data arrays, supporting phase modulation and configurable buffer sizes and offsets. It's a fundamental building block for sound synthesis.",
     "categories": [
         "Oscillators"
     ]

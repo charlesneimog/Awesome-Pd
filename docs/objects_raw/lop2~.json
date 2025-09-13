@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "lop2~",
-    "description": "`lop2~` is a 1st order lowpass filter (1-pole, 1-zero) designed for audio signals. It takes an audio signal and a cutoff frequency as input, outputting the filtered signal. Unlike the vanilla `lop~` object, `lop2~` has a fixed zero at -1 on the z-plane, ensuring the Nyquist frequency is always filtered out.",
+    "description": "`lop2~` is a 1st order lowpass filter designed for audio signals. Unlike standard lowpass filters, it includes a fixed zero at -1 on the z-plane, ensuring that the Nyquist frequency is always filtered out. It takes an audio signal and a cutoff frequency (float or signal) as inputs, outputting the filtered signal.",
     "categories": [
-        "Filters"
+        "Filters",
+        "Subtractive"
     ]
 }

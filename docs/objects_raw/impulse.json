@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "impulse",
-    "description": "The `impulse` object is a control-rate oscillator that generates bangs at a specified frequency, similar to `impulse~` but operating at a millisecond resolution. Unlike `tempo` or `metro`, it offers immediate response to rate changes, making it ideal for precise timing and event triggering. It supports frequency and initial phase arguments, and its internal phase can be reset.",
+    "description": "The `impulse` object functions as a control-rate oscillator that generates bangs at regular intervals, marking period transitions. Its rate can be set by frequency in Hz or by period in milliseconds, and its phase can be synchronized or reset. This object is useful for precise timing and rhythmic event generation.",
     "categories": [
         "Oscillators"
     ]

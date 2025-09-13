@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "standard~",
-    "description": "`standard~` is a chaotic signal generator based on the standard map equations. It produces an audio signal by iteratively calculating `x` and `y` values, influenced by a 'k' parameter and an input frequency. This object is useful for generating complex, non-linear waveforms.",
+    "description": "The `standard~` object is a chaotic signal generator based on the standard map equation. It produces a continuous audio signal whose behavior is determined by the `k` parameter and initial `x[n-1]` and `y[n-1]` values. This object is useful for creating complex, non-repeating waveforms for synthesis or modulation.",
     "categories": [
-        "Oscillators",
+        "Math",
         "Stochastic"
     ]
 }

@@ -29,5 +29,11 @@
     "ai": true,
     "title": "disarray~",
     "description": "`disarray~` is a spectrum scrambler that reorders a specified number of frequency bins within an input signal's spectrum. It allows control over the highest frequency to be affected and supports custom mapping configurations for its scrambling process.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "disarrain~",
+        "barkSpec~",
+        "dentist~",
+        "specSpread"
+    ]
 }

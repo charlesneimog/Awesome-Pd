@@ -20,8 +20,6 @@
     ],
     "ai": true,
     "title": "pvoc.freeze~",
-    "description": "The `pvoc.freeze~` object is a phase vocoder-based audio processor that allows for \"freezing\" a sound. When frozen, it captures and sustains the spectral characteristics of the input audio, effectively holding a snapshot of the sound. A non-zero input to its control inlet freezes or refreezes the sound, while a zero input unfreezes it.",
-    "categories": [
-        "Partial Tracking"
-    ]
+    "description": "`pvoc.freeze~` is a phase vocoder-based object that can \"freeze\" an incoming audio signal. It captures and sustains a moment of the sound, allowing for spectral manipulation. A non-zero float or a `freeze` message will freeze the signal, while a `0` float or an `unfreeze` message will unfreeze it.",
+    "categories": []
 }

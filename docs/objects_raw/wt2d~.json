@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "wt2d~",
-    "description": "The `wt2d~` object is a 2-dimensional wavetable oscillator that reads from a Pure Data array. It can scan and crossfade through both horizontal and vertical dimensions of a sliced wavetable, enabling complex timbre manipulation. It supports phase modulation, synchronization, multichannel audio, and various interpolation methods.",
+    "description": "The `wt2d~` object is an interpolating wavetable oscillator that can scan through two dimensions (X and Y) of a sliced wavetable. It supports phase modulation and synchronization, allowing for techniques like hard and soft sync. It also features multichannel operation and various interpolation methods, and can accept frequency input in Hz or MIDI pitch.",
     "categories": [
         "Oscillators",
         "Multichannel"

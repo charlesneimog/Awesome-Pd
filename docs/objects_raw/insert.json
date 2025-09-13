@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "insert",
-    "description": "The `insert` object allows you to insert a message or a list of elements into an existing list at a specified index. An index of 0 will prepend the new elements to the beginning of the list. It is useful for dynamically modifying the structure of messages.",
+    "description": "The `insert` object allows you to insert elements into a message (list) at a specified index position. It takes the message to be modified, the elements to insert, and an optional index (defaulting to 0) as inputs. The object then outputs the new message with the inserted elements.",
     "categories": [
-        "Data Structures",
-        "General Utilities"
+        "Data Structures"
     ]
 }

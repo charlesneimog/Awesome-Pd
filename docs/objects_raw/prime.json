@@ -23,5 +23,11 @@
     "description": "The `prime` object detects if an input number is prime. It takes a float as input and outputs `1` if the number is prime, or `0` otherwise. This object, part of the `zexy` external library, is useful for mathematical checks and control flow.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "factor",
+        "atanh",
+        "deg2rad",
+        "ceil"
     ]
 }

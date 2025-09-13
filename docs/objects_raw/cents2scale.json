@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "cents2scale",
-    "description": "The `cents2scale` object converts a list of intervals, expressed in cents, into a scale defined by semitone steps. It is useful for translating microtonal or fine-tuned pitch relationships into a standard musical scale representation.",
+    "description": "`cents2scale` converts a list of intervals expressed in cents into a musical scale represented by semitone steps. This object is useful for translating microtonal or custom tunings into a standard semitone-based scale, facilitating integration with other musical processes. It takes cents values as input and outputs the corresponding semitone values.",
     "categories": [
         "Math",
         "General Utilities"

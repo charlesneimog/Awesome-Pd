@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "cepstrumPitch",
-    "description": "The cepstrumPitch object performs offline pitch tracking on an audio sample array using cepstral analysis. It outputs the detected pitch as a MIDI value. Users can specify the sample array, expected pitch range, and various analysis parameters like windowing function and threshold for accurate pitch detection."
+    "description": "The cepstrumPitch object performs offline pitch tracking on an audio sample array using cepstral analysis. It outputs the detected pitch as a MIDI value. Users can specify the sample array, expected pitch range, and various analysis parameters like windowing function and threshold for accurate pitch detection.",
+    "similar": [
+        "autoCorrPitch",
+        "cepstrumPitch~",
+        "autoCorrPitch~",
+        "chroma"
+    ]
 }

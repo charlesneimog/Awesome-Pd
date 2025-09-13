@@ -20,10 +20,9 @@
     ],
     "ai": true,
     "title": "loop",
-    "description": "The `loop` object in Pure Data provides a flexible iteration mechanism, functioning as a counter that can increment or decrement through a specified range. It supports various modes, including outputting numerical counts or bangs, and can be paused and resumed, making it suitable for tasks like sweeping through arrays or implementing programmatic loops.",
+    "description": "The `loop` object in Pure Data functions as a versatile loop counter, capable of iterating through a range of numbers or generating a specified number of bangs. It can be configured with start, end, and step values, and supports pausing and resuming its iteration. This object is particularly useful for tasks like sweeping through arrays or creating controlled, rapid sequences of events.",
     "categories": [
         "Procedural",
-        "General Utilities",
-        "Algorithmic"
+        "General Utilities"
     ]
 }

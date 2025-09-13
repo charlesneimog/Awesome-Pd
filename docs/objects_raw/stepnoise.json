@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "stepnoise",
-    "description": "The `stepnoise` object generates control-rate stepped random values, typically within the 0-127 range, without requiring the DSP to be on. It can be configured with a frequency (rate in Hz) and supports seeding for reproducible sequences, making it useful for generating quantized random control signals.",
+    "description": "The `stepnoise` object generates pseudo-random step noise at a control rate, outputting values between 0 and 127. Its frequency can be controlled, and it supports seeding for reproducible sequences.",
     "categories": [
         "Stochastic"
     ]

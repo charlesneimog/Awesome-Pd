@@ -24,5 +24,11 @@
     "categories": [
         "Data Structures",
         "Logic"
+    ],
+    "similar": [
+        "regex",
+        "routeall",
+        "match",
+        "l2i"
     ]
 }

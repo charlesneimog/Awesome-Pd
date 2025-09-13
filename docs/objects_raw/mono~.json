@@ -20,10 +20,8 @@
     ],
     "ai": true,
     "title": "mono~",
-    "description": "The `mono~` object acts as a monophonic signal voice manager, emulating monophonic synthesizer behavior. It processes MIDI note messages (note and velocity pairs) and outputs corresponding signal-rate pitch and velocity values, along with impulses for retriggering envelopes. Key features include configurable note priority modes (last, high, low) and a portamento setting for pitch gliding.",
+    "description": "The `mono~` object emulates monophonic synthesizer behavior, processing MIDI note messages to output pitch and velocity signals. It supports various note priority modes (last, high, low) and a legato mode, allowing for flexible control over monophonic voice allocation. Additionally, it can apply portamento (glide) to the pitch output, making it suitable for expressive melodic lines.",
     "categories": [
-        "Procedural",
-        "Logic",
         "MIDI"
     ]
 }

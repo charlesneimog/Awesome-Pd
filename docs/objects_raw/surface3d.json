@@ -23,5 +23,11 @@
     "description": "The `surface3d` object renders a 3D bicubic curve, with its shape controlled by a matrix of control points. It allows users to define the curve's resolution, set individual control point positions, and specify the drawing style (e.g., line, fill, point). This object is part of the GEM library, focusing on OpenGL graphics.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "curve3d",
+        "curve",
+        "sphere3d",
+        "sphere"
     ]
 }

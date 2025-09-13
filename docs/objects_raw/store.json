@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "store",
-    "description": "The `store` object is an abstraction built upon Pure Data's `text` object, designed for sequential storage and management of messages. It allows users to add, retrieve, clear, dump, and sort stored data. Its contents can be viewed and manually edited through a dedicated window.",
+    "description": "The `store` object is an abstraction built upon Pure Data's `text` object, designed to sequentially store and manage incoming messages. It allows users to store, retrieve, clear, and sort messages, functioning as a dynamic message sequence. Its contents can be manually edited via a dedicated window, making it useful for managing ordered data within a patch.",
     "categories": [
-        "Sequencers",
-        "Data Structures"
+        "Data Structures",
+        "GUI"
     ]
 }

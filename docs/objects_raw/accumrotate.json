@@ -23,5 +23,11 @@
     "description": "The `accumrotate` object is a GEM utility that applies accumulated rotations to a 3D transformation matrix. It takes delta-rotation values for the X, Y, and Z axes, which are continuously added to the current rotation. This allows for smooth, incremental rotation of graphical objects within a GEM patch.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "rotateXYZ",
+        "rotate",
+        "shearXZ",
+        "shearXY"
     ]
 }

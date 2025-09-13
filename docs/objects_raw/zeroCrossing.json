@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "zeroCrossing",
-    "description": "The `zeroCrossing` object calculates the zero-crossing rate of a specified audio array or a segment of it. It can normalize the result by window size and suggests applying an amplitude threshold to filter out noise. This object is designed for offline analysis, with a real-time counterpart `zeroCrossing~`."
+    "description": "The `zeroCrossing` object calculates the zero-crossing rate of a specified audio array or a segment of it. It can normalize the result by window size and suggests applying an amplitude threshold to filter out noise. This object is designed for offline analysis, with a real-time counterpart `zeroCrossing~`.",
+    "similar": [
+        "zeroCrossing~",
+        "energy",
+        "barkSpecSlope",
+        "peakSample"
+    ]
 }

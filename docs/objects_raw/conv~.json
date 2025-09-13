@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "conv~",
-    "description": "The `conv~` object performs partitioned convolution, primarily used for applying impulse responses to audio signals. It takes an input audio signal and convolves it with a specified impulse response, which is loaded from a table. Users can set the impulse response table and adjust the partition size for latency and performance trade-offs.",
+    "description": "The `conv~` object performs partitioned convolution, taking an input signal and an impulse response table. It outputs the convolved signal, allowing for effects like reverb or advanced filtering. Users can adjust the partition size, which impacts latency and computational cost.",
     "categories": [
-        "Reverb"
+        "Reverb",
+        "Filters"
     ]
 }

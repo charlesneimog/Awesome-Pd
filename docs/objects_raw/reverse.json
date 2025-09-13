@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "reverse",
-    "description": "The `reverse` object reorders the elements of incoming messages or lists. It takes any message or list as input and outputs the same message or list with its elements in reverse order, providing a simple utility for data manipulation.",
+    "description": "The `reverse` object in Pure Data reverses the order of elements within incoming messages or lists. It takes any message or list as input and outputs the same message or list with its elements in reverse order. This is a fundamental utility for manipulating data flow and reordering sequences.",
     "categories": [
         "General Utilities"
     ]

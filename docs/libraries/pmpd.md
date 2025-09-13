@@ -22,20 +22,19 @@ Utilizing `pmpd`, users can model physical dynamics without the necessity of kno
 <i>People who contribute to this project.</i>
 </p>
 
-
 <script>
 async function updateList() {
-    const repoOwner = 'ch-nry';
-    const repoName = 'pd-pmpd';
+    let repoOwner = 'ch-nry';
+    let repoName = 'pd-pmpd';
     try {
-        const res = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contributors`);
-        const contributors = await res.json();
-        const container = document.getElementById('libcontributors');
+        let res = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contributors`);
+        let contributors = await res.json();
+        let container = document.getElementById('libcontributors');
         contributors.forEach(user => {
-            const link = document.createElement('a');
+            let link = document.createElement('a');
             link.href = `https://github.com/${user.login}`;
             link.target = '_blank';
-            const img = document.createElement('img');
+            let img = document.createElement('img');
             img.src = `https://github.com/${user.login}.png?size=100`;
             img.alt = user.login;
             img.className = 'libavatar';
@@ -48,7 +47,6 @@ async function updateList() {
 }
 updateList();
 </script>
-
 
 <h2>Objects</h2>
 

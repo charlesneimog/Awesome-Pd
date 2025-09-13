@@ -23,5 +23,11 @@
     "description": "The `pix_info` object retrieves metadata about the current image in GEM, such as its dimensions, pixel size, color space (format), and a pointer to the image data. It can operate in a default \"raw\" mode with multiple outlets or a \"message\" mode (activated by the `-m` flag) that outputs all information as a series of messages. Users can also request symbolic representation of OpenGL format constants.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "imageVert",
+        "pix_set",
+        "pix_dump",
+        "pix_convert"
     ]
 }

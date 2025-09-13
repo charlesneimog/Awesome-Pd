@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "sampstoms~",
-    "description": "The `sampstoms~` object converts a time value from samples to milliseconds, adjusting for the current sample rate. It accepts both float and signal inputs, outputting a signal when a signal is received, or both float and signal outputs for a float input. This object is primarily used for precise timing calculations within a Pure Data patch.",
+    "description": "The `sampstoms~` object converts a time value from samples to milliseconds, taking the current sample rate into account. It accepts both float and signal inputs representing the number of samples. A float input produces both float and signal outputs in milliseconds, while a signal input only produces a signal output. This object is useful for tasks like setting period times for objects such as `train~`.",
     "categories": [
-        "Math"
+        "Math",
+        "General Utilities"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `gemcocoawindow` object creates and manages a graphical window on macOS using the Cocoa framework, specifically for GEM (Graphics Environment for Multimedia). It allows control over window properties such as dimensions, position, title, buffering, anti-aliasing, and fullscreen mode. This object also activates an OpenGL context within the window for rendering and provides feedback on keyboard input.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "gemglxwindow",
+        "gemmacoswindow",
+        "gemglfw2window",
+        "gemglutwindow"
     ]
 }

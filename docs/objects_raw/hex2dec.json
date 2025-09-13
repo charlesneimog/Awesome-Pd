@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "hex2dec",
-    "description": "The `hex2dec` object converts hexadecimal values to their decimal equivalents. It accepts hexadecimal numbers as symbols, which can include '0x' or '0X' prefixes, and outputs the corresponding decimal value(s). This object is useful for handling hexadecimal data within Pure Data patches.",
+    "description": "The `hex2dec` object converts hexadecimal values to their decimal equivalents. It accepts hexadecimal numbers as symbols, supporting both lowercase and uppercase letters, and optional \"0x\" or \"0X\" prefixes. This object is useful for parsing and converting hexadecimal data within Pure Data patches.",
     "categories": [
         "Math",
-        "General Utilities"
+        "Text"
     ]
 }

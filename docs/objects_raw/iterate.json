@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "iterate",
-    "description": "The `iterate` object splits an incoming message (typically a list of floats or symbols) into its individual elements and outputs them sequentially. It can be triggered by a `bang` to re-output the last received list, and its direction of iteration can be controlled. An optional `-trim` flag allows trimming symbol selectors from the output.",
+    "description": "The `iterate` object splits an incoming message into its individual elements (floats or symbols) and outputs them sequentially. It can process messages from left-to-right by default or in reverse order by setting a direction argument. This object is useful for deconstructing lists or complex messages into their constituent parts for further processing.",
     "categories": [
         "Data Structures",
         "General Utilities"

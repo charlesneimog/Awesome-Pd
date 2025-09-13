@@ -31,5 +31,11 @@
     "description": "The `taint~` object performs spectral multiplication, combining the frequency spectra of two input audio signals. It includes parameters for an inverse threshold and a scaling exponent to control the effect. Users should be aware that this object can produce very loud output levels.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "pow~",
+        "atan~",
+        "frac.mul",
+        "minmax~"
     ]
 }

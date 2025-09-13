@@ -23,5 +23,11 @@
     "description": "The `cylinder` object renders a 3D cylinder shape within the GEM environment, utilizing OpenGL. It allows users to control the cylinder's size and the number of segments for its rendering. Additionally, its visual appearance can be modified via a `draw` message to display it as lines, filled, or points.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "cone",
+        "trapezoid",
+        "disk",
+        "teapot"
     ]
 }

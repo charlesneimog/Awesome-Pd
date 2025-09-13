@@ -20,10 +20,9 @@
     ],
     "ai": true,
     "title": "stepnoise~",
-    "description": "The `stepnoise~` object generates band-limited noise with random, stepped values between -1 and 1. It produces a signal that holds at a random value, resulting in random steps, and its output can be made reproducible using a seed. This object also supports multichannel operation.",
+    "description": "The `stepnoise~` object generates band-limited, stepped noise, producing pseudo-random values between -1 and 1 at a specified frequency. It acts as a low-frequency noise generator without interpolation, creating discrete \"steps\" rather than smooth transitions. The output can be made reproducible using a seed, and the object supports multichannel operation.",
     "categories": [
-        "Stochastic",
         "Multichannel",
-        "Oscillators"
+        "Stochastic"
     ]
 }

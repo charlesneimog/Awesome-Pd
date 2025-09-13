@@ -20,10 +20,8 @@
     ],
     "ai": true,
     "title": "onebang",
-    "description": "The `onebang` object acts as a conditional gate for bang messages. A bang received in its left inlet is routed to the left outlet only if a bang has been previously received in its right inlet, after which its internal state is reset. Otherwise, the bang is sent to the right outlet, making it useful for detecting the first occurrence of an event.",
+    "description": "The `onebang` object gates incoming bangs, allowing the first bang through its left outlet only after a bang has been received in its right inlet. Subsequent bangs, or bangs received before the right inlet is triggered, are sent to the right outlet. It can be reset to re-enable the gate.",
     "categories": [
-        "Logic",
-        "Routing",
-        "General Utilities"
+        "Logic"
     ]
 }

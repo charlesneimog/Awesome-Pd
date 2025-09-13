@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "damp.osc~",
-    "description": "The `damp.osc~` object is a damped harmonic motion oscillator that generates audio signals. It accepts frequency (in Hz or MIDI pitch) and a decay time in milliseconds as inputs. The object can be triggered by zero-to-non-zero signal transitions or control-rate lists, providing both cosine and sine phase outputs.",
+    "description": "`damp.osc~` is a damped oscillator that generates a signal with a specified frequency and decay time. It can be triggered by signals or lists, with the trigger value determining the output amplitude. It provides two outputs: one starting with a cosine phase and another with a sine phase.",
     "categories": [
         "Oscillators"
     ]

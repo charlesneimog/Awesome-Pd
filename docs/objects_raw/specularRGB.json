@@ -23,5 +23,11 @@
     "description": "The `specularRGB` object in GEM sets the specular color for subsequent OpenGL vertex operations. It accepts a `gemlist` or individual float values for Red, Green, Blue, and Alpha to define the color. To observe its effect, lighting must be enabled in the GEM environment.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "emissionRGB",
+        "ambient",
+        "ambientRGB",
+        "diffuse"
     ]
 }

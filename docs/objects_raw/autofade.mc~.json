@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "autofade.mc~",
-    "description": "The `autofade.mc~` object provides automatic fade-in and fade-out functionality for multichannel audio signals. It uses various internal lookup tables (e.g., quartic, sine, linear) to shape the fade curve and is triggered by a gate control, with the maximum gain determined by the gate-on level.",
+    "description": "`autofade.mc~` provides automatic fade-in and fade-out functionality for multichannel audio signals. It responds to a gate control signal, applying various configurable fade curves (e.g., `quartic`, `sin`, `lin`) over a specified duration. This object is useful for smoothly transitioning audio signals based on a gate's state.",
     "categories": [
-        "Envelopes",
-        "Multichannel"
+        "Multichannel",
+        "Envelopes"
     ]
 }

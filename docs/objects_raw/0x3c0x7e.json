@@ -23,5 +23,11 @@
     "description": "This Pure Data object, `0x3c0x7e`, is an abstraction for the signal comparison object `<~`. It compares two incoming signals and outputs a signal indicating whether the first signal is less than the second. This abstraction does not support arguments and has worse performance than the external `zexy` version.",
     "categories": [
         "Logic"
+    ],
+    "similar": [
+        "0x3e0x7e",
+        "==~",
+        "&&~",
+        "0x7c0x7c0x7e"
     ]
 }

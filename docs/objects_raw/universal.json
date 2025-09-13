@@ -20,10 +20,9 @@
     ],
     "ai": true,
     "title": "universal",
-    "description": "The `universal` object sends messages to all instances of a specified object type within the current Pure Data patch. It can optionally extend this functionality to subpatches via an argument, enabling simultaneous control over multiple objects, including GUI elements like `vsl` or `tgl`.",
+    "description": "The `universal` object sends messages to all instances of a specified Pure Data object type within the current patch, or optionally into subpatches. It facilitates sending any message to target objects, including GUI elements, by identifying them by their object name. A special `send` message format is required for objects named after Pure Data selectors like `float` or `symbol`.",
     "categories": [
         "Routing",
-        "Patching",
-        "GUI"
+        "General Utilities"
     ]
 }

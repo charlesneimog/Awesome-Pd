@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "speed",
-    "description": "The `speed` object facilitates gradual changes in tempo, enabling accelerando or ritardando effects. It takes an initial BPM, a target BPM, and a duration in beats, then outputs the current BPM for each beat and the overall tempo in milliseconds.",
+    "description": "The `speed` object in Pure Data enables dynamic tempo changes, such as accelerando or ritardando. It calculates intermediate BPM values and total time based on a target BPM and a specified duration in beats. This object is typically used with `metro` to create smooth and controlled tempo transitions in musical contexts.",
     "categories": [
-        "Procedural"
+        "Algorithmic Composition",
+        "Math"
     ]
 }

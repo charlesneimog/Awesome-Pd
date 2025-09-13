@@ -24,5 +24,11 @@
     "categories": [
         "Graphics",
         "Control I/O"
+    ],
+    "similar": [
+        "camera",
+        "pix_indycam",
+        "gemorb",
+        "gemw32window"
     ]
 }

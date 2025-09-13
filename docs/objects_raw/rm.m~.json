@@ -20,6 +20,8 @@
     ],
     "ai": true,
     "title": "rm.m~",
-    "description": "The `rm.m~` object is a wrapper for the `rm~` (ring modulator) object from the ELSE library. It performs ring modulation on an audio signal, combining it with a carrier frequency. It provides control over the carrier frequency and an \"att\" parameter, likely related to attack or amplitude.",
-    "categories": []
+    "description": "`rm.m~` is a wrapper around the `rm~` object from the ELSE library, designed for ring modulation. It functions as a simple audio effect module, akin to a pedal, for altering sound signals.",
+    "categories": [
+        "Distortion"
+    ]
 }

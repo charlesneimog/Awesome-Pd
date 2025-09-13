@@ -32,5 +32,11 @@
     "categories": [
         "Logic",
         "Math"
+    ],
+    "similar": [
+        "tCylinder3D",
+        "tCube3D",
+        "pol2sph",
+        "bitand~"
     ]
 }

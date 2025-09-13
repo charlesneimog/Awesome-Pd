@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "wrap2~",
-    "description": "The `wrap2~` object wraps an input signal between a specified low and high value. It supports multichannel audio and can be used as a waveshaping technique. The wrapping range can be set via arguments or inlets.",
+    "description": "The `wrap2~` object wraps an input signal's values within a specified low and high range. It accepts float or signal inputs for its range boundaries and supports multichannel audio. This object is useful for waveshaping and constraining signal values.",
     "categories": [
         "Math",
         "Multichannel"

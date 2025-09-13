@@ -24,5 +24,11 @@
     "categories": [
         "Granular",
         "Envelopes"
+    ],
+    "similar": [
+        "grain.sampler~",
+        "grain.live~",
+        "pvgrain~",
+        "pitch.shift~"
     ]
 }

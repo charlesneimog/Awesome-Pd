@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "replace",
-    "description": "The `replace` object modifies an input message by substituting a specific element at a given index. It supports 1-based indexing, with negative values counting from the end of the message, and can replace elements with either floats or symbols. This object is useful for dynamic manipulation of data lists or messages.",
+    "description": "The `replace` object modifies an input list by substituting an element at a specified index with a new value. It takes the list to be modified, an index (float, default 0), and the new element (float or symbol) as inputs, outputting the modified list.",
     "categories": [
-        "Data Structures",
-        "General Utilities"
+        "Data Structures"
     ]
 }

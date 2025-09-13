@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "triangle~",
-    "description": "The `triangle~` object generates a variable-duty triangle waveform at signal rate. It uses a phase input (0-1) to read its internal wavetable, effectively creating an oscillator when driven by a `phasor~`. The second inlet controls the peak position, allowing for waveforms ranging from sawtooth to symmetric triangles, and its output range can be adjusted via `lo` and `hi` messages.",
+    "description": "The `triangle~` object generates a variable-duty triangular wavetable. It takes a phase input (typically from a `phasor~`) to produce a continuous waveform, and a second inlet controls the peak position (duty cycle) from 0 to 1, allowing it to morph between sawtooth and triangular shapes. Its output range can be adjusted using `lo` and `hi` messages.",
     "categories": [
         "Oscillators"
     ]

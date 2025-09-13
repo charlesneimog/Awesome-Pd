@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "pan.mc~",
-    "description": "`pan.mc~` is a multichannel audio panner designed for circular speaker arrays. It distributes an input signal across a user-defined number of output channels, employing equal power crossfading based on an azimuth angle and a spread parameter. This object is used for spatializing sounds in a 360-degree environment.",
+    "description": "The `pan.mc~` object pans an input signal across a specified number of output channels, simulating a circular speaker arrangement. It uses equal power crossfading, controlled by an azimuth input and a spread parameter, to distribute the signal among adjacent channels.",
     "categories": [
-        "Multichannel",
-        "Routing"
+        "Multichannel"
     ]
 }

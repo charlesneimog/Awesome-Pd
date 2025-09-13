@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "atan2~",
-    "description": "The `atan2~` object calculates the arctangent of two input signals, 'a' and 'b', as atan(a/b). Unlike a single-argument arctangent, it uses the signs of both inputs to determine the correct quadrant of the resulting angle. This makes it particularly useful for mathematical calculations such as converting Cartesian coordinates to polar coordinates, specifically for finding the phase.",
+    "description": "The `atan2~` object calculates the arc-tangent of two signal-rate input values, 'a' and 'b', as `atan(a/b)`. It correctly determines the quadrant of the resulting angle by considering the signs of both inputs, making it useful for converting Cartesian coordinates to polar coordinates (e.g., finding the phase). The output is in radians.",
     "categories": [
         "Math"
     ]

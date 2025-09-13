@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "rand.i",
-    "description": "The `rand.i` object generates pseudo-random integer values within a specified numerical range. It is triggered by a `bang` message, and its output can be seeded for reproducible sequences. This object can also generate multiple random numbers as a list, controlled by the `n` message or a creation argument.",
+    "description": "The `rand.i` object generates pseudo-random integer values within a specified range when triggered by a bang. It allows users to set a seed for reproducible sequences and can output a single value or a list of random numbers. This object is useful for introducing controlled randomness into Pure Data patches.",
     "categories": [
-        "Stochastic"
+        "Stochastic",
+        "General Utilities"
     ]
 }

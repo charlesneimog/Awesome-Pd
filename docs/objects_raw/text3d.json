@@ -25,5 +25,11 @@
         "Graphics",
         "File I/O",
         "Text"
+    ],
+    "similar": [
+        "textextruded",
+        "textoutline",
+        "text2d",
+        "model"
     ]
 }

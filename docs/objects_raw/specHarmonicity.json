@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "specHarmonicity",
-    "description": "The `specHarmonicity` object calculates the spectral harmonicity and inharmonicity of an audio sample. It analyzes the spectral content, optionally using a provided fundamental frequency, to quantify how closely the partials align with a harmonic series. This object is primarily used for extracting timbral descriptors from audio."
+    "description": "The `specHarmonicity` object calculates the spectral harmonicity and inharmonicity of an audio sample. It analyzes the spectral content, optionally using a provided fundamental frequency, to quantify how closely the partials align with a harmonic series. This object is primarily used for extracting timbral descriptors from audio.",
+    "similar": [
+        "specHarmonicity~",
+        "specBrightness",
+        "harmonicRatio",
+        "barkSpecSkewness"
+    ]
 }

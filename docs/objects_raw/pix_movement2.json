@@ -23,5 +23,11 @@
     "description": "The `pix_movement2` object is a time-based IIR filter designed for motion detection in video streams. It analyzes the current frame against two previous frames and a user-defined background image, outputting a greyscale image highlighting detected movement. It includes adjustable threshold parameters (`lo_threshold`, `initial_threshold`) to filter out image noise and dynamically adapt to changing conditions.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_movement",
+        "pix_threshold",
+        "pix_a_2grey",
+        "pix_motionblur"
     ]
 }

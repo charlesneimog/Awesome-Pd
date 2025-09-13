@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "minSample",
-    "description": "The `minSample` object analyzes a specified window within a Pure Data array, typically containing audio samples. It outputs the minimum sample value found within that window and its corresponding index relative to the start of the window. This object is useful for offline analysis of audio or other data stored in arrays."
+    "description": "The `minSample` object analyzes a specified window within a Pure Data array, typically containing audio samples. It outputs the minimum sample value found within that window and its corresponding index relative to the start of the window. This object is useful for offline analysis of audio or other data stored in arrays.",
+    "similar": [
+        "minSampleDelta",
+        "peakSample",
+        "maxSample",
+        "minSample~"
+    ]
 }

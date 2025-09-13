@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "crossover~",
-    "description": "The `crossover~` object implements a 3rd order Butterworth crossover filter. It takes an audio signal and a cutoff frequency as input, providing separate lowpass and highpass filtered outputs. This allows for splitting an audio signal into different frequency bands.",
+    "description": "The `crossover~` object functions as a 3rd order Butterworth crossover filter, designed to split an incoming audio signal into distinct low-pass and high-pass components. It provides two outlets for these filtered signals and allows for dynamic control of the cutoff frequency via a float or signal input. The filter's internal memory can be reset using a 'clear' message.",
     "categories": [
         "Filters"
     ]

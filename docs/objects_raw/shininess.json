@@ -23,5 +23,11 @@
     "description": "The `shininess` object in GEM sets the shininess property of materials for subsequent OpenGL vertex operations. It accepts a `gemlist` to pass through the graphics pipeline, or an integer value (0-128) to define the shininess. This object is crucial for controlling the reflective appearance of 3D objects.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "emission",
+        "specularRGB",
+        "ambient",
+        "diffuse"
     ]
 }

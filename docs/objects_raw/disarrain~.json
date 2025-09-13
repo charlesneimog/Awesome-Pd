@@ -31,5 +31,11 @@
     "description": "The `disarrain~` object functions as a spectrum scrambler, reordering a specified number of frequency bins within an audio signal. It supports interpolation for smooth transitions between scrambled states and includes features for pattern management, allowing for dynamic and evolving spectral manipulation.",
     "categories": [
         "Stochastic"
+    ],
+    "similar": [
+        "scramble",
+        "lfnoise~",
+        "prob",
+        "lfnoise"
     ]
 }

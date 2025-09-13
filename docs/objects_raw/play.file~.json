@@ -20,10 +20,10 @@
     ],
     "ai": true,
     "title": "play.file~",
-    "description": "`play.file~` is a Pure Data object that reads and plays audio files from your computer, supporting various formats like AAC, FLAC, MP3, and WAV. It can also stream audio directly from web links. Similar to Vanilla's `readsf~`, it handles multichannel audio and offers control over playback, including looping and autostart.",
+    "description": "The `play.file~` object plays audio files from local storage or web links, supporting various formats like MP3, WAV, and FLAC. It functions similarly to `readsf~` but with expanded format and streaming capabilities. Users can control playback (start, stop, pause, loop) and specify the number of channels, making it suitable for flexible audio playback and streaming applications.",
     "categories": [
         "Samplers",
-        "File I/O",
+        "File IO",
         "Networking"
     ]
 }

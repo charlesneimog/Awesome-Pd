@@ -20,10 +20,10 @@
     ],
     "ai": true,
     "title": "sfload",
-    "description": "The `sfload` object loads sound files into Pure Data arrays, supporting various audio formats like MP3, WAV, and FLAC. It can handle multichannel audio, download files directly from web links, and operates in a threaded mode for efficient loading of large files.",
+    "description": "The `sfload` object is a versatile sound file loader for Pure Data, similar to `soundfiler` but supporting a wider range of audio formats (AAC, FLAC, MP3, WAV, etc.) and capable of loading into multichannel arrays. It can also download files directly from web links and offers a threaded mode for loading large files without choking Pd's audio.",
     "categories": [
-        "File I/O",
-        "Data Structures",
-        "Networking"
+        "File IO",
+        "Networking",
+        "MultiThreading"
     ]
 }

@@ -20,8 +20,8 @@
     ],
     "ai": true,
     "title": "tap",
-    "description": "The `tap` object detects tempo by analyzing the time interval between two consecutive bangs or the duration a gate is held open. It outputs the detected tempo, by default in BPM, but can be configured to output in milliseconds using the `-ms` argument. Clicking the object itself also acts as a bang input.",
+    "description": "The `tap` object detects tempo by analyzing successive bangs, typically from user input. The first bang arms the object, and the second bang outputs the detected tempo, which can be in BPM (default) or milliseconds. Clicking the object directly acts as a bang.",
     "categories": [
-        "General Utilities"
+        "Control IO"
     ]
 }

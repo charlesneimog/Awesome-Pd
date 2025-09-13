@@ -23,5 +23,11 @@
     "description": "The `pix_blob` object calculates the \"center of gravity\" of an image. It allows users to specify which color channels (e.g., red, green, blue, alpha) to use for weighting the position calculation, enabling flexible analysis of image content.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_sig2pix~",
+        "pix_hsv2rgb",
+        "pix_rgb2hsv",
+        "pix_takealpha"
     ]
 }

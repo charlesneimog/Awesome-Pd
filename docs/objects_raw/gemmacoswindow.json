@@ -23,5 +23,11 @@
     "description": "The `gemmacoswindow` object is a macOS-specific Pure Data external that creates and manages graphical windows using Cocoa. It provides controls for window properties such as dimensions, position, title, fullscreen mode, and rendering options (e.g., anti-aliasing, buffering). It also handles user input like keystrokes and can toggle the macOS menubar.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "gemcocoawindow",
+        "gemmacwindow",
+        "gemglfw2window",
+        "gemglfw3window"
     ]
 }

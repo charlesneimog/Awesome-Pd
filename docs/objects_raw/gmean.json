@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "gmean",
-    "description": "The `gmean` object generates a list of numbers representing a geometric progression between a specified start and end point. It requires a start value, an end value, and the number of steps to generate the intermediate values. The number of steps determines the length of the output list minus one.",
+    "description": "The `gmean` object generates a list of numbers that form a geometric progression between a specified start and end value. It calculates the geometric mean for a given number of steps, where the number of steps determines the length of the output list minus one. This object is useful for creating logarithmically spaced sequences.",
     "categories": [
         "Math"
     ]

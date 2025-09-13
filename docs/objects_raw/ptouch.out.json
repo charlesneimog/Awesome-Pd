@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "ptouch.out",
-    "description": "The `ptouch.out` object formats and sends raw MIDI polyphonic aftertouch messages. It takes key, pressure, and an optional channel number as input, outputting the MIDI stream to Pd's MIDI output and its outlet. It can also be configured to output only to its outlet using the `-ext` flag or `ext` message.",
+    "description": "The `ptouch.out` object formats and sends raw MIDI polyphonic aftertouch messages. It outputs these messages to Pure Data's MIDI output and its outlet. An argument or message can set the MIDI channel, with channel 1 as the default.",
     "categories": [
-        "MIDI"
+        "MIDI",
+        "Control IO"
     ]
 }

@@ -20,6 +20,6 @@
     ],
     "ai": true,
     "title": "timed.gate",
-    "description": "The `timed.gate` object generates a timed gate signal. It can be triggered by a bang or a float, outputting the specified gate value for a given duration in milliseconds. It also supports a retrigger mode, allowing new gates to start before the previous one finishes.",
+    "description": "The `timed.gate` object generates a timed gate signal, typically a float value, for a specified duration in milliseconds. It can be triggered by a `bang` or a `float` and supports an initial amplitude. By default, a new gate cannot start until the current one finishes, but a retrigger mode allows immediate re-triggering.",
     "categories": []
 }

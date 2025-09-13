@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "sinh",
-    "description": "The `sinh` object calculates the hyperbolic sine of a given numerical input. It takes a float as an argument or via its inlet, stores this value, and outputs the hyperbolic sine as a float. This object is part of the `cyclone` library and is primarily used for mathematical computations.",
+    "description": "The `sinh` object calculates the hyperbolic sine of a given floating-point number. It stores the input value and computes the hyperbolic sine when a `bang` is received or the input float changes, outputting the result as a float. This object is part of the Cyclone library, providing control data trigonometric functions.",
     "categories": [
         "Math"
     ]

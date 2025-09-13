@@ -20,10 +20,10 @@
     ],
     "ai": true,
     "title": "sfont~",
-    "description": "`sfont~` is a sampler synthesizer that plays SoundFont (.sf2/.sf3) files, based on FluidLite. It provides stereo audio output and responds to various MIDI messages for note playback, program/bank changes, and continuous controllers. The object also features advanced microtonal capabilities, allowing for custom scales and pitch remapping.",
+    "description": "The `sfont~` object is a sampler synthesizer that plays SoundFont (`.sf2` or `.sf3`) files, based on FluidLite. It generates stereo audio output and responds to a wide range of MIDI messages, including note, control change, pitch bend, program change, and system exclusive messages. It also features advanced microtonal capabilities, allowing for custom scales and pitch remapping.",
     "categories": [
         "MIDI",
         "Samplers",
-        "File I/O"
+        "File IO"
     ]
 }

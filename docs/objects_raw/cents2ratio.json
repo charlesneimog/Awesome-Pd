@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "cents2ratio",
-    "description": "The `cents2ratio` object converts musical intervals expressed in cents into frequency ratios (floating-point decimals). It uses the formula `ratio = pow(2, (cents/1200))` to perform this mathematical conversion. It can process single float values or lists of cents values.",
+    "description": "The `cents2ratio` object converts musical intervals expressed in cents into their corresponding frequency ratios, output as floating-point decimals. It applies the formula `ratio = 2^(cents/1200)`. This utility is useful for precise pitch manipulation and microtonal applications, accepting single float values or lists of cents for conversion.",
     "categories": [
         "Math"
     ]

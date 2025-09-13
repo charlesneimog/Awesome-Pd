@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "svf~",
-    "description": "The `svf~` object implements a Chamberlin state-variable filter, simultaneously outputting lowpass, highpass, bandpass, and notch filtered signals. It takes an audio signal as input and allows control over cutoff/center frequency and Q/resonance, with frequency modes including Hertz, linear, and radians.",
+    "description": "The `svf~` object implements a state-variable filter, simultaneously outputting lowpass, highpass, bandpass, and notch filtered signals. It allows control over cutoff/center frequency (in Hz, linear, or radians) and Q/resonance, making it a versatile tool for shaping audio.",
     "categories": [
         "Filters"
     ]

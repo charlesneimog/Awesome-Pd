@@ -20,10 +20,8 @@
     ],
     "ai": true,
     "title": "counter",
-    "description": "The `counter` object in Pure Data increments or decrements an integer value within a specified range. It can count up, down, or alternate directions, and provides various messages to control its state, limits, and output behavior. It is a fundamental building block often used for creating step sequencers or managing indices.",
+    "description": "The `counter` object increments or decrements an integer value within a specified minimum and maximum range. It supports counting up, down, or alternating directions, and offers configurable \"carry\" modes to signal when the counter reaches its limits. This object is useful for creating step sequencers, managing event counts, or controlling iterative processes.",
     "categories": [
-        "Procedural",
-        "General Utilities",
-        "Sequencers"
+        "General Utilities"
     ]
 }

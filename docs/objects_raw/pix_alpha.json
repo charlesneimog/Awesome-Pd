@@ -23,5 +23,11 @@
     "description": "The `pix_alpha` object in Pure Data modifies the alpha channel of an RGBA image based on RGB color thresholding. It sets the alpha value of pixels to a specified \"pass\" or \"other\" value depending on whether their RGB components fall within a defined high and low threshold range. This allows for selective transparency based on pixel color, primarily used with GEM for image manipulation.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_a_2grey",
+        "pix_coloralpha",
+        "pix_takealpha",
+        "color"
     ]
 }

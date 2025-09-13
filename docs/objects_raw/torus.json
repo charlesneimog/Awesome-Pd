@@ -23,5 +23,11 @@
     "description": "The `torus` object renders a 3D torus (doughnut shape) within a GEM environment. It allows dynamic control over its size, number of slices, and thickness via its inlets, enabling real-time manipulation of the rendered geometric primitive.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pqtorusknots",
+        "cuboid",
+        "teapot",
+        "sphere"
     ]
 }

@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "rotate.mc~",
-    "description": "The `rotate.mc~` object performs equal power rotation for multichannel audio signals. It takes a multichannel signal input and a control signal (float or signal) for the rotation position, which cycles from 0 to 1. This object is useful for spatializing or reordering channels in a multichannel audio stream.",
+    "description": "The `rotate.mc~` object performs equal power rotation for multichannel signal inputs. It takes a control signal or float between 0 and 1 (with negative values wrapping) to determine the rotation position. This object is useful for spatializing multichannel audio.",
     "categories": [
-        "Multichannel",
-        "Routing"
+        "Multichannel"
     ]
 }

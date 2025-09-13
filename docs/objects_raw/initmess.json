@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "initmess",
-    "description": "The `initmess` object sends a specified message when a Pure Data patch is loaded. It functions similarly to a standard message box, supporting `$0` and arguments for dynamic content, and interpreting commas to split messages and semicolons to create send objects. A bang to the object will re-send its message.",
+    "description": "The `initmess` object functions similarly to a standard message box, but it automatically sends its contained message(s) upon patch loading. It supports comma and semicolon syntax for sequencing multiple messages, and its output can also be triggered by a `bang` message or by clicking on it.",
     "categories": [
         "General Utilities"
     ]

@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "pulse~",
-    "description": "`pulse~` is a pulse train oscillator that generates a signal alternating between 1 and 0. It allows control over pulse width, phase sync, and phase modulation, and supports multichannel operation. It can also interpret frequency input in MIDI pitch.",
+    "description": "`pulse~` is a pulse train oscillator that generates an alternating 1 or 0 (on/off) signal. It offers control over pulse width, phase synchronization, and phase modulation, and supports multichannel audio. Frequencies can be set in Hertz or MIDI pitch, and the oscillator can be reset by an impulse signal.",
     "categories": [
         "Oscillators",
         "Multichannel"

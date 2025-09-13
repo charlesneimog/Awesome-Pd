@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "autotune",
-    "description": "The `autotune` object retunes incoming MIDI pitches to the closest step within a specified musical scale. It takes a list of cents values defining the scale and a base MIDI pitch, allowing for custom microtonal or alternative tunings. It outputs the retuned MIDI pitch.",
+    "description": "The `autotune` object retunes incoming MIDI pitches to the closest step within a specified musical scale. It accepts a list of scale steps in cents and a base MIDI pitch, enabling custom microtonal or alternative tunings. An optional bypass input allows disabling the retuning functionality.",
     "categories": [
         "MIDI"
     ]

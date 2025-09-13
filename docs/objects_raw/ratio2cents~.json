@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "ratio2cents~",
-    "description": "The `ratio2cents~` object converts a signal representing a rational interval (e.g., a frequency ratio) into an interval expressed in cents. It performs the calculation `cents = log2(ratio) * 1200`. This object also supports multichannel signal connections.",
+    "description": "The `ratio2cents~` object converts a signal representing a rational interval into an interval expressed in cents. It performs this conversion using the formula `cents = log2(ratio) * 1200`. This object also supports multichannel signal connections.",
     "categories": [
         "Math",
         "Multichannel"

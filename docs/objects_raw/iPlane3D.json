@@ -31,5 +31,11 @@
     "description": "The `iPlane3D` object simulates the physical interaction between a 3D plane and a specified mass, such as a circle. It calculates forces and displacements based on parameters like the plane's position, orientation, normal force, rigidity, and damping. This object is designed for simulating physical interactions in a 3D space.",
     "categories": [
         "Physical Modeling"
+    ],
+    "similar": [
+        "tPlane3D",
+        "iCircle3D",
+        "iCylinder3D",
+        "iSeg2D"
     ]
 }

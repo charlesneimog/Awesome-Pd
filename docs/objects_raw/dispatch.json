@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "dispatch",
-    "description": "The `dispatch` object takes a list as input and sends each element to a specified address. It uses arguments to define the target addresses, processing elements from left to right. A bang message re-dispatches the last received list.",
+    "description": "The `dispatch` object takes an incoming list and sends each of its elements to a specified address, processing them from left to right. It can also re-send the last processed input upon receiving a `bang`. This object is useful for routing individual elements of a list to different destinations within a Pure Data patch.",
     "categories": [
         "Routing"
     ]

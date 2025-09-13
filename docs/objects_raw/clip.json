@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "clip",
-    "description": "The `cyclone/clip` object constrains incoming float or list values to a specified numerical range. It takes a value (or list of values) and outputs them, ensuring they do not exceed a defined minimum or maximum. This is a fundamental utility for limiting signal amplitudes or numerical ranges within a patch.",
+    "description": "The `clip` object (or `cyclone/clip~`) constrains incoming float or list values to a specified numerical range. It takes a minimum and maximum value, ensuring that all output values fall within these defined boundaries. The clipping range can be dynamically set using the `set <min> <max>` message or by sending individual floats to its inlets.",
     "categories": [
         "Math",
         "General Utilities"

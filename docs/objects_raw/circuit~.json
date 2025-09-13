@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "circuit~",
-    "description": "The `circuit~` object simulates analog electronic circuits from a text description. It allows audio signals to modulate circuit parameters via inlets and outputs audio from designated probe points within the simulated circuit. This object can be CPU intensive due to the complexity of the simulations.",
+    "description": "The `circuit~` object simulates analog electronic circuits from a text description, allowing users to model various audio effects and synthesis components. It takes a text-based circuit definition and can be modulated by input signals, with audio output generated from specified probes. This object is CPU intensive and may not perfectly replicate every real-world circuit.",
     "categories": [
         "Distortion",
         "Chorus/Flanger/Phaser",

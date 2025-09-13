@@ -32,5 +32,11 @@
     "categories": [
         "Math",
         "Physical Modeling"
+    ],
+    "similar": [
+        "mass2D",
+        "mass",
+        "link",
+        "iCircle2D"
     ]
 }

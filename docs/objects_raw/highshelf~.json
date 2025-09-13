@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "highshelf~",
-    "description": "The `highshelf~` object is a 2nd order highshelf filter designed to modify the high-frequency content of an audio signal. It allows control over the shelving frequency, slope, and gain in decibels, enabling precise tonal shaping.",
+    "description": "The `highshelf~` object implements a 2nd order highshelf filter, designed to modify the high-frequency content of an audio signal. It allows control over the shelving frequency, slope, and gain in decibels, and includes `clear` and `bypass` messages for operational control. Its internal calculations are based on standard biquad filter coefficient formulas.",
     "categories": [
         "Filters"
     ]

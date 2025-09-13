@@ -23,5 +23,11 @@
     "description": "The `pix_halftone` object applies a halftone effect to an incoming image, transforming it into patterns of dots or diamonds, similar to those found in newspaper prints. Users can customize the halftone style, pattern size, orientation, and smoothness. It functions as a visual effect within the GEM environment.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_kaleidoscope",
+        "pix_motionblur",
+        "pix_blur",
+        "pix_refraction"
     ]
 }

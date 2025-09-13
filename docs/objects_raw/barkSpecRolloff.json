@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "barkSpecRolloff",
-    "description": "The barkSpecRolloff object calculates the spectral rolloff of an audio signal based on its Bark scale spectrum. It analyzes a specified window of an audio array, using a given Bark filterbank spacing and a concentration threshold, and outputs a numerical value representing this descriptor. It can also process pre-computed Bark spectrum data."
+    "description": "The barkSpecRolloff object calculates the spectral rolloff of an audio signal based on its Bark scale spectrum. It analyzes a specified window of an audio array, using a given Bark filterbank spacing and a concentration threshold, and outputs a numerical value representing this descriptor. It can also process pre-computed Bark spectrum data.",
+    "similar": [
+        "barkSpecRolloff~",
+        "barkSpecBrightness",
+        "barkSpecCentroid~",
+        "barkSpecSlope"
+    ]
 }

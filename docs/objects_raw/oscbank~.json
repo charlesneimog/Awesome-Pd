@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "oscbank~",
-    "description": "The `oscbank~` object generates complex audio signals by combining multiple `sine~` oscillators, allowing users to define a list of partials, amplitudes, and phases for each. It takes a frequency multiplier as its main input, serving as the fundamental frequency for the entire bank. Additionally, it supports multichannel output, where each individual oscillator is routed to a separate channel.",
+    "description": "`oscbank~` is a Pure Data object that functions as a bank of `sine~` oscillators, allowing for the creation of complex tones by specifying lists of partials, amplitudes, and phases. It supports a frequency multiplier to control the fundamental, dynamic updates to its parameters with ramp times, and multichannel output for individual oscillator access.",
     "categories": [
         "Additive",
         "Oscillators",

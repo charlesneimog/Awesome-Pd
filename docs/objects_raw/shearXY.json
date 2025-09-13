@@ -23,5 +23,11 @@
     "description": "The `shearXY` object applies a shear transformation to graphical objects within GEM (Graphics Environment for Multimedia). It takes a `gemlist` and a float shear factor, modifying the current transformation matrix so that the X translation depends on the Y position. This allows for visual distortion and manipulation of rendered graphics.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "shearYX",
+        "shearZY",
+        "shearXZ",
+        "shearYZ"
     ]
 }

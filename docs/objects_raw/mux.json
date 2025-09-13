@@ -24,5 +24,11 @@
     "categories": [
         "Routing",
         "General Utilities"
+    ],
+    "similar": [
+        "mux~",
+        "gate",
+        "router",
+        "selector"
     ]
 }

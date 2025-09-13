@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "maxSample~",
-    "description": "The `maxSample~` object reports the maximum sample value and its corresponding index within a specified audio window. It handles its own audio buffering, eliminating the need for an external `block~` object. The window size can be set as a creation argument or dynamically changed via a 'window' message."
+    "description": "The `maxSample~` object reports the maximum sample value and its corresponding index within a specified audio window. It handles its own audio buffering, eliminating the need for an external `block~` object. The window size can be set as a creation argument or dynamically changed via a 'window' message.",
+    "similar": [
+        "minSample~",
+        "minSampleDelta~",
+        "minSample",
+        "maxSampleDelta~"
+    ]
 }

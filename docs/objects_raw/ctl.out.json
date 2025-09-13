@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "ctl.out",
-    "description": "The `ctl.out` object formats and sends raw MIDI control messages. It outputs these messages to Pure Data's global MIDI output and its own outlet. An optional argument or message can set the MIDI channel, and it can be configured to output only to its outlet.",
+    "description": "The `ctl.out` object formats and sends raw MIDI control messages. It can output directly to Pure Data's configured MIDI device or to its outlet for further processing. Users can specify the MIDI channel and control number, with an optional flag to restrict output to the outlet only.",
     "categories": [
         "MIDI"
     ]

@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "fdn.rev~",
-    "description": "`fdn.rev~` is a feedback delay network (FDN) reverberator designed to simulate late reflections, commonly known as the reverb tail. Its primary parameters are the reverberation decay time (t60) and high-frequency damping, which controls how quickly higher frequencies decay. The object's internal delay lines can be configured using a list of values to set the matrix size and individual delay times, which can be spaced linearly or exponentially.",
+    "description": "The `fdn.rev~` object is a feedback delay network (FDN) reverberator designed for creating late reflections or reverb tails. It uses a householder reflection matrix, allowing control over reverberation decay time (t60) and high-frequency damping. Users can also configure the delay line matrix size and spacing.",
     "categories": [
-        "Reverb"
+        "Reverb",
+        "Delay"
     ]
 }

@@ -20,10 +20,10 @@
     ],
     "ai": true,
     "title": "keyboard",
-    "description": "The `keyboard` object provides a graphical piano keyboard interface for Pure Data. It outputs MIDI note and velocity values based on mouse clicks and drags, and can be configured with various parameters like octave range, key width, and toggle behavior. It also supports programmatic control of notes via messages like `on`, `off`, `play`, and `show`.",
+    "description": "The `keyboard` object provides an interactive graphical MIDI keyboard within Pure Data, allowing users to generate MIDI note and velocity messages through mouse clicks and drags. It features velocity sensitivity based on click position, a toggle mode for sustained notes, and configurable parameters such as key dimensions, octave range, and velocity normalization. The object can also be controlled programmatically via messages and supports internal communication through send/receive symbols.",
     "categories": [
         "MIDI",
         "GUI",
-        "Control I/O"
+        "Control IO"
     ]
 }

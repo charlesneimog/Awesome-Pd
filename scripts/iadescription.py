@@ -4,7 +4,7 @@ import json
 import subprocess
 from typing import Dict, Any, List, Tuple
 
-LIBRARY_HELP_FILES = "/home/neimog/Documents/Pd/externals/Gem/"
+LIBRARY_HELP_FILES = "/home/neimog/Documents/Pd/externals/cyclone/"
 
 CATEGORIES_DESCRIPTIONS: Dict[str, str] = {
     "Machine Learning": "AI → General machine learning algorithms or tools for data analysis and prediction.",
@@ -251,10 +251,10 @@ if __name__ == "__main__":
         "runs_on": ["Mac", "Linux", "Windows"],
         "download_link": "",
         "available_on_deken": True,
-        "bug_reports": "https://github.com/umlaeute/Gem/issues",
-        "developers": ["Johannes M. Zmölnig"],
+        "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+        "developers": ["Alexandre Torres Porres"],
         "part_of_library": True,
-        "library_name": "zexy",
+        "library_name": "cyclone",
         "articles": [],
         "videos": [],
         "musics": [],
@@ -268,12 +268,13 @@ if __name__ == "__main__":
             count += 1
 
     processed_count = 0
+    os.makedirs("lib", exist_ok=True)
     for help_fname in os.listdir(LIBRARY_HELP_FILES):
         if help_fname.endswith("-help.pd"):
             processed_count += 1
             file_path = os.path.join(LIBRARY_HELP_FILES, help_fname)
             name = help_fname.replace("-help.pd", "")
-            json_name = f"{name}.json"
+            json_name = f"lib/{name}.json"
             if os.path.exists(json_name):
                 continue
 

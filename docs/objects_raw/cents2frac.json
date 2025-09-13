@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "cents2frac",
-    "description": "The `cents2frac` object converts a list of pitch values in cents into fractional representations, which are useful for defining musical intervals as ratios. It can output the fraction as a symbol or as a list of numerator and denominator, and allows setting a conversion resolution to approximate simpler ratios.",
+    "description": "The `cents2frac` object converts musical intervals expressed in cents into fractional values, representing ratios. It can process single cents values or lists of cents. Users can specify a conversion resolution (maximum numerator) and output the fraction as a list using the `-list` flag.",
     "categories": [
         "Math"
     ]

@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "dbtoa",
-    "description": "The `dbtoa` object converts decibel (dBFS) amplitude values to their corresponding linear amplitude. It performs this conversion using the mathematical expression `amp = pow(10, dBFS / 20)`. This object is primarily used for translating logarithmic decibel values into linear amplitude values within audio processing contexts.",
+    "description": "The `dbtoa` object converts decibel (dBFS) values into their corresponding linear amplitude using the formula `amp = pow(10, dBFS / 20)`. It accepts both single float values and lists, outputting the converted amplitude. A `bang` message re-outputs the last converted value, while `set` prepares a new value for conversion without immediate output.",
     "categories": [
         "Math"
     ]

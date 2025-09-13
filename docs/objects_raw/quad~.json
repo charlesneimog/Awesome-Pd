@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "quad~",
-    "description": "The `quad~` object generates a chaotic audio signal based on a quadratic difference equation: `y[n] = a * y[n-1]^2 + b * y[n-1] + c`. It allows control over the signal's output rate (frequency in Hz) and the coefficients `a`, `b`, `c`, as well as the initial value of `y[n-1]`.",
+    "description": "The `quad~` object generates a chaotic audio signal using a general quadratic map. It allows control over the signal's frequency and the 'a', 'b', and 'c' coefficients of the quadratic equation, as well as an initial value. This object is useful for creating complex, non-linear sound textures.",
     "categories": [
         "Math",
-        "Oscillators"
+        "Oscillators",
+        "Stochastic"
     ]
 }

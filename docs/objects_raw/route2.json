@@ -20,10 +20,8 @@
     ],
     "ai": true,
     "title": "route2",
-    "description": "The `route2` object functions similarly to `route`, but it preserves the list selector in its output messages and supports both float and symbol arguments for routing. It directs incoming messages to specific outlets based on their first element, providing a dedicated outlet for messages that do not match any specified arguments.",
+    "description": "The `route2` object is a message routing utility similar to `route`, directing incoming messages to specific outlets based on matching arguments (symbols or floats). A key distinction is that `route2` does not trim the matched argument from the output message, passing the entire message through. It is primarily used for conditional message flow control within a Pure Data patch.",
     "categories": [
-        "Routing",
-        "Patching",
-        "General Utilities"
+        "Routing"
     ]
 }

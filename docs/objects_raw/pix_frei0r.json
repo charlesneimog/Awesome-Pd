@@ -23,5 +23,11 @@
     "description": "The `pix_frei0r` object loads and applies Frei0r video effects, a minimalistic plugin API for real-time video processing. It can load a specific plugin at creation or dynamically via a 'load' message. Parameters of the loaded effect can be controlled through additional inlets, allowing for real-time manipulation of the video output.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_freeframe",
+        "pix_indycam",
+        "pix_rtx",
+        "pix_chroma_key"
     ]
 }

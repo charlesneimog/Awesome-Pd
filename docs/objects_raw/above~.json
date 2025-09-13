@@ -20,6 +20,8 @@
     ],
     "ai": true,
     "title": "above~",
-    "description": "The `above~` object detects when an audio signal crosses a specified threshold. It outputs an impulse from its left outlet when the signal rises above the threshold, and from its right outlet when it falls back to or below the threshold. The threshold can be set via an argument or the second inlet.",
-    "categories": []
+    "description": "The `above~` object detects when an input signal crosses a specified threshold. It sends an impulse on its left output when the signal rises above the threshold and another impulse when it falls back below or to the threshold. This object is useful for triggering events or controlling processes based on signal amplitude.",
+    "categories": [
+        "Logic"
+    ]
 }

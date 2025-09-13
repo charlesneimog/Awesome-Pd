@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "mag~",
-    "description": "The `mag~` object calculates the magnitude (amplitude) or power magnitude of a complex signal from its real and imaginary parts. It takes real and imaginary components as inputs and outputs the corresponding magnitude, similar to the amplitude output of `car2pol~`. This object is particularly useful for spectral processing where phase information is not required, and it supports multichannel audio.",
+    "description": "The `mag~` object calculates the magnitude (amplitude) of a signal from its real and imaginary components, functioning similarly to the amplitude output of `car2pol~`. It can also compute the power magnitude spectrum. This object is useful for spectral processing that does not require phase information and supports multichannel audio connections.",
     "categories": [
+        "Multichannel",
         "Math",
-        "Multichannel"
+        "Descriptors"
     ]
 }

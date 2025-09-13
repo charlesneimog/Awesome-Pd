@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "crackle~",
-    "description": "The `crackle~` object generates noise using a chaotic difference equation. Its behavior is controlled by a 'p' parameter (0 to 1), influencing the chaotic output. A `clear` message can be sent to reset the internal memory of the chaotic function.",
+    "description": "The `crackle~` object generates a chaotic noise signal. It features a 'p' parameter, controllable by a float or signal between 0 and 1, which influences the chaotic function. The object also allows clearing its internal filter memory.",
     "categories": [
-        "Math",
         "Stochastic"
     ]
 }

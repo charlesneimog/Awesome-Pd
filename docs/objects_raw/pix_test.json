@@ -23,5 +23,11 @@
     "description": "The `pix_test` object generates test images, primarily featuring SMPTE colorbars and black/white gradients. It allows customization of image dimensions, colorspace, and can optionally include grey noise at the bottom. This object is useful for testing and calibrating visual setups within Pure Data's GEM environment.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_multiply",
+        "pix_rds",
+        "pix_invert",
+        "pix_subtract"
     ]
 }

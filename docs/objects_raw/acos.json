@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "acos",
-    "description": "The `acos` object calculates the arc-cosine (inverse cosine) of a given number. It accepts a float as input, which can be provided as an argument upon creation or sent to its inlet. Sending a bang message to the object triggers the output of the arc-cosine of the currently stored value.",
+    "description": "The `acos` object calculates the arc-cosine (inverse cosine) of a given number. It takes a float as input, computes its arc-cosine, and outputs the result as a float. This object is part of the control data trigonometric functions.",
     "categories": [
         "Math"
     ]

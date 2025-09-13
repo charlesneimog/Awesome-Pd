@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "spread.mc~",
-    "description": "The `spread.mc~` object distributes multichannel audio input across a specified number of output channels using equal power panning. It allows control over the spread amount, determining how widely input signals are distributed across the output channels. This object is useful for spatializing multichannel audio or creating wider stereo/surround images from narrower inputs.",
+    "description": "The `spread.mc~` object distributes multiple input audio channels across multiple output channels using equal power panning. It allows control over the number of output channels and a \"spread\" parameter, which determines how widely each input signal is panned across the available outputs. This object is designed for spatializing multichannel audio signals.",
     "categories": [
-        "Multichannel",
-        "Routing"
+        "Multichannel"
     ]
 }

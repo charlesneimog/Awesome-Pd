@@ -31,5 +31,11 @@
     "description": "The `link2D` object simulates a physical link between two masses in a 2D space. It calculates and outputs forces to be applied to these masses based on parameters like length, rigidity, and damping, as well as minimum and maximum link sizes. This object is useful for creating simple physical simulations within Pure Data.",
     "categories": [
         "Physical Modeling"
+    ],
+    "similar": [
+        "link3D",
+        "tLink2D",
+        "link",
+        "mass"
     ]
 }

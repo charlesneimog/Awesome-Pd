@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "zerocross~",
-    "description": "The `zerocross~` object detects zero-crossings in an audio signal. It outputs an impulse when the signal crosses from non-positive to positive (left outlet), from positive to non-positive (middle outlet), or both (right outlet). This is useful for analyzing signal phase or triggering events at specific points in a waveform.",
+    "description": "The `zerocross~` object detects zero crossings in an audio signal. It outputs an impulse when the signal crosses from non-positive to positive, positive to non-positive, or either direction, depending on its configuration. This is useful for analyzing the timing of signal changes.",
     "categories": [
         "Descriptors"
     ]

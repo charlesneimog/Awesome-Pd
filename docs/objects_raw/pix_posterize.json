@@ -23,5 +23,11 @@
     "description": "`pix_posterize` applies a posterization effect to images within the GEM environment. It takes a GEM list as input, along with a float for the posterization factor and an integer for the limit mode. Currently, it primarily supports YUV images, requiring conversion from other color spaces like RGBA.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_rgba",
+        "pix_convert",
+        "pix_color",
+        "yuv2rgb"
     ]
 }

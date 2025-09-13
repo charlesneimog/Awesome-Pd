@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "midi",
-    "description": "The `midi` object in Pure Data is a versatile tool for playing, recording, and manipulating raw MIDI data streams. It supports reading from and writing to MIDI files, as well as importing and exporting MIDI data to text files. It can also synchronize with external clock sources and provides control messages for playback, recording, and data management.",
+    "description": "The `midi` object in Pure Data is a versatile tool for handling MIDI data. It can play and record raw MIDI streams, including the ability to save and load MIDI files, and import/export data from/to text files. Additionally, it functions as a 3-voice polyphonic synthesizer and offers control over playback, looping, and synchronization with external clocks.",
     "categories": [
         "MIDI",
-        "File I/O"
+        "File IO",
+        "Text"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "`pix_contrast` is a GEM object designed to adjust the contrast and saturation of an input image. It accepts an image via its first inlet and float values for contrast and saturation via its second and third inlets, respectively. For grayscale images, only contrast can be modified, and both parameters must be non-negative, with a value of 1.0 indicating no change.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_normalize",
+        "pix_indycam",
+        "pix_levels",
+        "pix_takealpha"
     ]
 }

@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "fold",
-    "description": "The `fold` object mirrors input values that exceed a defined range back into that range, effectively \"folding\" them. It accepts float or list inputs and can be configured with minimum and maximum boundaries via creation arguments or inlets. A bang outputs the last folded value, while a `set` message prepares the next value for folding.",
+    "description": "The `fold` object mirrors an input value back into a specified low and high range. It acts like a mirroring function, ensuring that any value outside the defined boundaries is \"folded\" back into the range. This is useful for constraining values within a specific interval while preserving their relative position through reflection.",
     "categories": [
-        "Math"
+        "Math",
+        "General Utilities"
     ]
 }

@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "list.inc",
-    "description": "The `list.inc` object generates a list of numbers based on a starting value, an increment step, and the desired number of elements. The increment can be a linear addition or a multiplicative ratio, allowing for arithmetic or geometric progressions.",
+    "description": "`list.inc` generates a numerical list based on a starting value, a step value, and the desired number of elements. It supports both linear incrementing (adding the step value) and a 'ratio' mode where the step value is multiplied.",
     "categories": [
         "Math"
     ]

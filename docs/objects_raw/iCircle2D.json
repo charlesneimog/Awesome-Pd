@@ -32,5 +32,11 @@
     "categories": [
         "Physical Modeling",
         "Math"
+    ],
+    "similar": [
+        "link",
+        "mass3D",
+        "pmpd2d",
+        "iLine2D"
     ]
 }

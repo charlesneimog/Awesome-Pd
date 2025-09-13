@@ -29,5 +29,13 @@
     "ai": true,
     "title": "iAmbient2D",
     "description": "The `iAmbient2D` object simulates ambient interactions in a 2D space, applying constant, random, and damping forces to named \"masses.\" It also handles displacement if a mass moves outside a defined rectangular area. The object requires a bang to activate and its various force and position parameters can be configured via messages.",
-    "categories": ["Math"]
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "tLine2D",
+        "pi",
+        "iCircle2D",
+        "clip~"
+    ]
 }

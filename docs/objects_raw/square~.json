@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "square~",
-    "description": "`square~` is a versatile square wave oscillator that generates audio signals with adjustable pulse width, initial phase, and phase modulation. It supports negative frequencies, multichannel operation, and can be reset by an impulse signal. Frequency input can be set to hertz or MIDI pitch, and it offers both hard and soft sync modes.",
+    "description": "The `square~` object is a square wave oscillator that generates audio signals with adjustable pulse width, phase synchronization, and phase modulation. It supports multichannel operation and can interpret frequency input in either Hertz or MIDI pitch, making it versatile for various synthesis and control applications.",
     "categories": [
-        "MIDI",
         "Oscillators",
         "Multichannel"
     ]

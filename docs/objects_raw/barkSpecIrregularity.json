@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "barkSpecIrregularity",
-    "description": "The barkSpecIrregularity object computes the Bark spectrum irregularity of an audio signal, a descriptor indicating the noisiness or irregularity of its spectral envelope. It processes a specified window of an audio array, offering configurable parameters such as Bark filterbank spacing, windowing function, and a choice between Jensen or Krimphoff algorithms. For efficiency, it can also accept pre-computed spectral data via \"chain\" messages."
+    "description": "The barkSpecIrregularity object computes the Bark spectrum irregularity of an audio signal, a descriptor indicating the noisiness or irregularity of its spectral envelope. It processes a specified window of an audio array, offering configurable parameters such as Bark filterbank spacing, windowing function, and a choice between Jensen or Krimphoff algorithms. For efficiency, it can also accept pre-computed spectral data via \"chain\" messages.",
+    "similar": [
+        "barkSpecIrregularity~",
+        "specIrregularity",
+        "barkSpecRolloff",
+        "specIrregularity~"
+    ]
 }

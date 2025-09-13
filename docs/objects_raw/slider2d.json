@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "slider2d",
-    "description": "The `slider2d` object is a two-dimensional graphical user interface (GUI) slider for Pure Data. It allows users to control two parameters simultaneously by clicking and dragging, outputting x and y values. It supports customization of size, range, colors, grid/line visibility, and can save its state.",
+    "description": "The `slider2d` object is a graphical user interface (GUI) element that functions as a two-dimensional slider. It allows users to interactively select and output x/y coordinate values, with extensive configuration options for ranges, dimensions, background/foreground colors, and grid/line visibility.",
     "categories": [
         "GUI",
-        "Graphics"
+        "Control IO"
     ]
 }

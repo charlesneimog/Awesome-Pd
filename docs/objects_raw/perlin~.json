@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "perlin~",
-    "description": "The `perlin~` object generates 1-dimensional Perlin noise, producing a smoothly varying signal based on a specified frequency in Hertz. It uses an internal `white~` noise source and supports seeding for reproducible noise patterns.",
+    "description": "`perlin~` generates 1-dimensional Perlin noise, a type of gradient noise, producing smoothened functions based on a specified frequency. It uses `white~` as its noise source and allows for seeding to reproduce or synchronize noise sequences.",
     "categories": [
+        "Procedural",
         "Stochastic"
     ]
 }

@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "pong~",
-    "description": "The `pong~` object limits an input audio signal within a specified low-high range. It offers three modes: fold, wrap, and clip, with wrap mode being particularly useful for modulo arithmetic operations on signals.",
+    "description": "The `pong~` object functions as a signal range limiter, enabling users to fold, wrap, or clip an input signal within a defined low-high range. It offers various modes for handling values outside this range, with the wrap mode being particularly useful for modulo arithmetic.",
     "categories": [
-        "Math"
+        "Math",
+        "General Utilities"
     ]
 }

@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "rint",
-    "description": "The `rint` object rounds floating-point numbers to the nearest integer value. It takes a float as input and outputs the rounded integer. There is also an audio-rate version, `rint~`, for signal processing.",
+    "description": "The `rint` object rounds floating-point numbers to the nearest integer value. It is useful for quantizing numerical data or preparing values for integer-only operations.",
     "categories": [
         "Math"
     ]

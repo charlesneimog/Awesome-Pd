@@ -20,10 +20,10 @@
     ],
     "ai": true,
     "title": "grain.live~",
-    "description": "`grain.live~` is a live input granulator that generates clouds of audio grains from an incoming signal. It allows for extensive control over grain parameters such as size, transposition, amplitude, pan, and position within an internal delay line. The object supports both synchronous and asynchronous (randomized) grain generation, and offers various envelope shapes and autotuning capabilities.",
+    "description": "`grain.live~` is a live input granulator that generates dynamic clouds of grains from an incoming audio signal. It offers control over various grain parameters such as size, amplitude, pan, and transposition, and can operate in either asynchronous (randomized) or synchronous (equally spaced) modes. Users can also specify different envelope types for the grains, including sine, Hann, triangle, and Gaussian shapes.",
     "categories": [
         "Envelopes",
         "Granular",
-        "Stochastic"
+        "Audio IO"
     ]
 }

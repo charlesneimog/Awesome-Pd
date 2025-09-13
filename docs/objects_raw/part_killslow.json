@@ -23,5 +23,11 @@
     "description": "The `part_killslow` object is a GEM particle system utility designed to manage particle populations. It removes particles from the system that are moving slower than a specified speed threshold, which defaults to 0.01. This is useful for culling static or slow-moving particles, thereby optimizing visual performance or refining particle system behavior.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "part_vertex",
+        "part_damp",
+        "part_head",
+        "part_source"
     ]
 }

@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "fbsine~",
-    "description": "`fbsine~` is a sinusoidal audio oscillator that features phase modulation feedback. It supports negative frequencies, phase synchronization, and multichannel operation, allowing for complex sound generation. The object includes a built-in mean average filter in its feedback loop, which can be toggled, to smooth out high frequencies and control chaotic behavior.",
+    "description": "`fbsine~` is a sinusoidal oscillator that features phase modulation feedback, allowing its output to be fed back into its phase input for complex sound generation. It supports negative frequencies, phase modulation, phase synchronization, and multichannel audio, with an optional built-in mean average filter in its feedback loop to smooth chaotic outputs.",
     "categories": [
         "Oscillators",
-        "Multichannel"
+        "Multichannel",
+        "Audio IO"
     ]
 }

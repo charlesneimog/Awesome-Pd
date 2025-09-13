@@ -23,5 +23,11 @@
     "description": "The `tabminmax` object finds the minimum and maximum values within a Pure Data table. Additionally, it outputs the indices of these maximum values. It is part of the zexy library and is useful for analyzing data stored in tables.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "table",
+        "buffer",
+        "poke~",
+        "tabset"
     ]
 }

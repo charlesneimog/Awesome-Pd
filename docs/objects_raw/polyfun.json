@@ -23,5 +23,11 @@
     "description": "The `polyfun` object evaluates a polynomial function. It takes a float as the variable 'x' in its left inlet and a list of coefficients (a0 to aN) in its right inlet, with the list's length determining the polynomial's order. This allows for dynamic calculation of various polynomial expressions, such as `y=2x+1` or `y=3-x^2`.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "rdiv~",
+        "rdiv",
+        "rminus~",
+        "pol2car"
     ]
 }

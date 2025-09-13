@@ -23,5 +23,11 @@
     "description": "The `pix_rgba` object converts the color space of an incoming image to RGBA format, which is the native color space for GEM. It can convert images from various formats like grayscale or YUV to RGBA, and also allows toggling the conversion on or off. This object is primarily used for preparing images for display or further processing within the GEM environment.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_convert",
+        "pix_grey",
+        "pix_posterize",
+        "pix_color"
     ]
 }

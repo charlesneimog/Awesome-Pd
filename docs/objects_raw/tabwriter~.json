@@ -20,10 +20,8 @@
     ],
     "ai": true,
     "title": "tabwriter~",
-    "description": "The `tabwriter~` object records incoming audio signals into Pure Data arrays. It supports multi-channel recording (up to 64 channels) with sample accuracy, allowing control over recording start/end points, looping, and continuous recording. It's primarily used for capturing audio data into memory for further processing or analysis.",
+    "description": "The `tabwriter~` object records audio signals into arrays, supporting up to 64 channels with sample accuracy. It can be triggered to start/stop recording, or configured to write to specific indices within the array. Users can define recording ranges and control looping or continuation modes.",
     "categories": [
-        "Data Structures",
-        "Multichannel",
-        "General Utilities"
+        "Multichannel"
     ]
 }

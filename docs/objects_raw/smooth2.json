@@ -20,6 +20,8 @@
     ],
     "ai": true,
     "title": "smooth2",
-    "description": "The `smooth2` object smooths incoming control signals, providing independent ramp-up and ramp-down times in milliseconds. It can be used to create portamento effects or gentle transitions between values. Users can also specify a curve factor for non-linear smoothing and adjust the refresh rate.",
-    "categories": []
+    "description": "The `smooth2` object smooths incoming control values, providing a gradual transition (portamento) between them. Unlike `smooth`, it allows for independent control over ramp-up and ramp-down times in milliseconds. Users can also define a curve factor for the smoothing, similar to the curve parameter found in `asr~` and `adsr~` objects.",
+    "categories": [
+        "Envelopes"
+    ]
 }

@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "pong",
-    "description": "The `pong` object in Pure Data is a utility for manipulating numerical inputs. It can `fold`, `wrap`, or `clip` incoming numbers or lists of numbers within a specified low-high range. The `wrap` mode is particularly useful for modulo arithmetic operations.",
+    "description": "The `pong` object limits input values by folding, wrapping, or clipping them within a specified low-high range. It can operate on single floats or lists, with its behavior determined by the `mode` message. This object is particularly useful for modulo arithmetic when in `wrap` mode.",
     "categories": [
-        "Math"
+        "Math",
+        "General Utilities"
     ]
 }

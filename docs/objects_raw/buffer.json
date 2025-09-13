@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "buffer",
-    "description": "The `buffer` object provides a convenient way to get and set values within Pure Data arrays, including those created by `array` or `table` objects. It acts as a storage utility, allowing you to manipulate array contents by sending lists of values or retrieving the array's current state.",
+    "description": "The `buffer` object in Pure Data functions similarly to the `array` object, primarily for storing and manipulating numerical data. It allows users to resize and set array values using lists, and can output the array's contents when triggered by a `bang`. Its main purpose is to manage data arrays within a patch.",
     "categories": [
         "Data Structures"
     ]

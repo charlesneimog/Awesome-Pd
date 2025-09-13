@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "stack",
-    "description": "The `stack` object stores and manages sequences of messages, outputting them one by one upon receiving a `bang`. It supports both First-In, First-Out (FIFO) and Last-In, First-Out (LIFO) ordering, which can be configured as an argument. Users can add messages, clear the stack, or dump all contents, and its internal state can be viewed and edited via a dedicated window.",
+    "description": "The `stack` object stores and retrieves messages using either a First-In, First-Out (FIFO) or Last-In, First-Out (LIFO) order, functioning as a queue or a traditional stack data structure. It allows users to push messages onto the stack, retrieve them one by one with a `bang`, or dump all stored messages. The object also provides control over its internal `[text]` window and reports the number of stored elements.",
     "categories": [
-        "Data Structures",
-        "Text"
+        "Data Structures"
     ]
 }

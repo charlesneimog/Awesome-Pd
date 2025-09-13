@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "smooth~",
-    "description": "The `smooth~` object provides a signal smoothing function, transitioning input signals with linear or exponential interpolation over a specified time in milliseconds. This creates a portamento-like effect. It fully supports multichannel signals, allowing independent glide times per channel, and can be reset to the current input value.",
+    "description": "The `smooth~` object interpolates signal transitions over a specified time in milliseconds, effectively creating a portamento or glide effect. It supports linear or exponential curves and can process multichannel audio signals, applying individual glide times per channel when provided.",
     "categories": [
-        "Multichannel",
-        "General Utilities"
+        "Multichannel"
     ]
 }

@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "bangbang",
-    "description": "The `bangbang` object outputs a specified number of `bang` messages from its outlets in right-to-left order when it receives any input. It serves as a convenient utility for sequentially triggering events, similar to using multiple `trigger bang` objects. The number of `bang` outputs is determined by its creation argument.",
+    "description": "The `bangbang` object emits multiple bang messages from its outlets in right-to-left order whenever it receives any input. The number of bangs (and outlets) is configurable via an argument, with a default of 2 and a maximum of 40. It serves as a simple utility to trigger several events simultaneously from a single input.",
     "categories": [
         "General Utilities"
     ]

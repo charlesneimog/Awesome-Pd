@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "clip~",
-    "description": "The `clip~` object constrains an input audio signal to a specified minimum and maximum value. Any signal samples falling outside this defined range are clamped to the nearest boundary. It effectively limits the signal's amplitude.",
+    "description": "The `cyclone/clip~` object constrains an input audio signal to a specified minimum and maximum range. It ensures that the output signal's values do not exceed these bounds, effectively clipping any values outside the defined range. The object also intelligently handles cases where the maximum value is set lower than the minimum, swapping them to maintain correct functionality. However, the help patch suggests using the vanilla `clip~` object instead.",
     "categories": [
-        "Math"
+        "Math",
+        "Dynamics"
     ]
 }

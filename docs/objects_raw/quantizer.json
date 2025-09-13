@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "quantizer",
-    "description": "The `quantizer` object approximates input values to discrete step values defined by an argument. It supports four approximation modes: round (default), int, floor, and ceil, and can also process lists of floats.",
+    "description": "The `quantizer` object approximates input float values or lists of floats to discrete step values. It supports various approximation modes, including rounding, truncating, flooring, and ceiling, allowing precise control over how values are snapped to the nearest step. This object is useful for discretizing continuous data streams.",
     "categories": [
         "Math"
     ]

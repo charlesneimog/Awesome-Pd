@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "lag~",
-    "description": "The `lag~` object is a one-pole audio filter that applies an exponential glide or portamento to changes in its signal input. It smooths signal transitions, with a configurable lag time in milliseconds determining the convergence speed. Notably, its rising and descending ramps behave differently, and it supports multichannel audio processing.",
+    "description": "`lag~` is a one-pole filter that applies an exponential glide or portamento to an incoming signal. It smooths signal changes over a specified lag time in milliseconds, which can be controlled by a float or signal. This object is useful for creating smooth transitions and preventing abrupt changes in audio or control signals.",
     "categories": [
-        "Multichannel",
-        "Filters"
+        "Filters",
+        "Multichannel"
     ]
 }

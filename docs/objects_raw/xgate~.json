@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "xgate~",
-    "description": "The `xgate~` object routes an incoming audio signal to one of its multiple outlets, supporting up to 500 channels. It features equal power crossfading between selected outputs, with a configurable crossfade time in milliseconds. This object is useful for dynamically switching audio paths with smooth transitions.",
+    "description": "`xgate~` is a signal routing object that directs an input signal to one of multiple outputs. It supports multichannel signals and features equal power crossfading between selected outputs, with a configurable crossfade duration. The object also provides status reports from its right outlet, indicating when an output is deselected.",
     "categories": [
         "Routing",
         "Multichannel"

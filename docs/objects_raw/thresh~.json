@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "thresh~",
-    "description": "`thresh~` is a Schmitt trigger for audio signals. It outputs 1 when the input signal crosses a high threshold and remains 1 until the signal falls below a low threshold, then outputs 0. This object is useful for detecting specific signal levels and creating hysteresis.",
+    "description": "The `thresh~` object acts as a Schmitt trigger, detecting when an input signal crosses specified high and low thresholds. It outputs `1` when the signal reaches or exceeds the high threshold and switches to `0` when the signal falls to or below the low threshold, providing stable detection of signal levels.",
     "categories": [
         "Logic"
     ]

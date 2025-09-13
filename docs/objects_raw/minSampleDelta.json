@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "minSampleDelta",
-    "description": "The minSampleDelta object analyzes a specified window within a sample array to find the smallest absolute difference between consecutive samples. It outputs this minimum delta value and its corresponding index relative to the analysis window. This object is useful for offline signal analysis, particularly for identifying regions of minimal change in sampled data."
+    "description": "The minSampleDelta object analyzes a specified window within a sample array to find the smallest absolute difference between consecutive samples. It outputs this minimum delta value and its corresponding index relative to the analysis window. This object is useful for offline signal analysis, particularly for identifying regions of minimal change in sampled data.",
+    "similar": [
+        "minSample",
+        "maxSampleDelta",
+        "minSampleDelta~",
+        "maxSampleDelta~"
+    ]
 }

@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "buddy",
-    "description": "The `buddy` object synchronizes incoming messages from its inlets. It waits until all inlets have received a message, then outputs all stored messages in right-to-left order. This is useful for ensuring that a set of messages, potentially arriving asynchronously, are processed together in a specific sequence.",
+    "description": "The `buddy` object synchronizes incoming messages across its inlets, outputting them only when all inlets have received a message. It ensures that all inputs are present before emitting them in right-to-left order, then clears its state. This is useful for coordinating data flow when message arrival order is uncertain.",
     "categories": [
-        "Patching",
-        "General Utilities"
+        "Logic"
     ]
 }

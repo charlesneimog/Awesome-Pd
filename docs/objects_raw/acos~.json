@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "acos~",
-    "description": "The `acos~` object calculates the arc-cosine of an incoming signal. It expects input values between -1 and 1, producing an output between 0 and pi. Inputs outside this range result in zero output.",
+    "description": "The `acos~` object calculates the arc-cosine of an incoming signal, sample by sample. It expects input values within the range of -1 to 1, producing a signal output between 0 and pi. Inputs outside this valid range will result in a zero output.",
     "categories": [
         "Math"
     ]

@@ -31,5 +31,11 @@
     "description": "The `iSeg2D` object simulates the physical interaction of a mass with a 2D segment. It defines the segment using two points and allows for configurable parameters such as maximum interaction depth, constant normal and tangential forces, rigidity, damping, and displacement. This object is designed for detailed physical interaction simulations, building upon the functionality of `iLine2D`.",
     "categories": [
         "Physical Modeling"
+    ],
+    "similar": [
+        "iLine2D",
+        "iCylinder3D",
+        "iPlane3D",
+        "iCircle3D"
     ]
 }

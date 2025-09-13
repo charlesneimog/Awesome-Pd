@@ -24,5 +24,11 @@
     "categories": [
         "Procedural",
         "Data Structures"
+    ],
+    "similar": [
+        "repack",
+        "glue",
+        "unmerge",
+        "delace"
     ]
 }

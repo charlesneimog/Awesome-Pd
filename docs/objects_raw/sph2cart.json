@@ -23,5 +23,11 @@
     "description": "The `sph2cart` object converts spherical coordinates (radius, azimuth, elevation) to Cartesian coordinates (x, y, z). All input angles are expected to be in radians. It takes three float inputs for radius, phi, and theta, and outputs three floats for the corresponding x, y, and z coordinates.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "cart2sph",
+        "pol2sph",
+        "pol2cart",
+        "sph2pol"
     ]
 }

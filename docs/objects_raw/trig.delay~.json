@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "trig.delay~",
-    "description": "The `trig.delay~` object delays an impulse signal by a specified time. If new triggers arrive before the delayed output, it resets and reschedules the delay, similar to the `delay` object. This object also supports multichannel operation.",
+    "description": "The `trig.delay~` object delays an incoming impulse signal by a specified time in milliseconds. It functions similarly to the `delay` object, rescheduling the delay if new triggers arrive before the output. This object fully supports multichannel operation, allowing individual delay times per channel or a single delay time applied across all channels.",
     "categories": [
+        "Delay",
         "Multichannel"
     ]
 }

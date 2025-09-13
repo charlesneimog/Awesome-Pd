@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "rand.dist",
-    "description": "The `rand.dist` object generates random numbers based on a user-defined probability density function (PDF) provided by a Pure Data array. It can also output a quantile from the PDF when given a float input. Users can specify the output range and set a seed for reproducible random sequences.",
+    "description": "`rand.dist` generates random numbers that follow a specified probability density function, provided as a Pure Data array (table). It can also output quantiles from the array based on a float input. The object allows setting a seed for reproducible random sequences and customizing the output range.",
     "categories": [
-        "Stochastic",
-        "General Utilities"
+        "Stochastic"
     ]
 }

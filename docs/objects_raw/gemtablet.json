@@ -23,5 +23,11 @@
     "description": "The `gemtablet` object in Pure Data interfaces with and responds to events from a graphics tablet. It allows users to integrate input such as pen position and pressure into their Pure Data patches, primarily for interactive graphical applications within GEM.",
     "categories": [
         "Control I/O"
+    ],
+    "similar": [
+        "gemkeyname",
+        "keycode",
+        "lpt",
+        "gemkeyboard"
     ]
 }

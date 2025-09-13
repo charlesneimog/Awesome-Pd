@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "voices~",
-    "description": "The `voices~` object is a polyphonic voice allocator that generates multichannel signals for controlling pitch and gate. It takes MIDI note messages as input and outputs corresponding pitch values (in MIDI) and normalized gate values (0-1) for each active voice, enabling polyphonic synthesis.",
+    "description": "The `voices~` object is a polyphonic voice manager that generates multichannel signals for controlling pitch and gate. It takes MIDI note messages as input, along with parameters for setting the number of voices and release time. It outputs pitch values in MIDI and normalized gate values, enabling polyphonic control of sound synthesis.",
     "categories": [
         "MIDI",
         "Multichannel"

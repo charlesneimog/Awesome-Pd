@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "cosh",
-    "description": "The `cosh` object calculates the hyperbolic cosine of a given number. It takes a float as input, which is stored, and outputs the hyperbolic cosine of that value. Sending a bang message to the object will trigger a recalculation and output based on the currently stored input.",
+    "description": "The `cosh` object calculates the hyperbolic cosine of a given floating-point number. It takes a float as input, stores it, and outputs the hyperbolic cosine when triggered by a `bang` or a new float. This object is part of the Cyclone library, providing control data trigonometric functions.",
     "categories": [
         "Math"
     ]

@@ -20,8 +20,6 @@
     ],
     "ai": true,
     "title": "lastvalue~",
-    "description": "The `lastvalue~` Pure Data object reports the last received signal value whenever the input signal changes. It acts as a signal-to-control converter, outputting a float representing the signal's most recent stable value. This is useful for triggering events or capturing discrete values from a continuous signal.",
-    "categories": [
-        "General Utilities"
-    ]
+    "description": "The `lastvalue~` object outputs the previous value of its input signal whenever the signal changes. It is useful for detecting discrete changes in a continuous signal and holding the last stable value. The object can be initialized with a float argument or have its \"last value\" set via a float message.",
+    "categories": []
 }

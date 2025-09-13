@@ -23,5 +23,11 @@
     "description": "The `lister` object (alias `l`) stores and outputs lists, and can also append one list to another. It is similar to the `pack` object and supports mixed-type lists. Note that `lister` is deprecated, with the `list` object being the preferred alternative.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "l",
+        "pack2",
+        "pak",
+        "pack~"
     ]
 }

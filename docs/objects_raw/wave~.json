@@ -20,10 +20,9 @@
     ],
     "ai": true,
     "title": "wave~",
-    "description": "The `wave~` object reads audio data from a specified array (wavetable) using a phase signal (0-1) as an index. It offers seven different interpolation modes, including linear, cosine, cubic, and Hermite, allowing for precise control over playback quality. Additionally, `wave~` supports setting custom start and end points within the array and can handle multichannel audio up to 64 channels.",
+    "description": "The `wave~` object reads a wavetable (array) using a phase signal input (0-1), offering seven different interpolation modes including linear, cosine, cubic, spline, and Hermite. It supports multichannel audio playback (up to 64 channels) and allows setting start and end points within the array. For Hermite interpolation, it provides `interp_bias` and `interp_tension` parameters to fine-tune the curve shape.",
     "categories": [
-        "Data Structures",
-        "Multichannel",
-        "Math"
+        "Oscillators",
+        "Multichannel"
     ]
 }

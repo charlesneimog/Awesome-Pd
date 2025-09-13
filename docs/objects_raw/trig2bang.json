@@ -20,8 +20,8 @@
     ],
     "ai": true,
     "title": "trig2bang",
-    "description": "The `trig2bang` object detects zero-to-non-zero transitions in an incoming signal (typically a float). It converts these transitions into a `bang` message, effectively turning a gate-like signal into a trigger event. This is useful for initiating actions when a signal changes from off to on.",
+    "description": "The `trig2bang` object detects transitions from a zero to a non-zero float signal. Upon detecting such a transition, it outputs a bang message. This object is useful for triggering events or actions based on specific signal changes.",
     "categories": [
-        "General Utilities"
+        "Logic"
     ]
 }

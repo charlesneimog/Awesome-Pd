@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "specCentroid",
-    "description": "The `specCentroid` object calculates the spectral centroid of an audio array, providing a measure of the 'brightness' or 'timbral richness' of a sound. It analyzes a specified window of an array and supports various windowing functions and input types (magnitude or power spectrum). This object can integrate into analysis chains by accepting pre-computed FFT or magnitude spectrum data for efficient processing."
+    "description": "The `specCentroid` object calculates the spectral centroid of an audio array, providing a measure of the 'brightness' or 'timbral richness' of a sound. It analyzes a specified window of an array and supports various windowing functions and input types (magnitude or power spectrum). This object can integrate into analysis chains by accepting pre-computed FFT or magnitude spectrum data for efficient processing.",
+    "similar": [
+        "specSpread",
+        "specKurtosis",
+        "specIrregularity",
+        "cepstrum"
+    ]
 }

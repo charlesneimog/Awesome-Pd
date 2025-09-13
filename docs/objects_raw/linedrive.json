@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "linedrive",
-    "description": "The `linedrive` object scales numbers from an input range to an output range using an exponential curve. It is designed to work with objects like `line~` to create non-linear transitions, such as for gain changes. The exponential factor controls the steepness of the curve, with a value of 1 resulting in a linear scale.",
+    "description": "The `linedrive` object scales numbers from one range to another using an exponential curve, similar to `cyclone/scale`. It takes input and output ranges, an exponential factor (1 for linear, >1 for exponential), and a time value. It is designed to work with `line~` objects for smoothly changing parameters like gain with an exponential response.",
     "categories": [
-        "Math"
+        "Math",
+        "General Utilities"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `pix_invert` object inverts the colors of an input image, transforming black pixels to white and vice-versa. It operates on GEM image streams, allowing for dynamic control over the inversion process via its second inlet.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_mask",
+        "pix_equal",
+        "pix_multiply",
+        "pix_takealpha"
     ]
 }

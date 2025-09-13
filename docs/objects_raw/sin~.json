@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "sin~",
-    "description": "The `sin~` object computes the sine of its signal input, scaled by two pi, outputting the result as a signal. It is primarily used for generating sine waves or performing sine-based signal transformations. This object also supports multichannel audio signals.",
+    "description": "The `sin~` object generates a sine wave by calculating the sine of its signal input, scaled by two pi. Similar to `cos~`, it is primarily used for audio signal generation and supports multichannel signals.",
     "categories": [
         "Math",
         "Oscillators",

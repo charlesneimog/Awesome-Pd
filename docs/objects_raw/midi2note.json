@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "midi2note",
-    "description": "The `midi2note` object converts MIDI pitch values into musical note names, such as 'Eb3', including an octave number where middle C (MIDI pitch 60) is C4. It supports quarter tones and various output formats, including Unicode symbols for sharps and flats, and can be configured with custom scales.",
+    "description": "The `midi2note` object converts MIDI pitch values (0-127) into standard musical note names (e.g., `Eb3`), supporting quarter tones and a range from octave 0 to 8. It can output note names with octave numbers, optionally using Unicode symbols for sharps/flats or as a list, and allows for custom scale definitions.",
     "categories": [
         "MIDI",
+        "General Utilities",
         "Text"
     ]
 }

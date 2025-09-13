@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "ptouch.in",
-    "description": "`ptouch.in` extracts MIDI polyphonic aftertouch messages from raw MIDI input, such as from a connected MIDI device or an external MIDI data stream. It outputs the aftertouch value, the key, and the MIDI channel from which the message originated. The object can be configured to listen to a specific MIDI channel or operate in omni mode.",
+    "description": "The `ptouch.in` object extracts MIDI polyphonic aftertouch messages from raw MIDI input. It can filter by a specific MIDI channel or operate in omni mode, outputting the key and aftertouch value as a list, along with the MIDI channel.",
     "categories": [
-        "MIDI",
-        "Control I/O"
+        "MIDI"
     ]
 }

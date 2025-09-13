@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "svfilter~",
-    "description": "The `svfilter~` object implements Chamberlin's state-variable filter algorithm. It simultaneously outputs lowpass, highpass, bandpass, and bandstop filtered signals. Users can control the cutoff/center frequency and Q/resonance via inlets or arguments.",
+    "description": "The `svfilter~` object implements Chamberlin's state-variable filter, providing simultaneous lowpass, highpass, bandpass, and notch (bandstop) outputs. It takes an audio signal, a cutoff/center frequency, and a Q/resonance value as inputs, allowing for dynamic control over the filter characteristics. A `clear` message can be sent to reset the filter.",
     "categories": [
         "Filters"
     ]

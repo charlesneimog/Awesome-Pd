@@ -20,6 +20,8 @@
     ],
     "ai": true,
     "title": "sah~",
-    "description": "The `sah~` object samples and holds an input audio signal based on a trigger signal. When the trigger signal rises above a specified threshold, `sah~` captures the current value of the input signal and continuously outputs it. This held value persists until the trigger signal again crosses the threshold after having dropped below it, effectively synchronizing one signal to the behavior of another.",
-    "categories": []
+    "description": "The `sah~` object samples an input signal when a trigger signal crosses a specified threshold, then holds that sampled value until the trigger crosses the threshold again. It effectively synchronizes one signal's value to the events of another, acting as a sample-and-hold for audio signals. It is best used with impulse-like trigger signals rather than continuous ramps.",
+    "categories": [
+        "General Utilities"
+    ]
 }

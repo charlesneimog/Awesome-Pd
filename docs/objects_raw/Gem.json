@@ -23,5 +23,11 @@
     "description": "The `Gem` object serves as a meta-object for the Pure Data Graphics Environment for Multimedia (GEM). It manages common behaviors and debugging for other GEM objects, particularly for handling OpenGL errors and controlling per-object or global debugging modes. It also facilitates the passing of special `gem_state` messages within a graphics render chain.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "gemhead",
+        "pix_multitexture",
+        "pqtorusknots",
+        "part_draw"
     ]
 }

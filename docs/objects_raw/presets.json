@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "presets",
-    "description": "The `presets` object in Pure Data allows users to save and recall multiple configurations of patch parameters, including GUI elements, numbers, symbols, and arrays. It supports smooth transitions between saved states through morphing and interpolation, and can read from or write to external files.",
+    "description": "The `presets` object in Pure Data manages and stores the state of other objects, particularly those connected to `receive` or `receiver` objects. It allows users to save, load, clear, import, and export patch configurations to files. Additionally, it features morphing and interpolation capabilities for smooth transitions between saved preset values, and integrates with `savestate` for managing abstraction states.",
     "categories": [
         "Data Structures",
-        "File I/O"
+        "Patching",
+        "General Utilities"
     ]
 }

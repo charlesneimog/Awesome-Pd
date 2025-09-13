@@ -20,8 +20,8 @@
     ],
     "ai": true,
     "title": "canvas.bounds",
-    "description": "The `canvas.bounds` object outputs the pixel coordinates (top-left x, top-left y, bottom-right x, bottom-right y) of its Pure Data canvas. It updates dynamically when the patch window is moved or resized. An optional float argument can be used to query the bounds of parent canvases (e.g., `1` for the immediate parent).",
+    "description": "The `canvas.bounds` object outputs the bounding box coordinates of a Pure Data canvas. It can retrieve the bounds of the current canvas or a parent canvas by specifying a `depth` argument (defaulting to 0 for the current window). The object outputs these coordinates as a list.",
     "categories": [
-        "General Utilities"
+        "Patching"
     ]
 }

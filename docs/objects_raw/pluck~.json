@@ -20,10 +20,10 @@
     ],
     "ai": true,
     "title": "pluck~",
-    "description": "The `pluck~` object implements the Karplus-Strong algorithm for physical modeling synthesis, simulating plucked string sounds. It takes parameters for frequency, decay time, and a lowpass filter cutoff, and can be triggered by signal transitions or control rate lists. It supports both internal white noise excitation and external input via the `-in` flag.",
+    "description": "The `pluck~` object implements the Karplus-Strong algorithm for plucked string synthesis, featuring a 1st order lowpass filter in its feedback loop. It takes frequency (Hz or MIDI), decay time, and filter cutoff frequency as parameters, and can be triggered by signal transitions or control-rate lists. An optional input allows for external excitation signals instead of its internal noise generator.",
     "categories": [
         "MIDI",
-        "Filters",
-        "Physical Modeling"
+        "Delay",
+        "Filters"
     ]
 }

@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "touch.out",
-    "description": "The `touch.out` object formats and sends MIDI aftertouch messages. It outputs these messages to Pure Data's global MIDI output and its own outlet, with an optional argument to set the MIDI channel. It can be configured to output only to its outlet using the `-ext` flag or `ext` message.",
+    "description": "The `touch.out` object formats and sends MIDI channel aftertouch messages. It automatically outputs to Pure Data's configured MIDI output device, but can also be configured to send messages only to its outlet for further processing by other MIDI objects. The MIDI channel can be set via an argument or inlet.",
     "categories": [
-        "MIDI"
+        "MIDI",
+        "Control IO"
     ]
 }

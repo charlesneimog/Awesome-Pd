@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "merge~",
-    "description": "The `merge~` object combines multiple audio signals, potentially with varying channel lengths, into a single multichannel output. The number of input signals it accepts is configurable via an argument. This object is useful for consolidating disparate audio streams into a unified multichannel signal.",
+    "description": "The `merge~` object combines multiple audio signals of varying channel lengths into a single multichannel output signal. The number of input inlets can be configured via an argument, with a minimum of two. This object is useful for consolidating several audio streams into one for further processing.",
     "categories": [
-        "Routing",
-        "Multichannel"
+        "Multichannel",
+        "Routing"
     ]
 }

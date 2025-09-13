@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "allpass.rev~",
-    "description": "The `allpass.rev~` object functions as an allpass filter, a delay, and a reverberator. It allows setting a delay time and a reverberation/decay time (t60), which measures the time for an impulse to fall 60dB in energy. Alternatively, it can operate in a \"gain mode\" where the decay is controlled by a gain coefficient.",
+    "description": "The `allpass.rev~` object implements an all-pass filter, which passes all frequencies while altering their phase response. It functions as a reverberator and a delay, with configurable parameters for delay time and decay time (t60) or a gain coefficient.",
     "categories": [
         "Reverb",
         "Delay",

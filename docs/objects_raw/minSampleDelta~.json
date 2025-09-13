@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "minSampleDelta~",
-    "description": "The `minSampleDelta~` object calculates the minimum absolute difference between adjacent samples within a specified audio window. It outputs this minimum value and its index, useful for detecting quiet moments before or after sound events. The window size can be set as a creation argument or changed via a message."
+    "description": "The `minSampleDelta~` object calculates the minimum absolute difference between adjacent samples within a specified audio window. It outputs this minimum value and its index, useful for detecting quiet moments before or after sound events. The window size can be set as a creation argument or changed via a message.",
+    "similar": [
+        "maxSampleDelta~",
+        "minSampleDelta",
+        "maxSample~",
+        "minSample"
+    ]
 }

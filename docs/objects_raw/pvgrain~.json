@@ -33,5 +33,11 @@
         "Granular",
         "Stochastic",
         "Audio I/O"
+    ],
+    "similar": [
+        "grain.live~",
+        "grain.sampler~",
+        "grain.synth~",
+        "stretch.shift~"
     ]
 }

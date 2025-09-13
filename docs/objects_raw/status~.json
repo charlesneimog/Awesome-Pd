@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "status~",
-    "description": "The `status~` object is a signal-rate version of `status` that detects transitions in its input signal. It outputs an impulse from its left outlet when the signal transitions from zero to non-zero, and an impulse from its right outlet when the signal transitions from non-zero to zero. It can be initialized with an optional float value.",
+    "description": "The `status~` object detects transitions in an audio signal. It outputs an impulse when the input signal changes from zero to non-zero, or from non-zero to zero. This allows for event triggering based on signal activity.",
     "categories": [
         "Logic"
     ]

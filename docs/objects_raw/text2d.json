@@ -23,5 +23,11 @@
     "description": "The `text2d` object in Pure Data renders a line of text using TrueType fonts within a GEM environment. It allows customization of the displayed text, font, anti-aliasing, and horizontal/vertical justification. Unlike other GEM objects, `text2d` does not apply 3D transformations to the rendered text.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "textoutline",
+        "textextruded",
+        "text3d",
+        "curve"
     ]
 }

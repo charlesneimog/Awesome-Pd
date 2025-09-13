@@ -20,6 +20,8 @@
     ],
     "ai": true,
     "title": "detect~",
-    "description": "The `detect~` object measures the time between trigger events in an audio signal. A trigger is registered when the input signal transitions from non-positive to positive. It can output the detected period or frequency in samples, milliseconds, Hertz, or beats per minute (BPM) based on its creation argument.",
-    "categories": []
+    "description": "The `detect~` object measures the time or frequency between incoming trigger signals. It outputs the detected period or frequency as a signal. Users can specify the output unit as samples (`samps`), beats per minute (`bpm`), or milliseconds (`ms`).",
+    "categories": [
+        "Descriptors"
+    ]
 }

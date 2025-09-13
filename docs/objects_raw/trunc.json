@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "trunc",
-    "description": "The `trunc` object truncates floating-point numbers and lists of numbers towards zero, effectively extracting their integer part. It functions similarly to Pure Data's built-in `int` object but also supports processing lists of values.",
+    "description": "The `trunc` object truncates floating-point numbers and lists of numbers towards zero, effectively extracting only the integer part of each number. It functions similarly to Pure Data's built-in `int` object, providing a way to convert floats to integers by discarding the fractional component.",
     "categories": [
-        "Math"
+        "Math",
+        "General Utilities"
     ]
 }

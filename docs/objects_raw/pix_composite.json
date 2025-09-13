@@ -23,5 +23,11 @@
     "description": "The `pix_composite` object alpha-blends two input images (`gemlist`s) of the same size. It uses the alpha channel of the first image to determine the blending factor. The object outputs the resulting composite image as a `gemlist`.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_takealpha",
+        "alpha",
+        "pix_a_2grey",
+        "pix_alpha"
     ]
 }

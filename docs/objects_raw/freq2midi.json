@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "freq2midi",
-    "description": "The `freq2midi` object converts frequency values (Hz) to MIDI note numbers, similar to `ftom`. It supports converting lists of frequencies and allows users to specify a custom A4 reference frequency for exploring different tunings.",
+    "description": "The `freq2midi` object converts frequency values (in Hz) to MIDI note numbers, similar to the `ftom` object. It can process both single float values and lists of frequencies. Users can also set a custom A4 reference frequency, which defaults to 440 Hz.",
     "categories": [
         "Math",
         "MIDI"

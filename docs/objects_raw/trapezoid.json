@@ -23,5 +23,11 @@
     "description": "The `trapezoid` object in Pure Data renders a trapezoidal shape in a graphical environment, taking its position and color from the current rendering state. Its dimensions and the relative length of its top line can be dynamically adjusted via its inlets. It supports drawing as lines, filled, or as points.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "mesh_line",
+        "cuboid",
+        "square",
+        "cone"
     ]
 }

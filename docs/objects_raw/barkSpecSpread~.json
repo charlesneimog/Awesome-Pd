@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "barkSpecSpread~",
-    "description": "The barkSpecSpread~ object calculates the spread of an audio signal's Bark spectrum, indicating the concentration of energy around its centroid. It outputs this value in Barks, where a low spread signifies concentrated energy (like a sinusoid) and a high spread indicates dispersed energy (like noise). This descriptor is useful for analyzing timbre and can serve as a feature for real-time audio classification systems."
+    "description": "The barkSpecSpread~ object calculates the spread of an audio signal's Bark spectrum, indicating the concentration of energy around its centroid. It outputs this value in Barks, where a low spread signifies concentrated energy (like a sinusoid) and a high spread indicates dispersed energy (like noise). This descriptor is useful for analyzing timbre and can serve as a feature for real-time audio classification systems.",
+    "similar": [
+        "barkSpecSkewness~",
+        "barkSpecKurtosis~",
+        "specSpread~",
+        "barkSpecRolloff~"
+    ]
 }

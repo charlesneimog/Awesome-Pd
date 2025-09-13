@@ -20,10 +20,10 @@
     ],
     "ai": true,
     "title": "out~",
-    "description": "`out~` is a convenient Pure Data abstraction for managing audio output. It provides controls for muting, toggling the DSP engine on/off, setting a ramp time for smooth gain changes, and adjusting maximum gain with various scaling modes (quartic, dB, linear). It also sums multichannel audio inputs to a stereo output.",
+    "description": "The `out~` object is a convenient audio output abstraction for Pure Data, providing click-free control over DSP engine state, `dac~` output, and muting. It features a gain slider with selectable scaling modes (quartic, dB, linear) and adjustable ramp times, handling both mono/stereo and multichannel audio inputs by summing them to the stereo output.",
     "categories": [
-        "Audio I/O",
-        "Routing",
-        "Multichannel"
+        "Multichannel",
+        "Audio IO",
+        "GUI"
     ]
 }

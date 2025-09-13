@@ -20,10 +20,10 @@
     ],
     "ai": true,
     "title": "rec",
-    "description": "The `rec` object records incoming messages across multiple tracks and plays them back. It supports up to 64 tracks, with each inlet corresponding to a track for recording and each outlet for playback. It can record, play, mute, and save/load messages from text files, making it useful for message sequencing and automation.",
+    "description": "The `rec` object in Pure Data records and plays back any messages across multiple independent tracks (up to 64). It allows for controlling playback speed, muting, unmuting, and clearing individual or all tracks. Additionally, `rec` can save and load recorded message data to and from text files.",
     "categories": [
-        "Procedural",
-        "Sequencers",
-        "File I/O"
+        "File IO",
+        "Data Structures",
+        "Control IO"
     ]
 }

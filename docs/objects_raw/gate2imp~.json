@@ -20,6 +20,8 @@
     ],
     "ai": true,
     "title": "gate2imp~",
-    "description": "The `gate2imp~` object converts an audio gate signal into an impulse. It detects a transition from zero to a non-zero value in the input signal and outputs an impulse with the same value as the gate at that moment. This is useful for triggering events or processes based on the onset of an audio signal.",
-    "categories": []
+    "description": "The `gate2imp~` object converts a gate signal into an impulse. It outputs a short, sharp signal (an impulse) whenever the input gate signal changes from off to on, effectively triggering an event or action.",
+    "categories": [
+        "Logic"
+    ]
 }

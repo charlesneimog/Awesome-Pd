@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "specBrightness",
-    "description": "The specBrightness object from the timbreIDLib analyzes the spectral brightness of an audio sample. It calculates the ratio of high spectral content above a user-defined boundary frequency within a specified segment of an audio array. This object is designed for offline analysis and can efficiently process pre-computed FFT data."
+    "description": "The specBrightness object from the timbreIDLib analyzes the spectral brightness of an audio sample. It calculates the ratio of high spectral content above a user-defined boundary frequency within a specified segment of an audio array. This object is designed for offline analysis and can efficiently process pre-computed FFT data.",
+    "similar": [
+        "phaseSpec",
+        "specSkewness",
+        "specBrightness~",
+        "barkSpecSkewness"
+    ]
 }

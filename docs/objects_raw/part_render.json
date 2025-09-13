@@ -23,5 +23,11 @@
     "description": "The `part_render` object is used within the GEM environment to draw particle systems. It takes a particle system, previously defined by objects like `part_head`, `part_color`, and `part_size`, and renders individual particles as `gemLists` (e.g., `sphere`). This object is the final step in visualizing particle effects in Pure Data.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "part_draw",
+        "part_head",
+        "part_vertex",
+        "part_size"
     ]
 }

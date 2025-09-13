@@ -23,5 +23,11 @@
     "description": "The `pix_kaleidoscope` object applies a visual kaleidoscope effect to an input image, reflecting a selected portion multiple times around a central point. It allows precise control over the number of segments, rotation, and the source and output center positions, enabling the creation of intricate and dynamic visual patterns. This object is a core component for image manipulation within the GEM graphics environment.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_crop",
+        "pix_motionblur",
+        "imageVert",
+        "gemrepeat"
     ]
 }

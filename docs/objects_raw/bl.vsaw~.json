@@ -20,10 +20,10 @@
     ],
     "ai": true,
     "title": "bl.vsaw~",
-    "description": "`bl.vsaw~` is a bandlimited variable sawtooth waveform oscillator that can also generate triangular waveforms. It is anti-aliased for high-quality audio synthesis and supports frequency input in both Hertz and MIDI pitch. The object includes inlets for controlling waveform width, phase synchronization, and phase offset, and it supports multichannel operation.",
+    "description": "`bl.vsaw~` is a bandlimited, anti-aliased variable sawtooth waveform oscillator, capable of producing triangular waveforms based on its 'width' parameter. It supports frequency input in Hertz or MIDI pitch, and offers phase offset and hard/soft synchronization options. This object is designed for high-quality audio synthesis, including multichannel output.",
     "categories": [
         "Oscillators",
         "Subtractive",
-        "Audio I/O"
+        "Multichannel"
     ]
 }

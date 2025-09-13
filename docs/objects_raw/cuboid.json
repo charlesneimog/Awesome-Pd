@@ -23,5 +23,11 @@
     "description": "The `cuboid` object renders a 3D box within GEM (Graphics Environment for Multimedia) at the current position and with the current color. Its dimensions (length, height, depth) can be dynamically controlled via dedicated inlets, enabling flexible 3D shape generation.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "sphere",
+        "trapezoid",
+        "rectangle",
+        "translateXYZ"
     ]
 }

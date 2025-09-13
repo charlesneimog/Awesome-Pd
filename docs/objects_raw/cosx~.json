@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "cosx~",
-    "description": "The `cyclone/cosx~` object calculates the cosine of an incoming signal, expecting the input values to be in radians. It is designed for mathematical operations on audio signals, distinguishing it from the vanilla `cos~` object which is often used with `phasor~` for waveform generation.",
+    "description": "The `cosx~` object computes the cosine of an input signal, expecting values in radians. It is primarily intended for mathematical operations on signals rather than direct use with `phasor~` outputs (0-1 range), and it functions as a signal-rate cosine wavetable.",
     "categories": [
         "Math"
     ]

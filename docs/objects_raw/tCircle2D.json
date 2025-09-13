@@ -29,5 +29,11 @@
     "ai": true,
     "title": "tCircle2D",
     "description": "The `tCircle2D` object determines if a 2D \"mass\" is within a specified circular region. It takes messages to define the circle's center and its minimum/maximum radii. The object outputs a boolean (0 or 1) indicating the mass's containment, along with its distance and speed relative to the circle's center.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "tCircle3D",
+        "tCylinder3D",
+        "tSphere3D",
+        "iCircle3D"
+    ]
 }

@@ -23,5 +23,11 @@
     "description": "The `part_gravity` object sets a gravitational vector for a particle system. It influences the movement of particles, causing them to follow the specified gravity vector regardless of their initial emission direction. This object is used to simulate gravitational forces within particle-based visual effects.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "part_damp",
+        "part_follow",
+        "part_head",
+        "part_vertex"
     ]
 }

@@ -20,10 +20,9 @@
     ],
     "ai": true,
     "title": "note2midi",
-    "description": "The `note2midi` object converts musical note names (e.g., 'C4', 'E#+5', 'Db-4') into their corresponding MIDI pitch values. It supports enharmonic spellings, double sharps/flats (using 'x' and 'bb'), and quarter tones (using '+' and '-'). The object expects note names as symbols or lists, with 'C4' representing MIDI pitch 60, and handles an octave range from 0 to 8.",
+    "description": "The `note2midi` object converts musical note names (e.g., `C4`, `G#5`, `Abb3`) into their corresponding MIDI pitch values. It supports enharmonic spellings, quarter tones, and can process input as symbols or lists. This utility is crucial for translating human-readable musical notation into numerical data for MIDI control.",
     "categories": [
         "MIDI",
-        "General Utilities",
-        "Text"
+        "General Utilities"
     ]
 }

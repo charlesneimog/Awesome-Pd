@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "specRolloff",
-    "description": "The `specRolloff` object calculates the spectral rolloff of an audio signal, identifying the frequency below which a specified percentage of the total spectral energy lies. Designed for non-real-time analysis, it processes data from a sample array and can integrate into analysis chains by accepting pre-computed FFT or magnitude spectrum data."
+    "description": "The `specRolloff` object calculates the spectral rolloff of an audio signal, identifying the frequency below which a specified percentage of the total spectral energy lies. Designed for non-real-time analysis, it processes data from a sample array and can integrate into analysis chains by accepting pre-computed FFT or magnitude spectrum data.",
+    "similar": [
+        "specCentroid",
+        "specRolloff~",
+        "cepstrum",
+        "phaseSpec"
+    ]
 }

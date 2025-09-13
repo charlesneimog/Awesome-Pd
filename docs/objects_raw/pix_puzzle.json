@@ -23,5 +23,11 @@
     "description": "The `pix_puzzle` object shuffles an input image by cutting it into rectangular pieces and rearranging them. Users can control the number of pieces per row and column using the `size` message, and trigger a re-shuffle with a `bang`. It also includes a game mode where individual pieces can be moved.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_crop",
+        "pix_info",
+        "pix_refraction",
+        "pix_mix"
     ]
 }

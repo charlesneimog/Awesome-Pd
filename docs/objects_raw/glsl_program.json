@@ -23,5 +23,11 @@
     "description": "The `glsl_program` object compiles and links GLSL shader modules (from `glsl_fragment`, `glsl_vertex`, and `glsl_geometry`) into an OpenGL 2.0 shader program. It allows dynamic control over shader uniform variables via messages, enabling real-time manipulation of visual effects. This object is crucial for advanced graphics rendering within Pure Data's GEM environment.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "glsl_fragment",
+        "glsl",
+        "glsl_geometry",
+        "glsl_vertex"
     ]
 }

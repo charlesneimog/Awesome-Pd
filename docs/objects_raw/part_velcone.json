@@ -23,5 +23,11 @@
     "description": "The `part_velcone` object is a GEM object designed to set properties for a cone, likely within a particle system, by interacting with a `partList`. However, this object is explicitly marked as obsolete in the help patch.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "part_velsphere",
+        "cone",
+        "part_head",
+        "part_vertex"
     ]
 }

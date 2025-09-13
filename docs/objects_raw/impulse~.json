@@ -20,10 +20,10 @@
     ],
     "ai": true,
     "title": "impulse~",
-    "description": "The `impulse~` object is an impulse oscillator capable of generating signals with negative frequencies. It features inlets for phase synchronization and phase modulation, allowing for complex rhythmic and timbral control. This versatile object supports multichannel operation and can interpret frequency inputs in either Hertz or MIDI pitch.",
+    "description": "`impulse~` (or `imp~`) is an impulse oscillator that generates a signal when its phase cycles. It supports negative frequencies, phase synchronization via control or audio impulses, and phase modulation. This object can be used as a sound source or to periodically trigger other processes, with options for MIDI pitch input and multichannel operation.",
     "categories": [
         "Oscillators",
-        "Multichannel",
-        "MIDI"
+        "MIDI",
+        "Multichannel"
     ]
 }

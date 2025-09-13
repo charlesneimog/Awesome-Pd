@@ -20,8 +20,8 @@
     ],
     "ai": true,
     "title": "mousestate",
-    "description": "The `mousestate` object reports the current state of the mouse, including click status, cursor X and Y positions, and delta movement. It can operate in different coordinate modes (screen, patch, or front-most patch relative) and provides outputs for these values. While click status is continuously reported, position and delta data require polling via a `bang` or `poll` message.",
+    "description": "The `mousestate` object reports real-time mouse data, including click status, cursor position (x, y), and movement deltas. It offers three coordinate modes (screen, patch, or front-most patch relative) and can be polled manually or automatically for position updates. This object is useful for creating interactive patches that respond to mouse input.",
     "categories": [
-        "Control I/O"
+        "Control IO"
     ]
 }

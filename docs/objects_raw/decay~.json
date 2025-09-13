@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "decay~",
-    "description": "`decay~` is a one-pole filter that generates an exponential decay from input impulses. It is commonly used to shape audio signals, with the decay time (in milliseconds) determining how long it takes for the signal to drop by 60dB. It supports multichannel operation, applying the decay to each channel.",
+    "description": "The `decay~` object is a one-pole filter that generates an exponential decay from incoming impulses, similar to an envelope generator. The decay time, specified in milliseconds, controls how long the signal takes to drop by 60dB. It supports both control and signal rate inputs for triggering and setting decay time, and handles multichannel audio.",
     "categories": [
         "Envelopes",
         "Filters",

@@ -20,6 +20,9 @@
     ],
     "ai": true,
     "title": "fader~",
-    "description": "The `fader~` object is a waveshaper that applies various mathematical curves to input signals, typically ranging from 0 to 1. It provides seven distinct fading curves, including `quartic`, `sin`, `sqrt`, `hann`, `lin`, and hybrid `hannsin`/`linsin` functions, useful for creating smooth transitions and shaping audio or control signals. It also supports multichannel operation.",
-    "categories": []
+    "description": "The `fader~` object is a signal waveshaper designed for crossfading and amplitude modulation. It takes a signal input between 0 and 1 and applies one of seven predefined mathematical curves, such as `quartic`, `sin`, `sqrt`, `hann`, or linear, to shape its amplitude. This object is particularly useful for creating smooth transitions between audio signals and supports multichannel processing.",
+    "categories": [
+        "Math",
+        "Multichannel"
+    ]
 }

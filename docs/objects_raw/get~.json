@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "get~",
-    "description": "`get~` extracts one or more specific channels from a multichannel audio connection. Channels are indexed starting from 1, and you can provide a list of channel numbers to arbitrarily select or remap the output signal. This object is essential for managing and routing individual audio streams within a multichannel signal flow.",
+    "description": "The `get~` object extracts or reorders channels from a multichannel signal connection. It uses 1-based indexing for channels and can accept lists to arbitrarily remap the signal flow.",
     "categories": [
-        "Multichannel",
-        "Routing"
+        "Routing",
+        "Multichannel"
     ]
 }

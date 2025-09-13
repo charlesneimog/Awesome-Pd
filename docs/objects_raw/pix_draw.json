@@ -23,5 +23,11 @@
     "description": "The `pix_draw` object directly draws pixels onto the screen without applying any texture mapping. It is primarily used for blasting raw pixel data, meaning 3D transformations like Z-axis rotations or translations will not affect its output. Users should note that `pix_draw` is generally much slower than `pix_texture` on systems with graphics accelerators.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_coordinate",
+        "pix_texture",
+        "pix_multitexture",
+        "pix_clearblock"
     ]
 }

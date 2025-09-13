@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "slew2~",
-    "description": "The `slew2~` object provides independent slew limiting for upward and downward signal ramps. It smoothly transitions an incoming signal to a new target value at a specified amplitude per second, preventing abrupt changes. This is particularly useful for audio or control signals where sudden jumps can cause undesirable artifacts, and it supports multichannel operation.",
+    "description": "The `slew2~` object limits the rate of change of an incoming signal, similar to `slew~` but with independent speed controls for upward and downward ramps. It generates a line towards the target value, with speed defined as amplitude change per second. This is useful for smoothing control signals or preventing abrupt changes in audio, and it supports multichannel operation.",
     "categories": [
-        "Multichannel"
+        "Multichannel",
+        "General Utilities"
     ]
 }

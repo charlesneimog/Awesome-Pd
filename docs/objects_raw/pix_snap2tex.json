@@ -23,5 +23,11 @@
     "description": "The `pix_snap2tex` object captures a snapshot of the current GEM render buffer and applies it as a texture to attached geometric objects. It allows specifying a region of the buffer to capture using offset and dimension parameters, enabling close-ups or partial screenshots for dynamic texturing based on real-time rendering.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_buffer_read",
+        "pix_snap",
+        "pix_texture",
+        "pix_coordinate"
     ]
 }

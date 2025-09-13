@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "pimp",
-    "description": "The `pimp` object is a control-rate signal generator, analogous to `phasor~` but operating at a control rate with a maximum resolution of 1 ms. It generates a periodic signal based on an input frequency in Hertz and an initial phase offset. It also provides an inlet for phase synchronization and can output a bang at each period transition.",
+    "description": "The `pimp` object is a control-rate utility that generates bangs at specified intervals or outputs a phase value (0-127). It can be configured by frequency (Hz) or period (milliseconds), and its internal phase can be synchronized or offset. This object is useful for precise timing and generating periodic control signals.",
     "categories": [
         "Oscillators"
     ]

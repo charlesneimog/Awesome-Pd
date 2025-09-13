@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "bangdiv",
-    "description": "The `bangdiv` object acts as a bang divider, outputting a bang only after a specified number of input bangs have been received, while always passing the very first bang. It allows setting a division value and a starting count, and can be reset. A second outlet provides a bang when an input bang is discarded.",
+    "description": "The `bangdiv` object acts as a bang divider or counter. It outputs a bang for every N input bangs, where N is a configurable division value. It also provides a \"rest\" output, likely indicating when an input bang does not result in a divided output bang.",
     "categories": [
-        "Math",
         "General Utilities"
     ]
 }

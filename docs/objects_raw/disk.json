@@ -23,5 +23,11 @@
     "description": "The `disk` object renders a flat disk, optionally with a central hole, at the current GEM OpenGL position using the current color. Its appearance can be controlled via the `draw` message, and its outer and inner radii, as well as the number of segments, can be adjusted through its inlets. This object is primarily used for 2D graphical rendering within GEM.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "cone",
+        "circle",
+        "cuboid",
+        "trapezoid"
     ]
 }

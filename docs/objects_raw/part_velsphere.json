@@ -23,5 +23,11 @@
     "description": "The `part_velsphere` object is a GEM object designed to set a sphere with a specified radius for a particle list. This object is considered obsolete.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "part_velcone",
+        "part_render",
+        "part_head",
+        "part_vertex"
     ]
 }

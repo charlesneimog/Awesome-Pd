@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "pm6~",
-    "description": "The `pm6~` object is a 6-operator phase modulation (FM) synthesizer. Each of its sine wave oscillators can modulate itself and any other operator, allowing for complex sound generation. It supports detailed control over frequency, ratio, detuning, panning, and volume for each operator, as well as a comprehensive modulation matrix.",
+    "description": "`pm6~` is a 6-operator FM (frequency modulation, specifically phase modulation) synthesizer. Each operator is a sine wavetable oscillator that can modulate itself and others, allowing for complex sound generation. It provides extensive control over each operator's frequency ratio, detuning, panning, and volume, along with a comprehensive modulation matrix for inter-operator modulation.",
     "categories": [
         "Oscillators",
         "Multichannel"

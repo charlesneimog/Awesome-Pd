@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "highpass~",
-    "description": "The `highpass~` object is a 2nd order highpass resonant filter designed for audio signals. It allows frequencies above a specified cutoff to pass while attenuating lower frequencies. Its behavior is controlled by setting the center frequency and resonance (Q or bandwidth), and it includes options to bypass the filter or clear its internal memory.",
+    "description": "`highpass~` is a 2nd order highpass resonant filter designed for audio signals. It attenuates frequencies below a user-defined cutoff, with fixed zeroes at 0Hz and Nyquist, and its behavior is shaped by adjustable center frequency and resonance (Q or bandwidth) parameters. This object is based on standard biquad filter coefficient formulas.",
     "categories": [
         "Filters"
     ]

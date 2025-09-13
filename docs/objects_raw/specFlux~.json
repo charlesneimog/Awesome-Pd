@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "specFlux~",
-    "description": "The `specFlux~` object calculates the spectral flux of an audio signal, quantifying how quickly its spectrum changes over time. It offers options for measuring total flux, spectral growth, or decay, and outputs both a summed value and detailed bin-by-bin differences. This object is useful for analyzing transient events and can serve as an input for timbre identification."
+    "description": "The `specFlux~` object calculates the spectral flux of an audio signal, quantifying how quickly its spectrum changes over time. It offers options for measuring total flux, spectral growth, or decay, and outputs both a summed value and detailed bin-by-bin differences. This object is useful for analyzing transient events and can serve as an input for timbre identification.",
+    "similar": [
+        "specFlux",
+        "barkSpecFlux",
+        "barkSpecFlux~",
+        "bark"
+    ]
 }

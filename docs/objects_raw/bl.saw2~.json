@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "bl.saw2~",
-    "description": "The `bl.saw2~` object is a bandlimited, anti-aliased sawtooth oscillator designed for high-quality audio synthesis. It can receive frequency input in Hertz or MIDI pitch, and supports both hard and soft phase synchronization via impulse signals, allowing for complex timbral control and modulation.",
+    "description": "The `bl.saw2~` object is a bandlimited sawtooth oscillator, suitable for anti-aliased audio synthesis, which can also produce a triangular waveform. It accepts frequency input in Hertz or MIDI pitch and features both phase synchronization via impulse signals and phase modulation. Soft sync is also available for less harsh synchronization effects.",
     "categories": [
-        "Oscillators"
+        "Oscillators",
+        "Subtractive"
     ]
 }

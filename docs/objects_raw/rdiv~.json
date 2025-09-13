@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "rdiv~",
-    "description": "The `rdiv~` object, also known as `!/~`, performs division on audio signals. Unlike the standard `/~` object, `rdiv~` reverses the inlet functions, dividing a number (from the right inlet) by the incoming signal value on the left inlet. It is useful for specific signal processing scenarios where this reversed division order is required.",
+    "description": "The `rdiv~` object performs signal division, similar to `/~`, but with its inlets reversed. It divides a number (dividend) by the incoming signal or float (divisor) from its left inlet, outputting the result as a signal. The right inlet sets the dividend.",
     "categories": [
         "Math"
     ]

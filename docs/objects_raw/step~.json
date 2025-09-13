@@ -21,5 +21,11 @@
     "ai": true,
     "title": "step~",
     "description": "The `step~` object generates an audio signal that is either a unit step sequence or a rectangular window. It defines the delay and length of this signal in samples, outputting an audio signal.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "drunkard",
+        "greaterthaneq~",
+        "drunk",
+        "dirac~"
+    ]
 }

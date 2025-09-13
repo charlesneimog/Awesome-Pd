@@ -23,5 +23,11 @@
     "description": "The `pix_snap` object captures the current content of the GEM (Graphics Environment for Multimedia) rendering buffer, effectively taking a screenshot. It converts this captured image into a `pix` object, which can then be further manipulated or displayed within Pure Data. It can be triggered by a `bang` or `snap` message and allows specifying an offset and dimensions for the captured region.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_snap2tex",
+        "pix_buffer_read",
+        "pix_crop",
+        "pix_clearblock"
     ]
 }

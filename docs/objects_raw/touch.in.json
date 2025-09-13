@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "touch.in",
-    "description": "The `touch.in` object extracts MIDI Aftertouch (channel pressure) information from either a connected MIDI device or an external raw MIDI data stream. It outputs the Aftertouch value and the corresponding MIDI channel. It can be configured to listen to all MIDI channels (omni mode) or a specific channel, and supports multiple MIDI ports by encoding the port number within the channel number.",
+    "description": "The `touch.in` object extracts MIDI Aftertouch information from either a connected MIDI device or an external raw MIDI data stream. It can filter Aftertouch messages by MIDI channel, operating in an omni mode if no specific channel is set, and outputs the Aftertouch value and the corresponding MIDI channel.",
     "categories": [
         "MIDI",
-        "Control I/O"
+        "Control IO"
     ]
 }

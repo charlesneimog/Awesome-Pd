@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "op",
-    "description": "The `op` object in Pure Data performs a wide range of arithmetic, comparative, logical, and bitwise operations. It is particularly useful for processing lists, applying the chosen operation element-wise and handling mismatched list sizes by wrapping the shorter list. The desired operation can be specified as an argument or message, with `+` as the default.",
+    "description": "The `op` object in Pure Data provides a wide range of mathematical, comparative, bitwise, and logical operations. It can perform arithmetic calculations, compare values, manipulate bits, and apply logical conditions to incoming numbers or lists. This object is particularly useful for list processing, offering a consolidated way to apply various operations.",
     "categories": [
         "Logic",
         "Math"

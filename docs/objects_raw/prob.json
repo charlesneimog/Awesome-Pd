@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "prob",
-    "description": "The `prob` object generates a weighted series of random numbers, functioning as a 1st-order Markov chain. It defines transitions between states using lists of three numbers: `value1`, `value2`, and `weight`. A bang triggers the output of the next state based on the defined probabilities, and its probability matrix can be embedded within the patch for persistence.",
+    "description": "The `prob` object generates a weighted series of random numbers based on a first-order Markov chain. It accepts lists of three numbers to define transitions between states and their associated probabilities, and a `bang` to trigger a new state output. The object can also store its internal probability matrix within the patch using the `embed` message.",
     "categories": [
+        "Statistical Models",
         "Stochastic"
     ]
 }

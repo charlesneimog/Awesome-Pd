@@ -20,8 +20,10 @@
     ],
     "ai": true,
     "title": "pdlink~",
-    "description": "`pdlink~` enables sending and receiving audio streams between different Pure Data instances, including those on other platforms or forks, and `pd~` subprocesses. It functions like `send~` and `receive~` but operates over a network, simplifying inter-patch communication without requiring explicit network configuration. This object supports up to 16 audio sends to a single receiver.",
+    "description": "The `pdlink~` object facilitates sending and receiving audio streams between different Pure Data instances, including various versions, platforms, and forks like PlugData. It operates over a network, simplifying inter-instance audio communication without requiring complex network configuration. Similar to `send~` and `receive~`, it uses a symbol address for routing audio, and can also communicate with `pd~` subprocesses.",
     "categories": [
-        "Networking"
+        "Routing",
+        "Networking",
+        "Multichannel"
     ]
 }

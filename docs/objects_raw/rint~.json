@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "rint~",
-    "description": "The `rint~` object rounds an incoming signal (float) to the nearest integer value. It operates at signal rate, outputting the rounded integer as a signal. This object is useful for quantizing continuous signal values to discrete integer steps.",
+    "description": "The `rint~` object rounds an incoming signal to the nearest integer value. It takes a floating-point signal as input and outputs a signal with the rounded integer values, useful for quantizing signal values to discrete steps.",
     "categories": [
         "Math"
     ]

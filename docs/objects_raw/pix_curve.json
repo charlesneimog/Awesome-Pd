@@ -23,5 +23,11 @@
     "description": "The `pix_curve` object applies color curves to an image, modifying its RGBA channels. It uses lookup tables (arrays) to define these curves, which can be specified per channel or for all channels simultaneously. This GEM object is designed for graphical image processing.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_gain",
+        "pix_color",
+        "pix_takealpha",
+        "pix_mean_color"
     ]
 }

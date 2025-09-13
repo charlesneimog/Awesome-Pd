@@ -20,8 +20,8 @@
     ],
     "ai": true,
     "title": "metronome~",
-    "description": "The `metronome~` object generates audio metronome clicks, working in conjunction with the `metronome` control object. It outputs these clicks as an audio signal, with configurable frequencies for low, mid, and high pitches. Different modes allow for variations in click patterns, such as suppressing subdivision clicks.",
+    "description": "The `metronome~` object generates audible metronome clicks, working in conjunction with the `metronome` object for timing. It can be configured with different click frequencies (low, mid, high) and offers multiple modes for click patterns. It outputs an audio signal representing the metronome clicks.",
     "categories": [
-        "Audio I/O"
+        "Oscillators"
     ]
 }

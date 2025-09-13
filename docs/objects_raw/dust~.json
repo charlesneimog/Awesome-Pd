@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "dust~",
-    "description": "`dust~` generates random positive impulses at a specified density, based on SuperCollider's \"Dust\" UGEN. At high densities, it can produce white noise with a DC offset. This object supports multichannel output and allows for seeding its internal random number generator.",
+    "description": "The `dust~` object generates a signal of random positive impulses at random times, controlled by a `density` parameter. It functions as a pseudo-random number generator, allowing for reproducible sequences via a `seed` value. This object also supports multichannel operation, making it suitable for generating noise-like textures or sparse event streams.",
     "categories": [
         "Stochastic",
         "Multichannel"

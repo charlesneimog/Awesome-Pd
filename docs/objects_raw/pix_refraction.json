@@ -23,5 +23,11 @@
     "description": "The `pix_refraction` object processes an input image by dividing it into rectangular cells and scaling the image content within each cell. This creates a visual effect similar to viewing the image through a wall of glass bricks, where each brick acts as a magnifying or shrinking lens. It allows control over the scaling amount, cell dimensions, and whether expansion beyond the original size is prevented.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_crop",
+        "pix_mask",
+        "pix_takealpha",
+        "pix_sig2pix~"
     ]
 }

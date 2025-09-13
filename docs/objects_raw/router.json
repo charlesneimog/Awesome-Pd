@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "router",
-    "description": "The `router` object routes incoming messages from its left inlet to a specific outlet. The desired outlet is determined by a float received in the right inlet, with `-1` indicating no output. It supports a configurable number of outlets.",
+    "description": "The `router` object directs incoming messages from its left inlet to one of its multiple outlets. The specific outlet is determined by a float received in the right inlet. If the specified outlet number is out of range, the message is not output.",
     "categories": [
-        "Routing",
-        "General Utilities"
+        "Routing"
     ]
 }

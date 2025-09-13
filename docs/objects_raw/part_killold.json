@@ -23,5 +23,11 @@
     "description": "The `part_killold` object is a GEM particle system utility that removes particles older than a specified \"kill time.\" This allows for controlling the lifespan of particles, making them disappear after a set duration within a visual context.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "part_source",
+        "part_killslow",
+        "part_damp",
+        "part_color"
     ]
 }

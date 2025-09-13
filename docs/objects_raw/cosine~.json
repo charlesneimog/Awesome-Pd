@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "cosine~",
-    "description": "`cosine~` is a versatile cosine oscillator that generates audio signals. It supports negative frequencies, multichannel operation, and offers advanced phase control through dedicated inlets for phase synchronization and phase modulation. Users can specify frequency in Hertz or MIDI pitch, and choose between hard or soft synchronization modes.",
+    "description": "`cosine~` is a versatile cosine wave oscillator that generates audio signals. It supports phase synchronization and modulation, allowing for complex waveform manipulation and hard/soft sync techniques. The object also features multichannel capabilities and flexible frequency input modes (Hertz or MIDI pitch).",
     "categories": [
         "Oscillators",
         "Multichannel"

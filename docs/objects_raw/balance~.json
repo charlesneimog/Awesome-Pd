@@ -20,8 +20,8 @@
     ],
     "ai": true,
     "title": "balance~",
-    "description": "The `balance~` object performs equal-power (sin/cos) stereo balancing. It takes two signal inputs (left and right channels) and a balance value (from -1 for full left to 1 for full right) as a float or signal. The object outputs the balanced stereo signals and supports multichannel output with the `-mc` flag.",
+    "description": "The `balance~` object performs equal power (sin/cos) stereo balancing. It takes left and right audio signals and a control value (from -1 for full left to 1 for full right) to pan the stereo image. This object is useful for dynamically positioning a stereo sound source within a stereo field, and can output multichannel audio with a flag.",
     "categories": [
-        "Multichannel"
+        "Math"
     ]
 }

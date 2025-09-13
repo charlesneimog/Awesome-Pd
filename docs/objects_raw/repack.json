@@ -23,5 +23,11 @@
     "description": "The `repack` object in Pure Data is used to (re)pack various data types—floats, symbols, or pointers—into fixed-size packages. It can also unfold incoming packages back into individual atoms. The package size can be set upon creation using an argument or dynamically via its second inlet.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "pack",
+        "glue",
+        "pack2",
+        "join"
     ]
 }

@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "envelope~",
-    "description": "The `envelope~` object generates various single-cycle envelope waveforms (e.g., sine, Hanning, triangular, Gaussian, trapezoidal) based on a phase input. It is primarily used to shape audio signals or control parameters over time, offering customizable shapes and phase offset options.",
+    "description": "The `envelope~` object generates various envelope waveforms based on a phase input. It offers six different types, including `sin`, `hann`, `tri`, `vsaw`, `gauss`, and `trapezoid`, each with customizable parameters. This object is useful for shaping audio signals or control data with different amplitude contours.",
     "categories": [
-        "Envelopes"
+        "Envelopes",
+        "Math"
     ]
 }

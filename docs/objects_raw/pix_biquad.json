@@ -23,5 +23,11 @@
     "description": "The `pix_biquad` object applies a time-based Infinite Impulse Response (IIR) filter to images, functioning similarly to the audio `biquad~` object but for visual data. It processes incoming images (`x(n)`) to produce filtered output images (`y(n)`) based on a set of six filter coefficients (fb0, fb1, fb2, ff1, ff2, ff3). Users can also reset the filter's internal buffers with a `set` message.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_movement",
+        "pix_posterize",
+        "pix_2grey",
+        "pix_rds"
     ]
 }

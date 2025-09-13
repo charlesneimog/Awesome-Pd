@@ -20,6 +20,6 @@
     ],
     "ai": true,
     "title": "spike~",
-    "description": "The `spike~` object detects zero-to-non-zero transitions in an audio signal and reports the time interval (in milliseconds) since the last detected transition. It features a configurable refractory period, set via its second inlet, which prevents it from reporting new transitions too quickly after a previous one.",
+    "description": "The `spike~` object detects zero to non-zero transitions in an audio signal and outputs the time interval in milliseconds since the last detected event. It allows setting a refractory period to control the maximum rate at which these transitions are reported, preventing rapid re-triggering. This makes it useful for event detection and timing analysis in signal processing.",
     "categories": []
 }

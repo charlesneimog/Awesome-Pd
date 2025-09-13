@@ -31,5 +31,11 @@
     "description": "`pvwarpb~` is a spectral warper that applies an internal frequency warping function to audio signals. It allows users to update or flatten the warping function, and can also be modified interactively by drawing. This object is designed for creative manipulation of a sound's spectral content.",
     "categories": [
         "Partial Tracking"
+    ],
+    "similar": [
+        "resent~",
+        "morph~",
+        "reanimator~",
+        "pvoc.freeze~"
     ]
 }

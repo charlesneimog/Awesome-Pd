@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "dct~",
-    "description": "The `dct~` object computes the Discrete Cosine Transform (DCT) of an incoming audio window, outputting a list of real numbers representing its spectral characteristics. It is primarily used for audio feature extraction, particularly for timbre analysis and classification, and allows for configurable window size and function."
+    "description": "The `dct~` object computes the Discrete Cosine Transform (DCT) of an incoming audio window, outputting a list of real numbers representing its spectral characteristics. It is primarily used for audio feature extraction, particularly for timbre analysis and classification, and allows for configurable window size and function.",
+    "similar": [
+        "dct",
+        "mfcc~",
+        "peakSample~",
+        "melSpec~"
+    ]
 }

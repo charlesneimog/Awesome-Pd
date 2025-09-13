@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "trapezoid~",
-    "description": "The `trapezoid~` object generates a trapezoidal waveform, functioning as a wavetable oscillator when fed a phase signal (0-1) from `phasor~`. Its ramp up/down points and output range can be dynamically adjusted via inlets, messages (`lo`, `hi`), or attributes.",
+    "description": "`trapezoid~` generates a trapezoidal waveform. It functions as a wavetable oscillator when fed a phase signal (0-1) into its first inlet, typically from a `phasor~`. The shape of the trapezoid can be dynamically adjusted via its second and third inlets, which control the ramp up and ramp down points, respectively, while `lo` and `hi` messages set the output amplitude range.",
     "categories": [
         "Oscillators"
     ]

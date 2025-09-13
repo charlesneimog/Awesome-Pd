@@ -20,8 +20,8 @@
     ],
     "ai": true,
     "title": "merge",
-    "description": "The `merge` object takes any type of messages from its inlets and combines them into a single list message. Its primary purpose is to consolidate disparate messages into a unified list for further processing. A `bang` message is treated as an empty list.",
+    "description": "The `merge` object combines messages from multiple inlets into a single list message. It accepts any message type in its inlets, treating a bang input as an empty list. The output is a list containing the merged messages, or a bang if the resulting list is empty.",
     "categories": [
-        "Data Structures"
+        "General Utilities"
     ]
 }

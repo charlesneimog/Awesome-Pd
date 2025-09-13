@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "graph~",
-    "description": "`graph~` is a simple Pure Data abstraction designed for visualizing audio signals. It takes an audio signal as input and displays its waveform, allowing users to observe the signal's characteristics. Parameters such as buffer size, skip rate, display range, dimensions, and colors can be configured to customize the visualization.",
+    "description": "`graph~` is a simple abstraction designed for visualizing audio signals. It plots incoming audio, allowing control over buffer size, skip rate, display range, dimensions, and colors. It can operate in an external mode, where plotting is triggered by a bang.",
     "categories": [
         "GUI",
         "Graphics"

@@ -24,5 +24,11 @@
     "categories": [
         "Distortion",
         "Graphics"
+    ],
+    "similar": [
+        "ripple",
+        "mesh_square",
+        "part_follow",
+        "vertex_program"
     ]
 }

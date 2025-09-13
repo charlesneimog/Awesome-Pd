@@ -23,5 +23,11 @@
     "description": "The `alpha` object in Pure Data enables and controls alpha blending for graphical rendering within GEM. It allows users to toggle alpha blending on/off and select various OpenGL blending functions via its inlets. Proper rendering order is crucial, as `alpha` should typically be applied after non-alpha blended objects.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "color",
+        "colorRGB",
+        "pix_composite",
+        "pix_a_2grey"
     ]
 }

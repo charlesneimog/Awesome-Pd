@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "frac.add",
-    "description": "The `frac.add` object adds two fractional values together. It takes two fractions as input (e.g., `7/20` and `7/24`) and outputs their sum, also as a fraction. This object is useful for performing precise arithmetic with fractions in Pure Data.",
+    "description": "The `frac.add` object is used to add two fractional values. It takes two fractional inputs, one on the left and one on the right, and outputs their sum as a new fraction.",
     "categories": [
         "Math"
     ]

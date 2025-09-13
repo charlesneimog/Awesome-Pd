@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "mpe.in",
-    "description": "The `mpe.in` object processes MIDI Polyphonic Expression (MPE) data, converting raw MIDI input from either an internal device or an external source into structured MPE messages. It outputs common MPE data types such as note on/off, pressure, slide, and bend, each prepended with a voice number. Users can configure it to listen to a specific MIDI port or all available ports.",
+    "description": "The `mpe.in` object processes raw MIDI data, specifically designed for MPE (MIDI Polyphonic Expression) input. It outputs common MIDI messages like Note On/Off, Channel Pressure, Slide, and Pitch Bend, prepended with a voice number for routing. It can receive input from an internal MIDI device or an external raw MIDI source, with an option to listen exclusively to the external input.",
     "categories": [
         "MIDI",
-        "Control I/O"
+        "Control IO"
     ]
 }

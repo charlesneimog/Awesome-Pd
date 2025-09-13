@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "sh~",
-    "description": "The `sh~` object samples and holds an audio signal from its left inlet. It operates in either \"gate\" or \"trigger\" mode, controlled by a signal in its right inlet and a configurable threshold. This object is useful for creating sample-and-hold effects, downsampling audio, or implementing custom signal gating based on a control signal.",
+    "description": "The `sh~` object performs sample-and-hold on an audio signal, effectively downsampling it. It can operate in either \"gate\" mode, sampling based on a threshold, or \"trigger\" mode, sampling on an explicit trigger. The object also allows setting an initial held value and dynamically changing its mode.",
     "categories": [
+        "Math",
         "General Utilities"
     ]
 }

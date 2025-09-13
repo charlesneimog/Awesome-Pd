@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "maxSample",
-    "description": "The `maxSample` object analyzes a specified portion of a Pure Data array (typically containing audio samples) to find the maximum sample value and its corresponding index within that segment. It is useful for identifying peak amplitudes and their locations in pre-recorded or static audio data."
+    "description": "The `maxSample` object analyzes a specified portion of a Pure Data array (typically containing audio samples) to find the maximum sample value and its corresponding index within that segment. It is useful for identifying peak amplitudes and their locations in pre-recorded or static audio data.",
+    "similar": [
+        "peakSample",
+        "minSample",
+        "maxSampleDelta",
+        "minSampleDelta"
+    ]
 }

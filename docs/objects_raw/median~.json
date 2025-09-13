@@ -20,8 +20,8 @@
     ],
     "ai": true,
     "title": "median~",
-    "description": "The `median~` object calculates the median value of an incoming audio signal over a specified number of samples. It acts as a non-linear filter, useful for smoothing signals and removing impulse noise. The number of samples for the median calculation can be set via an argument or a float inlet.",
+    "description": "The `median~` object calculates the median value of an incoming audio signal over a user-specified number of samples. It outputs this median as a signal, effectively smoothing the input while preserving sharp transients. This makes it useful for noise reduction or signal processing where edge preservation is desired.",
     "categories": [
-        "Filters"
+        "Math"
     ]
 }

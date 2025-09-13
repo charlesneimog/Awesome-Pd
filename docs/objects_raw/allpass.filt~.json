@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "allpass.filt~",
-    "description": "The `allpass.filt~` object implements an allpass filter, allowing control over its order, central frequency, and resonance (Q). It functions as an abstraction, cascading multiple `allpass.2nd~` objects to achieve the desired filter order, primarily for phase manipulation without altering the frequency response.",
+    "description": "`allpass.filt~` is an allpass filter abstraction that allows setting its order (a multiple of 2) as an argument. It processes an input signal, applying filtering based on a central frequency and resonance (Q) that can be controlled via inlets. This object is built by cascading multiple `allpass.2nd~` objects.",
     "categories": [
         "Filters"
     ]

@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "ctl.in",
-    "description": "The `ctl.in` object extracts MIDI Control Change (CC) messages from either a connected MIDI device or an external raw MIDI data stream. It can filter messages by MIDI channel and/or control number, outputting the control value, control number, and MIDI channel. It supports an \"omni\" mode to receive all channels and an \"external input only\" mode.",
+    "description": "The `ctl.in` object extracts MIDI Control Change (CC) information from either an automatically connected MIDI device or an external raw MIDI data stream. It can filter incoming CC messages by MIDI channel and control number, allowing for specific control data to be isolated. The object supports omni mode for all channels and can be configured to listen exclusively to external MIDI input.",
     "categories": [
         "MIDI",
-        "Control I/O"
+        "Control IO"
     ]
 }

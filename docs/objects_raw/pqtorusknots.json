@@ -23,5 +23,11 @@
     "description": "The `pqtorusknots` object renders a customizable 3D torus knot within a GEM (Graphics Environment for Multimedia) context. Users can control its appearance by adjusting parameters such as the number of steps, facets, thickness, and winding, as well as applying texture scaling. It receives GEM list messages for drawing commands and outputs GEM lists.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "torus",
+        "sphere",
+        "cube",
+        "Gem"
     ]
 }

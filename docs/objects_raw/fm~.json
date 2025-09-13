@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "fm~",
-    "description": "The `fm~` object is a frequency modulation unit that generates audio by modulating the frequency of one sinusoidal oscillator with another. It takes inputs for carrier frequency, modulation index, and modulation frequency (as a ratio of the carrier). This object also supports multichannel audio processing.",
+    "description": "`fm~` is a frequency modulation unit that uses one sinusoidal oscillator to modulate the frequency of another. The modulation frequency is determined by a ratio of the carrier frequency, and its depth is controlled by a modulation index. This object supports multichannel audio processing.",
     "categories": [
         "Oscillators",
         "Multichannel"

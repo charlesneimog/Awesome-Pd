@@ -6,12 +6,12 @@
     ],
     "download_link": "",
     "available_on_deken": true,
-    "bug_reports": "https://git.iem.at/pd/zexy/issues",
+    "bug_reports": "https://github.com/porres/pd-else/issues",
     "developers": [
-        "Johannes M. Zmölnig"
+        "Alexandre Torres Porres"
     ],
     "part_of_library": true,
-    "library_name": "zexy",
+    "library_name": "else",
     "articles": [],
     "videos": [],
     "musics": [],
@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "deg2rad",
-    "description": "The `deg2rad` object converts a float value from degrees to radians. Part of the `zexy` external library, it provides a straightforward utility for mathematical operations involving angular units.",
+    "description": "The `deg2rad` object converts degree values (0 to 360) to their equivalent radian values. It takes a float as input, representing the degree value, and outputs a float representing the converted radian value. An optional `-pos` flag can be used to ensure the output is always positive.",
     "categories": [
-        "Math"
+        "Math",
+        "General Utilities"
     ]
 }

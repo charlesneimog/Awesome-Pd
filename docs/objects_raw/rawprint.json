@@ -23,5 +23,11 @@
     "description": "The `rawprint` object, part of the `zexy` external library, provides a raw message printing functionality. It operates similarly to the built-in `print` object but outputs messages directly without additional formatting or triggering, accepting any message type in its inlet.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "initmess",
+        "nop",
+        "any2symbol",
+        "symbol2any"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `gemkeyboard` object captures keyboard events occurring within a GEM window. It outputs a `KeyCode` for each `KEY_DOWN` event, representing the pressed key. Users should be aware that `KeyCode` values may vary across different operating systems (Windows, Linux, OSX).",
     "categories": [
         "Control I/O"
+    ],
+    "similar": [
+        "gemkeyname",
+        "keycode",
+        "keypress",
+        "gemtablet"
     ]
 }

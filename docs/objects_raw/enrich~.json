@@ -32,5 +32,11 @@
     "categories": [
         "Additive",
         "Oscillators"
+    ],
+    "similar": [
+        "blip~",
+        "oscbank~",
+        "pvtuner~",
+        "cycle~"
     ]
 }

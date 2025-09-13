@@ -23,5 +23,11 @@
     "description": "The `pix_freeframe` object loads and applies FreeFrame video effects in real-time. It acts as a wrapper for FreeFrame plugins, allowing users to dynamically load effects and control their parameters via inlets. This object is designed for processing video within the GEM environment.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_frei0r",
+        "pix_indycam",
+        "pix_rtx",
+        "pix_blur"
     ]
 }

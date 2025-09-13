@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "lfnoise",
-    "description": "`lfnoise` is a control-rate low-frequency noise generator that outputs random values between 0 and 127. It operates independently of the DSP engine and can be configured with a frequency and interpolation. Users can provide a seed for reproducible random sequences.",
+    "description": "The `lfnoise` object generates low-frequency pseudo-random noise at a control rate, with an output range from 0 to 127. It supports setting a seed for reproducible sequences and can optionally use linear interpolation for smoother transitions between random values. This object is useful for generating control signals for modulation or other parameters.",
     "categories": [
+        "LFOs",
         "Stochastic"
     ]
 }

@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "acosh~",
-    "description": "The `acosh~` object computes the hyperbolic arc-cosine of an incoming audio signal, sample by sample. It is primarily intended for mathematical calculations within audio processing. Note that input values less than 1 will result in an output of zero.",
+    "description": "The `acosh~` object calculates the hyperbolic arc-cosine of an incoming signal, sample by sample. Primarily intended for mathematical operations, it outputs zero for any input values less than 1.",
     "categories": [
         "Math"
     ]

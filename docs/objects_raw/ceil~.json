@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "ceil~",
-    "description": "The `ceil~` object is a signal-rate mathematical function that performs the ceiling operation on incoming audio signals. It rounds each sample of the input signal up to the nearest integer. This object supports multichannel connections, allowing it to process multiple audio streams simultaneously.",
+    "description": "The `ceil~` object performs a ceiling mathematical operation on incoming audio signals. It rounds each sample of the input signal up to the nearest integer. This object also supports multichannel connections, allowing it to process multiple audio streams simultaneously.",
     "categories": [
         "Math",
         "Multichannel"

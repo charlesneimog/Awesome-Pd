@@ -20,6 +20,6 @@
     ],
     "ai": true,
     "title": "pulsecount~",
-    "description": "The `pulsecount~` object counts rising edge triggers in an audio signal. It outputs the current count as a signal and can be reset to zero by a signal in its right inlet. An optional argument allows setting a maximum count value.",
+    "description": "`pulsecount~` is a signal object that counts positive-going transitions in its left inlet. An impulse in the right inlet or a `reset` message will reset the counter to zero. It can optionally be configured with a maximum count value via an argument or the `max` message.",
     "categories": []
 }

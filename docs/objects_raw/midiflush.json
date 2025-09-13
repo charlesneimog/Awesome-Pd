@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "midiflush",
-    "description": "The `midiflush` object acts as a \"panic button\" for MIDI notes. It tracks incoming MIDI Note-on messages and, upon receiving a bang, sends corresponding Note-off messages for any notes that haven't been turned off, preventing hanging notes. It can also clear its internal list of tracked notes.",
+    "description": "The `midiflush` object acts as a \"panic button\" for raw MIDI data streams, preventing hanging notes. It tracks incoming MIDI Note-on messages and, upon receiving a `bang`, sends corresponding Note-off messages for any notes that haven't been switched off. It also accepts `float` for raw MIDI data and a `clear` message to reset its internal state.",
     "categories": [
         "MIDI"
     ]

@@ -20,6 +20,8 @@
     ],
     "ai": true,
     "title": "zerox~",
-    "description": "The `zerox~` object functions as a zero-crossing detector and counter for audio signals. Its left outlet outputs the number of zero crossings per signal block, while the right outlet sends an impulse at each detected zero crossing. This object is useful for tasks such as frequency estimation and transient detection.",
-    "categories": []
+    "description": "The `zerox~` object detects and counts zero crossings in an audio signal. Its left outlet outputs the number of zero crossings per signal block, which can be used for transient detection or frequency estimation. The right outlet sends an impulse whenever a zero crossing is detected, with the impulse value configurable via the `set` message.",
+    "categories": [
+        "Descriptors"
+    ]
 }

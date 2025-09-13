@@ -31,5 +31,11 @@
     "description": "`pvcompand~` is a spectral compander that either expands or compresses the dynamic range of audio signals in the frequency domain. It operates on differences within the spectrum, allowing for dynamic processing based on a configurable threshold in decibels.",
     "categories": [
         "Dynamics"
+    ],
+    "similar": [
+        "expand~",
+        "noisegate~",
+        "norm~",
+        "duck~"
     ]
 }

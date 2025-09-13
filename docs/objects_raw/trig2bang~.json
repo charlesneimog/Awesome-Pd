@@ -20,6 +20,6 @@
     ],
     "ai": true,
     "title": "trig2bang~",
-    "description": "The `trig2bang~` object detects zero to non-zero transitions within an audio signal. Its primary function is to convert these signal-rate triggers, such as impulses or gate signals, into a control-rate bang message. This allows for event triggering or synchronization based on signal activity.",
+    "description": "The `trig2bang~` object detects zero to non-zero transitions in an incoming audio signal. When such a transition occurs, it outputs a `bang` message. This is useful for triggering events or control messages based on signal activity.",
     "categories": []
 }

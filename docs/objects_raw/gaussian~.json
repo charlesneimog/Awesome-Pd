@@ -20,10 +20,8 @@
     ],
     "ai": true,
     "title": "gaussian~",
-    "description": "The `gaussian~` object is a Gaussian oscillator that generates a bell-shaped waveform. It supports negative frequencies and features inlets for controlling width, phase synchronization, and phase modulation. Additionally, it offers multichannel audio support and can accept frequency input in either Hertz or MIDI pitch.",
+    "description": "`gaussian~` is a gaussian oscillator that generates a bell-shaped waveform, with a 'width' parameter controlling its shape. It supports phase synchronization, phase modulation, and can be reset by an impulse signal. The object also features multichannel audio support and accepts frequency input in either Hertz or MIDI pitch.",
     "categories": [
-        "MIDI",
-        "Oscillators",
-        "Multichannel"
+        "Oscillators"
     ]
 }

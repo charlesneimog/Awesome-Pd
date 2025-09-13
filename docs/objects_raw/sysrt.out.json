@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "sysrt.out",
-    "description": "The `sysrt.out` object formats and sends raw MIDI system real-time messages. It is used to output MIDI clock, start, continue, stop, sensing, tick, and reset messages. This object is essential for synchronizing external MIDI devices or software with Pure Data's internal clock.",
+    "description": "The `sysrt.out` object formats and sends raw MIDI system and real-time messages. It can output various MIDI messages such as clock, tick, start, continue, stop, and active sensing. This object is useful for precise control over MIDI system-level events.",
     "categories": [
         "MIDI"
     ]

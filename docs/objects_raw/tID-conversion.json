@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "tID-conversion",
-    "description": "This Pure Data object provides essential conversion utilities for audio frequency analysis. It allows conversion between linear frequencies (Hz), psychoacoustic Bark and Mel scales, and Fast Fourier Transform (FFT) bin numbers. These conversions are fundamental for working with spectral audio features and descriptors."
+    "description": "This Pure Data object provides essential conversion utilities for audio frequency analysis. It allows conversion between linear frequencies (Hz), psychoacoustic Bark and Mel scales, and Fast Fourier Transform (FFT) bin numbers. These conversions are fundamental for working with spectral audio features and descriptors.",
+    "similar": [
+        "tID_fft",
+        "tID_fft~",
+        "mfcc",
+        "barkSpecCentroid~"
+    ]
 }

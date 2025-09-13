@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "xbendout",
-    "description": "The `xbendout` object formats and sends 14-bit MIDI pitch bend messages. It takes a pitch bend value (0-16383) and an optional MIDI channel number, then outputs the formatted MIDI data. This object is considered redundant and deprecated, with `bendout` or `cyclone/midiformat` being preferred alternatives.",
+    "description": "The `xbendout` object formats and sends 14-bit MIDI pitch bend messages, ranging from 0 to 16383, to a specified MIDI channel. It also outputs a raw MIDI data stream. This object is considered redundant and deprecated; users should prefer `bendout`, `cyclone/midiformat`, or `else/bend.out` for similar functionality.",
     "categories": [
         "MIDI"
     ]

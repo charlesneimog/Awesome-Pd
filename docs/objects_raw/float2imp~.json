@@ -20,8 +20,6 @@
     ],
     "ai": true,
     "title": "float2imp~",
-    "description": "The `float2imp~` object converts floating-point numbers into sample-accurate audio impulses. It can generate an impulse immediately upon receiving a float, or output a stored impulse value when triggered by a bang. This object is useful for precisely timing events or triggering audio processes within an audio block.",
-    "categories": [
-        "Oscillators"
-    ]
+    "description": "`float2imp~` converts a float value into a sample-accurate audio impulse, leveraging `vline~` for precise timing within an audio block. The impulse's value can be set via arguments or inlets, and it can be triggered by a bang or a float input.",
+    "categories": []
 }

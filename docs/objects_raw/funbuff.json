@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "funbuff",
-    "description": "The `funbuff` object stores and manages ordered pairs of x/y integer values. It allows for various operations such as setting, clearing, dumping, and interpolating values. It can also read from and write to files, and supports clipboard operations for its stored data.",
+    "description": "The `funbuff` object stores and manages ordered pairs of x/y integers, functioning as a lookup table or a simple function buffer. It supports operations like setting, retrieving, deleting, and interpolating values, along with saving/loading its contents to/from files. Additionally, it provides clipboard functionalities for manipulating the stored data.",
     "categories": [
         "Data Structures",
-        "File I/O"
+        "File IO"
     ]
 }

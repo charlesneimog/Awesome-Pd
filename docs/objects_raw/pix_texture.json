@@ -23,5 +23,11 @@
     "description": "The `pix_texture` object applies texture mapping to GEM graphics. It uses current `pix` values as textures, allowing control over quality, repetition, and texture environment modes. It can also load image files (JPEG, TIFF, etc.) to be used as textures.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_coordinate",
+        "pix_multitexture",
+        "pix_clearblock",
+        "pix_draw"
     ]
 }

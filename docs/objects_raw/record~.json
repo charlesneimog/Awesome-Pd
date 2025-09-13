@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "record~",
-    "description": "The `record~` object captures audio signals and stores them into Pure Data arrays, supporting up to 64 channels. It offers control over recording behavior, including starting/stopping, looping sections, and appending new audio to existing recordings within the array. A sync signal is output to indicate recording progress.",
+    "description": "The `record~` object captures incoming audio signals and stores them into one or more Pure Data arrays. It supports up to 64 channels, offering control over recording start/stop, looping, and appending data within specified array segments. It also outputs a synchronization signal during active recording.",
     "categories": [
-        "Data Structures",
-        "Multichannel"
+        "Multichannel",
+        "Audio IO"
     ]
 }

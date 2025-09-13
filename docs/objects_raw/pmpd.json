@@ -32,5 +32,11 @@
     "categories": [
         "Physical Modeling",
         "Data Structures"
+    ],
+    "similar": [
+        "pmpd2d",
+        "pmpd2d~",
+        "pmpd3d",
+        "link3D"
     ]
 }

@@ -31,5 +31,11 @@
     "description": "The `tPlane3D` object simulates interactions involving a 3D plane. It defines a plane in 3D space using an orientation vector and a point, and can specify a maximum interaction depth. This object is designed to interact with `mass` objects, likely for collision detection or other physical simulations.",
     "categories": [
         "Physical Modeling"
+    ],
+    "similar": [
+        "iPlane3D",
+        "iSeg2D",
+        "iCircle3D",
+        "iLine2D"
     ]
 }

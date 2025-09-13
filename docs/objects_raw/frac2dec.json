@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "frac2dec",
-    "description": "The `frac2dec` object converts fractional values, including nested fractions and those with decimal numbers, into their decimal floating-point equivalents. It can process single values or lists of fractions, making it useful for working with musical ratios or other proportional data.",
+    "description": "The `frac2dec` object converts fractional representations (e.g., \"1/2\", \"3/4\") into their corresponding decimal floating-point numbers. It supports single fractions or lists, including those with non-integer components or nested fractional denominators/numerators, making it useful for ratio-based calculations.",
     "categories": [
         "Math"
     ]

@@ -23,5 +23,11 @@
     "description": "The `tube` object in Pure Data renders a 3D tube shape. It defines the tube using two circles, which can be independently translated and rotated to create various complex forms. This object is part of the GEM library for graphical rendering.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "sphere3d",
+        "trapezoid",
+        "cuboid",
+        "square"
     ]
 }

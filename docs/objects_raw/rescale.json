@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "rescale",
-    "description": "The `rescale` object maps input values from a specified input range to a new output range. It supports linear, exponential, logarithmic, and reverse-logarithmic scaling, allowing for flexible value transformations. Users can also control whether values outside the defined input range are clipped or scaled proportionally.",
+    "description": "The `rescale` object maps input values from one numerical range to another, allowing for linear, exponential, or logarithmic scaling. It supports configurable input and output ranges, and can optionally clip values to the defined output boundaries. This object is highly useful for adapting control signals, such as MIDI data, to different parameter ranges within a Pure Data patch.",
     "categories": [
-        "Math",
-        "General Utilities"
+        "Math"
     ]
 }

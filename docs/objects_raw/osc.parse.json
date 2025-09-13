@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "osc.parse",
-    "description": "The `osc.parse` object in Pure Data is used to parse incoming Open Sound Control (OSC) messages. It extracts the address pattern and arguments from an OSC message, providing output in a format more directly usable for OSC message handling compared to the vanilla `oscparse` object. This object is typically employed for low-level or specialized OSC data parsing, often as part of the `osc.receive` abstraction.",
+    "description": "The `osc.parse` object is used to parse and format Open Sound Control (OSC) messages. Similar to `oscparse`, it provides a more granular output of OSC messages, including parsed messages and timetag offsets, for lower-level handling. It is typically used within the `osc.receive` abstraction.",
     "categories": [
         "OSC"
     ]

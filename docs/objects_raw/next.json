@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "next",
-    "description": "The `next` object in Pure Data detects whether an incoming message is part of the same \"logical event\" as the previous one. It outputs a bang from its left outlet if the message is a new event (e.g., a single mouse click or a delayed message), and a bang from its right outlet if it's part of the same event (e.g., multiple bangs from an `uzi` object). This is useful for triggering actions once per distinct message dump or event stream.",
+    "description": "The `next` object in Pure Data determines if an incoming message belongs to the same \"logical event\" as the preceding message. It outputs a bang from its left outlet if the message is a new event (e.g., a single mouse click or a delayed bang), and from its right outlet if it's part of the same event stream (e.g., multiple bangs from `uzi`). This is useful for triggering actions once per distinct event or message dump.",
     "categories": [
-        "Routing",
-        "General Utilities"
+        "Logic"
     ]
 }

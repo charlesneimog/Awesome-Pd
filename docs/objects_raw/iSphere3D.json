@@ -29,5 +29,11 @@
     "ai": true,
     "title": "iSphere3D",
     "description": "The `iSphere3D` object simulates interactions between a \"mass\" and a 3D spherical boundary. It allows defining the sphere's position and radius, and applies various forces and displacements (e.g., constant, proportional to distance, damped) to the interacting mass based on its proximity to the sphere's surface. This object is designed for physical interaction simulations in a 3D space.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "iCircle2D",
+        "iPlane3D",
+        "iCylinder3D",
+        "mass3D"
+    ]
 }

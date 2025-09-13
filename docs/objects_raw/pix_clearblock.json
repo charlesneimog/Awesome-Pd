@@ -23,5 +23,11 @@
     "description": "The `pix_clearblock` object, part of the GEM (Graphics Environment for Multimedia) library, clears the visual content of an image while preserving its underlying texture information and setup. This allows for clearing an image without destroying its associated texture properties.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_texture",
+        "pix_coordinate",
+        "pix_multitexture",
+        "pix_mask"
     ]
 }

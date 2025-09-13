@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "bicoeff2",
-    "description": "The `bicoeff2` object generates coefficients for Pure Data's native `biquad~` object, allowing users to easily create various filter types such as lowpass, highpass, bandpass, and shelving filters. It takes parameters like frequency, Q/slope, and gain, simplifying the process of designing biquad filters without manual coefficient calculation. This object acts as a utility to configure `biquad~` for specific filtering needs.",
+    "description": "The `bicoeff2` object generates coefficients for Pure Data's vanilla `biquad~` object, which implements various audio filters. It takes parameters such as frequency, Q/slope, gain, and filter type (e.g., lowpass, highpass, bandpass, notch, allpass, lowshelf, highshelf) to calculate the necessary filter coefficients. This object simplifies the setup of biquad filters by providing a convenient way to control their characteristics.",
     "categories": [
-        "Filters",
-        "Math"
+        "Math",
+        "Filters"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `glsl_fragment` object loads and compiles GLSL fragment shaders, outputting a module ID for use with `glsl_program`. It is essential for applying custom visual effects and processing within the GEM graphics environment, requiring OpenGL 2.0 or higher support.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "glsl_program",
+        "glsl_vertex",
+        "glsl_geometry",
+        "glsl"
     ]
 }

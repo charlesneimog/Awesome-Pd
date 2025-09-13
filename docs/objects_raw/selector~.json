@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "selector~",
-    "description": "The `selector~` object acts as a signal-rate multiplexer, routing one of its 'n' signal inputs to a single output. It can be controlled with sample accuracy by providing a signal to its control inlet, which determines which input is active. If no input is selected, `selector~` outputs zero.",
+    "description": "`selector~` is an audio object that selects one of its multiple signal inputs to be passed to its output. The selection can be controlled by a signal, enabling sample-accurate switching between input channels. If no input is selected, it outputs silence.",
     "categories": [
         "Routing"
     ]

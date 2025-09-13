@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "hot",
-    "description": "The `hot` object in Pure Data acts as a message router and temporary storage. When any of its inlets receives a message, it outputs the current values from all its inlets, from right to left. It can also store values without immediate output using the `set` message, and then output all stored values upon receiving a `bang`.",
+    "description": "The `hot` object in Pure Data serves as a versatile message router and temporary storage unit. It passes incoming messages from any inlet directly to its corresponding outlet. Additionally, `hot` can store the last received values, allowing them to be outputted on demand via a `bang` message or updated without output using a `set` message.",
     "categories": [
-        "Routing"
+        "Routing",
+        "General Utilities"
     ]
 }

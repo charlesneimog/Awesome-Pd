@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "bark",
-    "description": "The bark object is a non-real-time audio onset detector that identifies musical attacks by analyzing spectral changes. It employs a spectral differencing growth algorithm, weighted by the perceptually-based Bark frequency scale, which can improve accuracy for signals with significant resonance. It outputs onset times, total energy growth, and growth per Bark band, facilitating detailed audio analysis and segmentation."
+    "description": "The bark object is a non-real-time audio onset detector that identifies musical attacks by analyzing spectral changes. It employs a spectral differencing growth algorithm, weighted by the perceptually-based Bark frequency scale, which can improve accuracy for signals with significant resonance. It outputs onset times, total energy growth, and growth per Bark band, facilitating detailed audio analysis and segmentation.",
+    "similar": [
+        "bark~",
+        "barkSpecCentroid~",
+        "barkSpecFlux",
+        "barkSpecIrregularity~"
+    ]
 }

@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "wavetable~",
-    "description": "`wavetable~` is an interpolating wavetable oscillator that reads audio data from a Pure Data array. It offers various interpolation methods, supports phase synchronization and modulation, and can scan through multiple waveform slices within a single array. The object also features multichannel capabilities and allows frequency input in either Hertz or MIDI pitch.",
+    "description": "The `wavetable~` object is an interpolating wavetable oscillator that reads waveforms from a specified array. It offers various interpolation methods, supports phase synchronization, phase modulation, and allows scanning through different slices of a wavetable. This object also features multichannel output and can interpret frequency input in MIDI pitch.",
     "categories": [
         "Oscillators",
         "Multichannel"

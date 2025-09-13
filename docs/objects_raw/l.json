@@ -23,5 +23,11 @@
     "description": "The `l` object (an alias for `list`) is used to store and manipulate lists in Pure Data. It can store a list, append to an existing list, and output the stored list, with the right inlet allowing list setting without immediate output. Note that `l` is deprecated and the `list` object should be used instead.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "lister",
+        "l2i",
+        "pak",
+        "merge"
     ]
 }

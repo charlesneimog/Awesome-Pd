@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "onepole~",
-    "description": "The `onepole~` object implements a simple, efficient one-pole IIR low-pass filter, providing 6dB per octave attenuation. It is used for gently smoothing audio signals or control data by rolling off high frequencies. The cutoff frequency can be controlled via a float or signal, with options for `hz`, `linear`, or `radians` input modes.",
+    "description": "`onepole~` is a highly efficient one-pole IIR low-pass filter that provides 6dB per octave attenuation. It is primarily used for gently rolling off high frequencies from audio signals or for smoothing control signals. The cutoff frequency can be set in Hertz, linearly (0-1), or in radians, offering flexible control over its behavior.",
     "categories": [
         "Filters"
     ]

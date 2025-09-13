@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "minimum",
-    "description": "The `minimum` object outputs the smallest value from its inputs. It can compare two or more numbers, either from individual float inputs or by finding the minimum within a list. When processing a list, it also outputs the index of the minimum value.",
+    "description": "The `minimum` object outputs the smallest value from its inputs. It can compare two floats (from the left inlet and an argument or right inlet) or find the minimum value within a list. When processing a list, the left outlet outputs the minimum value, and the right outlet outputs its index.",
     "categories": [
         "Math"
     ]

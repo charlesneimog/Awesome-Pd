@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "chorus~",
-    "description": "`chorus~` is a mono chorus effect that uses an internal comb filter to create a modulated delay. It allows control over the modulation rate, depth, and the dry/wet mix of the effect.",
+    "description": "The `chorus~` object is a simple mono audio effect that creates a chorus sound by combining the input signal with a slightly delayed and pitch-modulated version of itself. It utilizes an internal comb filter and offers controls for modulation rate, depth, and the dry/wet mix to adjust the effect's intensity.",
     "categories": [
         "Chorus/Flanger/Phaser"
     ]

@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "sequencer~",
-    "description": "The `sequencer~` object outputs values from a predefined sequence when triggered by a signal (0 to non-0 transition) or a bang. You can set the sequence using a list of floats and navigate to specific positions within it. It also outputs an impulse when the end of the sequence is reached.",
+    "description": "`sequencer~` outputs values from a predefined sequence of floats, triggered by a signal or a bang. It allows setting a new sequence dynamically and jumping to specific positions within the sequence. This object is useful for generating rhythmic or melodic patterns as audio signals.",
     "categories": [
-        "Procedural",
         "Sequencers"
     ]
 }

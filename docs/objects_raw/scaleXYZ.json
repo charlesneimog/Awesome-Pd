@@ -23,5 +23,11 @@
     "description": "The `scaleXYZ` object scales a GEM (Graphics Environment for Multimedia) object along its X, Y, and Z axes. It accepts a `gemlist` to modify the current transformation matrix, with individual scaling factors for each axis controllable via separate float inlets.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "translateXYZ",
+        "scale",
+        "gemlist_matrix",
+        "shearXY"
     ]
 }

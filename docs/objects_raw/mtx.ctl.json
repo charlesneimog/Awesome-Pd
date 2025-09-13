@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "mtx.ctl",
-    "description": "`mtx.ctl` provides a graphical user interface for controlling a matrix. Users can click on cells to toggle their on/off status. It outputs a list containing the column, row, and status (on/off) of the clicked cell, and can also be controlled via messages to set dimensions, cell size, and import/export matrix data.",
+    "description": "The `mtx.ctl` object provides a graphical user interface for a matrix grid where cells can be toggled on or off. It outputs a list containing the column, row, and status (on/off) of a clicked cell, making it ideal for controlling objects like `mtx~`. Users can dynamically set grid dimensions, cell size, and manage cell states via messages like `set`, `get`, `clear`, `export`, and `import`.",
     "categories": [
-        "GUI",
-        "Graphics"
+        "GUI"
     ]
 }

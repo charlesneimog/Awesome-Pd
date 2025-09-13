@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "hip.bw~",
-    "description": "`hip.bw~` is a highpass Butterworth filter designed for audio signals. It allows users to specify both the cutoff frequency and the filter's order (from 2nd to 100th order), providing flexible control over the highpass filtering characteristics.",
+    "description": "`hip.bw~` is a highpass Butterworth filter abstraction for Pure Data. It processes an incoming audio signal, allowing frequencies above a specified cutoff to pass through, while attenuating lower frequencies. The filter's characteristics can be adjusted by setting its cutoff frequency and order (from 2 to 100).",
     "categories": [
         "Filters"
     ]

@@ -20,8 +20,8 @@
     ],
     "ai": true,
     "title": "mouse",
-    "description": "The `mouse` object captures global mouse interaction within Pure Data. It outputs the click status (1 for on, 0 for off) and the X/Y coordinates of the mouse. It can be reset or zeroed, and works for any click Pd receives in any window.",
+    "description": "The `mouse` object captures real-time mouse interaction, outputting its click status (1 for pressed, 0 for released) and current X and Y coordinates. It can be reset to zero coordinates using the `zero` or `reset` messages. For coordinates relative to a specific patch window, consider using `canvas.bounds`.",
     "categories": [
-        "Control I/O"
+        "Control IO"
     ]
 }

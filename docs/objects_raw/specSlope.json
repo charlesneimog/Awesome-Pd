@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "specSlope",
-    "description": "The `specSlope` object calculates the spectral slope of an audio sample, quantifying the average decrease in amplitude across increasing frequencies. It operates on a specified audio array, typically after spectral analysis, and is useful for characterizing the brightness or darkness of a sound's timbre."
+    "description": "The `specSlope` object calculates the spectral slope of an audio sample, quantifying the average decrease in amplitude across increasing frequencies. It operates on a specified audio array, typically after spectral analysis, and is useful for characterizing the brightness or darkness of a sound's timbre.",
+    "similar": [
+        "specSlope~",
+        "specBrightness",
+        "specSpread~",
+        "specSkewness~"
+    ]
 }

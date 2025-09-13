@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "above",
-    "description": "The `above` object detects when an incoming float value crosses a specified threshold. It sends a bang from its left outlet when the float rises above the threshold, and a bang from its right outlet when the float falls back to or below the threshold. The threshold can be set via an argument or the second inlet.",
+    "description": "The `above` object monitors an incoming float value, sending a bang from its left outlet when the value rises above a specified threshold. It also sends a bang from another outlet when the value falls back to or below the threshold. The threshold can be set dynamically or initialized.",
     "categories": [
         "Logic"
     ]

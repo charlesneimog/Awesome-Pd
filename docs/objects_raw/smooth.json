@@ -20,8 +20,8 @@
     ],
     "ai": true,
     "title": "smooth",
-    "description": "The `smooth` object in Pure Data is designed to smoothly interpolate control signals over a specified time in milliseconds, preventing abrupt changes. It can apply either linear or exponential curves to these transitions, effectively creating a portamento or glide effect for control values. This is useful for making control changes sound less jarring, such as when changing the frequency of an `osc~` object.",
+    "description": "The `smooth~` object in Pure Data smooths control signal transitions over a specified time in milliseconds, using linear interpolation by default. It can also apply exponential curves, similar to the curve parameter in envelope generators like `asr~` and `adsr~`. This object is useful for creating glides or portamento effects on control signals.",
     "categories": [
-        "General Utilities"
+        "Envelopes"
     ]
 }

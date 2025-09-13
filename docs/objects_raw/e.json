@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "e",
-    "description": "The `e` object outputs the mathematical constant 'e' (Euler's number). It can take an optional multiplier argument or input, which scales the output value. The object outputs its calculated value upon patch loading and when it receives a `bang` message.",
+    "description": "The `e` object calculates and outputs the mathematical constant 'e' (Euler's number). It can be configured with a multiplier via its first inlet or as an argument, and outputs the result upon patch loading or when receiving a `bang` or float message. The calculated value can also be stored and retrieved using a specified variable name, making it accessible to other objects like `value` or `expr`.",
     "categories": [
         "Math"
     ]

@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "barkSpecSkewness",
-    "description": "The `barkSpecSkewness` object calculates the skewness of the Bark spectrum of an audio sample. It analyzes a specified portion of an audio array, providing a statistical measure of the asymmetry of its spectral energy distribution across Bark frequency bands. It can also process pre-computed spectral data to optimize analysis."
+    "description": "The `barkSpecSkewness` object calculates the skewness of the Bark spectrum of an audio sample. It analyzes a specified portion of an audio array, providing a statistical measure of the asymmetry of its spectral energy distribution across Bark frequency bands. It can also process pre-computed spectral data to optimize analysis.",
+    "similar": [
+        "barkSpecKurtosis",
+        "barkSpecRolloff",
+        "barkSpecFlatness",
+        "barkSpecSpread"
+    ]
 }

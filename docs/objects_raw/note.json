@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "note",
-    "description": "The `note` object is a GUI element in Pure Data designed to display text notes within a patch. It functions similarly to Pd's built-in comment box but offers enhanced customization options, including control over font, size, color, background, bold/italic/underline styles, justification, and width. Text content and display properties can be dynamically set via messages.",
+    "description": "The `note` object is a graphical user interface element in Pure Data designed for displaying text notes within a patch. It functions similarly to a standard comment box but offers extensive customization options for text formatting, including font, size, color, bold, italic, underline, justification, and background color. Its display properties can be dynamically controlled via incoming messages.",
     "categories": [
         "GUI",
         "Text"

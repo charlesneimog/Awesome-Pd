@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "makenote2",
-    "description": "The `makenote2` object converts a list of pitch, velocity, and duration into MIDI note-on and note-off messages. It supports symbolic pitches (e.g., 'C4') and allows additional data in the input list, which can be passed to the note-off message. Duration is specified in beats, with the BPM configurable via an argument or inlet, allowing for millisecond durations if BPM is set to 60.000.",
+    "description": "The `makenote2` object generates MIDI note-on and note-off messages from an input list containing pitch, velocity, and duration. It interprets duration in beats, with the BPM configurable via an argument or inlet, and can also handle symbolic pitches like 'C4'. Additional list elements can be used for MIDI channel or other parameters, and extra creation arguments are appended to the note-off message.",
     "categories": [
         "MIDI"
     ]

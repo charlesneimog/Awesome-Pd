@@ -20,10 +20,9 @@
     ],
     "ai": true,
     "title": "sfont.m~",
-    "description": "The `sfont.m~` object is a convenient wrapper around `sfont~` designed for soundfont-based synthesis. It allows users to load soundfont files (e.g., `.sf3`) and select different instrument programs from the loaded soundfont for playback.",
+    "description": "`sfont.m~` is a wrapper module for the `sfont~` object, designed for playing sound fonts. It allows users to select different programs via a popup menu and load sound font files (e.g., `.sf3`) using a bang button. The module comes with a default sound font, \"GeneralUser_GS.sf3\", as part of the ELSE library.",
     "categories": [
         "Samplers",
-        "MIDI",
-        "File I/O"
+        "GUI"
     ]
 }

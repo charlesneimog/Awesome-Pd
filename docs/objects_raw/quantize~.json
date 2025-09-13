@@ -23,5 +23,11 @@
     "description": "The `quantize~` object quantizes an incoming audio signal to a variable number of steps. It processes audio signals, allowing for control over the quantization level and providing an output signal. This object is useful for creating stepped or bit-crushed audio effects.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "round~",
+        "avg~",
+        "rint~",
+        "minmax~"
     ]
 }

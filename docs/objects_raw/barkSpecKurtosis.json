@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "barkSpecKurtosis",
-    "description": "The barkSpecKurtosis object calculates the kurtosis of the Bark spectrum, serving as an audio descriptor within the timbreIDLib. It analyzes audio signals or specified portions of sample arrays, providing a statistical measure of the \"peakedness\" of the Bark spectrum. The object supports various windowing functions and can efficiently process pre-computed spectral data."
+    "description": "The barkSpecKurtosis object calculates the kurtosis of the Bark spectrum, serving as an audio descriptor within the timbreIDLib. It analyzes audio signals or specified portions of sample arrays, providing a statistical measure of the \"peakedness\" of the Bark spectrum. The object supports various windowing functions and can efficiently process pre-computed spectral data.",
+    "similar": [
+        "barkSpecSkewness",
+        "barkSpecRolloff",
+        "barkSpecSpread",
+        "phaseSpec"
+    ]
 }

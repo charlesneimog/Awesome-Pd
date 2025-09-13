@@ -23,5 +23,11 @@
     "description": "The `pix_lumaoffset` object offsets pixels in the y-direction based on their luminance, creating a visual effect where brighter areas are shifted more. Users can control the offset amount and the spacing between the resulting lines. It also offers options to fill the gaps between lines and smooth the transitions.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_hit",
+        "pix_compare",
+        "pix_backlight",
+        "pix_offset"
     ]
 }

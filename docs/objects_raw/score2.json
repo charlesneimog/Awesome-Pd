@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "score2",
-    "description": "The `score2` object is a sequencer that plays back musical scores using a rhythmic notation syntax similar to `pattern`. It outputs event data, duration, bar numbers, and tempo information, and allows loading and saving scores from/to files. It also features an editable data window for score management.",
+    "description": "The `score2` object functions as a versatile musical sequencer, interpreting text-based scores with advanced rhythmic notation including fractions, tuplets, and rests. It outputs event data (e.g., MIDI pitch) and corresponding durations, while also managing tempo changes and time signatures. Users can load, save, and edit scores via its interface.",
     "categories": [
         "Sequencers",
-        "File I/O"
+        "Procedural",
+        "File IO"
     ]
 }

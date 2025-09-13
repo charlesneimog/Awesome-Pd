@@ -21,5 +21,11 @@
     "ai": true,
     "title": "dirac~",
     "description": "The `dirac~` object generates a single unit sample (a unit impulse) as an audio signal. It produces this impulse at a specific sample position, determined by a `float` or `bang` message received in its inlet. This object is useful for creating precise, single-sample events within an audio stream.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "float2imp~",
+        "click~",
+        "snapshot~",
+        "step~"
+    ]
 }

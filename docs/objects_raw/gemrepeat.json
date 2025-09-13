@@ -23,5 +23,11 @@
     "description": "The `gemrepeat` object is a GEM manipulation object designed to duplicate incoming `gemlist` messages. It generates multiple copies of a graphical object, with the number of repetitions specified as an argument or via its inlet. This object is primarily used for efficiently creating arrays or patterns of visual elements within the GEM environment.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "curve",
+        "pix_kaleidoscope",
+        "part_follow",
+        "square"
     ]
 }

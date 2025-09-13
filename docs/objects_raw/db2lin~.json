@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "db2lin~",
-    "description": "The `db2lin~` object converts decibel Full Scale (dBFS) amplitude values to linear amplitude values. It uses the formula `amp = pow(10, dBFS / 20)` and allows setting a minimum dB value that corresponds to zero linear amplitude. This object also supports multichannel audio signals.",
+    "description": "The `db2lin~` object converts decibel full scale (dBFS) amplitude values to linear amplitude values using the formula `amp = 10^(dBFS / 20)`. It supports multichannel signals and allows setting a minimum dBFS value that maps to zero linear amplitude.",
     "categories": [
         "Math",
         "Multichannel"

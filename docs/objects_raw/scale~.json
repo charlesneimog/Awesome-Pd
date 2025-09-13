@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "scale~",
-    "description": "`scale~` maps an input signal range to an output signal range, supporting both linear and exponential scaling. It does not clip values that fall outside the defined input range, continuing the scaling beyond the boundaries. The mapping can also be inverted by reversing one of the ranges.",
+    "description": "`scale~` maps an input signal range to an output signal range, allowing for linear, inverted, or exponential scaling. It does not clip values that fall outside the defined input range, continuing the scaling beyond those boundaries. While it offers a 'classic mode' for exponential scaling, the 'modern mode' is recommended due to known bugs in the classic implementation.",
     "categories": [
         "Math",
         "General Utilities"

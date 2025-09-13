@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "midiparse",
-    "description": "The `midiparse` object receives raw MIDI data, typically from `midiin`, and parses it into various MIDI messages. It outputs note messages (pitch/velocity), polyphonic aftertouch, control change (value/controller number), program change, channel aftertouch, and pitch bend messages, along with the MIDI channel. It also supports a `@hires` attribute for setting pitch bend precision.",
+    "description": "The `midiparse` object receives a raw MIDI data stream and parses it into various MIDI messages, such as note messages, control changes, program changes, and pitch bend. It is the counterpart to the `midiformat` object and can output pitch bend data with different resolutions (7-bit or 14-bit) via its `hires` attribute.",
     "categories": [
         "MIDI"
     ]

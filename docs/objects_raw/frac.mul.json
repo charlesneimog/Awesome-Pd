@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "frac.mul",
-    "description": "The `frac.mul` object in Pure Data performs multiplication of two fractional values. It takes two fractions as input and outputs their product, also as a fraction, enabling precise fractional arithmetic within a patch.",
+    "description": "The `frac.mul` object multiplies two fractional values. It takes two fractional inputs, one on the left and one on the right, and outputs their product as a fractional value.",
     "categories": [
         "Math"
     ]

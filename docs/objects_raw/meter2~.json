@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "meter2~",
-    "description": "The `meter2~` object functions as a stereo VU-meter, providing real-time RMS and peak amplitude measurements in dBFS for two incoming audio signals. It also passes the original audio signals through, allowing for simultaneous monitoring and signal flow.",
+    "description": "The `meter2~` object functions as a stereo VU-meter, taking left and right audio signals and outputting their RMS and peak amplitude values in dBFS as a list. It also passes the input signals through its outlets, making it suitable for insertion into an audio signal chain. It can handle multichannel signals and allows setting window and hop sizes for its internal `vu~` objects.",
     "categories": [
-        "Descriptors",
         "GUI"
     ]
 }

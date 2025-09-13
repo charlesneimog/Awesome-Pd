@@ -23,5 +23,11 @@
     "description": "The `polygon` object in Pure Data renders a polygon graphic within the GEM environment. It requires an initial argument specifying the number of control points, with subsequent inlets accepting XYZ coordinates for each point. The object also responds to messages for setting line width and various drawing modes such as `line`, `fill`, or `tri`.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "curve",
+        "mesh_line",
+        "trapezoid",
+        "surface3d"
     ]
 }

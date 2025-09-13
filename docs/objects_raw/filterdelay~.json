@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "filterdelay~",
-    "description": "The `filterdelay~` object is a high-level audio delay unit that incorporates a resonant lowpass filter, a soft clipper, and a DC filter within its feedback path. It allows for control over delay time, feedback amount, filter cutoff, resonance, and wet/dry mix. The object can also be frozen or cleared, making it suitable for creating complex, filtered echo and reverb-like effects.",
+    "description": "`filterdelay~` is a high-level audio delay unit that integrates a resonant lowpass filter, a soft clipper, and a DC filter within its feedback loop. It allows for dynamic control over delay time, feedback amount, filter cutoff, and resonance, offering a versatile tool for creating complex, modulated delay effects. The object also features a `freeze` parameter to stop input recording while allowing continued modulation of delay and filter parameters.",
     "categories": [
         "Delay",
         "Filters"

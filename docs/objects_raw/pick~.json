@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "pick~",
-    "description": "`pick~` selects a specific channel from a multichannel audio connection. The desired channel can be set via an argument or a float input, with indexing starting from 1 (0 or out-of-range values result in no output). Negative input values count channels from the last to the first.",
+    "description": "The `pick~` object selects a specific channel from a multichannel signal connection. The desired channel is specified by an argument or a float input, with indexing starting from 1 (0 or out-of-range values result in no output). Negative input values allow for indexing from the last channel.",
     "categories": [
         "Routing",
         "Multichannel"

@@ -23,5 +23,11 @@
     "description": "The `pix_dump` object processes an incoming GEM image and outputs its raw pixel data as a single, long list of color component values. For an RGBA image, this list will contain R, G, B, and A values for each pixel in sequence. It can be triggered by a `bang` message and offers a `bytemode` inlet to control normalization.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_set",
+        "pix_color",
+        "pix_data",
+        "pix_compare"
     ]
 }

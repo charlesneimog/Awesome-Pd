@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "henon~",
-    "description": "The `henon~` object is a chaotic signal generator that implements the Henon map difference equation. It produces a chaotic audio signal, with its output rate controllable by frequency in Hertz. Users can also adjust the 'a' and 'b' coefficients and initial values of the Henon map through its inlets.",
+    "description": "The `henon~` object generates a chaotic audio signal based on the Hénon map difference equation. It allows control over the output frequency and the `a` and `b` parameters of the Hénon map, as well as initial conditions for the chaotic sequence. This object is useful for creating complex, non-repeating audio textures.",
     "categories": [
-        "Math",
-        "Oscillators"
+        "Procedural",
+        "Math"
     ]
 }

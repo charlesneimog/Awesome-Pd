@@ -20,6 +20,8 @@
     ],
     "ai": true,
     "title": "canvas.vis",
-    "description": "The `canvas.vis` object reports the visibility status of a Pure Data window. It outputs `1` when the window is visible and `0` when it is not, reacting to changes automatically or when queried by a `bang`. It can also report the visibility of parent patches by providing a `depth` argument.",
-    "categories": ["Patching"]
+    "description": "The `canvas.vis` object reports the visibility status of a Pure Data canvas window. It outputs a float (1 for visible, 0 for invisible) and can query the current window or parent canvases using a depth argument. This is useful for controlling patch behavior based on window visibility.",
+    "categories": [
+        "General Utilities"
+    ]
 }

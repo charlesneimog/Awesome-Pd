@@ -20,6 +20,8 @@
     ],
     "ai": true,
     "title": "delete",
-    "description": "The `delete` object removes one or more elements from an input message (list). It takes an element index (1-based, with negative values wrapping) and a count of elements to delete. The object outputs the remaining elements from the list via its left outlet and the deleted elements (or a bang if out of range) via its right outlet.",
-    "categories": []
+    "description": "`delete` removes one or more elements from an input message (list). It uses an index (1-based, negative for wrapping) and a count to specify which elements to remove. The object outputs the remaining elements on its left outlet and the deleted elements (or a bang on failure) on its right outlet.",
+    "categories": [
+        "Data Structures"
+    ]
 }

@@ -23,5 +23,11 @@
     "description": "The `digidistort` object provides digital distortion effects for audio signals. It includes `quantize~` for quantizing a signal with a variable step number and `swap~` for byte-swapping a signal after converting it to 16-bit. These functionalities are designed to create distinct \"digital\" sounding distortions.",
     "categories": [
         "Distortion"
+    ],
+    "similar": [
+        "crusher~",
+        "drive~",
+        "overdrive~",
+        "rm~"
     ]
 }

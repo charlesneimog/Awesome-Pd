@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "knob",
-    "description": "The `knob` object is a graphical user interface (GUI) element in Pure Data that functions as a rotary control. It outputs float values, supports various input methods like mouse interaction and keyboard arrows, and offers extensive customization for its appearance and behavior, including exponential/logarithmic scaling, discrete steps, and MIDI learn functionality. It can also display its current value and send/receive data via symbols.",
+    "description": "The `knob` object is a highly customizable graphical user interface (GUI) element that functions as a rotary control. It outputs float values, supports exponential and logarithmic scaling, and offers extensive visual and behavioral customization, including discrete steps, angular range, and color settings. It integrates with MIDI, allows state saving, and responds to various input methods like mouse dragging and keyboard navigation.",
     "categories": [
-        "GUI",
-        "Control I/O"
+        "GUI"
     ]
 }

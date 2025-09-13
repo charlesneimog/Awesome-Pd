@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "spray",
-    "description": "The `spray` object distributes incoming list elements to its outlets. The first element of an incoming list determines the target outlet (starting from 0, with an optional offset), and the second element is sent to that outlet. Optionally, in 'list output mode', the entire incoming list can be sent to the specified outlet.",
+    "description": "The `spray` object distributes incoming values to its multiple outlets. It can route individual elements or entire lists to specific outlets, determined by an index within the input list and an optional offset. A special \"list output\" mode allows sending a complete list to a single designated outlet.",
     "categories": [
         "Routing"
     ]

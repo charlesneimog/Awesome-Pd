@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "factor",
-    "description": "The `factor` object is a mathematical utility that takes a floating-point number as input. It then calculates and outputs a list containing all of the input number's factors.",
+    "description": "The `factor` object takes a float as input and outputs a list of its prime factors. This mathematical utility is useful for breaking down numbers into their constituent prime components within Pure Data patches.",
     "categories": [
         "Math"
     ]

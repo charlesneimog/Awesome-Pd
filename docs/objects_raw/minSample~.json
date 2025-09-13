@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "minSample~",
-    "description": "The `minSample~` object reports the value and index of the smallest sample within a configurable N-sample window of incoming audio. It handles its own audio buffering, eliminating the need for an external `[block~]` object. The window size can be set at creation or dynamically changed via a \"window\" message, and it does not require a power-of-two size."
+    "description": "The `minSample~` object reports the value and index of the smallest sample within a configurable N-sample window of incoming audio. It handles its own audio buffering, eliminating the need for an external `[block~]` object. The window size can be set at creation or dynamically changed via a \"window\" message, and it does not require a power-of-two size.",
+    "similar": [
+        "maxSample~",
+        "minSample",
+        "sampleBuffer~",
+        "minSampleDelta~"
+    ]
 }

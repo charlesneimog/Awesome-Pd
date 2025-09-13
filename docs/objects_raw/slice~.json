@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "slice~",
-    "description": "The `slice~` object splits a multichannel signal into two outputs based on a specified split point. A positive split point `n` sends the first `n` channels to the left outlet and the rest to the right, while a negative `n` sends the last `n` channels to the right outlet. If the number of channels is less than the split point, the entire signal is routed to one outlet, with the other outputting zeros.",
+    "description": "The `slice~` object splits a multichannel audio signal into two separate signals based on a specified slice point `n`. A positive `n` sends the first `n` channels to the left outlet and the remaining channels to the right, while a negative `n` sends the last `n` channels to the right outlet and the rest to the left. This allows for flexible routing and manipulation of individual channels within a multichannel signal.",
     "categories": [
         "Routing",
         "Multichannel"

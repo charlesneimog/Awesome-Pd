@@ -23,5 +23,11 @@
     "description": "The `part_velocity` object in Pure Data, part of the GEM library, sets the initial velocity of newly emitted particles. It allows users to define a 3D domain (e.g., `point`, `line`, `sphere`, `box`) and associated arguments. Particles are then given a velocity directed towards a random point within this specified domain, with speed varying based on the distance to that point.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "part_source",
+        "part_damp",
+        "sphere3d",
+        "surface3d"
     ]
 }

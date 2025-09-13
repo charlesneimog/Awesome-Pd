@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "bl.imp2~",
-    "description": "`bl.imp2~` is a bandlimited, two-sided impulse oscillator that generates an audio signal. It accepts frequency input in Hertz or MIDI pitch, and supports multichannel operation. You can configure its behavior using creation arguments or messages like `midi` and `set`.",
+    "description": "`bl.imp2~` is a bandlimited, two-sided impulse oscillator designed for audio signal generation. It can receive frequency input in Hertz by default, with an option to interpret input as MIDI pitch using a message or creation argument. This object supports multichannel operation, allowing for the simultaneous generation of multiple impulse streams.",
     "categories": [
         "Oscillators",
         "Multichannel"

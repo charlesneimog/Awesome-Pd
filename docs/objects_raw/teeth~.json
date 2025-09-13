@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "teeth~",
-    "description": "The `teeth~` object implements a comb filter, processing an audio signal with independent feedforward and feedback delays. It uses gain coefficients for the direct input, delayed input, and delayed output to create resonant and metallic effects.",
+    "description": "The `teeth~` object functions as a comb filter, offering independent control over feedforward and feedback delay times, along with their corresponding gain coefficients. It processes an input signal by applying these delays and gains to produce a filtered output, utilizing linear interpolation for sub-sample delay times.",
     "categories": [
         "Delay",
         "Filters"

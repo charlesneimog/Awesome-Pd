@@ -23,5 +23,11 @@
     "description": "The `fragment_program` object loads and applies ARB or NV fragment shaders, which perform per-pixel operations within OpenGL. It requires a compatible OpenGL implementation and can dynamically load shader programs via its inlet. Users must manually configure shader parameter modifications using `GEMglProgramEnvParameter*` objects.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "vertex_program",
+        "glsl_fragment",
+        "glsl_program",
+        "glsl"
     ]
 }

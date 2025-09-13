@@ -29,5 +29,11 @@
     "ai": true,
     "title": "schmear~",
     "description": "`schmear~` performs spectral smearing by convolving the amplitude spectrum of an input signal with a user-supplied kernel. It can also shift spectral bin energy and add vibrato to the signal, offering various kernels for different processing effects.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "vibrato~",
+        "drown~",
+        "specFlux~",
+        "pix_convolve"
+    ]
 }

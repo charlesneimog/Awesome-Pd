@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "giga.rev~",
-    "description": "The `giga.rev~` object implements a Gigaverb-based reverberation algorithm, transforming a mono audio input into a stereo output. It offers extensive control over room characteristics, including size, decay time, high-frequency damping, input bandwidth, and the levels of dry, early, and late reflections, as well as stereo spread. This allows for simulating various acoustic spaces from small rooms to large canyons.",
+    "description": "`giga.rev~` is a stereo reverb unit based on the Gigaverb algorithm, designed to simulate various acoustic spaces. It takes a mono audio input and produces a stereo output, allowing control over parameters such as room size, decay time, high-frequency damping, and the levels of early and late reflections. The object also includes presets for different environments and a 'clear' message to reset its internal delay lines.",
     "categories": [
         "Reverb"
     ]

@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "lessthan~",
-    "description": "The `lessthan~` (or `<~`) object performs a \"less than\" comparison on incoming audio signals. It outputs a signal of 1 when the left input signal is less than the right input signal or argument, and a signal of 0 otherwise.",
+    "description": "The `lessthan~` (or `<~`) object performs a \"less than\" comparison for audio signals. It outputs a signal of 1 when its left input is strictly less than its right input or argument, and a 0 otherwise. This object is fundamental for creating binary control signals based on signal amplitude comparisons.",
     "categories": [
-        "Logic"
+        "Logic",
+        "Math"
     ]
 }

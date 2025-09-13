@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "fontsize",
-    "description": "The `fontsize` object reports the current font size of a Pure Data patch. It outputs the font size upon loading, when the font menu changes, or when triggered by a `bang` message. An optional float argument specifies the patch depth, allowing it to retrieve the font size of parent patches.",
+    "description": "The `fontsize` object reports the current font size of a Pure Data patch. It outputs the font size when it receives a `bang`. Optionally, a float argument can specify a \"depth\" level, allowing it to report the font size of parent patches, which is useful within abstractions.",
     "categories": [
         "General Utilities"
     ]

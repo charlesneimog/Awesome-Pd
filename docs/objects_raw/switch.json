@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "switch",
-    "description": "The `switch` object in Pure Data acts as a message router, allowing only one of its 'n' inlets to pass data through to its single outlet at a time. The leftmost inlet controls which of the other inlets is \"switched on\" by receiving a float value (0 closes all, positive integers select the corresponding inlet). It can handle any type of message.",
+    "description": "The `switch` object routes messages from one of its multiple data inlets to a single outlet. The active inlet is determined by a number sent to its control inlet, where 0 closes all inlets and positive integers select corresponding inlets. It functions as a conditional message pass-through for any message type.",
     "categories": [
+        "Logic",
         "Routing"
     ]
 }

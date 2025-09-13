@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "specFlatness~",
-    "description": "The `specFlatness~` object calculates the spectral flatness of an incoming audio signal, providing a measure of how noise-like a sound is. A value of 1 indicates perfect flatness (like white noise), while a sinusoid approaches zero. This descriptor is useful for timbre analysis and can be used as a feature for real-time audio classification."
+    "description": "The `specFlatness~` object calculates the spectral flatness of an incoming audio signal, providing a measure of how noise-like a sound is. A value of 1 indicates perfect flatness (like white noise), while a sinusoid approaches zero. This descriptor is useful for timbre analysis and can be used as a feature for real-time audio classification.",
+    "similar": [
+        "barkSpecFlatness~",
+        "barkSpecFlatness",
+        "specFlatness",
+        "barkSpecSpread~"
+    ]
 }

@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "specSkewness",
-    "description": "The `specSkewness` object from the `timbreIDLib` calculates the spectral skewness of an audio sample array. Designed for offline, non-real-time analysis, it can process raw audio data or accept pre-computed FFT data via `chain_` messages for efficient integration into larger analysis workflows. This object outputs a numerical value representing the asymmetry of the audio spectrum."
+    "description": "The `specSkewness` object from the `timbreIDLib` calculates the spectral skewness of an audio sample array. Designed for offline, non-real-time analysis, it can process raw audio data or accept pre-computed FFT data via `chain_` messages for efficient integration into larger analysis workflows. This object outputs a numerical value representing the asymmetry of the audio spectrum.",
+    "similar": [
+        "phaseSpec",
+        "specKurtosis",
+        "specBrightness",
+        "barkSpecSkewness"
+    ]
 }

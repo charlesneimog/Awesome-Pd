@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "gcd",
-    "description": "The `gcd` object calculates the greatest common divisor (GCD) of two or more numbers. It accepts individual float inputs in its inlets, which are truncated to integers for the calculation. Alternatively, a list of numbers can be provided to the left inlet to find the GCD of multiple values.",
+    "description": "The `gcd` object calculates the greatest common divisor (GCD) of two or more numbers. It accepts either two float inputs or a list of numbers, outputting the GCD as a float. The right inlet can be used to set a default value for the calculation.",
     "categories": [
         "Math"
     ]

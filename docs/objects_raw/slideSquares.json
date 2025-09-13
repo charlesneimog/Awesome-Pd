@@ -23,5 +23,11 @@
     "description": "The `slideSquares` object renders a series of sliding rectangles within a GEM patch. Its dimensions (width and height) can be dynamically controlled via its inlets, allowing for animated visual effects. It accepts `gemlist` input and can be instructed to draw as lines, fills, or points.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "rectangle",
+        "cuboid",
+        "trapezoid",
+        "sphere"
     ]
 }

@@ -20,10 +20,10 @@
     ],
     "ai": true,
     "title": "out8~",
-    "description": "The `out8~` object is an octaphonic (8-channel) audio output abstraction for Pure Data. It provides convenient controls for managing audio output, including muting, toggling the DSP engine, setting ramp times for smooth transitions, and adjusting gain with various scaling modes (quartic, dB, linear). It routes incoming signals to `dac~`.",
+    "description": "`out8~` is an octaphonic (8-channel) audio output abstraction for Pure Data, providing click-free control over the DSP engine, mute/unmute, and output gain. It features adjustable ramp times and three scaling modes (quartic, dB, linear) for its internal gain slider, allowing precise control over multi-channel audio output. Users must configure at least 8 audio output channels in their Pure Data preferences.",
     "categories": [
         "Multichannel",
-        "Audio I/O",
+        "Audio IO",
         "Routing"
     ]
 }

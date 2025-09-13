@@ -23,5 +23,11 @@
     "description": "The `demultiplex` object routes data from its left inlet to one of its outlets. The specific outlet is determined by a number received in the right inlet, with outlets indexed from 0 to (n-1). The number of available outlets is set by the arguments provided during the object's creation.",
     "categories": [
         "Routing"
+    ],
+    "similar": [
+        "demux",
+        "demultiplex~",
+        "demux~",
+        "router"
     ]
 }

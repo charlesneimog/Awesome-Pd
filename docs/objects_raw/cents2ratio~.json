@@ -20,10 +20,9 @@
     ],
     "ai": true,
     "title": "cents2ratio~",
-    "description": "The `cents2ratio~` object converts an audio signal representing an interval in cents into a decimal ratio signal. This is particularly useful for pitch modulation, allowing precise control over frequency relationships. It supports multichannel audio signals.",
+    "description": "The `cents2ratio~` object converts an audio signal representing an interval in cents into a decimal ratio. This is useful for pitch modulation, allowing for precise control over frequency relationships. It supports multichannel connections for complex signal processing.",
     "categories": [
         "Math",
-        "Multichannel",
-        "General Utilities"
+        "Multichannel"
     ]
 }

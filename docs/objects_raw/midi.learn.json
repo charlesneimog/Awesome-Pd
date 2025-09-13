@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "midi.learn",
-    "description": "The `midi.learn` object is a Pure Data abstraction designed to learn and store incoming MIDI data, such as control changes, program changes, notes, and bends. Activated by a bang or click, it facilitates the mapping of external MIDI controllers by saving the learned information directly within the owning patch.",
+    "description": "The `midi.learn` object dynamically learns and stores incoming MIDI messages, such as control changes, program changes, notes, and bends. It allows users to associate specific MIDI inputs with internal parameters, saving these mappings within the Pure Data patch. This enables flexible control setups where MIDI devices can be \"taught\" to control different aspects of a patch without manual configuration.",
     "categories": [
         "MIDI",
-        "Control I/O"
+        "Control IO"
     ]
 }

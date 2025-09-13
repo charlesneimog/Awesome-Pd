@@ -20,10 +20,10 @@
     ],
     "ai": true,
     "title": "seq",
-    "description": "The `seq` object in Pure Data is a MIDI sequencer that can play, record, load, and save MIDI streams to and from MIDI or text files. It supports various playback controls like tempo adjustment, external clock synchronization, event delays, and time scaling, making it suitable for managing and manipulating musical sequences. It also allows direct recording of raw MIDI data and provides an editable view of the sequence.",
+    "description": "The `seq` object plays and records raw MIDI data streams, functioning as a MIDI sequencer. It can read from and write to both MIDI files and custom text files, offering control over playback speed and synchronization via `start` and `tick` messages. Additionally, it provides an editable window for sequence manipulation when clicked.",
     "categories": [
         "Sequencers",
         "MIDI",
-        "File I/O"
+        "File IO"
     ]
 }

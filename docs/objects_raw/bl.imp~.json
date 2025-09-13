@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "bl.imp~",
-    "description": "`bl.imp~` is a bandlimited impulse oscillator that generates an impulse signal at a specified frequency. Its frequency input can be set in Hertz or MIDI pitch. The object supports multichannel operation, adapting to multichannel inputs or initialized with a list of frequencies.",
+    "description": "`bl.imp~` is a bandlimited impulse oscillator that generates audio signals. It can take frequency input in Hertz or MIDI pitch, and supports multichannel operation, allowing individual frequency control for each channel. This object is suitable for creating sharp, click-like sounds or as a building block for more complex synthesis.",
     "categories": [
         "Oscillators",
         "Multichannel"

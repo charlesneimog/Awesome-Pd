@@ -20,10 +20,10 @@
     ],
     "ai": true,
     "title": "coll",
-    "description": "The `coll` object in Pure Data is a versatile data collection and manipulation tool. It stores messages at integer or symbol addresses, allowing for flexible data organization and retrieval. `coll` supports various operations including reading/writing to files, sorting, searching, inserting, deleting, and navigating through stored data, making it suitable for managing dynamic datasets within a patch.",
+    "description": "The `coll` object stores and manages collections of messages at integer or symbol addresses. It provides extensive functionality for manipulating this data, including inserting, deleting, sorting, and swapping entries. `coll` can also read from and write to files, and multiple instances can share the same data collection, with threaded file operations to prevent audio dropouts.",
     "categories": [
         "Data Structures",
-        "File I/O",
+        "File IO",
         "MultiThreading"
     ]
 }

@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "uzi",
-    "description": "The `uzi` object generates a sequence of bangs and corresponding counter values, useful for iterating through a specified number of steps. It outputs a bang from its left outlet for each step, a float representing the current count from its right outlet, and a final bang from its middle outlet upon completion. Control messages like `pause`, `resume`, and `offset` allow for flexible loop management, making it ideal for tasks such as array indexing.",
+    "description": "The `uzi` object generates a specified number of bangs and a corresponding counter value for each bang, executing its loop as fast as possible. It provides outlets for each bang, the current counter value, and a final bang upon loop completion. `uzi` is useful for iterating through sequences, such as array indices, and can be paused, resumed, or reset via messages.",
     "categories": [
-        "Procedural",
+        "Patching",
         "General Utilities"
     ]
 }

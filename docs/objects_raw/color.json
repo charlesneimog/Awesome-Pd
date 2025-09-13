@@ -23,5 +23,11 @@
     "description": "The `color` object in Pure Data sets the color for all subsequent GEM (Graphics Environment for Multimedia) shape and vertex operations. It accepts a list of 3 (RGB) or 4 (RGBA) float values, defaulting to black and opaque. For alpha blending to be effective, an `alpha` object must also be used.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "colorRGB",
+        "diffuseRGB",
+        "diffuse",
+        "ambientRGB"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `pix_duotone` object processes a `pixImage` to reduce its colors to a duotone palette. It takes an input image, a threshold, and two color lists. Pixels above the threshold are set to the first color, while those below are set to the second, effectively creating a two-color image based on intensity.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_mean_color",
+        "pix_color",
+        "pix_convert",
+        "pix_grey"
     ]
 }

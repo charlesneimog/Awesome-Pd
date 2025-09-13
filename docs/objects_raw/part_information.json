@@ -23,5 +23,11 @@
     "description": "The `part_information` object provides detailed data for all particles within a particle system, typically set up using `part_head` and other `part_` objects. It outputs information for each particle per rendering cycle, without altering their positions, making it suitable for use alongside rendering objects like `part_draw` or `part_render`.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "part_info",
+        "part_render",
+        "part_draw",
+        "part_head"
     ]
 }

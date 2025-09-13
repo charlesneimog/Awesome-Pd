@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "lin2db~",
-    "description": "The `lin2db~` object converts linear amplitude values to decibels full scale (dBFS). It performs the calculation `dBFS = log10(amplitude) * 20`, making it useful for signal processing where decibel representation is preferred. This object also supports multichannel audio signals.",
+    "description": "The `lin2db~` object converts linear amplitude values to decibels full scale (dBFS) using the formula `dbFS = log10(amp) * 20`. This utility object is essential for audio analysis and processing where decibel representation is required, and it supports multichannel signals.",
     "categories": [
         "Math",
         "Multichannel"

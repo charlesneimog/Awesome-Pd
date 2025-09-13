@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "unite",
-    "description": "The `unite` object concatenates incoming messages and converts them into a single symbol message. By default, it uses a space as a separator between elements, but a custom separator can be specified via an argument or the second inlet. This allows for flexible formatting of combined data into a single string.",
+    "description": "The `unite` object concatenates incoming messages, including lists, into a single symbol message. It allows specifying a custom separator, with a space as the default. This object is primarily used for formatting and combining various data types into a unified text string.",
     "categories": [
         "Text",
         "General Utilities"

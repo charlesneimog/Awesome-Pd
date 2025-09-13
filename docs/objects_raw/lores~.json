@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "lores~",
-    "description": "`lores~` is an inexpensive resonant lowpass filter for audio signals. Its cutoff frequency and resonance can be controlled via inlets or arguments, making it suitable for dynamic effects like filter sweeps. Due to its recursive nature, a 'clear' message may be necessary to prevent instability.",
+    "description": "The `lores~` object implements an inexpensive resonant lowpass filter, designed to shape audio signals by attenuating frequencies above a specified cutoff. Its cutoff frequency and resonance can be controlled via inlets, allowing for dynamic filter sweeps. Users can send a 'clear' message to reset its internal state, which is helpful for managing its recursive filter behavior.",
     "categories": [
         "Filters"
     ]

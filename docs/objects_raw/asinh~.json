@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "asinh~",
-    "description": "The `asinh~` object calculates the hyperbolic arc-sine of each incoming audio sample. It is primarily intended for mathematical computations within the signal domain.",
+    "description": "The `asinh~` object computes the hyperbolic arc-sine of an incoming audio signal, sample by sample. It takes a signal as input and outputs a signal representing the hyperbolic arc-sine of that input. This object is primarily useful for mathematical calculations within a Pure Data patch.",
     "categories": [
         "Math"
     ]

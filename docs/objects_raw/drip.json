@@ -23,5 +23,11 @@
     "description": "The `drip` object unfolds a package (list) into a sequence of individual elements, outputting them one by one with a configurable delay in milliseconds. It functions like a medical drip, allowing control over the \"drop speed.\" Scheduling can be enabled or disabled, with `n=0` enabling scheduling and negative values disabling it.",
     "categories": [
         "Procedural"
+    ],
+    "similar": [
+        "speed",
+        "timed.gate~",
+        "l.attrfilter",
+        "l.readsvg"
     ]
 }

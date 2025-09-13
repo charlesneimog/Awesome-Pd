@@ -25,5 +25,11 @@
         "Routing",
         "Procedural",
         "General Utilities"
+    ],
+    "similar": [
+        "routetype",
+        "route2",
+        "router",
+        "message"
     ]
 }

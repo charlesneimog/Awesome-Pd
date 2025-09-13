@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "barkSpecIrregularity~",
-    "description": "The `barkSpecIrregularity~` object calculates the spectral irregularity of an audio signal's Bark spectrum. It quantifies how 'jagged' or 'smooth' the energy distribution is across Bark bands, using either the Jensen or Krimphoff algorithm. This descriptor is primarily used for real-time timbre analysis and classification."
+    "description": "The `barkSpecIrregularity~` object calculates the spectral irregularity of an audio signal's Bark spectrum. It quantifies how 'jagged' or 'smooth' the energy distribution is across Bark bands, using either the Jensen or Krimphoff algorithm. This descriptor is primarily used for real-time timbre analysis and classification.",
+    "similar": [
+        "specIrregularity~",
+        "barkSpecIrregularity",
+        "barkSpecCentroid~",
+        "barkSpecSkewness~"
+    ]
 }

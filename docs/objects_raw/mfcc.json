@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "mfcc",
-    "description": "The `mfcc` object calculates Mel-Frequency Cepstral Coefficients (MFCCs) from an audio sample array, providing a compact representation of the spectral envelope. It is designed for offline audio feature extraction, allowing users to configure parameters like windowing, normalization, and filterbank spacing. This object is typically used as part of an analysis chain to derive audio descriptors."
+    "description": "The `mfcc` object calculates Mel-Frequency Cepstral Coefficients (MFCCs) from an audio sample array, providing a compact representation of the spectral envelope. It is designed for offline audio feature extraction, allowing users to configure parameters like windowing, normalization, and filterbank spacing. This object is typically used as part of an analysis chain to derive audio descriptors.",
+    "similar": [
+        "bfcc",
+        "mfcc~",
+        "melSpec",
+        "barkSpecSlope"
+    ]
 }

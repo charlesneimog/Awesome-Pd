@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "lace~",
-    "description": "The `lace~` object interleaves two or more multichannel audio signals. It takes multiple multichannel signals as input and outputs a single multichannel signal where the channels from the inputs are interleaved. An optional `-z` flag can be used to pad shorter multichannel signals with zeros to match the channel count of the longest input.",
+    "description": "The `lace~` object interleaves two or more multichannel audio signals into a single multichannel output. It can take a float argument to specify the number of inlets, with a minimum of two. An optional `-z` flag can be used to pad shorter multichannel signals with zeros to match the channel count of the largest input, ensuring consistent output size.",
     "categories": [
-        "Multichannel"
+        "Multichannel",
+        "General Utilities"
     ]
 }

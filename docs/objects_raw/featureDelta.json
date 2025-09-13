@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "featureDelta",
-    "description": "The `featureDelta` object calculates the difference between corresponding attributes of two incoming feature lists, such as audio descriptors. It supports various difference modes (e.g., absolute, squared) and can filter for positive, negative, or all delta values. This is useful for analyzing changes in features over time, such as tracking the evolution of Bark Frequency Cepstral Coefficients."
+    "description": "The `featureDelta` object calculates the difference between corresponding attributes of two incoming feature lists, such as audio descriptors. It supports various difference modes (e.g., absolute, squared) and can filter for positive, negative, or all delta values. This is useful for analyzing changes in features over time, such as tracking the evolution of Bark Frequency Cepstral Coefficients.",
+    "similar": [
+        "maxSampleDelta",
+        "bfcc",
+        "maxSampleDelta~",
+        "minSampleDelta"
+    ]
 }

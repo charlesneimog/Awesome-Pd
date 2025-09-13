@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "poke~",
-    "description": "`poke~` writes audio signals into a Pure Data array at specified indices. It can also be used with control messages, similar to `peek~` but with reversed inlets for value and index. This object supports multichannel arrays, allowing signals to be written to different channels within the same array.",
+    "description": "`poke~` writes audio signals or control messages into a specified array at a given index, which can also be controlled by a signal. It supports multi-channel arrays (up to 64 channels), allowing the target channel to be selected via an argument or an inlet. This object is essential for dynamic manipulation of array data, such as recording signals or modifying waveforms in real-time.",
     "categories": [
-        "Data Structures"
+        "Data Structures",
+        "Multichannel"
     ]
 }

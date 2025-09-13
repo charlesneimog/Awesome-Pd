@@ -23,5 +23,11 @@
     "description": "The `nop` object in Pure Data acts as a \"no operation\" pass-through. It simply forwards any message received at its inlet directly to its outlet without alteration. This can be useful for creating visual spacing in a patch or for debugging message flow.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "nop~",
+        "default",
+        "symbol2any",
+        "any2symbol"
     ]
 }

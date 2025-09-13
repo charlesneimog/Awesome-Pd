@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "norm~",
-    "description": "`norm~` is an audio normalizer that adjusts the loudness of an incoming signal to a specified decibel full scale (dBFS) level. It uses a moving root mean square (RMS) analysis window to achieve consistent output volume, making it useful for dynamic range processing.",
+    "description": "`norm~` is an audio signal normalizer that adjusts the input signal's level to a specified decibel full scale (dBFS) value. It operates based on a moving RMS analysis, allowing users to define the analysis window size in samples. This object is useful for consistently setting the loudness of audio signals.",
     "categories": [
         "Dynamics"
     ]

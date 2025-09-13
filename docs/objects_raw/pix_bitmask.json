@@ -23,5 +23,11 @@
     "description": "The `pix_bitmask` object applies a bitmask to incoming image data (`gemlist`), allowing selective modification or filtering of pixels. It accepts either a single mask value for all channels or separate mask values for RGB/RGBA channels (0-255). Users should note that low mask values can reduce image luminance, potentially requiring adjustment with `pix_gain`.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_mask",
+        "pix_gain",
+        "pix_threshold",
+        "pix_alpha"
     ]
 }

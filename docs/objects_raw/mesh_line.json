@@ -23,5 +23,11 @@
     "description": "The `mesh_line` object renders a line mesh within the GEM environment, drawing it at the current position with the current color. Its size can be dynamically adjusted via a dedicated inlet, and it supports different drawing modes like `line`, `default`, or `point`. This object is particularly useful in conjunction with `vertex_shader` for advanced graphical manipulations.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "mesh_square",
+        "trapezoid",
+        "square",
+        "polygon"
     ]
 }

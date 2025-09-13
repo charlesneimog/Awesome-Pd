@@ -20,10 +20,9 @@
     ],
     "ai": true,
     "title": "bl.osc~",
-    "description": "`bl.osc~` is a bandlimited oscillator that generates various waveforms like saw, triangle, square, and impulse. It supports hard and soft synchronization, phase modulation, and can have its frequency input set in either Hertz or MIDI pitch. The number of partials can be adjusted, and it also supports multichannel audio.",
+    "description": "`bl.osc~` is a bandlimited oscillator based on `else/wavetable~`, offering various waveforms like `saw`, `saw2`, `tri`, `square`, and `imp`. It supports variable partials, hard and soft sync, phase modulation, and MIDI pitch input for flexible sound generation.",
     "categories": [
         "Oscillators",
-        "Subtractive",
-        "Multichannel"
+        "Subtractive"
     ]
 }

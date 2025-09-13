@@ -23,5 +23,11 @@
     "description": "The `pix_mean_color` object calculates the average color of an incoming image. It outputs the mean color as RGBA values, which can be used for further image processing or analysis within GEM. This object is useful for quickly getting a representative color from a visual input.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_color",
+        "pix_convert",
+        "yuv2rgb",
+        "pix_rgba"
     ]
 }

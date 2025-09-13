@@ -23,5 +23,11 @@
     "description": "The `part_orbitpoint` object is a GEM particle system object that causes particles to orbit a specified 3D position (x, y, z). It simulates a gravitational attraction, with the 'attraction' argument controlling the strength of this pull. This object is fundamental for creating dynamic particle behaviors within visual patches.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "part_vertex",
+        "part_head",
+        "part_size",
+        "part_gravity"
     ]
 }

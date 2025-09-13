@@ -23,5 +23,11 @@
     "description": "The `lifop` object manages multiple Last-In-First-Out (LIFO) stacks, each assigned a floating-point priority. It stores incoming lists and, when banged, outputs the most recently added list from the highest priority stack. This allows for prioritized retrieval of data.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "fifop",
+        "offer",
+        "var",
+        "l2i"
     ]
 }

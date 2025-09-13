@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "hann~",
-    "description": "The `hann~` object applies a Hann window to a signal input, with the window size matching the current block size. It is primarily intended for use in Fast Fourier Transform (FFT) analysis to prepare signals for spectral processing.",
+    "description": "The `hann~` object applies a Hann window to an incoming audio signal. This is typically used in spectral processing to taper the signal, reducing spectral leakage and improving frequency analysis.",
     "categories": [
-        "Math",
-        "Descriptors"
+        "Descriptors",
+        "Math"
     ]
 }

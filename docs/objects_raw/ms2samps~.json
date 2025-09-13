@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "ms2samps~",
-    "description": "The `ms2samps~` object converts time values from milliseconds to the corresponding number of audio samples, based on the current samplerate. It performs this conversion using the formula: `samples = milliseconds * samplerate / 1000`. This object also supports multichannel signals.",
+    "description": "The `ms2samps~` object converts time values from milliseconds to the corresponding number of audio samples. It performs this conversion using the formula `samples = milliseconds * samplerate / 1000`. This abstraction supports multichannel signals, making it suitable for various audio processing contexts.",
     "categories": [
         "Math",
-        "Multichannel"
+        "General Utilities"
     ]
 }

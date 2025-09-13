@@ -23,5 +23,11 @@
     "description": "The `ripple` object is a GEM geometric object that renders and distorts a square. When triggered, it creates a visual ripple effect by accelerating the square's vertices towards a specified center point, which then gradually return to their original positions. It takes arguments for the square's segments and inlets for size, amount of excursion, and the center position for the ripple.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "square",
+        "mesh_square",
+        "colorSquare",
+        "pix_kaleidoscope"
     ]
 }

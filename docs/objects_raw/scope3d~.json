@@ -20,10 +20,10 @@
     ],
     "ai": true,
     "title": "scope3d~",
-    "description": "The `scope3d~` object is an experimental 3D oscilloscope display for Pure Data. It visualizes audio signals in three dimensions (X, Y, Z axes) and offers various parameters for controlling its appearance, such as dimensions, zoom, perspective, line width, and refresh rate. Users can interact with the display via mouse dragging for rotation, and it supports multichannel signals where each channel corresponds to a dimension.",
+    "description": "The `scope3d~` object visualizes audio signals in a three-dimensional space, allowing users to observe the interplay of up to three input signals (X, Y, Z axes). It supports interactive rotation via mouse drag and offers customizable display settings such as buffer size, refresh rate, colors, and perspective. This experimental Lua-coded object is ideal for advanced signal analysis and visual feedback.",
     "categories": [
-        "Multichannel",
-        "GUI",
-        "Graphics"
+        "Graphics",
+        "Extensions",
+        "Multichannel"
     ]
 }

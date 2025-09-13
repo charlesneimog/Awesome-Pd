@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "funnel",
-    "description": "The `funnel` object receives data from multiple inlets and outputs it through a single outlet, tagging the incoming data with its inlet number. This allows for easy routing and identification of data origin using objects like `route` or `cyclone/spray`. Additionally, `funnel` can be used to store values into a table or collection.",
+    "description": "The `funnel` object collects data from multiple inlets and outputs it through a single outlet, prepending an inlet number to each message. This allows for routing messages based on their origin using objects like `route` or `cyclone/spray`. It can also be configured with an offset for inlet numbering and used to store values in data structures.",
     "categories": [
-        "Routing",
-        "Patching"
+        "Routing"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `spline_path` object reads interpolated values from a multi-dimensional table, treating it as a spline. It allows specifying a normalized reading point (0.0 to 1.0) to retrieve data, and the table itself can be loaded via an \"open\" message. This object is part of the GEM library, indicating its use in graphics for defining and traversing paths or curves.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "linear_path",
+        "pix_curve",
+        "pix_data",
+        "pix_buffer_read"
     ]
 }

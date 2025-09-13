@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "xgate2.mc~",
-    "description": "The `xgate2.mc~` object routes a single input signal to multiple output channels within a multichannel signal. It features crossfading between adjacent channels, controlled by a 'spread' parameter that determines how widely the signal is distributed. This allows for smooth transitions and distribution of audio across a specified number of output channels.",
+    "description": "`xgate2.mc~` routes an input signal to a specified channel within a multichannel output, applying crossfading between adjacent channels. The crossfade behavior can be controlled by a 'spread' parameter, allowing for wider or narrower transitions. It supports up to 512 output channels and can operate in an indexed mode for channel selection.",
     "categories": [
         "Routing",
         "Multichannel"

@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "meter~",
-    "description": "The `meter~` object functions as a mono VU-meter, providing real-time visual feedback on audio signal levels. It takes an incoming mono audio signal and outputs its RMS and peak amplitude values in dBFS, useful for monitoring audio dynamics.",
+    "description": "The `meter~` object functions as a convenient mono VU-meter, analyzing an incoming audio signal. It outputs a list containing RMS and peak amplitude values in dBFS, which are useful for monitoring audio levels or driving visual indicators. The object also passes the input signal through, allowing it to be seamlessly integrated into an audio processing chain.",
     "categories": [
-        "Descriptors",
-        "General Utilities"
+        "Descriptors"
     ]
 }

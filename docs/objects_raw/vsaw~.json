@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "vsaw~",
-    "description": "`vsaw~` is a versatile audio oscillator that generates variable sawtooth and triangle waveforms. It allows control over frequency, waveform width (morphing between sawtooth and triangle), phase synchronization, and phase modulation. The object supports negative frequencies, soft/hard sync, and multichannel operation, making it suitable for a wide range of synthesis and LFO applications.",
+    "description": "`vsaw~` is a versatile oscillator generating variable sawtooth and triangular waveforms, controlled by a 'width' parameter. It supports phase synchronization and modulation, accepts negative frequencies, and can interpret frequency input in Hertz or MIDI pitch. This object also features multichannel audio output.",
     "categories": [
         "Oscillators",
+        "Subtractive",
         "Multichannel"
     ]
 }

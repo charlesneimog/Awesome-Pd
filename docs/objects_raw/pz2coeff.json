@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "pz2coeff",
-    "description": "The `pz2coeff` object converts pole and zero coordinates into biquad filter coefficients. It takes lists of coordinates for two poles, two zeros, and an overall gain as input. The output is a list of biquad coefficients, formatted for use with objects like `biquad~`.",
+    "description": "The `pz2coeff` object converts pole and zero coordinates, along with an overall gain, into biquad filter coefficients. These coefficients are formatted for use with objects like `biquad~`, enabling the creation of custom digital filters. It takes lists for pole/zero coordinates and a float for gain.",
     "categories": [
-        "Math",
-        "Filters"
+        "Math"
     ]
 }

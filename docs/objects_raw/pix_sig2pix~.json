@@ -23,5 +23,11 @@
     "description": "`pix_sig2pix~` converts up to four incoming audio signals into an image, treating each signal as a color channel (red, green, blue, alpha). It allows control over image dimensions, data type, and how the signals map to the image pixels, enabling real-time visualization of audio data.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_blob",
+        "pix_hsv2rgb",
+        "pix_takealpha",
+        "pix_rgb2hsv"
     ]
 }

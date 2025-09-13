@@ -31,5 +31,11 @@
     "description": "`pvtuner~` is a frequency-quantized oscillator bank resynthesis object that allows users to impose arbitrary tunings. It supports custom scales defined by lists of frequencies, can interpolate between different scales, and features transposition and a synthesis threshold. It can also set a base frequency using a MIDI note.",
     "categories": [
         "Oscillators"
+    ],
+    "similar": [
+        "bl.saw2~",
+        "cycle~",
+        "damp.osc~",
+        "xmod~"
     ]
 }

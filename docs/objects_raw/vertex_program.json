@@ -23,5 +23,11 @@
     "description": "The `vertex_program` object in Pure Data loads and applies an ARB or NV vertex shader, enabling custom vertex processing within GEM. It takes a filename via its `open` message to load the shader program. Users can modify shader parameters using `GEMglProgramEnvParameter*` objects, provided their OpenGL implementation supports the necessary extensions.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "fragment_program",
+        "glsl_program",
+        "glsl",
+        "gemvertexbuffer"
     ]
 }

@@ -24,5 +24,11 @@
     "musics": [],
     "contributors": [
         "charlesneimog"
+    ],
+    "similar": [
+        "sum",
+        "plusequals~",
+        "add~",
+        "frac.add"
     ]
 }

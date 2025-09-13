@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "envgen~",
-    "description": "`envgen~` is a versatile audio envelope and line generator that creates complex amplitude curves based on lists of duration and target values. It supports various control messages for pausing, resuming, setting gain, defining sustain points, and applying different curve types (linear, exponential, sinusoidal). It can be triggered by control messages or audio signals and offers multichannel and looping capabilities.",
+    "description": "`envgen~` is a versatile audio envelope and line generator that shapes signals over time using defined segments of duration and target values. It supports ADSR-like behavior with sustain points, legato retriggering, and various curve types (linear, exponential, sine, Hann). The object can be triggered by control messages or audio signals, and provides a status outlet for integration with other Pure Data objects like `switch~`.",
     "categories": [
         "Envelopes",
         "Multichannel"

@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "barkSpec~",
-    "description": "The `barkSpec~` object analyzes incoming audio to compute its Bark-frequency spectrum, which warps the normal spectrum to the Bark scale, emphasizing low-frequency detail. It outputs the spectrum as a list of 50 normalized components when triggered, useful for timbre analysis and classification."
+    "description": "The `barkSpec~` object analyzes incoming audio to compute its Bark-frequency spectrum, which warps the normal spectrum to the Bark scale, emphasizing low-frequency detail. It outputs the spectrum as a list of 50 normalized components when triggered, useful for timbre analysis and classification.",
+    "similar": [
+        "barkSpecCentroid~",
+        "barkSpecRolloff",
+        "melSpec~",
+        "barkSpecFlatness~"
+    ]
 }

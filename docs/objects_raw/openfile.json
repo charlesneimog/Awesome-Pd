@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "openfile",
-    "description": "The `openfile` object in Pure Data is a utility that allows users to open local folders, files, or web links. It can be triggered by a `bang` message or by clicking the object itself when configured in hyperlink mode, which also allows for custom display text.",
+    "description": "The `openfile` object allows users to open files, folders, or web links from within Pure Data. It can be triggered by a `bang` message or by providing a symbol message with the target path or URL. Additionally, the object can be set to a hyperlink mode, enabling direct interaction by clicking the object in the patch.",
     "categories": [
-        "File I/O",
+        "File IO",
+        "GUI",
         "General Utilities"
     ]
 }

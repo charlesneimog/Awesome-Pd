@@ -20,10 +20,9 @@
     ],
     "ai": true,
     "title": "autofade2~",
-    "description": "`autofade2~` is a Pure Data object that provides automatic fade-in and fade-out functionality for multiple audio inputs. It operates based on a gate control signal, using internal lookup tables to shape the fades. The object supports various fade curve types, including `quartic`, `sin`, `sqrt`, `hann`, `lin`, `hannsin`, and `linsin`.",
+    "description": "The `autofade2~` object provides automatic fade-in and fade-out functionality for multiple audio signals. It responds to a gate control, using internal lookup tables to apply various fade curves such as `quartic`, `sin`, or `hann`. This object is useful for smoothly transitioning audio signals based on a control signal.",
     "categories": [
         "Envelopes",
-        "Dynamics",
         "Multichannel"
     ]
 }

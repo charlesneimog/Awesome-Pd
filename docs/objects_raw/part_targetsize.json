@@ -24,5 +24,11 @@
     "categories": [
         "Procedural",
         "Graphics"
+    ],
+    "similar": [
+        "part_targetcolor",
+        "part_size",
+        "part_damp",
+        "part_vertex"
     ]
 }

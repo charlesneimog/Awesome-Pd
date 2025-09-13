@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "float2bits",
-    "description": "The `float2bits` object converts a decimal floating-point number (IEEE754 Single precision 32-bit) into its binary representation, outputting a list of 32 bits. It can also separate these bits into sign, exponent, and mantissa components when receiving a 'split' message, allowing for detailed analysis of the float's internal structure.",
+    "description": "The `float2bits` object converts a decimal floating-point number (IEEE754 single precision) into its binary representation. It can output the full list of bits or, when receiving a `split` message, send the sign, exponent, and mantissa as separate values. This object is useful for low-level manipulation or analysis of floating-point data.",
     "categories": [
-        "Data Structures"
+        "Math",
+        "General Utilities"
     ]
 }

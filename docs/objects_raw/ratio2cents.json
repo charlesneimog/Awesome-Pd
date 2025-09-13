@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "ratio2cents",
-    "description": "The `ratio2cents` object converts rational number intervals (expressed as floating-point decimal values) into cents. It uses the formula `cents = log2(rational) * 1200` to perform this mathematical conversion, providing a way to represent musical intervals in a standardized unit.",
+    "description": "The `ratio2cents` object converts musical intervals expressed as rational numbers (floating-point decimals) into cents. It performs this conversion using the formula `cents = log2(rational) * 1200`. Input values can be provided directly or set for conversion upon receiving a bang message.",
     "categories": [
         "Math"
     ]

@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "rand~",
-    "description": "`rand~` generates random values between -1 and 1 at a given frequency, linearly interpolating between these values to produce a bandlimited noise signal. It can be used at low frequencies to create random ramps or glissandi, making it suitable for controlling various parameters.",
+    "description": "The `rand~` object generates an interpolated random noise signal, producing values between -1 and 1 at a specified frequency. It linearly interpolates between these random values, resulting in bandlimited noise. At low frequencies, `rand~` can be used to create random ramps for parameter control or glissandi.",
     "categories": [
         "Stochastic",
-        "Math"
+        "Oscillators"
     ]
 }

@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "any2symbol",
-    "description": "The `any2symbol` object converts any incoming message, regardless of its type (e.g., numbers, lists, or other symbols), into a single symbol message. This object is useful for standardizing diverse message inputs into a unified symbolic format for subsequent processing or display within a Pure Data patch.",
+    "description": "The `any2symbol` object converts any incoming message into a symbol message. This utility is crucial for standardizing diverse data types into a common symbolic format, enabling consistent processing and routing within a Pure Data patch.",
     "categories": [
         "General Utilities"
     ]

@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "dec2hex",
-    "description": "The `dec2hex` object converts decimal numbers into their hexadecimal string representation. It outputs the hexadecimal value as a symbol, prefixed with \"0x\" and using uppercase letters for A-F. This object is useful for displaying or processing numerical data in a hexadecimal format within Pure Data patches.",
+    "description": "The `dec2hex` object converts incoming decimal numbers or lists of numbers into their hexadecimal string representations. The output is formatted with a \"0x\" prefix and uses uppercase letters for hexadecimal digits. It can convert values immediately upon reception or when triggered by a `bang` message.",
     "categories": [
+        "Math",
         "General Utilities"
     ]
 }

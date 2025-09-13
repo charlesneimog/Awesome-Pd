@@ -23,5 +23,11 @@
     "description": "The `pix_aging` object applies a Super8-like aging effect to images or video streams, simulating the look of old film. It offers four customizable components: color aging, light dusts, dark pits, and vertical scratches, which can be individually enabled or disabled. Users can also control the maximum number of scratches via the `scratch` message.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "world_light",
+        "spot_light",
+        "pix_roll",
+        "pix_posterize"
     ]
 }

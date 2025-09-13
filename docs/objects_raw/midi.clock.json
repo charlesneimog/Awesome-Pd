@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "midi.clock",
-    "description": "The `midi.clock` object abstracts MIDI clock functionality, allowing synchronization with either an internal clock (set by a float input) or an external MIDI device. It outputs a bang on each MIDI clock tick and can also provide the time interval in BPM from external clock sources.",
+    "description": "The `midi.clock` object provides an abstraction for handling MIDI clock signals. It can operate as an internal clock, where a float input sets its BPM, or synchronize to an external MIDI clock source. It outputs a `bang` at each clock tick, useful for timing and synchronization within a Pure Data patch.",
     "categories": [
         "MIDI"
     ]

@@ -23,5 +23,11 @@
     "description": "The `pix_gain` object applies a gain multiplier to the pixel values of an image (pix). It can use a single float for all color channels or a list of values for individual RGB/RGBA channels. Note that `pix_gain` operates on the CPU, and for GPU-based coloring, the `color` object might be a more efficient alternative.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_color",
+        "pix_threshold",
+        "pix_bitmask",
+        "pix_offset"
     ]
 }

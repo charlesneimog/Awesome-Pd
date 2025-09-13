@@ -23,5 +23,11 @@
     "description": "The `tavg~` object calculates the arithmetic mean of an incoming audio signal. It takes a signal as input and outputs the computed average as a float, effectively converting a signal into a single numerical value. This object is part of the zexy library and is useful for basic signal analysis and conversion.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "avg~",
+        "mean",
+        "average~",
+        "abs~"
     ]
 }

@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "drunkard~",
-    "description": "The `drunkard~` object generates a random walk signal, stepping within a defined range from its previous output. It allows users to set lower and upper bounds, with values wrapping when they exceed these limits. The object also provides control over the probability of a positive step and supports seeding for reproducible random sequences.",
+    "description": "The `drunkard~` object generates pseudo-random signal values within a defined step range, based on a \"drunkard's walk\" algorithm. It can be seeded for reproducible sequences and allows control over the step size, probability of positive steps, and output bounds. When values reach the set bounds, they wrap around.",
     "categories": [
         "Stochastic"
     ]

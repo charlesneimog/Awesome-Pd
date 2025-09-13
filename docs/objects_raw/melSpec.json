@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "melSpec",
-    "description": "The 'melSpec' object computes a Mel-scaled spectrogram from an audio sample, providing a time-frequency representation of sound. It supports various windowing functions and can be configured for normalization, sampling rate, and filterbank parameters. This object can process raw audio data or accept pre-computed FFT or magnitude spectrum data, making it efficient for use in audio analysis chains."
+    "description": "The 'melSpec' object computes a Mel-scaled spectrogram from an audio sample, providing a time-frequency representation of sound. It supports various windowing functions and can be configured for normalization, sampling rate, and filterbank parameters. This object can process raw audio data or accept pre-computed FFT or magnitude spectrum data, making it efficient for use in audio analysis chains.",
+    "similar": [
+        "specCentroid",
+        "phaseSpec",
+        "specSpread",
+        "specSkewness"
+    ]
 }

@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "gate",
-    "description": "The `gate` object functions as a message router, directing incoming messages from its second inlet to one of its multiple outlets. The specific outlet is selected by a number received in the second inlet, with `0` indicating no outlet is open. The first inlet can also report the currently active outlet.",
+    "description": "The `gate` object routes messages from its second inlet to one of its 'n' specified outlets, or to no outlet if set to 0. The first inlet determines which outlet is open, allowing for dynamic control over message flow. It supports 1 to 100 outlets, with 1 being the default.",
     "categories": [
-        "Routing",
-        "General Utilities"
+        "Routing"
     ]
 }

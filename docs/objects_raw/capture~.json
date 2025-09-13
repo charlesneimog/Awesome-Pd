@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "capture~",
-    "description": "The `capture~` object is designed for signal debugging and investigation, capturing audio samples into an internal buffer. These samples can then be viewed in a text window or saved to a text file for analysis. It allows configuration of the number of samples to store, decimal precision, and capture mode (first N samples or continuous).",
+    "description": "The `capture~` object is a debugging and investigation tool that captures incoming audio signals (`signal`) and stores their samples. It can display these samples in a text window or write them to a specified file. Users can configure the number of samples to store, decimal precision, and choose between capturing the first N samples or continuously capturing the latest N samples for signal inspection.",
     "categories": [
-        "File I/O",
+        "File IO",
         "General Utilities"
     ]
 }

@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "binWrangler",
-    "description": "The `binWrangler` Pure Data object accumulates a specified number of feature vector frames, such as BFCCs, and then outputs the time-varying information organized by bin number as a concatenated list. It can also operate in a \"spew\" mode, acting as a sliding buffer that outputs the accumulated data with each new frame. This object is primarily used for processing sequential feature data in the `timbreID` library."
+    "description": "The `binWrangler` Pure Data object accumulates a specified number of feature vector frames, such as BFCCs, and then outputs the time-varying information organized by bin number as a concatenated list. It can also operate in a \"spew\" mode, acting as a sliding buffer that outputs the accumulated data with each new frame. This object is primarily used for processing sequential feature data in the `timbreID` library.",
+    "similar": [
+        "featureAccum",
+        "tID_std",
+        "bfcc~",
+        "tID_mean"
+    ]
 }

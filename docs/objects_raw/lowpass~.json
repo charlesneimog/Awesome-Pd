@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "lowpass~",
-    "description": "The `lowpass~` object is a 2nd-order resonant lowpass filter designed for audio signals. It provides control over the center frequency and resonance, which can be set as Q or bandwidth. This filter inherently removes both DC (0Hz) and Nyquist frequencies from the signal.",
+    "description": "`lowpass~` is a 2nd order resonant lowpass filter for audio signals. It allows control over the central frequency and resonance (Q or bandwidth), and can be bypassed or cleared. This biquad filter inherently filters out both 0Hz and Nyquist frequencies.",
     "categories": [
         "Filters"
     ]

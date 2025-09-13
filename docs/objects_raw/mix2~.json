@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "mix2~",
-    "description": "The `mix2~` object is a 2-channel audio mixer that provides independent gain and panning control for each input signal. It supports different scaling modes for its gain and pan sliders, including quartic, decibel (dB), and linear, allowing flexible audio level adjustments.",
+    "description": "`mix2~` is a 2-channel audio mixer abstraction that provides gain and panning control for two input signals. It features three selectable scaling modes (quartic, dB, or linear) for its internal gain sliders, allowing for flexible control over signal levels. The object also supports multichannel input and allows external control of gain, pan, and scaling mode.",
     "categories": [
-        "Math",
-        "Routing"
+        "Routing",
+        "Multichannel"
     ]
 }

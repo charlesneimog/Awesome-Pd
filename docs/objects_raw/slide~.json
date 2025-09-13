@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "slide~",
-    "description": "The `slide~` object logarithmically smooths an incoming audio signal, providing non-linear transitions between signal value changes. It is useful for creating smooth audio fades, envelope following, and acting as a low-pass filter. The smoothing times for both rising and falling signals can be controlled via inlets or arguments.",
+    "description": "The `slide~` object logarithmically smooths an input audio signal, preventing abrupt changes and clicks. It provides independent control over \"slide up\" and \"slide down\" times in samples, making it useful for non-linear audio transitions, envelope following, and lowpass filtering.",
     "categories": [
         "Filters"
     ]

@@ -23,5 +23,11 @@
     "description": "The `pol2cart` object converts 3D polar coordinates (radius `r`, azimuthal angle `phi`, and polar angle `theta`) into Cartesian coordinates (x, y, z). It takes three float inlets for `r`, `phi`, and `theta` (all angles in radians) and outputs the corresponding x, y, and z float values from its three outlets. This object is useful for transforming spatial data representations.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "sph2pol",
+        "sph2cart",
+        "pol2sph",
+        "cart2pol"
     ]
 }

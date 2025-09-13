@@ -24,5 +24,11 @@
     "categories": [
         "Math",
         "General Utilities"
+    ],
+    "similar": [
+        "amean",
+        "bangdiv",
+        "clip",
+        "wrap2"
     ]
 }

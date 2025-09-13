@@ -24,5 +24,11 @@
     "categories": [
         "Stochastic",
         "Graphics"
+    ],
+    "similar": [
+        "pix_set",
+        "perlin~",
+        "pix_rgba",
+        "white~"
     ]
 }

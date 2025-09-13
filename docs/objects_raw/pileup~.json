@@ -32,5 +32,11 @@
     "categories": [
         "Partial Tracking",
         "Additive"
+    ],
+    "similar": [
+        "resent~",
+        "reanimator~",
+        "residency~",
+        "cavoc~"
     ]
 }

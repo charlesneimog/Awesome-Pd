@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "zbiplot",
-    "description": "The `zbiplot` object visualizes biquad filter coefficients by plotting their poles and zeros on the Z-plane. It helps analyze the frequency response and stability of biquad filters. This object is typically used in conjunction with other objects that generate biquad coefficients, such as `bicoeff2`.",
+    "description": "The `zbiplot` object visualizes biquad filter coefficients by plotting their poles and zeros in the complex plane. It takes a list of coefficients, typically from a `biquad~` object, and displays the corresponding pole and zero coordinates. This helps in understanding the frequency response characteristics of the filter.",
     "categories": [
-        "Filters",
-        "GUI"
+        "GUI",
+        "Graphics"
     ]
 }

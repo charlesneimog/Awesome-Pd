@@ -31,5 +31,11 @@
     "description": "`multyq~` is a four-band spectral equalizer designed for audio processing. It allows for shaping the frequency content of an audio signal across four distinct bands. The object also features \"autosweep\" and \"sweep high end\" capabilities, suggesting dynamic or automated frequency adjustments.",
     "categories": [
         "Filters"
+    ],
+    "similar": [
+        "highshelf~",
+        "crossover~",
+        "mindwarp~",
+        "eq~"
     ]
 }

@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "batch.write~",
-    "description": "The `batch.write~` object is an abstraction built upon `tabwriter~` that facilitates batch recording of audio signals into Pure Data arrays. It efficiently captures audio streams from signal-generating objects into specified arrays, outputting a bang when recording completes. It supports recording up to 64 channels.",
+    "description": "`batch.write~` is a convenient abstraction built upon `tabwriter~` designed for recording audio signals into Pure Data arrays. It allows users to specify the target array name and the number of channels (up to 64) to record. A bang message triggers the recording of the entire array, and another bang is output when recording completes.",
     "categories": [
-        "Data Structures"
+        "Data Structures",
+        "Multichannel"
     ]
 }

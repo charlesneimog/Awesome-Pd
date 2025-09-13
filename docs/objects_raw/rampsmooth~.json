@@ -20,6 +20,8 @@
     ],
     "ai": true,
     "title": "rampsmooth~",
-    "description": "The `rampsmooth~` object smooths an incoming audio signal by applying a linear ramp whenever the input value changes. It allows independent control over ramp-up and ramp-down times in samples, making it useful for signal smoothing, envelope following, or low-pass filtering.",
-    "categories": []
+    "description": "The `rampsmooth~` object linearly smooths an incoming audio signal over a specified number of samples. When the input value changes, it creates a linear ramp to the new value, making it useful for envelope following or as a lowpass filter.",
+    "categories": [
+        "Filters"
+    ]
 }

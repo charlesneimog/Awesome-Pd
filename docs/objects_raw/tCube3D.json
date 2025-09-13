@@ -31,5 +31,11 @@
     "description": "The `tCube3D` object determines if a given 3D point (referred to as a \"mass\") is located within a user-defined 3D bounding box. It takes the X, Y, and Z coordinates of the mass as input and outputs `1` if the mass is inside the specified cube, and `0` if it is outside. This object is primarily used for spatial collision detection or position testing in 3D environments.",
     "categories": [
         "Logic"
+    ],
+    "similar": [
+        "tSphere3D",
+        "bitor~",
+        "lessthan~",
+        "bitnot~"
     ]
 }

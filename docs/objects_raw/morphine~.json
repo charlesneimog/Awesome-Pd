@@ -31,5 +31,11 @@
     "description": "`morphine~` performs spectral morphing, enabling a smooth transition between two audio signals in the frequency domain. It supports exponential transition scaling and requires FFT size and overlap factor as creation arguments.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "tID_fft",
+        "tID_fft~",
+        "featureNorm",
+        "specBrightness"
     ]
 }

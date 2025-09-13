@@ -23,5 +23,11 @@
     "description": "The `operating_system` object outputs a symbol representing the operating system Pure Data is currently running on. It receives a `bang` to trigger the output, providing system information useful for conditional patching.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "bangbang",
+        "symbol2any",
+        "time",
+        "trig2bang"
     ]
 }

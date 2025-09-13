@@ -24,5 +24,11 @@
     "categories": [
         "Filters",
         "Graphics"
+    ],
+    "similar": [
+        "pix_biquad",
+        "pix_convolve",
+        "pix_motionblur",
+        "pix_blur"
     ]
 }

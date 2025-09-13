@@ -20,10 +20,9 @@
     ],
     "ai": true,
     "title": "gaterelease~",
-    "description": "The `gaterelease~` object releases an audio-rate gate signal after a specified time in milliseconds, allowing for timed gate control even when other gates are held. If the input gate closes before the release time, the object resets, and a release time of 0 or less bypasses the object. It supports multichannel operation.",
+    "description": "The `gaterelease~` object in Pure Data controls the release of gate signals. It holds a gate value open for a specified duration (in milliseconds) after it initially opens, releasing it only after this time has elapsed. This object supports multichannel operation and resets if the gate closes before the release time.",
     "categories": [
         "Multichannel",
-        "Logic",
-        "General Utilities"
+        "Logic"
     ]
 }

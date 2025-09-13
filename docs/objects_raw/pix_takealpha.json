@@ -23,5 +23,11 @@
     "description": "The `pix_takealpha` object transfers the alpha channel from a second input image to a first input image. It requires both images to be of the same size, and the first image must be in RGBA color space. If the second image lacks an alpha channel, its luminance value is used instead.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_mask",
+        "pix_composite",
+        "pix_alpha",
+        "pix_coloralpha"
     ]
 }

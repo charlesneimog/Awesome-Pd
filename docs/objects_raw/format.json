@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "format",
-    "description": "The `format` object creates a single symbol (string) by combining a format string with multiple input values. It uses C-style `printf` specifiers (e.g., `%d`, `%f`, `%s`) to define how inputs are converted and inserted, allowing for flexible text generation, such as creating dynamic filenames or messages.",
+    "description": "The `format` object in Pure Data formats messages and symbols using C-style `printf` specifiers (e.g., `%d`, `%f`, `%s`). It creates inlets for each variable in the format string, allowing dynamic message construction from various input types like floats and symbols. This object is similar to `makefilename` but supports multiple variables.",
     "categories": [
         "Text",
         "General Utilities"

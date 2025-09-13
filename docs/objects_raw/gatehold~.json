@@ -20,10 +20,9 @@
     ],
     "ai": true,
     "title": "gatehold~",
-    "description": "The `gatehold~` object holds an incoming gate signal for a specified duration in milliseconds after the gate closes. If a new gate begins before the hold time expires, the object re-triggers, extending the hold. It supports multichannel signals and is useful for extending the sustain phase of envelopes or other gate-controlled processes.",
+    "description": "The `gatehold~` object extends the duration of an incoming gate signal by holding its value for a specified time in milliseconds after the gate closes. If a new gate arrives before the hold time expires, the object re-triggers, effectively restarting the hold period. This object supports multichannel signals and is useful for controlling parameters with different durations from a single gate.",
     "categories": [
         "Multichannel",
-        "Delay",
-        "General Utilities"
+        "Envelopes"
     ]
 }

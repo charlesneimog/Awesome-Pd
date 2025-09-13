@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "crusher.m~",
-    "description": "The `crusher.m~` object is a multichannel audio effect that wraps the `crusher~` object from the ELSE library. It provides controls for parameters like 'crush' and 'decimation' to apply digital distortion effects to incoming audio signals.",
+    "description": "`crusher.m~` is a multichannel wrapper for the `crusher~` object from the ELSE library. It applies bit crushing and sample rate reduction effects to audio signals, degrading their quality in a controlled manner. Users should refer to the `crusher~` help file for detailed usage.",
     "categories": [
         "Distortion",
         "Multichannel"

@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "pak",
-    "description": "The `pak` object creates a list from its inlets, similar to `pack`. However, any incoming message to any inlet will trigger the output of the complete list. The `set` message can be used to update inlet values without triggering an output, which can then be forced by a `bang`.",
+    "description": "The `pak` object combines multiple inputs of various types (float, int, symbol) into a single list. By default, any direct input to an inlet triggers the output of the combined list. Values can be updated without immediate output using the `set` message, requiring a subsequent `bang` to explicitly send the list.",
     "categories": [
         "Data Structures"
     ]

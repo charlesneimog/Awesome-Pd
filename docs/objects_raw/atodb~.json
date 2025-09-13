@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "atodb~",
-    "description": "The `atodb~` object converts a linear amplitude audio signal to its equivalent decibel full scale (dBFS) value. It performs a logarithmic conversion, calculating `log10(amplitude) * 20`, and outputs a minimum of -999 dBFS. This object is essential for working with audio levels in the decibel domain.",
+    "description": "The `atodb~` object converts a linear amplitude signal to its equivalent in decibels full scale (dBFS). This is useful for representing audio levels logarithmically, where 0 dBFS typically signifies the maximum amplitude without clipping. It performs the calculation `dbFS = log10(amp) * 20`, with a minimum output of -999.",
     "categories": [
         "Math"
     ]

@@ -20,10 +20,6 @@
     ],
     "ai": true,
     "title": "loadmess",
-    "description": "The `loadmess` object sends a predefined message automatically when its containing patch is loaded, or when it receives a `bang` message. It can be configured with arguments at creation or dynamically updated using a `set` message. The `@defer` attribute allows control over the order of messages sent by multiple `loadmess` objects.",
-    "categories": [
-        "Procedural",
-        "Patching",
-        "General Utilities"
-    ]
+    "description": "The `loadmess` object automatically outputs a predefined message when its containing Pure Data patch is loaded or opened. It can also be triggered manually by a bang or click. The message it sends can be configured, and its output can be deferred using the `@defer` argument.",
+    "categories": []
 }

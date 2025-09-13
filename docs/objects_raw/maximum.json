@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "maximum",
-    "description": "The `maximum` object outputs the largest value from its inputs. It can compare two individual floats or find the maximum value within a list. When processing a list, it also outputs the index of the maximum element.",
+    "description": "The `maximum` object outputs the greatest value among two or more numbers. It can compare a float input with a value from its right inlet or argument, or find the maximum value within a given list. Additionally, it outputs the index of the maximum value when processing a list.",
     "categories": [
         "Math"
     ]

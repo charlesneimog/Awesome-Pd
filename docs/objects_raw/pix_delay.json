@@ -24,5 +24,11 @@
     "categories": [
         "Delay",
         "Graphics"
+    ],
+    "similar": [
+        "fbdelay~",
+        "ffdelay~",
+        "revdelay~",
+        "pipe2"
     ]
 }

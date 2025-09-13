@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "specRolloff~",
-    "description": "The specRolloff~ object calculates the spectral rolloff frequency of an audio signal, representing the frequency below which a specified percentage of the total spectral energy is concentrated. It serves as an audio descriptor, useful for real-time timbre identification. Users can customize parameters such as window size, energy concentration target, windowing function, and whether to use a power spectrum."
+    "description": "The specRolloff~ object calculates the spectral rolloff frequency of an audio signal, representing the frequency below which a specified percentage of the total spectral energy is concentrated. It serves as an audio descriptor, useful for real-time timbre identification. Users can customize parameters such as window size, energy concentration target, windowing function, and whether to use a power spectrum.",
+    "similar": [
+        "barkSpecRolloff~",
+        "specRolloff",
+        "specSpread~",
+        "barkSpecBrightness~"
+    ]
 }

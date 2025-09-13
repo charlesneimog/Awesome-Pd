@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "dust2~",
-    "description": "The `dust2~` object generates random impulses (values between -1 and 1) at random times, controlled by a density parameter. It functions as a pseudo-random number generator, allowing for reproducible sequences via a seed value, and supports multichannel output.",
+    "description": "The `dust2~` object generates random audio impulses (values between -1 and 1) at a rate determined by its density parameter. It functions as a pseudo-random number generator, allowing for reproducible sequences via a seed value. This object can also output multichannel signals, with input density controlling each channel.",
     "categories": [
+        "Oscillators",
         "Stochastic",
         "Multichannel"
     ]

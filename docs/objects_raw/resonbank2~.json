@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "resonbank2~",
-    "description": "`resonbank2~` is a bank of resonant filters designed for sound synthesis. It takes an impulse-like excitation signal and applies it through multiple resonators, allowing control over their frequencies (via partials), decay times, and amplitudes. It supports multichannel output, where each resonator can be routed to a separate channel.",
+    "description": "`resonbank2~` is a bank of resonant filters designed for sound synthesis, similar to `oscbank~` but focused on resonance. It takes an impulse excitation signal, a frequency multiplier, and a decay time multiplier to shape the sound. The object allows for dynamic control over its resonant filters through lists of partials, decay times, and amplitudes, and supports multichannel output.",
     "categories": [
         "Filters",
         "Multichannel"

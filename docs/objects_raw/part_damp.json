@@ -23,5 +23,11 @@
     "description": "The `part_damp` object is a GEM particle system utility that modifies the velocity of particles. It takes a damping vector as input: values less than `1 1 1` slow particles down, while values greater than `1 1 1` accelerate them, providing dynamic control over particle movement.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "part_killslow",
+        "part_head",
+        "part_vertex",
+        "part_size"
     ]
 }

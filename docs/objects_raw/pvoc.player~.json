@@ -20,10 +20,10 @@
     ],
     "ai": true,
     "title": "pvoc.player~",
-    "description": "The `pvoc.player~` object is an audio file player that offers independent time stretching and pitch shifting capabilities through a phase vocoder. Similar to `player~`, it loads audio files using `sfload` and supports the same file formats. Be aware that this object is CPU-intensive.",
+    "description": "`pvoc.player~` is a Pure Data object designed for playing back sound files with independent time stretching and pitch shifting capabilities, utilizing a phase vocoder. It supports various audio file formats and offers control over playback speed, transposition, looping, and sample range. Users should note that this object is CPU-intensive.",
     "categories": [
-        "Partial Tracking",
-        "File I/O",
-        "Multichannel"
+        "File IO",
+        "Multichannel",
+        "Audio IO"
     ]
 }

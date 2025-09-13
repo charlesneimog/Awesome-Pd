@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "datetime",
-    "description": "The `datetime` object provides the current local date and time as lists. The left outlet outputs time (hour, minute, second), and the right outlet outputs date (year, month, day, weekday). It can also output the number of seconds since the beginning of the month as a seed value.",
+    "description": "The `datetime` object provides the current local date and time as lists. When triggered by a `bang`, it outputs the time (hour, minute, second) from its left outlet and the date (year, month, day, weekday) from its right outlet. It can also output the number of seconds since the beginning of the month via a `seed` message, which can be used for time-based calculations or as a seed for other objects.",
     "categories": [
-        "General Utilities"
+        "General Utilities",
+        "Control IO"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `pix_flip` object is a GEM object designed to flip images along a specified axis. It can mirror an image horizontally, vertically, or both, controlled by incoming messages. This object is useful for reorienting visual elements within a Pure Data patch.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_motionblur",
+        "pix_rtx",
+        "pix_convert",
+        "scale"
     ]
 }

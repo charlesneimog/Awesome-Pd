@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "player~",
-    "description": "`player~` is a versatile Pure Data object for playing back audio files. It supports various file formats, multi-channel audio (up to 64 channels), and advanced playback controls such as speed adjustment (including backwards playback), looping, fading, and crossfading. It automatically adjusts for sample rate differences between the audio file and Pure Data's current sample rate.",
+    "description": "The `player~` object is a versatile audio file player for Pure Data, built upon `sfload` and `tabplayer~`. It allows playback of sound files with extensive control over speed, direction, looping, and precise start/end points. `player~` automatically adjusts playback speed to match the file's sample rate with Pure Data's current sample rate, ensuring correct pitch and timing, and supports up to 64 channels.",
     "categories": [
         "Samplers",
-        "File I/O"
+        "File IO",
+        "Multichannel"
     ]
 }

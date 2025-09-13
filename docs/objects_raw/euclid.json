@@ -20,10 +20,10 @@
     ],
     "ai": true,
     "title": "euclid",
-    "description": "The `euclid` object implements the Euclidean rhythm algorithm, which distributes a given number of \"hits\" as evenly as possible over a specified number of \"steps\". It outputs bangs for each hit and rest, and a float (1 for hit, 0 for rest) indicating the rhythm pattern. This object is useful for generating rhythmic sequences.",
+    "description": "The `euclid` object implements the Euclidean rhythm algorithm, which divides a given number of steps into a specified number of hits with an optional rotation. It outputs bangs for hits and rests, and a float (1 for hit, 0 for rest) to generate rhythmic patterns.",
     "categories": [
+        "Algorithmic Composition",
         "Procedural",
-        "Math",
         "Sequencers"
     ]
 }

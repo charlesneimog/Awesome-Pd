@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "pm~",
-    "description": "The `pm~` object is a basic phase modulation unit that uses two sinusoidal oscillators, where one modulates the phase of the other. The modulator's frequency is set as a ratio of the carrier frequency. This object also supports multichannel audio.",
+    "description": "`pm~` is a basic phase modulation unit that uses a pair of sinusoidal oscillators, where one modulates the phase of the other. The modulator frequency is controlled as a ratio of the carrier frequency, and the object supports multichannel audio. It outputs the phase-modulated signal.",
     "categories": [
         "Oscillators",
-        "Multichannel"
+        "Multichannel",
+        "Chorus/Flanger/Phaser"
     ]
 }

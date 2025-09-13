@@ -23,5 +23,11 @@
     "description": "The `pix_subtract` object subtracts the pixel values of one image from another, requiring both input images to be of the same size. It clamps the resulting pixel values at zero, which can lead to black areas if subtraction results in negative values. This object is primarily used for image manipulation within the GEM environment.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_multiply",
+        "pix_dump",
+        "pix_mask",
+        "pix_compare"
     ]
 }

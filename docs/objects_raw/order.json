@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "order",
-    "description": "The `order` object splits an incoming list into successive sub-lists of a specified size, assigning an ordered index to each. This utility is particularly useful for distributing individual values or segments of a list to multiple instances of an object, commonly in conjunction with `clone` for parallel processing. It ensures that even partial lists at the end are output.",
+    "description": "The `order` object splits an incoming list into smaller, successive lists of a specified size, prepending each sub-list with an ordered index. This functionality is particularly useful for distributing data to multiple instances of an object managed by `[clone]`, ensuring each instance receives its corresponding indexed data. It gracefully handles input lists that are shorter than the specified split size.",
     "categories": [
-        "Data Structures",
-        "General Utilities"
+        "Routing"
     ]
 }

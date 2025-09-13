@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "barkSpecRolloff~",
-    "description": "The `barkSpecRolloff~` object calculates the Bark spectrum rolloff, which is the Bark frequency below which a specified concentration of spectral energy is located. It processes audio in real-time, handling its own buffering and windowing, and allows configuration of window size, filterbank spacing, and the energy concentration threshold. This descriptor is useful for real-time timbre analysis."
+    "description": "The `barkSpecRolloff~` object calculates the Bark spectrum rolloff, which is the Bark frequency below which a specified concentration of spectral energy is located. It processes audio in real-time, handling its own buffering and windowing, and allows configuration of window size, filterbank spacing, and the energy concentration threshold. This descriptor is useful for real-time timbre analysis.",
+    "similar": [
+        "barkSpecRolloff",
+        "specRolloff~",
+        "barkSpecCentroid~",
+        "barkSpecFlatness~"
+    ]
 }

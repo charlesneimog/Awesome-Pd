@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "energy",
-    "description": "The `energy` object from the `timbreIDLib` library calculates the energy of a specified audio sample array or a segment within it. It offers options to normalize the energy by window size, output as power or RMS, and report the value in decibels. This object is primarily used for offline audio feature extraction and analysis."
+    "description": "The `energy` object from the `timbreIDLib` library calculates the energy of a specified audio sample array or a segment within it. It offers options to normalize the energy by window size, output as power or RMS, and report the value in decibels. This object is primarily used for offline audio feature extraction and analysis.",
+    "similar": [
+        "energy~",
+        "barkSpecSkewness~",
+        "energyEntropy",
+        "specRolloff~"
+    ]
 }

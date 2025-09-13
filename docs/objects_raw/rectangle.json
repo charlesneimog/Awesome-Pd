@@ -23,5 +23,11 @@
     "description": "The `rectangle` object is a GEM (Graphics Environment for Multimedia) object that renders a rectangular shape. It draws a rectangle at the current position using the current color, with its width and height controllable via arguments or its second and third inlets. Note that the actual rendered size is double the specified width and height, spanning from `(-width|-height)` to `(+width|+height)`.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "cuboid",
+        "pix_rectangle",
+        "slideSquares",
+        "pix_data"
     ]
 }

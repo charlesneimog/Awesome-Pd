@@ -20,10 +20,8 @@
     ],
     "ai": true,
     "title": "selector",
-    "description": "The `selector` object routes incoming data from one of its multiple inlets to its single output. The specific inlet chosen for routing is determined by a float value received in the rightmost inlet. It acts as a dynamic switch, allowing only the data from the currently selected inlet to pass through.",
+    "description": "The `selector` object acts as a multiplexer, routing messages from one of its multiple input inlets to a single output. The specific inlet to be routed is determined by a float value received in the rightmost inlet. It can be configured with a variable number of inlets.",
     "categories": [
-        "Routing",
-        "Multichannel",
-        "General Utilities"
+        "Routing"
     ]
 }

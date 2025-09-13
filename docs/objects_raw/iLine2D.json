@@ -31,5 +31,11 @@
     "description": "The `iLine2D` object simulates the interaction of a named \"mass\" with a defined 2D line. It applies normal and tangential forces, rigidity, and damping based on the mass's depth of interaction with the line. This object is useful for creating physical modeling simulations where objects interact with linear boundaries.",
     "categories": [
         "Physical Modeling"
+    ],
+    "similar": [
+        "iSeg2D",
+        "iCylinder3D",
+        "iCircle3D",
+        "iPlane3D"
     ]
 }

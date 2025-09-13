@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "barkSpecCentroid",
-    "description": "The barkSpecCentroid object computes the Bark spectrum centroid, a psychoacoustically weighted measure of an audio signal's spectral balance. It analyzes audio from a sample array, allowing customization of analysis parameters such as windowing function and filter averaging."
+    "description": "The barkSpecCentroid object computes the Bark spectrum centroid, a psychoacoustically weighted measure of an audio signal's spectral balance. It analyzes audio from a sample array, allowing customization of analysis parameters such as windowing function and filter averaging.",
+    "similar": [
+        "bfcc",
+        "barkSpec",
+        "barkSpecSpread",
+        "barkSpecCentroid~"
+    ]
 }

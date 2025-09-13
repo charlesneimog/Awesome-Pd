@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "delay.m~",
-    "description": "`delay.m~` is an audio effect object that functions as a wrapper for the `filterdelay~` object from the ELSE library. It provides a filtered delay effect with adjustable parameters for delay time, filter cutoff, feedback, resonance, and wet/dry mix, and includes a freeze function.",
+    "description": "`delay.m~` is a simple audio delay module that wraps the `filterdelay~` object from the ELSE library. It functions like a basic delay pedal, currently lacking control voltage (CV) input for modulation.",
     "categories": [
-        "Delay",
-        "Multichannel"
+        "Delay"
     ]
 }

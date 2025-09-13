@@ -23,5 +23,11 @@
     "description": "The `pix_diff` object calculates the absolute difference between two input images, which must be of the same size. It outputs a new image highlighting these differences. This object is part of the GEM library for graphics manipulation.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_multiply",
+        "pix_subtract",
+        "pix_takealpha",
+        "pix_mask"
     ]
 }

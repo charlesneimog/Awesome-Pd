@@ -23,5 +23,11 @@
     "description": "The `any2list` object converts any incoming message into a list, standardizing various message types into a list format for further processing. It also passes through messages that are already lists or other types without modification, making it useful for flexible data handling within a patch.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "join",
+        "merge",
+        "pack",
+        "l"
     ]
 }

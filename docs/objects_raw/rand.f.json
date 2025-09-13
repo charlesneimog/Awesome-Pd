@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "rand.f",
-    "description": "The `rand.f` object generates pseudo-random floating-point numbers within a user-defined range when triggered by a `bang`. It allows for reproducible sequences through seeding and can output multiple random values as a list using the `-n` flag or `n` message.",
+    "description": "The `rand.f` object generates pseudo-random floating-point numbers within a specified range when triggered by a `bang`. It allows setting a `seed` for reproducible sequences and can output multiple random values as a list.",
     "categories": [
-        "Stochastic",
-        "Math"
+        "Math",
+        "Stochastic"
     ]
 }

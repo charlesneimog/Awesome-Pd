@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "parabolic~",
-    "description": "`parabolic~` is a parabolic oscillator that generates a non-band-limited waveform, similar to a sinusoid but with aliasing. It supports negative frequencies, phase synchronization via control data or impulse signals, and phase modulation. This object also features comprehensive multichannel audio support and can interpret frequency inputs in either Hertz or MIDI pitch.",
+    "description": "The `parabolic~` object is a parabolic oscillator that generates a waveform similar to a sinusoid but is not band-limited. It supports phase synchronization (including hard sync) and phase modulation, allowing for dynamic control over its waveform and interaction with other oscillators. It also features multichannel support and can accept frequency input in either Hertz or MIDI pitch.",
     "categories": [
         "Oscillators",
         "Multichannel"

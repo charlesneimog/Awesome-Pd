@@ -23,5 +23,11 @@
     "description": "The `pix_offset` object adds an offset to the color channels of an incoming image (gemlist). It can apply a single float offset to all channels or a list of offsets to individual channels. An optional `saturate` inlet controls whether color values are clipped (saturated) or allowed to wrap around the color space after the offset is applied.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_gain",
+        "pix_mean_color",
+        "pix_convert",
+        "pix_threshold"
     ]
 }

@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "select~",
-    "description": "The `select~` object selects one of its input audio signals based on a control input, without applying any crossfade. It supports input signals of varying channel sizes. The number of available inputs is determined by the first creation argument, and the second argument sets the initially selected input (1-indexed).",
+    "description": "The `select~` object acts as an audio signal switch, allowing you to choose one of several input signals to pass through to its output. It supports signals of varying channel sizes and performs an immediate, non-crossfading switch. The number of available inputs and the initially selected input can be configured via creation arguments.",
     "categories": [
         "Routing",
         "Multichannel"

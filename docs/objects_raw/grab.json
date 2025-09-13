@@ -20,8 +20,8 @@
     ],
     "ai": true,
     "title": "grab",
-    "description": "The `grab` object in Pure Data sends a message to another object and captures its output, routing it through `grab`'s own outlets. It can be configured with a numerical argument to specify the number of outlets, allowing it to grab multiple outputs from a single source. Additionally, `grab` can be linked to a `receive` object via a symbol argument, enabling it to retrieve values from objects connected to that `receive` or even directly from GUI elements, making it useful for data retrieval and preset management.",
+    "description": "The `grab` object sends a message to another object and intercepts its output, routing it through `grab`'s own outlets. It can be configured with a float argument to match the number of outlets of the grabbed object, or with a symbol argument to grab output from a named `receive` object. `grab` is particularly useful for setting GUI values while simultaneously capturing their output, enabling preset management.",
     "categories": [
-        "Routing"
+        "GUI"
     ]
 }

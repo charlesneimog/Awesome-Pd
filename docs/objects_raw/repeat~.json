@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "repeat~",
-    "description": "The `repeat~` object takes an input signal and duplicates it a specified number of times ('n' times). It can handle signals of any channel size, effectively copying the input signal to multiple output channels or instances. This is useful for triggering multiple processes from a single signal source.",
+    "description": "`repeat~` is a Pure Data object that takes an input audio signal and repeats it a specified number of times, determined by a float input. This object is useful for duplicating a signal, such as an impulse, to trigger events across multiple channels or to create a series of repeated occurrences from a single source.",
     "categories": [
         "Multichannel"
     ]

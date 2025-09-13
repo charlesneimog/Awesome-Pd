@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "pol2car",
-    "description": "The `pol2car` object converts polar coordinates (amplitude and phase) into Cartesian coordinates (real and imaginary parts). It takes amplitude in its left inlet and phase in radians in its right inlet, outputting the real part from its left outlet and the imaginary part from its right outlet. This object is useful for mathematical transformations between coordinate systems, often applied in graphics, spatial audio, or complex number operations.",
+    "description": "The `pol2car` object converts polar coordinates (amplitude and phase) into their Cartesian equivalents (real and imaginary parts). It takes amplitude and phase (in radians) as inputs and outputs the corresponding real and imaginary components, which can be triggered by a `bang`. This object is useful for mathematical transformations of signals or data.",
     "categories": [
         "Math"
     ]

@@ -29,5 +29,11 @@
     "ai": true,
     "title": "scrape~",
     "description": "`scrape~` is an audio object designed for shaped noise reduction. It functions similarly to `drown~`, suggesting it processes audio signals to remove or reduce noise in a specific, shaped manner.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "drown~",
+        "noish~",
+        "a.sum",
+        "perlin~"
+    ]
 }

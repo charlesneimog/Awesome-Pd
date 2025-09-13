@@ -23,5 +23,11 @@
     "description": "The `pix_zoom` object, part of the GEM library, allows for magnifying or minifying pixels. It utilizes OpenGL's `glPixelZoom` function to achieve pixel-level zooming effects, useful for visual transformations.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_multitexture",
+        "GEMgl",
+        "pix_draw",
+        "pix_compare"
     ]
 }

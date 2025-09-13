@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "atan~",
-    "description": "`atan~` calculates the arc-tangent of an input signal, sample by sample. It is primarily used for mathematical operations on audio signals, providing the inverse tangent of the incoming values.",
+    "description": "The `atan~` object calculates the arc-tangent of each incoming audio sample. It is a signal-level trigonometric function primarily used for mathematical calculations within a Pure Data patch.",
     "categories": [
         "Math"
     ]

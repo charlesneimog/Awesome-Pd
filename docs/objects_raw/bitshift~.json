@@ -20,9 +20,6 @@
     ],
     "ai": true,
     "title": "bitshift~",
-    "description": "`bitshift~` performs bitwise shifting on an incoming signal, moving its bit values to the left or right. The direction and number of shifts are determined by a control input, with positive values shifting left and negative values shifting right. It offers two modes: one that operates directly on the signal's 32-bit floating-point representation and another that first converts the signal to an integer.",
-    "categories": [
-        "Logic",
-        "Math"
-    ]
+    "description": "The `bitshift~` object performs bitwise left or right shifts on an incoming audio signal. It takes a signal and a float value to determine the shift amount and direction. The object operates in two modes: one that directly manipulates the 32-bit floating-point representation, and another that first converts the signal to a 32-bit integer before shifting.",
+    "categories": []
 }

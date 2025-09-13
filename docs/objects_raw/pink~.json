@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "pink~",
-    "description": "The `pink~` object generates pink noise, an audio signal characterized by constant power per octave, with its energy decreasing by 3dB per octave. It supports setting a seed for reproducible noise sequences and allows adjustment of the \"pinkness\" by specifying the number of octaves.",
+    "description": "The `pink~` object generates pink noise, characterized by constant power per octave and a -3dB/octave decrease in spectral power. It uses pseudo-random number generation, allowing users to set a seed via argument or message for reproducible or synchronized noise sequences. The \"pinkness\" can be adjusted by setting the number of octaves, where 1 octave produces white noise.",
     "categories": [
-        "Oscillators",
-        "Stochastic"
+        "Stochastic",
+        "Audio IO"
     ]
 }

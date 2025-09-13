@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "stretch.shift~",
-    "description": "The `stretch.shift~` object performs real-time independent time stretching and pitch shifting on live audio input. It achieves this by employing granulation, allowing users to control parameters such as buffer size, playback speed, transposition in cents, and grain size for creative audio manipulation.",
+    "description": "`stretch.shift~` is a live audio processor that performs independent time stretching and pitch shifting using granulation. It functions similarly to `gran.player~` but is designed for real-time input. Users can control parameters such as grain size, playback speed, and pitch transposition in cents.",
     "categories": [
-        "Granular"
+        "Granular",
+        "Audio IO"
     ]
 }

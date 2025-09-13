@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "expand~",
-    "description": "The `expand~` object functions as an audio expander, attenuating an input signal when its level falls below a specified threshold. It provides control over the threshold, attenuation ratio, and attack and release times for dynamic processing.",
+    "description": "`expand~` is an audio expander that attenuates an input signal when its level falls below a specified threshold. It allows control over the threshold (in dB), attenuation ratio, and the attack and release times (in ms) for dynamic processing of audio signals.",
     "categories": [
         "Dynamics"
     ]

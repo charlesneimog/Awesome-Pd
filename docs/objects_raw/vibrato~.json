@@ -20,8 +20,8 @@
     ],
     "ai": true,
     "title": "vibrato~",
-    "description": "`vibrato~` is a pitch shifter that applies vibrato to an audio signal. It uses an internal LFO to control the pitch deviation in cents, allowing for adjustable rate and depth of the vibrato effect.",
+    "description": "The `vibrato~` object applies a vibrato effect to an incoming audio signal. It functions as a pitch shifter, modulating the pitch deviation in cents using an internal Low Frequency Oscillator (LFO). Users can control the vibrato rate in Hertz and the transposition depth in cents via float inputs.",
     "categories": [
-        "LFOs"
+        "Chorus/Flanger/Phaser"
     ]
 }

@@ -20,8 +20,6 @@
     ],
     "ai": true,
     "title": "delace",
-    "description": "The `delace` object deinterleaves an incoming list into multiple sub-lists, distributing elements cyclically across its outlets. The number of outlets, `n`, determines how the list is split. An optional `-z` flag can be used to pad shorter output lists with zeros.",
-    "categories": [
-        "Data Structures"
-    ]
+    "description": "The `delace` object deinterleaves an incoming list, distributing its elements across a specified number of outlets (default 2, up to 255). An optional `-z` flag can be used to insert zeros for missing elements, ensuring all output lists have consistent lengths.",
+    "categories": []
 }

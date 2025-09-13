@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "tempo",
-    "description": "The `tempo` object functions as a versatile metronome, sending bangs at a specified rate in BPM, milliseconds, or Hertz. It includes a swing parameter for rhythmic variation and can be synchronized externally. The object also supports tempo multiplication for subdivisions and allows for seeding its internal random number generator for reproducible swing patterns.",
+    "description": "The `tempo` object functions as a metronome, sending bangs at a specified rate in BPM, Hz, or milliseconds. It includes a swing parameter for rhythmic deviation, which can be controlled with a seed for reproducible pseudo-randomness. The object can be turned on/off and synced externally, also supporting tempo multiplication for subdivisions.",
     "categories": [
-        "Procedural",
+        "Math",
         "General Utilities"
     ]
 }

@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "trig.delay2~",
-    "description": "The `trig.delay2~` object delays an incoming impulse signal by a specified time in milliseconds. It ignores any subsequent triggers received before the delayed output is sent, effectively acting as a retriggerable delay. This object supports multichannel signals for both the trigger input and delay time.",
+    "description": "The `trig.delay2~` object delays an incoming impulse signal by a specified time in milliseconds. It ignores any subsequent trigger impulses received before the delayed output is sent. This object supports multichannel signals, allowing for individual delay times per channel when a multichannel delay time signal is provided.",
     "categories": [
-        "Delay"
+        "Delay",
+        "Multichannel"
     ]
 }

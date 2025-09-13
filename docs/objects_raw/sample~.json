@@ -20,10 +20,10 @@
     ],
     "ai": true,
     "title": "sample~",
-    "description": "The `sample~` object creates and manages an audio buffer, enabling users to load, record, save, and manipulate audio samples. It supports multichannel files and provides messages for operations like opening, saving, clearing, trimming, and normalizing audio data. Its internal buffer can be accessed by other Pure Data objects for further processing.",
+    "description": "`sample~` is a Pure Data object that acts as an audio buffer, allowing users to load sound files, record audio into it, and save its contents to various audio file formats (e.g., .wav, .aif, .caf). It supports multichannel audio, managing internal arrays for each channel, and provides messages for opening, saving, clearing, trimming, and normalizing samples.",
     "categories": [
         "Samplers",
-        "File I/O",
+        "File IO",
         "Multichannel"
     ]
 }

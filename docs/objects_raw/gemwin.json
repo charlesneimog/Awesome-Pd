@@ -23,5 +23,11 @@
     "description": "The `gemwin` object manages the output window for GEM (Graphics Environment for Multimedia), controlling its properties like size, fullscreen mode, and title. It also configures rendering aspects such as anti-aliasing, frame rate, lighting, and the camera's viewpoint for 3D scenes.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "gemcocoawindow",
+        "gemglfw2window",
+        "gemglxwindow",
+        "gemmacoswindow"
     ]
 }

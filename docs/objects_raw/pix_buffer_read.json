@@ -23,5 +23,11 @@
     "description": "The `pix_buffer_read` object reads image data from a named `pix_buffer`. It allows specifying a particular frame index from the buffer via its second inlet. The buffer to read from can be dynamically changed using a `set` message in the first inlet.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_snap2tex",
+        "pix_rectangle",
+        "pix_buffer_write",
+        "pix_snap"
     ]
 }

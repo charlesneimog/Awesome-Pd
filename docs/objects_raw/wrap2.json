@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "wrap2",
-    "description": "The `wrap2` object constrains a numerical input value to a specified range by \"wrapping\" it around the minimum and maximum boundaries. It can be configured with one or two float arguments to define its range, and outputs the folded value.",
+    "description": "The `wrap2` object wraps an input value within a specified minimum and maximum range. It can be configured with one or two float arguments to define its wrapping boundaries, or it defaults to a 0 to 1 range. This object is useful for constraining numerical values to a cyclical range, such as for phase accumulation or cyclical parameters.",
     "categories": [
         "Math"
     ]

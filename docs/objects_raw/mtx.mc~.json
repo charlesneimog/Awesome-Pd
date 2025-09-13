@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "mtx.mc~",
-    "description": "The `mtx.mc~` object is a multichannel signal routing matrix for Pure Data, designed to route audio signals from multiple input channels to multiple output channels. It allows for flexible signal distribution with adjustable gain and smooth ramping between connections, controlled via messages specifying input channel, output channel, and gain.",
+    "description": "`mtx.mc~` is a Pure Data object designed for routing and mixing multichannel audio signals. It allows users to direct a specific channel from a multichannel input to one or more channels of a multichannel output, with adjustable gain and a configurable ramp time for smooth transitions. It's ideal for dynamic re-patching of audio streams within a multichannel setup.",
     "categories": [
         "Routing",
         "Multichannel"

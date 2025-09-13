@@ -20,10 +20,10 @@
     ],
     "ai": true,
     "title": "out4~",
-    "description": "`out4~` is a quadraphonic audio output abstraction for Pure Data, providing click-free control over DSP on/off, mute, and gain. It features three scaling modes (quartic, dB, linear) for its internal slider and allows setting a ramp time for smooth transitions. It routes incoming signals to `dac~` channels 1-4, requiring at least four audio output channels configured.",
+    "description": "`out4~` is a quadraphonic audio output abstraction for Pure Data, providing click-free control over `dac~` output, including DSP on/off, mute, and gain. It features a configurable slider with quartic, dB, or linear scaling modes, and allows setting a ramp time and maximum gain for its output. This object simplifies managing multi-channel audio output and levels.",
     "categories": [
         "Routing",
         "Multichannel",
-        "Audio I/O"
+        "Audio IO"
     ]
 }

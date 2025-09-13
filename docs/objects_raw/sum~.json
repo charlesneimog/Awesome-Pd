@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "sum~",
-    "description": "The `sum~` object takes a multi-channel audio signal and sums all its channels into a single mono output signal. By default, it performs this summing operation; however, if a zero is sent to its control inlet, the multi-channel signal passes through unchanged. This object is useful for converting multi-channel audio streams into a mono stream or for conditional summing.",
+    "description": "The `sum~` object takes a multichannel audio signal and sums all channels into a single mono output. If a non-zero float argument is provided during creation or as a message, the input channels are summed. If the float argument is zero, the multichannel input passes through unchanged.",
     "categories": [
-        "Math",
-        "Multichannel"
+        "Multichannel",
+        "Math"
     ]
 }

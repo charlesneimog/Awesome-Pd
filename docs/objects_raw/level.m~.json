@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "level.m~",
-    "description": "The `level.m~` object is a simple gain module designed to adjust the decibel level of audio signals. It supports multichannel inputs, allowing for flexible processing of multi-channel audio streams. Gain adjustments are made by sending a `db` message with the desired decibel value.",
+    "description": "`level.m~` is a simple multi-channel gain module designed to adjust the audio level in decibels. It is particularly useful for controlling the amplitude of multi-channel audio signals.",
     "categories": [
         "Multichannel"
     ]

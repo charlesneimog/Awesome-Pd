@@ -23,5 +23,11 @@
     "description": "The `pix_chroma_key` object performs real-time video compositing by comparing pixels from two input streams. It replaces pixels in a designated \"key-source\" stream that fall within a specified color range (RGB or YUV) with corresponding pixels from the other stream. This is commonly used for green/blue screen effects or dynamic background removal in live video processing.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_background",
+        "pix_sig2pix~",
+        "pix_equal",
+        "yuv2rgb"
     ]
 }

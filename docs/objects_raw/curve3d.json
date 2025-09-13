@@ -23,5 +23,11 @@
     "description": "The `curve3d` object renders a 3D Bezier curve. Its shape is defined by a matrix of control points, which are not necessarily part of the curve itself. Users can control the draw style, set individual control point positions, and adjust the curve's resolution.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "surface3d",
+        "curve",
+        "sphere3d",
+        "cylinder"
     ]
 }

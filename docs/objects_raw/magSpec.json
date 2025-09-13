@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "magSpec",
-    "description": "The `magSpec` object from the `timbreIDLib` library performs non-real-time spectral analysis on a given audio sample array. It calculates the magnitude or power spectrum of a specified window of audio, offering options for various windowing functions and normalization. This object is designed to be chained with other analysis objects that require FFT data, improving efficiency."
+    "description": "The `magSpec` object from the `timbreIDLib` library performs non-real-time spectral analysis on a given audio sample array. It calculates the magnitude or power spectrum of a specified window of audio, offering options for various windowing functions and normalization. This object is designed to be chained with other analysis objects that require FFT data, improving efficiency.",
+    "similar": [
+        "phaseSpec",
+        "specKurtosis",
+        "specFlatness",
+        "magSpec~"
+    ]
 }

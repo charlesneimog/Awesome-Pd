@@ -23,5 +23,11 @@
     "description": "The `pdf~` object calculates the probability density function of an incoming signal. It accepts a signal, bang, float, or 'clear' message, and outputs the calculated PDF as a list. The number of steps for the calculation can be set via a creation argument, defaulting to 64.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "plusequals~",
+        "e",
+        "sampstoms~",
+        "atanh"
     ]
 }

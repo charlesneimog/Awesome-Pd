@@ -20,8 +20,6 @@
     ],
     "ai": true,
     "title": "snapshot~",
-    "description": "The `cyclone/snapshot~` object converts a sample from an audio signal into a control-rate float. It can be triggered by a `bang` message for an immediate output, or configured to report values at a specified millisecond interval. An `offset` argument allows selection of a specific sample within the signal block for conversion.",
-    "categories": [
-        "Math"
-    ]
+    "description": "The `snapshot~` object converts a signal sample to a float value. It can output a single sample from the most recent signal block when a `bang` is received, or report values at a specified interval in milliseconds. Users can also define an offset to select which sample within the block is converted.",
+    "categories": []
 }

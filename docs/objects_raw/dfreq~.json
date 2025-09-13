@@ -23,5 +23,11 @@
     "description": "The `dfreq~` object is a computationally efficient frequency detector that estimates the frequency of an incoming audio signal by counting zero-crossings. It updates its frequency estimation at every zero-crossing. While it is much cheaper than FFT-based methods, it is not designed to work properly with complex signals.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "tID_fft~",
+        "tID_fft",
+        "zeroCrossing",
+        "zeroCrossing~"
     ]
 }

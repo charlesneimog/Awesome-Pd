@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "dir",
-    "description": "The `dir` object allows you to access and manage files within directories. It can open specified directories (absolute or relative paths), list their contents, and filter files by extension. It provides messages to query the current directory, count files, and iterate through them, facilitating file system navigation and content loading.",
+    "description": "The `dir` object in Pure Data is used for managing and querying directories and their contents. It allows users to open directories (relative or absolute paths), list files within them, filter by extension, and navigate through the file list. It can also determine the current patch's directory and handle abstraction depth.",
     "categories": [
-        "File I/O"
+        "File IO",
+        "General Utilities"
     ]
 }

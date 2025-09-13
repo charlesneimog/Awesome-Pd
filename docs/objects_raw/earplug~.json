@@ -28,5 +28,11 @@
     "musics": [],
     "contributors": [
         "charlesneimog"
+    ],
+    "similar": [
+        "sofalizer~",
+        "phaseshift~",
+        "cart2sph",
+        "sph2cart"
     ]
 }

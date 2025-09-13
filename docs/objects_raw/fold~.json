@@ -20,10 +20,9 @@
     ],
     "ai": true,
     "title": "fold~",
-    "description": "The `fold~` object performs wavefolding, a waveshaping technique that mirrors audio signals back into a specified low and high range. It is designed for signal-rate processing and supports multichannel audio, with configurable arguments to define its folding range.",
+    "description": "The `fold~` object performs wavefolding, a waveshaping technique that mirrors out-of-bounds signal values back into a specified range. It takes an audio signal as input and folds it between a low and high value, which can be set via signal inlets or messages. This object supports multichannel audio, applying the folding operation across all channels.",
     "categories": [
-        "Multichannel",
-        "Math",
-        "Distortion"
+        "Distortion",
+        "Multichannel"
     ]
 }

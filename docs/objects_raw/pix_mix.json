@@ -23,5 +23,11 @@
     "description": "The `pix_mix` object functions as a video mixer, blending two input images based on provided mixing factors. Users can specify individual gain values for each image (A and B) or a single crossfading factor (A), where the second image's gain is automatically calculated as (1-A). The output is a `gemlist` representing the mixed image.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_takealpha",
+        "pix_gain",
+        "pix_composite",
+        "pix_mask"
     ]
 }

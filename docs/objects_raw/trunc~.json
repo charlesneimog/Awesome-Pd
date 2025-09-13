@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "trunc~",
-    "description": "The `trunc~` object truncates an audio signal towards zero, effectively taking only the integer part of each sample's value. It operates on signals and supports multichannel connections, making it suitable for signal processing where integer-like values are desired.",
+    "description": "`trunc~` truncates an incoming audio signal towards zero, effectively retaining only the integer part of each sample. It supports multichannel connections and is compatible with MAX/MSP, making it useful for signal processing where integer-based values are desired.",
     "categories": [
         "Math",
         "Multichannel"

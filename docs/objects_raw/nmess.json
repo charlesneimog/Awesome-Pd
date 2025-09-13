@@ -20,10 +20,9 @@
     ],
     "ai": true,
     "title": "nmess",
-    "description": "The `nmess` object acts as a message gate, allowing a specified number of messages (`n`) to pass through its left outlet. Once `n` messages have passed, subsequent messages are routed to its right outlet. A `bang` or a `float` (to set `n`) in the right inlet resets the gate, allowing messages to pass through the left outlet again.",
+    "description": "The `nmess` object acts as a message gate, allowing a predefined number of messages (`n`) to pass through before closing. It can be reset with a `bang` message, and the number of allowed messages (`n`) can be set via a float. It also provides outputs to signal when the gate is opened or closed.",
     "categories": [
-        "Procedural",
-        "Logic",
-        "Routing"
+        "Routing",
+        "General Utilities"
     ]
 }

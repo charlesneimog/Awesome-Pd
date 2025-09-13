@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "lfnoise~",
-    "description": "The `lfnoise~` object generates band-limited low-frequency noise, producing random values between -1 and 1 at a specified frequency. It can be synchronized by an impulse to generate a new random value and supports optional interpolation. This object is useful for creating modulated control signals or random audio textures.",
+    "description": "The `lfnoise~` object generates band-limited noise, producing pseudo-random values between -1 and 1 at a specified frequency. It can be synchronized by an impulse to generate a new random value and supports seeding for reproducible noise sequences. This makes it suitable for creating various noise textures or controlling parameters.",
     "categories": [
+        "Oscillators",
         "Stochastic"
     ]
 }

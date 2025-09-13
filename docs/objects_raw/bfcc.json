@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "bfcc",
-    "description": "The bfcc object computes Bark-frequency Cepstral Coefficients, which are a common audio descriptor used to characterize timbre. It analyzes audio data from a specified sample array, allowing for customization of windowing functions and Bark filterbank parameters. This object is primarily used for feature extraction in audio analysis applications."
+    "description": "The bfcc object computes Bark-frequency Cepstral Coefficients, which are a common audio descriptor used to characterize timbre. It analyzes audio data from a specified sample array, allowing for customization of windowing functions and Bark filterbank parameters. This object is primarily used for feature extraction in audio analysis applications.",
+    "similar": [
+        "barkSpecCentroid",
+        "barkSpecBrightness",
+        "barkSpecRolloff",
+        "barkSpecSlope"
+    ]
 }

@@ -20,10 +20,10 @@
     ],
     "ai": true,
     "title": "vco.m~",
-    "description": "The `vco.m~` object is a polyphonic voltage-controlled oscillator for Pure Data, offering various waveforms including sine, triangle, saw, variable saw, and square. It supports linear frequency modulation (FM), phase modulation (PM), pulse width modulation (PWM), and soft sync, with attenuverters for modulation inputs. It accepts MIDI pitch input and outputs audio signals.",
+    "description": "The `vco.m~` object is a polyphonic voltage-controlled oscillator that generates various waveforms including sine, triangle, saw, variable saw, and square. It supports linear frequency modulation (FM), phase modulation (PM), pulse width modulation (PWM), and soft sync via control voltage (CV) inputs. It also accepts MIDI pitch input and handles multichannel signals for polyphonic operation.",
     "categories": [
-        "MIDI",
         "Oscillators",
+        "Subtractive",
         "Multichannel"
     ]
 }

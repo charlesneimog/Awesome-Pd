@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "rand.list",
-    "description": "The `rand.list` object selects a random element from a given list of floats. It outputs the chosen float when triggered by a `bang` message. The object supports setting a new list and can be seeded for reproducible pseudo-random sequences.",
+    "description": "The `rand.list` object randomly selects and outputs an element from a given list of floats. It can be initialized or updated with new lists, and its pseudo-random sequence can be made reproducible by setting a seed.",
     "categories": [
-        "Stochastic"
+        "Stochastic",
+        "General Utilities"
     ]
 }

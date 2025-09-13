@@ -23,5 +23,11 @@
     "description": "The `pix_buf` object, also known as `pix_separator`, buffers image data (pixes) to store the results of time-consuming processing operations. It is most effective when buffering static images, as continuous upstream modifications will lead to inefficient pixel copying. This object can also separate `gemlist` streams processing the same image data, acting as a flow control utility within the GEM environment.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_multiply",
+        "pix_subtract",
+        "pix_compare",
+        "pix_convert"
     ]
 }

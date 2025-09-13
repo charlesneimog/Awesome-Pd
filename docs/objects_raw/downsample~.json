@@ -20,6 +20,6 @@
     ],
     "ai": true,
     "title": "downsample~",
-    "description": "The `downsample~` object reduces the sample rate of an incoming audio signal. It takes a signal in its left inlet and a downsampling rate (in Hz) in its right inlet or as an argument. An additional argument or message can control whether interpolation is used during the downsampling process.",
+    "description": "The `downsample~` object samples an incoming audio signal at a specified rate in Hertz, producing a downsampled signal. It supports both interpolated and non-interpolated downsampling, offering functionality beyond vanilla's `samphold~` object. A `bang` message can restart the sampling cycle and synchronize the output.",
     "categories": []
 }

@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "bicoeff",
-    "description": "The `bicoeff` object is a graphical user interface (GUI) that generates coefficients for vanilla Pure Data's `biquad~` filter. Users can interactively click and drag on the GUI to set filter frequency, bandwidth, and gain for various filter types like lowpass, highpass, bandpass, and shelving filters. It outputs a list of 5 coefficients suitable for the `biquad~` object.",
+    "description": "The `bicoeff` object is a graphical user interface (GUI) that generates 5 biquad filter coefficients for vanilla's `biquad~` object. Users can interactively set filter parameters like frequency, bandwidth, and gain by clicking and dragging on the GUI, supporting various filter types such as `eq`, `lowpass`, and `highshelf`. It outputs a list of coefficients that can be directly fed into a `biquad~` object to create dynamic filters.",
     "categories": [
         "Filters",
         "GUI"

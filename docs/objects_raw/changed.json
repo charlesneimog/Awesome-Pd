@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "changed",
-    "description": "The `changed` object outputs its input only when the incoming message differs from the previously received message, effectively filtering out redundant data. Unlike Pd Vanilla's `[change]`, it accepts and compares any message type, making it a versatile tool for detecting data stream variations.",
+    "description": "The `changed` object acts as a message filter, passing through any incoming message only if it differs from the previously received one. Unlike `change` from Pd Vanilla, it supports all message types. This is useful for triggering actions solely when a value genuinely changes, preventing redundant processing.",
     "categories": [
-        "Logic",
-        "General Utilities"
+        "Logic"
     ]
 }

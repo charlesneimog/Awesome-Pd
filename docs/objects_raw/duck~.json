@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "duck~",
-    "description": "`duck~` is a Pure Data object that implements sidechain compression, attenuating an input audio signal based on the level of a separate control signal. It allows for adjustable threshold, ratio, attack, and release parameters, and can optionally mix the ducked signal with the control input.",
+    "description": "The `duck~` object is an audio dynamics processor that automatically reduces the volume of an input signal when a separate control signal exceeds a defined threshold. It provides adjustable parameters for threshold, attenuation ratio, and the attack and release times of the ducking effect.",
     "categories": [
         "Dynamics"
     ]

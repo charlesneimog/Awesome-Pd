@@ -25,5 +25,11 @@
         "File I/O",
         "Graphics",
         "Data Structures"
+    ],
+    "similar": [
+        "model",
+        "multimodel",
+        "gemvertexbuffer",
+        "pix_buffer"
     ]
 }

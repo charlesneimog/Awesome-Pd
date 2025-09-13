@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "interpolate",
-    "description": "The `else/interpolate` object performs smooth interpolation between a set of start and target values, which can be single numbers or lists. It takes an interpolation factor (typically 0 to 1) and can apply an exponential curve to the interpolation. This object is ideal for creating dynamic transitions and parameter automation.",
+    "description": "The `interpolate` object smoothly transitions between a start value (or list of values) and a target value (or list of values) based on an input float between 0 and 1. It supports an exponential factor for non-linear interpolation. This object is useful for creating smooth parameter changes, often controlled by GUI elements like sliders.",
     "categories": [
         "Math"
     ]

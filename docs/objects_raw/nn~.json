@@ -1,36 +1,57 @@
 {
     "title": "nn~",
-    "description": "`nn~` is a bridge between **Max/MSP** or **PureData** and **LibTorch** (PyTorch C++ interface) for deep learning. It does not work alone and requires pretrained models.\n\n<h3>Key Points</h3>\n\n- **Purpose:** Allows deep learning models to run inside Max/MSP or PureData.  \n- **Dependencies:** Pretrained models in **TorchScript (`.ts`) format**.  \n- **Model Management:**\n  - Place `.ts` files in `nn_tilde/models` or any folder accessible through Max/Pd filesystem:\n    - **Max:** Options \u2192 File Preferences  \n    - **PureData:** File \u2192 Preferences \u2192 Path\n  - Since v1.6.0, some models can be downloaded via **IRCAM Forum API**.  \n- **Usage:** Load a model by specifying its name as the first argument to `nn~`:",
-    "runs_on": ["Mac", "Linux", "Windows"],
+    "description": "`nn~` is a bridge between **Max/MSP** or **PureData** and **LibTorch** (PyTorch C++ interface) for deep learning. It does not work alone and requires pretrained models.\n\n<h3>Key Points</h3>\n\n- **Purpose:** Allows deep learning models to run inside Max/MSP or PureData.  \n- **Dependencies:** Pretrained models in **TorchScript (`.ts`) format**.  \n- **Model Management:**\n  - Place `.ts` files in `nn_tilde/models` or any folder accessible through Max/Pd filesystem:\n    - **Max:** Options → File Preferences  \n    - **PureData:** File → Preferences → Path\n  - Since v1.6.0, some models can be downloaded via **IRCAM Forum API**.  \n- **Usage:** Load a model by specifying its name as the first argument to `nn~`:",
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
     "download_link": "https://github.com/acids-ircam/nn_tilde",
     "available_on_deken": true,
     "bug_reports": "https://github.com/acids-ircam/nn_tilde/issues",
-    "developers": ["ACIDS/Ircam"],
+    "developers": [
+        "ACIDS/Ircam"
+    ],
     "part_of_library": false,
     "library_name": "",
-    "categories": ["Deep Learning"],
+    "categories": [
+        "Deep Learning"
+    ],
     "category_groups": [],
     "category_parents": {},
     "articles": [
         {
             "title": "Hierarchical temporal learning for multi-instrument and orchestral audio synthesis",
-            "authors": ["Hierarchical temporal learning for multi-instrument and orchestral audio synthesis"],
+            "authors": [
+                "Hierarchical temporal learning for multi-instrument and orchestral audio synthesis"
+            ],
             "link": "https://theses.hal.science/tel-04137258"
         }
     ],
     "videos": [
         {
             "title": "IRCAM Tutorials / RAVE - Neural Synthesis in Max",
-            "authors": ["Ircam"],
+            "authors": [
+                "Ircam"
+            ],
             "link": "https://www.youtube.com/watch?v=Dy1WTc022rQ&source_ve_path=MjM4NTE"
         },
         {
             "title": "Neural audio timbre transfer with RAVE trained on Amen breaks using nn~ in Pure Data",
-            "authors": ["MARTSM_N /// martsman"],
+            "authors": [
+                "MARTSM_N /// martsman"
+            ],
             "link": "https://www.youtube.com/watch?v=zBkDPgTyVCY"
         }
     ],
     "musics": [],
-    "contributors": ["charlesneimog"]
+    "contributors": [
+        "charlesneimog"
+    ],
+    "similar": [
+        "multimodel",
+        "cyclone",
+        "model",
+        "resonator2~"
+    ]
 }
-

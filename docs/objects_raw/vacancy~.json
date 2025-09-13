@@ -29,5 +29,11 @@
     "ai": true,
     "title": "vacancy~",
     "description": "The `vacancy~` object performs spectral compositing, allowing for the manipulation and combination of audio in the frequency domain. It utilizes parameters such as RMS tracking, an invertible threshold, and a phase source swap to control the compositing process.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "ether~",
+        "swap~",
+        "swinger~",
+        "mov.rms~"
+    ]
 }

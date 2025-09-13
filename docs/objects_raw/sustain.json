@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "sustain",
-    "description": "The `sustain` object emulates a MIDI sustain pedal, holding note-off messages while active and releasing them when deactivated. It processes MIDI note messages (pitch/velocity) and offers different `repeatmode` behaviors for handling repeated notes, such as historical, re-trigger, or stop last.",
+    "description": "The `sustain` object emulates a MIDI sustain pedal, holding `noteoff` messages while active and releasing them when deactivated. It processes MIDI pitch/velocity pairs, can be controlled by a MIDI sustain pedal input or messages, and offers different modes for handling repeated notes.",
     "categories": [
         "MIDI"
     ]

@@ -23,5 +23,11 @@
     "description": "The `part_sink` object defines a spatial region within a particle system where particles will be removed or \"vanish.\" Users can specify various geometric shapes (domains) such as points, lines, spheres, or boxes, along with their corresponding arguments (e.g., coordinates, radii). It also includes a toggle to enable or disable particle removal.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "part_head",
+        "part_vertex",
+        "part_size",
+        "part_color"
     ]
 }

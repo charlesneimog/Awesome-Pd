@@ -24,5 +24,11 @@
     "categories": [
         "Descriptors",
         "Graphics"
+    ],
+    "similar": [
+        "pix_multiblob",
+        "pix_drum",
+        "pix_indycam",
+        "spectrograph~"
     ]
 }

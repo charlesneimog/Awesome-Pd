@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "osc.format",
-    "description": "The `osc.format` object converts Pure Data messages into Open Sound Control (OSC) format. It takes `anything` messages or lists where the first element is an OSC address (starting with `/`) and formats subsequent elements as float or string arguments. This object is a simplified formatter, primarily used internally by `else/osc.send`, and does not support OSC bundles.",
+    "description": "`osc.format` is an experimental Pure Data object designed to format messages into Open Sound Control (OSC) messages. It takes a list or message starting with an OSC address and outputs a basic OSC message, supporting only float and string data types. For more comprehensive OSC formatting, consider using Vanilla's `oscformat` or `mrpeach`'s `packOSC`.",
     "categories": [
-        "OSC"
+        "OSC",
+        "General Utilities"
     ]
 }

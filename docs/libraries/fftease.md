@@ -13,20 +13,19 @@ search:
 <i>People who contribute to this project.</i>
 </p>
 
-
 <script>
 async function updateList() {
-    const repoOwner = 'ericlyon';
-    const repoName = 'pd-fftease';
+    let repoOwner = 'ericlyon';
+    let repoName = 'pd-fftease';
     try {
-        const res = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contributors`);
-        const contributors = await res.json();
-        const container = document.getElementById('libcontributors');
+        let res = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contributors`);
+        let contributors = await res.json();
+        let container = document.getElementById('libcontributors');
         contributors.forEach(user => {
-            const link = document.createElement('a');
+            let link = document.createElement('a');
             link.href = `https://github.com/${user.login}`;
             link.target = '_blank';
-            const img = document.createElement('img');
+            let img = document.createElement('img');
             img.src = `https://github.com/${user.login}.png?size=100`;
             img.alt = user.login;
             img.className = 'libavatar';
@@ -40,7 +39,6 @@ async function updateList() {
 updateList();
 </script>
 
-
 <h2>Objects</h2>
 
 <div class="grid cards" markdown>
@@ -48,7 +46,6 @@ updateList();
 - :material-tune: [__cavoc27~__](../objects/additive/cavoc27~.md) The `cavoc27~` object generates audio spectra using a 27-rule cellular automaton.
 - :material-tune: [__cavoc~__](../objects/additive/cavoc~.md) The `cavoc~` object generates audio spectra using an 8-rule cellular automaton.
 - :material-tune: [__centerring~__](../objects//centerring~.md) `centerring~` performs frequency-independent amplitude modulation, allowing for unique timbral effects.
-- :material-tune: [__cross~__](../objects/math/cross~.md) The `cross~` object performs block convolution for cross-synthesis.
 - :material-tune: [__dentist~__](../objects/filters/dentist~.md) The `dentist~` object functions as a "spiky" filter, selectively allowing certain partials to pass while attenuating others.
 - :material-tune: [__disarrain~__](../objects/stochastic/disarrain~.md) The `disarrain~` object functions as a spectrum scrambler, reordering a specified number of frequency bins within an audio signal.
 - :material-tune: [__disarray~__](../objects//disarray~.md) `disarray~` is a spectrum scrambler that reorders a specified number of frequency bins within an input signal's spectrum.

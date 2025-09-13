@@ -20,10 +20,8 @@
     ],
     "ai": true,
     "title": "framedelta~",
-    "description": "The `framedelta~` object calculates the running phase deviation of an FFT analysis. It achieves this by subtracting the values of each sample in the previously received signal block from the corresponding samples in the current signal block. This object is specifically designed for use within an FFT subpatch where the FFT size matches the block size, and is often used in conjunction with `phasewrap~` for accurate phase deviation tracking.",
+    "description": "The `framedelta~` object computes the difference between successive signal blocks, specifically designed for running phase deviation in FFT analysis. It subtracts values in each position of the previously received signal block from the current block. This object is particularly useful within an FFT subpatch to track phase changes over time, often used in conjunction with `phasewrap~`.",
     "categories": [
-        "Math",
-        "Partial Tracking",
-        "Descriptors"
+        "Math"
     ]
 }

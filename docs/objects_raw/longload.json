@@ -21,5 +21,11 @@
     "ai": true,
     "title": "longload",
     "description": "The `longload` object is an experimental utility designed to simulate a long loading time within a Pure Data patch. It accepts an optional argument to specify the delay duration in milliseconds, with a default delay of 1000ms. This object can be useful for testing or demonstrating scenarios where patch loading might be slow.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "fbdelay~",
+        "ffdelay~",
+        "revdelay~",
+        "pipe2"
+    ]
 }

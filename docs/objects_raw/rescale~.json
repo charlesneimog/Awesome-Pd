@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "rescale~",
-    "description": "The `rescale~` object transforms incoming audio signals from a specified input range to a desired output range. It supports linear, exponential, and logarithmic scaling, with options for clipping or non-clipping behavior. This object also handles multichannel signals, applying scaling independently to each channel.",
+    "description": "The `rescale~` object transforms input signal values from one range to another, with configurable minimum and maximum input/output values. It supports linear, exponential, and logarithmic scaling, including a \"reverse log\" mode, and can optionally clip output values to the specified range. This object also handles multichannel signals, applying scaling parameters per channel.",
     "categories": [
         "Math",
         "Multichannel",

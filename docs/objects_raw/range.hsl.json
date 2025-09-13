@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "range.hsl",
-    "description": "The `range.hsl` object is a graphical user interface (GUI) horizontal slider designed for selecting and manipulating numerical ranges. It offers four distinct modes of operation—shift, select, extend, and expand—to control how the range is adjusted. Users can configure its appearance, set the minimum and maximum range values, and define send/receive symbols for patch communication.",
+    "description": "The `range.hsl` object is a graphical user interface (GUI) horizontal slider designed for selecting or manipulating a numerical range. It allows users to define minimum and maximum values within a specified width and height, and supports various interaction modes like shifting or expanding the selected range. It outputs the current min/max range as a list.",
     "categories": [
         "GUI"
     ]

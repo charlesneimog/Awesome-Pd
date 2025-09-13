@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "notequals~",
-    "description": "The `notequals~` (or `!=~`) object performs a signal-level \"not equal to\" comparison. It outputs a signal of 1 when its left input signal is not equal to its right input signal or argument, and 0 otherwise. This is useful for creating binary control signals based on signal value differences.",
+    "description": "The `notequals~` (or `!=~`) object performs a \"not equal to\" comparison between its left signal input and either its right signal input or a creation argument. It outputs a `1` signal if the values are not equal, and a `0` signal if they are equal, making it a fundamental tool for conditional signal processing.",
     "categories": [
         "Logic"
     ]

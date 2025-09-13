@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "harmonicRatio~",
-    "description": "The `harmonicRatio~` object calculates the harmonic ratio of an audio signal, providing an indicator of its periodicity. It outputs higher values for pitched or periodic sounds and lower values for noisy ones. This feature is useful for identifying transitions in pitched sounds or speech, based on an autocorrelation algorithm."
+    "description": "The `harmonicRatio~` object calculates the harmonic ratio of an audio signal, providing an indicator of its periodicity. It outputs higher values for pitched or periodic sounds and lower values for noisy ones. This feature is useful for identifying transitions in pitched sounds or speech, based on an autocorrelation algorithm.",
+    "similar": [
+        "harmonicRatio",
+        "specKurtosis~",
+        "phaseSpec~",
+        "specBrightness~"
+    ]
 }

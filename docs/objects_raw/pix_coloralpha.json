@@ -23,5 +23,11 @@
     "description": "The `pix_coloralpha` object calculates and sets the alpha channel of an RGBA image. It computes the mean value of the RGB triple for each pixel and assigns this mean to the alpha channel, making it suitable for manipulating transparency in image streams.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_alpha",
+        "pix_takealpha",
+        "pix_a_2grey",
+        "colorRGB"
     ]
 }

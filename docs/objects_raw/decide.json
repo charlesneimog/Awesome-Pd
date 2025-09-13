@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "decide",
-    "description": "The `decide` object randomly outputs either 0 or 1. It can be triggered by a `bang` or a `float` message, and a `float` input can also be used to set the seed for its internal random number generator, allowing for reproducible sequences.",
+    "description": "The `decide` object randomly outputs either 0 or 1, acting as a simple random boolean generator. Its sequence of random outputs can be controlled by an optional seed value, allowing for reproducible random sequences.",
     "categories": [
         "Stochastic"
     ]

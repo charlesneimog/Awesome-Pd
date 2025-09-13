@@ -23,5 +23,11 @@
     "description": "The `depth` object controls OpenGL's depth testing (Z-buffering) within GEM. It can be used to create painting effects in single-buffer mode or to manage rendering order in double-buffered mode, especially when combined with objects like `gemhead`. By default, it disables depth buffering for subsequent objects in the rendering chain.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "gemhead",
+        "ortho",
+        "gemglutwindow",
+        "gemglfw3window"
     ]
 }

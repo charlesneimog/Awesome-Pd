@@ -20,8 +20,6 @@
     ],
     "ai": true,
     "title": "timed.gate~",
-    "description": "The `timed.gate~` object generates a timed gate signal or control output. It outputs a specified value for a given duration (in milliseconds) upon receiving an impulse, float, or bang, otherwise outputting zero. It supports a retrigger mode, allowing new gates to start before previous ones complete.",
-    "categories": [
-        "Procedural"
-    ]
+    "description": "The `timed.gate~` object generates a timed gate signal or control value. It is triggered by a bang, float, or signal, outputting a gate with a specified duration and value. It also supports a retrigger mode, allowing new gates to start before previous ones finish.",
+    "categories": []
 }

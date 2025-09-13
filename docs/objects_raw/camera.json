@@ -23,5 +23,11 @@
     "description": "The `camera` object in Pure Data is used to access and control video camera input. It provides different modes, such as `local` for internal processing and `gemwin` for displaying the camera feed within a GEM window. This object is essential for incorporating live video into GEM patches.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_indycam",
+        "gemwin",
+        "pix_frei0r",
+        "yuv2rgb"
     ]
 }

@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "floor",
-    "description": "The `floor` object, part of the `else` library, performs a mathematical floor operation. It takes a floating-point number (or a list of numbers) and outputs the largest integer less than or equal to the input. This is useful for rounding down values in numerical calculations.",
+    "description": "The `floor` object implements a standard mathematical floor function, rounding a given number down to the nearest integer. It can process individual numbers or lists of numbers, outputting the corresponding floor values.",
     "categories": [
         "Math"
     ]

@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "maxpeak~",
-    "description": "The `maxpeak~` object continuously tracks and outputs the maximum peak amplitude of an incoming audio signal. It can be reset by a bang to its right inlet and sends a bang from its right outlet when the input signal clips. The output can be configured to be linear or in decibels.",
+    "description": "The `maxpeak~` object continuously monitors an audio signal and outputs its maximum peak amplitude observed so far, either in decibels or linear scale. A bang to its right inlet resets this tracked maximum, while a bang from its right outlet indicates when the input signal has clipped.",
     "categories": [
         "Descriptors"
     ]

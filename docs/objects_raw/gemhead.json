@@ -23,5 +23,11 @@
     "description": "The `gemhead` object initiates and manages a GEM (Graphics Environment for Multimedia) rendering chain. It connects GEM objects to the window manager, ensuring they receive render commands. Users can control the rendering order via a priority value and enable/disable rendering for the chain.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "Gem",
+        "depth",
+        "gemcocoawindow",
+        "part_information"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `==~` object compares two incoming audio signals for equality, outputting a signal that indicates whether they are identical. This abstraction, part of the zexy library, does not accept creation arguments and may have reduced performance compared to its external version.",
     "categories": [
         "Logic"
+    ],
+    "similar": [
+        "0x3c0x7e",
+        "0x3e0x7e",
+        "&&~",
+        "equal"
     ]
 }

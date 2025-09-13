@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "properties",
-    "description": "The `properties` object in Pure Data sends a bang when its parent patch's properties are accessed, typically via a right-click menu. This allows for dynamic configuration or display of properties for graphical subpatches or abstractions. It supports two modes: \"abstraction\" (default) and \"subpatch\", controlled by its creation argument.",
+    "description": "The `properties` object in Pure Data is used within abstractions or subpatches. It sends a bang when placed in an abstraction (its default mode) or when its parent patch requests its properties. This allows for dynamic interaction and control flow based on the containing patch's state.",
     "categories": [
         "Patching"
     ]

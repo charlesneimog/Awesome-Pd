@@ -20,10 +20,10 @@
     ],
     "ai": true,
     "title": "grain.sampler~",
-    "description": "The `grain.sampler~` object is a sample-based granulator that generates clouds of audio grains from a loaded sample. It offers extensive control over grain parameters such as duration, transposition, panning, amplitude, size, position, and reversal probability. The object supports both asynchronous and synchronous grain generation modes, with an option for autotuning grains to a specified scale.",
+    "description": "`grain.sampler~` is a sample-based granulator that generates clouds of grains from a loaded audio sample. It provides extensive control over grain parameters such as density, size, position, transposition, panning, and reversal probability. The object supports both asynchronous (random) and synchronous (evenly spaced) grain generation, and allows for custom grain envelopes and autotuning to specified scales.",
     "categories": [
-        "Granular",
         "Envelopes",
+        "Granular",
         "Samplers"
     ]
 }

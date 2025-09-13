@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "xselect.mc~",
-    "description": "The `xselect.mc~` object selects a specific channel from a multichannel audio connection, supporting up to 512 channels. It features equal power crossfading between selected channels, with configurable crossfade time. This object is primarily used for dynamic routing and manipulation of individual streams within a multichannel signal.",
+    "description": "The `xselect.mc~` object selects a specific channel from a multichannel audio input, supporting up to 512 channels. It features equal power crossfading between selected channels, with a configurable crossfade time. The number of output channels can be set using the `-n` flag or `n` message, which also groups input channels accordingly.",
     "categories": [
         "Routing",
         "Multichannel"

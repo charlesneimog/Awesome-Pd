@@ -20,10 +20,9 @@
     ],
     "ai": true,
     "title": "allpass~",
-    "description": "The `allpass~` object implements an all-pass filter, which passes all frequencies without altering their gain but changes their phase. It is primarily used for filtering and delay effects, with configurable delay time and a gain coefficient. The object supports dynamic control of delay and gain via inlets and can be initialized with arguments for maximum delay, initial delay, and gain.",
+    "description": "The `allpass~` object implements an all-pass filter, which passes all frequencies without altering their gain but changes their phase. It is primarily used for filtering and delay effects, taking a signal input and outputting the processed signal. Parameters include maximum delay time, current delay time in milliseconds, and a gain coefficient.",
     "categories": [
-        "Delay",
         "Filters",
-        "Math"
+        "Delay"
     ]
 }

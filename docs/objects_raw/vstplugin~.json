@@ -21,7 +21,7 @@
     "category_parents": {},
     "articles": [
         {
-            "title": "[vstplugin~] \u2013 A Pd external for hosting VST plugins",
+            "title": "[vstplugin~] – A Pd external for hosting VST plugins",
             "authors": [
                 "Christof Ressi"
             ],
@@ -40,5 +40,11 @@
     "musics": [],
     "contributors": [
         "charlesneimog"
+    ],
+    "similar": [
+        "pix_frei0r",
+        "gemmacoswindow",
+        "sendmidi",
+        "ctl.out"
     ]
 }

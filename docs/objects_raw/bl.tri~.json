@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "bl.tri~",
-    "description": "The `bl.tri~` object is a bandlimited (anti-aliased) triangle wave oscillator designed for audio synthesis. It generates a clean triangle waveform, accepting frequency input in Hertz or MIDI pitch, and supports phase offset/modulation and synchronization (hard or soft sync). It also features multichannel capabilities.",
+    "description": "The `bl.tri~` object is a bandlimited triangle wave oscillator designed for anti-aliased audio synthesis. It supports frequency input in Hertz or MIDI pitch, and offers phase offset and phase synchronization capabilities for advanced sound design, including \"hard sync\" and \"soft sync\" techniques. It also supports multichannel operation, adapting to the input signal's channel count.",
     "categories": [
         "Oscillators",
         "Multichannel"

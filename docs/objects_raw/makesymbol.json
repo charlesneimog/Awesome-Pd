@@ -23,5 +23,11 @@
     "description": "The `makesymbol` object converts an incoming list (up to 10 members) into a single symbol. It functions similarly to `makefilename` but for general symbol creation, allowing for formatting using `%s` tags in its right inlet. The output is always a symbol, useful for dynamic symbol generation.",
     "categories": [
         "Text"
+    ],
+    "similar": [
+        "fromsymbol",
+        "s2l",
+        "symbol2list",
+        "regex-help"
     ]
 }

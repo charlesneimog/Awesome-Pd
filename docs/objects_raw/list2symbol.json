@@ -24,5 +24,11 @@
     "categories": [
         "Data Structures",
         "Text"
+    ],
+    "similar": [
+        "s2l",
+        "symbol2list",
+        "l2s",
+        "lace"
     ]
 }

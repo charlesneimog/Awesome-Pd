@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "pm6.m~",
-    "description": "`pm6.m~` is a six-operator FM (phase modulation) synthesizer, inspired by the DX7, producing stereo output. It takes MIDI pitch input and allows control over each operator's level, ratio, and panning, as well as a modulation index matrix for feedback and feedforward modulation. It also features a master level control and pitch transposition.",
+    "description": "The `pm6.m~` object is a 6-operator phase modulation (FM) synthesizer, inspired by the Yamaha DX7, producing stereo audio. It allows users to configure a modulation matrix for self-feedback, feedforward, and feedback modulation, along with individual oscillator ratios, levels, and panning. It accepts MIDI pitch input and can be modulated by external signals like envelopes for dynamic control.",
     "categories": [
+        "MIDI",
         "Oscillators"
     ]
 }

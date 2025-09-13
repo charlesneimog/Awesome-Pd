@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "break",
-    "description": "The `break` object in Pure Data is used to split incoming messages, typically lists or symbols, into multiple parts based on a specified separator symbol. It allows for flexible parsing of data, enabling different segments of a message to be processed independently. This is particularly useful for extracting arguments or sub-messages from complex data streams.",
+    "description": "The `break` object splits incoming messages or lists into smaller parts. It can break a symbol message or a list using a specified symbol as a separator. This is useful for parsing argument lists, such as those received from the `args` object, into individual components.",
     "categories": [
-        "Data Structures",
         "General Utilities"
     ]
 }

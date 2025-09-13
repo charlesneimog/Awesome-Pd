@@ -23,5 +23,11 @@
     "description": "The `pix_compare` object compares two input image streams pixel by pixel based on their luminance. It outputs a composite image where each pixel is chosen from either the brighter or dimmer of the corresponding input pixels, configurable via a `direction` message or argument. This object is primarily used for image mixing and manipulation, working best with YUV color space but also effective with RGB.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_multiply",
+        "pix_set",
+        "pix_data",
+        "pix_dump"
     ]
 }

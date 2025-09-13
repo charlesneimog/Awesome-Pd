@@ -23,5 +23,11 @@
     "description": "The `sph2pol` object converts spherical coordinates (radius R, azimuthal angle phi, and polar angle theta) into polar coordinates. All input angles are expected to be in radians. This object is useful for transforming spatial data representations within Pure Data.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "pol2cart",
+        "pol2sph",
+        "sph2cart",
+        "cart2sph"
     ]
 }

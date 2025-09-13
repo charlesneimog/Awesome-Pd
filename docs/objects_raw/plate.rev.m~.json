@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "plate.rev.m~",
-    "description": "The `plate.rev.m~` object is a Pure Data audio effect that acts as a wrapper for the `else/plate.rev~` object, providing a plate reverberation effect. It allows control over parameters such as reverb size, pre-delay, damping, cutoff frequency, and wet/dry mix, making it suitable for processing audio signals.",
+    "description": "`plate.rev.m~` is an audio object that provides plate reverberation. It acts as a wrapper for the `plate.rev~` object from the ELSE library, offering a simple, pedal-like reverb effect without control voltage (CV) inputs.",
     "categories": [
-        "Reverb"
+        "Reverb",
+        "Multichannel"
     ]
 }

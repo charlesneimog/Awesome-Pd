@@ -20,8 +20,10 @@
     ],
     "ai": true,
     "title": "brown",
-    "description": "The `brown` object generates control signals based on a bounded Brownian motion, which is a pseudo-random walk. It produces a float output within a specified range (default 0-127), with a configurable maximum step size. The sequence can be made repeatable by setting a seed value.",
+    "description": "The `brown` object generates pseudo-random numbers following a bounded Brownian motion, producing a control signal that takes small, random steps within a defined range. It allows for reproducible sequences by setting a seed value, and its maximum step size can be controlled via arguments or messages. This object is useful for creating organic, fluctuating control data.",
     "categories": [
-        "Stochastic"
+        "Stochastic",
+        "Statistical Models",
+        "Procedural"
     ]
 }

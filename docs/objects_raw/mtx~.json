@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "mtx~",
-    "description": "The `mtx~` object acts as an audio signal matrix router, enabling flexible connections between multiple audio inlets and outlets. It sums signals when multiple inlets are routed to a single outlet, and allows dynamic control over routing and gain with an adjustable ramp time for smooth transitions.",
+    "description": "The `mtx~` object functions as an audio signal matrix mixer, routing signals from multiple inlets to multiple outlets. It allows for dynamic control over connections and gain between any inlet-outlet pair, summing signals when multiple inlets route to the same outlet. This object is useful for creating flexible audio routing and mixing configurations with controllable ramp times.",
     "categories": [
-        "Routing",
-        "Multichannel"
+        "Routing"
     ]
 }

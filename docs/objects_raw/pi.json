@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "pi",
-    "description": "The `pi` object calculates and outputs the mathematical constant Pi. It can take an optional float argument or a second inlet to multiply the value of Pi. The object outputs the result when a patch is loaded or when it receives a bang message, and can store the value in a named variable.",
+    "description": "The `pi` object calculates and outputs the mathematical constant pi, optionally multiplied by a float value provided as an argument or via its second inlet. It outputs the result upon patch loading and when it receives a `bang` message. This object can also store its output in a named `value` for retrieval by other objects like `value`, `var`, or `expr`.",
     "categories": [
         "Math"
     ]

@@ -23,5 +23,11 @@
     "description": "The `pix_background` object removes a static background from an incoming video stream by comparing it to a stored reference image. It turns pixels within a specified color range black, effectively isolating new objects that enter the scene. This is useful for creating effects where only moving elements are visible against a black backdrop, or for chroma keying applications.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_chroma_key",
+        "pix_equal",
+        "pix_multiply",
+        "pix_colorclassify"
     ]
 }

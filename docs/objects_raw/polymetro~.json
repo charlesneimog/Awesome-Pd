@@ -20,8 +20,8 @@
     ],
     "ai": true,
     "title": "polymetro~",
-    "description": "`polymetro~` is a polyrhythmic metronome for signal rate that outputs impulses. It generates a base rhythm and a relative rhythm based on a tempo and a polyrhythmic ratio (which can be a fraction or float multiplier). The object provides two signal outlets for these rhythmic impulses.",
+    "description": "`polymetro~` is a signal-rate polyrhythmic metronome that generates impulses for a base rhythm and a relative rhythm. It allows setting tempo in BPM, starting/stopping, syncing, and defining polyrhythmic ratios using float or fractional multipliers. This object is ideal for creating complex rhythmic patterns and driving other signal-rate processes.",
     "categories": [
-        "Sequencers"
+        "Procedural"
     ]
 }

@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "pulse",
-    "description": "The `pulse` object is a control-rate oscillator that generates a pulse wave, acting like a toggle switch. It takes inputs for frequency, pulse width, and phase synchronization, and its internal resolution can be adjusted via the `rate` message or `-rate` flag.",
+    "description": "The `pulse` object generates a control-rate pulse wave, similar to the audio-rate `pulse~` object. It can be configured with frequency, pulse width, and an initial phase offset, and its internal phase can be reset. The output can also be toggled, making it suitable for rhythmic control or event generation.",
     "categories": [
-        "Oscillators",
-        "Math"
+        "Oscillators"
     ]
 }

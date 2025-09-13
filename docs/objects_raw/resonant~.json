@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "resonant~",
-    "description": "`resonant~` is a bandpass resonator filter that allows its resonance to be controlled by Q factor, decay time (t60), or bandwidth. Unlike `bandpass~`, its gain increases with higher Q values, making it suitable for creating resonant effects. It can also be bypassed.",
+    "description": "The `resonant~` object is a bandpass resonator filter that allows for control over its center frequency and resonance. Unlike `bandpass~`, its gain increases with higher Q values, enabling it to act as a resonator that sustains sound after the input ceases. Resonance can be set using Q, decay time (t60), or bandwidth (bw).",
     "categories": [
+        "Math",
         "Filters"
     ]
 }

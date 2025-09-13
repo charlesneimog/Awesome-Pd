@@ -20,9 +20,6 @@
     ],
     "ai": true,
     "title": "count~",
-    "description": "The `count~` object is a sample-accurate counter that outputs a signal incrementing by one for each elapsed sample. It can be configured with a minimum starting value and an optional maximum value for looping. The counter can be triggered and controlled by bangs, floats, or a signal input, and includes an `@autoreset` attribute.",
-    "categories": [
-        "Math",
-        "General Utilities"
-    ]
+    "description": "The `count~` object outputs a signal that increments by one for each audio sample, functioning as a sample-accurate counter. It can be configured with a minimum starting value and an optional maximum value for looping. The counter can be started, stopped, and reset via control messages or a signal input.",
+    "categories": []
 }

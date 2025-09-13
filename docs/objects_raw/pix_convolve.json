@@ -24,5 +24,11 @@
     "categories": [
         "Filters",
         "Graphics"
+    ],
+    "similar": [
+        "pix_tIIR",
+        "pix_motionblur",
+        "pix_crop",
+        "pix_set"
     ]
 }

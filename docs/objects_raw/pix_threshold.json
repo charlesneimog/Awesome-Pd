@@ -23,5 +23,11 @@
     "description": "The `pix_threshold` object applies a threshold filter to incoming image data. Pixels with values above the specified threshold are passed through, while those below are zeroed out. It supports thresholding all channels with a single float or individual RGB/RGBA channels using a list.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_a_2grey",
+        "pix_gain",
+        "pix_alpha",
+        "pix_movement2"
     ]
 }

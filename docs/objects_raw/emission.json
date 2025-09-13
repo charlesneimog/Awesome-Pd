@@ -23,5 +23,11 @@
     "description": "The `emission` object in Pure Data, part of the GEM library, sets the emission color for subsequent OpenGL vertex operations. It accepts a `gemList` and a list of 3 (RGB) or 4 (RGBA) float values to define the emission color, which contributes to the self-illuminating appearance of 3D objects when lighting is enabled.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "emissionRGB",
+        "ambient",
+        "diffuse",
+        "specularRGB"
     ]
 }

@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "modulo~",
-    "description": "The `modulo~` (or `%~`) object is a signal remainder operator. It divides the incoming signal from its left inlet by the value from its right inlet (or argument) and outputs the remainder of this division as a signal.",
+    "description": "The `modulo~` (or `%%~`) object is a signal remainder operator. It divides the incoming signal from its left inlet by the value provided to its right inlet (or argument) and outputs the remainder. This allows for signal wrapping or cyclic behavior based on a divisor.",
     "categories": [
         "Math"
     ]

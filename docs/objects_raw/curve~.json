@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "curve~",
-    "description": "`curve~` is a signal-rate object that generates non-linear (curved) ramp signals, functioning as an envelope generator. It can produce attack-release envelopes based on destination, time, and a curve factor that controls the steepness of the ramp.",
+    "description": "`curve~` generates non-linear, curved ramp signals, offering an exponential curve factor to shape the transition between values. It functions similarly to `cyclone/line~` but produces curved rather than linear ramps. This object is useful for creating dynamic control signals, such as Attack-Release envelopes, by defining destination values, durations, and a curve factor ranging from -1 to 1.",
     "categories": [
+        "Math",
         "Envelopes"
     ]
 }

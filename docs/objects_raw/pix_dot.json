@@ -23,5 +23,11 @@
     "description": "The `pix_dot` object simplifies an input image by segmenting it and representing each segment with a white dot. The size of each dot is determined by the luminance of the original image segment. This allows for the creation of \"dotty\" or pixelated image effects.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "imageVert",
+        "pix_rds",
+        "pix_takealpha",
+        "pix_mask"
     ]
 }

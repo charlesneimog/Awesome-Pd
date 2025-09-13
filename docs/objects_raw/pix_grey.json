@@ -23,5 +23,11 @@
     "description": "The `pix_grey` object converts the color space of an incoming image to grayscale. It processes various image formats, outputting a `gemlist` containing the grayscale image data. This conversion is useful for reducing memory and CPU usage when color information is not required.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_convert",
+        "pix_rgba",
+        "pix_set",
+        "pix_mean_color"
     ]
 }

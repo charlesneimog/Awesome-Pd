@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "lookup~",
-    "description": "The `lookup~` object performs a signal-rate table lookup, mapping input signal values (typically from -1 to 1) to indices within a specified array. It is primarily used for waveshaping, where an array acts as a transfer function to distort an input signal. Additionally, it can be employed for creative sample manipulation, such as scanning through audio samples to create effects like turntable scratches.",
+    "description": "The `lookup~` object performs waveshaping distortion by mapping input signal values (from -1 to 1) to indices of an array or table, which acts as a transfer function. It can use any array in Pure Data, including `buffer~` objects (though it only reads the first channel of multichannel buffers), and allows control over the start and end points of the lookup range, even reversing the index scan if the start point exceeds the end point. This enables effects like turntable scratches when scanning audio samples.",
     "categories": [
         "Distortion",
         "Data Structures"

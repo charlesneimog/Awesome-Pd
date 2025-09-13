@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "pvoc.live~",
-    "description": "The `pvoc.live~` object performs independent time stretching and pitch shifting on live audio input using granulation. It takes an audio signal as input and allows control over playback speed and pitch transposition in cents, with arguments for buffer size, initial speed, and initial transposition.",
+    "description": "The `pvoc.live~` object performs real-time time stretching and pitch shifting on live audio input. It uses granulation to independently control the playback speed and transposition (in cents) of the incoming signal. This allows for dynamic manipulation of audio characteristics, similar to `pvoc.player~` but designed for live processing.",
     "categories": [
-        "Granular",
-        "Partial Tracking"
+        "Granular"
     ]
 }

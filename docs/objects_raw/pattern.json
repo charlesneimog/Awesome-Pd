@@ -20,8 +20,10 @@
     ],
     "ai": true,
     "title": "pattern",
-    "description": "The `pattern` object is a rhythmic pattern sequencer that outputs note durations based on a defined sequence. Durations can be specified as floats or fractions (where 1 is a whole note), with negative values indicating rests, and a `|` symbol separating bars. It supports setting tempo, starting/stopping, and dynamically updating sequences, making it suitable for complex rhythmic generation.",
+    "description": "The `pattern` object is a rhythmic sequencer that defines musical patterns using note durations, which can be specified as floats or fractions (where `1` is a whole note) with negative values indicating rests. It allows for tempo control and can be started or stopped, outputting note events or indices. This object is ideal for generating complex rhythmic sequences and integrates well with other sequencing objects like `sequencer` or `score2`.",
     "categories": [
-        "Sequencers"
+        "Sequencers",
+        "Procedural",
+        "Math"
     ]
 }

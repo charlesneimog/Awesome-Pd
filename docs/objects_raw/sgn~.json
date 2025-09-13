@@ -23,5 +23,11 @@
     "description": "The `sgn~` object calculates the signum of an incoming audio signal, outputting `1` for positive values, `-1` for negative values, and `0` for zero. Part of the zexy library, this is an abstraction; an external version is available for improved performance.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "absgn~",
+        "abs~",
+        "tavg~",
+        "autotune2"
     ]
 }

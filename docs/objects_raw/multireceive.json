@@ -23,5 +23,11 @@
     "description": "The `multireceive` object allows a single outlet to receive messages from multiple `send` objects. It acts as a central point for collecting data from various sources, which can be dynamically configured via its inlet. This simplifies patch wiring by consolidating multiple `receive` connections into one.",
     "categories": [
         "Routing"
+    ],
+    "similar": [
+        "receiver",
+        "multiplex",
+        "grab",
+        "demux"
     ]
 }

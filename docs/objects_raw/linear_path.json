@@ -24,5 +24,11 @@
     "categories": [
         "Data Structures",
         "Graphics"
+    ],
+    "similar": [
+        "spline_path",
+        "pix_buffer_write",
+        "gemlist",
+        "tabset"
     ]
 }

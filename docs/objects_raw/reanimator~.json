@@ -31,5 +31,11 @@
     "description": "The `reanimator~` object performs audio texture mapping by analyzing a \"texture\" sound using spectral analysis (FFT) and then re-synthesizing audio based on a \"driver\" sound. It features an internal oscillator bank for synthesis, allowing for transposition and control over synthesis parameters like threshold and playback speed.",
     "categories": [
         "Partial Tracking"
+    ],
+    "similar": [
+        "residency~",
+        "resent~",
+        "pvoc.freeze~",
+        "freeze~"
     ]
 }

@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "lcm",
-    "description": "The `lcm` object calculates the least common multiple (LCM) of two or more numbers. It truncates float inputs to integers for calculation, treating negative values and zero (as one) appropriately. The object can compute the LCM of two numbers via its inlets or a list of numbers provided to its left inlet.",
+    "description": "The `lcm` object calculates the least common multiple (LCM) of two or more floating-point numbers. It can receive two individual float inputs or a list of floats to compute their LCM. The result is output as a float.",
     "categories": [
         "Math"
     ]

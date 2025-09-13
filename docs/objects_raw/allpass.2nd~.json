@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "allpass.2nd~",
-    "description": "The `allpass.2nd~` object is a 2nd order allpass filter that shifts the phase of an audio signal from 0 to 360 degrees across the frequency spectrum. Its behavior is controlled by a center frequency and a resonance (Q or bandwidth) parameter. When mixed with the original signal, it can create comb filtering effects by phase opposition.",
+    "description": "`allpass.2nd~` is a second-order allpass filter that shifts the phase of an incoming signal without altering its amplitude. It allows control over the center frequency, where the phase shift is 180 degrees, and the steepness of this shift via a Q or bandwidth parameter. This object is useful for phase manipulation, creating comb filtering effects when mixed with the original signal, or as a building block for more complex audio effects.",
     "categories": [
-        "Filters",
-        "Math"
+        "Filters"
     ]
 }

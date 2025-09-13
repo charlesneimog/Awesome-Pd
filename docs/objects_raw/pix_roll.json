@@ -23,5 +23,11 @@
     "description": "The `pix_roll` object scrolls or rolls an image, wrapping its content around the edges. It allows control over the scroll axis (horizontal or vertical) and the pixel offset, creating a visual effect similar to adjusting the vertical or horizontal hold on an old television. This can be used to create looping visual effects.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_rtx",
+        "text2d",
+        "imageVert",
+        "pix_refraction"
     ]
 }

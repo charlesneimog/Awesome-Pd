@@ -23,5 +23,11 @@
     "description": "The `pix_roi` object sets a region of interest (ROI) on an image using normalized coordinates. This defined ROI then dictates which portion of the image subsequent `pix` objects will process. It allows for operations to be applied to a specific sub-image.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_crop",
+        "pix_mask",
+        "pix_takealpha",
+        "pix_sig2pix~"
     ]
 }

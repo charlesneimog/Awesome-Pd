@@ -23,5 +23,11 @@
     "description": "The `pix_2grey` object converts an incoming pixel image (represented as a `gemlist`) to grayscale. It achieves this by setting the R, G, and B values to be equal for RGBA images, or by setting chroma values to 127 for YUV images, without altering the original colorspace.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_rgba",
+        "pix_convert",
+        "pix_yuv",
+        "pix_colormatrix"
     ]
 }

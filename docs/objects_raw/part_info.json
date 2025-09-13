@@ -23,5 +23,11 @@
     "description": "The `part_info` object provides detailed information about each particle within a particle system, typically set up with `part_head` and other `part_` objects. It outputs data for every particle per rendering cycle. Notably, `part_info` also moves the particles, making it suitable for direct rendering control but potentially problematic when used alongside `part_draw` or `part_render`.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "part_information",
+        "part_render",
+        "part_head",
+        "part_draw"
     ]
 }

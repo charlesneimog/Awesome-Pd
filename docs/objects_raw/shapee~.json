@@ -29,5 +29,11 @@
     "ai": true,
     "title": "shapee~",
     "description": "The `shapee~` object is designed to shape the frequency evolution of an audio signal. It performs frequency shaping, potentially utilizing both a frequency reference source and a formant reference source to achieve its effect.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "mindwarp~",
+        "freq2midi",
+        "xfade.mc~",
+        "xfade~"
+    ]
 }

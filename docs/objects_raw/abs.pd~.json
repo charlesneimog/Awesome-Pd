@@ -20,10 +20,10 @@
     ],
     "ai": true,
     "title": "abs.pd~",
-    "description": "The `abs.pd~` object loads a Pure Data patch as a subprocess, making it easier to manage complex patches. It automatically handles DSP state for both the parent and sub-process, and facilitates MIDI input to the subprocess. Users can interact with the subprocess by sending messages or opening its patch directly.",
+    "description": "The `abs.pd~` object loads a Pure Data patch as a subprocess, similar to `pd~`, providing 2 audio inputs and 2 audio outputs. It enhances subprocess functionality by enabling MIDI input from the parent patch and allowing users to open the subprocess patch directly for editing. This experimental object simplifies subprocess management.",
     "categories": [
-        "Procedural",
+        "Routing",
         "MIDI",
-        "MultiThreading"
+        "Patching"
     ]
 }

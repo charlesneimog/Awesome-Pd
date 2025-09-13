@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "ffdelay~",
-    "description": "The `ffdelay~` object provides a simple feed-forward audio delay with interpolation. It supports setting delay times in milliseconds or samples, and its maximum delay line size is configurable. Additionally, the delay buffer can be cleared or frozen.",
+    "description": "`ffdelay~` is a simple feed-forward audio delay line that supports interpolation (cubic spline or linear) for smooth delay time changes. It can be used to create effects like vibrato and flanging. The object allows setting the maximum delay size and can freeze or clear its internal buffer.",
     "categories": [
-        "Delay"
+        "Delay",
+        "Chorus/Flanger/Phaser"
     ]
 }

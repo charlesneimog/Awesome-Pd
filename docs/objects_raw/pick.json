@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "pick",
-    "description": "The `pick` object selects an element from an input message based on a provided element number. Positive numbers count from the beginning, while negative numbers count from the end of the message. If the requested element number is out of range, no output is produced.",
+    "description": "The `pick` object extracts a specific element from an incoming message based on a provided index. A float input determines the element's position, where negative values count from the end of the message. If the specified index is out of range, `pick` outputs nothing.",
     "categories": [
         "General Utilities"
     ]

@@ -29,5 +29,11 @@
     "ai": true,
     "title": "tSquare2D",
     "description": "The `tSquare2D` object tests if a given 2D mass position falls within a defined square region. It receives the mass's X and Y coordinates and outputs 1 if the mass is inside the square, and 0 otherwise. The square region is defined by its minimum and maximum X and Y coordinates.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "tSeg2D",
+        "tLine2D",
+        "tCube3D",
+        "tSphere3D"
+    ]
 }

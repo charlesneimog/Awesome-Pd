@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "specKurtosis",
-    "description": "The `specKurtosis` object calculates the spectral kurtosis of an audio array, serving as a non-real-time spectral descriptor. It can analyze a specified window or the entire array, with configurable windowing functions, sample rates, and spectrum types (magnitude or power). A key feature is its ability to accept pre-computed FFT or magnitude spectrum data via `chain_` messages for efficient chained analysis workflows."
+    "description": "The `specKurtosis` object calculates the spectral kurtosis of an audio array, serving as a non-real-time spectral descriptor. It can analyze a specified window or the entire array, with configurable windowing functions, sample rates, and spectrum types (magnitude or power). A key feature is its ability to accept pre-computed FFT or magnitude spectrum data via `chain_` messages for efficient chained analysis workflows.",
+    "similar": [
+        "specCentroid",
+        "specSpread",
+        "specFlatness",
+        "phaseSpec"
+    ]
 }

@@ -23,5 +23,11 @@
     "description": "The `list2int` object converts all floating-point numbers within an incoming list to integers. It processes lists containing both floats and symbols, outputting a modified list where only the float values have been cast. This object is part of the `zexy` library and is useful for data type conversion within Pure Data lists.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "any2symbol",
+        "reverse",
+        "iter",
+        "bitsafe~"
     ]
 }

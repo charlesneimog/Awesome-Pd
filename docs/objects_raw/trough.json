@@ -20,8 +20,8 @@
     ],
     "ai": true,
     "title": "trough",
-    "description": "The `trough` object compares incoming float values to a stored 'trough' (minimum) value. If the input is smaller, it becomes the new trough and is outputted, along with a `1` from the middle outlet. Otherwise, the original input is not outputted, and the right outlet sends a `1`.",
+    "description": "The `trough` object tracks a minimum (trough) value. It compares incoming floats to its current trough; if the input is smaller, it becomes the new trough and is output. It also provides outlets indicating whether a new trough was set or not, and can be initialized or updated with a list of two values.",
     "categories": [
-        "Math"
+        "General Utilities"
     ]
 }

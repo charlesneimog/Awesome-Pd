@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "pdlink",
-    "description": "The `pdlink` object enables simplified communication between different Pure Data instances, including `[pd~]` subprocesses, over a local network. It functions like `[send]` and `[receive]` for inter-patch messaging, but extends this capability across separate Pd applications without requiring explicit network or OSC configuration. It uses a symbol as an address for sending and receiving data.",
+    "description": "The `pdlink` object enables seamless communication between different Pure Data instances, including `pd~` subprocesses, across a local network. It functions similarly to `[send]` and `[receive]` but simplifies network messaging by abstracting away explicit network or OSC configuration. Users can specify a symbol address for communication and utilize flags like `-debug` for connection status or `-local` for localhost-only connections.",
     "categories": [
-        "Routing",
-        "Networking"
+        "Networking",
+        "Routing"
     ]
 }

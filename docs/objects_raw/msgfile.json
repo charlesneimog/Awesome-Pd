@@ -25,5 +25,11 @@
         "File I/O",
         "Data Structures",
         "Text"
+    ],
+    "similar": [
+        "fwriteln",
+        "freadln",
+        "coll",
+        "dir"
     ]
 }

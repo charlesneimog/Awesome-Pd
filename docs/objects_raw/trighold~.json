@@ -20,6 +20,8 @@
     ],
     "ai": true,
     "title": "trighold~",
-    "description": "The `trighold~` object in Pure Data holds an audio signal's value when a trigger occurs. A trigger is detected as a transition from zero to a non-zero value in the input signal. It can be cleared, setting its output to zero.",
-    "categories": []
+    "description": "The `trighold~` object holds the value of an incoming trigger signal. When a trigger occurs, its value is captured and maintained at the output. A `clear` message can reset the held value to zero.",
+    "categories": [
+        "General Utilities"
+    ]
 }

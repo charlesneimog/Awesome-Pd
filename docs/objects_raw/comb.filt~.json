@@ -20,10 +20,9 @@
     ],
     "ai": true,
     "title": "comb.filt~",
-    "description": "The `comb.filt~` object implements a feedback comb filter, designed primarily for use as a resonator. It processes an audio signal by adding a delayed and attenuated version of itself, creating a series of notches and peaks in the frequency response. Parameters include delay time (in Hz or milliseconds) and a decay coefficient, which can be set as a 60dB decay time (t60) or a direct gain value.",
+    "description": "The `comb.filt~` object implements a resonator comb filter, which can be configured for decay time (t60) or direct gain feedback. It takes an audio signal and allows control over the filter's resonant frequency and decay characteristics, making it suitable for creating resonant effects and short delays.",
     "categories": [
         "Delay",
-        "Filters",
-        "Reverb"
+        "Filters"
     ]
 }

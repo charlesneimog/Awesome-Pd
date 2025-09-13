@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "numbox~",
-    "description": "The `numbox~` object is a graphical user interface element in Pure Data designed to display and generate audio signal values. It can operate in a monitoring mode, showing incoming signal values at a specified rate, or in a generation mode, where users can interactively set signal values via typing, dragging, or arrow keys, with an optional ramp time for smooth transitions.",
+    "description": "The `numbox~` object is a GUI number box designed for signal values. It can operate in two modes: either displaying/monitoring incoming audio signals at a specified refresh rate, or generating a constant signal value with an optional ramp time. Users can interact with it via mouse or keyboard to set values when in generation mode, and customize its appearance (font size, width, colors).",
     "categories": [
         "GUI",
-        "Control I/O"
+        "Control IO"
     ]
 }

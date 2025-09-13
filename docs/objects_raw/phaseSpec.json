@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "phaseSpec",
-    "description": "The `phaseSpec` object from `timbreIDLib` calculates the phase spectrum of a specified window within an audio sample array. It supports various windowing functions and can process pre-computed FFT data, making it suitable for non-real-time spectral analysis."
+    "description": "The `phaseSpec` object from `timbreIDLib` calculates the phase spectrum of a specified window within an audio sample array. It supports various windowing functions and can process pre-computed FFT data, making it suitable for non-real-time spectral analysis.",
+    "similar": [
+        "magSpec",
+        "specSkewness",
+        "specSpread",
+        "specKurtosis"
+    ]
 }

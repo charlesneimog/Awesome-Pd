@@ -23,5 +23,11 @@
     "description": "The `lpt` object in Pure Data allows writing and reading data to and from a computer's parallel port. It can write 8-bit words and read input bits, enabling direct hardware interfacing. Usage varies by operating system, often requiring specific drivers or root privileges, and it is not supported on macOS.",
     "categories": [
         "Control I/O"
+    ],
+    "similar": [
+        "gemtablet",
+        "keypress",
+        "gemkeyboard",
+        "keycode"
     ]
 }

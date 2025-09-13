@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "barkSpecSlope~",
-    "description": "The `barkSpecSlope~` object calculates the slope of the best-fit line through the data points of a Bark spectrum. It processes an audio input signal and, when triggered by a bang, outputs this slope for the current analysis window. This object is primarily used as a feature for real-time timbre identification and classification."
+    "description": "The `barkSpecSlope~` object calculates the slope of the best-fit line through the data points of a Bark spectrum. It processes an audio input signal and, when triggered by a bang, outputs this slope for the current analysis window. This object is primarily used as a feature for real-time timbre identification and classification.",
+    "similar": [
+        "waveSlope~",
+        "specSlope~",
+        "barkSpecSlope",
+        "barkSpecCentroid~"
+    ]
 }

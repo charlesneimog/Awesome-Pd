@@ -20,8 +20,8 @@
     ],
     "ai": true,
     "title": "scala",
-    "description": "The `scala` object imports musical scales from `.scl` files, a format used by the Scala software for microtonal tunings. It converts these scales into a list of cents, which can then be used by other Pure Data objects. The object also provides an outlet for metadata such as the file and scale names.",
+    "description": "The `scala` object imports musical scales from `.scl` files, converting them into a list of cents for use within Pure Data. It also provides metadata about the loaded scale, such as its file and scale names. The object can open a file dialog for selection or load a specified `.scl` file directly.",
     "categories": [
-        "File I/O"
+        "File IO"
     ]
 }

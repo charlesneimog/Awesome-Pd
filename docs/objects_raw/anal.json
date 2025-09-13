@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "anal",
-    "description": "The `anal` object reports the number of times it receives a specific number pair, effectively building a histogram of occurrences. It is primarily used as input for `cyclone/prob` to implement Markov Chains, allowing for the creation of transition probabilities between data points.",
+    "description": "The `anal` object calculates and stores transition probabilities between sequences of numbers, primarily for implementing Markov Chains. It reports how many times a number pair has been received, outputting the previous number, current number, and their occurrence count. This is useful for generating less random-sounding sequences in algorithmic composition, often used as input for objects like `cyclone/prob`.",
     "categories": [
-        "Patching",
-        "Math"
+        "Statistical Models",
+        "Algorithmic Composition"
     ]
 }

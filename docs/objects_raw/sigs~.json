@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "sigs~",
-    "description": "The `sigs~` object generates constant multichannel audio signals from a list of numerical arguments. It functions similarly to `sig~` but extends its capability to multiple channels, creating a dedicated inlet for each argument. This allows users to easily create and control static multichannel audio signals within a patch.",
+    "description": "`sigs~` is a multichannel signal generator similar to `sig~`. It converts a float or a list of numbers into a multichannel signal, with the number of channels determined by its creation arguments. Each argument creates a separate inlet for controlling a specific channel.",
     "categories": [
         "Multichannel"
     ]

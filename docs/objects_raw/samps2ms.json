@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "samps2ms",
-    "description": "The `samps2ms` object is a simple abstraction that converts a time value given in audio samples into milliseconds. It performs this conversion using the formula: `ms = 1000 * samples / samplerate`. This is useful for translating sample-based durations into a more human-readable time unit.",
+    "description": "The `samps2ms` object is a simple utility that converts a time value from samples to milliseconds. It performs this conversion using the formula: `ms = 1000 * samples / samplerate`, where `samplerate` is the current audio sample rate. This object is useful for precise time calculations within Pure Data patches.",
     "categories": [
-        "Math"
+        "Math",
+        "General Utilities"
     ]
 }

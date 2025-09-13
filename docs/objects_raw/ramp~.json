@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "ramp~",
-    "description": "The `ramp~` object generates a linear signal that ramps between a specified minimum and maximum value. It can be configured with an increment, a reset point, and various modes (wrap, clip, reset) to control its behavior upon reaching boundaries. This versatile object is useful for creating envelopes, controlling playback speed for sample reading (e.g., with `tabread4~`), or even constructing basic oscillators.",
+    "description": "The `ramp~` object generates a linear signal ramp between user-defined minimum and maximum values, automatically looping or clipping based on its mode. It is highly versatile, functioning as a control signal for tasks like driving `tabread4~` for sample playback at variable speeds, or as a basic oscillator similar to `phasor~`.",
     "categories": [
-        "Envelopes"
+        "Math",
+        "General Utilities"
     ]
 }

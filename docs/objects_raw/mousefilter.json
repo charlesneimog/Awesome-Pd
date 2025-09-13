@@ -20,8 +20,8 @@
     ],
     "ai": true,
     "title": "mousefilter",
-    "description": "The `mousefilter` object acts as a gate, preventing messages from passing through while a mouse button is held down. Upon release of the mouse button, it outputs the last message received during the click. This allows for filtering or capturing data based on mouse interaction.",
+    "description": "The `mousefilter` object controls the flow of messages based on mouse button activity. It blocks all incoming messages while the mouse button is held down, and outputs the last received message only when the mouse button is released. This allows for interactive gating of data streams using mouse clicks.",
     "categories": [
-        "Control I/O"
+        "Control IO"
     ]
 }

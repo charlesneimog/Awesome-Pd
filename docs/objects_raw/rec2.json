@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "rec2",
-    "description": "The `rec2` object records incoming MIDI note messages (pitch and velocity) into a `[text]` object. This recorded data can then be used by a `[text sequence]` object for playback, effectively capturing and storing MIDI sequences.",
+    "description": "The `rec2` object (or `record`) records sequences of musical events, specifically MIDI pitch and velocity, into a `[text]` object. This recorded data is formatted for use with objects like `[text sequence]` for playback. A `bang` message can reset the recording.",
     "categories": [
-        "MIDI"
+        "MIDI",
+        "Text"
     ]
 }

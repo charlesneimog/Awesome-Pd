@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "matrix~",
-    "description": "The `matrix~` object routes and mixes audio signals from multiple inlets to multiple outlets. It supports a \"binary\" mode for simple on/off connections, which can cause clicks, and a \"non-binary\" mode that allows for gain control and ramp times for smoother transitions. When multiple inlets route to the same outlet, their signals are summed.",
+    "description": "The `matrix~` object functions as a signal routing and mixing matrix, enabling dynamic redirection of audio signals from multiple inlets to various outlets. It supports both a \"binary\" mode for simple on/off connections and a \"non-binary\" mode that allows for precise gain control and ramp times, facilitating smooth transitions and crossfades. This object is essential for complex audio signal flow management within a patch.",
     "categories": [
         "Routing",
         "Multichannel"

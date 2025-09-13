@@ -25,5 +25,11 @@
         "File I/O",
         "Graphics",
         "Samplers"
+    ],
+    "similar": [
+        "pix_movie",
+        "pix_record",
+        "pix_frei0r",
+        "player~"
     ]
 }

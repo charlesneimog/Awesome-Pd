@@ -23,5 +23,11 @@
     "description": "The `z~` object provides a sample-wise delay for audio signals, effectively implementing a `z^-N` delay. It is primarily designed to facilitate the creation of Finite Impulse Response (FIR) filters, such as a moving average filter, by delaying the input signal by a specified number of samples.",
     "categories": [
         "Delay"
+    ],
+    "similar": [
+        "ffdelay~",
+        "pipe2",
+        "trig.delay2~",
+        "revdelay~"
     ]
 }

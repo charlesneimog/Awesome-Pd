@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "flanger~",
-    "description": "The `flanger~` object is a simple audio effect that creates a flanging sound. It modulates a short delay line, with control over the modulation rate, depth, and a feedback/feedforward coefficient. The modulation waveform can be set to sine (default) or triangular.",
+    "description": "The `flanger~` object is a simple audio effect that applies flanging to an input signal. It allows control over the modulation rate (in Hz), depth (in milliseconds), and a feedback/feedforward coefficient. Users can also select between sine and triangular waveforms for the internal modulation.",
     "categories": [
-        "Chorus/Flanger/Phaser"
+        "Chorus/Flanger/Phaser",
+        "Delay"
     ]
 }

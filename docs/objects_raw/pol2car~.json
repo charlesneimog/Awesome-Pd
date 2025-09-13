@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "pol2car~",
-    "description": "The `pol2car~` object converts audio signals from polar coordinates (amplitude and phase) to Cartesian coordinates (real and imaginary parts). It is primarily used in spectral processing workflows, allowing for manipulation of frequency domain data in a more intuitive polar form after an FFT and before an inverse FFT.",
+    "description": "The `pol2car~` object converts polar coordinates (amplitude and phase) into cartesian coordinates (real and imaginary parts). It is primarily used in spectral processing workflows, often in conjunction with `car2pol~`, to facilitate conversions between polar and cartesian forms required for FFT and iFFT operations in Pure Data. It supports multichannel signals.",
     "categories": [
         "Math",
-        "Multichannel"
+        "Multichannel",
+        "General Utilities"
     ]
 }

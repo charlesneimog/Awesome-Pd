@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "mstosamps~",
-    "description": "The `mstosamps~` object converts a time value in milliseconds to the corresponding number of audio samples, taking the current sample rate into account. It accepts both float and signal inputs for the millisecond value. A signal input will output a signal, while a float input provides both float and signal outputs, with the signal input taking precedence if both are present.",
+    "description": "The `mstosamps~` object converts a time value in milliseconds into the corresponding number of audio samples, taking the current sample rate into account. It accepts both float and signal inputs for the millisecond value, outputting the sample count as a float and/or signal. This object is particularly useful for setting delay times in sample-based audio processing objects like `delay~`.",
     "categories": [
-        "Math"
+        "Math",
+        "General Utilities"
     ]
 }

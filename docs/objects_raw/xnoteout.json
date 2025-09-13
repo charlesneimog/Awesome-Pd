@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "xnoteout",
-    "description": "The `xnoteout` object sends MIDI note messages, offering enhanced control over the standard `noteout` object by including both Note On and Note Off (release) velocities. It takes inputs for MIDI pitch, velocity, note state (on/off), and MIDI channel to generate these messages.",
+    "description": "The `xnoteout` object sends MIDI Note On and Note Off messages, uniquely supporting both Note On and Note Off (release) velocities for enhanced control. It accepts inputs for MIDI pitch, velocity, note state (on/off), and channel, providing a more comprehensive MIDI output solution than the standard `noteout` object. It can also output a raw MIDI data stream.",
     "categories": [
         "MIDI"
     ]

@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "button",
-    "description": "The `button` object is a graphical user interface element in Pure Data that responds to mouse clicks. It operates in three modes: latch (default), toggle, and bang, outputting a bang or a float (1 or 0) based on its state and mode. Its appearance, including size and color, can be customized via messages.",
+    "description": "The `button` object is a graphical user interface element in Pure Data that functions as a clickable button. It supports three modes: `latch` (default), `toggle`, and `bang`, determining its behavior upon mouse clicks or bang/float inputs. It outputs bangs or 0/1 floats based on its state and mode, and its appearance can be customized with size and color messages.",
     "categories": [
-        "GUI"
+        "GUI",
+        "Control IO"
     ]
 }

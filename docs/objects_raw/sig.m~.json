@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "sig.m~",
-    "description": "The `sig.m~` object generates a constant audio signal. It can be set to a specific signal value, which it then outputs. This object is useful for providing a fixed signal input to other audio processing modules.",
+    "description": "`sig.m~` is a signal generator. It produces an audio signal, likely a basic waveform, for use in sound synthesis or processing.",
     "categories": [
         "Oscillators"
     ]

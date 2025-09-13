@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "popmenu",
-    "description": "The `popmenu` object provides a graphical user interface (GUI) popup menu in Pure Data. Users can click on it to select elements (symbols or floats) from a customizable list, with output options for the index, the selected item, or both. It supports various messages for appearance customization, state saving, and communication within a patch.",
+    "description": "The `popmenu` object is a graphical user interface element that displays a popup menu. It allows users to select from a list of items (floats or symbols), outputting the selected item's index, the item itself, or both. It supports various customization options for appearance, behavior, and communication with other Pure Data objects.",
     "categories": [
-        "GUI"
+        "GUI",
+        "Control IO"
     ]
 }

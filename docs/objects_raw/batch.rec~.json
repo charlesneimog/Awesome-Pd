@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "batch.rec~",
-    "description": "`batch.rec~` is a convenient Pure Data abstraction for batch recording audio signals to a sound file. It simplifies the process of capturing audio by allowing users to specify a recording duration in milliseconds and a target file name, either as an argument or via a dialog box. Upon completion, it outputs a bang, making it suitable for automated recording workflows.",
+    "description": "The `batch.rec~` object is a convenient abstraction for batch recording audio signals to a sound file, leveraging `writesf~` internally. It allows users to specify the recording duration in milliseconds and the output filename, supporting up to 64 channels. A dialog box can be opened to select the save file, and a `bang` is output upon completion.",
     "categories": [
-        "File I/O",
-        "Multichannel"
+        "File IO",
+        "Multichannel",
+        "Audio IO"
     ]
 }

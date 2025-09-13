@@ -6,12 +6,12 @@
     ],
     "download_link": "",
     "available_on_deken": true,
-    "bug_reports": "https://git.iem.at/pd/zexy/issues",
+    "bug_reports": "https://github.com/porres/pd-else/issues",
     "developers": [
-        "Johannes M. Zmölnig"
+        "Alexandre Torres Porres"
     ],
     "part_of_library": true,
-    "library_name": "zexy",
+    "library_name": "else",
     "articles": [],
     "videos": [],
     "musics": [],
@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "sort",
-    "description": "The `sort` object sorts a list of floating-point numbers using a shell sort algorithm. It outputs the sorted list and, optionally, the original indices of the sorted elements. It can sort in ascending or descending order, with ascending as the default.",
+    "description": "The `sort` object sorts incoming messages, typically lists of numbers, in either ascending or descending order. It can output the sorted list itself or a list of indices representing the sorted order of the original input. This object is useful for organizing data streams based on numerical value.",
     "categories": [
+        "General Utilities",
         "Data Structures"
     ]
 }

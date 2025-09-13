@@ -31,5 +31,11 @@
     "description": "The `xsyn~` object performs cross synthesis by filtering its first audio input with the spectral characteristics of its second audio input. This allows for the imposition of one sound's timbral qualities onto another.",
     "categories": [
         "Filters"
+    ],
+    "similar": [
+        "burrow~",
+        "hip.bw~",
+        "mindwarp~",
+        "buffir~"
     ]
 }

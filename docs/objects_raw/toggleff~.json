@@ -20,6 +20,8 @@
     ],
     "ai": true,
     "title": "toggleff~",
-    "description": "The `toggleff~` object is a signal-rate toggle switch that outputs either 0 or 1. It flips its output state (from 0 to 1 or 1 to 0) whenever its input signal crosses from non-positive to positive, acting as a trigger. It can be initialized with an argument to set its starting output state.",
-    "categories": []
+    "description": "The `toggleff~` object is a signal-triggered toggle that switches its output between 0 and 1 each time it receives an input signal. It can be initialized to either 0 or 1 using an optional float argument.",
+    "categories": [
+        "Logic"
+    ]
 }

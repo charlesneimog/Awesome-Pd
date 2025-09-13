@@ -24,5 +24,11 @@
     "categories": [
         "File I/O",
         "Graphics"
+    ],
+    "similar": [
+        "pix_multiimage",
+        "pix_writer",
+        "pix_movie",
+        "pix_texture"
     ]
 }

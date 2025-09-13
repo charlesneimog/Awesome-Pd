@@ -23,5 +23,11 @@
     "description": "The `unpack~` object converts a list of floating-point numbers into an audio signal. It takes a list of floats as its inlet and outputs a signal. An optional creation argument `bufsize` (defaulting to 64 samples) can be used to control the buffer size, effectively acting as a simple sample rate reducer.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "pack~",
+        "l2i",
+        "l",
+        "repack"
     ]
 }

@@ -20,10 +20,8 @@
     ],
     "ai": true,
     "title": "peak",
-    "description": "The `peak` object compares incoming numbers to a stored \"peak\" (maximum) value. If an input is greater than the current peak, it becomes the new peak and is output from the left outlet. The middle and right outlets indicate whether a new peak was set or not, respectively. It can also be initialized with an argument or have its peak value set via its right inlet.",
+    "description": "The `peak` object tracks and outputs the highest float value it has received. When a new input exceeds the current peak, it becomes the new peak and is output, while the middle outlet sends `1` to indicate a new peak. The right outlet sends `1` when an input does not set a new peak.",
     "categories": [
-        "General Utilities",
-        "Logic",
         "Math"
     ]
 }

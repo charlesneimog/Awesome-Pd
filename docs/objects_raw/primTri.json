@@ -23,5 +23,11 @@
     "description": "The `primTri` object renders a triangle with gradient colors. Its corner points can be precisely defined by XYZ coordinates and individual RGB or RGBA color values. It takes a `gemlist` as input and outputs a `gemlist`, making it suitable for integration into GEM graphics rendering chains.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "colorSquare",
+        "translate",
+        "diffuse",
+        "pix_colorreduce"
     ]
 }

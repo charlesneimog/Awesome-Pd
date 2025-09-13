@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "forward",
-    "description": "The `forward` object sends messages to various destinations, allowing the target to change dynamically with each message, similar to using semicolons in message boxes. It can send to any destination that a `send` object can, including arrays or the `pd` object. However, this object is considered redundant and deprecated; it's recommended to use `send` or message boxes directly instead.",
+    "description": "The `forward` object in Pure Data is designed to send messages to various destinations, allowing the target to change dynamically with each message. It functions similarly to the `send` object but offers more flexibility in directing messages, akin to using semicolons within a message box. However, it is considered redundant and deprecated, with direct use of `send` or message boxes being the recommended approach.",
     "categories": [
-        "Routing",
-        "General Utilities"
+        "Routing"
     ]
 }

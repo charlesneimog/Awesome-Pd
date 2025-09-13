@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "cartopol",
-    "description": "The `cartopol~` object converts Cartesian coordinates (real and imaginary parts) into polar coordinates (amplitude and phase). It takes two float inputs representing the real and imaginary components and outputs the corresponding amplitude and phase (in radians, from -π to π). This is useful for complex number manipulation or signal processing where magnitude and angle are preferred representations.",
+    "description": "The `cartopol~` object converts Cartesian coordinates (real and imaginary parts) from signal inputs into polar coordinates (amplitude and phase) as signal outputs. This fundamental mathematical transformation is crucial for various audio signal processing tasks, particularly in frequency domain analysis and synthesis.",
     "categories": [
         "Math"
     ]

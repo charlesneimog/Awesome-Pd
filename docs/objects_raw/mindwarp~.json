@@ -31,5 +31,11 @@
     "description": "The `mindwarp~` object performs spectral envelope warping, primarily utilizing frequency shaping. It is designed to manipulate the spectral characteristics of a signal, often in conjunction with pitch-scaling or phase vocoder processes (like `pvoc~`). Users can control the warping effect using parameters such as \"warp factor\" and \"shape width\".",
     "categories": [
         "Filters"
+    ],
+    "similar": [
+        "multyq~",
+        "xsyn~",
+        "highshelf~",
+        "burrow~"
     ]
 }

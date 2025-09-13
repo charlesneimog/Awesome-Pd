@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "glide~",
-    "description": "The `glide~` object smooths changes in its signal input, creating a portamento effect. It takes a glide time in milliseconds as an argument or via its right inlet, and supports both linear and exponential gliding. This object is useful for smoothing parameter changes or creating pitch glides with multichannel signal support.",
+    "description": "The `glide~` object generates a smooth glide or portamento effect on incoming audio signals, smoothing out sudden changes in value over a specified time in milliseconds. It supports multichannel signals and allows for setting an exponential factor to control the curve of the glide.",
     "categories": [
         "Multichannel"
     ]

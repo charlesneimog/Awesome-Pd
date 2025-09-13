@@ -29,5 +29,11 @@
     "ai": true,
     "title": "tCircle3D",
     "description": "The `tCircle3D` object is designed for testing the 3D position of a \"mass\" relative to a user-defined circular region. It outputs a binary value (0 or 1) indicating whether the mass is within the specified circular bounds, along with its distance and speed relative to the circle's center. This object is useful for spatial checks in 3D environments.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "tCircle2D",
+        "tCube3D",
+        "iCircle3D",
+        "tLine2D"
+    ]
 }

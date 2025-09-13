@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "bpbank~",
-    "description": "`bpbank~` creates a bank of bandpass filters, allowing independent control over the frequency, amplitude, and Q (resonance) of each filter via list inputs. It processes an input signal through these filters and can output each filtered band to a separate channel, with optional ramp times for parameter changes.",
+    "description": "`bpbank~` is a bank of `bandpass~` filters, allowing users to specify frequencies, amplitudes, Q values, and ramp times for each filter in the bank via lists. The number of filters is dynamically set by the size of the input parameter lists. It also supports multichannel output, where each filter's output can be sent to a separate channel.",
     "categories": [
         "Filters",
         "Multichannel"

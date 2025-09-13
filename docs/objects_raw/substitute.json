@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "substitute",
-    "description": "The `substitute` object replaces elements within an input message. It can replace all occurrences of a specified element with another, or, if a third argument is provided, it will only replace the first occurrence.",
+    "description": "The `substitute` object replaces elements within an incoming message. It can replace all occurrences of a specified element with another, or, if a third argument is provided, it will only replace the first occurrence. This object is useful for dynamically modifying message content in Pure Data patches.",
     "categories": [
         "General Utilities"
     ]

@@ -23,5 +23,11 @@
     "description": "The `pix_motionblur` object applies a simple and fast motion blur effect to an incoming image stream. It achieves this by blending the current image with a historical image, controlled by a `blur-factor` float inlet. This object is designed for time-based visual effects within GEM.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_blur",
+        "pix_mask",
+        "pix_mix",
+        "pix_takealpha"
     ]
 }

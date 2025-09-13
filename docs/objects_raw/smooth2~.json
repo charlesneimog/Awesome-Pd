@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "smooth2~",
-    "description": "The `smooth2~` object provides signal smoothing with independent ramp-up and ramp-down times, useful for creating portamento or glide effects between signal values. It can also apply a curve to the ramp, similar to envelope generators like `asr~` and `adsr~`, and supports multichannel audio processing.",
+    "description": "`smooth2~` is a signal smoothing object similar to `smooth~`, but it allows for distinct ramp-up and ramp-down times. It can be used to create portamento effects or smooth out incoming signals, with optional curve control for the ramp shape. It also supports multichannel signals, applying individual glide times per channel.",
     "categories": [
         "Multichannel",
-        "General Utilities"
+        "Envelopes"
     ]
 }

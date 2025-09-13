@@ -20,10 +20,10 @@
     ],
     "ai": true,
     "title": "out.mc~",
-    "description": "The `out.mc~` object routes multichannel audio signals to specified `dac~` output channels, with a default starting channel of 1. It provides controls for muting, toggling DSP on/off without clicks, setting a ramp time for gain changes, and adjusting maximum gain. The object also features three scaling modes (quartic, dB, and linear) for its internal slider values, allowing for flexible gain control.",
+    "description": "The `out.mc~` object provides click-free control over multichannel audio output, routing signals to specified `dac~` channels. It offers dynamic control over DSP engine state, mute/unmute, and gain with selectable scaling modes (quartic, dB, linear), including a configurable ramp time for smooth transitions.",
     "categories": [
         "Routing",
         "Multichannel",
-        "Audio I/O"
+        "Audio IO"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `shearYZ` object applies a shear transformation to the current OpenGL transformation matrix, affecting subsequent graphical rendering. It modifies the Y translation of objects based on their Z position and a given shear factor. This allows for visual distortion along the Y-Z plane.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "shearZX",
+        "shearZY",
+        "shearXY",
+        "shearYX"
     ]
 }

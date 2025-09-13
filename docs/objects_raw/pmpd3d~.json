@@ -32,5 +32,11 @@
     "categories": [
         "Physical Modeling",
         "Multichannel"
+    ],
+    "similar": [
+        "pmpd~",
+        "pmpd2d~",
+        "link3D",
+        "pmpd2d"
     ]
 }

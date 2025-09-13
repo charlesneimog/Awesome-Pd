@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "delace~",
-    "description": "The `delace~` object deinterleaves a multichannel audio signal, splitting it into multiple separate signal outlets. The number of outlets is determined by its creation argument. It can optionally pad deinterleaved signals with zeros using the `-z` flag to ensure consistent channel counts across outputs.",
+    "description": "The `delace~` object deinterleaves a multichannel signal, distributing its channels across multiple outlets. The number of outlets determines how the signal is split. An optional `-z` flag can be used to pad output multichannel signals with zeros if they are not of the same size, ensuring all outputs match the channel count of the largest signal.",
     "categories": [
         "Multichannel",
         "Routing"

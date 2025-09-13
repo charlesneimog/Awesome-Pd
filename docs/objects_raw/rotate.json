@@ -6,12 +6,12 @@
     ],
     "download_link": "",
     "available_on_deken": true,
-    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "bug_reports": "https://github.com/porres/pd-else/issues",
     "developers": [
-        "Johannes M. Zmölnig"
+        "Alexandre Torres Porres"
     ],
     "part_of_library": true,
-    "library_name": "zexy",
+    "library_name": "else",
     "articles": [],
     "videos": [],
     "musics": [],
@@ -20,8 +20,8 @@
     ],
     "ai": true,
     "title": "rotate",
-    "description": "The `rotate` object in GEM applies a rotation to the current transformation matrix. It takes a `gemlist` as input and outputs a modified `gemlist`. Users can specify the rotation amount in degrees and the axis of rotation (X, Y, Z vector) either as creation arguments or via its inlets.",
+    "description": "The `rotate` object reorders elements within incoming messages or lists. It takes a rotation number as an argument or inlet, which determines how the elements are shifted. This allows for dynamic rearrangement of data sequences.",
     "categories": [
-        "Graphics"
+        "Data Structures"
     ]
 }

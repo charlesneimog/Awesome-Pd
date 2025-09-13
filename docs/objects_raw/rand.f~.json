@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "rand.f~",
-    "description": "The `rand.f~` object generates random floating-point values within a specified range. It is triggered by signal transitions in its left inlet. Users can set a seed for reproducible random sequences and define the output range and number of channels.",
+    "description": "The `rand.f~` object generates pseudo-random floating-point values within a specified range. It is triggered by signal transitions (positive to negative or vice-versa) or a `bang` message. The object supports seeding to ensure reproducible sequences of random numbers.",
     "categories": [
-        "Stochastic",
-        "Multichannel"
+        "Stochastic"
     ]
 }

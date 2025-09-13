@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "plate.rev~",
-    "description": "The `plate.rev~` object is a Pure Data abstraction that implements a stereo plate reverb audio effect. Based on Dattorro's model, it takes a mono audio input and produces a stereo output, allowing control over parameters such as pre-delay, filter cutoff, high-frequency damping, room size, and wet/dry mix.",
+    "description": "`plate.rev~` is a stereo plate reverb abstraction based on Dattorro's model, designed for adding reverberation to mono audio signals. It provides control over parameters such as pre-delay, filter cutoff, high-frequency damping, room size, and wet/dry mix. This object is suitable for simulating realistic or stylized reverberant spaces.",
     "categories": [
-        "Reverb",
-        "Multichannel"
+        "Reverb"
     ]
 }

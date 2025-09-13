@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "rdiv",
-    "description": "The `rdiv` (or `!/`) object performs division with reversed inlet behavior compared to the standard `/` object. It divides the value received in its right (cold) inlet by the value received in its left (hot) inlet. This object is useful when the divisor is the incoming message.",
+    "description": "`rdiv` performs division, similar to the `[/]` object, but with reversed inlet functionality. The left (hot) inlet receives the divisor, and the right (cold) inlet receives the dividend. It outputs the result of the division.",
     "categories": [
         "Math"
     ]

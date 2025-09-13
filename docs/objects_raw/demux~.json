@@ -23,5 +23,11 @@
     "description": "The `demux~` object acts as a signal demultiplexer, routing a single audio signal from its inlet to one of its multiple outlets. The number of available outlets is determined by the arguments provided when the object is created. This allows for dynamic selection of a destination for an audio stream.",
     "categories": [
         "Routing"
+    ],
+    "similar": [
+        "demux",
+        "demultiplex~",
+        "demultiplex",
+        "mux~"
     ]
 }

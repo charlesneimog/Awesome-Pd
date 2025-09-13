@@ -31,5 +31,11 @@
     "description": "The `mass` object simulates a physical mass, calculating its position, velocity, and applied force based on incoming forces and its defined weight. It allows setting minimum and maximum position limits and can be reset. This object is primarily used for physical modeling within Pure Data.",
     "categories": [
         "Physical Modeling"
+    ],
+    "similar": [
+        "mass3D",
+        "pmpd2d~",
+        "iPlane3D",
+        "iCircle3D"
     ]
 }

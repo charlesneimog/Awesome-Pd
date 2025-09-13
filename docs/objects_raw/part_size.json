@@ -23,5 +23,11 @@
     "description": "The `part_size` object controls the size of particles within a particle system, typically used in graphical contexts like GEM. It allows for dynamic adjustment of particle size and can be initialized with an argument. The default particle size is 1.0f.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "part_head",
+        "part_render",
+        "part_vertex",
+        "part_follow"
     ]
 }

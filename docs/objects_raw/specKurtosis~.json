@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "specKurtosis~",
-    "description": "The `specKurtosis~` object calculates the spectral kurtosis of an audio signal, quantifying the peakedness of its spectrum. It is useful for distinguishing between tonal and noisy sounds, with higher values indicating more peaked spectra (like a sine wave) and lower values for flatter spectra (like noise). This descriptor can be used for real-time timbre identification and offers configurable windowing and spectrum type (magnitude or power)."
+    "description": "The `specKurtosis~` object calculates the spectral kurtosis of an audio signal, quantifying the peakedness of its spectrum. It is useful for distinguishing between tonal and noisy sounds, with higher values indicating more peaked spectra (like a sine wave) and lower values for flatter spectra (like noise). This descriptor can be used for real-time timbre identification and offers configurable windowing and spectrum type (magnitude or power).",
+    "similar": [
+        "barkSpecKurtosis~",
+        "specKurtosis",
+        "barkSpecFlatness~",
+        "barkSpecKurtosis"
+    ]
 }

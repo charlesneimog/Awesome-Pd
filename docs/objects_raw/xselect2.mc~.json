@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "xselect2.mc~",
-    "description": "`xselect2.mc~` is a multichannel signal selector that crossfades between adjacent input channels. It allows for dynamic selection of an input channel, controlled by a signal, and features a 'spread' parameter to adjust the crossfade width. It supports both indexed and circular selection modes, making it suitable for smooth transitions between multiple audio sources.",
+    "description": "The `xselect2.mc~` object selects and crossfades between multiple input audio channels based on a signal-rate index or position. It supports indexed and circular modes for channel selection, and a 'spread' parameter controls the crossfade width. This allows for smooth transitions between adjacent channels using a sine/cosine function.",
     "categories": [
         "Routing",
         "Multichannel"

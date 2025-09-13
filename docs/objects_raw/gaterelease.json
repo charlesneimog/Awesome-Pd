@@ -20,8 +20,8 @@
     ],
     "ai": true,
     "title": "gaterelease",
-    "description": "The `gaterelease` object controls the release of a gate value. It holds a gate open for a specified duration (in milliseconds) after it has been triggered. If the gate closes before the release time elapses, the object resets, effectively bypassing the release.",
+    "description": "The `gaterelease` object manages the timed release of a gate signal. It holds an input gate value for a specified duration, then releases it over a configurable release time in milliseconds. This object is useful for precisely controlling the duration of gate signals, especially when dealing with overlapping events, as it resets if the gate closes before its release completes.",
     "categories": [
-        "General Utilities"
+        "Logic"
     ]
 }

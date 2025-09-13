@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "randpulse2",
-    "description": "`randpulse2` is a random pulse train oscillator that generates pulses (0 or 1, or random values between -1 and 1) at random intervals. Its behavior is controlled by a 'density' parameter, which influences the average frequency of the pulses. The object also supports seeding for reproducible random sequences.",
+    "description": "`randpulse2` is a random pulse train oscillator that generates a signal with a specified density. By default, it outputs gate values of '1', but can be set to output random gate values. Users can control its randomness by setting a seed.",
     "categories": [
         "Oscillators",
         "Stochastic"

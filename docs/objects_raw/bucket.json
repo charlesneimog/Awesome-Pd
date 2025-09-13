@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "bucket",
-    "description": "The `bucket` object passes incoming numbers sequentially through its multiple outlets in a rotational pattern, like a bucket brigade. It can be configured with a specific number of outlets and an output flag to control immediate or delayed output. Its shifting direction and output can be controlled via messages such as `l2r`, `r2l`, `freeze`, and `thaw`.",
+    "description": "The `bucket` object acts as a data shifter, passing incoming float values sequentially from one outlet to the next in a rotational pattern. It supports left-to-right or right-to-left shifting, and offers control over immediate output or delayed propagation, managed by messages like `freeze`, `thaw`, `bang`, `set`, and `roll`.",
     "categories": [
-        "Routing"
+        "Routing",
+        "General Utilities"
     ]
 }

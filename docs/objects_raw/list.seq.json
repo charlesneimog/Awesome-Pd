@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "list.seq",
-    "description": "The `list.seq` object sequences through elements of a given list, outputting one element at a time upon receiving a `bang`. It supports jumping to specific indices and can be configured to loop through the list continuously.",
+    "description": "The `list.seq` object sequences through elements of a provided list, outputting one element at a time upon receiving a `bang`. It supports jumping to specific indices with `goto` and can loop through the list when enabled. A final `bang` is sent when the sequence is complete.",
     "categories": [
-        "Sequencers"
+        "Sequencers",
+        "Data Structures"
     ]
 }

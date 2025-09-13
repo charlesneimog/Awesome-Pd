@@ -23,5 +23,11 @@
     "description": "The `cone` object renders a 3D cone at the current OpenGL position using the current color. Its appearance can be modified via the `draw` message, allowing for wireframe, filled, or point rendering. The size and number of segments of the cone can be dynamically controlled through its inlets.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "disk",
+        "cylinder",
+        "cuboid",
+        "trapezoid"
     ]
 }

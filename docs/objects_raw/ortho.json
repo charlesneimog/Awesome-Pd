@@ -23,5 +23,11 @@
     "description": "`ortho` is a GEM object in Pure Data that controls the rendering projection for subsequent graphical objects. It switches the viewing mode from perspective to orthographic, ensuring parallel lines remain parallel regardless of distance, making objects appear the same size irrespective of their depth. It can be toggled on/off and its aspect ratio adjusted via its inlet.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "depth",
+        "square",
+        "separator",
+        "gemhead"
     ]
 }

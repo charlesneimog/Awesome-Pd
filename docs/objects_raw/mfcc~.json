@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "mfcc~",
-    "description": "The `mfcc~` object computes Mel-Frequency Cepstral Coefficients from an audio signal, emphasizing lower spectral content and using a Discrete Cosine Transform. It outputs a 38-component MFCC vector as a list when triggered, useful for audio feature extraction and timbre classification."
+    "description": "The `mfcc~` object computes Mel-Frequency Cepstral Coefficients from an audio signal, emphasizing lower spectral content and using a Discrete Cosine Transform. It outputs a 38-component MFCC vector as a list when triggered, useful for audio feature extraction and timbre classification.",
+    "similar": [
+        "bfcc~",
+        "mfcc",
+        "dct~",
+        "melSpec~"
+    ]
 }

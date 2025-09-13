@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "receiver",
-    "description": "The `receiver` object in Pure Data functions similarly to the vanilla `receive` object, allowing it to receive messages sent to a specified name. A key feature is its ability to listen for messages sent to up to two different names simultaneously, which can be dynamically set via an inlet. It also supports dollar symbol expansion for abstraction management, similar to `dollsym`.",
+    "description": "The `receiver` object functions similarly to Pure Data's `[receive]`, allowing it to listen for messages sent to up to two specified names. Its receive names can be dynamically set via an inlet, and it supports dollar sign expansion for flexible naming within abstractions, akin to `[dollsym]`. This object is useful for routing messages to both groups of objects and individual instances.",
     "categories": [
         "Routing"
     ]

@@ -20,10 +20,10 @@
     ],
     "ai": true,
     "title": "plaits.m~",
-    "description": "The `plaits.m~` object is a versatile polyphonic sound synthesis module, wrapping the `[plaits~]` external. It offers numerous synthesis models, including virtual analog, FM, granular, physical modeling, and speech synthesis. It supports both MIDI and signal-based control for triggering, level, and various modulations, often incorporating an internal LowPass Gate for shaping sounds.",
+    "description": "`plaits.m~` is a versatile multi-synthesis engine for Pure Data, wrapping the functionality of Mutable Instruments' Plaits module. It offers a wide array of synthesis models, including physical modeling, granular, additive, and various oscillator types, controllable via signal inputs for frequency, trigger, level, and modulation. The object supports both monophonic and polyphonic operation, with an internal LowPass Gate (LPG) for dynamic shaping in many of its modes.",
     "categories": [
+        "Audio IO",
         "MIDI",
-        "Filters",
         "Granular"
     ]
 }

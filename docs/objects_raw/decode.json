@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "decode",
-    "description": "The `decode` object routes a `1` to a specific outlet and `0` to all others, based on a numerical input. Outlets are indexed from 0, left to right. It also features control inlets for a master disable switch and a submaster switch, enabling flexible conditional routing.",
+    "description": "The `decode` object takes an integer input and activates the corresponding output (0-indexed) by sending a `1`, while all other outputs receive `0`. It also provides master and submaster control inlets to globally enable or disable its output behavior, allowing for flexible routing based on numerical input.",
     "categories": [
-        "Routing"
+        "Routing",
+        "Logic"
     ]
 }

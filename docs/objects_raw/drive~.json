@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "drive~",
-    "description": "The `drive~` object in Pure Data simulates analog soft-clipping distortion by applying various non-linear transfer functions. It processes an audio signal input, using a 'drive factor' to control the intensity and character of the distortion. Different modes offer distinct distortion curves, effectively shaping the signal's dynamics and adding harmonic content.",
+    "description": "The `drive~` object simulates analog \"soft clipping\" distortion by applying various non-linear transfer functions to an audio signal. It offers different modes, including a tanh function and threshold-based clipping, controlled by a drive factor. This object is primarily used to add harmonic saturation and warmth to audio.",
     "categories": [
         "Distortion"
     ]

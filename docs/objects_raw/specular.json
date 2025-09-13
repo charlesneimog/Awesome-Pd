@@ -23,5 +23,11 @@
     "description": "The `specular` object sets the specular color for subsequent 3D vertex operations within a GEM (Graphics Environment for Multimedia) context. It accepts a `gemlist` and a list of RGB or RGBA float values, modifying the graphics state to apply specular lighting effects when lighting is enabled.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "diffuseRGB",
+        "specularRGB",
+        "diffuse",
+        "emissionRGB"
     ]
 }

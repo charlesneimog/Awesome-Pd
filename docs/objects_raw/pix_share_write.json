@@ -23,5 +23,11 @@
     "description": "The `pix_share_write` object writes pixel data to a shared memory region, identified by a unique ID, width, height, and colorspace. This allows other `pix_share_read` objects, potentially in different Pure Data instances on the same machine, to access and utilize the same image data. It facilitates inter-process communication of graphical information.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_share_read",
+        "pix_data",
+        "rectangle",
+        "imageVert"
     ]
 }

@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "latoocarfian~",
-    "description": "The `latoocarfian~` object is a chaotic audio signal generator that implements the Latoocarfian attractor's difference equations. It produces a continuous audio signal whose behavior is determined by four coefficients (a, b, c, d) and initial x and y values. The output rate of the chaotic signal can be controlled in Hertz.",
+    "description": "`latoocarfian~` is a chaotic signal generator that implements the Latoocarfian difference equations. It produces a chaotic output signal, which can also converge to a single value or oscillate in a cycle, based on configurable coefficients and initial values. This object is useful for generating complex, non-linear audio signals.",
     "categories": [
         "Math",
         "Oscillators"

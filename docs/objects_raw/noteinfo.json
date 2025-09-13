@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "noteinfo",
-    "description": "The `noteinfo` object tracks and outputs information about active MIDI notes. It provides the number of currently active voices from its right outlet and a detailed list (voice number, event number, pitch, velocity, duration) for each note event from its left outlet. Sending a `bang` to its right inlet resets its internal memory, sending note-offs for all active notes.",
+    "description": "The `noteinfo` object tracks active MIDI note events, outputting the MIDI pitch, velocity, and the total number of active voices. It also provides detailed information about individual note events, including voice number, event number, pitch, and velocity. A `bang` input resets its internal memory, sending note-offs for all tracked events.",
     "categories": [
         "MIDI"
     ]

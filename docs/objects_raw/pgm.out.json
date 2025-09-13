@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "pgm.out",
-    "description": "The `pgm.out` object formats and sends raw MIDI program change messages (values 0-127) to Pure Data's MIDI output and its outlet. It can be configured with an argument for the MIDI channel (default 1) and offers an option to output only to its outlet, bypassing direct MIDI device output.",
+    "description": "The `pgm.out` object formats and sends MIDI program change messages (0-127) to Pd's configured MIDI output device. It can also output raw MIDI data to its outlet for further processing. The MIDI channel can be specified as an argument or via an inlet.",
     "categories": [
         "MIDI"
     ]

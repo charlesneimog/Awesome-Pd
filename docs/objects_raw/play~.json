@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "play~",
-    "description": "The `play~` object plays audio from an array, allowing playback of any segment, at varying speeds (including backwards), and with interpolation. It supports multi-channel playback up to 64 channels and offers looping capabilities with optional crossfading. A signal input can dynamically control the playback position.",
+    "description": "The `play~` object provides flexible audio playback from arrays, supporting variable speed (including backwards), looping with optional crossfading, and multi-channel output up to 64 channels. It can be controlled via messages for start/stop/pause and loop settings, or by a signal input for dynamic playback position, enabling effects like scrubbing or granular synthesis.",
     "categories": [
         "Samplers",
         "Multichannel"

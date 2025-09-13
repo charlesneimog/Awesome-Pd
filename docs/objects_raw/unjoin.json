@@ -20,8 +20,8 @@
     ],
     "ai": true,
     "title": "unjoin",
-    "description": "The `unjoin` object separates an incoming list into smaller groups of elements. Each group is sent to a dedicated outlet, with any remaining elements routed to an additional \"extra\" outlet. The size of these groups can be configured using the `@outsize` attribute or an argument.",
+    "description": "The `unjoin` object separates an incoming list into multiple sub-lists, each containing a specified number of elements. These sub-lists are then sent out through separate outlets, with any remaining elements routed to an additional \"extra\" outlet. This allows for flexible restructuring and routing of list data.",
     "categories": [
-        "Data Structures"
+        "Routing"
     ]
 }

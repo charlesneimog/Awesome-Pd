@@ -25,5 +25,11 @@
         "Data Structures",
         "File I/O",
         "Graphics"
+    ],
+    "similar": [
+        "pix_buffer_write",
+        "pix_buffer_read",
+        "pix_write",
+        "pix_buffer_filmopen"
     ]
 }

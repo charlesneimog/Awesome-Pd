@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "specCentroid~",
-    "description": "The `specCentroid~` object calculates the spectral centroid, a low-level timbre feature representing the \"center of mass\" of an audio signal's magnitude spectrum. It outputs the frequency associated with this spectral center, useful for analyzing and classifying audio timbres. Users can configure the window size and windowing function."
+    "description": "The `specCentroid~` object calculates the spectral centroid, a low-level timbre feature representing the \"center of mass\" of an audio signal's magnitude spectrum. It outputs the frequency associated with this spectral center, useful for analyzing and classifying audio timbres. Users can configure the window size and windowing function.",
+    "similar": [
+        "barkSpecCentroid~",
+        "specRolloff~",
+        "specCentroid",
+        "specBrightness~"
+    ]
 }

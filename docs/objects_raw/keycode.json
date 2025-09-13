@@ -20,8 +20,8 @@
     ],
     "ai": true,
     "title": "keycode",
-    "description": "The `keycode` object provides layout-independent keyboard input, outputting a numerical key code based on the physical key location. It also indicates the key's status (1 for pressed, 0 for released) from its left outlet. This object is useful for mapping physical keyboard events in Pure Data patches.",
+    "description": "The `keycode` object outputs keyboard key codes based on their physical location, making it layout independent. Its right outlet provides the key code, while the left outlet indicates the key's status (1 for pressed, 0 for released). It's important not to change the keyboard layout after loading the object.",
     "categories": [
-        "Control I/O"
+        "Control IO"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `list2lists` object splits an incoming list into multiple sublists. It uses a second input list to define the lengths of these sublists, effectively restructuring the data. If a sublist is specified with a length of zero, it outputs a `bang`.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "listfind",
+        "l",
+        "l2i",
+        "merge"
     ]
 }

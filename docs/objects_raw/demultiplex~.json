@@ -23,5 +23,11 @@
     "description": "The `demultiplex~` (or `demux~`) object takes a single audio or control signal and routes it to one of its multiple outlets. The number of outlets is determined by the creation arguments, and a control message selects which specific outlet receives the input signal. This object is primarily used for signal routing and distribution.",
     "categories": [
         "Routing"
+    ],
+    "similar": [
+        "demultiplex",
+        "demux",
+        "demux~",
+        "gate~"
     ]
 }

@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "group",
-    "description": "The `group` object collects incoming messages and outputs them as a single list once a specified group size is reached. If an input list exceeds the group size, the remaining elements form a remainder for subsequent grouping. A bang message forces the output of any accumulated remainder, and a group size of zero means it will only output upon receiving a bang.",
+    "description": "The `group` object collects incoming messages and outputs them as a single list once a specified \"group size\" is reached. If an input list exceeds the group size, the remaining elements are carried over to the next group. A `bang` message can be sent to force the output of any pending, incomplete group.",
     "categories": [
-        "Data Structures",
         "General Utilities"
     ]
 }

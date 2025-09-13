@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "drunkard",
-    "description": "The `drunkard` object generates a sequence of pseudo-random numbers based on a drunkard's walk algorithm. It takes a step (positive or negative) from its last output, wrapping the value if it hits defined upper or lower bounds. Users can control the step range, bounds, probability of a positive step, and set a seed for reproducible sequences.",
+    "description": "The `drunkard` object generates a sequence of pseudo-random numbers by simulating a random walk. It allows control over the step size, the probability of a positive step, and the minimum and maximum bounds of the output. This object is useful for creating unpredictable yet constrained numerical sequences for various applications.",
     "categories": [
         "Stochastic",
-        "Procedural"
+        "Math"
     ]
 }

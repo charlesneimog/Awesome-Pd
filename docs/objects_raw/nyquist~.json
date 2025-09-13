@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "nyquist~",
-    "description": "The `nyquist~` object reports the Nyquist frequency (half the audio sample rate) or its corresponding period. It outputs this value upon patch loading, when receiving a `bang`, or when the sample rate changes. Users can specify the output format as Hz, kHz, milliseconds, or seconds using flags like `-khz`, `-ms`, or `-sec`, and can also assign a `value` name to retrieve the output elsewhere.",
+    "description": "The `nyquist~` object reports the Nyquist frequency, which is half of Pure Data's global audio sample rate, or its corresponding period. It outputs this value in various units (Hz, kHz, milliseconds, seconds) upon patch loading, receiving a `bang`, or when the sample rate changes. This object is essential for obtaining fundamental audio rate information within a Pure Data patch.",
     "categories": [
-        "General Utilities",
-        "Descriptors"
+        "Audio IO"
     ]
 }

@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "quantizer~",
-    "description": "The `quantizer~` object quantizes an incoming audio signal to discrete step values, which can be defined by an argument or a second inlet. It supports multichannel signals and offers various approximation modes, including rounding, truncation, flooring, and ceiling.",
+    "description": "The `quantizer~` object quantizes an incoming signal to discrete step values, offering five different approximation modes including round, truncate, floor, and ceil. It fully supports multichannel signals, allowing for per-channel quantization when a multichannel signal is provided to its right inlet. The quantization step and mode can be controlled via inlets or messages.",
     "categories": [
         "Math",
         "Multichannel"

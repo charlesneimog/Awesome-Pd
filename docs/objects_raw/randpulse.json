@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "randpulse",
-    "description": "The `randpulse` object is a random pulse oscillator that alternates between a random value and zero at a control rate. It accepts negative frequencies and has inlets for pulse width and phase synchronization. This object functions as an oscillator with a running phase, operating at a user-defined rate.",
+    "description": "The `randpulse` object is a random pulse oscillator that generates a signal with a running phase. It allows control over its frequency, pulse width, and initial phase, and supports phase synchronization. Users can also set a seed for the pseudo-random number generator and adjust its internal refresh rate.",
     "categories": [
-        "Oscillators",
-        "Stochastic"
+        "Oscillators"
     ]
 }

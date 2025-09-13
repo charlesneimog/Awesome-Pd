@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "level~",
-    "description": "The `level~` object is a convenient tool for adjusting the gain of audio signals in decibels (dB). It allows for linear gain increases up to +12 dB and non-linear decreases down to -100 dB (silence), with 0 dB representing unity gain. This object also supports multichannel audio signals.",
+    "description": "The `level~` object adjusts the gain of an incoming signal in decibels (dB). It provides a range from -100 dB (silence) to +12 dB, with 0 dB representing unity gain. This object also supports multichannel signals.",
     "categories": [
         "Dynamics",
         "Multichannel"

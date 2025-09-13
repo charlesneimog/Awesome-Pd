@@ -20,8 +20,6 @@
     ],
     "ai": true,
     "title": "iter",
-    "description": "The `iter` object splits an incoming message (which can contain floats or symbols) into its individual elements. It then outputs these elements sequentially, one by one, in the order they were received. This allows for processing each part of a message independently over time.",
-    "categories": [
-        "General Utilities"
-    ]
+    "description": "The `iter` object splits an incoming message (a list of floats or symbols) into its individual elements. Upon receiving a trigger, it outputs these elements sequentially, one at a time, in the order they appeared in the original message. This allows for step-by-step processing of list contents within a Pure Data patch.",
+    "categories": []
 }

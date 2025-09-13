@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "sendmidi",
-    "description": "The `sendmidi` object is a helper abstraction designed to send MIDI messages to the `pd~` object. This is necessary because `pd~` cannot directly receive MIDI input from connected devices in Pure Data. It acts as a bridge, allowing MIDI data to be passed into subpatches managed by `pd~`.",
+    "description": "The `sendmidi` object is a helper abstraction designed to forward MIDI messages to a `pd~` sub-patch. This is particularly useful because `pd~` objects cannot directly receive MIDI input from connected devices, allowing `sendmidi` to bridge this communication gap.",
     "categories": [
         "MIDI"
     ]

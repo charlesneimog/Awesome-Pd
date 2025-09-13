@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "rec.file~",
-    "description": "The `rec.file~` object records incoming audio signals to a sound file, serving as a convenient wrapper around `writesf~`. It allows users to specify the output filename, sample rate, fade-in/out times, and a maximum recording duration. Once recorded, these files can be loaded and played back by other Pure Data objects like `play.file~` or `sample~`.",
+    "description": "The `rec.file~` object records incoming audio signals to a sound file, serving as a convenient wrapper around `writesf~`. It provides control over recording start/stop, filename, sample rate, and includes options for fade in/out and a maximum recording time. Upon completion, it outputs a bang.",
     "categories": [
-        "File I/O"
+        "File IO",
+        "Audio IO"
     ]
 }

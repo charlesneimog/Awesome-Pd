@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "presets.m",
-    "description": "The `presets.m` object in Pure Data enables saving and recalling parameter presets for \"MERDA modules\" within a patch. Presets are stored directly with the patch file and automatically restored upon reopening. Users can interact with it via radio buttons to set and save preset numbers.",
+    "description": "The `presets.m` object enables saving and recalling parameter states within a Pure Data patch. When placed last in a patch, it automatically saves and restores parameters of \"MERDA modules\" upon reopening the patch. Users can select a preset number via radio buttons and trigger a bang to save the current state, with presets stored directly within the patch file.",
     "categories": [
-        "File I/O",
+        "Patching",
         "General Utilities"
     ]
 }

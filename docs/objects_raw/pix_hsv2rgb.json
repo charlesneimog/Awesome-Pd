@@ -23,5 +23,11 @@
     "description": "The `pix_hsv2rgb` object converts an image's color representation from HSV (Hue, Saturation, Value) to RGB (Red, Green, Blue). It virtually transforms the image, interpreting the Red channel as Hue values for the conversion. This object is primarily used for manipulating image color spaces within the GEM environment.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_rgb2hsv",
+        "pix_sig2pix~",
+        "hsv2rgb",
+        "pix_blob"
     ]
 }

@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "waveSlope",
-    "description": "The waveSlope object analyzes the slope of a waveform stored in a Pure Data array. Designed for offline analysis, it provides a measure of waveform change over time. Users should be aware that low-amplitude sections can yield erratic results, suggesting the use of an amplitude threshold for cleaner data."
+    "description": "The waveSlope object analyzes the slope of a waveform stored in a Pure Data array. Designed for offline analysis, it provides a measure of waveform change over time. Users should be aware that low-amplitude sections can yield erratic results, suggesting the use of an amplitude threshold for cleaner data.",
+    "similar": [
+        "waveSlope~",
+        "waveNoise",
+        "minSample",
+        "zeroCrossing"
+    ]
 }

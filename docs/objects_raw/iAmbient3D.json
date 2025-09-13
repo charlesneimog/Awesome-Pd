@@ -31,5 +31,11 @@
     "description": "The `iAmbient3D` object simulates ambient interactions within a 3D space. It applies various forces, including constant, random, and damping, to interacting \"masses\" and defines spatial boundaries for their movement. This object is designed to model environmental influences on objects in a 3D simulation.",
     "categories": [
         "Physical Modeling"
+    ],
+    "similar": [
+        "iPlane3D",
+        "tPlane3D",
+        "link3D",
+        "iCylinder3D"
     ]
 }

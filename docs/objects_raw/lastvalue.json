@@ -20,8 +20,6 @@
     ],
     "ai": true,
     "title": "lastvalue",
-    "description": "The `lastvalue` object stores the most recently received input value. It outputs this stored value when it receives a new input, effectively providing access to the previous input. It can be initialized with an argument or reset to a \"none\" state, preventing output until a second input is received.",
-    "categories": [
-        "Data Structures"
-    ]
+    "description": "The `lastvalue` object stores and reports the last received float or bang message. It can be initialized with an argument, reset to a specific value, or cleared. This object is useful for retaining and recalling the most recent input in a Pure Data patch.",
+    "categories": []
 }

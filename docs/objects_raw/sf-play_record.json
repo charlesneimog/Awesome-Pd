@@ -24,5 +24,11 @@
     "categories": [
         "File I/O",
         "Multichannel"
+    ],
+    "similar": [
+        "batch.rec~",
+        "sample~",
+        "rec.file~",
+        "record~"
     ]
 }

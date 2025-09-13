@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "freeze~",
-    "description": "The `freeze~` object captures a spectral snapshot of an incoming audio signal and resynthesizes it using a bank of oscillators, effectively \"freezing\" the sound. Based on `sigmund~` for analysis and resynthesis, it allows for the sustained playback of a specific moment from the input audio, controlled by a non-zero input to freeze/refreeze or a zero input to unfreeze.",
+    "description": "The `freeze~` object is an abstraction built upon `sigmund~` for audio analysis and resynthesis. It captures and \"freezes\" the spectral content of an incoming audio signal, continuously outputting the frozen sound. Control messages and float values allow for freezing, refreezing, and unfreezing the audio.",
     "categories": [
-        "Partial Tracking"
+        "Partial Tracking",
+        "Oscillators"
     ]
 }

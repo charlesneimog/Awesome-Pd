@@ -20,6 +20,6 @@
     ],
     "ai": true,
     "title": "vectral~",
-    "description": "The `vectral~` object smooths or filters frame-based signal data, such as the output of an `fft~` object, primarily for visualization purposes. It offers three modes—linear ramp (`rampsmooth`), logarithmic ramp (`slide`), or minimum step change (`deltaclip`)—to control how changes between frames are processed. Additionally, it can \"bin-shift\" incoming vectors based on input and output index synchronization.",
+    "description": "The `vectral~` object smooths or filters frame-based signal data, such as the output from `fft~`, primarily for visualization. It operates in three modes: `rampsmooth` for linear ramps, `slide` for logarithmic ramps, and `deltaclip` for change-limited smoothing, applying these operations between frames rather than samples.",
     "categories": []
 }

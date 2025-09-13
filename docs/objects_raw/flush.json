@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "flush",
-    "description": "The `flush` object functions as a \"panic button\" for MIDI Note-on messages. It tracks Note-on messages that have not been switched off and, when triggered by a `bang`, sends corresponding Note-off messages for all currently hanging notes. It also supports setting pitch/velocity and clearing its internal state.",
+    "description": "The `flush` object acts as a \"panic button\" for MIDI notes. It tracks `Note-on` messages that haven't received a corresponding `Note-off` and sends `Note-off` messages for all hanging notes when it receives a `bang`. It can also clear its internal list of hanging notes with a `clear` message.",
     "categories": [
         "MIDI"
     ]

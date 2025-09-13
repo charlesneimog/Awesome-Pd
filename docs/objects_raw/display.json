@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "display",
-    "description": "The `display` object shows text messages within a Pure Data patch, similar to `print`. It can be configured to display a fixed number of characters or automatically resize, and its refresh rate can be adjusted. Additionally, it passes through any input it receives.",
+    "description": "The `display` object in Pure Data functions similarly to `print`, showing messages directly within a patch. It can be configured with a fixed character limit, truncating longer messages, or it can auto-resize to fit the input. Additionally, it allows setting a refresh rate and includes a `-noflash` flag to prevent visual flickering.",
     "categories": [
         "GUI",
         "Text"

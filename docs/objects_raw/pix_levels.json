@@ -23,5 +23,11 @@
     "description": "The `pix_levels` object performs image level adjustments, similar to brightness and contrast controls. It allows for uniform adjustments across all color channels or independent control for red, green, and blue channels, by mapping input value ranges to output value ranges. An auto-mode is also available, which adjusts levels based on specified low and high percentiles of the image data.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_blob",
+        "pix_sig2pix~",
+        "pix_hsv2rgb",
+        "pix_rgb2hsv"
     ]
 }

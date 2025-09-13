@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "sampleBuffer~",
-    "description": "The `sampleBuffer~` object buffers incoming audio, providing a windowed segment of the audio stream for real-time analysis. It is particularly useful for inspecting the exact audio frame processed by analysis objects like `timbreID`. Its window size can be set at creation or dynamically changed, and it handles its own buffering without requiring `block~`."
+    "description": "The `sampleBuffer~` object buffers incoming audio, providing a windowed segment of the audio stream for real-time analysis. It is particularly useful for inspecting the exact audio frame processed by analysis objects like `timbreID`. Its window size can be set at creation or dynamically changed, and it handles its own buffering without requiring `block~`.",
+    "similar": [
+        "maxSample~",
+        "minSample~",
+        "peakSample~",
+        "barkSpecFlatness~"
+    ]
 }

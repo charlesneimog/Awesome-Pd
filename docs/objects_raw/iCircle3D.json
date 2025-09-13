@@ -31,5 +31,11 @@
     "description": "The `iCircle3D` object simulates the interaction of a named mass with a 3D circular plane. It applies forces, damping, and displacement to the mass based on its position relative to the circle, with configurable parameters for the circle's geometry, interaction radius, and various force characteristics. This object is designed for physical modeling scenarios involving circular constraints.",
     "categories": [
         "Physical Modeling"
+    ],
+    "similar": [
+        "iPlane3D",
+        "iLine2D",
+        "iCylinder3D",
+        "iSeg2D"
     ]
 }

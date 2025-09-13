@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "sinx~",
-    "description": "The `sinx~` object calculates the sine of an incoming audio signal. It expects the input signal to be in radians and outputs the corresponding sine value for each sample. This object is designed for precise mathematical operations on audio-rate signals.",
+    "description": "The `sinx~` object calculates the sine of an incoming signal. Designed for mathematical operations, it expects its input to be in radians to compute the sine of each sample. This signal-rate object outputs the resulting sine value.",
     "categories": [
         "Math"
     ]

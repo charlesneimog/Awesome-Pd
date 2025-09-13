@@ -23,5 +23,11 @@
     "description": "The `abs~` object calculates the absolute value of an incoming audio signal. It converts all negative signal values to their positive counterparts, effectively rectifying the signal. This is useful for ensuring signal values are always non-negative.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "sgn~",
+        "tavg~",
+        "power~",
+        "absgn~"
     ]
 }

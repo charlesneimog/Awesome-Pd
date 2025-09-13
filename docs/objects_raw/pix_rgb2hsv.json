@@ -23,5 +23,11 @@
     "description": "The `pix_rgb2hsv` object converts an RGB (Red, Green, Blue) image into the HSV (Hue, Saturation, Value) color space. This transformation can simplify color detection tasks. Internally, the image data remains RGBA, with the Red channel being populated by Hue values after conversion.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_hsv2rgb",
+        "rgb2hsv",
+        "pix_sig2pix~",
+        "hsv2rgb"
     ]
 }

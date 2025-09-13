@@ -24,5 +24,11 @@
     "categories": [
         "Physical Modeling",
         "Graphics"
+    ],
+    "similar": [
+        "pmpd3d",
+        "tLink3D",
+        "square",
+        "ripple"
     ]
 }

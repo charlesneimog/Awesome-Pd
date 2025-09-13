@@ -23,5 +23,11 @@
     "description": "The `ambientRGB` object in Pure Data sets the ambient color for subsequent vertex operations within a GEM (Graphics Environment for Multimedia) patch. It accepts either a `gemList` of 3 or 4 float values (RGB or RGBA) or individual float values for red, green, blue, and alpha. This object is used to define how objects are lit by ambient light, requiring lighting to be enabled to see its effects.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "ambient",
+        "emissionRGB",
+        "specularRGB",
+        "diffuseRGB"
     ]
 }

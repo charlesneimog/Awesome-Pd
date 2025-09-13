@@ -20,10 +20,9 @@
     ],
     "ai": true,
     "title": "gain~",
-    "description": "The `gain~` object provides mono and multichannel gain control for audio signals. It features adjustable ramp times, a settable maximum gain, and multiple scaling modes (quartic, dB, and linear) for its internal slider. It also supports MIDI learning for external control.",
+    "description": "The `gain~` object is a convenient mono gain abstraction for adjusting the amplitude of an incoming signal. It features configurable ramp times and various scaling modes (quartic, dB, linear) for its internal slider. This object supports multichannel signals and can be controlled via MIDI.",
     "categories": [
-        "Math",
-        "MIDI",
-        "Multichannel"
+        "Multichannel",
+        "GUI"
     ]
 }

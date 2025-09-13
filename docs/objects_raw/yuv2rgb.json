@@ -23,5 +23,11 @@
     "description": "The `yuv2rgb` object converts video signals between the YUV and RGB color spaces. It is a GEM object, primarily used for manipulating color information within a graphical context, enabling flexible color processing in visual patches.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_mean_color",
+        "pix_color",
+        "pix_hsv2rgb",
+        "part_color"
     ]
 }

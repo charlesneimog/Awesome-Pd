@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "pm2~",
-    "description": "The `pm2~` object is a 2-operator phase modulation (PM) synthesizer. It allows each of its two sine wave oscillators to modulate itself and the other, offering control over frequency, ratio, detune, panning, and volume for each operator, as well as a modulation matrix. It also supports multichannel audio.",
+    "description": "`pm2~` is a 2-operator phase modulation (FM) synthesizer that uses sine wavetable oscillators. It offers extensive control over each operator's frequency ratio, detuning, panning, and volume, along with a modulation matrix for self-modulation and cross-modulation. The object also supports multichannel audio.",
     "categories": [
         "Oscillators",
         "Multichannel"

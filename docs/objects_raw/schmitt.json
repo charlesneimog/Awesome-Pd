@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "schmitt",
-    "description": "The `schmitt` object implements a Schmitt trigger, a comparator with hysteresis. It outputs 1 when its input signal rises above a high threshold and switches to 0 only when the input falls below a separate, lower threshold. This prevents noisy signals from causing rapid, unwanted toggling of the output.",
+    "description": "The `schmitt` object implements a Schmitt trigger, a comparator with hysteresis. It takes an input value and outputs `1` or `0` based on whether the input crosses a high or low threshold. This is useful for debouncing noisy signals or converting analog signals into stable digital states.",
     "categories": [
         "Logic"
     ]

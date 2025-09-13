@@ -23,5 +23,11 @@
     "description": "The `pix_mano` object tracks light-reflecting objects within a video stream by applying a threshold and analyzing their contours. It outputs detailed information about the detected contours, including smoothed contours, peaks, and valleys, based on configurable parameters like threshold, minimum entry size, and perimeter. This object is designed for applications like hand tracking.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_movement2",
+        "world_light",
+        "pix_threshold",
+        "pix_a_2grey"
     ]
 }

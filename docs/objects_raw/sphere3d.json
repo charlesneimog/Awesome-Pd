@@ -23,5 +23,11 @@
     "description": "The `sphere3d` object renders a deformable 3D sphere within GEM. It allows control over its drawing style (line, fill, point) and overall size. Uniquely, users can manipulate individual points on the sphere using `setCartesian` and `setSpherical` messages, enabling complex 3D shape transformations.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "sphere",
+        "surface3d",
+        "curve3d",
+        "curve"
     ]
 }

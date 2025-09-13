@@ -20,10 +20,9 @@
     ],
     "ai": true,
     "title": "bl.square~",
-    "description": "`bl.square~` is a bandlimited square wave oscillator designed for synthesis, providing anti-aliased output. It supports frequency input in Hertz or MIDI pitch, and offers control over pulse width, phase offset, and phase synchronization (including soft sync). This object also supports multichannel operation.",
+    "description": "`bl.square~` is a bandlimited square wave oscillator designed for proper audio synthesis, preventing aliasing. It offers control over pulse width, phase offset, and phase synchronization, and can accept frequency input in either Hertz or MIDI pitch. The object also supports multichannel operation, allowing for multiple square waves from a single instance.",
     "categories": [
         "Oscillators",
-        "Multichannel",
-        "Subtractive"
+        "Multichannel"
     ]
 }

@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "specIrregularity~",
-    "description": "The `specIrregularity~` object calculates the spectral irregularity of an audio signal, indicating how jagged or smooth its frequency spectrum is. It supports both Jensen and Krimphoff algorithms and allows custom window sizing for analysis. This descriptor is valuable for timbre perception and can serve as a feature for real-time audio classification."
+    "description": "The `specIrregularity~` object calculates the spectral irregularity of an audio signal, indicating how jagged or smooth its frequency spectrum is. It supports both Jensen and Krimphoff algorithms and allows custom window sizing for analysis. This descriptor is valuable for timbre perception and can serve as a feature for real-time audio classification.",
+    "similar": [
+        "barkSpecIrregularity~",
+        "specIrregularity",
+        "barkSpecIrregularity",
+        "energy~"
+    ]
 }

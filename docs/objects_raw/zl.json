@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "zl",
-    "description": "The `zl` object in Pure Data is a versatile list processor that manipulates messages containing one or more elements. It offers numerous modes for common list operations such as slicing, grouping, sorting, filtering, joining, and searching. Users can configure its behavior via arguments, messages, or by appending the mode name with a dot (e.g., `zl.slice`).",
+    "description": "The `zl` object is a versatile Pure Data list processor that performs various operations on incoming lists based on its selected mode. It can manipulate list order (e.g., `sort`, `rev`, `rot`, `scramble`), extract or insert elements (`mth`, `nth`, `slice`, `group`, `iter`, `lace`, `delace`, `lookup`, `indexmap`), compare and filter lists (`change`, `compare`, `filter`, `sect`, `thin`, `unique`), or perform basic arithmetic (`sum`, `median`). It also offers storage mechanisms like `queue` (FIFO) and `stack` (LIFO).",
     "categories": [
         "Data Structures",
-        "General Utilities"
+        "General Utilities",
+        "Math"
     ]
 }

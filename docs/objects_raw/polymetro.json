@@ -20,9 +20,6 @@
     ],
     "ai": true,
     "title": "polymetro",
-    "description": "The `polymetro` object is a polyrhythmic metronome that generates rhythmic pulses based on a base tempo and a polyrhythmic multiplier. It outputs either bang messages or float values representing the base and relative counts, making it suitable for triggering events or controlling sequencers.",
-    "categories": [
-        "Math",
-        "General Utilities"
-    ]
+    "description": "`polymetro` is a polyrhythmic metronome that generates rhythmic pulses based on a base tempo and a polyrhythmic multiplier. It outputs a counter for the base rhythm and a relative count/tempo, useful for triggering events or reading into sequencers. It can also output bangs when configured with the `-b` flag.",
+    "categories": []
 }

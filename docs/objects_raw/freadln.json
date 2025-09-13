@@ -24,5 +24,11 @@
     "categories": [
         "File I/O",
         "Text"
+    ],
+    "similar": [
+        "fwriteln",
+        "msgfile",
+        "text3d",
+        "dir"
     ]
 }

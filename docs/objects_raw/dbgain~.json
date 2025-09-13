@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "dbgain~",
-    "description": "The `dbgain~` object adjusts the gain of an audio signal to a specified decibel (dB) level. It functions similarly to `level~` but without a graphical user interface, making it suitable for programmatic control. A key feature is its multichannel support, allowing different dB levels to be applied to individual channels via its right inlet.",
+    "description": "The `dbgain~` object adjusts the gain of an audio signal in decibels. Similar to `level~` but without a GUI, it supports multichannel input, allowing individual dB adjustments for each channel when a multichannel signal is provided to its right inlet. It outputs the gain-adjusted signal(s).",
     "categories": [
-        "Dynamics",
-        "Multichannel"
+        "Multichannel",
+        "Dynamics"
     ]
 }

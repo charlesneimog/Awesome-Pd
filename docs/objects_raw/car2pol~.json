@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "car2pol~",
-    "description": "The `car2pol~` object converts a signal from Cartesian coordinates (real and imaginary parts) to polar coordinates (amplitude and phase). It is primarily used in spectral processing workflows, enabling the transformation of FFT output into a more intuitive polar form for manipulation before inverse FFT. This object also supports multichannel signals.",
+    "description": "The `car2pol~` object converts Cartesian coordinates (real and imaginary parts) of an audio signal into polar coordinates (amplitude and phase). It is essential for spectral processing, enabling Fast Fourier Transform (FFT) and inverse FFT (iFFT) operations by transforming signals into a more intuitive polar representation. This object also supports multichannel signals.",
     "categories": [
         "Math",
         "Multichannel"

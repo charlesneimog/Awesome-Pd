@@ -23,5 +23,11 @@
     "description": "The `pix_data` object retrieves the color of a specified pixel within an image when triggered. It outputs the pixel's color as a normalized RGB list and a normalized grayscale value. Users can specify pixel coordinates, choose between normalized (0.0-1.0) or absolute (0-width/height) coordinate systems, and enable or disable 2D interpolation for pixel sampling.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_compare",
+        "pix_dump",
+        "pix_color",
+        "pix_multiply"
     ]
 }

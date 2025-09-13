@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "rand.u",
-    "description": "The `rand.u` object generates a sequence of unrepeated random integer values within a specified range (0 to `size-1`). It can be reseeded for reproducible sequences or cleared to start a new series. Once all unique values have been output, a `bang` is sent from its right outlet, indicating completion of the sequence.",
+    "description": "The `rand.u` object generates a sequence of unique random integers within a specified range (0 to `size-1`). It ensures that each number in the sequence is output only once before repeating. A `bang` is sent from the right outlet once the entire sequence has been generated.",
     "categories": [
-        "Stochastic",
-        "Math"
+        "Stochastic"
     ]
 }

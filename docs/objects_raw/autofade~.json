@@ -20,10 +20,9 @@
     ],
     "ai": true,
     "title": "autofade~",
-    "description": "The `autofade~` object provides automatic fade-in and fade-out functionality for multiple audio inputs. It uses a gate control to trigger fades, with various configurable fade curves (e.g., `quartic`, `sin`, `lin`). The object is designed for dynamic gain control based on input signal presence.",
+    "description": "`autofade~` provides automatic fade-in and fade-out functionality for multiple audio inputs. It uses a gate control to trigger fades and offers various fade curves like `quartic`, `sin`, and `lin`. This object is useful for smoothly transitioning audio signals based on input activity.",
     "categories": [
         "Envelopes",
-        "Multichannel",
-        "Dynamics"
+        "Multichannel"
     ]
 }

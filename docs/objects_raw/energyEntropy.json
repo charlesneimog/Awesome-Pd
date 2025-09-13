@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "energyEntropy",
-    "description": "The `energyEntropy` object calculates the energy entropy of an audio sample array. It analyzes the input array using specified sub-window and mid-term window sizes, providing a single numerical output representing the entropy. This object is designed for offline analysis of pre-recorded audio data."
+    "description": "The `energyEntropy` object calculates the energy entropy of an audio sample array. It analyzes the input array using specified sub-window and mid-term window sizes, providing a single numerical output representing the entropy. This object is designed for offline analysis of pre-recorded audio data.",
+    "similar": [
+        "energyEntropy~",
+        "minSample",
+        "energy",
+        "harmonicRatio"
+    ]
 }

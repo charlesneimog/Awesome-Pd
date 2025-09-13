@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "cusp~",
-    "description": "`cusp~` is a chaotic signal generator that implements the difference equation `y[n] = a - b * sqrt(abs(y[n-1]))`. It produces a chaotic audio signal based on an input frequency and configurable parameters `a` and `b`. This object supports multichannel operation and is useful for generating complex, non-linear audio signals.",
+    "description": "`cusp~` is a chaotic signal generator that implements the difference equation y[n] = a - b * sqrt(abs(y[n-1])). It produces a signal whose output rate can be controlled by a frequency input. This object supports multichannel operation and allows setting its internal parameters 'a', 'b', and initial value y[n-1] via messages.",
     "categories": [
         "Multichannel",
+        "Procedural",
         "Math"
     ]
 }

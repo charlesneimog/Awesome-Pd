@@ -29,5 +29,11 @@
     "ai": true,
     "title": "leaker~",
     "description": "The `leaker~` object performs a spectral crossfade between two input audio signals. It combines these sounds by smoothly transitioning their spectral content. This allows for dynamic blending of two distinct audio sources.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "ether~",
+        "morph~",
+        "xfade.mc~",
+        "multyq~"
+    ]
 }

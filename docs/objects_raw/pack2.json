@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "pack2",
-    "description": "The `pack2` object combines incoming data from its inlets into a single list, similar to `pack`. Unlike `pack`, any input triggers an output, unless a 'set' message is used to store values without outputting. It dynamically adjusts its number of inlets based on initialization and can handle both float and symbol types.",
+    "description": "The `pack2` object combines multiple inputs into a single list, similar to `pack`. Unlike `pack`, any incoming message to any inlet triggers its output, though a `set` message can update an inlet's value without triggering an immediate output. It supports both float and symbol data types, allowing for dynamic type changes per inlet.",
     "categories": [
         "Data Structures"
     ]

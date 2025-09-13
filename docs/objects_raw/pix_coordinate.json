@@ -23,5 +23,11 @@
     "description": "`pix_coordinate` is a GEM object designed to set and remap the S and T texture coordinates for a `pix` object. This allows for advanced texture mapping effects, such as repeating a texture by adjusting its coordinate values beyond the default range. It is typically used in conjunction with `pix_texture` to fine-tune how textures are applied to visual elements.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_texture",
+        "pix_multitexture",
+        "pix_clearblock",
+        "pix_draw"
     ]
 }

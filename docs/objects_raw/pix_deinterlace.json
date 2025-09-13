@@ -23,5 +23,11 @@
     "description": "The `pix_deinterlace` object applies a deinterlacing algorithm to incoming images, primarily by averaging neighboring rows. It can operate in an automatic mode (`0`) that detects interlacing or a forced mode (`1`) that always deinterlaces the image. This object is useful for processing interlaced video frames within GEM.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_scanline",
+        "pix_posterize",
+        "pix_info",
+        "pix_movement"
     ]
 }

@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "bpm",
-    "description": "The `bpm` object converts between beats per minute (BPM) and other time units. By default, it converts to and from milliseconds (ms), but it can also be configured to convert to and from samples using the `-samps` argument. This object is useful for tempo-related calculations in Pure Data patches.",
+    "description": "The `bpm` object calculates conversions to and from beats per minute (BPM). It can convert various time-related values into BPM, and vice-versa. Additionally, it supports conversions involving samples when the `-samps` flag is used.",
     "categories": [
         "Math",
         "General Utilities"

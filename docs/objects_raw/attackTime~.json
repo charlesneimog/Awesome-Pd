@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "attackTime~",
-    "description": "The `attackTime~` object calculates the attack time of an audio event in milliseconds. Upon receiving a bang, it identifies the peak sample within its analysis window and then searches backward for the attack onset, defined by a period of near-silence. This object requires an external onset detector to trigger its analysis and outputs the attack time, onset, and peak sample indices."
+    "description": "The `attackTime~` object calculates the attack time of an audio event in milliseconds. Upon receiving a bang, it identifies the peak sample within its analysis window and then searches backward for the attack onset, defined by a period of near-silence. This object requires an external onset detector to trigger its analysis and outputs the attack time, onset, and peak sample indices.",
+    "similar": [
+        "attackTime",
+        "bark",
+        "bark~",
+        "vu~"
+    ]
 }

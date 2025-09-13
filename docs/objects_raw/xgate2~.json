@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "xgate2~",
-    "description": "`xgate2~` routes a single input signal to a specified number of output channels, applying crossfading between adjacent channels. The crossfading behavior is controlled by a 'spread' parameter, which can be adjusted to distribute the signal across more or fewer channels. It also supports an indexed mode for direct channel selection.",
+    "description": "The `xgate2~` object routes a single input signal to multiple output channels with crossfading between adjacent channels. It uses a sine/cosine function for equal power crossfading, controlled by a 'spread' parameter that determines how widely the signal is distributed across channels. The output channel can be selected by a float or signal, and an indexed mode is available for direct channel number selection.",
     "categories": [
         "Routing",
         "Multichannel"

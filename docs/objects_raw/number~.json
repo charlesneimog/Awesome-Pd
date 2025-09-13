@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "number~",
-    "description": "The `number~` object in Pure Data functions as a dual-mode signal utility: it can either monitor an incoming audio signal, displaying its value, or generate a signal with a user-defined ramp time. Users can switch between these modes via a bang message or by interacting with its graphical interface. This object is deprecated; for signal monitoring, `[sig~]` and `[cyclone/snapshot~]` are recommended, while `[else/numbox~]` offers a more comprehensive GUI for signal generation and monitoring.",
+    "description": "The `number~` object in Pure Data serves as a dual-purpose GUI element, either monitoring an incoming audio signal's value or generating a ramped signal. When generating, it can produce a signal that ramps to a target value over a specified time, similar to `line~`. It also allows for setting display intervals and customizing its appearance.",
     "categories": [
         "GUI"
     ]

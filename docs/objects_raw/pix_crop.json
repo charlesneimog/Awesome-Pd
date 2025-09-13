@@ -23,5 +23,11 @@
     "description": "The `pix_crop` object is a GEM utility that extracts a sub-image from an incoming image. It allows users to define a rectangular selection by specifying its dimensions and an offset from the lower-left corner in pixels. The object then outputs only this selected portion of the original image.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_sig2pix~",
+        "pix_mask",
+        "pix_roi",
+        "pix_equal"
     ]
 }

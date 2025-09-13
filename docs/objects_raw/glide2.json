@@ -20,8 +20,8 @@
     ],
     "ai": true,
     "title": "glide2",
-    "description": "The `glide2` object smoothly transitions (glides) an incoming float signal to new values over time, acting as a portamento or slew limiter. It offers independent control over the attack (glide up) and decay (glide down) times in milliseconds, and an exponential factor for shaping the curve. A `reset` message can instantly set the output to the current input value.",
+    "description": "The `glide2` object generates a smooth glide or portamento effect for incoming float or signal values. It allows independent control over the glide-up and glide-down times in milliseconds, and an exponential factor can be applied to shape the transition curve. This object is useful for smoothing control signals or creating pitch glides.",
     "categories": [
-        "General Utilities"
+        "Envelopes"
     ]
 }

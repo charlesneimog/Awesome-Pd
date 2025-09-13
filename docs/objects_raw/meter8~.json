@@ -20,10 +20,9 @@
     ],
     "ai": true,
     "title": "meter8~",
-    "description": "The `meter8~` object provides an octaphonic (8-channel) VU-meter, displaying the RMS/peak amplitude of incoming audio signals. It accepts multichannel audio input and outputs a list of corresponding VU values in dBFS. Its behavior can be adjusted by setting window and hop size arguments.",
+    "description": "The `else/meter8~` object functions as an 8-channel VU meter, providing RMS and peak amplitude values in dBFS for incoming audio signals. It passes the input signals through its output and allows configuration of window and hop sizes for its internal `vu~` objects.",
     "categories": [
-        "Descriptors",
         "Multichannel",
-        "GUI"
+        "Descriptors"
     ]
 }

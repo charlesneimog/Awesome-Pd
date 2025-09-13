@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "drive.m~",
-    "description": "`drive.m~` is a multichannel audio object that applies a distortion or overdrive effect to incoming audio signals. It functions as a wrapper for the `drive~` object from the ELSE library, offering controls for adjusting the drive amount and attenuation.",
+    "description": "`drive.m~` is a multichannel audio object that acts as a wrapper for the `drive~` object from the ELSE library, providing a distortion or saturation effect. It allows control over the drive amount, with a parameter range from 0.1 to 1000, to add harmonic richness or grit to audio signals.",
     "categories": [
         "Distortion",
         "Multichannel"

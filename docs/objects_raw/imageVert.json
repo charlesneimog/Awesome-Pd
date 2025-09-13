@@ -23,5 +23,11 @@
     "description": "The `imageVert` object maps an input image (pix) to a 3D geometric representation. It generates a series of polygons where the height of each polygon is determined by the luminance (brightness) of the corresponding pixel in the input image. This allows for the creation of 3D shapes from 2D image data, useful for visual effects and data visualization within GEM.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_multiply",
+        "pix_compare",
+        "pix_mask",
+        "pix_takealpha"
     ]
 }

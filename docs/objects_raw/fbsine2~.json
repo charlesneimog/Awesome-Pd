@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "fbsine2~",
-    "description": "The `fbsine2~` object is a non-interpolating sound generator that produces a feedback sine chaotic signal. Based on SuperCollider's 'FBSineN' UGEN, it uses difference equations to create complex waveforms. It accepts various parameters to control its chaotic behavior, including frequency and initial values for its internal states.",
+    "description": "`fbsine2~` is a non-interpolating sound generator that produces signals based on a set of difference equations, inspired by SuperCollider's FBSineN UGEN. It can generate sine waves or complex chaotic signals through internal feedback. Users can control its behavior by setting frequency and various coefficients (`im`, `fb`, `a`, `c`), as well as initial state values.",
     "categories": [
-        "Math",
         "Oscillators"
     ]
 }

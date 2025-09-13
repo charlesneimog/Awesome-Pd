@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "unmerge~",
-    "description": "`unmerge~` separates the channels of a multichannel signal into groups of a specified size. Each group is sent to a dedicated outlet, with any remaining channels routed to an additional rightmost outlet. If the input signal has fewer channels than the configured outlets, the unused outlets output zeroes.",
+    "description": "The `unmerge~` object separates a multichannel signal into multiple single-channel or grouped-channel signals. It allows specifying the number of channels per output group, sending each group to a dedicated outlet and any remaining channels to an additional rightmost outlet. This is useful for processing individual or specific channel subsets from a larger multichannel stream.",
     "categories": [
         "Routing",
         "Multichannel"

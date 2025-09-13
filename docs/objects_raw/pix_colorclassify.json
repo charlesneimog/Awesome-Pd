@@ -23,5 +23,11 @@
     "description": "The `pix_colorclassify` object analyzes an input RGBA image, classifying each pixel into one of six primary color categories (red, green, blue, yellow, black, white) or marking it as 'uncertain'. It outputs a new RGBA image where pixels are replaced by color representatives based on their detected class, useful for basic image analysis and segmentation.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_equal",
+        "pix_color",
+        "pix_sig2pix~",
+        "pix_mask"
     ]
 }

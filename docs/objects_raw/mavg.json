@@ -24,5 +24,11 @@
     "categories": [
         "Filters",
         "Math"
+    ],
+    "similar": [
+        "mov.avg~",
+        "mov.avg",
+        "median~",
+        "average~"
     ]
 }

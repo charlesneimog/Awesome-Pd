@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "offer",
-    "description": "The `offer` object stores temporary `x`/`y` number pairs. When an `x` value is received, it outputs the corresponding `y` value and then deletes that specific `x`/`y` pair. This allows for one-time retrieval of associated data.",
+    "description": "The `offer` object stores temporary `x/y` integer pairs. A `y` value is first set in the right inlet, then an `x` value received in the left inlet forms a pair. When an `x` is subsequently received, `offer` outputs its corresponding `y` value and deletes that specific `x/y` pair, acting as a one-time data retrieval mechanism.",
     "categories": [
         "Data Structures"
     ]

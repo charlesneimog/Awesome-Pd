@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "sr~",
-    "description": "`sr~` is a Pure Data object that reports and can set the global audio sample rate. It outputs the sample rate frequency (in Hz or kHz) or period (in seconds or milliseconds) upon loading, receiving a bang, or when the sample rate changes. Unlike `samplerate~`, `sr~` always reflects the system's global sample rate, not local up/downsampling rates.",
+    "description": "The `sr~` object in Pure Data allows users to set and retrieve the global audio sample rate. It outputs the sample rate frequency (in Hz or kHz) or period (in ms or seconds) upon initialization, receiving a bang, or when the sample rate changes. Unlike `samplerate~`, `sr~` always reflects the system's global sample rate, not local up/downsampling rates.",
     "categories": [
+        "Audio IO",
         "General Utilities"
     ]
 }

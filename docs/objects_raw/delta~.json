@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "delta~",
-    "description": "The `delta~` object calculates the difference between the current and previous sample of an incoming audio signal. It is useful for detecting changes or transients in a signal, effectively acting as a discrete-time differentiator.",
+    "description": "The `delta~` object calculates the difference between the current incoming audio sample and the previous sample. This effectively highlights changes in the signal, outputting the rate of change. It can be used to detect transients or analyze signal movement.",
     "categories": [
         "Math"
     ]

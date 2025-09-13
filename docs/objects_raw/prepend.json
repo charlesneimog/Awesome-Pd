@@ -20,6 +20,9 @@
     ],
     "ai": true,
     "title": "prepend",
-    "description": "The `prepend` object adds a predefined message, set as an argument or via a `set` message, to the beginning of any incoming message. It functions similarly to Pure Data's built-in `list prepend` object, serving as a utility for message manipulation.",
-    "categories": []
+    "description": "The `prepend` object adds a specified message or argument to the beginning of any incoming message. It functions similarly to `list prepend`, allowing dynamic modification of the prepended content via a `set` message. This object is useful for constructing new messages by prefixing existing ones.",
+    "categories": [
+        "Data Structures",
+        "General Utilities"
+    ]
 }

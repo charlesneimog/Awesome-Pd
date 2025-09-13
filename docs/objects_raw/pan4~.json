@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "pan4~",
-    "description": "The `pan4~` object is a 4-channel equal power (sine/cosine) panner designed for quadraphonic audio. It takes an audio signal and two control signals (X and Y) to position the sound source within a 2D quadraphonic field, outputting to four distinct channels: Left-Back, Left-Front, Right-Front, and Right-Back.",
+    "description": "The `pan4~` object is a 4-channel equal power (sin/cos) panner. It takes a signal input and two control inputs for X and Y panning, ranging from -1 (Left/Back) to 1 (Right/Front), to distribute the signal across four output channels. An optional `-mc` flag enables multichannel audio output.",
     "categories": [
-        "Routing",
         "Multichannel"
     ]
 }

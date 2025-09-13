@@ -23,5 +23,11 @@
     "description": "`gemsdlwindow` is a Pure Data object that utilizes the SDL (Simple DirectMedia Layer) toolkit to create and manage graphical windows. It allows for setting window properties like title, dimensions, position, and full-screen mode, and activates an OpenGL context for rendering. The object also provides feedback related to window events, including keyboard input.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "gemglfw3window",
+        "gemcocoawindow",
+        "gemglutwindow",
+        "gemmacwindow"
     ]
 }

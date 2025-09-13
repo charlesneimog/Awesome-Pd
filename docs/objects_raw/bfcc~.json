@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "bfcc~",
-    "description": "The `bfcc~` object computes Bark-frequency cepstral coefficients (BFCCs) from an audio input, emphasizing lower spectral content and using a Discrete Cosine Transform. It outputs a list of BFCCs upon receiving a bang, handling internal audio buffering and windowing. This object is useful for extracting perceptually relevant features from audio for tasks like timbre identification."
+    "description": "The `bfcc~` object computes Bark-frequency cepstral coefficients (BFCCs) from an audio input, emphasizing lower spectral content and using a Discrete Cosine Transform. It outputs a list of BFCCs upon receiving a bang, handling internal audio buffering and windowing. This object is useful for extracting perceptually relevant features from audio for tasks like timbre identification.",
+    "similar": [
+        "mfcc~",
+        "tID_fft~",
+        "bfcc",
+        "barkSpecFlatness~"
+    ]
 }

@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "flanger.m~",
-    "description": "`flanger.m~` is a Pure Data audio effect object that serves as a simplified wrapper for the `flanger~` object from the ELSE library. It applies a flanging effect to an audio signal, allowing control over parameters such as modulation rate, depth, feedback coefficient, and wet/dry mix. This object functions as a straightforward audio processing module.",
+    "description": "The `flanger.m~` object is a multichannel audio effect that acts as a wrapper for the `flanger~` object from the ELSE library. It provides a simple flanging effect, similar to a guitar pedal, and currently lacks control voltage (CV) input.",
     "categories": [
-        "Chorus/Flanger/Phaser"
+        "Chorus/Flanger/Phaser",
+        "Multichannel"
     ]
 }

@@ -31,5 +31,11 @@
     "description": "The `burrow~` object performs cross-filtering on an audio input, using a second audio input as a filter source. It operates based on FFT information, allowing for dynamic filtering controlled by parameters like frequency, threshold (in dB), and a multiplier factor. It supports both normal and inverted filtering modes and can be configured with window size and overlap for its FFT analysis.",
     "categories": [
         "Filters"
+    ],
+    "similar": [
+        "xsyn~",
+        "brickwall~",
+        "hip.bw~",
+        "buffir~"
     ]
 }

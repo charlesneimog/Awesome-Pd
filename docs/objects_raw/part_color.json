@@ -23,5 +23,11 @@
     "description": "The `part_color` object is a component of the GEM particle system, designed to define the visual color of particles. It allows users to specify two distinct colors, with individual particles randomly adopting one of the two provided color values. This object is crucial for customizing the appearance of particle effects within GEM.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "part_targetcolor",
+        "part_render",
+        "part_vertex",
+        "part_follow"
     ]
 }

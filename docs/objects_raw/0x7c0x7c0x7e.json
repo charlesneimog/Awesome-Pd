@@ -23,5 +23,11 @@
     "description": "The Pure Data object `||~` performs a logical OR operation on two incoming audio signals. It outputs a signal that is high (non-zero) if either of the input signals is high, and low (zero) only if both input signals are low. This object is an abstraction and does not support arguments.",
     "categories": [
         "Logic"
+    ],
+    "similar": [
+        "0x3e0x7e",
+        "0x3c0x7e",
+        "&&~",
+        "togedge"
     ]
 }

@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "midi2freq",
-    "description": "The `midi2freq` object converts MIDI note numbers (including fractional \"MIDI cents\") into corresponding frequencies in Hertz. It can process lists of MIDI values and allows users to set a custom A4 reference frequency, enabling exploration of different tuning systems.",
+    "description": "The `midi2freq` object converts MIDI note numbers into their corresponding frequencies in Hertz. It functions similarly to `mtof` but allows for setting a custom A4 reference frequency. It can process both single MIDI values and lists of MIDI values.",
     "categories": [
         "Math",
         "MIDI"

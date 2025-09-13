@@ -23,5 +23,11 @@
     "description": "The `&&~` object performs a logical AND operation on two input signals. It outputs a signal based on the comparison of its two signal inlets. This is an abstraction, and an external version exists with better performance.",
     "categories": [
         "Logic"
+    ],
+    "similar": [
+        "0x3c0x7e",
+        "lessthan~",
+        "0x7c0x7c0x7e",
+        "lessthaneq~"
     ]
 }

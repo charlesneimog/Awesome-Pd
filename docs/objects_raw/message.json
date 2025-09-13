@@ -20,10 +20,8 @@
     ],
     "ai": true,
     "title": "message",
-    "description": "The `message` object in Pure Data serves as a versatile container for storing and outputting any type of message, functioning similarly to a message box but as an object. It facilitates flexible data flow by allowing messages to be split by commas and enabling direct sending to named receives via semicolons. This object is fundamental for managing and routing data within a Pd patch.",
+    "description": "The `message` object stores and outputs any type of message, similar to a standard message box. It can parse messages containing commas (splitting them) and semicolons (creating new messages), with backslashes used for escaping these characters. A `bang` or a click on the object will output the currently stored message.",
     "categories": [
-        "Patching",
-        "Routing",
-        "General Utilities"
+        "Text"
     ]
 }

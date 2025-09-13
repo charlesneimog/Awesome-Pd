@@ -23,5 +23,11 @@
     "description": "The `part_head` object initializes and manages a particle system within GEM. It acts as the central hub for a particle list, connecting particle generators (`part_source`), various `part_` modifiers, and a particle renderer (`part_draw`). It can be configured with a maximum number of particles and allows control over particle emission speed.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "part_vertex",
+        "part_render",
+        "part_size",
+        "part_info"
     ]
 }

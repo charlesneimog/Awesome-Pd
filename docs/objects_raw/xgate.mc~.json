@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "xgate.mc~",
-    "description": "The `xgate.mc~` object routes a multichannel audio input to a selected multichannel output. It allows specifying the number of output channels, a crossfade time in milliseconds for smooth transitions, and an initial output channel. This object is primarily used for dynamically directing audio signals within a multichannel audio processing chain.",
+    "description": "The `xgate.mc~` object routes an input signal to a specific channel within a multichannel connection. It supports multichannel inputs, where the output channels are grouped based on the number of input channels and the configured number of outlets. The object also allows for crossfading between selected outputs.",
     "categories": [
         "Routing",
         "Multichannel"

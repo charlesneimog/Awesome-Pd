@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "maxSampleDelta~",
-    "description": "The `maxSampleDelta~` object analyzes an audio stream to find the largest absolute difference between adjacent samples within a specified window. It outputs this maximum delta value and its corresponding index, making it useful for detecting sudden discontinuities or percussive onsets in a waveform. The analysis window size can be configured via a creation argument or a \"window\" message."
+    "description": "The `maxSampleDelta~` object analyzes an audio stream to find the largest absolute difference between adjacent samples within a specified window. It outputs this maximum delta value and its corresponding index, making it useful for detecting sudden discontinuities or percussive onsets in a waveform. The analysis window size can be configured via a creation argument or a \"window\" message.",
+    "similar": [
+        "maxSampleDelta",
+        "minSampleDelta~",
+        "minSampleDelta",
+        "minSample"
+    ]
 }

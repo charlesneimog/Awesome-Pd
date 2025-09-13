@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "greaterthaneq~",
-    "description": "The `greaterthaneq~` (or `>=~`) object performs a signal-rate comparison, outputting a 1 signal when the left inlet's signal is greater than or equal to the right inlet's signal or argument. Otherwise, it outputs a 0 signal. This object is used for conditional logic based on signal values.",
+    "description": "The `greaterthaneq~` (or `>=~`) object performs a \"greater than or equal to\" comparison for audio signals. It outputs a signal of 1 when its left inlet's signal is greater than or equal to the right inlet's signal or argument, and 0 otherwise. This object is useful for creating signal-based conditional logic.",
     "categories": [
-        "Logic"
+        "Logic",
+        "Math"
     ]
 }

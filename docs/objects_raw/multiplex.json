@@ -23,5 +23,11 @@
     "description": "The `multiplex` object routes data from one of its multiple inlets to a single outlet. The rightmost inlet determines which input is selected, using a 0-based index. This allows for dynamic switching between various data streams.",
     "categories": [
         "Routing"
+    ],
+    "similar": [
+        "gate~",
+        "multiplex~",
+        "xselect~",
+        "selector~"
     ]
 }

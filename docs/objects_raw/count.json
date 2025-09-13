@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "count",
-    "description": "The `count` object in Pure Data generates a sequence of numbers, incrementing or decrementing between a defined minimum and maximum value. It supports counting up, down, or alternating directions, and can be reset or set to a specific value. It outputs the current count and can send a bang when reaching its limits.",
+    "description": "The `count` object acts as a versatile counter, incrementing or decrementing a numerical value within specified minimum and maximum bounds. It can be reset, have its current value set, and its direction (up/down) or alternating mode controlled via messages. A `bang` input triggers the count, and it outputs the current count value, along with a `bang` when it reaches its limits.",
     "categories": [
-        "Procedural",
+        "Math",
         "General Utilities"
     ]
 }

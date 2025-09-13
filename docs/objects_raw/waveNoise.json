@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "waveNoise",
-    "description": "The `waveNoise` object analyzes a specified sample array to quantify its \"noisiness\" or the rate of change in its waveform direction. It outputs a numerical descriptor, useful for identifying low-level noise or characterizing the texture of a sound. The object can analyze either the entire array or a specific segment."
+    "description": "The `waveNoise` object analyzes a specified sample array to quantify its \"noisiness\" or the rate of change in its waveform direction. It outputs a numerical descriptor, useful for identifying low-level noise or characterizing the texture of a sound. The object can analyze either the entire array or a specific segment.",
+    "similar": [
+        "harmonicRatio",
+        "peakSample",
+        "waveNoise~",
+        "autoCorrPitch"
+    ]
 }

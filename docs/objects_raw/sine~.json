@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "sine~",
-    "description": "`sine~` is a sinusoidal oscillator that generates an audio signal. It supports negative frequencies, phase synchronization, and phase modulation. It also features multichannel output and can interpret frequency input in either Hertz or MIDI pitch.",
+    "description": "`sine~` is a versatile sinusoidal oscillator that supports negative frequencies, phase synchronization, and phase modulation. It offers both hard and soft sync modes, and its frequency input can be set in Hertz or MIDI pitch. The object also features multichannel support, allowing for complex sound generation and modulation.",
     "categories": [
         "Oscillators",
-        "Multichannel"
+        "LFOs",
+        "Additive"
     ]
 }

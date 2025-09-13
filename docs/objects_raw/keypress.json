@@ -20,8 +20,8 @@
     ],
     "ai": true,
     "title": "keypress",
-    "description": "The `keypress` object detects presses of a single computer keyboard key, outputting a bang or a toggle (1 for pressed, 0 for released). It can be configured with a specific key as an argument or taught to \"learn\" a key press, filtering out autorepeated keys and those pressed in edit mode. This object is useful for triggering events or controlling parameters based on keyboard input.",
+    "description": "The `keypress` object detects presses of a single computer keyboard key, outputting either a `bang` or a toggle (1 for pressed, 0 for released). It can be configured with a specific key symbol or dynamically \"learn\" a key press, saving it as an argument. The object filters out auto-repeated key presses and those made in edit mode, making it suitable for interactive control.",
     "categories": [
-        "Control I/O"
+        "Control IO"
     ]
 }

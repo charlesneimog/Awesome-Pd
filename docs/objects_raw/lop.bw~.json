@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "lop.bw~",
-    "description": "The `lop.bw~` object is a lowpass Butterworth filter abstraction. It allows users to specify the cutoff frequency and the filter's order (from 2nd to 100th order) to shape the frequency response of an audio signal.",
+    "description": "`lop.bw~` is a lowpass Butterworth filter abstraction for Pure Data. It processes an incoming audio signal, allowing only frequencies below a specified cutoff to pass through. The filter's characteristics can be adjusted by setting the cutoff frequency and an order from 2 to 100.",
     "categories": [
         "Filters"
     ]

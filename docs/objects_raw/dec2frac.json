@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "dec2frac",
-    "description": "The `dec2frac` object converts decimal numbers into fractional representations. It can output the fraction as a symbol or as a list containing the numerator and denominator. Users can specify a resolution, which sets the maximum numerator for approximating simpler ratios.",
+    "description": "The `dec2frac` object converts decimal numbers into their fractional equivalents. It can output these fractions either as symbols or as a list containing the numerator and denominator. Users can control the approximation's resolution by setting a maximum numerator value.",
     "categories": [
-        "Math"
+        "Math",
+        "General Utilities"
     ]
 }

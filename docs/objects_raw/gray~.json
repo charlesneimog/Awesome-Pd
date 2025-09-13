@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "gray~",
-    "description": "The `gray~` object generates a unique type of noise based on \"gray code\" (reflected binary code), which results from flipping random bits using a pseudo-random number generator. This noise emphasizes lower frequencies and has a high RMS level relative to its peak-to-peak level. It supports multichannel output and can be seeded for reproducible sequences.",
+    "description": "The `gray~` object generates multichannel noise based on a pseudo-random number generator that uses \"gray code\" (reflected binary code). This noise type emphasizes lower frequencies and has a high RMS level. Users can control the noise sequence by setting a seed value via the `seed` message or `-seed` flag, and specify the number of output channels using the `ch` message or `-ch`/`-mc` flags.",
     "categories": [
         "Stochastic",
-        "Multichannel"
+        "Multichannel",
+        "Oscillators"
     ]
 }

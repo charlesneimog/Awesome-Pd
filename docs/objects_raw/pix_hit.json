@@ -23,5 +23,11 @@
     "description": "The `pix_hit` object performs hit tests on incoming GEM pixel data, allowing users to define specific areas (circles, lines, rectangles) within an image or video stream. It detects if a minimum number of pixels within these defined areas exceed a luminance threshold, outputting hit information for each area. This is useful for interactive visual applications or motion detection.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_lumaoffset",
+        "pix_subtract",
+        "pix_movement2",
+        "pix_mask"
     ]
 }

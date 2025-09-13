@@ -23,5 +23,11 @@
     "description": "The `translate` object in Pure Data is a GEM manipulation object that applies a translation to the current transformation matrix. It takes a `gemlist` as input and outputs a modified `gemlist`, effectively moving graphical objects in 3D space. Translation can be controlled by arguments for scale and XYZ axis, or via its inlets.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "shearYX",
+        "translateXYZ",
+        "gemlist_matrix",
+        "rotate"
     ]
 }

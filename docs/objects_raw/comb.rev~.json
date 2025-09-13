@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "comb.rev~",
-    "description": "The `comb.rev~` object implements a comb filter, functioning as a versatile audio effect for creating delays, reverberation, and resonant textures. It allows control over delay time (`D`), input gain (`a`), feedforward gain (`b`), and feedback gain (`c`) to shape the sound.",
+    "description": "The `comb.rev~` object implements a general-purpose comb filter, which can be used to create delay, comb filtering, or reverberation effects. It processes an input signal `x[n]` to produce an output `y[n]` based on a configurable delay time `D` and gain coefficients `a`, `b`, and `c` for input, feedforward, and feedback paths respectively. The object supports dynamic control of delay time and coefficients via signal or float inputs.",
     "categories": [
         "Reverb",
         "Delay",

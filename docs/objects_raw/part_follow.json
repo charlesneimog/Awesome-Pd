@@ -23,5 +23,11 @@
     "description": "The `part_follow` object is a GEM particle system component that enables particles to follow each other, creating dynamic visual effects. It operates within the GEM environment, taking `gemlist` input (typically from `part_head`) to manipulate particle behavior.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "part_vertex",
+        "part_render",
+        "part_head",
+        "part_color"
     ]
 }

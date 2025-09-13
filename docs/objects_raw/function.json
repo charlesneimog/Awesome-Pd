@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "function",
-    "description": "The `function` object is a graphical user interface (GUI) for creating and manipulating breakpoint functions. It serves as a versatile line generator, primarily used to define envelopes for objects like `function~` and `envgen~`. Users can interact with it by clicking and dragging points on the graph, or by sending it lists of values to define the function's shape.",
+    "description": "The `function` object is a graphical user interface (GUI) for creating and manipulating breakpoint functions. It allows users to draw custom envelopes or waveforms by clicking and dragging points, which can then be used to control other Pure Data objects like `function~` or `envgen~`. It supports setting ranges, dimensions, colors, and can output the breakpoint data as a list or interpolate values based on an index.",
     "categories": [
         "Envelopes",
         "GUI"

@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "panic",
-    "description": "The `panic` object acts as a \"panic button\" for MIDI notes. It tracks incoming raw MIDI Note-on messages and, upon receiving a `bang`, sends corresponding Note-off messages for any notes that were not explicitly turned off, effectively \"flushing\" hanging notes. It also allows clearing its internal state.",
+    "description": "The `panic` object functions as a \"panic button\" for MIDI notes. It tracks raw MIDI Note-on messages and, upon receiving a `bang`, sends corresponding Note-off messages for any notes that were not switched off, effectively flushing \"hanging\" notes. It also allows clearing its internal list of tracked notes with a `clear` message.",
     "categories": [
-        "MIDI",
-        "General Utilities"
+        "MIDI"
     ]
 }

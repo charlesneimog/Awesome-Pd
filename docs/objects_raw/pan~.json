@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "pan~",
-    "description": "`pan~` performs circular or azimuth panning of an input signal across a user-defined number of output channels. It distributes the audio using equal power crossfading, simulating a circular speaker arrangement. The panning position is controlled by an azimuth angle, with an additional spread parameter for fine-tuning the crossfade.",
+    "description": "`pan~` pans an input signal across a user-defined number of output channels, simulating a circular speaker arrangement. It uses equal power crossfading between adjacent channels, controlled by an azimuth input and a spread parameter to adjust the width of the crossfade. This object is ideal for spatializing mono signals into multi-channel audio environments.",
     "categories": [
+        "Multichannel",
         "Routing",
-        "Multichannel"
+        "VBAP"
     ]
 }

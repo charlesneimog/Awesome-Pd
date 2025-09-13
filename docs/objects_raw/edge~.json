@@ -20,8 +20,6 @@
     ],
     "ai": true,
     "title": "edge~",
-    "description": "The `edge~` object detects transitions in an audio signal. It outputs a bang from its left outlet when the signal crosses from zero to non-zero, and a bang from its right outlet when the signal crosses from non-zero to zero. This is useful for triggering events based on the presence or absence of an audio signal.",
-    "categories": [
-        "Logic"
-    ]
+    "description": "The `edge~` object detects transitions in an audio signal. It outputs a bang when the signal changes from zero to non-zero, and another bang when it transitions from non-zero back to zero, effectively identifying the start and end of a signal segment.",
+    "categories": []
 }

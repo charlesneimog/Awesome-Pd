@@ -20,8 +20,10 @@
     ],
     "ai": true,
     "title": "logistic~",
-    "description": "`logistic~` is a chaotic signal generator based on the logistic map difference equation. It produces a chaotic audio signal, with its output rate controlled by a frequency in Hertz and a 'p' parameter (0 to 1) influencing the chaotic behavior.",
+    "description": "`logistic~` is a chaotic signal generator based on the logistic difference equation. It produces a chaotic output signal, controlled by a frequency parameter in Hertz and a 'p' parameter ranging from 0 to 1. This object is inspired by SuperCollider's Logistic UGEN.",
     "categories": [
-        "Oscillators"
+        "Math",
+        "Oscillators",
+        "Stochastic"
     ]
 }

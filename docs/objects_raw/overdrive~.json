@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "overdrive~",
-    "description": "The `overdrive~` object simulates analog overdrive by applying a non-linear transfer function to an incoming audio signal, mimicking the soft clipping of a tube-based circuit. It takes an audio signal and a \"drive factor\" as input, producing a distorted output signal. Increasing the drive factor intensifies the distortion.",
+    "description": "The `overdrive~` object simulates analog tube-based soft clipping, applying a non-linear transfer function to an incoming audio signal to create distortion. A \"drive factor\" controls the intensity of the effect, with values greater than 1 increasing distortion and values less than 1 producing a different type of distortion. Be cautious with drive factors less than 0, as they can lead to very loud output.",
     "categories": [
         "Distortion"
     ]

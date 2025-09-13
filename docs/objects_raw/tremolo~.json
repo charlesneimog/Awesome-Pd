@@ -20,6 +20,8 @@
     ],
     "ai": true,
     "title": "tremolo~",
-    "description": "The `tremolo~` object performs amplitude modulation on an input audio signal. It takes a signal, a tremolo frequency, and a tremolo depth as inputs, producing a tremoloed output signal. A depth of 1 achieves classic amplitude modulation.",
-    "categories": []
+    "description": "The `tremolo~` object performs amplitude modulation on an input signal. It allows control over the tremolo frequency and depth, with a depth of 1 achieving classic amplitude modulation.",
+    "categories": [
+        "Chorus/Flanger/Phaser"
+    ]
 }

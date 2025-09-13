@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "phaseSpec~",
-    "description": "The `phaseSpec~` object calculates and outputs the phase spectrum of an audio signal. It performs a Fourier transform and extracts the phase (angle) information for each frequency bin, outputting a list of values between -pi and +pi radians when triggered by a bang. This object is useful for analyzing the phase characteristics of sounds, which can be influenced by windowing functions, and can be used as a feature for timbre classification."
+    "description": "The `phaseSpec~` object calculates and outputs the phase spectrum of an audio signal. It performs a Fourier transform and extracts the phase (angle) information for each frequency bin, outputting a list of values between -pi and +pi radians when triggered by a bang. This object is useful for analyzing the phase characteristics of sounds, which can be influenced by windowing functions, and can be used as a feature for timbre classification.",
+    "similar": [
+        "phaseSpec",
+        "tID_fft~",
+        "barkSpec~",
+        "magSpec~"
+    ]
 }

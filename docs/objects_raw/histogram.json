@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "histogram",
-    "description": "The `histogram` object records the frequency of incoming positive integer numbers (floats are truncated) into an internal table. It also specifically handles MIDI note-on messages, treating them as indices. Users can clear, resize, query, or export the histogram data, and optionally name or embed the internal table.",
+    "description": "The `histogram` object counts the occurrences of incoming positive integer values, storing them as indices in an internal table. It can also specifically record MIDI note-on pitches from list inputs. This utility allows users to query specific counts, export the collected data as a list, and dynamically resize or name its internal table for integration with other data manipulation objects.",
     "categories": [
-        "Math",
-        "Data Structures"
+        "MIDI",
+        "Data Structures",
+        "General Utilities"
     ]
 }

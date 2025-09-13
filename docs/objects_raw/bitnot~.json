@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "bitnot~",
-    "description": "The `bitnot~` object performs a bitwise NOT operation (one's complement) on an incoming audio signal, inverting all bits of its 32-bit representation. It offers two modes: one that operates directly on the floating-point signal's bit representation, and another that first converts the signal to an integer before inversion.",
+    "description": "`bitnot~` performs a bitwise NOT operation (one's complement) on an incoming signal. It inverts all bits of the 32-bit floating-point signal, with an option to first convert the input to an integer. This object is useful for low-level signal manipulation and can be a building block for more complex digital signal processing.",
     "categories": [
-        "Logic"
+        "Logic",
+        "Math"
     ]
 }

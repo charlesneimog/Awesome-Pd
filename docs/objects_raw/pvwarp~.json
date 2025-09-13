@@ -29,5 +29,11 @@
     "ai": true,
     "title": "pvwarp~",
     "description": "`pvwarp~` is a Pure Data object designed for spectral warping of audio signals. It creates and applies internal frequency warping functions, allowing users to manipulate the frequency content of sound. Parameters include setting synthesis frequency ranges, flattening the warp function, and generating random warp functions.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "mindwarp~",
+        "pvwarpb~",
+        "enrich~",
+        "gendyn~"
+    ]
 }

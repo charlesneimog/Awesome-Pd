@@ -24,5 +24,11 @@
     "categories": [
         "File I/O",
         "Graphics"
+    ],
+    "similar": [
+        "multimodel",
+        "modelfiler",
+        "pix_movie",
+        "pix_imageInPlace"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `pix_multitexture` object applies multiple texture mappings within a GEM (Graphics Environment for Multimedia) network. It takes a `gemlist` and multiple texture IDs as input, allowing for the application of various textures to the current graphics chain. This object is particularly useful when working with shaders to achieve complex visual effects.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_texture",
+        "pix_coordinate",
+        "pix_clearblock",
+        "shearXY"
     ]
 }

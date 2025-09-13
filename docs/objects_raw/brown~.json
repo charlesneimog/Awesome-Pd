@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "brown~",
-    "description": "`brown~` is a brown noise generator, also known as Brownian or red noise, which produces a signal whose spectral energy drops 6dB per octave. It operates as a bounded random walk, generating new steps based on a pseudo-random number algorithm, and allows for custom step sizes and seed values for reproducible sequences.",
+    "description": "`brown~` generates brown noise, also known as Brownian or red noise, characterized by a 6dB/octave spectral rolloff, making it less hissy than white noise. It operates as a bounded random walk within -1 and 1, with a configurable maximum step size that influences its spectral characteristics. The object also supports seeding for reproducible noise sequences and can generate new random steps via signal input.",
     "categories": [
-        "Oscillators",
         "Stochastic"
     ]
 }

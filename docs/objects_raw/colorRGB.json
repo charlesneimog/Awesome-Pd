@@ -23,5 +23,11 @@
     "description": "The `colorRGB` object in Pure Data's GEM environment sets the color for subsequent graphical shapes and vertex operations. It accepts RGB or RGBA float values, either as a list argument or through individual inlets. For alpha blending (transparency), an `alpha` object must be used in conjunction with `colorRGB`.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "color",
+        "alpha",
+        "pix_alpha",
+        "specularRGB"
     ]
 }

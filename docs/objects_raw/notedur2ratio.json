@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "notedur2ratio",
-    "description": "The `notedur2ratio` object converts musical note duration symbols (e.g., `1n` for whole note, `4n` for quarter note) into their corresponding numerical ratios, which can be output as fractions or floats. It supports various musical notations including dotted notes, tuplets (both explicit `[x:y]` and common abbreviations), and tied notes.",
+    "description": "The `notedur2ratio` object converts symbolic musical note durations (e.g., `4n` for a quarter note) into numerical ratios, outputting them as either fractions or floats. It supports standard note values, dotted notes, various tuplets (using abbreviations like 'd', 't', 'q', 's', 'n' or `[x:y]` format), and tied notes. This utility is essential for precise timing calculations in musical contexts.",
     "categories": [
         "Math",
-        "General Utilities"
+        "General Utilities",
+        "Text"
     ]
 }

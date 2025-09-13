@@ -25,5 +25,11 @@
         "File I/O",
         "MultiThreading",
         "Graphics"
+    ],
+    "similar": [
+        "pix_multiimage",
+        "pix_writer",
+        "pix_imageInPlace",
+        "pix_buffer_filmopen"
     ]
 }

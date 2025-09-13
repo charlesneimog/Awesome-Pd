@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "tempo~",
-    "description": "The `tempo~` object functions as a metronome, generating impulses at a specified tempo in BPM, milliseconds, or Hertz. It can be turned on/off via a gate input and synchronized with a bang or impulse. Additionally, it features a 'swing' parameter for introducing controlled random timing deviations, which can be made reproducible using a seed.",
+    "description": "The `tempo~` object functions as a signal-rate metronome, generating impulses at a specified tempo in BPM, milliseconds, or Hertz. It supports external synchronization via impulses and includes a \"swing\" parameter to introduce rhythmic deviation, which can be controlled with a seed for pseudo-randomness.",
     "categories": [
-        "Oscillators",
-        "Stochastic"
+        "General Utilities"
     ]
 }

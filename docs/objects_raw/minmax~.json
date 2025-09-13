@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "minmax~",
-    "description": "The `minmax~` object tracks and outputs the minimum and maximum signal levels it has received since its creation or last reset. It provides these values both as audio signals and as floats, which can be triggered by a bang. This object is useful for analyzing the dynamic range of an audio signal over time.",
+    "description": "The `minmax~` object continuously tracks the minimum and maximum amplitude values of an incoming audio signal. It outputs these extreme values as both signals and discrete floats, which can be reset at any time. This makes it useful for dynamic signal analysis, such as determining the range for normalization.",
     "categories": [
-        "Math"
+        "Math",
+        "General Utilities"
     ]
 }

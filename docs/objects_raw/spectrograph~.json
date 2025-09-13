@@ -20,9 +20,10 @@
     ],
     "ai": true,
     "title": "spectrograph~",
-    "description": "The `spectrograph~` object visualizes the FFT amplitudes of an incoming audio signal, displaying frequencies from 0 Hz to Nyquist. It uses a Hann window for spectral analysis and allows customization of FFT size, amplitude scaling (linear or dB), frequency scaling (linear or logarithmic), and display dimensions. When its graph rate is set to 0, it can be triggered manually by a `bang` message.",
+    "description": "The `spectrograph~` object visualizes FFT amplitudes from 0 Hz to Nyquist, using a Hann window for spectral analysis. It allows customization of FFT size, amplitude scaling (linear or dB), frequency scaling (linear or logarithmic), and display dimensions. The visualization can update continuously or on demand via a `bang` message.",
     "categories": [
         "Descriptors",
+        "GUI",
         "Graphics"
     ]
 }

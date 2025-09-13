@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "del~",
-    "description": "The `del~` object in Pure Data manages audio delay lines. When instantiated as `del~ in`, it defines and writes a signal to a delay line, allowing control over its size and freezing. When instantiated as `del~ out`, it reads from a defined delay line with cubic interpolation, enabling flexible audio delays.",
+    "description": "`del~` defines and manages a signal delay line, functioning as either a writer (`del~ in`, the default) or a reader (`del~ out`). The reader interpolates values using a cubic spline. It supports setting delay time in milliseconds or samples, clearing the delay line, and freezing its contents, and includes a dummy outlet to ensure proper order of execution.",
     "categories": [
         "Delay"
     ]

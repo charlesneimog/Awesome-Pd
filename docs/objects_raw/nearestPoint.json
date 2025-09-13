@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "nearestPoint",
-    "description": "The nearestPoint object identifies the closest point(s) within a stored dataset to a given input point in a multi-dimensional space. It builds its dataset by receiving points in its left inlet and, upon receiving a query point in its right inlet, outputs the index and distance of the nearest match(es). The dimensionality of points is defined at creation, and the number of returned matches can be specified."
+    "description": "The nearestPoint object identifies the closest point(s) within a stored dataset to a given input point in a multi-dimensional space. It builds its dataset by receiving points in its left inlet and, upon receiving a query point in its right inlet, outputs the index and distance of the nearest match(es). The dimensionality of points is defined at creation, and the number of returned matches can be specified.",
+    "similar": [
+        "peakSample",
+        "peakSample~",
+        "attackTime~",
+        "magSpec~"
+    ]
 }

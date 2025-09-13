@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "bondo",
-    "description": "The `bondo` object in Pure Data synchronizes and routes incoming messages. It can distribute elements of multi-element messages across its outlets or collect messages over a specified time interval before outputting them all at once. This allows for flexible control over message flow and timing within a patch.",
+    "description": "The `bondo` object synchronizes and routes messages in Pure Data. It can parse multi-element messages across its outlets or output them as a single message, and it can also delay and group messages received within a specified time interval. This allows for controlled message flow and synchronization within a patch.",
     "categories": [
-        "Routing"
+        "Routing",
+        "General Utilities"
     ]
 }

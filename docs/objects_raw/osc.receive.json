@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "osc.receive",
-    "description": "The `osc.receive` object in Pure Data is designed to receive Open Sound Control (OSC) messages over a network connection. It acts as an abstraction built upon `osc.parse` and `netreceive`, allowing users to easily establish a connection to a specified port and process incoming OSC data.",
+    "description": "The `osc.receive` object is used to receive Open Sound Control (OSC) messages over network connections. It acts as an abstraction built upon `osc.parse` and `netreceive`, allowing it to connect to a specified port to receive messages, typically from an `osc.send` object. It can be controlled to connect or disconnect from a port, and outputs the received OSC messages.",
     "categories": [
         "Networking",
         "OSC"

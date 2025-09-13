@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "canvas.mouse",
-    "description": "The `canvas.mouse` object captures mouse click status and coordinates within a Pure Data canvas. It can be configured to report coordinates relative to parent patches or subpatches, and to output data even when in edit mode.",
+    "description": "`canvas.mouse` captures mouse click status and coordinates when interacting with a Pure Data canvas. It supports an optional depth argument to retrieve information from parent patches and a position mode to reset coordinates relative to a subpatch's position. Additionally, it can be configured to output data even in edit mode.",
     "categories": [
-        "Control I/O",
+        "Control IO",
         "GUI"
     ]
 }

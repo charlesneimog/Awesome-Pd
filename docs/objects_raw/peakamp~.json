@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "peakamp~",
-    "description": "The `peakamp~` object measures the absolute peak amplitude of an incoming audio signal. It reports this value either when triggered by a bang message or automatically at a specified time interval. This object is useful for monitoring the maximum signal level.",
+    "description": "The `peakamp~` object reports the absolute peak amplitude of an audio signal since its last output. It can output this value when triggered by a `bang` or at regular intervals set by a float (in milliseconds). This is useful for monitoring signal levels or triggering events based on amplitude peaks.",
     "categories": [
-        "Descriptors",
-        "Dynamics"
+        "Descriptors"
     ]
 }

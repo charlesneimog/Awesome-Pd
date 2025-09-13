@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "osc.route",
-    "description": "The `osc.route` object routes incoming Open Sound Control (OSC) messages based on their address patterns. Similar to Pure Data's `route` object, it uses arguments to define specific OSC addresses to match, directing messages to corresponding outlets, with an additional outlet for unmatched messages. It supports OSC wildcard characters for flexible pattern matching.",
+    "description": "`osc.route` is a Pure Data object designed to route Open Sound Control (OSC) messages based on their address patterns. Similar to the `route` object, it directs incoming messages to specific outlets, but it specifically handles OSC's hierarchical address structure, including wildcards and character matching. This allows for flexible and precise dispatching of OSC data within a patch.",
     "categories": [
         "Routing",
         "OSC"

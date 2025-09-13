@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "xbendout2",
-    "description": "The `xbendout2` object formats 14-bit pitch bend messages into two 7-bit values (MSB and LSB) and sends them as a raw MIDI data stream. It takes the MSB, LSB, and an optional MIDI channel as input. Note that this object is considered redundant and deprecated, with `bendout` or `else/bend.out` being preferred alternatives.",
+    "description": "The `xbendout2` object formats and sends 14-bit pitch bend messages as two 7-bit values: a Most Significant Byte (MSB) and a Least Significant Byte (LSB). It takes float values for MSB and LSB (0-127) and can also set the MIDI channel.",
     "categories": [
         "MIDI"
     ]

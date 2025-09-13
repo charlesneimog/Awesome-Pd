@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "bandstop~",
-    "description": "`bandstop~` is a 2nd order band reject filter, also known as a notch filter. It allows users to filter out a specific range of frequencies from an audio signal, with adjustable center frequency and resonance (Q or bandwidth). It also inherently filters out 0Hz and Nyquist frequencies.",
+    "description": "`bandstop~` is a 2nd order band-reject filter, also known as a notch filter, designed to attenuate a specific range of frequencies while allowing others to pass. It calculates filter coefficients based on a center frequency and a resonance parameter (Q or bandwidth in octaves) to precisely shape the audio signal.",
     "categories": [
         "Filters"
     ]

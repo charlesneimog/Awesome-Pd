@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "phaser~",
-    "description": "The `phaser~` object is a mono phaser audio effect. It allows control over the number of stages (which must be a multiple of 2), the Q-resonance, and the dry/wet mix. It requires a signal LFO connected to its second inlet to sweep the phaser's frequency.",
+    "description": "`phaser~` is a mono phaser audio effect that uses an internal allpass filter, whose order can be set by the number of stages. It requires a signal LFO to control its frequency sweep, and allows control over resonance and dry/wet mix.",
     "categories": [
         "Chorus/Flanger/Phaser"
     ]

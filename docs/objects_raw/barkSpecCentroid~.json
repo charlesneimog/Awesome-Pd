@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "barkSpecCentroid~",
-    "description": "The `barkSpecCentroid~` object calculates the Bark spectrum centroid, representing the \"center of mass\" of an audio signal's energy distribution on the Bark frequency scale. It outputs a numerical value indicating this Bark frequency, making it suitable for real-time timbre identification and spectral analysis. The object handles its own audio buffering and windowing, with configurable window size and Bark-spacing."
+    "description": "The `barkSpecCentroid~` object calculates the Bark spectrum centroid, representing the \"center of mass\" of an audio signal's energy distribution on the Bark frequency scale. It outputs a numerical value indicating this Bark frequency, making it suitable for real-time timbre identification and spectral analysis. The object handles its own audio buffering and windowing, with configurable window size and Bark-spacing.",
+    "similar": [
+        "barkSpecFlatness~",
+        "barkSpecRolloff",
+        "barkSpecRolloff~",
+        "barkSpecIrregularity~"
+    ]
 }

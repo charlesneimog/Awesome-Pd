@@ -23,5 +23,11 @@
     "description": "The `gemmacwindow` object is a legacy Pure Data external designed for macOS (up to OSX 10.6) that creates and manages graphical windows using the Carbon API. It allows control over window properties such as dimensions, position, title, borders, full-screen mode, and anti-aliasing, and also provides feedback on window events including keyboard input. Users are advised to use `gemmacoswindow` for modern macOS environments.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "gemmacoswindow",
+        "gemcocoawindow",
+        "gemglfw2window",
+        "gemglfw3window"
     ]
 }

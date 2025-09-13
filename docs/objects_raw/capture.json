@@ -20,10 +20,9 @@
     ],
     "ai": true,
     "title": "capture",
-    "description": "The `capture` object stores incoming messages (floats and symbols) in the order they are received, acting as a sequential data buffer. It allows users to view, edit, and save this stored data to a file. When the maximum capacity is reached, the oldest items are dropped, maintaining a first-in, first-out behavior. It also provides options for displaying numbers in various formats and controlling float precision.",
+    "description": "The `capture` object stores a sequential list of incoming floats and symbols, acting as a data buffer. It allows users to view, edit, and save the stored contents to a file, with options for display formatting and numerical precision. When its maximum capacity is reached, `capture` operates on a first-in, first-out (FIFO) basis, dropping the oldest item.",
     "categories": [
         "Data Structures",
-        "File I/O",
-        "General Utilities"
+        "File IO"
     ]
 }

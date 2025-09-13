@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "barkSpecFlux~",
-    "description": "The `barkSpecFlux~` object calculates the spectral flux of an audio signal based on Bark-band energy differences. It outputs the sum of these differences (left outlet) and the full list of per-band differences (right outlet). This object is useful for real-time timbre identification and basic attack detection, offering configurable windowing, Bark filterbank spacing, and analysis window separation."
+    "description": "The `barkSpecFlux~` object calculates the spectral flux of an audio signal based on Bark-band energy differences. It outputs the sum of these differences (left outlet) and the full list of per-band differences (right outlet). This object is useful for real-time timbre identification and basic attack detection, offering configurable windowing, Bark filterbank spacing, and analysis window separation.",
+    "similar": [
+        "barkSpecFlux",
+        "barkSpecCentroid~",
+        "barkSpecFlatness~",
+        "barkSpecRolloff~"
+    ]
 }

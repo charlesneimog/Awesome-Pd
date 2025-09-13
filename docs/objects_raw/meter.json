@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "meter",
-    "description": "The `meter` object functions as a CPU load meter, providing real-time monitoring of the system's processing usage. It outputs a float value representing the current CPU load and can be toggled on or off. This object is based on Pure Data's built-in \"Load Meter\" patch.",
+    "description": "The `meter` object functions as a CPU load meter, providing real-time information about the system's CPU usage. It can be toggled on or off and outputs the current CPU load as a float value.",
     "categories": [
-        "GUI",
         "General Utilities"
     ]
 }

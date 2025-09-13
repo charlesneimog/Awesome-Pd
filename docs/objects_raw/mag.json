@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "mag",
-    "description": "The `mag` object calculates the magnitude (amplitude) from Cartesian coordinates (real and imaginary parts), which is fundamental for analyzing frequency spectrum data. It can also compute the power magnitude (sum of squares) if given the \"power\" argument, providing a versatile tool for spectral analysis.",
+    "description": "The `mag` object calculates the magnitude (amplitude) of a complex number, taking its real and imaginary parts as input. It is primarily used to derive the amplitude spectrum from the output of an FFT. An optional \"power\" argument allows it to output the power magnitude instead.",
     "categories": [
         "Math"
     ]

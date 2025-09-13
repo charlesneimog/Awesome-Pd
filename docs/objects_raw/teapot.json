@@ -23,5 +23,11 @@
     "description": "The `teapot` object renders a 3D teapot shape within a GEM patch. It allows control over the teapot's size via its second inlet and the number of slices (detail) via its third inlet. It can also receive `draw` messages to specify rendering mode (line, fill, or points).",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "square",
+        "curve",
+        "cube",
+        "torus"
     ]
 }

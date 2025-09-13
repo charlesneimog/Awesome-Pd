@@ -32,5 +32,11 @@
     "categories": [
         "Partial Tracking",
         "Descriptors"
+    ],
+    "similar": [
+        "residency~",
+        "reanimator~",
+        "morphine~",
+        "framedelta~"
     ]
 }

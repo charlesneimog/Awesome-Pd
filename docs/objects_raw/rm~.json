@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "rm~",
-    "description": "The `rm~` object performs ring modulation on an input signal. It takes a modulation frequency as an argument or via its right inlet. Setting the modulation frequency to 0 Hz bypasses the input signal, allowing for dynamic control over the effect.",
+    "description": "`rm~` is a Pure Data abstraction that performs ring modulation on an input signal. It takes a modulation frequency as an argument or via its right inlet, with a 0 Hz modulation frequency bypassing the input signal. The object outputs the ring-modulated signal.",
     "categories": [
-        "Distortion"
+        "Math",
+        "Audio IO"
     ]
 }

@@ -20,6 +20,6 @@
     ],
     "ai": true,
     "title": "append",
-    "description": "The `cyclone/append` object concatenates a predefined message to the end of any incoming message. The message to be appended can be dynamically set using the `set` message. This object is considered redundant and deprecated; `list append` from Pd Vanilla is the recommended alternative.",
-    "categories": ["Patching"]
+    "description": "The `append` object concatenates a predefined message, set as an argument, to the end of any incoming message, outputting the combined result. This object is largely superseded by Pure Data Vanilla's `list append` and is considered redundant due to name clashes and the availability of the vanilla equivalent.",
+    "categories": []
 }

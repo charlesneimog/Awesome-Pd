@@ -23,5 +23,11 @@
     "description": "The `light` object in GEM adds a local point-light source to a 3D scene, allowing for realistic lighting effects. It can be positioned using `rotate` and `translate` and its color can be set via an inlet. A debug mode is available to visualize the light source as a sphere.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "world_light",
+        "spot_light",
+        "ambientRGB",
+        "part_source"
     ]
 }

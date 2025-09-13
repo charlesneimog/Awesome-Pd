@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "gatedelay~",
-    "description": "The `gatedelay~` object delays the \"on\" state of an incoming gate signal by a specified time, while immediately passing through the \"off\" state. It supports multichannel operation, allowing individual delay times for each channel when a multichannel signal is provided to its right inlet.",
+    "description": "The `gatedelay~` object delays the \"gate on\" value of an incoming signal or float, while immediately outputting the \"gate off\" value. It supports multichannel signals, where a single delay time can apply to all channels, or individual delay times can be applied per channel if the right inlet is also multichannel. The delay time is specified in milliseconds.",
     "categories": [
-        "Multichannel"
+        "Multichannel",
+        "Delay"
     ]
 }

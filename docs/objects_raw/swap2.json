@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "swap2",
-    "description": "The `else/swap2` object swaps the order of two incoming messages. Unlike the standard `swap` object, `swap2` can handle any type of message, not just floats. It takes two messages as input and outputs them in reverse order when triggered.",
+    "description": "`swap2` is a utility object in Pure Data that reorders incoming messages. Similar to `swap`, it takes two messages and outputs them in reverse order, facilitating flexible data flow within a patch.",
     "categories": [
+        "Routing",
         "General Utilities"
     ]
 }

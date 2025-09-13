@@ -23,5 +23,11 @@
     "description": "The `pix_scanline` object processes image rows, either duplicating or removing them. It functions as an image resolution decimator in mode 0, or as an interlacer in mode 1, allowing for manipulation of image display and resolution.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_mask",
+        "pix_takealpha",
+        "pix_convert",
+        "pix_deinterlace"
     ]
 }

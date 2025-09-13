@@ -23,5 +23,11 @@
     "description": "The `gemcubeframebuffer` object renders a 3D scene onto the faces of a GL cubemap texture. This allows for capturing a scene from a central point in all directions, which can then be used for environment mapping effects like equirectangular, sphere, or cube mapping.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "gemframebuffer",
+        "cube",
+        "pix_texture",
+        "pix_coordinate"
     ]
 }

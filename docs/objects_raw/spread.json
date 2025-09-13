@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "spread",
-    "description": "The `spread` object routes incoming lists to different outlets based on a comparison of the list's first element to a set of arguments. Similar to `moses`, it provides conditional routing but offers multiple comparison arguments and an additional mode for splitting lists. This allows for flexible distribution of data based on numerical thresholds.",
+    "description": "The `spread` object compares the first float of an incoming list against its arguments to route the list to different outputs. It extends `moses` by supporting multiple arguments and offering an additional comparison mode. This object is useful for splitting data streams, such as routing MIDI notes from a `keyboard` to various synthesizers based on their values.",
     "categories": [
-        "Routing"
+        "Routing",
+        "General Utilities"
     ]
 }

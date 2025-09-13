@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "match~",
-    "description": "The `match~` object compares an incoming signal to a list of numerical arguments. If the signal's value matches an argument, an impulse is sent from the corresponding outlet. Otherwise, an impulse is sent from the rightmost outlet, making it useful for signal-based conditional routing.",
+    "description": "The `match~` object compares an incoming signal to a list of predefined values. When the signal matches any of these values, it outputs an impulse from its left outlet; otherwise, it outputs an impulse from its right outlet. This object functions similarly to `select` but operates at signal rate, making it suitable for signal-based event detection and routing.",
     "categories": [
-        "Routing",
         "Logic"
     ]
 }

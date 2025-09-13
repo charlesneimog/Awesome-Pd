@@ -20,8 +20,10 @@
     ],
     "ai": true,
     "title": "symbol2any",
-    "description": "The `symbol2any` object converts an incoming symbol message into a generic 'any' message. This allows for dynamic message construction where a symbol's content can be interpreted as a command or data for other objects. It is useful for flexible message parsing and routing within a Pure Data patch.",
+    "description": "The `symbol2any` object converts an incoming symbol into an \"any\" message. This allows the symbol's content to be interpreted dynamically as a number, list, or symbol, facilitating flexible message routing and type conversion within a patch. It is particularly useful when a symbol needs to be treated as a command or data of a different type.",
     "categories": [
-        "General Utilities"
+        "Data Structures",
+        "General Utilities",
+        "Text"
     ]
 }

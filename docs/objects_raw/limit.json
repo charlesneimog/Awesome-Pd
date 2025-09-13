@@ -20,9 +20,9 @@
     ],
     "ai": true,
     "title": "limit",
-    "description": "The `limit` object controls the rate of messages, ensuring a minimum time interval between outputs. It can queue the last received message to be sent after the delay, or, depending on its 'ignore mode' argument, it can discard messages that arrive too quickly, sending them to a separate outlet, or restart its internal timer. This is useful for rate-limiting events or data streams.",
+    "description": "The `limit` object controls the rate at which messages are passed through, allowing a message only after a specified time (in milliseconds) has elapsed since the last output. If messages arrive faster than the limit, it either queues the last message to be sent after the delay or ignores/routes them based on configurable ignore modes. This object is useful for preventing message floods or creating timed message sequences.",
     "categories": [
-        "General Utilities",
-        "Procedural"
+        "Logic",
+        "General Utilities"
     ]
 }

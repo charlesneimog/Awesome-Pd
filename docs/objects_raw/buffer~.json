@@ -20,10 +20,10 @@
     ],
     "ai": true,
     "title": "buffer~",
-    "description": "The `buffer~` object stores audio data in memory as a multichannel array, supporting up to 64 channels. It enables reading from and writing to audio files (`.wav`, `.aif`, `.caf`), and its contents can be manipulated through messages for operations like waveform generation, gain adjustment, or applying windowing functions. It integrates with other Cyclone objects for playback and processing, and its internal arrays are accessible by vanilla Pd objects.",
+    "description": "The `buffer~` object stores and manipulates audio data in memory as a multichannel array, similar to Pd's `table` but with advanced file I/O. It can read and write various audio file formats (WAV, AIFF, CAF), supports up to 64 channels, and offers messages for filling, applying mathematical functions, and dynamic range adjustments. It serves as a core component for sample-based audio processing and playback.",
     "categories": [
-        "Data Structures",
-        "File I/O",
+        "Samplers",
+        "File IO",
         "Multichannel"
     ]
 }

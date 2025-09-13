@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "line~",
-    "description": "The `cyclone/line~` object generates linear signal ramps or envelopes. It smoothly transitions its signal output from the current value to a target value over a specified duration in milliseconds. It can process single target-duration pairs or lists of multiple pairs to create complex envelopes, and it sends a bang upon reaching the final target.",
+    "description": "The `line~` object generates linear signal ramps or envelopes. It smoothly transitions a signal from its current value to a target value over a specified duration in milliseconds. It can also be paused, resumed, or stopped, and sends a bang when the target value is reached.",
     "categories": [
         "Envelopes"
     ]

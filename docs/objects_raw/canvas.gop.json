@@ -20,8 +20,6 @@
     ],
     "ai": true,
     "title": "canvas.gop",
-    "description": "The `canvas.gop` object retrieves information about a \"graph on parent\" (GOP), which is a subpatch displayed graphically within its parent patch. It outputs details such as the GOP's status, size, and coordinates. Users can query this information for the current patch or for parent patches by specifying a depth argument.",
-    "categories": [
-        "Patching"
-    ]
+    "description": "The `canvas.gop` object outputs information about the graphical properties of a Pure Data sub-patch or group of objects (GOP). It provides details such as the GOP's status, dimensions (x and y size), and coordinates (x1, y1, x2, y2). This object is useful for dynamically querying the layout and size of graphical elements within a patch.",
+    "categories": []
 }

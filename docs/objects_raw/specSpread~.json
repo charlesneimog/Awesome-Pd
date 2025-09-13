@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "specSpread~",
-    "description": "The `specSpread~` object calculates the spectral spread of an audio signal, quantifying the concentration of its energy around the spectral centroid in Hz. This descriptor helps distinguish between sounds with narrow (e.g., pure tones) and broad (e.g., noise) spectral energy distributions. It is designed for real-time audio analysis and serves as a feature for timbre classification."
+    "description": "The `specSpread~` object calculates the spectral spread of an audio signal, quantifying the concentration of its energy around the spectral centroid in Hz. This descriptor helps distinguish between sounds with narrow (e.g., pure tones) and broad (e.g., noise) spectral energy distributions. It is designed for real-time audio analysis and serves as a feature for timbre classification.",
+    "similar": [
+        "barkSpecSpread~",
+        "specRolloff~",
+        "barkSpecRolloff~",
+        "specSkewness~"
+    ]
 }

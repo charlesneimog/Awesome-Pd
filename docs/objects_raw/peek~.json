@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "peek~",
-    "description": "The `peek~` object provides direct, non-interpolated access to Pure Data arrays (tables) for both reading and writing values via messages. Unlike typical signal-rate objects, it operates independently of the DSP status, making it suitable for control-rate manipulation of array data, including support for multichannel arrays.",
+    "description": "The `peek~` object provides functionality to read and write individual values to and from arrays in Pure Data. It operates via messages, not audio signals, allowing it to function even when the DSP is off. This object supports multichannel arrays, enabling access and manipulation of data across up to 64 channels.",
     "categories": [
         "Data Structures",
         "Multichannel"

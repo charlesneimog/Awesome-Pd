@@ -20,8 +20,8 @@
     ],
     "ai": true,
     "title": "histo",
-    "description": "The `histo` object records the frequency of positive integer inputs, effectively building a histogram. It outputs the received number from its left outlet and its current occurrence count from the right. The object also allows querying the count for a specific number and clearing its stored data.",
+    "description": "The `histo` object records the frequency of received positive integers, creating a histogram. It outputs the input number and its current occurrence count. Users can query the occurrence count for a specific number or clear the stored history, making it useful for probabilistic choices based on past data.",
     "categories": [
-        "Data Structures"
+        "Statistical Models"
     ]
 }

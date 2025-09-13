@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "note.in",
-    "description": "The `note.in` object extracts MIDI pitch and velocity information from incoming MIDI data streams. It processes both Note On and Note Off messages, including those with release velocity. The object can listen to an internally connected MIDI device or accept raw MIDI data from an external source, and can be configured to filter by MIDI channel or operate in omni mode.",
+    "description": "`note.in` extracts MIDI pitch and velocity information from connected MIDI devices or external raw MIDI data streams. It handles both Note On and Note Off messages, including release velocity, and allows filtering by MIDI channel or operating in omni mode. The object automatically listens to internal MIDI devices but can be configured to only accept external MIDI input.",
     "categories": [
-        "MIDI"
+        "MIDI",
+        "Control IO"
     ]
 }

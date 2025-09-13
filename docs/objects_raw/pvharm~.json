@@ -32,5 +32,11 @@
     "categories": [
         "Partial Tracking",
         "Oscillators"
+    ],
+    "similar": [
+        "reanimator~",
+        "residency~",
+        "pvtuner~",
+        "xmod2~"
     ]
 }

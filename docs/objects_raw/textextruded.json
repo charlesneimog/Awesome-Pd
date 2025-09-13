@@ -24,5 +24,11 @@
     "categories": [
         "Graphics",
         "Text"
+    ],
+    "similar": [
+        "text3d",
+        "textoutline",
+        "text2d",
+        "cuboid"
     ]
 }

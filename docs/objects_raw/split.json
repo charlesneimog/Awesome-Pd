@@ -20,10 +20,8 @@
     ],
     "ai": true,
     "title": "split",
-    "description": "The `split` object separates incoming float numbers into two outlets based on whether they fall within a specified minimum and maximum range. Numbers within or equal to the range are sent to the left outlet, while numbers outside the range are sent to the right. It is designed specifically for float values.",
+    "description": "The `split` object routes incoming float numbers to one of two outlets based on whether they fall within a defined minimum and maximum range. Numbers within or equal to the range are sent to the left outlet, while those outside the range are sent to the right. The range boundaries can be dynamically set via dedicated inlets.",
     "categories": [
-        "Logic",
-        "Routing",
-        "General Utilities"
+        "Routing"
     ]
 }

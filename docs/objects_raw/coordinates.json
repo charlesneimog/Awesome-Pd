@@ -23,5 +23,11 @@
     "description": "The `cart2pol`, `pol2sph`, `sph2cart`, `cart2sph`, `pol2cart`, and `sph2pol` objects convert between Cartesian, Polar, and Spherical coordinate systems. They take three float inputs and output three float values, with angles given in radians. These objects are fundamental for transforming spatial data representations.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "cart2sph",
+        "sph2pol",
+        "pol2cart",
+        "cart2pol"
     ]
 }

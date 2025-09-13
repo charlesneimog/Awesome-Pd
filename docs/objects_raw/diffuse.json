@@ -23,5 +23,11 @@
     "description": "The `diffuse` object in Pure Data sets the diffuse color for subsequent vertex operations within a GEM (Graphics Environment for Multimedia) context. It accepts a `gemlist` in its first inlet and a list of 3 (RGB) or 4 (RGBA) float values in its second inlet to define the color. To observe its effect, lighting must be enabled in the GEM patch.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "diffuseRGB",
+        "ambient",
+        "specularRGB",
+        "emissionRGB"
     ]
 }

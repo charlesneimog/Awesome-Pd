@@ -23,5 +23,11 @@
     ],
     "ai": true,
     "title": "dct",
-    "description": "The `dct` object computes the Discrete Cosine Transform (DCT) of a specified portion or the entirety of a Pure Data array. It allows for the application of various windowing functions and normalization to the input data. This object is primarily used for analyzing and representing signals in a frequency-like domain, with its output coefficients often serving as spectral descriptors."
+    "description": "The `dct` object computes the Discrete Cosine Transform (DCT) of a specified portion or the entirety of a Pure Data array. It allows for the application of various windowing functions and normalization to the input data. This object is primarily used for analyzing and representing signals in a frequency-like domain, with its output coefficients often serving as spectral descriptors.",
+    "similar": [
+        "dct~",
+        "bfcc~",
+        "tID_fft",
+        "mfcc~"
+    ]
 }

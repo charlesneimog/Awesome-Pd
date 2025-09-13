@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "scope~",
-    "description": "`scope~` is a Pure Data object that functions as an oscilloscope, visualizing audio signals. It can operate in a single-signal (Y-mode) display or an X-Y mode, where it plots two signals against each other to create Lissajous figures. Users can configure various display parameters such as buffer size, samples per line, vertical range, trigger modes, and color settings.",
+    "description": "The `scope~` object visualizes audio signals in the style of an oscilloscope. It can display a single signal in Y-mode or plot two signals against each other in X-Y mode, useful for observing phase relationships and creating Lissajous figures. Its display parameters, including buffer size, colors, and trigger modes, are highly customizable.",
     "categories": [
         "GUI",
         "Graphics"

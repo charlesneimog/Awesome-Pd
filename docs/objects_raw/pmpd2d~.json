@@ -31,5 +31,11 @@
     "description": "The `pmpd2d~` object performs 2D particle-based physical modeling for audio synthesis. It allows users to create and connect masses with various properties like weight, position, and damping, forming a physical model. The object can receive real-time forces and position controls, and output mass positions and velocities, enabling the creation of complex, physically-simulated sounds.",
     "categories": [
         "Physical Modeling"
+    ],
+    "similar": [
+        "mass",
+        "link3D",
+        "tLink2D",
+        "link2D"
     ]
 }

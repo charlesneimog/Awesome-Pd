@@ -20,9 +20,8 @@
     ],
     "ai": true,
     "title": "kink~",
-    "description": "The `kink~` object distorts a `phasor~` signal by applying a \"kink\" to its phase. It modifies the signal's slope based on a threshold, creating a non-linear transformation. This allows for unique timbral changes by altering the fundamental waveform of an oscillator.",
+    "description": "The `kink~` object distorts a `phasor~` signal by applying a non-linear bend or \"kink\" to its phase. It takes a phase input and a slope, modifying the output based on whether the phase times the slope is above or below a 0.5 threshold. This results in a distorted phasor output, useful for various forms of phase modulation and waveshaping.",
     "categories": [
-        "Distortion",
-        "Math"
+        "Distortion"
     ]
 }

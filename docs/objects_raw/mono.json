@@ -20,10 +20,9 @@
     ],
     "ai": true,
     "title": "mono",
-    "description": "The `else/mono` object manages incoming MIDI note messages to enforce monophonic behavior, allowing only one note to sound at a time based on configurable priority modes (last, high, or low note). It maintains an internal memory of active notes and supports a legato mode for smooth transitions.",
+    "description": "`mono` is a Pure Data object designed to emulate monophonic synthesizer behavior from polyphonic MIDI note input. It manages active notes based on configurable priority modes (last, high, low) and supports legato playing. The object also allows for setting a glide time between notes, effectively controlling portamento.",
     "categories": [
-        "Procedural",
-        "Logic",
-        "Routing"
+        "MIDI",
+        "Control IO"
     ]
 }

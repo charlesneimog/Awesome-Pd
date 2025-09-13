@@ -23,5 +23,11 @@
     "description": "The `square` object renders a square within the GEM graphical environment. Its size can be dynamically adjusted via its second inlet, and its rendering mode (line, fill, or point) can be controlled via the first inlet.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "mesh_line",
+        "mesh_square",
+        "circle",
+        "ripple"
     ]
 }

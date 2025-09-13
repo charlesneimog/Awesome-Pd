@@ -13,20 +13,19 @@ search:
 <i>People who contribute to this project.</i>
 </p>
 
-
 <script>
 async function updateList() {
-    const repoOwner = 'pd';
-    const repoName = 'zexy';
+    let repoOwner = 'pd';
+    let repoName = 'zexy';
     try {
-        const res = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contributors`);
-        const contributors = await res.json();
-        const container = document.getElementById('libcontributors');
+        let res = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contributors`);
+        let contributors = await res.json();
+        let container = document.getElementById('libcontributors');
         contributors.forEach(user => {
-            const link = document.createElement('a');
+            let link = document.createElement('a');
             link.href = `https://github.com/${user.login}`;
             link.target = '_blank';
-            const img = document.createElement('img');
+            let img = document.createElement('img');
             img.src = `https://github.com/${user.login}.png?size=100`;
             img.alt = user.login;
             img.className = 'libavatar';
@@ -39,7 +38,6 @@ async function updateList() {
 }
 updateList();
 </script>
-
 
 <h2>Objects</h2>
 
@@ -63,13 +61,11 @@ updateList();
 - :material-tune: [__any2list__](../objects/data_structures/any2list.md) The `any2list` object converts any incoming message into a list, standardizing various message types into a list format for further processing.
 - :material-tune: [__atof__](../objects/general_utilities/atof.md) The `atof` object converts an ASCII symbol (text) into a floating-point number.
 - :material-tune: [__atoi__](../objects/text/atoi.md) The `atoi` object converts an incoming symbol (string) into a numerical representation.
-- :material-tune: [__avg~__](../objects/math/avg~.md) The `avg~` object calculates the arithmetic mean of an incoming audio signal.
 - :material-tune: [__blockmirror~__](../objects//blockmirror~.md) The `blockmirror~` object reverses an incoming audio signal in time, processing it in fixed-size blocks (signal vectors).
 - :material-tune: [__blockswap~__](../objects//blockswap~.md) The `blockswap~` object swaps the upper and lower halves of an incoming audio signal vector.
 - :material-tune: [__camera__](../objects/graphics/camera.md) The `camera` object in Pure Data is used to access and control video camera input.
 - :material-tune: [__cart2pol__](../objects/math/cart2pol.md) The `cart2pol` object converts 3D Cartesian coordinates (x, y, z) into 3D polar coordinates.
 - :material-tune: [__cart2sph__](../objects/math/cart2sph.md) The `cart2sph` object converts 3D Cartesian coordinates (x, y, z) into spherical coordinates (radius, azimuth, elevation).
-- :material-tune: [__circle__](../objects/graphics/circle.md) The `circle` object in Pure Data renders a flat circular disc within the GEM environment.
 - :material-tune: [__color__](../objects/graphics/color.md) The `color` object in Pure Data sets the color for all subsequent GEM (Graphics Environment for Multimedia) shape and vertex operations.
 - :material-tune: [__colorRGB__](../objects/graphics/colorRGB.md) The `colorRGB` object in Pure Data's GEM environment sets the color for subsequent graphical shapes and vertex operations.
 - :material-tune: [__colorSquare__](../objects/graphics/colorSquare.md) The `colorSquare` object renders a square at the current position within a GEM (Graphics Environment for Multimedia) context.
@@ -81,7 +77,6 @@ updateList();
 - :material-tune: [__curve3d__](../objects/graphics/curve3d.md) The `curve3d` object renders a 3D Bezier curve.
 - :material-tune: [__cylinder__](../objects/graphics/cylinder.md) The `cylinder` object renders a 3D cylinder shape within the GEM environment, utilizing OpenGL.
 - :material-tune: [__date__](../objects/general_utilities/date.md) The `date` object retrieves the current system date and time.
-- :material-tune: [__deg2rad__](../objects/math/deg2rad.md) The `deg2rad` object converts a float value from degrees to radians.
 - :material-tune: [__demultiplex__](../objects/routing/demultiplex.md) The `demultiplex` object routes data from its left inlet to one of its outlets.
 - :material-tune: [__demultiplex~__](../objects/routing/demultiplex~.md) The `demultiplex~` (or `demux~`) object takes a single audio or control signal and routes it to one of its multiple outlets.
 - :material-tune: [__demux__](../objects/routing/demux.md) The `demux` object acts as a demultiplexer, routing data from its left inlet to one of its multiple outlets.
@@ -154,7 +149,6 @@ updateList();
 - :material-tune: [__makesymbol__](../objects/text/makesymbol.md) The `makesymbol` object converts an incoming list (up to 10 members) into a single symbol.
 - :material-tune: [__matchbox__](../objects/data_structures/matchbox.md) The `matchbox` object stores a collection of lists and retrieves them based on various matching algorithms.
 - :material-tune: [__mavg__](../objects/filters/mavg.md) The `mavg` object implements a moving average filter, smoothing incoming float values by averaging a specified number of recent samples.
-- :material-tune: [__mean__](../objects/math/mean.md) The `mean` object calculates the arithmetic mean (average) of a list of floating-point numbers.
 - :material-tune: [__mesh_line__](../objects/graphics/mesh_line.md) The `mesh_line` object renders a line mesh within the GEM environment, drawing it at the current position with the current color.
 - :material-tune: [__mesh_square__](../objects/graphics/mesh_square.md) The `mesh_square` object renders a square mesh at the current position and color, with its size controllable via the second inlet.
 - :material-tune: [__minmax__](../objects/math/minmax.md) The `minmax` object takes a list of floating-point numbers as input.
@@ -173,7 +167,6 @@ updateList();
 - :material-tune: [__noish~__](../objects/stochastic/noish~.md) The `noish~` object generates bandlimited noise by drawing a random number every `n` samples and interpolating between these values.
 - :material-tune: [__noisi~__](../objects/oscillators/noisi~.md) The `noisi~` object generates bandlimited noise by drawing random numbers at a specified rate in Hz and interpolating between them.
 - :material-tune: [__nop__](../objects/general_utilities/nop.md) The `nop` object in Pure Data acts as a "no operation" pass-through.
-- :material-tune: [__nop~__](../objects/general_utilities/nop~.md) The `nop~` object is a signal-level no-operation (NOP) utility from the zexy library.
 - :material-tune: [__operating_system__](../objects/general_utilities/operating_system.md) The `operating_system` object outputs a symbol representing the operating system Pure Data is currently running on.
 - :material-tune: [__ortho__](../objects/graphics/ortho.md) `ortho` is a GEM object in Pure Data that controls the rendering projection for subsequent graphical objects.
 - :material-tune: [__pack__](../objects/data_structures/pack.md) The `pack` object combines multiple incoming atoms (numbers, symbols, or pointers) from its inlets into a single list message.
@@ -320,7 +313,6 @@ updateList();
 - :material-tune: [__primTri__](../objects/graphics/primTri.md) The `primTri` object renders a triangle with gradient colors.
 - :material-tune: [__prime__](../objects/math/prime.md) The `prime` object detects if an input number is prime.
 - :material-tune: [__quantize~__](../objects/math/quantize~.md) The `quantize~` object quantizes an incoming audio signal to a variable number of steps.
-- :material-tune: [__rad2deg__](../objects/math/rad2deg.md) The `rad2deg` object converts radian values to degrees.
 - :material-tune: [__rawprint__](../objects/general_utilities/rawprint.md) The `rawprint` object, part of the `zexy` external library, provides a raw message printing functionality.
 - :material-tune: [__rectangle__](../objects/graphics/rectangle.md) The `rectangle` object is a GEM (Graphics Environment for Multimedia) object that renders a rectangular shape.
 - :material-tune: [__regex__](../objects/text/regex.md) The `regex` object checks if an input symbol matches a given regular expression.
@@ -332,13 +324,11 @@ updateList();
 - :material-tune: [__rgb2hsv__](../objects/math/rgb2hsv.md) The `rgb2hsv` object converts color values from the RGB (Red, Green, Blue) color space to the HSV (Hue, Saturation, Value/Luminance) color space.
 - :material-tune: [__rgb2yuv__](../objects/math/rgb2yuv.md) The `rgb2yuv` object converts color values from the RGB (Red, Green, Blue) color space to the YUV (Luma, Chroma) color space.
 - :material-tune: [__ripple__](../objects/graphics/ripple.md) The `ripple` object is a GEM geometric object that renders and distorts a square.
-- :material-tune: [__rotate__](../objects/graphics/rotate.md) The `rotate` object in GEM applies a rotation to the current transformation matrix.
 - :material-tune: [__rotateXYZ__](../objects/graphics/rotateXYZ.md) The `rotateXYZ` object in GEM applies a 3D rotation to the current transformation matrix.
 - :material-tune: [__route~__](../objects/routing/route~.md) The `route~` object, part of the zexy library, separates incoming audio signals from control messages.
 - :material-tune: [__rubber__](../objects/distortion/rubber.md) The `rubber` object is a GEM object that renders and distorts a square.
 - :material-tune: [__s2l__](../objects/data_structures/s2l.md) The `s2l` object converts an input symbol into a list.
 - :material-tune: [__scalarmult__](../objects/math/scalarmult.md) The `scalarmult` object performs scalar multiplication, also known as a "dot product," on incoming lists of numbers.
-- :material-tune: [__scale__](../objects/graphics/scale.md) The `scale` object in Pure Data is a GEM object used to manipulate the current transformation matrix for graphical objects.
 - :material-tune: [__scaleXYZ__](../objects/graphics/scaleXYZ.md) The `scaleXYZ` object scales a GEM (Graphics Environment for Multimedia) object along its X, Y, and Z axes.
 - :material-tune: [__scopeXYZ~__](../objects/graphics/scopeXYZ~.md) The `scopeXYZ~` object functions as a 3-dimensional oscilloscope, visualizing three input signals as excursions along the X, Y, and Z axes.
 - :material-tune: [__segregate__](../objects/routing/segregate.md) The `segregate` object sorts incoming messages by their data type, sending them to dedicated outlets.
@@ -354,7 +344,6 @@ updateList();
 - :material-tune: [__shininess__](../objects/graphics/shininess.md) The `shininess` object in GEM sets the shininess property of materials for subsequent OpenGL vertex operations.
 - :material-tune: [__sigzero~__](../objects//sigzero~.md) The `sigzero~` object detects the presence or absence of an audio signal.
 - :material-tune: [__slideSquares__](../objects/graphics/slideSquares.md) The `slideSquares` object renders a series of sliding rectangles within a GEM patch.
-- :material-tune: [__sort__](../objects/data_structures/sort.md) The `sort` object sorts a list of floating-point numbers using a shell sort algorithm.
 - :material-tune: [__specular__](../objects/graphics/specular.md) The `specular` object sets the specular color for subsequent 3D vertex operations within a GEM (Graphics Environment for Multimedia) context.
 - :material-tune: [__specularRGB__](../objects/graphics/specularRGB.md) The `specularRGB` object in GEM sets the specular color for subsequent OpenGL vertex operations.
 - :material-tune: [__sph2cart__](../objects/math/sph2cart.md) The `sph2cart` object converts spherical coordinates (radius, azimuth, elevation) to Cartesian coordinates (x, y, z).
@@ -366,7 +355,6 @@ updateList();
 - :material-tune: [__square__](../objects/graphics/square.md) The `square` object renders a square within the GEM graphical environment.
 - :material-tune: [__step~__](../objects//step~.md) The `step~` object generates an audio signal that is either a unit step sequence or a rectangular window.
 - :material-tune: [__strcmp__](../objects/logic/strcmp.md) The `strcmp` object compares two lists as if they were strings, similar to the `strcmp` function in C programming.
-- :material-tune: [__sum__](../objects/math/sum.md) The `sum` object takes a list of numbers as its input.
 - :material-tune: [__surface3d__](../objects/graphics/surface3d.md) The `surface3d` object renders a 3D bicubic curve, with its shape controlled by a matrix of control points.
 - :material-tune: [__swap~__](../objects/general_utilities/swap~.md) The `swap~` object processes incoming audio signals by first converting them to a 16-bit format.
 - :material-tune: [__symbol2list__](../objects/data_structures/symbol2list.md) The `symbol2list` object converts an incoming symbol into a list.
@@ -389,7 +377,6 @@ updateList();
 - :material-tune: [__uniqsym__](../objects/data_structures/uniqsym.md) The `uniqsym` object removes duplicate symbols from a list or stream, maintaining a unique set of values.
 - :material-tune: [__unpack__](../objects/data_structures/unpack.md) The `unpack` object splits an incoming message or list into its individual atoms, sending each atom to a separate outlet.
 - :material-tune: [__unpack~__](../objects/data_structures/unpack~.md) The `unpack~` object converts a list of floating-point numbers into an audio signal.
-- :material-tune: [__urn__](../objects/stochastic/urn.md) The `urn` object is a unique random number generator.
 - :material-tune: [__vertex_program__](../objects/graphics/vertex_program.md) The `vertex_program` object in Pure Data loads and applies an ARB or NV vertex shader, enabling custom vertex processing within GEM.
 - :material-tune: [__world_light__](../objects/graphics/world_light.md) `world_light` adds a directional light source to a GEM scene, simulating light rays from an infinite distance (parallel rays).
 - :material-tune: [__wrap__](../objects/math/wrap.md) The `wrap` object functions as a float-capable modulo, constraining an input float value within specified limits.

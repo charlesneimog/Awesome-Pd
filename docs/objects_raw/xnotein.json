@@ -20,8 +20,9 @@
     ],
     "ai": true,
     "title": "xnotein",
-    "description": "The `xnotein` object parses raw MIDI data streams, providing more detailed information than the standard `notein` object. It outputs the MIDI note number, the velocity for both Note On and Note Off messages, and a state indicator for Note On (1) or Note Off (0). This object is particularly useful for capturing release velocity from MIDI devices.",
+    "description": "The `xnotein` object processes raw MIDI data streams, providing more detailed information than `notein`. It outputs MIDI note number (pitch), Note On/Off velocity, and the Note On/Off state (1 for On, 0 for Off), including release velocity. It can also filter by or output the MIDI channel number.",
     "categories": [
-        "MIDI"
+        "MIDI",
+        "Control IO"
     ]
 }

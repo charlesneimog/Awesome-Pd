@@ -24,5 +24,11 @@
     "categories": [
         "Text",
         "General Utilities"
+    ],
+    "similar": [
+        "dec2hex",
+        "separate",
+        "format",
+        "tosymbol"
     ]
 }

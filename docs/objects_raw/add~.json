@@ -20,7 +20,7 @@
     ],
     "ai": true,
     "title": "add~",
-    "description": "The `add~` object accumulates input signal values to a starting sum, which defaults to 0. The starting sum can be initialized via an argument or the `set` message. A `bang` or an impulse signal in the right inlet will reset the accumulated sum to its starting value.",
+    "description": "The `add~` object continuously accumulates incoming signal or float values, adding them to a running sum. It can be initialized with a starting sum, and the accumulation can be reset to this starting sum via a bang message or an impulse signal in its right inlet.",
     "categories": [
         "Math"
     ]

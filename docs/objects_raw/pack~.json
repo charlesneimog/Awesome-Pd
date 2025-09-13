@@ -23,5 +23,11 @@
     "description": "The `pack~` object converts incoming audio signals into lists of floating-point numbers. It samples the signal vectors, specifically extracting the 1st and 3rd samples, and outputs these as a list, enabling signal-rate data to be processed at the control rate.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "unpack~",
+        "l2i",
+        "pack",
+        "pack2"
     ]
 }

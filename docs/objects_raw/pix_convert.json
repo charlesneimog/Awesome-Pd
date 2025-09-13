@@ -23,5 +23,11 @@
     "description": "The `pix_convert` object transforms the color space of an image within GEM. It takes an incoming image (gemlist) and converts it to a specified color space, such as RGBA, YUV, or grayscale, which can be set via an inlet. This is useful for optimizing image processing or adapting images to different display requirements.",
     "categories": [
         "Graphics"
+    ],
+    "similar": [
+        "pix_rgba",
+        "pix_grey",
+        "pix_set",
+        "pix_mean_color"
     ]
 }
