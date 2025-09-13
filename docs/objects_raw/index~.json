@@ -23,5 +23,11 @@
     "description": "The `index~` object reads values from an array without interpolation, similar to `tabread~` but with rounded index values. It supports multi-channel arrays (up to 64 channels), which are accessed via a `channel_number-arrayname` convention. Due to its non-interpolating nature, it is primarily suited for specific tasks like reading samples at their original speed, rather than general sample playback.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "packel",
+        "listfunnel",
+        "buffer",
+        "replace"
     ]
 }

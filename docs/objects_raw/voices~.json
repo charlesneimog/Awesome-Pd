@@ -24,5 +24,11 @@
     "categories": [
         "MIDI",
         "Multichannel"
+    ],
+    "similar": [
+        "synth~",
+        "noteinfo",
+        "gain2~",
+        "note.out"
     ]
 }

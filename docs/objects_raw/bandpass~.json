@@ -23,5 +23,11 @@
     "description": "The `bandpass~` object is a 2nd order bandpass resonant filter for audio signals. It allows users to filter a signal by specifying a center frequency and resonance, which can be defined as either 'Q' or bandwidth in octaves. The filter maintains a constant 0dB gain at its resonant frequency and includes options to bypass the input or clear its internal memory.",
     "categories": [
         "Filters"
+    ],
+    "similar": [
+        "reson~",
+        "bandstop~",
+        "eq~",
+        "lowpass~"
     ]
 }

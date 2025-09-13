@@ -34,8 +34,8 @@
     ],
     "similar": [
         "tSphere3D",
-        "bitor~",
-        "lessthan~",
-        "bitnot~"
+        "thresh~",
+        "bitand~",
+        "match~"
     ]
 }

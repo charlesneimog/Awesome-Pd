@@ -25,5 +25,11 @@
         "MIDI",
         "Samplers",
         "File IO"
+    ],
+    "similar": [
+        "sfz~",
+        "midiformat",
+        "bend.out",
+        "seq"
     ]
 }

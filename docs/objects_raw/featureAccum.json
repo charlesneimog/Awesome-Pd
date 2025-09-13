@@ -28,6 +28,6 @@
         "binWrangler",
         "tID_mean",
         "barkSpec~",
-        "magSpec~"
+        "tID_std"
     ]
 }

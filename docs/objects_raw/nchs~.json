@@ -23,5 +23,11 @@
     "description": "The `nchs~` object retrieves the number of channels from a multi-channel audio connection, such as those provided by `snake~ in` or `clone`. It outputs this value whenever the DSP chain updates, or when triggered by a `bang` message. This object is useful for dynamically adapting patches to the number of active audio channels.",
     "categories": [
         "Multichannel"
+    ],
+    "similar": [
+        "level.m~",
+        "spread.mc~",
+        "pan.mc~",
+        "sigs~"
     ]
 }

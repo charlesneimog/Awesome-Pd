@@ -23,5 +23,11 @@
     "description": "The `split` object routes incoming float numbers to one of two outlets based on whether they fall within a defined minimum and maximum range. Numbers within or equal to the range are sent to the left outlet, while those outside the range are sent to the right. The range boundaries can be dynamically set via dedicated inlets.",
     "categories": [
         "Routing"
+    ],
+    "similar": [
+        "router",
+        "demultiplex",
+        "gate",
+        "mux~"
     ]
 }

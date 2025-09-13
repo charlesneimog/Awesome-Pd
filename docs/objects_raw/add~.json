@@ -23,5 +23,11 @@
     "description": "The `add~` object continuously accumulates incoming signal or float values, adding them to a running sum. It can be initialized with a starting sum, and the accumulation can be reset to this starting sum via a bang message or an impulse signal in its right inlet.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "add",
+        "plusequals~",
+        "frac.add",
+        "sum"
     ]
 }

@@ -25,5 +25,11 @@
         "Procedural",
         "Math",
         "General Utilities"
+    ],
+    "similar": [
+        "tempo",
+        "midi.clock",
+        "bpm",
+        "fold"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `cycle~` object is a linear interpolating oscillator that generates a periodic waveform. It defaults to an internal cosine wave but can read waveforms from Pure Data arrays, supporting phase modulation and configurable buffer sizes and offsets. It's a fundamental building block for sound synthesis.",
     "categories": [
         "Oscillators"
+    ],
+    "similar": [
+        "saw~",
+        "pimp",
+        "damp.osc~",
+        "gaussian~"
     ]
 }

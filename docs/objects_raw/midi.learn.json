@@ -24,5 +24,11 @@
     "categories": [
         "MIDI",
         "Control IO"
+    ],
+    "similar": [
+        "midi.in",
+        "note.in",
+        "pgm.in",
+        "ctl.in"
     ]
 }

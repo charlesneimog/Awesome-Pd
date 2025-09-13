@@ -27,7 +27,7 @@
     "similar": [
         "colorSquare",
         "translate",
-        "diffuse",
-        "pix_colorreduce"
+        "triangle",
+        "diffuse"
     ]
 }

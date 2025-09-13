@@ -27,7 +27,7 @@
     ],
     "similar": [
         "tabdump",
-        "tabgen",
+        "histogram",
         "length",
         "tabminmax"
     ]

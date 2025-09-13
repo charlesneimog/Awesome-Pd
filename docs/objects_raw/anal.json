@@ -24,5 +24,11 @@
     "categories": [
         "Statistical Models",
         "Algorithmic Composition"
+    ],
+    "similar": [
+        "histo",
+        "markov",
+        "prob",
+        "rand.hist"
     ]
 }

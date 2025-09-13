@@ -21,5 +21,11 @@
     "ai": true,
     "title": "freq.shift~",
     "description": "The `freq.shift~` object performs frequency shifting on an input signal, displacing all its frequency components by a specified amount in Hertz. Unlike a pitch shifter, it does not preserve harmonic relationships. It provides two outputs: the frequency-shifted signal and an oppositely shifted signal, and can clear its internal memory.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "bin.shift~",
+        "cents2ratio~",
+        "crossover~",
+        "pitch.shift~"
+    ]
 }

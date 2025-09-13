@@ -23,5 +23,11 @@
     "description": "The `var` object in Pure Data functions as a multi-variable storage and recall mechanism, similar to `value` but capable of handling multiple named variables, often as lists. It receives values sent to named variables via `send` messages from objects like `float`, `int`, or `value` itself, and can also interact with `expr` for setting or retrieving values. Unlike some other variable objects, `var` does not have a `send` message for outputting values.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "pak",
+        "pack2",
+        "any2list",
+        "offer"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `revdelay~` object creates a reverse delay effect. It continuously records incoming audio into an internal delay line and plays back a segment of that audio in reverse. The delay size can be configured in milliseconds, with a default of 1000 ms, and can be dynamically changed using the `resize` message.",
     "categories": [
         "Delay"
+    ],
+    "similar": [
+        "ping.pong~",
+        "delay.m~",
+        "delay~",
+        "del~"
     ]
 }

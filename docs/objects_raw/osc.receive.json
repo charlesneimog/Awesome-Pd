@@ -24,5 +24,11 @@
     "categories": [
         "Networking",
         "OSC"
+    ],
+    "similar": [
+        "osc.send",
+        "osc.parse",
+        "osc.format",
+        "osc.route"
     ]
 }

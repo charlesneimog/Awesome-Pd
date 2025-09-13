@@ -34,8 +34,8 @@
     ],
     "similar": [
         "pow~",
-        "atan~",
-        "frac.mul",
-        "minmax~"
+        "rescale",
+        "scalarmult",
+        "cartopol~"
     ]
 }

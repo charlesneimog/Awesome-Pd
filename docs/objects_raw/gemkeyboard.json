@@ -26,8 +26,8 @@
     ],
     "similar": [
         "gemkeyname",
-        "keycode",
-        "keypress",
-        "gemtablet"
+        "gemtablet",
+        "lpt",
+        "gemmouse"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `rand.u` object generates a sequence of unique random integers within a specified range (0 to `size-1`). It ensures that each number in the sequence is output only once before repeating. A `bang` is sent from the right outlet once the entire sequence has been generated.",
     "categories": [
         "Stochastic"
+    ],
+    "similar": [
+        "urn",
+        "drunk",
+        "decide",
+        "rand.f~"
     ]
 }

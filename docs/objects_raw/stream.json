@@ -23,5 +23,11 @@
     "description": "The `stream` object collects incoming numbers into an internal list. It outputs this list as a single message when a specified group size (N) is reached, or when triggered by a `bang` message to resend the last output. The internal list can be cleared using a `clear` message.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "thresh",
+        "l",
+        "pak",
+        "l2i"
     ]
 }

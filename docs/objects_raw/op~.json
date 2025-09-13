@@ -25,5 +25,11 @@
         "Logic",
         "Math",
         "Multichannel"
+    ],
+    "similar": [
+        "op",
+        "zigbinops",
+        "ceil~",
+        "car2pol~"
     ]
 }

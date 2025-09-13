@@ -24,5 +24,11 @@
     "categories": [
         "LFOs",
         "Oscillators"
+    ],
+    "similar": [
+        "pimp",
+        "oscnoise~",
+        "train~",
+        "impulse"
     ]
 }

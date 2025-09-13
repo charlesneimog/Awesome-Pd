@@ -23,5 +23,11 @@
     "description": "The `pipe2` object functions similarly to Pure Data's vanilla `pipe` object, delaying incoming messages. It accepts any type of message and outputs it after a specified delay time. The delay can be set as an argument during creation or dynamically via a float message in milliseconds.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "speedlim",
+        "initmess",
+        "merge",
+        "rawprint"
     ]
 }

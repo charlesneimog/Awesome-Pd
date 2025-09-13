@@ -23,5 +23,11 @@
     "description": "The `poltocar~` object converts signal values from polar coordinates (amplitude and phase) to Cartesian coordinates (real and imaginary parts). It is primarily used in spectral processing to transform signals back into the Cartesian domain after operations performed in the more intuitive polar form, often following an FFT and preceding an iFFT.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "cartopol~",
+        "cartopol",
+        "car2pol",
+        "poltocar"
     ]
 }

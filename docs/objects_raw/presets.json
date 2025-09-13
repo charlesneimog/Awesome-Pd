@@ -25,5 +25,11 @@
         "Data Structures",
         "Patching",
         "General Utilities"
+    ],
+    "similar": [
+        "presets.m",
+        "pv",
+        "index",
+        "tabset"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "`crusher~` is a Pure Data object that functions as a bit-crusher and decimator. It distorts an input audio signal by reducing its bit depth and downsampling its sample rate, generating aliasing effects. Parameters for bit reduction and decimation range from 0 (original sound) to 1 (maximum effect).",
     "categories": [
         "Distortion"
+    ],
+    "similar": [
+        "degrade~",
+        "crusher.m~",
+        "digidistort",
+        "rm.m~"
     ]
 }

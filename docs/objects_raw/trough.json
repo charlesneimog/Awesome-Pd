@@ -23,5 +23,11 @@
     "description": "The `trough` object tracks a minimum (trough) value. It compares incoming floats to its current trough; if the input is smaller, it becomes the new trough and is output. It also provides outlets indicating whether a new trough was set or not, and can be initialized or updated with a list of two values.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "accum",
+        "bangdiv",
+        "default",
+        "list2int"
     ]
 }

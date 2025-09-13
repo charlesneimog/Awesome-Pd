@@ -36,6 +36,6 @@
         "tCylinder3D",
         "tSeg2D",
         "iAmbient2D",
-        "clip~"
+        "list.inc"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `trighold~` object holds the value of an incoming trigger signal. When a trigger occurs, its value is captured and maintained at the output. A `clear` message can reset the held value to zero.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "sah~",
+        "accum",
+        "pulsediv~",
+        "operating_system"
     ]
 }

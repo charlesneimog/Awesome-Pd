@@ -24,5 +24,11 @@
     "categories": [
         "Math",
         "General Utilities"
+    ],
+    "similar": [
+        "frac2cents",
+        "autotune2",
+        "cents2ratio",
+        "scale2cents"
     ]
 }

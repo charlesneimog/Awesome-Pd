@@ -25,5 +25,11 @@
         "Reverb",
         "Delay",
         "Audio IO"
+    ],
+    "similar": [
+        "comb.rev~",
+        "allpass.rev~",
+        "fdn.rev~",
+        "trig.delay~"
     ]
 }

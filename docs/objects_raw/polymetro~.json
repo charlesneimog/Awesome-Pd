@@ -23,5 +23,11 @@
     "description": "`polymetro~` is a signal-rate polyrhythmic metronome that generates impulses for a base rhythm and a relative rhythm. It allows setting tempo in BPM, starting/stopping, syncing, and defining polyrhythmic ratios using float or fractional multipliers. This object is ideal for creating complex rhythmic patterns and driving other signal-rate processes.",
     "categories": [
         "Procedural"
+    ],
+    "similar": [
+        "polymetro",
+        "l.attrfilter",
+        "l.readsvg",
+        "repeat"
     ]
 }

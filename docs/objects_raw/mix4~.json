@@ -25,5 +25,11 @@
         "Routing",
         "Multichannel",
         "Math"
+    ],
+    "similar": [
+        "mix2~",
+        "gain~",
+        "out8~",
+        "mtx.mc~"
     ]
 }

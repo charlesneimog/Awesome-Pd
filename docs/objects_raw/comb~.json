@@ -25,5 +25,11 @@
         "Delay",
         "Filters",
         "Chorus/Flanger/Phaser"
+    ],
+    "similar": [
+        "comb.rev~",
+        "allpass~",
+        "teeth~",
+        "comb.filt~"
     ]
 }

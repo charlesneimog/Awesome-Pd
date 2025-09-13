@@ -24,5 +24,11 @@
     "categories": [
         "GUI",
         "Graphics"
+    ],
+    "similar": [
+        "graph~",
+        "biplot",
+        "zbiplot",
+        "scopeXYZ~"
     ]
 }

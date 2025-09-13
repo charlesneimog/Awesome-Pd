@@ -25,5 +25,11 @@
         "Descriptors",
         "GUI",
         "Graphics"
+    ],
+    "similar": [
+        "scope~",
+        "graph~",
+        "tID_fft",
+        "biplot"
     ]
 }

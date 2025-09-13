@@ -23,5 +23,11 @@
     "description": "The `interpolate` object smoothly transitions between a start value (or list of values) and a target value (or list of values) based on an input float between 0 and 1. It supports an exponential factor for non-linear interpolation. This object is useful for creating smooth parameter changes, often controlled by GUI elements like sliders.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "list.inc",
+        "maximum",
+        "rescale",
+        "power~"
     ]
 }

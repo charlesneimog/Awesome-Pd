@@ -23,5 +23,11 @@
     "description": "The `cosx~` object computes the cosine of an input signal, expecting values in radians. It is primarily intended for mathematical operations on signals rather than direct use with `phasor~` outputs (0-1 range), and it functions as a signal-rate cosine wavetable.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "acosh~",
+        "acos",
+        "tanx~",
+        "cosh~"
     ]
 }

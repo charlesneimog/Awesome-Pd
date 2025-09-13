@@ -23,5 +23,11 @@
     "description": "The `scala` object imports musical scales from `.scl` files, converting them into a list of cents for use within Pure Data. It also provides metadata about the loaded scale, such as its file and scale names. The object can open a file dialog for selection or load a specified `.scl` file directly.",
     "categories": [
         "File IO"
+    ],
+    "similar": [
+        "sfinfo",
+        "rec.file~",
+        "dir",
+        "batch.rec~"
     ]
 }

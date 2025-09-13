@@ -23,5 +23,11 @@
     "description": "The `meter` object functions as a CPU load meter, providing real-time information about the system's CPU usage. It can be toggled on or off and outputs the current CPU load as a float value.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "time",
+        "accum",
+        "operating_system",
+        "pipe2"
     ]
 }

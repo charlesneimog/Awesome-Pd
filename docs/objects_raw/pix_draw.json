@@ -27,7 +27,7 @@
     "similar": [
         "pix_coordinate",
         "pix_texture",
-        "pix_multitexture",
-        "pix_clearblock"
+        "pix_clearblock",
+        "pix_multitexture"
     ]
 }

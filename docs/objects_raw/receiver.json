@@ -23,5 +23,11 @@
     "description": "The `receiver` object functions similarly to Pure Data's `[receive]`, allowing it to listen for messages sent to up to two specified names. Its receive names can be dynamically set via an inlet, and it supports dollar sign expansion for flexible naming within abstractions, akin to `[dollsym]`. This object is useful for routing messages to both groups of objects and individual instances.",
     "categories": [
         "Routing"
+    ],
+    "similar": [
+        "sender",
+        "multireceive",
+        "forward",
+        "gate"
     ]
 }

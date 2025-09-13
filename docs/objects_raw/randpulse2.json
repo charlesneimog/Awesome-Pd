@@ -24,5 +24,11 @@
     "categories": [
         "Oscillators",
         "Stochastic"
+    ],
+    "similar": [
+        "randpulse2~",
+        "randpulse~",
+        "rand~",
+        "dust2~"
     ]
 }

@@ -24,5 +24,11 @@
     "categories": [
         "Math",
         "Multichannel"
+    ],
+    "similar": [
+        "floor~",
+        "db2lin~",
+        "cents2ratio~",
+        "lin2db~"
     ]
 }

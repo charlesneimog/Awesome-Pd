@@ -28,7 +28,7 @@
     "similar": [
         "s2l",
         "list2symbol",
-        "l2s",
-        "makesymbol"
+        "symbol2any",
+        "l2s"
     ]
 }

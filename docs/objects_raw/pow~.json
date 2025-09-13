@@ -23,5 +23,11 @@
     "description": "The `cyclone/pow~` object calculates the power of a base value, raising it to the exponent. The right inlet sets the base, and the left inlet sets the exponent, both accepting signals or floats. It functions as a signal power utility, useful for generating curves, and outputs `0` for `inf/nan` results.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "minimum",
+        "rdiv~",
+        "plusequals~",
+        "taint~"
     ]
 }

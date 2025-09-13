@@ -25,5 +25,11 @@
         "Samplers",
         "File IO",
         "Multichannel"
+    ],
+    "similar": [
+        "buffer~",
+        "player~",
+        "tabplayer~",
+        "pvoc.player~"
     ]
 }

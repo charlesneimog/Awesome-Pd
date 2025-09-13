@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_motionblur",
         "pix_rtx",
+        "pix_motionblur",
         "pix_convert",
-        "scale"
+        "gemrepeat"
     ]
 }

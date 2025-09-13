@@ -23,5 +23,11 @@
     "description": "`sigs~` is a multichannel signal generator similar to `sig~`. It converts a float or a list of numbers into a multichannel signal, with the number of channels determined by its creation arguments. Each argument creates a separate inlet for controlling a specific channel.",
     "categories": [
         "Multichannel"
+    ],
+    "similar": [
+        "repeat~",
+        "spread.mc~",
+        "rotate.mc~",
+        "pan4~"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `pimp` object is a control-rate utility that generates bangs at specified intervals or outputs a phase value (0-127). It can be configured by frequency (Hz) or period (milliseconds), and its internal phase can be synchronized or offset. This object is useful for precise timing and generating periodic control signals.",
     "categories": [
         "Oscillators"
+    ],
+    "similar": [
+        "impulse",
+        "phasor",
+        "pulse",
+        "randpulse"
     ]
 }

@@ -24,5 +24,11 @@
     "categories": [
         "Envelopes",
         "Descriptors"
+    ],
+    "similar": [
+        "vu~",
+        "envrms~",
+        "peakamp~",
+        "rms~"
     ]
 }

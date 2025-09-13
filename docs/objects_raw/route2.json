@@ -23,5 +23,11 @@
     "description": "The `route2` object is a message routing utility similar to `route`, directing incoming messages to specific outlets based on matching arguments (symbols or floats). A key distinction is that `route2` does not trim the matched argument from the output message, passing the entire message through. It is primarily used for conditional message flow control within a Pure Data patch.",
     "categories": [
         "Routing"
+    ],
+    "similar": [
+        "routetype",
+        "demultiplex~",
+        "gate",
+        "forward"
     ]
 }

@@ -25,5 +25,11 @@
         "Oscillators",
         "LFOs",
         "Additive"
+    ],
+    "similar": [
+        "saw~",
+        "tri~",
+        "oscnoise~",
+        "cosine~"
     ]
 }

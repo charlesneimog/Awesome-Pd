@@ -23,5 +23,11 @@
     "description": "`asr~` is a gated attack/sustain/release envelope generator, functioning as a simplified version of `adsr~`. It produces an envelope signal based on a gate input, with configurable attack and release times in milliseconds, and offers options for linear, logarithmic, or 'lag' curves. The object also provides a status output indicating when the envelope is active, which is useful for controlling DSP processing, and supports multichannel operation.",
     "categories": [
         "Envelopes"
+    ],
+    "similar": [
+        "adsr~",
+        "smooth",
+        "adsr.m~",
+        "smooth2"
     ]
 }

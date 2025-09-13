@@ -23,5 +23,11 @@
     "description": "The `lua` object in Pure Data allows for inline scripting in Lua, enabling the creation and loading of Pure Data externals written in Lua. While currently experimental and not fully functional, it facilitates the integration of Lua-based objects like `circle` and `scope3d~` into Pure Data patches.",
     "categories": [
         "Extensions"
+    ],
+    "similar": [
+        "hello",
+        "else",
+        "cyclone",
+        "scope3d~"
     ]
 }

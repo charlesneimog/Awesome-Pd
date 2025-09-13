@@ -24,5 +24,11 @@
     "categories": [
         "Math",
         "General Utilities"
+    ],
+    "similar": [
+        "sampstoms~",
+        "samps2ms",
+        "ms2samps~",
+        "ms2samps"
     ]
 }

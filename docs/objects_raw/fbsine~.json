@@ -25,5 +25,11 @@
         "Oscillators",
         "Multichannel",
         "Audio IO"
+    ],
+    "similar": [
+        "saw2~",
+        "sine~",
+        "impulse~",
+        "pm4~"
     ]
 }

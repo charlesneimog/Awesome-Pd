@@ -23,5 +23,11 @@
     "description": "The `drunkard~` object generates pseudo-random signal values within a defined step range, based on a \"drunkard's walk\" algorithm. It can be seeded for reproducible sequences and allows control over the step size, probability of positive steps, and output bounds. When values reach the set bounds, they wrap around.",
     "categories": [
         "Stochastic"
+    ],
+    "similar": [
+        "drunkard",
+        "stepnoise",
+        "drunk",
+        "rand.f~"
     ]
 }

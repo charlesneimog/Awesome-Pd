@@ -23,5 +23,11 @@
     "description": "The `forward` object in Pure Data is designed to send messages to various destinations, allowing the target to change dynamically with each message. It functions similarly to the `send` object but offers more flexibility in directing messages, akin to using semicolons within a message box. However, it is considered redundant and deprecated, with direct use of `send` or message boxes being the recommended approach.",
     "categories": [
         "Routing"
+    ],
+    "similar": [
+        "sender",
+        "dispatch",
+        "route2",
+        "multireceive"
     ]
 }

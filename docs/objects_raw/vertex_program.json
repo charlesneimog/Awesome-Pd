@@ -28,6 +28,6 @@
         "fragment_program",
         "glsl_program",
         "glsl",
-        "gemvertexbuffer"
+        "mesh_square"
     ]
 }

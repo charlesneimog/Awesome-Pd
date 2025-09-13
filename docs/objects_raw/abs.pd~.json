@@ -25,5 +25,11 @@
         "Routing",
         "MIDI",
         "Patching"
+    ],
+    "similar": [
+        "voices",
+        "sendmidi",
+        "canvas.name",
+        "synth~"
     ]
 }

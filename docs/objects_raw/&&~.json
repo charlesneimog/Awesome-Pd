@@ -26,8 +26,8 @@
     ],
     "similar": [
         "0x3c0x7e",
-        "lessthan~",
         "0x7c0x7c0x7e",
-        "lessthaneq~"
+        "==~",
+        "equals~"
     ]
 }

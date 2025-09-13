@@ -24,5 +24,11 @@
     "categories": [
         "Algorithmic Composition",
         "Stochastic"
+    ],
+    "similar": [
+        "rand.u",
+        "urn",
+        "drunk",
+        "decide"
     ]
 }

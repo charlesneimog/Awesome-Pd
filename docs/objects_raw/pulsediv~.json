@@ -23,5 +23,11 @@
     "description": "`pulsediv~` is a signal-rate trigger divider that outputs an impulse on its left outlet after a specified number of input triggers. It can be configured with a division value and a starting count, and its internal counter can be reset by an impulse on its third inlet. This object is useful for creating rhythmic divisions or delayed triggers from a continuous stream of impulses.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "sah~",
+        "bangdiv",
+        "trighold~",
+        "tempo~"
     ]
 }

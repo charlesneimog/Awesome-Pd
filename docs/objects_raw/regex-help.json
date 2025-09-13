@@ -26,8 +26,8 @@
     ],
     "similar": [
         "regex",
-        "fromsymbol",
         "makesymbol",
-        "separate"
+        "fromsymbol",
+        "spell"
     ]
 }

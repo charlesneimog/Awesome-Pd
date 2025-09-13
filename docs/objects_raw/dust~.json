@@ -24,5 +24,11 @@
     "categories": [
         "Stochastic",
         "Multichannel"
+    ],
+    "similar": [
+        "dust2~",
+        "stepnoise~",
+        "randpulse2~",
+        "randpulse~"
     ]
 }

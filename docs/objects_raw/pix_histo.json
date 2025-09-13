@@ -29,6 +29,6 @@
         "pix_drum",
         "pix_multiblob",
         "pix_blobtracker",
-        "spectrograph~"
+        "pix_curve"
     ]
 }

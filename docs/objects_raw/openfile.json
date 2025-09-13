@@ -25,5 +25,11 @@
         "File IO",
         "GUI",
         "General Utilities"
+    ],
+    "similar": [
+        "dir",
+        "pic",
+        "initmess",
+        "retrieve"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `gate2imp~` object converts a gate signal into an impulse. It outputs a short, sharp signal (an impulse) whenever the input gate signal changes from off to on, effectively triggering an event or action.",
     "categories": [
         "Logic"
+    ],
+    "similar": [
+        "changed~",
+        "match~",
+        "status~",
+        "above~"
     ]
 }

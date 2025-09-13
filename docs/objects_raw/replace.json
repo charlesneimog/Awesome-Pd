@@ -23,5 +23,11 @@
     "description": "The `replace` object modifies an input list by substituting an element at a specified index with a new value. It takes the list to be modified, an index (float, default 0), and the new element (float or symbol) as inputs, outputting the modified list.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "remove",
+        "insert",
+        "packel",
+        "pak"
     ]
 }

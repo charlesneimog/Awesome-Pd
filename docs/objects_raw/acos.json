@@ -23,5 +23,11 @@
     "description": "The `acos` object calculates the arc-cosine (inverse cosine) of a given number. It takes a float as input, computes its arc-cosine, and outputs the result as a float. This object is part of the control data trigonometric functions.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "cosh",
+        "acosh",
+        "acos~",
+        "asin"
     ]
 }

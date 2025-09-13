@@ -23,5 +23,11 @@
     "description": "The `dbtoa~` object converts a decibel full scale (dBFS) amplitude signal or float into its linear amplitude equivalent. It uses the formula `amp = 10^(dBFS / 20)` to translate logarithmic dBFS values into a linear amplitude signal, useful for various audio processing tasks.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "db2lin",
+        "atodb",
+        "dbtoa",
+        "atodb~"
     ]
 }

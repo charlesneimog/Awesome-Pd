@@ -26,9 +26,9 @@
         "Text"
     ],
     "similar": [
-        "atoi",
-        "tosymbol",
         "separate",
-        "format"
+        "atoi",
+        "unite",
+        "tosymbol"
     ]
 }

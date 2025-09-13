@@ -25,5 +25,11 @@
         "Math",
         "Envelopes",
         "Oscillators"
+    ],
+    "similar": [
+        "envelope~",
+        "curve~",
+        "latoocarfian~",
+        "tanh"
     ]
 }

@@ -25,5 +25,11 @@
         "File IO",
         "Multichannel",
         "Audio IO"
+    ],
+    "similar": [
+        "player~",
+        "gran.player~",
+        "batch.rec~",
+        "stretch.shift~"
     ]
 }

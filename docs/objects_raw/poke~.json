@@ -24,5 +24,11 @@
     "categories": [
         "Data Structures",
         "Multichannel"
+    ],
+    "similar": [
+        "batch.write~",
+        "peek~",
+        "index~",
+        "tabwriter~"
     ]
 }

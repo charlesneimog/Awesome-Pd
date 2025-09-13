@@ -23,5 +23,11 @@
     "description": "The `cyclone` object acts as an interface to the Cyclone library, a collection of common Pure Data objects, often with Max/MSP-compatible alphanumeric aliases. It accepts \"about\" and \"version\" messages to display library information and its version number. The `cyclone` library must be loaded to access its various utility, comparative, and mathematical objects.",
     "categories": [
         "Extensions"
+    ],
+    "similar": [
+        "lua",
+        "hello",
+        "else",
+        "funnel"
     ]
 }

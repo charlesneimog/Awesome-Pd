@@ -25,9 +25,9 @@
         "Data Structures"
     ],
     "similar": [
-        "l2i",
-        "l",
-        "delace",
-        "any2list"
+        "replace",
+        "delete",
+        "remove",
+        "insert"
     ]
 }

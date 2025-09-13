@@ -23,5 +23,11 @@
     "description": "The `makenote2` object generates MIDI note-on and note-off messages from an input list containing pitch, velocity, and duration. It interprets duration in beats, with the BPM configurable via an argument or inlet, and can also handle symbolic pitches like 'C4'. Additional list elements can be used for MIDI channel or other parameters, and extra creation arguments are appended to the note-off message.",
     "categories": [
         "MIDI"
+    ],
+    "similar": [
+        "note.out",
+        "xnoteout",
+        "borax",
+        "noteinfo"
     ]
 }

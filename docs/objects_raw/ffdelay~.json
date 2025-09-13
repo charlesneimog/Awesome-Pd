@@ -24,5 +24,11 @@
     "categories": [
         "Delay",
         "Chorus/Flanger/Phaser"
+    ],
+    "similar": [
+        "delay~",
+        "fbdelay~",
+        "flanger~",
+        "delay.m~"
     ]
 }

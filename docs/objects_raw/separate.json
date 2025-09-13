@@ -24,5 +24,11 @@
     "categories": [
         "Text",
         "General Utilities"
+    ],
+    "similar": [
+        "tosymbol",
+        "unite",
+        "atof",
+        "atoi"
     ]
 }

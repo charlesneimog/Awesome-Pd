@@ -23,5 +23,11 @@
     "description": "The `rad2hz` object converts a frequency value from \"radians per sample\" to Hertz (Hz). It performs this conversion using the formula `hz = rad * sr / (2 * pi)`, where `sr` is the current patch's sample rate. This object is essential for translating internal Pure Data frequency representations into standard human-readable Hertz values.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "hz2rad",
+        "scale2freq",
+        "asin~",
+        "db2lin"
     ]
 }

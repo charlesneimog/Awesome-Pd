@@ -23,5 +23,11 @@
     "description": "The `message` object stores and outputs any type of message, similar to a standard message box. It can parse messages containing commas (splitting them) and semicolons (creating new messages), with backslashes used for escaping these characters. A `bang` or a click on the object will output the currently stored message.",
     "categories": [
         "Text"
+    ],
+    "similar": [
+        "spell",
+        "fromsymbol",
+        "makesymbol",
+        "regex-help"
     ]
 }

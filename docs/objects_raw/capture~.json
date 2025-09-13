@@ -24,5 +24,11 @@
     "categories": [
         "File IO",
         "General Utilities"
+    ],
+    "similar": [
+        "dir",
+        "blocksize~",
+        "ms2samps",
+        "ms2samps~"
     ]
 }

@@ -29,6 +29,6 @@
         "fwriteln",
         "msgfile",
         "text3d",
-        "dir"
+        "pix_writer"
     ]
 }

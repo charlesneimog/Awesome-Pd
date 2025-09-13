@@ -24,5 +24,11 @@
     "categories": [
         "Math",
         "General Utilities"
+    ],
+    "similar": [
+        "mean",
+        "mov.avg",
+        "average~",
+        "avg~"
     ]
 }

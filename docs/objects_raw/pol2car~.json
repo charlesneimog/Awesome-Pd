@@ -25,5 +25,11 @@
         "Math",
         "Multichannel",
         "General Utilities"
+    ],
+    "similar": [
+        "car2pol~",
+        "poltocar~",
+        "pol2car",
+        "cartopol~"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "`damp.osc~` is a damped oscillator that generates a signal with a specified frequency and decay time. It can be triggered by signals or lists, with the trigger value determining the output amplitude. It provides two outputs: one starting with a cosine phase and another with a sine phase.",
     "categories": [
         "Oscillators"
+    ],
+    "similar": [
+        "randpulse",
+        "pimp",
+        "gaussian~",
+        "cycle~"
     ]
 }

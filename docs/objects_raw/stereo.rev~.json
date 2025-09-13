@@ -24,5 +24,11 @@
     "categories": [
         "Reverb",
         "Audio IO"
+    ],
+    "similar": [
+        "mono.rev~",
+        "free.rev~",
+        "plate.rev~",
+        "giga.rev~"
     ]
 }

@@ -24,5 +24,11 @@
     "categories": [
         "Sequencers",
         "GUI"
+    ],
+    "similar": [
+        "mtx.ctl",
+        "sequencer~",
+        "seq8.m~",
+        "pattern"
     ]
 }

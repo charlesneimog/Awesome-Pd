@@ -25,5 +25,11 @@
         "MIDI",
         "Patching",
         "Multichannel"
+    ],
+    "similar": [
+        "voices~",
+        "voices",
+        "mono~",
+        "borax"
     ]
 }

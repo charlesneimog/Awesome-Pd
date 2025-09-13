@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
+        "selector",
         "mux~",
-        "gate",
-        "router",
-        "selector"
+        "multiplex~",
+        "demux"
     ]
 }

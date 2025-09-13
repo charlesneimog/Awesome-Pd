@@ -24,5 +24,11 @@
     "categories": [
         "Multichannel",
         "Descriptors"
+    ],
+    "similar": [
+        "meter8~",
+        "vu~",
+        "meter~",
+        "meter2~"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `pz2coeff` object converts pole and zero coordinates, along with an overall gain, into biquad filter coefficients. These coefficients are formatted for use with objects like `biquad~`, enabling the creation of custom digital filters. It takes lists for pole/zero coordinates and a float for gain.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "sph2cart",
+        "cart2pol",
+        "pol2sph",
+        "cart2sph"
     ]
 }

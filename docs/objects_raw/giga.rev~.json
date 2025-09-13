@@ -23,5 +23,11 @@
     "description": "`giga.rev~` is a stereo reverb unit based on the Gigaverb algorithm, designed to simulate various acoustic spaces. It takes a mono audio input and produces a stereo output, allowing control over parameters such as room size, decay time, high-frequency damping, and the levels of early and late reflections. The object also includes presets for different environments and a 'clear' message to reset its internal delay lines.",
     "categories": [
         "Reverb"
+    ],
+    "similar": [
+        "mono.rev~",
+        "free.rev~",
+        "plate.rev~",
+        "stereo.rev~"
     ]
 }

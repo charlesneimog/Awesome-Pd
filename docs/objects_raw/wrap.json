@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
-        "amean",
-        "bangdiv",
-        "clip",
-        "wrap2"
+        "pong",
+        "pong~",
+        "count",
+        "fold"
     ]
 }

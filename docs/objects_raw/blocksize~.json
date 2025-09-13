@@ -23,5 +23,11 @@
     "description": "The `blocksize~` object reports and controls Pure Data's audio block size, which defines the number of samples processed at once. It allows querying and setting this crucial parameter in samples, milliseconds, or Hertz. This utility helps adapt patch behavior to the current DSP settings.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "any2symbol",
+        "fontsize",
+        "canvas.vis",
+        "tempo~"
     ]
 }

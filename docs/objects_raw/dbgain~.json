@@ -24,5 +24,11 @@
     "categories": [
         "Multichannel",
         "Dynamics"
+    ],
+    "similar": [
+        "level~",
+        "vca.m~",
+        "limiter~",
+        "level.m~"
     ]
 }

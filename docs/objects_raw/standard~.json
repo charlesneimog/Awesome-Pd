@@ -24,5 +24,11 @@
     "categories": [
         "Math",
         "Stochastic"
+    ],
+    "similar": [
+        "lincong~",
+        "henon~",
+        "quad~",
+        "logistic~"
     ]
 }

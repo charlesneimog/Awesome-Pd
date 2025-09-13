@@ -23,5 +23,11 @@
     "description": "The `autotune2` object quantizes incoming pitch values, expressed in cents, to the closest step within a user-defined scale. The scale itself is provided as a list of cents values. It can process single cents values or lists of cents, and includes a bypass mode.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "cents2frac",
+        "cents2ratio",
+        "ratio2cents",
+        "scale2freq"
     ]
 }

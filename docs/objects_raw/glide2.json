@@ -23,5 +23,11 @@
     "description": "The `glide2` object generates a smooth glide or portamento effect for incoming float or signal values. It allows independent control over the glide-up and glide-down times in milliseconds, and an exponential factor can be applied to shape the transition curve. This object is useful for smoothing control signals or creating pitch glides.",
     "categories": [
         "Envelopes"
+    ],
+    "similar": [
+        "smooth2",
+        "smooth",
+        "glide~",
+        "glide"
     ]
 }

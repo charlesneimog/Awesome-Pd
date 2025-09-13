@@ -23,5 +23,11 @@
     "description": "The `slew~` object acts as a rate limiter for audio signals, smoothing out sudden changes in amplitude or other parameters. It limits the rate at which an incoming signal can change, generating a linear ramp towards the target value at a specified speed (amplitude per second). It supports multichannel signals, applying the slew limit independently to each channel.",
     "categories": [
         "Multichannel"
+    ],
+    "similar": [
+        "slew2~",
+        "lag2~",
+        "glide~",
+        "smooth~"
     ]
 }

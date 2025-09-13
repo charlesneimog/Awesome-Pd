@@ -25,9 +25,9 @@
     "title": "chroma",
     "description": "The `chroma` object performs non-real-time pitch chroma analysis on audio data stored in a Pure Data array. It calculates a pitch class profile (chroma vector) for a specified audio segment, configurable by frequency bounds and pitch tolerance. This object can accept pre-computed FFT or magnitude spectrum data via `chain_` messages for optimized analysis workflows.",
     "similar": [
-        "specKurtosis",
         "specSkewness",
+        "specKurtosis",
         "specRolloff",
-        "phaseSpec"
+        "specSpread"
     ]
 }

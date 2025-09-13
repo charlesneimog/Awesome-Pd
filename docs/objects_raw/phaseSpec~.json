@@ -28,6 +28,6 @@
         "phaseSpec",
         "tID_fft~",
         "barkSpec~",
-        "magSpec~"
+        "melSpec~"
     ]
 }

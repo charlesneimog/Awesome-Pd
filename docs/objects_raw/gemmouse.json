@@ -26,9 +26,9 @@
         "Graphics"
     ],
     "similar": [
-        "mouse",
         "gemsdl2window",
         "gemw32window",
-        "mousefilter"
+        "pix_video",
+        "gemorb"
     ]
 }

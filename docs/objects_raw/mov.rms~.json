@@ -24,5 +24,11 @@
     "categories": [
         "Math",
         "Descriptors"
+    ],
+    "similar": [
+        "rms~",
+        "vu~",
+        "energy",
+        "average~"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "`rand.dist` generates random numbers that follow a specified probability density function, provided as a Pure Data array (table). It can also output quantiles from the array based on a float input. The object allows setting a seed for reproducible random sequences and customizing the output range.",
     "categories": [
         "Stochastic"
+    ],
+    "similar": [
+        "rand.f~",
+        "rand.f",
+        "decide",
+        "rand.i"
     ]
 }

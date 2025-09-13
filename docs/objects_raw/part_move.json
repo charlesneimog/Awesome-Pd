@@ -27,7 +27,7 @@
     "similar": [
         "part_vertex",
         "part_render",
-        "part_damp",
-        "part_head"
+        "part_head",
+        "part_damp"
     ]
 }

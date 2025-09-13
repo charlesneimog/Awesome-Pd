@@ -24,5 +24,11 @@
     "categories": [
         "Routing",
         "OSC"
+    ],
+    "similar": [
+        "osc.send",
+        "osc.parse",
+        "osc.format",
+        "osc.receive"
     ]
 }

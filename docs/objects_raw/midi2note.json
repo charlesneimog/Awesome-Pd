@@ -25,5 +25,11 @@
         "MIDI",
         "General Utilities",
         "Text"
+    ],
+    "similar": [
+        "note2midi",
+        "notedur2ratio",
+        "xnoteout",
+        "note.out"
     ]
 }

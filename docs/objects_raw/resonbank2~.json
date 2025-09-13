@@ -24,5 +24,11 @@
     "categories": [
         "Filters",
         "Multichannel"
+    ],
+    "similar": [
+        "resonbank~",
+        "bpbank~",
+        "decay~",
+        "resonator~"
     ]
 }

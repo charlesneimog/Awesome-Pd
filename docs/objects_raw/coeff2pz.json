@@ -23,5 +23,11 @@
     "description": "The `coeff2pz` object converts biquad filter coefficients into their pole-zero representation. It outputs the coordinates of two poles, two zeros, and the overall gain of the filter's frequency response. This is useful for analyzing or visualizing the characteristics of a biquad filter.",
     "categories": [
         "Filters"
+    ],
+    "similar": [
+        "highshelf~",
+        "lowpass~",
+        "svfilter~",
+        "bandstop~"
     ]
 }

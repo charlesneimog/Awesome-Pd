@@ -23,5 +23,11 @@
     "description": "The `acos~` object calculates the arc-cosine of an incoming signal, sample by sample. It expects input values within the range of -1 to 1, producing a signal output between 0 and pi. Inputs outside this valid range will result in a zero output.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "asin~",
+        "acosh~",
+        "acos",
+        "cosh~"
     ]
 }

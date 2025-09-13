@@ -23,5 +23,11 @@
     "description": "The `gmean` object generates a list of numbers that form a geometric progression between a specified start and end value. It calculates the geometric mean for a given number of steps, where the number of steps determines the length of the output list minus one. This object is useful for creating logarithmically spaced sequences.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "amean",
+        "quantize~",
+        "maximum",
+        "pdf~"
     ]
 }

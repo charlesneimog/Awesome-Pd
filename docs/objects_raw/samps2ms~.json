@@ -25,5 +25,11 @@
         "Math",
         "Multichannel",
         "General Utilities"
+    ],
+    "similar": [
+        "samps2ms",
+        "ms2samps~",
+        "ms2samps",
+        "pol2car~"
     ]
 }

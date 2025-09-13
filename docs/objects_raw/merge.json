@@ -23,5 +23,11 @@
     "description": "The `merge` object combines messages from multiple inlets into a single list message. It accepts any message type in its inlets, treating a bang input as an empty list. The output is a list containing the merged messages, or a bang if the resulting list is empty.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "reverse",
+        "list2int",
+        "join",
+        "initmess"
     ]
 }

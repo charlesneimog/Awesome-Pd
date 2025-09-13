@@ -23,5 +23,11 @@
     "description": "The `pi` object calculates and outputs the mathematical constant pi, optionally multiplied by a float value provided as an argument or via its second inlet. It outputs the result upon patch loading and when it receives a `bang` message. This object can also store its output in a named `value` for retrieval by other objects like `value`, `var`, or `expr`.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "e",
+        "asin~",
+        "atanh",
+        "maximum"
     ]
 }

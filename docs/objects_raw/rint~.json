@@ -23,5 +23,11 @@
     "description": "The `rint~` object rounds an incoming signal to the nearest integer value. It takes a floating-point signal as input and outputs a signal with the rounded integer values, useful for quantizing signal values to discrete steps.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "rint",
+        "ceil",
+        "abs~",
+        "round"
     ]
 }

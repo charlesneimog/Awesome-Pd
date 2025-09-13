@@ -25,9 +25,9 @@
         "Descriptors"
     ],
     "similar": [
-        "tID_fft~",
+        "zerox~",
         "tID_fft",
-        "zeroCrossing",
-        "zeroCrossing~"
+        "tID_fft~",
+        "zeroCrossing"
     ]
 }

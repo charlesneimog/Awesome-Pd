@@ -23,5 +23,11 @@
     "description": "The `cosh~` object calculates the hyperbolic cosine of an input signal sample by sample. It is primarily used for mathematical computations within Pure Data signal processing.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "sinh~",
+        "acosh~",
+        "cosh",
+        "asinh~"
     ]
 }

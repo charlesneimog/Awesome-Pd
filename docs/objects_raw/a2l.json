@@ -25,9 +25,9 @@
         "Patching"
     ],
     "similar": [
-        "append",
-        "active",
-        "canvas.vis",
-        "canvas.setname"
+        "properties",
+        "canvas.name",
+        "loadbanger",
+        "canvas.active"
     ]
 }

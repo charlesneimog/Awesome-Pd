@@ -25,5 +25,11 @@
         "Stochastic",
         "Statistical Models",
         "Math"
+    ],
+    "similar": [
+        "drunkard",
+        "rand.f",
+        "drunk",
+        "brown~"
     ]
 }

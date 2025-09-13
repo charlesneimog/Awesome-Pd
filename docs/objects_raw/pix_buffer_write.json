@@ -29,6 +29,6 @@
         "pix_buffer",
         "pix_buffer_read",
         "gemlist",
-        "pix_share_read"
+        "pix_buffer_filmopen"
     ]
 }

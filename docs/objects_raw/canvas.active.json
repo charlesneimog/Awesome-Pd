@@ -23,5 +23,11 @@
     "description": "The `canvas.active` object reports the activity status of a Pure Data patch window. It outputs `1` when the window is active (front-most) and `0` when inactive. It can also query the activity of parent patches using a depth argument, or output the active window's name when the `-name` flag is used, which is useful for dynamic patching.",
     "categories": [
         "Patching"
+    ],
+    "similar": [
+        "canvas.name",
+        "canvas.edit",
+        "canvas.zoom",
+        "canvas.bounds"
     ]
 }

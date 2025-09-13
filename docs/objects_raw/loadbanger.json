@@ -23,5 +23,11 @@
     "description": "The `loadbanger` (or `lb`) object sends bang messages when a patch loads, when clicked, or upon receiving any message. It supports both \"load\" and \"init\" bang types, with \"init\" bangs being particularly useful for dynamic patching in abstractions by triggering before connections are established. The object's number of outputs can be configured via an argument.",
     "categories": [
         "Patching"
+    ],
+    "similar": [
+        "canvas.name",
+        "properties",
+        "canvas.active",
+        "a2l"
     ]
 }

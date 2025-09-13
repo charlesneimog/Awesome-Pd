@@ -23,5 +23,11 @@
     "description": "The `floor` object implements a standard mathematical floor function, rounding a given number down to the nearest integer. It can process individual numbers or lists of numbers, outputting the corresponding floor values.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "floor~",
+        "ceil",
+        "round",
+        "rint"
     ]
 }

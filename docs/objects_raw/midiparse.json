@@ -23,5 +23,11 @@
     "description": "The `midiparse` object receives a raw MIDI data stream and parses it into various MIDI messages, such as note messages, control changes, program changes, and pitch bend. It is the counterpart to the `midiformat` object and can output pitch bend data with different resolutions (7-bit or 14-bit) via its `hires` attribute.",
     "categories": [
         "MIDI"
+    ],
+    "similar": [
+        "midiformat",
+        "xbendout",
+        "bend.out",
+        "xbendin"
     ]
 }

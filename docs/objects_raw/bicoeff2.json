@@ -24,5 +24,11 @@
     "categories": [
         "Math",
         "Filters"
+    ],
+    "similar": [
+        "bicoeff",
+        "resonant~",
+        "coeff2pz",
+        "mavg"
     ]
 }

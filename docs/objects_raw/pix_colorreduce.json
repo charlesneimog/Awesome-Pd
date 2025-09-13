@@ -28,6 +28,6 @@
         "pix_duotone",
         "primTri",
         "pix_normalize",
-        "rotate"
+        "gemlist_matrix"
     ]
 }

@@ -21,5 +21,11 @@
     "ai": true,
     "title": "frameaccum~",
     "description": "The `frameaccum~` object accumulates the values of incoming signal blocks sample by sample, producing a running sum for each sample position across blocks. It is specifically designed for computing the running phase of FFT frames, where the FFT size matches the signal block size. An optional float input allows enabling or disabling phase wrapping between -PI and PI.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "framedelta~",
+        "asin~",
+        "acos~",
+        "blockmirror~"
+    ]
 }

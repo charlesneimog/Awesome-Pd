@@ -23,5 +23,11 @@
     "description": "The `factor` object takes a float as input and outputs a list of its prime factors. This mathematical utility is useful for breaking down numbers into their constituent prime components within Pure Data patches.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "prime",
+        "scalarmult",
+        "pol2car",
+        "tanh"
     ]
 }

@@ -25,9 +25,9 @@
         "Routing"
     ],
     "similar": [
+        "mtx~",
         "receiver",
-        "multiplex",
-        "grab",
-        "demux"
+        "funnel",
+        "selector"
     ]
 }

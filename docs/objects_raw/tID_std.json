@@ -28,6 +28,6 @@
         "tID_mean",
         "specFlatness~",
         "specSpread~",
-        "barkSpecFlatness~"
+        "binWrangler"
     ]
 }

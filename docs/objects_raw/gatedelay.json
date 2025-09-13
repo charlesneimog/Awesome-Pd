@@ -23,5 +23,11 @@
     "description": "The `gatedelay~` object delays the \"on\" value of a control gate by a specified time in milliseconds. However, it outputs the \"off\" value of the gate immediately without delay. This object is useful for precise timing control of events where the start needs to be delayed but the end should be instantaneous.",
     "categories": [
         "Logic"
+    ],
+    "similar": [
+        "gaterelease",
+        "gate2imp~",
+        "gatedelay~",
+        "changed~"
     ]
 }

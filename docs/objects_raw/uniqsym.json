@@ -27,8 +27,8 @@
     ],
     "similar": [
         "list2symbol",
-        "lace",
         "s2l",
-        "symbol2list"
+        "symbol2list",
+        "pack"
     ]
 }

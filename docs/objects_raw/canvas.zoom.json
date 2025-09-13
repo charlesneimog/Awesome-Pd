@@ -23,5 +23,11 @@
     "description": "The `canvas.zoom` object reports the current zoom status of a Pure Data canvas. It outputs its status at loadtime and can be triggered by a `bang` to report again. Optionally, a `float` argument can specify a depth to query the zoom status of parent canvases.",
     "categories": [
         "Patching"
+    ],
+    "similar": [
+        "canvas.edit",
+        "canvas.bounds",
+        "canvas.active",
+        "canvas.setname"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `atodb` object converts linear amplitude values to their decibel full scale (dBFS) equivalents. It takes linear amplitude as input and outputs the corresponding dBFS value, treating negative inputs as zero (resulting in -inf dBFS). This is useful for working with audio levels in a logarithmic scale.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "db2lin",
+        "dbtoa~",
+        "lin2db",
+        "atodb~"
     ]
 }

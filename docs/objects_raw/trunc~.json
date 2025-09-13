@@ -24,5 +24,11 @@
     "categories": [
         "Math",
         "Multichannel"
+    ],
+    "similar": [
+        "floor~",
+        "ceil~",
+        "cents2ratio~",
+        "wrap2~"
     ]
 }

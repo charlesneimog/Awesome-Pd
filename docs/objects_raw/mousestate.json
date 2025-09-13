@@ -23,5 +23,11 @@
     "description": "The `mousestate` object reports real-time mouse data, including click status, cursor position (x, y), and movement deltas. It offers three coordinate modes (screen, patch, or front-most patch relative) and can be polled manually or automatically for position updates. This object is useful for creating interactive patches that respond to mouse input.",
     "categories": [
         "Control IO"
+    ],
+    "similar": [
+        "mouse",
+        "mousefilter",
+        "canvas.mouse",
+        "pad"
     ]
 }

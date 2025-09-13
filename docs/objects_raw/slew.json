@@ -23,5 +23,11 @@
     "description": "The `slew` object limits the rate of change of incoming numerical values, creating a smooth transition or \"portamento\" effect. It takes an amplitude limit per second and allows adjustment of its internal refresh rate to control the smoothness of the output.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "glide",
+        "speedlim",
+        "pulsediv~",
+        "slew2~"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `glide~` object generates a smooth glide or portamento effect on incoming audio signals, smoothing out sudden changes in value over a specified time in milliseconds. It supports multichannel signals and allows for setting an exponential factor to control the curve of the glide.",
     "categories": [
         "Multichannel"
+    ],
+    "similar": [
+        "smooth~",
+        "glide2",
+        "glide",
+        "slew~"
     ]
 }

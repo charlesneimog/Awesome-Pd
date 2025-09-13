@@ -23,5 +23,11 @@
     "description": "The `thresh~` object acts as a Schmitt trigger, detecting when an input signal crosses specified high and low thresholds. It outputs `1` when the signal reaches or exceeds the high threshold and switches to `0` when the signal falls to or below the low threshold, providing stable detection of signal levels.",
     "categories": [
         "Logic"
+    ],
+    "similar": [
+        "schmitt~",
+        "schmitt",
+        "above~",
+        "0x7c0x7c0x7e"
     ]
 }

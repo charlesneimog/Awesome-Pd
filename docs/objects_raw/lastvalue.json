@@ -21,5 +21,11 @@
     "ai": true,
     "title": "lastvalue",
     "description": "The `lastvalue` object stores and reports the last received float or bang message. It can be initialized with an argument, reset to a specific value, or cleared. This object is useful for retaining and recalling the most recent input in a Pure Data patch.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "lastvalue~",
+        "plusequals~",
+        "add",
+        "sinh"
+    ]
 }

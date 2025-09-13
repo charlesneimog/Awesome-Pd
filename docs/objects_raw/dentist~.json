@@ -33,9 +33,9 @@
         "Filters"
     ],
     "similar": [
-        "reson~",
-        "highpass~",
-        "eq~",
-        "bandstop~"
+        "lores~",
+        "hip.bw~",
+        "bandstop~",
+        "crossover~"
     ]
 }

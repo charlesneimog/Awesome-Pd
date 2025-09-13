@@ -24,5 +24,11 @@
     "categories": [
         "Math",
         "MIDI"
+    ],
+    "similar": [
+        "midi2freq",
+        "scale2freq",
+        "rad2hz",
+        "hz2rad"
     ]
 }

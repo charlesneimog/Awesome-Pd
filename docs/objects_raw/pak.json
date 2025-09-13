@@ -23,5 +23,11 @@
     "description": "The `pak` object combines multiple inputs of various types (float, int, symbol) into a single list. By default, any direct input to an inlet triggers the output of the combined list. Values can be updated without immediate output using the `set` message, requiring a subsequent `bang` to explicitly send the list.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "pack2",
+        "l",
+        "stream",
+        "replace"
     ]
 }

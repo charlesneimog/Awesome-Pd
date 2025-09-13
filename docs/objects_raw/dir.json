@@ -24,5 +24,11 @@
     "categories": [
         "File IO",
         "General Utilities"
+    ],
+    "similar": [
+        "capture~",
+        "openfile",
+        "scala",
+        "blocksize~"
     ]
 }

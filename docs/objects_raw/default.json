@@ -23,5 +23,11 @@
     "description": "The `default` object stores a single message, which can be initialized with a creation argument. Sending a `bang` to its left inlet outputs the currently stored message. Any other message sent to the left inlet is passed through without being stored, while messages sent to the right inlet are stored as the new default.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "speedlim",
+        "bangbang",
+        "merge",
+        "pipe2"
     ]
 }

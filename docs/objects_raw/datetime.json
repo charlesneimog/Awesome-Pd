@@ -24,5 +24,11 @@
     "categories": [
         "General Utilities",
         "Control IO"
+    ],
+    "similar": [
+        "date",
+        "time",
+        "slice",
+        "keycode"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `metronome~` object generates audible metronome clicks, working in conjunction with the `metronome` object for timing. It can be configured with different click frequencies (low, mid, high) and offers multiple modes for click patterns. It outputs an audio signal representing the metronome clicks.",
     "categories": [
         "Oscillators"
+    ],
+    "similar": [
+        "pimp",
+        "saw~",
+        "impulse",
+        "pvtuner~"
     ]
 }

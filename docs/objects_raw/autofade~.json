@@ -24,5 +24,11 @@
     "categories": [
         "Envelopes",
         "Multichannel"
+    ],
+    "similar": [
+        "autofade.mc~",
+        "autofade2.mc~",
+        "autofade2~",
+        "gatehold~"
     ]
 }

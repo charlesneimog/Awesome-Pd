@@ -23,5 +23,11 @@
     "description": "The `args` object in Pure Data allows abstractions to load and dynamically manage their creation arguments. It can retrieve the current arguments, set new ones, and optionally split them using a break character for further routing. This object is essential for creating flexible and configurable Pure Data abstractions.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "buffer",
+        "repack",
+        "remove",
+        "stack"
     ]
 }

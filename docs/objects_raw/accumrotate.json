@@ -26,8 +26,8 @@
     ],
     "similar": [
         "rotateXYZ",
-        "rotate",
         "shearXZ",
-        "shearXY"
+        "shearXY",
+        "gemlist_matrix"
     ]
 }

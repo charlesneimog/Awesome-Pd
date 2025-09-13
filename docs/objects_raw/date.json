@@ -27,7 +27,7 @@
     "similar": [
         "datetime",
         "time",
-        "else",
-        "sr~"
+        "accum",
+        "meter"
     ]
 }

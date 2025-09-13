@@ -23,5 +23,11 @@
     "description": "The `pitch.shift~` object performs real-time pitch shifting on an audio signal using granulation. It allows users to control the transposition amount in cents and adjust the grain size in milliseconds for the granulation process. This enables altering the pitch of a sound without changing its duration.",
     "categories": [
         "Granular"
+    ],
+    "similar": [
+        "stretch.shift~",
+        "pvoc.live~",
+        "grain.synth~",
+        "gran.player~"
     ]
 }

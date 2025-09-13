@@ -24,5 +24,11 @@
     "categories": [
         "GUI",
         "Graphics"
+    ],
+    "similar": [
+        "biplot",
+        "coeff2pz",
+        "bicoeff",
+        "graph~"
     ]
 }

@@ -24,5 +24,11 @@
     "categories": [
         "Oscillators",
         "Multichannel"
+    ],
+    "similar": [
+        "cosine~",
+        "tri~",
+        "square~",
+        "vsaw~"
     ]
 }

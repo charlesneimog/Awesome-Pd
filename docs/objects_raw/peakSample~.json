@@ -28,6 +28,6 @@
         "barkSpecFlatness~",
         "magSpec~",
         "specSkewness~",
-        "dct~"
+        "specSlope~"
     ]
 }

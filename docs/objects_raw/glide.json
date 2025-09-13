@@ -23,5 +23,11 @@
     "description": "The `glide` object creates a smooth glide or portamento effect for incoming float values. It takes a float input and a specified glide time in milliseconds to gradually transition between values. Users can also adjust an exponential factor and a refresh rate to control the curve and smoothness of the glide.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "slew",
+        "glide~",
+        "glide2",
+        "smooth~"
     ]
 }

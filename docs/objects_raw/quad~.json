@@ -25,5 +25,11 @@
         "Math",
         "Oscillators",
         "Stochastic"
+    ],
+    "similar": [
+        "standard~",
+        "henon~",
+        "logistic~",
+        "latoocarfian~"
     ]
 }

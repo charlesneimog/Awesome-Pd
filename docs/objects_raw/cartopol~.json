@@ -23,5 +23,11 @@
     "description": "The `cartopol~` object converts a signal from Cartesian coordinates (real and imaginary parts) to polar coordinates (amplitude and phase). It is primarily used in spectral processing, particularly for Fast Fourier Transform (FFT) and inverse FFT (iFFT) operations, allowing for more intuitive manipulation of spectral data. If the phase outlet is not connected, the object optimizes CPU usage by not computing the phase.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "poltocar~",
+        "car2pol~",
+        "cartopol",
+        "poltocar"
     ]
 }

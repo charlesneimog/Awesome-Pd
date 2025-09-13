@@ -24,5 +24,11 @@
     "categories": [
         "Distortion",
         "Multichannel"
+    ],
+    "similar": [
+        "wrap2~",
+        "drive.m~",
+        "crusher.m~",
+        "rotate~"
     ]
 }

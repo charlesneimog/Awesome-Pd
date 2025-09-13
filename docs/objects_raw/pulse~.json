@@ -24,5 +24,11 @@
     "categories": [
         "Oscillators",
         "Multichannel"
+    ],
+    "similar": [
+        "square~",
+        "randpulse~",
+        "saw2~",
+        "bl.square~"
     ]
 }

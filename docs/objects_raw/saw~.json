@@ -23,5 +23,11 @@
     "description": "The `saw~` object generates a sawtooth waveform, supporting negative frequencies, phase synchronization, and phase modulation. It can operate in hard or soft sync modes, accept frequency input in Hertz or MIDI pitch, and features multichannel capabilities for complex sound design.",
     "categories": [
         "Oscillators"
+    ],
+    "similar": [
+        "cosine~",
+        "bl.wavetable~",
+        "gaussian~",
+        "sine~"
     ]
 }

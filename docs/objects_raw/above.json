@@ -23,5 +23,11 @@
     "description": "The `above` object monitors an incoming float value, sending a bang from its left outlet when the value rises above a specified threshold. It also sends a bang from another outlet when the value falls back to or below the threshold. The threshold can be set dynamically or initialized.",
     "categories": [
         "Logic"
+    ],
+    "similar": [
+        "above~",
+        "togedge",
+        "thresh~",
+        "changed~"
     ]
 }

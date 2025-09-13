@@ -26,9 +26,9 @@
         "charlesneimog"
     ],
     "similar": [
-        "sum",
-        "plusequals~",
         "add~",
-        "frac.add"
+        "plusequals~",
+        "add",
+        "median~"
     ]
 }

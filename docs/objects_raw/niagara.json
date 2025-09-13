@@ -28,7 +28,7 @@
     "similar": [
         "repack",
         "glue",
-        "unmerge",
-        "delace"
+        "pack2",
+        "repeat"
     ]
 }

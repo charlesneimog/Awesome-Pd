@@ -23,5 +23,11 @@
     "description": "`average~` calculates a moving average of an audio signal over a specified number of recent samples. It supports three modes: bipolar (arithmetic mean), absolute (mean of absolute values), and RMS (root mean square). In its default bipolar mode, `average~` can also function as a low-pass filter.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "avg~",
+        "tavg~",
+        "avg",
+        "mean"
     ]
 }

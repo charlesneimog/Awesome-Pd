@@ -24,5 +24,11 @@
     "categories": [
         "GUI",
         "Control IO"
+    ],
+    "similar": [
+        "circle",
+        "popmenu",
+        "pad",
+        "button"
     ]
 }

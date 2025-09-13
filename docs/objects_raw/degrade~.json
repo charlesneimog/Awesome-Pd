@@ -23,5 +23,11 @@
     "description": "The `degrade~` object reduces the quality of an incoming audio signal by manipulating its sampling rate and bit depth. It takes a signal and two control inputs (sample rate from 0-1 and bit depth from 1-24) to produce a resampled and quantized output signal, effectively acting as a bitcrusher.",
     "categories": [
         "Distortion"
+    ],
+    "similar": [
+        "crusher~",
+        "digidistort",
+        "kink~",
+        "overdrive~"
     ]
 }

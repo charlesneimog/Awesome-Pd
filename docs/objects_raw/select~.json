@@ -24,5 +24,11 @@
     "categories": [
         "Routing",
         "Multichannel"
+    ],
+    "similar": [
+        "xgate.mc~",
+        "xselect~",
+        "merge~",
+        "xgate2~"
     ]
 }

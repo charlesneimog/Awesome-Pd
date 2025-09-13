@@ -24,5 +24,11 @@
     "categories": [
         "Envelopes",
         "Multichannel"
+    ],
+    "similar": [
+        "adsr~",
+        "adsr.m~",
+        "autofade2~",
+        "autofade2.mc~"
     ]
 }

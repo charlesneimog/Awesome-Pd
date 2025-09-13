@@ -23,5 +23,11 @@
     "description": "The `gate~` object routes an input signal from its second inlet to one of its 'n' specified outlets, or to none of them. The target outlet is determined by a control signal or float in the first inlet, allowing for sample-accurate routing. If no outlet is selected, it outputs zero values.",
     "categories": [
         "Routing"
+    ],
+    "similar": [
+        "gate",
+        "router",
+        "demux",
+        "demultiplex~"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `initmess` object functions similarly to a standard message box, but it automatically sends its contained message(s) upon patch loading. It supports comma and semicolon syntax for sequencing multiple messages, and its output can also be triggered by a `bang` message or by clicking on it.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "merge",
+        "pipe2",
+        "speedlim",
+        "rawprint"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `round` object approximates input numbers (floats or lists) to the nearest integer multiple of a specified value. It supports two modes: rounding to the nearest multiple (default) or truncating to the nearest multiple. A \"round to\" value of 0 bypasses any approximation, outputting the original input.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "round~",
+        "quantizer",
+        "ceil",
+        "rint"
     ]
 }

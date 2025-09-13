@@ -23,5 +23,11 @@
     "description": "The `stack` object stores and retrieves messages using either a First-In, First-Out (FIFO) or Last-In, First-Out (LIFO) order, functioning as a queue or a traditional stack data structure. It allows users to push messages onto the stack, retrieve them one by one with a `bang`, or dump all stored messages. The object also provides control over its internal `[text]` window and reports the number of stored elements.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "lifop",
+        "fifop",
+        "rotate",
+        "combine"
     ]
 }

@@ -24,5 +24,11 @@
     "categories": [
         "Chorus/Flanger/Phaser",
         "Multichannel"
+    ],
+    "similar": [
+        "chorus.m~",
+        "flanger~",
+        "plate.rev.m~",
+        "chorus~"
     ]
 }

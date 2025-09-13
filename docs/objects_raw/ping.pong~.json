@@ -23,5 +23,11 @@
     "description": "The `ping.pong~` object is an audio effect that creates a ping-pong delay. It takes an audio signal as input and produces a stereo delay output that bounces between channels. Users can control the delay time in milliseconds and the feedback gain.",
     "categories": [
         "Delay"
+    ],
+    "similar": [
+        "revdelay~",
+        "delay~",
+        "delay.m~",
+        "z~"
     ]
 }

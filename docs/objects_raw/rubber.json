@@ -28,7 +28,7 @@
     "similar": [
         "ripple",
         "mesh_square",
-        "part_follow",
-        "vertex_program"
+        "vertex_program",
+        "part_follow"
     ]
 }

@@ -33,7 +33,7 @@
     "similar": [
         "mindwarp~",
         "freq2midi",
-        "xfade.mc~",
-        "xfade~"
+        "midi2freq",
+        "xfade.mc~"
     ]
 }

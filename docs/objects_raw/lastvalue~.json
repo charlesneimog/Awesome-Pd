@@ -21,5 +21,11 @@
     "ai": true,
     "title": "lastvalue~",
     "description": "The `lastvalue~` object outputs the previous value of its input signal whenever the signal changes. It is useful for detecting discrete changes in a continuous signal and holding the last stable value. The object can be initialized with a float argument or have its \"last value\" set via a float message.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "lastvalue",
+        "changed~",
+        "plusequals~",
+        "trig2bang"
+    ]
 }

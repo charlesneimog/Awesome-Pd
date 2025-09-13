@@ -33,9 +33,9 @@
         "Filters"
     ],
     "similar": [
-        "highshelf~",
+        "eq~",
         "crossover~",
-        "mindwarp~",
-        "eq~"
+        "lowshelf~",
+        "highshelf~"
     ]
 }

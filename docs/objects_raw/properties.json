@@ -23,5 +23,11 @@
     "description": "The `properties` object in Pure Data is used within abstractions or subpatches. It sends a bang when placed in an abstraction (its default mode) or when its parent patch requests its properties. This allows for dynamic interaction and control flow based on the containing patch's state.",
     "categories": [
         "Patching"
+    ],
+    "similar": [
+        "canvas.name",
+        "loadbanger",
+        "canvas.setname",
+        "canvas.active"
     ]
 }

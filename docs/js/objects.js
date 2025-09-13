@@ -1,7 +1,7 @@
 function getOriginUrl() {
     let rawUrl = window.location.origin;
     if (rawUrl.includes("charlesneimog.github.io")) {
-        rawUrl += "/Awesome-PD";
+        rawUrl += "/Awesome-Pd";
     } else {
         rawUrl = "";
     }
@@ -140,7 +140,7 @@ async function addSimilar(objname) {
 
         // Create link
         const a = document.createElement("a");
-        a.href = `${getOriginUrl()}objects/${categories}/${item}`;
+        a.href = `${getOriginUrl()}/objects/${categories}/${item}`;
         a.innerHTML = `<strong><code>${item}</code></strong>`;
 
         span.appendChild(a);
@@ -155,41 +155,4 @@ async function addSimilar(objname) {
 
         randomObjects.appendChild(li);
     }
-
-    if (!render_videos) {
-        return;
-    }
-
-    const jsonvideos = await fetch(`${getOriginUrl()}/all_videos.json`);
-    if (!jsonvideos.ok) throw new Error("Failed to load JSON");
-    const jsonmusic = await fetch(`${getOriginUrl()}/all_music.json`);
-    if (!jsonmusic.ok) throw new Error("Failed to load JSON");
-
-    const videos = await jsonvideos.json();
-    const music = await jsonmusic.json();
-    const media = [...videos, ...music];
-    const shuffled = shuffleArray(media);
-    const selectedVideos = shuffled.slice(0, 2);
-    selectedVideos.forEach((v) => {
-        let url = v.link || v;
-        let videoId = null;
-
-        const match1 = url.match(/v=([^&]+)/);
-        if (match1) videoId = match1[1];
-
-        const match2 = url.match(/youtu\.be\/([^?&]+)/);
-        if (match2) videoId = match2[1];
-
-        if (videoId) {
-            url = `https://www.youtube-nocookie.com/embed/${videoId}`;
-            const iframe = document.createElement("iframe");
-            iframe.width = "45%"; // overridden by CSS on small screens
-            iframe.height = "350px"; // overridden by CSS on small screens
-            iframe.src = url;
-            iframe.frameBorder = "0";
-            iframe.allowFullscreen = true;
-            randomVideos.appendChild(iframe);
-        }
-    });
 }
-

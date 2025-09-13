@@ -23,5 +23,11 @@
     "description": "The `canvas.name` object outputs the symbolic name of the current Pure Data patch or its parent patches. It can be configured with a float to specify the depth level (e.g., 1 for parent, 2 for grandparent) or with the symbol `-env` to retrieve the name of the main patch window's environment. This object is particularly useful for dynamic patching, allowing other objects to receive messages based on the patch's name.",
     "categories": [
         "Patching"
+    ],
+    "similar": [
+        "canvas.active",
+        "canvas.bounds",
+        "canvas.setname",
+        "properties"
     ]
 }

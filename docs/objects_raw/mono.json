@@ -24,5 +24,11 @@
     "categories": [
         "MIDI",
         "Control IO"
+    ],
+    "similar": [
+        "mono~",
+        "suspedal",
+        "note.in",
+        "mpe.in"
     ]
 }

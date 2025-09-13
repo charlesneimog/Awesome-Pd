@@ -23,5 +23,11 @@
     "description": "The `bin.shift~` object is designed for spectral processing, allowing users to shift frequency bins of an incoming signal. It takes a signal to be processed and a float to specify the number of bins to shift, with positive values shifting right and negative values shifting left. An optional \"wrap\" mode can be enabled to prevent samples outside the bounds from being zeroed.",
     "categories": [
         "Audio IO"
+    ],
+    "similar": [
+        "nyquist~",
+        "stretch.shift~",
+        "rm~",
+        "setdsp~"
     ]
 }

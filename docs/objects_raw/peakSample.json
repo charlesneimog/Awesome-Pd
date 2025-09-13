@@ -28,6 +28,6 @@
         "maxSample",
         "minSample",
         "harmonicRatio",
-        "autoCorrPitch"
+        "maxSampleDelta"
     ]
 }

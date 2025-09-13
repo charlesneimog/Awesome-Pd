@@ -34,9 +34,9 @@
         "Math"
     ],
     "similar": [
-        "tCylinder3D",
         "tCube3D",
+        "tCylinder3D",
         "pol2sph",
-        "bitand~"
+        "bitnot~"
     ]
 }

@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
-        "nop~",
-        "default",
-        "symbol2any",
-        "any2symbol"
+        "retrieve",
+        "reverse",
+        "rawprint",
+        "default"
     ]
 }

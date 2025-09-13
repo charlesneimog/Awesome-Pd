@@ -24,5 +24,11 @@
     "categories": [
         "File IO",
         "GUI"
+    ],
+    "similar": [
+        "openfile",
+        "button",
+        "messbox",
+        "click"
     ]
 }

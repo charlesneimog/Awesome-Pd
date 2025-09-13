@@ -25,5 +25,11 @@
         "Sequencers",
         "Procedural",
         "File IO"
+    ],
+    "similar": [
+        "score",
+        "pattern",
+        "sequencer",
+        "seq"
     ]
 }

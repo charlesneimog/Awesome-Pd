@@ -24,5 +24,11 @@
     "categories": [
         "GUI",
         "Text"
+    ],
+    "similar": [
+        "comment",
+        "display",
+        "knob",
+        "text3d"
     ]
 }

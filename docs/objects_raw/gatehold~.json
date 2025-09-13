@@ -24,5 +24,11 @@
     "categories": [
         "Multichannel",
         "Envelopes"
+    ],
+    "similar": [
+        "gatehold",
+        "adsr.m~",
+        "autofade.mc~",
+        "gaterelease~"
     ]
 }

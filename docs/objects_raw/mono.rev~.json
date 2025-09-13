@@ -23,5 +23,11 @@
     "description": "`mono.rev~` is a reverb abstraction that takes a mono audio input and produces a stereo output. It is based on a feedback delay network, similar to `rev3~`, but includes a unique \"room size\" parameter. This object allows control over decay time, high-frequency damping, room size, and wet/dry mix for sound spatialization.",
     "categories": [
         "Reverb"
+    ],
+    "similar": [
+        "plate.rev~",
+        "giga.rev~",
+        "free.rev~",
+        "stereo.rev~"
     ]
 }

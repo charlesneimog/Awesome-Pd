@@ -23,5 +23,11 @@
     "description": "The `gcd` object calculates the greatest common divisor (GCD) of two or more numbers. It accepts either two float inputs or a list of numbers, outputting the GCD as a float. The right inlet can be used to set a default value for the calculation.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "maximum",
+        "lcm",
+        "rdiv~",
+        "minimum"
     ]
 }

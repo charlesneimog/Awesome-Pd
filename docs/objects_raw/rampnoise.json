@@ -23,5 +23,11 @@
     "description": "`rampnoise` is a control-rate pseudo-random noise generator that produces a ramp-like waveform. Its output ranges from 0 to 127, making it suitable for control signals. Users can set a seed to synchronize multiple `rampnoise` objects or generate repeatable sequences.",
     "categories": [
         "Stochastic"
+    ],
+    "similar": [
+        "stepnoise",
+        "decide",
+        "brown~",
+        "rand.dist"
     ]
 }

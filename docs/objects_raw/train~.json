@@ -24,5 +24,11 @@
     "categories": [
         "LFOs",
         "Oscillators"
+    ],
+    "similar": [
+        "pulse",
+        "pulse~",
+        "randpulse",
+        "phasor"
     ]
 }

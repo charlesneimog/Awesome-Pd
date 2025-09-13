@@ -23,5 +23,11 @@
     "description": "The `tempo~` object functions as a signal-rate metronome, generating impulses at a specified tempo in BPM, milliseconds, or Hertz. It supports external synchronization via impulses and includes a \"swing\" parameter to introduce rhythmic deviation, which can be controlled with a seed for pseudo-randomness.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "tempo",
+        "pulsediv~",
+        "blocksize~",
+        "pipe2"
     ]
 }

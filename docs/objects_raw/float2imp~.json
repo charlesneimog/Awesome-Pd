@@ -21,5 +21,11 @@
     "ai": true,
     "title": "float2imp~",
     "description": "`float2imp~` converts a float value into a sample-accurate audio impulse, leveraging `vline~` for precise timing within an audio block. The impulse's value can be set via arguments or inlets, and it can be triggered by a bang or a float input.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "click~",
+        "dirac~",
+        "snapshot~",
+        "mstosamps~"
+    ]
 }

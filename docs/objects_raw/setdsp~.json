@@ -24,5 +24,11 @@
     "categories": [
         "GUI",
         "Audio IO"
+    ],
+    "similar": [
+        "out~",
+        "out.mc~",
+        "button",
+        "out8~"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "`delay.m~` is a simple audio delay module that wraps the `filterdelay~` object from the ELSE library. It functions like a basic delay pedal, currently lacking control voltage (CV) input for modulation.",
     "categories": [
         "Delay"
+    ],
+    "similar": [
+        "delay~",
+        "ping.pong~",
+        "revdelay~",
+        "z~"
     ]
 }

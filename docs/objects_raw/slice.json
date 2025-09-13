@@ -23,5 +23,11 @@
     "description": "The `slice` object splits an incoming list into two parts based on a specified split point `n`. If `n` is positive, it outputs the first `n` elements to the left outlet and the rest to the right; if `n` is negative, it outputs the last `n` elements to the right and the rest to the left. This allows for flexible manipulation and routing of list data.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "reverse",
+        "slice~",
+        "break",
+        "default"
     ]
 }

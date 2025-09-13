@@ -24,5 +24,11 @@
     "categories": [
         "Patching",
         "General Utilities"
+    ],
+    "similar": [
+        "bangdiv",
+        "presets.m",
+        "gemargs",
+        "loop"
     ]
 }

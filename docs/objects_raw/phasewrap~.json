@@ -23,5 +23,11 @@
     "description": "The `phasewrap~` object wraps an input signal's value between -π and π. It converts a continuously increasing or decreasing signal into a sawtooth-like waveform within this range. This is particularly useful for managing phase values in audio synthesis and modulation contexts.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "wrap2",
+        "framedelta~",
+        "cartopol",
+        "abs~"
     ]
 }

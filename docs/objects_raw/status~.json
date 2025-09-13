@@ -23,5 +23,11 @@
     "description": "The `status~` object detects transitions in an audio signal. It outputs an impulse when the input signal changes from zero to non-zero, or from non-zero to zero. This allows for event triggering based on signal activity.",
     "categories": [
         "Logic"
+    ],
+    "similar": [
+        "togedge",
+        "trig2bang",
+        "0x7c0x7c0x7e",
+        "edge~"
     ]
 }

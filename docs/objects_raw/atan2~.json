@@ -23,5 +23,11 @@
     "description": "The `atan2~` object calculates the arc-tangent of two signal-rate input values, 'a' and 'b', as `atan(a/b)`. It correctly determines the quadrant of the resulting angle by considering the signs of both inputs, making it useful for converting Cartesian coordinates to polar coordinates (e.g., finding the phase). The output is in radians.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "cart2pol",
+        "sph2pol",
+        "pol2cart",
+        "atan~"
     ]
 }

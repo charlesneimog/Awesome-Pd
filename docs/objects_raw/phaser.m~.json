@@ -23,5 +23,11 @@
     "description": "The `phaser.m~` object is a wrapper around the `phaser~` object from the ELSE library. It functions as a simple phaser module, akin to a stompbox pedal, designed to apply phase modulation effects to audio signals.",
     "categories": [
         "Chorus/Flanger/Phaser"
+    ],
+    "similar": [
+        "phaser~",
+        "chorus.m~",
+        "chorus~",
+        "tremolo~"
     ]
 }

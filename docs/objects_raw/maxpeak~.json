@@ -23,5 +23,11 @@
     "description": "The `maxpeak~` object continuously monitors an audio signal and outputs its maximum peak amplitude observed so far, either in decibels or linear scale. A bang to its right inlet resets this tracked maximum, while a bang from its right outlet indicates when the input signal has clipped.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "range~",
+        "peakamp~",
+        "range",
+        "vu~"
     ]
 }

@@ -24,5 +24,11 @@
     "categories": [
         "Sequencers",
         "Data Structures"
+    ],
+    "similar": [
+        "impseq~",
+        "sequencer~",
+        "remove",
+        "l2i"
     ]
 }

@@ -25,5 +25,11 @@
         "Oscillators",
         "Data Structures",
         "Multichannel"
+    ],
+    "similar": [
+        "tabreader~",
+        "wave~",
+        "wavetable~",
+        "wt2d~"
     ]
 }

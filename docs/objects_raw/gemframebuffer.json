@@ -28,6 +28,6 @@
         "gemcubeframebuffer",
         "pix_coordinate",
         "pix_multitexture",
-        "separator"
+        "pix_texture"
     ]
 }

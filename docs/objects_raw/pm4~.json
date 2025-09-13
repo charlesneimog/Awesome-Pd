@@ -25,5 +25,11 @@
         "Oscillators",
         "Multichannel",
         "Audio IO"
+    ],
+    "similar": [
+        "pm6~",
+        "pm2~",
+        "fbsine~",
+        "fm~"
     ]
 }

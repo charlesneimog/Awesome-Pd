@@ -23,5 +23,11 @@
     "description": "The `smooth~` object in Pure Data smooths control signal transitions over a specified time in milliseconds, using linear interpolation by default. It can also apply exponential curves, similar to the curve parameter in envelope generators like `asr~` and `adsr~`. This object is useful for creating glides or portamento effects on control signals.",
     "categories": [
         "Envelopes"
+    ],
+    "similar": [
+        "smooth2",
+        "glide2",
+        "asr~",
+        "line~"
     ]
 }

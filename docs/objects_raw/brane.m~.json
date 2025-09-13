@@ -25,5 +25,11 @@
         "Granular",
         "Samplers",
         "File IO"
+    ],
+    "similar": [
+        "gran.player~",
+        "player~",
+        "sfont~",
+        "play.file~"
     ]
 }

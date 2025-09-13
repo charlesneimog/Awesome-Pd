@@ -23,5 +23,11 @@
     "description": "The `sysrt.out` object formats and sends raw MIDI system and real-time messages. It can output various MIDI messages such as clock, tick, start, continue, stop, and active sensing. This object is useful for precise control over MIDI system-level events.",
     "categories": [
         "MIDI"
+    ],
+    "similar": [
+        "sysrt.in",
+        "pgm.out",
+        "midi.clock",
+        "ctl.out"
     ]
 }

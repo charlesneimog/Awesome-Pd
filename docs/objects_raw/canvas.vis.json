@@ -23,5 +23,11 @@
     "description": "The `canvas.vis` object reports the visibility status of a Pure Data canvas window. It outputs a float (1 for visible, 0 for invisible) and can query the current window or parent canvases using a depth argument. This is useful for controlling patch behavior based on window visibility.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "active",
+        "fontsize",
+        "blocksize~",
+        "retrieve"
     ]
 }

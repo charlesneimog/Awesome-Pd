@@ -24,5 +24,11 @@
     "categories": [
         "Multichannel",
         "Routing"
+    ],
+    "similar": [
+        "xfade~",
+        "xselect.mc~",
+        "xgate~",
+        "pan2~"
     ]
 }

@@ -27,7 +27,7 @@
     "similar": [
         "shearXY",
         "shearZX",
-        "shearYZ",
-        "shearZY"
+        "shearZY",
+        "shearYZ"
     ]
 }

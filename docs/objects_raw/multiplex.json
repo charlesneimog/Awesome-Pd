@@ -25,9 +25,9 @@
         "Routing"
     ],
     "similar": [
-        "gate~",
         "multiplex~",
-        "xselect~",
-        "selector~"
+        "gate",
+        "gate~",
+        "selector"
     ]
 }

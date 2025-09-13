@@ -23,5 +23,11 @@
     "description": "`level.m~` is a simple multi-channel gain module designed to adjust the audio level in decibels. It is particularly useful for controlling the amplitude of multi-channel audio signals.",
     "categories": [
         "Multichannel"
+    ],
+    "similar": [
+        "nchs~",
+        "slew~",
+        "sigs~",
+        "smooth~"
     ]
 }

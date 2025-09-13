@@ -33,9 +33,9 @@
         "Dynamics"
     ],
     "similar": [
+        "compress~",
         "expand~",
         "noisegate~",
-        "norm~",
-        "duck~"
+        "norm~"
     ]
 }

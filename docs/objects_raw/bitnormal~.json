@@ -24,5 +24,11 @@
     "categories": [
         "Multichannel",
         "General Utilities"
+    ],
+    "similar": [
+        "bitsafe~",
+        "sig2float~",
+        "float2sig~",
+        "lace~"
     ]
 }

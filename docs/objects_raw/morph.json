@@ -21,5 +21,11 @@
     "ai": true,
     "title": "morph",
     "description": "The `morph` object interpolates a list of numbers from its current values to a target list over a specified duration, similar to `line` but for multiple parameters. It allows for smooth transitions between different sets of values, with an optional exponential curve.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "interpolate",
+        "linedrive",
+        "line~",
+        "smooth~"
+    ]
 }

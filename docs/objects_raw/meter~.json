@@ -23,5 +23,11 @@
     "description": "The `meter~` object functions as a convenient mono VU-meter, analyzing an incoming audio signal. It outputs a list containing RMS and peak amplitude values in dBFS, which are useful for monitoring audio levels or driving visual indicators. The object also passes the input signal through, allowing it to be seamlessly integrated into an audio processing chain.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "vu~",
+        "peakamp~",
+        "meter4~",
+        "meter8~"
     ]
 }

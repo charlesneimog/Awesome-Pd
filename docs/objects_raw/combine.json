@@ -23,5 +23,11 @@
     "description": "The `combine` object collects incoming messages into a single list if they arrive within a specified time interval. It appends each new message to previously stored items, forming a consolidated list. A negative time value prevents any combination, while a zero time allows immediate sequential messages to be grouped.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "thresh",
+        "stream",
+        "l",
+        "a.rotate"
     ]
 }

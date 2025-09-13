@@ -23,5 +23,11 @@
     "description": "The `mtx~` object functions as an audio signal matrix mixer, routing signals from multiple inlets to multiple outlets. It allows for dynamic control over connections and gain between any inlet-outlet pair, summing signals when multiple inlets route to the same outlet. This object is useful for creating flexible audio routing and mixing configurations with controllable ramp times.",
     "categories": [
         "Routing"
+    ],
+    "similar": [
+        "mux~",
+        "demultiplex~",
+        "gate~",
+        "demux"
     ]
 }

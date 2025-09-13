@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
-        "any2symbol",
+        "merge",
         "reverse",
-        "iter",
-        "bitsafe~"
+        "break",
+        "slice"
     ]
 }

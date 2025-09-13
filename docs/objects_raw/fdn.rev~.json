@@ -24,5 +24,11 @@
     "categories": [
         "Reverb",
         "Delay"
+    ],
+    "similar": [
+        "fbdelay~",
+        "allpass.rev~",
+        "echo.rev~",
+        "giga.rev~"
     ]
 }

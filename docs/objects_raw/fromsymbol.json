@@ -23,5 +23,11 @@
     "description": "The `fromsymbol` object converts a Pure Data symbol message into other message types, such as bangs, floats, or lists. It removes the \"symbol\" selector and interprets the symbol's content based on its format. Users can define a `separator` character to split complex symbols into multiple elements for conversion.",
     "categories": [
         "Text"
+    ],
+    "similar": [
+        "makesymbol",
+        "tosymbol",
+        "separate",
+        "symbol2any"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "`impulse2~` is a two-sided impulse oscillator, a variant of `else/impulse~`, capable of accepting negative frequencies. It features inlets for pulse width, phase synchronization, and phase modulation, and also supports multichannel audio operation. This object is particularly useful for generating impulse signals and can be synced for applications like LFOs or hard sync techniques.",
     "categories": [
         "Oscillators"
+    ],
+    "similar": [
+        "saw~",
+        "gaussian~",
+        "randpulse",
+        "pulse"
     ]
 }

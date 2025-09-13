@@ -50,8 +50,8 @@
     ],
     "similar": [
         "multimodel",
-        "cyclone",
         "model",
-        "resonator2~"
+        "trunc~",
+        "pmpd3d"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `scale2cents` object converts a musical scale defined by steps in semitones into corresponding cent values. It is useful for precise microtonal adjustments or when working with non-standard tunings.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "lin2db",
+        "cents2ratio",
+        "atodb",
+        "scale2freq"
     ]
 }

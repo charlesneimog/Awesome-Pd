@@ -24,5 +24,11 @@
     "categories": [
         "MIDI",
         "Multichannel"
+    ],
+    "similar": [
+        "gain~",
+        "out~",
+        "mix2~",
+        "voices~"
     ]
 }

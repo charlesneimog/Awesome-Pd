@@ -23,5 +23,11 @@
     "description": "The `eq~` object is a 2nd order parametric equalizer filter, capable of functioning as both a peak and a notch filter. It processes an input signal, allowing precise control over its frequency content through adjustable central frequency, resonance (Q or bandwidth), and gain in decibels. It also provides `clear` and `bypass` messages for control.",
     "categories": [
         "Filters"
+    ],
+    "similar": [
+        "bandpass~",
+        "highshelf~",
+        "bandstop~",
+        "lowshelf~"
     ]
 }

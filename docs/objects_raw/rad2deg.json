@@ -23,5 +23,11 @@
     "description": "The `rad2deg` object converts an input value from radians to degrees. It takes a float representing radians and outputs the corresponding float in degrees. An optional argument allows wrapping the output to positive values.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "car2pol",
+        "cart2pol",
+        "sph2cart",
+        "pol2cart"
     ]
 }

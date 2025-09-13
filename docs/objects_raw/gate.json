@@ -23,5 +23,11 @@
     "description": "The `gate` object routes messages from its second inlet to one of its 'n' specified outlets, or to no outlet if set to 0. The first inlet determines which outlet is open, allowing for dynamic control over message flow. It supports 1 to 100 outlets, with 1 being the default.",
     "categories": [
         "Routing"
+    ],
+    "similar": [
+        "gate~",
+        "demultiplex",
+        "router",
+        "demux"
     ]
 }

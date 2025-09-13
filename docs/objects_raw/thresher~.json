@@ -31,9 +31,9 @@
     "description": "The `thresher~` object sustains the amplitude and frequency of audio signals, particularly in lower-energy parts, by applying damped bin-level feedback. It uses a `threshold` and `damping factor` to control the sustain behavior, where a higher factor increases sustain. It also features an `oscbank` toggle, which can significantly raise the output volume.",
     "categories": [],
     "similar": [
+        "sustain",
         "drown~",
-        "adsr~",
-        "suspedal",
-        "barkSpecSkewness~"
+        "barkSpecSkewness~",
+        "resonant~"
     ]
 }

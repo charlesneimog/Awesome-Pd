@@ -23,5 +23,11 @@
     "description": "The `buffer` object in Pure Data functions similarly to the `array` object, primarily for storing and manipulating numerical data. It allows users to resize and set array values using lists, and can output the array's contents when triggered by a `bang`. Its main purpose is to manage data arrays within a patch.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "a.rotate",
+        "args",
+        "glue",
+        "index~"
     ]
 }

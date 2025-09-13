@@ -23,5 +23,11 @@
     "description": "`hip.bw~` is a highpass Butterworth filter abstraction for Pure Data. It processes an incoming audio signal, allowing frequencies above a specified cutoff to pass through, while attenuating lower frequencies. The filter's characteristics can be adjusted by setting its cutoff frequency and order (from 2 to 100).",
     "categories": [
         "Filters"
+    ],
+    "similar": [
+        "lop.bw~",
+        "lores~",
+        "crossover~",
+        "cross~"
     ]
 }

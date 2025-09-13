@@ -23,5 +23,11 @@
     "description": "The `rampsmooth~` object linearly smooths an incoming audio signal over a specified number of samples. When the input value changes, it creates a linear ramp to the new value, making it useful for envelope following or as a lowpass filter.",
     "categories": [
         "Filters"
+    ],
+    "similar": [
+        "slide~",
+        "svfilter~",
+        "lowpass~",
+        "lop.bw~"
     ]
 }

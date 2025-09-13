@@ -23,5 +23,11 @@
     "description": "The `function~` object generates custom waveforms or functions from a list of points and periods, which are then read by a phase input (0-1). It supports various curve types for its segments, including linear, exponential, power, sine, and Hann, making it versatile for creating complex signal shapes or custom oscillators. It also supports multichannel operation.",
     "categories": [
         "Oscillators"
+    ],
+    "similar": [
+        "xmod~",
+        "cycle~",
+        "damp.osc~",
+        "saw~"
     ]
 }

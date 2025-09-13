@@ -23,5 +23,11 @@
     "description": "The `spread.mc~` object distributes multiple input audio channels across multiple output channels using equal power panning. It allows control over the number of output channels and a \"spread\" parameter, which determines how widely each input signal is panned across the available outputs. This object is designed for spatializing multichannel audio signals.",
     "categories": [
         "Multichannel"
+    ],
+    "similar": [
+        "spread~",
+        "pan.mc~",
+        "pan4~",
+        "xgate2~"
     ]
 }

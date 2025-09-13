@@ -24,5 +24,11 @@
     "categories": [
         "Sequencers",
         "Procedural"
+    ],
+    "similar": [
+        "sequencer~",
+        "impseq~",
+        "pattern",
+        "score2"
     ]
 }

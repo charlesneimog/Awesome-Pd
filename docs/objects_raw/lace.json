@@ -23,5 +23,11 @@
     "description": "The `lace` object interleaves two or more incoming lists into a single output list. It can take an optional `-z` flag to pad shorter lists with zeros, ensuring all output lists match the length of the longest input list. A `bang` input is treated as an empty list.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "l",
+        "l2i",
+        "pak",
+        "lister"
     ]
 }

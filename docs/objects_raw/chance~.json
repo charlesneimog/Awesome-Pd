@@ -24,5 +24,11 @@
     "categories": [
         "Routing",
         "Stochastic"
+    ],
+    "similar": [
+        "chance",
+        "decide",
+        "dust~",
+        "rand.dist"
     ]
 }

@@ -25,5 +25,11 @@
         "Oscillators",
         "MIDI",
         "Multichannel"
+    ],
+    "similar": [
+        "pimp~",
+        "pulse~",
+        "saw2~",
+        "square~"
     ]
 }

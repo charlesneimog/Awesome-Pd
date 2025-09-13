@@ -24,5 +24,11 @@
     "categories": [
         "Math",
         "Multichannel"
+    ],
+    "similar": [
+        "wrap2",
+        "trunc~",
+        "cents2ratio~",
+        "sum~"
     ]
 }

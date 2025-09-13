@@ -23,5 +23,11 @@
     "description": "The `vocoder~` object is a classic cross-synthesis channel vocoder. It processes a \"synth source\" signal by applying the spectral characteristics of a \"control source\" signal, producing a vocoded output. Users can define the number of channels, filter Q, and specific frequencies for each channel using MIDI values.",
     "categories": [
         "Filters"
+    ],
+    "similar": [
+        "mindwarp~",
+        "xsyn~",
+        "hip.bw~",
+        "lop.bw~"
     ]
 }

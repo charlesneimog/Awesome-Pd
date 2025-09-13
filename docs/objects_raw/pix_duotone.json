@@ -28,6 +28,6 @@
         "pix_mean_color",
         "pix_color",
         "pix_convert",
-        "pix_grey"
+        "pix_takealpha"
     ]
 }

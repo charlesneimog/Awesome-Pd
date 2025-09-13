@@ -25,5 +25,11 @@
         "MIDI",
         "Data Structures",
         "General Utilities"
+    ],
+    "similar": [
+        "tabset",
+        "tabdump",
+        "l2s",
+        "sort"
     ]
 }

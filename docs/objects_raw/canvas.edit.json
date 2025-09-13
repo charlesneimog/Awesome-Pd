@@ -23,5 +23,11 @@
     "description": "The `canvas.edit` object reports the edit status of a Pure Data canvas. It outputs a float indicating whether the canvas is currently in edit mode. Users can query the status of the current canvas or a parent canvas by providing a `depth` argument.",
     "categories": [
         "Patching"
+    ],
+    "similar": [
+        "canvas.bounds",
+        "canvas.zoom",
+        "canvas.setname",
+        "canvas.active"
     ]
 }

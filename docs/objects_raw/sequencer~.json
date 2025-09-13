@@ -23,5 +23,11 @@
     "description": "`sequencer~` outputs values from a predefined sequence of floats, triggered by a signal or a bang. It allows setting a new sequence dynamically and jumping to specific positions within the sequence. This object is useful for generating rhythmic or melodic patterns as audio signals.",
     "categories": [
         "Sequencers"
+    ],
+    "similar": [
+        "impseq~",
+        "sequencer",
+        "phaseseq~",
+        "list.seq"
     ]
 }

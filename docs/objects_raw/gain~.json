@@ -24,5 +24,11 @@
     "categories": [
         "Multichannel",
         "GUI"
+    ],
+    "similar": [
+        "out~",
+        "gain2~",
+        "mix2~",
+        "mix4~"
     ]
 }

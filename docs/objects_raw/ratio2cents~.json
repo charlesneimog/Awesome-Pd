@@ -24,5 +24,11 @@
     "categories": [
         "Math",
         "Multichannel"
+    ],
+    "similar": [
+        "cents2ratio~",
+        "ratio2cents",
+        "cents2ratio",
+        "cents2frac"
     ]
 }

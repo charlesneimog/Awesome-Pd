@@ -25,5 +25,11 @@
         "Data Structures",
         "General Utilities",
         "Math"
+    ],
+    "similar": [
+        "sum",
+        "sort",
+        "median",
+        "length"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `xbendout2` object formats and sends 14-bit pitch bend messages as two 7-bit values: a Most Significant Byte (MSB) and a Least Significant Byte (LSB). It takes float values for MSB and LSB (0-127) and can also set the MIDI channel.",
     "categories": [
         "MIDI"
+    ],
+    "similar": [
+        "xbendin2",
+        "xbendout",
+        "midiparse",
+        "bend.out"
     ]
 }

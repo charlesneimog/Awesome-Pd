@@ -27,8 +27,8 @@
     ],
     "similar": [
         "regex",
-        "routeall",
-        "match",
-        "l2i"
+        "equal",
+        "l2i",
+        "rotate"
     ]
 }

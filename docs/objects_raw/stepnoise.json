@@ -23,5 +23,11 @@
     "description": "The `stepnoise` object generates pseudo-random step noise at a control rate, outputting values between 0 and 127. Its frequency can be controlled, and it supports seeding for reproducible sequences.",
     "categories": [
         "Stochastic"
+    ],
+    "similar": [
+        "rand.f~",
+        "brown~",
+        "drunkard~",
+        "rampnoise"
     ]
 }

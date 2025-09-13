@@ -24,5 +24,11 @@
     "categories": [
         "General Utilities",
         "Extensions"
+    ],
+    "similar": [
+        "lua",
+        "hello",
+        "any2symbol",
+        "cyclone"
     ]
 }

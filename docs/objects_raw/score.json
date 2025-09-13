@@ -25,5 +25,11 @@
         "Sequencers",
         "File IO",
         "Text"
+    ],
+    "similar": [
+        "score2",
+        "midi",
+        "seq",
+        "mtr"
     ]
 }

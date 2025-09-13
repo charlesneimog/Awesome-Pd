@@ -28,6 +28,6 @@
         "specHarmonicity~",
         "specBrightness",
         "harmonicRatio",
-        "barkSpecSkewness"
+        "specBrightness~"
     ]
 }

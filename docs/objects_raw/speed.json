@@ -24,5 +24,11 @@
     "categories": [
         "Algorithmic Composition",
         "Math"
+    ],
+    "similar": [
+        "bpm",
+        "interpolate",
+        "tempo",
+        "phasewrap~"
     ]
 }

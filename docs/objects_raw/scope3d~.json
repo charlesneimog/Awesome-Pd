@@ -25,5 +25,11 @@
         "Graphics",
         "Extensions",
         "Multichannel"
+    ],
+    "similar": [
+        "lua",
+        "scope~",
+        "scopeXYZ~",
+        "accumrotate"
     ]
 }

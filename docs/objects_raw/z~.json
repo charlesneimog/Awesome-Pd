@@ -25,9 +25,9 @@
         "Delay"
     ],
     "similar": [
-        "ffdelay~",
-        "pipe2",
-        "trig.delay2~",
+        "delay~",
+        "delay.m~",
+        "ping.pong~",
         "revdelay~"
     ]
 }

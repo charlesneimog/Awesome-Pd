@@ -24,5 +24,11 @@
     "categories": [
         "Multichannel",
         "Stochastic"
+    ],
+    "similar": [
+        "dust~",
+        "rampnoise~",
+        "lfnoise~",
+        "stepnoise"
     ]
 }

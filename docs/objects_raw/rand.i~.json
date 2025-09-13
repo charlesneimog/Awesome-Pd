@@ -25,5 +25,11 @@
         "Math",
         "Multichannel",
         "General Utilities"
+    ],
+    "similar": [
+        "rand.f",
+        "rand.i",
+        "rescale~",
+        "wrap2~"
     ]
 }

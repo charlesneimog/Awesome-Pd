@@ -24,5 +24,11 @@
     "categories": [
         "Oscillators",
         "Multichannel"
+    ],
+    "similar": [
+        "gray~",
+        "dust2~",
+        "stepnoise~",
+        "lfnoise~"
     ]
 }

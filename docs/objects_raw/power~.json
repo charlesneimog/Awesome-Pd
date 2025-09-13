@@ -23,5 +23,11 @@
     "description": "The `power~` object is a signal waveshaper that raises an input signal to a specified exponential factor. It extends standard exponentiation to correctly handle negative signal inputs, allowing for negative outputs and non-integer exponents on negative values. This enables flexible signal manipulation, often used for non-linear processing or distortion.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "abs~",
+        "rint~",
+        "interpolate",
+        "sgn~"
     ]
 }

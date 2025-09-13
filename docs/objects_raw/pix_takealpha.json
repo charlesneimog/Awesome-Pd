@@ -26,8 +26,8 @@
     ],
     "similar": [
         "pix_mask",
-        "pix_composite",
         "pix_alpha",
+        "pix_composite",
         "pix_coloralpha"
     ]
 }

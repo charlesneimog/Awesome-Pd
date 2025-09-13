@@ -23,5 +23,11 @@
     "description": "`chorus.m~` is a wrapper object for the `chorus~` audio effect from the ELSE library. It provides a simple chorus effect for audio signals, functioning similarly to a stompbox pedal. This object is designed for direct audio processing and currently does not support control voltage (CV) input.",
     "categories": [
         "Chorus/Flanger/Phaser"
+    ],
+    "similar": [
+        "chorus~",
+        "phaser.m~",
+        "flanger.m~",
+        "phaser~"
     ]
 }

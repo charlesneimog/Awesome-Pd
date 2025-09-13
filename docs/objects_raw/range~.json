@@ -23,5 +23,11 @@
     "description": "The `range~` object analyzes an incoming audio signal and continuously outputs its minimum and maximum amplitude values. It can be reset by an impulse or a bang message, allowing for analysis over specific time windows.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "range",
+        "maxpeak~",
+        "vu~",
+        "featureNorm"
     ]
 }

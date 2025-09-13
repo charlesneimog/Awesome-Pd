@@ -24,5 +24,11 @@
     "categories": [
         "Data Structures",
         "GUI"
+    ],
+    "similar": [
+        "colors",
+        "multi.vsl",
+        "l",
+        "stack"
     ]
 }

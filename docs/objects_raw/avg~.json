@@ -23,5 +23,11 @@
     "description": "The `avg~` object calculates the absolute average of an input signal. It accumulates the sum of absolute signal values and the count of elapsed samples, outputting the average as a float when it receives a `bang`. This allows for dynamic measurement of signal intensity over user-defined intervals.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "average~",
+        "add~",
+        "tavg~",
+        "abs~"
     ]
 }

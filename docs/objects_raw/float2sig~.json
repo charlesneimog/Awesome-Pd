@@ -24,5 +24,11 @@
     "categories": [
         "Multichannel",
         "General Utilities"
+    ],
+    "similar": [
+        "f2s~",
+        "slew2~",
+        "sig2float~",
+        "lace~"
     ]
 }

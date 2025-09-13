@@ -25,5 +25,11 @@
         "Stochastic",
         "Statistical Models",
         "Procedural"
+    ],
+    "similar": [
+        "rand.f",
+        "brown~",
+        "rand.i",
+        "stepnoise"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `add` object accumulates incoming float values, outputting the current sum. Its internal sum can be reset to its initial state via a `bang` message or explicitly set to a specific float value using the `set` message. This object is fundamental for maintaining a running total of numerical inputs in a patch.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "add~",
+        "plusequals~",
+        "frac.add",
+        "avg~"
     ]
 }

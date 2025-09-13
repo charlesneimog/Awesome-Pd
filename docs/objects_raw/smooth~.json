@@ -23,5 +23,11 @@
     "description": "The `smooth~` object interpolates signal transitions over a specified time in milliseconds, effectively creating a portamento or glide effect. It supports linear or exponential curves and can process multichannel audio signals, applying individual glide times per channel when provided.",
     "categories": [
         "Multichannel"
+    ],
+    "similar": [
+        "glide~",
+        "glide2~",
+        "lag2~",
+        "smooth2~"
     ]
 }

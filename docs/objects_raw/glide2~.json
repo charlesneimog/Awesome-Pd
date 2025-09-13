@@ -25,5 +25,11 @@
         "Filters",
         "Multichannel",
         "Audio IO"
+    ],
+    "similar": [
+        "smooth~",
+        "smooth2~",
+        "lag2~",
+        "glide~"
     ]
 }

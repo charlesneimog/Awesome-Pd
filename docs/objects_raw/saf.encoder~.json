@@ -29,7 +29,7 @@
     "similar": [
         "saf.decoder~",
         "gemcubeframebuffer",
-        "cart2sph",
-        "pan~"
+        "spread~",
+        "cart2sph"
     ]
 }

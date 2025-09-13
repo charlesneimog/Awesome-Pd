@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
+        "power~",
         "sgn~",
         "tavg~",
-        "power~",
-        "absgn~"
+        "rint~"
     ]
 }

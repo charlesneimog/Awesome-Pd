@@ -23,5 +23,11 @@
     "description": "The `bitor~` object performs a bitwise OR operation on two 32-bit values, either two audio signals or an audio signal and a bitmask. It compares corresponding bits, setting the output bit to 1 if either input bit is 1. The object offers various modes to control how floating-point signals are converted to integers before the bitwise operation.",
     "categories": [
         "Logic"
+    ],
+    "similar": [
+        "bitxor~",
+        "bitand~",
+        "bitnot~",
+        "0x7c0x7c0x7e"
     ]
 }

@@ -24,5 +24,11 @@
     "categories": [
         "GUI",
         "Data Structures"
+    ],
+    "similar": [
+        "multi.vsl",
+        "store",
+        "function",
+        "range.hsl"
     ]
 }

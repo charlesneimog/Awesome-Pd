@@ -24,5 +24,11 @@
     "categories": [
         "Filters",
         "Subtractive"
+    ],
+    "similar": [
+        "cross~",
+        "lowpass~",
+        "svf~",
+        "lop.bw~"
     ]
 }

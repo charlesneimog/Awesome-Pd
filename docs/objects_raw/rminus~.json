@@ -23,5 +23,11 @@
     "description": "The `rminus~` (or `!-~`) object performs signal subtraction, similar to `~`, but with its inlets reversed. It subtracts the value received in its left (hot) inlet from the value received in its right (cold) inlet. This allows for flexible signal manipulation where the order of subtraction is inverted compared to the standard `~` object.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "rminus",
+        "rdiv",
+        "rdiv~",
+        "minimum"
     ]
 }

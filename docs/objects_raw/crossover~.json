@@ -23,5 +23,11 @@
     "description": "The `crossover~` object functions as a 3rd order Butterworth crossover filter, designed to split an incoming audio signal into distinct low-pass and high-pass components. It provides two outlets for these filtered signals and allows for dynamic control of the cutoff frequency via a float or signal input. The filter's internal memory can be reset using a 'clear' message.",
     "categories": [
         "Filters"
+    ],
+    "similar": [
+        "cross~",
+        "lop.bw~",
+        "hip.bw~",
+        "lores~"
     ]
 }

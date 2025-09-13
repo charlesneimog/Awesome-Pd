@@ -24,5 +24,11 @@
     "categories": [
         "Reverb",
         "Multichannel"
+    ],
+    "similar": [
+        "plate.rev~",
+        "flanger.m~",
+        "free.rev~",
+        "mono.rev~"
     ]
 }

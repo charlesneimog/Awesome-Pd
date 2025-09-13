@@ -23,5 +23,11 @@
     "description": "The `sinx~` object calculates the sine of an incoming signal. Designed for mathematical operations, it expects its input to be in radians to compute the sine of each sample. This signal-rate object outputs the resulting sine value.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "asinh~",
+        "asin",
+        "sinh~",
+        "sinh"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `pan.mc~` object pans an input signal across a specified number of output channels, simulating a circular speaker arrangement. It uses equal power crossfading, controlled by an azimuth input and a spread parameter, to distribute the signal among adjacent channels.",
     "categories": [
         "Multichannel"
+    ],
+    "similar": [
+        "pan~",
+        "spread.mc~",
+        "pan4~",
+        "xgate2~"
     ]
 }

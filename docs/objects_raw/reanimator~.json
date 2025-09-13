@@ -35,7 +35,7 @@
     "similar": [
         "residency~",
         "resent~",
-        "pvoc.freeze~",
-        "freeze~"
+        "morph~",
+        "pvwarpb~"
     ]
 }

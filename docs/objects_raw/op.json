@@ -24,5 +24,11 @@
     "categories": [
         "Logic",
         "Math"
+    ],
+    "similar": [
+        "op~",
+        "zigbinops",
+        "bitnot~",
+        "greaterthan~"
     ]
 }

@@ -24,5 +24,11 @@
     "categories": [
         "Sequencers",
         "File IO"
+    ],
+    "similar": [
+        "seq",
+        "rec",
+        "score",
+        "gran.player~"
     ]
 }

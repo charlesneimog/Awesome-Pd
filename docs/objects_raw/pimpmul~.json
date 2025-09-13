@@ -21,5 +21,11 @@
     "ai": true,
     "title": "pimpmul~",
     "description": "`pimpmul~` is a multiplier designed to synchronize `phasor~` or `pimp~` objects. It allows users to maintain phase coherence and apply different frequency ratios to these oscillators, ensuring they stay in sync even when frequencies change. It outputs a multiplied phase signal and an impulse at period transitions.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "pimp~",
+        "phasor",
+        "pimp",
+        "impulse~"
+    ]
 }

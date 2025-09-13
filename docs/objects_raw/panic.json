@@ -23,5 +23,11 @@
     "description": "The `panic` object functions as a \"panic button\" for MIDI notes. It tracks raw MIDI Note-on messages and, upon receiving a `bang`, sends corresponding Note-off messages for any notes that were not switched off, effectively flushing \"hanging\" notes. It also allows clearing its internal list of tracked notes with a `clear` message.",
     "categories": [
         "MIDI"
+    ],
+    "similar": [
+        "flush",
+        "midiflush",
+        "xnoteout",
+        "note.out"
     ]
 }

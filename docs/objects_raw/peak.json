@@ -23,5 +23,11 @@
     "description": "The `peak` object tracks and outputs the highest float value it has received. When a new input exceeds the current peak, it becomes the new peak and is output, while the middle outlet sends `1` to indicate a new peak. The right outlet sends `1` when an input does not set a new peak.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "minimum",
+        "cosh",
+        "frac.add",
+        "dbtoa"
     ]
 }

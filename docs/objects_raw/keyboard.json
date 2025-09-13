@@ -25,5 +25,11 @@
         "MIDI",
         "GUI",
         "Control IO"
+    ],
+    "similar": [
+        "note.in",
+        "xnotein",
+        "keymap",
+        "midi.in"
     ]
 }

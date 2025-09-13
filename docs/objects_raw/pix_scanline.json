@@ -28,6 +28,6 @@
         "pix_mask",
         "pix_takealpha",
         "pix_convert",
-        "pix_deinterlace"
+        "pix_normalize"
     ]
 }

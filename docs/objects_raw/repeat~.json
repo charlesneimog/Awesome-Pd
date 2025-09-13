@@ -23,5 +23,11 @@
     "description": "`repeat~` is a Pure Data object that takes an input audio signal and repeats it a specified number of times, determined by a float input. This object is useful for duplicating a signal, such as an impulse, to trigger events across multiple channels or to create a series of repeated occurrences from a single source.",
     "categories": [
         "Multichannel"
+    ],
+    "similar": [
+        "spread.mc~",
+        "sigs~",
+        "pan.mc~",
+        "rotate~"
     ]
 }

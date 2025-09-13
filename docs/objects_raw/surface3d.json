@@ -28,6 +28,6 @@
         "curve3d",
         "curve",
         "sphere3d",
-        "sphere"
+        "polygon"
     ]
 }

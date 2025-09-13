@@ -23,5 +23,11 @@
     "description": "The `atanh` object calculates the hyperbolic arc-tangent of a given float input. It stores the input value, and a bang message triggers the calculation to output the result. This object is primarily used for mathematical operations on control data.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "acosh",
+        "asinh",
+        "tanh",
+        "sinh"
     ]
 }

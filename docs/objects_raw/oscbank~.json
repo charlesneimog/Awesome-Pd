@@ -25,5 +25,11 @@
         "Additive",
         "Oscillators",
         "Multichannel"
+    ],
+    "similar": [
+        "resonbank2~",
+        "blip~",
+        "bl.imp~",
+        "saw2~"
     ]
 }

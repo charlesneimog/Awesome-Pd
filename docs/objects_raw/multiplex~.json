@@ -26,7 +26,7 @@
     ],
     "similar": [
         "mux~",
-        "selector~",
+        "selector",
         "multiplex",
         "demultiplex~"
     ]

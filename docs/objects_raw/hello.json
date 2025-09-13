@@ -23,5 +23,11 @@
     "description": "The `hello` object is an example Pure Data external written in Lua, loaded through the ELSE library. Its primary purpose is to demonstrate how developers can create and integrate help files for their custom externals. This object serves as a template for understanding the documentation process for Lua-based extensions.",
     "categories": [
         "Extensions"
+    ],
+    "similar": [
+        "lua",
+        "else",
+        "cyclone",
+        "scope3d~"
     ]
 }

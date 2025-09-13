@@ -24,5 +24,11 @@
     "categories": [
         "Distortion",
         "Data Structures"
+    ],
+    "similar": [
+        "shaper~",
+        "buffer",
+        "a.rotate",
+        "index~"
     ]
 }

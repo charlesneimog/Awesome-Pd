@@ -25,5 +25,11 @@
         "Procedural",
         "Math",
         "Audio IO"
+    ],
+    "similar": [
+        "henon~",
+        "gbman~",
+        "lincong~",
+        "cusp~"
     ]
 }

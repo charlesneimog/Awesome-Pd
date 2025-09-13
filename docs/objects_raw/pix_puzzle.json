@@ -28,6 +28,6 @@
         "pix_crop",
         "pix_info",
         "pix_refraction",
-        "pix_mix"
+        "pix_scanline"
     ]
 }

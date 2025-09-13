@@ -23,5 +23,11 @@
     "description": "The `osc.parse` object is used to parse and format Open Sound Control (OSC) messages. Similar to `oscparse`, it provides a more granular output of OSC messages, including parsed messages and timetag offsets, for lower-level handling. It is typically used within the `osc.receive` abstraction.",
     "categories": [
         "OSC"
+    ],
+    "similar": [
+        "osc.receive",
+        "osc.send",
+        "osc.format",
+        "osc.route"
     ]
 }

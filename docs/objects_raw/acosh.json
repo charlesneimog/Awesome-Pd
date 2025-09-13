@@ -23,5 +23,11 @@
     "description": "The `acosh` object calculates the hyperbolic arc-cosine of a given floating-point number. It takes a float as input, which is stored, and a bang message triggers the calculation to output the result. This object provides a mathematical function, similar to other trigonometric functions found in Pure Data's Cyclone library or as Vanilla alternatives.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "asinh",
+        "cosh",
+        "atanh",
+        "acos"
     ]
 }

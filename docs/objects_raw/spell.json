@@ -23,5 +23,11 @@
     "description": "The `spell` object converts incoming messages, including digits and characters, into their corresponding UTF-8 (Unicode) integer values. It can pad the output to a minimum size using a specified fill character. This object is useful for manipulating text as numerical data within Pure Data.",
     "categories": [
         "Text"
+    ],
+    "similar": [
+        "message",
+        "fromsymbol",
+        "makesymbol",
+        "regex-help"
     ]
 }

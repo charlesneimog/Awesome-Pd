@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "sum",
-        "mean",
-        "median",
-        "frac.mul"
+        "maximum",
+        "tavg~",
+        "ceil",
+        "interpolate"
     ]
 }

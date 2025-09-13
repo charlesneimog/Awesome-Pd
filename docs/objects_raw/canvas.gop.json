@@ -21,5 +21,11 @@
     "ai": true,
     "title": "canvas.gop",
     "description": "The `canvas.gop` object outputs information about the graphical properties of a Pure Data sub-patch or group of objects (GOP). It provides details such as the GOP's status, dimensions (x and y size), and coordinates (x1, y1, x2, y2). This object is useful for dynamically querying the layout and size of graphical elements within a patch.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "canvas.pos",
+        "group",
+        "ikeda~",
+        "canvas.edit"
+    ]
 }

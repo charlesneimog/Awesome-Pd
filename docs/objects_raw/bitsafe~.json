@@ -23,5 +23,11 @@
     "description": "The `bitsafe~` object replaces NaN (Not a Number) and infinity values in an incoming signal with zero. It also filters out denormal numbers, converting them to zero, which is particularly useful when working with bitwise operations or other contexts where these values can cause issues.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "bitnormal~",
+        "substitute",
+        "trighold~",
+        "list2int"
     ]
 }

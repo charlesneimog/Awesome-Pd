@@ -25,5 +25,11 @@
         "File IO",
         "Networking",
         "MultiThreading"
+    ],
+    "similar": [
+        "play.file~",
+        "sfinfo",
+        "coll",
+        "sample~"
     ]
 }

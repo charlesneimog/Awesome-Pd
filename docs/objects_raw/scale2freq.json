@@ -23,5 +23,11 @@
     "description": "The `scale2freq` object converts a scale defined by a list of cents values into a list of frequencies (in Hz). It generates frequencies upwards and downwards from a base MIDI pitch (default 60) within a specified frequency range (default 20-20000 Hz). This object is useful for generating frequency lists for microtonal scales or for feeding data to objects like `resonbank~`.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "autotune2",
+        "cents2ratio",
+        "cents2frac",
+        "rad2hz"
     ]
 }

@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
-        "datetime",
         "date",
-        "gatehold",
-        "smooth"
+        "speedlim",
+        "chrono",
+        "retrieve"
     ]
 }

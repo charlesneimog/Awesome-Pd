@@ -25,5 +25,11 @@
         "MIDI",
         "Samplers",
         "File IO"
+    ],
+    "similar": [
+        "sfont~",
+        "gran.player~",
+        "midiformat",
+        "player~"
     ]
 }

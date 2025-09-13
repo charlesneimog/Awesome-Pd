@@ -25,5 +25,11 @@
         "Envelopes",
         "Granular",
         "Samplers"
+    ],
+    "similar": [
+        "grain.synth~",
+        "grain.live~",
+        "pvgrain~",
+        "gran.player~"
     ]
 }

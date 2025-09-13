@@ -23,5 +23,11 @@
     "description": "The `keypress` object detects presses of a single computer keyboard key, outputting either a `bang` or a toggle (1 for pressed, 0 for released). It can be configured with a specific key symbol or dynamically \"learn\" a key press, saving it as an argument. The object filters out auto-repeated key presses and those made in edit mode, making it suitable for interactive control.",
     "categories": [
         "Control IO"
+    ],
+    "similar": [
+        "keycode",
+        "mouse",
+        "tap",
+        "mousefilter"
     ]
 }

@@ -24,5 +24,11 @@
     "categories": [
         "Envelopes",
         "GUI"
+    ],
+    "similar": [
+        "knob",
+        "slider2d",
+        "range.hsl",
+        "colors"
     ]
 }

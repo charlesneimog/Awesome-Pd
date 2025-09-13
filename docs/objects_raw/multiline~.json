@@ -26,9 +26,9 @@
         "Multichannel"
     ],
     "similar": [
-        "wrap2~",
         "ceil~",
-        "gain~",
-        "samps2ms~"
+        "sum~",
+        "fader~",
+        "db2lin~"
     ]
 }

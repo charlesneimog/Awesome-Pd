@@ -23,5 +23,11 @@
     "description": "The `tremolo~` object performs amplitude modulation on an input signal. It allows control over the tremolo frequency and depth, with a depth of 1 achieving classic amplitude modulation.",
     "categories": [
         "Chorus/Flanger/Phaser"
+    ],
+    "similar": [
+        "chorus~",
+        "vibrato~",
+        "phaser.m~",
+        "phaser~"
     ]
 }

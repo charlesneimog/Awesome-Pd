@@ -23,5 +23,11 @@
     "description": "The `retune` object remaps incoming MIDI pitches to a custom scale. It takes a list of steps in cents defining the scale and a base MIDI pitch, then retunes subsequent MIDI pitch inputs according to this scale. This allows for microtonal adjustments or alternative tunings.",
     "categories": [
         "MIDI"
+    ],
+    "similar": [
+        "autotune",
+        "note.out",
+        "bend.out",
+        "pgm.out"
     ]
 }

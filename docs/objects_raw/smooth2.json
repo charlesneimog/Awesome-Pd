@@ -23,5 +23,11 @@
     "description": "The `smooth2` object smooths incoming control values, providing a gradual transition (portamento) between them. Unlike `smooth`, it allows for independent control over ramp-up and ramp-down times in milliseconds. Users can also define a curve factor for the smoothing, similar to the curve parameter found in `asr~` and `adsr~` objects.",
     "categories": [
         "Envelopes"
+    ],
+    "similar": [
+        "smooth",
+        "glide2",
+        "smooth2~",
+        "asr~"
     ]
 }

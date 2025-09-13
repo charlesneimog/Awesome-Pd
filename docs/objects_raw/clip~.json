@@ -24,5 +24,11 @@
     "categories": [
         "Math",
         "Dynamics"
+    ],
+    "similar": [
+        "clip",
+        "rescale~",
+        "maximum~",
+        "wrap2"
     ]
 }

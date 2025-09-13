@@ -23,5 +23,11 @@
     "description": "The `rand.f~` object generates pseudo-random floating-point values within a specified range. It is triggered by signal transitions (positive to negative or vice-versa) or a `bang` message. The object supports seeding to ensure reproducible sequences of random numbers.",
     "categories": [
         "Stochastic"
+    ],
+    "similar": [
+        "rand.f",
+        "stepnoise",
+        "rand.dist",
+        "decide"
     ]
 }

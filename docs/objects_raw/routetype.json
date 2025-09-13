@@ -23,5 +23,11 @@
     "description": "The `routetype` object routes incoming messages to different outlets based on their data type, such as bang, float, symbol, or list. It takes arguments to define the types it should route, with an additional outlet for unmatched messages. This object is useful for directing control flow based on the nature of the data received.",
     "categories": [
         "Routing"
+    ],
+    "similar": [
+        "gate",
+        "demultiplex",
+        "route~",
+        "route2"
     ]
 }

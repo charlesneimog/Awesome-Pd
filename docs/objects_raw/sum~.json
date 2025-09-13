@@ -24,5 +24,11 @@
     "categories": [
         "Multichannel",
         "Math"
+    ],
+    "similar": [
+        "wrap2~",
+        "trunc~",
+        "plusequals~",
+        "quantizer~"
     ]
 }

@@ -34,9 +34,9 @@
         "Oscillators"
     ],
     "similar": [
+        "freeze~",
         "reanimator~",
         "residency~",
-        "pvtuner~",
-        "xmod2~"
+        "pvtuner~"
     ]
 }

@@ -26,9 +26,9 @@
         "Multichannel"
     ],
     "similar": [
-        "batch.rec~",
-        "sample~",
-        "rec.file~",
-        "record~"
+        "batch.write~",
+        "record~",
+        "tabwriter~",
+        "play~"
     ]
 }

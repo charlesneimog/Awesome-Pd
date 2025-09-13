@@ -25,5 +25,11 @@
         "File IO",
         "Multichannel",
         "Audio IO"
+    ],
+    "similar": [
+        "rec.file~",
+        "batch.write~",
+        "pvoc.player~",
+        "record~"
     ]
 }

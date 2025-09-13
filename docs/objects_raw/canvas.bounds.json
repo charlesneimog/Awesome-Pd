@@ -23,5 +23,11 @@
     "description": "The `canvas.bounds` object outputs the bounding box coordinates of a Pure Data canvas. It can retrieve the bounds of the current canvas or a parent canvas by specifying a `depth` argument (defaulting to 0 for the current window). The object outputs these coordinates as a list.",
     "categories": [
         "Patching"
+    ],
+    "similar": [
+        "canvas.edit",
+        "canvas.zoom",
+        "canvas.setname",
+        "canvas.name"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "`rdiv` performs division, similar to the `[/]` object, but with reversed inlet functionality. The left (hot) inlet receives the divisor, and the right (cold) inlet receives the dividend. It outputs the result of the division.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "rdiv~",
+        "rminus",
+        "rminus~",
+        "modulo~"
     ]
 }

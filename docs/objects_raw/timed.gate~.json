@@ -21,5 +21,11 @@
     "ai": true,
     "title": "timed.gate~",
     "description": "The `timed.gate~` object generates a timed gate signal or control value. It is triggered by a bang, float, or signal, outputting a gate with a specified duration and value. It also supports a retrigger mode, allowing new gates to start before previous ones finish.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "timed.gate",
+        "gatehold",
+        "gaterelease",
+        "gatehold~"
+    ]
 }

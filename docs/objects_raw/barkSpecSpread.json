@@ -26,8 +26,8 @@
     "description": "The barkSpecSpread object calculates the Bark spectrum spread, a measure of the spectral width of an audio signal based on the Bark scale. It analyzes pre-recorded audio arrays or can process chained spectral data from other analysis objects. Users can configure various analysis parameters, including windowing functions, sample rate, and filterbank settings.",
     "similar": [
         "specSpread",
-        "barkSpecKurtosis",
         "barkSpecRolloff",
+        "barkSpecKurtosis",
         "barkSpecSkewness"
     ]
 }

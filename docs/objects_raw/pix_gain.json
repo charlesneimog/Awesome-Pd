@@ -28,6 +28,6 @@
         "pix_color",
         "pix_threshold",
         "pix_bitmask",
-        "pix_offset"
+        "pix_mix"
     ]
 }

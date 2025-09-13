@@ -27,7 +27,7 @@
     "similar": [
         "sgn~",
         "abs~",
-        "tavg~",
-        "average~"
+        "avg~",
+        "tavg~"
     ]
 }

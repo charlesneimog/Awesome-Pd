@@ -27,7 +27,7 @@
     "similar": [
         "pix_background",
         "pix_sig2pix~",
-        "pix_equal",
-        "yuv2rgb"
+        "yuv2rgb",
+        "pix_equal"
     ]
 }

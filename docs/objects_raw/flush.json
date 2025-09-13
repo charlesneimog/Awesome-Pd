@@ -23,5 +23,11 @@
     "description": "The `flush` object acts as a \"panic button\" for MIDI notes. It tracks `Note-on` messages that haven't received a corresponding `Note-off` and sends `Note-off` messages for all hanging notes when it receives a `bang`. It can also clear its internal list of hanging notes with a `clear` message.",
     "categories": [
         "MIDI"
+    ],
+    "similar": [
+        "panic",
+        "midiflush",
+        "xnoteout",
+        "note.out"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `lin2db` object converts a linear amplitude value to its equivalent decibel full scale (dBFS) representation. This is useful for displaying or working with audio levels in a standard logarithmic format.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "atodb",
+        "dbtoa~",
+        "db2lin",
+        "atodb~"
     ]
 }

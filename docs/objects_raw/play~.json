@@ -24,5 +24,11 @@
     "categories": [
         "Samplers",
         "Multichannel"
+    ],
+    "similar": [
+        "tabplayer~",
+        "player~",
+        "gran.player~",
+        "tabwriter~"
     ]
 }

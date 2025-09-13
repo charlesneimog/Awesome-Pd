@@ -28,6 +28,6 @@
         "cepstrumPitch~",
         "autoCorrPitch",
         "cepstrumPitch",
-        "specSlope~"
+        "range"
     ]
 }

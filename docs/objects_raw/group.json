@@ -23,5 +23,11 @@
     "description": "The `group` object collects incoming messages and outputs them as a single list once a specified \"group size\" is reached. If an input list exceeds the group size, the remaining elements are carried over to the next group. A `bang` message can be sent to force the output of any pending, incomplete group.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "merge",
+        "reverse",
+        "default",
+        "slice"
     ]
 }

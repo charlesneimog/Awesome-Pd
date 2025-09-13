@@ -23,5 +23,11 @@
     "description": "The `range~` object analyzes an incoming signal (float or signal) to determine its minimum and maximum values. It can be reset to restart the analysis. This object is useful for tracking the dynamic range of a signal over time.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "range~",
+        "featureNorm",
+        "autoCorrPitch~",
+        "cepstrumPitch~"
     ]
 }

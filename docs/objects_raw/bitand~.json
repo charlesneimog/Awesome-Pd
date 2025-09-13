@@ -23,5 +23,11 @@
     "description": "The `bitand~` object performs a bitwise AND operation on two input signals or a signal and a given bitmask. It compares the 32-bit representations of its inputs, setting bits to 1 only if both corresponding input bits are 1. The object supports various conversion modes for its inputs and can produce NaNs or INFs.",
     "categories": [
         "Logic"
+    ],
+    "similar": [
+        "bitor~",
+        "bitxor~",
+        "0x7c0x7c0x7e",
+        "&&~"
     ]
 }

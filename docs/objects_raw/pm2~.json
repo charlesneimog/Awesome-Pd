@@ -24,5 +24,11 @@
     "categories": [
         "Oscillators",
         "Multichannel"
+    ],
+    "similar": [
+        "pm6~",
+        "pm4~",
+        "fm~",
+        "xmod~"
     ]
 }

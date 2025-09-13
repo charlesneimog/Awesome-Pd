@@ -24,5 +24,11 @@
     "categories": [
         "GUI",
         "Control IO"
+    ],
+    "similar": [
+        "canvas.mouse",
+        "circle",
+        "button",
+        "slider2d"
     ]
 }

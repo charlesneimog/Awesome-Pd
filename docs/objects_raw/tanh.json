@@ -23,5 +23,11 @@
     "description": "The `tanh` object calculates the hyperbolic tangent function of a given number. It can operate on both control data (floats) and signal data, making it useful for various mathematical operations within a Pure Data patch.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "atanh",
+        "atan~",
+        "tanx~",
+        "cosh~"
     ]
 }

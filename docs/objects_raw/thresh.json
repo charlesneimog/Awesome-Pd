@@ -23,5 +23,11 @@
     "description": "The `thresh` object collects incoming numbers and lists, combining them into a single output list if they arrive within a specified time interval. Each new item resets the internal timer and is appended to the previously stored items. This object is useful for grouping closely timed data into a single message.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "combine",
+        "stream",
+        "lace",
+        "l"
     ]
 }

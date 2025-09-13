@@ -23,5 +23,11 @@
     "description": "The `zerox~` object detects and counts zero crossings in an audio signal. Its left outlet outputs the number of zero crossings per signal block, which can be used for transient detection or frequency estimation. The right outlet sends an impulse whenever a zero crossing is detected, with the impulse value configurable via the `set` message.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "dfreq~",
+        "zerocross~",
+        "barkSpecFlux~",
+        "zeroCrossing"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `cents2frac` object converts musical intervals expressed in cents into fractional values, representing ratios. It can process single cents values or lists of cents. Users can specify a conversion resolution (maximum numerator) and output the fraction as a list using the `-list` flag.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "cents2ratio",
+        "autotune2",
+        "ratio2cents",
+        "frac2cents"
     ]
 }

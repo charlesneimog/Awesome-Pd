@@ -24,5 +24,11 @@
     "categories": [
         "Data Structures",
         "General Utilities"
+    ],
+    "similar": [
+        "merge",
+        "pack2",
+        "pak",
+        "l2s"
     ]
 }

@@ -25,5 +25,11 @@
         "Audio IO",
         "MIDI",
         "Granular"
+    ],
+    "similar": [
+        "plaits~",
+        "grain.live~",
+        "stretch.shift~",
+        "pluck.m~"
     ]
 }

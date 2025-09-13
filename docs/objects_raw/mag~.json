@@ -25,5 +25,11 @@
         "Multichannel",
         "Math",
         "Descriptors"
+    ],
+    "similar": [
+        "mag",
+        "car2pol",
+        "car2pol~",
+        "pol2car"
     ]
 }

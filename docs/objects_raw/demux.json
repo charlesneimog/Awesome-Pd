@@ -28,6 +28,6 @@
         "demultiplex",
         "demux~",
         "demultiplex~",
-        "gate~"
+        "router"
     ]
 }

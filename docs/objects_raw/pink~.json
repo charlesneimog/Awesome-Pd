@@ -24,5 +24,11 @@
     "categories": [
         "Stochastic",
         "Audio IO"
+    ],
+    "similar": [
+        "brown~",
+        "lfnoise~",
+        "stepnoise",
+        "perlin~"
     ]
 }

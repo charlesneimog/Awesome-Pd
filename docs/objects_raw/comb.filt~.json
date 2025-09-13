@@ -24,5 +24,11 @@
     "categories": [
         "Delay",
         "Filters"
+    ],
+    "similar": [
+        "filterdelay~",
+        "teeth~",
+        "comb~",
+        "comb.rev~"
     ]
 }

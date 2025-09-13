@@ -25,5 +25,11 @@
         "Distortion",
         "Chorus/Flanger/Phaser",
         "Filters"
+    ],
+    "similar": [
+        "comb~",
+        "drive~",
+        "overdrive~",
+        "xsyn~"
     ]
 }

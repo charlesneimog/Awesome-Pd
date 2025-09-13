@@ -26,8 +26,8 @@
     ],
     "similar": [
         "pix_multiply",
-        "pix_set",
         "pix_data",
+        "pix_set",
         "pix_dump"
     ]
 }

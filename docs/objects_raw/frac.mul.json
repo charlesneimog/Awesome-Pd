@@ -23,5 +23,11 @@
     "description": "The `frac.mul` object multiplies two fractional values. It takes two fractional inputs, one on the left and one on the right, and outputs their product as a fractional value.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "frac.add",
+        "frac2dec",
+        "frac2cents",
+        "cents2frac"
     ]
 }

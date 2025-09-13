@@ -24,5 +24,11 @@
     "categories": [
         "Filters",
         "Delay"
+    ],
+    "similar": [
+        "allpass.rev~",
+        "comb~",
+        "filterdelay~",
+        "teeth~"
     ]
 }

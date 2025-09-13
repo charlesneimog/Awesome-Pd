@@ -23,5 +23,11 @@
     "description": "The `minimum` object outputs the smallest value from its inputs. It can compare two floats (from the left inlet and an argument or right inlet) or find the minimum value within a list. When processing a list, the left outlet outputs the minimum value, and the right outlet outputs its index.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "maximum",
+        "poltocar",
+        "modulo~",
+        "rminus~"
     ]
 }

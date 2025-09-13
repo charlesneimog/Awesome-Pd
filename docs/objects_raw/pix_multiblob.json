@@ -29,6 +29,6 @@
         "pix_blobtracker",
         "pix_drum",
         "pix_histo",
-        "spectrograph~"
+        "pix_movement2"
     ]
 }

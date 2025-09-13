@@ -23,5 +23,11 @@
     "description": "The `chrono` object functions as either a stopwatch chronometer or a timer. It can be started, stopped, continued, and rewound using `bang` or `float` inputs. When configured as a timer with the `-t` flag, its duration can be set via a `list` input specifying minutes and seconds.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "time",
+        "merge",
+        "bangdiv",
+        "retrieve"
     ]
 }

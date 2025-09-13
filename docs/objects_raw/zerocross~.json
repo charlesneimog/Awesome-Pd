@@ -23,5 +23,11 @@
     "description": "The `zerocross~` object detects zero crossings in an audio signal. It outputs an impulse when the signal crosses from non-positive to positive, positive to non-positive, or either direction, depending on its configuration. This is useful for analyzing the timing of signal changes.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "zerox~",
+        "featureDelta",
+        "barkSpecSkewness~",
+        "specSkewness~"
     ]
 }

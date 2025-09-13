@@ -24,5 +24,11 @@
     "categories": [
         "MIDI",
         "General Utilities"
+    ],
+    "similar": [
+        "midi2note",
+        "note.out",
+        "xnoteout",
+        "seq8.m~"
     ]
 }

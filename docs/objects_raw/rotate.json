@@ -23,5 +23,11 @@
     "description": "The `rotate` object reorders elements within incoming messages or lists. It takes a rotation number as an argument or inlet, which determines how the elements are shifted. This allows for dynamic rearrangement of data sequences.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "delete",
+        "remove",
+        "l2i",
+        "insert"
     ]
 }

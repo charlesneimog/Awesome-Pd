@@ -23,5 +23,11 @@
     "description": "The `buddy` object synchronizes incoming messages across its inlets, outputting them only when all inlets have received a message. It ensures that all inputs are present before emitting them in right-to-left order, then clears its state. This is useful for coordinating data flow when message arrival order is uncertain.",
     "categories": [
         "Logic"
+    ],
+    "similar": [
+        "onebang",
+        "next",
+        "changed",
+        "equal"
     ]
 }

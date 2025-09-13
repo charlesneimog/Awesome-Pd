@@ -23,5 +23,11 @@
     "description": "The `pol2car` object converts polar coordinates (amplitude and phase) into their Cartesian equivalents (real and imaginary parts). It takes amplitude and phase (in radians) as inputs and outputs the corresponding real and imaginary components, which can be triggered by a `bang`. This object is useful for mathematical transformations of signals or data.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "car2pol",
+        "poltocar",
+        "cartopol",
+        "poltocar~"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `dispatch` object takes an incoming list and sends each of its elements to a specified address, processing them from left to right. It can also re-send the last processed input upon receiving a `bang`. This object is useful for routing individual elements of a list to different destinations within a Pure Data patch.",
     "categories": [
         "Routing"
+    ],
+    "similar": [
+        "unjoin",
+        "unmerge",
+        "spray",
+        "forward"
     ]
 }

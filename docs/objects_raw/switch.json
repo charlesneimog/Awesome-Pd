@@ -24,5 +24,11 @@
     "categories": [
         "Logic",
         "Routing"
+    ],
+    "similar": [
+        "mux~",
+        "selector",
+        "routeall",
+        "decode"
     ]
 }

@@ -28,6 +28,6 @@
         "pix_resize",
         "gemglxwindow",
         "Gem",
-        "gemmacwindow"
+        "_textbbox"
     ]
 }

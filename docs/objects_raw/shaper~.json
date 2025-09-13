@@ -24,5 +24,11 @@
     "categories": [
         "Math",
         "Distortion"
+    ],
+    "similar": [
+        "tanh~",
+        "polyfun",
+        "drive~",
+        "lookup~"
     ]
 }

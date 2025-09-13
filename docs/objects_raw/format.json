@@ -24,5 +24,11 @@
     "categories": [
         "Text",
         "General Utilities"
+    ],
+    "similar": [
+        "sprintf",
+        "unite",
+        "tosymbol",
+        "separate"
     ]
 }

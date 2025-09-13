@@ -24,5 +24,11 @@
     "categories": [
         "Procedural",
         "Math"
+    ],
+    "similar": [
+        "amean",
+        "cents2frac",
+        "henon~",
+        "ratio2cents~"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `xfade~` object crossfades between two audio sources, A and B, each supporting 1 to 64 channels. It defaults to an equal power crossfade but can be set to linear via the `-lin` flag or `lin` message. The crossfade amount is controlled by a rightmost inlet, ranging from -1 (source A) to 1 (source B).",
     "categories": [
         "Multichannel"
+    ],
+    "similar": [
+        "xfade.mc~",
+        "pan4~",
+        "spread.mc~",
+        "pan.mc~"
     ]
 }

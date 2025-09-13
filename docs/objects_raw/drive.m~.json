@@ -24,5 +24,11 @@
     "categories": [
         "Distortion",
         "Multichannel"
+    ],
+    "similar": [
+        "drive~",
+        "overdrive~",
+        "crusher.m~",
+        "fold~"
     ]
 }

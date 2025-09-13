@@ -25,5 +25,11 @@
         "Data Structures",
         "File IO",
         "MultiThreading"
+    ],
+    "similar": [
+        "funbuff",
+        "table",
+        "capture",
+        "sfload"
     ]
 }

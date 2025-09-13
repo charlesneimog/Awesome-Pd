@@ -25,5 +25,11 @@
         "Oscillators",
         "Multichannel",
         "MIDI"
+    ],
+    "similar": [
+        "impulse~",
+        "bl.tri~",
+        "parabolic~",
+        "cosine~"
     ]
 }

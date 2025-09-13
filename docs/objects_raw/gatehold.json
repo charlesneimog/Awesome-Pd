@@ -21,5 +21,11 @@
     "ai": true,
     "title": "gatehold",
     "description": "The `gatehold` object extends the duration of a gate signal by a specified amount of milliseconds after the gate has closed. It effectively \"holds\" the gate's last value, retriggering if a new gate arrives before the hold time expires. This allows a single gate to control multiple parameters with different durations, such as extending the sustain phase of an envelope.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "gatehold~",
+        "gaterelease",
+        "gaterelease~",
+        "timed.gate"
+    ]
 }

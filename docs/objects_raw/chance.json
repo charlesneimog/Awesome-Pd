@@ -25,5 +25,11 @@
         "Stochastic",
         "Routing",
         "General Utilities"
+    ],
+    "similar": [
+        "chance~",
+        "rand.i",
+        "demultiplex",
+        "demux"
     ]
 }

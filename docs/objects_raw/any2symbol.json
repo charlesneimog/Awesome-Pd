@@ -23,5 +23,11 @@
     "description": "The `any2symbol` object converts any incoming message into a symbol message. This utility is crucial for standardizing diverse data types into a common symbolic format, enabling consistent processing and routing within a Pure Data patch.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "retrieve",
+        "reverse",
+        "blocksize~",
+        "nop"
     ]
 }

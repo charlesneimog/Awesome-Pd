@@ -24,5 +24,11 @@
     "categories": [
         "Partial Tracking",
         "Oscillators"
+    ],
+    "similar": [
+        "pvharm~",
+        "resent~",
+        "reanimator~",
+        "pvwarpb~"
     ]
 }

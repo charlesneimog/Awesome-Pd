@@ -24,5 +24,11 @@
     "categories": [
         "Dynamics",
         "Multichannel"
+    ],
+    "similar": [
+        "dbgain~",
+        "limiter~",
+        "vca.m~",
+        "gain~"
     ]
 }

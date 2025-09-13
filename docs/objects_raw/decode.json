@@ -24,5 +24,11 @@
     "categories": [
         "Routing",
         "Logic"
+    ],
+    "similar": [
+        "switch",
+        "routeall",
+        "selector",
+        "mtx~"
     ]
 }

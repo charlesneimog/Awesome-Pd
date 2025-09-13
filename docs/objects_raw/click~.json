@@ -21,5 +21,11 @@
     "ai": true,
     "title": "click~",
     "description": "The `click~` object is an audio impulse generator that outputs a single-sample impulse when triggered by a `bang` message. Its default output is a value of 1, but users can customize the impulse's amplitude with a single value or a list of up to 256 values for band-limited impulses, making it useful for testing audio effects.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "dirac~",
+        "float2imp~",
+        "range~",
+        "velvet~"
+    ]
 }

@@ -27,7 +27,7 @@
     "similar": [
         "textoutline",
         "cuboid",
-        "part_source",
-        "text2d"
+        "text2d",
+        "part_source"
     ]
 }

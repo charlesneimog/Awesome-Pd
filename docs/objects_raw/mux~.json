@@ -26,8 +26,8 @@
     ],
     "similar": [
         "multiplex~",
+        "selector",
         "demultiplex~",
-        "mux",
-        "demux~"
+        "mux"
     ]
 }

@@ -25,5 +25,11 @@
         "Routing",
         "Networking",
         "Multichannel"
+    ],
+    "similar": [
+        "pdlink",
+        "send2~",
+        "mtx.mc~",
+        "matrix~"
     ]
 }

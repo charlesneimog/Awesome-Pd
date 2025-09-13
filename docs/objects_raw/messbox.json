@@ -23,5 +23,11 @@
     "description": "The `messbox` object is an interactive GUI element that allows users to type and send messages during run mode, functioning similarly to a standard message box. It supports dynamic message construction using dollar-sign arguments (`$1`, `$2`), comma-separated messages, and semicolon-triggered send operations. Unlike a regular message box, `messbox` expands the `$0` argument and offers methods for setting its dimensions, font styles, and colors.",
     "categories": [
         "GUI"
+    ],
+    "similar": [
+        "knob",
+        "number~",
+        "grab",
+        "range.hsl"
     ]
 }

@@ -24,5 +24,11 @@
     "categories": [
         "Routing",
         "General Utilities"
+    ],
+    "similar": [
+        "relay",
+        "swap2",
+        "hot",
+        "universal"
     ]
 }

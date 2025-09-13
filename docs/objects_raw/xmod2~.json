@@ -23,5 +23,11 @@
     "description": "The `xmod2~` object is a variant of `xmod~` that performs frequency modulation (FM) using a distinct, \"cheap\" sine waveform. It generates two independent modulated audio signals, allowing control over the frequency and modulation index for each oscillator. This object is designed to produce chaotic and interesting sounds through its unique FM implementation.",
     "categories": [
         "Oscillators"
+    ],
+    "similar": [
+        "xmod~",
+        "fm~",
+        "gaussian~",
+        "bl.wavetable~"
     ]
 }

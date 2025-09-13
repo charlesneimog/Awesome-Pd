@@ -29,6 +29,6 @@
         "pix_buffer_write",
         "gemlist_matrix",
         "translate",
-        "linear_path"
+        "primTri"
     ]
 }

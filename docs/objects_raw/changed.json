@@ -23,5 +23,11 @@
     "description": "The `changed` object acts as a message filter, passing through any incoming message only if it differs from the previously received one. Unlike `change` from Pd Vanilla, it supports all message types. This is useful for triggering actions solely when a value genuinely changes, preventing redundant processing.",
     "categories": [
         "Logic"
+    ],
+    "similar": [
+        "changed~",
+        "trig2bang",
+        "next",
+        "buddy"
     ]
 }

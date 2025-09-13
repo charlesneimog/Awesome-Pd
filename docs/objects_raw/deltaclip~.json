@@ -21,5 +21,11 @@
     "ai": true,
     "title": "deltaclip~",
     "description": "The `deltaclip~` object limits the rate of change between consecutive samples in an incoming signal, a process also known as 'slew limiting'. It allows independent control over the maximum positive (rise) and negative (decay) delta values. Setting both delta values to zero effectively freezes the signal's current value.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "slew2",
+        "maxSampleDelta",
+        "delta~",
+        "abs~"
+    ]
 }

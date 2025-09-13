@@ -27,9 +27,9 @@
         "Text"
     ],
     "similar": [
-        "sprintf",
+        "separate",
+        "unite",
         "format",
-        "equal",
-        "unite"
+        "sprintf"
     ]
 }

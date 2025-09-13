@@ -24,5 +24,11 @@
     "categories": [
         "Logic",
         "General Utilities"
+    ],
+    "similar": [
+        "regex",
+        "limit",
+        "match~",
+        "retrieve"
     ]
 }

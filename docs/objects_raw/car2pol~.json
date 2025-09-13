@@ -24,5 +24,11 @@
     "categories": [
         "Math",
         "Multichannel"
+    ],
+    "similar": [
+        "pol2car~",
+        "cartopol~",
+        "poltocar~",
+        "car2pol"
     ]
 }

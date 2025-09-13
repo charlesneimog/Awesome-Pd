@@ -23,5 +23,11 @@
     "description": "The `sustain` object emulates a MIDI sustain pedal, holding `noteoff` messages while active and releasing them when deactivated. It processes MIDI pitch/velocity pairs, can be controlled by a MIDI sustain pedal input or messages, and offers different modes for handling repeated notes.",
     "categories": [
         "MIDI"
+    ],
+    "similar": [
+        "suspedal",
+        "note.out",
+        "sysrt.in",
+        "sysrt.out"
     ]
 }

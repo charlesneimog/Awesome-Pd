@@ -24,5 +24,11 @@
     "categories": [
         "Sequencers",
         "MIDI"
+    ],
+    "similar": [
+        "autotune",
+        "seq",
+        "makenote2",
+        "note2midi"
     ]
 }

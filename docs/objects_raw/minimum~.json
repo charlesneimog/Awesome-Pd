@@ -23,5 +23,11 @@
     "description": "The `minimum~` object outputs the smaller of two input signals, or the smaller of an input signal and a numerical argument. This object is considered redundant and deprecated; users should instead use Pd Vanilla's `min~` object for the same functionality.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "maximum~",
+        "minimum",
+        "mag",
+        "tavg~"
     ]
 }

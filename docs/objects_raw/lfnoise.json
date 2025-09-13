@@ -24,5 +24,11 @@
     "categories": [
         "LFOs",
         "Stochastic"
+    ],
+    "similar": [
+        "stepnoise",
+        "rand.f",
+        "lfnoise~",
+        "rand.f~"
     ]
 }

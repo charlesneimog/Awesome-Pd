@@ -26,8 +26,8 @@
     ],
     "similar": [
         "accumrotate",
-        "rotate",
+        "translateXYZ",
         "shearXZ",
-        "translateXYZ"
+        "shearZX"
     ]
 }

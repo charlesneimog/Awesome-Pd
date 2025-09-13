@@ -25,5 +25,11 @@
         "Statistical Models",
         "Algorithmic Composition",
         "Stochastic"
+    ],
+    "similar": [
+        "prob",
+        "anal",
+        "rand.hist",
+        "brown"
     ]
 }

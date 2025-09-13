@@ -23,5 +23,11 @@
     "description": "The `change~` object detects changes in an incoming audio signal and outputs its direction. It sends `1` for an increasing signal, `-1` for a decreasing signal, and `0` if the signal remains constant. This object is useful for triggering events or controlling parameters based on signal movement.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "sah~",
+        "swap~",
+        "counter",
+        "bitsafe~"
     ]
 }

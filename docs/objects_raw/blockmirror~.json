@@ -23,9 +23,9 @@
     "description": "The `blockmirror~` object reverses an incoming audio signal in time, processing it in fixed-size blocks (signal vectors). It's designed for creating unique time-based audio effects by playing back each 64-sample block in reverse.",
     "categories": [],
     "similar": [
-        "sig.m~",
+        "delay~",
         "frameaccum~",
-        "blocksize~",
-        "blockswap~"
+        "reverse",
+        "framedelta~"
     ]
 }

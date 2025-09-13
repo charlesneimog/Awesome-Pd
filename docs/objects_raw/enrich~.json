@@ -35,8 +35,8 @@
     ],
     "similar": [
         "blip~",
-        "oscbank~",
         "pvtuner~",
-        "cycle~"
+        "oscbank~",
+        "pileup~"
     ]
 }

@@ -26,9 +26,9 @@
         "Routing"
     ],
     "similar": [
+        "iterate",
         "pack",
-        "routetype",
-        "unmerge",
-        "repack"
+        "repack",
+        "unpack~"
     ]
 }

@@ -27,8 +27,8 @@
     ],
     "similar": [
         "op",
+        "lessthan~",
         "absgn~",
-        "cyclone",
         "greaterthan~"
     ]
 }

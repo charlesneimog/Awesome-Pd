@@ -23,5 +23,11 @@
     "description": "The `buffir~` object is a table/buffer-based Finite Impulse Response (FIR) filter that convolves an input signal with samples from a specified buffer. It can work with any array in Pure Data, though it only reads the first channel of multichannel `buffer~` objects. Users can configure the buffer using the `set` message, with a maximum buffer size of 4096 samples.",
     "categories": [
         "Filters"
+    ],
+    "similar": [
+        "mov.avg~",
+        "reson~",
+        "rampsmooth~",
+        "coeff2pz"
     ]
 }

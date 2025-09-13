@@ -24,5 +24,11 @@
     "categories": [
         "GUI",
         "Data Structures"
+    ],
+    "similar": [
+        "colors",
+        "store",
+        "slider2d",
+        "range.hsl"
     ]
 }

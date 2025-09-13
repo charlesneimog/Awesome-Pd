@@ -21,5 +21,11 @@
     "ai": true,
     "title": "trig2bang~",
     "description": "The `trig2bang~` object detects zero to non-zero transitions in an incoming audio signal. When such a transition occurs, it outputs a `bang` message. This is useful for triggering events or control messages based on signal activity.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "trig2bang",
+        "status~",
+        "status",
+        "edge~"
+    ]
 }

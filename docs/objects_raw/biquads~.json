@@ -23,5 +23,11 @@
     "description": "The `biquads~` object implements a series of cascaded biquad filters, designed to process and modify incoming audio signals. It accepts a signal to be filtered and can be configured with a list of biquad coefficients. Additionally, it provides messages to clear its internal memory and to bypass the filtering process.",
     "categories": [
         "Filters"
+    ],
+    "similar": [
+        "highshelf~",
+        "lowshelf~",
+        "coeff2pz",
+        "crossover~"
     ]
 }

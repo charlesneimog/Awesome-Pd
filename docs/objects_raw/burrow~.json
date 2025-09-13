@@ -34,8 +34,8 @@
     ],
     "similar": [
         "xsyn~",
-        "brickwall~",
-        "hip.bw~",
-        "buffir~"
+        "allpass.filt~",
+        "biquads~",
+        "allpass.2nd~"
     ]
 }

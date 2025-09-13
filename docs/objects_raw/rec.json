@@ -25,5 +25,11 @@
         "File IO",
         "Data Structures",
         "Control IO"
+    ],
+    "similar": [
+        "mtr",
+        "funbuff",
+        "table",
+        "seq"
     ]
 }

@@ -24,5 +24,11 @@
     "categories": [
         "Envelopes",
         "Multichannel"
+    ],
+    "similar": [
+        "asr~",
+        "adsr.m~",
+        "envgen~",
+        "decay~"
     ]
 }

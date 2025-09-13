@@ -25,9 +25,9 @@
         "Control I/O"
     ],
     "similar": [
-        "keycode",
-        "keypress",
         "gemkeyboard",
-        "gemtablet"
+        "gemtablet",
+        "lpt",
+        "keycode"
     ]
 }

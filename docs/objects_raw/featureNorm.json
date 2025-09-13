@@ -25,9 +25,9 @@
     "title": "featureNorm",
     "description": "The `featureNorm` object normalizes incoming feature lists, scaling their values to a specified range (either 0 to 1 by default, or -1 to 1). It requires the feature length at creation and can use provided minimum and maximum values for normalization, often derived from audio feature extraction.",
     "similar": [
+        "range",
         "range~",
-        "cepstrum~",
         "morphine~",
-        "magSpec~"
+        "cepstrum~"
     ]
 }

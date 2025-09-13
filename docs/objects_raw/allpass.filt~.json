@@ -23,5 +23,11 @@
     "description": "`allpass.filt~` is an allpass filter abstraction that allows setting its order (a multiple of 2) as an argument. It processes an input signal, applying filtering based on a central frequency and resonance (Q) that can be controlled via inlets. This object is built by cascading multiple `allpass.2nd~` objects.",
     "categories": [
         "Filters"
+    ],
+    "similar": [
+        "allpass.2nd~",
+        "eq~",
+        "phaseshift~",
+        "lowpass~"
     ]
 }

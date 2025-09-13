@@ -24,5 +24,11 @@
     "categories": [
         "Data Structures",
         "Multichannel"
+    ],
+    "similar": [
+        "poke~",
+        "tabwriter~",
+        "peek~",
+        "record~"
     ]
 }

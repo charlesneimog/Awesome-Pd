@@ -23,5 +23,11 @@
     "description": "The `mono~` object emulates monophonic synthesizer behavior, processing MIDI note messages to output pitch and velocity signals. It supports various note priority modes (last, high, low) and a legato mode, allowing for flexible control over monophonic voice allocation. Additionally, it can apply portamento (glide) to the pitch output, making it suitable for expressive melodic lines.",
     "categories": [
         "MIDI"
+    ],
+    "similar": [
+        "note.out",
+        "xnoteout",
+        "borax",
+        "mono"
     ]
 }

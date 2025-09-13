@@ -23,5 +23,11 @@
     "description": "The `mousefilter` object controls the flow of messages based on mouse button activity. It blocks all incoming messages while the mouse button is held down, and outputs the last received message only when the mouse button is released. This allows for interactive gating of data streams using mouse clicks.",
     "categories": [
         "Control IO"
+    ],
+    "similar": [
+        "mouse",
+        "mousestate",
+        "button",
+        "keypress"
     ]
 }

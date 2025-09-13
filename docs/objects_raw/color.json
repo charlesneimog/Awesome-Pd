@@ -27,7 +27,7 @@
     "similar": [
         "colorRGB",
         "diffuseRGB",
-        "diffuse",
-        "ambientRGB"
+        "ambientRGB",
+        "diffuse"
     ]
 }

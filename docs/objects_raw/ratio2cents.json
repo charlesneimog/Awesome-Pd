@@ -23,5 +23,11 @@
     "description": "The `ratio2cents` object converts musical intervals expressed as rational numbers (floating-point decimals) into cents. It performs this conversion using the formula `cents = log2(rational) * 1200`. Input values can be provided directly or set for conversion upon receiving a bang message.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "cents2ratio",
+        "ratio2cents~",
+        "cents2frac",
+        "autotune2"
     ]
 }

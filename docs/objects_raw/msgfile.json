@@ -29,7 +29,7 @@
     "similar": [
         "fwriteln",
         "freadln",
-        "coll",
-        "dir"
+        "text3d",
+        "coll"
     ]
 }

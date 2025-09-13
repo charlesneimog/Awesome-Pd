@@ -23,5 +23,11 @@
     "description": "The `kink~` object distorts a `phasor~` signal by applying a non-linear bend or \"kink\" to its phase. It takes a phase input and a slope, modifying the output based on whether the phase times the slope is above or below a 0.5 threshold. This results in a distorted phasor output, useful for various forms of phase modulation and waveshaping.",
     "categories": [
         "Distortion"
+    ],
+    "similar": [
+        "drive~",
+        "overdrive~",
+        "crusher~",
+        "degrade~"
     ]
 }

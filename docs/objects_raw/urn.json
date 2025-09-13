@@ -24,5 +24,11 @@
     "categories": [
         "Stochastic",
         "General Utilities"
+    ],
+    "similar": [
+        "rand.u",
+        "rand.i",
+        "rand.list",
+        "decide"
     ]
 }

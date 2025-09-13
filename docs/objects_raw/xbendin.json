@@ -23,5 +23,11 @@
     "description": "The `xbendin` object retrieves 14-bit pitch bend messages from raw MIDI input, outputting the pitch bend value (0-16383) and optionally the MIDI channel. This object is redundant, deprecated, and users are advised to use vanilla's `bendin` or `else/bend.in` instead.",
     "categories": [
         "MIDI"
+    ],
+    "similar": [
+        "bend.out",
+        "xbendout",
+        "xbendin2",
+        "midiparse"
     ]
 }

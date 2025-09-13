@@ -27,8 +27,8 @@
     ],
     "similar": [
         "noisi~",
-        "brown~",
-        "pink~",
-        "white~"
+        "rand~",
+        "lfnoise~",
+        "randpulse2"
     ]
 }

@@ -26,8 +26,8 @@
     ],
     "similar": [
         "gemkeyname",
-        "keycode",
         "lpt",
-        "gemkeyboard"
+        "gemkeyboard",
+        "gemw32window"
     ]
 }

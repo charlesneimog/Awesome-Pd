@@ -24,5 +24,11 @@
     "categories": [
         "Patching",
         "General Utilities"
+    ],
+    "similar": [
+        "presets",
+        "gemargs",
+        "uzi",
+        "properties"
     ]
 }

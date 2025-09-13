@@ -28,7 +28,7 @@
     "similar": [
         "symbol2list",
         "list2symbol",
-        "fromsymbol",
+        "symbol2any",
         "l2s"
     ]
 }

@@ -27,8 +27,8 @@
     ],
     "similar": [
         "fbdelay~",
-        "ffdelay~",
-        "revdelay~",
-        "pipe2"
+        "delay~",
+        "ping.pong~",
+        "trig.delay~"
     ]
 }

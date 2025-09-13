@@ -37,6 +37,6 @@
         "residency~",
         "reanimator~",
         "morphine~",
-        "framedelta~"
+        "cepstrumPitch~"
     ]
 }

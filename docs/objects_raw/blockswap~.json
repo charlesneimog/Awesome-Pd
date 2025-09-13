@@ -23,9 +23,9 @@
     "description": "The `blockswap~` object swaps the upper and lower halves of an incoming audio signal vector. This operation is block-oriented and can introduce discontinuities, particularly at 32 or 64 sample boundaries, requiring careful handling to avoid audio artifacts. It is primarily used for manipulating audio signals at the block level.",
     "categories": [],
     "similar": [
+        "snapshot~",
         "blockmirror~",
-        "blocksize~",
-        "bitand~",
-        "framedelta~"
+        "bitnot~",
+        "sampleBuffer~"
     ]
 }

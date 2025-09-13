@@ -23,5 +23,11 @@
     "description": "`noisegate~` is a noise gate abstraction that passes audio signals only when their RMS value exceeds a specified threshold (in dBFS). It includes configurable parameters for threshold, attack time, release time, and analysis window size.",
     "categories": [
         "Dynamics"
+    ],
+    "similar": [
+        "compress~",
+        "duck~",
+        "expand~",
+        "norm~"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `accum` object maintains an internal numerical value, which can be initialized or set at any time. It allows for this value to be incremented by addition or multiplied by a given factor. The current accumulated value is outputted upon receiving a bang or when the value is set.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "trighold~",
+        "retrieve",
+        "bangdiv",
+        "time"
     ]
 }

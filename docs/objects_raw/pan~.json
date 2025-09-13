@@ -25,5 +25,11 @@
         "Multichannel",
         "Routing",
         "VBAP"
+    ],
+    "similar": [
+        "pan.mc~",
+        "xgate2~",
+        "xgate2.mc~",
+        "xselect2.mc~"
     ]
 }

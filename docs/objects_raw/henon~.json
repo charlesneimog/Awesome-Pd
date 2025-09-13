@@ -24,5 +24,11 @@
     "categories": [
         "Procedural",
         "Math"
+    ],
+    "similar": [
+        "gbman~",
+        "standard~",
+        "quad~",
+        "cusp~"
     ]
 }

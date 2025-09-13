@@ -24,5 +24,11 @@
     "categories": [
         "GUI",
         "Text"
+    ],
+    "similar": [
+        "note",
+        "comment",
+        "spell",
+        "number~"
     ]
 }

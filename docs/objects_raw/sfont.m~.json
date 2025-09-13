@@ -24,5 +24,11 @@
     "categories": [
         "Samplers",
         "GUI"
+    ],
+    "similar": [
+        "messbox",
+        "sfont~",
+        "popmenu",
+        "button"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `maximum~` object outputs a signal representing the greater of two input signals, or the greater of an input signal and a numerical argument. This object is deprecated; users should instead use Pure Data Vanilla's `max~` object for this functionality.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "minimum~",
+        "atanh~",
+        "greaterthaneq~",
+        "asinh~"
     ]
 }

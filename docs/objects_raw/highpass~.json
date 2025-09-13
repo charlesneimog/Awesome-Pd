@@ -23,5 +23,11 @@
     "description": "`highpass~` is a 2nd order highpass resonant filter designed for audio signals. It attenuates frequencies below a user-defined cutoff, with fixed zeroes at 0Hz and Nyquist, and its behavior is shaped by adjustable center frequency and resonance (Q or bandwidth) parameters. This object is based on standard biquad filter coefficient formulas.",
     "categories": [
         "Filters"
+    ],
+    "similar": [
+        "lowpass~",
+        "bandpass~",
+        "bandstop~",
+        "highshelf~"
     ]
 }

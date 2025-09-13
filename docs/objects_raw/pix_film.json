@@ -30,6 +30,6 @@
         "pix_movie",
         "pix_record",
         "pix_frei0r",
-        "player~"
+        "pix_multiimage"
     ]
 }

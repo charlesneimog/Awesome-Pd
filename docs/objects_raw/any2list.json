@@ -25,9 +25,9 @@
         "Data Structures"
     ],
     "similar": [
-        "join",
-        "merge",
-        "pack",
-        "l"
+        "pak",
+        "stream",
+        "l",
+        "l2i"
     ]
 }

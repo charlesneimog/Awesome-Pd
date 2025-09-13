@@ -26,9 +26,9 @@
         "Math"
     ],
     "similar": [
-        "mov.avg~",
         "mov.avg",
-        "median~",
-        "average~"
+        "average~",
+        "bicoeff2",
+        "mov.avg~"
     ]
 }

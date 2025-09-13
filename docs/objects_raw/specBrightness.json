@@ -28,6 +28,6 @@
         "phaseSpec",
         "specSkewness",
         "specBrightness~",
-        "barkSpecSkewness"
+        "barkSpecKurtosis"
     ]
 }

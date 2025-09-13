@@ -25,5 +25,11 @@
         "Routing",
         "Multichannel",
         "Audio IO"
+    ],
+    "similar": [
+        "out8~",
+        "out.mc~",
+        "out~",
+        "mix2~"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `cycle` object distributes incoming messages to its outlets in a round-robin fashion. Each message is sent to the next available outlet, wrapping around to the first after the last has been reached. It supports an \"event sensitive mode\" where new events restart the output from the leftmost outlet, useful for scheduling distinct events.",
     "categories": [
         "Routing"
+    ],
+    "similar": [
+        "gate",
+        "router",
+        "route~",
+        "spray"
     ]
 }

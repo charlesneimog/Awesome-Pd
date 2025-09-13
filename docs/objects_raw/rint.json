@@ -23,5 +23,11 @@
     "description": "The `rint` object rounds floating-point numbers to the nearest integer value. It is useful for quantizing numerical data or preparing values for integer-only operations.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "rint~",
+        "ceil",
+        "round",
+        "floor"
     ]
 }

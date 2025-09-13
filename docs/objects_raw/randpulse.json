@@ -23,5 +23,11 @@
     "description": "The `randpulse` object is a random pulse oscillator that generates a signal with a running phase. It allows control over its frequency, pulse width, and initial phase, and supports phase synchronization. Users can also set a seed for the pseudo-random number generator and adjust its internal refresh rate.",
     "categories": [
         "Oscillators"
+    ],
+    "similar": [
+        "pulse",
+        "randpulse~",
+        "pulse~",
+        "impulse2~"
     ]
 }

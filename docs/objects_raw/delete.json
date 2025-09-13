@@ -23,5 +23,11 @@
     "description": "`delete` removes one or more elements from an input message (list). It uses an index (1-based, negative for wrapping) and a count to specify which elements to remove. The object outputs the remaining elements on its left outlet and the deleted elements (or a bang on failure) on its right outlet.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "remove",
+        "insert",
+        "l2i",
+        "rotate"
     ]
 }

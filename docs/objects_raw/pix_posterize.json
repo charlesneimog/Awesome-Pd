@@ -28,6 +28,6 @@
         "pix_rgba",
         "pix_convert",
         "pix_color",
-        "yuv2rgb"
+        "pix_2grey"
     ]
 }

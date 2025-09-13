@@ -28,6 +28,6 @@
         "pix_sig2pix~",
         "pix_hsv2rgb",
         "pix_rgb2hsv",
-        "pix_takealpha"
+        "pix_colorclassify"
     ]
 }

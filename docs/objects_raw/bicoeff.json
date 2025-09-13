@@ -24,5 +24,11 @@
     "categories": [
         "Filters",
         "GUI"
+    ],
+    "similar": [
+        "coeff2pz",
+        "bicoeff2",
+        "biplot",
+        "lowpass~"
     ]
 }

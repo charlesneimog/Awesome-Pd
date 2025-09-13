@@ -23,5 +23,11 @@
     "description": "The `phaseshift~` object is a 2nd order allpass filter that alters the phase of an audio signal without changing its gain. It shifts the phase from 0 to 360 degrees, with a specified frequency point where the shift is 180 degrees, and a 'Q' parameter controlling the steepness of this phase change. It can be used to create frequency cancellations when combined with the original signal.",
     "categories": [
         "Filters"
+    ],
+    "similar": [
+        "allpass.2nd~",
+        "allpass.filt~",
+        "cross~",
+        "bandpass~"
     ]
 }

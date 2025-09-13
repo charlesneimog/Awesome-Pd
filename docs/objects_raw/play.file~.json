@@ -25,5 +25,11 @@
         "Samplers",
         "File IO",
         "Networking"
+    ],
+    "similar": [
+        "gran.player~",
+        "sfload",
+        "play~",
+        "buffer~"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `schmitt~` object implements a Schmitt trigger, outputting a 1 or 0 signal based on whether its input crosses a high or low threshold. It is useful for converting noisy or fluctuating signals into clean binary (on/off) signals, with adjustable low and high threshold levels.",
     "categories": [
         "Logic"
+    ],
+    "similar": [
+        "schmitt",
+        "thresh~",
+        "0x7c0x7c0x7e",
+        "above~"
     ]
 }

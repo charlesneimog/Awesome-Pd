@@ -24,5 +24,11 @@
     "categories": [
         "Procedural",
         "General Utilities"
+    ],
+    "similar": [
+        "uzi",
+        "counter",
+        "repeat",
+        "pulsediv~"
     ]
 }

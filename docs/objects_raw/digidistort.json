@@ -25,9 +25,9 @@
         "Distortion"
     ],
     "similar": [
-        "crusher~",
-        "drive~",
         "overdrive~",
-        "rm~"
+        "crusher~",
+        "degrade~",
+        "drive~"
     ]
 }

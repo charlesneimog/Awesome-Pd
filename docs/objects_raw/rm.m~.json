@@ -23,5 +23,11 @@
     "description": "`rm.m~` is a wrapper around the `rm~` object from the ELSE library, designed for ring modulation. It functions as a simple audio effect module, akin to a pedal, for altering sound signals.",
     "categories": [
         "Distortion"
+    ],
+    "similar": [
+        "crusher~",
+        "digidistort",
+        "drive~",
+        "overdrive~"
     ]
 }

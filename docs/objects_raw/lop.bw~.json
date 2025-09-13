@@ -23,5 +23,11 @@
     "description": "`lop.bw~` is a lowpass Butterworth filter abstraction for Pure Data. It processes an incoming audio signal, allowing only frequencies below a specified cutoff to pass through. The filter's characteristics can be adjusted by setting the cutoff frequency and an order from 2 to 100.",
     "categories": [
         "Filters"
+    ],
+    "similar": [
+        "hip.bw~",
+        "lores~",
+        "crossover~",
+        "cross~"
     ]
 }

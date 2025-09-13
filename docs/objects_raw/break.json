@@ -23,5 +23,11 @@
     "description": "The `break` object splits incoming messages or lists into smaller parts. It can break a symbol message or a list using a specified symbol as a separator. This is useful for parsing argument lists, such as those received from the `args` object, into individual components.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "list2int",
+        "separate",
+        "slice",
+        "reverse"
     ]
 }

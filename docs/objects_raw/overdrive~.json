@@ -23,5 +23,11 @@
     "description": "The `overdrive~` object simulates analog tube-based soft clipping, applying a non-linear transfer function to an incoming audio signal to create distortion. A \"drive factor\" controls the intensity of the effect, with values greater than 1 increasing distortion and values less than 1 producing a different type of distortion. Be cautious with drive factors less than 0, as they can lead to very loud output.",
     "categories": [
         "Distortion"
+    ],
+    "similar": [
+        "drive~",
+        "drive.m~",
+        "digidistort",
+        "tanh~"
     ]
 }

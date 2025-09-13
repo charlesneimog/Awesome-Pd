@@ -27,8 +27,8 @@
     ],
     "similar": [
         "list2symbol",
-        "remove",
         "s2l",
-        "insert"
+        "symbol2list",
+        "length"
     ]
 }

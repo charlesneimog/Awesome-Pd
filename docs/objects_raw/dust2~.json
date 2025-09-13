@@ -25,5 +25,11 @@
         "Oscillators",
         "Stochastic",
         "Multichannel"
+    ],
+    "similar": [
+        "dust~",
+        "randpulse2~",
+        "randpulse~",
+        "randpulse2"
     ]
 }

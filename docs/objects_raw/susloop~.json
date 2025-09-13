@@ -21,5 +21,11 @@
     "ai": true,
     "title": "susloop~",
     "description": "The `susloop~` object generates a control signal for reading and looping through audio buffers. It manages playback state (start, stop, pause, continue) and loop points, responding to gate inputs and messages for increment value, loop range, and sample size. This control signal can then drive a sampler object like `tabread~` for flexible sample playback.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "play~",
+        "gran.player~",
+        "play.file~",
+        "tabplayer~"
+    ]
 }

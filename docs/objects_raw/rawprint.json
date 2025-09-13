@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
+        "pipe2",
         "initmess",
-        "nop",
-        "any2symbol",
-        "symbol2any"
+        "default",
+        "nop"
     ]
 }

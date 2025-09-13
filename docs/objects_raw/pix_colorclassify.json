@@ -26,8 +26,8 @@
     ],
     "similar": [
         "pix_equal",
+        "pix_mask",
         "pix_color",
-        "pix_sig2pix~",
-        "pix_mask"
+        "pix_sig2pix~"
     ]
 }

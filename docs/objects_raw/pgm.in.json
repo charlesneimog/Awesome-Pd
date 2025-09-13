@@ -24,5 +24,11 @@
     "categories": [
         "MIDI",
         "Control IO"
+    ],
+    "similar": [
+        "ctl.in",
+        "touch.in",
+        "midi.out",
+        "midi.in"
     ]
 }

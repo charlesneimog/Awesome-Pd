@@ -25,5 +25,11 @@
         "Math",
         "General Utilities",
         "Text"
+    ],
+    "similar": [
+        "midi2note",
+        "cents2scale",
+        "format",
+        "samps2ms"
     ]
 }

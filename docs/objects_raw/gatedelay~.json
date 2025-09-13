@@ -24,5 +24,11 @@
     "categories": [
         "Multichannel",
         "Delay"
+    ],
+    "similar": [
+        "trig.delay~",
+        "trig.delay2~",
+        "delay~",
+        "gatedelay"
     ]
 }

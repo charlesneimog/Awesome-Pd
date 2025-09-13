@@ -24,5 +24,11 @@
     "categories": [
         "Audio IO",
         "General Utilities"
+    ],
+    "similar": [
+        "nyquist~",
+        "samps2ms",
+        "slew",
+        "rad2hz"
     ]
 }

@@ -26,8 +26,8 @@
     ],
     "similar": [
         "gate~",
-        "routetype",
-        "spray",
-        "demultiplex~"
+        "gate",
+        "mtx~",
+        "routetype"
     ]
 }

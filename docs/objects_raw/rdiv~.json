@@ -23,5 +23,11 @@
     "description": "The `rdiv~` object performs signal division, similar to `/~`, but with its inlets reversed. It divides a number (dividend) by the incoming signal or float (divisor) from its left inlet, outputting the result as a signal. The right inlet sets the dividend.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "rdiv",
+        "modulo~",
+        "rminus~",
+        "plusequals~"
     ]
 }

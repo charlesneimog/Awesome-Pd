@@ -25,5 +25,11 @@
         "Stochastic",
         "Multichannel",
         "Procedural"
+    ],
+    "similar": [
+        "rampnoise~",
+        "dust~",
+        "stepnoise~",
+        "dust2~"
     ]
 }

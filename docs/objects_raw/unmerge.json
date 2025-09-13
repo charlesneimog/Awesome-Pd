@@ -23,5 +23,11 @@
     "description": "The `unmerge` object separates an incoming message into groups of elements, sending each group to a dedicated outlet. It allows specifying the number of elements per group, with any remaining elements directed to an additional rightmost outlet. This object is primarily used for distributing message contents to different parts of a Pure Data patch.",
     "categories": [
         "Routing"
+    ],
+    "similar": [
+        "unjoin",
+        "unmerge~",
+        "dispatch",
+        "route~"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `bitxor~` object performs a bitwise exclusive OR (XOR) operation on two audio signals, or between an audio signal and a 32-bit integer bitmask. It offers multiple modes for converting floating-point signal values to integers before comparison, and the bitmask can be set via an argument, float input, or a `bits` message. This object is useful for low-level signal manipulation based on bitwise logic.",
     "categories": [
         "Logic"
+    ],
+    "similar": [
+        "bitor~",
+        "bitand~",
+        "lessthaneq~",
+        "bitnot~"
     ]
 }

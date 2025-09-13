@@ -23,5 +23,11 @@
     "description": "The `mag` object calculates the magnitude (amplitude) of a complex number, taking its real and imaginary parts as input. It is primarily used to derive the amplitude spectrum from the output of an FFT. An optional \"power\" argument allows it to output the power magnitude instead.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "pol2car",
+        "car2pol",
+        "poltocar",
+        "mag~"
     ]
 }

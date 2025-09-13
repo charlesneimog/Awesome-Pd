@@ -23,5 +23,11 @@
     "description": "The `vu~` object analyzes an incoming audio signal, providing both its RMS (Root Mean Square) amplitude and peak amplitude, expressed in dBFS. Users can configure the analysis window and hop size in samples via creation arguments or by sending a `set` message to the object.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "rms~",
+        "meter~",
+        "meter4~",
+        "zeroCrossing~"
     ]
 }

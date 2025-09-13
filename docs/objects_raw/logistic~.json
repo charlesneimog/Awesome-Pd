@@ -25,5 +25,11 @@
         "Math",
         "Oscillators",
         "Stochastic"
+    ],
+    "similar": [
+        "lincong~",
+        "quad~",
+        "standard~",
+        "latoocarfian~"
     ]
 }

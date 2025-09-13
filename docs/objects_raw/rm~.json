@@ -24,5 +24,11 @@
     "categories": [
         "Math",
         "Audio IO"
+    ],
+    "similar": [
+        "rm.m~",
+        "phasewrap~",
+        "rdiv~",
+        "modulo~"
     ]
 }

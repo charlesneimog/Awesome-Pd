@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
-        "swap2",
-        "nop~",
+        "change~",
         "bitsafe~",
+        "any2symbol",
         "list2int"
     ]
 }

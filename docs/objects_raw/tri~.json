@@ -25,5 +25,11 @@
         "Oscillators",
         "LFOs",
         "Multichannel"
+    ],
+    "similar": [
+        "saw2~",
+        "oscnoise~",
+        "square~",
+        "sine~"
     ]
 }

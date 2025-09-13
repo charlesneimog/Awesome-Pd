@@ -23,5 +23,11 @@
     "description": "The `impseq~` object generates a sequence of impulses, primarily used as rhythmic triggers. It outputs values from a user-defined list of floats, where a value of `0` acts as a rest. The sequence advances upon receiving a signal trigger or a `bang`, and can be set or navigated using `set` and `goto` messages.",
     "categories": [
         "Sequencers"
+    ],
+    "similar": [
+        "sequencer~",
+        "phaseseq~",
+        "list.seq",
+        "sequencer"
     ]
 }

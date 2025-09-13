@@ -23,5 +23,11 @@
     "description": "The `insert` object allows you to insert elements into a message (list) at a specified index position. It takes the message to be modified, the elements to insert, and an optional index (defaulting to 0) as inputs. The object then outputs the new message with the inserted elements.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "delete",
+        "replace",
+        "remove",
+        "l2i"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `selector` object acts as a multiplexer, routing messages from one of its multiple input inlets to a single output. The specific inlet to be routed is determined by a float value received in the rightmost inlet. It can be configured with a variable number of inlets.",
     "categories": [
         "Routing"
+    ],
+    "similar": [
+        "mux~",
+        "mux",
+        "multiplex~",
+        "router"
     ]
 }

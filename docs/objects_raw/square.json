@@ -27,7 +27,7 @@
     "similar": [
         "mesh_line",
         "mesh_square",
-        "circle",
-        "ripple"
+        "cube",
+        "colorSquare"
     ]
 }

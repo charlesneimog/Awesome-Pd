@@ -25,5 +25,11 @@
         "Granular",
         "Samplers",
         "File IO"
+    ],
+    "similar": [
+        "player~",
+        "stretch.shift~",
+        "brane.m~",
+        "pvoc.player~"
     ]
 }

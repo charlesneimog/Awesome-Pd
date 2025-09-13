@@ -27,7 +27,7 @@
     "similar": [
         "demux",
         "demultiplex~",
-        "demux~",
-        "router"
+        "router",
+        "gate"
     ]
 }

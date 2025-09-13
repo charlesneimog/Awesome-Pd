@@ -37,6 +37,6 @@
         "link2D",
         "pmpd2d",
         "link3D",
-        "iCircle2D"
+        "mass3D"
     ]
 }

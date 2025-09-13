@@ -21,5 +21,11 @@
     "ai": true,
     "title": "downsample~",
     "description": "The `downsample~` object samples an incoming audio signal at a specified rate in Hertz, producing a downsampled signal. It supports both interpolated and non-interpolated downsampling, offering functionality beyond vanilla's `samphold~` object. A `bang` message can restart the sampling cycle and synchronize the output.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "downsamp~",
+        "sh~",
+        "rand~",
+        "range"
+    ]
 }

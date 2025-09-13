@@ -25,5 +25,11 @@
         "Sequencers",
         "MIDI",
         "File IO"
+    ],
+    "similar": [
+        "midi",
+        "mtr",
+        "sysrt.in",
+        "sysrt.out"
     ]
 }

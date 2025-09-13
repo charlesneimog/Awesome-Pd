@@ -25,5 +25,11 @@
         "MIDI",
         "File IO",
         "Text"
+    ],
+    "similar": [
+        "seq",
+        "rec2",
+        "midi.in",
+        "note.in"
     ]
 }

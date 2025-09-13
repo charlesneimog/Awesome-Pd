@@ -33,9 +33,9 @@
         "Samplers"
     ],
     "similar": [
-        "susloop~",
-        "sample~",
         "residency~",
-        "pix_buffer_read"
+        "buffir~",
+        "pix_buffer_read",
+        "sample~"
     ]
 }

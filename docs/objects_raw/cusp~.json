@@ -25,5 +25,11 @@
         "Multichannel",
         "Procedural",
         "Math"
+    ],
+    "similar": [
+        "gbman~",
+        "henon~",
+        "lincong~",
+        "fader~"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `ceil` object is a mathematical function that rounds a number up to the nearest integer. It can process single numerical inputs or lists of numbers, outputting the ceiling value for each.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "rint",
+        "floor",
+        "ceil~",
+        "round"
     ]
 }

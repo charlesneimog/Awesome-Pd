@@ -23,5 +23,11 @@
     "description": "The `lfo.m~` object is a versatile Low Frequency Oscillator module. It generates various waveforms including sine, triangle, saw, vsaw, and square, with an option for unipolar output. It features signal inlets for Frequency Modulation (FM) and Pulse Width Modulation (PWM) with attenuverters, and a sync inlet for impulse-based synchronization.",
     "categories": [
         "LFOs"
+    ],
+    "similar": [
+        "lfo",
+        "vco.m~",
+        "oscnoise~",
+        "sine~"
     ]
 }

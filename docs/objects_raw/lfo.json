@@ -23,5 +23,11 @@
     "description": "The `lfo` object is a control-rate Low Frequency Oscillator that generates common waveforms such as sine, triangle, sawtooth, variable sawtooth, and square. It outputs values in the range of 0 to 127, and its frequency, phase, and refresh rate can be controlled via inlets or messages. This object is useful for generating modulation signals for various parameters.",
     "categories": [
         "LFOs"
+    ],
+    "similar": [
+        "lfo.m~",
+        "lfnoise",
+        "phasor",
+        "oscnoise~"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `equals~` (or `==~`) object performs a signal comparison, outputting a signal of 1 when its left inlet signal is equal to its right inlet signal or argument, and 0 otherwise. It functions as an \"is equal to\" operator for audio-rate signals, providing a binary (true/false) output based on the comparison.",
     "categories": [
         "Logic"
+    ],
+    "similar": [
+        "lessthaneq~",
+        "notequals~",
+        "greaterthaneq~",
+        "equal"
     ]
 }

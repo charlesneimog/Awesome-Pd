@@ -23,5 +23,11 @@
     "description": "The `ptouch.in` object extracts MIDI polyphonic aftertouch messages from raw MIDI input. It can filter by a specific MIDI channel or operate in omni mode, outputting the key and aftertouch value as a list, along with the MIDI channel.",
     "categories": [
         "MIDI"
+    ],
+    "similar": [
+        "touch.in",
+        "ptouch.out",
+        "pgm.out",
+        "midiformat"
     ]
 }

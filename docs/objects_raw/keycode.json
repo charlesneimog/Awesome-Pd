@@ -23,5 +23,11 @@
     "description": "The `keycode` object outputs keyboard key codes based on their physical location, making it layout independent. Its right outlet provides the key code, while the left outlet indicates the key's status (1 for pressed, 0 for released). It's important not to change the keyboard layout after loading the object.",
     "categories": [
         "Control IO"
+    ],
+    "similar": [
+        "keypress",
+        "mouse",
+        "mousefilter",
+        "mousestate"
     ]
 }

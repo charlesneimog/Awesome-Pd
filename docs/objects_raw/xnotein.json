@@ -24,5 +24,11 @@
     "categories": [
         "MIDI",
         "Control IO"
+    ],
+    "similar": [
+        "note.in",
+        "note.out",
+        "xnoteout",
+        "midi.in"
     ]
 }

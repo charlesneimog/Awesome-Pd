@@ -25,5 +25,11 @@
         "Math",
         "Filters",
         "General Utilities"
+    ],
+    "similar": [
+        "avg",
+        "mov.avg~",
+        "mean",
+        "mavg"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `listfunnel` object receives any list and outputs its elements sequentially, each preceded by its index. It supports an optional index offset, which is useful for combining outputs from multiple `listfunnel` objects or for use with `spray`.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "insert",
+        "packel",
+        "delete",
+        "replace"
     ]
 }

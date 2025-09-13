@@ -23,5 +23,11 @@
     "description": "The `toggleff~` object is a signal-triggered toggle that switches its output between 0 and 1 each time it receives an input signal. It can be initialized to either 0 or 1 using an optional float argument.",
     "categories": [
         "Logic"
+    ],
+    "similar": [
+        "thresh~",
+        "notequals~",
+        "lessthaneq~",
+        "equals~"
     ]
 }

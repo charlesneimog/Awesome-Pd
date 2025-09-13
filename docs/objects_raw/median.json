@@ -25,5 +25,11 @@
         "Statistical Models",
         "Math",
         "General Utilities"
+    ],
+    "similar": [
+        "median~",
+        "sum",
+        "minmax",
+        "deg2rad"
     ]
 }

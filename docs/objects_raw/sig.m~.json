@@ -23,5 +23,11 @@
     "description": "`sig.m~` is a signal generator. It produces an audio signal, likely a basic waveform, for use in sound synthesis or processing.",
     "categories": [
         "Oscillators"
+    ],
+    "similar": [
+        "cycle~",
+        "fbsine2~",
+        "saw~",
+        "gaussian~"
     ]
 }

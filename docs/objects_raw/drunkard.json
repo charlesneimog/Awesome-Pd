@@ -24,5 +24,11 @@
     "categories": [
         "Stochastic",
         "Math"
+    ],
+    "similar": [
+        "drunkard~",
+        "rand.f",
+        "drunk",
+        "gendyn~"
     ]
 }

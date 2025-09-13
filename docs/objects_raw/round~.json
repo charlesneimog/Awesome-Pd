@@ -23,5 +23,11 @@
     "description": "The `round~` object quantizes incoming audio signals to an integer multiple of a specified value. It supports two modes: rounding to the nearest multiple or truncating the value. Setting the rounding multiple to 0 effectively bypasses the quantization, passing the original signal through.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "round",
+        "quantizer",
+        "quantize~",
+        "rint~"
     ]
 }

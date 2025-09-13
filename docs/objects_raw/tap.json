@@ -23,5 +23,11 @@
     "description": "The `tap` object detects tempo by analyzing successive bangs, typically from user input. The first bang arms the object, and the second bang outputs the detected tempo, which can be in BPM (default) or milliseconds. Clicking the object directly acts as a bang.",
     "categories": [
         "Control IO"
+    ],
+    "similar": [
+        "keypress",
+        "mousestate",
+        "keycode",
+        "mousefilter"
     ]
 }

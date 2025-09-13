@@ -25,9 +25,9 @@
         "Procedural"
     ],
     "similar": [
-        "speed",
-        "timed.gate~",
         "l.attrfilter",
+        "repeat",
+        "polymetro~",
         "l.readsvg"
     ]
 }

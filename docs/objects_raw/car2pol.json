@@ -23,5 +23,11 @@
     "description": "The `car2pol` object converts Cartesian coordinates (real and imaginary parts) into their polar form (amplitude and phase). It takes two floats representing the real and imaginary components as input, and outputs the corresponding amplitude and phase (in both radians and degrees). This is useful for mathematical transformations in signal processing or control.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "pol2car",
+        "poltocar",
+        "poltocar~",
+        "cartopol"
     ]
 }

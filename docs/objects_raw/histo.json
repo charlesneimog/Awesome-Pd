@@ -23,5 +23,11 @@
     "description": "The `histo` object records the frequency of received positive integers, creating a histogram. It outputs the input number and its current occurrence count. Users can query the occurrence count for a specific number or clear the stored history, making it useful for probabilistic choices based on past data.",
     "categories": [
         "Statistical Models"
+    ],
+    "similar": [
+        "anal",
+        "prob",
+        "count",
+        "markov"
     ]
 }

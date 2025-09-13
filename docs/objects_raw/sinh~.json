@@ -23,5 +23,11 @@
     "description": "The `sinh~` object calculates the hyperbolic sine of an incoming signal, sample by sample. It is primarily intended for mathematical computations within Pure Data signal processing, offering a specialized function for advanced signal manipulation.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "cosh~",
+        "acosh~",
+        "asinh~",
+        "sinx~"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `hz2rad` object converts a frequency in Hertz (Hz) to radians per sample. This conversion is dependent on the current audio sample rate, using the formula `rad = (hz * 2*pi / sr)`. It is primarily used for calculations involving phase or angular velocity in digital signal processing.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "rad2hz",
+        "asin~",
+        "cosh~",
+        "scale2freq"
     ]
 }

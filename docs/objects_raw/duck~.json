@@ -23,5 +23,11 @@
     "description": "The `duck~` object is an audio dynamics processor that automatically reduces the volume of an input signal when a separate control signal exceeds a defined threshold. It provides adjustable parameters for threshold, attenuation ratio, and the attack and release times of the ducking effect.",
     "categories": [
         "Dynamics"
+    ],
+    "similar": [
+        "compress~",
+        "expand~",
+        "noisegate~",
+        "pvcompand~"
     ]
 }

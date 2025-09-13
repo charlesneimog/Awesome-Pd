@@ -23,5 +23,11 @@
     "description": "The `equal` object compares two lists. It outputs `1` if the input list from the left inlet is identical to the list provided to its right inlet (or set as an argument), otherwise it outputs `0`. This object is useful for conditional logic based on list content.",
     "categories": [
         "Logic"
+    ],
+    "similar": [
+        "lessthaneq~",
+        "notequals~",
+        "equals~",
+        "greaterthaneq~"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `rescale` object maps input values from one numerical range to another, allowing for linear, exponential, or logarithmic scaling. It supports configurable input and output ranges, and can optionally clip values to the defined output boundaries. This object is highly useful for adapting control signals, such as MIDI data, to different parameter ranges within a Pure Data patch.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "rescale~",
+        "interpolate",
+        "wrap2",
+        "scale~"
     ]
 }

@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "plusequals~",
         "e",
-        "sampstoms~",
-        "atanh"
+        "acosh",
+        "asinh",
+        "gmean"
     ]
 }

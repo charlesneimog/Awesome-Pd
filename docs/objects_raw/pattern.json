@@ -25,5 +25,11 @@
         "Sequencers",
         "Procedural",
         "Math"
+    ],
+    "similar": [
+        "score2",
+        "sequencer",
+        "sequencer~",
+        "notedur2ratio"
     ]
 }

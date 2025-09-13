@@ -24,5 +24,11 @@
     "categories": [
         "Multichannel",
         "Audio IO"
+    ],
+    "similar": [
+        "tabwriter~",
+        "batch.write~",
+        "batch.rec~",
+        "poke~"
     ]
 }

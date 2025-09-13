@@ -24,5 +24,11 @@
     "categories": [
         "Data Structures",
         "File IO"
+    ],
+    "similar": [
+        "funbuff",
+        "capture",
+        "coll",
+        "linear_path"
     ]
 }

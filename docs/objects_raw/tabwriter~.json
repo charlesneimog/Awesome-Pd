@@ -23,5 +23,11 @@
     "description": "The `tabwriter~` object records audio signals into arrays, supporting up to 64 channels with sample accuracy. It can be triggered to start/stop recording, or configured to write to specific indices within the array. Users can define recording ranges and control looping or continuation modes.",
     "categories": [
         "Multichannel"
+    ],
+    "similar": [
+        "record~",
+        "batch.write~",
+        "xfade~",
+        "spread.mc~"
     ]
 }

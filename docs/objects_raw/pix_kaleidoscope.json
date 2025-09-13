@@ -27,7 +27,7 @@
     "similar": [
         "pix_crop",
         "pix_motionblur",
-        "imageVert",
-        "gemrepeat"
+        "gemrepeat",
+        "imageVert"
     ]
 }

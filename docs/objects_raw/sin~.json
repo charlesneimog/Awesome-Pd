@@ -25,5 +25,11 @@
         "Math",
         "Oscillators",
         "Multichannel"
+    ],
+    "similar": [
+        "sinx~",
+        "bl.imp2~",
+        "fader~",
+        "square~"
     ]
 }

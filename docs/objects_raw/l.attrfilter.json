@@ -37,6 +37,6 @@
         "l.readsvg",
         "drip",
         "repeat",
-        "timed.gate~"
+        "polymetro~"
     ]
 }

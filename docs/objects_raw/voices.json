@@ -25,5 +25,11 @@
         "Routing",
         "MIDI",
         "Patching"
+    ],
+    "similar": [
+        "synth~",
+        "voices~",
+        "abs.pd~",
+        "borax"
     ]
 }

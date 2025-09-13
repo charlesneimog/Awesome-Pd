@@ -33,9 +33,9 @@
         "Filters"
     ],
     "similar": [
+        "vocoder~",
         "multyq~",
         "xsyn~",
-        "highshelf~",
-        "burrow~"
+        "lowshelf~"
     ]
 }

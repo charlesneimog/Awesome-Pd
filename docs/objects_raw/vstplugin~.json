@@ -43,8 +43,8 @@
     ],
     "similar": [
         "pix_frei0r",
+        "pgm.out",
         "gemmacoswindow",
-        "sendmidi",
         "ctl.out"
     ]
 }

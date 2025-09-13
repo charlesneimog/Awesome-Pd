@@ -23,5 +23,11 @@
     "description": "The `morph~` object performs a spectral crossfade between two input audio signals, `A` and `B`, by interpolating their amplitudes and phases. This allows for dynamic cross-synthesis and spectral morphing, creating smooth transitions or hybrid sounds based on control signals for the interpolation amount.",
     "categories": [
         "Partial Tracking"
+    ],
+    "similar": [
+        "resent~",
+        "reanimator~",
+        "pvwarpb~",
+        "residency~"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `bangdiv` object acts as a bang divider or counter. It outputs a bang for every N input bangs, where N is a configurable division value. It also provides a \"rest\" output, likely indicating when an input bang does not result in a divided output bang.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "pulsediv~",
+        "merge",
+        "bangbang",
+        "counter"
     ]
 }

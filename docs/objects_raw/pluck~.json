@@ -25,5 +25,11 @@
         "MIDI",
         "Delay",
         "Filters"
+    ],
+    "similar": [
+        "filterdelay~",
+        "comb.filt~",
+        "pluck.m~",
+        "allpass~"
     ]
 }

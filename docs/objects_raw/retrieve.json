@@ -23,5 +23,11 @@
     "description": "The `retrieve` object fetches data from other connected Pure Data objects or GUI elements. It can be configured with a `set <symbol>` message to specify a receive name, and a `bang` message triggers the retrieval of the current value. This object is useful for accessing and storing dynamic data within a patch.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "any2symbol",
+        "reverse",
+        "nop",
+        "substitute"
     ]
 }

@@ -24,5 +24,11 @@
     "categories": [
         "Statistical Models",
         "Stochastic"
+    ],
+    "similar": [
+        "markov",
+        "rand.dist",
+        "rand.f~",
+        "brown"
     ]
 }

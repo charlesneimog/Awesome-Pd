@@ -23,5 +23,11 @@
     "description": "The `gendyn.m~` object, a wrapper for `gendyn~` from the ELSE library, dynamically generates audio waveforms. It takes a MIDI center pitch and allows control over parameters like bandwidth, waveform points, and interpolation type. This object is useful for creating evolving or modulated audio signals.",
     "categories": [
         "Oscillators"
+    ],
+    "similar": [
+        "xmod2~",
+        "bl.wavetable~",
+        "function~",
+        "trapezoid~"
     ]
 }

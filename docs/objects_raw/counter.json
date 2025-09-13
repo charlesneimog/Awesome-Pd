@@ -23,5 +23,11 @@
     "description": "The `counter` object increments or decrements an integer value within a specified minimum and maximum range. It supports counting up, down, or alternating directions, and offers configurable \"carry\" modes to signal when the counter reaches its limits. This object is useful for creating step sequencers, managing event counts, or controlling iterative processes.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "pulsediv~",
+        "bangdiv",
+        "change~",
+        "slew"
     ]
 }

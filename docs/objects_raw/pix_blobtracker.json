@@ -29,6 +29,6 @@
         "pix_multiblob",
         "pix_drum",
         "pix_indycam",
-        "spectrograph~"
+        "pix_histo"
     ]
 }

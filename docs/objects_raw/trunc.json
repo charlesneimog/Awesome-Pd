@@ -24,5 +24,11 @@
     "categories": [
         "Math",
         "General Utilities"
+    ],
+    "similar": [
+        "minmax",
+        "dec2hex",
+        "float2bits",
+        "frac2cents"
     ]
 }

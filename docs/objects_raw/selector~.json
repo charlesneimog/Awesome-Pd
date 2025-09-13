@@ -23,5 +23,11 @@
     "description": "`selector~` is an audio object that selects one of its multiple signal inputs to be passed to its output. The selection can be controlled by a signal, enabling sample-accurate switching between input channels. If no input is selected, it outputs silence.",
     "categories": [
         "Routing"
+    ],
+    "similar": [
+        "gate~",
+        "mux~",
+        "multiplex~",
+        "multiplex"
     ]
 }

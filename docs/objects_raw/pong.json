@@ -24,5 +24,11 @@
     "categories": [
         "Math",
         "General Utilities"
+    ],
+    "similar": [
+        "pong~",
+        "wrap",
+        "clip",
+        "sh~"
     ]
 }

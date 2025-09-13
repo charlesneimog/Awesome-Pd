@@ -23,5 +23,11 @@
     "description": "The `note.out` object formats and sends MIDI pitch messages, including Note On and Note Off events, to Pure Data's MIDI output or its outlet. It handles pitch, velocity, and channel inputs, and can optionally output release velocity. This object simplifies sending MIDI note data, acting as a direct interface to external MIDI devices or other MIDI-related Pure Data objects.",
     "categories": [
         "MIDI"
+    ],
+    "similar": [
+        "xnoteout",
+        "borax",
+        "note.in",
+        "noteinfo"
     ]
 }

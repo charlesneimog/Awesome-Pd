@@ -28,7 +28,7 @@
     "similar": [
         "freadln",
         "msgfile",
-        "dir",
-        "rec.file~"
+        "text3d",
+        "pix_write"
     ]
 }

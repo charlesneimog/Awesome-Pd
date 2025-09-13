@@ -23,5 +23,11 @@
     "description": "The `acosh~` object calculates the hyperbolic arc-cosine of an incoming signal, sample by sample. Primarily intended for mathematical operations, it outputs zero for any input values less than 1.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "cosh~",
+        "asinh~",
+        "sinh~",
+        "acos~"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `router` object directs incoming messages from its left inlet to one of its multiple outlets. The specific outlet is determined by a float received in the right inlet. If the specified outlet number is out of range, the message is not output.",
     "categories": [
         "Routing"
+    ],
+    "similar": [
+        "demultiplex",
+        "demux",
+        "gate~",
+        "gate"
     ]
 }

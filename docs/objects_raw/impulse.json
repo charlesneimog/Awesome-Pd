@@ -23,5 +23,11 @@
     "description": "The `impulse` object functions as a control-rate oscillator that generates bangs at regular intervals, marking period transitions. Its rate can be set by frequency in Hz or by period in milliseconds, and its phase can be synchronized or reset. This object is useful for precise timing and rhythmic event generation.",
     "categories": [
         "Oscillators"
+    ],
+    "similar": [
+        "pimp",
+        "pulse",
+        "randpulse",
+        "gaussian~"
     ]
 }

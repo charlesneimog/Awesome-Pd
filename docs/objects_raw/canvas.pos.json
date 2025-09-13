@@ -21,5 +21,11 @@
     "ai": true,
     "title": "canvas.pos",
     "description": "The `canvas.pos` object reports the screen coordinates (x, y) of its parent subpatch or subwindow. When triggered by a `bang`, it outputs a list of two floats representing these coordinates. This object is useful for dynamically querying the visual layout of nested Pure Data patches.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "canvas.mouse",
+        "canvas.bounds",
+        "cart2pol",
+        "canvas.edit"
+    ]
 }

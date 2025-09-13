@@ -25,5 +25,11 @@
         "Oscillators",
         "Subtractive",
         "Multichannel"
+    ],
+    "similar": [
+        "vsaw~",
+        "bl.osc~",
+        "square~",
+        "bl.vsaw~"
     ]
 }

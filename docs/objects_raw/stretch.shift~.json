@@ -24,5 +24,11 @@
     "categories": [
         "Granular",
         "Audio IO"
+    ],
+    "similar": [
+        "pvoc.live~",
+        "pitch.shift~",
+        "gran.player~",
+        "grain.live~"
     ]
 }

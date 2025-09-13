@@ -23,5 +23,11 @@
     "description": "The `frac2dec` object converts fractional representations (e.g., \"1/2\", \"3/4\") into their corresponding decimal floating-point numbers. It supports single fractions or lists, including those with non-integer components or nested fractional denominators/numerators, making it useful for ratio-based calculations.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "frac.mul",
+        "frac.add",
+        "rint",
+        "cents2ratio"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `asinh` object calculates the hyperbolic arc-sine of a given floating-point number. It takes a float as input, which is stored, and outputs the result. A `bang` message can also trigger the calculation with the currently stored input.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "acosh",
+        "asin",
+        "sinh",
+        "atanh"
     ]
 }

@@ -28,6 +28,6 @@
         "peakSample",
         "minSample",
         "maxSampleDelta",
-        "minSampleDelta"
+        "maxSample~"
     ]
 }

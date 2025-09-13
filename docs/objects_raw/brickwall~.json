@@ -23,5 +23,11 @@
     "description": "The `brickwall~` object is a 10th-order Butterworth lowpass filter primarily designed for anti-aliasing. It applies 16x oversampling to effectively remove high-frequency components from a signal. Its cutoff frequency can be controlled via its second inlet, defaulting to 0.75 times the global Nyquist frequency.",
     "categories": [
         "Filters"
+    ],
+    "similar": [
+        "lop.bw~",
+        "cross~",
+        "crossover~",
+        "hip.bw~"
     ]
 }

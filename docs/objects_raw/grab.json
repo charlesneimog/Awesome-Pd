@@ -23,5 +23,11 @@
     "description": "The `grab` object sends a message to another object and intercepts its output, routing it through `grab`'s own outlets. It can be configured with a float argument to match the number of outlets of the grabbed object, or with a symbol argument to grab output from a named `receive` object. `grab` is particularly useful for setting GUI values while simultaneously capturing their output, enabling preset management.",
     "categories": [
         "GUI"
+    ],
+    "similar": [
+        "messbox",
+        "meter2~",
+        "number~",
+        "knob"
     ]
 }

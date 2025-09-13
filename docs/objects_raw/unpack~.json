@@ -27,7 +27,7 @@
     "similar": [
         "pack~",
         "l2i",
-        "l",
-        "repack"
+        "remove",
+        "l"
     ]
 }

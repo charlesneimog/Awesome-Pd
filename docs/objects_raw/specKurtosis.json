@@ -28,6 +28,6 @@
         "specCentroid",
         "specSpread",
         "specFlatness",
-        "phaseSpec"
+        "specSkewness"
     ]
 }

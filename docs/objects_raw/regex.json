@@ -28,7 +28,7 @@
     "similar": [
         "regex-help",
         "match",
-        "fromsymbol",
-        "makesymbol"
+        "makesymbol",
+        "matchbox"
     ]
 }

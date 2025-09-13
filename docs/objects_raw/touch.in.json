@@ -24,5 +24,11 @@
     "categories": [
         "MIDI",
         "Control IO"
+    ],
+    "similar": [
+        "touch.out",
+        "ptouch.out",
+        "midi.in",
+        "ptouch.in"
     ]
 }

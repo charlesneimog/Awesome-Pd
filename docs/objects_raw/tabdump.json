@@ -28,7 +28,7 @@
     "similar": [
         "tabset",
         "l2s",
-        "iterate",
-        "insert"
+        "histogram",
+        "length"
     ]
 }

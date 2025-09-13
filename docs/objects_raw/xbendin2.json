@@ -23,5 +23,11 @@
     "description": "The `xbendin2` object parses incoming raw MIDI data to extract the Most Significant Byte (MSB) and Least Significant Byte (LSB) of pitch bend messages, which can be combined to form a 14-bit value. It also outputs the MIDI channel number and can filter messages by channel. This object is considered redundant and deprecated, with `bendin` or `else/bend.in` being recommended alternatives.",
     "categories": [
         "MIDI"
+    ],
+    "similar": [
+        "xbendout2",
+        "xbendin",
+        "xbendout",
+        "midiparse"
     ]
 }

@@ -24,5 +24,11 @@
     "categories": [
         "Math",
         "General Utilities"
+    ],
+    "similar": [
+        "mstosamps~",
+        "avg",
+        "clip",
+        "mean"
     ]
 }

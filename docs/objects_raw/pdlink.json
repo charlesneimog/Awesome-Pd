@@ -24,5 +24,11 @@
     "categories": [
         "Networking",
         "Routing"
+    ],
+    "similar": [
+        "pdlink~",
+        "osc.send",
+        "osc.receive",
+        "multireceive"
     ]
 }

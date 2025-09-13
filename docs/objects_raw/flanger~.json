@@ -24,5 +24,11 @@
     "categories": [
         "Chorus/Flanger/Phaser",
         "Delay"
+    ],
+    "similar": [
+        "ffdelay~",
+        "flanger.m~",
+        "comb~",
+        "tremolo~"
     ]
 }

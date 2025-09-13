@@ -23,5 +23,11 @@
     "description": "The `knob` object is a highly customizable graphical user interface (GUI) element that functions as a rotary control. It outputs float values, supports exponential and logarithmic scaling, and offers extensive visual and behavioral customization, including discrete steps, angular range, and color settings. It integrates with MIDI, allows state saving, and responds to various input methods like mouse dragging and keyboard navigation.",
     "categories": [
         "GUI"
+    ],
+    "similar": [
+        "range.hsl",
+        "messbox",
+        "mtx.ctl",
+        "number~"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `pack2` object combines multiple inputs into a single list, similar to `pack`. Unlike `pack`, any incoming message to any inlet triggers its output, though a `set` message can update an inlet's value without triggering an immediate output. It supports both float and symbol data types, allowing for dynamic type changes per inlet.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "pak",
+        "pack",
+        "repack",
+        "l"
     ]
 }

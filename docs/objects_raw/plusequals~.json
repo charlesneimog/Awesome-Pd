@@ -23,5 +23,11 @@
     "description": "The `plusequals~` (or `+=~`) object is a signal accumulator that continuously sums its input samples, generating a running total. Its internal sum can be reset to zero by a `bang` or a non-zero signal in the right inlet, and can be initialized to a specific value using the `set <float>` message or a float in the left inlet. This object is useful for creating ramps or tracking cumulative signal changes in audio signals.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "add~",
+        "add",
+        "rdiv~",
+        "minimum"
     ]
 }

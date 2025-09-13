@@ -25,5 +25,11 @@
         "Envelopes",
         "Granular",
         "Audio IO"
+    ],
+    "similar": [
+        "grain.synth~",
+        "grain.sampler~",
+        "stretch.shift~",
+        "pvoc.live~"
     ]
 }

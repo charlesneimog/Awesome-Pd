@@ -25,5 +25,11 @@
         "Granular",
         "Oscillators",
         "Physical Modeling"
+    ],
+    "similar": [
+        "plaits.m~",
+        "pluck.m~",
+        "xmod2~",
+        "enrich~"
     ]
 }

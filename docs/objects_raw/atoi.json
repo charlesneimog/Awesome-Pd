@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
-        "dec2hex",
         "separate",
-        "format",
-        "tosymbol"
+        "atof",
+        "symbol2any",
+        "unite"
     ]
 }

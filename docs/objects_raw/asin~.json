@@ -23,5 +23,11 @@
     "description": "The `asin~` object calculates the arc-sine of each input audio sample. It expects input values between -1 and 1, producing an output ranging from -pi/2 to pi/2. Inputs outside this range will result in an output of zero.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "acos~",
+        "asin",
+        "pi",
+        "sinx~"
     ]
 }

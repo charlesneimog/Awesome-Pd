@@ -23,5 +23,11 @@
     "description": "The `active` object outputs `1` when its parent patch canvas is the active, front-most window, and `0` when it is inactive. This is useful for dynamically adjusting a patch's behavior or UI elements, such as filtering input from `key` or `ctlin` objects, based on its window focus.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "canvas.vis",
+        "retrieve",
+        "fontsize",
+        "blocksize~"
     ]
 }

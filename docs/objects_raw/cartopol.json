@@ -23,5 +23,11 @@
     "description": "The `cartopol~` object converts Cartesian coordinates (real and imaginary parts) from signal inputs into polar coordinates (amplitude and phase) as signal outputs. This fundamental mathematical transformation is crucial for various audio signal processing tasks, particularly in frequency domain analysis and synthesis.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "poltocar~",
+        "car2pol",
+        "pol2car",
+        "cartopol~"
     ]
 }

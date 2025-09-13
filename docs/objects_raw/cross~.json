@@ -23,5 +23,11 @@
     "description": "`cross~` is a 3rd order Butterworth crossover filter designed to split an incoming audio signal into lowpass and highpass components. It provides two outlets for these filtered signals, which can be used independently or combined to create a full crossover. The filter's cutoff frequency can be controlled via a float or signal input.",
     "categories": [
         "Filters"
+    ],
+    "similar": [
+        "crossover~",
+        "lop.bw~",
+        "hip.bw~",
+        "brickwall~"
     ]
 }

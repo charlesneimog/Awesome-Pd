@@ -24,5 +24,11 @@
     "categories": [
         "Oscillators",
         "Multichannel"
+    ],
+    "similar": [
+        "pm2~",
+        "pm6~",
+        "pm~",
+        "saw2~"
     ]
 }

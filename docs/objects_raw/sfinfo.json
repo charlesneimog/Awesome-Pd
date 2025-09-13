@@ -23,5 +23,11 @@
     "description": "The `sfinfo` object queries information about sound files, supporting formats compatible with `sfload` and `play.file~`. It can retrieve the number of audio channels and, for AIFF files, detailed instrument metadata such as base note, velocity ranges, gain, and loop points. This object is currently experimental.",
     "categories": [
         "File IO"
+    ],
+    "similar": [
+        "scala",
+        "sfload",
+        "play.file~",
+        "player~"
     ]
 }

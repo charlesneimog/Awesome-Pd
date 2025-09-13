@@ -23,5 +23,11 @@
     "description": "The `slide~` object logarithmically smooths an input audio signal, preventing abrupt changes and clicks. It provides independent control over \"slide up\" and \"slide down\" times in samples, making it useful for non-linear audio transitions, envelope following, and lowpass filtering.",
     "categories": [
         "Filters"
+    ],
+    "similar": [
+        "rampsmooth~",
+        "burrow~",
+        "svf~",
+        "xsyn~"
     ]
 }

@@ -24,5 +24,11 @@
     "categories": [
         "General Utilities",
         "Sequencers"
+    ],
+    "similar": [
+        "score",
+        "phaseseq~",
+        "counter",
+        "tempo~"
     ]
 }

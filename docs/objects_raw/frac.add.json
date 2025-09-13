@@ -23,5 +23,11 @@
     "description": "The `frac.add` object is used to add two fractional values. It takes two fractional inputs, one on the left and one on the right, and outputs their sum as a new fraction.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "frac.mul",
+        "add~",
+        "add",
+        "frac2dec"
     ]
 }

@@ -33,9 +33,9 @@
         "Oscillators"
     ],
     "similar": [
-        "bl.saw2~",
-        "cycle~",
-        "damp.osc~",
-        "xmod~"
+        "gaussian~",
+        "saw~",
+        "randpulse",
+        "damp.osc~"
     ]
 }

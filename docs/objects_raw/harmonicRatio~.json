@@ -27,7 +27,7 @@
     "similar": [
         "harmonicRatio",
         "specKurtosis~",
-        "phaseSpec~",
+        "specSkewness~",
         "specBrightness~"
     ]
 }

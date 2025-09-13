@@ -24,5 +24,11 @@
     "categories": [
         "Procedural",
         "Stochastic"
+    ],
+    "similar": [
+        "brown~",
+        "lfnoise~",
+        "stepnoise",
+        "noish~"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `spray` object distributes incoming values to its multiple outlets. It can route individual elements or entire lists to specific outlets, determined by an index within the input list and an optional offset. A special \"list output\" mode allows sending a complete list to a single designated outlet.",
     "categories": [
         "Routing"
+    ],
+    "similar": [
+        "demux",
+        "demultiplex",
+        "demultiplex~",
+        "unjoin"
     ]
 }

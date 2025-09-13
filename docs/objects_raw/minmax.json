@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
-        "clip",
-        "amean",
-        "scale~",
-        "avg"
+        "sum",
+        "trunc",
+        "minmax~",
+        "float2bits"
     ]
 }

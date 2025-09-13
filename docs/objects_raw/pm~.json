@@ -25,5 +25,11 @@
         "Oscillators",
         "Multichannel",
         "Chorus/Flanger/Phaser"
+    ],
+    "similar": [
+        "fm~",
+        "pm2~",
+        "fbsine~",
+        "saw2~"
     ]
 }

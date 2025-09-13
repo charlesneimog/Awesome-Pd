@@ -25,5 +25,11 @@
         "Math",
         "Oscillators",
         "Procedural"
+    ],
+    "similar": [
+        "cusp~",
+        "henon~",
+        "latoocarfian~",
+        "logistic~"
     ]
 }

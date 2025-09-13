@@ -23,5 +23,11 @@
     "description": "The `crackle~` object generates a chaotic noise signal. It features a 'p' parameter, controllable by a float or signal between 0 and 1, which influences the chaotic function. The object also allows clearing its internal filter memory.",
     "categories": [
         "Stochastic"
+    ],
+    "similar": [
+        "brown~",
+        "ikeda~",
+        "lincong~",
+        "rand.dist"
     ]
 }

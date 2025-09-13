@@ -23,5 +23,11 @@
     "description": "`reson~` is a bandpass resonant filter that processes audio signals. It allows control over gain, center frequency, and Q (resonance) via floats or signals. As a recursive filter, it includes a `clear` message to reset its internal buffer if instability occurs.",
     "categories": [
         "Filters"
+    ],
+    "similar": [
+        "bandpass~",
+        "lores~",
+        "svfilter~",
+        "eq~"
     ]
 }

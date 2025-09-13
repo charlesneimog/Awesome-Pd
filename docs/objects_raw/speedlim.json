@@ -23,5 +23,11 @@
     "description": "The `speedlim` object limits the rate at which messages are passed through. It only outputs a message if a specified time (in milliseconds) has elapsed since the last output. If multiple messages arrive within the time limit, only the last one received is sent after the delay, effectively filtering rapid message bursts.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "limit",
+        "pipe2",
+        "default",
+        "slew"
     ]
 }

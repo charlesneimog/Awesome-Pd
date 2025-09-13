@@ -23,5 +23,11 @@
     "description": "The `sysrt.in` object detects and outputs system and real-time MIDI messages. It provides a raw MIDI data stream as a float and sends bangs for specific MIDI events such as clock, start, continue, stop, active sensing, reset, and tick. This object is useful for synchronizing with external MIDI devices or processing MIDI timing information.",
     "categories": [
         "MIDI"
+    ],
+    "similar": [
+        "sysrt.out",
+        "midi.clock",
+        "pgm.out",
+        "note.out"
     ]
 }

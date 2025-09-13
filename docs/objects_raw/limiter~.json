@@ -26,9 +26,9 @@
         "Multichannel"
     ],
     "similar": [
-        "dbgain~",
         "level~",
-        "expand~",
-        "compress~"
+        "dbgain~",
+        "vca.m~",
+        "duck~"
     ]
 }

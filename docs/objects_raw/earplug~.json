@@ -31,8 +31,8 @@
     ],
     "similar": [
         "sofalizer~",
+        "rad2deg",
         "phaseshift~",
-        "cart2sph",
-        "sph2cart"
+        "cart2sph"
     ]
 }

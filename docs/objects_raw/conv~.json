@@ -24,5 +24,11 @@
     "categories": [
         "Reverb",
         "Filters"
+    ],
+    "similar": [
+        "convolve~",
+        "burrow~",
+        "comb.rev~",
+        "allpass.rev~"
     ]
 }

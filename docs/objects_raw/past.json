@@ -23,5 +23,11 @@
     "description": "The `past` object compares an incoming list of numbers against a list of thresholds. It outputs a `bang` only when all input values exceed their corresponding thresholds, and crucially, only if they were previously at or below those thresholds. This allows for stateful triggering when values \"pass\" a certain point after having been below it.",
     "categories": [
         "Logic"
+    ],
+    "similar": [
+        "thresh~",
+        "equal",
+        "match~",
+        "bitor~"
     ]
 }

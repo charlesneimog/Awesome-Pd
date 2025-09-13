@@ -23,5 +23,11 @@
     "description": "The `svf~` object implements a state-variable filter, simultaneously outputting lowpass, highpass, bandpass, and notch filtered signals. It allows control over cutoff/center frequency (in Hz, linear, or radians) and Q/resonance, making it a versatile tool for shaping audio.",
     "categories": [
         "Filters"
+    ],
+    "similar": [
+        "svfilter~",
+        "vcf.m~",
+        "lores~",
+        "highpass~"
     ]
 }

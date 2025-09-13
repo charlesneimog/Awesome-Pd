@@ -23,5 +23,11 @@
     "description": "The `pgm.out` object formats and sends MIDI program change messages (0-127) to Pd's configured MIDI output device. It can also output raw MIDI data to its outlet for further processing. The MIDI channel can be specified as an argument or via an inlet.",
     "categories": [
         "MIDI"
+    ],
+    "similar": [
+        "ctl.out",
+        "touch.out",
+        "note.out",
+        "pgm.in"
     ]
 }

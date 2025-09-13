@@ -24,5 +24,11 @@
     "categories": [
         "Stochastic",
         "Oscillators"
+    ],
+    "similar": [
+        "lfnoise~",
+        "noish~",
+        "noisi~",
+        "randpulse2"
     ]
 }

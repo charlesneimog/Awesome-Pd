@@ -23,5 +23,11 @@
     "description": "The `f2s~` (or `float2sig~`) object converts float values or lists of floats into audio signals, using `vline~` for smooth, ramped transitions. It allows specifying a ramp time in milliseconds for the conversion, enabling gradual changes. This object supports multichannel connections, making it suitable for dynamic control of multiple audio parameters.",
     "categories": [
         "Multichannel"
+    ],
+    "similar": [
+        "float2sig~",
+        "glide~",
+        "smooth~",
+        "slew~"
     ]
 }

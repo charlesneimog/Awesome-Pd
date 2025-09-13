@@ -23,5 +23,11 @@
     "description": "The `onebang` object gates incoming bangs, allowing the first bang through its left outlet only after a bang has been received in its right inlet. Subsequent bangs, or bangs received before the right inlet is triggered, are sent to the right outlet. It can be reset to re-enable the gate.",
     "categories": [
         "Logic"
+    ],
+    "similar": [
+        "next",
+        "lessthaneq~",
+        "togedge",
+        "match~"
     ]
 }

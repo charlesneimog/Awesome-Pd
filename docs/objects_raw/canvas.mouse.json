@@ -24,5 +24,11 @@
     "categories": [
         "Control IO",
         "GUI"
+    ],
+    "similar": [
+        "pad",
+        "mouse",
+        "click",
+        "button"
     ]
 }

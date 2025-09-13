@@ -23,5 +23,11 @@
     "description": "`lowpass~` is a 2nd order resonant lowpass filter for audio signals. It allows control over the central frequency and resonance (Q or bandwidth), and can be bypassed or cleared. This biquad filter inherently filters out both 0Hz and Nyquist frequencies.",
     "categories": [
         "Filters"
+    ],
+    "similar": [
+        "highpass~",
+        "bandpass~",
+        "eq~",
+        "bandstop~"
     ]
 }

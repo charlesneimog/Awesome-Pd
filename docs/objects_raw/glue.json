@@ -26,8 +26,8 @@
     ],
     "similar": [
         "repack",
-        "join",
-        "merge",
-        "pack2"
+        "pack2",
+        "rotate",
+        "buffer"
     ]
 }

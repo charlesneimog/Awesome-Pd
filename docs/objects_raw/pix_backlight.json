@@ -27,7 +27,7 @@
     "similar": [
         "translate",
         "shearYX",
-        "rotate",
+        "pix_composite",
         "pix_lumaoffset"
     ]
 }

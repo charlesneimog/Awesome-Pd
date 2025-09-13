@@ -24,5 +24,11 @@
     "categories": [
         "MIDI",
         "Text"
+    ],
+    "similar": [
+        "midi",
+        "note.out",
+        "noteinfo",
+        "borax"
     ]
 }

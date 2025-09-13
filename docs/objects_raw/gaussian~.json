@@ -23,5 +23,11 @@
     "description": "`gaussian~` is a gaussian oscillator that generates a bell-shaped waveform, with a 'width' parameter controlling its shape. It supports phase synchronization, phase modulation, and can be reset by an impulse signal. The object also features multichannel audio support and accepts frequency input in either Hertz or MIDI pitch.",
     "categories": [
         "Oscillators"
+    ],
+    "similar": [
+        "saw~",
+        "impulse2~",
+        "randpulse",
+        "bl.wavetable~"
     ]
 }

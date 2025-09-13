@@ -23,5 +23,11 @@
     "description": "The `phaseseq~` object generates impulses when an incoming phase signal crosses a predefined list of threshold values. It is designed for rhythmic or sequential triggering based on a continuous phase input, allowing for precise control over event timing. Users can set thresholds via a list, and it outputs both the impulses and the index of the crossed threshold.",
     "categories": [
         "Sequencers"
+    ],
+    "similar": [
+        "impseq~",
+        "sequencer~",
+        "seq8.m~",
+        "metronome"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `scramble` object randomly reorders the elements of an input message. It outputs the scrambled message through its middle outlet and the corresponding scrambled indexes as a list through its rightmost outlet. This object is useful for introducing controlled randomness into data sequences.",
     "categories": [
         "Stochastic"
+    ],
+    "similar": [
+        "disarrain~",
+        "decide",
+        "stepnoise",
+        "rand.f~"
     ]
 }

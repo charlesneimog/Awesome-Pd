@@ -27,8 +27,8 @@
     ],
     "similar": [
         "buffer",
-        "poke~",
-        "packel",
-        "table"
+        "combine",
+        "rotate",
+        "packel"
     ]
 }

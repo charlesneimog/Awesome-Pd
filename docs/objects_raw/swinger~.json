@@ -31,9 +31,9 @@
     "description": "`swinger~` is a cross-synthesis object that replaces the phase of one input signal (the amplitude source) with the phase of another input signal (the phase source). This allows for novel timbral transformations by combining the spectral characteristics of two different sounds.",
     "categories": [],
     "similar": [
+        "pimp~",
         "xsyn~",
-        "vocoder~",
-        "phaseSpec~",
-        "pileup~"
+        "impulse~",
+        "vocoder~"
     ]
 }

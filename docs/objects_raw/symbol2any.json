@@ -25,5 +25,11 @@
         "Data Structures",
         "General Utilities",
         "Text"
+    ],
+    "similar": [
+        "s2l",
+        "symbol2list",
+        "atoi",
+        "list2symbol"
     ]
 }

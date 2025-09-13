@@ -23,5 +23,11 @@
     "description": "The `borax` object processes incoming MIDI note and velocity data, providing detailed reports on individual note events. It tracks active voices, note pitch, velocity, duration, and the time difference between note-on events, functioning similarly to `poly` for voice management.",
     "categories": [
         "MIDI"
+    ],
+    "similar": [
+        "noteinfo",
+        "note.out",
+        "xnoteout",
+        "makenote2"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "`list.inc` generates a numerical list based on a starting value, a step value, and the desired number of elements. It supports both linear incrementing (adding the step value) and a 'ratio' mode where the step value is multiplied.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "maximum",
+        "interpolate",
+        "quantizer",
+        "minimum"
     ]
 }

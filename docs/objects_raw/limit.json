@@ -24,5 +24,11 @@
     "categories": [
         "Logic",
         "General Utilities"
+    ],
+    "similar": [
+        "speedlim",
+        "match",
+        "pipe2",
+        "default"
     ]
 }

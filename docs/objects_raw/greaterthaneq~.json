@@ -24,5 +24,11 @@
     "categories": [
         "Logic",
         "Math"
+    ],
+    "similar": [
+        "greaterthan~",
+        "lessthaneq~",
+        "notequals~",
+        "lessthan~"
     ]
 }

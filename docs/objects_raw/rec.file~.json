@@ -24,5 +24,11 @@
     "categories": [
         "File IO",
         "Audio IO"
+    ],
+    "similar": [
+        "batch.rec~",
+        "record~",
+        "pvoc.player~",
+        "scala"
     ]
 }

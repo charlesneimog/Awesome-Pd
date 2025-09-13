@@ -26,8 +26,8 @@
     ],
     "similar": [
         "listfind",
+        "lace",
         "l",
-        "l2i",
-        "merge"
+        "stream"
     ]
 }

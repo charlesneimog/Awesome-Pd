@@ -24,5 +24,11 @@
     "categories": [
         "Multichannel",
         "Oscillators"
+    ],
+    "similar": [
+        "tabreader",
+        "wavetable~",
+        "wave~",
+        "wt2d~"
     ]
 }

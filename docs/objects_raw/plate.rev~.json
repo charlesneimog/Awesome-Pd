@@ -23,5 +23,11 @@
     "description": "`plate.rev~` is a stereo plate reverb abstraction based on Dattorro's model, designed for adding reverberation to mono audio signals. It provides control over parameters such as pre-delay, filter cutoff, high-frequency damping, room size, and wet/dry mix. This object is suitable for simulating realistic or stylized reverberant spaces.",
     "categories": [
         "Reverb"
+    ],
+    "similar": [
+        "mono.rev~",
+        "free.rev~",
+        "giga.rev~",
+        "stereo.rev~"
     ]
 }

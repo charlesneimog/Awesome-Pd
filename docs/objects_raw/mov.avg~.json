@@ -23,5 +23,11 @@
     "description": "The `mov.avg~` object calculates a moving (or running) average of an incoming audio signal. It outputs the arithmetic mean over the last 'n' samples, where 'n' can be set as the first argument or via a `float` or `signal` input. The object also supports an \"absolute average\" mode and allows clearing its internal memory or setting a new maximum buffer size.",
     "categories": [
         "Filters"
+    ],
+    "similar": [
+        "mov.avg",
+        "buffir~",
+        "crossover~",
+        "rampsmooth~"
     ]
 }

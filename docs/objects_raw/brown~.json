@@ -23,5 +23,11 @@
     "description": "`brown~` generates brown noise, also known as Brownian or red noise, characterized by a 6dB/octave spectral rolloff, making it less hissy than white noise. It operates as a bounded random walk within -1 and 1, with a configurable maximum step size that influences its spectral characteristics. The object also supports seeding for reproducible noise sequences and can generate new random steps via signal input.",
     "categories": [
         "Stochastic"
+    ],
+    "similar": [
+        "stepnoise",
+        "lfnoise~",
+        "drunk",
+        "rand.f~"
     ]
 }

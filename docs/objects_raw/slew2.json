@@ -21,5 +21,11 @@
     "ai": true,
     "title": "slew2",
     "description": "`slew2` is a slew limiter that smooths incoming numerical values by limiting their rate of change, effectively creating a portamento effect. It allows independent control over the upward and downward slew speeds, as well as a refresh rate for its internal processing.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "slew",
+        "slew2~",
+        "slew~",
+        "deltaclip~"
+    ]
 }

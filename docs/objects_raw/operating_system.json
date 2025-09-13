@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
+        "retrieve",
         "bangbang",
-        "symbol2any",
-        "time",
-        "trig2bang"
+        "trighold~",
+        "bangdiv"
     ]
 }

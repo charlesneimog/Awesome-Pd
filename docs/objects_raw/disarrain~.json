@@ -34,8 +34,8 @@
     ],
     "similar": [
         "scramble",
-        "lfnoise~",
-        "prob",
-        "lfnoise"
+        "rand.f~",
+        "crackle~",
+        "brown~"
     ]
 }

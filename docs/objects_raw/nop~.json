@@ -23,5 +23,11 @@
     "description": "`nop~` is a Pure Data object that performs no operation, simply passing its signal input directly to its signal output. Its primary purpose is to help manage and organize signal connections within a patch, acting as a visual placeholder or routing point without altering the audio signal.",
     "categories": [
         "Routing"
+    ],
+    "similar": [
+        "mux~",
+        "demultiplex~",
+        "multiplex~",
+        "mtx~"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `framedelta~` object computes the difference between successive signal blocks, specifically designed for running phase deviation in FFT analysis. It subtracts values in each position of the previously received signal block from the current block. This object is particularly useful within an FFT subpatch to track phase changes over time, often used in conjunction with `phasewrap~`.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "cartopol~",
+        "phasewrap~",
+        "rminus~",
+        "cartopol"
     ]
 }

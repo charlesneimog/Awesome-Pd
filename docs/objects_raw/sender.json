@@ -23,5 +23,11 @@
     "description": "The `sender` object functions similarly to Pure Data's `send` object but offers enhanced capabilities. It can manage up to two distinct send names, allowing data to be directed to two different addresses. Additionally, `sender` supports dollar symbol expansion at load time, enabling dynamic routing within parent patches and abstractions.",
     "categories": [
         "Routing"
+    ],
+    "similar": [
+        "receiver",
+        "forward",
+        "dispatch",
+        "unmerge"
     ]
 }

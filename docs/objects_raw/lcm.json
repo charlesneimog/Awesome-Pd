@@ -23,5 +23,11 @@
     "description": "The `lcm` object calculates the least common multiple (LCM) of two or more floating-point numbers. It can receive two individual float inputs or a list of floats to compute their LCM. The result is output as a float.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "gcd",
+        "sinh",
+        "asinh",
+        "acosh"
     ]
 }

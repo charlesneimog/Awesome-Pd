@@ -23,5 +23,11 @@
     "description": "The `rotate~` object performs equal power rotation for 'n' audio channels, defaulting to 2. It takes a position control input (float or signal) from -1 to 1, allowing continuous spatial movement. This object is useful for dynamic panning and spatialization of multichannel audio.",
     "categories": [
         "Multichannel"
+    ],
+    "similar": [
+        "rotate.mc~",
+        "spread.mc~",
+        "pan4~",
+        "pan.mc~"
     ]
 }

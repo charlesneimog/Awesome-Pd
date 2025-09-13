@@ -23,5 +23,11 @@
     "description": "The `gaterelease` object manages the timed release of a gate signal. It holds an input gate value for a specified duration, then releases it over a configurable release time in milliseconds. This object is useful for precisely controlling the duration of gate signals, especially when dealing with overlapping events, as it resets if the gate closes before its release completes.",
     "categories": [
         "Logic"
+    ],
+    "similar": [
+        "gaterelease~",
+        "gatedelay",
+        "gate2imp~",
+        "onebang"
     ]
 }

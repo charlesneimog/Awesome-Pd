@@ -23,5 +23,11 @@
     "description": "`expand~` is an audio expander that attenuates an input signal when its level falls below a specified threshold. It allows control over the threshold (in dB), attenuation ratio, and the attack and release times (in ms) for dynamic processing of audio signals.",
     "categories": [
         "Dynamics"
+    ],
+    "similar": [
+        "compress~",
+        "duck~",
+        "noisegate~",
+        "pvcompand~"
     ]
 }

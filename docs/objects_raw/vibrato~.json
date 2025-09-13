@@ -23,5 +23,11 @@
     "description": "The `vibrato~` object applies a vibrato effect to an incoming audio signal. It functions as a pitch shifter, modulating the pitch deviation in cents using an internal Low Frequency Oscillator (LFO). Users can control the vibrato rate in Hertz and the transposition depth in cents via float inputs.",
     "categories": [
         "Chorus/Flanger/Phaser"
+    ],
+    "similar": [
+        "chorus~",
+        "phaser~",
+        "tremolo~",
+        "chorus.m~"
     ]
 }

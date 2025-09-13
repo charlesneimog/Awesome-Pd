@@ -25,9 +25,9 @@
         "Data Structures"
     ],
     "similar": [
-        "table",
         "buffer",
-        "poke~",
-        "tabset"
+        "tabset",
+        "pack",
+        "stack"
     ]
 }

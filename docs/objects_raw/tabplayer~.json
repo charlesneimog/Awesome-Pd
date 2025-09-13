@@ -24,5 +24,11 @@
     "categories": [
         "Multichannel",
         "Samplers"
+    ],
+    "similar": [
+        "play~",
+        "player~",
+        "buffer~",
+        "gran.player~"
     ]
 }

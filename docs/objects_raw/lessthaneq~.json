@@ -23,5 +23,11 @@
     "description": "The `lessthaneq~` (or `<=~`) object performs a \"less than or equal to\" comparison on incoming audio signals. It outputs a signal of 1 when the left inlet's signal is less than or equal to the right inlet's signal or argument, and 0 otherwise, enabling signal-based conditional logic.",
     "categories": [
         "Logic"
+    ],
+    "similar": [
+        "notequals~",
+        "equals~",
+        "greaterthaneq~",
+        "equal"
     ]
 }

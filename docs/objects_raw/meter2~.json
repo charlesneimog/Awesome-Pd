@@ -23,5 +23,11 @@
     "description": "The `meter2~` object functions as a stereo VU-meter, taking left and right audio signals and outputting their RMS and peak amplitude values in dBFS as a list. It also passes the input signals through its outlets, making it suitable for insertion into an audio signal chain. It can handle multichannel signals and allows setting window and hop sizes for its internal `vu~` objects.",
     "categories": [
         "GUI"
+    ],
+    "similar": [
+        "meter8~",
+        "meter4~",
+        "number~",
+        "grab"
     ]
 }

@@ -23,5 +23,11 @@
     "description": "The `beat~` object analyzes an input audio signal to detect its tempo and output a detected BPM value. It utilizes various onset detection methods, configurable via parameters like mode, threshold, silence level, window size, and hop size, to accurately identify rhythmic pulses.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "cepstrumPitch~",
+        "attackTime",
+        "detect~",
+        "attackTime~"
     ]
 }

@@ -29,6 +29,6 @@
         "pix_multiblob",
         "pix_histo",
         "pix_blobtracker",
-        "spectrograph~"
+        "pix_colorclassify"
     ]
 }

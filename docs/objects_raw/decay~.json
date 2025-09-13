@@ -25,5 +25,11 @@
         "Envelopes",
         "Filters",
         "Multichannel"
+    ],
+    "similar": [
+        "adsr~",
+        "adsr.m~",
+        "resonbank2~",
+        "lag~"
     ]
 }

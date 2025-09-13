@@ -23,5 +23,11 @@
     "description": "The `funnel` object collects data from multiple inlets and outputs it through a single outlet, prepending an inlet number to each message. This allows for routing messages based on their origin using objects like `route` or `cyclone/spray`. It can also be configured with an offset for inlet numbering and used to store values in data structures.",
     "categories": [
         "Routing"
+    ],
+    "similar": [
+        "selector",
+        "mtx~",
+        "multiplex",
+        "router"
     ]
 }

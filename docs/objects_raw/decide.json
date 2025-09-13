@@ -23,5 +23,11 @@
     "description": "The `decide` object randomly outputs either 0 or 1, acting as a simple random boolean generator. Its sequence of random outputs can be controlled by an optional seed value, allowing for reproducible random sequences.",
     "categories": [
         "Stochastic"
+    ],
+    "similar": [
+        "drunk",
+        "rand.dist",
+        "rand.f~",
+        "stepnoise"
     ]
 }

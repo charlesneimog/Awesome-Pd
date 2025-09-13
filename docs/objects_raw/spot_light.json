@@ -28,6 +28,6 @@
         "world_light",
         "light",
         "cone",
-        "depth"
+        "ambientRGB"
     ]
 }

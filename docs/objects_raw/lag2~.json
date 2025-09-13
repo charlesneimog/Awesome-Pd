@@ -23,5 +23,11 @@
     "description": "The `lag2~` object smooths incoming audio signals by applying independent ramp-up and ramp-down times, effectively creating a portamento or slew effect. It allows precise control over how quickly a signal converges to a new target value, with separate millisecond-based settings for rising and falling ramps. This object also supports multichannel operation, applying lag times per channel if provided.",
     "categories": [
         "Multichannel"
+    ],
+    "similar": [
+        "smooth~",
+        "slew~",
+        "glide2~",
+        "smooth2~"
     ]
 }

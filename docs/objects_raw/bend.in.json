@@ -24,5 +24,11 @@
     "categories": [
         "MIDI",
         "Control IO"
+    ],
+    "similar": [
+        "bend.out",
+        "touch.in",
+        "mpe.in",
+        "pgm.in"
     ]
 }

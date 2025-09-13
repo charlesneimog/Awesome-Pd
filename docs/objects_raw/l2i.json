@@ -25,9 +25,9 @@
         "Data Structures"
     ],
     "similar": [
+        "remove",
+        "delete",
         "l",
-        "unpack~",
-        "merge",
-        "pack~"
+        "unpack~"
     ]
 }

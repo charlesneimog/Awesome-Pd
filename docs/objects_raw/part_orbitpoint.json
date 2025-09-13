@@ -28,6 +28,6 @@
         "part_vertex",
         "part_head",
         "part_size",
-        "part_gravity"
+        "part_follow"
     ]
 }

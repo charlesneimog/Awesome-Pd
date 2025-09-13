@@ -23,5 +23,11 @@
     "description": "The `atanh~` object calculates the hyperbolic arc-tangent of an incoming signal. It processes each sample individually, making it suitable for mathematical signal manipulations. Notably, for input values less than or equal to -1 or greater than or equal to 1, the output will be zero.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "atanh",
+        "acosh~",
+        "asinh~",
+        "atan~"
     ]
 }

@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "rdiv~",
+        "minimum",
         "rdiv",
-        "rminus~",
-        "pol2car"
+        "gcd",
+        "rminus~"
     ]
 }

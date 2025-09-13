@@ -23,5 +23,11 @@
     "description": "The `changed~` object detects changes in an incoming signal. When the signal's value changes by more than a specified threshold (defaulting to 0), it outputs an impulse. This is useful for triggering events only when a signal's state significantly alters.",
     "categories": [
         "Logic"
+    ],
+    "similar": [
+        "above~",
+        "togedge",
+        "trig2bang",
+        "gate2imp~"
     ]
 }

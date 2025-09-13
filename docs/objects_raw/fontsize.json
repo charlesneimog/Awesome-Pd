@@ -23,5 +23,11 @@
     "description": "The `fontsize` object reports the current font size of a Pure Data patch. It outputs the font size when it receives a `bang`. Optionally, a float argument can specify a \"depth\" level, allowing it to report the font size of parent patches, which is useful within abstractions.",
     "categories": [
         "General Utilities"
+    ],
+    "similar": [
+        "canvas.vis",
+        "blocksize~",
+        "retrieve",
+        "operating_system"
     ]
 }

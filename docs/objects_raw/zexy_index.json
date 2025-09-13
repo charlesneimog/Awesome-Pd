@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
-        "insert",
-        "replace",
-        "break",
-        "iterate"
+        "sort",
+        "iterate",
+        "pv",
+        "l2s"
     ]
 }

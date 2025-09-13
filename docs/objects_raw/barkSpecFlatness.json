@@ -28,6 +28,6 @@
         "barkSpecSkewness",
         "barkSpecFlatness~",
         "barkSpecSpread",
-        "specFlatness~"
+        "phaseSpec"
     ]
 }

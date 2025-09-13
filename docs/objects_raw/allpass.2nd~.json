@@ -23,5 +23,11 @@
     "description": "`allpass.2nd~` is a second-order allpass filter that shifts the phase of an incoming signal without altering its amplitude. It allows control over the center frequency, where the phase shift is 180 degrees, and the steepness of this shift via a Q or bandwidth parameter. This object is useful for phase manipulation, creating comb filtering effects when mixed with the original signal, or as a building block for more complex audio effects.",
     "categories": [
         "Filters"
+    ],
+    "similar": [
+        "phaseshift~",
+        "allpass.filt~",
+        "bandstop~",
+        "bandpass~"
     ]
 }

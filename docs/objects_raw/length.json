@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
-        "remove",
         "l2s",
-        "insert",
-        "slice"
+        "sort",
+        "tabdump",
+        "tabset"
     ]
 }
