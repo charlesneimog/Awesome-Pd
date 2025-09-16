@@ -1,0 +1,35 @@
+{
+    "title": "saf.decoder~",
+    "whatiam": "object",
+    "description": "The `saf.decoder~` object in Pure Data implements a frequency-dependent Ambisonic decoder for loudspeakers and headphones. It supports up to 128 user-defined loudspeaker directions or presets for common 2D and 3D layouts. For headphones, it performs virtual loudspeaker decoding using interpolated HRTFs, with support for importing custom HRIRs via the SOFA standard. The decoder allows different settings for low and high frequencies with a user-defined crossover, offering integrated methods such as AllRAD, EPAD, and Mode-Matching, along with max-rE spatial weighting. It also provides options for adjusting decoding order and normalization (EP/AP) to maintain consistent loudness, which is useful for both practical and creative applications.",
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/charlesneimog/pd-neimog/issues",
+    "developers": [
+        "Charles K. Neimog"
+    ],
+    "part_of_library": true,
+    "library_name": "neimog",
+    "categories": [
+        "Ambisonics"
+    ],
+    "category_groups": [],
+    "category_parents": {},
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "similar": [
+        "saf.encoder~",
+        "crossover~",
+        "0x7c0x7c0x7e",
+        "tCube3D"
+    ]
+}

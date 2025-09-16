@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "sendmidi",
+    "description": "The `sendmidi` object is a helper abstraction designed to forward MIDI messages to a `pd~` sub-patch. This is particularly useful because `pd~` objects cannot directly receive MIDI input from connected devices, allowing `sendmidi` to bridge this communication gap.",
+    "categories": [
+        "MIDI"
+    ],
+    "similar": [
+        "pgm.out",
+        "sysrt.in",
+        "note.out",
+        "ctl.out"
+    ]
+}

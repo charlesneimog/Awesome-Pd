@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "resonator~",
+    "description": "The `resonator~` object is a resonant filter that allows for precise control over decay time using a `t60` parameter. It functions in bandpass (default), lowpass, or highpass modes, taking a resonance frequency and an excitation signal as inputs. This object can resemble an oscillator when excited by an impulse, making it suitable for physical modeling applications.",
+    "categories": [
+        "Filters"
+    ],
+    "similar": [
+        "bandpass~",
+        "resonator2~",
+        "svfilter~",
+        "svf~"
+    ]
+}

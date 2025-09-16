@@ -1,0 +1,35 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "synth~",
+    "description": "`synth~` is a Pure Data object that simplifies the creation and management of polyphonic or monophonic synthesizers. It acts as a wrapper around `clone`, `mono`, and `voices`, loading synth abstractions and handling voice allocation. It accepts MIDI note messages for pitch and velocity, and allows custom messages to be sent to the loaded synth.",
+    "categories": [
+        "MIDI",
+        "Patching",
+        "Multichannel"
+    ],
+    "similar": [
+        "voices~",
+        "voices",
+        "mono~",
+        "borax"
+    ]
+}

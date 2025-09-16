@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "acos~",
+    "description": "The `acos~` object calculates the arc-cosine of an incoming signal, sample by sample. It expects input values within the range of -1 to 1, producing a signal output between 0 and pi. Inputs outside this valid range will result in a zero output.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "asin~",
+        "acosh~",
+        "acos",
+        "cosh~"
+    ]
+}

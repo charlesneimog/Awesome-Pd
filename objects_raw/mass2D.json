@@ -1,0 +1,42 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/ch-nry/pd-pmpd/issues",
+    "developers": [
+        "Cyrille Henry"
+    ],
+    "part_of_library": true,
+    "library_name": "pmpd",
+    "articles": [
+        {
+            "title": "Physical modeling for pure data (PMPD) and real-time interaction with an audio synthesis",
+            "authors": [
+                "Cyrille Henry"
+            ],
+            "link": "https://hal.science/hal-03354371/"
+        }
+    ],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "mass2D",
+    "description": "The `mass2D` object simulates a 2D mass, calculating its position and velocity based on applied forces, weight, and damping. It allows setting initial positions, boundary limits (Xmin, Xmax, Ymin, Ymax), and can reset its state or stop/start movement. This object is useful for creating interactive physical simulations within Pure Data.",
+    "categories": [
+        "Physical Modeling",
+        "Math"
+    ],
+    "similar": [
+        "mass3D",
+        "mass",
+        "pmpd2d",
+        "link"
+    ]
+}

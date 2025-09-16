@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "xbendin2",
+    "description": "The `xbendin2` object parses incoming raw MIDI data to extract the Most Significant Byte (MSB) and Least Significant Byte (LSB) of pitch bend messages, which can be combined to form a 14-bit value. It also outputs the MIDI channel number and can filter messages by channel. This object is considered redundant and deprecated, with `bendin` or `else/bend.in` being recommended alternatives.",
+    "categories": [
+        "MIDI"
+    ],
+    "similar": [
+        "xbendout2",
+        "xbendin",
+        "xbendout",
+        "midiparse"
+    ]
+}

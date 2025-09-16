@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "list.inc",
+    "description": "`list.inc` generates a numerical list based on a starting value, a step value, and the desired number of elements. It supports both linear incrementing (adding the step value) and a 'ratio' mode where the step value is multiplied.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "maximum",
+        "interpolate",
+        "quantizer",
+        "minimum"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "rminus",
+    "description": "The `rminus` (or `!-`) object performs subtraction with its inlets reversed compared to the standard `[-]` object. The hot inlet receives the subtrahend, and the cold inlet receives the minuend. It outputs the difference of the two numbers, allowing for flexible control over subtraction order.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "rminus~",
+        "rdiv",
+        "rdiv~",
+        "pi"
+    ]
+}
