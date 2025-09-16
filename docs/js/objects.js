@@ -1,7 +1,7 @@
 function getOriginUrl() {
     let rawUrl = window.location.origin;
     if (rawUrl.includes("charlesneimog.github.io")) {
-        rawUrl += "/Awesome-Pd";
+        rawUrl += "/Awesome-Pd/";
     } else {
         rawUrl = "";
     }
@@ -31,11 +31,12 @@ async function addObjects(render_videos) {
 
     // Shuffle and pick 6
     const selected = shuffleArray([...categories]).slice(0, 4);
-
+    if (selected.length !== 4){
+        addObjects(render_videos);
+        return;
+    }
     for (const item of selected) {
         const li = document.createElement("li");
-
-        // Span with twemoji class
         const span = document.createElement("span");
         span.classList.add("twemoji");
 

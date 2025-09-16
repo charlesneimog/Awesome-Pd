@@ -1877,6 +1877,7 @@ nav:
             -   sprintf: objects/text/sprintf.md
             -   note: objects/text/note.md
 -   Libraries:
+    - libraries/index.md
     -   cyclone: libraries/cyclone.md
     -   else: libraries/else.md
     -   fftease: libraries/fftease.md

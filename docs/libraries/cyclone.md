@@ -4,10 +4,7 @@ search:
 ---
 
 # cyclone
-`Cyclone` is a library for Pure Data (Pd) that provides objects mimicking those in Max/MSP.
-It started as a Max 4.0 clone and has evolved, with updates closer to Max 7.
-`Cyclone` is mainly maintained for bug fixes and backward compatibility, with some objects replaced or supplemented by the `ELSE` library in PlugData.
-It allows building Max-like patches in Pd, but some newer Max features are not included.
+`Cyclone` is a library for Pure Data (Pd) that provides objects mimicking those in Max/MSP. It started as a Max 4.0 clone and has evolved, with updates closer to Max 7. `Cyclone` is mainly maintained for bug fixes and backward compatibility, with some objects replaced or supplemented by the `ELSE` library in PlugData. It allows building Max-like patches in Pd, but some newer Max features are not included.
 <h2>Contributors</h2>
 
 <div id="libcontributors"></div>

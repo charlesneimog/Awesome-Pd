@@ -4,7 +4,7 @@ search:
 ---
 
 # zexy
-
+`zexy` provides several addon objects for the Pd computer music system, including (but not limited to) objects for message handling (construction, parsing, control flow), signal handling (synthesis, analysis, comparison) et al. 
 <h2>Contributors</h2>
 
 <div id="libcontributors"></div>

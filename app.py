@@ -742,6 +742,28 @@ class AwesomePd:
     # --------------------------
     # Full Site Update
     # --------------------------
+    def render_libraries_md(self, libraries) -> Dict[str, str]:
+        nav_libs: Dict[str, str] = {}
+        md = '# Libraries\n\n<div class="grid cards" markdown>\n'
+        for lib in libraries:
+            print(f"Update Library page: {lib}")
+            lib_json_path = self.paths.libraries / f"{lib}.json"
+            with open(lib_json_path, "r", encoding="utf-8") as f:
+                lib_data = json.load(f)
+            libmarkdownfile = self.render_library_markdown(
+                lib, lib_data, libraries[lib]
+            )
+            lib_md_path = self.paths.libraries / f"{lib}.md"
+            lib_md_path.write_text(libmarkdownfile, encoding="utf-8")
+            nav_libs[lib] = f"libraries/{lib}.md"
+            des = lib_data["description"].split(". ")[0]
+            md += f"- :material-tune: [__{lib}__]({lib}.md) {des}.\n"
+
+        md += "</div>\n"
+        with open(os.path.join(self.paths.libraries, "index.md"), "w") as f:
+            f.write(md)
+
+        return nav_libs
 
     def render_library_markdown(
         self,
@@ -839,26 +861,15 @@ class AwesomePd:
         )
 
         # update libraries
-        nav_libs: Dict[str, str] = {}
-        print("")
-        for lib in libraries:
-            print(f"Update Library page: {lib}")
-            lib_json_path = self.paths.libraries / f"{lib}.json"
-            with open(lib_json_path, "r", encoding="utf-8") as f:
-                lib_data = json.load(f)
-            libmarkdownfile = self.render_library_markdown(
-                lib, lib_data, libraries[lib]
-            )
-            lib_md_path = self.paths.libraries / f"{lib}.md"
-            lib_md_path.write_text(libmarkdownfile, encoding="utf-8")
-            nav_libs[lib] = f"libraries/{lib}.md"
+        nav_libs: Dict[str, str] = self.render_libraries_md(libraries)
 
         # Build site nav
+
         NavItem = Union[str, Dict[str, object]]
         nav: List[NavItem] = [{"Home": "index.md"}]
         nav.append({"Submit": "submit.md"})
         nav.append({"Objects & Abstractions": self.obj_dict_to_nav(self.objects)})
-        nav.append({"Libraries": self.dict_to_nav(nav_libs)})
+        nav.append({"Libraries": ["libraries/index.md"] + self.dict_to_nav(nav_libs)})
         nav.append({"Pieces": "pieces/index.md"})
         nav.append({"Web": self.dict_to_nav(self.WEB_TOOLS)})
         nav.append({"Tools": self.dict_to_nav(self.TOOLS)})

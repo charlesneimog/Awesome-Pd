@@ -16,8 +16,8 @@ hide:
 ---
 
 <div align="center">
-    <a class="md-button " id="new-object">New Object</a>
-    <a class="md-button " id="new-piece">New Piece</a>
+    <a class="md-button " id="new-object">New/Edit Object</a>
+    <a class="md-button " id="new-piece">New/Edit Piece</a>
 </div>
 
 ---
