@@ -603,7 +603,7 @@ class AwesomePd:
             obj_name = json_file["title"]
             if obj_name == "index":
                 obj_name = json_file["library_name"] + "_" + obj_name
-            output_dir = self.paths.objects
+            output_dir = self.paths.objects_raw
             output_dir.mkdir(parents=True, exist_ok=True)
 
             if obj_name == "index":

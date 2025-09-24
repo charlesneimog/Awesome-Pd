@@ -85,6 +85,9 @@ nav:
         -   Deep Learning:
             - objects/deep_learning/index.md
             -   nn~: objects/deep_learning/nn~.md
+        -   Machine Learning:
+            - objects/machine_learning/index.md
+            -   onnx: objects/machine_learning/onnx.md
         -   Neural Networks:
             - objects/neural_networks/index.md
             -   neuralnet: objects/neural_networks/neuralnet.md
