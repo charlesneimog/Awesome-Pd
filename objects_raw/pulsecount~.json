@@ -1,0 +1,31 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pulsecount~",
+    "description": "`pulsecount~` is a signal object that counts positive-going transitions in its left inlet. An impulse in the right inlet or a `reset` message will reset the counter to zero. It can optionally be configured with a maximum count value via an argument or the `max` message.",
+    "categories": [],
+    "similar": [
+        "count~",
+        "pulsediv~",
+        "plusequals~",
+        "zerox~"
+    ]
+}

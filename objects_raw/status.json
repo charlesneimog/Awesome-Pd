@@ -1,0 +1,31 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "status",
+    "description": "The `status` object detects transitions in numerical input. It sends a bang from its left outlet when a zero-to-non-zero transition occurs, and from its right outlet for a non-zero-to-zero transition. This object is useful for triggering events based on changes in a numerical state.",
+    "categories": [],
+    "similar": [
+        "togedge",
+        "status~",
+        "trig2bang~",
+        "trig2bang"
+    ]
+}

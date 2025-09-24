@@ -1,0 +1,34 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "dollsym",
+    "description": "The `dollsym` object expands dollar arguments (e.g., `$0`, `$1`) within an input symbol, replacing them with their corresponding values from the current Pure Data abstraction's context. It can optionally take a depth argument to control the expansion scope, making it useful for managing unique identifiers and arguments within nested abstractions.",
+    "categories": [
+        "General Utilities",
+        "Text"
+    ],
+    "similar": [
+        "atoi",
+        "separate",
+        "sprintf",
+        "tosymbol"
+    ]
+}

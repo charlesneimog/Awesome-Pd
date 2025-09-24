@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "acos",
+    "description": "The `acos` object calculates the arc-cosine (inverse cosine) of a given number. It takes a float as input, computes its arc-cosine, and outputs the result as a float. This object is part of the control data trigonometric functions.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "cosh",
+        "acosh",
+        "acos~",
+        "asin"
+    ]
+}
