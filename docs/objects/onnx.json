@@ -1,0 +1,29 @@
+{
+    "title": "onnx",
+    "whatiam": "object",
+    "description": "`onnx` is a **lightweight Pure Data external** that lets you run [ONNX](https://onnx.ai/onnx/intro/) models directly inside Pd. Its small size makes it particularly suitable for **pd4web** projects where minimal memory footprint and minimal size are essential.",
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": false,
+    "bug_reports": "https://github.com/charlesneimog/pd-onnx",
+    "developers": [
+        "Charles K. Neimog"
+    ],
+    "part_of_library": false,
+    "library_name": "",
+    "categories": [
+        "Machine Learning"
+    ],
+    "category_groups": [],
+    "category_parents": {},
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ]
+}
