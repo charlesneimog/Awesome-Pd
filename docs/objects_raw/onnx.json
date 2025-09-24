@@ -21,7 +21,15 @@
     "category_groups": [],
     "category_parents": {},
     "articles": [],
-    "videos": [],
+    "videos": [
+        {
+            "title": "Timbre Recognition in ONNX: Demo with Pd (Pure Data) & py4pd",
+            "authors": [
+                "Charles K. Neimog"
+            ],
+            "link": "https://www.youtube.com/watch?v=qIV0LigMuzo"
+        }
+    ],
     "musics": [],
     "contributors": [
         "charlesneimog"
