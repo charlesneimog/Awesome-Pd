@@ -1230,7 +1230,10 @@ nav:
         -   VST2/VST3:
             - objects/vst2_vst3/index.md
             -   vstplugin~: objects/vst2_vst3/vstplugin~.md
-    -   Scripting: []
+    -   Scripting:
+        -   Python:
+            - objects/python/index.md
+            -   py4pd: objects/python/py4pd.md
     -   Spatialization:
         -   Ambisonics:
             - objects/ambisonics/index.md

@@ -578,6 +578,39 @@ class AwesomePd:
     # --------------------------
     # Issue Payload Ingestion
     # --------------------------
+    def extract_full_json_block(self, text: str) -> str | None:
+        start = text.find("```json")
+        if start == -1:
+            return None
+        # Começa depois do \n
+        start_content = text.find("\n", start) + 1
+        if start_content == 0:
+            return None
+
+        brace_count = 0
+        in_string = False
+        escape = False
+        end_pos = start_content
+
+        while end_pos < len(text):
+            c = text[end_pos]
+
+            if c == '"' and not escape:
+                in_string = not in_string
+
+            if not in_string:
+                if c == "{":
+                    brace_count += 1
+                elif c == "}":
+                    brace_count -= 1
+                    if brace_count == 0:
+                        # fechou o JSON
+                        return text[start_content : end_pos + 1]
+
+            escape = c == "\\" and not escape
+            end_pos += 1
+
+        return None
 
     def check_new_issues(self, issue: dict) -> None:
         """
@@ -586,13 +619,10 @@ class AwesomePd:
         """
         text = issue["body"]
         creator = issue["user"]["login"]
-
-        pattern = re.compile(r"```json(?:\w+)?\n(.*?)```", re.DOTALL)
-        matches = re.findall(pattern, text)
-        if len(matches) < 1:
+        json_blocks = self.extract_full_json_block(text)
+        if not json_blocks:
             return
-
-        json_file = json.loads(matches[0])
+        json_file = json.loads(json_blocks)
 
         if creator not in json_file["contributors"]:
             json_file["contributors"].append(creator)

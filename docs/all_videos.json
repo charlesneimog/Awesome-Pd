@@ -21,6 +21,13 @@
         "link": "https://www.youtube.com/watch?v=zBkDPgTyVCY"
     },
     {
+        "title": "Timbre Recognition in ONNX: Demo with Pd (Pure Data) & py4pd",
+        "authors": [
+            "Charles K. Neimog"
+        ],
+        "link": "https://www.youtube.com/watch?v=qIV0LigMuzo"
+    },
+    {
         "title": "VST Plugins Inside of Pure Data!",
         "authors": [
             "Sound Simulator"
