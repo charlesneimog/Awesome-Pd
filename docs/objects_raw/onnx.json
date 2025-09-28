@@ -7,7 +7,7 @@
         "Linux",
         "Windows"
     ],
-    "download_link": "",
+    "download_link": "https://github.com/charlesneimog/pd-onnx",
     "available_on_deken": false,
     "bug_reports": "https://github.com/charlesneimog/pd-onnx",
     "developers": [
