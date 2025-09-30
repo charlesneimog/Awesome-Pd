@@ -1903,7 +1903,7 @@ nav:
     - pieces/index.md
     -   Live-Electronics:
         - pieces/live-electronics/index.md
-        -   "C\xE2nticos de Sil\xEDcio I": "pieces/live-electronics/c\xE2nticos_de_sil\xED\
+        -   "C\xE2nticos de Sil\xEDcio I (2025)": "pieces/live-electronics/c\xE2nticos_de_sil\xED\
                 cio_i.md"
 -   Web:
     -   pd4web: web/pd4web.md

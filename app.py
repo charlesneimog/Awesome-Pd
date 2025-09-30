@@ -669,10 +669,9 @@ class AwesomePd:
     # --------------------------
     # Navigation Helpers
     # --------------------------
-
     def update_main_json_of_objects(self):
         """
-        (Opcional) Se você quiser parar de inserir 'objects/<obj>.md', comente a chamada de found_category.
+        (Opcional) Se você quiser parar de inserir 'pieces/<obj>.md', comente a chamada de found_category.
         """
         pass
 
@@ -685,7 +684,7 @@ class AwesomePd:
             with open(piecedir / file, "r", encoding="utf-8") as f:
                 data = json.load(f)
 
-            name = f"{data["title"]} ({data["year"]})"
+            name = data["title"]
             description = data["description"].split(". ")[0] + "."
             for category in data["categories"]:
                 categories.setdefault(category, []).append([name, description])
@@ -766,6 +765,7 @@ class AwesomePd:
             for c in obj["categories"]:
                 c_key = slugify(c)
                 value = f"pieces/{c_key}/{slugify(piecename)}.md"
+                piecename = f"{obj["title"]} ({obj["year"]})"
                 self.pieces_add_md_to_category(temp, piecename, c, value)
 
         def recurse(x):
@@ -1043,7 +1043,13 @@ class AwesomePd:
         # Update mkdocs config
         self.config["nav"] = nav
         Path("mkdocs.yml").write_text(
-            yaml.dump(self.config, default_flow_style=False, sort_keys=False, indent=4),
+            yaml.dump(
+                self.config,
+                default_flow_style=False,
+                sort_keys=False,
+                indent=4,
+                allow_unicode=True,
+            ),
             encoding="utf-8",
         )
 
