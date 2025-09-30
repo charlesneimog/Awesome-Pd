@@ -131,7 +131,7 @@ nicknames.forEach(nick => {{
 # ==========================
 
 
-def slugify_category(name: str) -> str:
+def slugify(name: str) -> str:
     return name.replace(" ", "_").replace("/", "_").lower()
 
 
@@ -207,6 +207,8 @@ class AwesomePd:
         self.paths = Paths.from_base()
         with open("docs/categories_model.json", "r", encoding="utf-8") as f:
             self.objects: Dict[str, Union[dict, list]] = json.load(f)
+        with open("docs/categories_model_pieces.json", "r", encoding="utf-8") as f:
+            self.pieces: Dict[str, Union[dict, list]] = json.load(f)
         with open("mkdocs.yml", "r", encoding="utf-8") as f:
             self.config = yaml.load(f, Loader=yaml.UnsafeLoader)
 
@@ -480,9 +482,11 @@ class AwesomePd:
                 final_md = (
                     md if first else f"---\nsearch:\n    exclude: true\n---\n\n{md}"
                 )
-                c_slug = slugify_category(c)
+                c_slug = slugify(c)
                 output_path = (
-                    piece_dir / c_slug / effective_json_name.replace(".json", ".md")
+                    piece_dir
+                    / c_slug
+                    / slugify(effective_json_name.replace(".json", ".md"))
                 )
                 output_path.parent.mkdir(parents=True, exist_ok=True)
                 output_path.write_text(final_md, encoding="utf-8")
@@ -559,7 +563,7 @@ class AwesomePd:
                 if not first:
                     final_md = f"---\nsearch:\n    exclude: true\n---\n\n{md}"
 
-                c_slug = slugify_category(c)
+                c_slug = slugify(c)
                 output_path = (
                     obj_dir / c_slug / effective_json_name.replace(".json", ".md")
                 )
@@ -661,6 +665,21 @@ class AwesomePd:
         """
         pass
 
+    def build_piece_abs_nav(self, d: dict) -> dict:
+        piecedir = self.paths.pieces_raw
+        categories: Dict[str, List[List[str]]] = {}
+        for file in os.listdir(piecedir):
+            if not file.endswith(".json"):
+                continue
+            with open(piecedir / file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+
+            name = data["title"]
+            description = data["description"].split(". ")[0] + "."
+            for category in data["categories"]:
+                categories.setdefault(category, []).append([name, description])
+        return categories
+
     def build_obj_abs_nav(self, d: dict) -> dict:
         objdir = self.paths.objects_raw
         categories: Dict[str, List[List[str]]] = {}
@@ -669,18 +688,17 @@ class AwesomePd:
                 continue
             with open(objdir / file, "r", encoding="utf-8") as f:
                 data = json.load(f)
-
             name = data["title"]
             if name == "index":
                 name = data["library_name"] + "_" + name
-
             description = data["description"].split(". ")[0] + "."
             for category in data["categories"]:
                 categories.setdefault(category, []).append([name, description])
-
         return categories
 
-    def add_md_to_category(self, d: dict, objname: str, category: str, value: str):
+    def pieces_add_md_to_category(
+        self, d: dict, piecename: str, category: str, value: str
+    ):
         """
         Procura recursivamente a categoria e adiciona o value na lista correspondente,
         evitando duplicações do mesmo objeto.
@@ -688,7 +706,29 @@ class AwesomePd:
         for k, v in d.items():
             if k == category and isinstance(v, list):
                 if len(v) == 0:
-                    c = slugify_category(category)
+                    c = slugify(category)
+                    v.append(f"pieces/{c}/index.md")
+                for item in v:
+                    if isinstance(item, dict) and piecename in item:
+                        return True
+                v.append({piecename: value})
+                return True
+            elif isinstance(v, dict):
+                if self.pieces_add_md_to_category(v, piecename, category, value):
+                    return True
+        return False
+
+    def objects_add_md_to_category(
+        self, d: dict, objname: str, category: str, value: str
+    ):
+        """
+        Procura recursivamente a categoria e adiciona o value na lista correspondente,
+        evitando duplicações do mesmo objeto.
+        """
+        for k, v in d.items():
+            if k == category and isinstance(v, list):
+                if len(v) == 0:
+                    c = slugify(category)
                     v.append(f"objects/{c}/index.md")
                 for item in v:
                     if isinstance(item, dict) and objname in item:
@@ -696,9 +736,38 @@ class AwesomePd:
                 v.append({objname: value})
                 return True
             elif isinstance(v, dict):
-                if self.add_md_to_category(v, objname, category, value):
+                if self.objects_add_md_to_category(v, objname, category, value):
                     return True
         return False
+
+    def piece_dict_to_nav(self, d: dict) -> list:
+        """
+        Constrói a nav SEM mutar self.objects.
+        Lê os JSONs em docs/objects_raw e monta uma estrutura temporária.
+        """
+        temp = copy.deepcopy(d)
+        for j in os.listdir(self.paths.pieces_raw):
+            if not j.endswith(".json"):
+                continue
+            with open(self.paths.pieces_raw / j, "r", encoding="utf-8") as f:
+                obj = json.load(f)
+            piecename = obj["title"]
+            for c in obj["categories"]:
+                c_key = slugify(c)
+                value = f"pieces/{c_key}/{slugify(piecename)}.md"
+                self.pieces_add_md_to_category(temp, piecename, c, value)
+
+        def recurse(x):
+            nav_list = []
+            for key, value in sorted(x.items()):
+                if isinstance(value, dict):
+                    nav_list.append({key: recurse(value)})
+                else:
+                    if len(value) != 0:
+                        nav_list.append({key: value})
+            return nav_list
+
+        return recurse(temp)
 
     def obj_dict_to_nav(self, d: dict) -> list:
         """
@@ -715,9 +784,9 @@ class AwesomePd:
             if objname == "index":
                 objname = obj["library_name"] + "_" + objname
             for c in obj["categories"]:
-                c_key = slugify_category(c)
+                c_key = slugify(c)
                 value = f"objects/{c_key}/{objname}.md"
-                self.add_md_to_category(temp, objname, c, value)
+                self.objects_add_md_to_category(temp, objname, c, value)
 
         def recurse(x):
             nav_list = []
@@ -857,8 +926,23 @@ class AwesomePd:
 
         # Build Libraries pages + map
         libraries: Dict[str, List[List[str]]] = {}
-        all_objects: List[str] = []
 
+        # Update all pieces json
+        all_pieces: List[str] = []
+        for root, _, files in os.walk(self.paths.pieces_raw):
+            for filename in files:
+                filepath = Path(root) / filename
+                if not filepath.suffix == ".json":
+                    continue
+                all_pieces.append(filename.replace(".json", ""))
+
+        (self.paths.docs / "all_pieces.json").write_text(
+            json.dumps(all_pieces, indent=4, ensure_ascii=False),
+            encoding="utf-8",
+        )
+
+        # Update all objects json
+        all_objects: List[str] = []
         for root, _, files in os.walk(self.paths.objects_raw):
             for filename in files:
                 filepath = Path(root) / filename
@@ -879,7 +963,7 @@ class AwesomePd:
                             )
                             c = ""
                             if len(object_json["categories"]) > 0:
-                                c = slugify_category(object_json["categories"][0])
+                                c = slugify(object_json["categories"][0])
 
                             libraries.setdefault(libname, []).append(
                                 [objname, description, f"../objects/{c}/{objname}.md"]
@@ -894,22 +978,44 @@ class AwesomePd:
         nav_libs: Dict[str, str] = self.render_libraries_md(libraries)
 
         # Build site nav
-
         NavItem = Union[str, Dict[str, object]]
         nav: List[NavItem] = [{"Home": "index.md"}]
         nav.append({"Submit": "submit.md"})
         nav.append({"Objects & Abstractions": self.obj_dict_to_nav(self.objects)})
         nav.append({"Libraries": ["libraries/index.md"] + self.dict_to_nav(nav_libs)})
-        nav.append({"Pieces": "pieces/index.md"})
+        nav.append(
+            {"Pieces": ["pieces/index.md"] + self.piece_dict_to_nav(self.pieces)}
+        )
         nav.append({"Web": self.dict_to_nav(self.WEB_TOOLS)})
         nav.append({"Tools": self.dict_to_nav(self.TOOLS)})
+
+        # pieces
+        categories = self.build_piece_abs_nav(self.objects)
+        print()
+        for c, descriptions in categories.items():
+            print(f"Category being created: {c}")
+            c_name = slugify(c)
+            parts = [
+                f"---\nsearch:\n    exclude: true\n---\n\n# {c}\n\n",
+                '<div class="grid cards" markdown>\n\n',
+            ]
+            for d in descriptions:
+                obj = d[0]
+                des = d[1]
+                parts.append(
+                    f"- :material-tune: [__{obj}__]({slugify(obj)}.md) {des}\n"
+                )
+            parts.append("\n</div>")
+            (self.paths.pieces / c_name / "index.md").write_text(
+                "".join(parts), encoding="utf-8"
+            )
 
         # build category index pages
         categories = self.build_obj_abs_nav(self.objects)
         print()
         for c, descriptions in categories.items():
             print(f"Category being created: {c}")
-            c_name = slugify_category(c)
+            c_name = slugify(c)
             parts = [
                 f"---\nsearch:\n    exclude: true\n---\n\n# {c}\n\n",
                 '<div class="grid cards" markdown>\n\n',
