@@ -4,8 +4,6 @@ import json
 import subprocess
 from typing import Dict, Any, List, Tuple
 
-LIBRARY_HELP_FILES = "../docs/objects_raw"
-
 CATEGORIES_DESCRIPTIONS: Dict[str, str] = {
     "Machine Learning": "AI → General machine learning algorithms or tools for data analysis and prediction.",
     "Deep Learning": "AI → Neural networks and deep learning models for complex pattern recognition.",
@@ -56,7 +54,7 @@ CATEGORIES_DESCRIPTIONS: Dict[str, str] = {
     "General Utilities": "Utilities → General utilities for system commands and helper functions.",
     "Text": "Utilities → Objects to parse or manipulate text data.",
     "OSC": "I/O → Objects that work with Open Sound Control (OSC).",
-    "Extensions": "Extensions → Enable writing externals in languages other than C (e.g., Lua, Python)."
+    "Extensions": "Extensions → Enable writing externals in languages other than C (e.g., Lua, Python).",
 }
 
 
@@ -244,37 +242,58 @@ def build_description_and_categories(
     return out
 
 
+def build_dict():
+    base = {}
+    runs_on = input("Enter platforms separated by commas (Mac,Linux,Windows): ")
+    base["runs_on"] = [x.strip() for x in runs_on.split(",")]
+    available = input("Available on deken? (y/n): ").lower() == "y"
+    base["available_on_deken"] = available
+    if available:
+        base["download_link"] = ""
+    else:
+        base["download_link"] = input("Enter download link: ")
+
+    base["bug_reports"] = input("Bug reports URL: ")
+    devs = input("Enter developer names (comma separated): ")
+    base["developers"] = [x.strip() for x in devs.split(",")]
+    part_of_lib = input("Part of a library? (y/n): ").lower() == "y"
+    base["part_of_library"] = part_of_lib
+    if part_of_lib:
+        base["library_name"] = input("Library name: ")
+    else:
+        base["library_name"] = ""
+
+    base["articles"] = []
+    base["videos"] = []
+    base["musics"] = []
+
+    contributors = input("Contributors (comma separated) for the page: ")
+    base["contributors"] = [x.strip() for x in contributors.split(",")]
+    base["ai"] = True
+    return base
+
+
 # Example usage
 errors_processing = []
-if __name__ == "__main__":
-    base = {
-        "runs_on": ["Mac", "Linux", "Windows"],
-        "download_link": "",
-        "available_on_deken": True,
-        "bug_reports": "https://github.com/d-i-s/piro/issues",
-        "developers": ["Marco Matteo Markidis"],
-        "part_of_library": True,
-        "library_name": "piro",
-        "articles": [],
-        "videos": [],
-        "musics": [],
-        "contributors": ["charlesneimog"],
-        "ai": True,
-    }
 
+if __name__ == "__main__":
+    LIBRARY_HELP_FILES = input("Enter library dir where -help.pd are: ")
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    os.chdir(script_dir)
+    base = build_dict()
     count = 0
     for help_fname in os.listdir(LIBRARY_HELP_FILES):
         if help_fname.endswith("-help.pd"):
             count += 1
 
     processed_count = 0
-    os.makedirs("lib", exist_ok=True)
+    os.makedirs("../docs/objects_raw", exist_ok=True)
     for help_fname in os.listdir(LIBRARY_HELP_FILES):
         if help_fname.endswith("-help.pd"):
             processed_count += 1
             file_path = os.path.join(LIBRARY_HELP_FILES, help_fname)
             name = help_fname.replace("-help.pd", "")
-            json_name = f"lib/{name}.json"
+            json_name = f"../docs/objects_raw/{name}.json"
             if os.path.exists(json_name):
                 continue
 
