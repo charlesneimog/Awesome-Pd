@@ -1,0 +1,31 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.hpss~",
+    "description": "The `fluid.hpss~` object performs Harmonic-Percussive Source Separation (HPSS) on an audio input, separating it into harmonic and percussive components. It provides different modes for separation intensity and allows fine-tuning of thresholds using frequency-amplitude pairs like `harmthresh` and `percthresh`.",
+    "categories": []
+}

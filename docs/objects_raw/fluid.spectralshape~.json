@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.spectralshape~",
+    "description": "`fluid.spectralshape~` computes seven spectral shape descriptors from an audio signal: centroid, spread, skewness, kurtosis, rolloff, flatness, and crest. It provides tools for detailed spectral analysis, useful for understanding the frequency content and characteristics of sounds. The object can be used to analyze various audio sources, including noise and filtered signals.",
+    "categories": [
+        "Descriptors"
+    ]
+}

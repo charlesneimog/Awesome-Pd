@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.melbands~",
+    "description": "The `fluid.melbands~` object calculates the magnitudes of audio signals across a specified number of perceptually evenly spread Mel-frequency bands. It allows users to define the number of bands, minimum and maximum frequencies, and FFT settings, providing a powerful tool for audio feature extraction and analysis.",
+    "categories": [
+        "Descriptors"
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.knnregressor",
+    "description": "The `fluid.knnregressor` object performs K-Nearest Neighbours regression, enabling the prediction of outputs by finding the weighted average of neighboring data points within datasets. It is used to establish a regression mapping between two `fluid.dataset~` objects, allowing for data fitting and subsequent output prediction based on an input dataset.",
+    "categories": [
+        "Machine Learning",
+        "Statistical Models"
+    ]
+}

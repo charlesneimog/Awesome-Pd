@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.bufsines",
+    "description": "`fluid.bufsines` performs sinusoidal modeling on audio buffers, decomposing a source buffer into its sinusoidal and residual components. It allows users to control parameters such as minimum track length and detection threshold. The object then enables playback of either the extracted sinusoidal content or the remaining residual signal.",
+    "categories": [
+        "Partial Tracking"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.bufonsetslice",
+    "description": "`fluid.bufonsetslice` implements various spectrum-based onset detection algorithms on audio data stored in a buffer. It allows configuration of FFT settings, selection of different spectral metrics (e.g., Energy, SpectralFlux, PhaseDev), and outputs the detected onset indices to a specified buffer. This object is primarily used for segmenting audio based on transient events.",
+    "categories": [
+        "Descriptors"
+    ]
+}

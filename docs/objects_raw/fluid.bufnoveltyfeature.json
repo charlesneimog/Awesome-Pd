@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.bufnoveltyfeature",
+    "description": "The `fluid.bufnoveltyfeature` object calculates a novelty curve from audio data stored in a buffer. It uses various FFT settings and can base the novelty on features like Spectrum, MFCC, Chroma, Pitch, or Loudness. This object is primarily used for analyzing audio to identify points of significant change, often in conjunction with `noveltyslice`.",
+    "categories": [
+        "Descriptors"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.bufampslice",
+    "description": "`fluid.bufampslice` is an amplitude-based audio slicer for buffered audio. It segments a source audio buffer into slices based on amplitude thresholds and other configurable parameters like minimum slice length. This object is typically used to prepare audio for playback of individual segments, often by generating onset/offset pairs.",
+    "categories": []
+}

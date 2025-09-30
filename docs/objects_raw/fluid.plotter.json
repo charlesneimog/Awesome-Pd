@@ -1,0 +1,35 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.plotter",
+    "description": "The `fluid.plotter` object provides a native graphical user interface for plotting and querying two-dimensional datasets. It allows users to visualize data points, customize their appearance, and interact with the plot through zooming and mouse input. The object also supports setting plot ranges and can be integrated with data analysis techniques like k-d tree querying and clustering.",
+    "categories": [
+        "GUI",
+        "Machine Learning",
+        "Graphics"
+    ]
+}
