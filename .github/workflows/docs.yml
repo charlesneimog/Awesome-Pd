@@ -1,11 +1,12 @@
----
 name: Docs
 on:
   push:
     branches: [main]
   workflow_dispatch:
+
 permissions:
   contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -14,10 +15,22 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
-      - uses: actions/cache@v4
+      - name: Cache pip
+        uses: actions/cache@v4
         with:
-          key: ${{ github.ref }}
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('docs/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+      - name: Cache MkDocs
+        uses: actions/cache@v4
+        with:
           path: .cache
+          key: ${{ runner.os }}-mkdocs-${{ hashFiles('**/*.md') }}
+          restore-keys: |
+            ${{ runner.os }}-mkdocs-
       - run: pip install -r docs/requirements.txt
       - run: python app.py --update
+      - run: mkdocs build --clean
       - run: mkdocs gh-deploy --force
+

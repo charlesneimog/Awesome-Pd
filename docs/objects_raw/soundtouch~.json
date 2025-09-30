@@ -1,7 +1,7 @@
 {
     "title": "soundtouch~",
     "whatiam": "object",
-    "description": "`soundtouch~` provides **time-stretching** and  **pitch-shifting** using Olli Parviainen\u2019s [SoundTouch library](http://www.surina.net/soundtouch/).  It allows changing the **tempo** of an audio signal without affecting its pitch,  \nand vice versa. This makes it useful for musical and sound design applications where independent control of speed and pitch is needed.",
+    "description": "`soundtouch~` provides **time-stretching** and  **pitch-shifting** using Olli Parviainen’s [SoundTouch library](http://www.surina.net/soundtouch/).  It allows changing the **tempo** of an audio signal without affecting its pitch,  \nand vice versa. This makes it useful for musical and sound design applications where independent control of speed and pitch is needed.",
     "runs_on": [
         "Mac",
         "Linux",
@@ -25,5 +25,11 @@
     "musics": [],
     "contributors": [
         "bolster2568"
+    ],
+    "similar": [
+        "pitch.shift~",
+        "stretch.shift~",
+        "pvoc.player~",
+        "gran.player~"
     ]
 }

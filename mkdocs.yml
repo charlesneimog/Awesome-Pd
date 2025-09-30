@@ -100,7 +100,10 @@ nav:
             -   anal: objects/statistical_models/anal.md
             -   median: objects/statistical_models/median.md
             -   markov: objects/statistical_models/markov.md
-    -   Analysis / Transform: []
+    -   Analysis / Transform:
+        -   Spectral Processing:
+            - objects/spectral_processing/index.md
+            -   soundtouch~: objects/spectral_processing/soundtouch~.md
     -   Composition:
         -   Procedural:
             - objects/procedural/index.md

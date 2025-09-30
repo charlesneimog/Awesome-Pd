@@ -4,4 +4,5 @@ mkdocs-exclude
 requests 
 PyYAML 
 mkdocs-material-extensions
-
+numpy
+scikit-learn

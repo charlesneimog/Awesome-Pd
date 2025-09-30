@@ -987,6 +987,7 @@
     "gemsdlwindow",
     "vu~",
     "peek~",
+    "soundtouch~",
     "timed.gate",
     "gain2~",
     "sfz~",

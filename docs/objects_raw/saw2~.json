@@ -28,7 +28,7 @@
     "similar": [
         "cosine~",
         "tri~",
-        "vsaw~",
-        "square~"
+        "square~",
+        "vsaw~"
     ]
 }

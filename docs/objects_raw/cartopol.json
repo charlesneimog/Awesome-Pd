@@ -26,8 +26,8 @@
     ],
     "similar": [
         "poltocar~",
-        "car2pol",
         "pol2car",
+        "car2pol",
         "cartopol~"
     ]
 }
