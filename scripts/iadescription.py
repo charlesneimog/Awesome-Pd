@@ -4,7 +4,7 @@ import json
 import subprocess
 from typing import Dict, Any, List, Tuple
 
-LIBRARY_HELP_FILES = "/home/neimog/Documents/Pd/externals/cyclone/"
+LIBRARY_HELP_FILES = "../docs/objects_raw"
 
 CATEGORIES_DESCRIPTIONS: Dict[str, str] = {
     "Machine Learning": "AI → General machine learning algorithms or tools for data analysis and prediction.",
@@ -251,10 +251,10 @@ if __name__ == "__main__":
         "runs_on": ["Mac", "Linux", "Windows"],
         "download_link": "",
         "available_on_deken": True,
-        "bug_reports": "https://github.com/porres/pd-cyclone/issues",
-        "developers": ["Alexandre Torres Porres"],
+        "bug_reports": "https://github.com/d-i-s/piro/issues",
+        "developers": ["Marco Matteo Markidis"],
         "part_of_library": True,
-        "library_name": "cyclone",
+        "library_name": "piro",
         "articles": [],
         "videos": [],
         "musics": [],

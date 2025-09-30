@@ -29,6 +29,6 @@
         "tosymbol",
         "separate",
         "atof",
-        "atoi"
+        "sprintf"
     ]
 }

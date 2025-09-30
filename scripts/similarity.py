@@ -24,7 +24,7 @@ def jaccard(a, b):
 def update_similarity():
     base_dir = os.path.dirname(__file__)
     input_dir = os.path.join(base_dir, "../docs/objects_raw")
-    output_dir = os.path.join(base_dir, "related")
+    output_dir = os.path.join(base_dir, "../docs/objects_raw/")
 
     # garantir que a pasta "related" exista
     os.makedirs(output_dir, exist_ok=True)

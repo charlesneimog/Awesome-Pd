@@ -41,5 +41,11 @@
     ],
     "contributors": [
         "charlesneimog"
+    ],
+    "similar": [
+        "emission",
+        "pm2~",
+        "pm6.m~",
+        "break"
     ]
 }

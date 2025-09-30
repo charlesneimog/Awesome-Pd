@@ -28,6 +28,6 @@
         "harmonicRatio",
         "specKurtosis~",
         "specSkewness~",
-        "specBrightness~"
+        "phaseSpec~"
     ]
 }

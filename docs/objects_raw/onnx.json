@@ -33,5 +33,11 @@
     "musics": [],
     "contributors": [
         "charlesneimog"
+    ],
+    "similar": [
+        "minSampleDelta",
+        "nn~",
+        "convolve~",
+        "sendmidi"
     ]
 }

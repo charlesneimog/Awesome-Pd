@@ -26,8 +26,8 @@
     ],
     "similar": [
         "part_vertex",
-        "part_head",
         "part_size",
+        "part_head",
         "part_follow"
     ]
 }

@@ -698,6 +698,7 @@ nav:
             -   mov.avg: objects/filters/mov.avg.md
             -   highpass~: objects/filters/highpass~.md
             -   filterdelay~: objects/filters/filterdelay~.md
+            -   multiconvolve~: objects/filters/multiconvolve~.md
             -   drown~: objects/filters/drown~.md
             -   brickwall~: objects/filters/brickwall~.md
             -   crossover~: objects/filters/crossover~.md
@@ -738,6 +739,7 @@ nav:
             -   convolve~: objects/reverb/convolve~.md
             -   giga.rev~: objects/reverb/giga.rev~.md
             -   plate.rev.m~: objects/reverb/plate.rev.m~.md
+            -   multiconvolve~: objects/reverb/multiconvolve~.md
             -   comb.rev~: objects/reverb/comb.rev~.md
             -   allpass.rev~: objects/reverb/allpass.rev~.md
             -   conv~: objects/reverb/conv~.md
@@ -1190,6 +1192,7 @@ nav:
             -   barkSpecSkewness~: objects/descriptors/barkSpecSkewness~.md
             -   harmonicRatio: objects/descriptors/harmonicRatio.md
             -   barkSpecSkewness: objects/descriptors/barkSpecSkewness.md
+            -   irmeasure~: objects/descriptors/irmeasure~.md
             -   barkSpecRolloff: objects/descriptors/barkSpecRolloff.md
             -   sampleBuffer~: objects/descriptors/sampleBuffer~.md
             -   bark~: objects/descriptors/bark~.md
@@ -1545,6 +1548,7 @@ nav:
             -   frac2cents: objects/general_utilities/frac2cents.md
             -   urn: objects/general_utilities/urn.md
             -   linedrive: objects/general_utilities/linedrive.md
+            -   irmanip: objects/general_utilities/irmanip.md
             -   pipe2: objects/general_utilities/pipe2.md
             -   relay: objects/general_utilities/relay.md
             -   slew2~: objects/general_utilities/slew2~.md
@@ -1888,6 +1892,7 @@ nav:
     -   else: libraries/else.md
     -   fftease: libraries/fftease.md
     -   neimog: libraries/neimog.md
+    -   piro: libraries/piro.md
     -   pmpd: libraries/pmpd.md
     -   timbreIDLib: libraries/timbreIDLib.md
     -   zexy: libraries/zexy.md

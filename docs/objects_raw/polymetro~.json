@@ -27,7 +27,7 @@
     "similar": [
         "polymetro",
         "l.attrfilter",
-        "l.readsvg",
-        "repeat"
+        "repeat",
+        "l.readsvg"
     ]
 }

@@ -29,6 +29,6 @@
         "fbdelay~",
         "delay~",
         "ping.pong~",
-        "trig.delay~"
+        "revdelay~"
     ]
 }

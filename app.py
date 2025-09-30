@@ -910,7 +910,10 @@ class AwesomePd:
         for c, descriptions in categories.items():
             print(f"Category being created: {c}")
             c_name = slugify_category(c)
-            parts = [f"# {c}\n\n", '<div class="grid cards" markdown>\n\n']
+            parts = [
+                f"---\nsearch:\n    exclude: true\n---\n\n# {c}\n\n",
+                '<div class="grid cards" markdown>\n\n',
+            ]
             for d in descriptions:
                 obj = d[0]
                 des = d[1]

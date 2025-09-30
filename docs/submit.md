@@ -13,12 +13,19 @@ hide:
   }
 </style>
 
+<h3 align="center"> Submit Objects, Libraries and Pieces</h3>
+
+We, Pd users, are a large and diverse community. Many artistic and research projects are developed by Pd users, programmers, and people from different backgrounds. However, we are missing a centralized place to share these contributions --- a space where people can submit their objects, pieces, and patches, and where the community can truly grow and be nourished by them.
+
 ---
 
 <div align="center">
     <a class="md-button " id="new-object">New/Edit Object</a>
     <a class="md-button " id="new-piece">New/Edit Piece</a>
 </div>
+
+
+
 
 ---
 <iframe 

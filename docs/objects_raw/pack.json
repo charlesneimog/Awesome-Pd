@@ -27,7 +27,7 @@
     "similar": [
         "pack2",
         "repack",
-        "any2list",
-        "pak"
+        "pak",
+        "any2list"
     ]
 }

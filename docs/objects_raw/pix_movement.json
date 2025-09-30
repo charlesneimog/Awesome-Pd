@@ -26,8 +26,8 @@
     ],
     "similar": [
         "pix_a_2grey",
-        "pix_movement2",
         "pix_takealpha",
+        "pix_movement2",
         "pix_alpha"
     ]
 }

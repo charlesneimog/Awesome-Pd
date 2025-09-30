@@ -26,9 +26,9 @@
         "Filters"
     ],
     "similar": [
+        "multiconvolve~",
         "convolve~",
         "burrow~",
-        "comb.rev~",
-        "allpass.rev~"
+        "comb.rev~"
     ]
 }

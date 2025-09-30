@@ -28,6 +28,6 @@
         "rint",
         "ceil",
         "abs~",
-        "round"
+        "tavg~"
     ]
 }

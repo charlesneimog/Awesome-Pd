@@ -29,6 +29,6 @@
         "pad",
         "button",
         "canvas.mouse",
-        "circle"
+        "slider2d"
     ]
 }
