@@ -20,17 +20,14 @@ jobs:
         with:
           path: ~/.cache/pip
           key: ${{ runner.os }}-pip-${{ hashFiles('docs/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
+          restore-keys: ${{ runner.os }}-pip-
       - name: Cache MkDocs
         uses: actions/cache@v4
         with:
           path: .cache
           key: ${{ runner.os }}-mkdocs-${{ hashFiles('**/*.md') }}
-          restore-keys: |
-            ${{ runner.os }}-mkdocs-
+          restore-keys: ${{ runner.os }}-mkdocs-
       - run: pip install -r docs/requirements.txt
       - run: python app.py --update
-      - run: mkdocs build --clean
       - run: mkdocs gh-deploy --force
 

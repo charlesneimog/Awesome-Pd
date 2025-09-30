@@ -685,7 +685,7 @@ class AwesomePd:
             with open(piecedir / file, "r", encoding="utf-8") as f:
                 data = json.load(f)
 
-            name = data["title"]
+            name = f"{data["title"]} ({data["year"]})"
             description = data["description"].split(". ")[0] + "."
             for category in data["categories"]:
                 categories.setdefault(category, []).append([name, description])

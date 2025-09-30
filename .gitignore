@@ -2,3 +2,4 @@ to-do
 .aider*
 site
 docs/objects/*/**/*.md
+docs/pieces/*/**/*.md
