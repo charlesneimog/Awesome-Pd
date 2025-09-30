@@ -65,6 +65,7 @@ PROMPT_TEMPLATE = """You are both a technical writer and a classifier.
 Task:
 1) Write a concise, clear English description (2–3 sentences max) of the Pure Data object described by the help patch. Focus on what the object does, its purpose, and any evident usage hints. Keep it simple, practical, and readable. Wrap Pure Data object names in inline code using backticks (e.g., `osc~`, `route`, `nn~`).
 2) Score ALL categories (listed below) with a confidence between 0.0 and 1.0 for how well the object's functionality fits each category. Consider the category description carefully, which now includes its parent category. 
+3) In case of double quotes inside description, use single quotes (e.g., "inside" => 'inside').
 
 Important: Use the exact category name as the key for scoring, but rely on the description (which includes parent context) to understand each category's scope.
 
@@ -125,6 +126,7 @@ def _run_gemini(prompt: str, model: str = "gemini-2.5-flash") -> str:
         env=env,
         check=False,
     )
+
     return result.stdout.strip()
 
 
@@ -280,7 +282,38 @@ if __name__ == "__main__":
     LIBRARY_HELP_FILES = input("Enter library dir where -help.pd are: ")
     script_dir = os.path.dirname(os.path.abspath(__file__))
     os.chdir(script_dir)
-    base = build_dict()
+    # base = build_dict()
+
+
+    base = {
+        "runs_on": [
+            "Mac",
+            "Linux",
+            "Windows"
+        ],
+        "available_on_deken": False,
+        "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+        "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+        "developers": [
+            "Pierre Alexandre Tremblay",
+            "Owen Green",
+            "Alex Harker",
+            "Gerard Roma",
+            "Ted Moore",
+            "Matt",
+            "Edouard Levasseur"
+        ],
+        "part_of_library": True,
+        "library_name": "flucoma",
+        "articles": [],
+        "videos": [],
+        "musics": [],
+        "contributors": [
+            "charlesneimog"
+        ],
+        "ai": True,
+    }
+
     count = 0
     for help_fname in os.listdir(LIBRARY_HELP_FILES):
         if help_fname.endswith("-help.pd"):
