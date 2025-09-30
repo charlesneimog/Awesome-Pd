@@ -1,0 +1,27 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": true,
+    "download_link": "",
+    "bug_reports": "https://github.com/jwmatthys/pd-echocurve/issues",
+    "developers": [
+        "Joel Matthys"
+    ],
+    "part_of_library": false,
+    "library_name": "",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "echocurve~",
+    "description": "`echocurve~` is a feedback delay object that generates echoes with exponentially changing time and amplitude curves. It allows control over the maximum echo time, the number of echo points, and the shape of the duration and amplitude curves, enabling dynamic and evolving delay effects.",
+    "categories": [
+        "Delay"
+    ]
+}
