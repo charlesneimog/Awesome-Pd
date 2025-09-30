@@ -12,6 +12,12 @@ from urllib.parse import parse_qs, urlparse
 import requests
 import yaml
 
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.feature_extraction import text
+import re
+import numpy as np
+
 
 # ==========================
 # Markdown/HTML Fragments
@@ -202,6 +208,9 @@ class AwesomePd:
 
     OWNER = "charlesneimog"
     REPO = "Awesome-Pd"
+    CUSTOM_STOPWORDS = set(text.ENGLISH_STOP_WORDS).union(
+        {"object", "outputs", "used", "primarily", "library", "feature"}
+    )
 
     def __init__(self, update_docs: bool = False) -> None:
         self.paths = Paths.from_base()
@@ -237,6 +246,8 @@ class AwesomePd:
         (self.paths.docs / "all_articles.json").write_text(
             json.dumps(self.articles, indent=4), encoding="utf-8"
         )
+
+        self.update_similarity()
 
     # --------------------------
     # GitHub Issues Integration
@@ -1035,6 +1046,69 @@ class AwesomePd:
             yaml.dump(self.config, default_flow_style=False, sort_keys=False, indent=4),
             encoding="utf-8",
         )
+
+    # --------------------------
+    # Full Similarity Update
+    # --------------------------
+    def clear_text(self, txt: str) -> str:
+        """Normaliza texto: minúsculas e remove caracteres especiais."""
+        tokens = re.sub(r"[^a-z0-9 ]", " ", txt.lower()).split()
+        return " ".join([t for t in tokens if t not in self.CUSTOM_STOPWORDS])
+
+    def jaccard(self, a, b):
+        """Similaridade de Jaccard entre duas listas de categorias."""
+        sa, sb = set(a), set(b)
+        return len(sa & sb) / len(sa | sb) if sa | sb else 0
+
+    def update_similarity(self):
+        print("Updating similarity...")
+        objetos = []
+        arquivos = [
+            f for f in os.listdir(self.paths.objects_raw) if f.endswith(".json")
+        ]
+        for file in arquivos:
+            json_file = os.path.join(self.paths.objects_raw, file)
+            with open(json_file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                data["__file__"] = file
+                data["desc_limpa"] = self.clear_text(data.get("description", ""))
+                objetos.append(data)
+
+        if not objetos:
+            print("No JSON found.")
+            return
+
+        # 2. TF-IDF nas descrições
+        docs = [o["desc_limpa"] for o in objetos]
+        vectorizer = TfidfVectorizer(stop_words="english")
+        tfidf_matrix = vectorizer.fit_transform(docs)
+
+        # 3. Similaridade de descrições (cosine)
+        sim_descricoes = cosine_similarity(tfidf_matrix)
+
+        # 4. Similaridade de categorias (jaccard)
+        sim_categorias = np.zeros((len(objetos), len(objetos)))
+        for i in range(len(objetos)):
+            for j in range(len(objetos)):
+                sim_categorias[i, j] = self.jaccard(
+                    objetos[i].get("categories", []), objetos[j].get("categories", [])
+                )
+
+        # 5. Combinar scores
+        alpha, beta = 0.7, 0.3
+        sim_total = alpha * sim_descricoes + beta * sim_categorias
+
+        # 6. Gerar arquivos na pasta "related"
+        for i, obj in enumerate(objetos):
+            scores = sim_total[i]
+            indices = scores.argsort()[::-1]
+            recomendados = [j for j in indices if j != i][:4]
+            obj["similar"] = [objetos[j]["title"] for j in recomendados]
+            out_file = os.path.join(self.paths.objects_raw, obj["__file__"])
+            obj.pop("__file__", None)
+            obj.pop("desc_limpa", None)
+            with open(out_file, "w", encoding="utf-8") as f:
+                json.dump(obj, f, indent=4, ensure_ascii=False)
 
 
 if __name__ == "__main__":
