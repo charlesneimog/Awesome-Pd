@@ -92,12 +92,13 @@ async function updateList() {{
         let container = document.getElementById('libcontributors');
         contributors.forEach(user => {{
             let link = document.createElement('a');
-            link.href = user.avatar_url;
+            link.href = user.html_url;
             link.target = '_blank';
             let img = document.createElement('img');
-            img.src = `https://github.com/${{user.login}}.png?size=100`;
+            img.src = user.avatar_url;
             img.alt = user.login;
             img.className = 'libavatar';
+
             link.appendChild(img);
             container.appendChild(link);
         }});
