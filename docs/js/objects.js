@@ -45,12 +45,14 @@ async function addPieces() {
         }
         let categories = objresult["categories"][0].replace(/ |\//g, "_").toLowerCase();
         let firstSentence = description.split(". ")[0];
+        let year = objresult["year"];
+        let composer = objresult["developers"][0];
 
         // Create link
         let item_slugify = item.replace(/ |\//g, "_").toLowerCase();
         const a = document.createElement("a");
         a.href = `${getOriginUrl()}pieces/${categories}/${item_slugify}`;
-        a.innerHTML = `<strong><code>${item}</code></strong>`;
+        a.innerHTML = `<strong><code>${item}</code></strong> (${year}) <i>by ${composer}</i>`;
         span.appendChild(a);
         let html = firstSentence.replace(/`([^`]+)`/g, "<code>$1</code>");
         html = html.replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>");

@@ -85,21 +85,61 @@ nav:
         -   Deep Learning:
             - objects/deep_learning/index.md
             -   nn~: objects/deep_learning/nn~.md
+            -   fluid.mlpregressor: objects/deep_learning/fluid.mlpregressor.md
+            -   fluid.mlpclassifier: objects/deep_learning/fluid.mlpclassifier.md
         -   Machine Learning:
             - objects/machine_learning/index.md
+            -   fluid.pca: objects/machine_learning/fluid.pca.md
+            -   fluid.bufflatten: objects/machine_learning/fluid.bufflatten.md
+            -   fluid.labelset: objects/machine_learning/fluid.labelset.md
+            -   fluid.nmfmatch~: objects/machine_learning/fluid.nmfmatch~.md
+            -   fluid.nmfmorph~: objects/machine_learning/fluid.nmfmorph~.md
+            -   fluid.knnclassifier: objects/machine_learning/fluid.knnclassifier.md
+            -   fluid.plotter: objects/machine_learning/fluid.plotter.md
+            -   fluid.standardize: objects/machine_learning/fluid.standardize.md
+            -   fluid.robustscale: objects/machine_learning/fluid.robustscale.md
+            -   fluid.umap: objects/machine_learning/fluid.umap.md
+            -   fluid.bufnmf: objects/machine_learning/fluid.bufnmf.md
+            -   fluid.bufnmfseed: objects/machine_learning/fluid.bufnmfseed.md
+            -   fluid.skmeans: objects/machine_learning/fluid.skmeans.md
+            -   fluid.mds: objects/machine_learning/fluid.mds.md
+            -   fluid.kmeans: objects/machine_learning/fluid.kmeans.md
+            -   fluid.nmffilter~: objects/machine_learning/fluid.nmffilter~.md
+            -   fluid.mlpregressor: objects/machine_learning/fluid.mlpregressor.md
+            -   fluid.knnregressor: objects/machine_learning/fluid.knnregressor.md
+            -   fluid.normalize: objects/machine_learning/fluid.normalize.md
+            -   fluid.mlpclassifier: objects/machine_learning/fluid.mlpclassifier.md
             -   onnx: objects/machine_learning/onnx.md
+            -   fluid.bufnmfcross: objects/machine_learning/fluid.bufnmfcross.md
+            -   fluid.ls2text: objects/machine_learning/fluid.ls2text.md
         -   Neural Networks:
             - objects/neural_networks/index.md
             -   neuralnet: objects/neural_networks/neuralnet.md
+            -   fluid.mlpregressor: objects/neural_networks/fluid.mlpregressor.md
+            -   fluid.mlpclassifier: objects/neural_networks/fluid.mlpclassifier.md
         -   Statistical Models:
             - objects/statistical_models/index.md
+            -   fluid.pca: objects/statistical_models/fluid.pca.md
+            -   fluid.nmfmorph~: objects/statistical_models/fluid.nmfmorph~.md
+            -   fluid.standardize: objects/statistical_models/fluid.standardize.md
+            -   fluid.robustscale: objects/statistical_models/fluid.robustscale.md
+            -   kalman: objects/statistical_models/kalman.md
+            -   fluid.skmeans: objects/statistical_models/fluid.skmeans.md
             -   brown: objects/statistical_models/brown.md
+            -   fluid.mds: objects/statistical_models/fluid.mds.md
             -   histo: objects/statistical_models/histo.md
             -   prob: objects/statistical_models/prob.md
             -   gendyn~: objects/statistical_models/gendyn~.md
             -   anal: objects/statistical_models/anal.md
+            -   fluid.stats: objects/statistical_models/fluid.stats.md
+            -   fluid.bufstats: objects/statistical_models/fluid.bufstats.md
+            -   fluid.kmeans: objects/statistical_models/fluid.kmeans.md
+            -   fluid.bufspectralshape: objects/statistical_models/fluid.bufspectralshape.md
             -   median: objects/statistical_models/median.md
             -   markov: objects/statistical_models/markov.md
+            -   fluid.knnregressor: objects/statistical_models/fluid.knnregressor.md
+            -   fluid.normalize: objects/statistical_models/fluid.normalize.md
+            -   fluid.bufnmfcross: objects/statistical_models/fluid.bufnmfcross.md
     -   Analysis / Transform:
         -   Spectral Processing:
             - objects/spectral_processing/index.md
@@ -150,6 +190,7 @@ nav:
             -   smooth: objects/envelopes/smooth.md
             -   envelope~: objects/envelopes/envelope~.md
             -   peak~: objects/envelopes/peak~.md
+            -   fluid.ampgate~: objects/envelopes/fluid.ampgate~.md
             -   gatehold~: objects/envelopes/gatehold~.md
             -   tabgen: objects/envelopes/tabgen.md
             -   decay~: objects/envelopes/decay~.md
@@ -213,6 +254,7 @@ nav:
             -   limit: objects/logic/limit.md
             -   ==~: objects/logic/==~.md
             -   onebang: objects/logic/onebang.md
+            -   fluid.datasetquery: objects/logic/fluid.datasetquery.md
             -   0x3c0x7e: objects/logic/0x3c0x7e.md
             -   lessthaneq~: objects/logic/lessthaneq~.md
             -   greaterthan~: objects/logic/greaterthan~.md
@@ -295,6 +337,7 @@ nav:
             -   pix_threshold_bernsen: objects/math/pix_threshold_bernsen.md
             -   ratio2cents: objects/math/ratio2cents.md
             -   pdf~: objects/math/pdf~.md
+            -   fluid.pca: objects/math/fluid.pca.md
             -   trunc~: objects/math/trunc~.md
             -   pow~: objects/math/pow~.md
             -   car2pol~: objects/math/car2pol~.md
@@ -313,6 +356,7 @@ nav:
             -   autotune2: objects/math/autotune2.md
             -   henon~: objects/math/henon~.md
             -   standard~: objects/math/standard~.md
+            -   fluid.nmfmorph~: objects/math/fluid.nmfmorph~.md
             -   hsv2rgb: objects/math/hsv2rgb.md
             -   resonant~: objects/math/resonant~.md
             -   asin~: objects/math/asin~.md
@@ -360,6 +404,7 @@ nav:
             -   minmax: objects/math/minmax.md
             -   zl: objects/math/zl.md
             -   float2bits: objects/math/float2bits.md
+            -   kalman: objects/math/kalman.md
             -   minimum~: objects/math/minimum~.md
             -   bpm: objects/math/bpm.md
             -   sin~: objects/math/sin~.md
@@ -373,6 +418,7 @@ nav:
             -   cosh~: objects/math/cosh~.md
             -   iAmbient2D: objects/math/iAmbient2D.md
             -   rminus: objects/math/rminus.md
+            -   fluid.mfcc~: objects/math/fluid.mfcc~.md
             -   ceil~: objects/math/ceil~.md
             -   wrap: objects/math/wrap.md
             -   tanh: objects/math/tanh.md
@@ -406,6 +452,7 @@ nav:
             -   mov.avg: objects/math/mov.avg.md
             -   ms2samps: objects/math/ms2samps.md
             -   acosh~: objects/math/acosh~.md
+            -   fluid.gain~: objects/math/fluid.gain~.md
             -   rint: objects/math/rint.md
             -   cartopol~: objects/math/cartopol~.md
             -   abs~: objects/math/abs~.md
@@ -443,6 +490,7 @@ nav:
             -   dec2hex: objects/math/dec2hex.md
             -   cents2ratio: objects/math/cents2ratio.md
             -   sinh~: objects/math/sinh~.md
+            -   fluid.bufscale: objects/math/fluid.bufscale.md
             -   fold: objects/math/fold.md
             -   tabgen: objects/math/tabgen.md
             -   scale~: objects/math/scale~.md
@@ -462,6 +510,7 @@ nav:
             -   midi2freq: objects/math/midi2freq.md
             -   a.sum: objects/math/a.sum.md
             -   avg~: objects/math/avg~.md
+            -   fluid.normalize: objects/math/fluid.normalize.md
             -   sum: objects/math/sum.md
             -   clip: objects/math/clip.md
             -   atanh~: objects/math/atanh~.md
@@ -618,6 +667,7 @@ nav:
             -   pix_delay: objects/delay/pix_delay.md
             -   trig.delay~: objects/delay/trig.delay~.md
             -   fbdelay~: objects/delay/fbdelay~.md
+            -   echocurve~: objects/delay/echocurve~.md
             -   echo.rev~: objects/delay/echo.rev~.md
             -   trig.delay2~: objects/delay/trig.delay2~.md
             -   gatedelay~: objects/delay/gatedelay~.md
@@ -663,6 +713,7 @@ nav:
             -   drown~: objects/dynamics/drown~.md
             -   norm~: objects/dynamics/norm~.md
             -   level~: objects/dynamics/level~.md
+            -   fluid.bufthresh: objects/dynamics/fluid.bufthresh.md
             -   compress~: objects/dynamics/compress~.md
             -   limiter~: objects/dynamics/limiter~.md
             -   noisegate~: objects/dynamics/noisegate~.md
@@ -710,6 +761,7 @@ nav:
             -   bandpass~: objects/filters/bandpass~.md
             -   lowshelf~: objects/filters/lowshelf~.md
             -   cross~: objects/filters/cross~.md
+            -   fluid.nmffilter~: objects/filters/fluid.nmffilter~.md
             -   svfilter~: objects/filters/svfilter~.md
             -   onepole~: objects/filters/onepole~.md
             -   resonbank2~: objects/filters/resonbank2~.md
@@ -811,7 +863,9 @@ nav:
             -   sfont.m~: objects/gui/sfont.m~.md
             -   circle: objects/gui/circle.md
             -   mtx.ctl: objects/gui/mtx.ctl.md
+            -   fluid.waveform: objects/gui/fluid.waveform.md
             -   range.hsl: objects/gui/range.hsl.md
+            -   fluid.plotter: objects/gui/fluid.plotter.md
             -   drum.seq: objects/gui/drum.seq.md
             -   button: objects/gui/button.md
             -   number~: objects/gui/number~.md
@@ -878,6 +932,7 @@ nav:
             -   polygon: objects/graphics/polygon.md
             -   pix_multitexture: objects/graphics/pix_multitexture.md
             -   shininess: objects/graphics/shininess.md
+            -   fluid.waveform: objects/graphics/fluid.waveform.md
             -   pix_add: objects/graphics/pix_add.md
             -   teapot: objects/graphics/teapot.md
             -   pix_blur: objects/graphics/pix_blur.md
@@ -886,6 +941,7 @@ nav:
             -   pix_convolve: objects/graphics/pix_convolve.md
             -   pix_hsv2rgb: objects/graphics/pix_hsv2rgb.md
             -   vertex_program: objects/graphics/vertex_program.md
+            -   fluid.plotter: objects/graphics/fluid.plotter.md
             -   colorSquare: objects/graphics/colorSquare.md
             -   pix_equal: objects/graphics/pix_equal.md
             -   pix_buffer_filmopen: objects/graphics/pix_buffer_filmopen.md
@@ -1091,16 +1147,22 @@ nav:
     -   MIR / Analysis:
         -   Descriptors:
             - objects/descriptors/index.md
+            -   fluid.bufnoveltyslice: objects/descriptors/fluid.bufnoveltyslice.md
             -   peakSample: objects/descriptors/peakSample.md
             -   phaseSpec: objects/descriptors/phaseSpec.md
+            -   fluid.ampslice~: objects/descriptors/fluid.ampslice~.md
             -   barkSpecSlope~: objects/descriptors/barkSpecSlope~.md
+            -   fluid.ampfeature~: objects/descriptors/fluid.ampfeature~.md
             -   spectrograph~: objects/descriptors/spectrograph~.md
             -   tID_std: objects/descriptors/tID_std.md
+            -   fluid.bufmfcc: objects/descriptors/fluid.bufmfcc.md
             -   phaseSpec~: objects/descriptors/phaseSpec~.md
+            -   fluid.bufloudness: objects/descriptors/fluid.bufloudness.md
             -   barkSpecSlope: objects/descriptors/barkSpecSlope.md
             -   featureDelta: objects/descriptors/featureDelta.md
             -   barkSpecIrregularity: objects/descriptors/barkSpecIrregularity.md
             -   pix_multiblob: objects/descriptors/pix_multiblob.md
+            -   fluid.nmfmatch~: objects/descriptors/fluid.nmfmatch~.md
             -   range~: objects/descriptors/range~.md
             -   barkSpecBrightness: objects/descriptors/barkSpecBrightness.md
             -   pix_blobtracker: objects/descriptors/pix_blobtracker.md
@@ -1108,6 +1170,8 @@ nav:
             -   chroma~: objects/descriptors/chroma~.md
             -   specSlope: objects/descriptors/specSlope.md
             -   cepstrumPitch~: objects/descriptors/cepstrumPitch~.md
+            -   fluid.spectralshape~: objects/descriptors/fluid.spectralshape~.md
+            -   fluid.noveltyfeature~: objects/descriptors/fluid.noveltyfeature~.md
             -   dfreq~: objects/descriptors/dfreq~.md
             -   attackTime: objects/descriptors/attackTime.md
             -   mag~: objects/descriptors/mag~.md
@@ -1115,6 +1179,7 @@ nav:
             -   tID_fft: objects/descriptors/tID_fft.md
             -   maxSampleDelta~: objects/descriptors/maxSampleDelta~.md
             -   barkSpecCentroid: objects/descriptors/barkSpecCentroid.md
+            -   fluid.noveltyslice~: objects/descriptors/fluid.noveltyslice~.md
             -   waveSlope~: objects/descriptors/waveSlope~.md
             -   specSpread: objects/descriptors/specSpread.md
             -   specCentroid: objects/descriptors/specCentroid.md
@@ -1133,49 +1198,68 @@ nav:
             -   morphine~: objects/descriptors/morphine~.md
             -   dct~: objects/descriptors/dct~.md
             -   maxpeak~: objects/descriptors/maxpeak~.md
+            -   fluid.bufnmf: objects/descriptors/fluid.bufnmf.md
             -   binWrangler: objects/descriptors/binWrangler.md
             -   maxSample~: objects/descriptors/maxSample~.md
             -   meter8~: objects/descriptors/meter8~.md
             -   specIrregularity: objects/descriptors/specIrregularity.md
             -   specSlope~: objects/descriptors/specSlope~.md
+            -   fluid.bufnmfseed: objects/descriptors/fluid.bufnmfseed.md
+            -   fluid.bufonsetslice: objects/descriptors/fluid.bufonsetslice.md
+            -   fluid.transientslice~: objects/descriptors/fluid.transientslice~.md
             -   peakSample~: objects/descriptors/peakSample~.md
             -   specCentroid~: objects/descriptors/specCentroid~.md
             -   hann~: objects/descriptors/hann~.md
             -   specFlux~: objects/descriptors/specFlux~.md
+            -   fluid.bufampfeature: objects/descriptors/fluid.bufampfeature.md
             -   bfcc~: objects/descriptors/bfcc~.md
+            -   fluid.pitch~: objects/descriptors/fluid.pitch~.md
             -   specFlatness: objects/descriptors/specFlatness.md
             -   mfcc: objects/descriptors/mfcc.md
             -   cepstrum~: objects/descriptors/cepstrum~.md
+            -   fluid.mfcc~: objects/descriptors/fluid.mfcc~.md
             -   mfcc~: objects/descriptors/mfcc~.md
             -   waveSlope: objects/descriptors/waveSlope.md
             -   specRolloff: objects/descriptors/specRolloff.md
             -   energy: objects/descriptors/energy.md
             -   zerox~: objects/descriptors/zerox~.md
             -   range: objects/descriptors/range.md
+            -   fluid.onsetfeature~: objects/descriptors/fluid.onsetfeature~.md
+            -   fluid.bufstft: objects/descriptors/fluid.bufstft.md
+            -   fluid.audiotransport~: objects/descriptors/fluid.audiotransport~.md
             -   timbreID: objects/descriptors/timbreID.md
+            -   fluid.transients~: objects/descriptors/fluid.transients~.md
             -   waveNoise: objects/descriptors/waveNoise.md
             -   barkSpecKurtosis: objects/descriptors/barkSpecKurtosis.md
             -   barkSpecFlux: objects/descriptors/barkSpecFlux.md
+            -   fluid.bufonsetfeature: objects/descriptors/fluid.bufonsetfeature.md
+            -   fluid.bufaudiotransport: objects/descriptors/fluid.bufaudiotransport.md
             -   barkSpecFlatness~: objects/descriptors/barkSpecFlatness~.md
             -   specHarmonicity~: objects/descriptors/specHarmonicity~.md
             -   specFlatness~: objects/descriptors/specFlatness~.md
             -   detect~: objects/descriptors/detect~.md
+            -   fluid.melbands~: objects/descriptors/fluid.melbands~.md
             -   magSpec~: objects/descriptors/magSpec~.md
             -   pix_drum: objects/descriptors/pix_drum.md
+            -   fluid.stats: objects/descriptors/fluid.stats.md
             -   peak~: objects/descriptors/peak~.md
             -   pix_histo: objects/descriptors/pix_histo.md
             -   specSkewness~: objects/descriptors/specSkewness~.md
             -   featureAccum: objects/descriptors/featureAccum.md
+            -   fluid.bufstats: objects/descriptors/fluid.bufstats.md
             -   specRolloff~: objects/descriptors/specRolloff~.md
             -   chroma: objects/descriptors/chroma.md
+            -   fluid.loudness~: objects/descriptors/fluid.loudness~.md
             -   specFlux: objects/descriptors/specFlux.md
             -   barkSpecIrregularity~: objects/descriptors/barkSpecIrregularity~.md
             -   maxSampleDelta: objects/descriptors/maxSampleDelta.md
             -   specHarmonicity: objects/descriptors/specHarmonicity.md
             -   zeroCrossing~: objects/descriptors/zeroCrossing~.md
+            -   fluid.bufsinefeature: objects/descriptors/fluid.bufsinefeature.md
             -   specBrightness: objects/descriptors/specBrightness.md
             -   bfcc: objects/descriptors/bfcc.md
             -   barkSpecKurtosis~: objects/descriptors/barkSpecKurtosis~.md
+            -   fluid.bufspectralshape: objects/descriptors/fluid.bufspectralshape.md
             -   barkSpecSpread: objects/descriptors/barkSpecSpread.md
             -   barkSpecFlux~: objects/descriptors/barkSpecFlux~.md
             -   barkSpecSpread~: objects/descriptors/barkSpecSpread~.md
@@ -1184,6 +1268,7 @@ nav:
             -   tID-conversion: objects/descriptors/tID-conversion.md
             -   autoCorrPitch~: objects/descriptors/autoCorrPitch~.md
             -   tID_fft~: objects/descriptors/tID_fft~.md
+            -   fluid.bufchroma: objects/descriptors/fluid.bufchroma.md
             -   bark: objects/descriptors/bark.md
             -   meter~: objects/descriptors/meter~.md
             -   vu~: objects/descriptors/vu~.md
@@ -1194,22 +1279,30 @@ nav:
             -   beat~: objects/descriptors/beat~.md
             -   barkSpecSkewness~: objects/descriptors/barkSpecSkewness~.md
             -   harmonicRatio: objects/descriptors/harmonicRatio.md
+            -   fluid.bufselect: objects/descriptors/fluid.bufselect.md
             -   barkSpecSkewness: objects/descriptors/barkSpecSkewness.md
+            -   fluid.chroma~: objects/descriptors/fluid.chroma~.md
             -   irmeasure~: objects/descriptors/irmeasure~.md
             -   barkSpecRolloff: objects/descriptors/barkSpecRolloff.md
             -   sampleBuffer~: objects/descriptors/sampleBuffer~.md
             -   bark~: objects/descriptors/bark~.md
             -   envrms~: objects/descriptors/envrms~.md
+            -   fluid.bufpitch: objects/descriptors/fluid.bufpitch.md
+            -   fluid.buftransientslice: objects/descriptors/fluid.buftransientslice.md
             -   specIrregularity~: objects/descriptors/specIrregularity~.md
             -   maxSample: objects/descriptors/maxSample.md
             -   meter4~: objects/descriptors/meter4~.md
             -   specKurtosis~: objects/descriptors/specKurtosis~.md
+            -   fluid.onsetslice~: objects/descriptors/fluid.onsetslice~.md
             -   cepstrum: objects/descriptors/cepstrum.md
+            -   fluid.bufhpss: objects/descriptors/fluid.bufhpss.md
             -   nearestPoint: objects/descriptors/nearestPoint.md
+            -   fluid.datasetquery: objects/descriptors/fluid.datasetquery.md
             -   tabletool: objects/descriptors/tabletool.md
             -   featureNorm: objects/descriptors/featureNorm.md
             -   energyEntropy: objects/descriptors/energyEntropy.md
             -   magSpec: objects/descriptors/magSpec.md
+            -   fluid.bufmelbands: objects/descriptors/fluid.bufmelbands.md
             -   minSample: objects/descriptors/minSample.md
             -   barkSpecCentroid~: objects/descriptors/barkSpecCentroid~.md
             -   minSample~: objects/descriptors/minSample~.md
@@ -1219,14 +1312,21 @@ nav:
             -   barkSpecFlatness: objects/descriptors/barkSpecFlatness.md
             -   energyEntropy~: objects/descriptors/energyEntropy~.md
             -   peakamp~: objects/descriptors/peakamp~.md
+            -   fluid.bufnoveltyfeature: objects/descriptors/fluid.bufnoveltyfeature.md
             -   specSpread~: objects/descriptors/specSpread~.md
             -   barkSpec~: objects/descriptors/barkSpec~.md
         -   Partial Tracking:
             - objects/partial_tracking/index.md
             -   pvwarpb~: objects/partial_tracking/pvwarpb~.md
+            -   fluid.sines~: objects/partial_tracking/fluid.sines~.md
             -   pvoc~: objects/partial_tracking/pvoc~.md
+            -   fluid.buftransients: objects/partial_tracking/fluid.buftransients.md
+            -   fluid.bufsines: objects/partial_tracking/fluid.bufsines.md
+            -   fluid.bufstft: objects/partial_tracking/fluid.bufstft.md
+            -   fluid.sinefeature~: objects/partial_tracking/fluid.sinefeature~.md
             -   resent~: objects/partial_tracking/resent~.md
             -   reanimator~: objects/partial_tracking/reanimator~.md
+            -   fluid.bufsinefeature: objects/partial_tracking/fluid.bufsinefeature.md
             -   pileup~: objects/partial_tracking/pileup~.md
             -   pvharm~: objects/partial_tracking/pvharm~.md
             -   morph~: objects/partial_tracking/morph~.md
@@ -1256,11 +1356,13 @@ nav:
         -   Additive:
             - objects/additive/index.md
             -   cavoc27~: objects/additive/cavoc27~.md
+            -   fluid.sines~: objects/additive/fluid.sines~.md
             -   oscbank~: objects/additive/oscbank~.md
             -   enrich~: objects/additive/enrich~.md
             -   blip~: objects/additive/blip~.md
             -   pileup~: objects/additive/pileup~.md
             -   sine~: objects/additive/sine~.md
+            -   fluid.bufnmfcross: objects/additive/fluid.bufnmfcross.md
             -   cavoc~: objects/additive/cavoc~.md
         -   Granular:
             - objects/granular/index.md
@@ -1462,6 +1564,8 @@ nav:
             -   symbol2list: objects/data_structures/symbol2list.md
             -   presets: objects/data_structures/presets.md
             -   insert: objects/data_structures/insert.md
+            -   fluid.bufinfo: objects/data_structures/fluid.bufinfo.md
+            -   fluid.labelset: objects/data_structures/fluid.labelset.md
             -   list2symbol: objects/data_structures/list2symbol.md
             -   glue: objects/data_structures/glue.md
             -   store: objects/data_structures/store.md
@@ -1470,7 +1574,10 @@ nav:
             -   pack2: objects/data_structures/pack2.md
             -   lister: objects/data_structures/lister.md
             -   index~: objects/data_structures/index~.md
+            -   fluid.knnclassifier: objects/data_structures/fluid.knnclassifier.md
             -   rec: objects/data_structures/rec.md
+            -   fluid.dataset: objects/data_structures/fluid.dataset.md
+            -   fluid.ds2text: objects/data_structures/fluid.ds2text.md
             -   buffer: objects/data_structures/buffer.md
             -   lookup~: objects/data_structures/lookup~.md
             -   stream: objects/data_structures/stream.md
@@ -1496,9 +1603,12 @@ nav:
             -   delete: objects/data_structures/delete.md
             -   multi.vsl: objects/data_structures/multi.vsl.md
             -   funbuff: objects/data_structures/funbuff.md
+            -   fluid.multiarray: objects/data_structures/fluid.multiarray.md
             -   matchbox: objects/data_structures/matchbox.md
             -   rotate: objects/data_structures/rotate.md
             -   symbol2any: objects/data_structures/symbol2any.md
+            -   fluid.bufselectevery: objects/data_structures/fluid.bufselectevery.md
+            -   fluid.grid: objects/data_structures/fluid.grid.md
             -   var: objects/data_structures/var.md
             -   l2i: objects/data_structures/l2i.md
             -   pak: objects/data_structures/pak.md
@@ -1508,6 +1618,7 @@ nav:
             -   args: objects/data_structures/args.md
             -   coll: objects/data_structures/coll.md
             -   replace: objects/data_structures/replace.md
+            -   fluid.bufcompose: objects/data_structures/fluid.bufcompose.md
             -   tabreader: objects/data_structures/tabreader.md
             -   fifop: objects/data_structures/fifop.md
             -   offer: objects/data_structures/offer.md
@@ -1528,17 +1639,21 @@ nav:
             -   linear_path: objects/data_structures/linear_path.md
             -   colors: objects/data_structures/colors.md
             -   l2s: objects/data_structures/l2s.md
+            -   fluid.datasetquery: objects/data_structures/fluid.datasetquery.md
             -   pmpd: objects/data_structures/pmpd.md
             -   prepend: objects/data_structures/prepend.md
+            -   fluid.kdtree: objects/data_structures/fluid.kdtree.md
             -   pv: objects/data_structures/pv.md
             -   table: objects/data_structures/table.md
             -   list2lists: objects/data_structures/list2lists.md
+            -   fluid.ls2text: objects/data_structures/fluid.ls2text.md
             -   batch.write~: objects/data_structures/batch.write~.md
         -   General Utilities:
             - objects/general_utilities/index.md
             -   presets: objects/general_utilities/presets.md
             -   segregate: objects/general_utilities/segregate.md
             -   universal: objects/general_utilities/universal.md
+            -   fluid.bufinfo: objects/general_utilities/fluid.bufinfo.md
             -   bondo: objects/general_utilities/bondo.md
             -   mean: objects/general_utilities/mean.md
             -   initmess: objects/general_utilities/initmess.md
@@ -1563,6 +1678,8 @@ nav:
             -   sampstoms~: objects/general_utilities/sampstoms~.md
             -   merge: objects/general_utilities/merge.md
             -   blocksize~: objects/general_utilities/blocksize~.md
+            -   fluid.robustscale: objects/general_utilities/fluid.robustscale.md
+            -   fluid.concataudiofiles: objects/general_utilities/fluid.concataudiofiles.md
             -   default: objects/general_utilities/default.md
             -   swap~: objects/general_utilities/swap~.md
             -   pulsediv~: objects/general_utilities/pulsediv~.md
@@ -1677,6 +1794,7 @@ nav:
             -   sfload: objects/multithreading/sfload.md
             -   pix_image: objects/multithreading/pix_image.md
             -   coll: objects/multithreading/coll.md
+            -   fluid.bufthreaddemo: objects/multithreading/fluid.bufthreaddemo.md
         -   Multichannel:
             - objects/multichannel/index.md
             -   out~: objects/multichannel/out~.md
@@ -1692,10 +1810,12 @@ nav:
             -   xgate2~: objects/multichannel/xgate2~.md
             -   white~: objects/multichannel/white~.md
             -   smooth~: objects/multichannel/smooth~.md
+            -   fluid.bufflatten: objects/multichannel/fluid.bufflatten.md
             -   crusher.m~: objects/multichannel/crusher.m~.md
             -   cosine~: objects/multichannel/cosine~.md
             -   envgen~: objects/multichannel/envgen~.md
             -   slew~: objects/multichannel/slew~.md
+            -   fluid.bufmfcc: objects/multichannel/fluid.bufmfcc.md
             -   pdlink~: objects/multichannel/pdlink~.md
             -   bl.tri~: objects/multichannel/bl.tri~.md
             -   bl.imp2~: objects/multichannel/bl.imp2~.md
@@ -1707,6 +1827,7 @@ nav:
             -   gray~: objects/multichannel/gray~.md
             -   tabreader~: objects/multichannel/tabreader~.md
             -   resonbank~: objects/multichannel/resonbank~.md
+            -   fluid.waveform: objects/multichannel/fluid.waveform.md
             -   autofade.mc~: objects/multichannel/autofade.mc~.md
             -   vsaw~: objects/multichannel/vsaw~.md
             -   dust~: objects/multichannel/dust~.md
@@ -1736,7 +1857,9 @@ nav:
             -   fold~: objects/multichannel/fold~.md
             -   smooth2~: objects/multichannel/smooth2~.md
             -   pm2~: objects/multichannel/pm2~.md
+            -   fluid.buftransients: objects/multichannel/fluid.buftransients.md
             -   pan2~: objects/multichannel/pan2~.md
+            -   fluid.bufnmf: objects/multichannel/fluid.bufnmf.md
             -   pm6~: objects/multichannel/pm6~.md
             -   poke~: objects/multichannel/poke~.md
             -   flanger.m~: objects/multichannel/flanger.m~.md
@@ -1751,6 +1874,7 @@ nav:
             -   ceil~: objects/multichannel/ceil~.md
             -   sample~: objects/multichannel/sample~.md
             -   db2lin~: objects/multichannel/db2lin~.md
+            -   fluid.multiarray: objects/multichannel/fluid.multiarray.md
             -   glide~: objects/multichannel/glide~.md
             -   xgate2.mc~: objects/multichannel/xgate2.mc~.md
             -   spread~: objects/multichannel/spread~.md
@@ -1822,6 +1946,7 @@ nav:
             -   vca.m~: objects/multichannel/vca.m~.md
             -   pimp~: objects/multichannel/pimp~.md
             -   bitnormal~: objects/multichannel/bitnormal~.md
+            -   fluid.bufmelbands: objects/multichannel/fluid.bufmelbands.md
             -   lin2db~: objects/multichannel/lin2db~.md
             -   xfade.mc~: objects/multichannel/xfade.mc~.md
             -   pmpd3d~: objects/multichannel/pmpd3d~.md
@@ -1864,6 +1989,7 @@ nav:
             -   fromsymbol: objects/text/fromsymbol.md
             -   msgfile: objects/text/msgfile.md
             -   score: objects/text/score.md
+            -   fluid.s2f: objects/text/fluid.s2f.md
             -   tosymbol: objects/text/tosymbol.md
             -   regex: objects/text/regex.md
             -   freadln: objects/text/freadln.md
@@ -1888,12 +2014,14 @@ nav:
             -   notedur2ratio: objects/text/notedur2ratio.md
             -   fwriteln: objects/text/fwriteln.md
             -   sprintf: objects/text/sprintf.md
+            -   fluid.ls2text: objects/text/fluid.ls2text.md
             -   note: objects/text/note.md
 -   Libraries:
     - libraries/index.md
     -   cyclone: libraries/cyclone.md
     -   else: libraries/else.md
     -   fftease: libraries/fftease.md
+    -   flucoma: libraries/flucoma.md
     -   neimog: libraries/neimog.md
     -   piro: libraries/piro.md
     -   pmpd: libraries/pmpd.md
@@ -1903,8 +2031,7 @@ nav:
     - pieces/index.md
     -   Live-Electronics:
         - pieces/live-electronics/index.md
-        -   "C\xE2nticos de Sil\xEDcio I (2025)": "pieces/live-electronics/c\xE2nticos_de_sil\xED\
-                cio_i.md"
+        -   Cânticos de Silício I (2025): pieces/live-electronics/cânticos_de_silício_i.md
 -   Web:
     -   pd4web: web/pd4web.md
     -   pdwebparty: web/pdwebparty.md

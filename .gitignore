@@ -3,3 +3,5 @@ to-do
 site
 docs/objects/*/**/*.md
 docs/pieces/*/**/*.md
+docs/libraries/*.md
+!/docs/libraries/index.md
