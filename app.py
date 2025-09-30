@@ -92,7 +92,7 @@ async function updateList() {{
         let container = document.getElementById('libcontributors');
         contributors.forEach(user => {{
             let link = document.createElement('a');
-            link.href = `https://github.com/${{user.login}}`;
+            link.href = user.avatar_url;
             link.target = '_blank';
             let img = document.createElement('img');
             img.src = `https://github.com/${{user.login}}.png?size=100`;
@@ -888,7 +888,6 @@ class AwesomePd:
         parts.append("---\nsearch:\n    exclude: true\n---\n\n")
         parts.append(f"# {libname}\n")
         parts.append(lib_data.get("description", ""))
-
         parts.append(LIB_CONTRIBUTORS_HEADER)
 
         url = lib_data["link"]
