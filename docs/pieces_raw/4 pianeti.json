@@ -1,0 +1,29 @@
+{
+    "title": "4 pianeti",
+    "whatiam": "piece",
+    "description": "Four algorithmic compositions made in pure data. Visuals in GEM. Based on the book Harmonices Mundi by Johannes Kepler.",
+    "developers": [
+        "Manuel Tricarico"
+    ],
+    "performers": [],
+    "year": "2018",
+    "categories": [
+        "Generative Music"
+    ],
+    "category_groups": [],
+    "category_parents": {},
+    "articles": [],
+    "videos": [
+        {
+            "title": "4 pianeti - pure data generative music",
+            "authors": [
+                "Manuel Tricarico"
+            ],
+            "link": "https://www.youtube.com/watch?v=GO_iP8HzHOk"
+        }
+    ],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ]
+}
