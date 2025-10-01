@@ -2029,6 +2029,9 @@ nav:
     -   zexy: libraries/zexy.md
 -   Pieces:
     - pieces/index.md
+    -   Generative Music:
+        - pieces/generative_music/index.md
+        -   4 pianeti (2018): pieces/generative_music/4_pianeti.md
     -   Live-Electronics:
         - pieces/live-electronics/index.md
         -   Cânticos de Silício I (2025): pieces/live-electronics/cânticos_de_silício_i.md

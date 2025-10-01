@@ -30,6 +30,7 @@ We, Pd users, are a large and diverse community. Many artistic and research proj
 ---
 <iframe 
   id="submit-frame"
+  scrolling="no"
   style="
     display: block;          /* sempre block para transição funcionar */
     width: 100%;

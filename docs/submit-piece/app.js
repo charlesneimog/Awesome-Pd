@@ -140,43 +140,6 @@ function getCategoryData() {
             return label;
         }
 
-        function buildCategories(container, data) {
-            for (const key in data) {
-                const value = data[key];
-
-                // Skip this key explicitly if present
-                if (key === "Object of day") continue;
-
-                // Primitive or empty object/array: render as a checkbox
-                if (
-                    !value ||
-                    typeof value !== "object" ||
-                    (Array.isArray(value) && value.length === 0) ||
-                    (Object.keys(value).length === 0 && !Array.isArray(value))
-                ) {
-                    container.appendChild(createCheckbox(key));
-                } else if (Array.isArray(value)) {
-                    container.appendChild(createCheckbox(key));
-                } else {
-                    // Nested object -> create a subcategory section with heading + nested checkboxes
-                    const subDiv = document.createElement("div");
-                    subDiv.className = "subcategory";
-
-                    const h5 = document.createElement("h5");
-                    h5.textContent = key;
-                    subDiv.appendChild(h5);
-
-                    const nestedDiv = document.createElement("div");
-                    nestedDiv.className = "nested-checkboxes";
-
-                    buildCategories(nestedDiv, value);
-
-                    subDiv.appendChild(nestedDiv);
-                    container.appendChild(subDiv);
-                }
-            }
-        }
-
         async function loadCategories() {
             try {
                 const response = await fetch("categories.json");
@@ -187,7 +150,7 @@ function getCategoryData() {
                 const checkboxGroup = document.createElement("div");
                 checkboxGroup.className = "checkbox-group";
 
-                buildCategories(checkboxGroup, categories);
+                // buildCategories(checkboxGroup, categories);
                 container.appendChild(checkboxGroup);
             } catch (err) {
                 console.error(err);
@@ -382,35 +345,7 @@ function getCategoryData() {
 //╰─────────────────────────────────────╯
 function buildCategories(container, data) {
     for (const key in data) {
-        const value = data[key];
-        if (
-            !value ||
-            typeof value !== "object" ||
-            (Array.isArray(value) && value.length === 0) ||
-            (Object.keys(value).length === 0 && !Array.isArray(value))
-        ) {
-            if (key !== "Piece of day") {
-                container.appendChild(createCheckbox(key));
-            }
-        } else if (Array.isArray(value)) {
-            if (key !== "Piece of day") {
-                container.appendChild(createCheckbox(key));
-            }
-        } else {
-            const subDiv = document.createElement("div");
-            subDiv.className = "subcategory";
-            const h5 = document.createElement("h5");
-            h5.textContent = key;
-            subDiv.appendChild(h5);
-
-            const nestedDiv = document.createElement("div");
-            nestedDiv.className = "nested-checkboxes";
-
-            buildCategories(nestedDiv, value);
-
-            subDiv.appendChild(nestedDiv);
-            container.appendChild(subDiv);
-        }
+        container.appendChild(createCheckbox(key));
     }
 }
 
