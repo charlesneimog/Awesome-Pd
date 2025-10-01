@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "scala",
+    "description": "The `scala` object imports musical scales from `.scl` files, converting them into a list of cents for use within Pure Data. It also provides metadata about the loaded scale, such as its file and scale names. The object can open a file dialog for selection or load a specified `.scl` file directly.",
+    "categories": [
+        "File IO"
+    ],
+    "similar": [
+        "sfinfo",
+        "rec.file~",
+        "dir",
+        "batch.rec~"
+    ]
+}

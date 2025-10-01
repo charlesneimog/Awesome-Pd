@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "bangbang",
+    "description": "The `bangbang` object emits multiple bang messages from its outlets in right-to-left order whenever it receives any input. The number of bangs (and outlets) is configurable via an argument, with a default of 2 and a maximum of 40. It serves as a simple utility to trigger several events simultaneously from a single input.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "default",
+        "bangdiv",
+        "reverse",
+        "merge"
+    ]
+}

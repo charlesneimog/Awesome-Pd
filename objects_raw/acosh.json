@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "acosh",
+    "description": "The `acosh` object calculates the hyperbolic arc-cosine of a given floating-point number. It takes a float as input, which is stored, and a bang message triggers the calculation to output the result. This object provides a mathematical function, similar to other trigonometric functions found in Pure Data's Cyclone library or as Vanilla alternatives.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "asinh",
+        "cosh",
+        "atanh",
+        "acos"
+    ]
+}

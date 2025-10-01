@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "gaterelease",
+    "description": "The `gaterelease` object manages the timed release of a gate signal. It holds an input gate value for a specified duration, then releases it over a configurable release time in milliseconds. This object is useful for precisely controlling the duration of gate signals, especially when dealing with overlapping events, as it resets if the gate closes before its release completes.",
+    "categories": [
+        "Logic"
+    ],
+    "similar": [
+        "gaterelease~",
+        "gatedelay",
+        "gate2imp~",
+        "onebang"
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.bufonsetfeature",
+    "description": "The `fluid.bufonsetfeature` object calculates various spectral difference features and metrics from an audio buffer, such as Energy, HFC, and SpectralFlux. It is primarily used for generating a novelty or difference curve, which is a crucial step in detecting onsets within audio signals. This object provides parameters for windowing, hop size, FFT settings, and metric selection to fine-tune the analysis.",
+    "categories": [
+        "Descriptors"
+    ],
+    "similar": [
+        "fluid.onsetfeature~",
+        "fluid.bufonsetslice",
+        "fluid.bufnoveltyfeature",
+        "fluid.ampfeature~"
+    ]
+}

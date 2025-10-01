@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "sender",
+    "description": "The `sender` object functions similarly to Pure Data's `send` object but offers enhanced capabilities. It can manage up to two distinct send names, allowing data to be directed to two different addresses. Additionally, `sender` supports dollar symbol expansion at load time, enabling dynamic routing within parent patches and abstractions.",
+    "categories": [
+        "Routing"
+    ],
+    "similar": [
+        "receiver",
+        "forward",
+        "dispatch",
+        "unmerge"
+    ]
+}

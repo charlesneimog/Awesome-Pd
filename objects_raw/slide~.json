@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "slide~",
+    "description": "The `slide~` object logarithmically smooths an input audio signal, preventing abrupt changes and clicks. It provides independent control over \"slide up\" and \"slide down\" times in samples, making it useful for non-linear audio transitions, envelope following, and lowpass filtering.",
+    "categories": [
+        "Filters"
+    ],
+    "similar": [
+        "rampsmooth~",
+        "burrow~",
+        "svf~",
+        "lowpass~"
+    ]
+}

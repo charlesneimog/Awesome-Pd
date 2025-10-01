@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "part_information",
+    "description": "The `part_information` object provides detailed data for all particles within a particle system, typically set up using `part_head` and other `part_` objects. It outputs information for each particle per rendering cycle, without altering their positions, making it suitable for use alongside rendering objects like `part_draw` or `part_render`.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "part_info",
+        "part_render",
+        "part_draw",
+        "part_head"
+    ]
+}

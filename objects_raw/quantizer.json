@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "quantizer",
+    "description": "The `quantizer` object approximates input float values or lists of floats to discrete step values. It supports various approximation modes, including rounding, truncating, flooring, and ceiling, allowing precise control over how values are snapped to the nearest step. This object is useful for discretizing continuous data streams.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "round",
+        "round~",
+        "list.inc",
+        "rint~"
+    ]
+}

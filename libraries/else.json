@@ -1,0 +1,6 @@
+{
+    "description": "`ELSE` is a big library of externals that extends the performance of Pd. `ELSE` provides a cohesive system for computer music; it also serves as a basis for a Live Electronics Tutorial by the same author, yours truly, Alexandre Torres Porres. This library's repository resides at https://github.com/porres/pd-else/. This tutorial is also included as part of the `ELSE` library download. Look for the 'Live-Electronics-Tutorial' folder inside it, and also check its README file for instructions on how to install it.\n `ELSE` is also part of [PlugData](https://plugdata.org/) by Timothy Schoen, which is a fork of Pd that loads as a standalone or VST with a revamped GUI. `ELSE` has received collaboration from Tim and others involved with PlugData, and many objects have been included in `ELSE` just so they are supported in PlugData.\n`ELSE` also ships a modification of [pdlua](https://github.com/agraef/pd-lua), which is needed for a couple of GUI objects.",
+    "issues": "https://github.com/porres/pd-else/issues",
+    "link": "https://github.com/porres/pd-else/"
+}
+

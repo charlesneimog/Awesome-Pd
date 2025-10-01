@@ -1,0 +1,41 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.labelset",
+    "description": "The `fluid.labelset` object is a container that associates string identifiers with corresponding labels, primarily used in conjunction with `fluid.dataset~` for machine learning tasks. It allows adding, setting, updating, deleting, and merging labels, and can store/retrieve its contents from disk or text objects. This object is crucial for managing training labels for algorithms like `fluid.mlpclassifier~`.",
+    "categories": [
+        "Machine Learning",
+        "Data Structures",
+        "File IO"
+    ],
+    "similar": [
+        "fluid.ls2text",
+        "fluid.dataset",
+        "fluid.knnclassifier",
+        "funbuff"
+    ]
+}

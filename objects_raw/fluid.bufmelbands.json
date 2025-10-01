@@ -1,0 +1,40 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.bufmelbands",
+    "description": "`fluid.bufmelbands` computes the magnitudes for a specified number of perceptually-evenly spaced mel bands from an audio buffer. It supports multichannel inputs, calculating bands for each channel independently, and is primarily used for audio feature extraction and analysis.",
+    "categories": [
+        "Descriptors",
+        "Multichannel"
+    ],
+    "similar": [
+        "fluid.melbands~",
+        "fluid.bufmfcc",
+        "meter8~",
+        "melSpec~"
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "notedur2ratio",
+    "description": "The `notedur2ratio` object converts symbolic musical note durations (e.g., `4n` for a quarter note) into numerical ratios, outputting them as either fractions or floats. It supports standard note values, dotted notes, various tuplets (using abbreviations like 'd', 't', 'q', 's', 'n' or `[x:y]` format), and tied notes. This utility is essential for precise timing calculations in musical contexts.",
+    "categories": [
+        "Math",
+        "General Utilities",
+        "Text"
+    ],
+    "similar": [
+        "midi2note",
+        "cents2scale",
+        "format",
+        "samps2ms"
+    ]
+}

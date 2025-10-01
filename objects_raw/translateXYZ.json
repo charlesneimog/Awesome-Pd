@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "translateXYZ",
+    "description": "The `translateXYZ` object applies a 3D translation to the current transformation matrix within GEM (Graphics Environment for Multimedia). It accepts a `gemList` and modifies it based on a specified X, Y, Z vector, which can be set via arguments or individual float inlets. This object is fundamental for positioning graphical elements in a 3D scene.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "translate",
+        "shearZX",
+        "shearXY",
+        "scaleXYZ"
+    ]
+}

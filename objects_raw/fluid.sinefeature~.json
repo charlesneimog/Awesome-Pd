@@ -1,0 +1,39 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.sinefeature~",
+    "description": "The `fluid.sinefeature~` object calculates spectral difference features, primarily used by `fluid.onsetslice~`. It performs peak detection on audio signals, reporting peak frequencies and magnitudes based on configurable FFT settings, windowing, and detection thresholds. This object is crucial for analyzing the sinusoidal components of a sound.",
+    "categories": [
+        "Partial Tracking"
+    ],
+    "similar": [
+        "fluid.bufsines",
+        "reanimator~",
+        "fluid.bufsinefeature",
+        "morph~"
+    ]
+}

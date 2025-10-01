@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "GEMgl",
+    "description": "The `GEMgl` objects in Pure Data provide direct wrappers for OpenGL functions, enabling users to access low-level graphics rendering commands within their patches. Each OpenGL command, like `glBegin`, can be used as a Pure Data object by prepending \"GEM\" (e.g., `GEMglBegin`). These objects are essential for advanced visual programming and require familiarity with OpenGL.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "GLdefine",
+        "gemglutwindow",
+        "Gem",
+        "gemhead"
+    ]
+}

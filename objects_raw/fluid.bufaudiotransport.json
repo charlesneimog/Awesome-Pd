@@ -1,0 +1,39 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.bufaudiotransport",
+    "description": "`fluid.bufaudiotransport` analyzes two source audio buffers using FFT to derive spectral characteristics. It then performs an interpolation or morphing operation between these two sounds, writing the resulting audio to a destination buffer. This object is primarily used for transforming or blending audio based on their spectral content.",
+    "categories": [
+        "Descriptors"
+    ],
+    "similar": [
+        "fluid.audiotransport~",
+        "fluid.buftransientslice",
+        "specBrightness",
+        "fluid.spectralshape~"
+    ]
+}

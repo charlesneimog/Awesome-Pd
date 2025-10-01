@@ -1,0 +1,39 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.ds2text",
+    "description": "The `fluid.ds2text` object is a utility for converting datasets into a text format within Pure Data. It allows for storing data points from an array into a dataset and subsequently transforming that dataset into a readable text object. This is useful for inspecting or further processing dataset contents as text.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "buffer",
+        "fluid.grid",
+        "fluid.kdtree",
+        "stack"
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.transientslice~",
+    "description": "`fluid.transientslice~` is a real-time audio analysis object that extracts slices from an incoming audio stream based on transient detection. It identifies significant changes in the audio signal, allowing for segmentation and further processing. Parameters like `threshfwd` and `threshback` control the sensitivity of its transient prediction and detection functions.",
+    "categories": [
+        "Descriptors"
+    ],
+    "similar": [
+        "fluid.buftransientslice",
+        "fluid.onsetslice~",
+        "fluid.noveltyfeature~",
+        "fluid.bufampfeature"
+    ]
+}

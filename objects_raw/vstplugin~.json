@@ -1,0 +1,50 @@
+{
+    "title": "vstplugin~",
+    "description": "`vstplugin~` is part of vstplugin v0.6.0, a project that enables the use of VST2 and VST3 plugins in Pure Data (Pd) on Windows, macOS, and Linux. It supports audio, MIDI, and instrument plugins; parameter automation (sample accurate for VST3); multi-bus input/output; native or generic GUIs; preset management; MIDI I/O; tempo and transport sync; offline rendering; and plugin discovery in standard or custom paths. Additional features include bit-bridging, sandboxing, Windows plugin support on Linux via Wine, and optional multithreaded processing.",
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://git.iem.at/pd/vstplugin/issues",
+    "developers": [
+        "Christof Ressi"
+    ],
+    "part_of_library": false,
+    "library_name": "",
+    "categories": [
+        "VST2/VST3"
+    ],
+    "category_groups": [],
+    "category_parents": {},
+    "articles": [
+        {
+            "title": "[vstplugin~] – A Pd external for hosting VST plugins",
+            "authors": [
+                "Christof Ressi"
+            ],
+            "link": "https://doi.org/10.33871/23179937.2021.9.2.20"
+        }
+    ],
+    "videos": [
+        {
+            "title": "VST Plugins Inside of Pure Data!",
+            "authors": [
+                "Sound Simulator"
+            ],
+            "link": "https://www.youtube.com/watch?v=Cs0NPime0kU"
+        }
+    ],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "similar": [
+        "pix_frei0r",
+        "pgm.out",
+        "gemmacoswindow",
+        "ctl.out"
+    ]
+}

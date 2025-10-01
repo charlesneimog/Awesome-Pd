@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "saw~",
+    "description": "The `saw~` object generates a sawtooth waveform, supporting negative frequencies, phase synchronization, and phase modulation. It can operate in hard or soft sync modes, accept frequency input in Hertz or MIDI pitch, and features multichannel capabilities for complex sound design.",
+    "categories": [
+        "Oscillators"
+    ],
+    "similar": [
+        "cosine~",
+        "bl.wavetable~",
+        "gaussian~",
+        "sine~"
+    ]
+}

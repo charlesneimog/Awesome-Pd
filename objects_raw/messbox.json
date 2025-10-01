@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "messbox",
+    "description": "The `messbox` object is an interactive GUI element that allows users to type and send messages during run mode, functioning similarly to a standard message box. It supports dynamic message construction using dollar-sign arguments (`$1`, `$2`), comma-separated messages, and semicolon-triggered send operations. Unlike a regular message box, `messbox` expands the `$0` argument and offers methods for setting its dimensions, font styles, and colors.",
+    "categories": [
+        "GUI"
+    ],
+    "similar": [
+        "knob",
+        "number~",
+        "grab",
+        "range.hsl"
+    ]
+}

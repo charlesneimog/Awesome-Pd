@@ -1,0 +1,40 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.multiarray",
+    "description": "The `fluid.multiarray` object creates and manages multi-channel arrays, allowing users to store and retrieve lists of values across multiple independent channels. It provides a structured way to handle collections of data, similar to a multi-dimensional array, useful for organizing various types of signals or parameters.",
+    "categories": [
+        "Data Structures",
+        "Multichannel"
+    ],
+    "similar": [
+        "poke~",
+        "peek~",
+        "batch.write~",
+        "level.m~"
+    ]
+}
