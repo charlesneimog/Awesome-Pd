@@ -18,6 +18,7 @@ function shuffleArray(array) {
 
 async function addPieces() {
     const response = await fetch(`${getOriginUrl()}/all_pieces.json`);
+    console.log(response);
     if (!response.ok) throw new Error("Failed to load JSON");
     const categories = await response.json();
     const randomObjects = document.getElementById("random-pieces");
@@ -27,10 +28,11 @@ async function addPieces() {
 
     // Shuffle and pick 6
     const selected = shuffleArray([...categories]).slice(0, 4);
-    if (selected.length !== 1) {
+    if (selected.length < 1) {
         addPieces();
         return;
     }
+    console.log(selected);
 
     for (const item of selected) {
         const li = document.createElement("li");
