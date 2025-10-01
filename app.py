@@ -6,7 +6,7 @@ import sys
 from dataclasses import dataclass
 from html import escape
 from pathlib import Path
-from typing import Dict, List, Optional, Union
+from typing import Union, Dict, List, Optional, TypeAlias
 from urllib.parse import parse_qs, urlparse
 
 import requests
@@ -18,6 +18,7 @@ from sklearn.feature_extraction import text
 import re
 import numpy as np
 
+NavItem: TypeAlias = Union[str, Dict[str, object]]
 
 # ==========================
 # Markdown/HTML Fragments
@@ -751,6 +752,21 @@ class AwesomePd:
                     return True
         return False
 
+    def sort_section(self, section):
+        if isinstance(section, str):
+            return section
+
+        if isinstance(section, dict):
+            for key, value in section.items():
+                index_file = value[0]  # sempre o primeiro (index.md)
+                others = value[1:]  # o resto
+                # Ordena pelas chaves dos dicionários
+                others_sorted = sorted(others, key=lambda x: list(x.keys())[0])
+                section[key] = [index_file] + others_sorted
+            return section
+
+        return section  # fallback
+
     def piece_dict_to_nav(self, d: dict) -> list:
         """
         Constrói a nav SEM mutar self.objects.
@@ -779,7 +795,8 @@ class AwesomePd:
                         nav_list.append({key: value})
             return nav_list
 
-        return recurse(temp)
+        data = ["pieces/index.md"] + recurse(temp)
+        return [self.sort_section(sec) for sec in data]
 
     def obj_dict_to_nav(self, d: dict) -> list:
         """
@@ -810,7 +827,8 @@ class AwesomePd:
                         nav_list.append({key: value})
             return nav_list
 
-        return ["objects/index.md"] + recurse(temp)
+        data = ["objects/index.md"] + recurse(temp)
+        return [self.sort_section(sec) for sec in data]
 
     def dict_to_nav(self, d: dict) -> list:
         """
@@ -989,14 +1007,11 @@ class AwesomePd:
         nav_libs: Dict[str, str] = self.render_libraries_md(libraries)
 
         # Build site nav
-        NavItem = Union[str, Dict[str, object]]
         nav: List[NavItem] = [{"Home": "index.md"}]
         nav.append({"Submit": "submit.md"})
         nav.append({"Objects & Abstractions": self.obj_dict_to_nav(self.objects)})
         nav.append({"Libraries": ["libraries/index.md"] + self.dict_to_nav(nav_libs)})
-        nav.append(
-            {"Pieces": ["pieces/index.md"] + self.piece_dict_to_nav(self.pieces)}
-        )
+        nav.append({"Pieces": self.piece_dict_to_nav(self.pieces)})
         nav.append({"Web": self.dict_to_nav(self.WEB_TOOLS)})
         nav.append({"Tools": self.dict_to_nav(self.TOOLS)})
 
