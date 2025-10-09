@@ -27,7 +27,7 @@
     "similar": [
         "zeroCrossing~",
         "waveNoise",
-        "minSample",
-        "energyEntropy~"
+        "energyEntropy~",
+        "minSample"
     ]
 }

@@ -27,7 +27,7 @@
     "similar": [
         "pol2car",
         "car2pol",
-        "poltocar",
-        "mag~"
+        "mag~",
+        "poltocar"
     ]
 }

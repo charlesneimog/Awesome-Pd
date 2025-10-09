@@ -29,5 +29,11 @@
     "description": "The `fluid.ampslice~` object performs amplitude-based segmentation of audio signals. It detects slices or onsets by comparing fast and slow amplitude envelopes, allowing for control over thresholds and minimum segment duration.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "fluid.transientslice~",
+        "fluid.bufampfeature",
+        "range~",
+        "peakamp~"
     ]
 }

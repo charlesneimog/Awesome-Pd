@@ -29,5 +29,11 @@
     "description": "`fluid.bufaudiotransport` analyzes two source audio buffers using FFT to derive spectral characteristics. It then performs an interpolation or morphing operation between these two sounds, writing the resulting audio to a destination buffer. This object is primarily used for transforming or blending audio based on their spectral content.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "fluid.audiotransport~",
+        "fluid.buftransientslice",
+        "specBrightness",
+        "fluid.spectralshape~"
     ]
 }

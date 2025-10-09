@@ -29,5 +29,11 @@
     "description": "The `fluid.s2f` object converts a symbol (text string) that represents a floating-point number into its numerical float equivalent. It is useful for parsing numerical values from text-based inputs or messages where numbers are initially handled as symbols.",
     "categories": [
         "Text"
+    ],
+    "similar": [
+        "atof",
+        "spell",
+        "fromsymbol",
+        "makesymbol"
     ]
 }

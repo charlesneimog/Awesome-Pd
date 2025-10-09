@@ -28,6 +28,6 @@
         "pix_alpha",
         "pix_takealpha",
         "alpha",
-        "pix_threshold"
+        "pix_composite"
     ]
 }

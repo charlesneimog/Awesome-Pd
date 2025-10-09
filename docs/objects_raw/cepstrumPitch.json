@@ -27,7 +27,7 @@
     "similar": [
         "autoCorrPitch",
         "cepstrumPitch~",
-        "autoCorrPitch~",
-        "chroma"
+        "mfcc",
+        "fluid.pitch~"
     ]
 }

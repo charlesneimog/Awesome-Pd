@@ -26,8 +26,8 @@
     "description": "The cepstrum~ object computes the real cepstrum of an audio signal, derived from the Inverse Fourier Transform of the log magnitude spectrum. It outputs a list of cepstral coefficients, which are commonly used as compact feature vectors for describing audio timbre. This object is primarily used for audio analysis and feature extraction.",
     "similar": [
         "cepstrum",
-        "bfcc",
         "mfcc~",
+        "bfcc",
         "magSpec~"
     ]
 }

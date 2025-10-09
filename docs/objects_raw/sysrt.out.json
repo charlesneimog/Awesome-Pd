@@ -27,7 +27,7 @@
     "similar": [
         "sysrt.in",
         "pgm.out",
-        "midi.clock",
-        "ctl.out"
+        "ctl.out",
+        "midi.clock"
     ]
 }

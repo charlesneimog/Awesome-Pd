@@ -34,6 +34,6 @@
         "mindwarp~",
         "freq2midi",
         "midi2freq",
-        "xfade.mc~"
+        "lowshelf~"
     ]
 }

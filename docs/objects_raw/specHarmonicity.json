@@ -27,7 +27,7 @@
     "similar": [
         "specHarmonicity~",
         "specBrightness",
-        "harmonicRatio",
-        "specBrightness~"
+        "fluid.bufaudiotransport",
+        "harmonicRatio"
     ]
 }

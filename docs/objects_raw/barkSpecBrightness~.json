@@ -26,8 +26,8 @@
     "description": "The barkSpecBrightness~ object calculates the brightness of an audio signal's Bark spectrum. It determines brightness as the ratio of energy above a specified Bark frequency boundary to the total energy in the spectrum. This descriptor is useful for real-time timbre identification and can be configured with various windowing functions, filterbank spacings, and boundary points.",
     "similar": [
         "barkSpecBrightness",
-        "barkSpecRolloff~",
         "barkSpecFlatness~",
+        "barkSpecRolloff~",
         "barkSpecCentroid~"
     ]
 }

@@ -27,8 +27,8 @@
     ],
     "similar": [
         "table",
+        "fluid.dataset",
         "capture",
-        "coll",
-        "tabminmax"
+        "coll"
     ]
 }

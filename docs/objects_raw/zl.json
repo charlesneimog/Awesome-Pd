@@ -29,7 +29,7 @@
     "similar": [
         "sum",
         "sort",
-        "median",
-        "length"
+        "length",
+        "median"
     ]
 }

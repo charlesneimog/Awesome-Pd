@@ -27,8 +27,8 @@
     ],
     "similar": [
         "funbuff",
+        "fluid.dataset",
         "table",
-        "rec",
-        "buffer"
+        "rec"
     ]
 }

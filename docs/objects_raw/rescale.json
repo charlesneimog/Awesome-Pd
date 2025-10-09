@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
+        "fluid.bufscale",
         "rescale~",
         "interpolate",
-        "wrap2",
-        "scale~"
+        "wrap2"
     ]
 }

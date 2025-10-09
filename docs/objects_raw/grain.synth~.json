@@ -28,7 +28,7 @@
     "similar": [
         "grain.sampler~",
         "grain.live~",
-        "pitch.shift~",
-        "pvgrain~"
+        "pvgrain~",
+        "pitch.shift~"
     ]
 }

@@ -29,5 +29,11 @@
     "description": "The `fluid.bufselect~` object copies specific sets of values from a buffer, allowing selection by channels and indices. It is particularly useful in analytical contexts for extracting or filtering data from audio buffers or feature sets, enabling precise manipulation of buffered data for further processing.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "fluid.bufonsetslice",
+        "fluid.buftransientslice",
+        "fluid.chroma~",
+        "fluid.bufpitch"
     ]
 }

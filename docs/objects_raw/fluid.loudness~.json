@@ -29,5 +29,11 @@
     "description": "The `fluid.loudness~` object calculates two audio descriptors: loudness and peak. It can operate in an ITU BS 1770 compliant mode, using configurable window and hop sizes to analyze incoming audio signals. This object is primarily used for real-time audio analysis and measurement.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "fluid.bufloudness",
+        "fluid.noveltyfeature~",
+        "vu~",
+        "tonalness"
     ]
 }

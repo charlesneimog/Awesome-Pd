@@ -26,6 +26,6 @@
         "framedelta~",
         "asin~",
         "acos~",
-        "blockmirror~"
+        "featureAccum"
     ]
 }

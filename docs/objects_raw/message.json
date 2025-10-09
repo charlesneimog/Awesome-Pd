@@ -27,7 +27,7 @@
     "similar": [
         "spell",
         "fromsymbol",
-        "makesymbol",
-        "regex-help"
+        "fluid.s2f",
+        "makesymbol"
     ]
 }

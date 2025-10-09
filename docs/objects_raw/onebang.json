@@ -26,8 +26,8 @@
     ],
     "similar": [
         "next",
-        "togedge",
         "lessthaneq~",
+        "togedge",
         "match~"
     ]
 }

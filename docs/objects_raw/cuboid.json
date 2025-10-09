@@ -26,8 +26,8 @@
     ],
     "similar": [
         "sphere",
-        "trapezoid",
         "rectangle",
+        "trapezoid",
         "translateXYZ"
     ]
 }

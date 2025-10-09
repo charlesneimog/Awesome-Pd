@@ -29,7 +29,7 @@
     "similar": [
         "rec.file~",
         "batch.write~",
-        "pvoc.player~",
-        "record~"
+        "record~",
+        "pvoc.player~"
     ]
 }

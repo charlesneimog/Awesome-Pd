@@ -27,7 +27,7 @@
     "similar": [
         "colorSquare",
         "translate",
-        "triangle",
-        "diffuse"
+        "diffuse",
+        "triangle"
     ]
 }

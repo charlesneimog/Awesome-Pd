@@ -29,5 +29,11 @@
     "description": "The `fluid.ampfeature~` object calculates various amplitude differential features from an audio signal. It extracts a range of audio descriptors, including Energy, High Frequency Content (HFC), Spectral Flux, and different phase deviation metrics. This object is primarily used for detailed audio analysis, offering parameters for envelope following and high-pass filtering to refine feature extraction.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "fluid.bufampfeature",
+        "fluid.bufonsetfeature",
+        "fluid.onsetfeature~",
+        "fluid.spectralshape~"
     ]
 }

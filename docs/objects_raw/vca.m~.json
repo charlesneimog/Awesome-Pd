@@ -27,8 +27,8 @@
     ],
     "similar": [
         "dbgain~",
-        "limiter~",
         "level~",
+        "limiter~",
         "rotate~"
     ]
 }

@@ -25,9 +25,9 @@
         "Text"
     ],
     "similar": [
+        "fluid.s2f",
         "message",
         "fromsymbol",
-        "makesymbol",
-        "regex-help"
+        "makesymbol"
     ]
 }

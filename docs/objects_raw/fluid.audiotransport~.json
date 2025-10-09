@@ -29,5 +29,11 @@
     "description": "The `fluid.audiotransport~` object performs spectral interpolation between two loaded audio sounds. It allows for morphing between the timbral characteristics of the two sources, with the quality of the blend improving with larger FFT sizes.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "fluid.bufaudiotransport",
+        "fluid.spectralshape~",
+        "specBrightness~",
+        "morphine~"
     ]
 }

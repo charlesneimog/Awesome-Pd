@@ -35,7 +35,7 @@
     "similar": [
         "residency~",
         "buffir~",
-        "pix_buffer_read",
-        "sample~"
+        "sample~",
+        "buffer~"
     ]
 }

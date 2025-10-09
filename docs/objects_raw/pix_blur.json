@@ -27,7 +27,7 @@
     "similar": [
         "pix_motionblur",
         "pix_freeframe",
-        "pix_indycam",
-        "pix_frei0r"
+        "pix_frei0r",
+        "pix_indycam"
     ]
 }

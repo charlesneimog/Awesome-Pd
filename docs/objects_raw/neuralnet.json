@@ -34,9 +34,9 @@
         "charlesneimog"
     ],
     "similar": [
+        "fluid.mlpregressor",
+        "fluid.mlpclassifier",
         "logistic~",
-        "sendmidi",
-        "pdlink",
-        "pdlink~"
+        "fluid.knnregressor"
     ]
 }

@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/porres/pd-psycho/releases/",
+    "bug_reports": "https://github.com/porres/pd-psycho/issues",
+    "developers": [
+        "Alexandre Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "roughcurve",
+    "description": "The `roughcurve` object is an abstraction that generates curves representing psychoacoustic roughness and spectral scales. It takes musical interval arguments in cents and is designed to provide data for analysis or synthesis applications, leveraging an underlying `roughness` external.",
+    "categories": [
+        "Descriptors"
+    ],
+    "similar": [
+        "roughness",
+        "maxSampleDelta",
+        "centroid~",
+        "tID-conversion"
+    ]
+}

@@ -29,6 +29,6 @@
         "amean",
         "cents2frac",
         "henon~",
-        "ratio2cents~"
+        "cents2ratio"
     ]
 }

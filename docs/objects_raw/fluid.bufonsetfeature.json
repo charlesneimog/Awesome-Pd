@@ -29,5 +29,11 @@
     "description": "The `fluid.bufonsetfeature` object calculates various spectral difference features and metrics from an audio buffer, such as Energy, HFC, and SpectralFlux. It is primarily used for generating a novelty or difference curve, which is a crucial step in detecting onsets within audio signals. This object provides parameters for windowing, hop size, FFT settings, and metric selection to fine-tune the analysis.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "fluid.onsetfeature~",
+        "fluid.bufonsetslice",
+        "fluid.bufnoveltyfeature",
+        "fluid.ampfeature~"
     ]
 }

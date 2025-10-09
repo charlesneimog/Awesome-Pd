@@ -25,9 +25,9 @@
         "Data Structures"
     ],
     "similar": [
+        "fluid.bufcompose",
+        "fluid.ds2text",
         "a.rotate",
-        "args",
-        "glue",
-        "index~"
+        "args"
     ]
 }

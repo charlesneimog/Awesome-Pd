@@ -29,5 +29,11 @@
     "description": "The `fluid.bufselectevery` object extracts specific frames and/or channels from a buffer at regular intervals. It allows for sampling data, such as every Nth frame or every Mth channel, making it useful for preparing or processing data within a larger analysis or synthesis workflow.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "fluid.bufcompose",
+        "packel",
+        "buffer",
+        "fluid.grid"
     ]
 }

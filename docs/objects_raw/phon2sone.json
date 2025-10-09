@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/porres/pd-psycho/releases/",
+    "bug_reports": "https://github.com/porres/pd-psycho/issues",
+    "developers": [
+        "Alexandre Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "phon2sone",
+    "description": "The `phon2sone` object converts a loudness level expressed in phons to a perceived loudness value in sones. It accounts for the logarithmic relationship between decibels and loudness, where 1 sone is equivalent to 40 phons. This object is useful for psychoacoustic calculations related to sound perception.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "sone2phon",
+        "phon2db",
+        "db2phon",
+        "iso226"
+    ]
+}

@@ -30,6 +30,6 @@
         "mtr",
         "funbuff",
         "table",
-        "seq"
+        "fluid.dataset"
     ]
 }

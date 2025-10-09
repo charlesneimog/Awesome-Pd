@@ -28,8 +28,8 @@
     ],
     "similar": [
         "mag",
-        "car2pol",
         "car2pol~",
-        "pol2car"
+        "car2pol",
+        "fader~"
     ]
 }

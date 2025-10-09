@@ -27,7 +27,7 @@
     "similar": [
         "tID_std",
         "specSpread~",
-        "mfcc",
-        "specCentroid~"
+        "centroid~",
+        "mfcc"
     ]
 }

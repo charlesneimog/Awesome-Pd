@@ -28,6 +28,6 @@
         "mesh_line",
         "cuboid",
         "square",
-        "cylinder"
+        "cone"
     ]
 }

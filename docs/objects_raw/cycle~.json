@@ -28,6 +28,6 @@
         "saw~",
         "pimp",
         "damp.osc~",
-        "function~"
+        "gaussian~"
     ]
 }

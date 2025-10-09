@@ -35,9 +35,9 @@
         "charlesneimog"
     ],
     "similar": [
-        "minSampleDelta",
-        "nn~",
-        "convolve~",
-        "sendmidi"
+        "fluid.umap",
+        "fluid.standardize",
+        "fluid.bufflatten",
+        "fluid.knnclassifier"
     ]
 }

@@ -28,8 +28,8 @@
     ],
     "similar": [
         "presets.m",
+        "fluid.bufinfo",
         "pv",
-        "index",
-        "tabset"
+        "index"
     ]
 }

@@ -30,5 +30,11 @@
     "categories": [
         "Data Structures",
         "Multichannel"
+    ],
+    "similar": [
+        "poke~",
+        "peek~",
+        "batch.write~",
+        "level.m~"
     ]
 }

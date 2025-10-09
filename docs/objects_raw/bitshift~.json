@@ -26,6 +26,6 @@
         "bitor~",
         "bitnot~",
         "bitxor~",
-        "bitand~"
+        "bin.shift~"
     ]
 }

@@ -25,9 +25,9 @@
     "title": "chroma~",
     "description": "The `chroma~` object analyzes incoming audio to determine the spectral energy present in each of the 12 musical pitch classes, regardless of octave. It outputs a 12-element pitch class profile list, which is useful for applications like chromagram visualization, chord recognition, and key estimation. Users can adjust various parameters such as window size, frequency range, and resolution for detailed spectral analysis.",
     "similar": [
+        "fluid.chroma~",
         "chroma",
         "cepstrumPitch",
-        "specRolloff~",
-        "barkSpecFlatness"
+        "specRolloff~"
     ]
 }

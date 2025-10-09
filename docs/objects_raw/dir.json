@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
+        "fluid.concataudiofiles",
         "capture~",
         "openfile",
-        "scala",
-        "blocksize~"
+        "scala"
     ]
 }

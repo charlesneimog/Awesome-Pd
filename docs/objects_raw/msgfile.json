@@ -30,6 +30,6 @@
         "fwriteln",
         "freadln",
         "text3d",
-        "coll"
+        "list2symbol"
     ]
 }

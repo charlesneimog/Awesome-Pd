@@ -27,9 +27,9 @@
         "Multichannel"
     ],
     "similar": [
+        "fluid.waveform",
         "lua",
         "scope~",
-        "scopeXYZ~",
-        "accumrotate"
+        "scopeXYZ~"
     ]
 }

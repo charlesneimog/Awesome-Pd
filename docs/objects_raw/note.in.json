@@ -28,7 +28,7 @@
     "similar": [
         "midi.in",
         "xnotein",
-        "touch.in",
-        "ctl.in"
+        "ctl.in",
+        "touch.in"
     ]
 }

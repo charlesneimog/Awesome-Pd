@@ -30,5 +30,11 @@
     "categories": [
         "Descriptors",
         "Audio IO"
+    ],
+    "similar": [
+        "fluid.transientslice~",
+        "fluid.buftransientslice",
+        "fluid.noveltyslice~",
+        "fluid.bufonsetslice"
     ]
 }

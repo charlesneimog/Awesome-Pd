@@ -27,8 +27,8 @@
     ],
     "similar": [
         "rms~",
+        "fluid.mfcc~",
         "mov.rms~",
-        "magSpec",
-        "specSlope"
+        "distance"
     ]
 }

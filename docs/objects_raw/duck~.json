@@ -28,6 +28,6 @@
         "compress~",
         "expand~",
         "noisegate~",
-        "pvcompand~"
+        "fluid.bufthresh"
     ]
 }

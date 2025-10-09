@@ -26,9 +26,9 @@
         "Delay"
     ],
     "similar": [
+        "echocurve~",
         "fdn.rev~",
         "giga.rev~",
-        "comb.rev~",
-        "mono.rev~"
+        "comb.rev~"
     ]
 }

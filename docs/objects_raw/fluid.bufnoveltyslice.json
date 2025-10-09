@@ -29,5 +29,11 @@
     "description": "The `fluid.bufnoveltyslice` object is a non-realtime audio slicer that identifies segmentation points in a source buffer (`srcBuf`) by assessing signal novelty. It uses various algorithms like Spectrum, MFCC, Chroma, Pitch, or Loudness, with configurable FFT settings, kernel size, filter size, and a threshold to determine slice boundaries. The estimated slice start points are written to an output buffer.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "fluid.noveltyslice~",
+        "fluid.noveltyfeature~",
+        "fluid.bufnoveltyfeature",
+        "fluid.onsetfeature~"
     ]
 }

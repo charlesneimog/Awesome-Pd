@@ -31,5 +31,11 @@
         "Machine Learning",
         "Statistical Models",
         "Math"
+    ],
+    "similar": [
+        "fluid.bufnmfcross",
+        "fluid.pca",
+        "fluid.normalize",
+        "fluid.bufnmfseed"
     ]
 }

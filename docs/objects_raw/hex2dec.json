@@ -28,7 +28,7 @@
     "similar": [
         "dec2hex",
         "atoi",
-        "notedur2ratio",
-        "factor"
+        "fluid.s2f",
+        "notedur2ratio"
     ]
 }

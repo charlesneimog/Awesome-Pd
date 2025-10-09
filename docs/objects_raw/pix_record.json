@@ -28,7 +28,7 @@
     "similar": [
         "pix_movie",
         "pix_write",
-        "pix_film",
-        "pix_writer"
+        "pix_writer",
+        "pix_film"
     ]
 }

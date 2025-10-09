@@ -26,8 +26,8 @@
         "Graphics"
     ],
     "similar": [
-        "pix_biquad",
         "pix_convolve",
+        "pix_biquad",
         "pix_motionblur",
         "pix_blur"
     ]

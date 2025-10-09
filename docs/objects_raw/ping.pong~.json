@@ -28,6 +28,6 @@
         "revdelay~",
         "delay~",
         "delay.m~",
-        "z~"
+        "echocurve~"
     ]
 }

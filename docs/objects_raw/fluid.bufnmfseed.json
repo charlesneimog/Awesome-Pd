@@ -30,5 +30,11 @@
     "categories": [
         "Machine Learning",
         "Descriptors"
+    ],
+    "similar": [
+        "fluid.nmfmatch~",
+        "fluid.bufnmf",
+        "fluid.nmfmorph~",
+        "fluid.nmffilter~"
     ]
 }

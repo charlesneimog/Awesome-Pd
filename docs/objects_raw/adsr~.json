@@ -27,8 +27,8 @@
     ],
     "similar": [
         "asr~",
-        "adsr.m~",
         "envgen~",
+        "adsr.m~",
         "decay~"
     ]
 }

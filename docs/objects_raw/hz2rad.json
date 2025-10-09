@@ -28,6 +28,6 @@
         "rad2hz",
         "asin~",
         "cosh~",
-        "scale2freq"
+        "delta~"
     ]
 }

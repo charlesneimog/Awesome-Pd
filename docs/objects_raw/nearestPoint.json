@@ -27,7 +27,7 @@
     "similar": [
         "peakSample",
         "peakSample~",
-        "attackTime~",
-        "magSpec~"
+        "fluid.bufnoveltyslice",
+        "attackTime~"
     ]
 }

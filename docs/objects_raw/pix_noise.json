@@ -27,8 +27,8 @@
     ],
     "similar": [
         "pix_set",
-        "brown~",
         "pix_rgba",
+        "brown~",
         "pix_takealpha"
     ]
 }

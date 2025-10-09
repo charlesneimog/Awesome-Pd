@@ -28,6 +28,6 @@
         "pix_gain",
         "pix_mean_color",
         "pix_convert",
-        "pix_threshold"
+        "pix_color"
     ]
 }

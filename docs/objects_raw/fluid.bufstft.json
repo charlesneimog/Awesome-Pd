@@ -30,5 +30,11 @@
     "categories": [
         "Partial Tracking",
         "Descriptors"
+    ],
+    "similar": [
+        "fluid.bufsinefeature",
+        "pvoc~",
+        "fluid.bufaudiotransport",
+        "cepstrum~"
     ]
 }

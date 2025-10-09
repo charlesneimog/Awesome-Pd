@@ -29,5 +29,11 @@
     "description": "The `fluid.bufnoveltyfeature` object calculates a novelty curve from audio data stored in a buffer. It uses various FFT settings and can base the novelty on features like Spectrum, MFCC, Chroma, Pitch, or Loudness. This object is primarily used for analyzing audio to identify points of significant change, often in conjunction with `noveltyslice`.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "fluid.noveltyfeature~",
+        "fluid.bufnoveltyslice",
+        "fluid.noveltyslice~",
+        "fluid.bufonsetfeature"
     ]
 }

@@ -27,7 +27,7 @@
     "similar": [
         "retrieve",
         "reverse",
-        "rawprint",
-        "default"
+        "default",
+        "rawprint"
     ]
 }

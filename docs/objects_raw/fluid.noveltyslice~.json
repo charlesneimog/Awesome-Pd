@@ -29,5 +29,11 @@
     "description": "The `fluid.noveltyslice~` object is a real-time audio slicer that detects \"novelty\" in an incoming signal to determine slicing points. It can use various algorithms like spectrum, MFCC, pitch, or loudness for detection, operating with spectral frame accuracy. Parameters such as FFT settings, filter size, kernel size, minimum slice length, and threshold allow for fine-tuning its behavior.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "fluid.bufnoveltyslice",
+        "fluid.noveltyfeature~",
+        "fluid.bufnoveltyfeature",
+        "fluid.onsetfeature~"
     ]
 }

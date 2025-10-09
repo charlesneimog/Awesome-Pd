@@ -30,5 +30,11 @@
     "categories": [
         "Partial Tracking",
         "Descriptors"
+    ],
+    "similar": [
+        "fluid.bufstft",
+        "fluid.sinefeature~",
+        "pvoc~",
+        "peak~"
     ]
 }

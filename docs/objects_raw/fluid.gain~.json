@@ -29,5 +29,11 @@
     "description": "The `fluid.gain~` object controls the amplitude of an audio signal. Given its `fluid` prefix, it likely offers advanced or adaptive gain manipulation, potentially leveraging analysis or machine learning techniques to dynamically adjust audio levels. It operates on audio signals, indicated by the `~` suffix.",
     "categories": [
         "Math"
+    ],
+    "similar": [
+        "sinh~",
+        "lin2db",
+        "pz2coeff",
+        "quantize~"
     ]
 }

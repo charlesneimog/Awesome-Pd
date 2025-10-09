@@ -26,9 +26,9 @@
         "GUI"
     ],
     "similar": [
-        "knob",
         "slider2d",
+        "knob",
         "range.hsl",
-        "colors"
+        "fluid.waveform"
     ]
 }

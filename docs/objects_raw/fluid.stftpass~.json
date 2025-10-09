@@ -27,5 +27,11 @@
     "ai": true,
     "title": "fluid.stftpass~",
     "description": "The help patch for `fluid.stftpass~` was empty, so its exact functionality cannot be determined. Based on its name, it likely performs some form of Short-Time Fourier Transform (STFT) processing or filtering on audio signals, possibly within the Flucoma toolkit.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "fluid.bufstft",
+        "part_velcone",
+        "burrow~",
+        "tID_fft"
+    ]
 }

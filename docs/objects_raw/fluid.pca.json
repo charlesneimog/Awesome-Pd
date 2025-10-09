@@ -31,5 +31,11 @@
         "Machine Learning",
         "Statistical Models",
         "Math"
+    ],
+    "similar": [
+        "fluid.normalize",
+        "fluid.nmfmorph~",
+        "fluid.mds",
+        "fluid.kmeans"
     ]
 }

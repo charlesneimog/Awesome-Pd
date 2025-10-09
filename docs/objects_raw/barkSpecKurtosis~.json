@@ -25,8 +25,8 @@
     "title": "barkSpecKurtosis~",
     "description": "The barkSpecKurtosis~ object calculates the kurtosis (peakedness) of an audio signal's Bark spectrum. It outputs a numerical value indicating how concentrated the spectral energy is. This descriptor is useful for analyzing timbre, with high values for pure tones and low values for noise.",
     "similar": [
-        "barkSpecKurtosis",
         "barkSpecSpread~",
+        "barkSpecKurtosis",
         "specKurtosis~",
         "barkSpecCentroid~"
     ]

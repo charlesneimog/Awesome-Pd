@@ -28,6 +28,6 @@
         "world_light",
         "spot_light",
         "ambientRGB",
-        "part_source"
+        "gemcubeframebuffer"
     ]
 }

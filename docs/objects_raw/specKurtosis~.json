@@ -28,6 +28,6 @@
         "barkSpecKurtosis~",
         "specKurtosis",
         "barkSpecFlatness~",
-        "barkSpecKurtosis"
+        "barkSpecSkewness~"
     ]
 }

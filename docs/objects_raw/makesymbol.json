@@ -28,6 +28,6 @@
         "fromsymbol",
         "s2l",
         "symbol2list",
-        "regex-help"
+        "fluid.s2f"
     ]
 }

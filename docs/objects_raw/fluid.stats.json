@@ -30,5 +30,11 @@
     "categories": [
         "Statistical Models",
         "Descriptors"
+    ],
+    "similar": [
+        "fluid.bufstats",
+        "fluid.bufspectralshape",
+        "mfcc",
+        "tID_mean"
     ]
 }

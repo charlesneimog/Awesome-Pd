@@ -27,5 +27,11 @@
     "ai": true,
     "title": "fluid.bufampslice",
     "description": "`fluid.bufampslice` is an amplitude-based audio slicer for buffered audio. It segments a source audio buffer into slices based on amplitude thresholds and other configurable parameters like minimum slice length. This object is typically used to prepare audio for playback of individual segments, often by generating onset/offset pairs.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "fluid.ampslice~",
+        "fluid.buftransientslice",
+        "fluid.ampgate~",
+        "fluid.bufstats"
+    ]
 }

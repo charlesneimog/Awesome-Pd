@@ -27,7 +27,7 @@
     "similar": [
         "makesymbol",
         "tosymbol",
-        "separate",
-        "symbol2any"
+        "fluid.s2f",
+        "separate"
     ]
 }

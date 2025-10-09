@@ -27,7 +27,7 @@
     "similar": [
         "sph2cart",
         "pol2sph",
-        "coordinates",
-        "cart2pol"
+        "cart2pol",
+        "coordinates"
     ]
 }

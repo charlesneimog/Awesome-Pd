@@ -27,7 +27,7 @@
     "similar": [
         "dct",
         "mfcc~",
-        "peakSample~",
-        "melSpec~"
+        "melSpec~",
+        "peakSample~"
     ]
 }

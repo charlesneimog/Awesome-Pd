@@ -27,7 +27,7 @@
     "similar": [
         "prime",
         "scalarmult",
-        "pol2car",
+        "interpolate",
         "tanh"
     ]
 }

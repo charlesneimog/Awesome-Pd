@@ -28,6 +28,6 @@
         "shearYX",
         "translateXYZ",
         "gemlist_matrix",
-        "shearXY"
+        "shearZX"
     ]
 }

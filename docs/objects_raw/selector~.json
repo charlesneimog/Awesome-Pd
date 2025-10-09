@@ -25,9 +25,9 @@
         "Routing"
     ],
     "similar": [
-        "gate~",
         "mux~",
-        "multiplex~",
-        "multiplex"
+        "gate~",
+        "multiplex",
+        "multiplex~"
     ]
 }

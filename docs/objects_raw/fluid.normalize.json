@@ -31,5 +31,11 @@
         "Machine Learning",
         "Statistical Models",
         "Math"
+    ],
+    "similar": [
+        "fluid.pca",
+        "fluid.standardize",
+        "fluid.nmfmorph~",
+        "fluid.knnregressor"
     ]
 }

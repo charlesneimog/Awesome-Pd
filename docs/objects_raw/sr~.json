@@ -28,7 +28,7 @@
     "similar": [
         "nyquist~",
         "samps2ms",
-        "slew",
-        "rad2hz"
+        "rad2hz",
+        "slew"
     ]
 }

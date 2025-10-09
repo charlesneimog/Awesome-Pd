@@ -31,5 +31,11 @@
         "GUI",
         "Machine Learning",
         "Graphics"
+    ],
+    "similar": [
+        "scope~",
+        "fluid.waveform",
+        "graph~",
+        "zbiplot"
     ]
 }

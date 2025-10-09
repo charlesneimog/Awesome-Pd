@@ -27,7 +27,7 @@
     "similar": [
         "minimum",
         "rdiv",
-        "gcd",
-        "rminus~"
+        "rminus~",
+        "maximum"
     ]
 }

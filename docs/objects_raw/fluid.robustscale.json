@@ -31,5 +31,11 @@
         "Machine Learning",
         "Statistical Models",
         "General Utilities"
+    ],
+    "similar": [
+        "fluid.standardize",
+        "fluid.mds",
+        "fluid.knnregressor",
+        "fluid.kmeans"
     ]
 }

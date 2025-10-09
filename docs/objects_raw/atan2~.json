@@ -28,6 +28,6 @@
         "cart2pol",
         "sph2pol",
         "pol2cart",
-        "atan~"
+        "pol2sph"
     ]
 }

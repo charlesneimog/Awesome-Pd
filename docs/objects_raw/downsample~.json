@@ -25,7 +25,7 @@
     "similar": [
         "downsamp~",
         "sh~",
-        "rand~",
-        "range"
+        "range",
+        "rand~"
     ]
 }

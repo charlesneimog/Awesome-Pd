@@ -28,7 +28,7 @@
     "similar": [
         "vu~",
         "envrms~",
-        "peakamp~",
-        "rms~"
+        "fluid.bufloudness",
+        "fluid.loudness~"
     ]
 }

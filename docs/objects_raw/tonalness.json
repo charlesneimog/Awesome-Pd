@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/porres/pd-psycho/releases/",
+    "bug_reports": "https://github.com/porres/pd-psycho/issues",
+    "developers": [
+        "Alexandre Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "tonalness",
+    "description": "The `tonalness` object calculates the pitch clarity of an audio spectrum, providing measures for both pure and complex tones. It can be used in real-time, often in conjunction with objects like `sigmund`, to analyze the tonal characteristics of an incoming audio signal.",
+    "categories": [
+        "Descriptors"
+    ],
+    "similar": [
+        "fluid.noveltyfeature~",
+        "magSpec~",
+        "specKurtosis~",
+        "barkSpecFlatness~"
+    ]
+}

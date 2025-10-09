@@ -27,7 +27,7 @@
     "similar": [
         "highshelf~",
         "lowpass~",
-        "svfilter~",
+        "biquads~",
         "bandstop~"
     ]
 }

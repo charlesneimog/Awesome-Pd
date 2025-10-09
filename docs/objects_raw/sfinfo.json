@@ -28,6 +28,6 @@
         "scala",
         "sfload",
         "play.file~",
-        "player~"
+        "fluid.concataudiofiles"
     ]
 }

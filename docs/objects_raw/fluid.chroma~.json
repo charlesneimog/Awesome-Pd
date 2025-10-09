@@ -29,5 +29,11 @@
     "description": "The `fluid.chroma~` object analyzes an audio input to compute a histogram of energy across different pitch classes. It outputs a list of chroma bins, where each element represents the strength of a specific pitch class. This object is particularly useful for extracting harmonic content from polyphonic audio sources.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "fluid.bufchroma",
+        "chroma",
+        "chroma~",
+        "fluid.noveltyfeature~"
     ]
 }

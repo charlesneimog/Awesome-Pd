@@ -29,5 +29,11 @@
     "description": "`fluid.pitch~` is a monophonic pitch descriptor that computes both the fundamental frequency and a confidence score from an audio input. It offers various algorithms, including Cepstrum, Harmonic Product Spectrum, and YinFFT, and allows for parameter adjustments like minimum/maximum frequency and FFT settings. This object is useful for controlling other effects based on pitch confidence or for robust pitch tracking in noisy environments.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "cepstrumPitch",
+        "cepstrumPitch~",
+        "fluid.bufpitch",
+        "fluid.noveltyfeature~"
     ]
 }

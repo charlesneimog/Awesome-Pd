@@ -28,7 +28,7 @@
     "similar": [
         "batch.write~",
         "peek~",
-        "index~",
-        "tabwriter~"
+        "fluid.multiarray",
+        "index~"
     ]
 }

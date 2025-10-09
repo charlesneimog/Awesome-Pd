@@ -30,5 +30,11 @@
     "categories": [
         "Machine Learning",
         "Statistical Models"
+    ],
+    "similar": [
+        "fluid.kmeans",
+        "fluid.mds",
+        "fluid.skmeans",
+        "fluid.standardize"
     ]
 }

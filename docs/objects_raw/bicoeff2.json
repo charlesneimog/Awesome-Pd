@@ -29,6 +29,6 @@
         "bicoeff",
         "resonant~",
         "coeff2pz",
-        "mavg"
+        "pz2coeff"
     ]
 }

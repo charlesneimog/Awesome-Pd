@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/porres/pd-psycho/releases/",
+    "bug_reports": "https://github.com/porres/pd-psycho/issues",
+    "developers": [
+        "Alexandre Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "barks~",
+    "description": "The `barks~` object analyzes sound files to extract energy information across critical bands on the Bark scale. Users can configure the analysis with specific window sizes and overlaps. This object is useful for psychoacoustically relevant audio feature extraction.",
+    "categories": [
+        "Descriptors"
+    ],
+    "similar": [
+        "barkSpecFlatness",
+        "barkSpecSpread",
+        "barkSpecSkewness",
+        "barkSpecCentroid~"
+    ]
+}

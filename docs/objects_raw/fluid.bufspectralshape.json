@@ -30,5 +30,11 @@
     "categories": [
         "Descriptors",
         "Statistical Models"
+    ],
+    "similar": [
+        "fluid.spectralshape~",
+        "fluid.bufstats",
+        "fluid.stats",
+        "fluid.bufpitch"
     ]
 }

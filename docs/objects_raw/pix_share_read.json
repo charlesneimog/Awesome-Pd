@@ -28,6 +28,6 @@
         "pix_share_write",
         "pix_grey",
         "pix_multiply",
-        "pix_set"
+        "pix_sig2pix~"
     ]
 }

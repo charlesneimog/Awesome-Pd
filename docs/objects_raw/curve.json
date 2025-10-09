@@ -28,6 +28,6 @@
         "polygon",
         "curve3d",
         "surface3d",
-        "trapezoid"
+        "mesh_line"
     ]
 }

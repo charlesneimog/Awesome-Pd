@@ -29,5 +29,11 @@
     "description": "The `fluid.noveltyfeature~` object calculates the novelty feature of audio in real-time, indicating changes in underlying audio characteristics. It supports various algorithms like Spectrum, MFCC, Chroma, Pitch, and Loudness, with configurable FFT settings, kernel size, and smoothing filters. This object is primarily used for audio analysis and event detection.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "fluid.noveltyslice~",
+        "fluid.bufnoveltyfeature",
+        "fluid.bufnoveltyslice",
+        "fluid.onsetfeature~"
     ]
 }

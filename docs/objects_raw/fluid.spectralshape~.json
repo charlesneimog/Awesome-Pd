@@ -29,5 +29,11 @@
     "description": "`fluid.spectralshape~` computes seven spectral shape descriptors from an audio signal: centroid, spread, skewness, kurtosis, rolloff, flatness, and crest. It provides tools for detailed spectral analysis, useful for understanding the frequency content and characteristics of sounds. The object can be used to analyze various audio sources, including noise and filtered signals.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "fluid.bufspectralshape",
+        "specSpread~",
+        "specFlatness~",
+        "fluid.ampfeature~"
     ]
 }

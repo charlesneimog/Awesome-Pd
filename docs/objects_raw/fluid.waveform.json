@@ -31,5 +31,11 @@
         "Multichannel",
         "GUI",
         "Graphics"
+    ],
+    "similar": [
+        "graph~",
+        "scope~",
+        "zbiplot",
+        "scope3d~"
     ]
 }

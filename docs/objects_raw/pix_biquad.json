@@ -26,8 +26,8 @@
     ],
     "similar": [
         "pix_movement",
-        "pix_posterize",
         "pix_2grey",
+        "pix_posterize",
         "pix_rds"
     ]
 }

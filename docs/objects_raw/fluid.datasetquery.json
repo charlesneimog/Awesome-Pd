@@ -31,5 +31,11 @@
         "Logic",
         "Descriptors",
         "Data Structures"
+    ],
+    "similar": [
+        "fluid.ds2text",
+        "nearestPoint",
+        "matchbox",
+        "fluid.bufpitch"
     ]
 }

@@ -28,6 +28,6 @@
         "pulsediv~",
         "merge",
         "bangbang",
-        "counter"
+        "slice"
     ]
 }

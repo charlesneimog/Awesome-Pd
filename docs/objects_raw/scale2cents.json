@@ -27,7 +27,7 @@
     "similar": [
         "lin2db",
         "cents2ratio",
-        "atodb",
-        "scale2freq"
+        "mel2hz",
+        "atodb"
     ]
 }

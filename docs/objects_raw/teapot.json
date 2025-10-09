@@ -28,6 +28,6 @@
         "square",
         "curve",
         "cube",
-        "torus"
+        "cylinder"
     ]
 }

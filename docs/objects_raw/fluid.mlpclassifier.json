@@ -31,5 +31,11 @@
         "Machine Learning",
         "Neural Networks",
         "Deep Learning"
+    ],
+    "similar": [
+        "fluid.mlpregressor",
+        "fluid.bufflatten",
+        "fluid.knnregressor",
+        "fluid.ls2text"
     ]
 }

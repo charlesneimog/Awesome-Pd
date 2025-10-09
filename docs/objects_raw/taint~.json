@@ -35,7 +35,7 @@
     "similar": [
         "pow~",
         "rescale",
-        "scalarmult",
-        "cartopol~"
+        "fluid.bufscale",
+        "scalarmult"
     ]
 }

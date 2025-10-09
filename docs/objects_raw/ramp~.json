@@ -27,8 +27,8 @@
     ],
     "similar": [
         "clip",
-        "sampstoms~",
         "minmax~",
+        "sampstoms~",
         "pong"
     ]
 }

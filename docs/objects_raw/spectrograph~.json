@@ -29,7 +29,7 @@
     "similar": [
         "scope~",
         "graph~",
-        "tID_fft",
-        "biplot"
+        "fluid.waveform",
+        "tID_fft"
     ]
 }

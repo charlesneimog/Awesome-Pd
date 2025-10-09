@@ -30,5 +30,11 @@
     "categories": [
         "Machine Learning",
         "Data Structures"
+    ],
+    "similar": [
+        "fluid.ls2text",
+        "fluid.kdtree",
+        "fluid.labelset",
+        "fluid.ds2text"
     ]
 }

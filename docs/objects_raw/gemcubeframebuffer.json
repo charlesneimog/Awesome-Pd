@@ -26,8 +26,8 @@
     ],
     "similar": [
         "gemframebuffer",
-        "pix_texture",
         "cube",
-        "pix_coordinate"
+        "pix_coordinate",
+        "pix_texture"
     ]
 }

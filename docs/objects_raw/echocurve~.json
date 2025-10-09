@@ -23,5 +23,11 @@
     "description": "`echocurve~` is a feedback delay object that generates echoes with exponentially changing time and amplitude curves. It allows control over the maximum echo time, the number of echo points, and the shape of the duration and amplitude curves, enabling dynamic and evolving delay effects.",
     "categories": [
         "Delay"
+    ],
+    "similar": [
+        "delay~",
+        "ping.pong~",
+        "delay.m~",
+        "echo.rev~"
     ]
 }

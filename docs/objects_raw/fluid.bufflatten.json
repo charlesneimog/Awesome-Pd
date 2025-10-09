@@ -30,5 +30,11 @@
     "categories": [
         "Machine Learning",
         "Multichannel"
+    ],
+    "similar": [
+        "fluid.umap",
+        "level.m~",
+        "fluid.multiarray",
+        "fluid.bufnmf"
     ]
 }

@@ -27,7 +27,7 @@
     "similar": [
         "dfreq~",
         "zerocross~",
-        "barkSpecFlux~",
-        "zeroCrossing"
+        "fluid.transientslice~",
+        "barkSpecFlux~"
     ]
 }

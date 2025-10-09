@@ -29,5 +29,11 @@
     "description": "`fluid.bufonsetslice` implements various spectrum-based onset detection algorithms on audio data stored in a buffer. It allows configuration of FFT settings, selection of different spectral metrics (e.g., Energy, SpectralFlux, PhaseDev), and outputs the detected onset indices to a specified buffer. This object is primarily used for segmenting audio based on transient events.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "fluid.onsetfeature~",
+        "fluid.onsetslice~",
+        "fluid.buftransientslice",
+        "fluid.bufonsetfeature"
     ]
 }

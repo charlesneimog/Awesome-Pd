@@ -28,7 +28,7 @@
     "similar": [
         "autotune",
         "seq",
-        "makenote2",
-        "note2midi"
+        "note2midi",
+        "panic"
     ]
 }

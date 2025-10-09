@@ -25,8 +25,8 @@
     "title": "melSpec~",
     "description": "The `melSpec~` object computes the Mel-frequency spectrum of an incoming audio signal, transforming the linear frequency scale to the perceptually-motivated mel scale. It outputs the spectrum as a list when triggered, with configurable window size, windowing function, and normalization options. This object is primarily used for audio feature extraction for tasks like timbre analysis and classification.",
     "similar": [
-        "melSpec",
         "barkSpec~",
+        "melSpec",
         "mfcc~",
         "dct~"
     ]

@@ -28,6 +28,6 @@
         "mux~",
         "demultiplex~",
         "gate~",
-        "demux"
+        "funnel"
     ]
 }

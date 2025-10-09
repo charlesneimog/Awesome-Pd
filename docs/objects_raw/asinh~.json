@@ -28,6 +28,6 @@
         "acosh~",
         "asinh",
         "cosh~",
-        "atan~"
+        "sinh~"
     ]
 }

@@ -128,6 +128,7 @@ nav:
             -   brown: objects/statistical_models/brown.md
             -   fluid.mds: objects/statistical_models/fluid.mds.md
             -   histo: objects/statistical_models/histo.md
+            -   commonality: objects/statistical_models/commonality.md
             -   prob: objects/statistical_models/prob.md
             -   gendyn~: objects/statistical_models/gendyn~.md
             -   anal: objects/statistical_models/anal.md
@@ -357,11 +358,14 @@ nav:
             -   henon~: objects/math/henon~.md
             -   standard~: objects/math/standard~.md
             -   fluid.nmfmorph~: objects/math/fluid.nmfmorph~.md
+            -   iso226: objects/math/iso226.md
             -   hsv2rgb: objects/math/hsv2rgb.md
             -   resonant~: objects/math/resonant~.md
             -   asin~: objects/math/asin~.md
             -   rdiv: objects/math/rdiv.md
+            -   distance: objects/math/distance.md
             -   pix_add: objects/math/pix_add.md
+            -   db2phon: objects/math/db2phon.md
             -   dbtoa~: objects/math/dbtoa~.md
             -   add: objects/math/add.md
             -   frac2cents: objects/math/frac2cents.md
@@ -427,9 +431,12 @@ nav:
             -   link: objects/math/link.md
             -   rand.f: objects/math/rand.f.md
             -   clip~: objects/math/clip~.md
+            -   indigestibility: objects/math/indigestibility.md
             -   envelope~: objects/math/envelope~.md
             -   interpolate: objects/math/interpolate.md
+            -   sone2phon: objects/math/sone2phon.md
             -   sinx~: objects/math/sinx~.md
+            -   commonality: objects/math/commonality.md
             -   ramp~: objects/math/ramp~.md
             -   asin: objects/math/asin.md
             -   acosh: objects/math/acosh.md
@@ -458,9 +465,11 @@ nav:
             -   abs~: objects/math/abs~.md
             -   lin2db: objects/math/lin2db.md
             -   trunc: objects/math/trunc.md
+            -   phon2db: objects/math/phon2db.md
             -   sgn~: objects/math/sgn~.md
             -   rad2hz: objects/math/rad2hz.md
             -   latoocarfian~: objects/math/latoocarfian~.md
+            -   hz2mel: objects/math/hz2mel.md
             -   zigbinops: objects/math/zigbinops.md
             -   frac.mul: objects/math/frac.mul.md
             -   amean: objects/math/amean.md
@@ -469,7 +478,9 @@ nav:
             -   pong: objects/math/pong.md
             -   pol2sph: objects/math/pol2sph.md
             -   ratio2cents~: objects/math/ratio2cents~.md
+            -   phon2sone: objects/math/phon2sone.md
             -   poltocar~: objects/math/poltocar~.md
+            -   mel2hz: objects/math/mel2hz.md
             -   samps2ms: objects/math/samps2ms.md
             -   average~: objects/math/average~.md
             -   gbman~: objects/math/gbman~.md
@@ -504,6 +515,7 @@ nav:
             -   acos~: objects/math/acos~.md
             -   hex2dec: objects/math/hex2dec.md
             -   gcd: objects/math/gcd.md
+            -   bark2hz: objects/math/bark2hz.md
             -   plusequals~: objects/math/plusequals~.md
             -   atan~: objects/math/atan~.md
             -   gmean: objects/math/gmean.md
@@ -528,6 +540,7 @@ nav:
             -   lcm: objects/math/lcm.md
             -   quantize~: objects/math/quantize~.md
             -   rint~: objects/math/rint~.md
+            -   hz2bark: objects/math/hz2bark.md
             -   minimum: objects/math/minimum.md
             -   ms2samps~: objects/math/ms2samps~.md
             -   lin2db~: objects/math/lin2db~.md
@@ -538,6 +551,7 @@ nav:
             -   rms~: objects/math/rms~.md
             -   multiline~: objects/math/multiline~.md
             -   rad2deg: objects/math/rad2deg.md
+            -   harmonicity: objects/math/harmonicity.md
             -   greaterthan~: objects/math/greaterthan~.md
             -   scale2cents: objects/math/scale2cents.md
             -   atanh: objects/math/atanh.md
@@ -715,6 +729,7 @@ nav:
             -   level~: objects/dynamics/level~.md
             -   fluid.bufthresh: objects/dynamics/fluid.bufthresh.md
             -   compress~: objects/dynamics/compress~.md
+            -   flunson: objects/dynamics/flunson.md
             -   limiter~: objects/dynamics/limiter~.md
             -   noisegate~: objects/dynamics/noisegate~.md
             -   vca.m~: objects/dynamics/vca.m~.md
@@ -1169,6 +1184,7 @@ nav:
             -   attackTime~: objects/descriptors/attackTime~.md
             -   chroma~: objects/descriptors/chroma~.md
             -   specSlope: objects/descriptors/specSlope.md
+            -   distance: objects/descriptors/distance.md
             -   cepstrumPitch~: objects/descriptors/cepstrumPitch~.md
             -   fluid.spectralshape~: objects/descriptors/fluid.spectralshape~.md
             -   fluid.noveltyfeature~: objects/descriptors/fluid.noveltyfeature~.md
@@ -1192,7 +1208,9 @@ nav:
             -   specBrightness~: objects/descriptors/specBrightness~.md
             -   melSpec~: objects/descriptors/melSpec~.md
             -   barkSpecBrightness~: objects/descriptors/barkSpecBrightness~.md
+            -   tonalness: objects/descriptors/tonalness.md
             -   minSampleDelta~: objects/descriptors/minSampleDelta~.md
+            -   salience: objects/descriptors/salience.md
             -   zerocross~: objects/descriptors/zerocross~.md
             -   cepstrumPitch: objects/descriptors/cepstrumPitch.md
             -   morphine~: objects/descriptors/morphine~.md
@@ -1203,9 +1221,11 @@ nav:
             -   maxSample~: objects/descriptors/maxSample~.md
             -   meter8~: objects/descriptors/meter8~.md
             -   specIrregularity: objects/descriptors/specIrregularity.md
+            -   roughcurve: objects/descriptors/roughcurve.md
             -   specSlope~: objects/descriptors/specSlope~.md
             -   fluid.bufnmfseed: objects/descriptors/fluid.bufnmfseed.md
             -   fluid.bufonsetslice: objects/descriptors/fluid.bufonsetslice.md
+            -   roughness: objects/descriptors/roughness.md
             -   fluid.transientslice~: objects/descriptors/fluid.transientslice~.md
             -   peakSample~: objects/descriptors/peakSample~.md
             -   specCentroid~: objects/descriptors/specCentroid~.md
@@ -1222,8 +1242,10 @@ nav:
             -   waveSlope: objects/descriptors/waveSlope.md
             -   specRolloff: objects/descriptors/specRolloff.md
             -   energy: objects/descriptors/energy.md
+            -   sharpness~: objects/descriptors/sharpness~.md
             -   zerox~: objects/descriptors/zerox~.md
             -   range: objects/descriptors/range.md
+            -   centroid~: objects/descriptors/centroid~.md
             -   fluid.onsetfeature~: objects/descriptors/fluid.onsetfeature~.md
             -   fluid.bufstft: objects/descriptors/fluid.bufstft.md
             -   fluid.audiotransport~: objects/descriptors/fluid.audiotransport~.md
@@ -1264,6 +1286,7 @@ nav:
             -   barkSpecFlux~: objects/descriptors/barkSpecFlux~.md
             -   barkSpecSpread~: objects/descriptors/barkSpecSpread~.md
             -   specSkewness: objects/descriptors/specSkewness.md
+            -   al: objects/descriptors/al.md
             -   barkSpec: objects/descriptors/barkSpec.md
             -   tID-conversion: objects/descriptors/tID-conversion.md
             -   autoCorrPitch~: objects/descriptors/autoCorrPitch~.md
@@ -1295,6 +1318,7 @@ nav:
             -   specKurtosis~: objects/descriptors/specKurtosis~.md
             -   fluid.onsetslice~: objects/descriptors/fluid.onsetslice~.md
             -   cepstrum: objects/descriptors/cepstrum.md
+            -   barks~: objects/descriptors/barks~.md
             -   fluid.bufhpss: objects/descriptors/fluid.bufhpss.md
             -   nearestPoint: objects/descriptors/nearestPoint.md
             -   fluid.datasetquery: objects/descriptors/fluid.datasetquery.md
@@ -1319,6 +1343,7 @@ nav:
             - objects/partial_tracking/index.md
             -   pvwarpb~: objects/partial_tracking/pvwarpb~.md
             -   fluid.sines~: objects/partial_tracking/fluid.sines~.md
+            -   yl: objects/partial_tracking/yl.md
             -   pvoc~: objects/partial_tracking/pvoc~.md
             -   fluid.buftransients: objects/partial_tracking/fluid.buftransients.md
             -   fluid.bufsines: objects/partial_tracking/fluid.bufsines.md

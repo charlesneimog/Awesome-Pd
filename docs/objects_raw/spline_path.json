@@ -27,7 +27,7 @@
     "similar": [
         "linear_path",
         "pix_data",
-        "pix_curve",
-        "pix_buffer_read"
+        "pix_buffer_read",
+        "pix_curve"
     ]
 }

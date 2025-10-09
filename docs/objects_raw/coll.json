@@ -28,8 +28,8 @@
     ],
     "similar": [
         "funbuff",
+        "fluid.dataset",
         "table",
-        "capture",
-        "sfload"
+        "capture"
     ]
 }

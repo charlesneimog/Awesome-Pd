@@ -28,6 +28,6 @@
         "allpass.2nd~",
         "allpass.filt~",
         "cross~",
-        "bandpass~"
+        "eq~"
     ]
 }

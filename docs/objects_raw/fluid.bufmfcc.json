@@ -30,5 +30,11 @@
     "categories": [
         "Descriptors",
         "Multichannel"
+    ],
+    "similar": [
+        "fluid.mfcc~",
+        "fluid.bufmelbands",
+        "mfcc",
+        "fluid.bufaudiotransport"
     ]
 }

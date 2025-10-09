@@ -27,5 +27,11 @@
     "ai": true,
     "title": "fluid.hpss~",
     "description": "The `fluid.hpss~` object performs Harmonic-Percussive Source Separation (HPSS) on an audio input, separating it into harmonic and percussive components. It provides different modes for separation intensity and allows fine-tuning of thresholds using frequency-amplitude pairs like `harmthresh` and `percthresh`.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "fluid.bufhpss",
+        "fluid.buftransientslice",
+        "fluid.bufampslice",
+        "fluid.buftransients"
+    ]
 }

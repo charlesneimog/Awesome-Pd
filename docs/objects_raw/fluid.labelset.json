@@ -31,5 +31,11 @@
         "Machine Learning",
         "Data Structures",
         "File IO"
+    ],
+    "similar": [
+        "fluid.ls2text",
+        "fluid.dataset",
+        "fluid.knnclassifier",
+        "funbuff"
     ]
 }

@@ -26,8 +26,8 @@
     "description": "The `tabletool` object provides a comprehensive set of functionalities for manipulating, analyzing, and querying data stored in Pure Data tables. It supports various mathematical operations, data transformations like shifting and scaling, and searching for specific values or patterns. Additionally, it includes methods for statistical analysis, fundamental frequency estimation (HPS), and data merging for classification tasks.",
     "similar": [
         "dct",
-        "specSpread",
-        "minSample",
-        "chroma"
+        "chroma",
+        "dfreq~",
+        "specSpread"
     ]
 }

@@ -27,7 +27,7 @@
     "similar": [
         "minSample~",
         "minSampleDelta~",
-        "minSample",
-        "maxSampleDelta~"
+        "maxSampleDelta~",
+        "minSample"
     ]
 }

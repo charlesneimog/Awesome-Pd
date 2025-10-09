@@ -31,5 +31,11 @@
         "Machine Learning",
         "Data Structures",
         "Text"
+    ],
+    "similar": [
+        "fluid.labelset",
+        "fluid.knnclassifier",
+        "fluid.ds2text",
+        "uniqsym"
     ]
 }

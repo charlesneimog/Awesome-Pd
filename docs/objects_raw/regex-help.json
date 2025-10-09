@@ -28,6 +28,6 @@
         "regex",
         "makesymbol",
         "fromsymbol",
-        "spell"
+        "fluid.s2f"
     ]
 }

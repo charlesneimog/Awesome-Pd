@@ -29,5 +29,11 @@
     "description": "The `fluid.sinefeature~` object calculates spectral difference features, primarily used by `fluid.onsetslice~`. It performs peak detection on audio signals, reporting peak frequencies and magnitudes based on configurable FFT settings, windowing, and detection thresholds. This object is crucial for analyzing the sinusoidal components of a sound.",
     "categories": [
         "Partial Tracking"
+    ],
+    "similar": [
+        "fluid.bufsines",
+        "reanimator~",
+        "fluid.bufsinefeature",
+        "morph~"
     ]
 }

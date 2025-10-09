@@ -29,5 +29,11 @@
     "description": "The `fluid.bufloudness` object computes two loudness descriptors: true peak and a loudness measurement that applies broadcasting standard filters to emulate perceived amplitude. It analyzes audio buffers to determine median and average loudness, as well as maximum true-peak, often visualized over a waveform.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "fluid.loudness~",
+        "al",
+        "fluid.noveltyfeature~",
+        "fluid.bufpitch"
     ]
 }

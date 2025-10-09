@@ -27,7 +27,7 @@
     "similar": [
         "phaseSpec",
         "tID_fft~",
-        "barkSpec~",
-        "melSpec~"
+        "melSpec~",
+        "barkSpec~"
     ]
 }

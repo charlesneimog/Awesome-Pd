@@ -28,6 +28,6 @@
         "range~",
         "peakamp~",
         "range",
-        "vu~"
+        "fluid.bufloudness"
     ]
 }

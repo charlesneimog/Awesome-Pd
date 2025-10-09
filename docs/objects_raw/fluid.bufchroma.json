@@ -29,5 +29,11 @@
     "description": "The `fluid.bufchroma` object computes a histogram of the energy contained within audio signals, specifically focusing on chroma features. It allows configuration of the number of chroma bins and normalization of chroma values. The object analyzes audio and stores the resulting chroma features in a buffer, which can then be queried.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "fluid.chroma~",
+        "chroma",
+        "fluid.bufnoveltyfeature",
+        "fluid.noveltyfeature~"
     ]
 }

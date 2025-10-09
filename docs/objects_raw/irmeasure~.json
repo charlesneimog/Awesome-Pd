@@ -28,6 +28,6 @@
         "range~",
         "barkSpecFlatness",
         "beat~",
-        "zeroCrossing"
+        "fluid.ampfeature~"
     ]
 }

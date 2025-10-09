@@ -29,5 +29,11 @@
     "description": "The `fluid.bufthreaddemo` object is a demonstration tool from the Fluid Decomposition Toolkit, designed to illustrate multi-threading concepts in Pure Data. It simulates a time-consuming, non-realtime process, allowing users to experiment with blocking and non-blocking modes, job queuing, and cancellation. This helps in understanding how to manage intensive tasks, such as those found in MIR/Analysis, without disrupting real-time audio processing.",
     "categories": [
         "MultiThreading"
+    ],
+    "similar": [
+        "sfload",
+        "pix_image",
+        "coll",
+        "fluid.bufflatten"
     ]
 }

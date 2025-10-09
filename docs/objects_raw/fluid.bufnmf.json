@@ -31,5 +31,11 @@
         "Machine Learning",
         "Multichannel",
         "Descriptors"
+    ],
+    "similar": [
+        "fluid.bufnmfseed",
+        "fluid.nmfmatch~",
+        "fluid.bufflatten",
+        "fluid.nmfmorph~"
     ]
 }

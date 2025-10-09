@@ -28,6 +28,6 @@
         "xmod2~",
         "bl.wavetable~",
         "function~",
-        "trapezoid~"
+        "gaussian~"
     ]
 }

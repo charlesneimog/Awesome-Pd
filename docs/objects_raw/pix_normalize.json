@@ -27,7 +27,7 @@
     "similar": [
         "pix_contrast",
         "pix_grey",
-        "pix_set",
-        "pix_convert"
+        "pix_convert",
+        "pix_composite"
     ]
 }

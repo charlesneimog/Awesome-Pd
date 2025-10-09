@@ -27,7 +27,7 @@
     "similar": [
         "energyEntropy",
         "barkSpecSkewness~",
-        "energy",
-        "specSkewness~"
+        "specSkewness~",
+        "energy"
     ]
 }

@@ -27,7 +27,7 @@
     "similar": [
         "tID_fft",
         "tID_fft~",
-        "mfcc",
+        "barkSpecCentroid~",
         "melSpec~"
     ]
 }

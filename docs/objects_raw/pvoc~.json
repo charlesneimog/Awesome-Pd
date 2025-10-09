@@ -34,9 +34,9 @@
         "Descriptors"
     ],
     "similar": [
+        "fluid.bufstft",
+        "fluid.bufsinefeature",
         "residency~",
-        "reanimator~",
-        "morphine~",
-        "cepstrumPitch~"
+        "morphine~"
     ]
 }

@@ -30,5 +30,11 @@
     "categories": [
         "Machine Learning",
         "Statistical Models"
+    ],
+    "similar": [
+        "fluid.robustscale",
+        "fluid.kmeans",
+        "fluid.mds",
+        "fluid.normalize"
     ]
 }

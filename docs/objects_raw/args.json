@@ -28,6 +28,6 @@
         "buffer",
         "repack",
         "remove",
-        "stack"
+        "tabminmax"
     ]
 }

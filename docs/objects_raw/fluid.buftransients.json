@@ -30,5 +30,11 @@
     "categories": [
         "Partial Tracking",
         "Multichannel"
+    ],
+    "similar": [
+        "fluid.bufsines",
+        "fluid.bufsinefeature",
+        "fluid.sinefeature~",
+        "fluid.sines~"
     ]
 }

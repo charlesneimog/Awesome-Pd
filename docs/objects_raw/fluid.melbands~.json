@@ -29,5 +29,11 @@
     "description": "The `fluid.melbands~` object calculates the magnitudes of audio signals across a specified number of perceptually evenly spread Mel-frequency bands. It allows users to define the number of bands, minimum and maximum frequencies, and FFT settings, providing a powerful tool for audio feature extraction and analysis.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "fluid.bufmelbands",
+        "barkSpecFlatness",
+        "melSpec~",
+        "barkSpecSkewness"
     ]
 }

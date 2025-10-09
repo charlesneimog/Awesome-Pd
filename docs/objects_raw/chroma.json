@@ -27,7 +27,7 @@
     "similar": [
         "specSkewness",
         "specKurtosis",
-        "specRolloff",
-        "specSpread"
+        "fluid.bufchroma",
+        "fluid.chroma~"
     ]
 }

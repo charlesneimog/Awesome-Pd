@@ -28,6 +28,6 @@
         "cepstrumPitch",
         "peakSample",
         "harmonicRatio",
-        "cepstrumPitch~"
+        "waveNoise"
     ]
 }

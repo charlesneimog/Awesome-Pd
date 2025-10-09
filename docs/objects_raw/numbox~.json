@@ -27,8 +27,8 @@
     ],
     "similar": [
         "pad",
-        "button",
         "canvas.mouse",
-        "slider2d"
+        "button",
+        "circle"
     ]
 }

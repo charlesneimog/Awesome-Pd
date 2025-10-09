@@ -26,8 +26,8 @@
     "description": "The timbreID object stores, clusters, and classifies audio feature vectors, enabling tasks like sound identification and timbre ordering. It performs nearest-neighbor searches and hierarchical clustering on incoming feature data. This object is particularly useful for real-time concatenative synthesis and analyzing large datasets of pre-recorded audio.",
     "similar": [
         "peakSample~",
-        "barkSpecFlatness~",
         "sampleBuffer~",
+        "barkSpecFlatness~",
         "tID_fft~"
     ]
 }

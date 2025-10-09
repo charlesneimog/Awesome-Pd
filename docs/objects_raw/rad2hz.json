@@ -26,8 +26,8 @@
     ],
     "similar": [
         "hz2rad",
-        "scale2freq",
-        "asin~",
-        "db2lin"
+        "phon2db",
+        "hz2bark",
+        "bark2hz"
     ]
 }

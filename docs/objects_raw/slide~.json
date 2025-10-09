@@ -28,6 +28,6 @@
         "rampsmooth~",
         "burrow~",
         "svf~",
-        "xsyn~"
+        "lowpass~"
     ]
 }

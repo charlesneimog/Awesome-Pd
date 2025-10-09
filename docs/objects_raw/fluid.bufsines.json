@@ -29,5 +29,11 @@
     "description": "`fluid.bufsines` performs sinusoidal modeling on audio buffers, decomposing a source buffer into its sinusoidal and residual components. It allows users to control parameters such as minimum track length and detection threshold. The object then enables playback of either the extracted sinusoidal content or the remaining residual signal.",
     "categories": [
         "Partial Tracking"
+    ],
+    "similar": [
+        "fluid.sinefeature~",
+        "fluid.sines~",
+        "reanimator~",
+        "residency~"
     ]
 }

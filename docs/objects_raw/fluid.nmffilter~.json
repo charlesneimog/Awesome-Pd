@@ -30,5 +30,11 @@
     "categories": [
         "Machine Learning",
         "Filters"
+    ],
+    "similar": [
+        "fluid.nmfmatch~",
+        "xsyn~",
+        "fluid.bufnmfseed",
+        "crossover~"
     ]
 }

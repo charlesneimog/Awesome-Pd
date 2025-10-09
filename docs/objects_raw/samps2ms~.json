@@ -30,6 +30,6 @@
         "samps2ms",
         "ms2samps~",
         "ms2samps",
-        "pol2car~"
+        "sampstoms~"
     ]
 }

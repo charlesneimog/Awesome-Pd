@@ -28,6 +28,6 @@
         "emission",
         "specularRGB",
         "ambient",
-        "diffuse"
+        "emissionRGB"
     ]
 }

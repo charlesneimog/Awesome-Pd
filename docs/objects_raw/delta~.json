@@ -28,6 +28,6 @@
         "cosh~",
         "sinh~",
         "acosh~",
-        "median~"
+        "acos~"
     ]
 }

@@ -28,6 +28,6 @@
         "imageVert",
         "polygon",
         "pix_roll",
-        "pix_color"
+        "emissionRGB"
     ]
 }

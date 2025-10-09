@@ -27,8 +27,8 @@
     ],
     "similar": [
         "peak~",
-        "vu~",
         "rms~",
+        "vu~",
         "mov.rms~"
     ]
 }

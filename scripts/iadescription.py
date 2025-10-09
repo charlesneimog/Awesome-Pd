@@ -282,7 +282,6 @@ if __name__ == "__main__":
     LIBRARY_HELP_FILES = input("Enter library dir where -help.pd are: ")
     script_dir = os.path.dirname(os.path.abspath(__file__))
     os.chdir(script_dir)
-    # base = build_dict()
 
 
     base = {
@@ -292,16 +291,10 @@ if __name__ == "__main__":
             "Windows"
         ],
         "available_on_deken": False,
-        "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
-        "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+        "download_link": "https://github.com/porres/pd-psycho/releases/",
+        "bug_reports": "https://github.com/porres/pd-psycho/issues",
         "developers": [
-            "Pierre Alexandre Tremblay",
-            "Owen Green",
-            "Alex Harker",
-            "Gerard Roma",
-            "Ted Moore",
-            "Matt",
-            "Edouard Levasseur"
+            "Alexandre Porres"
         ],
         "part_of_library": True,
         "library_name": "flucoma",

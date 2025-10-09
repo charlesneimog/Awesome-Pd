@@ -28,6 +28,6 @@
         "above~",
         "togedge",
         "thresh~",
-        "changed~"
+        "onebang"
     ]
 }

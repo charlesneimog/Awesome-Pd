@@ -28,6 +28,6 @@
         "keypress",
         "mousestate",
         "keycode",
-        "mousefilter"
+        "mouse"
     ]
 }

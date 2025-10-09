@@ -28,6 +28,6 @@
         "gemcocoawindow",
         "gemglfw2window",
         "gemglxwindow",
-        "gemmacoswindow"
+        "gemglfw3window"
     ]
 }

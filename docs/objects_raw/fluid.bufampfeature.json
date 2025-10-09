@@ -29,5 +29,11 @@
     "description": "The `fluid.bufampfeature` object calculates an amplitude differential feature from an audio buffer, useful for tasks like event detection or slicing. It employs configurable ramp parameters for envelope following and thresholds to identify significant amplitude changes, writing the analysis to a destination buffer.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "fluid.ampfeature~",
+        "fluid.transientslice~",
+        "fluid.bufnoveltyfeature",
+        "fluid.noveltyfeature~"
     ]
 }

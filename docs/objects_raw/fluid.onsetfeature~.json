@@ -29,5 +29,11 @@
     "description": "`fluid.onsetfeature~` calculates spectral difference features from an audio signal, primarily for use with `fluid.onsetslice~`. It offers various metrics like Energy, HFC, and SpectralFlux, configurable with FFT settings (window size, hop size, FFT size), frame delta, and filter size. This object is crucial for preparing audio data for onset detection algorithms.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "fluid.bufonsetfeature",
+        "fluid.bufonsetslice",
+        "fluid.noveltyslice~",
+        "fluid.noveltyfeature~"
     ]
 }

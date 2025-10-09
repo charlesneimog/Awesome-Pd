@@ -28,7 +28,7 @@
     "similar": [
         "floor~",
         "ceil~",
-        "quantizer",
-        "wrap2~"
+        "wrap2~",
+        "quantizer"
     ]
 }

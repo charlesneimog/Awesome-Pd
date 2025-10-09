@@ -29,5 +29,11 @@
     "description": "The `fluid.onsetslice~` object performs spectrum-based onset detection on audio signals. It identifies the precise start of sound events using various metrics and provides latency-compensated, spectral frame-accurate detection. This object is useful for analyzing audio to segment it into discrete events.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "fluid.bufonsetslice",
+        "fluid.onsetfeature~",
+        "attackTime",
+        "fluid.transientslice~"
     ]
 }

@@ -29,6 +29,6 @@
         "scope~",
         "biplot",
         "zbiplot",
-        "spectrograph~"
+        "fluid.waveform"
     ]
 }

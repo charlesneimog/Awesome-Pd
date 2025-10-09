@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/porres/pd-psycho/releases/",
+    "bug_reports": "https://github.com/porres/pd-psycho/issues",
+    "developers": [
+        "Alexandre Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "centroid~",
+    "description": "The `centroid~` object calculates the spectral centroid of an audio signal, representing the 'center of gravity' of its frequency spectrum. It is typically used for audio analysis and takes arguments or messages to configure its window size and overlap for FFT processing.",
+    "categories": [
+        "Descriptors"
+    ],
+    "similar": [
+        "specCentroid~",
+        "barkSpecCentroid~",
+        "specSpread",
+        "specCentroid"
+    ]
+}

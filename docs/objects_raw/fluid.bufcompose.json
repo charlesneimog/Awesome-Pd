@@ -29,5 +29,11 @@
     "description": "The `fluid.bufcompose` object copies and combines audio data from a source buffer/array to a destination buffer/array, applying a specified gain. It offers fine-grained control over frame and channel selection for both source and destination, enabling tasks like multichannel mixing, stereo format conversion, and precise buffer manipulation. It can also mix new content with existing data in the destination buffer using a `destgain` attribute.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "buffer",
+        "fluid.bufselectevery",
+        "unpack~",
+        "index~"
     ]
 }

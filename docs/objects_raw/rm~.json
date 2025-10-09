@@ -28,7 +28,7 @@
     "similar": [
         "rm.m~",
         "phasewrap~",
-        "rdiv~",
-        "modulo~"
+        "modulo~",
+        "rdiv~"
     ]
 }

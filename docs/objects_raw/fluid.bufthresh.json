@@ -29,5 +29,11 @@
     "description": "The `fluid.bufthresh` object processes a source buffer by replacing all values below a specified threshold with zero. The resulting modified data is then copied into a destination buffer. This object is useful for dynamic processing tasks such as noise gating or isolating specific signal components within an audio buffer.",
     "categories": [
         "Dynamics"
+    ],
+    "similar": [
+        "expand~",
+        "compress~",
+        "noisegate~",
+        "pvcompand~"
     ]
 }

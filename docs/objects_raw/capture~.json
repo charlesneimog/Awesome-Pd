@@ -27,8 +27,8 @@
     ],
     "similar": [
         "dir",
+        "fluid.concataudiofiles",
         "blocksize~",
-        "ms2samps",
-        "ms2samps~"
+        "ms2samps"
     ]
 }

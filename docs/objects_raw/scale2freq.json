@@ -27,7 +27,7 @@
     "similar": [
         "autotune2",
         "cents2ratio",
-        "cents2frac",
-        "rad2hz"
+        "mel2hz",
+        "cents2frac"
     ]
 }

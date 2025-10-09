@@ -33,7 +33,7 @@
     "similar": [
         "ether~",
         "morph~",
-        "xfade.mc~",
-        "multyq~"
+        "fluid.bufaudiotransport",
+        "xfade.mc~"
     ]
 }

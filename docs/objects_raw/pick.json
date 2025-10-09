@@ -28,6 +28,6 @@
         "substitute",
         "pipe2",
         "initmess",
-        "reverse"
+        "any2symbol"
     ]
 }

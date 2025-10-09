@@ -29,5 +29,11 @@
     "description": "The `fluid.kdtree` object implements a K-dimensional tree for efficient nearest-neighbor searches within multi-dimensional datasets. It allows querying for points based on a specified number of neighbors or a search radius, making it suitable for tasks like mapping input to similar data points in an analysis space.",
     "categories": [
         "Data Structures"
+    ],
+    "similar": [
+        "fluid.ds2text",
+        "fluid.grid",
+        "index~",
+        "fluid.bufselectevery"
     ]
 }

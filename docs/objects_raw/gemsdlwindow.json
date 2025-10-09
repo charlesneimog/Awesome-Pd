@@ -28,6 +28,6 @@
         "gemglfw3window",
         "gemcocoawindow",
         "gemglutwindow",
-        "gemmacwindow"
+        "gemglxwindow"
     ]
 }

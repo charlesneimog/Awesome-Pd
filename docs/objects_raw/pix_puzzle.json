@@ -27,7 +27,7 @@
     "similar": [
         "pix_crop",
         "pix_info",
-        "pix_refraction",
-        "pix_scanline"
+        "pix_scanline",
+        "pix_refraction"
     ]
 }

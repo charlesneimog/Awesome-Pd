@@ -26,8 +26,8 @@
     ],
     "similar": [
         "atan~",
-        "atanh",
         "cosx~",
+        "atanh",
         "tanh"
     ]
 }

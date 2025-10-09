@@ -29,5 +29,11 @@
     "description": "The `fluid.buftransientslice` object extracts transient-based slices from audio buffers. It analyzes a source buffer to detect sudden changes in the audio signal, writing the detected slice indices to a specified array. This object is useful for segmenting audio based on its percussive or attack components, with parameters to fine-tune the detection algorithm.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "fluid.transientslice~",
+        "fluid.bufonsetslice",
+        "fluid.bufhpss",
+        "fluid.bufaudiotransport"
     ]
 }

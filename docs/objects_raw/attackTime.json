@@ -26,8 +26,8 @@
     "description": "The `attackTime` object analyzes a specified segment of a sound sample array to determine its attack time. It identifies the onset and peak of a sound event within the given window, outputting the attack time in milliseconds, along with the sample indices for the onset start and peak. Users can configure parameters such as sample rate, search range, and magnitude thresholds for precise onset detection.",
     "similar": [
         "attackTime~",
-        "peakSample",
-        "bark~",
-        "autoCorrPitch"
+        "fluid.onsetslice~",
+        "fluid.bufonsetslice",
+        "peakSample"
     ]
 }

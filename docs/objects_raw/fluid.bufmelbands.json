@@ -30,5 +30,11 @@
     "categories": [
         "Descriptors",
         "Multichannel"
+    ],
+    "similar": [
+        "fluid.melbands~",
+        "fluid.bufmfcc",
+        "meter8~",
+        "melSpec~"
     ]
 }

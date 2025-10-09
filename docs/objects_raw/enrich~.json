@@ -37,6 +37,6 @@
         "blip~",
         "pvtuner~",
         "oscbank~",
-        "pileup~"
+        "sine~"
     ]
 }

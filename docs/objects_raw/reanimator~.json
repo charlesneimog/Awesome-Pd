@@ -35,7 +35,7 @@
     "similar": [
         "residency~",
         "resent~",
-        "morph~",
-        "pvwarpb~"
+        "fluid.sinefeature~",
+        "morph~"
     ]
 }

@@ -28,6 +28,6 @@
         "specBrightness",
         "barkSpecBrightness~",
         "specRolloff~",
-        "specCentroid~"
+        "specCentroid"
     ]
 }

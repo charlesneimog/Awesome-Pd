@@ -29,5 +29,11 @@
     "description": "The `fluid.bufhpss` object performs Harmonic-Percussive Source Separation (HPSS) on audio stored in buffers. It decomposes a source audio buffer into its harmonic, percussive, and optional residual components, storing them in separate buffers. Users can configure FFT settings, filter sizes, and choose between soft or binary masking modes, along with frequency-amplitude thresholds for fine-tuning the separation.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "fluid.buftransientslice",
+        "fluid.bufaudiotransport",
+        "fluid.hpss~",
+        "harmonicRatio"
     ]
 }

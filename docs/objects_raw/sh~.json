@@ -29,6 +29,6 @@
         "pong",
         "mstosamps~",
         "scale",
-        "ramp~"
+        "scale~"
     ]
 }

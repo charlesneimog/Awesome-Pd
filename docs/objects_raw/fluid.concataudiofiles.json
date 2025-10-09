@@ -30,5 +30,11 @@
     "categories": [
         "File IO",
         "General Utilities"
+    ],
+    "similar": [
+        "dir",
+        "capture~",
+        "openfile",
+        "merge"
     ]
 }

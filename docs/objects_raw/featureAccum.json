@@ -27,7 +27,7 @@
     "similar": [
         "binWrangler",
         "tID_mean",
-        "barkSpec~",
-        "tID_std"
+        "tID_std",
+        "barkSpec~"
     ]
 }

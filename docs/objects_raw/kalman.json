@@ -24,5 +24,11 @@
     "categories": [
         "Statistical Models",
         "Math"
+    ],
+    "similar": [
+        "commonality",
+        "gendyn~",
+        "fluid.normalize",
+        "average~"
     ]
 }

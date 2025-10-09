@@ -29,5 +29,11 @@
     "description": "`fluid.bufpitch` computes three popular pitch descriptors (frequency and confidence) from an audio buffer. It processes multichannel buffers channel by channel and allows selecting specific outputs to be copied to a destination buffer, streamlining the capture of desired descriptors.",
     "categories": [
         "Descriptors"
+    ],
+    "similar": [
+        "fluid.pitch~",
+        "fluid.bufaudiotransport",
+        "fluid.bufampfeature",
+        "fluid.spectralshape~"
     ]
 }

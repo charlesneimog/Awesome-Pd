@@ -28,6 +28,6 @@
         "camera",
         "pix_frei0r",
         "pix_freeframe",
-        "pix_contrast"
+        "pix_rtx"
     ]
 }

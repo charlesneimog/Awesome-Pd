@@ -33,9 +33,9 @@
         "Descriptors"
     ],
     "similar": [
+        "centroid~",
         "tID_fft",
-        "tID_fft~",
-        "featureNorm",
-        "specBrightness"
+        "fluid.bufaudiotransport",
+        "fluid.audiotransport~"
     ]
 }

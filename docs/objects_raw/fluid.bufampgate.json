@@ -27,5 +27,11 @@
     "ai": true,
     "title": "fluid.bufampgate",
     "description": "The `fluid.bufampgate` object acts as an absolute amplitude threshold gate detector for audio input. Its primary purpose is to identify and mark \"on\" and \"off\" states in an audio signal, effectively removing silences. It outputs two channels containing the times of these detected onsets and offsets, which can be further adjusted to refine the detection, for example, to capture reverb tails.",
-    "categories": []
+    "categories": [],
+    "similar": [
+        "fluid.ampgate~",
+        "beat~",
+        "fluid.bufflatten",
+        "fluid.bufampfeature"
+    ]
 }

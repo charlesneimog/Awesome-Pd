@@ -29,5 +29,11 @@
     "description": "The `fluid.umap` object performs Uniform Manifold Approximation and Projection (UMAP) for dimensionality reduction on a `fluid.dataset`. It transforms high-dimensional data (e.g., 26 values from sound segments) into a lower-dimensional representation, useful for visualization or further analysis. Parameters like `numneighbours` and `mindist` control the embedding, influencing how global or local structures are preserved.",
     "categories": [
         "Machine Learning"
+    ],
+    "similar": [
+        "fluid.mds",
+        "onnx",
+        "fluid.bufflatten",
+        "fluid.knnregressor"
     ]
 }

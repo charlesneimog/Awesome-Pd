@@ -27,7 +27,7 @@
     "similar": [
         "attackTime",
         "bark",
-        "bark~",
-        "beat~"
+        "fluid.bufonsetslice",
+        "bark~"
     ]
 }

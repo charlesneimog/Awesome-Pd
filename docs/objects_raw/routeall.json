@@ -26,8 +26,8 @@
         "Logic"
     ],
     "similar": [
-        "relay",
         "switch",
+        "relay",
         "decode",
         "spray"
     ]
