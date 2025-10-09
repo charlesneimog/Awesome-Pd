@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/porres/pd-psycho/releases/",
+    "bug_reports": "https://github.com/porres/pd-psycho/issues",
+    "developers": [
+        "Alexandre Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "bark2hz",
+    "description": "The `bark2hz` object converts a value from the Bark scale to Hertz. It provides a 'vanilla' implementation for this psychoacoustic frequency conversion, useful for mapping perceived pitch to actual frequency.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "mel2hz",
+        "hz2bark",
+        "hz2mel",
+        "phon2db"
+    ]
+}

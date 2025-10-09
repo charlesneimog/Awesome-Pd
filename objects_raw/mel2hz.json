@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/porres/pd-psycho/releases/",
+    "bug_reports": "https://github.com/porres/pd-psycho/issues",
+    "developers": [
+        "Alexandre Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "mel2hz",
+    "description": "The `mel2hz` object converts a frequency value from the Mel scale to the linear Hertz scale. This is useful for psychoacoustic applications where perceived pitch is represented on the Mel scale, allowing conversion back to standard frequencies for audio synthesis or analysis.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "hz2mel",
+        "bark2hz",
+        "hz2bark",
+        "db2lin"
+    ]
+}

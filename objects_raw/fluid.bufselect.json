@@ -1,0 +1,39 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.bufselect",
+    "description": "The `fluid.bufselect~` object copies specific sets of values from a buffer, allowing selection by channels and indices. It is particularly useful in analytical contexts for extracting or filtering data from audio buffers or feature sets, enabling precise manipulation of buffered data for further processing.",
+    "categories": [
+        "Descriptors"
+    ],
+    "similar": [
+        "fluid.bufonsetslice",
+        "fluid.buftransientslice",
+        "fluid.chroma~",
+        "fluid.bufpitch"
+    ]
+}

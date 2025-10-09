@@ -1,0 +1,40 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.stats",
+    "description": "The `fluid.stats` object calculates the rolling mean and sample standard deviation for multichannel control inputs over a specified window. It is primarily used for smoothing streams of data, such as audio descriptors like MFCCs, to provide more stable and meaningful analytical values over time.",
+    "categories": [
+        "Statistical Models",
+        "Descriptors"
+    ],
+    "similar": [
+        "fluid.bufstats",
+        "fluid.bufspectralshape",
+        "mfcc",
+        "tID_mean"
+    ]
+}

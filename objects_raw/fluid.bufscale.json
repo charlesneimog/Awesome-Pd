@@ -1,0 +1,39 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.bufscale",
+    "description": "The `fluid.bufscale` object scales numerical values within a buffer from a specified input range to an output range. It processes values from input channels, performs the scaling calculation, and stores the results in a destination buffer, making it useful for data normalization or remapping.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "rescale",
+        "wrap2",
+        "atanh",
+        "acos~"
+    ]
+}

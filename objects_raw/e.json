@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "e",
+    "description": "The `e` object calculates and outputs the mathematical constant 'e' (Euler's number). It can be configured with a multiplier via its first inlet or as an argument, and outputs the result upon patch loading or when receiving a `bang` or float message. The calculated value can also be stored and retrieved using a specified variable name, making it accessible to other objects like `value` or `expr`.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "pi",
+        "asinh",
+        "atanh",
+        "acosh"
+    ]
+}

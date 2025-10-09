@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "tap",
+    "description": "The `tap` object detects tempo by analyzing successive bangs, typically from user input. The first bang arms the object, and the second bang outputs the detected tempo, which can be in BPM (default) or milliseconds. Clicking the object directly acts as a bang.",
+    "categories": [
+        "Control IO"
+    ],
+    "similar": [
+        "keypress",
+        "mousestate",
+        "keycode",
+        "mousefilter"
+    ]
+}

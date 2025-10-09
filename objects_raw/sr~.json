@@ -1,0 +1,34 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "sr~",
+    "description": "The `sr~` object in Pure Data allows users to set and retrieve the global audio sample rate. It outputs the sample rate frequency (in Hz or kHz) or period (in ms or seconds) upon initialization, receiving a bang, or when the sample rate changes. Unlike `samplerate~`, `sr~` always reflects the system's global sample rate, not local up/downsampling rates.",
+    "categories": [
+        "Audio IO",
+        "General Utilities"
+    ],
+    "similar": [
+        "nyquist~",
+        "samps2ms",
+        "rad2hz",
+        "slew"
+    ]
+}

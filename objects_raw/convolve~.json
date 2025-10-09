@@ -1,0 +1,34 @@
+{
+    "title": "convolve~",
+    "description": "`convolve~` is a partitioned impulse response (IR) convolution external for Pure Data. The only creation argument is the partition size, which also determines the amount of delay between the dry and wet signal (i.e., pre-delay). Partition size must be a multiple of Pd's default block size: 64 samples (1.4512ms @ 44100Hz).",
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/wbrent/convolve_tilde/issues",
+    "developers": [
+        "William Brent"
+    ],
+    "part_of_library": false,
+    "library_name": "",
+    "categories": [
+        "Reverb"
+    ],
+    "category_groups": [],
+    "category_parents": {},
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "similar": [
+        "mono.rev~",
+        "plate.rev~",
+        "conv~",
+        "giga.rev~"
+    ]
+}

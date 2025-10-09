@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "blocksize~",
+    "description": "The `blocksize~` object reports and controls Pure Data's audio block size, which defines the number of samples processed at once. It allows querying and setting this crucial parameter in samples, milliseconds, or Hertz. This utility helps adapt patch behavior to the current DSP settings.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "any2symbol",
+        "fontsize",
+        "canvas.vis",
+        "tempo~"
+    ]
+}

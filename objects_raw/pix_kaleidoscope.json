@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pix_kaleidoscope",
+    "description": "The `pix_kaleidoscope` object applies a visual kaleidoscope effect to an input image, reflecting a selected portion multiple times around a central point. It allows precise control over the number of segments, rotation, and the source and output center positions, enabling the creation of intricate and dynamic visual patterns. This object is a core component for image manipulation within the GEM graphics environment.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "pix_crop",
+        "pix_motionblur",
+        "imageVert",
+        "gemrepeat"
+    ]
+}

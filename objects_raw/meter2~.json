@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "meter2~",
+    "description": "The `meter2~` object functions as a stereo VU-meter, taking left and right audio signals and outputting their RMS and peak amplitude values in dBFS as a list. It also passes the input signals through its outlets, making it suitable for insertion into an audio signal chain. It can handle multichannel signals and allows setting window and hop sizes for its internal `vu~` objects.",
+    "categories": [
+        "GUI"
+    ],
+    "similar": [
+        "meter8~",
+        "meter4~",
+        "number~",
+        "grab"
+    ]
+}

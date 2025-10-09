@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "brickwall~",
+    "description": "The `brickwall~` object is a 10th-order Butterworth lowpass filter primarily designed for anti-aliasing. It applies 16x oversampling to effectively remove high-frequency components from a signal. Its cutoff frequency can be controlled via its second inlet, defaulting to 0.75 times the global Nyquist frequency.",
+    "categories": [
+        "Filters"
+    ],
+    "similar": [
+        "lop.bw~",
+        "cross~",
+        "crossover~",
+        "hip.bw~"
+    ]
+}
