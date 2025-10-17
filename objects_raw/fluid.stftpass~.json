@@ -1,0 +1,37 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.stftpass~",
+    "description": "The help patch for `fluid.stftpass~` was empty, so its exact functionality cannot be determined. Based on its name, it likely performs some form of Short-Time Fourier Transform (STFT) processing or filtering on audio signals, possibly within the Flucoma toolkit.",
+    "categories": [],
+    "similar": [
+        "fluid.bufstft",
+        "part_velcone",
+        "burrow~",
+        "tID_fft"
+    ]
+}

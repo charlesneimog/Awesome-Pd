@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "triangle~",
+    "description": "The `triangle~` object generates a variable-duty triangular wavetable. It takes a phase input (typically from a `phasor~`) to produce a continuous waveform, and a second inlet controls the peak position (duty cycle) from 0 to 1, allowing it to morph between sawtooth and triangular shapes. Its output range can be adjusted using `lo` and `hi` messages.",
+    "categories": [
+        "Oscillators"
+    ],
+    "similar": [
+        "trapezoid~",
+        "bl.wavetable~",
+        "saw~",
+        "cycle~"
+    ]
+}

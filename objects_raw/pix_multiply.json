@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pix_multiply",
+    "description": "The `pix_multiply` object in Pure Data multiplies two input images (pixes) together, requiring them to be of the same size. This operation results in an output image where, for example, if any corresponding pixel in either input image is black, the resulting pixel will also be black. It is primarily used for image manipulation within the GEM environment.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "pix_subtract",
+        "pix_mask",
+        "pix_compare",
+        "pix_buf"
+    ]
+}

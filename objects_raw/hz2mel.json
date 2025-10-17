@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/porres/pd-psycho/releases/",
+    "bug_reports": "https://github.com/porres/pd-psycho/issues",
+    "developers": [
+        "Alexandre Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "hz2mel",
+    "description": "The `hz2mel` object converts a frequency value, given in Hertz (Hz), into its corresponding value on the Mel scale. This is useful for psychoacoustic analysis or synthesis, as the Mel scale is a perceptual scale of pitches judged by listeners to be equal in distance from one another.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "mel2hz",
+        "hz2bark",
+        "bark2hz",
+        "atodb"
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.ampgate~",
+    "description": "`fluid.ampgate~` is a real-time absolute amplitude threshold gate detector for audio signals. It identifies onsets and offsets by comparing the signal's amplitude against configurable thresholds, allowing for lookahead/lookback and minimum gate durations. This object is useful for segmenting audio or controlling signal flow based on amplitude events.",
+    "categories": [
+        "Envelopes"
+    ],
+    "similar": [
+        "asr~",
+        "gatehold~",
+        "smooth",
+        "glide2"
+    ]
+}

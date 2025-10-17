@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pix_indycam",
+    "description": "The `pix_indycam` object captures video signals from an SGI video camera, outputting them as pixel data within Pure Data. It is specifically designed for SGI video workstations. Users can control video properties such as dimensions, zoom, brightness, contrast, hue, and saturation.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "camera",
+        "pix_frei0r",
+        "pix_freeframe",
+        "pix_rtx"
+    ]
+}

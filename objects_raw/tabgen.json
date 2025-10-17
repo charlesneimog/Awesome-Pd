@@ -1,0 +1,35 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "tabgen",
+    "description": "The `tabgen` object is a Pure Data abstraction for generating and populating named tables (arrays) with various mathematical functions. It can create waveforms like sinusoids, Gaussian curves, sinc functions, noise, and FFT window functions such as Hanning and Kaiser. This versatile tool also allows applying these generated functions as envelopes to existing table data, making it useful for waveform synthesis and control signal shaping.",
+    "categories": [
+        "Math",
+        "Envelopes",
+        "Oscillators"
+    ],
+    "similar": [
+        "envelope~",
+        "curve~",
+        "latoocarfian~",
+        "tanh"
+    ]
+}

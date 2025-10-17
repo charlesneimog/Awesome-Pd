@@ -1,0 +1,35 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "gbman~",
+    "description": "`gbman~` is a chaotic audio generator based on the gingerbread man map difference equation, `y[n] = 1 + abs(y[n-1]) - y[n-2]`. It produces a filtered and rescaled audio signal, with its chaotic behavior controlled by a frequency input and initial feedback values for `y[n-1]` and `y[n-2]`. It supports multichannel operation and allows dynamic adjustment of its parameters.",
+    "categories": [
+        "Math",
+        "Oscillators",
+        "Procedural"
+    ],
+    "similar": [
+        "cusp~",
+        "henon~",
+        "latoocarfian~",
+        "logistic~"
+    ]
+}

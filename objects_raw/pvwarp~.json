@@ -1,0 +1,39 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/ericlyon/pd-fftease/issues",
+    "developers": [
+        "Eric Lyon"
+    ],
+    "part_of_library": true,
+    "library_name": "fftease",
+    "articles": [
+        {
+            "title": "Pd and Audio Programming in the 21st Century",
+            "authors": [
+                "Eric Lyon"
+            ],
+            "link": "https://doi.org/10.33871/23179937.2021.9.2.12"
+        }
+    ],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pvwarp~",
+    "description": "`pvwarp~` is a Pure Data object designed for spectral warping of audio signals. It creates and applies internal frequency warping functions, allowing users to manipulate the frequency content of sound. Parameters include setting synthesis frequency ranges, flattening the warp function, and generating random warp functions.",
+    "categories": [],
+    "similar": [
+        "mindwarp~",
+        "pvwarpb~",
+        "enrich~",
+        "lfnoise"
+    ]
+}

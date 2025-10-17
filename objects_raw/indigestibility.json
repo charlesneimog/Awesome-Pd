@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/porres/pd-psycho/releases/",
+    "bug_reports": "https://github.com/porres/pd-psycho/issues",
+    "developers": [
+        "Alexandre Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "indigestibility",
+    "description": "The `indigestibility` object calculates Clarence Barlow's 'indigestibility' measure for an integer. This object serves as a mathematical utility, providing a specific numerical property of an integer. It is typically used as a component within larger algorithmic or compositional systems rather than as a standalone module.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "harmonicity",
+        "rint",
+        "ceil",
+        "rint~"
+    ]
+}

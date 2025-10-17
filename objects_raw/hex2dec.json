@@ -1,0 +1,34 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "hex2dec",
+    "description": "The `hex2dec` object converts hexadecimal values to their decimal equivalents. It accepts hexadecimal numbers as symbols, supporting both lowercase and uppercase letters, and optional \"0x\" or \"0X\" prefixes. This object is useful for parsing and converting hexadecimal data within Pure Data patches.",
+    "categories": [
+        "Math",
+        "Text"
+    ],
+    "similar": [
+        "dec2hex",
+        "atoi",
+        "fluid.s2f",
+        "notedur2ratio"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pix_rtx",
+    "description": "The `pix_rtx` object performs a real-time \"Time-X transformation\" on incoming video frames, effectively swapping the time axis with the x-axis of the image. This creates a visual effect similar to `tx-transform` but operates dynamically. It requires substantial memory for its internal buffer and processes video input, outputting a `gemlist`.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "pix_frei0r",
+        "pix_indycam",
+        "translate",
+        "pix_movement2"
+    ]
+}

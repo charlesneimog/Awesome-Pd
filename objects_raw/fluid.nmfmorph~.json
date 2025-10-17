@@ -1,0 +1,41 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.nmfmorph~",
+    "description": "The `fluid.nmfmorph~` object performs cross-synthesis between two audio sources using Nonnegative Matrix Factorization (NMF) and Optimal Transport (OT). It decomposes source and target sounds into spectral bases and activations, allowing for interpolation between their sonic characteristics. This enables morphing one sound's spectral content with another's temporal evolution.",
+    "categories": [
+        "Machine Learning",
+        "Statistical Models",
+        "Math"
+    ],
+    "similar": [
+        "fluid.bufnmfcross",
+        "fluid.pca",
+        "fluid.normalize",
+        "fluid.bufnmfseed"
+    ]
+}

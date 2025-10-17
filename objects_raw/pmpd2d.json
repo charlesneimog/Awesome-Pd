@@ -1,0 +1,42 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/ch-nry/pd-pmpd/issues",
+    "developers": [
+        "Cyrille Henry"
+    ],
+    "part_of_library": true,
+    "library_name": "pmpd",
+    "articles": [
+        {
+            "title": "Physical modeling for pure data (PMPD) and real-time interaction with an audio synthesis",
+            "authors": [
+                "Cyrille Henry"
+            ],
+            "link": "https://hal.science/hal-03354371/"
+        }
+    ],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pmpd2d",
+    "description": "The `pmpd2d` object implements a 2D mass-spring-damper physical model, designed for particle-based simulations in Pure Data. It allows users to define and manipulate 'masses' (particles with mass, position, and mobility) and 'links' (connections between masses with properties like rigidity, damping, and length). The object calculates forces and updates the state of the physical system, providing data for external visualization or control.",
+    "categories": [
+        "Math",
+        "Physical Modeling"
+    ],
+    "similar": [
+        "link",
+        "pmpd",
+        "iCircle2D",
+        "mass2D"
+    ]
+}

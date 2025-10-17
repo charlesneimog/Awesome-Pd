@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/porres/pd-psycho/releases/",
+    "bug_reports": "https://github.com/porres/pd-psycho/issues",
+    "developers": [
+        "Alexandre Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "flunson",
+    "description": "The `flunson` object rescales audio amplitudes according to the Fletcher-Munson curves. Its purpose is to adjust the perceived loudness of audio signals, accounting for the human ear's varying sensitivity to different frequencies and amplitudes. This can be used for psychoacoustic processing or dynamic range adjustments.",
+    "categories": [
+        "Dynamics"
+    ],
+    "similar": [
+        "pvcompand~",
+        "compress~",
+        "expand~",
+        "norm~"
+    ]
+}

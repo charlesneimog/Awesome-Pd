@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/wbrent/timbreIDLib/issues",
+    "developers": [
+        "William Brent"
+    ],
+    "part_of_library": true,
+    "library_name": "timbreIDLib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "categories": [
+        "Descriptors"
+    ],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "specCentroid",
+    "description": "The `specCentroid` object calculates the spectral centroid of an audio array, providing a measure of the 'brightness' or 'timbral richness' of a sound. It analyzes a specified window of an array and supports various windowing functions and input types (magnitude or power spectrum). This object can integrate into analysis chains by accepting pre-computed FFT or magnitude spectrum data for efficient processing.",
+    "similar": [
+        "specSpread",
+        "specKurtosis",
+        "specIrregularity",
+        "cepstrum"
+    ]
+}

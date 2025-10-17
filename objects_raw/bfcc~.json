@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/wbrent/timbreIDLib/issues",
+    "developers": [
+        "William Brent"
+    ],
+    "part_of_library": true,
+    "library_name": "timbreIDLib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "categories": [
+        "Descriptors"
+    ],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "bfcc~",
+    "description": "The `bfcc~` object computes Bark-frequency cepstral coefficients (BFCCs) from an audio input, emphasizing lower spectral content and using a Discrete Cosine Transform. It outputs a list of BFCCs upon receiving a bang, handling internal audio buffering and windowing. This object is useful for extracting perceptually relevant features from audio for tasks like timbre identification.",
+    "similar": [
+        "mfcc~",
+        "tID_fft~",
+        "bfcc",
+        "barkSpecFlatness~"
+    ]
+}

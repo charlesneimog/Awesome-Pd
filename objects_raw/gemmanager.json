@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "gemmanager",
+    "description": "The `gemmanager` object is an internal helper designed to interact with Gem's global state. Its primary function is to allow setting global parameters, such as window dimensions using the `dimen <w> <h>` message. This object is generally not intended for direct use by end-users.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "pix_resize",
+        "gemglxwindow",
+        "Gem",
+        "_textbbox"
+    ]
+}
