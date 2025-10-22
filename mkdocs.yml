@@ -2048,6 +2048,7 @@ nav:
     -   fftease: libraries/fftease.md
     -   flucoma: libraries/flucoma.md
     -   neimog: libraries/neimog.md
+    -   pd-psycho: libraries/pd-psycho.md
     -   piro: libraries/piro.md
     -   pmpd: libraries/pmpd.md
     -   timbreIDLib: libraries/timbreIDLib.md
@@ -2060,6 +2061,7 @@ nav:
     -   Live-Electronics:
         - pieces/live-electronics/index.md
         -   Cânticos de Silício I (2025): pieces/live-electronics/cânticos_de_silício_i.md
+        -   Eco (2022): pieces/live-electronics/eco.md
 -   Web:
     -   pd4web: web/pd4web.md
     -   pdwebparty: web/pdwebparty.md

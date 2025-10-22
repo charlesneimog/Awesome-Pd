@@ -9,5 +9,6 @@
 - :material-tune: [__timbreIDLib__](timbreIDLib.md) `timbreIDLib` is a library of audio analysis externals for Pure Data.
 - :material-tune: [__cyclone__](cyclone.md) `Cyclone` is a library for Pure Data (Pd) that provides objects mimicking those in Max/MSP.
 - :material-tune: [__fftease__](fftease.md) `FFTease` is a collection of objects designed to facilitate spectral sound processing in Max and Pd.
+- :material-tune: [__pd-psycho__](pd-psycho.md) .
 - :material-tune: [__piro__](piro.md) `piro` is Pd-port of `irmeasure~` and `multiconvolve~` from the HISSTools Impulse Response Toolbox (HIRT) · Stands for *Pd Impulse Response Objects*, or "fire" (ancient Greek), or sounds like "Pirro" (Pyrrhus) – since this port took a very long period!.
 </div>
