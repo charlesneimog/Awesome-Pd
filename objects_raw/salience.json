@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/porres/pd-psycho/releases/",
+    "bug_reports": "https://github.com/porres/pd-psycho/issues",
+    "developers": [
+        "Alexandre Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "pd-psycho",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "salience",
+    "description": "The `salience` object analyzes an audio spectrum to calculate its tone salience and multiplicity. It quantifies the number of consciously perceived tones, taking into account auditory levels and pitch audibilities. This object is primarily used for psychoacoustic analysis of complex sounds.",
+    "categories": [
+        "Descriptors"
+    ],
+    "similar": [
+        "al",
+        "tonalness",
+        "barkSpec~",
+        "barkSpecIrregularity~"
+    ]
+}

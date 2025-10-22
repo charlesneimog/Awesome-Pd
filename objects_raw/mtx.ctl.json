@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "mtx.ctl",
+    "description": "The `mtx.ctl` object provides a graphical user interface for a matrix grid where cells can be toggled on or off. It outputs a list containing the column, row, and status (on/off) of a clicked cell, making it ideal for controlling objects like `mtx~`. Users can dynamically set grid dimensions, cell size, and manage cell states via messages like `set`, `get`, `clear`, `export`, and `import`.",
+    "categories": [
+        "GUI"
+    ],
+    "similar": [
+        "range.hsl",
+        "knob",
+        "messbox",
+        "meter2~"
+    ]
+}

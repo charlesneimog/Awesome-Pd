@@ -1,0 +1,34 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "poke~",
+    "description": "`poke~` writes audio signals or control messages into a specified array at a given index, which can also be controlled by a signal. It supports multi-channel arrays (up to 64 channels), allowing the target channel to be selected via an argument or an inlet. This object is essential for dynamic manipulation of array data, such as recording signals or modifying waveforms in real-time.",
+    "categories": [
+        "Data Structures",
+        "Multichannel"
+    ],
+    "similar": [
+        "batch.write~",
+        "peek~",
+        "fluid.multiarray",
+        "index~"
+    ]
+}

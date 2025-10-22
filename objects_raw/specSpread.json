@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/wbrent/timbreIDLib/issues",
+    "developers": [
+        "William Brent"
+    ],
+    "part_of_library": true,
+    "library_name": "timbreIDLib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "categories": [
+        "Descriptors"
+    ],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "specSpread",
+    "description": "The `specSpread` object calculates the spectral spread, a measure of the dispersion of the spectrum around its centroid, for an audio signal stored in a Pure Data array. It allows users to specify the analysis window, windowing function, and sample rate, and can also process pre-computed FFT or magnitude spectrum data for efficient chained analysis.",
+    "similar": [
+        "specCentroid",
+        "specKurtosis",
+        "barkSpecSpread",
+        "phaseSpec"
+    ]
+}

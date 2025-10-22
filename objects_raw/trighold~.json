@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "trighold~",
+    "description": "The `trighold~` object holds the value of an incoming trigger signal. When a trigger occurs, its value is captured and maintained at the output. A `clear` message can reset the held value to zero.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "sah~",
+        "accum",
+        "pulsediv~",
+        "operating_system"
+    ]
+}

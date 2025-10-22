@@ -1,0 +1,35 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "out~",
+    "description": "The `out~` object is a convenient audio output abstraction for Pure Data, providing click-free control over DSP engine state, `dac~` output, and muting. It features a gain slider with selectable scaling modes (quartic, dB, linear) and adjustable ramp times, handling both mono/stereo and multichannel audio inputs by summing them to the stereo output.",
+    "categories": [
+        "Multichannel",
+        "Audio IO",
+        "GUI"
+    ],
+    "similar": [
+        "out8~",
+        "out4~",
+        "gain~",
+        "out.mc~"
+    ]
+}

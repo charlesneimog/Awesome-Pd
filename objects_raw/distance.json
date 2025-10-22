@@ -1,0 +1,34 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/porres/pd-psycho/releases/",
+    "bug_reports": "https://github.com/porres/pd-psycho/issues",
+    "developers": [
+        "Alexandre Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "pd-psycho",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "distance",
+    "description": "The `distance` object calculates the perceptual distance between pitches. It requires pitch salience information, which can be obtained from real-time analysis tools like `sigmund~`. This object can take three or more pitches as arguments to determine their relative distances.",
+    "categories": [
+        "Descriptors",
+        "Math"
+    ],
+    "similar": [
+        "fluid.mfcc~",
+        "commonality",
+        "rms~",
+        "mov.rms~"
+    ]
+}

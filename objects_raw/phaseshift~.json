@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "phaseshift~",
+    "description": "The `phaseshift~` object is a 2nd order allpass filter that alters the phase of an audio signal without changing its gain. It shifts the phase from 0 to 360 degrees, with a specified frequency point where the shift is 180 degrees, and a 'Q' parameter controlling the steepness of this phase change. It can be used to create frequency cancellations when combined with the original signal.",
+    "categories": [
+        "Filters"
+    ],
+    "similar": [
+        "allpass.2nd~",
+        "allpass.filt~",
+        "cross~",
+        "eq~"
+    ]
+}

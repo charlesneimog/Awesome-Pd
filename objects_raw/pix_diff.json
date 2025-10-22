@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pix_diff",
+    "description": "The `pix_diff` object calculates the absolute difference between two input images, which must be of the same size. It outputs a new image highlighting these differences. This object is part of the GEM library for graphics manipulation.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "pix_multiply",
+        "pix_subtract",
+        "pix_takealpha",
+        "pix_mask"
+    ]
+}

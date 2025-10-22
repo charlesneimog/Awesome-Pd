@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "rampsmooth~",
+    "description": "The `rampsmooth~` object linearly smooths an incoming audio signal over a specified number of samples. When the input value changes, it creates a linear ramp to the new value, making it useful for envelope following or as a lowpass filter.",
+    "categories": [
+        "Filters"
+    ],
+    "similar": [
+        "slide~",
+        "lowpass~",
+        "svfilter~",
+        "lop.bw~"
+    ]
+}

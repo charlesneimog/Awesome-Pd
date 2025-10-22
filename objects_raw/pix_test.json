@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pix_test",
+    "description": "The `pix_test` object generates test images, primarily featuring SMPTE colorbars and black/white gradients. It allows customization of image dimensions, colorspace, and can optionally include grey noise at the bottom. This object is useful for testing and calibrating visual setups within Pure Data's GEM environment.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "pix_multiply",
+        "pix_rds",
+        "pix_invert",
+        "pix_subtract"
+    ]
+}

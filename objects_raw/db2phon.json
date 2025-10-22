@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/porres/pd-psycho/releases/",
+    "bug_reports": "https://github.com/porres/pd-psycho/issues",
+    "developers": [
+        "Alexandre Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "pd-psycho",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "db2phon",
+    "description": "The `db2phon` object converts a decibel (dB) value into phons, a unit representing perceived loudness. It is used in the context of equal loudness curves, which illustrate how humans perceive sound intensity at various frequencies. This object is useful for psychoacoustic analysis.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "phon2sone",
+        "iso226",
+        "phon2db",
+        "sone2phon"
+    ]
+}

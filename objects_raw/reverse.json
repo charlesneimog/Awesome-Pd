@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "reverse",
+    "description": "The `reverse` object in Pure Data reverses the order of elements within incoming messages or lists. It takes any message or list as input and outputs the same message or list with its elements in reverse order. This is a fundamental utility for manipulating data flow and reordering sequences.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "swap2",
+        "merge",
+        "slice",
+        "retrieve"
+    ]
+}

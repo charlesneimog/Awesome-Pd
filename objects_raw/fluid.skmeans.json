@@ -1,0 +1,40 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.skmeans",
+    "description": "`fluid.skmeans` implements the K-means clustering algorithm with cosine similarity. It allows users to incrementally fit datasets to learn clusters, predict cluster assignments for data points, and retrieve the calculated cluster centroids. This object is useful for data analysis and pattern recognition within datasets.",
+    "categories": [
+        "Machine Learning",
+        "Statistical Models"
+    ],
+    "similar": [
+        "fluid.kmeans",
+        "fluid.knnregressor",
+        "fluid.standardize",
+        "fluid.mds"
+    ]
+}
