@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "above~",
+    "description": "The `above~` object detects when an input signal crosses a specified threshold. It sends an impulse on its left output when the signal rises above the threshold and another impulse when it falls back below or to the threshold. This object is useful for triggering events or controlling processes based on signal amplitude.",
+    "categories": [
+        "Logic"
+    ],
+    "similar": [
+        "above",
+        "changed~",
+        "thresh~",
+        "gate2imp~"
+    ]
+}

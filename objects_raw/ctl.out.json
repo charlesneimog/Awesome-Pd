@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "ctl.out",
+    "description": "The `ctl.out` object formats and sends raw MIDI control messages. It can output directly to Pure Data's configured MIDI device or to its outlet for further processing. Users can specify the MIDI channel and control number, with an optional flag to restrict output to the outlet only.",
+    "categories": [
+        "MIDI"
+    ],
+    "similar": [
+        "pgm.out",
+        "note.out",
+        "touch.out",
+        "sysrt.out"
+    ]
+}

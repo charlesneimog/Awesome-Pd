@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/wbrent/timbreIDLib/issues",
+    "developers": [
+        "William Brent"
+    ],
+    "part_of_library": true,
+    "library_name": "timbreIDLib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "categories": [
+        "Descriptors"
+    ],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "chroma",
+    "description": "The `chroma` object performs non-real-time pitch chroma analysis on audio data stored in a Pure Data array. It calculates a pitch class profile (chroma vector) for a specified audio segment, configurable by frequency bounds and pitch tolerance. This object can accept pre-computed FFT or magnitude spectrum data via `chain_` messages for optimized analysis workflows.",
+    "similar": [
+        "specSkewness",
+        "specKurtosis",
+        "fluid.bufchroma",
+        "fluid.chroma~"
+    ]
+}

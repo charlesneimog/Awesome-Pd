@@ -1,0 +1,34 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/charlesneimog/kalman-pd/releases/tag/v0.1.0",
+    "bug_reports": "https://github.com/jwmatthys/kalman-pd/issues",
+    "developers": [
+        "Joel Matthys"
+    ],
+    "part_of_library": false,
+    "library_name": "",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "kalman",
+    "description": "The `kalman` object implements a simple, linear, one-dimensional Kalman filter. It is used to filter noisy incoming data by estimating the mean and noise covariance, providing a more accurate and predictive output. The object can also analyze data to set initial conditions, improving efficiency by reducing the number of necessary iterations.",
+    "categories": [
+        "Statistical Models",
+        "Math"
+    ],
+    "similar": [
+        "commonality",
+        "gendyn~",
+        "fluid.normalize",
+        "average~"
+    ]
+}

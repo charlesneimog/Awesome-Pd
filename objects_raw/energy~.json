@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/wbrent/timbreIDLib/issues",
+    "developers": [
+        "William Brent"
+    ],
+    "part_of_library": true,
+    "library_name": "timbreIDLib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "categories": [
+        "Descriptors"
+    ],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "energy~",
+    "description": "The `energy~` object from `timbreIDLib` continuously calculates the energy of an audio signal, offering output in power, RMS, or decibels with adjustable window sizing and normalization. It serves as a flexible alternative to `[env~]` for real-time audio analysis, particularly useful for generating features for timbre identification and classification.",
+    "similar": [
+        "energy",
+        "specRolloff~",
+        "barkSpecSkewness~",
+        "specSpread~"
+    ]
+}

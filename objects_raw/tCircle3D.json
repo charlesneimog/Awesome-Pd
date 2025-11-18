@@ -1,0 +1,39 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/ch-nry/pd-pmpd/issues",
+    "developers": [
+        "Cyrille Henry"
+    ],
+    "part_of_library": true,
+    "library_name": "pmpd",
+    "articles": [
+        {
+            "title": "Physical modeling for pure data (PMPD) and real-time interaction with an audio synthesis",
+            "authors": [
+                "Cyrille Henry"
+            ],
+            "link": "https://hal.science/hal-03354371/"
+        }
+    ],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "tCircle3D",
+    "description": "The `tCircle3D` object is designed for testing the 3D position of a \"mass\" relative to a user-defined circular region. It outputs a binary value (0 or 1) indicating whether the mass is within the specified circular bounds, along with its distance and speed relative to the circle's center. This object is useful for spatial checks in 3D environments.",
+    "categories": [],
+    "similar": [
+        "tCircle2D",
+        "tCube3D",
+        "iCircle3D",
+        "tLine2D"
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "display",
+    "description": "The `display` object in Pure Data functions similarly to `print`, showing messages directly within a patch. It can be configured with a fixed character limit, truncating longer messages, or it can auto-resize to fit the input. Additionally, it allows setting a refresh rate and includes a `-noflash` flag to prevent visual flickering.",
+    "categories": [
+        "GUI",
+        "Text"
+    ],
+    "similar": [
+        "note",
+        "comment",
+        "spell",
+        "messbox"
+    ]
+}

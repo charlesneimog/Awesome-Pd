@@ -1,0 +1,35 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "brown",
+    "description": "The `brown` object generates pseudo-random numbers following a bounded Brownian motion, producing a control signal that takes small, random steps within a defined range. It allows for reproducible sequences by setting a seed value, and its maximum step size can be controlled via arguments or messages. This object is useful for creating organic, fluctuating control data.",
+    "categories": [
+        "Stochastic",
+        "Statistical Models",
+        "Procedural"
+    ],
+    "similar": [
+        "rand.f",
+        "brown~",
+        "rand.i",
+        "stepnoise"
+    ]
+}

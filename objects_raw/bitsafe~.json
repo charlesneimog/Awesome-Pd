@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "bitsafe~",
+    "description": "The `bitsafe~` object replaces NaN (Not a Number) and infinity values in an incoming signal with zero. It also filters out denormal numbers, converting them to zero, which is particularly useful when working with bitwise operations or other contexts where these values can cause issues.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "bitnormal~",
+        "substitute",
+        "trighold~",
+        "list2int"
+    ]
+}

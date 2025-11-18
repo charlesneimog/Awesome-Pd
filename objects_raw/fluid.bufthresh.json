@@ -1,0 +1,39 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.bufthresh",
+    "description": "The `fluid.bufthresh` object processes a source buffer by replacing all values below a specified threshold with zero. The resulting modified data is then copied into a destination buffer. This object is useful for dynamic processing tasks such as noise gating or isolating specific signal components within an audio buffer.",
+    "categories": [
+        "Dynamics"
+    ],
+    "similar": [
+        "expand~",
+        "compress~",
+        "noisegate~",
+        "pvcompand~"
+    ]
+}

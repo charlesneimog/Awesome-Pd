@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "round~",
+    "description": "The `round~` object quantizes incoming audio signals to an integer multiple of a specified value. It supports two modes: rounding to the nearest multiple or truncating the value. Setting the rounding multiple to 0 effectively bypasses the quantization, passing the original signal through.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "round",
+        "quantizer",
+        "quantize~",
+        "rint~"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "slew2",
+    "description": "`slew2` is a slew limiter that smooths incoming numerical values by limiting their rate of change, effectively creating a portamento effect. It allows independent control over the upward and downward slew speeds, as well as a refresh rate for its internal processing.",
+    "categories": [],
+    "similar": [
+        "slew",
+        "slew2~",
+        "slew~",
+        "deltaclip~"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "canvas.name",
+    "description": "The `canvas.name` object outputs the symbolic name of the current Pure Data patch or its parent patches. It can be configured with a float to specify the depth level (e.g., 1 for parent, 2 for grandparent) or with the symbol `-env` to retrieve the name of the main patch window's environment. This object is particularly useful for dynamic patching, allowing other objects to receive messages based on the patch's name.",
+    "categories": [
+        "Patching"
+    ],
+    "similar": [
+        "canvas.active",
+        "canvas.bounds",
+        "canvas.setname",
+        "properties"
+    ]
+}

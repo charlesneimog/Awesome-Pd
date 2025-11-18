@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/porres/pd-psycho/releases/",
+    "bug_reports": "https://github.com/porres/pd-psycho/issues",
+    "developers": [
+        "Alexandre Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "pd-psycho",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "iso226",
+    "description": "The `iso226` object generates a list of 29 decibel (dB) values across a frequency range, corresponding to equal-loudness contours. It takes a 'phon' value as input and outputs the dB levels required to perceive the same loudness at different frequencies, based on the ISO 226 standard. This is useful for psychoacoustic modeling and dynamic equalization.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "db2phon",
+        "phon2db",
+        "phon2sone",
+        "sone2phon"
+    ]
+}

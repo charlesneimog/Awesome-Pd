@@ -1,0 +1,39 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.audiotransport~",
+    "description": "The `fluid.audiotransport~` object performs spectral interpolation between two loaded audio sounds. It allows for morphing between the timbral characteristics of the two sources, with the quality of the blend improving with larger FFT sizes.",
+    "categories": [
+        "Descriptors"
+    ],
+    "similar": [
+        "fluid.bufaudiotransport",
+        "fluid.spectralshape~",
+        "specBrightness~",
+        "morphine~"
+    ]
+}

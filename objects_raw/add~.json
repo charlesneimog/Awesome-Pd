@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "add~",
+    "description": "The `add~` object continuously accumulates incoming signal or float values, adding them to a running sum. It can be initialized with a starting sum, and the accumulation can be reset to this starting sum via a bang message or an impulse signal in its right inlet.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "add",
+        "plusequals~",
+        "frac.add",
+        "sum"
+    ]
+}

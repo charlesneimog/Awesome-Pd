@@ -1,0 +1,40 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.mfcc~",
+    "description": "The `fluid.mfcc~` object calculates Mel-Frequency Cepstral Coefficients (MFCCs) in real-time, serving as a classic timbral audio descriptor. It analyzes incoming audio signals to extract features representing their spectral envelope, useful for tasks like sound classification and timbral matching. Users can configure parameters such as window size, hop size, FFT settings, and the number of coefficients to output.",
+    "categories": [
+        "Descriptors",
+        "Math"
+    ],
+    "similar": [
+        "fluid.bufmfcc",
+        "mfcc",
+        "hann~",
+        "mfcc~"
+    ]
+}

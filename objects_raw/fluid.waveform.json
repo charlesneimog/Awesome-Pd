@@ -1,0 +1,41 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.waveform",
+    "description": "The `fluid.waveform` object visualizes multichannel audio waveforms, feature data, slices, and spectrograms within Pure Data. It supports displaying features as stacked lines, plotting 3D data, and offers customization for colors and dimensions. Users can interact with the display by clicking and dragging to report x-y values.",
+    "categories": [
+        "Multichannel",
+        "GUI",
+        "Graphics"
+    ],
+    "similar": [
+        "graph~",
+        "scope~",
+        "zbiplot",
+        "scope3d~"
+    ]
+}

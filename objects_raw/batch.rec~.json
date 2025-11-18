@@ -1,0 +1,35 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "batch.rec~",
+    "description": "The `batch.rec~` object is a convenient abstraction for batch recording audio signals to a sound file, leveraging `writesf~` internally. It allows users to specify the recording duration in milliseconds and the output filename, supporting up to 64 channels. A dialog box can be opened to select the save file, and a `bang` is output upon completion.",
+    "categories": [
+        "File IO",
+        "Multichannel",
+        "Audio IO"
+    ],
+    "similar": [
+        "rec.file~",
+        "batch.write~",
+        "record~",
+        "pvoc.player~"
+    ]
+}

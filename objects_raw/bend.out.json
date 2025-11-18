@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "bend.out",
+    "description": "The `bend.out` object formats and sends MIDI pitch bend messages. It converts normalized float values (-1 to 1) or raw integer values (0 to 16383) into MIDI pitch bend data, sending it to Pure Data's MIDI output or its outlet. This object is useful for controlling pitch bend on external MIDI devices or within Pure Data patches.",
+    "categories": [
+        "MIDI"
+    ],
+    "similar": [
+        "xbendin",
+        "xbendout",
+        "bend.in",
+        "midiparse"
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.ampfeature~",
+    "description": "The `fluid.ampfeature~` object calculates various amplitude differential features from an audio signal. It extracts a range of audio descriptors, including Energy, High Frequency Content (HFC), Spectral Flux, and different phase deviation metrics. This object is primarily used for detailed audio analysis, offering parameters for envelope following and high-pass filtering to refine feature extraction.",
+    "categories": [
+        "Descriptors"
+    ],
+    "similar": [
+        "fluid.bufampfeature",
+        "fluid.bufonsetfeature",
+        "fluid.onsetfeature~",
+        "fluid.spectralshape~"
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "sfload",
+    "description": "The `sfload` object is a versatile sound file loader for Pure Data, similar to `soundfiler` but supporting a wider range of audio formats (AAC, FLAC, MP3, WAV, etc.) and capable of loading into multichannel arrays. It can also download files directly from web links and offers a threaded mode for loading large files without choking Pd's audio.",
+    "categories": [
+        "File IO",
+        "Networking",
+        "MultiThreading"
+    ],
+    "similar": [
+        "play.file~",
+        "sfinfo",
+        "coll",
+        "sample~"
+    ]
+}

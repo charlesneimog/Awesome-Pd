@@ -1,0 +1,35 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "clock",
+    "description": "The `clock` object sends bangs at a regular tempo, acting as a 'main' clock or a 'synced' clock. A main clock controls other synced clocks with a relative tempo, allowing for synchronized timing across a patch. It can be set to a specific BPM or a multiplier for synced clocks, and can also be synced to a `metronome` object.",
+    "categories": [
+        "Procedural",
+        "Math",
+        "General Utilities"
+    ],
+    "similar": [
+        "tempo",
+        "midi.clock",
+        "bpm",
+        "fold"
+    ]
+}

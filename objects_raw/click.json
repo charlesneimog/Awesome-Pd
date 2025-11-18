@@ -1,0 +1,34 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "click",
+    "description": "The `click` object generates a `bang` message when its graphical representation is clicked within a parent patch or abstraction. By default, it operates in \"abstraction\" mode, making it ideal for creating interactive elements in reusable Pure Data modules. It can also be used within subpatches.",
+    "categories": [
+        "GUI",
+        "Control IO"
+    ],
+    "similar": [
+        "canvas.mouse",
+        "button",
+        "pad",
+        "circle"
+    ]
+}

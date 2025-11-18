@@ -1,0 +1,31 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://git.iem.at/pd/zexy/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "sigzero~",
+    "description": "The `sigzero~` object detects the presence or absence of an audio signal. It outputs a float value, which can be used to conditionally trigger actions based on whether an audio signal is active. This object is part of the zexy library and is useful for basic signal analysis.",
+    "categories": [],
+    "similar": [
+        "tavg~",
+        "trig2bang",
+        "change~",
+        "render_trigger"
+    ]
+}

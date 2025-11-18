@@ -1,0 +1,34 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "midi.out",
+    "description": "The `midi.out` object sends \"cooked\" MIDI messages (Note On/Off, Control Change, Program Change, Aftertouch, Pitch Bend) to a connected MIDI device, unlike `midiout` which handles raw data. It accepts symbol data types, values, and a channel, with an optional argument or right inlet to set the MIDI channel (0 for omni). An `-ext` flag or `ext` message can be used to direct output solely to its outlet.",
+    "categories": [
+        "MIDI",
+        "Control IO"
+    ],
+    "similar": [
+        "pgm.in",
+        "touch.in",
+        "ptouch.out",
+        "touch.out"
+    ]
+}

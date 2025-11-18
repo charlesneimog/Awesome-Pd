@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/d-i-s/piro/issues",
+    "developers": [
+        "Marco Matteo Markidis"
+    ],
+    "part_of_library": true,
+    "library_name": "piro",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "irmanip",
+    "description": "`irmanip` is a utility object designed for comprehensive manipulation of Impulse Response (IR) data stored in buffers. It offers functionalities such as deconvolution with various control modes, phase adjustment, IR inversion, and averaging multiple IRs in the frequency domain. Additionally, it provides tools for trimming, fading, padding, and normalizing IRs, making it a versatile tool for preparing and processing IRs for audio applications.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "default",
+        "slew",
+        "any2symbol",
+        "bangbang"
+    ]
+}

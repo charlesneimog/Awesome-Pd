@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "render_trigger",
+    "description": "The `render_trigger` object provides timing signals related to the rendering process within a `gemlist`. It outputs a bang before any actions in the `gemlist` are rendered and another bang after all rendering actions have completed. Note that this object is now obsolete, as the standard `trigger` object can achieve the same functionality.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "gemhead",
+        "part_information",
+        "primTri",
+        "textoutline"
+    ]
+}

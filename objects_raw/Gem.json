@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "Gem",
+    "description": "The `Gem` object serves as a meta-object for the Pure Data Graphics Environment for Multimedia (GEM). It manages common behaviors and debugging for other GEM objects, particularly for handling OpenGL errors and controlling per-object or global debugging modes. It also facilitates the passing of special `gem_state` messages within a graphics render chain.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "gemhead",
+        "pqtorusknots",
+        "pix_multitexture",
+        "part_draw"
+    ]
+}

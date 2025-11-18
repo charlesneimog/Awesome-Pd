@@ -1,0 +1,34 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://git.iem.at/pd/zexy/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "sf-play_record",
+    "description": "The `sf-play_record` object provides a hard disk recording and playback system for Pure Data, enabling multi-track audio recordings. It uses `sfrecord` for recording in RAW format and `sfplay` for playback, which can skip file headers. The object also provides level monitoring and status output.",
+    "categories": [
+        "File I/O",
+        "Multichannel"
+    ],
+    "similar": [
+        "batch.write~",
+        "record~",
+        "tabwriter~",
+        "play~"
+    ]
+}

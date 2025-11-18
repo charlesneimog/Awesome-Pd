@@ -1,0 +1,34 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "stretch.shift~",
+    "description": "`stretch.shift~` is a live audio processor that performs independent time stretching and pitch shifting using granulation. It functions similarly to `gran.player~` but is designed for real-time input. Users can control parameters such as grain size, playback speed, and pitch transposition in cents.",
+    "categories": [
+        "Granular",
+        "Audio IO"
+    ],
+    "similar": [
+        "pvoc.live~",
+        "pitch.shift~",
+        "gran.player~",
+        "grain.live~"
+    ]
+}

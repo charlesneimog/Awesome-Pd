@@ -1,0 +1,34 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "tosymbol",
+    "description": "The `tosymbol` object converts any incoming message, including floats, lists, or other data types, into a single symbol message. It is particularly useful for consolidating multi-element messages into a single symbol, which is often not directly supported in Pure Data Vanilla. Users can specify a custom separator character via the `separator` message or `@separator` attribute to replace spaces in the original message.",
+    "categories": [
+        "General Utilities",
+        "Text"
+    ],
+    "similar": [
+        "unite",
+        "separate",
+        "fromsymbol",
+        "sprintf"
+    ]
+}

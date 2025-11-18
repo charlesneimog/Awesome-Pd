@@ -1,0 +1,35 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "velvet~",
+    "description": "The `velvet~` object is a velvet noise generator that produces a signal of random positive or negative impulses at a specified frequency. It allows control over the polarity bias (chance of positive/negative impulses), time regularity (randomness of impulse timing), and amplitude irregularity (randomness of impulse amplitude). It supports multichannel output and seedable pseudo-random number generation.",
+    "categories": [
+        "Stochastic",
+        "Multichannel",
+        "Procedural"
+    ],
+    "similar": [
+        "rampnoise~",
+        "dust~",
+        "stepnoise~",
+        "dust2~"
+    ]
+}

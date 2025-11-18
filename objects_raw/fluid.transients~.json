@@ -1,0 +1,40 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.transients~",
+    "description": "`fluid.transients~` is a real-time audio object that models and separates transients from its input signal. It outputs two audio streams: the detected transients and the remaining residual audio. Users can fine-tune its behavior using various parameters like `order`, `blocksize`, and `threshfwd` to control the transient detection process.",
+    "categories": [
+        "Descriptors",
+        "Audio IO"
+    ],
+    "similar": [
+        "fluid.transientslice~",
+        "fluid.buftransientslice",
+        "fluid.noveltyslice~",
+        "fluid.bufonsetslice"
+    ]
+}

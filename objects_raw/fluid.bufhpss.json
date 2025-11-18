@@ -1,0 +1,39 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.bufhpss",
+    "description": "The `fluid.bufhpss` object performs Harmonic-Percussive Source Separation (HPSS) on audio stored in buffers. It decomposes a source audio buffer into its harmonic, percussive, and optional residual components, storing them in separate buffers. Users can configure FFT settings, filter sizes, and choose between soft or binary masking modes, along with frequency-amplitude thresholds for fine-tuning the separation.",
+    "categories": [
+        "Descriptors"
+    ],
+    "similar": [
+        "fluid.buftransientslice",
+        "fluid.bufaudiotransport",
+        "fluid.hpss~",
+        "harmonicRatio"
+    ]
+}

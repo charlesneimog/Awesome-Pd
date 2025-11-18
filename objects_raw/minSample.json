@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/wbrent/timbreIDLib/issues",
+    "developers": [
+        "William Brent"
+    ],
+    "part_of_library": true,
+    "library_name": "timbreIDLib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "categories": [
+        "Descriptors"
+    ],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "minSample",
+    "description": "The `minSample` object analyzes a specified window within a Pure Data array, typically containing audio samples. It outputs the minimum sample value found within that window and its corresponding index relative to the start of the window. This object is useful for offline analysis of audio or other data stored in arrays.",
+    "similar": [
+        "minSampleDelta",
+        "peakSample",
+        "maxSample",
+        "minSample~"
+    ]
+}

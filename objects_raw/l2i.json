@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://git.iem.at/pd/zexy/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "l2i",
+    "description": "The `l2i` object converts all floating-point numbers within an incoming list to integers. It takes any type of list as input and outputs a list where all float elements have been cast to their integer equivalents, while other elements are passed through. This is useful for ensuring list elements are whole numbers for control or data processing.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "remove",
+        "delete",
+        "l",
+        "unpack~"
+    ]
+}

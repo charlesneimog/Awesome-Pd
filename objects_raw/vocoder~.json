@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "vocoder~",
+    "description": "The `vocoder~` object is a classic cross-synthesis channel vocoder. It processes a \"synth source\" signal by applying the spectral characteristics of a \"control source\" signal, producing a vocoded output. Users can define the number of channels, filter Q, and specific frequencies for each channel using MIDI values.",
+    "categories": [
+        "Filters"
+    ],
+    "similar": [
+        "mindwarp~",
+        "hip.bw~",
+        "xsyn~",
+        "lop.bw~"
+    ]
+}

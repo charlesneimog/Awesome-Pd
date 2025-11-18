@@ -1,0 +1,39 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.bufchroma",
+    "description": "The `fluid.bufchroma` object computes a histogram of the energy contained within audio signals, specifically focusing on chroma features. It allows configuration of the number of chroma bins and normalization of chroma values. The object analyzes audio and stores the resulting chroma features in a buffer, which can then be queried.",
+    "categories": [
+        "Descriptors"
+    ],
+    "similar": [
+        "fluid.chroma~",
+        "chroma",
+        "fluid.bufnoveltyfeature",
+        "fluid.noveltyfeature~"
+    ]
+}

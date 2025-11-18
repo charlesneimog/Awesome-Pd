@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pix_composite",
+    "description": "The `pix_composite` object alpha-blends two input images (`gemlist`s) of the same size. It uses the alpha channel of the first image to determine the blending factor. The object outputs the resulting composite image as a `gemlist`.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "pix_takealpha",
+        "alpha",
+        "pix_a_2grey",
+        "pix_mix"
+    ]
+}

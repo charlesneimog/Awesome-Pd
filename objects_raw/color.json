@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "color",
+    "description": "The `color` object in Pure Data sets the color for all subsequent GEM (Graphics Environment for Multimedia) shape and vertex operations. It accepts a list of 3 (RGB) or 4 (RGBA) float values, defaulting to black and opaque. For alpha blending to be effective, an `alpha` object must also be used.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "colorRGB",
+        "diffuseRGB",
+        "ambientRGB",
+        "diffuse"
+    ]
+}

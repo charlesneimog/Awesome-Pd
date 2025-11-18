@@ -1,0 +1,5 @@
+{
+    "description": "`piro` is Pd-port of `irmeasure~` and `multiconvolve~` from the HISSTools Impulse Response Toolbox (HIRT) · Stands for *Pd Impulse Response Objects*, or \"fire\" (ancient Greek), or sounds like \"Pirro\" (Pyrrhus) – since this port took a very long period!",
+    "issues": "https://github.com/d-i-s/piro/issues",
+    "link": "https://github.com/d-i-s/piro/"
+}

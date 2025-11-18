@@ -1,0 +1,39 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.loudness~",
+    "description": "The `fluid.loudness~` object calculates two audio descriptors: loudness and peak. It can operate in an ITU BS 1770 compliant mode, using configurable window and hop sizes to analyze incoming audio signals. This object is primarily used for real-time audio analysis and measurement.",
+    "categories": [
+        "Descriptors"
+    ],
+    "similar": [
+        "fluid.bufloudness",
+        "fluid.noveltyfeature~",
+        "vu~",
+        "tonalness"
+    ]
+}

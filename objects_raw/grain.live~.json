@@ -1,0 +1,35 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "grain.live~",
+    "description": "`grain.live~` is a live input granulator that generates dynamic clouds of grains from an incoming audio signal. It offers control over various grain parameters such as size, amplitude, pan, and transposition, and can operate in either asynchronous (randomized) or synchronous (equally spaced) modes. Users can also specify different envelope types for the grains, including sine, Hann, triangle, and Gaussian shapes.",
+    "categories": [
+        "Envelopes",
+        "Granular",
+        "Audio IO"
+    ],
+    "similar": [
+        "grain.synth~",
+        "grain.sampler~",
+        "stretch.shift~",
+        "pvoc.live~"
+    ]
+}

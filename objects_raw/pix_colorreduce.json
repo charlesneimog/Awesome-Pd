@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pix_colorreduce",
+    "description": "The `pix_colorreduce` object reduces the number of colors in a `pixImage` based on its statistical information. It takes a `gemlist` as input and outputs a processed `gemlist`. Users can specify the target number of colors, palette persistency, and edge smoothing.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "pix_duotone",
+        "primTri",
+        "pix_normalize",
+        "gemlist_matrix"
+    ]
+}

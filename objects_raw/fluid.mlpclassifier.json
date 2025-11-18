@@ -1,0 +1,41 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.mlpclassifier",
+    "description": "The `fluid.mlpclassifier` object performs classification using a Multi-Layer Perceptron (MLP) neural network. It trains on a `fluid.dataset` and `fluid.labelset` to learn patterns, then predicts classifications for new data points or entire datasets. This allows for tasks like mapping learned quadrant separations onto new data.",
+    "categories": [
+        "Machine Learning",
+        "Neural Networks",
+        "Deep Learning"
+    ],
+    "similar": [
+        "fluid.mlpregressor",
+        "fluid.bufflatten",
+        "fluid.knnregressor",
+        "fluid.ls2text"
+    ]
+}

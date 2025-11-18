@@ -1,0 +1,34 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "lop2~",
+    "description": "`lop2~` is a 1st order lowpass filter designed for audio signals. Unlike standard lowpass filters, it includes a fixed zero at -1 on the z-plane, ensuring that the Nyquist frequency is always filtered out. It takes an audio signal and a cutoff frequency (float or signal) as inputs, outputting the filtered signal.",
+    "categories": [
+        "Filters",
+        "Subtractive"
+    ],
+    "similar": [
+        "cross~",
+        "lowpass~",
+        "svf~",
+        "lop.bw~"
+    ]
+}

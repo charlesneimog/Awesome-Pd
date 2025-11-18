@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "number~",
+    "description": "The `number~` object in Pure Data serves as a dual-purpose GUI element, either monitoring an incoming audio signal's value or generating a ramped signal. When generating, it can produce a signal that ramps to a target value over a specified time, similar to `line~`. It also allows for setting display intervals and customizing its appearance.",
+    "categories": [
+        "GUI"
+    ],
+    "similar": [
+        "numbox~",
+        "messbox",
+        "knob",
+        "meter2~"
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pluck~",
+    "description": "The `pluck~` object implements the Karplus-Strong algorithm for plucked string synthesis, featuring a 1st order lowpass filter in its feedback loop. It takes frequency (Hz or MIDI), decay time, and filter cutoff frequency as parameters, and can be triggered by signal transitions or control-rate lists. An optional input allows for external excitation signals instead of its internal noise generator.",
+    "categories": [
+        "MIDI",
+        "Delay",
+        "Filters"
+    ],
+    "similar": [
+        "filterdelay~",
+        "comb.filt~",
+        "pluck.m~",
+        "allpass~"
+    ]
+}

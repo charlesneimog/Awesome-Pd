@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pix_lumaoffset",
+    "description": "The `pix_lumaoffset` object offsets pixels in the y-direction based on their luminance, creating a visual effect where brighter areas are shifted more. Users can control the offset amount and the spacing between the resulting lines. It also offers options to fill the gaps between lines and smooth the transitions.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "pix_hit",
+        "pix_compare",
+        "pix_backlight",
+        "pix_offset"
+    ]
+}

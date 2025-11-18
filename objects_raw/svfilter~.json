@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "svfilter~",
+    "description": "The `svfilter~` object implements Chamberlin's state-variable filter, providing simultaneous lowpass, highpass, bandpass, and notch (bandstop) outputs. It takes an audio signal, a cutoff/center frequency, and a Q/resonance value as inputs, allowing for dynamic control over the filter characteristics. A `clear` message can be sent to reset the filter.",
+    "categories": [
+        "Filters"
+    ],
+    "similar": [
+        "svf~",
+        "lores~",
+        "bandstop~",
+        "reson~"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "allpass.2nd~",
+    "description": "`allpass.2nd~` is a second-order allpass filter that shifts the phase of an incoming signal without altering its amplitude. It allows control over the center frequency, where the phase shift is 180 degrees, and the steepness of this shift via a Q or bandwidth parameter. This object is useful for phase manipulation, creating comb filtering effects when mixed with the original signal, or as a building block for more complex audio effects.",
+    "categories": [
+        "Filters"
+    ],
+    "similar": [
+        "phaseshift~",
+        "allpass.filt~",
+        "bandstop~",
+        "bandpass~"
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "title": "Eco",
+    "whatiam": "piece",
+    "description": "Eco explores the relationship between music and technology, reflecting on the potential and limitations of compositional and technical approaches in Brazil. Premiered by Ensemble Móbile—Fabrício Ribeiro (flute), Sérgio Monteiro Freire (saxophone), Eric Moreira (guitar), and Márcio Steuernagel (conductor)—the piece was featured in the 40th Curitiba Workshop (2022–2023).\n\nThe work employs a feedback system mediated by a continuously updated Fourier Transform, converting acoustic input into musical scores. Musicians adjust their tuning in real time to approximate microtonal pitches derived from the analysis, generating complex polyrhythmic textures and consonant chords inspired by Harry Partch’s Just Intonation.\n\nEco integrates a local server, FFT processing on each performer’s device, the Yin pitch-detection algorithm, and automated score generation using Python’s neoscore via py4pd. Despite technical challenges during rehearsals and performance, the piece prompted significant reflection on the practical implementation of advanced algorithmic composition, highlighting the need for extended preparation and robust testing.",
+    "developers": [
+        "Charles K. Neimog"
+    ],
+    "performers": [
+        "Fabrício Ribeiro; Sérgio Monteiro Freire;  Eric Moreira; Shante Cabral"
+    ],
+    "year": "2022",
+    "categories": [
+        "Live-Electronics"
+    ],
+    "category_groups": [],
+    "category_parents": {},
+    "articles": [
+        {
+            "title": "A técnica como linguagem composicional: perspectivas filosóficas e práticas na música computacional brasileira",
+            "authors": [
+                "Charles K. Neimog"
+            ],
+            "link": "https://doi.org/10.11606/T.27.2025.tde-29072025-122136"
+        }
+    ],
+    "videos": [
+        {
+            "title": "“Eco” (2023) de Charles K. Neimog",
+            "authors": [
+                "Núcleo Música Nova"
+            ],
+            "link": "https://www.youtube.com/watch?v=XIEI7-W7t2o"
+        }
+    ],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ]
+}

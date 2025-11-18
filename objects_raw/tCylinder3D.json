@@ -1,0 +1,41 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/ch-nry/pd-pmpd/issues",
+    "developers": [
+        "Cyrille Henry"
+    ],
+    "part_of_library": true,
+    "library_name": "pmpd",
+    "articles": [
+        {
+            "title": "Physical modeling for pure data (PMPD) and real-time interaction with an audio synthesis",
+            "authors": [
+                "Cyrille Henry"
+            ],
+            "link": "https://hal.science/hal-03354371/"
+        }
+    ],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "tCylinder3D",
+    "description": "The `tCylinder3D` object defines a 3D cylindrical volume and tests if a given 3D point (referred to as a \"mass\") is located within its boundaries. It outputs a boolean (0 or 1) indicating containment, along with the distance and speed of the mass relative to the cylinder's center. Parameters allow setting the cylinder's orientation, center, and its inner/outer radii and height limits.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "tLine2D",
+        "tSphere3D",
+        "pol2sph",
+        "cart2pol"
+    ]
+}

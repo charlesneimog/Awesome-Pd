@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://git.iem.at/pd/zexy/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "lister",
+    "description": "The `lister` object (alias `l`) stores and outputs lists, and can also append one list to another. It is similar to the `pack` object and supports mixed-type lists. Note that `lister` is deprecated, with the `list` object being the preferred alternative.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "l",
+        "lace",
+        "pack2",
+        "pack~"
+    ]
+}

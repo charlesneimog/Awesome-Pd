@@ -1,0 +1,39 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.gain~",
+    "description": "The `fluid.gain~` object controls the amplitude of an audio signal. Given its `fluid` prefix, it likely offers advanced or adaptive gain manipulation, potentially leveraging analysis or machine learning techniques to dynamically adjust audio levels. It operates on audio signals, indicated by the `~` suffix.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "sinh~",
+        "lin2db",
+        "pz2coeff",
+        "quantize~"
+    ]
+}

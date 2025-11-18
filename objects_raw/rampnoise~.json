@@ -1,0 +1,35 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "rampnoise~",
+    "description": "The `rampnoise~` object is a low-frequency, band-limited noise generator that produces \"random ramps\" by interpolating between random values. It outputs signals between -1 and 1, with its frequency controlling the rate of these ramps. The object supports seeding for reproducible output and multichannel operation.",
+    "categories": [
+        "Multichannel",
+        "Procedural",
+        "Stochastic"
+    ],
+    "similar": [
+        "stepnoise~",
+        "velvet~",
+        "dust~",
+        "lfnoise~"
+    ]
+}

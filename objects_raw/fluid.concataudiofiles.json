@@ -1,0 +1,40 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.concataudiofiles",
+    "description": "The `fluid.concataudiofiles` object takes a list of paths to audio files, loads them, and concatenates them into a single audio buffer. It outputs a `bang` message upon completion, indicating that the concatenated files are ready for use.",
+    "categories": [
+        "File IO",
+        "General Utilities"
+    ],
+    "similar": [
+        "dir",
+        "capture~",
+        "openfile",
+        "merge"
+    ]
+}

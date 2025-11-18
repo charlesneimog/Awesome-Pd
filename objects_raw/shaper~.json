@@ -1,0 +1,34 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "shaper~",
+    "description": "The `shaper~` object performs waveshaping by mapping input signal values to a transfer function, which can be defined by an external array or an internal Chebyshev polynomial. It allows for dynamic control over the transfer function's normalization, DC offset, and includes an optional internal DC filter. This versatile object can be used for various audio effects, including harmonic generation and dynamic sample manipulation.",
+    "categories": [
+        "Math",
+        "Distortion"
+    ],
+    "similar": [
+        "tanh~",
+        "polyfun",
+        "drive~",
+        "lookup~"
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "title": "sofalizer~",
+    "description": "`SOFAlizer~` is a low-cost, interactive binaural system using real-time HRTF processing with Pure Data, supporting SOFA files and low-latency head tracking.",
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "https://github.com/sofacoustics/SOFAlizer-for-pd",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/sofacoustics/SOFAlizer-for-pd",
+    "developers": [
+        "Pei Xiang",
+        "Jorge Castellanos",
+        "Hans-Christoph Steiner",
+        "Christian Klemenschitz"
+    ],
+    "part_of_library": false,
+    "library_name": "",
+    "categories": [
+        "Binaural"
+    ],
+    "category_groups": [],
+    "category_parents": {},
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "similar": [
+        "earplug~",
+        "0x7c0x7c0x7e",
+        "multiconvolve~",
+        "conv~"
+    ]
+}

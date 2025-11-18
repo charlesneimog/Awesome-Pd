@@ -1,0 +1,39 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.buftransientslice",
+    "description": "The `fluid.buftransientslice` object extracts transient-based slices from audio buffers. It analyzes a source buffer to detect sudden changes in the audio signal, writing the detected slice indices to a specified array. This object is useful for segmenting audio based on its percussive or attack components, with parameters to fine-tune the detection algorithm.",
+    "categories": [
+        "Descriptors"
+    ],
+    "similar": [
+        "fluid.transientslice~",
+        "fluid.bufonsetslice",
+        "fluid.bufhpss",
+        "fluid.bufaudiotransport"
+    ]
+}

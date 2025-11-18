@@ -1,0 +1,39 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.s2f",
+    "description": "The `fluid.s2f` object converts a symbol (text string) that represents a floating-point number into its numerical float equivalent. It is useful for parsing numerical values from text-based inputs or messages where numbers are initially handled as symbols.",
+    "categories": [
+        "Text"
+    ],
+    "similar": [
+        "atof",
+        "spell",
+        "fromsymbol",
+        "makesymbol"
+    ]
+}

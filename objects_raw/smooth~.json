@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "smooth~",
+    "description": "The `smooth~` object interpolates signal transitions over a specified time in milliseconds, effectively creating a portamento or glide effect. It supports linear or exponential curves and can process multichannel audio signals, applying individual glide times per channel when provided.",
+    "categories": [
+        "Multichannel"
+    ],
+    "similar": [
+        "glide~",
+        "glide2~",
+        "lag2~",
+        "smooth2~"
+    ]
+}

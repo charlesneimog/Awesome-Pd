@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "midiformat",
+    "description": "The `midiformat` object receives various MIDI messages (note on/off, polyphonic aftertouch, control change, program change, channel aftertouch, pitch bend) through its inlets and formats them into a raw MIDI message output. It is the counterpart to the `midiparse` object and supports high-resolution 14-bit pitch bend messages via the `hires` message or attribute.",
+    "categories": [
+        "MIDI"
+    ],
+    "similar": [
+        "midiparse",
+        "bend.out",
+        "xbendout",
+        "xbendin"
+    ]
+}

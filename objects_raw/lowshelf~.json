@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "lowshelf~",
+    "description": "`lowshelf~` is a 2nd order lowshelf filter designed to modify the low-frequency content of an audio signal. It provides control over the shelving frequency, slope, and gain in dB, allowing for precise tonal shaping. The object also includes a `clear` message to reset its internal memory and a `bypass` inlet to toggle its effect.",
+    "categories": [
+        "Filters"
+    ],
+    "similar": [
+        "highshelf~",
+        "eq~",
+        "bandpass~",
+        "crossover~"
+    ]
+}

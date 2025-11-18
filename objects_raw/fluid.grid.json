@@ -1,0 +1,39 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/flucoma/flucoma-pd/releases/",
+    "bug_reports": "https://github.com/flucoma/flucoma-pd/issues",
+    "developers": [
+        "Pierre Alexandre Tremblay",
+        "Owen Green",
+        "Alex Harker",
+        "Gerard Roma",
+        "Ted Moore",
+        "Matt",
+        "Edouard Levasseur"
+    ],
+    "part_of_library": true,
+    "library_name": "flucoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fluid.grid",
+    "description": "The `fluid.grid` object maps a set of 2D points from a `fluid.dataset` into a rectangular grid. It allows control over the grid's resolution via oversampling and can constrain dimensions using an 'extent' attribute, making it useful for organizing data for controllers or spatial arrangements.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "fluid.ds2text",
+        "fluid.kdtree",
+        "fluid.bufselectevery",
+        "fluid.bufcompose"
+    ]
+}

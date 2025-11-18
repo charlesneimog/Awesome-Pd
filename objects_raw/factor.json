@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "factor",
+    "description": "The `factor` object takes a float as input and outputs a list of its prime factors. This mathematical utility is useful for breaking down numbers into their constituent prime components within Pure Data patches.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "prime",
+        "scalarmult",
+        "interpolate",
+        "tanh"
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pix_buffer_filmopen",
+    "description": "The `pix_buffer_filmopen` object reads a movie file into a named `pix_buffer` for subsequent image processing within GEM. It is primarily intended for initialization, requiring a GEM window to be active. Upon successful loading, it outputs the movie's dimensions and a bang.",
+    "categories": [
+        "File I/O",
+        "Graphics"
+    ],
+    "similar": [
+        "pix_movie",
+        "pix_write",
+        "pix_writer",
+        "pix_imageInPlace"
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/ericlyon/pd-fftease/issues",
+    "developers": [
+        "Eric Lyon"
+    ],
+    "part_of_library": true,
+    "library_name": "fftease",
+    "articles": [
+        {
+            "title": "Pd and Audio Programming in the 21st Century",
+            "authors": [
+                "Eric Lyon"
+            ],
+            "link": "https://doi.org/10.33871/23179937.2021.9.2.12"
+        }
+    ],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "morphine~",
+    "description": "`morphine~` performs spectral morphing, enabling a smooth transition between two audio signals in the frequency domain. It supports exponential transition scaling and requires FFT size and overlap factor as creation arguments.",
+    "categories": [
+        "Descriptors"
+    ],
+    "similar": [
+        "centroid~",
+        "tID_fft",
+        "fluid.bufaudiotransport",
+        "fluid.audiotransport~"
+    ]
+}

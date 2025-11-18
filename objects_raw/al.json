@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/porres/pd-psycho/releases/",
+    "bug_reports": "https://github.com/porres/pd-psycho/issues",
+    "developers": [
+        "Alexandre Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "pd-psycho",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "al",
+    "description": "The `al` object calculates the Audible Level AL(P) in dB, taking into account a masking stage. It is used for psychoacoustic analysis, likely involving inputs such as frequency and linear amplitude to determine perceived loudness or auditory thresholds.",
+    "categories": [
+        "Descriptors"
+    ],
+    "similar": [
+        "salience",
+        "fluid.bufloudness",
+        "sharpness~",
+        "fluid.bufampfeature"
+    ]
+}

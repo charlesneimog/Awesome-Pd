@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "order",
+    "description": "The `order` object splits an incoming list into smaller, successive lists of a specified size, prepending each sub-list with an ordered index. This functionality is particularly useful for distributing data to multiple instances of an object managed by `[clone]`, ensuring each instance receives its corresponding indexed data. It gracefully handles input lists that are shorter than the specified split size.",
+    "categories": [
+        "Routing"
+    ],
+    "similar": [
+        "unjoin",
+        "spray",
+        "dispatch",
+        "multiplex"
+    ]
+}

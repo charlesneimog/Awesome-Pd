@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pix_rgb2hsv",
+    "description": "The `pix_rgb2hsv` object converts an RGB (Red, Green, Blue) image into the HSV (Hue, Saturation, Value) color space. This transformation can simplify color detection tasks. Internally, the image data remains RGBA, with the Red channel being populated by Hue values after conversion.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "pix_hsv2rgb",
+        "rgb2hsv",
+        "pix_sig2pix~",
+        "hsv2rgb"
+    ]
+}

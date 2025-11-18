@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/wbrent/timbreIDLib/issues",
+    "developers": [
+        "William Brent"
+    ],
+    "part_of_library": true,
+    "library_name": "timbreIDLib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "categories": [
+        "Descriptors"
+    ],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "peakSample",
+    "description": "The `peakSample` object analyzes a specified audio array or a segment of it to find the maximum sample value and its corresponding index. It can be triggered to analyze the entire array or a defined window, outputting both the peak value and its relative position within the analyzed segment. This is useful for identifying the loudest point in an audio buffer for offline analysis.",
+    "similar": [
+        "maxSample",
+        "minSample",
+        "harmonicRatio",
+        "maxSampleDelta"
+    ]
+}

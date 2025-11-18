@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "glide",
+    "description": "The `glide` object creates a smooth glide or portamento effect for incoming float values. It takes a float input and a specified glide time in milliseconds to gradually transition between values. Users can also adjust an exponential factor and a refresh rate to control the curve and smoothness of the glide.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "slew",
+        "glide~",
+        "glide2",
+        "smooth~"
+    ]
+}

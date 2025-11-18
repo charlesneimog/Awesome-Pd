@@ -1,0 +1,34 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "fold",
+    "description": "The `fold` object mirrors an input value back into a specified low and high range. It acts like a mirroring function, ensuring that any value outside the defined boundaries is \"folded\" back into the range. This is useful for constraining values within a specific interval while preserving their relative position through reflection.",
+    "categories": [
+        "Math",
+        "General Utilities"
+    ],
+    "similar": [
+        "pong~",
+        "clip",
+        "scale~",
+        "scale"
+    ]
+}

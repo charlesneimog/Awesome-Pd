@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/wbrent/timbreIDLib/issues",
+    "developers": [
+        "William Brent"
+    ],
+    "part_of_library": true,
+    "library_name": "timbreIDLib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "categories": [
+        "Descriptors"
+    ],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "specHarmonicity",
+    "description": "The `specHarmonicity` object calculates the spectral harmonicity and inharmonicity of an audio sample. It analyzes the spectral content, optionally using a provided fundamental frequency, to quantify how closely the partials align with a harmonic series. This object is primarily used for extracting timbral descriptors from audio.",
+    "similar": [
+        "specHarmonicity~",
+        "specBrightness",
+        "fluid.bufaudiotransport",
+        "harmonicRatio"
+    ]
+}

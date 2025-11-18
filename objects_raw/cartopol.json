@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-cyclone/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "cyclone",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "cartopol",
+    "description": "The `cartopol~` object converts Cartesian coordinates (real and imaginary parts) from signal inputs into polar coordinates (amplitude and phase) as signal outputs. This fundamental mathematical transformation is crucial for various audio signal processing tasks, particularly in frequency domain analysis and synthesis.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "poltocar~",
+        "car2pol",
+        "pol2car",
+        "cartopol~"
+    ]
+}

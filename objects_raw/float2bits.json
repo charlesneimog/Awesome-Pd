@@ -1,0 +1,34 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "float2bits",
+    "description": "The `float2bits` object converts a decimal floating-point number (IEEE754 single precision) into its binary representation. It can output the full list of bits or, when receiving a `split` message, send the sign, exponent, and mantissa as separate values. This object is useful for low-level manipulation or analysis of floating-point data.",
+    "categories": [
+        "Math",
+        "General Utilities"
+    ],
+    "similar": [
+        "minmax",
+        "sum",
+        "trunc",
+        "dec2frac"
+    ]
+}

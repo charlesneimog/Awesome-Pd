@@ -1,0 +1,89 @@
+.invite {
+    position: relative;
+    font-weight: 600;
+    color: #000; /* preto */
+    cursor: default;
+    display: inline-block; /* mantém o underline certinho */
+    text-align: center; /* alinhamento do texto */
+    margin: 0 auto; /* centraliza o bloco */
+}
+
+.grid.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; /* optional spacing */
+}
+
+/* Only when adaptable class is present, make it 1 column on small screens */
+.grid.cards.adaptable {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 600px) {
+    .grid.cards.adaptable {
+        grid-template-columns: 1fr; /* 1 column on smartphones */
+    }
+}
+
+.videos-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* so it adapts on small screens */
+}
+
+.videos-container iframe {
+    border-radius: 8px;
+    box-shadow:
+        0 8px 16px rgba(0, 0, 0, 0.25),
+        0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Optional: make videos responsive on small screens */
+@media (max-width: 600px) {
+    .videos-container iframe {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.md-search__inner,
+.md-search__input,
+.md-search__form,
+.md-search__suggest {
+    border-radius: 5px;
+}
+
+/*
+ *╭─────────────────────────────────────╮
+ *│           Object Avatars            │
+ *╰─────────────────────────────────────╯
+*/
+/* TODO: Rename this */
+#avatars {
+    display: flex;
+    gap: 10px;
+}
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/*
+ *╭─────────────────────────────────────╮
+ *│          Libraries Avatar           │
+ *╰─────────────────────────────────────╯
+*/
+#libcontributors {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#libcontributors img.libavatar {
+    width: 60px; /* adjust size */
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}

@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Project Info</title>
+        <link rel="stylesheet" href="../stylesheets/submit.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Material+Symbols+Rounded:FILL@0..1&display=swap"
+            rel="stylesheet"
+        />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header class="app-bar">
+            <div class="app-bar__inner container">
+                <div class="brand">
+                    <span class="material-symbols-rounded" aria-hidden="true">extension</span>
+                    <span>Piece Information</span>
+                </div>
+            </div>
+        </header>
+
+        <input type="hidden" id="contributors" />
+        <main class="container">
+            <section class="card">
+                <form id="infoForm" novalidate>
+                    <div class="grid cols-1 stack-on-small">
+                        <div class="card inset">
+                            <h2 for="title">Name</h2>
+                            <input type="text" id="title" name="title" required placeholder="Cânticos de Silício" />
+                            <div class="field-hint">Title of Piece/Work/Installation.</div>
+                        </div>
+                    </div>
+
+                    <div class="grid cols-3 stack-on-small">
+                        <div class="card inset">
+                            <div class="field">
+                                <label for="year">Year</label>
+                                <input type="text" id="year" name="year" placeholder="2019" />
+                            </div>
+                        </div>
+
+                        <div class="card inset">
+                            <div class="field">
+                                <label for="composer(s)">Composer(s)</label>
+                                <input
+                                    type="text"
+                                    id="developers"
+                                    name="developers"
+                                    placeholder="Comma separated: John Doe"
+                                />
+                            </div>
+                        </div>
+                        <div class="card inset">
+                            <div class="field">
+                                <label for="performer">Performer(s)</label>
+                                <input
+                                    type="text"
+                                    id="performers"
+                                    name="performers"
+                                    placeholder="Comma separated: Jane Doe, John Doe"
+                                />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <h2 for="description">Description</h2>
+                        <div class="md-help">
+                            <h4>Use Markdown</h4>
+                            <ul>
+                                <li>
+                                    Use words between <code>`</code> to write objects (<code>`dac~`</code>) will be
+                                    rendered as:
+                                    <code>dac~</code>
+                                </li>
+                                <li>
+                                    Use words between <code>*</code> to render as bold. <code>(*important*)</code> will
+                                    be rendered as:
+                                    <b>important</b>
+                                </li>
+                            </ul>
+                            <p>Please, don't use <code>#</code> (Title 1). Use <code>##</code> or higher.</p>
+                        </div>
+                        <textarea
+                            id="description"
+                            name="description"
+                            rows="5"
+                            minlength="100"
+                            required
+                            placeholder="Describe the purpose, key features, and context of this project..."
+                        ></textarea>
+                        <div id="char-count" class="field-hint" aria-live="polite">0 / 100 characters</div>
+                    </div>
+
+                    <hr />
+                    <h2 for="description">External Category</h2>
+                    <div id="categories"></div>
+                    <div class="divider"></div>
+
+                    <hr />
+                    <h2>Media</h2>
+                    <section class="card inset">
+                        <h2 class="section-title">
+                            <span class="material-symbols-rounded" aria-hidden="true">article</span>
+                            Add Article(s) that cite the library
+                        </h2>
+                        <div class="grid cols-3 stack-on-small">
+                            <div class="field">
+                                <label for="articleTitle">Article title</label>
+                                <input type="text" id="articleTitle" placeholder="A Great Paper" />
+                            </div>
+                            <div class="field">
+                                <label for="articleAuthors">Author(s)</label>
+                                <input type="text" id="articleAuthors" placeholder="Comma separated" />
+                            </div>
+                            <div class="field">
+                                <label for="articleLink">Link</label>
+                                <input type="url" id="articleLink" placeholder="https://doi.org/..." />
+                            </div>
+                        </div>
+                        <div class="row gap">
+                            <button type="button" id="addArticle" class="btn">
+                                <span class="material-symbols-rounded" aria-hidden="true">add</span>Add Article
+                            </button>
+                        </div>
+                        <ul id="articleList" class="list"></ul>
+                    </section>
+
+                    <section class="card inset">
+                        <h2 class="section-title">
+                            <span class="material-symbols-rounded" aria-hidden="true">movie</span>
+                            Add Video(s) that explain or present the library
+                        </h2>
+                        <div class="grid cols-3 stack-on-small">
+                            <div class="field">
+                                <label for="videoTitle">Video title</label>
+                                <input type="text" id="videoTitle" placeholder="Intro to ..." />
+                            </div>
+                            <div class="field">
+                                <label for="videoAuthors">Author(s)</label>
+                                <input type="text" id="videoAuthors" placeholder="Comma separated" />
+                            </div>
+                            <div class="field">
+                                <label for="videoLink">Link</label>
+                                <input type="url" id="videoLink" placeholder="https://youtube.com/..." />
+                            </div>
+                        </div>
+                        <div class="row gap">
+                            <button type="button" id="addVideo" class="btn">
+                                <span class="material-symbols-rounded" aria-hidden="true">add</span>Add Video
+                            </button>
+                        </div>
+                        <ul id="videoList" class="list"></ul>
+                    </section>
+
+                    <section class="card inset">
+                        <h2 class="section-title">
+                            <span class="material-symbols-rounded" aria-hidden="true">music_note</span>
+                            Add Musical Work(s) that use the library
+                        </h2>
+                        <div class="grid cols-3 stack-on-small">
+                            <div class="field">
+                                <label for="musicTitle">Work title</label>
+                                <input type="text" id="musicTitle" placeholder="Composition name" />
+                            </div>
+                            <div class="field">
+                                <label for="musicComposer">Composer(s)</label>
+                                <input type="text" id="musicComposer" placeholder="Comma separated" />
+                            </div>
+                            <div class="field">
+                                <label for="musicLink">Link</label>
+                                <input type="url" id="musicLink" placeholder="https://youtube.com/..." />
+                            </div>
+                        </div>
+                        <div class="row gap">
+                            <button type="button" id="addMusic" class="btn">
+                                <span class="material-symbols-rounded" aria-hidden="true">add</span>Add Work
+                            </button>
+                        </div>
+                        <ul id="musicList" class="list"></ul>
+                    </section>
+
+                    <div class="row end gap">
+                        <button type="button" id="saveSend" class="btn primary">
+                            <span class="material-symbols-rounded" aria-hidden="true">send</span>
+                            Save & Send to GitHub
+                        </button>
+                    </div>
+                </form>
+            </section>
+
+            <noscript>
+                <div class="card warning">This page requires JavaScript to function properly.</div>
+            </noscript>
+        </main>
+
+        <footer class="container footer muted">
+            <small>by Charles K. Neimog.</small>
+        </footer>
+
+        <script src="app.js" defer></script>
+    </body>
+    <script>
+        function resizeParent() {
+            const height = document.body.scrollHeight;
+            window.parent.postMessage({ type: "resize-iframe", height }, "*");
+        }
+
+        // Chama quando o iframe estiver completamente carregado
+        window.addEventListener("load", resizeParent);
+
+        // Se houver conteúdo dinâmico que muda a altura, observe mudanças:
+        const observer = new MutationObserver(resizeParent);
+        observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+    </script>
+</html>

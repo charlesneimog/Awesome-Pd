@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "GLdefine",
+    "description": "The `GLdefine` object retrieves the numerical value of an OpenGL configuration constant, specified by its name (e.g., `GL_LINES`, `GL_POLYGON`). It is used within the GEM environment to set up OpenGL rendering parameters, typically by sending its output to a `GEMglBegin` object.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "GEMgl",
+        "gemglutwindow",
+        "gemcubeframebuffer",
+        "cylinder"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pix_clearblock",
+    "description": "The `pix_clearblock` object, part of the GEM (Graphics Environment for Multimedia) library, clears the visual content of an image while preserving its underlying texture information and setup. This allows for clearing an image without destroying its associated texture properties.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "pix_texture",
+        "pix_coordinate",
+        "pix_multitexture",
+        "pix_mask"
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "chance~",
+    "description": "The `chance~` object acts as a probabilistic router for impulses, directing an incoming bang to one of its outlets based on user-defined probability weights. These probabilities can be set as percentages or a histogram, and the object utilizes a pseudo-random number generator, allowing for reproducible sequences via a seed value.",
+    "categories": [
+        "Routing",
+        "Stochastic"
+    ],
+    "similar": [
+        "chance",
+        "decide",
+        "dust~",
+        "rand.dist"
+    ]
+}

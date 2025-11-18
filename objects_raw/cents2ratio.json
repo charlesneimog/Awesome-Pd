@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "cents2ratio",
+    "description": "The `cents2ratio` object converts musical intervals expressed in cents into their corresponding frequency ratios, output as floating-point decimals. It applies the formula `ratio = 2^(cents/1200)`. This utility is useful for precise pitch manipulation and microtonal applications, accepting single float values or lists of cents for conversion.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "ratio2cents",
+        "cents2frac",
+        "autotune2",
+        "ratio2cents~"
+    ]
+}

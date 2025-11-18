@@ -1,0 +1,34 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "deg2rad",
+    "description": "The `deg2rad` object converts degree values (0 to 360) to their equivalent radian values. It takes a float as input, representing the degree value, and outputs a float representing the converted radian value. An optional `-pos` flag can be used to ensure the output is always positive.",
+    "categories": [
+        "Math",
+        "General Utilities"
+    ],
+    "similar": [
+        "sampstoms~",
+        "sum",
+        "mstosamps~",
+        "frac2cents"
+    ]
+}

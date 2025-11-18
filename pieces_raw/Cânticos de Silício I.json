@@ -1,0 +1,39 @@
+{
+    "title": "Cânticos de Silício I",
+    "whatiam": "piece",
+    "description": "**Cânticos de Silício I** emerges as a brief yet focused experiment for soprano saxophone, recorded by Sérgio Monteiro Freire. Beyond its technical aim of testing the OScofo system—challenging the algorithm with trills and intervals that dissolve spectral ambiguities—it unfolds as a dialogue between sound and technology. The piece reveals the fluid interplay of composition and innovation, where real-time accompaniment becomes not just a tool, but an active partner in the creative act.",
+    "developers": [
+        "Charles K. Neimog"
+    ],
+    "performers": [
+        "Sérgio Monteiro Freire"
+    ],
+    "year": "2025",
+    "categories": [
+        "Live-Electronics"
+    ],
+    "category_groups": [],
+    "category_parents": {},
+    "articles": [
+        {
+            "title": "A Técnica como Linguagem Composicional: Perspectivas filosóficas e práticas na música computacional brasileira",
+            "authors": [
+                "Charles K. Neimog"
+            ],
+            "link": "https://doi.org/10.11606/T.27.2025.tde-29072025-122136"
+        }
+    ],
+    "videos": [
+        {
+            "title": "Cânticos de Silício I (2025)",
+            "authors": [
+                "Charles K. Neimog"
+            ],
+            "link": "https://www.youtube.com/watch?v=ym5nmBIzyh0"
+        }
+    ],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ]
+}

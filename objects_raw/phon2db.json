@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "available_on_deken": false,
+    "download_link": "https://github.com/porres/pd-psycho/releases/",
+    "bug_reports": "https://github.com/porres/pd-psycho/issues",
+    "developers": [
+        "Alexandre Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "pd-psycho",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "phon2db",
+    "description": "The `phon2db` object converts a loudness value expressed in phons to decibels (dB). It takes a frequency in Hertz (Hz) as an argument, which is crucial for accurate conversion due to the non-linear nature of human hearing perception. This object is useful for working with equal loudness curves and psychoacoustic models.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "phon2sone",
+        "db2phon",
+        "sone2phon",
+        "hz2bark"
+    ]
+}

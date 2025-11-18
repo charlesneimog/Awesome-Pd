@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://git.iem.at/pd/zexy/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "swap~",
+    "description": "The `swap~` object processes incoming audio signals by first converting them to a 16-bit format. It then performs a byte-swap operation on this 16-bit signal. This object is useful for low-level manipulation of audio data.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "change~",
+        "bitsafe~",
+        "any2symbol",
+        "list2int"
+    ]
+}

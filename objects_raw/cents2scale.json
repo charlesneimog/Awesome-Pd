@@ -1,0 +1,34 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "cents2scale",
+    "description": "`cents2scale` converts a list of intervals expressed in cents into a musical scale represented by semitone steps. This object is useful for translating microtonal or custom tunings into a standard semitone-based scale, facilitating integration with other musical processes. It takes cents values as input and outputs the corresponding semitone values.",
+    "categories": [
+        "Math",
+        "General Utilities"
+    ],
+    "similar": [
+        "frac2cents",
+        "autotune2",
+        "cents2ratio",
+        "scale2cents"
+    ]
+}

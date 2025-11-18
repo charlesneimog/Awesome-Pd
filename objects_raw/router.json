@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "router",
+    "description": "The `router` object directs incoming messages from its left inlet to one of its multiple outlets. The specific outlet is determined by a float received in the right inlet. If the specified outlet number is out of range, the message is not output.",
+    "categories": [
+        "Routing"
+    ],
+    "similar": [
+        "demultiplex",
+        "demux",
+        "gate~",
+        "gate"
+    ]
+}

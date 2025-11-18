@@ -1,0 +1,51 @@
+{
+    "title": "py4pd",
+    "whatiam": "object",
+    "description": "py4pd allows write PureData Objects using Python instead of C/C++. The main goal is to allow easy IA, Scores, Graphics, and bring to Pd possibilities with array, list and others types. With Python, you can:\n* Parse svg/draws as scores;\n* OpenMusic functions in libraries like `om_py`, `music21`, `neoscore`, and others;\n* Sound analisys with `magenta`, `librosa`, and `pyAudioAnalaysis`;\n\n### Wiki | How to install and Use\n\n* Go to [Docs](https://charlesneimog.github.io/py4pd) (outdated for now), check `Sources/py4pd` folder for examples.\n\n### New Pd Object using Python\n\n``` py\nimport puredata as pd\nimport os\n\nclass pymetro(pd.NewObject):\n    name: str = \"pymetro\"\n\n    def __init__(self, args):\n        self.inlets = 2\n        self.outlets = 1\n        self.toggle = False\n        if len(args) > 0:\n            self.time = float(args[0])\n        else:\n            self.time = 1000\n        self.metro = self.new_clock(self.tick)\n        self.args = args\n        pd.post(\"here\", os.environ[\"PY4PD_PATH\"])\n\n    def in_2_float(self, f: float):\n        self.time = f\n\n    def in_1_float(self, f: float):\n        if f:\n            self.toggle = True\n            self.tick()\n        else:\n            self.metro.unset()\n            self.toggle = False\n\n    def in_1_reload(self, args: list):\n        self.reload()\n\n    def tick(self):\n        if self.toggle:\n            self.metro.delay(self.time)\n        self.out(0, pd.SYMBOL, \"test238\")\n```",
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/charlesneimog/py4pd",
+    "developers": [
+        "Charles K. Neimog"
+    ],
+    "part_of_library": false,
+    "library_name": "",
+    "categories": [
+        "Python"
+    ],
+    "category_groups": [],
+    "category_parents": {},
+    "articles": [],
+    "videos": [
+        {
+            "title": "Timbre Recognition in ONNX: Demo with Pd (Pure Data) & py4pd",
+            "authors": [
+                "Charles K. Neimog"
+            ],
+            "link": "https://www.youtube.com/watch?v=qIV0LigMuzo"
+        }
+    ],
+    "musics": [
+        {
+            "title": "Eco",
+            "composers": [
+                "Charles K. Neimog"
+            ],
+            "link": "https://www.youtube.com/watch?v=XIEI7-W7t2o"
+        }
+    ],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "similar": [
+        "emission",
+        "pm2~",
+        "pm6.m~",
+        "break"
+    ]
+}

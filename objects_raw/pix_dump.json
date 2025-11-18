@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/umlaeute/Gem/issues",
+    "developers": [
+        "Johannes M. Zmölnig"
+    ],
+    "part_of_library": true,
+    "library_name": "zexy",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "pix_dump",
+    "description": "The `pix_dump` object processes an incoming GEM image and outputs its raw pixel data as a single, long list of color component values. For an RGBA image, this list will contain R, G, B, and A values for each pixel in sequence. It can be triggered by a `bang` message and offers a `bytemode` inlet to control normalization.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "pix_set",
+        "pix_color",
+        "pix_data",
+        "pix_compare"
+    ]
+}

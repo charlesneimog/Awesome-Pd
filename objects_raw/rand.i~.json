@@ -1,0 +1,35 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "https://github.com/porres/pd-else/issues",
+    "developers": [
+        "Alexandre Torres Porres"
+    ],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ],
+    "ai": true,
+    "title": "rand.i~",
+    "description": "The `rand.i~` object generates pseudo-random integer values within a specified range, outputting them as an audio signal. It is triggered by signal transitions or a `bang` message, and its output sequence can be made reproducible by setting a seed. It also supports multichannel operation.",
+    "categories": [
+        "Math",
+        "Multichannel",
+        "General Utilities"
+    ],
+    "similar": [
+        "rand.f",
+        "rand.i",
+        "rescale~",
+        "wrap2~"
+    ]
+}
