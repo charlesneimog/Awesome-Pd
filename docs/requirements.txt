@@ -1,8 +1,5 @@
-mkdocs-material
-mkdocs
-mkdocs-exclude
+zensical
+tomli-w
 requests 
-PyYAML 
-mkdocs-material-extensions
 numpy
 scikit-learn

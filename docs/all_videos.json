@@ -1,10 +1,10 @@
 [
     {
-        "title": "C\u00e2nticos de Sil\u00edcio I (2025)",
+        "title": "4 pianeti - pure data generative music",
         "authors": [
-            "Charles K. Neimog"
+            "Manuel Tricarico"
         ],
-        "link": "https://www.youtube.com/watch?v=ym5nmBIzyh0"
+        "link": "https://www.youtube.com/watch?v=GO_iP8HzHOk"
     },
     {
         "title": "\u201cEco\u201d (2023) de Charles K. Neimog",
@@ -14,11 +14,25 @@
         "link": "https://www.youtube.com/watch?v=XIEI7-W7t2o"
     },
     {
-        "title": "4 pianeti - pure data generative music",
+        "title": "C\u00e2nticos de Sil\u00edcio I (2025)",
         "authors": [
-            "Manuel Tricarico"
+            "Charles K. Neimog"
         ],
-        "link": "https://www.youtube.com/watch?v=GO_iP8HzHOk"
+        "link": "https://www.youtube.com/watch?v=ym5nmBIzyh0"
+    },
+    {
+        "title": "VST Plugins Inside of Pure Data!",
+        "authors": [
+            "Sound Simulator"
+        ],
+        "link": "https://www.youtube.com/watch?v=Cs0NPime0kU"
+    },
+    {
+        "title": "Timbre Recognition in ONNX: Demo with Pd (Pure Data) & py4pd",
+        "authors": [
+            "Charles K. Neimog"
+        ],
+        "link": "https://www.youtube.com/watch?v=qIV0LigMuzo"
     },
     {
         "title": "IRCAM Tutorials / RAVE - Neural Synthesis in Max",
@@ -33,19 +47,5 @@
             "MARTSM_N /// martsman"
         ],
         "link": "https://www.youtube.com/watch?v=zBkDPgTyVCY"
-    },
-    {
-        "title": "Timbre Recognition in ONNX: Demo with Pd (Pure Data) & py4pd",
-        "authors": [
-            "Charles K. Neimog"
-        ],
-        "link": "https://www.youtube.com/watch?v=qIV0LigMuzo"
-    },
-    {
-        "title": "VST Plugins Inside of Pure Data!",
-        "authors": [
-            "Sound Simulator"
-        ],
-        "link": "https://www.youtube.com/watch?v=Cs0NPime0kU"
     }
 ]

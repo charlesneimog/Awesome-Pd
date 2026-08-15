@@ -3,6 +3,7 @@ import json
 import os
 import re
 import sys
+import tomllib
 from dataclasses import dataclass
 from html import escape
 from pathlib import Path
@@ -10,7 +11,7 @@ from typing import Union, Dict, List, Optional, TypeAlias
 from urllib.parse import parse_qs, urlparse
 
 import requests
-import yaml
+import tomli_w
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -186,10 +187,10 @@ class AwesomePd:
     Orchestrates:
     - Reading open issues to ingest JSON payloads describing objects/externals.
     - Generating Markdown pages for each object in docs/objects/*.md.
-    - Optionally updating categories.json and mkdocs.yml navigation.
+    - Optionally updating categories.json and zensical.toml navigation.
     """
 
-    UPDATE_CATEGORIES_AND_MKDOCS = False
+    UPDATE_CATEGORIES_AND_CONFIG = False
 
     WEB_TOOLS = {
         "pd4web": "web/pd4web.md",
@@ -220,14 +221,14 @@ class AwesomePd:
             self.objects: Dict[str, Union[dict, list]] = json.load(f)
         with open("docs/categories_model_pieces.json", "r", encoding="utf-8") as f:
             self.pieces: Dict[str, Union[dict, list]] = json.load(f)
-        with open("mkdocs.yml", "r", encoding="utf-8") as f:
-            self.config = yaml.load(f, Loader=yaml.UnsafeLoader)
+        with open("zensical.toml", "rb") as f:
+            self.config = tomllib.load(f)
 
         self.videos: List[dict] = []
         self.music: List[dict] = []
         self.articles: List[dict] = []
 
-        self.UPDATE_CATEGORIES_AND_MKDOCS = update_docs
+        self.UPDATE_CATEGORIES_AND_CONFIG = update_docs
         if update_docs:
             self.home_update()
         else:
@@ -832,7 +833,7 @@ class AwesomePd:
 
     def dict_to_nav(self, d: dict) -> list:
         """
-        Convert a nested dict to a mkdocs 'nav' list structure.
+        Convert a nested dict to a Zensical `nav` list structure.
         """
         nav_list = []
         for key, value in sorted(d.items()):
@@ -932,7 +933,7 @@ class AwesomePd:
         End-to-end update flow:
         - Refresh issues and save new object JSONs.
         - Generate all markdowns for objects.
-        - Build library pages and mkdocs navigation.
+        - Build library pages and Zensical navigation.
         """
         print("Updating all")
 
@@ -1055,18 +1056,10 @@ class AwesomePd:
                 "".join(parts), encoding="utf-8"
             )
 
-        # Update mkdocs config
-        self.config["nav"] = nav
-        Path("mkdocs.yml").write_text(
-            yaml.dump(
-                self.config,
-                default_flow_style=False,
-                sort_keys=False,
-                indent=4,
-                allow_unicode=True,
-            ),
-            encoding="utf-8",
-        )
+        # Update Zensical config
+        self.config["project"]["nav"] = nav
+        with Path("zensical.toml").open("wb") as f:
+            tomli_w.dump(self.config, f, multiline_strings=True)
 
     # --------------------------
     # Full Similarity Update

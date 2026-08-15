@@ -19,6 +19,20 @@ This project collects and categorizes Pure Data (Pd) externals, abstractions, bu
 
 Refer to the site for the full, categorized list. :contentReference[oaicite:2]{index=2}
 
+## Preview the site locally
+
+The documentation site is built with [Zensical](https://zensical.org/). Create a
+virtual environment, install the site dependencies, and start the preview server:
+
+```sh
+python -m venv .venv
+source .venv/bin/activate
+pip install -r docs/requirements.txt
+zensical serve
+```
+
+To create a production build in `site/`, run `zensical build --clean`.
+
 ## Contributing
 
 Contributions, suggestions and improvements are welcome.
