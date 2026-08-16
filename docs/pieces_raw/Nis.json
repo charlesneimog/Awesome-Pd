@@ -1,0 +1,32 @@
+{
+    "title": "Nis",
+    "whatiam": "piece",
+    "description": "NIS emerges from a world permeated by mobile devices, where the smartphone is no longer external to the body, but attached to it as an extension of attention. Developed within the context of ongoing postdoctoral research supervised by Prof. Dr. Cássia Carrascoza, the work investigates forms of interaction and sonic mediation in digital and performative environments, articulating listening, gesture, and presence. In the piece, the performers’ movements are mediated by an algorithmic sound spatialization system operated in real time through motion sensors and compasses integrated into mobile devices. The work explores how these systems of technological mediation can influence movement, performative decisions — such as following, negotiating, or resisting algorithmic directions — and modes of shared listening. By bringing together technology, participation, and bodily perception, the project engages with questions of democratizing access, learning, and student engagement in technologically mediated contemporary music-making practices. What emerges is an experience in which listening, movement, and technological mediation occur on the same plane.",
+    "developers": [
+        "Charles K. Neimog; Cássia Carrascoza"
+    ],
+    "performers": [
+        "Alex Paladino; Cássia Carrascoza; Débora Theodoro; Giovana Dilio; Iara Bonfim Carvalho; Igor Souza Lima; Jhonathan Morais; Patrícia Alonso; Larissa Moraes; Lucas Herrera"
+    ],
+    "year": "2026",
+    "categories": [
+        "Live-Electronics",
+        "Algorithmic"
+    ],
+    "category_groups": [],
+    "category_parents": {},
+    "articles": [],
+    "videos": [
+        {
+            "title": "Nis (2026) - Flute Orchestra (CMU-ECA/USP)",
+            "authors": [
+                "Charles K. Neimog"
+            ],
+            "link": "https://www.youtube.com/watch?v=NO0qqwnb-lk"
+        }
+    ],
+    "musics": [],
+    "contributors": [
+        "charlesneimog"
+    ]
+}
