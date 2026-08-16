@@ -26,8 +26,8 @@
     ],
     "similar": [
         "tempo",
+        "temposet",
         "pulsediv~",
-        "blocksize~",
-        "pipe2"
+        "blocksize~"
     ]
 }

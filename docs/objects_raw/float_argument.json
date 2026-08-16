@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "purepd",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "float_argument",
+    "description": "`float_argument` stores a numeric creation argument and outputs it when banged. A blank or zero first argument produces no output; the help patch mentions a second argument but does not provide enough text to establish its exact role.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "list-onearg",
+        "cupq",
+        "zhzxh~",
+        "serial_mt"
+    ],
+    "source_archive": "purepd-v0.0.extended--externals.zip",
+    "source_member": "purepd/float_argument-help.pd"
+}

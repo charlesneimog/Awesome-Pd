@@ -25,9 +25,9 @@
         "MIDI"
     ],
     "similar": [
+        "bend.out",
         "xnoteout",
-        "borax",
-        "note.in",
-        "noteinfo"
+        "noteinfo",
+        "midi-stream2notes"
     ]
 }

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "Jamoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "j.parameter_array",
+    "description": "`j.parameter_array` defines a numbered collection of Jamoma parameters from an indexed address such as `track.[4]/gain`, with attributes such as `@type` and `@description`. It defaults to `@format single`, while `@format array` is also supported; the collection can be resized with an `array/resize` message.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "j.parameter",
+        "array.copy",
+        "fd_arraycopy",
+        "array-copy"
+    ],
+    "source_archive": "Jamoma-v1.0-beta3-(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "Jamoma/helps/j.parameter_array-help.pd"
+}

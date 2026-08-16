@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iem_ambi",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ambi_encode",
+    "description": "`ambi_encode` calculates higher-order ambisonic encoding coefficients or a row or column of an encoder matrix from source-direction angles. Its creation argument sets the ambisonic order (up to 12th order for 2D or 5th for 3D); send an azimuth float for 2D, or an elevation–azimuth list for 3D.",
+    "categories": [
+        "Ambisonics"
+    ],
+    "similar": [
+        "ambi_rot",
+        "ambi_decode3",
+        "saf.encoder~",
+        "hoa.3d.encoder~"
+    ],
+    "source_archive": "iem_ambi[v1.21.1](Irix-mipsn32-32)(Irix-mipsn32-64).dek",
+    "source_member": "iem_ambi/ambi_encode-help.pd"
+}

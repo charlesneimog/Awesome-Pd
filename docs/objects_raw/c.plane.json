@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "Cream",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "c.plane",
+    "description": "`c.plane` lets you move a point on a Cartesian plane and provides its x and y coordinates. Its boundaries can be changed by sending a `bound` list containing x minimum, y minimum, x maximum, and y maximum.",
+    "categories": [
+        "GUI"
+    ],
+    "similar": [
+        "c.slider",
+        "c.number",
+        "c.colorpanel",
+        "system.screen_size"
+    ],
+    "source_archive": "Cream-v0.4-beta-(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "Cream/helps/c.plane-help.pd"
+}

@@ -25,9 +25,9 @@
         "Filters"
     ],
     "similar": [
-        "highshelf~",
-        "lowpass~",
-        "biquads~",
-        "bandstop~"
+        "bicoeff2",
+        "bq_coef_bp",
+        "bq_coef_peak",
+        "bq_coef_lowshelf"
     ]
 }

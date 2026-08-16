@@ -1,0 +1,31 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "bandlimited",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "bl.rsaw~",
+    "description": "`bl.rsaw~` generates a bandlimited reverse sawtooth waveform. Its creation arguments can set frequency, the maximum number of generated harmonics, a harmonic cutoff frequency (with 0 using the Nyquist limit), and an approximate-waveform mode that uses less CPU.",
+    "categories": [
+        "Oscillators"
+    ],
+    "similar": [
+        "bl.sawtri~",
+        "bl.sq~",
+        "bl.pulse~",
+        "saw~"
+    ],
+    "source_archive": "bandlimited-v1.0.0-(Darwin-i386-32)(Sources)(Darwin-x86_64-32)(Linux-amd64-64)(Windows-i386-32)-externals.zip",
+    "source_member": "bandlimited/bl.rsaw~-help.pd"
+}

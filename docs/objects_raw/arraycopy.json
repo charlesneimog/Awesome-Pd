@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "maxlib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "arraycopy",
+    "description": "`arraycopy` copies data from a source array to a destination array, either copying the whole array or a selected range. The destination can be set by the creation argument, by a symbol in the second inlet, or within a `copy` message, which may also specify a destination start position.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "array-copy",
+        "array.copy",
+        "fd_arraycopy",
+        "array-copy-range"
+    ],
+    "source_archive": "maxlib[v1.5.8](Linux-arm-32)(Sources).dek",
+    "source_member": "maxlib/arraycopy-help.pd"
+}

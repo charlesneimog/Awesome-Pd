@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "mapping",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "spiral",
+    "description": "`spiral` converts Cartesian x/y coordinates to polar radius and angle values while allowing the angle to continue increasing or decreasing across rotations. Its third inlet accepts `1` or `-1` to manually add or subtract rotations, and a bang resets it to the start position.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "hid_spiral",
+        "polar",
+        "vector",
+        "hid_polar"
+    ],
+    "source_archive": "mapping-v0.0.extended--externals.zip",
+    "source_member": "mapping/spiral-help.pd"
+}

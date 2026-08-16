@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "lfo.square~",
+    "description": "`lfo.square~` generates a zero-mean, unit-amplitude low-frequency square-wave signal for modulation. Its frequency is set in hertz via the first argument or a float at the first inlet, and a bang resets its phase.",
+    "categories": [
+        "LFOs"
+    ],
+    "similar": [
+        "lfo.+square~",
+        "lfo.tri~",
+        "lfo.impulse~",
+        "lfo.saw~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/lfo.square~-help.pd"
+}

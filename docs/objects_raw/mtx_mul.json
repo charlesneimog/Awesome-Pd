@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iemmatrix",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "mtx_mul",
+    "description": "`mtx_mul` performs matrix multiplication and outputs the resulting matrix. It can also multiply a matrix by a scalar when given a numeric argument, as shown by `mtx_mul 2`; element-by-element multiplication is handled separately by `mtx_.*`.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "mtx_min2",
+        "mtx_max2",
+        "mtx_sqrt",
+        "mtx_sin"
+    ],
+    "source_archive": "iemmatrix[v0.6.0](Irix-mipsn32-32)(Irix-mipsn32-64).dek",
+    "source_member": "iemmatrix/mtx_mul-help.pd"
+}

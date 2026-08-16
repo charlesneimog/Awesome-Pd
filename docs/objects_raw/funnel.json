@@ -25,9 +25,9 @@
         "Routing"
     ],
     "similar": [
-        "selector",
-        "mtx~",
         "multiplex",
-        "router"
+        "spray",
+        "unroute",
+        "multireceive"
     ]
 }

@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pdp",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pdp_xor",
+    "description": "`pdp_xor` performs a bitwise XOR operation on PDP data. The help patch connects it with `pdp_reg` and provides a `chanmask` message, indicating that a channel mask can be set for the operation.",
+    "categories": [
+        "Logic",
+        "Math"
+    ],
+    "similar": [
+        "pdp_and",
+        "pdp_or",
+        "pdp_bitmask",
+        "0x5e"
+    ],
+    "source_archive": "pdp-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "pdp/pdp_xor-help.pd"
+}

@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ui.link",
+    "description": "`ui.link` is a hyperlink widget that opens destinations such as Pd patches or external web URLs. Set the destination with the `@url` property and the displayed link title with `@title`.",
+    "categories": [
+        "GUI",
+        "General Utilities"
+    ],
+    "similar": [
+        "pddplink",
+        "ceammc.ui",
+        "tdh.util.snapshotter.ui~",
+        "ui.toggle"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/ui.link-help.pd"
+}

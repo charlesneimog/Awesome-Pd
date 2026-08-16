@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
-        "reverse",
-        "list2int",
+        "group",
         "join",
-        "initmess"
+        "tcl_version",
+        "bangdiv"
     ]
 }

@@ -26,9 +26,9 @@
         "Multichannel"
     ],
     "similar": [
-        "pm2~",
         "pm6~",
         "pm~",
-        "saw2~"
+        "feedfm~",
+        "pm2~"
     ]
 }

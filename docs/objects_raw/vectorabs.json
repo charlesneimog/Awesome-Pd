@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "markex",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "vectorabs",
+    "description": "`vectorabs` takes a vector—a list of numbers—and outputs a new vector containing the elementwise absolute values. For example, the list `1 -2 3 -4 -0.5` is transformed to `1 2 3 4 0.5`.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "vector+",
+        "vector0x2f",
+        "vector0x2a",
+        "vector"
+    ],
+    "source_archive": "markex[v0.0.extended](Windows-amd64-32)(Sources).dek",
+    "source_member": "markex/vectorabs-help.pd"
+}

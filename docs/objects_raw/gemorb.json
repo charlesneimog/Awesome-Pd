@@ -26,9 +26,9 @@
         "Control I/O"
     ],
     "similar": [
+        "gemmouse",
         "pix_video",
         "gemw32window",
-        "gemsdl2window",
-        "gemmouse"
+        "gemsdl2window"
     ]
 }

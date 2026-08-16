@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "delreadc~",
+    "description": "`delreadc~` is an exact clone of `delread~` that reads from a delay line created by `delwritec~`, with added support for clearing it. In the example, delay times of 1000 and 2000 ms produce corresponding pauses in the output, and the `clear` message is used with the delay-line setup.",
+    "categories": [
+        "Delay"
+    ],
+    "similar": [
+        "delread~~",
+        "delwritec~",
+        "del16read~",
+        "del~"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/delreadc~-help.pd"
+}

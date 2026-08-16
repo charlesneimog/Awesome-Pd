@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_coordinate",
         "pix_multitexture",
-        "pix_clearblock",
-        "pix_draw"
+        "poftexture",
+        "pix_coordinate",
+        "pix_test"
     ]
 }

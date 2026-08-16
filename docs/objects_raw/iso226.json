@@ -26,8 +26,8 @@
     ],
     "similar": [
         "db2phon",
+        "mtx_phon_curve",
         "phon2db",
-        "phon2sone",
-        "sone2phon"
+        "phon2sone"
     ]
 }

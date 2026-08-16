@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
-        "speedlim",
-        "initmess",
-        "merge",
-        "rawprint"
+        "flow.pipe",
+        "lpipe",
+        "delp",
+        "initmess"
     ]
 }

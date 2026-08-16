@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
+        "maximum~",
         "minimum",
-        "list.inc",
-        "gcd",
-        "interpolate"
+        "vnmax",
+        "vmax"
     ]
 }

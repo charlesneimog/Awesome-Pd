@@ -27,8 +27,8 @@
     ],
     "similar": [
         "pix_film",
-        "pix_buffer_filmopen",
+        "pix_film+",
         "pix_record",
-        "pix_imageInPlace"
+        "poffilm"
     ]
 }

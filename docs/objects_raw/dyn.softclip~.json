@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "dyn.softclip~",
+    "description": "`dyn.softclip~` softly clips an input signal, serving as a signal limiter. Use the `@active` boolean property to turn DSP processing on or off; its default value is 1, and `reset` restores the initial state.",
+    "categories": [
+        "Dynamics"
+    ],
+    "similar": [
+        "dyn.limit2~",
+        "dyn.limit~",
+        "ceammc.dyn",
+        "dyn.gate~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/dyn.softclip~-help.pd"
+}

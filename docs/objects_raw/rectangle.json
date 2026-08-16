@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "cuboid",
         "pix_rectangle",
-        "slideSquares",
-        "pix_data"
+        "triangle",
+        "pofrect",
+        "pofcirc"
     ]
 }

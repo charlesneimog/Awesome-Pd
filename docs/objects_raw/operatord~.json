@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "operatord~",
+    "description": "`operatord~` is like `operator~`, but it accepts a `phasor~` signal at its inlet. The help patch shows it can be created with numeric arguments, as in `operatord~ 40` or `operatord~ 0.5 0.5`, but does not explain what those arguments control.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "listOperator",
+        "multatord~",
+        "operator~",
+        "diff_n"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/operatord~-help.pd"
+}

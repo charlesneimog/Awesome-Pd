@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_map",
+    "description": "`fd_map` linearly maps an incoming float from a 0-to-maximum input domain to a specified range and outputs the mapped float. Its first argument sets the maximum input and its second sets the range; the help patch shows a third argument and three inlets but does not clearly document that third parameter.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "fd_map2",
+        "fd_emap2",
+        "map",
+        "hid_cuberoot"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_map-help.pd"
+}

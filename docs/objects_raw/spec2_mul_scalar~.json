@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iem_spec2",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "spec2_mul_scalar~",
+    "description": "`spec2_mul_scalar~` multiplies a signal spectrum by a scalar value, like `spec2*s~`, operating on (block size / 2 + 1) bins. Its first creation argument is the floating-point value used as the multiplier.",
+    "categories": [
+        "Spectral Processing"
+    ],
+    "similar": [
+        "spec2_add_scalar~",
+        "spec2_mul~",
+        "spec2_dbtopow~",
+        "spec2_dbtorms~"
+    ],
+    "source_archive": "iem_spec2[v1.21.1](Windows-amd64-32)(Windows-amd64-64)(Windows-i386-32).dek",
+    "source_member": "iem_spec2/spec2_mul_scalar~-help.pd"
+}

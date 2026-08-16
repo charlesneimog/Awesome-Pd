@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "context",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "slide",
+    "description": "`slide` is a slider intended for use in state-saving abstractions, identified by a shared group name and a unique letter assignment. Its input is always scaled from 0 to 100 regardless of the slider’s output range, and it provides an outlet while also sending its output to the group.",
+    "categories": [
+        "GUI"
+    ],
+    "similar": [
+        "slide2",
+        "slider",
+        "tog",
+        "slider2"
+    ],
+    "source_archive": "context-v4.0-(Darwin-i386-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "context/slide-help.pd"
+}

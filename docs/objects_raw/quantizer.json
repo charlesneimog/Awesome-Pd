@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "round",
-        "round~",
-        "list.inc",
-        "rint~"
+        "quantizer~",
+        "_quantizer",
+        "quantize~",
+        "quantize"
     ]
 }

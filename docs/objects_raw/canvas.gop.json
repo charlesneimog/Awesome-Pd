@@ -24,8 +24,8 @@
     "categories": [],
     "similar": [
         "canvas.pos",
-        "group",
-        "ikeda~",
-        "canvas.edit"
+        "canvas.edit",
+        "canvas.top",
+        "canvas.mouse"
     ]
 }

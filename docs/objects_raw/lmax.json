@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "smlib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "lmax",
+    "description": "`lmax` computes a leaky maximum from incoming float values and outputs the result as a float. Send `clear` to reset the maximum or `decay` followed by a value to set its decay; the creation argument sets the initial decay value.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "vlmax",
+        "lmin",
+        "lrange",
+        "lavg"
+    ],
+    "source_archive": "smlib-v0.12.3-(Linux-armv7l-32)(Sources)-externals.tgz",
+    "source_member": "smlib/lmax-help.pd"
+}

@@ -25,9 +25,9 @@
         "Distortion"
     ],
     "similar": [
-        "degrade~",
+        "crush~",
         "crusher.m~",
-        "digidistort",
-        "rm.m~"
+        "crush.m~",
+        "+decimate~"
     ]
 }

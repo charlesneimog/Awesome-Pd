@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "prop",
+    "description": "`prop` gets or sets a named property value for a subpatch or abstraction, outputting the value when it receives a bang or after setting it with any message. The property name is supplied as a symbol argument (for example, `@freq`) and must first be declared with `prop.declare`; the `default` method resets it to its default value and outputs it.",
+    "categories": [
+        "Patching"
+    ],
+    "similar": [
+        "prop.declare",
+        "prop.get",
+        "prop.set",
+        "patch.props"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/prop-help.pd"
+}

@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "array-abs",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "array-rmstodb",
+    "description": "Upon receiving a bang, `array-rmstodb` converts every value in the currently referenced array from RMS to dB amplitude units. It follows Pd’s built-in `rmstodb` convention, where 100 dB represents unity gain, and the referenced array can be changed with a `set` message.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "array-dbtorms",
+        "array-mink",
+        "array-std",
+        "array-offset"
+    ],
+    "source_archive": "array-abs[v0.1.0].dek",
+    "source_member": "array-abs/array-rmstodb-help.pd"
+}

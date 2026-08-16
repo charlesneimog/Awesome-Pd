@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "la-kitchen",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "one_n",
+    "description": "`one_n` accepts Boolean input (0 or 1) and returns 1 when the last n data values were nonzero; otherwise, it returns 0. The argument sets n, as illustrated by `one_n 5`, and related objects include `change_n` and `zero_n`.",
+    "categories": [
+        "Logic"
+    ],
+    "similar": [
+        "change_n",
+        "zero_n",
+        "seuil_n",
+        "onebang"
+    ],
+    "source_archive": "la-kitchen-v0.0.extended--externals.zip",
+    "source_member": "la-kitchen/one_n-help.pd"
+}

@@ -26,8 +26,8 @@
     ],
     "similar": [
         "linear_path",
-        "pix_data",
         "pix_buffer_read",
-        "pix_curve"
+        "pix_diff",
+        "pix_zoom"
     ]
 }

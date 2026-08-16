@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "oscope~",
+    "description": "`oscope~` is an oscilloscope object for displaying a signal such as the output of `osc~`. Its zoom is specified in samples and can be set through the right inlet or a creation argument; the patch also mentions a second argument of 1, but does not fully explain its update behavior.",
+    "categories": [
+        "GUI"
+    ],
+    "similar": [
+        "ui.scope~",
+        "scope",
+        "scope~",
+        "oscillo~"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/oscope~-help.pd"
+}

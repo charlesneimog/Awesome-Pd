@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pipebang",
+    "description": "`pipebang` delays an incoming bang by the amount specified by its argument, as illustrated by `pipebang 500`. Sending it the `stop` message cancels the pending delayed bang.",
+    "categories": [
+        "Delay"
+    ],
+    "similar": [
+        "pipe",
+        "pipelist",
+        "pp.sdel~",
+        "updel"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/pipebang-help.pd"
+}

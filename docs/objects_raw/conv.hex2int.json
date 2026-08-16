@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "conv.hex2int",
+    "description": "`conv.hex2int` converts hexadecimal symbols to integer values and can process either a single symbol or a list of values. Parsing errors are ignored, and the converted integer value is sent from its outlet.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "conv.bits2int",
+        "conv.sec2samp",
+        "conv.rad2phase",
+        "conv.samp2sec"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/conv.hex2int-help.pd"
+}

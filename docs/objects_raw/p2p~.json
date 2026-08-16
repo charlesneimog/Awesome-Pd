@@ -1,0 +1,32 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "p2p~",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "p2p~",
+    "description": "`p2p~` sends and receives audio over a peer-to-peer connection, with the help patch using a WebSocket signaling URL and a peer name to establish the connection. The `stream $1` message controls streaming, while `disconnect` ends the connection.",
+    "categories": [
+        "Networking",
+        "Audio I/O"
+    ],
+    "similar": [
+        "mp3streamin~",
+        "mp3streamout~",
+        "oggamp~",
+        "mp3cast~"
+    ],
+    "source_archive": "p2p~[v0.1.1](Darwin-arm64-32)(Darwin-arm64-64)(Linux-amd64-32)(Linux-amd64-64)(Windows-amd64-32)(Windows-amd64-64)(Sources).dek",
+    "source_member": "p2p~/p2p~-help.pd"
+}

@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
-        "hex2dec",
-        "trunc",
         "dec2frac",
-        "mean"
+        "trunc",
+        "hexCharToDec",
+        "float2bits"
     ]
 }

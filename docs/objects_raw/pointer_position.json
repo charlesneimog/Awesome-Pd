@@ -1,0 +1,31 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "hcs",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pointer_position",
+    "description": "`pointer_position` gets the pointer’s current x and y location in a Pd canvas. Send a float to enable or disable continuous motion events, or send `bang` to report only the next motion event.",
+    "categories": [
+        "Control I/O"
+    ],
+    "similar": [
+        "poftouchable",
+        "fans",
+        "hw.kbd_light",
+        "iodisplay"
+    ],
+    "source_archive": "hcs[v0.2.1](Darwin-amd64-32)(Darwin-arm64-32)(Linux-amd64-32)(Linux-arm64-32)(Linux-armv7-32)(Linux-i386-32)(Windows-amd64-32)(Windows-i386-32).dek",
+    "source_member": "hcs/pointer_position-help.pd"
+}

@@ -25,9 +25,9 @@
         "Filters"
     ],
     "similar": [
+        "bandstop_2p~",
         "bandpass~",
         "svfilter~",
-        "eq~",
-        "highpass~"
+        "bandpass"
     ]
 }

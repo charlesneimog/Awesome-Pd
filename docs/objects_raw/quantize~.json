@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "round~",
-        "gmean",
-        "rint~",
-        "tavg~"
+        "quantize",
+        "quantizer",
+        "_quantizer",
+        "quantizer~"
     ]
 }

@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "gemglxwindow",
-        "gemmacoswindow",
         "gemglfw2window",
-        "gemglutwindow"
+        "gemmacoswindow",
+        "gemmacwindow",
+        "gemglxwindow"
     ]
 }

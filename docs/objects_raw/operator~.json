@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "operator~",
+    "description": "`operator~` applies multiplication and addition to signals, and can also be configured as a sine-wave oscillator. For example, `operator~ 4 5` multiplies its input signal by 4 and then adds 5; the help patch also shows that parameters can be supplied as signals through its inlets.",
+    "categories": [
+        "Math",
+        "Oscillators"
+    ],
+    "similar": [
+        "rectorator~",
+        "triangulator~",
+        "phasorator~",
+        "operatord~"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/operator~-help.pd"
+}

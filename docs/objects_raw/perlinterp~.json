@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "perlinterp~",
+    "description": "`perlinterp~` is a Perlin-noise interpolator that takes a `phasor~` signal as its interpolation input. The help patch uses two `perlinterp~ 0.75` objects to produce two octaves of noise.",
+    "categories": [
+        "Stochastic"
+    ],
+    "similar": [
+        "perlin~",
+        "linnoise~",
+        "shnoise~",
+        "noise"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/perlinterp~-help.pd"
+}

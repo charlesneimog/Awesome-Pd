@@ -27,8 +27,8 @@
     ],
     "similar": [
         "rms~",
-        "fluid.mfcc~",
         "mov.rms~",
-        "distance"
+        "fluid.mfcc~",
+        "centroid~"
     ]
 }

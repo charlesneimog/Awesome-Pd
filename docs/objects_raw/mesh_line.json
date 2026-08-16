@@ -26,8 +26,8 @@
     ],
     "similar": [
         "mesh_square",
-        "trapezoid",
+        "cuboid",
         "square",
-        "polygon"
+        "trapezoid"
     ]
 }

@@ -34,7 +34,7 @@
     "similar": [
         "fluid.bufstats",
         "fluid.bufspectralshape",
-        "mfcc",
-        "tID_mean"
+        "fluid.standardize",
+        "fluid.loudness~"
     ]
 }

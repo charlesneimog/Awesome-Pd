@@ -26,8 +26,8 @@
     ],
     "similar": [
         "cart2sph",
-        "pol2sph",
         "car2pol",
-        "sph2cart"
+        "pol2cart",
+        "pol2sph"
     ]
 }

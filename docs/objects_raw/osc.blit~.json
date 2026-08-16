@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "osc.blit~",
+    "description": "`osc.blit~` is a band-limited impulse-train oscillator that outputs a signal at a frequency specified in hertz. Its harmonic count can be set with the second argument or the `@harmonics` property, where 0 means all available harmonics, and a bang resets the oscillator phase.",
+    "categories": [
+        "Oscillators"
+    ],
+    "similar": [
+        "osc.impulse~",
+        "osc.square~",
+        "osc.pulse~",
+        "osc.tri~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/osc.blit~-help.pd"
+}

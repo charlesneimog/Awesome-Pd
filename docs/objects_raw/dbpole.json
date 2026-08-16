@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "dbpole",
+    "description": "`dbpole` converts a time in milliseconds into a pole value for a decay from 1 to 0.001 (60 dB). The help patch demonstrates it alongside `rpole~`, indicating that the result is intended to set the recursive filter’s decay.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "fadtodb",
+        "ms2sec",
+        "db2fad",
+        "rms2db"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/dbpole-help.pd"
+}

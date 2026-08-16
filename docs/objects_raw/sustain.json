@@ -25,9 +25,9 @@
         "MIDI"
     ],
     "similar": [
+        "midi.sustain",
         "suspedal",
-        "note.out",
-        "sysrt.in",
-        "sysrt.out"
+        "xnoteout",
+        "noteinfo"
     ]
 }

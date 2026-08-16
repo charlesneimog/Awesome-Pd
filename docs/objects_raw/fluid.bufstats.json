@@ -32,9 +32,9 @@
         "Descriptors"
     ],
     "similar": [
-        "fluid.bufspectralshape",
         "fluid.stats",
-        "fluid.spectralshape~",
-        "fluid.ampfeature~"
+        "fluid.bufspectralshape",
+        "fluid.bufselect",
+        "fluid.bufpitch"
     ]
 }

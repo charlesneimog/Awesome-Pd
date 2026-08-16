@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
+        "pix_buffer_read",
         "pix_multiply",
         "pix_subtract",
-        "pix_compare",
-        "pix_convert"
+        "pix_blur"
     ]
 }

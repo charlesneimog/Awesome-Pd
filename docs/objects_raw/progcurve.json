@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "reactive",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "progcurve",
+    "description": "`progcurve` provides a programmable curve for testing with data. Its controls support starting and stopping point scanning, adjusting speed and direction, setting or resetting endpoints, and loading or saving data arrays; the required argument names the `progcurve` object.",
+    "categories": [
+        "Envelopes"
+    ],
+    "similar": [
+        "tdh.util.curve",
+        "satk.util.curve",
+        "curvegen",
+        "hv.curve~"
+    ],
+    "source_archive": "reactive[v0.0.1].dek",
+    "source_member": "reactive/progcurve-help.pd"
+}

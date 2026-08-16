@@ -35,7 +35,7 @@
     "similar": [
         "fluid.mlpclassifier",
         "fluid.knnregressor",
-        "neuralnet",
-        "fluid.bufflatten"
+        "ml.ann",
+        "neuralnet~"
     ]
 }

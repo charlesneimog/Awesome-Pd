@@ -25,9 +25,9 @@
         "Routing"
     ],
     "similar": [
-        "gate",
-        "route~",
-        "demultiplex",
-        "route2"
+        "route2",
+        "route.list",
+        "router",
+        "route.cycle"
     ]
 }

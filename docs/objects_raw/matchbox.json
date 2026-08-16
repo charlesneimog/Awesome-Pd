@@ -26,9 +26,9 @@
         "Logic"
     ],
     "similar": [
-        "regex",
-        "equal",
-        "l2i",
-        "rotate"
+        "match~",
+        "array-between",
+        "array-greater",
+        "array-lesser"
     ]
 }

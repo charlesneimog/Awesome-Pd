@@ -25,9 +25,9 @@
         "Multichannel"
     ],
     "similar": [
-        "glide~",
-        "glide2~",
+        "smooth2~",
         "lag2~",
-        "smooth2~"
+        "glide~",
+        "glide2~"
     ]
 }

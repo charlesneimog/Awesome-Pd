@@ -27,8 +27,8 @@
     ],
     "similar": [
         "switch",
-        "routeall",
-        "selector",
-        "mtx~"
+        "if",
+        "flow.split",
+        "routeall"
     ]
 }

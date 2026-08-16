@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ext13",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "receive13",
+    "description": "The available help patch does not describe the behavior, purpose, or usage of `receive13`; it only states that the patch is a placeholder. There is insufficient evidence to provide further details without inventing behavior.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "receive13~",
+        "throw13~",
+        "sfwrite13~",
+        "rtout"
+    ],
+    "source_archive": "ext13[v0.17.1-4](Windows-amd64-32)(Sources).dek",
+    "source_member": "ext13/receive13-help.pd"
+}

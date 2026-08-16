@@ -27,7 +27,7 @@
     "similar": [
         "range~",
         "featureNorm",
-        "autoCorrPitch~",
-        "cepstrumPitch~"
+        "vu~",
+        "bonk~"
     ]
 }

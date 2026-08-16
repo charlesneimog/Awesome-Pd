@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_gate",
+    "description": "`fd_gate` passes input through a gate and stops further input after a delay. The help patch shows `fd_gate 100`, but its conflicting argument annotations do not establish whether `100` configures the delay.",
+    "categories": [
+        "Routing"
+    ],
+    "similar": [
+        "gateCounter",
+        "gate",
+        "fd_spigot",
+        "flow.gate"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_gate-help.pd"
+}

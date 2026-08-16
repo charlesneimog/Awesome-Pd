@@ -25,9 +25,9 @@
         "Distortion"
     ],
     "similar": [
-        "crusher~",
-        "digidistort",
-        "kink~",
-        "overdrive~"
+        "+decimate~",
+        "decimate~",
+        "pdp_bitdepth",
+        "crusher~"
     ]
 }

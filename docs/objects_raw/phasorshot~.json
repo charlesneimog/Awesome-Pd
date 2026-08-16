@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "tof",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "phasorshot~",
+    "description": "`tof/phasorshot~` is a feature-rich phasor signal generator whose looping can be enabled or disabled. It accepts frequency, phase, and loop on/off controls, and outputs bangs when the generated signal reaches its upper or lower bound.",
+    "categories": [
+        "Oscillators"
+    ],
+    "similar": [
+        "phasor~~",
+        "phasorator~",
+        "fd_osc",
+        "triangulatord~"
+    ],
+    "source_archive": "tof[v0.2.4](Linux-arm-32)(Sources).dek",
+    "source_member": "tof/phasorshot~-help.pd"
+}

@@ -1,0 +1,31 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "midi.arp",
+    "description": "`midi.arp` is a MIDI arpeggiator that takes NOTE/VELOCITY lists and plays chord notes in selectable modes such as up, down, triangle, or random. The interval between notes is configurable from 1 to 1000 ms; when external clocking is enabled, send a bang to play the next chord note.",
+    "categories": [
+        "MIDI",
+        "Sequencers",
+        "Algorithmic"
+    ],
+    "similar": [
+        "seq.arp",
+        "arp",
+        "midi.track",
+        "chord-make"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/midi.arp-help.pd"
+}

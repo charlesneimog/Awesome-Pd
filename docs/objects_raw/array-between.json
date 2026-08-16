@@ -1,0 +1,28 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "array-abs",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "array-between",
+    "description": "`array-between` searches the currently referenced array for values strictly between the two boundaries received as a two-element list at its first inlet. It outputs the number of matching values from its first outlet and their indices as a list from its second outlet; use a `set` message to change the referenced array.",
+    "categories": [
+        "Data Structures",
+        "Logic"
+    ],
+    "similar": [
+        "array-greater",
+        "array-lesser",
+        "array-equals",
+        "array-unique"
+    ],
+    "source_archive": "array-abs[v0.1.0].dek",
+    "source_member": "array-abs/array-between-help.pd"
+}

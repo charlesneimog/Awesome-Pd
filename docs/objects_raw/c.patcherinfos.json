@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "Cream",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "c.patcherinfos",
+    "description": "`c.patcherinfos` retrieves information about its patcher, including its name and window and canvas sizes. Send it a bang or double-click the object to request the information.",
+    "categories": [
+        "Patching"
+    ],
+    "similar": [
+        "c.patcherargs",
+        "ceammc.patch",
+        "canvas.top",
+        "glistinfo"
+    ],
+    "source_archive": "Cream-v0.4-beta-(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "Cream/helps/c.patcherinfos-help.pd"
+}

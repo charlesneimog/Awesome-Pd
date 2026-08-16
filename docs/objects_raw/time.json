@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
-        "date",
-        "speedlim",
-        "chrono",
-        "retrieve"
+        "ISOtime",
+        "timer",
+        "utime",
+        "realtime"
     ]
 }

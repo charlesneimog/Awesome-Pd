@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "valuer",
+    "description": "`valuer` is like `receiver`, but for values: instances with the same name, such as `valuer dog`, provide access to the corresponding named value. Its right inlet sets the name, allowing it to switch between names such as `cat` and `dog`.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "revalue",
+        "list-value",
+        "symbol.value",
+        "list-value-extend"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/valuer-help.pd"
+}

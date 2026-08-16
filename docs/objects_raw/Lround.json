@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "rtc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "Lround",
+    "description": "`Lround` rounds a float or the floats in a list. A positive argument sets the number of decimal places, a negative argument rounds to a power of 10, and no argument rounds the output to integers; an argument of 0 converts all outputs to floats.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "fd_round",
+        "round",
+        "list-round",
+        "roundIfVeryClose"
+    ],
+    "source_archive": "rtc-v0.0.extended--externals.zip",
+    "source_member": "rtc/Lround-help.pd"
+}

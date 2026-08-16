@@ -27,8 +27,8 @@
     ],
     "similar": [
         "speedlim",
+        "speedlimit",
         "match",
-        "pipe2",
-        "default"
+        "ignore"
     ]
 }

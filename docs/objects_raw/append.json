@@ -23,9 +23,9 @@
     "description": "The `append` object concatenates a predefined message, set as an argument, to the end of any incoming message, outputting the combined result. This object is largely superseded by Pure Data Vanilla's `list append` and is considered redundant due to name clashes and the availability of the vanilla equivalent.",
     "categories": [],
     "similar": [
-        "minimum~",
-        "pipe2",
-        "changed",
-        "l"
+        "list.append",
+        "array-append",
+        "appent",
+        "flow.append"
     ]
 }

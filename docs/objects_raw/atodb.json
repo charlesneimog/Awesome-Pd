@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "db2lin",
-        "dbtoa~",
+        "atodb~",
         "lin2db",
-        "atodb~"
+        "dbtoa~",
+        "db2lin"
     ]
 }

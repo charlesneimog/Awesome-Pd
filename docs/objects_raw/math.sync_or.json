@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "math.sync_or",
+    "description": "`math.sync_or` performs a synchronized logical OR on two binary values, outputting 1 when either value is 1 and 0 when both are 0. A float in either inlet recalculates and outputs the result, while a list pair in the first inlet sets both values before calculating.",
+    "categories": [
+        "Logic"
+    ],
+    "similar": [
+        "math.sync_and",
+        "math.sync_lt",
+        "math.sync_le",
+        "math.sync_xor"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/math.sync_or-help.pd"
+}

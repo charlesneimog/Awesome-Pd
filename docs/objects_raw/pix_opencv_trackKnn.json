@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pix_opencv",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pix_opencv_trackKnn",
+    "description": "`pix_opencv_trackKnn` uses the KNN algorithm to keep track of detected features supplied as `cvblob` lists, and can be used with other tracking techniques. Send it a `reset` message to clear its internal memory; its outlets provide a GEM list, contour/convex-hull/convexity-defect data, and informational output.",
+    "categories": [
+        "Machine Learning",
+        "Graphics"
+    ],
+    "similar": [
+        "pix_opencv_contours",
+        "pix_opencv_knear",
+        "pix_opencv_haarcascade",
+        "pix_opencv_contours_convexhull"
+    ],
+    "source_archive": "pix_opencv-v0.4-(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "pix_opencv/help/pix_opencv_trackKnn-help.pd"
+}

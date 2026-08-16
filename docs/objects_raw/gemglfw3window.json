@@ -27,7 +27,7 @@
     "similar": [
         "gemglfw2window",
         "gemglxwindow",
-        "gemcocoawindow",
-        "gemsdlwindow"
+        "gemglutwindow",
+        "gemmacwindow"
     ]
 }

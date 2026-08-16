@@ -1,0 +1,28 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "sfruit",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ifspigot",
+    "description": "`ifspigot` is a receiver-conditional spigot that opens or closes according to a test value received through the receiver named by its first argument. It can be configured to open when the test is 1 or, conversely, when the test is 0; the help patch also indicates that the last argument sets a default internal state, but does not fully document that state.",
+    "categories": [
+        "Logic",
+        "Routing"
+    ],
+    "similar": [
+        "myifspigot",
+        "spigot~",
+        "if",
+        "ifValue"
+    ],
+    "source_archive": "sfruit-v0.0.extended--externals.zip",
+    "source_member": "sfruit/ifspigot-help.pd"
+}

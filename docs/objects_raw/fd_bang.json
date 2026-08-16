@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_bang",
+    "description": "`fd_bang` is a minimal pass-through object with one inlet connected directly to one outlet, forwarding anything it receives. It takes no arguments and can be used with `clone`, whose output provides a prepended instance counter.",
+    "categories": [
+        "Routing"
+    ],
+    "similar": [
+        "fd_next",
+        "storebang",
+        "fd_dory",
+        "fd_spigot"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_bang-help.pd"
+}

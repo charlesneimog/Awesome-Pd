@@ -28,8 +28,8 @@
     ],
     "similar": [
         "median~",
-        "sum",
-        "minmax",
-        "deg2rad"
+        "matrix.median",
+        "median_3",
+        "median_5"
     ]
 }

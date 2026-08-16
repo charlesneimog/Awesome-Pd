@@ -26,9 +26,9 @@
         "GUI"
     ],
     "similar": [
-        "coeff2pz",
         "bicoeff2",
-        "biplot",
-        "lowpass~"
+        "coeff2pz",
+        "ui.filter~",
+        "ui.filter"
     ]
 }

@@ -27,9 +27,9 @@
         "Multichannel"
     ],
     "similar": [
-        "voices~",
         "voices",
+        "voices~",
         "mono~",
-        "borax"
+        "abs.pd~"
     ]
 }

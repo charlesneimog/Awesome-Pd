@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "norm",
+    "description": "`norm` normalizes a stream of floats with an initially unknown range into values from 0 to 1, adapting the normalized range over time. It takes the float stream through its inlet and outputs the normalized value; a `reset` message is shown for restarting its learned range.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "fd_norm",
+        "complex.norm",
+        "qnorm~",
+        "lornorm"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/norm-help.pd"
+}

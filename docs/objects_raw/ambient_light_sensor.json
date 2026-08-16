@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "apple",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ambient_light_sensor",
+    "description": "`ambient_light_sensor` queries the ambient light sensor in Apple computers and outputs a list containing the left and right sensor values. Send it a bang, optionally from a `metro`, to request current values; sending `info` outputs sensor information from the right outlet.",
+    "categories": [
+        "Control I/O"
+    ],
+    "similar": [
+        "sudden_motion_sensor",
+        "cpu_temperature",
+        "hw.apple_sms",
+        "multitouch"
+    ],
+    "source_archive": "apple-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "apple/ambient_light_sensor-help.pd"
+}

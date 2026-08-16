@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
-        "mstosamps~",
-        "avg",
-        "clip",
-        "mean"
+        "counter",
+        "flow.count",
+        "satk.util.counter",
+        "ramp~"
     ]
 }

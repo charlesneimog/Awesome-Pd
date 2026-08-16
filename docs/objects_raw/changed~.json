@@ -25,9 +25,9 @@
         "Logic"
     ],
     "similar": [
+        "changed",
         "above~",
-        "togedge",
         "trig2bang",
-        "gate2imp~"
+        "change_n"
     ]
 }

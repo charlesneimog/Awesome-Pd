@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_sp",
+    "description": "`fd_sp` is a signal multiplier with square-root line amplitude, described as a signal panner for multiplying one signal independently across different tracks. It has no direct inlets or outlets and is configured with four float arguments: instance number, the parent’s `$0`, signal ID, and speaker ID.",
+    "categories": [
+        "Multichannel"
+    ],
+    "similar": [
+        "equal_power_pan~",
+        "sqrt-pan~",
+        "square_root_pan~",
+        "fd_pan"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_sp-help.pd"
+}

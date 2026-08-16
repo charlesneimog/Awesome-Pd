@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "noise.rossler",
+    "description": "`noise.rossler` generates the x, y, and z values of a Rössler attractor using Heun’s method, providing chaotic noise through three outlets. Send it a bang to advance and output the values; its initial state and parameters can be supplied as optional float arguments or changed with messages such as `x`, `y`, `z`, `a`, `b`, `c`, and `dt`.",
+    "categories": [
+        "Stochastic"
+    ],
+    "similar": [
+        "noise.henon",
+        "noise.lorenz",
+        "noise.ikeda",
+        "noise.clifford"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/noise.rossler-help.pd"
+}

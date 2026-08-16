@@ -1,0 +1,28 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iemlib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "receive2list",
+    "description": "`receive2list` converts messages received from configured receive symbols into a list, prepending a float that corresponds to each symbol. Receive symbols and their associated prepend values must be supplied with `add` messages, while the first argument sets the maximum number of receivable parameters.",
+    "categories": [
+        "Routing",
+        "Data Structures"
+    ],
+    "similar": [
+        "list2send",
+        "receiver",
+        "oreceive",
+        "j.receive"
+    ],
+    "source_archive": "iemlib[v1.22-3-3-gedb2890](Irix-mipsn32-32)(Irix-mipsn32-64).dek",
+    "source_member": "iemlib/receive2list-help.pd"
+}

@@ -34,9 +34,9 @@
         "Physical Modeling"
     ],
     "similar": [
-        "link",
+        "pmpd2d~",
         "pmpd",
-        "iCircle2D",
-        "mass2D"
+        "pmpd3d",
+        "link"
     ]
 }

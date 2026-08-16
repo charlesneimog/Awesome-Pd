@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_dataWalk",
+    "description": "`fd_dataWalk` performs a random walk into a data-structure array and is intended for use with `fd_data`. It has one inlet accepting anything and no outlets; the patch reports no arguments, although its metadata inconsistently lists three.",
+    "categories": [
+        "Stochastic / Probabilistic",
+        "Data Structures"
+    ],
+    "similar": [
+        "fd_dataLine",
+        "fd_dataRand",
+        "fd_dataMorphWidth",
+        "fd_dataExp"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_dataWalk-help.pd"
+}

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ekext",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list_sum",
+    "description": "`list_sum` calculates the sum of the elements in a list, with support for a maximum length and a wrap value. Sending an `all` message to the left inlet calculates the sum, while individual stored elements can be changed with messages such as `set 2 100`.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "tab_sum",
+        "list.sum",
+        "mtx_sum",
+        "array.sum"
+    ],
+    "source_archive": "ekext-v0.0.extended-(Windows-i386-32)-externals.zip",
+    "source_member": "ekext/list_sum-help.pd"
+}

@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ui.radio",
+    "description": "`ui.radio` is the ceammc counterpart of Pd’s vanilla radio toggle, providing a cell-based UI for selecting and outputting a value; horizontal and vertical aliases are `ui.hrd` and `ui.vrd`. A left-click selects one cell in radio mode or toggles cells in checklist mode, which can also accept and output lists.",
+    "categories": [
+        "GUI",
+        "Control I/O"
+    ],
+    "similar": [
+        "c.radio",
+        "ui.bang",
+        "ui.number",
+        "ui.menu"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/ui.radio-help.pd"
+}

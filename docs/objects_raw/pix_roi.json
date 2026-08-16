@@ -26,8 +26,8 @@
     ],
     "similar": [
         "pix_crop",
+        "pix_roll",
         "pix_mask",
-        "pix_takealpha",
-        "pix_sig2pix~"
+        "pix_resize"
     ]
 }

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pof",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "poftouch",
+    "description": "`poftouch` defines a touch-sensitive area and reports `down`, `move`, and `up` events with x/y coordinates and a touch ID. Its width and height can be set by arguments or separate inlets; the `dont_capture` option allows touch events to continue climbing the tree.",
+    "categories": [
+        "Control I/O"
+    ],
+    "similar": [
+        "poftouchable",
+        "ofTouchDown",
+        "ofTouchMoved",
+        "ofTouchUp"
+    ],
+    "source_archive": "pof[v0.7-19-g155a](Linux-amd64-32).dek",
+    "source_member": "pof/poftouch-help.pd"
+}

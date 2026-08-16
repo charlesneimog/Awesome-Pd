@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "world_light",
         "spot_light",
-        "ambientRGB",
+        "world_light",
+        "pix_backlight",
         "gemcubeframebuffer"
     ]
 }

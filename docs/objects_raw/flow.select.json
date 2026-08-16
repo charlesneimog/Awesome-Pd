@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "flow.select",
+    "description": "`flow.select` routes incoming floats, symbols, lists (using their first element), or arbitrary messages (using their selector) according to match expressions, with a final outlet for unmatched messages. Expressions can match exact values, numeric comparisons or intervals, and sets; matched outlets produce a bang by default or the full message when value-preserving output mode is enabled.",
+    "categories": [
+        "Routing"
+    ],
+    "similar": [
+        "flow.match",
+        "flow.reject",
+        "flow.pass",
+        "flow.float"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/flow.select-help.pd"
+}

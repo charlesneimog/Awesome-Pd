@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "vbap",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "define_loudspeakers",
+    "description": "`define_loudspeakers` lists loudspeaker positions for use with `vbap`. Begin the setup with 2 followed by speaker azimuths for 2-D, or with 3 followed by azimuth–elevation pairs for 3-D; the patch also shows `ls-directions` and `ls-triplets` messages for defining directions and triangle selections.",
+    "categories": [
+        "VBAP"
+    ],
+    "similar": [
+        "rvbap",
+        "vbap",
+        "ssr_vbap~",
+        "vbapan~"
+    ],
+    "source_archive": "vbap[v0.0.extended](Windows-amd64-32).dek",
+    "source_member": "vbap/define_loudspeakers-help.pd"
+}

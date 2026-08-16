@@ -26,8 +26,8 @@
     ],
     "similar": [
         "pix_texture",
-        "pix_multitexture",
         "pix_clearblock",
-        "pix_draw"
+        "pix_flip",
+        "pix_multitexture"
     ]
 }

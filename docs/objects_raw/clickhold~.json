@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "lyonpotpourri",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "clickhold~",
+    "description": "`clickhold~` converts a click into a sustained signal. It can sustain sample-accurate clicks from a clock or sequence to provide continuous control of an oscillator such as `osc~`.",
+    "categories": [
+        "Control I/O"
+    ],
+    "similar": [
+        "click2float~",
+        "click2bang~",
+        "mouse_region",
+        "control"
+    ],
+    "source_archive": "lyonpotpourri[v3.0.2](Linux-arm64-32)(Linux-armv7-32).dek",
+    "source_member": "lyonpotpourri/clickhold~-help.pd"
+}

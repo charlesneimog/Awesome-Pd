@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "faustgen~",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "faustgen~",
+    "description": "`faustgen~` embeds the FAUST compiler in a Pd external to compile a named FAUST DSP file and generate or process sound. Its first argument names the DSP file, and parameters can be controlled by name; the object also supports manual recompilation and optional automatic recompilation while the file is being edited.",
+    "categories": [
+        "Patching"
+    ],
+    "similar": [
+        "lang.faust~",
+        "ui.faust~",
+        "hexloader",
+        "ctx"
+    ],
+    "source_archive": "faustgen~[v0.1.2](Linux-amd64-32)(Sources).dek",
+    "source_member": "faustgen~/faustgen~-help.pd"
+}

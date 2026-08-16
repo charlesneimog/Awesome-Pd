@@ -26,8 +26,8 @@
     ],
     "similar": [
         "rad2hz",
-        "asin~",
-        "cosh~",
-        "delta~"
+        "hz2bark",
+        "hz2mel",
+        "hid2rad"
     ]
 }

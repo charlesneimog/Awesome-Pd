@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "planifolia",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ls.iter",
+    "description": "`ls.iter` iterates through a list and outputs each element along with its index. It can process the whole list or a range defined by an inclusive start index and an exclusive end index; these bounds may be set with arguments, inlets, or a `range` message.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "ls.last",
+        "list-iter",
+        "ls.get",
+        "ls.removeAt"
+    ],
+    "source_archive": "planifolia[v0.32].dek",
+    "source_member": "planifolia/ls.iter-help.pd"
+}

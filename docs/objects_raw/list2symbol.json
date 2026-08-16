@@ -26,9 +26,9 @@
         "Text"
     ],
     "similar": [
-        "s2l",
         "symbol2list",
         "l2s",
-        "symbol2any"
+        "s2l",
+        "makesymbol"
     ]
 }

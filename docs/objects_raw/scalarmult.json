@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "maximum",
-        "tavg~",
-        "ceil",
-        "interpolate"
+        "fd_mult",
+        "tab_mul_scalar",
+        "tab_add_scalar",
+        "list-dotprod"
     ]
 }

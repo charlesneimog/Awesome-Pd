@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "jmmmp",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "live2reaper",
+    "description": "`live2reaper` synchronizes Ableton Live with Cuckos Reaper, serving as a transport synchronization link between the two applications. The help patch provides no usage details beyond advising users to inspect the abstraction for further information.",
+    "categories": [
+        "Control I/O"
+    ],
+    "similar": [
+        "wac",
+        "gemtablet",
+        "ardourjack-gui",
+        "pofkeyboard"
+    ],
+    "source_archive": "jmmmp-v0.61--externals.zip",
+    "source_member": "jmmmp/live2reaper-help.pd"
+}

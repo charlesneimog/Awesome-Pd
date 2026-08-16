@@ -25,9 +25,9 @@
         "Descriptors"
     ],
     "similar": [
-        "fluid.noveltyfeature~",
-        "magSpec~",
-        "specKurtosis~",
-        "barkSpecFlatness~"
+        "roughness",
+        "fluid.loudness~",
+        "specFlatness~",
+        "specKurtosis~"
     ]
 }

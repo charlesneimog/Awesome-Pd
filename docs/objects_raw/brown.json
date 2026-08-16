@@ -27,9 +27,9 @@
         "Procedural"
     ],
     "similar": [
-        "rand.f",
         "brown~",
-        "rand.i",
-        "stepnoise"
+        "prob",
+        "perlin~",
+        "drunkard~"
     ]
 }

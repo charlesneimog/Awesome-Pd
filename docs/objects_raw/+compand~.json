@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "soundhack",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "+compand~",
+    "description": "`+compand~` is a combined compressor/expander with a soft knee, intended for controlling an audio signal’s dynamics. Its ratio ranges from 0.1 to 10, with values below 1 providing compression; it also supports threshold, attack, release, makeup gain, and RMS detection controls.",
+    "categories": [
+        "Dynamics"
+    ],
+    "similar": [
+        "chair.dynamics~",
+        "dyncompand~",
+        "expand~",
+        "pp.dynamics~"
+    ],
+    "source_archive": "soundhack[v0.0.10](Darwin-arm64-32)(Sources).dek",
+    "source_member": "soundhack/+compand~-help.pd"
+}

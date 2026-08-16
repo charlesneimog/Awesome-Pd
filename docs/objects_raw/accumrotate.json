@@ -26,8 +26,8 @@
     ],
     "similar": [
         "rotateXYZ",
-        "shearXZ",
+        "translate",
         "shearXY",
-        "gemlist_matrix"
+        "pdp_rotate"
     ]
 }

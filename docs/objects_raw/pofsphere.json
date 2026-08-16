@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pof",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pofsphere",
+    "description": "`pofsphere` draws a sphere that can be textured. Its arguments specify radius and resolution; the first inlet accepts `res` messages to set resolution, while the second inlet sets the radius.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "sphere",
+        "part_velsphere",
+        "pofplane",
+        "pofrect"
+    ],
+    "source_archive": "pof[v0.7-19-g155a](Linux-amd64-32).dek",
+    "source_member": "pof/pofsphere-help.pd"
+}

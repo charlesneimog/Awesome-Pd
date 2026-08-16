@@ -26,9 +26,9 @@
         "Multichannel"
     ],
     "similar": [
-        "wrap2~",
+        "wavefold",
+        "foldback~",
         "drive.m~",
-        "crusher.m~",
-        "rotate~"
+        "foldover~"
     ]
 }

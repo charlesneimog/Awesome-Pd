@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iem_vanilla",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "rms2fad",
+    "description": "`rms2fad` converts a linear RMS value to a fader-scale value. The help patch indicates that linear values may be expressed in percent, using `* 0.01` before `rms2db` in the demonstrated signal chain.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "rmstofad",
+        "db2fad",
+        "rms2db",
+        "fad2rms"
+    ],
+    "source_archive": "iem_vanilla[v1.00].dek",
+    "source_member": "iem_vanilla/rms2fad-help.pd"
+}

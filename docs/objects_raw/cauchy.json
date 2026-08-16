@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "maxlib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "cauchy",
+    "description": "`cauchy` generates Cauchy-distributed random numbers for control use, outputting a float each time it receives a bang. Its optional first argument sets the default alpha parameter, which governs the distribution’s spread, and a float in the second inlet sets alpha.",
+    "categories": [
+        "Stochastic / Probabilistic"
+    ],
+    "similar": [
+        "beta",
+        "poisson",
+        "bilex",
+        "linear"
+    ],
+    "source_archive": "maxlib[v1.5.8](Linux-arm-32)(Sources).dek",
+    "source_member": "maxlib/cauchy-help.pd"
+}

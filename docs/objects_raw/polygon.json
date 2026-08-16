@@ -26,8 +26,8 @@
     ],
     "similar": [
         "curve",
+        "polygon_smooth",
         "mesh_line",
-        "trapezoid",
-        "surface3d"
+        "part_draw"
     ]
 }

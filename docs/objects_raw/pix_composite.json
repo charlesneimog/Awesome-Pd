@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
+        "pix_compare",
+        "pix_coloralpha",
         "pix_takealpha",
-        "alpha",
-        "pix_a_2grey",
-        "pix_mix"
+        "pix_a_2grey"
     ]
 }

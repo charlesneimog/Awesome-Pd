@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list.prepend",
+    "description": "`list.prepend` prepends stored atoms or a list to an incoming atom, list, mlist, or other data and outputs the concatenated list. Its prepend values can be supplied as arguments or set through the second inlet, and a bang is treated as an empty input list.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "prepent",
+        "list.append",
+        "array-prepend",
+        "list.pass"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/list.prepend-help.pd"
+}

@@ -27,9 +27,9 @@
         "General Utilities"
     ],
     "similar": [
+        "loop",
         "universal",
-        "bondo",
-        "routetype",
-        "swap2"
+        "repeat",
+        "clock"
     ]
 }

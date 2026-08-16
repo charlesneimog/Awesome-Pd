@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pof",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "poflayer",
+    "description": "`poflayer` multiplexes multiple named layers on the same Pof rendering tree, allowing common processing alongside per-layer preprocessing and rendering. Its argument sets the layer name, and a `layer new_layer_name` message changes it; `nolayer` disables layer filtering.",
+    "categories": [
+        "Graphics",
+        "Routing"
+    ],
+    "similar": [
+        "pix_2pdp",
+        "pofbang",
+        "gemreceive",
+        "fd_pix_shift"
+    ],
+    "source_archive": "pof[v0.7-19-g155a](Linux-amd64-32).dek",
+    "source_member": "pof/poflayer-help.pd"
+}

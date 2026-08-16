@@ -28,7 +28,7 @@
     "similar": [
         "model",
         "modelfiler",
-        "pix_writer",
-        "pix_multiimage"
+        "pix_multiimage",
+        "obj_exporter"
     ]
 }

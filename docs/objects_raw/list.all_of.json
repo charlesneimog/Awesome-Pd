@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list.all_of",
+    "description": "`list.all_of` checks whether every atom in an input list or `data.mlist` is accepted by a predicate. It sends each atom to the predicate and expects a float response, where `1` means accepted and `0` means not accepted; it outputs `1` only if the predicate returns true for every element.",
+    "categories": [
+        "Logic"
+    ],
+    "similar": [
+        "list.any_of",
+        "list.count_if",
+        "list.none_of",
+        "list.pass_if"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/list.all_of-help.pd"
+}

@@ -25,9 +25,9 @@
         "Oscillators"
     ],
     "similar": [
-        "saw~",
         "wavetable~",
         "wt2d~",
-        "bl.tri~"
+        "bl.rsaw~",
+        "saw~"
     ]
 }

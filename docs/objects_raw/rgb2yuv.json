@@ -28,7 +28,7 @@
     "similar": [
         "rgb2hsv",
         "hsv2rgb",
-        "yuv2rgb",
+        "pix_rgb2hsv",
         "pix_rgba"
     ]
 }

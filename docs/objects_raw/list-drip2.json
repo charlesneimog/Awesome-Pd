@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "list-abs",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list-drip2",
+    "description": "`list-drip2` outputs the elements of two lists in sync, continuing for the length of the first list. It sends the respective elements through its first two outlets and outputs a bang when the first list ends.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "list-dripslow",
+        "list-drip",
+        "list-dripx",
+        "list-dripv"
+    ],
+    "source_archive": "list-abs-v0.1-20150529iem--externals.zip",
+    "source_member": "list-abs/list-drip2-help.pd"
+}

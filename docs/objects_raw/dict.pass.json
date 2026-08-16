@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "dict.pass",
+    "description": "`dict.pass` filters an input dictionary, outputting a dictionary containing only the specified keys. The passed keys can be supplied as creation arguments, such as `dict.pass a e`, or get/set as a list via `@keys`; the second inlet also sets them.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "dict.keys",
+        "dict.reject",
+        "dict.contains",
+        "dict.get"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/dict.pass-help.pd"
+}

@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
+        "slew2~",
         "glide",
         "speedlim",
-        "pulsediv~",
-        "slew2~"
+        "flow.speedlim"
     ]
 }

@@ -26,9 +26,9 @@
         "Multichannel"
     ],
     "similar": [
-        "asr~",
-        "envgen~",
         "adsr.m~",
-        "decay~"
+        "adsr",
+        "env.adsr~",
+        "asr~"
     ]
 }

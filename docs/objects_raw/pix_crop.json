@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_sig2pix~",
-        "pix_mask",
         "pix_roi",
-        "pix_equal"
+        "pix_dot",
+        "pix_convert",
+        "pix_curve"
     ]
 }

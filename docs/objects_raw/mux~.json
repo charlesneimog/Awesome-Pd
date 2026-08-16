@@ -25,9 +25,9 @@
         "Routing"
     ],
     "similar": [
+        "demux~",
+        "mux",
         "multiplex~",
-        "selector",
-        "demultiplex~",
-        "mux"
+        "demux"
     ]
 }

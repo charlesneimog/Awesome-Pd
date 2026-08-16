@@ -34,9 +34,9 @@
         "Graphics"
     ],
     "similar": [
-        "tLink3D",
-        "pmpd2d",
+        "pmpd3d~",
         "pmpd",
-        "newWave"
+        "pmpd2d",
+        "tLink3D"
     ]
 }

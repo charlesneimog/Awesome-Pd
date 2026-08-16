@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
+        "pix_buf",
+        "pix_bitmask",
         "pix_movement",
-        "pix_2grey",
-        "pix_posterize",
-        "pix_rds"
+        "pix_tIIR"
     ]
 }

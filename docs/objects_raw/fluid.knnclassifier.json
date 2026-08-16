@@ -32,9 +32,9 @@
         "Data Structures"
     ],
     "similar": [
+        "fluid.umap",
         "fluid.ls2text",
-        "fluid.kdtree",
-        "fluid.labelset",
-        "fluid.ds2text"
+        "fluid.knnregressor",
+        "fluid.kdtree"
     ]
 }

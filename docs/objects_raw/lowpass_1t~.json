@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iem_vanilla",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "lowpass_1t~",
+    "description": "`lowpass_1t~` is a first-order low-pass filter for an input signal, intended to smooth it according to a step-response time constant. Its first creation argument is the time constant τ in milliseconds, as in `lowpass_1t~ 1`.",
+    "categories": [
+        "Filters"
+    ],
+    "similar": [
+        "lp1_t~",
+        "lowpass_1p~",
+        "lowpass_2p~",
+        "lowpass"
+    ],
+    "source_archive": "iem_vanilla[v1.00].dek",
+    "source_member": "iem_vanilla/lowpass_1t~-help.pd"
+}

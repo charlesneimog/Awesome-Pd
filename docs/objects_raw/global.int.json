@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "global.int",
+    "description": "`global.int` defines a named, globally scoped integer variable that can be accessed by multiple instances sharing the same symbol ID. A float sets a truncated integer and outputs it, while `set` and arithmetic methods modify the value without output; send `bang` to output the current value.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "global.float",
+        "local.int",
+        "global.list",
+        "global.set"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/global.int-help.pd"
+}

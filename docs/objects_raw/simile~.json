@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ekext",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "simile~",
+    "description": "`simile~` compares two input signals according to an error measure. Its second outlet reports the sign of the difference, and another outlet provides an overall score for each signal divided by the block size.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "simile",
+        "math.sign",
+        "degtoturn~",
+        "matrix.sign"
+    ],
+    "source_archive": "ekext-v0.0.extended-(Windows-i386-32)-externals.zip",
+    "source_member": "ekext/simile~-help.pd"
+}

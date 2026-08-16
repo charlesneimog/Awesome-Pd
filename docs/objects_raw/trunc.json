@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
-        "minmax",
+        "trunc~",
+        "math.trunc",
         "dec2hex",
-        "float2bits",
-        "frac2cents"
+        "minmax"
     ]
 }

@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iemmatrix",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "mtx_randperm",
+    "description": "`mtx_randperm` generates a random permutation matrix for control-rate matrix processing. Sending it a number such as `4` requests the matrix size, and the resulting matrix is output from its outlet.",
+    "categories": [
+        "Stochastic / Probabilistic"
+    ],
+    "similar": [
+        "mtx_rand",
+        "random-gates",
+        "random-row",
+        "randomF"
+    ],
+    "source_archive": "iemmatrix[v0.6.0](Irix-mipsn32-32)(Irix-mipsn32-64).dek",
+    "source_member": "iemmatrix/mtx_randperm-help.pd"
+}

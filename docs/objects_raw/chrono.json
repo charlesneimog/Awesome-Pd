@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
-        "time",
-        "merge",
-        "bangdiv",
-        "retrieve"
+        "chrono.datetime",
+        "timer",
+        "stoppuhr",
+        "pausetimer"
     ]
 }

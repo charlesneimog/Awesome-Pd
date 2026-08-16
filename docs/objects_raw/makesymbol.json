@@ -25,9 +25,9 @@
         "Text"
     ],
     "similar": [
+        "unsymbol",
+        "list2symbol",
         "fromsymbol",
-        "s2l",
-        "symbol2list",
-        "fluid.s2f"
+        "list-makefilename"
     ]
 }

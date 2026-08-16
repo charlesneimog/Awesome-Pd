@@ -34,8 +34,8 @@
     ],
     "similar": [
         "tCylinder3D",
-        "tSeg2D",
         "iAmbient2D",
-        "mass3D"
+        "distance2d",
+        "chair.speed"
     ]
 }

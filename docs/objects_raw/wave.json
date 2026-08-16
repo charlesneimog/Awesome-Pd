@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "mapping",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "wave",
+    "description": "`wave` is a control abstraction that outputs a list representing wave amplitudes. Its three float inlets are demonstrated with controls for center position, another adjustable parameter, and the number of points; the help patch’s description is truncated, so its exact behavior is not fully documented.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "wave-rhythm",
+        "wave_loop",
+        "split_n",
+        "upsample"
+    ],
+    "source_archive": "mapping-v0.0.extended--externals.zip",
+    "source_member": "mapping/wave-help.pd"
+}

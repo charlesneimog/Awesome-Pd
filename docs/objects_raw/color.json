@@ -26,8 +26,8 @@
     ],
     "similar": [
         "colorRGB",
+        "pix_color",
         "diffuseRGB",
-        "ambientRGB",
-        "diffuse"
+        "ambientRGB"
     ]
 }

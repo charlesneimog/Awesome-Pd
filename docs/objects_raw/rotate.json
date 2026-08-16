@@ -25,9 +25,9 @@
         "Data Structures"
     ],
     "similar": [
-        "delete",
-        "remove",
-        "l2i",
-        "insert"
+        "a.rotate",
+        "list-rotate",
+        "list_rotate",
+        "list.rotate"
     ]
 }

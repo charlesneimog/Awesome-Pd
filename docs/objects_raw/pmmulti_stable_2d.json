@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "mapping",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pmmulti_stable_2d",
+    "description": "`pmmulti_stable_2d` is a control abstraction for a two-dimensional mass system with multiple stable points, outputting the masses’ positions as a list. Its arguments set the number of stable points, rigidity, and damping; it accepts messages such as `force`, `grab`, and `grab_on` for interaction.",
+    "categories": [
+        "Physical Modeling"
+    ],
+    "similar": [
+        "pmsquare_2d",
+        "pmattractor_2d",
+        "pmcloud_1d",
+        "pmcube_3d"
+    ],
+    "source_archive": "mapping-v0.0.extended--externals.zip",
+    "source_member": "mapping/pmmulti_stable_2d-help.pd"
+}

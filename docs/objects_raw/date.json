@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
+        "ISOdate",
+        "chrono.datetime",
         "datetime",
-        "time",
-        "accum",
-        "meter"
+        "version"
     ]
 }

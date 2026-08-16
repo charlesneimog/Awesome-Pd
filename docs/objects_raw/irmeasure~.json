@@ -25,9 +25,9 @@
         "Descriptors"
     ],
     "similar": [
-        "range~",
-        "barkSpecFlatness",
-        "beat~",
-        "fluid.ampfeature~"
+        "fluid.ampfeature~",
+        "fluid.onsetfeature~",
+        "fluid.noveltyfeature~",
+        "sin_phase~"
     ]
 }

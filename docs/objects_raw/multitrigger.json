@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "multitrigger",
+    "description": "`multitrigger` outputs a bang after receiving a number of input bangs equal to its creation argument. For example, `multitrigger 3` produces an output after three bangs.",
+    "categories": [
+        "Logic"
+    ],
+    "similar": [
+        "debounce_b",
+        "b_AND_b",
+        "test_n",
+        "notequals~"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/multitrigger-help.pd"
+}

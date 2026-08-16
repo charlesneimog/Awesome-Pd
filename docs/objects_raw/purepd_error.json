@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "purepd",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "purepd_error",
+    "description": "`purepd_error` appears intended to report an error associated with a supplied object name, such as `my_object_name`. The available help-patch evidence shows the message “this is my error message,” but is insufficient to establish the exact output or reporting behavior.",
+    "categories": [
+        "Debugging"
+    ],
+    "similar": [
+        "error",
+        "canvaserror",
+        "fatal",
+        "mc._dsp"
+    ],
+    "source_archive": "purepd-v0.0.extended--externals.zip",
+    "source_member": "purepd/purepd_error-help.pd"
+}

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "system.serial",
+    "description": "`system.serial` provides a serial-port interface for sending and receiving byte data. It can open a port by number or device name and configure settings such as baud rate, data bits, parity, flow control, and polling interval; available ports and status lists are reported from the right outlet.",
+    "categories": [
+        "Control I/O"
+    ],
+    "similar": [
+        "hw.serial",
+        "serialctl",
+        "comport",
+        "serial_ms"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/system.serial-help.pd"
+}

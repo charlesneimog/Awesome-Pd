@@ -32,9 +32,9 @@
         "Descriptors"
     ],
     "similar": [
-        "fluid.bufstft",
         "fluid.sinefeature~",
-        "pvoc~",
-        "peak~"
+        "fluid.bufstft",
+        "fluid.bufsines",
+        "fluid.buftransients"
     ]
 }

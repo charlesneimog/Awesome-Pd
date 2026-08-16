@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list.walk",
+    "description": "`list.walk` iterates through a list, outputting the current element and moving forward or backward in response to bangs, floats, or `next`/`prev` messages. A list input replaces the current list and resets its position without producing output; pass modes such as clip, single, loop/wrap, and fold determine how traversal behaves at the list boundaries.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "list.do",
+        "data.list",
+        "list.set",
+        "local.list"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/list.walk-help.pd"
+}

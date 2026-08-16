@@ -26,8 +26,8 @@
     ],
     "similar": [
         "crossover~",
-        "lop.bw~",
-        "hip.bw~",
+        "pqcrossover~",
+        "vcf_lp6~",
         "brickwall~"
     ]
 }

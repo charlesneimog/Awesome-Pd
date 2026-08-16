@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "hid",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "hid2rad",
+    "description": "`hid2rad` converts control values from the `hid` range into radians. It accepts a float and outputs the converted float, and `hid/rad2hid` provides the related reverse conversion.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "rad2hid",
+        "hid2deg",
+        "hid_centered",
+        "deg2hid"
+    ],
+    "source_archive": "hid-0.7-1[v0.7-1](Darwin-arm64-32)(Sources).dek",
+    "source_member": "hid-0.7-1/hid2rad-help.pd"
+}

@@ -34,8 +34,8 @@
     ],
     "similar": [
         "fluid.bufnmfcross",
-        "fluid.pca",
         "fluid.normalize",
-        "fluid.bufnmfseed"
+        "fluid.pca",
+        "fluid.nmfmatch~"
     ]
 }

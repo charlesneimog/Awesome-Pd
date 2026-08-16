@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "creb",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "eadsrh~",
+    "description": "`eadsrh~` is a signal abstraction that generates an exponential attack-decay-sustain-release envelope. It accepts a bang at its first inlet, has four float inlets, and outputs the resulting envelope as a signal; the help patch does not explain the parameters further.",
+    "categories": [
+        "Envelopes"
+    ],
+    "similar": [
+        "eadsr~",
+        "ead~",
+        "eadh~",
+        "neadsr~"
+    ],
+    "source_archive": "creb[v0.9.2-3](Windows-amd64-32)(Sources).dek",
+    "source_member": "creb/eadsrh~-help.pd"
+}

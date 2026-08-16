@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "unauthorized",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "compressor~",
+    "description": "`compressor~` is an audio compressor for controlling the dynamics of an incoming audio signal. Its strength parameter ranges from -1 to 5 and defaults to 0.",
+    "categories": [
+        "Dynamics"
+    ],
+    "similar": [
+        "compressor",
+        "compress~",
+        "compress_limit~",
+        "+compand~"
+    ],
+    "source_archive": "unauthorized[v0.1](Windows-amd64-32)(Sources).dek",
+    "source_member": "unauthorized/compressor~-help.pd"
+}

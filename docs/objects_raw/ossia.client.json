@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ossia",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ossia.client",
+    "description": "`ossia.client` connects a Pd patch to a remote OSSIA device, making its parameters accessible through objects such as `ø.remote`. Use `connect` for default ports, or specify an OSCQuery WebSocket URL when the device uses a particular endpoint.",
+    "categories": [
+        "Networking",
+        "OSC"
+    ],
+    "similar": [
+        "ossia.device",
+        "ossia",
+        "rabbit.client",
+        "ossia.remote"
+    ],
+    "source_archive": "ossia-v-(Windows-i386-32)-externals.zip",
+    "source_member": "ossia/helps/ossia.client-help.pd"
+}

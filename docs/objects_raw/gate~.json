@@ -26,8 +26,8 @@
     ],
     "similar": [
         "gate",
-        "router",
-        "demux",
-        "demultiplex~"
+        "gateCounter",
+        "flow.gate",
+        "router"
     ]
 }

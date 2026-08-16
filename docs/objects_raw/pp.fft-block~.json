@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "audiolab",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pp.fft-block~",
+    "description": "`pp.fft-block~` delays an incoming signal to provide block-delay compensation for FFT processing. Its creation arguments set the FFT block size (default 1024) and overlap (default 4), which can also be changed with `blocksize` and `overlap` messages.",
+    "categories": [
+        "FFT"
+    ],
+    "similar": [
+        "pp.fft-block-st~",
+        "pp.fft-pitchshift-st~",
+        "pp.fft-split~",
+        "pp.fft-split-st~"
+    ],
+    "source_archive": "audiolab[v0.80].dek",
+    "source_member": "audiolab/pp.fft-block~-help.pd"
+}

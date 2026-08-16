@@ -1,0 +1,32 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "mediasettings",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "midisettings",
+    "description": "`midisettings` queries and manipulates Pd’s MIDI settings, including the available drivers and input/output devices for the current driver. Send `listdrivers` or `listdevices` to obtain the available choices, and use a `driver` message to select an available MIDI driver.",
+    "categories": [
+        "MIDI",
+        "Control I/O"
+    ],
+    "similar": [
+        "audiosettings",
+        "midi.kbd",
+        "get-midi-dialog",
+        "ceammc.proto"
+    ],
+    "source_archive": "mediasettings[v0.1.2](Darwin-amd64-32)(Darwin-i386-32)(Linux-amd64-32)(Windows-amd64-32)(Windows-i386-32).dek",
+    "source_member": "mediasettings/midisettings-help.pd"
+}

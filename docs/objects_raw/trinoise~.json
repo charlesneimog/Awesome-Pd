@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "trinoise~",
+    "description": "`trinoise~` works like `shnoise~` but uses two `dsrand` sources to create a triangular distribution, producing values concentrated around 0. The help patch provides no further usage details.",
+    "categories": [
+        "Stochastic"
+    ],
+    "similar": [
+        "linnoise~",
+        "bilexnoise~",
+        "shnoise~",
+        "pitchnoise~"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/trinoise~-help.pd"
+}

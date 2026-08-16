@@ -34,7 +34,7 @@
     "similar": [
         "fluid.melbands~",
         "fluid.bufmfcc",
-        "meter8~",
-        "melSpec~"
+        "fluid.bufpitch",
+        "fluid.bufampfeature"
     ]
 }

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pof",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "poftouchable",
+    "description": "`poftouchable` enables or disables touch events for the following POF objects. Its argument sets the initial state, and its inlet accepts 1 to enable touch events or 0 to disable them.",
+    "categories": [
+        "Control I/O"
+    ],
+    "similar": [
+        "poftouch",
+        "ofTouchDown",
+        "ofTouchUp",
+        "ofTouchMoved"
+    ],
+    "source_archive": "pof[v0.7-19-g155a](Linux-amd64-32).dek",
+    "source_member": "pof/poftouchable-help.pd"
+}

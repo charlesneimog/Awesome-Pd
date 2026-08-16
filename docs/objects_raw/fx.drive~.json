@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fx.drive~",
+    "description": "`fx.drive~` applies a Guitarix drive effect to an input signal and outputs the processed signal. Its `@drive` coefficient controls the effect over a range of 1 to 10, and `@bypass` can pass the signal without the effect.",
+    "categories": [
+        "Distortion"
+    ],
+    "similar": [
+        "fx.overdrive~",
+        "fx.distortion~",
+        "drive~",
+        "fx.distortion3~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/fx.drive~-help.pd"
+}

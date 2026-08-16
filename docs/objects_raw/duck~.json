@@ -28,6 +28,6 @@
         "compress~",
         "expand~",
         "noisegate~",
-        "fluid.bufthresh"
+        "dyn.comp2~"
     ]
 }

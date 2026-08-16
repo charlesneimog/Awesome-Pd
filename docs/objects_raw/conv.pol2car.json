@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "conv.pol2car",
+    "description": "`conv.pol2car` converts polar coordinates to Cartesian coordinates. Send it a list containing a radius and an angle in radians; it outputs the corresponding x and y coordinate pair.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "pol2car",
+        "conv.car2pol",
+        "pol2cart",
+        "polar"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/conv.pol2car-help.pd"
+}

@@ -1,0 +1,28 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "tdh.lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "tdh.util.clockDiv.UI",
+    "description": "`tdh.util.clockDiv.UI` takes an incoming clock and either divides it, outputting one tick for every x input ticks, or multiplies it, outputting x ticks per input tick. The mode can be selected through its GUI or by sending `div x` or `mult y` to the right inlet.",
+    "categories": [
+        "Sequencers",
+        "GUI"
+    ],
+    "similar": [
+        "tdh.util.clock.UI",
+        "tdh.seq.stepSeq.ui",
+        "satk.util.clock",
+        "tdh.util.snapshotter.ui~"
+    ],
+    "source_archive": "tdh.lib[v0.1.9].dek",
+    "source_member": "tdh.lib/tdh.util.clockDiv.UI-help.pd"
+}

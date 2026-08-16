@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_bufvid",
+    "description": "`fd_bufvid` reads a Gem list from a `fd_vidbuf` pixel buffer and loops through a specified number of frames, enabling the same buffer to be used multiple times. Its two arguments are the buffer name and the number of frames to loop; for example, `fd_bufvid mybuffer 2` alternates between two frames.",
+    "categories": [
+        "Graphics",
+        "Data Structures"
+    ],
+    "similar": [
+        "fd_vidbuf",
+        "fd_gembuf",
+        "fd_array2pix",
+        "fd_blobvid"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_bufvid-help.pd"
+}

@@ -27,9 +27,9 @@
         "Multichannel"
     ],
     "similar": [
-        "adsr~",
+        "decay",
         "adsr.m~",
-        "resonbank2~",
-        "lag~"
+        "adsr~",
+        "resonbank2~"
     ]
 }

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pix_opencv",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pix_opencv_facetracker",
+    "description": "`pix_opencv_facetracker` finds and tracks a face in a GEM image stream using the FaceTracker library, passing the gemlist from its inlet to its outlet. Send `show` to draw tracking data on the image or `reset` to reset the tracker; supported facial features include the eyes, eyebrows, mouth, jaw, nose, and face outline.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "pix_opencv_bgstats",
+        "pix_opencv_camshift",
+        "pix_opencv_floodfill",
+        "pix_opencv_of_lk"
+    ],
+    "source_archive": "pix_opencv-v0.4-(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "pix_opencv/help/pix_opencv_facetracker-help.pd"
+}

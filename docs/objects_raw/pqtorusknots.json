@@ -27,7 +27,7 @@
     "similar": [
         "torus",
         "sphere",
-        "cube",
-        "Gem"
+        "colorSquare",
+        "pix_clearblock"
     ]
 }

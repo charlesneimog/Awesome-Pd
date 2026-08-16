@@ -28,6 +28,6 @@
         "smooth~",
         "slew~",
         "glide2~",
-        "smooth2~"
+        "glide~"
     ]
 }

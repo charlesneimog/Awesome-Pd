@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "context",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "canvasposition",
+    "description": "`canvasposition` retrieves or sets the position of an object or its containing patch, and can also query the containing canvas’s size. An optional parent-depth argument, such as `canvasposition 2`, makes it operate on the grandparent patch.",
+    "categories": [
+        "Patching"
+    ],
+    "similar": [
+        "canvasdelete",
+        "canvasobjectposition",
+        "canvasindex",
+        "canvasdollarzero"
+    ],
+    "source_archive": "context-v4.0-(Darwin-i386-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "context/iemguts/canvasposition-help.pd"
+}

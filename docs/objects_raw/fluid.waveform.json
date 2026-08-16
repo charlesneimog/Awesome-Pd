@@ -33,9 +33,9 @@
         "Graphics"
     ],
     "similar": [
-        "graph~",
+        "pp.waveform",
+        "grainflow.waveform",
         "scope~",
-        "zbiplot",
-        "scope3d~"
+        "graph~"
     ]
 }

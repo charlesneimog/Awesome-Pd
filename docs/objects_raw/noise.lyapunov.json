@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "noise.lyapunov",
+    "description": "`noise.lyapunov` generates a two-dimensional random Lyapunov attractor by iterating the documented equations for x and y, providing the resulting coordinates through separate x and y outlets. Send it bangs, for example from `metro`, to output successive values; its coefficients and state can be set through arguments or the `a`, `b`, `x`, `y`, `set`, and `reset` messages.",
+    "categories": [
+        "Stochastic"
+    ],
+    "similar": [
+        "noise.henon_heilles",
+        "noise.henon_phase",
+        "noise.duffing",
+        "noise.ikeda"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/noise.lyapunov-help.pd"
+}

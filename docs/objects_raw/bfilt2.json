@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "cxc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "bfilt2",
+    "description": "`bfilt2` is a control-rate bang filter that uses an internal counter and outputs bangs. Send bangs to its first inlet; the help patch also documents a float inlet for control, but does not specify its exact effect.",
+    "categories": [
+        "Logic"
+    ],
+    "similar": [
+        "bfilt",
+        "threshold_max",
+        "lt2~",
+        "synlets"
+    ],
+    "source_archive": "cxc[v0.5.2-2](Windows-amd64-32)(Sources).dek",
+    "source_member": "cxc/bfilt2-help.pd"
+}

@@ -26,8 +26,8 @@
     ],
     "similar": [
         "pix_multiply",
-        "pix_dump",
-        "pix_compare",
-        "pix_mask"
+        "pix_add",
+        "pix_mask",
+        "pix_set"
     ]
 }

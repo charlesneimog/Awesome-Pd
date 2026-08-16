@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fx.tremolo~",
+    "description": "`fx.tremolo~` applies the tremolo effect from the Guitarix project to an input signal. Its frequency can be set from 0.1 to 50 Hz via the second inlet or `@freq`, while effect depth ranges from 0 to 1; `@src` selects the modulation source.",
+    "categories": [
+        "LFOs"
+    ],
+    "similar": [
+        "lfo.impulse~",
+        "satk.synth.LFOscil~",
+        "lfo.+square~",
+        "fd_vibrato"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/fx.tremolo~-help.pd"
+}

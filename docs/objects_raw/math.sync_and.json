@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "math.sync_and",
+    "description": "`math.sync_and` performs a synchronized logical AND on two values, outputting 1 only when both are 1 and 0 otherwise. It accepts only 0 and 1; sending a float to either inlet recalculates and outputs the result, while a list pair sets both values and calculates the result.",
+    "categories": [
+        "Logic"
+    ],
+    "similar": [
+        "math.sync_or",
+        "math.sync_xor",
+        "math.sync_lt",
+        "math.sync_le"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/math.sync_and-help.pd"
+}

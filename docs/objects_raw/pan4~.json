@@ -25,9 +25,9 @@
         "Multichannel"
     ],
     "similar": [
+        "spat.pan4~",
         "pan2~",
-        "spread.mc~",
         "pan.mc~",
-        "rotate.mc~"
+        "spread.mc~"
     ]
 }

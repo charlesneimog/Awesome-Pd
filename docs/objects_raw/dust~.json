@@ -28,7 +28,7 @@
     "similar": [
         "dust2~",
         "stepnoise~",
-        "randpulse2~",
-        "randpulse~"
+        "randpulse~",
+        "randpulse2~"
     ]
 }

@@ -27,8 +27,8 @@
     ],
     "similar": [
         "midi2note",
-        "note.out",
-        "xnoteout",
-        "seq8.m~"
+        "note2frq",
+        "conv.pitch2midi",
+        "note.out"
     ]
 }

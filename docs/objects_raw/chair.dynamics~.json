@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "chair",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "chair.dynamics~",
+    "description": "`chair.dynamics~` is a combined compressor and expander for processing an audio signal, with controls for compression/expansion thresholds, attack, release, makeup gain, dry/wet mix, lookahead, and peak or RMS envelope detection. Its first outlet provides the processed audio, while its second outputs the sidechain envelope follower; control messages are sent to the second inlet.",
+    "categories": [
+        "Dynamics"
+    ],
+    "similar": [
+        "pp.dynamics~",
+        "pp.dynamics-st~",
+        "+compand~",
+        "chair.gain~"
+    ],
+    "source_archive": "chair[v0.81].dek",
+    "source_member": "chair/chair.dynamics~-help.pd"
+}

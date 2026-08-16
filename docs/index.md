@@ -20,7 +20,7 @@ hide:
 <h2 align="center"><b>Random Objects</b></h2>
 
 <div class="grid cards ">
-    <ul id="random-objects"></ul>
+    <ul id="random-objects" data-random-content="home"></ul>
 </div>
 
 ---
@@ -29,10 +29,3 @@ hide:
 <div id="random-videos" class="videos-container"></div>
 
 --- 
-
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  addObjects(true);
-});
-</script>
-

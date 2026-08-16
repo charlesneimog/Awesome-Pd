@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
-        "trighold~",
-        "retrieve",
-        "bangdiv",
-        "trough"
+        "trough",
+        "satk.util.counter",
+        "toggle_mess",
+        "date"
     ]
 }

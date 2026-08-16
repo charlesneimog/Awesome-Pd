@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fluid~",
+    "description": "`fluid~` is a FluidSynth-based SoundFont 2 player for playing MIDI-controlled instruments and producing stereo audio. It accepts commands for notes, programs, pitch bend, controllers, tuning, pedals, and other MIDI functions; if no SoundFont is specified, it loads the default `WaveSine.sf2` sine synthesizer.",
+    "categories": [
+        "Samplers",
+        "MIDI"
+    ],
+    "similar": [
+        "sfont~",
+        "sfizz~",
+        "sfz~",
+        "bend.out"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/fluid~-help.pd"
+}

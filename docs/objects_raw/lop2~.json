@@ -26,9 +26,9 @@
         "Subtractive"
     ],
     "similar": [
-        "cross~",
-        "lowpass~",
-        "svf~",
-        "lop.bw~"
+        "resofilt~",
+        "moog~",
+        "flt.moog_vcf~",
+        "synth.dubdub~"
     ]
 }

@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ofelia",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ofDragged",
+    "description": "`ofDragged` listens for files dragged into the graphics window, outputting a list of their filenames and a separate list containing the x/y drag position. The listener is enabled by default and can be toggled with `setEnabled` (0 or 1); its listening order defaults to 50 and can be changed with `setOrder`.",
+    "categories": [
+        "Control I/O",
+        "File I/O"
+    ],
+    "similar": [
+        "ofMouseDragged",
+        "ofTouchUp",
+        "ofTouchDoubleTap",
+        "ofCancelPressed"
+    ],
+    "source_archive": "ofelia-v4.0.0-(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "ofelia/abs/ofDragged-help.pd"
+}

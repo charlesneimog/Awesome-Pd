@@ -26,9 +26,9 @@
         "Text"
     ],
     "similar": [
-        "midi",
-        "note.out",
-        "noteinfo",
-        "borax"
+        "midi.prg2str",
+        "midi.ctl2str",
+        "midi.key2str",
+        "midi2note"
     ]
 }

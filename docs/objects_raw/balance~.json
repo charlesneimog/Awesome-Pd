@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "pan2~",
-        "minimum",
-        "poltocar",
-        "pow~"
+        "frac.mul",
+        "quantize~",
+        "frac.add",
+        "hid_polar"
     ]
 }

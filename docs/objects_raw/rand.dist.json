@@ -25,9 +25,9 @@
         "Stochastic"
     ],
     "similar": [
-        "rand.f~",
         "rand.f",
-        "decide",
+        "rand.f~",
+        "rand.u",
         "rand.i"
     ]
 }

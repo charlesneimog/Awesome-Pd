@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "swe~",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "swe~",
+    "description": "`swe~` uses Swiss Ephemeris data to calculate astronomical-body longitude, latitude, and distance, including at audio rate or into a Pd array. Its creation argument selects a planet number, and additional ephemeris files may require setting their location with a `path` message.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "cxstddev",
+        "cxavgdev",
+        "array.variance",
+        "vmin"
+    ],
+    "source_archive": "swe~-v0.7-(Darwin-i386-32)(Sources)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "swe~/swe~-help.pd"
+}

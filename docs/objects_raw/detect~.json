@@ -25,9 +25,9 @@
         "Descriptors"
     ],
     "similar": [
+        "voicing_detector~",
+        "array.bpm",
         "beat~",
-        "sharpness~",
-        "tonalness",
-        "cepstrumPitch~"
+        "framespect~"
     ]
 }

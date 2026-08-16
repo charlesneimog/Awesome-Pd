@@ -1,0 +1,28 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "rtc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "super-rhythm",
+    "description": "`super-rhythm` is a rhythm model that generates rhythms from a supplied collection of entry delays (EDs), with selectable patterns and selection principles such as alea, series, sequence, and rota. A key usage detail is that the ED supply can be provided as a list—either constructed with objects such as `make-ED-scale` or sent directly—while the first control toggles generation on and off.",
+    "categories": [
+        "Sequencers",
+        "Stochastic / Probabilistic"
+    ],
+    "similar": [
+        "markov-rhythm",
+        "ED-rhythm",
+        "alea-rhythm",
+        "choice-rhythm"
+    ],
+    "source_archive": "rtc-v0.0.extended--externals.zip",
+    "source_member": "rtc/super-rhythm-help.pd"
+}

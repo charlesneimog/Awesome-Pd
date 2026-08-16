@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "powline",
+    "description": "`powline` ramps to new values like `line`, with the ramp shaped by raising numbers to a specified power; its creation arguments set the initial value, time grain (20 ms by default), and power. Send a value/time pair to ramp, a single number to jump immediately, `stop` to halt output, or `set` to change the value without output.",
+    "categories": [
+        "Envelopes"
+    ],
+    "similar": [
+        "powline~",
+        "line",
+        "rpowline~",
+        "rexpline"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/powline-help.pd"
+}

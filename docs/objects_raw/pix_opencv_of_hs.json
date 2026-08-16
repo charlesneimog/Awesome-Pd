@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pix_opencv",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pix_opencv_of_hs",
+    "description": "`pix_opencv_of_hs` applies the Horn–Schunck optical-flow algorithm to a video stream to analyze movement. It provides the largest movement amplitude, the angle of the block with maximum movement, and the average block-movement angle (both in degrees from -180 to 180), while marking the maximum with a white arrow; the help patch warns that the object is experimental.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "pix_opencv_of_bm",
+        "pix_opencv_of_lk",
+        "pix_opencv_opticalflow",
+        "pix_opencv_lk"
+    ],
+    "source_archive": "pix_opencv-v0.4-(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "pix_opencv/help/pix_opencv_of_hs-help.pd"
+}

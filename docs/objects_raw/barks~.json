@@ -25,9 +25,9 @@
         "Descriptors"
     ],
     "similar": [
-        "barkSpecFlatness",
+        "barkSpec",
+        "barkSpec~",
         "barkSpecSpread",
-        "barkSpecSkewness",
-        "barkSpecCentroid~"
+        "barkSpecSpread~"
     ]
 }

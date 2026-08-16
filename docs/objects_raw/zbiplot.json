@@ -27,8 +27,8 @@
     ],
     "similar": [
         "biplot",
-        "coeff2pz",
-        "bicoeff",
-        "graph~"
+        "fd_plot",
+        "cube_sphere",
+        "ui.plot~.lin2"
     ]
 }

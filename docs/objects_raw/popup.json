@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "flatgui",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "popup",
+    "description": "`popup` provides a popup menu for Pd whose entries can be selected by index or symbol name. Its left outlet sends a bang on load, which can be routed to set a default selection.",
+    "categories": [
+        "GUI"
+    ],
+    "similar": [
+        "menubutton",
+        "keyboard_layout",
+        "pmenu",
+        "c.menu"
+    ],
+    "source_archive": "flatgui-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "flatgui/popup-help.pd"
+}

@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pof",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pofutil",
+    "description": "`pofutil` provides assorted path, directory, file, string, time, download, and archive utilities for Pd/OpenFrameworks patches. File operations such as creating, removing, renaming, copying, and moving are asynchronous by default; send `sync 1` to run them in the Pd thread and `sync 0` to restore threaded operation.",
+    "categories": [
+        "General Utilities",
+        "File I/O"
+    ],
+    "similar": [
+        "path.is_dir",
+        "path.file",
+        "0autopreset",
+        "path.split"
+    ],
+    "source_archive": "pof[v0.7-19-g155a](Linux-amd64-32).dek",
+    "source_member": "pof/pofutil-help.pd"
+}

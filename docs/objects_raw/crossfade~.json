@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "rtc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "crossfade~",
+    "description": "`crossfade~` crossfades between two input signals using a sine function, avoiding the “hole in the middle” effect associated with linear fading. Its crossfade control uses a range of 0–127.",
+    "categories": [
+        "Routing"
+    ],
+    "similar": [
+        "pp.xfade~",
+        "xfade2~",
+        "pp.xfade-st~",
+        "pdp_mix"
+    ],
+    "source_archive": "rtc-v0.0.extended--externals.zip",
+    "source_member": "rtc/crossfade~-help.pd"
+}

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pix_opencv",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pix_opencv_of_bm",
+    "description": "`pix_opencv_of_bm` applies a block-matching optical-flow algorithm to an image stream to detect movement, marking the block with the greatest motion using a white arrow. It reports the largest movement amplitude, that block’s angle, and the average movement angle; angles are in degrees from -180 to 180, and parameters such as block size, shift size, search range, threshold, and minimum block count can be configured.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "pix_opencv_of_lk",
+        "pix_opencv_of_hs",
+        "pix_opencv_opticalflow",
+        "pix_opencv_camshift"
+    ],
+    "source_archive": "pix_opencv-v0.4-(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "pix_opencv/help/pix_opencv_of_bm-help.pd"
+}

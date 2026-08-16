@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "flt.c_bpf~",
+    "description": "`flt.c_bpf~` calculates the five biquad coefficients (`b0`, `b1`, `b2`, `a1`, and `a2`) for a band-pass filter, intended for use with an object such as `flt.biquad~`. It accepts a control signal and lets you set the center frequency in Hz and the quality factor Q, where Q is defined as frequency divided by bandwidth.",
+    "categories": [
+        "Filters"
+    ],
+    "similar": [
+        "flt.c_hpf~",
+        "flt.c_peak~",
+        "flt.c_lpf~",
+        "flt.c_apf"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/flt.c_bpf~-help.pd"
+}

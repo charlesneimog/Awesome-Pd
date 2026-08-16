@@ -29,7 +29,7 @@
     "similar": [
         "tabplayer~",
         "gran.player~",
-        "buffer~",
-        "pvoc.player~"
+        "pvoc.player~",
+        "DEAPlayer~"
     ]
 }

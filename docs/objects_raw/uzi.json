@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
-        "bangdiv",
         "presets.m",
         "gemargs",
-        "loop"
+        "open_help",
+        "openHelp"
     ]
 }

@@ -28,7 +28,7 @@
     "similar": [
         "greaterthan~",
         "lessthaneq~",
-        "notequals~",
-        "lessthan~"
+        "lessthan~",
+        "equals~"
     ]
 }

@@ -25,9 +25,9 @@
         "Routing"
     ],
     "similar": [
-        "mux~",
-        "gate~",
-        "multiplex",
-        "multiplex~"
+        "selector",
+        "clean_selector~",
+        "flow.select",
+        "switch2"
     ]
 }

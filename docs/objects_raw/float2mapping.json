@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "puremapping",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "float2mapping",
+    "description": "`float2mapping` maps floating-point values between ranges, with minimum and maximum values shown for the mapping. Send `calibrate $1`, typically from a toggle, to control its learning/calibration mode.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "mapping2float",
+        "degrees2mapping",
+        "float24",
+        "radians2mapping"
+    ],
+    "source_archive": "puremapping-v0.0--externals.zip",
+    "source_member": "puremapping/float2mapping-help.pd"
+}

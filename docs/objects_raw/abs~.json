@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "power~",
-        "sgn~",
-        "tavg~",
-        "rint~"
+        "math.abs~",
+        "cmplxabs~",
+        "absgn~",
+        "matrix.abs"
     ]
 }

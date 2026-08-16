@@ -26,8 +26,8 @@
     ],
     "similar": [
         "part_velsphere",
+        "part_vertex",
         "cone",
-        "part_head",
-        "part_vertex"
+        "part_targetcolor"
     ]
 }

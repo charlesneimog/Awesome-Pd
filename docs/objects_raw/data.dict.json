@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "data.dict",
+    "description": "`data.dict` is a dictionary container that stores single values or lists by symbolic keys, with support for nested dictionaries. Its contents can be queried and modified, output with a bang, and read from or written to JSON files; a list sets the dictionary as key-value pairs.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "dict.keys",
+        "dict.values",
+        "dict.size",
+        "dict.get"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/data.dict-help.pd"
+}

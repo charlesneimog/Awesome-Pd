@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "easyflow",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "colorSyntax",
+    "description": "`colorSyntax` outputs a color value from a color-name symbol or a three-value list, for use with Pd GUI color messages. Three-value input supports RGB, HSB, or HSL mode, with HSL used by default; the same syntax can be supplied as creation arguments or to the hot inlet.",
+    "categories": [
+        "GUI"
+    ],
+    "similar": [
+        "colorTriF",
+        "colorCircF",
+        "color.rgbset",
+        "rgb-color"
+    ],
+    "source_archive": "easyflow[v0.3.0].dek",
+    "source_member": "easyflow/colorSyntax-help.pd"
+}

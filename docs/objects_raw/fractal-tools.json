@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "chaos",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fractal-tools",
+    "description": "The help patch presents `fractal-tools` as a tool associated with a discontinuous base attractor example using `base3`, alongside `search-tools` and `examples/readme-fractals`. The available patch text does not provide enough information to determine `fractal-tools`’ exact behavior, purpose, or how messages such as `lyapunov 0 100 1000` are used.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "search-tools",
+        "mlogistic",
+        "j.message_array",
+        "wave-rhythm"
+    ],
+    "source_archive": "chaos-v0.0.extended-(Linux-i386-32)(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "chaos/fractal-tools-help.pd"
+}

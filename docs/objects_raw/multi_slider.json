@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "mapping",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "multi_slider",
+    "description": "`multi_slider` is a control/GUI abstraction intended to work with multiple slider values, as suggested by its use alongside several `vsl` objects. The help patch shows that it accepts a list in its first inlet and a float in its second, but it does not provide enough information to state the precise behavior of these inputs.",
+    "categories": [
+        "GUI"
+    ],
+    "similar": [
+        "slider",
+        "c.slider",
+        "vslider",
+        "ui.sliders"
+    ],
+    "source_archive": "mapping-v0.0.extended--externals.zip",
+    "source_member": "mapping/multi_slider-help.pd"
+}

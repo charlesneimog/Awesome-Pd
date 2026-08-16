@@ -27,8 +27,8 @@
     ],
     "similar": [
         "fluid.concataudiofiles",
-        "capture~",
         "openfile",
+        "capture~",
         "scala"
     ]
 }

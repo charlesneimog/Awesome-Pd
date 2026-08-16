@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "string.equal",
+    "description": "`string.equal` compares an incoming string or symbol with a comparison subject and outputs 1 when they are equal, otherwise 0. Set the comparison subject with the optional symbol argument, the second inlet, or the `@subj` property.",
+    "categories": [
+        "Text"
+    ],
+    "similar": [
+        "string.contains",
+        "string.ends_with",
+        "string.starts_with",
+        "string.remove"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/string.equal-help.pd"
+}

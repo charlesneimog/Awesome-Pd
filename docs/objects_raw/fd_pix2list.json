@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_pix2list",
+    "description": "`fd_pix2list` dumps an incoming Gem list as a grayscale list whose size is a power of two, cropping and truncating non-power-of-two images according to the smaller image dimension. It uses `iemmatrix` to transpose and reverse the list so it is ordered left to right like a waveform, and requires Gem and `iemmatrix`.",
+    "categories": [
+        "Graphics",
+        "Data Structures"
+    ],
+    "similar": [
+        "fd_any2list",
+        "fd_array2pix",
+        "gemlist",
+        "fd_bufvid"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_pix2list-help.pd"
+}

@@ -26,9 +26,9 @@
         "Filters"
     ],
     "similar": [
-        "comb~",
-        "comb.rev~",
-        "filterdelay~",
-        "allpass~"
+        "flt.fb_comb~",
+        "comb.filt~",
+        "flt.ff_comb~",
+        "combfilter"
     ]
 }

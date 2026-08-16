@@ -1,0 +1,31 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ssr",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ssr_dca~",
+    "description": "The help patch places `ssr_dca~` in an SSR setup alongside test signals, `ssr_messages`, and a 19-channel `dac~`. It instantiates `ssr_dca~` with the arguments `2` and `circle.asd`, but the supplied patch text is insufficient to establish its exact signal-processing behavior.",
+    "categories": [
+        "Multichannel"
+    ],
+    "similar": [
+        "ssr_wfs~",
+        "ssr_aap~",
+        "mc.copy~",
+        "mc.concat"
+    ],
+    "source_archive": "ssr[v0.6.1](Darwin-amd64-32)(Linux-amd64-32)(Windows-amd64-32).dek",
+    "source_member": "ssr/ssr_dca~-help.pd"
+}

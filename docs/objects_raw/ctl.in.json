@@ -26,9 +26,9 @@
         "Control IO"
     ],
     "similar": [
-        "pgm.in",
         "touch.in",
-        "note.in",
-        "midi.in"
+        "pgm.in",
+        "mpe.in",
+        "note.in"
     ]
 }

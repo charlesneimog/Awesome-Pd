@@ -26,8 +26,8 @@
     ],
     "similar": [
         "part_information",
-        "part_render",
+        "part_draw",
         "part_head",
-        "part_draw"
+        "part_move"
     ]
 }

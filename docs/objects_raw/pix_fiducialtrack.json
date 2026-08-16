@@ -27,8 +27,8 @@
     ],
     "similar": [
         "pix_writer",
+        "pix_film+",
         "pix_multiimage",
-        "pix_write",
-        "pix_imageInPlace"
+        "pix_write"
     ]
 }

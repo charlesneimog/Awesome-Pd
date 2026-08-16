@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "vanilla",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "line",
+    "description": "`line` is a ramp generator that accepts target-and-time pairs and slews its output to the target value. Send a single number to jump immediately, or use `set` to change the current value and stop without producing output.",
+    "categories": [
+        "Envelopes"
+    ],
+    "similar": [
+        "rexpline",
+        "expline",
+        "line~",
+        "powline"
+    ],
+    "source_archive": "vanilla-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "vanilla/line-help.pd"
+}

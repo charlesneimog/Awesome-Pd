@@ -26,8 +26,8 @@
     ],
     "similar": [
         "pix_motionblur",
-        "pix_freeframe",
-        "pix_frei0r",
-        "pix_indycam"
+        "pix_blob",
+        "pix_buf",
+        "pix_halftone"
     ]
 }

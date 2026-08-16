@@ -25,9 +25,9 @@
         "Oscillators"
     ],
     "similar": [
+        "pb.triangle~",
         "trapezoid~",
-        "bl.wavetable~",
-        "saw~",
-        "cycle~"
+        "triangulator~",
+        "triangulatord~"
     ]
 }

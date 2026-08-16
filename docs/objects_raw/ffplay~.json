@@ -1,0 +1,31 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "quilt",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ffplay~",
+    "description": "`ffplay~` implements FFmpeg-based audio playback for various media formats, including URLs and M3U playlists, with playback-speed control. Use messages such as `open`, `play`, `seek`, and `interp`; its last outlet can send metadata and track information.",
+    "categories": [
+        "File I/O",
+        "Samplers",
+        "Networking"
+    ],
+    "similar": [
+        "pp.sfplayer~",
+        "play-audio-file~",
+        "DEAPlayer~",
+        "array.play~"
+    ],
+    "source_archive": "quilt[v0.8.3](Linux-amd64-32).dek",
+    "source_member": "quilt/ffplay~-help.pd"
+}

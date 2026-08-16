@@ -27,7 +27,7 @@
     "similar": [
         "impseq~",
         "sequencer~",
-        "seq8.m~",
-        "metronome"
+        "tseq",
+        "seq.toggles"
     ]
 }

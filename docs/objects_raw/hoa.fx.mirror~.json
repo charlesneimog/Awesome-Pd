@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "hoa.fx.mirror~",
+    "description": "`hoa.fx.mirror~` reveals or hides the mirror image of a sound field. A control value of 1 selects the original field, 0 combines the original and mirrored fields, and -1 selects the mirrored field.",
+    "categories": [
+        "Ambisonics"
+    ],
+    "similar": [
+        "hoa.fx.ringmod~",
+        "hoa.fx.gain~",
+        "hoa.fx.delay~",
+        "hoa.fx.sum~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/hoa/hoa.fx.mirror~-help.pd"
+}

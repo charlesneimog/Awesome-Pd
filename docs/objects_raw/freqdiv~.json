@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "sigpack",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "freqdiv~",
+    "description": "`freqdiv~` processes an input signal by mirroring it at specified borders. Its denominator control accepts an integer from 0 to 8, and the creation argument defaults to 1.",
+    "categories": [
+        "Distortion"
+    ],
+    "similar": [
+        "foldover~",
+        "wavewrap~",
+        "foldback~",
+        "diode~"
+    ],
+    "source_archive": "sigpack[v0.0.45](Darwin-amd64-32)(Darwin-i386-32)(Sources).dek",
+    "source_member": "sigpack/freqdiv~-help.pd"
+}

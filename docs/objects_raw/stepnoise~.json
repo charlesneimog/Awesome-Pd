@@ -26,9 +26,9 @@
         "Stochastic"
     ],
     "similar": [
-        "dust~",
+        "stepnoise",
         "rampnoise~",
         "lfnoise~",
-        "stepnoise"
+        "dust~"
     ]
 }

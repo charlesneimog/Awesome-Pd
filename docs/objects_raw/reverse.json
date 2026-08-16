@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
+        "break",
+        "retrieve",
         "swap2",
-        "merge",
-        "slice",
-        "retrieve"
+        "substitute"
     ]
 }

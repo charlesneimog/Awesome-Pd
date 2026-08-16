@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "RabbitControl",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "sizeprefix",
+    "description": "`sizeprefix` passes the original input list through its left outlet and outputs a 4-byte big-endian size prefix from its right outlet. It is useful when preparing data for transmission over protocols such as TCP.",
+    "categories": [
+        "Networking"
+    ],
+    "similar": [
+        "sppp",
+        "slipenc",
+        "proto.feelworld",
+        "slipdec"
+    ],
+    "source_archive": "RabbitControl[v2.0.0](Windows-amd64-32).dek",
+    "source_member": "RabbitControl/sizeprefix-help.pd"
+}

@@ -26,9 +26,9 @@
         "Control IO"
     ],
     "similar": [
-        "note.in",
-        "ctl.in",
-        "pgm.in",
-        "midi.learn"
+        "keyboard",
+        "keypress",
+        "suspedal",
+        "note.in"
     ]
 }

@@ -25,9 +25,9 @@
     "title": "barkSpecSlope",
     "description": "The barkSpecSlope object calculates the slope of the Bark spectrum for a given audio segment. It takes an audio sample array and a Bark filterbank spacing as creation arguments. This object is used for offline analysis, processing a specified window of audio samples.",
     "similar": [
-        "barkSpecRolloff",
-        "barkSpecBrightness",
+        "barkSpecSlope~",
         "barkSpec",
-        "barkSpecSlope~"
+        "specSlope",
+        "barkSpecRolloff"
     ]
 }

@@ -9,12 +9,12 @@
     ],
     "download_link": "",
     "available_on_deken": true,
-    "bug_reports": "https://github.com/charlesneimog/pd-neimog/issues",
+    "bug_reports": "https://github.com/charlesneimog/pd-xlab/issues",
     "developers": [
         "Charles K. Neimog"
     ],
     "part_of_library": true,
-    "library_name": "neimog",
+    "library_name": "xlab",
     "categories": [
         "Ambisonics"
     ],
@@ -28,8 +28,8 @@
     ],
     "similar": [
         "saf.encoder~",
-        "crossover~",
-        "0x7c0x7c0x7e",
-        "tCube3D"
+        "hoa.2d.decoder~",
+        "ambi_decode3",
+        "hoa.2d.encoder~"
     ]
 }

@@ -28,8 +28,8 @@
     ],
     "similar": [
         "pattern",
-        "sequencer",
-        "polymetro~",
-        "score2"
+        "euklid",
+        "rhythm.euclid",
+        "sequencer"
     ]
 }

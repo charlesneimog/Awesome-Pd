@@ -26,9 +26,9 @@
         "Multichannel"
     ],
     "similar": [
-        "gatedelay~",
         "trig.delay2~",
+        "gatedelay~",
         "delay~",
-        "fbdelay~"
+        "n_delay2p_line~"
     ]
 }

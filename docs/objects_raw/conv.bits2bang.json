@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "conv.bits2bang",
+    "description": "`conv.bits2bang` converts a list of bits into bang events, sending a bang from the corresponding outlet for each enabled bit in its default mode. The number of outlets is set by the initialization-only `N` argument (1–64); in `@poly` mode, intended for use with `clone`, each enabled bit instead produces a `(BIT_IDX bang)` list.",
+    "categories": [
+        "Routing"
+    ],
+    "similar": [
+        "conv.list2props",
+        "route.bang",
+        "fd_bang",
+        "flow.list2many"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/conv.bits2bang-help.pd"
+}

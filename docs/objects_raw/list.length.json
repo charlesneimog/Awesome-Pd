@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list.length",
+    "description": "`list.length` outputs the number of atoms in an input list. It also accepts an `mlist` and reports the number of elements in that list.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "list-len",
+        "list.last",
+        "list-drip2",
+        "ceammc.list"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/list.length-help.pd"
+}

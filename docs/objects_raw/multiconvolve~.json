@@ -27,8 +27,8 @@
     ],
     "similar": [
         "conv~",
-        "comb.rev~",
-        "burrow~",
-        "free.rev~"
+        "convolve~",
+        "hoa.fx.convolve~",
+        "c.convolve~"
     ]
 }

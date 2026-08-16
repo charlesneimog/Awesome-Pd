@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "automatonism",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "trigons",
+    "description": "`trigons` is a “rough-edged” oscillator whose waveform can crossfade between triangle and sawtooth and be shaped with added harmonics. Pitch, waveform, and harmonics accept CV control, while its FM input includes an onboard attenuator for scaling incoming CV.",
+    "categories": [
+        "Oscillators"
+    ],
+    "similar": [
+        "wtable",
+        "bwl-osc",
+        "triangle~",
+        "2op-fm"
+    ],
+    "source_archive": "automatonism[v0.4.2.4].dek",
+    "source_member": "automatonism/patch_editor_abs/trigons-help.pd"
+}

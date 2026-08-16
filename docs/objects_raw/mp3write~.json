@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "unauthorized",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "mp3write~",
+    "description": "`mp3write~` writes an incoming audio signal to an MP3 file, with configurable sample rate, bitrate, channel mode, and quality. Open a file before starting recording; `append` is the default recording mode, while `truncate` replaces existing content, and `stop` also writes a tag.",
+    "categories": [
+        "File I/O"
+    ],
+    "similar": [
+        "mp3fileout~",
+        "sfwrite~",
+        "fd_write2",
+        "fd_write1"
+    ],
+    "source_archive": "unauthorized[v0.1](Windows-amd64-32)(Sources).dek",
+    "source_member": "unauthorized/mp3write~-help.pd"
+}

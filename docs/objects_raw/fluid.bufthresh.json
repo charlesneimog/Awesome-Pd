@@ -32,8 +32,8 @@
     ],
     "similar": [
         "expand~",
+        "pvcompand~",
         "compress~",
-        "noisegate~",
-        "pvcompand~"
+        "noisegate~"
     ]
 }

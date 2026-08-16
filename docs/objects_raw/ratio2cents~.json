@@ -26,9 +26,9 @@
         "Multichannel"
     ],
     "similar": [
-        "cents2ratio~",
         "ratio2cents",
-        "cents2ratio",
-        "cents2frac"
+        "cents2ratio~",
+        "lin2db~",
+        "ceil~"
     ]
 }

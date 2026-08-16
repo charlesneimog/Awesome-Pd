@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "Cream",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "c.menu",
+    "description": "`c.menu` displays a list of items and provides selection, editing, and mouse interaction by click or hover. Its items can be modified with messages such as `append`, `insert`, `delete`, `setitem`, and `clear`; when editing the list in the inspector, single and double quotation marks act as separators.",
+    "categories": [
+        "GUI"
+    ],
+    "similar": [
+        "jp.menu",
+        "pmenu",
+        "ui.menu",
+        "c.tab"
+    ],
+    "source_archive": "Cream-v0.4-beta-(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "Cream/helps/c.menu-help.pd"
+}

@@ -27,9 +27,9 @@
         "Multichannel"
     ],
     "similar": [
-        "vsaw~",
         "bl.osc~",
-        "square~",
-        "bl.vsaw~"
+        "vsaw~",
+        "bl.vsaw~",
+        "bl.saw2~"
     ]
 }

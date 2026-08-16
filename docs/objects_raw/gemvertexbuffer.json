@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "glsl_program",
         "vertex_program",
-        "mesh_square",
-        "glsl"
+        "gemframebuffer",
+        "gemcubeframebuffer",
+        "part_vertex"
     ]
 }

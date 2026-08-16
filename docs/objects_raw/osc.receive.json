@@ -27,8 +27,8 @@
     ],
     "similar": [
         "osc.send",
+        "net.osc.receive",
         "osc.parse",
-        "osc.format",
-        "osc.route"
+        "osc.in"
     ]
 }

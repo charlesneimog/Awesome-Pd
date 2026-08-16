@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "rtc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "panning",
+    "description": "`panning` performs equal-power panning between left and right outputs, based on John Chowning’s paper. It uses a controller value in the 0–127 range to set the position from left through center to right.",
+    "categories": [
+        "Routing"
+    ],
+    "similar": [
+        "pansig~",
+        "pan.lin~",
+        "pan.cos~",
+        "cp-pan~"
+    ],
+    "source_archive": "rtc-v0.0.extended--externals.zip",
+    "source_member": "rtc/panning-help.pd"
+}

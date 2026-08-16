@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "lornorm",
+    "description": "`lornorm` computes the Lorenz equations and is described as related to `lorenz`, but the patch does not provide enough text to explain the difference between them. It takes no creation arguments, and its `print` method is useful for graphing.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "lor~",
+        "lorsig~",
+        "norm",
+        "lorenz"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/lornorm-help.pd"
+}

@@ -28,6 +28,6 @@
         "rdiv~",
         "rminus",
         "rminus~",
-        "modulo~"
+        "math.sync_div"
     ]
 }

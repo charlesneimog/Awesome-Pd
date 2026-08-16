@@ -27,8 +27,8 @@
     ],
     "similar": [
         "glsl_vertex",
-        "glsl_program",
         "glsl_fragment",
-        "glsl"
+        "glsl_program",
+        "multimodel"
     ]
 }

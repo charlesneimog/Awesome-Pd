@@ -26,8 +26,8 @@
     ],
     "similar": [
         "pix_freeframe",
-        "pix_indycam",
+        "pix_chroma_key",
         "pix_rtx",
-        "pix_chroma_key"
+        "fragment_program"
     ]
 }

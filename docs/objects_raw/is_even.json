@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "is_even",
+    "description": "`is_even` checks whether an input number is even, outputting 1 when it can be divided exactly by 2 and otherwise 0. Float inputs are converted to integers before the check, and passed even numbers are available from a second outlet.",
+    "categories": [
+        "Logic"
+    ],
+    "similar": [
+        "is_odd",
+        "is_any",
+        "is_list",
+        "is_pointer"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/is_even-help.pd"
+}

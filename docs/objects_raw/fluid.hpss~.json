@@ -30,8 +30,8 @@
     "categories": [],
     "similar": [
         "fluid.bufhpss",
-        "fluid.buftransientslice",
-        "fluid.bufampslice",
-        "fluid.buftransients"
+        "fluid.sines~",
+        "fluid.ampslice~",
+        "fluid.pitch~"
     ]
 }

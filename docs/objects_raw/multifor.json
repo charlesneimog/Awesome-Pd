@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "hid",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "multifor",
+    "description": "The help patch is insufficient to determine what `multiforA` and `multiforB` do or what purpose they serve. It only shows the two objects and the numeric messages 7 and 12, without enough context to establish their behavior or usage.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "multishared",
+        "multiple",
+        "multilib",
+        "multiplexx"
+    ],
+    "source_archive": "hid-0.7-1[v0.7-1](Darwin-arm64-32)(Sources).dek",
+    "source_member": "hid-0.7-1/src/pd-lib-builder/tests/multifor/multifor-help.pd"
+}

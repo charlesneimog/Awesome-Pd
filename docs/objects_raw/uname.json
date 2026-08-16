@@ -1,0 +1,31 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "hcs",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "uname",
+    "description": "`uname` retrieves uname system information when it receives a bang. Its output can be split into five symbols using `unpack symbol symbol symbol symbol symbol`.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "hostname",
+        "uid2username",
+        "gid2group_name",
+        "system.hostname"
+    ],
+    "source_archive": "hcs[v0.2.1](Darwin-amd64-32)(Darwin-arm64-32)(Linux-amd64-32)(Linux-arm64-32)(Linux-armv7-32)(Linux-i386-32)(Windows-amd64-32)(Windows-i386-32).dek",
+    "source_member": "hcs/uname-help.pd"
+}

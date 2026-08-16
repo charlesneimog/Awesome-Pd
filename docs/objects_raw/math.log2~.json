@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "math.log2~",
+    "description": "`math.log2~` computes the base-2 logarithm of each value in an input signal and outputs the result as a signal. A key special case is that an input of 1 produces +0, while positive infinity produces positive infinity.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "math.log2",
+        "math.log10~",
+        "math.log~",
+        "math.log"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/math.log2~-help.pd"
+}

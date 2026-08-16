@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "chaos.std0",
+    "description": "`chaos.std0` is a non-interpolating chaotic generator based on the standard map equations, outputting successive x and y values mapped to the range [-1, 1]. Send a bang to generate the next x-value, or send a float to set k; the optional k, x, and y arguments default to 1, 0.5, and 0, respectively.",
+    "categories": [
+        "Algorithmic"
+    ],
+    "similar": [
+        "chaos.gbman0",
+        "chaos.logistic",
+        "chaos.jong",
+        "chaos.std0~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/chaos.std0-help.pd"
+}

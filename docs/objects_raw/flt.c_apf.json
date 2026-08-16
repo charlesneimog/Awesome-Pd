@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "flt.c_apf",
+    "description": "`flt.c_apf` calculates biquad coefficients for an all-pass filter, outputting the list `b0 b1 b2 a1 a2`. Its center frequency can be specified in hertz with `@freq` (0–22050 Hz), or as angular frequency using `@rad`; the quality factor is controlled by `@q`, and the `bw` method sets bandwidth in octaves.",
+    "categories": [
+        "Filters"
+    ],
+    "similar": [
+        "flt.c_lpf",
+        "flt.c_hpf",
+        "flt.c_pole",
+        "flt.c_notch"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/flt.c_apf-help.pd"
+}

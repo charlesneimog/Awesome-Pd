@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "prop.split",
+    "description": "`prop.split` separates properties from a data stream by matching configured property selectors. Ordinary values pass through the first outlet, matched property values are output without their selectors, and unmatched properties are sent from the final outlet with their selectors intact.",
+    "categories": [
+        "Routing"
+    ],
+    "similar": [
+        "prop.get~",
+        "prop.join",
+        "split",
+        "route.prop"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/prop.split-help.pd"
+}

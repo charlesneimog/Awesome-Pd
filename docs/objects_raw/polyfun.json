@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "minimum",
-        "rdiv",
-        "rminus~",
-        "maximum"
+        "math.polyeval",
+        "mtx_polyval",
+        "ffpoly",
+        "distance-spearman"
     ]
 }

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "matrix.hist",
+    "description": "`matrix.hist` produces a matrix containing histogram counts for each column of an input matrix. It accepts matrix data or a matrix-constructor list in its first inlet, while the number of bins can be set by the creation argument or as an integer in the second inlet (minimum 0).",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "matrix.cos",
+        "array.hist",
+        "list.histogram",
+        "matrix.mean"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/matrix.hist-help.pd"
+}

@@ -26,9 +26,9 @@
         "Distortion"
     ],
     "similar": [
-        "overdrive~",
+        "tanh",
+        "math.tanh~",
         "drive~",
-        "shaper~",
-        "tanh"
+        "overdrive~"
     ]
 }

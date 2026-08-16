@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "tabload",
+    "description": "`tabload an_array2` loads data into the named Pd array, serving as the counterpart to `tabsave`. The help patch indicates that its outlet can feed a message box, including the same message box used for saving.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "tabsave",
+        "array.plot",
+        "table16",
+        "tab_const"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/tabload-help.pd"
+}

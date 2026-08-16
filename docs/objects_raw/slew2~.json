@@ -27,8 +27,8 @@
     ],
     "similar": [
         "slew~",
+        "slew",
         "float2sig~",
-        "sig2float~",
-        "slew"
+        "sig2float~"
     ]
 }

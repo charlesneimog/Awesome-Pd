@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iem16",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "tab16read4~",
+    "description": "`tab16read4~` performs 4-point-interpolating lookup in a 16-bit `table16` array, making it useful for samplers and other table-based applications. Its signal input supplies the table index, and a `set` message switches arrays while the creation argument initializes the array name.",
+    "categories": [
+        "Samplers"
+    ],
+    "similar": [
+        "tabread4~~",
+        "tab16play~",
+        "tabread4__",
+        "tab16write~"
+    ],
+    "source_archive": "iem16[v1.2.1](Windows-amd64-32)(Windows-amd64-64)(Windows-i386-32).dek",
+    "source_member": "iem16/tab16read4~-help.pd"
+}

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iem_spec2",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "spec2_dbtorms~",
+    "description": "`spec2_dbtorms~` converts the dB values of a signal spectrum to RMS values. It is like `dbtorms~`, but operates on a spectrum containing (block size / 2) + 1 bins.",
+    "categories": [
+        "Spectral Processing"
+    ],
+    "similar": [
+        "spec2_dbtopow~",
+        "spec2_rmstodb~",
+        "spec2_powtodb~",
+        "spec2_sqrt~"
+    ],
+    "source_archive": "iem_spec2[v1.21.1](Windows-amd64-32)(Windows-amd64-64)(Windows-i386-32).dek",
+    "source_member": "iem_spec2/spec2_dbtorms~-help.pd"
+}

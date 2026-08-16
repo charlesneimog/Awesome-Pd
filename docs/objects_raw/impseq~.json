@@ -25,9 +25,9 @@
         "Sequencers"
     ],
     "similar": [
-        "sequencer~",
         "phaseseq~",
-        "list.seq",
-        "sequencer"
+        "sequencer~",
+        "satk.seq.stepSeq",
+        "ratchet-seq"
     ]
 }

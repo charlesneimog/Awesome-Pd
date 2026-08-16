@@ -28,7 +28,7 @@
     "similar": [
         "note",
         "comment",
-        "spell",
-        "messbox"
+        "entry",
+        "ui.label"
     ]
 }

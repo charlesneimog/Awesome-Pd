@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_textsort2",
+    "description": "`fd_textsort2` bubble-sorts a two-column list stored in a named `text define`, using the first column as the sort key. Give it the text name and a 0-or-1 sort-direction argument, place a matching `text define` object in the patch, and send a bang to sort; it outputs a bang when finished.",
+    "categories": [
+        "Text"
+    ],
+    "similar": [
+        "fd_toroman",
+        "fd_tovowel",
+        "strcat",
+        "fd_nonpulmonic"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_textsort2-help.pd"
+}

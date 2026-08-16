@@ -25,8 +25,8 @@
         "Reverb"
     ],
     "similar": [
-        "plate.rev~",
         "giga.rev~",
+        "plate.rev~",
         "free.rev~",
         "stereo.rev~"
     ]

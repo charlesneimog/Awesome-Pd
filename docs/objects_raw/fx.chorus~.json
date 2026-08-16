@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fx.chorus~",
+    "description": "`fx.chorus~` applies a chorus effect to an input signal and outputs the processed audio. Its delay, depth, frequency, and dry/wet ratio can be adjusted, and the effect can be bypassed with the `@bypass` property.",
+    "categories": [
+        "Chorus/Flanger/Phaser"
+    ],
+    "similar": [
+        "chorus~",
+        "chorus",
+        "chorus.m~",
+        "fx.flanger~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/fx.chorus~-help.pd"
+}

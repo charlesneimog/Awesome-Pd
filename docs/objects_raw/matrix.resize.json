@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "matrix.resize",
+    "description": "`matrix.resize` changes a matrix’s number of rows and columns while keeping its elements and preserving their layout. Specify the new row and column counts as creation arguments or through the second and third inlets, then send matrix data or a matrix-constructor list to the first inlet to output the resized matrix.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "matrix.reshape",
+        "matrix.size",
+        "matrix.replace",
+        "list.resize"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/matrix.resize-help.pd"
+}

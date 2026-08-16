@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fftease",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "bthresher~",
+    "description": "`bthresher~` extends the `thresher~` model by providing independent threshold and damping factors for individual FFT bins, enabling bin-level feedback control. Parameters can be randomized per bin or set with `bin` messages containing the bin number, damping factor, and threshold; its creation arguments specify FFT size and overlap factor, defaulting to 1024 and 8.",
+    "categories": [
+        "FFT",
+        "Spectral Processing"
+    ],
+    "similar": [
+        "magfreq_analysis~",
+        "pp.fft-timbre-st~",
+        "pp.fft-timbre~",
+        "pp.fft-freeze~"
+    ],
+    "source_archive": "fftease[v3.0.1](Windows-i386-32).dek",
+    "source_member": "fftease/bthresher~-help.pd"
+}

@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_pixrecord",
+    "description": "`fd_pixrecord` simplifies handling Gem’s `pix_record` for recording the current `gemwin` pixels to a movie file, with controls for starting and stopping, recording length, filename/path, and frame dimensions. Supplying a filename and path through the first inlet appends an index to each new recording to prevent overwriting, while a full path with extension through the second inlet overrides this safeguard and may overwrite the file.",
+    "categories": [
+        "File I/O",
+        "Graphics"
+    ],
+    "similar": [
+        "pix_record",
+        "pix_buffer_filmopen",
+        "pix_film+",
+        "pix_write"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_pixrecord-help.pd"
+}

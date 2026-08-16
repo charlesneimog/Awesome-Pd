@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_scanline",
-        "pix_posterize",
-        "pix_info",
-        "pix_movement"
+        "pix_test",
+        "pix_movement",
+        "pix_rtx",
+        "pix_posterize"
     ]
 }

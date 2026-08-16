@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "Pd_Spectral_Toolkit",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pd_spectral_toolkit",
+    "description": "`pd_spectral_toolkit` is an overview of the Pd Spectral Toolkit, a collection of objects for frequency-domain processing, including spectral analysis and resynthesis, complex arithmetic, conversions, comparisons, and utilities. Its help patch serves as a categorized object list; use the listed objects, such as `winfft~`, `peaks~`, or `oscbank~`, for specific operations.",
+    "categories": [
+        "Spectral Processing"
+    ],
+    "similar": [
+        "frequor~",
+        "spec2_sub~",
+        "phasedelta~",
+        "binmonitor~"
+    ],
+    "source_archive": "Pd_Spectral_Toolkit[v1.1](Windows-amd64-32).dek",
+    "source_member": "Pd_Spectral_Toolkit/pd_spectral_toolkit-help.pd"
+}

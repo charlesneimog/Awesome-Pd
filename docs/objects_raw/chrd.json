@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "quilt",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "chrd",
+    "description": "`chrd` is a derivative of `muse` that distributes generated chord values across multiple outlets. A bang uses all of its outlets; the `size` message sets how many chord values/outlets are used.",
+    "categories": [
+        "Algorithmic"
+    ],
+    "similar": [
+        "chord-unique",
+        "chord-transpose",
+        "chord-autorotate",
+        "chord-intervals"
+    ],
+    "source_archive": "quilt[v0.8.3](Linux-amd64-32).dek",
+    "source_member": "quilt/chrd-help.pd"
+}

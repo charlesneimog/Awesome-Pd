@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "jit_expr",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "jit_expr",
+    "description": "The `jit_expr` package provides a just-in-time compiled family of expression evaluators: `jit/expr` processes control data, while `jit/expr~` and `jit/fexpr~` process audio signals. Expressions can use typed inlet variables such as `$f#`, `$i#`, `$s#`, and `$v#`, and a bang causes `jit/expr` to evaluate its expression.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "expr",
+        "math.expr",
+        "fd_exp",
+        "ls.unop"
+    ],
+    "source_archive": "jit_expr[v0.1.1](Darwin-amd64-32)(Darwin-i386-32).dek",
+    "source_member": "jit_expr/jit_expr-help.pd"
+}

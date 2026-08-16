@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "jasch_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "strcut",
+    "description": "`strcut` cuts an input symbol at a specified position. The argument in `strcut 3` sets the cut position, which can also be supplied through the inlet labeled “cut-position”.",
+    "categories": [
+        "Text"
+    ],
+    "similar": [
+        "strchr",
+        "symbol_split",
+        "strcat",
+        "strlen"
+    ],
+    "source_archive": "jasch_lib-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "jasch_lib/strcut-help.pd"
+}

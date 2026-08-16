@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "creb",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "bmatrix~",
+    "description": "`bmatrix~` multiplies a signal block by an arbitrary matrix and is mainly intended for spectral processing. Use the `load matrix.bin` message to load a matrix stored as binary floating-point data in column-encoded format.",
+    "categories": [
+        "Spectral Processing"
+    ],
+    "similar": [
+        "spec2_mul_scalar~",
+        "binmax~",
+        "binmix~",
+        "binmonitor~"
+    ],
+    "source_archive": "creb[v0.9.2-3](Windows-amd64-32)(Sources).dek",
+    "source_member": "creb/bmatrix~-help.pd"
+}

@@ -28,7 +28,7 @@
     "similar": [
         "trig.delay~",
         "gatedelay~",
-        "delay~",
-        "smooth~"
+        "n_delay2p_line~",
+        "n_delay1p_line~"
     ]
 }

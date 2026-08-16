@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pix_opencv",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pix_opencv_haarcascade",
+    "description": "`pix_opencv_haarcascade` detects objects in image frames using a trained cascade classifier, reporting the number of detected objects and, for each detection, its center coordinates and radius. Load a classifier with `load <XML file>`; the default argument is `haarcascade_frontalface_alt.xml`.",
+    "categories": [
+        "Machine Learning",
+        "Graphics"
+    ],
+    "similar": [
+        "pix_opencv_knear",
+        "pix_opencv_trackKnn",
+        "pix_opencv_hough_circles",
+        "pix_opencv_camshift"
+    ],
+    "source_archive": "pix_opencv-v0.4-(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "pix_opencv/help/pix_opencv_haarcascade-help.pd"
+}

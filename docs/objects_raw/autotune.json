@@ -26,8 +26,8 @@
     ],
     "similar": [
         "retune",
-        "pgm.out",
-        "ptouch.in",
-        "note.out"
+        "midi.modus",
+        "midi.tuning",
+        "chair.hex-tuning"
     ]
 }

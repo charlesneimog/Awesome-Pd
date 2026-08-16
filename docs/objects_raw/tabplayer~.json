@@ -26,9 +26,9 @@
         "Samplers"
     ],
     "similar": [
-        "play~",
         "player~",
-        "buffer~",
-        "gran.player~"
+        "play~",
+        "snd.play~",
+        "gmes~"
     ]
 }

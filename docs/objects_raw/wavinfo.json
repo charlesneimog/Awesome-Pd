@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ext13",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "wavinfo",
+    "description": "`wavinfo` reads a selected `.wav` file and outputs information about it. The help patch indicates that this information includes the number of samples, channels, sample size, and bitrate, with `openpanel` used to choose the file.",
+    "categories": [
+        "File I/O"
+    ],
+    "similar": [
+        "soundfile_info",
+        "savepanel",
+        "pulqui",
+        "getFile"
+    ],
+    "source_archive": "ext13[v0.17.1-4](Windows-amd64-32)(Sources).dek",
+    "source_member": "ext13/wavinfo-help.pd"
+}

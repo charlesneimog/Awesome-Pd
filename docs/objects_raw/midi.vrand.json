@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "midi.vrand",
+    "description": "`midi.vrand` randomizes the velocity in a NOTE VELOCITY [DUR] list and outputs the list with its note and optional duration preserved. The random range is set by minimum and maximum values, and its mode can assign (replace), add to, or subtract from the original velocity.",
+    "categories": [
+        "MIDI",
+        "Stochastic / Probabilistic"
+    ],
+    "similar": [
+        "midi.oct",
+        "midi.vramp",
+        "midi.modus",
+        "midi.tuning"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/midi.vrand-help.pd"
+}

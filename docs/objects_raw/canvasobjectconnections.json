@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iemguts",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "canvasobjectconnections",
+    "description": "`canvasobjectconnections` queries the connections of an arbitrary object in a specified parent canvas for introspection. Select the target with an `object` index, then use messages such as `inlets`, `outlets`, `inlet`, `outlet`, `inconnect`, or `outconnect`; results are emitted as lists, with connection queries reporting connected object IDs or full connection data suitable for restoration.",
+    "categories": [
+        "Patching"
+    ],
+    "similar": [
+        "canvasconnections",
+        "sendcanvasobject",
+        "canvasobjectposition",
+        "connect"
+    ],
+    "source_archive": "iemguts[v0.4.4](Linux-amd64-32)(Linux-amd64-64)(Linux-arm64-32)(Linux-arm64-64)(Linux-armv7-32)(Linux-armv7-64)(Linux-i386-32)(Linux-i386-64).dek",
+    "source_member": "iemguts/canvasobjectconnections-help.pd"
+}

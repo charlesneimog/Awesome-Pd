@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
-        "change~",
-        "bitsafe~",
-        "any2symbol",
-        "list2int"
+        "fd_swap",
+        "swap2",
+        "metrosnap~",
+        "change~"
     ]
 }

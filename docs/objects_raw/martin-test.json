@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "chaos",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "martin-test",
+    "description": "`martin-test` is a test patch for the discontinuous `martin` (Latoocarfian) attractor, exercising parameter changes, searches, state display, resets, and Lyapunov analysis. It routes `show`, `search`, and `invalid` results to separate print objects and includes a `constrain 0.01` setting for the search.",
+    "categories": [
+        "Debugging"
+    ],
+    "similar": [
+        "popcorn-test",
+        "unit-test-frame",
+        "unit-test-frame~",
+        "unitTesting"
+    ],
+    "source_archive": "chaos-v0.0.extended-(Linux-i386-32)(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "chaos/examples/martin-test-help.pd"
+}

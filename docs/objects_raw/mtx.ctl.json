@@ -27,7 +27,7 @@
     "similar": [
         "range.hsl",
         "knob",
-        "messbox",
-        "meter2~"
+        "grid",
+        "vradio"
     ]
 }

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "tabsave",
+    "description": "`tabsave` outputs the contents and size of a named array as a message, allowing the array data to be stored in a message box. Give the array name as its creation argument, or use `set an_array` to select the target array; the resulting message can be used with `tabload` to restore the data.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "tabload",
+        "tabReverse",
+        "tabsize",
+        "gsave"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/tabsave-help.pd"
+}

@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
+        "minimum~",
         "maximum",
-        "poltocar",
-        "modulo~",
-        "rminus~"
+        "minimax",
+        "vmin"
     ]
 }

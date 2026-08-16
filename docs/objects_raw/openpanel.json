@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "vanilla",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "openpanel",
+    "description": "`openpanel` queries the user for a filename by opening an “Open file” browser when it receives a bang. It can start in the current directory or in a specified directory supplied as a symbol, such as `/tmp` or `C:/`.",
+    "categories": [
+        "File I/O",
+        "GUI"
+    ],
+    "similar": [
+        "dnd-openpanel",
+        "savepanel",
+        "folderpanel",
+        "datei-w"
+    ],
+    "source_archive": "vanilla-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "vanilla/openpanel-help.pd"
+}

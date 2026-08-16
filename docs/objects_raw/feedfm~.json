@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "jl",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "feedfm~",
+    "description": "`jl/feedfm~` performs feedback frequency modulation, with controls for base frequency, carrier and modulator ratios, modulation index, fixed modulation, and feedback. Its four leftmost inlets set base frequency, carrier ratio, modulator ratio, and modulation index; integer multiples of the carrier ratio for the modulator ratio generate harmonic spectra.",
+    "categories": [
+        "Oscillators"
+    ],
+    "similar": [
+        "2op-fm",
+        "fd_fm",
+        "modulator~",
+        "fm~"
+    ],
+    "source_archive": "jl[v0.1.3](Windows-amd64-32).dek",
+    "source_member": "jl/feedfm~-help.pd"
+}

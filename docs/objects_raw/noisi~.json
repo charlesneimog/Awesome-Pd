@@ -29,6 +29,6 @@
         "noish~",
         "rand~",
         "lfnoise~",
-        "randpulse2"
+        "noise"
     ]
 }

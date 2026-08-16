@@ -26,9 +26,9 @@
         "Algorithmic Composition"
     ],
     "similar": [
-        "histo",
         "markov",
-        "prob",
+        "histo",
+        "speed",
         "rand.hist"
     ]
 }

@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "mapping",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "desegment",
+    "description": "`desegment` is a control abstraction with a list inlet, a float inlet, and a float outlet; the example uses `desegment 4` and sends indexed value pairs such as “0 $1” through “3 $1”. The help patch does not explain the transformation it performs or the meaning of its argument, so its purpose cannot be determined reliably from this evidence alone.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "ascseq",
+        "resample",
+        "split_n",
+        "fd_set-element"
+    ],
+    "source_archive": "mapping-v0.0.extended--externals.zip",
+    "source_member": "mapping/desegment-help.pd"
+}

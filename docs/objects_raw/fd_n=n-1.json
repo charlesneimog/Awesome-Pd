@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_n=n-1",
+    "description": "`fd_n=n-1` compares each input float with the previous input and outputs a bang from its first outlet when the number is repeated. Its second outlet outputs the current input value, making the object useful for detecting consecutive identical values in streams such as random or Markov-generated numbers.",
+    "categories": [
+        "Logic"
+    ],
+    "similar": [
+        "fd_once",
+        "fd_updown",
+        "fd_parsenum",
+        "equal"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_n=n-1-help.pd"
+}

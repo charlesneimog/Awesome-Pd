@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
-        "pulsediv~",
-        "bangdiv",
-        "change~",
-        "slew"
+        "satk.util.counter",
+        "count",
+        "flow.count",
+        "fd_iterate"
     ]
 }

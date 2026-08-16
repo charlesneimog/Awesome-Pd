@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
+        "pix_convert",
+        "pix_info",
         "pix_mask",
-        "pix_equal",
-        "pix_multiply",
-        "pix_takealpha"
+        "pix_compare"
     ]
 }

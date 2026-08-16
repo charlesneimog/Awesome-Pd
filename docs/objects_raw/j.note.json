@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "Jamoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "j.note",
+    "description": "The help patch provides insufficient information to describe `j.note`: it contains only “TODO” and references `j.node`. No purpose, behavior, or usage details for `j.note` are documented.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "j.namespace",
+        "sfwrite13~",
+        "throw13~",
+        "messages"
+    ],
+    "source_archive": "Jamoma-v1.0-beta3-(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "Jamoma/helps/j.note-help.pd"
+}

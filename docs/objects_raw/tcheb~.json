@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "tcheb~",
+    "description": "`tcheb~` is a Chebyshev waveshaper intended to support orders up to 256. The help patch shows it used in a signal chain with smoothed controls, multiplication, clipping, and output monitoring, but provides no clearer inlet or parameter usage details.",
+    "categories": [
+        "Distortion"
+    ],
+    "similar": [
+        "cheby~",
+        "+chebyshev~",
+        "pdp_bitdepth",
+        "wscauchy~"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/tcheb~-help.pd"
+}

@@ -34,9 +34,9 @@
         "Dynamics"
     ],
     "similar": [
-        "burrow~",
-        "noisegate~",
-        "compress~",
-        "mindwarp~"
+        "lpg",
+        "squash~",
+        "pvcompand~",
+        "noisegate~"
     ]
 }

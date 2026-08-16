@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "mkmr",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "hv.vline",
+    "description": "`hv.vline` is a `line~`-based replacement for `vline~`, intended for ramps and immediate value jumps such as envelope control. A `stop` message freezes it at its current value, and it does not perform block-boundary calculations.",
+    "categories": [
+        "Envelopes"
+    ],
+    "similar": [
+        "vline~~",
+        "upp.vline~",
+        "vline2env",
+        "hv.curve~"
+    ],
+    "source_archive": "mkmr[v0.1].dek",
+    "source_member": "mkmr/03-Envelopes/hv.vline-help.pd"
+}

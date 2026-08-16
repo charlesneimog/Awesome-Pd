@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
+        "shearXZ",
         "shearYX",
         "shearZY",
-        "shearXZ",
-        "shearYZ"
+        "shearZX"
     ]
 }

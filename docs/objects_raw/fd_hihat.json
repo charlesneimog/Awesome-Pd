@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_hihat",
+    "description": "`fd_hihat` is a noise-based hi-hat sound generator with no creation arguments. In the help patch, it is triggered by bangs from `metro` and its output is sent to `dac~`.",
+    "categories": [
+        "Stochastic"
+    ],
+    "similar": [
+        "synth.hat~",
+        "rojo~",
+        "noise.chua~",
+        "noise.duffing"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_hihat-help.pd"
+}

@@ -27,8 +27,8 @@
     ],
     "similar": [
         "floor~",
-        "db2lin~",
-        "cents2ratio~",
-        "lin2db~"
+        "quantizer~",
+        "ceil~",
+        "db2lin~"
     ]
 }

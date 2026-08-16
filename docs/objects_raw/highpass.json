@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ggee",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "highpass",
+    "description": "`highpass` generates high-pass filter coefficients for `biquad~`, taking frequency and bandwidth control values and outputting a coefficient list. Only its left inlet triggers calculation of new coefficients.",
+    "categories": [
+        "Filters"
+    ],
+    "similar": [
+        "highpass~",
+        "lowpass",
+        "notch",
+        "bandpass"
+    ],
+    "source_archive": "ggee[v0.28](Darwin-arm64-32).dek",
+    "source_member": "ggee/highpass-help.pd"
+}

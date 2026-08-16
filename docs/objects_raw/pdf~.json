@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "e",
-        "acosh",
-        "asinh",
-        "gmean"
+        "modf~",
+        "fd_exp",
+        "fd_ceil",
+        "e"
     ]
 }

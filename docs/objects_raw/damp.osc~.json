@@ -25,9 +25,9 @@
         "Oscillators"
     ],
     "similar": [
-        "randpulse",
-        "pimp",
-        "gaussian~",
-        "cycle~"
+        "osc.sin~",
+        "osc.pulse~",
+        "cz-osc~",
+        "osc.sinfb~"
     ]
 }

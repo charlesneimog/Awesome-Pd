@@ -26,9 +26,9 @@
         "Stochastic"
     ],
     "similar": [
-        "rand~",
-        "noish~",
-        "noisi~",
-        "stepnoise"
+        "lfnoise",
+        "stepnoise~",
+        "stepnoise",
+        "noish~"
     ]
 }

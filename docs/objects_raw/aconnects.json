@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "aconnect",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "aconnects",
+    "description": "`aconnects` is `aconnect` with support for symbolic identifiers, allowing MIDI clients and ports to be connected by names such as “Pure Data” and “Pure Data Midi-Out 1.” Send `reset` to re-read the symbolic identifiers; ordinary messages accepted by `aconnect` work as expected.",
+    "categories": [
+        "MIDI"
+    ],
+    "similar": [
+        "aconnect",
+        "note.out",
+        "bend.out",
+        "midi.sysex"
+    ],
+    "source_archive": "aconnect[v0.5](Linux-amd64-32)(Linux-arm64-32)(Linux-armv7-32)(Linux-i386-32).dek",
+    "source_member": "aconnect/aconnects-help.pd"
+}

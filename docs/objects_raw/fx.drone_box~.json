@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fx.drone_box~",
+    "description": "`fx.drone_box~` is a mono sympathetic-resonance effect that generates a drone from an input signal. Its drone pitch can be set through the second inlet as a MIDI note in the range 36–60, while the processed signal is produced at its outlet.",
+    "categories": [
+        "Filters"
+    ],
+    "similar": [
+        "fx.wahwah~",
+        "flt.hpf12~",
+        "flt.resonbp~",
+        "flt.lpf24~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/fx.drone_box~-help.pd"
+}

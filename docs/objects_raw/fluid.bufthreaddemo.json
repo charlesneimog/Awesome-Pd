@@ -31,9 +31,9 @@
         "MultiThreading"
     ],
     "similar": [
-        "sfload",
-        "pix_image",
-        "coll",
-        "fluid.bufflatten"
+        "list_to_s",
+        "pdp_control",
+        "file.size",
+        "speech.flite"
     ]
 }

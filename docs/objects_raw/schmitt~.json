@@ -27,7 +27,7 @@
     "similar": [
         "schmitt",
         "thresh~",
-        "0x7c0x7c0x7e",
-        "above~"
+        "vthreshold",
+        "0x7c0x7c0x7e"
     ]
 }

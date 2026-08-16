@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "rectangle",
-        "cuboid",
-        "trapezoid",
-        "sphere"
+        "square",
+        "pofcirc",
+        "colorSquare",
+        "cuboid"
     ]
 }

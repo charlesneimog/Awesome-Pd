@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "mrpeach",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "life2x",
+    "description": "`life2x` implements a two-dimensional Game of Life cellular automaton, using Conway’s rule by default and accepting alternative rules such as High Life and Diamoeba. Its creation arguments specify the number of columns and rows; messages can step generations, set or randomize cells, transform the grid, and dump live-cell locations.",
+    "categories": [
+        "Procedural"
+    ],
+    "similar": [
+        "mlife",
+        "boids2d",
+        "l.readsvg",
+        "boids3d"
+    ],
+    "source_archive": "mrpeach[v0.0.20260218](Darwin-amd64-32)(Darwin-amd64-64)(Darwin-arm64-32)(Darwin-arm64-64).dek",
+    "source_member": "mrpeach/life2x-help.pd"
+}

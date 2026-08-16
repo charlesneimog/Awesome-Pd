@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "context",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "classtest",
+    "description": "`classtest` checks whether Pd knows a specified object class, outputting 1 when the class exists and 0 otherwise. It can test built-in or externally provided classes such as `f` and `niagara`, but the help patch notes that abstractions such as `classloader-help` evaluate as false.",
+    "categories": [
+        "Patching"
+    ],
+    "similar": [
+        "classpath",
+        "objectrename",
+        "try",
+        "open"
+    ],
+    "source_archive": "context-v4.0-(Darwin-i386-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "context/iemguts/classtest-help.pd"
+}

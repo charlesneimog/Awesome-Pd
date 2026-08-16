@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_crop",
-        "pix_info",
-        "pix_scanline",
-        "pix_refraction"
+        "pix_refraction",
+        "pix_dot",
+        "pix_takealpha",
+        "pix_kaleidoscope"
     ]
 }

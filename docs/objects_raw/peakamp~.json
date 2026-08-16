@@ -25,9 +25,9 @@
         "Descriptors"
     ],
     "similar": [
+        "maxpeak~",
+        "peakSample",
         "meter~",
-        "vu~",
-        "waveSlope~",
-        "maxpeak~"
+        "tab_find_peaks"
     ]
 }

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "env2vline",
+    "description": "`env2vline` converts an envelope into a sequence of `vline~`-compatible messages containing value and duration, for driving an envelope-controlled signal. It supports stop points in multisegment envelopes; `next` outputs through the next stop point or the envelope’s end, while `reset` returns to the current segment’s starting position.",
+    "categories": [
+        "Envelopes"
+    ],
+    "similar": [
+        "vline2env",
+        "hv.vline",
+        "vline~~",
+        "env.mix"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/env2vline-help.pd"
+}

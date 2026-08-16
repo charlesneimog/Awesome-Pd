@@ -28,8 +28,8 @@
     ],
     "similar": [
         "sfz~",
-        "midiformat",
-        "bend.out",
-        "seq"
+        "sfont.m~",
+        "fluid~",
+        "sample~"
     ]
 }

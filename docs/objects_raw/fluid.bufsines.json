@@ -31,9 +31,9 @@
         "Partial Tracking"
     ],
     "similar": [
-        "fluid.sinefeature~",
         "fluid.sines~",
-        "reanimator~",
-        "residency~"
+        "fluid.buftransients",
+        "fluid.bufsinefeature",
+        "fluid.sinefeature~"
     ]
 }

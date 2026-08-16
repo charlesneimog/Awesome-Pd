@@ -26,8 +26,8 @@
     ],
     "similar": [
         "pix_sig2pix~",
-        "pix_hsv2rgb",
-        "pix_rgb2hsv",
-        "pix_colorclassify"
+        "pix_levels",
+        "pix_blur",
+        "pix_hsv2rgb"
     ]
 }

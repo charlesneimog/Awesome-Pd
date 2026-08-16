@@ -27,7 +27,7 @@
     "similar": [
         "al",
         "tonalness",
-        "barkSpec~",
-        "barkSpecIrregularity~"
+        "roughness",
+        "fluid.bufaudiotransport"
     ]
 }

@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "array-abs",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "array-copy-range",
+    "description": "`array-copy-range` copies a specified range of points from a source array into the currently referenced destination array. A copy message supplies the source array name, source starting index, number of points, and destination starting index, while a `set` message changes the referenced destination array.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "array-copy",
+        "array.copy",
+        "arraycopy",
+        "array-delete"
+    ],
+    "source_archive": "array-abs[v0.1.0].dek",
+    "source_member": "array-abs/array-copy-range-help.pd"
+}

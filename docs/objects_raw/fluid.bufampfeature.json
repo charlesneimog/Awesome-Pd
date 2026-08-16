@@ -32,7 +32,7 @@
     ],
     "similar": [
         "fluid.ampfeature~",
-        "fluid.transientslice~",
+        "fluid.bufonsetfeature",
         "fluid.bufnoveltyfeature",
         "fluid.noveltyfeature~"
     ]

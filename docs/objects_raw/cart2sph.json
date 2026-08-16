@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "sph2cart",
         "pol2sph",
         "cart2pol",
+        "sph2cart",
         "coordinates"
     ]
 }

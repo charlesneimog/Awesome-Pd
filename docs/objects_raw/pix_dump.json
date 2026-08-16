@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_set",
-        "pix_color",
+        "pix_duotone",
         "pix_data",
-        "pix_compare"
+        "pix_draw",
+        "pix_mean_color"
     ]
 }

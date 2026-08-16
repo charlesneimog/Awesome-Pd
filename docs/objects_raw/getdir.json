@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "context",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "getdir",
+    "description": "`getdir` outputs the filesystem directory in which the current patch is operating as a symbol when it receives a bang. A numeric argument such as `getdir 1` or `getdir 2` requests the path of a parent patch at that level, although the help text does not fully state what is returned when no parent exists there.",
+    "categories": [
+        "File I/O"
+    ],
+    "similar": [
+        "strippath",
+        "path.is_dir",
+        "basedir",
+        "path.lsdir"
+    ],
+    "source_archive": "context-v4.0-(Darwin-i386-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "context/ggee/getdir-help.pd"
+}

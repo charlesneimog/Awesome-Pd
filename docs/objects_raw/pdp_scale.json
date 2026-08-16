@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pdp",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pdp_scale",
+    "description": "`pdp_scale` rescales a packet to new dimensions, making it possible to combine packets of different sizes. Set the dimensions with a `dim` message; the `quality` setting selects nearest-neighbour scaling (`0`) or bilinear scaling (`1`).",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "pdp_scope~",
+        "pofscale",
+        "pdp_constant",
+        "pdp_convert"
+    ],
+    "source_archive": "pdp-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "pdp/pdp_scale-help.pd"
+}

@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
+        "capture",
         "dir",
         "fluid.concataudiofiles",
-        "blocksize~",
-        "ms2samps"
+        "scala"
     ]
 }

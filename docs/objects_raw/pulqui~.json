@@ -1,0 +1,32 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pulqui",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pulqui~",
+    "description": "`pulqui~` delays an input signal and generates a delayed scanned “side-chain” signal for manipulating the original signal with `pulquilimiter~` or another process. It automatically chooses the smallest latency above 25 ms that is a multiple of the patch block size, while an optional power-of-two buffer argument selects a fixed starting size; `info` prints the latency to the console.",
+    "categories": [
+        "Delay",
+        "Dynamics"
+    ],
+    "similar": [
+        "pulquilimiter~",
+        "pulquilimiter_b~",
+        "blockdel~",
+        "block_delay~"
+    ],
+    "source_archive": "pulqui[v0.5.0](Darwin-amd64-32)(Darwin-arm64-32)(Linux-amd64-32)(Linux-arm64-32)(Linux-armv7-32)(Linux-i386-32)(Windows-amd64-32)(Windows-i386-32).dek",
+    "source_member": "pulqui/pulqui~-help.pd"
+}

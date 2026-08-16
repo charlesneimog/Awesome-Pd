@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "math.cbrt~",
+    "description": "`math.cbrt~` computes the cube root of each value in an input signal and outputs the resulting signal. It preserves signed zero and signed infinity: ±0 maps to ±0, and ±infinity maps to ±infinity.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "math.cbrt",
+        "math.cosh",
+        "math.ceil",
+        "math.atan"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/math.cbrt~-help.pd"
+}

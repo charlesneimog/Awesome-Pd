@@ -27,8 +27,8 @@
     ],
     "similar": [
         "bicoeff",
-        "resonant~",
         "coeff2pz",
-        "pz2coeff"
+        "bibi~",
+        "bq_coef_notch"
     ]
 }

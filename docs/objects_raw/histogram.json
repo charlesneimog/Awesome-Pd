@@ -27,9 +27,9 @@
         "General Utilities"
     ],
     "similar": [
+        "note2midi",
+        "midi-noteson",
         "tabset",
-        "tabdump",
-        "l2s",
-        "sort"
+        "tabdump"
     ]
 }

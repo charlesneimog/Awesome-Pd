@@ -27,7 +27,7 @@
     "similar": [
         "smooth2",
         "smooth",
-        "glide~",
-        "glide"
+        "line2",
+        "smooth-line"
     ]
 }

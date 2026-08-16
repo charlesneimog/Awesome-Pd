@@ -25,9 +25,9 @@
         "MIDI"
     ],
     "similar": [
-        "touch.in",
         "ptouch.out",
-        "pgm.out",
-        "midiformat"
+        "touch.in",
+        "proto.xtouch_ext",
+        "xbendin"
     ]
 }

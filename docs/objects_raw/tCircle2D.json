@@ -32,8 +32,8 @@
     "categories": [],
     "similar": [
         "tCircle3D",
-        "tCylinder3D",
+        "iCircle2D",
         "tSphere3D",
-        "iCircle3D"
+        "circle~"
     ]
 }

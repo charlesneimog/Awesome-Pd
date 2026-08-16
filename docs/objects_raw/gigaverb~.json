@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "gigaverb~",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "gigaverb~",
+    "description": "`gigaverb~` is a mono-input, stereo-output reverb for simulating spaces ranging from a bathroom to a cathedral. Its parameters control room size, decay time, damping, input bandwidth, and dry, wet, early-reflection, and tail levels; the optional first creation argument sets the maximum room size.",
+    "categories": [
+        "Reverb"
+    ],
+    "similar": [
+        "giga.rev~",
+        "freeverb~",
+        "megaverb",
+        "fx.freeverb~"
+    ],
+    "source_archive": "gigaverb~[v0.4](Linux-arm64-32)(Sources).dek",
+    "source_member": "gigaverb~/gigaverb~-help.pd"
+}

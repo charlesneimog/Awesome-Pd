@@ -27,7 +27,7 @@
     "similar": [
         "bitnormal~",
         "substitute",
-        "trighold~",
-        "list2int"
+        "blocksmooth~",
+        "change~"
     ]
 }

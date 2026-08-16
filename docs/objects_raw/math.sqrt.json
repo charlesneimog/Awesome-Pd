@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "math.sqrt",
+    "description": "`math.sqrt` computes the non-negative square root of an input float and outputs the result. A list input applies the function to every numeric value; negative inputs produce NaN and a domain error, while negative zero returns negative zero.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "math.sqrt~",
+        "complex.sqrt",
+        "math.cos",
+        "math.sin"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/math.sqrt-help.pd"
+}

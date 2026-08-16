@@ -26,8 +26,8 @@
     ],
     "similar": [
         "color",
-        "alpha",
-        "pix_alpha",
-        "specularRGB"
+        "specularRGB",
+        "ambientRGB",
+        "diffuseRGB"
     ]
 }

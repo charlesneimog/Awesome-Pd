@@ -27,9 +27,9 @@
         "Math"
     ],
     "similar": [
-        "sum",
         "sort",
         "length",
-        "median"
+        "prepend",
+        "index"
     ]
 }

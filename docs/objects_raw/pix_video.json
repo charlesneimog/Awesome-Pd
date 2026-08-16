@@ -26,9 +26,9 @@
         "Control I/O"
     ],
     "similar": [
-        "camera",
-        "pix_indycam",
+        "pdp_v4l",
         "gemorb",
+        "gemmouse",
         "gemw32window"
     ]
 }

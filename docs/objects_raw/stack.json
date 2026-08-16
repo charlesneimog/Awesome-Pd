@@ -25,9 +25,9 @@
         "Data Structures"
     ],
     "similar": [
+        "flow.stack",
+        "h_stack",
         "lifop",
-        "fifop",
-        "rotate",
-        "combine"
+        "pack"
     ]
 }

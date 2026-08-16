@@ -26,8 +26,8 @@
     ],
     "similar": [
         "add",
-        "plusequals~",
-        "frac.add",
-        "sum"
+        "add~~",
+        "fd_sum",
+        "cadd~"
     ]
 }

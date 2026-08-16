@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "extra",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "bonk~",
+    "description": "`bonk~` analyzes an incoming audio signal for attacks and measures its spectral envelope with a filterbank. Its two outputs provide the attack’s raw spectrum and cooked analysis, and the `minvel` message sets a minimum velocity so quieter notes are ignored.",
+    "categories": [
+        "Descriptors"
+    ],
+    "similar": [
+        "siginfo",
+        "range~",
+        "barkSpec~",
+        "tonalness"
+    ],
+    "source_archive": "extra-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "extra/bonk~-help.pd"
+}

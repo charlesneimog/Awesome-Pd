@@ -25,9 +25,9 @@
         "Filters"
     ],
     "similar": [
+        "highshelf",
         "lowshelf~",
-        "eq~",
-        "bandpass~",
+        "flt.highshelf~",
         "highpass~"
     ]
 }

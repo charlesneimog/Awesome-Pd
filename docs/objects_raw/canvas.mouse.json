@@ -26,9 +26,9 @@
         "GUI"
     ],
     "similar": [
-        "pad",
         "mouse",
-        "click",
-        "button"
+        "pad",
+        "mousestate",
+        "click"
     ]
 }

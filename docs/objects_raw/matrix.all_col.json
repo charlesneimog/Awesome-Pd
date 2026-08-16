@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "matrix.all_col",
+    "description": "`matrix.all_col` tests each column of an input matrix and outputs a one-row matrix whose elements are 0 or 1, indicating whether all elements in the corresponding column satisfy the test. Supply matrix data as a list beginning with the row and column counts (`NROWS NCOLS`), followed by the matrix elements.",
+    "categories": [
+        "Logic"
+    ],
+    "similar": [
+        "matrix.any_col",
+        "matrix.all_row",
+        "matrix.all",
+        "matrix.any_row"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/matrix.all_col-help.pd"
+}

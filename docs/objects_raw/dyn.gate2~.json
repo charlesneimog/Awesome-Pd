@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "dyn.gate2~",
+    "description": "`dyn.gate2~` is a stereo signal gate that opens when the summed level of its two input signals exceeds a dB threshold. It provides attack, hold, and release timing controls, and a float sent to its third inlet sets the threshold.",
+    "categories": [
+        "Dynamics"
+    ],
+    "similar": [
+        "dyn.gate~",
+        "ceammc.dyn",
+        "dyn.comp_up2~",
+        "dyn.comp2~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/dyn.gate2~-help.pd"
+}

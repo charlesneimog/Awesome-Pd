@@ -1,0 +1,28 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "audiolab",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pp.twisted-delays2~",
+    "description": "`pp.twisted-delays2~` is a multipurpose twisted delay network inspired by the power-conserving complex delay networks described in chapter 7.5 of Miller Puckette’s Theory and Techniques of Electronic Music. It processes one signal into four signal outputs, with signal inputs for delay times and rotation angles plus control messages for feedback, damping, modulation, transitions, and related parameters; its obligatory creation arguments specify the number of delay instances and maximum delay time.",
+    "categories": [
+        "Delay",
+        "Multichannel"
+    ],
+    "similar": [
+        "pp.twisted-delays~",
+        "pp.twisted-delays2-st~",
+        "n_delay1p_line~",
+        "n_delay2p_line~"
+    ],
+    "source_archive": "audiolab[v0.80].dek",
+    "source_member": "audiolab/pp.twisted-delays2~-help.pd"
+}

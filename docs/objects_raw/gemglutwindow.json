@@ -26,8 +26,8 @@
     ],
     "similar": [
         "gemglxwindow",
-        "gemcocoawindow",
+        "gemglfw3window",
         "gemglfw2window",
-        "gemglfw3window"
+        "gemcocoawindow"
     ]
 }

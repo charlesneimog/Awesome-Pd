@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "tof",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "sample_unpack",
+    "description": "`tof/sample_unpack` outputs information about a sample supplied by symbol, with outlets for values such as size, basename, file, sample rate, channels, start, and end. Sending it a bang re-outputs the current sample’s information.",
+    "categories": [
+        "Samplers"
+    ],
+    "similar": [
+        "sample_packel",
+        "samplebox~",
+        "sample_record~",
+        "sample_play~"
+    ],
+    "source_archive": "tof[v0.2.4](Linux-arm-32)(Sources).dek",
+    "source_member": "tof/sample_unpack-help.pd"
+}

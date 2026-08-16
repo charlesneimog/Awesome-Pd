@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "mseq",
+    "description": "`mseq` is used as a pattern sequencer in a 16-step musical example, with stored values driving note and output processing. It accepts lists as sequence data and supports the `dump` and `clear` messages; `dump` is used here to retrieve a pattern for saving.",
+    "categories": [
+        "Sequencers"
+    ],
+    "similar": [
+        "tseq",
+        "metro.seq",
+        "mega-sequencer",
+        "satk.seq.stepSeq"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/mseq-help.pd"
+}

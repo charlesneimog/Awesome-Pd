@@ -24,8 +24,8 @@
     "categories": [],
     "similar": [
         "timed.gate",
-        "gatehold",
-        "gaterelease",
-        "gatehold~"
+        "gate~",
+        "dyn.gate~",
+        "gaterelease"
     ]
 }

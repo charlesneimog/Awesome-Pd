@@ -26,9 +26,9 @@
         "Delay"
     ],
     "similar": [
-        "fbdelay~",
-        "allpass.rev~",
+        "fdn~",
         "echo.rev~",
+        "allpass.rev~",
         "giga.rev~"
     ]
 }

@@ -25,9 +25,9 @@
         "Descriptors"
     ],
     "similar": [
+        "beat",
         "fluid.onsetfeature~",
-        "cepstrumPitch~",
-        "detect~",
-        "attackTime"
+        "an.tempo~",
+        "an.onset~"
     ]
 }

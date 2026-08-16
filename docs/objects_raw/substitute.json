@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
-        "pick",
-        "pipe2",
+        "bitsafe~",
         "reverse",
-        "retrieve"
+        "active",
+        "any2symbol"
     ]
 }

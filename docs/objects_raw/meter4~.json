@@ -27,8 +27,8 @@
     ],
     "similar": [
         "meter8~",
-        "vu~",
         "meter~",
-        "meter2~"
+        "vu~",
+        "ui.cmeter~"
     ]
 }

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "dict.each",
+    "description": "`dict.each` maps each value in an input dictionary, producing a processed dictionary. It sends each value to a sidechain and accepts a new key-value pair back from that sidechain.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "dict.get",
+        "dict.size",
+        "dict.pass",
+        "dict.values"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/dict.each-help.pd"
+}

@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "curve",
-        "pix_kaleidoscope",
-        "part_follow",
-        "square"
+        "rotateXYZ",
+        "pix_flip",
+        "gemlist_matrix",
+        "shearZX"
     ]
 }

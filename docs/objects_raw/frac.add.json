@@ -26,8 +26,8 @@
     ],
     "similar": [
         "frac.mul",
-        "add~",
         "add",
-        "frac2dec"
+        "matrix.add",
+        "add~"
     ]
 }

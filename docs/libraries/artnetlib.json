@@ -1,0 +1,16 @@
+{
+    "description": "artnetlib is a Pure Data library containing five objects for turning a Pd patch into an Art-Net controller. It can format, send, receive, route, and convert ArtDMX data, and discover Art-Net devices using ArtPoll.",
+    "issues": "https://github.com/Lucarda/pd-artnetlib/issues",
+    "link": "https://github.com/Lucarda/pd-artnetlib",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://github.com/Lucarda/pd-artnetlib",
+            "https://deken.puredata.info/results.html?name=artnetlib",
+            "https://www.mail-archive.com/pd-list%40lists.iem.at/msg24759.html"
+        ],
+        "notes": "The maintainer's release announcement explicitly identifies the GitHub repository and issue tracker, while the official Deken database lists artnetlib v0.1.0.",
+        "checked_at": "2026-08-16T20:39:36+00:00"
+    }
+}

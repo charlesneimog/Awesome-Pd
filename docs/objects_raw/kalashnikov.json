@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ext13",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "kalashnikov",
+    "description": "`kalashnikov` (also known as `uzi`) serializes bangs, providing bang and index outputs plus a completion indication. Its argument sets the count, as illustrated by `kalashnikov 2` and `uzi 3`.",
+    "categories": [
+        "Sequencers"
+    ],
+    "similar": [
+        "seq.nbangs",
+        "subdivide",
+        "metro.pattern",
+        "countseq"
+    ],
+    "source_archive": "ext13[v0.17.1-4](Windows-amd64-32)(Sources).dek",
+    "source_member": "ext13/kalashnikov-help.pd"
+}

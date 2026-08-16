@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "random.float",
+    "description": "`random.float` generates uniformly distributed random floating-point values within a specified minimum and maximum range, outputting a new value when it receives a bang. Use its `@seed` property for reproducible sequences, or the `gen N` method to generate a list of N random floats.",
+    "categories": [
+        "Stochastic / Probabilistic"
+    ],
+    "similar": [
+        "random.linear",
+        "random.pw_const",
+        "random.int",
+        "random.pw_lin"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/random.float-help.pd"
+}

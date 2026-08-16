@@ -33,9 +33,9 @@
         "Graphics"
     ],
     "similar": [
-        "scope~",
-        "fluid.waveform",
-        "graph~",
-        "zbiplot"
+        "fluid.umap",
+        "ui.plot~",
+        "fluid.skmeans",
+        "fluid.bufflatten"
     ]
 }

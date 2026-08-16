@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "siginfo",
+    "description": "`siginfo` analyzes an incoming flow of numbers supplied as a list of floats, producing raw information, “cooked” information, and the previous input. The cooked output reports up/down values, deltas, and total distance, while the raw output is the input list prepended with its size.",
+    "categories": [
+        "Descriptors"
+    ],
+    "similar": [
+        "bonk~",
+        "ml.minmax",
+        "sigenv~",
+        "range~"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/siginfo-help.pd"
+}

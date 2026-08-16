@@ -26,9 +26,9 @@
         "GUI"
     ],
     "similar": [
-        "out~",
         "gain2~",
-        "mix2~",
-        "mix4~"
+        "out~",
+        "c.gain~",
+        "tdh.util.channelstripMn~"
     ]
 }

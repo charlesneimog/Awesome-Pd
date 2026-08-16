@@ -26,9 +26,9 @@
         "Routing"
     ],
     "similar": [
-        "mux~",
-        "selector",
-        "routeall",
-        "decode"
+        "switch2~",
+        "4to1-switch",
+        "switch2",
+        "1to4-switch"
     ]
 }

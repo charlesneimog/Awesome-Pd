@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pitchshiftr~",
+    "description": "`pitchshiftr~` is the reader portion of a pitch shifter, reading audio written to a named `delwritec~` buffer and applying pitch transposition. Its arguments specify the `delwritec~` name, transposition, and window size.",
+    "categories": [
+        "Delay"
+    ],
+    "similar": [
+        "pp.pitchshift~",
+        "pitchshift~",
+        "pp.pitchshift-st~",
+        "delwritec~"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/pitchshiftr~-help.pd"
+}

@@ -25,9 +25,9 @@
         "Data Structures"
     ],
     "similar": [
-        "pak",
         "pack",
-        "repack",
-        "l"
+        "pak",
+        "pack~",
+        "msg.pack"
     ]
 }

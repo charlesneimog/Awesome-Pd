@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
+        "acosh",
         "cosh~",
-        "asinh~",
-        "sinh~",
-        "acos~"
+        "acos~",
+        "math.acosh~"
     ]
 }

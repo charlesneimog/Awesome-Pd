@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "subdivide",
+    "description": "`subdivide` produces a specified number of subdivision outputs from an incoming bang. Its first inlet accepts the bang, while the second inlet—or first creation argument—sets the subdivision count; `clear` cancels the subdivision output started by the current bang.",
+    "categories": [
+        "Sequencers"
+    ],
+    "similar": [
+        "macrodivide",
+        "stream-quant",
+        "metorate",
+        "clock-divider-even"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/subdivide-help.pd"
+}

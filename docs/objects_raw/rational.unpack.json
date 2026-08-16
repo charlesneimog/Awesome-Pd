@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "rational.unpack",
+    "description": "`rational.unpack` unpacks a rational number into its numerator and denominator, outputting each part as a float. It accepts either Rational data or a `NUM DEN` list used as a Rational data constructor.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "rational.to_list",
+        "rational.new",
+        "complex.unpack",
+        "unpack~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/rational.unpack-help.pd"
+}

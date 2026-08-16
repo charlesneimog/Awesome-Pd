@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "vanilla",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "vradio",
+    "description": "`vradio` is a vertical column of GUI radio buttons used to select and store a numbered cell value. Clicking a cell, sending it a float, or moving with the arrow keys highlights the corresponding button and outputs its number; a bang outputs the current value.",
+    "categories": [
+        "GUI"
+    ],
+    "similar": [
+        "hradio",
+        "c.radio",
+        "fd_hradio",
+        "fd_6x6"
+    ],
+    "source_archive": "vanilla-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "vanilla/vradio-help.pd"
+}

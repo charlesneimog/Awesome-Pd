@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
-        "retrieve",
+        "flow.prepend",
+        "flow.count",
         "reverse",
-        "default",
-        "rawprint"
+        "operating_system"
     ]
 }

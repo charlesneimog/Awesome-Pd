@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iem_vanilla",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "rms2db",
+    "description": "`rms2db` converts an RMS value to decibels (dB). The help patch does not provide enough information to establish any additional usage details.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "rms2fad",
+        "vrmstodb",
+        "db2rms",
+        "fad2rms"
+    ],
+    "source_archive": "iem_vanilla[v1.00].dek",
+    "source_member": "iem_vanilla/rms2db-help.pd"
+}

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "hanning~",
+    "description": "`hanning~` applies a Hanning window over an input range from 0 to 1. The help patch demonstrates driving it with `line~` using the message `0 , 1 1000`, then writing the resulting signal to a table with `tabwrite~`.",
+    "categories": [
+        "Envelopes"
+    ],
+    "similar": [
+        "fd_cosline~",
+        "line3",
+        "smooth-line",
+        "expline~"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/hanning~-help.pd"
+}

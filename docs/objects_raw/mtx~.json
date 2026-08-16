@@ -25,9 +25,9 @@
         "Routing"
     ],
     "similar": [
+        "demux~",
+        "matrix~",
         "mux~",
-        "demultiplex~",
-        "gate~",
-        "funnel"
+        "DRFX"
     ]
 }

@@ -1,0 +1,28 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iemmatrix",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "mtx_bitright",
+    "description": "`mtx_bitright` performs a bitwise right shift on matrix elements. The shift amount can be specified by a scalar or element-by-element using a right-hand matrix; `mtx_>>` is an equivalent object name shown in the help patch.",
+    "categories": [
+        "Logic",
+        "Data Structures"
+    ],
+    "similar": [
+        "mtx_bitleft",
+        "mtx_bitor",
+        "mtx_bitand",
+        "mtx_and"
+    ],
+    "source_archive": "iemmatrix[v0.6.0](Irix-mipsn32-32)(Irix-mipsn32-64).dek",
+    "source_member": "iemmatrix/mtx_bitright-help.pd"
+}

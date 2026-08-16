@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "creb",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fwarp",
+    "description": "`fwarp` warps an input frequency using the formula out = tan(2π·in/sr) · (sr/2π). It operates on control-rate floats, taking a float through its inlet and outputting the warped value; the help patch notes that `xfm~` uses warped frequencies.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "rad2hz",
+        "hz2rad",
+        "inv",
+        "nl"
+    ],
+    "source_archive": "creb[v0.9.2-3](Windows-amd64-32)(Sources).dek",
+    "source_member": "creb/fwarp-help.pd"
+}

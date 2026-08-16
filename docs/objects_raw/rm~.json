@@ -26,9 +26,9 @@
         "Audio IO"
     ],
     "similar": [
-        "rm.m~",
-        "phasewrap~",
-        "modulo~",
-        "rdiv~"
+        "bin.shift~",
+        "nyquist~",
+        "sr~",
+        "setdsp~"
     ]
 }

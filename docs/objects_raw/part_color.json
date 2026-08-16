@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "part_targetcolor",
         "part_render",
+        "part_targetcolor",
         "part_vertex",
-        "part_follow"
+        "part_move"
     ]
 }

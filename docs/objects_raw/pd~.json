@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "extra",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pd~",
+    "description": "`pd~` starts and manages a Pd subprocess, with audio signals from the parent appearing in `adc~` objects in the subprocess. Messages with the `pd~` selector control the subprocess, while any other messages are forwarded to it; sending a new `pd~ start` message stops the existing subprocess.",
+    "categories": [
+        "MultiThreading",
+        "Audio I/O"
+    ],
+    "similar": [
+        "list_to_s",
+        "pd~.abstraction",
+        "fluid.bufthreaddemo",
+        "pdp_control"
+    ],
+    "source_archive": "extra-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "extra/pd~-help.pd"
+}

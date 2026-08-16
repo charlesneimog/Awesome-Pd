@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
-        "canvas.vis",
         "blocksize~",
-        "retrieve",
-        "operating_system"
+        "screensize",
+        "canvas.vis",
+        "system.memsize"
     ]
 }

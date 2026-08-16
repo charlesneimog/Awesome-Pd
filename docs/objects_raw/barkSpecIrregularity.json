@@ -27,7 +27,7 @@
     "similar": [
         "barkSpecIrregularity~",
         "specIrregularity",
-        "barkSpecRolloff",
-        "specIrregularity~"
+        "specIrregularity~",
+        "barkSpecRolloff"
     ]
 }

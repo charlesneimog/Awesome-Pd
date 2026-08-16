@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_dot",
         "pix_test",
-        "pix_multiply",
-        "pix_biquad"
+        "pix_rgba",
+        "pix_refraction",
+        "pix_dot"
     ]
 }

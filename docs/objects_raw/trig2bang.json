@@ -25,9 +25,9 @@
         "Logic"
     ],
     "similar": [
+        "trig2bang~",
         "status~",
         "togedge",
-        "changed~",
-        "trig2bang~"
+        "changed~"
     ]
 }

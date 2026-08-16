@@ -27,9 +27,9 @@
         "MultiThreading"
     ],
     "similar": [
+        "jp.coll",
         "funbuff",
-        "fluid.dataset",
-        "table",
-        "capture"
+        "sfload",
+        "table"
     ]
 }

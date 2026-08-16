@@ -1,0 +1,31 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ext13",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "streamout13~",
+    "description": "`streamout13~` sends multiple DSP signal channels over UDP with reduced traffic compared with ggee's `streamout~`; the example sends four channels to `localhost` on port 8008. Use `connect` to begin sending, and choose `format float`, `16bit`, or `8bit` to trade signal resolution against cost, with float providing the best resolution at the highest expense.",
+    "categories": [
+        "Networking",
+        "Audio I/O",
+        "Multichannel"
+    ],
+    "similar": [
+        "streamout~",
+        "streamin13~",
+        "mp3streamout~",
+        "streamin~"
+    ],
+    "source_archive": "ext13[v0.17.1-4](Windows-amd64-32)(Sources).dek",
+    "source_member": "ext13/streamout13~-help.pd"
+}

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "synlets",
+    "description": "`synlets` synchronizes two trigger inlets by waiting for a specified number of bangs at each inlet. Its arguments set the required bang counts for the respective inlets, and a `set` message to a trigger inlet changes that inlet’s step number.",
+    "categories": [
+        "Logic"
+    ],
+    "similar": [
+        "count-bang",
+        "math.sync_ne",
+        "vthreshold",
+        "bfilt2"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/synlets-help.pd"
+}

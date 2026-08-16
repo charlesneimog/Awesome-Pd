@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "testro",
+    "description": "`testro` is a quick metronome intended for debugging. Its first argument sets the rate, as shown by `testro 100`; the help patch does not specify the units or complete the stated default value.",
+    "categories": [
+        "Debugging"
+    ],
+    "similar": [
+        "testar~",
+        "testmess",
+        "logpost",
+        "p"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/testro-help.pd"
+}

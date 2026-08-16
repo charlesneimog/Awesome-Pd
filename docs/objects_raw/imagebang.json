@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "tof",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "imagebang",
+    "description": "`tof/imagebang` is a GUI bang that displays an image and outputs a bang, using separate GIFs for its normal and clicked states. The two GIF filenames are required creation arguments, while optional send and receive names can also be supplied; it only works with GIF images.",
+    "categories": [
+        "GUI"
+    ],
+    "similar": [
+        "image",
+        "vdial",
+        "c.bang",
+        "colorCircF"
+    ],
+    "source_archive": "tof[v0.2.4](Linux-arm-32)(Sources).dek",
+    "source_member": "tof/imagebang-help.pd"
+}

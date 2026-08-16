@@ -1,0 +1,29 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "jmmmp",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "multiarray",
+    "description": "`multiarray` stores, displays, and operates on multiple graphical arrays, supporting value and size access, calculations, display settings, persistence, and mono audio-file I/O. It uses one inlet for its messages and one outlet for all results; create an array with `create $1`, where `$1` is its identifier.",
+    "categories": [
+        "Data Structures",
+        "GUI",
+        "File I/O"
+    ],
+    "similar": [
+        "ui.preset",
+        "fluid.multiarray",
+        "multi.vsl",
+        "datei-r"
+    ],
+    "source_archive": "jmmmp-v0.61--externals.zip",
+    "source_member": "jmmmp/multiarray-help.pd"
+}

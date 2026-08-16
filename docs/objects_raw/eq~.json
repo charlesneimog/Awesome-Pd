@@ -25,9 +25,9 @@
         "Filters"
     ],
     "similar": [
-        "bandpass~",
         "highshelf~",
-        "bandstop~",
-        "lowshelf~"
+        "equalizer",
+        "channel-eq",
+        "lowpass~"
     ]
 }

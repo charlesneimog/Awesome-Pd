@@ -25,9 +25,9 @@
         "Data Structures"
     ],
     "similar": [
-        "packel",
-        "listfunnel",
-        "buffer",
-        "replace"
+        "tabindex~",
+        "index",
+        "mtx_index",
+        "listReplaceAtIndex"
     ]
 }

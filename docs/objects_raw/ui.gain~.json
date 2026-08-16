@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ui.gain~",
+    "description": "`ui.gain~` is a UI gain control that applies an adjustable gain to an input signal and outputs the resulting signal. Gain can be set as an amplitude ratio or in dBFS; use `ui.hgain~` when a horizontal control is needed.",
+    "categories": [
+        "GUI",
+        "Dynamics"
+    ],
+    "similar": [
+        "ui.gain2~",
+        "c.gain~",
+        "chair.gain~",
+        "fd_gain~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/ui.gain~-help.pd"
+}

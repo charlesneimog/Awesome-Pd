@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_a_2grey",
-        "pix_gain",
-        "pix_alpha",
-        "pix_movement2"
+        "pix_opencv_threshold",
+        "pix_opencv_athreshold",
+        "pix_bitmask",
+        "pix_gain"
     ]
 }

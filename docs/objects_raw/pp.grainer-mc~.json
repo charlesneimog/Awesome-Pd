@@ -1,0 +1,29 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "audiolab",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pp.grainer-mc~",
+    "description": "`pp.grainer-mc~` is a granular sampler that loads or records audio into a buffer and sends each grain stream to an individual channel for multichannel playback or separate processing. Its channel/grain count is set by the first creation argument (default 8), and its second multichannel outlet provides a 0–1 signal ramp for each grain that can control effects at signal rate.",
+    "categories": [
+        "Granular",
+        "Samplers",
+        "Multichannel"
+    ],
+    "similar": [
+        "pp.grainer~",
+        "array.grainer~",
+        "grain.sampler~",
+        "pp.graindelay~"
+    ],
+    "source_archive": "audiolab[v0.80].dek",
+    "source_member": "audiolab/pp.grainer-mc~-help.pd"
+}

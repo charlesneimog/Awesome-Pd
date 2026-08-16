@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ofelia",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ofExit",
+    "description": "`ofExit` outputs a bang immediately before the app is closed, providing an exit callback for shutdown-related actions. Its listener can be enabled or disabled with `setEnabled` (default: 1), and its listening order can be set by argument or with `setOrder` (default: 50).",
+    "categories": [
+        "Control I/O"
+    ],
+    "similar": [
+        "ofMessageReceived",
+        "ofGotMemoryWarning",
+        "ofPause",
+        "ofBackPressed"
+    ],
+    "source_archive": "ofelia-v4.0.0-(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "ofelia/abs/ofExit-help.pd"
+}

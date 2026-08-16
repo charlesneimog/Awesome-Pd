@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "ratio2cents",
         "cents2frac",
-        "autotune2",
-        "ratio2cents~"
+        "ratio2cents",
+        "cents2ratio~",
+        "scale2cents"
     ]
 }

@@ -27,9 +27,9 @@
         "General Utilities"
     ],
     "similar": [
-        "tempo",
-        "midi.clock",
-        "bpm",
-        "fold"
+        "loop",
+        "stoppuhr-clock",
+        "array-seq",
+        "tempo"
     ]
 }

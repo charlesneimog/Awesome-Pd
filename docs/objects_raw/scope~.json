@@ -26,9 +26,9 @@
         "Graphics"
     ],
     "similar": [
-        "graph~",
-        "biplot",
-        "zbiplot",
-        "scopeXYZ~"
+        "c.scope~",
+        "scope",
+        "ui.scope~",
+        "oscope~"
     ]
 }

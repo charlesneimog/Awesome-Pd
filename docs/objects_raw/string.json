@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "string",
+    "description": "`string` stores a string value and allows it to be retrieved or changed. A bang outputs the stored string; floats, symbols, and lists are converted to strings and output, with list elements separated by spaces. Use `set` to replace or `clear` to erase the content without output, and `append` to add values to the end.",
+    "categories": [
+        "Text"
+    ],
+    "similar": [
+        "ceammc.string",
+        "string.split",
+        "string.replace",
+        "string.match"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/string-help.pd"
+}

@@ -25,9 +25,9 @@
         "Logic"
     ],
     "similar": [
-        "lessthaneq~",
         "notequals~",
-        "greaterthaneq~",
-        "equal"
+        "lessthaneq~",
+        "equal",
+        "greaterthaneq~"
     ]
 }

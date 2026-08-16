@@ -1,0 +1,28 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "automatonism",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "chord-synth",
+    "description": "`chord-synth` is a six-voice polyphonic synthesizer with a virtual keyboard and a 16-step chord sequencer for writing, storing, and playing chords. It supports sine, saw, and pulse synthesis, CV control of two timbre parameters, and step or random-step triggering; for mono operation, use the dedicated MONO output rather than either LEFT or RIGHT alone.",
+    "categories": [
+        "Oscillators",
+        "Sequencers"
+    ],
+    "similar": [
+        "synth.metro~",
+        "algomatrix",
+        "mega-sequencer",
+        "polysynth"
+    ],
+    "source_archive": "automatonism[v0.4.2.4].dek",
+    "source_member": "automatonism/patch_editor_abs/chord-synth-help.pd"
+}

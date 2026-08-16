@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "msg.sched",
+    "description": "`msg.sched` schedules messages by treating a float at the start of an input list as the delay time; other messages pass through immediately unchanged. A bang on its second inlet clears scheduled messages, while `flush` outputs them and `reset` clears them.",
+    "categories": [
+        "Sequencers"
+    ],
+    "similar": [
+        "upp.schedule",
+        "streamwrite-slow",
+        "delit",
+        "t3_pan_pattern"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/msg.sched-help.pd"
+}

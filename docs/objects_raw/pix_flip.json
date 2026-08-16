@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_rtx",
-        "pix_motionblur",
-        "pix_convert",
-        "gemrepeat"
+        "pdp_flip_lr",
+        "pix_mean_color",
+        "pix_test",
+        "pix_curve"
     ]
 }

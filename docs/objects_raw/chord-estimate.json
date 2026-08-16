@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pdmus",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "chord-estimate",
+    "description": "`chord-estimate` estimates a MIDI-note list’s chord name, reporting the root pitch class, chord symbol, and inversion. A bang reloads its chord dictionary; optional arguments set the reporting delay and whether chord symbols include inversions, though the help patch warns that inversions are not always correct.",
+    "categories": [
+        "Descriptors"
+    ],
+    "similar": [
+        "chord-structure",
+        "key-estimate",
+        "chord",
+        "lerdahl"
+    ],
+    "source_archive": "pdmus-v0.1--externals.zip",
+    "source_member": "pdmus/chord-estimate-help.pd"
+}

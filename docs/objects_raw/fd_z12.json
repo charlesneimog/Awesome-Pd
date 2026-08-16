@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_z12",
+    "description": "`fd_z12` implements Miller Puckette’s z12 algorithm as presented in an ICMC paper; the help patch does not explain the algorithm’s purpose further. The example initializes `fd_z12` with numeric arguments and shows an `input` message containing additional numeric values.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "fd_set-element",
+        "valve",
+        "fd_siginfo",
+        "_template_"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_z12-help.pd"
+}

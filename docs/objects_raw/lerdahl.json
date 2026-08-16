@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "rfpg",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "lerdahl",
+    "description": "`lerdahl` provides melodic analysis abstractions based on Fred Lerdahl’s TPS book, outputting values including pitch class, basic space, melodic tension, attraction, closure, pitch-class distance, and perceptual fusion. It accepts MIDI-range floats (0–127), defaults to C3 (60) in Ionian/Major, and its optional first argument sets the initial pitch-class offset.",
+    "categories": [
+        "Descriptors"
+    ],
+    "similar": [
+        "chord-structure",
+        "chord-estimate",
+        "fluid.chroma~",
+        "chroma~"
+    ],
+    "source_archive": "rfpg[v0.2](Darwin-amd64-32)(Darwin-arm64-32)(Sources).dek",
+    "source_member": "rfpg/lerdahl-help.pd"
+}

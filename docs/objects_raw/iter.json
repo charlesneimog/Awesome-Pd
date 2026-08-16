@@ -24,8 +24,8 @@
     "categories": [],
     "similar": [
         "iterate",
-        "dispatch",
-        "list.inc",
-        "reverse"
+        "list-iter",
+        "ls.iter",
+        "iterator"
     ]
 }

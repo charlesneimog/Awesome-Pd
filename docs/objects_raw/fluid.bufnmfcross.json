@@ -34,8 +34,8 @@
     ],
     "similar": [
         "fluid.nmfmorph~",
-        "fluid.nmfmatch~",
-        "fluid.kmeans",
-        "fluid.standardize"
+        "fluid.bufnmfseed",
+        "fluid.bufnmf",
+        "fluid.nmfmatch~"
     ]
 }

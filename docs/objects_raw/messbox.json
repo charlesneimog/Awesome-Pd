@@ -25,9 +25,9 @@
         "GUI"
     ],
     "similar": [
+        "show",
+        "numbox2",
         "knob",
-        "number~",
-        "grab",
-        "range.hsl"
+        "fd_guiFont"
     ]
 }

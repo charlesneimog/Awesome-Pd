@@ -31,9 +31,9 @@
     "description": "The `shapee~` object is designed to shape the frequency evolution of an audio signal. It performs frequency shaping, potentially utilizing both a frequency reference source and a formant reference source to achieve its effect.",
     "categories": [],
     "similar": [
+        "shape~",
         "mindwarp~",
-        "freq2midi",
-        "midi2freq",
-        "lowshelf~"
+        "shaper~",
+        "fluid.spectralshape~"
     ]
 }

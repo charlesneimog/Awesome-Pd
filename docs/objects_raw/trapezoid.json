@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "mesh_line",
         "cuboid",
+        "mesh_line",
         "square",
-        "cone"
+        "cylinder"
     ]
 }

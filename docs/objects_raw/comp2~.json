@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "comp2~",
+    "description": "`comp2~` compresses the signal at its first inlet using the signal at its second inlet as the compression control, providing a compressed signal at its outlet. It takes no creation arguments, and the help patch demonstrates `amount`, `down`, and `up` parameter messages.",
+    "categories": [
+        "Dynamics"
+    ],
+    "similar": [
+        "dyn.comp2~",
+        "fd_comp~",
+        "dyn.comp_up~",
+        "dyn.comp~"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/comp2~-help.pd"
+}

@@ -26,9 +26,9 @@
         "Multichannel"
     ],
     "similar": [
-        "dbgain~",
-        "level~",
-        "limiter~",
-        "rotate~"
+        "vca2.m~",
+        "vca~",
+        "vca",
+        "vca2~"
     ]
 }

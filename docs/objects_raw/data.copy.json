@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "data.copy",
+    "description": "`data.copy` creates a copy of input data of any supported data type, such as `MList` or `Set`. It is useful when an independent copy is needed because these data types are otherwise passed by reference; input data goes to its inlet and the copied data is produced at its outlet.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "data.color",
+        "array.copy",
+        "array-copy",
+        "tab_copy"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/data.copy-help.pd"
+}

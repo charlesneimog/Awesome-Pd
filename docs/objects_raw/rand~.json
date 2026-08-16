@@ -26,9 +26,9 @@
         "Oscillators"
     ],
     "similar": [
-        "lfnoise~",
-        "noish~",
-        "noisi~",
-        "randpulse2"
+        "rand.f~",
+        "rand.u",
+        "rand.f",
+        "noish~"
     ]
 }

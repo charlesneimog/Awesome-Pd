@@ -1,0 +1,28 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "list-abs",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list-clip",
+    "description": "`list-clip` clips lists, serving as the list-oriented counterpart to `clip`. Its two float inlets and the example `list-clip 2 8` indicate that lower and upper clipping limits can be supplied.",
+    "categories": [
+        "Math",
+        "Data Structures"
+    ],
+    "similar": [
+        "array-clip",
+        "matrix.clip",
+        "list-add",
+        "list-abs"
+    ],
+    "source_archive": "list-abs-v0.1-20150529iem--externals.zip",
+    "source_member": "list-abs/list-clip-help.pd"
+}

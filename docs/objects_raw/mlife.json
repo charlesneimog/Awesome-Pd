@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "maxlib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "mlife",
+    "description": "`mlife` is a cellular automaton object that calculates the next generation on a bang and outputs a bang for each displayed cell whose value is 1. Its arguments set the number of cells, display start and size, and whether the automaton is open (0) or closed (1); messages can fill or seed cells and configure neighborhood and survival limits.",
+    "categories": [
+        "Procedural",
+        "Algorithmic"
+    ],
+    "similar": [
+        "life2x",
+        "boids3d",
+        "list.gen",
+        "boids2d"
+    ],
+    "source_archive": "maxlib[v1.5.8](Linux-arm-32)(Sources).dek",
+    "source_member": "maxlib/mlife-help.pd"
+}

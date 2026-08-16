@@ -36,8 +36,8 @@
     ],
     "similar": [
         "fluid.umap",
-        "fluid.standardize",
-        "fluid.bufflatten",
-        "fluid.knnclassifier"
+        "choice",
+        "ml.dtw",
+        "py.o.train"
     ]
 }

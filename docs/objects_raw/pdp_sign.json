@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pdp",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pdp_sign",
+    "description": "`pdp_sign` gets the sign of its input, producing values represented as -1 or 1. The help patch uses it in a PDP processing chain alongside `pdp_mul`, `pdp_gain`, and `pdp_abs`.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "pdp_abs",
+        "pdp_zthresh",
+        "math.sign",
+        "pdp_mul"
+    ],
+    "source_archive": "pdp-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "pdp/pdp_sign-help.pd"
+}

@@ -27,8 +27,8 @@
     ],
     "similar": [
         "spread.mc~",
-        "xgate2~",
-        "xselect.mc~",
-        "xselect2~"
+        "pan.spread~",
+        "spread",
+        "xgate2~"
     ]
 }

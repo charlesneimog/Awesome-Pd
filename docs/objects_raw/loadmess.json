@@ -23,9 +23,9 @@
     "description": "The `loadmess` object automatically outputs a predefined message when its containing Pure Data patch is loaded or opened. It can also be triggered manually by a bang or click. The message it sends can be configured, and its output can be deferred using the `@defer` argument.",
     "categories": [],
     "similar": [
-        "initmess",
-        "message",
         "nmess",
-        "touch.out"
+        "loadbang",
+        "initmess",
+        "message"
     ]
 }

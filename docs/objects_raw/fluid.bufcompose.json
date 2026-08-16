@@ -31,9 +31,9 @@
         "Data Structures"
     ],
     "similar": [
-        "buffer",
         "fluid.bufselectevery",
-        "unpack~",
-        "index~"
+        "fluid.grid",
+        "fluid.kdtree",
+        "fluid.ds2text"
     ]
 }

@@ -26,9 +26,9 @@
         "Graphics"
     ],
     "similar": [
+        "spectrograph~",
+        "c.scope~",
         "scope~",
-        "biplot",
-        "zbiplot",
-        "fluid.waveform"
+        "fd_plot"
     ]
 }

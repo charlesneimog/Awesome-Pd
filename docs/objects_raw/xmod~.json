@@ -26,8 +26,8 @@
     ],
     "similar": [
         "xmod2~",
-        "pm2~",
-        "saw~",
-        "function~"
+        "xfm~",
+        "phasemod~",
+        "fd_fm"
     ]
 }

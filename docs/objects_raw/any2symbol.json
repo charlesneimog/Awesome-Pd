@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
+        "any2string",
         "retrieve",
-        "reverse",
-        "blocksize~",
-        "nop"
+        "tosymbol",
+        "blocksize~"
     ]
 }

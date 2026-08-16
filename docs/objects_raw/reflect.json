@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "reflect",
+    "description": "`reflect` reflects an incoming float within a range from the negative to the positive range value, optionally adding an offset to the axis of symmetry. The range and offset may be supplied as arguments (for example, `reflect 2 10`) or updated with a `set` message.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "fd_reflect",
+        "pb_int64_mod",
+        "scaler~",
+        "fd_map2"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/reflect-help.pd"
+}

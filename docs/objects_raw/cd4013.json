@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "mrpeach",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "cd4013",
+    "description": "`cd4013` emulates one half of a CMOS D-type flip-flop, clocking the D input to the Q and /Q outputs on a rising clock edge. A 0-to-1 clock transition or a bang triggers the clock; Set forces Q to 1 and overrides Reset and Clock, while Reset forces Q to 0 and overrides Clock.",
+    "categories": [
+        "Logic"
+    ],
+    "similar": [
+        "cd4027",
+        "cd4076",
+        "cd4017",
+        "cd4012"
+    ],
+    "source_archive": "mrpeach[v0.0.20260218](Darwin-amd64-32)(Darwin-amd64-64)(Darwin-arm64-32)(Darwin-arm64-64).dek",
+    "source_member": "mrpeach/cd4013-help.pd"
+}

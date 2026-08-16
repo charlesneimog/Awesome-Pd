@@ -27,8 +27,8 @@
     ],
     "similar": [
         "gray~",
-        "dust2~",
-        "stepnoise~",
-        "lfnoise~"
+        "wave~",
+        "wavetable~",
+        "dust2~"
     ]
 }

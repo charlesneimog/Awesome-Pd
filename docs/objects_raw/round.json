@@ -26,8 +26,8 @@
     ],
     "similar": [
         "round~",
-        "quantizer",
-        "ceil",
-        "rint"
+        "list-round",
+        "array-round",
+        "math.round"
     ]
 }

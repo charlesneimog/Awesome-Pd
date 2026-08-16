@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "chaos.jong",
+    "description": "`chaos.jong` is a non-interpolating generator based on the Peter de Jong attractor, producing newly calculated x and y values at its two outlets. Send a bang to generate and output the next pair; its six float arguments set the A–D parameters and initial x/y values.",
+    "categories": [
+        "Algorithmic"
+    ],
+    "similar": [
+        "chaos.std0",
+        "chaos.gbman0",
+        "chaos.logistic",
+        "dejong"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/chaos.jong-help.pd"
+}

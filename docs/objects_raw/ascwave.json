@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "cxc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ascwave",
+    "description": "`ascwave` produces an ASCII-style representation of changing numeric control values, suitable for printing with `ixprint`. It accepts floats and bangs, and its `fill 1`/`fill 0` messages enable or disable filled output.",
+    "categories": [
+        "Text"
+    ],
+    "similar": [
+        "to_ascii_code",
+        "ascii2int",
+        "float2ascii",
+        "from_ascii_code"
+    ],
+    "source_archive": "cxc[v0.5.2-2](Windows-amd64-32)(Sources).dek",
+    "source_member": "cxc/ascwave-help.pd"
+}

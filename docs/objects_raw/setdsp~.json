@@ -27,8 +27,8 @@
     ],
     "similar": [
         "out~",
-        "out.mc~",
-        "button",
-        "out8~"
+        "nyquist~",
+        "bin.shift~",
+        "c.dsp~"
     ]
 }

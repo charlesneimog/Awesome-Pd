@@ -27,8 +27,8 @@
     ],
     "similar": [
         "midi.in",
+        "midi.out",
         "note.in",
-        "pgm.in",
-        "ctl.in"
+        "pgm.in"
     ]
 }

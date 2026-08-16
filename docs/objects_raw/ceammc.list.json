@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ceammc.list",
+    "description": "`ceammc.list` is the ceammc collection of objects for list processing, including querying, transforming, generating, sorting, splitting, and aggregating lists. Use the specific `list.*` object that matches the needed operation, such as `list.length`, `list.reverse`, or `list.sum`.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "ceammc.data",
+        "ceammc.local",
+        "ceammc.array",
+        "ceammc.preset"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/ceammc.list-help.pd"
+}

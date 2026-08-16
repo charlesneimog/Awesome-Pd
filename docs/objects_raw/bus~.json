@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "bus~",
+    "description": "`bus~` routes an incoming audio signal to the signal bus named by its argument, for reception by a matching `r~`. The patch demonstrates `noise~` and `osc~` sources connected to multiple `bus~` instances named `$0-myfx1` or `$0-myfx2`.",
+    "categories": [
+        "Routing"
+    ],
+    "similar": [
+        "dispatch~",
+        "epluribus~",
+        "shared",
+        "pdp_route"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/bus~-help.pd"
+}

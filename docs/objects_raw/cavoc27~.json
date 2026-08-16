@@ -34,8 +34,8 @@
     ],
     "similar": [
         "cavoc~",
-        "pileup~",
-        "enrich~",
-        "fluid.sines~"
+        "synth.risset_tone~",
+        "list.harm",
+        "chimes~"
     ]
 }

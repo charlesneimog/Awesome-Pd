@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "context",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "patch",
+    "description": "The help patch identifies `patch` as a tiny abstraction, but its explanation of what the object does is incomplete. It also mentions the parent patch as a bonus feature, but the available text is insufficient to determine the behavior or a key usage detail without inventing information.",
+    "categories": [
+        "Patching"
+    ],
+    "similar": [
+        "ceammc.patch",
+        "openpatch",
+        "patch.args",
+        "patcherize"
+    ],
+    "source_archive": "context-v4.0-(Darwin-i386-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "context/patch-help.pd"
+}

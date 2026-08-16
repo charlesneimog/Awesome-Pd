@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "hid",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "subdir",
+    "description": "The help-patch evidence only shows a `subdir` object and a message containing `7`. This is insufficient to determine what `subdir` does, its purpose, or how it should be used.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "subdir~",
+        "single",
+        "multiple",
+        "multishared"
+    ],
+    "source_archive": "hid-0.7-1[v0.7-1](Darwin-arm64-32)(Sources).dek",
+    "source_member": "hid-0.7-1/src/pd-lib-builder/tests/subdir/subdir-help.pd"
+}

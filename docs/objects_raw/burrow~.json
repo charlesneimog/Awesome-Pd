@@ -34,8 +34,8 @@
     ],
     "similar": [
         "xsyn~",
-        "allpass.filt~",
-        "cross~",
-        "biquads~"
+        "flt.bpf72e~",
+        "mindwarp~",
+        "cross~"
     ]
 }

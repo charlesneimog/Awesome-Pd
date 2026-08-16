@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "proto.mpv",
+    "description": "`proto.mpv` controls an MPV video player through a local IPC socket, supporting media and playlist loading, playback, seeking, fullscreen mode, playlist navigation, OSD text, and quitting. Supply the IPC socket path as its argument or through `@ipc`, and start MPV with a matching `--input-ipc-server` path.",
+    "categories": [
+        "Networking"
+    ],
+    "similar": [
+        "proto.vlc",
+        "proto.feelworld",
+        "webserver",
+        "xmlrpc"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/proto.mpv-help.pd"
+}

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "superosc~",
+    "description": "`superosc~` is a stereo “super oscillator” inspired by the JP-8000 supersaw, summing seven detunable variable-saw waves by default. It accepts frequency in hertz or MIDI pitch and provides controls for detuning, detune curve, and waveform width; it can also switch to a square wave with PWM.",
+    "categories": [
+        "Oscillators"
+    ],
+    "similar": [
+        "superosc.m~",
+        "blosc~",
+        "gaussian~",
+        "cosc~"
+    ],
+    "source_archive": "else[v1.0-0_rc14-with_live_electronics_tutorial](Linux-arm64-32).dek",
+    "source_member": "else/superosc~-help.pd"
+}

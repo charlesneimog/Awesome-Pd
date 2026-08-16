@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ceammc.global",
+    "description": "`ceammc.global` refers to ceammc’s family of global named data objects: `global.dict`, `global.float`, `global.int`, `global.list`, `global.mlist`, and `global.set`. The help patch indicates that they provide globally named storage for their respective data types, but gives no further usage details.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "global.int",
+        "global.dict",
+        "global.mlist",
+        "global.list"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/ceammc.global-help.pd"
+}

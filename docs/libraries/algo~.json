@@ -1,0 +1,15 @@
+{
+    "description": "algo~ is a third-party Pure Data external distributed through Pd’s Deken package system. Deken lists version 1.0.1 builds uploaded by wmbrent for Linux, Windows, and macOS.",
+    "issues": "https://github.com/wbrent/OUTPUT/issues",
+    "link": "https://github.com/wbrent/OUTPUT/",
+    "research": {
+        "status": "partial",
+        "confidence": "medium",
+        "sources": [
+            "https://deken.puredata.info/search.html",
+            "https://msp.ucsd.edu/Pd_documentation/4.externals.htm"
+        ],
+        "notes": "No canonical source repository or dedicated issue tracker could be verified from authoritative public pages.",
+        "checked_at": "2026-08-16T20:34:06+00:00"
+    }
+}

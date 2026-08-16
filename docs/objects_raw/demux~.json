@@ -27,7 +27,7 @@
     "similar": [
         "demux",
         "demultiplex~",
-        "demultiplex",
-        "mux~"
+        "mux~",
+        "demultiplex"
     ]
 }

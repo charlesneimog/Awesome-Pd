@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pddp",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pddplink",
+    "description": "`pddplink` creates clickable links to local files, Pd patches, or remote URIs within a patch. A bang to its inlet opens the link, and options such as `-text` and `-box` provide different link presentations.",
+    "categories": [
+        "GUI"
+    ],
+    "similar": [
+        "ui.link",
+        "guilink",
+        "show",
+        "ceammc.ui"
+    ],
+    "source_archive": "pddp[v0.3](Windows-amd64-32)(Windows-amd64-64)(Windows-i386-32).dek",
+    "source_member": "pddp/pddplink-help.pd"
+}

@@ -26,8 +26,8 @@
     ],
     "similar": [
         "part_vertex",
-        "part_render",
-        "part_head",
-        "part_damp"
+        "part_damp",
+        "part_info",
+        "part_color"
     ]
 }

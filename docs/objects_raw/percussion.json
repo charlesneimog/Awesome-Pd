@@ -1,0 +1,28 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "automatonism",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "percussion",
+    "description": "`percussion` is a synthesized three-operator FM percussion module that produces audio at its OUT output when triggered through its TRIG gate input. It provides carrier and modulator pitch, modulation index, feedback, envelope modulation, and decay controls, while FLAM-PROB and ACC-PROB set the probabilities of flams and accents.",
+    "categories": [
+        "Oscillators",
+        "Stochastic / Probabilistic"
+    ],
+    "similar": [
+        "kick",
+        "2op-fm",
+        "feedfm~",
+        "fd_fm"
+    ],
+    "source_archive": "automatonism[v0.4.2.4].dek",
+    "source_member": "automatonism/patch_editor_abs/percussion-help.pd"
+}

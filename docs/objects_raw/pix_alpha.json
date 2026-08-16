@@ -26,8 +26,8 @@
     ],
     "similar": [
         "pix_coloralpha",
-        "pix_a_2grey",
         "pix_takealpha",
-        "color"
+        "alpha",
+        "pix_a_2grey"
     ]
 }

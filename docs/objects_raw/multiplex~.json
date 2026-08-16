@@ -25,9 +25,9 @@
         "Routing"
     ],
     "similar": [
-        "mux~",
-        "selector",
         "multiplex",
+        "flow.multiplex~",
+        "flow.multiplex",
         "demultiplex~"
     ]
 }

@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
+        "list-tabdump",
         "tabset",
-        "l2s",
-        "histogram",
-        "length"
+        "ltabdump",
+        "tabdump2"
     ]
 }

@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "algo~",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "algo~",
+    "description": "`algo~` evaluates algorithmic “bytebeat” expressions to generate audio, with `t` advancing by one on each time step and optional parameters named `p0` through `p9`. Its sample rate, bit depth, time direction, looping, interpolation, and computation can be controlled, and algorithms must be valid expressions containing no spaces.",
+    "categories": [
+        "Algorithmic",
+        "Oscillators"
+    ],
+    "similar": [
+        "fibo",
+        "cantor",
+        "chaos.jong",
+        "chaos.std0"
+    ],
+    "source_archive": "algo~[v1.0.1](Darwin-arm64-32).dek",
+    "source_member": "algo~/algo~-help.pd"
+}

@@ -1,0 +1,16 @@
+{
+    "description": "AudioLab is a library of high-level Pure Data abstractions focused on electroacoustic composition, live electronics, and sound design.",
+    "issues": "https://github.com/solipd/AudioLab/issues",
+    "link": "https://github.com/solipd/AudioLab",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://github.com/solipd/AudioLab",
+            "https://forum.pdpatchrepo.info/topic/12334/audiolab-is-now-available-on-deken/68",
+            "https://deken.puredata.info/search.html"
+        ],
+        "notes": "The maintainer’s Pure Data forum announcement identifies this GitHub repository for bug reports, and Deken lists audiolab releases uploaded by solipd.",
+        "checked_at": "2026-08-16T20:40:27+00:00"
+    }
+}

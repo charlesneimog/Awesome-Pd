@@ -25,9 +25,9 @@
         "Stochastic"
     ],
     "similar": [
-        "brown~",
-        "ikeda~",
-        "lincong~",
-        "rand.dist"
+        "noise.crackle~",
+        "noise.chua~",
+        "noise.rossler",
+        "noise"
     ]
 }

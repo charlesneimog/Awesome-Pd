@@ -27,7 +27,7 @@
     "similar": [
         "overdrive~",
         "drive.m~",
-        "tanh~",
-        "kink~"
+        "fx.drive~",
+        "fx.overdrive~"
     ]
 }

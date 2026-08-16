@@ -32,8 +32,8 @@
     ],
     "similar": [
         "fluid.transientslice~",
-        "fluid.bufampfeature",
-        "range~",
-        "peakamp~"
+        "fluid.onsetslice~",
+        "fluid.ampfeature~",
+        "fluid.noveltyslice~"
     ]
 }

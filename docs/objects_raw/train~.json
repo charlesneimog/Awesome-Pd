@@ -26,9 +26,9 @@
         "Oscillators"
     ],
     "similar": [
-        "pulse",
-        "pulse~",
-        "randpulse",
-        "phasor"
+        "phasor",
+        "oscnoise~",
+        "lfo.+pulse~",
+        "lfo.pulse~"
     ]
 }

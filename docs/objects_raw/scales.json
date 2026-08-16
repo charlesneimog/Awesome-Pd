@@ -23,9 +23,9 @@
     "description": "The `scales` object generates musical scales as either note names or MIDI pitches. Users define scales by providing a list of semitone intervals, with major scale as the default. It allows specifying a starting note, its degree within the scale, and an octave, enabling flexible scale generation for various musical contexts.",
     "categories": [],
     "similar": [
-        "cents2scale",
-        "midi2note",
+        "fd_scales",
         "scala",
-        "autotune"
+        "scale",
+        "cents2scale"
     ]
 }

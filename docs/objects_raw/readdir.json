@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "moocow",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "readdir",
+    "description": "`readdir` is a simple directory accessor that opens a directory and outputs its entries from the first outlet, including a type such as file, dir, fifo, or unknown. Send `bang` or `next` to retrieve the next entry; the second outlet bangs when the end of the directory is reached.",
+    "categories": [
+        "File I/O"
+    ],
+    "similar": [
+        "path.is_dir",
+        "path.lsdir",
+        "file_type",
+        "basedir"
+    ],
+    "source_archive": "moocow[v0.0.extended-not-all-objects](Windows-amd64-32)(Sources).dek",
+    "source_member": "moocow/readdir-help.pd"
+}

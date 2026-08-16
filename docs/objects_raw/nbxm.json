@@ -1,0 +1,33 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iemgui",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "nbxm",
+    "description": "`nbxm` is a GUI number-box matrix for displaying and editing a configurable grid of numeric values, useful for setting a numeric pattern. It supports addressing the entire matrix or individual rows, columns, and elements, and its dimensions, cell size, value range, font, color, and send/receive names can be configured.",
+    "categories": [
+        "GUI",
+        "Data Structures",
+        "Sequencers"
+    ],
+    "similar": [
+        "numberbox_matrix",
+        "mtxgui",
+        "mtxstep",
+        "seqbank"
+    ],
+    "source_archive": "iemgui[v1.21-3](Darwin-amd64-32)(Darwin-arm64-32)(Linux-amd64-32)(Linux-arm64-32)(Linux-armv7-32)(Linux-i386-32)(Windows-amd64-32)(Windows-i386-32).dek",
+    "source_member": "iemgui/nbxm-help.pd"
+}

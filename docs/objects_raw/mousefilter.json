@@ -28,6 +28,6 @@
         "mouse",
         "mousestate",
         "button",
-        "keypress"
+        "canvas.mouse"
     ]
 }

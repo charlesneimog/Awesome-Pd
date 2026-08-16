@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
-        "sampstoms~",
+        "degtorad~",
+        "deg2hid",
         "sum",
-        "mstosamps~",
-        "frac2cents"
+        "bpm"
     ]
 }

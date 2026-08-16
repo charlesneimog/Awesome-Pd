@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_smooth",
+    "description": "`fd_smooth` outputs a signal containing two halves of a Hann window, intended to smooth block edges to zero and used in `fd_windows`. Set the block size and overlap with a list in the first inlet (or separately as floats through the first and second inlets); it takes no creation arguments.",
+    "categories": [
+        "Envelopes"
+    ],
+    "similar": [
+        "smooth",
+        "smoother~",
+        "smooth-line",
+        "smooth2"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_smooth-help.pd"
+}

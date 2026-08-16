@@ -1,0 +1,32 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iemgui",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "iem_image",
+    "description": "`iem_image` displays a chosen GIF file in a Pure Data patch. Load an image by sending an `open` message with a file path, such as `open pd.gif`; the help patch also shows messages for positioning, moving, and clearing the image.",
+    "categories": [
+        "Graphics",
+        "GUI"
+    ],
+    "similar": [
+        "image",
+        "imagebang",
+        "cube_sphere",
+        "c.blackboard"
+    ],
+    "source_archive": "iemgui[v1.21-3](Darwin-amd64-32)(Darwin-arm64-32)(Linux-amd64-32)(Linux-arm64-32)(Linux-armv7-32)(Linux-i386-32)(Windows-amd64-32)(Windows-i386-32).dek",
+    "source_member": "iemgui/iem_image-help.pd"
+}

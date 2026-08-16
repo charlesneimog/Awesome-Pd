@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "rtree.to_list",
+    "description": "`rtree.to_list` converts an OpenMusic-like rhythm tree, used to define complex rhythmic patterns such as triplets and swing, into a list of fractions. A float sets the total pattern duration and outputs the result, while an MList or parsed message sets the rhythm tree without producing output; send a bang to output it.",
+    "categories": [
+        "Sequencers",
+        "Data Structures"
+    ],
+    "similar": [
+        "matrix.to_list",
+        "complex.to_list",
+        "dict.to_list",
+        "fd_listout"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/rtree.to_list-help.pd"
+}

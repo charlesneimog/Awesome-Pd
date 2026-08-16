@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "synth.russian_bell~",
+    "description": "`synth.russian_bell~` is a modal model of a 2 m Russian church bell that produces an audio signal. Trigger it with a bang or the `@gate` property, and shape the strike and decay using properties such as `@pos`, `@cutoff`, `@sharp`, and `@t60`.",
+    "categories": [
+        "Physical Modeling"
+    ],
+    "similar": [
+        "synth.french_bell~",
+        "synth.standard_bell~",
+        "synth.english_bell~",
+        "synth.german_bell~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/synth.russian_bell~-help.pd"
+}

@@ -33,9 +33,9 @@
         "Data Structures"
     ],
     "similar": [
-        "fluid.ds2text",
-        "nearestPoint",
-        "matchbox",
-        "fluid.bufpitch"
+        "fluid.melbands~",
+        "fluid.bufpitch",
+        "fluid.bufselect",
+        "fluid.ds2text"
     ]
 }

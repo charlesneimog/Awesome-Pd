@@ -27,9 +27,9 @@
         "Multichannel"
     ],
     "similar": [
-        "sinx~",
+        "osc.sin~",
         "bl.imp2~",
-        "fader~",
-        "square~"
+        "math.sin~",
+        "cosine~"
     ]
 }

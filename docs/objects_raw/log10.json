@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "purepd",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "log10",
+    "description": "`log10` returns the base-10 logarithm of its input. It is equivalent to calculating ln(n)/ln(10).",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "math.log10",
+        "complex.log10",
+        "math.log10~",
+        "ln~"
+    ],
+    "source_archive": "purepd-v0.0.extended--externals.zip",
+    "source_member": "purepd/log10-help.pd"
+}

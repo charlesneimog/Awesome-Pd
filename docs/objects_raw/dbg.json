@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "easyflow",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "dbg",
+    "description": "`dbg` conditionally prints its input only when a specified `value` is enabled, making it useful for controlled debugging output. Its first argument names the `v` indicator to check, and its second argument supplies the message used by the `print` object.",
+    "categories": [
+        "Debugging"
+    ],
+    "similar": [
+        "!msg",
+        "dbgr~",
+        "rprint",
+        "print~"
+    ],
+    "source_archive": "easyflow[v0.3.0].dek",
+    "source_member": "easyflow/dbg-help.pd"
+}

@@ -26,8 +26,8 @@
     ],
     "similar": [
         "lfo.m~",
-        "lfnoise",
-        "phasor",
-        "oscnoise~"
+        "lfo.mosc~",
+        "basic-lfo",
+        "ceammc.lfo"
     ]
 }

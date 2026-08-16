@@ -26,9 +26,9 @@
         "Multichannel"
     ],
     "similar": [
-        "glide~",
-        "smooth~",
-        "glide2~",
-        "resonbank~"
+        "lag2~",
+        "resonbank~",
+        "resonbank2~",
+        "bpbank~"
     ]
 }

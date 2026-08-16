@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fx.granulator~",
+    "description": "`fx.granulator~` is a simple input-stream granulator for processing incoming audio as grains. Its `@delay`, `@density`, and `@length` properties control the total grain area, number of grains, and grain length in milliseconds, and the `reset` message restores its state.",
+    "categories": [
+        "Granular"
+    ],
+    "similar": [
+        "granulator~",
+        "Granulator",
+        "array.grainer~",
+        "granulesf~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/fx.granulator~-help.pd"
+}

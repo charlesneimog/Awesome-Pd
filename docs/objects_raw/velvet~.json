@@ -29,7 +29,7 @@
     "similar": [
         "rampnoise~",
         "dust~",
-        "stepnoise~",
-        "dust2~"
+        "perlin~",
+        "stepnoise~"
     ]
 }

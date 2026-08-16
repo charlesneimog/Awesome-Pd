@@ -25,9 +25,9 @@
         "Filters"
     ],
     "similar": [
-        "crossover~",
-        "hip.bw~",
-        "lop.bw~",
-        "lores~"
+        "lowpass_1p~",
+        "highpass_1p~",
+        "flt.lpf24~",
+        "flt.c_pole"
     ]
 }

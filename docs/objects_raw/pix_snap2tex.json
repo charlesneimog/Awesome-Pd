@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_buffer_read",
         "pix_snap",
         "pix_texture",
-        "pix_coordinate"
+        "pix_buffer_read",
+        "pix_write"
     ]
 }

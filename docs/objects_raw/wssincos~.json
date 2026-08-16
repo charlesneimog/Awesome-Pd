@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "wssincos~",
+    "description": "`wssincos~` is a signal-processing object derived from the Pd audio examples, intended for sine/cosine-related waveshaping or phase manipulation. The help patch demonstrates an input range from 0 to 0.25 and states that its second argument shifts the phase backward by 2π times the input.",
+    "categories": [
+        "Distortion"
+    ],
+    "similar": [
+        "wsexp~",
+        "wscauchy~",
+        "kink~",
+        "fd_distor"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/wssincos~-help.pd"
+}

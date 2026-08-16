@@ -25,9 +25,9 @@
         "Text"
     ],
     "similar": [
-        "makesymbol",
-        "tosymbol",
-        "fluid.s2f",
-        "separate"
+        "unsymbol",
+        "symbolize",
+        "symbol.split",
+        "tosymbol"
     ]
 }

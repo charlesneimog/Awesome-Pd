@@ -27,9 +27,9 @@
         "Filters"
     ],
     "similar": [
-        "comb~",
-        "teeth~",
         "allpass.rev~",
-        "fbdelay~"
+        "fdn.rev~",
+        "echo.rev~",
+        "comb.filt~"
     ]
 }

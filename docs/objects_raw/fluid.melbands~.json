@@ -32,8 +32,8 @@
     ],
     "similar": [
         "fluid.bufmelbands",
-        "barkSpecFlatness",
-        "melSpec~",
-        "barkSpecSkewness"
+        "fluid.pitch~",
+        "fluid.bufonsetfeature",
+        "fluid.ampfeature~"
     ]
 }

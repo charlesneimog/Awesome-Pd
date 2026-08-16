@@ -34,8 +34,8 @@
     ],
     "similar": [
         "fluid.mlpregressor",
-        "fluid.bufflatten",
-        "fluid.knnregressor",
-        "fluid.ls2text"
+        "fluid.knnclassifier",
+        "ml.ann",
+        "fluid.labelset"
     ]
 }

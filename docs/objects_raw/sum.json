@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
-        "add~",
+        "a.sum",
         "minmax",
-        "mean",
-        "add"
+        "list.sum",
+        "float2bits"
     ]
 }

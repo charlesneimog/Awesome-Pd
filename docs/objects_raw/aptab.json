@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "AutoPreset",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "aptab",
+    "description": "`aptab` represents an AutoPreset table, but the table itself is not included. Use it as `aptab Ref Name TableName [TableLength [pat_no_all]]`; signal table-length changes to `$3-len-snd`, and setting `pat_no_all` to 1 prevents reception of the `_all_` pattern.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "apsarray",
+        "apsym",
+        "api",
+        "apf"
+    ],
+    "source_archive": "AutoPreset-v0.10--externals.zip",
+    "source_member": "AutoPreset/aptab-help.pd"
+}

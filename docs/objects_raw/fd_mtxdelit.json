@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_mtxdelit",
+    "description": "`fd_mtxdelit` randomly delay-iterates a 3×1 matrix, accepting either a bang to begin iteration or a list whose first three elements form the matrix. It outputs the delayed 3×1 matrix and sends a bang when the iteration is finished.",
+    "categories": [
+        "Stochastic / Probabilistic",
+        "Sequencers"
+    ],
+    "similar": [
+        "delit",
+        "fd_delit",
+        "16step-seq",
+        "rnd_metro"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_mtxdelit-help.pd"
+}

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "rfpg",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "gramulator~",
+    "description": "`gramulator~` performs basic, non-interpolating lookup of samples in a named Pd table, as demonstrated with the `sample1` array. The help patch uses phasor signals to control lookup-related parameters such as position, index, and pitch, and notes a 4096-sample block.",
+    "categories": [
+        "Samplers"
+    ],
+    "similar": [
+        "tabread2~",
+        "tabread~~",
+        "tabread__",
+        "tab16read4~"
+    ],
+    "source_archive": "rfpg[v0.2](Darwin-amd64-32)(Darwin-arm64-32)(Sources).dek",
+    "source_member": "rfpg/gramulator~ offline/gramulator~-help.pd"
+}

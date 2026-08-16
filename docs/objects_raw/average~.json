@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
+        "average",
+        "vrms",
         "avg~",
-        "tavg~",
-        "avg",
-        "mean"
+        "tavg~"
     ]
 }

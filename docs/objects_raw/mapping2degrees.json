@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "mapping",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "mapping2degrees",
+    "description": "`mapping2degrees` converts a float from the mapping range (0 to 1) into degrees. It is a control-rate conversion abstraction with one float inlet and one float outlet.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "midi2mapping",
+        "degrees2mapping",
+        "mapping2radians",
+        "radians2mapping"
+    ],
+    "source_archive": "mapping-v0.0.extended--externals.zip",
+    "source_member": "mapping/mapping2degrees-help.pd"
+}

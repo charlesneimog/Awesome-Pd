@@ -25,9 +25,9 @@
         "Delay"
     ],
     "similar": [
+        "fd_sdel~",
+        "fd_rsdel~",
         "delay~",
-        "delay.m~",
-        "ping.pong~",
-        "revdelay~"
+        "upp.delay~"
     ]
 }

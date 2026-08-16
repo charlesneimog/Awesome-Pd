@@ -25,9 +25,9 @@
     "title": "waveSlope~",
     "description": "The `waveSlope~` object calculates the slope of the best-fit line through the absolute value of audio samples within a configurable analysis window. It outputs this slope when triggered, enabling segmentation of sound events into attack, decay, and sustain phases based on amplitude changes. This descriptor can be used as a feature for real-time timbre classification.",
     "similar": [
+        "waveSlope",
         "barkSpecSlope~",
         "specSlope~",
-        "barkSpecSlope",
-        "specSlope"
+        "barkSpecSlope"
     ]
 }

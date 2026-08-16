@@ -25,9 +25,9 @@
         "Stochastic"
     ],
     "similar": [
-        "drunk",
         "rand.dist",
-        "rand.f~",
-        "stepnoise"
+        "drunk",
+        "random_fl~",
+        "scramble"
     ]
 }

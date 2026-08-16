@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "canvas.current",
+    "description": "`canvas.current` reports information about the current canvas, including its name, directory, creation arguments, search paths, dimensions, position, font size, and whether it is a top-level window or abstraction. Send a property request such as `@name?` for one value, or a bang to output a dictionary containing all properties.",
+    "categories": [
+        "Patching"
+    ],
+    "similar": [
+        "canvas.top",
+        "canvas.dir",
+        "canvas.path",
+        "canvas.edit"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/canvas.current-help.pd"
+}

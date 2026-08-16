@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_rec",
+    "description": "`fd_rec` records an incoming signal into an internal array and outputs the recorded signal for playback. It takes no arguments; connect a signal source such as `adc~` to its signal inlet and route its signal outlet to an output such as `dac~`.",
+    "categories": [
+        "Samplers"
+    ],
+    "similar": [
+        "live.capture~",
+        "sample_record~",
+        "pp.loop.rec~",
+        "xrecord~"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_rec-help.pd"
+}

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "maxlib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "arbran",
+    "description": "`maxlib/arbran` generates random floating-point values conforming to a piecewise probability density defined by two arrays: a value array and a probability array. Send `bang` to produce a new value, or `pdfscale` to check and adjust the probability values so their sum has the required scale.",
+    "categories": [
+        "Stochastic / Probabilistic"
+    ],
+    "similar": [
+        "random.pw_lin",
+        "weibull",
+        "list-wrandom",
+        "array.rand"
+    ],
+    "source_archive": "maxlib[v1.5.8](Linux-arm-32)(Sources).dek",
+    "source_member": "maxlib/arbran-help.pd"
+}

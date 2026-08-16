@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "matrix.le",
+    "description": "`matrix.le` performs an element-wise less-than-or-equal comparison between an input matrix and either another matrix or a float. It outputs a matrix whose elements are 1 or 0 according to each comparison; the comparison operand can be supplied as an argument or through the second inlet.",
+    "categories": [
+        "Logic"
+    ],
+    "similar": [
+        "matrix.lt",
+        "matrix.ne",
+        "matrix.gt",
+        "matrix.ge"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/matrix.le-help.pd"
+}

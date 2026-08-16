@@ -1,0 +1,16 @@
+{
+    "description": "ACRE (Algorithmic Composition Realtime Environment) is a collection of Pure Data patches and example applications for real-time algorithmic composition. The acre package provides the environment’s base modules.",
+    "issues": "https://git.iem.at/pd/acre/-/issues",
+    "link": "https://git.iem.at/pd/acre",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://git.iem.at/pd/acre",
+            "https://git.iem.at/explore/projects/topics/Puredata",
+            "https://deken.puredata.info/search.html"
+        ],
+        "notes": "The official IEM GitLab listing identifies the project and repository, while Deken confirms that acre is distributed as a Pure Data library.",
+        "checked_at": "2026-08-16T20:25:48+00:00"
+    }
+}

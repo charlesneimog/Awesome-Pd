@@ -25,9 +25,9 @@
         "GUI"
     ],
     "similar": [
-        "messbox",
-        "meter2~",
-        "number~",
-        "knob"
+        "grid",
+        "ticker",
+        "ui.tab",
+        "sym_dial"
     ]
 }

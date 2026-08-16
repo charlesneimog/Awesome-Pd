@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_mask",
-        "pix_takealpha",
-        "pix_convert",
-        "pix_normalize"
+        "pix_normalize",
+        "pix_set",
+        "pix_duotone",
+        "pix_dump"
     ]
 }

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "quilt",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "rind",
+    "description": "`rind` is a high-precision random number generator that outputs a number within specified boundaries. Two creation arguments set the minimum and maximum boundaries, as in `rind 3.2 6.7`; the patch also shows `state` and `print` messages but does not explain their behavior.",
+    "categories": [
+        "Stochastic / Probabilistic"
+    ],
+    "similar": [
+        "pmtwister",
+        "crand",
+        "random_tw",
+        "random__"
+    ],
+    "source_archive": "quilt[v0.8.3](Linux-amd64-32).dek",
+    "source_member": "quilt/rind-help.pd"
+}

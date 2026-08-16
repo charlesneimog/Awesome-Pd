@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "mapping",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "elliptic_sigmoid",
+    "description": "`elliptic_sigmoid` curves a control input using a double-linear mapping, producing output in the range 0 to 1. It accepts float values through three inlets, with the additional inlets used in the help patch to adjust the curve.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "elliptic_seat",
+        "circular_sigmoid",
+        "exponential_sigmoid",
+        "logistic_sigmoid"
+    ],
+    "source_archive": "mapping-v0.0.extended--externals.zip",
+    "source_member": "mapping/elliptic_sigmoid-help.pd"
+}

@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "easyflow",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "doubleClick",
+    "description": "`doubleClick` outputs a bang when it detects two input events within a specified time interval, providing double-click-style detection. The interval can be set with an argument or messages such as 1000 or 150 ms; with no argument, it defaults to 200 ms.",
+    "categories": [
+        "Logic"
+    ],
+    "similar": [
+        "anti-interval",
+        "b_AND_b",
+        "above~",
+        "timegate"
+    ],
+    "source_archive": "easyflow[v0.3.0].dek",
+    "source_member": "easyflow/doubleClick-help.pd"
+}

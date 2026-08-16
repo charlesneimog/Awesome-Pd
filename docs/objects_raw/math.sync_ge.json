@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "math.sync_ge",
+    "description": "`math.sync_ge` synchronously compares two numbers and outputs 1 when the first is greater than or equal to the second. A float at either inlet updates its corresponding number and immediately calculates the result; a list pair sets both numbers and calculates.",
+    "categories": [
+        "Logic"
+    ],
+    "similar": [
+        "math.sync_le",
+        "math.sync_lt",
+        "math.sync_gt",
+        "math.sync_eq"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/math.sync_ge-help.pd"
+}

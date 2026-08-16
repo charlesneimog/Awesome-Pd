@@ -1,0 +1,28 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "planifolia",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ls.choose",
+    "description": "`ls.choose` selects a random element from a list, outputting the element from its left outlet and its index from the right outlet. A list sets the stored list and immediately makes a selection; use `set` to change the stored list without output, or send a bang to choose again.",
+    "categories": [
+        "Stochastic / Probabilistic",
+        "Data Structures"
+    ],
+    "similar": [
+        "choose",
+        "choose-intervals",
+        "ls.shuffle",
+        "ls.scramble"
+    ],
+    "source_archive": "planifolia[v0.32].dek",
+    "source_member": "planifolia/ls.choose-help.pd"
+}

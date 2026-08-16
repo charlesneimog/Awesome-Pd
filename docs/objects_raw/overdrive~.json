@@ -25,9 +25,9 @@
         "Distortion"
     ],
     "similar": [
+        "overdrive",
         "drive~",
-        "drive.m~",
-        "digidistort",
-        "tanh~"
+        "fx.overdrive~",
+        "fx.drive~"
     ]
 }

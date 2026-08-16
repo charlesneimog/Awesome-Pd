@@ -34,9 +34,9 @@
         "Math"
     ],
     "similar": [
-        "link",
-        "mass3D",
-        "pmpd2d",
-        "iLine2D"
+        "iCircle3D",
+        "iLine2D",
+        "iSeg2D",
+        "iCylinder3D"
     ]
 }

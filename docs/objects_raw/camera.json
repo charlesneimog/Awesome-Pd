@@ -27,7 +27,7 @@
     "similar": [
         "pix_indycam",
         "gemwin",
-        "pix_frei0r",
-        "yuv2rgb"
+        "pix_freeframe",
+        "pix_artoolkit"
     ]
 }

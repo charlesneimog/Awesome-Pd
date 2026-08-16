@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "hoa",
+    "description": "`hoa` is the overview and navigation patch for the Hoa Library, a collection for synthesizing, transforming, and rendering Ambisonic sound fields. Its tabs organize 2D, 3D, common, processing, and tutorial resources, allowing the corresponding object help or tutorial patch to be opened.",
+    "categories": [
+        "Ambisonics",
+        "General Utilities"
+    ],
+    "similar": [
+        "hoa.2d.rotate~",
+        "hoa.3d.wider~",
+        "hoa.2d.wider~",
+        "hoa.fx.mirror~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/hoa/hoa-help.pd"
+}

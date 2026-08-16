@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "hoa.syn.ringmod~",
+    "description": "`hoa.syn.ringmod~` uses ring modulation to synthesize a diffuse sound field, with the frequency mapped according to the orders and degrees of the harmonics. Its global frequency can be controlled with the `@freq` property, and it can also be used in the plane-waves domain.",
+    "categories": [
+        "Ambisonics"
+    ],
+    "similar": [
+        "hoa.fx.ringmod~",
+        "hoa.syn.delay~",
+        "hoa.syn.grain~",
+        "hoa.2d.rotate~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/hoa/hoa.syn.ringmod~-help.pd"
+}

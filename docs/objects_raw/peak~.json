@@ -26,9 +26,9 @@
         "Descriptors"
     ],
     "similar": [
-        "vu~",
-        "envrms~",
-        "fluid.bufloudness",
-        "fluid.loudness~"
+        "maxpeak~",
+        "chair.peak-env~",
+        "pqpeak~",
+        "peakenv~"
     ]
 }

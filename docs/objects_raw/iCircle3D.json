@@ -33,9 +33,9 @@
         "Physical Modeling"
     ],
     "similar": [
-        "iPlane3D",
-        "iLine2D",
+        "iCircle2D",
         "iCylinder3D",
-        "iSeg2D"
+        "iPlane3D",
+        "iLine2D"
     ]
 }

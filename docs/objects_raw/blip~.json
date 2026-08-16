@@ -26,9 +26,9 @@
         "Additive"
     ],
     "similar": [
+        "oscbank~",
         "sine~",
         "enrich~",
-        "oscbank~",
-        "saw~"
+        "list.harm"
     ]
 }

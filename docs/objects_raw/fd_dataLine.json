@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_dataLine",
+    "description": "`fd_dataLine` represents a line into a data-structure array and is intended for use with `fd_data`. It accepts anything, has no outlets, and takes no arguments.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "fd_dataRand",
+        "fd_dataRead",
+        "fd_data",
+        "fd_dataExp"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_dataLine-help.pd"
+}

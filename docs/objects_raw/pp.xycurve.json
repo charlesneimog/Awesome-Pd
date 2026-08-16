@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "audiolab",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pp.xycurve",
+    "description": "`pp.xycurve` provides a GUI for creating and editing an x/y curve of up to 34 control points, with outputs for x, y, total curve length, and control-point coordinates. Send `bang` to draw the curve; in the GUI, click on the right side to add points or the left side to delete them, and hold Ctrl while moving over points to edit them.",
+    "categories": [
+        "GUI"
+    ],
+    "similar": [
+        "gui-edit",
+        "bezier~",
+        "bezier",
+        "polar_diagram_500r"
+    ],
+    "source_archive": "audiolab[v0.80].dek",
+    "source_member": "audiolab/pp.xycurve-help.pd"
+}

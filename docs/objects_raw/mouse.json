@@ -25,9 +25,9 @@
         "Control IO"
     ],
     "similar": [
-        "mousefilter",
-        "canvas.mouse",
         "mousestate",
+        "canvas.mouse",
+        "mousefilter",
         "keycode"
     ]
 }

@@ -1,0 +1,15 @@
+{
+    "description": "bandlimited is a Pure Data external that generates square, triangle, saw, reverse-saw, saw-triangle, and pulse waveforms band-limited to the Nyquist frequency. It uses precomputed wavetables to reduce CPU usage and includes wrapper abstractions for individual waveform types.",
+    "issues": "",
+    "link": "http://gitorious.org/bandlimited/bandlimited",
+    "research": {
+        "status": "verified",
+        "confidence": "medium",
+        "sources": [
+            "https://forum.puredata.info/topic/3774/bandlimited-bandlimited-signal-generator-square-triangle-saw?page=1",
+            "https://deken.puredata.info/search.html"
+        ],
+        "notes": "The creator’s forum post identifies the Gitorious repository as the project repository, but Gitorious is now defunct. No verified current GitHub or GitLab successor or separate issue tracker was found.",
+        "checked_at": "2026-08-16T20:42:58+00:00"
+    }
+}

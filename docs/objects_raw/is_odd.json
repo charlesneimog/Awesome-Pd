@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "is_odd",
+    "description": "`is_odd` checks whether an input number is odd, outputting 1 when its integer value is not a multiple of two and 0 otherwise. Float inputs are converted to integers before the check, and odd numbers are passed through the object.",
+    "categories": [
+        "Logic"
+    ],
+    "similar": [
+        "is_even",
+        "is_data",
+        "is_float",
+        "is_any"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/is_odd-help.pd"
+}

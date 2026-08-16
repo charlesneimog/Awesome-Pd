@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "modf~",
+    "description": "`modf~` splits an input signal into its integer and fractional parts. Its two signal outputs can be inspected separately, as demonstrated with `dbgr~` objects in the help patch.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "int_fract~",
+        "digitCount",
+        "pdf~",
+        "math.trunc~"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/modf~-help.pd"
+}

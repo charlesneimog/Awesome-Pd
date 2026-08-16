@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
+        "deg2rad",
         "tempo",
-        "ms2samps~",
-        "ms2samps",
-        "samps2ms"
+        "sum",
+        "ms2samps~"
     ]
 }

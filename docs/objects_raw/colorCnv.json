@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "easyflow",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "colorCnv",
+    "description": "`colorCnv` creates a colored rectangle of fixed size for marking related `send`/`receive` and `value` objects. Give it the same name as the object being marked; colors are defined with `colorDef`.",
+    "categories": [
+        "GUI"
+    ],
+    "similar": [
+        "colorCnvF",
+        "colorCirc",
+        "labelCnv",
+        "colorCircF"
+    ],
+    "source_archive": "easyflow[v0.3.0].dek",
+    "source_member": "easyflow/colorCnv-help.pd"
+}

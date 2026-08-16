@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "lin2db",
+        "scale2freq",
+        "ratio2cents",
         "cents2ratio",
-        "mel2hz",
-        "atodb"
+        "cents2frac"
     ]
 }

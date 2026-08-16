@@ -25,9 +25,9 @@
         "Logic"
     ],
     "similar": [
-        "changed~",
-        "match~",
+        "gaterelease",
         "status~",
-        "above~"
+        "gatedelay",
+        "changed~"
     ]
 }

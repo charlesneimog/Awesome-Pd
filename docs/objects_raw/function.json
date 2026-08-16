@@ -26,9 +26,9 @@
         "GUI"
     ],
     "similar": [
-        "slider2d",
-        "knob",
-        "range.hsl",
-        "fluid.waveform"
+        "breakpoints~",
+        "breakpoints",
+        "envgen",
+        "c.breakpoints"
     ]
 }

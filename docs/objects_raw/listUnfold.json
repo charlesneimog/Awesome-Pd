@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "tof",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "listUnfold",
+    "description": "`tof/listUnfold` outputs the individual elements of a list, along with their indices. In its default mode it unfolds the list immediately; with the `wait` argument, each bang outputs one element and a bang can interrupt output. It is deprecated in favor of `list_unfold`.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "list_unfold",
+        "listUniques",
+        "list-swap",
+        "list.^at"
+    ],
+    "source_archive": "tof[v0.2.4](Linux-arm-32)(Sources).dek",
+    "source_member": "tof/listUnfold-help.pd"
+}

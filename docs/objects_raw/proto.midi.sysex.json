@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "proto.midi.sysex",
+    "description": "`proto.midi.sysex` encodes and parses raw MIDI System Exclusive (SysEx) data, accepting raw MIDI bytes as floats or lists and outputting raw MIDI or parsed selector messages. It can generate messages for an Identity Request and device master balance, tuning, and volume; for example, master volume uses a normalized level from 0 to 1.",
+    "categories": [
+        "MIDI"
+    ],
+    "similar": [
+        "proto.midi.cc",
+        "proto.midi",
+        "midi.sysex",
+        "proto.midi.casio"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/proto.midi.sysex-help.pd"
+}

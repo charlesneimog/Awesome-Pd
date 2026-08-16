@@ -26,8 +26,8 @@
     ],
     "similar": [
         "round",
-        "quantizer",
-        "quantize~",
-        "rint~"
+        "list-round",
+        "math.round~",
+        "rounding"
     ]
 }

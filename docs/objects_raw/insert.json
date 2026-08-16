@@ -25,9 +25,9 @@
         "Data Structures"
     ],
     "similar": [
-        "delete",
-        "replace",
-        "remove",
-        "l2i"
+        "list.insert",
+        "array-insert",
+        "list-insert",
+        "matrix.insert_col"
     ]
 }

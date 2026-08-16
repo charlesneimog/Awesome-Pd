@@ -26,8 +26,8 @@
     ],
     "similar": [
         "rdiv",
-        "modulo~",
-        "rminus~",
-        "plusequals~"
+        "mod~",
+        "math.cdiv~",
+        "rover~"
     ]
 }

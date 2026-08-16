@@ -27,8 +27,8 @@
     ],
     "similar": [
         "allpass.rev~",
-        "comb~",
-        "filterdelay~",
-        "teeth~"
+        "realpass~",
+        "allpass.2nd~",
+        "combfilter"
     ]
 }

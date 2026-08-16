@@ -32,8 +32,8 @@
     ],
     "similar": [
         "fluid.bufchroma",
-        "chroma",
         "chroma~",
-        "fluid.noveltyfeature~"
+        "chroma",
+        "fluid.bufselect"
     ]
 }

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "flow.demultiplex",
+    "description": "`flow.demultiplex` routes any incoming message from its flow inlet to one of N outlets, selected by an integer at its second inlet. N is set at creation time from 2 to 24 (as in `flow.demultiplex 4`), while the current output index can be selected or queried through its property.",
+    "categories": [
+        "Routing"
+    ],
+    "similar": [
+        "flow.demultiplex~",
+        "demultiplex",
+        "flow.multiplex",
+        "demultiplex~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/flow.demultiplex-help.pd"
+}

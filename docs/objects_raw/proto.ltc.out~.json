@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "proto.ltc.out~",
+    "description": "`proto.ltc.out~` is an LTC encoder that generates an LTC signal and reports the current time as an hour, minute, second, and frame list. The encoder can be switched on or off with a boolean, and its time can be set with `time HOUR MIN SEC [FRAME]`.",
+    "categories": [
+        "Audio I/O"
+    ],
+    "similar": [
+        "proto.ltc.in~",
+        "audio-out~",
+        "satk.util.audioOut~",
+        "audiosettings"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/proto.ltc.out~-help.pd"
+}

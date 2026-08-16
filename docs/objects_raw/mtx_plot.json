@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iemmatrix",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "mtx_plot",
+    "description": "`mtx_plot` displays a matrix as a plot, clipping values to the range 0 (black) to 1 (white), with optional table-based colormaps. Its plot size can be specified as one value for a square or two values for a rectangle; it is relatively slow, so large matrices should be avoided, and it requires Pd 0.56 or later.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "pix_background",
+        "pix_test",
+        "pix_rds",
+        "pix_colorclassify"
+    ],
+    "source_archive": "iemmatrix[v0.6.0](Irix-mipsn32-32)(Irix-mipsn32-64).dek",
+    "source_member": "iemmatrix/mtx_plot-help.pd"
+}

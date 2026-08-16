@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "list-abs",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list-sect",
+    "description": "`list-sect` outputs the elements common to both input lists, providing the intersection of two lists. It may preserve duplicates; use `list-unique` to remove them.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "list-unique",
+        "list.unique",
+        "list-seek",
+        "list-drip2"
+    ],
+    "source_archive": "list-abs-v0.1-20150529iem--externals.zip",
+    "source_member": "list-abs/list-sect-help.pd"
+}

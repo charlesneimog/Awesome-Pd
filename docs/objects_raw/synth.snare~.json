@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "synth.snare~",
+    "description": "`synth.snare~` is a snare drum synthesizer derived from the Guitarix project, producing a synthesized snare signal. Send it a bang to play at full gain with the default duration, a float to specify gain, or a `GAIN DUR` list to set gain (0–1) and duration in milliseconds; its second outlet bangs when the release finishes.",
+    "categories": [
+        "Stochastic"
+    ],
+    "similar": [
+        "synth.clap~",
+        "synth.hat~",
+        "synth.birds~",
+        "noise.chua~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/synth.snare~-help.pd"
+}

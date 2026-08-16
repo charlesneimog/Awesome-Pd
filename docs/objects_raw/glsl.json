@@ -27,7 +27,7 @@
     "similar": [
         "glsl_program",
         "glsl_fragment",
-        "vertex_program",
-        "fragment_program"
+        "pofshader",
+        "vertex_program"
     ]
 }

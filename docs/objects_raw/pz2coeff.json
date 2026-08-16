@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
+        "hz2rad",
         "sph2cart",
-        "cart2pol",
-        "pol2sph",
-        "cart2sph"
+        "scale2freq",
+        "pol2car"
     ]
 }

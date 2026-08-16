@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "creb",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ccmap~",
+    "description": "`ccmap~` implements the conformal self-map of the unit disk given by (z-a)/(1-conj(a)z). It is a signal object with four signal inlets and two signal outlets.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "ucmod~",
+        "cadd~",
+        "map~",
+        "csub~"
+    ],
+    "source_archive": "creb[v0.9.2-3](Windows-amd64-32)(Sources).dek",
+    "source_member": "creb/ccmap~-help.pd"
+}

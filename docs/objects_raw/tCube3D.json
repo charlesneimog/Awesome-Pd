@@ -34,8 +34,8 @@
     ],
     "similar": [
         "tSphere3D",
-        "thresh~",
-        "bitand~",
-        "match~"
+        "doubleClick",
+        "pdp_hthresh",
+        "is_data"
     ]
 }

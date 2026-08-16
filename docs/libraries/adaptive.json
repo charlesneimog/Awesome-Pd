@@ -1,0 +1,17 @@
+{
+    "description": "adaptive is a Pure Data external library by Georg Holzmann that provides least-mean-square (LMS) and normalized LMS adaptive-filter objects, including lms~, lms2~, nlms~, and nlms2~.",
+    "issues": "https://sourceforge.net/p/pure-data/bugs",
+    "link": "https://gitlab.com/pd-extended/pd-extended",
+    "research": {
+        "status": "verified",
+        "confidence": "medium",
+        "sources": [
+            "https://deken.puredata.info/search.html",
+            "https://lists.puredata.info/pipermail/pd-cvs/2007-01/009916.html",
+            "https://gitlab.com/pd-extended/pd-extended",
+            "https://sourceforge.net/p/pure-data/bugs"
+        ],
+        "notes": "The library is verified in Deken and in the historical Pure Data repository under externals/grh/adaptive. No authoritative standalone repository was found; the repository URL is the official Pd-extended GitLab monorepo containing the migrated external collection, and the issue URL is the historical Pure Data project-wide tracker.",
+        "checked_at": "2026-08-16T20:31:36+00:00"
+    }
+}

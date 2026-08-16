@@ -27,7 +27,7 @@
     "similar": [
         "Gem",
         "depth",
-        "gemcocoawindow",
-        "part_information"
+        "gemwin",
+        "gemcocoawindow"
     ]
 }

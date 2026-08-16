@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "chaos",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "quaruptwo-test",
+    "description": "`quadruptwo` implements the non-continuous QuadrupTwo attractor and can be driven periodically, as shown with a 50 ms `metro`. Its initial conditions can be restored with `reset`, while parameters can be modified using `param` messages.",
+    "categories": [
+        "Procedural"
+    ],
+    "similar": [
+        "quadruptwo",
+        "martin",
+        "popcorn",
+        "pickover"
+    ],
+    "source_archive": "chaos-v0.0.extended-(Linux-i386-32)(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "chaos/examples/quaruptwo-test-help.pd"
+}

@@ -1,0 +1,16 @@
+{
+    "description": "aconnect is a Pure Data external library that provides ALSA sequencer connection-management objects, including [aconnect] and [aconnects]. It allows ALSA MIDI connections to be managed from within Pd.",
+    "issues": "https://git.iem.at/pd/aconnect/-/issues",
+    "link": "https://git.iem.at/pd/aconnect",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://git.iem.at/pd/aconnect",
+            "https://deken.puredata.info/search.html",
+            "https://www.mail-archive.com/pd-list%40lists.iem.at/msg26187.html"
+        ],
+        "notes": "The official IEM GitLab project identifies itself as an ALSA sequencer connection manager for Pd. The maintainer explicitly identifies this repository as the destination for feature requests and bug reports, and Deken lists version 0.5 of the library.",
+        "checked_at": "2026-08-16T20:22:57+00:00"
+    }
+}

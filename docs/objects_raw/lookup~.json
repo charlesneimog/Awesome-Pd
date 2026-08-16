@@ -27,8 +27,8 @@
     ],
     "similar": [
         "shaper~",
-        "buffer",
-        "a.rotate",
-        "index~"
+        "distortion~",
+        "overdrive~",
+        "wsexp~"
     ]
 }

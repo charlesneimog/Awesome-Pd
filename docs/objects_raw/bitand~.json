@@ -27,7 +27,7 @@
     "similar": [
         "bitor~",
         "bitxor~",
-        "0x7c0x7c0x7e",
-        "&&~"
+        "bitnot~",
+        "and~"
     ]
 }

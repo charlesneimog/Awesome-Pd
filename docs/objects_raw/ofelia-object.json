@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ofelia",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ofelia-object",
+    "description": "`ofelia` runs Lua scripts in Pure Data, with `ofelia define` creating an editable script/module and `ofelia function` wrapping a script as a function. Related objects such as `ofelia get`, `ofelia set`, and `ofelia exists` access variables, update variables or call functions, and check whether a named object exists. The optional `-c` and `-s` flags set control and signal inlet/outlet counts, while `-k` keeps script contents.",
+    "categories": [
+        "Lua"
+    ],
+    "similar": [
+        "poflua",
+        "pdlua",
+        "ceammc.lang",
+        "complex"
+    ],
+    "source_archive": "ofelia-v4.0.0-(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "ofelia/ofelia-object-help.pd"
+}

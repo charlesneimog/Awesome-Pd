@@ -34,8 +34,8 @@
     ],
     "similar": [
         "vocoder~",
+        "xsyn~",
         "multyq~",
-        "lowshelf~",
-        "xsyn~"
+        "burrow~"
     ]
 }

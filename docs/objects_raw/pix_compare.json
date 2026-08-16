@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_multiply",
-        "pix_data",
-        "pix_set",
-        "pix_dump"
+        "pix_composite",
+        "pix_color",
+        "pix_convert",
+        "pix_multiply"
     ]
 }

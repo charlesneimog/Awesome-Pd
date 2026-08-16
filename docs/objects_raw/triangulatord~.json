@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "triangulatord~",
+    "description": "`triangulatord~` is similar to `triangulator~`, but takes a `phasor~` signal as input and produces output in the range -1 to 1. Its inlets are for the `phasor~` signal, multiplication, and addition, and it can be instantiated with arguments such as `triangulatord~ 2 5`.",
+    "categories": [
+        "Oscillators"
+    ],
+    "similar": [
+        "triangulator~",
+        "triangle~",
+        "rectoratord~",
+        "missive~"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/triangulatord~-help.pd"
+}

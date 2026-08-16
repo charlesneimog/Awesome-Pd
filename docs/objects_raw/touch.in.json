@@ -27,8 +27,8 @@
     ],
     "similar": [
         "touch.out",
-        "ptouch.out",
-        "midi.in",
-        "ptouch.in"
+        "ctl.in",
+        "ptouch.in",
+        "note.in"
     ]
 }

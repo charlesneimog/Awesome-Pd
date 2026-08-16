@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list.count",
+    "description": "`list.count` outputs the number of items in an input list or mlist that equal a specified pattern value. Set the pattern with its first argument, such as `list.count a`, or change it through the second inlet or the `@pattern` property.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "list-count",
+        "list.rldecode",
+        "list.do",
+        "list.search"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/list.count-help.pd"
+}

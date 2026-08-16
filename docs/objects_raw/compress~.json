@@ -26,8 +26,8 @@
     ],
     "similar": [
         "expand~",
-        "duck~",
-        "noisegate~",
-        "pvcompand~"
+        "compressor",
+        "compressor~",
+        "duck~"
     ]
 }

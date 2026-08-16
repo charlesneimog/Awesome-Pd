@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "sfruit",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "watch-input",
+    "description": "`watch-input` helps check for the presence of an audio signal. Its monitoring can be turned off to save CPU.",
+    "categories": [
+        "Debugging"
+    ],
+    "similar": [
+        "cputime",
+        "rprint",
+        "dbg",
+        "monitor~"
+    ],
+    "source_archive": "sfruit-v0.0.extended--externals.zip",
+    "source_member": "sfruit/watch-input-help.pd"
+}

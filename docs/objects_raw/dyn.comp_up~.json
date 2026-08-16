@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "dyn.comp_up~",
+    "description": "`dyn.comp_up~` is a mono upward compressor that outputs a compressed signal and uses a strength parameter instead of a traditional ratio. Compression is controlled by threshold, attack, release, and strength settings; send a float to its second inlet to set the compression strength, where 0 means no compression.",
+    "categories": [
+        "Dynamics"
+    ],
+    "similar": [
+        "dyn.comp_up2~",
+        "dyn.comp_peak2~",
+        "dyn.comp_peak~",
+        "dyn.comp~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/dyn.comp_up~-help.pd"
+}

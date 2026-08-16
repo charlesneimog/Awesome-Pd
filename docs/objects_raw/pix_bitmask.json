@@ -26,8 +26,8 @@
     ],
     "similar": [
         "pix_mask",
-        "pix_gain",
         "pix_threshold",
-        "pix_alpha"
+        "pix_gain",
+        "pdp_grey2mask"
     ]
 }

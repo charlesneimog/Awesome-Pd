@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_hit",
-        "pix_compare",
+        "pix_offset",
         "pix_backlight",
-        "pix_offset"
+        "pix_roll",
+        "pix_hit"
     ]
 }

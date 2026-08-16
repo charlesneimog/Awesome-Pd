@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "conv.phase2rad~",
+    "description": "`conv.phase2rad~` converts a signal-rate phase value in the range 0–1 to radians in the range 0–2π. It can be used to convert a normalized phase signal, such as the output of `lfo.saw~`, into radians.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "conv.phase2rad",
+        "conv.rad2phase~",
+        "conv.rad2phase",
+        "conv.pol2car"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/conv.phase2rad~-help.pd"
+}

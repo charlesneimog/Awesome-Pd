@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "array-map",
+    "description": "`array-map` iterates over an array to modify its contents, applying a connected operation to each value, such as subtracting 0.25 or multiplying by 4. Its argument specifies the array name, and its first inlet accepts a bang or a `set` message naming the array.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "stream-map",
+        "list-map",
+        "array-append",
+        "array-shift"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/array-map-help.pd"
+}

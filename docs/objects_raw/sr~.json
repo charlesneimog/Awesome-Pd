@@ -27,8 +27,8 @@
     ],
     "similar": [
         "nyquist~",
-        "samps2ms",
-        "rad2hz",
-        "slew"
+        "bin.shift~",
+        "rm~",
+        "iem_samplerate~"
     ]
 }

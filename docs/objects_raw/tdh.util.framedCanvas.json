@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "tdh.lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "tdh.util.framedCanvas",
+    "description": "`tdh.util.framedCanvas` is an autosized graph-on-parent abstraction that creates a movable, filled canvas outlined in a second color, useful for visually grouping areas of a Pd patch. It is best instantiated with width, height, border-color preset, fill-color preset, and an optional label; argument settings persist when the patch is reopened, whereas properties changed by messages do not.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "pix2canvas",
+        "pofcirc",
+        "rectangle",
+        "pofpath"
+    ],
+    "source_archive": "tdh.lib[v0.1.9].dek",
+    "source_member": "tdh.lib/tdh.util.framedCanvas-help.pd"
+}

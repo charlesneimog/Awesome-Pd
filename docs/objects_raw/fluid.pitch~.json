@@ -31,9 +31,9 @@
         "Descriptors"
     ],
     "similar": [
-        "cepstrumPitch",
-        "cepstrumPitch~",
         "fluid.bufpitch",
-        "fluid.noveltyfeature~"
+        "fluid.noveltyfeature~",
+        "fluid.noveltyslice~",
+        "fluid.chroma~"
     ]
 }

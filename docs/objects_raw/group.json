@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
+        "group_name2gid",
+        "gid2group_name",
         "merge",
-        "reverse",
-        "default",
-        "slice"
+        "default"
     ]
 }

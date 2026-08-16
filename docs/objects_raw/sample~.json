@@ -29,7 +29,7 @@
     "similar": [
         "buffer~",
         "player~",
-        "tabplayer~",
-        "pvoc.player~"
+        "sample",
+        "sampler"
     ]
 }

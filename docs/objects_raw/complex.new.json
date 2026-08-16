@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "complex.new",
+    "description": "`complex.new` creates Complex data from real and imaginary float components and outputs the resulting Complex value. A bang outputs the current value, while a two-float list or incoming Complex data sets a new value and outputs it; `set` changes the stored data without output.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "rational.new",
+        "matrix.new",
+        "complex.unpack",
+        "complex.to_list"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/complex.new-help.pd"
+}

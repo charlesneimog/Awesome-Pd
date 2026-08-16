@@ -26,8 +26,8 @@
     ],
     "similar": [
         "note.out",
-        "borax",
-        "midiflush",
-        "xnotein"
+        "midi-stream2notes",
+        "xnotein",
+        "makenote2"
     ]
 }

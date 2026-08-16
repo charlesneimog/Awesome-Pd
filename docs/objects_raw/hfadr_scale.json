@@ -1,0 +1,32 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iemgui",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "hfadr_scale",
+    "description": "`hfadr_scale` maps a horizontal fader position onto a nonlinear scale intended for use before `fad2db`. It is designed for a 121-pixel-wide horizontal slider with an input range of 0–120 and uses two-point interpolation when reading its lookup table.",
+    "categories": [
+        "GUI",
+        "Math"
+    ],
+    "similar": [
+        "hfadl_scale",
+        "vfad_scale",
+        "curve_draw",
+        "curve_graph"
+    ],
+    "source_archive": "iemgui[v1.21-3](Darwin-amd64-32)(Darwin-arm64-32)(Linux-amd64-32)(Linux-arm64-32)(Linux-armv7-32)(Linux-i386-32)(Windows-amd64-32)(Windows-i386-32).dek",
+    "source_member": "iemgui/hfadr_scale-help.pd"
+}

@@ -27,8 +27,8 @@
     ],
     "similar": [
         "freq2midi",
-        "note.out",
-        "xnoteout",
-        "pgm.out"
+        "conv.midi2freq",
+        "midi2pc",
+        "vmtof"
     ]
 }

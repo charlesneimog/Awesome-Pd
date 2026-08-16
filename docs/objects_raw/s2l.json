@@ -27,8 +27,8 @@
     ],
     "similar": [
         "symbol2list",
-        "list2symbol",
-        "symbol2any",
-        "l2s"
+        "symbol-s2l",
+        "pds2l",
+        "list2symbol"
     ]
 }

@@ -32,8 +32,8 @@
     ],
     "similar": [
         "fluid.ds2text",
-        "fluid.kdtree",
         "fluid.bufselectevery",
-        "fluid.bufcompose"
+        "fluid.bufcompose",
+        "fluid.kdtree"
     ]
 }

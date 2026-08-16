@@ -25,9 +25,9 @@
         "Distortion"
     ],
     "similar": [
-        "drive~",
         "overdrive~",
-        "crusher~",
-        "degrade~"
+        "wssincos~",
+        "drive~",
+        "wsexp~"
     ]
 }

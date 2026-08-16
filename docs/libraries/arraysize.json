@@ -1,0 +1,17 @@
+{
+    "description": "arraysize is a Pure Data external that reports the size of a named array. It outputs the size when banged, and the array name can be supplied as an argument or changed through its inlet.",
+    "issues": "https://sourceforge.net/p/pure-data/patches",
+    "link": "https://sourceforge.net/p/pure-data/svn/HEAD/tree/trunk/externals/arraysize",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://pure-data.sourceforge.net/old/documentation.php#arraysize",
+            "https://sourceforge.net/p/pure-data/svn/HEAD/tree/trunk/externals/arraysize",
+            "https://deken.puredata.info/search.html",
+            "https://lists.iem.at/hyperkitty/list/pd-dev%40lists.iem.at/thread/5D5LPYVBO6A3AZABWTFZM3GVLOBTRSWX"
+        ],
+        "notes": "The canonical upstream source is the arraysize directory in Pure Data's historical SourceForge community SVN repository. The Salsa repository found in Debian metadata maintains Debian packaging and is not the upstream project repository.",
+        "checked_at": "2026-08-16T20:38:40+00:00"
+    }
+}

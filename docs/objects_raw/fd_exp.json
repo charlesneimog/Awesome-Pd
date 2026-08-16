@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_exp",
+    "description": "`fd_exp` computes the exponential-distribution probability density f(x) = λe^(-λx), for modeling the time or distance between events. The coefficient λ represents the number of events per unit time and can be supplied as the object’s argument.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "mtx_exp",
+        "hid_exp",
+        "curve_exp",
+        "matrix.trunc_exp"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_exp-help.pd"
+}

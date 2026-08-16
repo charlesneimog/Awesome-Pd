@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "Fraise",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "send",
+    "description": "`fruit/send` sends either raw bytes or text to the named fruit device. Its left inlet interprets raw-byte messages as optional type/value sequences, supporting 8-, 16-, and 32-bit integers; when a type is omitted, it reuses the last specified type, with `int8` as the default.",
+    "categories": [
+        "Control I/O"
+    ],
+    "similar": [
+        "send2",
+        "fruit",
+        "sensel",
+        "hidraw"
+    ],
+    "source_archive": "Fraise[v0.4.0].dek",
+    "source_member": "Fraise/fruit/send-help.pd"
+}

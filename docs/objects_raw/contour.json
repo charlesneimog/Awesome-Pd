@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "context",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "contour",
+    "description": "`contour` is an advanced interface for drawing precise functions into arrays by moving, creating, or deleting points on a canvas. The resulting array can be read with objects such as `tabread` or `tabread4~`, and drawings are automatically saved so they reappear later.",
+    "categories": [
+        "GUI",
+        "Data Structures"
+    ],
+    "similar": [
+        "array-edit",
+        "c.preset",
+        "colors",
+        "fd_dataStoreGui"
+    ],
+    "source_archive": "context-v4.0-(Darwin-i386-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "context/contour-help.pd"
+}

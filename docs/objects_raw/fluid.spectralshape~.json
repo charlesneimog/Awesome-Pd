@@ -32,8 +32,8 @@
     ],
     "similar": [
         "fluid.bufspectralshape",
-        "specSpread~",
-        "specFlatness~",
-        "fluid.ampfeature~"
+        "fluid.ampfeature~",
+        "fluid.audiotransport~",
+        "fluid.bufaudiotransport"
     ]
 }

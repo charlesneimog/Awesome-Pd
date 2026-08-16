@@ -1,0 +1,31 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iemnet",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "udpserver",
+    "description": "`udpserver` waits for clients to connect on a UDP port and outputs received messages as a stream of bytes. Its creation argument sets the port number (for example, `udpserver 9997`), and a `port` message can reset it; a `broadcast` message sends data to all clients.",
+    "categories": [
+        "Networking"
+    ],
+    "similar": [
+        "tcpserver",
+        "udpsend",
+        "websocketserver",
+        "aoo_server"
+    ],
+    "source_archive": "iemnet[v0.3.0](Darwin-amd64-32)(Darwin-arm64-32)(Linux-amd64-32)(Linux-arm64-32)(Linux-armv7-32)(Linux-i386-32)(Windows-amd64-32)(Windows-i386-32).dek",
+    "source_member": "iemnet/udpserver-help.pd"
+}

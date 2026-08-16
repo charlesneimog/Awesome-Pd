@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list.^contains",
+    "description": "`list.^contains` tests whether an input atom or data value occurs in its stored haystack list, and whether an input list is a subsequence of that list, outputting 1 on success and 0 otherwise. Set the haystack with the creation arguments, the second inlet, or the `value` property; unlike `list.contains`, its arguments are in a different order.",
+    "categories": [
+        "Logic"
+    ],
+    "similar": [
+        "list.contains",
+        "is_data",
+        "has",
+        "list.none_of"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/list.^contains-help.pd"
+}

@@ -26,9 +26,9 @@
         "Multichannel"
     ],
     "similar": [
+        "quantizer",
+        "quantize~",
         "floor~",
-        "ceil~",
-        "wrap2~",
-        "quantizer"
+        "_quantizer"
     ]
 }

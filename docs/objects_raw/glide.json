@@ -27,7 +27,7 @@
     "similar": [
         "slew",
         "glide~",
-        "glide2",
-        "smooth~"
+        "fd_calm",
+        "flow.speedlim"
     ]
 }

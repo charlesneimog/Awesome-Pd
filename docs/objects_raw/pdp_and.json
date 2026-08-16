@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pdp",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pdp_and",
+    "description": "`pdp_and` performs a bitwise AND operation on PDP data. The help patch routes data through `pdp_reg` and `pdp_gain` around `pdp_and`, but provides no further usage details.",
+    "categories": [
+        "Logic"
+    ],
+    "similar": [
+        "pdp_or",
+        "pdp_not",
+        "pdp_xor",
+        "pdp_bitmask"
+    ],
+    "source_archive": "pdp-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "pdp/pdp_and-help.pd"
+}

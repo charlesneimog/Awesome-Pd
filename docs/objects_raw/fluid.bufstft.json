@@ -33,8 +33,8 @@
     ],
     "similar": [
         "fluid.bufsinefeature",
-        "pvoc~",
-        "fluid.bufaudiotransport",
-        "cepstrum~"
+        "fluid.bufsines",
+        "fluid.buftransients",
+        "fluid.sinefeature~"
     ]
 }

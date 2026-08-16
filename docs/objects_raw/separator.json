@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "shearYZ",
-        "gemhead",
+        "pix_zoom",
+        "pix_draw",
         "ortho",
-        "gemframebuffer"
+        "GEMgl"
     ]
 }

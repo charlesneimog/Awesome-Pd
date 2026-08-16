@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
-        "pipe2",
-        "initmess",
-        "default",
-        "nop"
+        "list2int",
+        "upgrade",
+        "merge",
+        "pipe2"
     ]
 }

@@ -28,7 +28,7 @@
     "similar": [
         "slider2d",
         "pad",
-        "numbox~",
-        "button"
+        "circle-gui",
+        "popmenu"
     ]
 }

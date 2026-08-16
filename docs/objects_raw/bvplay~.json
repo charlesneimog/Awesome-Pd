@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "lyonpotpourri",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "bvplay~",
+    "description": "`bvplay~` provides enveloped playback of notes from a named Pd array. Send note statements to `bvplay~` as lists; negative playback increments are supported, and the `taper` message sets each note’s fade-in and fade-out.",
+    "categories": [
+        "Samplers",
+        "Envelopes"
+    ],
+    "similar": [
+        "array.play~",
+        "array.vplay",
+        "sample_play~",
+        "fade~"
+    ],
+    "source_archive": "lyonpotpourri[v3.0.2](Linux-arm64-32)(Linux-armv7-32).dek",
+    "source_member": "lyonpotpourri/bvplay~-help.pd"
+}

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pix_opencv",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pix_opencv_hu_compare",
+    "description": "`pix_opencv_hu_compare` compares contours with a reference pattern contour using Hu moments (`CvMatchShape`) and reports detected contours by position, width, and height. Its `criteria` message sets the recognition-distance threshold (default 0.1), while `method` selects a comparison method and `minsize` sets the minimum contour size.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "pix_opencv_pgh_compare",
+        "pix_opencv_matchshape",
+        "pix_opencv_hu_moments",
+        "pix_opencv_contours"
+    ],
+    "source_archive": "pix_opencv-v0.4-(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "pix_opencv/help/pix_opencv_hu_compare-help.pd"
+}

@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "array-shuffle",
+    "description": "`array-shuffle` shuffles the contents of an array, as demonstrated with the `routetable` array to create random routing. Send it a `set` message, such as `set drawn` or `set routetable`, to select the array to shuffle.",
+    "categories": [
+        "Stochastic / Probabilistic",
+        "Data Structures"
+    ],
+    "similar": [
+        "list-shuffle",
+        "ls.shuffle",
+        "shuffle",
+        "list.shuffle"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/array-shuffle-help.pd"
+}

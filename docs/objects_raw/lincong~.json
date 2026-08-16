@@ -28,7 +28,7 @@
     "similar": [
         "standard~",
         "logistic~",
-        "crackle~",
-        "quad~"
+        "ikeda~",
+        "rand.f"
     ]
 }

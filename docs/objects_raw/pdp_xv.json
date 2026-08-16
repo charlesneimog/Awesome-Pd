@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pdp",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pdp_xv",
+    "description": "`pdp_xv` outputs video in a window using the XVideo extension. Its window can be explicitly created and destroyed with `create` and `destroy`, and configured with messages such as `dim`, `pos`, or `fullscreen`; its outlet sends mouse-event messages including press, release, and drag.",
+    "categories": [
+        "GUI",
+        "Graphics"
+    ],
+    "similar": [
+        "pdp_glx",
+        "ofWindow",
+        "pofwin",
+        "gemwin+"
+    ],
+    "source_archive": "pdp-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "pdp/pdp_xv-help.pd"
+}

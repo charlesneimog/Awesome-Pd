@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
+        "pix_dot",
         "pix_multiply",
-        "pix_compare",
-        "pix_mask",
-        "pix_takealpha"
+        "pix_invert",
+        "pix_metaimage"
     ]
 }

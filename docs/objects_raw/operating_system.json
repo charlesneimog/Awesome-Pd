@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
-        "retrieve",
-        "bangbang",
-        "trighold~",
-        "bangdiv"
+        "ceammc.system",
+        "system",
+        "system.getenv",
+        "system.exec"
     ]
 }

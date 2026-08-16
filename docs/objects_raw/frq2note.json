@@ -1,0 +1,28 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "rtc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "frq2note",
+    "description": "`frq2note` converts a frequency into a note represented as a MIDI key number. The help patch presents the result alongside a note name and cents offset, and points to `note2frq` as the inverse conversion.",
+    "categories": [
+        "MIDI",
+        "Math"
+    ],
+    "similar": [
+        "note2frq",
+        "pitch2note",
+        "f2note",
+        "note2cents"
+    ],
+    "source_archive": "rtc-v0.0.extended--externals.zip",
+    "source_member": "rtc/frq2note-help.pd"
+}

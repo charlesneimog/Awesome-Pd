@@ -49,9 +49,9 @@
         "charlesneimog"
     ],
     "similar": [
-        "multimodel",
         "fluid.mlpclassifier",
         "fluid.mlpregressor",
-        "model"
+        "maxmode",
+        "hann~"
     ]
 }

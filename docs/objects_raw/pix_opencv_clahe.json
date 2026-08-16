@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pix_opencv",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pix_opencv_clahe",
+    "description": "`pix_opencv_clahe` processes incoming GEM pixel data using CLAHE, with controls for the clip limit and tile-grid size. These settings can be supplied as optional creation arguments (`<clipLimit> <tile xsize> <tile ysize>`) or changed using `clipLimit` and `tileGridSize` messages.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "pix_opencv_edge",
+        "pix_opencv_contours",
+        "pix_opencv_camshift",
+        "pix_opencv_lk"
+    ],
+    "source_archive": "pix_opencv-v0.4-(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "pix_opencv/help/pix_opencv_clahe-help.pd"
+}

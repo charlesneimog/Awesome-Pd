@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "midi.modus",
+    "description": "`midi.modus` snaps or skips incoming MIDI pitches according to a selected scale and root key, providing accepted notes at its first outlet and discarded messages at its second. It accepts either a float note value or a NOTE VELOCITY [DUR] list; the default root is C and the default scale is chromatic.",
+    "categories": [
+        "MIDI"
+    ],
+    "similar": [
+        "midi.oct",
+        "midi.tuning",
+        "midi.event2note",
+        "midi.sustain"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/midi.modus-help.pd"
+}

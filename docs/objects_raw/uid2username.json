@@ -1,0 +1,31 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "hcs",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "uid2username",
+    "description": "`uid2username` converts a numeric user ID (UID) received as a float into a username symbol. If the UID is not found, it outputs a bang from its second outlet.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "username2uid",
+        "gid2group_name",
+        "group_name2gid",
+        "uname"
+    ],
+    "source_archive": "hcs[v0.2.1](Darwin-amd64-32)(Darwin-arm64-32)(Linux-amd64-32)(Linux-arm64-32)(Linux-armv7-32)(Linux-i386-32)(Windows-amd64-32)(Windows-i386-32).dek",
+    "source_member": "hcs/uid2username-help.pd"
+}

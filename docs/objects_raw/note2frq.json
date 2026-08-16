@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "rtc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "note2frq",
+    "description": "`note2frq` converts a note value—either a MIDI key number or MIDI cents—into a frequency. It is intended for translating MIDI-style pitch representations into frequency values; `frq2note` is shown as a related object.",
+    "categories": [
+        "MIDI"
+    ],
+    "similar": [
+        "frq2note",
+        "note2pitch",
+        "note2cents",
+        "pitch2note"
+    ],
+    "source_archive": "rtc-v0.0.extended--externals.zip",
+    "source_member": "rtc/note2frq-help.pd"
+}

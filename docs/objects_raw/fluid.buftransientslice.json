@@ -33,7 +33,7 @@
     "similar": [
         "fluid.transientslice~",
         "fluid.bufonsetslice",
-        "fluid.bufhpss",
-        "fluid.bufaudiotransport"
+        "fluid.bufaudiotransport",
+        "fluid.bufselect"
     ]
 }

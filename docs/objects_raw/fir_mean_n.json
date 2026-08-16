@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "la-kitchen",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fir_mean_n",
+    "description": "`fir_mean_n` computes a finite impulse response (FIR) low-pass mean filter of order n, for smoothing input data. The help patch demonstrates `fir_mean_n 5`, indicating a filter order of 5.",
+    "categories": [
+        "Filters"
+    ],
+    "similar": [
+        "mean_n",
+        "fir_hip_n",
+        "fir_filter",
+        "fir"
+    ],
+    "source_archive": "la-kitchen-v0.0.extended--externals.zip",
+    "source_member": "la-kitchen/fir_mean_n-help.pd"
+}

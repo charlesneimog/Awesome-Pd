@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "hid",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "hid",
+    "description": "`hid` reads events from human-interface devices such as mice, keyboards, joysticks, and gamepads, outputting each event as `event_type event_code value`. Open a device with an `open` message, then use a nonzero `poll` value to start polling (values greater than 1 also set the delay in milliseconds); use `poll 0` to stop.",
+    "categories": [
+        "Control I/O"
+    ],
+    "similar": [
+        "hidio",
+        "hidin",
+        "hidraw",
+        "joystick"
+    ],
+    "source_archive": "hid-0.7-1[v0.7-1](Darwin-arm64-32)(Sources).dek",
+    "source_member": "hid-0.7-1/hid-help.pd"
+}

@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_dataGui",
+    "description": "`fd_dataGui` is a graphical controller intended for use with `fd_data`, allowing you to select tables and trigger graphing with controls for curve type and type-specific parameters. Toggle “all” to graph every table (as used with `clone`); the object has no inlets or outlets.",
+    "categories": [
+        "GUI",
+        "Data Structures"
+    ],
+    "similar": [
+        "fd_dataMorphGui",
+        "fd_dataStoreGui",
+        "fd_dataVis",
+        "fd_data"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_dataGui-help.pd"
+}

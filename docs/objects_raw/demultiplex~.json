@@ -26,8 +26,8 @@
     ],
     "similar": [
         "demultiplex",
-        "demux",
+        "flow.demultiplex~",
         "demux~",
-        "gate~"
+        "flow.demultiplex"
     ]
 }

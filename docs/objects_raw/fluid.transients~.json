@@ -34,7 +34,7 @@
     "similar": [
         "fluid.transientslice~",
         "fluid.buftransientslice",
-        "fluid.noveltyslice~",
-        "fluid.bufonsetslice"
+        "fluid.bufonsetfeature",
+        "fluid.loudness~"
     ]
 }

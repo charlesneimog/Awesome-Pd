@@ -25,9 +25,9 @@
         "Logic"
     ],
     "similar": [
-        "gate2imp~",
-        "above~",
-        "notequals~",
-        "next"
+        "match",
+        "latch~",
+        "select-both",
+        "changed~"
     ]
 }

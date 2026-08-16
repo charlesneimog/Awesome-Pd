@@ -26,8 +26,8 @@
     ],
     "similar": [
         "absgn~",
-        "abs~",
+        "math.sign",
         "tavg~",
-        "acosh~"
+        "abs~"
     ]
 }

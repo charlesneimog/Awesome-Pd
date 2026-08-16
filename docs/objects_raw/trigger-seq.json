@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "automatonism",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "trigger-seq",
+    "description": "`trigger-seq` is a 16-step trigger/gate sequencer driven by its `CLOCK-IN`, with a trigger/gate input for resetting and an `OUT` output. Its steps are set with individual toggles, and it provides four slots for writing and recalling patterns; the `LOAD(1-4)` trigger/gate input steps through the stored patterns.",
+    "categories": [
+        "Sequencers"
+    ],
+    "similar": [
+        "ratchet-seq",
+        "gate-seq",
+        "trigger-train",
+        "mega-sequencer"
+    ],
+    "source_archive": "automatonism[v0.4.2.4].dek",
+    "source_member": "automatonism/patch_editor_abs/trigger-seq-help.pd"
+}

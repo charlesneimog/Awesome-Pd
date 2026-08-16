@@ -26,9 +26,9 @@
         "Multichannel"
     ],
     "similar": [
-        "pol2car~",
+        "car2pol",
         "cartopol~",
-        "poltocar~",
-        "car2pol"
+        "pol2car~",
+        "poltocar~"
     ]
 }

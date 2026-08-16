@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "world_light",
+        "pix_backlight",
+        "pix_posterize",
         "pix_roll",
-        "spot_light",
-        "pix_posterize"
+        "pix_blur"
     ]
 }

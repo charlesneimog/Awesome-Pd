@@ -26,9 +26,9 @@
         "Envelopes"
     ],
     "similar": [
-        "smooth2",
-        "glide2",
-        "envelope~",
-        "linedrive"
+        "hv.curve~",
+        "curvegen",
+        "curve_fade",
+        "tdh.util.curve"
     ]
 }

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ceammc.random",
+    "description": "`ceammc.random` is a library overview for ceammc random-generation objects, covering uniform integer and float generators, Gaussian and linear distributions, weighted atom and integer selection, and piecewise constant or linear distributions. Use the listed specialized objects, such as `random.int`, `random.float`, or `random.gauss`, for the required type of random output.",
+    "categories": [
+        "Stochastic / Probabilistic"
+    ],
+    "similar": [
+        "random.int",
+        "random",
+        "random.gauss",
+        "random.float"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/ceammc.random-help.pd"
+}

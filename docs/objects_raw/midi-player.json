@@ -1,0 +1,29 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pdmus",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "midi-player",
+    "description": "`midi-player` is a MIDI file player and analyzer based on `mrpeach/midifile`; it filters out non-note information and outputs notes in Pd style, along with file timing information, flushed note data, and an end-of-file bang. Use messages such as `read`, `play`, `loop`, and `quantize` to load and control playback, and `flush` or `panic` to send all notes off through the second outlet.",
+    "categories": [
+        "MIDI",
+        "File I/O",
+        "Sequencers"
+    ],
+    "similar": [
+        "fd_midiread",
+        "midi.file",
+        "midi-quantizer",
+        "midi-sync"
+    ],
+    "source_archive": "pdmus-v0.1--externals.zip",
+    "source_member": "pdmus/midi-player-help.pd"
+}

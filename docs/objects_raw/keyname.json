@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "vanilla",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "keyname",
+    "description": "`keyname` gets keyboard input and reports a float together with a symbol representing the key’s system-dependent name. It works only when Pd actually receives the keyboard input.",
+    "categories": [
+        "Control I/O"
+    ],
+    "similar": [
+        "key",
+        "keynamedown",
+        "gemkeyname",
+        "keyup"
+    ],
+    "source_archive": "vanilla-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "vanilla/keyname-help.pd"
+}

@@ -29,9 +29,9 @@
         "charlesneimog"
     ],
     "similar": [
+        "hrtf~",
+        "ssr_binaural~",
         "earplug~",
-        "0x7c0x7c0x7e",
-        "multiconvolve~",
-        "conv~"
+        "ssr_brs~"
     ]
 }

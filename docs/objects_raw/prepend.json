@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
-        "iterate",
-        "l2s",
-        "tabdump",
-        "pv"
+        "flow.prepend",
+        "prepent",
+        "list.prepend",
+        "array-prepend"
     ]
 }

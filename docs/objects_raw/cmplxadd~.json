@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "Pd_Spectral_Toolkit",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "cmplxadd~",
+    "description": "`cmplxadd~` adds two complex numbers and outputs the real sum from its first outlet and the imaginary sum from its second. The first complex value is supplied through inlets 1–2, while the second is supplied through inlets 3–4 or initialized by the two creation arguments.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "cmplxmult~",
+        "cmplxabs~",
+        "cmplxdiv~",
+        "cmplxsub~"
+    ],
+    "source_archive": "Pd_Spectral_Toolkit[v1.1](Windows-amd64-32).dek",
+    "source_member": "Pd_Spectral_Toolkit/cmplxadd~-help.pd"
+}

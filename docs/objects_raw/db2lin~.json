@@ -26,9 +26,9 @@
         "Multichannel"
     ],
     "similar": [
-        "lin2db~",
         "db2lin",
+        "lin2db~",
         "dbtoa~",
-        "atodb"
+        "ratio2cents~"
     ]
 }

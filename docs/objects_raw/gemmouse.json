@@ -26,9 +26,9 @@
         "Graphics"
     ],
     "similar": [
-        "gemsdl2window",
         "gemw32window",
-        "pix_video",
-        "gemorb"
+        "gemkeyname",
+        "gemkeyboard",
+        "gemsdl2window"
     ]
 }

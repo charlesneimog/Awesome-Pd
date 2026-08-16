@@ -25,9 +25,9 @@
         "Procedural"
     ],
     "similar": [
+        "niagara",
         "l.attrfilter",
-        "polymetro~",
-        "drip",
-        "l.readsvg"
+        "forloop",
+        "for"
     ]
 }

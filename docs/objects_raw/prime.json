@@ -27,7 +27,7 @@
     "similar": [
         "factor",
         "tavg~",
-        "acosh",
-        "atanh"
+        "fd_trunc2n",
+        "absgn~"
     ]
 }

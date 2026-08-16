@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "tof",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "breakpoints~",
+    "description": "`tof/breakpoints~` is a graphical signal breakpoint envelope generator that outputs an interpolated value for a signal index, supporting forward, backward, and back-and-forth playback. Points can be changed by clicking and dragging; the current point data can also be set as a list or retrieved with a `dump` message.",
+    "categories": [
+        "Envelopes",
+        "GUI"
+    ],
+    "similar": [
+        "breakpoints",
+        "c.breakpoints",
+        "function",
+        "envgen"
+    ],
+    "source_archive": "tof[v0.2.4](Linux-arm-32)(Sources).dek",
+    "source_member": "tof/breakpoints~-help.pd"
+}

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "flow.route",
+    "description": "`flow.route` is an advanced message router that sends input to the outlet for the first matching route pattern, with unmatched messages passed unchanged to the last outlet. It can match a list’s first element, a message selector, or dictionary keys; prefixing a route with `*` preserves the message selector in the output.",
+    "categories": [
+        "Routing"
+    ],
+    "similar": [
+        "list.route",
+        "flow.match",
+        "route.cycle",
+        "flow.select"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/flow.route-help.pd"
+}

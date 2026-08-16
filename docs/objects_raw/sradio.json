@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "sradio",
+    "description": "`sradio` is a hacked `hradio` that behaves like a small array of values and provides internal preset storage and recall. It accepts messages to set or query the array, navigate indices with `next` and `prev`, and store, recall, read, or write presets; stored text can be retained on the next load with the `-k` flag or the second creation argument, defaulting to keep.",
+    "categories": [
+        "GUI",
+        "Data Structures"
+    ],
+    "similar": [
+        "c.preset",
+        "hradio",
+        "fd_hradio",
+        "c.radio"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/sradio-help.pd"
+}

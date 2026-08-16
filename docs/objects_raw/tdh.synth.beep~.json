@@ -1,0 +1,28 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "tdh.lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "tdh.synth.beep~",
+    "description": "`tdh.synth.beep~` is a small synth for generating triggered, enveloped tones, intended for testing, sequencing, and learning basic synthesis. Send it a bang to trigger a beep; frequency, duration, attack/decay time, and one of four waveforms can be configured, and it outputs both the audio signal and its envelope signal.",
+    "categories": [
+        "Oscillators",
+        "Envelopes"
+    ],
+    "similar": [
+        "satk.synth.beep~",
+        "tdh.synth.beep.ui~",
+        "tdh.synth.oscilPulse~",
+        "tdh.synth.1oscil~"
+    ],
+    "source_archive": "tdh.lib[v0.1.9].dek",
+    "source_member": "tdh.lib/tdh.synth.beep~-help.pd"
+}

@@ -16,6 +16,28 @@ function shuffleArray(array) {
     return array;
 }
 
+function initializeRandomContent() {
+    const randomObjects = document.querySelector("[data-random-content]");
+    if (!randomObjects) {
+        return;
+    }
+
+    addObjects(randomObjects.dataset.randomContent === "home").catch((error) => {
+        console.error("Failed to initialize random content", error);
+    });
+}
+
+// Zensical's instant navigation replaces the document body without firing
+// DOMContentLoaded. Its document$ stream fires for both the initial page and
+// every subsequent instant-navigation page render.
+if (typeof document$ !== "undefined") {
+    document$.subscribe(initializeRandomContent);
+} else if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initializeRandomContent);
+} else {
+    initializeRandomContent();
+}
+
 async function addPieces() {
     const response = await fetch(`${getOriginUrl()}/all_pieces.json`);
     console.log(response);
@@ -76,6 +98,9 @@ async function addObjects(render_videos) {
     const randomArticles = document.getElementById("random-article");
     while (randomObjects.firstChild) {
         randomObjects.removeChild(randomObjects.firstChild);
+    }
+    if (randomVideos) {
+        randomVideos.replaceChildren();
     }
 
     // Shuffle and pick 6

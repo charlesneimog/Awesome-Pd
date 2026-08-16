@@ -26,9 +26,9 @@
         "Multichannel"
     ],
     "similar": [
-        "xselect~",
         "xgate.mc~",
-        "xselect.mc~",
-        "xgate2~"
+        "xgate2~",
+        "xgate2.mc~",
+        "xselect.mc~"
     ]
 }

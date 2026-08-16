@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "noise.ikeda",
+    "description": "`noise.ikeda` generates successive x and y values of the Ikeda attractor, a complex-number iterative system intended as a noise source. Send it a bang to advance the iteration and output the coordinates through its separate x and y outlets; its parameters and initial x/y state can be supplied as optional float arguments.",
+    "categories": [
+        "Stochastic"
+    ],
+    "similar": [
+        "noise.henon",
+        "noise.rossler",
+        "noise.henon_phase",
+        "noise.lyapunov"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/noise.ikeda-help.pd"
+}

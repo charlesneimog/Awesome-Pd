@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "synth.kick~",
+    "description": "`synth.kick~` is a low-kick synthesizer derived from the Guitarix project, intended to generate kick-drum audio. Trigger it with a bang for the default duration at full gain, a float for the default duration at that gain, or a `GAIN DUR` list; its second outlet bangs when the release finishes.",
+    "categories": [
+        "Oscillators"
+    ],
+    "similar": [
+        "synth.kick2~",
+        "muugkick~",
+        "kick",
+        "synth.bee3~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/synth.kick~-help.pd"
+}

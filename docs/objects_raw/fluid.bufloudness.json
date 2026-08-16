@@ -32,8 +32,8 @@
     ],
     "similar": [
         "fluid.loudness~",
-        "al",
-        "fluid.noveltyfeature~",
-        "fluid.bufpitch"
+        "fluid.bufpitch",
+        "fluid.bufchroma",
+        "fluid.bufselect"
     ]
 }

@@ -26,9 +26,9 @@
         "Oscillators"
     ],
     "similar": [
-        "pm2~",
         "pm6~",
-        "xmod~",
-        "pm4~"
+        "impulse~",
+        "pm2~",
+        "pimp~"
     ]
 }

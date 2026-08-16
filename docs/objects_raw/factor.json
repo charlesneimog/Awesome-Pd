@@ -26,8 +26,8 @@
     ],
     "similar": [
         "prime",
-        "scalarmult",
-        "interpolate",
-        "tanh"
+        "vector",
+        "fd_sinh",
+        "vector0x2f"
     ]
 }

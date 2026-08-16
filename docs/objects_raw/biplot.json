@@ -27,8 +27,8 @@
     ],
     "similar": [
         "zbiplot",
-        "bicoeff",
-        "pix_biquad",
-        "graph~"
+        "fd_plot",
+        "ui.plot~",
+        "ui.plot~.log10"
     ]
 }

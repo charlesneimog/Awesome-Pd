@@ -25,9 +25,9 @@
         "Routing"
     ],
     "similar": [
-        "demultiplex",
         "demux~",
+        "demultiplex",
         "demultiplex~",
-        "router"
+        "ldemux"
     ]
 }

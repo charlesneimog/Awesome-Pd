@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "smlib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "hip",
+    "description": "`smlib/hip` applies a high-pass filter to a stream of float values, producing the filtered values at its outlet. Its cutoff frequency can be supplied via the second inlet or initialized with a creation argument, and sending `clear` to the first inlet reinitializes its internal state.",
+    "categories": [
+        "Filters"
+    ],
+    "similar": [
+        "bp",
+        "hip.bw~",
+        "iir_hip",
+        "bhip~"
+    ],
+    "source_archive": "smlib-v0.12.3-(Linux-armv7l-32)(Sources)-externals.tgz",
+    "source_member": "smlib/hip-help.pd"
+}

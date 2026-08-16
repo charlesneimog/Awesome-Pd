@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ekext",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "voicing_detector~",
+    "description": "`voicing_detector~` analyzes frames of a speech signal and outputs a float indicating voiced (`1`) or unvoiced (`0`), for use in signal analysis. Its threshold is set by a float from 0 to 100, and the help patch processes speech in blocks of 1024 samples.",
+    "categories": [
+        "Descriptors"
+    ],
+    "similar": [
+        "detect~",
+        "hasc~",
+        "minSampleDelta",
+        "gestalt"
+    ],
+    "source_archive": "ekext-v0.0.extended-(Windows-i386-32)-externals.zip",
+    "source_member": "ekext/voicing_detector~-help.pd"
+}

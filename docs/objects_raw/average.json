@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "markex",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "average",
+    "description": "`average` averages a series of numbers and outputs the resulting float. Its initial argument sets how many numbers are averaged together, as shown by `average 20`; the first inlet also accepts `bang`, `reset`, and `clear` messages.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "average~",
+        "lavg",
+        "avg~",
+        "math.neg"
+    ],
+    "source_archive": "markex[v0.0.extended](Windows-amd64-32)(Sources).dek",
+    "source_member": "markex/average-help.pd"
+}

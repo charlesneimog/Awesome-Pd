@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "sph2pol",
-        "sph2cart",
+        "cart2sph",
         "pol2cart",
-        "cart2sph"
+        "cart2pol",
+        "sph2cart"
     ]
 }

@@ -34,7 +34,7 @@
     "similar": [
         "fluid.bufsines",
         "fluid.bufsinefeature",
-        "fluid.sinefeature~",
-        "fluid.sines~"
+        "fluid.bufstft",
+        "fluid.sinefeature~"
     ]
 }

@@ -26,9 +26,9 @@
         "charlesneimog"
     ],
     "similar": [
-        "mono.rev~",
-        "plate.rev~",
+        "hoa.fx.convolve~",
+        "multiconvolve~",
         "conv~",
-        "giga.rev~"
+        "vintageverb"
     ]
 }

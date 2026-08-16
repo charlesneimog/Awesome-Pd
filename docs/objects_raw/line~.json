@@ -25,9 +25,9 @@
         "Envelopes"
     ],
     "similar": [
-        "smooth",
-        "glide2",
-        "asr~",
-        "fluid.ampgate~"
+        "line",
+        "line3",
+        "line2",
+        "spring"
     ]
 }

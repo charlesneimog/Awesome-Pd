@@ -1,0 +1,28 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "sfruit",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list-part",
+    "description": "`list-part` splits an incoming list into a head and a tail. In the help patch, its two outlets are connected to `print head` and `print tail`, respectively.",
+    "categories": [
+        "Data Structures",
+        "Routing"
+    ],
+    "similar": [
+        "list.unzip",
+        "list-partslow",
+        "unpack",
+        "list"
+    ],
+    "source_archive": "sfruit-v0.0.extended--externals.zip",
+    "source_member": "sfruit/list-part-help.pd"
+}

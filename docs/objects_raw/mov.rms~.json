@@ -27,8 +27,8 @@
     ],
     "similar": [
         "rms~",
+        "an.rms~",
         "vu~",
-        "energy",
-        "average~"
+        "hann~"
     ]
 }

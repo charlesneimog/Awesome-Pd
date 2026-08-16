@@ -26,8 +26,8 @@
     ],
     "similar": [
         "regex",
-        "makesymbol",
-        "fromsymbol",
-        "fluid.s2f"
+        "string.match",
+        "searchIncomingStrings",
+        "string.contains"
     ]
 }

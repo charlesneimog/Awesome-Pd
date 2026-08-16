@@ -26,9 +26,9 @@
         "Oscillators"
     ],
     "similar": [
-        "gbman~",
         "fbsine2~",
-        "quad~",
-        "logistic~"
+        "logistic~",
+        "operator~",
+        "gaussian~"
     ]
 }

@@ -26,9 +26,9 @@
         "Multichannel"
     ],
     "similar": [
-        "floor~",
         "ceil",
-        "trunc~",
+        "floor~",
+        "math.ceil~",
         "cents2ratio~"
     ]
 }

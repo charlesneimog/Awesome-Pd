@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "jmmmp",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "m-i",
+    "description": "`m-i` simulates a MIDI controller and automatically converts its values to a specified range, outputting a scaled float alongside the direct MIDI input. Its arguments set the controller channel, MIDI feedback on/off (1/0), and the lower and upper range; for example, `m-i 1 0 1000`.",
+    "categories": [
+        "MIDI"
+    ],
+    "similar": [
+        "chair.14bit-ctlin",
+        "midi.cc",
+        "midi.event2ctl",
+        "assign"
+    ],
+    "source_archive": "jmmmp-v0.61--externals.zip",
+    "source_member": "jmmmp/m-i-help.pd"
+}

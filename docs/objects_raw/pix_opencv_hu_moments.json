@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pix_opencv",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pix_opencv_hu_moments",
+    "description": "`pix_opencv_hu_moments` calculates the seven Hu moments (h1–h7) of incoming image frames, allowing moments from images such as simple patterns to be compared. Send `binary $1` to control whether incoming frames are treated as binary data, and unpack its seven-float output to access the individual moments.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "pix_opencv_hu_compare",
+        "pix_opencv_bgstats",
+        "pix_opencv_hist_compare",
+        "pix_opencv_lk"
+    ],
+    "source_archive": "pix_opencv-v0.4-(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "pix_opencv/help/pix_opencv_hu_moments-help.pd"
+}

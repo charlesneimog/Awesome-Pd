@@ -26,8 +26,8 @@
     ],
     "similar": [
         "minimum~",
-        "atanh~",
-        "greaterthaneq~",
-        "asinh~"
+        "maximum",
+        "max~~",
+        "minimum"
     ]
 }

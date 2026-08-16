@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "colorSquare",
+        "pix_colorreduce",
+        "pix_color",
         "translate",
-        "diffuse",
-        "triangle"
+        "pix_set"
     ]
 }

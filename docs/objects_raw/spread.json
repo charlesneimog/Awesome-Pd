@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
+        "spread~",
         "relay",
-        "mux",
-        "routetype",
-        "bucket"
+        "swap2",
+        "hot"
     ]
 }

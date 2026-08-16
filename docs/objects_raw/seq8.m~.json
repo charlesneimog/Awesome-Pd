@@ -26,9 +26,9 @@
         "MIDI"
     ],
     "similar": [
-        "autotune",
-        "seq",
-        "note2midi",
-        "panic"
+        "midi-sync",
+        "midi-quantizer",
+        "midi.track",
+        "n2m"
     ]
 }

@@ -26,9 +26,9 @@
         "Data Structures"
     ],
     "similar": [
-        "iterate",
-        "l2s",
-        "length",
-        "join"
+        "list-sort",
+        "list.sort",
+        "array-sort",
+        "list_sort"
     ]
 }

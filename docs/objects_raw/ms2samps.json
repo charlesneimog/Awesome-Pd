@@ -28,7 +28,7 @@
     "similar": [
         "ms2samps~",
         "samps2ms",
-        "samps2ms~",
+        "mstosamps~",
         "sampstoms~"
     ]
 }

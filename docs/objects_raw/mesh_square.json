@@ -27,7 +27,7 @@
     "similar": [
         "mesh_line",
         "square",
-        "ripple",
-        "vertex_program"
+        "colorSquare",
+        "slideSquares"
     ]
 }

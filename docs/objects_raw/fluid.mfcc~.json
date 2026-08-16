@@ -32,9 +32,9 @@
         "Math"
     ],
     "similar": [
-        "fluid.bufmfcc",
+        "mfcc~",
         "mfcc",
-        "hann~",
-        "mfcc~"
+        "fluid.bufmfcc",
+        "fluid.melbands~"
     ]
 }

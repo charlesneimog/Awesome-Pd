@@ -26,9 +26,9 @@
         "Multichannel"
     ],
     "similar": [
-        "square~",
+        "pulse",
         "randpulse~",
-        "saw2~",
-        "bl.square~"
+        "impulse~",
+        "square~"
     ]
 }

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ggee",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "unwonk",
+    "description": "`unwonk` is an unpacking object that sends unused list elements to its last outlet instead of discarding them. Its arguments configure the regular unpacking outlets, while any remaining elements are output as a list from the final outlet.",
+    "categories": [
+        "Routing"
+    ],
+    "similar": [
+        "unjoin",
+        "flow.match",
+        "unmerge",
+        "remote"
+    ],
+    "source_archive": "ggee[v0.28](Darwin-arm64-32).dek",
+    "source_member": "ggee/unwonk-help.pd"
+}

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ggee",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fofsynth~",
+    "description": "`fofsynth~` is an alias for `fof~` that outputs a signal for formant-style synthesis, with controls for fundamental frequency, formant frequency, rise time, and fall time. Rise and fall times are specified as percentages, with fall time explicitly measured as a percentage of the period; the help patch warns that the object is still not really finished.",
+    "categories": [
+        "Spectral / Resynthesis"
+    ],
+    "similar": [
+        "formant~",
+        "tune~",
+        "audiofreeze",
+        "pp.fft-stretch~"
+    ],
+    "source_archive": "ggee[v0.28](Darwin-arm64-32).dek",
+    "source_member": "ggee/fofsynth~-help.pd"
+}

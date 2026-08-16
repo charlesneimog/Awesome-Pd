@@ -27,8 +27,8 @@
     ],
     "similar": [
         "fwriteln",
-        "msgfile",
-        "text3d",
-        "pix_writer"
+        "fd_untext",
+        "ltextfile-drip",
+        "msgfile"
     ]
 }

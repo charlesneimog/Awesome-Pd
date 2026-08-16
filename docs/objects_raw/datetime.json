@@ -26,9 +26,9 @@
         "Control IO"
     ],
     "similar": [
+        "chrono.datetime",
         "date",
-        "time",
-        "slice",
-        "keycode"
+        "keycode",
+        "time"
     ]
 }

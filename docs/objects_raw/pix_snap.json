@@ -26,8 +26,8 @@
     ],
     "similar": [
         "pix_snap2tex",
-        "pix_buffer_read",
-        "pix_crop",
-        "pix_clearblock"
+        "pix_clearblock",
+        "pix_multitexture",
+        "pix_set"
     ]
 }

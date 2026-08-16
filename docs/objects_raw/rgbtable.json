@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "Pd_Spectral_Toolkit",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "rgbtable",
+    "description": "`rgbtable` maps a float input to separate red, green, and blue float outputs for use as a color table. Its color scheme can be selected by an argument or a message, with examples including `rgb`, `purple-yellow`, `blue-green`, and `amber`; the RGB output values range from 0 to 1.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "redGreenBlue",
+        "conv.color2rgba",
+        "conv.rgb2hex",
+        "fd_rgbcol"
+    ],
+    "source_archive": "Pd_Spectral_Toolkit[v1.1](Windows-amd64-32).dek",
+    "source_member": "Pd_Spectral_Toolkit/rgbtable-help.pd"
+}

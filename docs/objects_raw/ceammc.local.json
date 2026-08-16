@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ceammc.local",
+    "description": "`ceammc.local` groups canvas-scoped named variables and local named container objects in the `ceammc` library. Its related objects include `local.float`, `local.int`, `local.dict`, `local.list`, `local.mlist`, and `local.set`; the patch provides no further usage details.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "local.int",
+        "local.float",
+        "ceammc.list",
+        "ceammc.global"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/ceammc.local-help.pd"
+}

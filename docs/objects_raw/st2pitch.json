@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "rtc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "st2pitch",
+    "description": "`st2pitch` accumulates incoming intervals and outputs pitch classes, providing a way to derive successive notes from a starting pitch. It accepts a start note (shown as 60 in the help patch), and its second outlet reports the note.",
+    "categories": [
+        "Algorithmic"
+    ],
+    "similar": [
+        "transp-pitch",
+        "transpose-row",
+        "neutral-harmony",
+        "pcs-unique"
+    ],
+    "source_archive": "rtc-v0.0.extended--externals.zip",
+    "source_member": "rtc/st2pitch-help.pd"
+}

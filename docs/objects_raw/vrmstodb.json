@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "smlib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "vrmstodb",
+    "description": "`vrmstodb` converts an RMS value or a list (vector) of RMS values to decibels. Each output value is calculated as 100 + 20/log(10) × log(f), and the output preserves the input form as a float or list.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "mtx_rmstodb",
+        "vrms",
+        "vdbtorms",
+        "array-rmstodb"
+    ],
+    "source_archive": "smlib-v0.12.3-(Linux-armv7l-32)(Sources)-externals.tgz",
+    "source_member": "smlib/vrmstodb-help.pd"
+}

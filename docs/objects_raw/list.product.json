@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list.product",
+    "description": "`list.product` calculates the product of the floats in an input list or mlist and outputs the result as a float. Symbol values are treated as 0, so any symbols in the list make the product 0.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "list.sum",
+        "list.mean",
+        "list.range",
+        "list.min"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/list.product-help.pd"
+}

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pd_protobuf",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pb_int64_to_float",
+    "description": "`pb_int64_to_float` converts a decimal-integer symbol, such as a 64-bit field emitted by `pb_decode`, to a Pd `t_float`; float input passes through unchanged. It reports a Pd error and emits nothing for non-decimal symbols or values whose magnitude exceeds 2^24, the exact-integer range stated by the patch.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "pb_int64_mod",
+        "rational.to_float",
+        "int-or-float",
+        "mapping2float"
+    ],
+    "source_archive": "pd_protobuf[v0.3.1](Linux-armv7-32).dek",
+    "source_member": "pd_protobuf/pb_int64_to_float-help.pd"
+}

@@ -26,9 +26,9 @@
         "Data Structures"
     ],
     "similar": [
-        "impseq~",
-        "sequencer~",
-        "remove",
-        "l2i"
+        "ceammc.seq",
+        "metro.seq",
+        "fd_listout",
+        "ratchet-seq"
     ]
 }

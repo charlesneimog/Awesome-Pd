@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "mapping",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pmrepulsor_2d",
+    "description": "`pmrepulsor_2d` is a control abstraction with two float outputs, demonstrated with two-dimensional `force` and `grab` messages. The help patch also shows `grab_on` for enabling grabbing, but it does not provide enough information to explain the object’s repulsion behavior or the meaning of its creation arguments.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "pmrepulsor_3d",
+        "pmrepulsor_1d",
+        "resample",
+        "pmfilter"
+    ],
+    "source_archive": "mapping-v0.0.extended--externals.zip",
+    "source_member": "mapping/pmrepulsor_2d-help.pd"
+}

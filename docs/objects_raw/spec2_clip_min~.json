@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iem_spec2",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "spec2_clip_min~",
+    "description": "`spec2_clip_min~` restricts a signal so that its values do not fall below a minimum limit, similarly to `max~`. Like other `iem_spec2` objects, it processes only the first block-size/2 + 1 samples.",
+    "categories": [
+        "Spectral Processing"
+    ],
+    "similar": [
+        "spec2_clip_max~",
+        "spec2_1p1z_time~",
+        "spec2_dbtorms~",
+        "spec2_dbtopow~"
+    ],
+    "source_archive": "iem_spec2[v1.21.1](Windows-amd64-32)(Windows-amd64-64)(Windows-i386-32).dek",
+    "source_member": "iem_spec2/spec2_clip_min~-help.pd"
+}

@@ -1,0 +1,28 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "sfruit",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list-in",
+    "description": "`list-in` checks whether an item exists in a list. The help patch demonstrates testing symbols such as `a`, `c`, `e`, `g`, and `x` against the list `a b c d e f`, with the result displayed by a toggle.",
+    "categories": [
+        "Data Structures",
+        "Logic"
+    ],
+    "similar": [
+        "list-change",
+        "list-sieve",
+        "list-filter",
+        "list-compare"
+    ],
+    "source_archive": "sfruit-v0.0.extended--externals.zip",
+    "source_member": "sfruit/list-in-help.pd"
+}

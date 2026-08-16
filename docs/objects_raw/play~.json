@@ -26,9 +26,9 @@
         "Multichannel"
     ],
     "similar": [
+        "snd.play~",
+        "array.play~",
         "tabplayer~",
-        "player~",
-        "gran.player~",
-        "tabwriter~"
+        "sample_play~"
     ]
 }

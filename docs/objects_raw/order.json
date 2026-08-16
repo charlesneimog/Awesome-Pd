@@ -25,9 +25,9 @@
         "Routing"
     ],
     "similar": [
+        "sender",
+        "oreceive",
         "unjoin",
-        "spray",
-        "dispatch",
-        "multiplex"
+        "fd_next"
     ]
 }

@@ -28,8 +28,8 @@
     ],
     "similar": [
         "sfont~",
-        "gran.player~",
-        "midiformat",
+        "sfizz~",
+        "fluid~",
         "player~"
     ]
 }

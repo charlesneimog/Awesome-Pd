@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "data.bimap",
+    "description": "`data.bimap` stores pairs in a bidirectional map, allowing a left key to retrieve its right value and a right key to retrieve its left value through separate inlets and outlets. It can initialize or set its contents from a list of pairs, and all of its inlets are hot.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "local.bimap",
+        "global.bimap",
+        "data.dict",
+        "h_multimap"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/data.bimap-help.pd"
+}

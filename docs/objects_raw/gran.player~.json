@@ -28,8 +28,8 @@
     ],
     "similar": [
         "player~",
-        "stretch.shift~",
         "brane.m~",
-        "pvoc.player~"
+        "pvoc.player~",
+        "play.file~"
     ]
 }

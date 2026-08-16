@@ -27,7 +27,7 @@
     "similar": [
         "borax",
         "note.out",
-        "xnoteout",
-        "xnotein"
+        "midi-stream2notes",
+        "note2cents"
     ]
 }

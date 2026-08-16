@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "list-abs",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list-inter-many",
+    "description": "`list-inter-many` performs elementwise linear interpolation between several float lists, outputting the interpolated list. Send lists to its second inlet with the `add` selector, and use a float between 0 and 1 at the first inlet to set the distance between lists.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "list-inter",
+        "list-invint",
+        "list-sub",
+        "list-math"
+    ],
+    "source_archive": "list-abs-v0.1-20150529iem--externals.zip",
+    "source_member": "list-abs/list-inter-many-help.pd"
+}

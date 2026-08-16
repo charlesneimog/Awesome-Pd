@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
+        "canvasargs",
+        "patch.args",
         "presets.m",
-        "uzi",
-        "canvas.name",
-        "properties"
+        "c.patcherargs"
     ]
 }

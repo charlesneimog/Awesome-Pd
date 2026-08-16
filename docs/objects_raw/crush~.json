@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "crush~",
+    "description": "`crush~` is a bit crusher and decimator that quantizes and downsamples an input signal to produce distortion and aliasing. Its bit-reduction and decimation parameters range from 0 to 1, where 0 preserves the original sound and higher values apply more crushing or decimation; both default to 0.",
+    "categories": [
+        "Distortion"
+    ],
+    "similar": [
+        "crush.m~",
+        "crusher~",
+        "bitcrush",
+        "crusher.m~"
+    ],
+    "source_archive": "else[v1.0-0_rc14-with_live_electronics_tutorial](Linux-arm64-32).dek",
+    "source_member": "else/crush~-help.pd"
+}

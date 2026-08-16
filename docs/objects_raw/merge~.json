@@ -26,9 +26,9 @@
         "Routing"
     ],
     "similar": [
-        "select~",
         "unmerge~",
+        "select~",
         "mtx.mc~",
-        "xgate.mc~"
+        "send2~"
     ]
 }

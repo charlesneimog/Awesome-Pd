@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "add~",
         "add",
-        "rdiv~",
-        "minimum"
+        "plus",
+        "add~",
+        "modulo~"
     ]
 }

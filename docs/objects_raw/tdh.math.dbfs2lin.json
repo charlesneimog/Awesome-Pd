@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "tdh.lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "tdh.math.dbfs2lin",
+    "description": "`tdh.math.dbfs2lin` converts a gain value from decibels full scale (dBFS) to a linear gain value. It applies the relationship l = 10^(d/20), where d is the input in dBFS and l is the linear output.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "tdh.math.lin2dbfs",
+        "tdh.math.timeConversions",
+        "db2lin",
+        "conv.dbfs2amp~"
+    ],
+    "source_archive": "tdh.lib[v0.1.9].dek",
+    "source_member": "tdh.lib/tdh.math.dbfs2lin-help.pd"
+}

@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
-        "list2int",
-        "separate",
+        "reverse",
         "slice",
-        "reverse"
+        "any2symbol",
+        "retrieve"
     ]
 }

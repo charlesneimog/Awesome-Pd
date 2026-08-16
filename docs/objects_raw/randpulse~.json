@@ -27,9 +27,9 @@
         "Stochastic"
     ],
     "similar": [
-        "randpulse2~",
-        "pulse~",
         "randpulse",
-        "dust2~"
+        "randpulse2~",
+        "randpulse2",
+        "pulse~"
     ]
 }

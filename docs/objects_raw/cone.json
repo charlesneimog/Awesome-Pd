@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "disk",
         "cylinder",
-        "cuboid",
-        "trapezoid"
+        "disk",
+        "part_velcone",
+        "cuboid"
     ]
 }

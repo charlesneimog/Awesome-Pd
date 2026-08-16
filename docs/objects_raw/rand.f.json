@@ -28,7 +28,7 @@
     "similar": [
         "rand.f~",
         "rand.i",
-        "rand.i~",
-        "drunkard"
+        "rand.u",
+        "rand.dist"
     ]
 }

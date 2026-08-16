@@ -28,8 +28,8 @@
     ],
     "similar": [
         "seq",
-        "rec2",
-        "midi.in",
-        "note.in"
+        "midi.prg2str",
+        "midi-in",
+        "midi.ctl2str"
     ]
 }

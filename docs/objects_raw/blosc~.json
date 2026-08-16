@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "creb",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "blosc~",
+    "description": "`blosc~` provides bandlimited oscillators based on a minimal bandlimited comparator, for generating oscillator signals with reduced bandwidth-related artifacts. Its modes shown here include `pulse`, `pulse2`, `saw`, `syncsaw`, and `comparator`, covering one- and two-sided impulses, sawtooth, hard-synced sawtooth, and square/pulse-wave or PWM applications.",
+    "categories": [
+        "Oscillators"
+    ],
+    "similar": [
+        "cz-osc~",
+        "superosc~",
+        "cosc~",
+        "sqosc~"
+    ],
+    "source_archive": "creb[v0.9.2-3](Windows-amd64-32)(Sources).dek",
+    "source_member": "creb/blosc~-help.pd"
+}

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "group~",
+    "description": "`group~` groups a multichannel input into a specified number of output channels and sums the corresponding input channels in each group. The first argument sets the output channel count (default 1), while a nonzero second argument or `gain` message enables gain compensation by dividing each output by the number of channels summed.",
+    "categories": [
+        "Multichannel"
+    ],
+    "similar": [
+        "shoehorn~",
+        "npan~",
+        "spread.mc~",
+        "pan.mc~"
+    ],
+    "source_archive": "else[v1.0-0_rc14-with_live_electronics_tutorial](Linux-arm64-32).dek",
+    "source_member": "else/group~-help.pd"
+}

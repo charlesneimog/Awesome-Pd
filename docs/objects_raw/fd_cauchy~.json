@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_cauchy~",
+    "description": "`fd_cauchy~` generates the same Cauchy function as `fd_cauchy` and stores it into an array via DSP, for use by `fd_windows`; it has no outlets. Supply the array name and size as its two arguments, then send a bang to load the table while DSP is on.",
+    "categories": [
+        "Statistical Models"
+    ],
+    "similar": [
+        "fd_cauchy",
+        "fd_poisson~",
+        "fd_logistic~",
+        "fd_miller-gauss"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_cauchy~-help.pd"
+}

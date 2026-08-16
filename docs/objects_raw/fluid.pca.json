@@ -33,9 +33,9 @@
         "Math"
     ],
     "similar": [
-        "fluid.normalize",
-        "fluid.nmfmorph~",
         "fluid.mds",
-        "fluid.kmeans"
+        "fluid.normalize",
+        "fluid.kmeans",
+        "fluid.knnregressor"
     ]
 }

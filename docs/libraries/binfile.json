@@ -1,0 +1,16 @@
+{
+    "description": "binfile is a Pure Data external by Martin Peach for reading and writing binary files, with bytes represented as floating-point numbers inside Pd.",
+    "issues": "https://github.com/pd-externals/binfile/issues",
+    "link": "https://github.com/pd-externals/binfile",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://github.com/pd-externals/binfile",
+            "https://deken.puredata.info/search.html",
+            "https://packages.debian.org/sid/sound/pd-binfile"
+        ],
+        "notes": "The GitHub repository matches the binfile external distributed through Deken and identified by Debian as pd-binfile's project homepage.",
+        "checked_at": "2026-08-16T20:47:26+00:00"
+    }
+}

@@ -29,7 +29,7 @@
     "similar": [
         "model",
         "multimodel",
-        "gemvertexbuffer",
-        "pix_buffer"
+        "pix_movie",
+        "gemvertexbuffer"
     ]
 }

@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ekext",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "maskxor",
+    "description": "`maskxor` builds an exclusive-OR mask map from two lists supplied with `listl` and `listr`, for use in polyphony control. Floats pass only when the map entry at their integer index is greater than zero; in mode 1, they pass through the left outlet only when the left list has fewer nonzero elements than the right list.",
+    "categories": [
+        "Logic",
+        "Routing"
+    ],
+    "similar": [
+        "list-moses",
+        "ifValue",
+        "if",
+        "passif"
+    ],
+    "source_archive": "ekext-v0.0.extended-(Windows-i386-32)-externals.zip",
+    "source_member": "ekext/maskxor-help.pd"
+}

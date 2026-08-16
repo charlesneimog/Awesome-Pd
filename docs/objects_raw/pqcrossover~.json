@@ -1,0 +1,31 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pulqui",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pqcrossover~",
+    "description": "`pqcrossover~` is a crossover built from fourth-order Linkwitz–Riley filters, splitting an input signal into separate low-pass and high-pass outputs. Set the crossover frequency with a float creation argument or a `freq <float>` message.",
+    "categories": [
+        "Filters"
+    ],
+    "similar": [
+        "crossover~",
+        "cross~",
+        "lp4_bess~",
+        "hp4_bess~"
+    ],
+    "source_archive": "pulqui[v0.5.0](Darwin-amd64-32)(Darwin-arm64-32)(Linux-amd64-32)(Linux-arm64-32)(Linux-armv7-32)(Linux-i386-32)(Windows-amd64-32)(Windows-i386-32).dek",
+    "source_member": "pulqui/pqcrossover~-help.pd"
+}

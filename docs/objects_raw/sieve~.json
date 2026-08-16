@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "sigpack",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "sieve~",
+    "description": "`sieve~` is a simple sample sifter that processes an input signal and outputs the processed signal. It accepts a mode control and a signal-level control in the range -1 to 1; its two creation arguments set the default mode and default signal level.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "sigtoctl~",
+        "ctltosig~",
+        "s&h",
+        "retrieve"
+    ],
+    "source_archive": "sigpack[v0.0.45](Darwin-amd64-32)(Darwin-i386-32)(Sources).dek",
+    "source_member": "sigpack/sieve~-help.pd"
+}

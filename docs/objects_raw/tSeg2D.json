@@ -31,8 +31,8 @@
     "description": "The `tSeg2D` object tests the position of a \"mass\" relative to a defined 2D line segment. It takes the mass's coordinates and outputs a binary (0 or 1) value indicating whether the mass is interacting with the segment, considering parameters like segment points and interaction depth. It's designed for spatial relationship testing in a 2D environment.",
     "categories": [],
     "similar": [
-        "tLine2D",
         "iSeg2D",
+        "tLine2D",
         "tSquare2D",
         "tCircle3D"
     ]

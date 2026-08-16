@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "moocow",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "printwchars",
+    "description": "`printwchars` prints wide-character strings to the Pd console, accepting anything at its inlet. A creation argument such as `mywchars` is prefixed to the output, and a non-list selector such as `foo` is printed separately.",
+    "categories": [
+        "Debugging"
+    ],
+    "similar": [
+        "printbytes",
+        "rprint",
+        "print",
+        "print~"
+    ],
+    "source_archive": "moocow[v0.0.extended-not-all-objects](Windows-amd64-32)(Sources).dek",
+    "source_member": "moocow/printwchars-help.pd"
+}

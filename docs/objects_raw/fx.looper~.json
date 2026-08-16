@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fx.looper~",
+    "description": "`fx.looper~` is a one-track audio looper that records an input signal and can play, pause, stop, clear, or overdub the loop. Its maximum loop time is set by `@capacity` in seconds (0–120), and enabling `@loop_bang` sends a bang from the second outlet at each loop start.",
+    "categories": [
+        "Samplers"
+    ],
+    "similar": [
+        "looper",
+        "pp.loop.rec~",
+        "fx.stutter~",
+        "DEAPloop~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/fx.looper~-help.pd"
+}

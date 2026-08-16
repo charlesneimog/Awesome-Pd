@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
+        "delta~",
         "phasewrap~",
-        "cartopol~",
-        "rminus~",
-        "cartopol"
+        "delta",
+        "vdelta"
     ]
 }

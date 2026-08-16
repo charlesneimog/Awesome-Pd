@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_seltab",
+    "description": "`fd_seltab` selects tables from `fd_windows` using a float table index. Its optional float argument specifies the `fd_windows` instance number (default 0); it outputs the indexed table name from its first outlet and the table symbol from its second.",
+    "categories": [
+        "Routing"
+    ],
+    "similar": [
+        "fd_send",
+        "fd_next",
+        "fd_spigot3",
+        "fd_spigot"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_seltab-help.pd"
+}

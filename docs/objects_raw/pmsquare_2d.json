@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "mapping",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pmsquare_2d",
+    "description": "`pmsquare_2d` is a simple two-dimensional physical model of a “string” that outputs a list. The help patch drives it with `force x y`, `grab x y`, and `grab_on` messages, using separate controls to apply force along each axis.",
+    "categories": [
+        "Physical Modeling"
+    ],
+    "similar": [
+        "pmattractor_3d",
+        "pmattractor_2d",
+        "pmmulti_stable_2d",
+        "pmrigid_string_2d"
+    ],
+    "source_archive": "mapping-v0.0.extended--externals.zip",
+    "source_member": "mapping/pmsquare_2d-help.pd"
+}

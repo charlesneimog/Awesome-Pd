@@ -27,9 +27,9 @@
         "Patching"
     ],
     "similar": [
-        "synth~",
         "voices~",
+        "synth~",
         "abs.pd~",
-        "borax"
+        "hoa.@process"
     ]
 }

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list.equal",
+    "description": "`list.equal` compares two lists and outputs `1` when they are equal or `0` otherwise. The first list is sent to the first inlet, while the second inlet sets the comparison pattern, which can also be initialized with a list argument and accessed through the `@pattern` property.",
+    "categories": [
+        "Logic"
+    ],
+    "similar": [
+        "symbol.equal",
+        "equal",
+        "mtx_isequal",
+        "listCompare"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/list.equal-help.pd"
+}

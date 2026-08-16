@@ -27,8 +27,8 @@
     ],
     "similar": [
         "delay~",
-        "fbdelay~",
+        "fx.delay~",
         "flanger~",
-        "delay.m~"
+        "revdelay~"
     ]
 }

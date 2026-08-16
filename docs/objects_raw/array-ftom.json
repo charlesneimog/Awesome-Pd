@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "array-abs",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "array-ftom",
+    "description": "Upon receiving a bang, `array-ftom` converts every value in the currently referenced array from frequency to MIDI units. Use the `set` message to change which array it references.",
+    "categories": [
+        "MIDI"
+    ],
+    "similar": [
+        "array-mtof",
+        "vftom",
+        "midi.event2prg",
+        "midiflush"
+    ],
+    "source_archive": "array-abs[v0.1.0].dek",
+    "source_member": "array-abs/array-ftom-help.pd"
+}

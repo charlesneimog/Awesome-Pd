@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "rdiv~",
-        "minimum",
-        "rdiv",
-        "rminus~"
+        "mod~",
+        "divmod",
+        "math.sync_mod",
+        "rdiv~"
     ]
 }

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "maxlib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "minus",
+    "description": "`minus` performs chained subtraction, outputting the result as inlet 0 minus the values in the other inlets. Like `-`, it calculates when the leftmost (hot) inlet receives a value, and a `bang` calculates and outputs the current result; creation arguments set initial inlet values and the inlet count, with up to 32 arguments allowed.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "multi",
+        "plus",
+        "rminus",
+        "vvminus"
+    ],
+    "source_archive": "maxlib[v1.5.8](Linux-arm-32)(Sources).dek",
+    "source_member": "maxlib/minus-help.pd"
+}

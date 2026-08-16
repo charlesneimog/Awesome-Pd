@@ -25,9 +25,9 @@
         "Multichannel"
     ],
     "similar": [
-        "pan~",
         "spread.mc~",
-        "pan4~",
-        "xgate2~"
+        "pan~",
+        "rotate.mc~",
+        "pan4~"
     ]
 }

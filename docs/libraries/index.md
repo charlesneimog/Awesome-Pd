@@ -1,14 +1,228 @@
 # Libraries
 
 <div class="grid cards" markdown>
+- :material-tune: [__rtc__](rtc.md) .
+- :material-tune: [__iem_dp__](iem_dp.md) .
+- :material-tune: [__audiolab__](audiolab.md) AudioLab is a library of high-level Pure Data abstractions focused on electroacoustic composition, live electronics, and sound design..
+- :material-tune: [__fd_lib__](fd_lib.md) .
+- :material-tune: [__pddp__](pddp.md) .
+- :material-tune: [__mrpeach__](mrpeach.md) .
+- :material-tune: [__hcs__](hcs.md) .
 - :material-tune: [__else__](else.md) `ELSE` is a big library of externals that extends the performance of Pd.
+- :material-tune: [__ext13__](ext13.md) .
+- :material-tune: [__maxlib__](maxlib.md) .
+- :material-tune: [__py4pd__](py4pd.md) .
+- :material-tune: [__markex__](markex.md) .
 - :material-tune: [__cyclone__](cyclone.md) `Cyclone` is a library for Pure Data (Pd) that provides objects mimicking those in Max/MSP.
 - :material-tune: [__flucoma__](flucoma.md) The Fluid Corpus Manipulation project (FluCoMa) instigates new musical ways of exploiting ever-growing banks of sounds and gestures within the digital composition process, by bringing breakthroughs in signal decomposition, DSP, and machine learning to the toolset of techno-fluent computer composers, creative coders, and digital artists..
+- :material-tune: [__shmem__](shmem.md) .
+- :material-tune: [__ceammc__](ceammc.md) .
+- :material-tune: [__iemlib__](iemlib.md) .
 - :material-tune: [__fftease__](fftease.md) `FFTease` is a collection of objects designed to facilitate spectral sound processing in Max and Pd.
+- :material-tune: [__mkmr__](mkmr.md) .
+- :material-tune: [__cxc__](cxc.md) .
+- :material-tune: [__iemmatrix__](iemmatrix.md) .
+- :material-tune: [__mapping__](mapping.md) .
+- :material-tune: [__pdp__](pdp.md) .
 - :material-tune: [__zexy__](zexy.md) `zexy` provides several addon objects for the Pd computer music system, including (but not limited to) objects for message handling (construction, parsing, control flow), signal handling (synthesis, analysis, comparison) et al.
+- :material-tune: [__sfruit__](sfruit.md) .
+- :material-tune: [__array-abs__](array-abs.md) array-abs is a library of Pd Vanilla abstractions for searching and manipulating arrays, distributed through Deken..
+- :material-tune: [__Pd_Spectral_Toolkit__](Pd_Spectral_Toolkit.md) .
+- :material-tune: [__pd_protobuf__](pd_protobuf.md) .
+- :material-tune: [__chair__](chair.md) .
 - :material-tune: [__pmpd__](pmpd.md) `pmpd` is a collection of objects for Pd (Pure Data), enabling real-time simulations of physical phenomena.
+- :material-tune: [__tof__](tof.md) .
+- :material-tune: [__shadylib__](shadylib.md) .
+- :material-tune: [__iem_delay__](iem_delay.md) .
+- :material-tune: [__list-abs__](list-abs.md) .
+- :material-tune: [__ofelia__](ofelia.md) .
+- :material-tune: [__mc__](mc.md) .
+- :material-tune: [__moocow__](moocow.md) .
+- :material-tune: [__hid__](hid.md) .
+- :material-tune: [__iem_vanilla__](iem_vanilla.md) .
+- :material-tune: [__context__](context.md) .
+- :material-tune: [__planifolia__](planifolia.md) .
+- :material-tune: [__ossia__](ossia.md) .
 - :material-tune: [__timbreIDLib__](timbreIDLib.md) `timbreIDLib` is a library of audio analysis externals for Pure Data.
+- :material-tune: [__easyflow__](easyflow.md) .
+- :material-tune: [__pdmus__](pdmus.md) .
+- :material-tune: [__iem_tab__](iem_tab.md) .
+- :material-tune: [__pof__](pof.md) .
+- :material-tune: [__extra__](extra.md) .
+- :material-tune: [__Cream__](Cream.md) .
+- :material-tune: [__tdh.lib__](tdh.lib.md) .
+- :material-tune: [__pdlua__](pdlua.md) .
+- :material-tune: [__mjlib__](mjlib.md) .
+- :material-tune: [__lyonpotpourri__](lyonpotpourri.md) .
+- :material-tune: [__reactive__](reactive.md) .
+- :material-tune: [__jmmmp__](jmmmp.md) .
+- :material-tune: [__vanilla__](vanilla.md) .
+- :material-tune: [__nusmuk-utils__](nusmuk-utils.md) .
+- :material-tune: [__Jamoma__](Jamoma.md) .
+- :material-tune: [__soundhack__](soundhack.md) .
+- :material-tune: [__jpcvisu__](jpcvisu.md) .
+- :material-tune: [__smlib__](smlib.md) .
 - :material-tune: [__pd-psycho__](pd-psycho.md) .
-- :material-tune: [__neimog__](neimog.md) **pd-neimog** is a collection of objects, tools, and integrations for **Pure Data (Pd)** that I use in my work.
+- :material-tune: [__Fraise__](Fraise.md) .
+- :material-tune: [__pix_opencv__](pix_opencv.md) .
+- :material-tune: [__apple__](apple.md) apple is a macOS-specific Pure Data external library formerly distributed with Pd-extended.
+- :material-tune: [__unauthorized__](unauthorized.md) .
+- :material-tune: [__tclpd__](tclpd.md) .
+- :material-tune: [__chaos__](chaos.md) .
+- :material-tune: [__purest_json__](purest_json.md) .
+- :material-tune: [__jasch_lib__](jasch_lib.md) .
+- :material-tune: [__AutoPreset__](AutoPreset.md) AutoPreset is a collection of Pure Data abstractions for saving and recalling parameter states.
+- :material-tune: [__grainflow__](grainflow.md) .
+- :material-tune: [__Websockets__](Websockets.md) .
+- :material-tune: [__nusmuk-audio__](nusmuk-audio.md) .
+- :material-tune: [__jl__](jl.md) .
+- :material-tune: [__abl_link~__](abl_link~.md) Ableton Link integration for Pure Data on desktop and Android..
+- :material-tune: [__websocketserver__](websocketserver.md) .
+- :material-tune: [__iem16__](iem16.md) .
+- :material-tune: [__bela__](bela.md) bela is a collection of Pure Data abstractions for working with Bela hardware, providing convenient objects for audio, analog and digital I/O, audio-file playback, and oscilloscope access..
+- :material-tune: [__ml.lib__](ml.lib.md) .
+- :material-tune: [__quilt__](quilt.md) .
+- :material-tune: [__pdcontainer__](pdcontainer.md) .
+- :material-tune: [__sigpack__](sigpack.md) .
+- :material-tune: [__doublechord-plugin__](doublechord-plugin.md) .
+- :material-tune: [__vbap__](vbap.md) .
+- :material-tune: [__automatonism__](automatonism.md) Automatonism Reloaded is a Pure Data abstraction library and fork of Johan Eriksson’s Automatonism modular synthesizer.
+- :material-tune: [__iem_spec2__](iem_spec2.md) .
+- :material-tune: [__ultraleap__](ultraleap.md) .
+- :material-tune: [__creb__](creb.md) .
+- :material-tune: [__algo~__](algo~.md) algo~ is a third-party Pure Data external distributed through Pd’s Deken package system.
+- :material-tune: [__iem_ambi__](iem_ambi.md) .
+- :material-tune: [__tdh.satk__](tdh.satk.md) .
+- :material-tune: [__puremapping__](puremapping.md) .
+- :material-tune: [__iemguts__](iemguts.md) .
+- :material-tune: [__purepd__](purepd.md) .
+- :material-tune: [__motex__](motex.md) .
+- :material-tune: [__la-kitchen__](la-kitchen.md) .
+- :material-tune: [__windowing__](windowing.md) .
+- :material-tune: [__moonlib__](moonlib.md) .
+- :material-tune: [__dw_lib__](dw_lib.md) .
+- :material-tune: [__vabs__](vabs.md) .
+- :material-tune: [__ekext__](ekext.md) .
+- :material-tune: [__adaptive__](adaptive.md) adaptive is a Pure Data external library by Georg Holzmann that provides least-mean-square (LMS) and normalized LMS adaptive-filter objects, including lms~, lms2~, nlms~, and nlms2~..
+- :material-tune: [__ssr__](ssr.md) .
+- :material-tune: [__bf-pd__](bf-pd.md) bf-pd is a Pure Data library implementing the BOEUF framework to enable communication and cooperation between digital musical instruments, including sharing activity, controls, and other musical data..
+- :material-tune: [__vstplugin~__](vstplugin~.md) .
+- :material-tune: [__Gem__](Gem.md) .
+- :material-tune: [__pd-zmq__](pd-zmq.md) .
+- :material-tune: [__nilwind__](nilwind.md) .
+- :material-tune: [__vinylcontrol~__](vinylcontrol~.md) .
+- :material-tune: [__upp__](upp.md) .
+- :material-tune: [__rfpg__](rfpg.md) .
+- :material-tune: [__pofbeam__](pofbeam.md) .
+- :material-tune: [__iemnet__](iemnet.md) .
+- :material-tune: [__oscx__](oscx.md) .
+- :material-tune: [__bandlimited__](bandlimited.md) bandlimited is a Pure Data external that generates square, triangle, saw, reverse-saw, saw-triangle, and pulse waveforms band-limited to the Nyquist frequency.
+- :material-tune: [__ggee__](ggee.md) .
+- :material-tune: [__acre__](acre.md) ACRE (Algorithmic Composition Realtime Environment) is a collection of Pure Data patches and example applications for real-time algorithmic composition.
+- :material-tune: [__pd-push-and-hold__](pd-push-and-hold.md) .
+- :material-tune: [__pulqui__](pulqui.md) .
+- :material-tune: [__artnetlib__](artnetlib.md) artnetlib is a Pure Data library containing five objects for turning a Pd patch into an Art-Net controller.
+- :material-tune: [__notesLib__](notesLib.md) .
+- :material-tune: [__RabbitControl__](RabbitControl.md) .
+- :material-tune: [__hidio__](hidio.md) .
+- :material-tune: [__nicinfo__](nicinfo.md) .
+- :material-tune: [__aoo__](aoo.md) AOO (Audio over OSC) is a lightweight peer-to-peer library for streaming audio and messages in real time over local networks or the public internet.
+- :material-tune: [__osc__](osc.md) .
+- :material-tune: [__pan__](pan.md) .
+- :material-tune: [__hexloader__](hexloader.md) .
+- :material-tune: [__ndi__](ndi.md) .
+- :material-tune: [__constantq~__](constantq~.md) .
+- :material-tune: [__xlab__](xlab.md) **pd-xlab** is a collection of objects, tools, and integrations for **Pure Data (Pd)** focused on signal manipulation, statistics, Music Information Retrieval (MIR), and Python/Lua scripting.
+- :material-tune: [__guis__](guis.md) .
+- :material-tune: [__boids__](boids.md) .
+- :material-tune: [__stash__](stash.md) .
+- :material-tune: [__leapmotion__](leapmotion.md) .
+- :material-tune: [__jackpatch__](jackpatch.md) .
+- :material-tune: [__wavview__](wavview.md) .
+- :material-tune: [__arraysize__](arraysize.md) arraysize is a Pure Data external that reports the size of a named array.
+- :material-tune: [__iemgui__](iemgui.md) .
+- :material-tune: [__iem_roomsim__](iem_roomsim.md) .
+- :material-tune: [__gem2pdp__](gem2pdp.md) .
+- :material-tune: [__tracker__](tracker.md) .
+- :material-tune: [__DEAPd__](DEAPd.md) .
+- :material-tune: [__tune~__](tune~.md) .
+- :material-tune: [__pispi__](pispi.md) .
+- :material-tune: [__plugin~__](plugin~.md) .
+- :material-tune: [__pdpii2c__](pdpii2c.md) .
+- :material-tune: [__comport__](comport.md) .
+- :material-tune: [__aconnect__](aconnect.md) aconnect is a Pure Data external library that provides ALSA sequencer connection-management objects, including [aconnect] and [aconnects].
+- :material-tune: [__asdf__](asdf.md) asdf is a Pure Data library providing the asdf~ external, which loads dynamic 3D audio scenes described in the XML-based Audio Scene Description Format and supplies their source signals and control messages.
+- :material-tune: [__spring22__](spring22.md) .
+- :material-tune: [__pduino__](pduino.md) .
+- :material-tune: [__pdogg__](pdogg.md) .
+- :material-tune: [__iempluginOSC__](iempluginOSC.md) .
+- :material-tune: [__spect_scaled__](spect_scaled.md) .
+- :material-tune: [__flatgui__](flatgui.md) .
+- :material-tune: [__dnd-plugin__](dnd-plugin.md) .
 - :material-tune: [__piro__](piro.md) `piro` is Pd-port of `irmeasure~` and `multiconvolve~` from the HISSTools Impulse Response Toolbox (HIRT) · Stands for *Pd Impulse Response Objects*, or "fire" (ancient Greek), or sounds like "Pirro" (Pyrrhus) – since this port took a very long period!.
+- :material-tune: [__streamStretch~__](streamStretch~.md) .
+- :material-tune: [__acre-amb__](acre-amb.md) acre-amb is a collection of high-level Pure Data abstractions for Ambisonics mixing and multichannel signal processing, including encoder, decoder, calibration, and loudspeaker-distribution workflows.
+- :material-tune: [__witsensor__](witsensor.md) .
+- :material-tune: [__bsaylor__](bsaylor.md) .
+- :material-tune: [__DRFX__](DRFX.md) .
+- :material-tune: [__art_net__](art_net.md) art_net is a basic Pure Data Vanilla library for sending Art-Net data.
+- :material-tune: [__log__](log.md) .
+- :material-tune: [__xsample__](xsample.md) .
+- :material-tune: [__senselmorph__](senselmorph.md) .
+- :material-tune: [__PDNAM__](PDNAM.md) .
+- :material-tune: [__simplex__](simplex.md) .
+- :material-tune: [__patcherize-plugin__](patcherize-plugin.md) .
+- :material-tune: [__faustgen~__](faustgen~.md) .
+- :material-tune: [__mediasettings__](mediasettings.md) .
+- :material-tune: [__FluidCorpusManipulation__](FluidCorpusManipulation.md) .
+- :material-tune: [__tabwrite_dir~__](tabwrite_dir~.md) .
+- :material-tune: [__zconf__](zconf.md) .
+- :material-tune: [__queryresponse__](queryresponse.md) .
+- :material-tune: [__bytestruct__](bytestruct.md) .
+- :material-tune: [__pix_artoolkit__](pix_artoolkit.md) .
+- :material-tune: [__mpv__](mpv.md) .
+- :material-tune: [__openscofo~__](openscofo~.md) .
+- :material-tune: [__neuralnet__](neuralnet.md) .
+- :material-tune: [__gigaverb~__](gigaverb~.md) .
+- :material-tune: [__vasp__](vasp.md) .
+- :material-tune: [__pdjs__](pdjs.md) .
+- :material-tune: [__triggerize-plugin__](triggerize-plugin.md) .
+- :material-tune: [__binfile__](binfile.md) binfile is a Pure Data external by Martin Peach for reading and writing binary files, with bytes represented as floating-point numbers inside Pd..
+- :material-tune: [__timestretch__](timestretch.md) .
+- :material-tune: [__filemtime__](filemtime.md) .
+- :material-tune: [__pool__](pool.md) .
+- :material-tune: [__acre-wg__](acre-wg.md) acre-wg is a Pure Data abstractions library for building waveguide-based physical models of real or imaginary sounding objects.
+- :material-tune: [__webserver__](webserver.md) .
+- :material-tune: [__slip__](slip.md) .
+- :material-tune: [__muug__](muug.md) .
+- :material-tune: [__hrtf~__](hrtf~.md) .
+- :material-tune: [__lolPd__](lolPd.md) .
+- :material-tune: [__iem_bin_ambi__](iem_bin_ambi.md) .
+- :material-tune: [__tabreceive_mult~__](tabreceive_mult~.md) .
+- :material-tune: [__cicmtools__](cicmtools.md) .
+- :material-tune: [__gpmotion__](gpmotion.md) .
+- :material-tune: [__shotnoise__](shotnoise.md) .
+- :material-tune: [__syslog__](syslog.md) .
+- :material-tune: [__ws__](ws.md) .
+- :material-tune: [__testtools__](testtools.md) .
+- :material-tune: [__hidraw__](hidraw.md) .
+- :material-tune: [__mp3cast~__](mp3cast~.md) .
+- :material-tune: [__absattr__](absattr.md) absattr is a Pure Data external by Thomas Grill for handling patcher arguments as Max/MSP/Jitter-style attributes in Pd abstractions..
+- :material-tune: [__iemxmlrpc__](iemxmlrpc.md) .
+- :material-tune: [__freeverb~__](freeverb~.md) .
+- :material-tune: [__command__](command.md) .
+- :material-tune: [__jit_expr__](jit_expr.md) .
+- :material-tune: [__unicode__](unicode.md) .
+- :material-tune: [__rtcmix~__](rtcmix~.md) .
+- :material-tune: [__martha~__](martha~.md) .
+- :material-tune: [__bassemu__](bassemu.md) bassemu~ is a Pure Data external that emulates a transistor-based analog bass synthesizer.
+- :material-tune: [__midifile__](midifile.md) .
+- :material-tune: [__flite__](flite.md) .
+- :material-tune: [__p2p~__](p2p~.md) .
+- :material-tune: [__clk__](clk.md) .
+- :material-tune: [__hidin__](hidin.md) .
+- :material-tune: [__ezaoo__](ezaoo.md) .
+- :material-tune: [__missive~__](missive~.md) .
+- :material-tune: [__jsobj__](jsobj.md) .
+- :material-tune: [__swe~__](swe~.md) .
 </div>

@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "tdh.lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "tdh.synth.oscilPulse~",
+    "description": "`tdh.synth.oscilPulse~` generates a pulse waveform with frequency modulation and adjustable pulse width; a width of 0.5 produces a square wave. Frequency may be supplied as either a signal or a data-rate message, but using both adds the two frequency values, and the oscillator is not anti-aliased.",
+    "categories": [
+        "Oscillators"
+    ],
+    "similar": [
+        "tdh.synth.1oscil~",
+        "bl.pulse~",
+        "tdh.synth.1oscil.ui~",
+        "pulse"
+    ],
+    "source_archive": "tdh.lib[v0.1.9].dek",
+    "source_member": "tdh.lib/tdh.synth.oscilPulse~-help.pd"
+}

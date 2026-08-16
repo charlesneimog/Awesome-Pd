@@ -27,7 +27,7 @@
     "similar": [
         "light",
         "spot_light",
-        "ambientRGB",
-        "pix_aging"
+        "pix_backlight",
+        "ambientRGB"
     ]
 }

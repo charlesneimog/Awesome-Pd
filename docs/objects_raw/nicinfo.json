@@ -1,0 +1,31 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "nicinfo",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "nicinfo",
+    "description": "`nicinfo` reports the current IP address or addresses of the network interfaces found on the system. Trigger it with a bang and connect its output to an object such as `print` to display the results.",
+    "categories": [
+        "Networking"
+    ],
+    "similar": [
+        "tcpclient",
+        "DEAPlink",
+        "udpclient",
+        "net.host2ip"
+    ],
+    "source_archive": "nicinfo[v0.2.3](Darwin-amd64-32)(Darwin-arm64-32)(Linux-amd64-32)(Linux-arm64-32)(Linux-armv7-32)(Linux-i386-32)(Windows-amd64-32)(Windows-i386-32).dek",
+    "source_member": "nicinfo/nicinfo-help.pd"
+}

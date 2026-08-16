@@ -26,8 +26,8 @@
     ],
     "similar": [
         "pix_color",
-        "pix_threshold",
         "pix_bitmask",
-        "pix_mix"
+        "pix_threshold",
+        "pix_offset"
     ]
 }

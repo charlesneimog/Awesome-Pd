@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "flt.bpf72e~",
+    "description": "`flt.bpf72e~` is an elliptic band-pass filter with a −72 dB rolloff, intended to pass a selected frequency band from an input signal. Set its center frequency in hertz and quality factor Q (`frequency / bandwidth`) using the first and second float arguments or the `@freq` and `@q` properties.",
+    "categories": [
+        "Filters"
+    ],
+    "similar": [
+        "flt.bpf36e~",
+        "flt.bpf12~",
+        "flt.bpf24~",
+        "flt.c_bpf~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/flt.bpf72e~-help.pd"
+}

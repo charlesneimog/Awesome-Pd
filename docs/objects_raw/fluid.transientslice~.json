@@ -32,8 +32,8 @@
     ],
     "similar": [
         "fluid.buftransientslice",
-        "fluid.onsetslice~",
-        "fluid.noveltyfeature~",
-        "fluid.bufampfeature"
+        "fluid.ampslice~",
+        "fluid.transients~",
+        "fluid.onsetslice~"
     ]
 }

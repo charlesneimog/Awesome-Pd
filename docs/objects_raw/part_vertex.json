@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "part_head",
-        "part_render",
+        "part_move",
+        "part_color",
         "part_killslow",
-        "part_size"
+        "part_render"
     ]
 }

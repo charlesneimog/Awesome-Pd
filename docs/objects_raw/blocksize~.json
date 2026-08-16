@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
-        "any2symbol",
-        "fontsize",
-        "canvas.vis",
-        "tempo~"
+        "iem_blocksize~",
+        "blocksize_in_ms",
+        "vectorsize~",
+        "fontsize"
     ]
 }

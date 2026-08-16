@@ -25,9 +25,9 @@
         "Multichannel"
     ],
     "similar": [
-        "spread.mc~",
         "level.m~",
-        "pan.mc~",
-        "sigs~"
+        "npan~",
+        "sigs~",
+        "rotate~"
     ]
 }

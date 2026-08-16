@@ -28,6 +28,6 @@
         "cents2ratio",
         "autotune2",
         "ratio2cents",
-        "frac2cents"
+        "beat2frac"
     ]
 }

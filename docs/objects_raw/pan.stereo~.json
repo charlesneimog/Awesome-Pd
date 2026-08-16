@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pan.stereo~",
+    "description": "`pan.stereo~` pans a stereo input by merging both channels toward the left or right using sine/cosine equal-power panning. Its pan value ranges from -1 to 1, defaults to 0, and can be supplied as a float or signal; multichannel inputs are supported when the relevant channel counts match.",
+    "categories": [
+        "Routing",
+        "Multichannel"
+    ],
+    "similar": [
+        "pan2~",
+        "pan.spread~",
+        "xgate2~",
+        "xselect2~"
+    ],
+    "source_archive": "else[v1.0-0_rc14-with_live_electronics_tutorial](Linux-arm64-32).dek",
+    "source_member": "else/pan.stereo~-help.pd"
+}

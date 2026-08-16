@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "music.voice2midi",
+    "description": "`music.voice2midi` converts a voice-music note list into MIDI values. Input notation supports pitches and rests, accidentals, octaves, cent deviations, and durations, as illustrated by `C|4 D R Eb F# G(-25c) A|8`.",
+    "categories": [
+        "MIDI",
+        "Score-based"
+    ],
+    "similar": [
+        "music.dur2time",
+        "conv.note2guido",
+        "rtcmix~",
+        "notes"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/music.voice2midi-help.pd"
+}

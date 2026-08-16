@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ext13",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "messages",
+    "description": "The help patch for `messages` is only a placeholder and provides no evidence about what the object does or its purpose. Its behavior and usage details therefore cannot be determined from this patch.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "send13~",
+        "rgb",
+        "j.message_array",
+        "sfwrite13~"
+    ],
+    "source_archive": "ext13[v0.17.1-4](Windows-amd64-32)(Sources).dek",
+    "source_member": "ext13/messages-help.pd"
+}

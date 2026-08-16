@@ -26,8 +26,8 @@
     ],
     "similar": [
         "zerox~",
-        "featureDelta",
-        "barkSpecSkewness~",
-        "specSkewness~"
+        "zeroCrossing~",
+        "zeroCrossing",
+        "fd_zero-crossing~"
     ]
 }

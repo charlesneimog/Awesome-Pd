@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_listout",
+    "description": "`fd_listout` recursively outputs all elements of a list, emitting each element as a float or symbol. Send a list to iterate through it and a bang to output the stored list; its float control sets the delay time between iterations.",
+    "categories": [
+        "Data Structures",
+        "Sequencers"
+    ],
+    "similar": [
+        "rtree.to_list",
+        "list.seq",
+        "fd_delit",
+        "delit"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_listout-help.pd"
+}

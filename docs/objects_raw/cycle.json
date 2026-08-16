@@ -25,9 +25,9 @@
         "Routing"
     ],
     "similar": [
-        "gate",
-        "router",
-        "route~",
-        "spray"
+        "route.cycle",
+        "spray",
+        "split_my_msgs",
+        "gate"
     ]
 }

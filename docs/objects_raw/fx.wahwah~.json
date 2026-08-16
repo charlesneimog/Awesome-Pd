@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fx.wahwah~",
+    "description": "`fx.wahwah~` is a digitized Cry Baby wah pedal effect for processing an input signal. Set its pedal angle with a float from 0 to 1; it also supports dry/wet mixing, bypass, and automation speed in BPM.",
+    "categories": [
+        "Filters"
+    ],
+    "similar": [
+        "wahwah~",
+        "fx.drone_box~",
+        "vcf_bp2~",
+        "blop~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/fx.wahwah~-help.pd"
+}

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "tseq",
+    "description": "`tseq` is a step-sequencing object for working with list-based patterns, as demonstrated by the 16-step binary patterns and timing controls in the help patch. It accepts the control messages `allon`, `clear`, and `dump`; the patch does not provide enough detail to state their exact output behavior.",
+    "categories": [
+        "Sequencers"
+    ],
+    "similar": [
+        "mseq",
+        "countseq",
+        "trigger-seq",
+        "satk.seq.stepSeq"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/tseq-help.pd"
+}

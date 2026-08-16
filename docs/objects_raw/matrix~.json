@@ -26,9 +26,9 @@
         "Multichannel"
     ],
     "similar": [
-        "mtx.mc~",
-        "mtx~",
-        "mix2~",
-        "xselect2.mc~"
+        "+matrix~",
+        "mtx_mul~",
+        "mix~",
+        "mtx~"
     ]
 }

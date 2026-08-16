@@ -26,9 +26,9 @@
         "Filters"
     ],
     "similar": [
-        "filterdelay~",
-        "teeth~",
-        "comb~",
-        "comb.rev~"
+        "comb.rev~",
+        "flt.ff_comb~",
+        "combfilter",
+        "rcombf~"
     ]
 }

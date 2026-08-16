@@ -32,8 +32,8 @@
     ],
     "similar": [
         "fluid.bufonsetfeature",
+        "fluid.onsetslice~",
         "fluid.bufonsetslice",
-        "fluid.noveltyslice~",
-        "fluid.noveltyfeature~"
+        "fluid.ampfeature~"
     ]
 }

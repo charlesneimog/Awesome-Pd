@@ -25,9 +25,9 @@
         "Routing"
     ],
     "similar": [
-        "mtx~",
-        "receiver",
-        "funnel",
-        "selector"
+        "dynreceive",
+        "oreceive",
+        "j.receive",
+        "receiver"
     ]
 }

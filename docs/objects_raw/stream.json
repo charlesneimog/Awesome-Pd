@@ -25,9 +25,9 @@
         "Data Structures"
     ],
     "similar": [
-        "thresh",
-        "l",
-        "pak",
-        "l2i"
+        "stream-map",
+        "stream-totext",
+        "stream-fromtext",
+        "thresh"
     ]
 }

@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_mean_color",
-        "pix_color",
         "pix_hsv2rgb",
-        "part_color"
+        "hsv2rgb",
+        "pix_rgba",
+        "rgb2yuv"
     ]
 }

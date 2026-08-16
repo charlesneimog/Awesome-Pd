@@ -1,0 +1,15 @@
+{
+    "description": "art_net is a basic Pure Data Vanilla library for sending Art-Net data. Its maintainer, Cyrille Henry, distributes it through Deken.",
+    "issues": "",
+    "link": "",
+    "research": {
+        "status": "partial",
+        "confidence": "medium",
+        "sources": [
+            "https://deken.puredata.info/search.html",
+            "https://www.mail-archive.com/pd-list%40lists.iem.at/msg26798.html"
+        ],
+        "notes": "Deken verifies the art_net v2019 package uploaded by chnry, and Cyrille Henry identifies it as his library on the Pd mailing list. No canonical source repository or issue tracker could be verified.",
+        "checked_at": "2026-08-16T20:39:17+00:00"
+    }
+}

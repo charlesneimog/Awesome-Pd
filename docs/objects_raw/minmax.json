@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
-        "sum",
-        "trunc",
         "minmax~",
-        "float2bits"
+        "list-minmax",
+        "mtx_minmax",
+        "sum"
     ]
 }

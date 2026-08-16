@@ -26,9 +26,9 @@
         "Oscillators"
     ],
     "similar": [
-        "pimp",
-        "oscnoise~",
+        "phasor~~",
+        "seq.phasor",
         "train~",
-        "impulse"
+        "oscnoise~"
     ]
 }

@@ -28,7 +28,7 @@
     "similar": [
         "pix_blobtracker",
         "pix_drum",
-        "pix_histo",
-        "pix_movement2"
+        "pix_opencv_surf",
+        "pix_histo"
     ]
 }

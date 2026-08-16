@@ -27,9 +27,9 @@
         "bolster2568"
     ],
     "similar": [
-        "pitch.shift~",
-        "stretch.shift~",
-        "pvoc.player~",
-        "gran.player~"
+        "soundtouch",
+        "reactor",
+        "pitchshifter",
+        "fx.pitchshift_s~"
     ]
 }

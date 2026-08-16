@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_data",
+    "description": "`fd_data` is a set of abstractions for creating data structures, built upon Pd’s 4.data.structures/05.array.pd example. The `fd_data` object itself takes no arguments and has no inlets or outlets.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "fd_dataLine",
+        "fd_dataRead3",
+        "fd_dataExp",
+        "fd_dataRand"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_data-help.pd"
+}

@@ -1,0 +1,16 @@
+{
+    "description": "Automatonism Reloaded is a Pure Data abstraction library and fork of Johan Eriksson’s Automatonism modular synthesizer. It adds MIDI learn, in-patch state saving, PlugData/DAW integration, and is distributed through Deken under the name “automatonism.”",
+    "issues": "https://github.com/jyg/automatonism-reloaded/issues",
+    "link": "https://github.com/jyg/automatonism-reloaded",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://github.com/jyg/automatonism-reloaded",
+            "https://deken.puredata.info/search.html",
+            "https://www.automatonism.com/the-software"
+        ],
+        "notes": "The current Deken package named “automatonism” is Automatonism Reloaded. The original Automatonism project is distributed from its official website, where no canonical source repository or issue tracker is identified.",
+        "checked_at": "2026-08-16T20:40:57+00:00"
+    }
+}

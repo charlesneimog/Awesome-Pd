@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "string.length",
+    "description": "`string.length` returns the number of characters in an input string or symbol. It supports Unicode strings, so the reported length is a character count.",
+    "categories": [
+        "Text"
+    ],
+    "similar": [
+        "symbol.length",
+        "stringLength",
+        "string.match",
+        "string.starts_with"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/string.length-help.pd"
+}

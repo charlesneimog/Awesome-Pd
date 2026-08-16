@@ -26,9 +26,9 @@
         "Multichannel"
     ],
     "similar": [
+        "envgen",
         "adsr~",
-        "adsr.m~",
-        "autofade2~",
-        "autofade2.mc~"
+        "env.asr2~",
+        "adsr.m~"
     ]
 }

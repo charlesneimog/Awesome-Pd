@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iem_roomsim",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "block_peak_env~",
+    "description": "`block_peak_env~` is used to measure a signal’s peak envelope on a block-by-block basis. The help patch supplies a first argument such as 0.999 and offers nearby values, but does not explain what that parameter controls.",
+    "categories": [
+        "Dynamics"
+    ],
+    "similar": [
+        "blocknorm~",
+        "dyn.comp_peak~",
+        "dyn.comp_peak2~",
+        "pp.dynamics~"
+    ],
+    "source_archive": "iem_roomsim[v1.21.1](Windows-amd64-32)(Windows-amd64-64)(Windows-i386-32).dek",
+    "source_member": "iem_roomsim/block_peak_env~-help.pd"
+}

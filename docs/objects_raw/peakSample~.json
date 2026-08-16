@@ -25,9 +25,9 @@
     "title": "peakSample~",
     "description": "The `peakSample~` object identifies the sample with the largest magnitude within a defined window of an incoming audio signal, outputting both its value and index. It handles its own audio buffering and windowing, making it suitable for real-time audio feature extraction. This descriptor is particularly useful as an input for timbre identification and classification systems.",
     "similar": [
-        "barkSpecFlatness~",
-        "magSpec~",
-        "specSkewness~",
-        "specSlope~"
+        "peakSample",
+        "minSample~",
+        "maxSample~",
+        "specSkewness~"
     ]
 }

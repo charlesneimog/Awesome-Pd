@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "automatonism",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "extra-sampler",
+    "description": "`extra-sampler` is a stereo sampler for loading mono or stereo WAV and AIFF files, with variable pitch, playback length, and start position. It can play once when triggered or loop indefinitely, and its `END_TRIG` output signals only when playback reaches the sample’s end without being retriggered.",
+    "categories": [
+        "Samplers"
+    ],
+    "similar": [
+        "sampler",
+        "sample_record~",
+        "sample_play~",
+        "sample_shifft~"
+    ],
+    "source_archive": "automatonism[v0.4.2.4].dek",
+    "source_member": "automatonism/patch_editor_abs/extra-sampler-help.pd"
+}

@@ -28,6 +28,6 @@
         "ambientRGB",
         "diffuse",
         "specularRGB",
-        "diffuseRGB"
+        "specular"
     ]
 }

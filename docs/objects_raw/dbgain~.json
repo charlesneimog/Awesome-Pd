@@ -28,7 +28,7 @@
     "similar": [
         "level~",
         "vca.m~",
-        "limiter~",
-        "level.m~"
+        "vca2~",
+        "vca2.m~"
     ]
 }

@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
+        "bang~",
         "pulsediv~",
-        "merge",
         "bangbang",
-        "slice"
+        "banger"
     ]
 }

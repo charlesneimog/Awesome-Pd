@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "flow.split",
+    "description": "`flow.split` splits an input data flow according to a predicate evaluated by an external side chain, routing values to separate true and false outlets. Each input value is sent to the predicate side chain, which should return a float; returning `1` selects the true output, while other predicate results select the false output.",
+    "categories": [
+        "Routing",
+        "Logic"
+    ],
+    "similar": [
+        "flow.reject_if",
+        "flow.pass_if",
+        "if",
+        "flow.sync"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/flow.split-help.pd"
+}

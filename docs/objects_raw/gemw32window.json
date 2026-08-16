@@ -26,8 +26,8 @@
         "Control I/O"
     ],
     "similar": [
-        "gemglfw2window",
         "gemsdl2window",
+        "gemglfw2window",
         "gemcocoawindow",
         "gemglfw3window"
     ]

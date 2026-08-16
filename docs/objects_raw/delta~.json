@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "cosh~",
-        "sinh~",
-        "acosh~",
-        "acos~"
+        "delta",
+        "doubledelta",
+        "framedelta~",
+        "list.delta"
     ]
 }

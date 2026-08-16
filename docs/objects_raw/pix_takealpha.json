@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_mask",
-        "pix_composite",
+        "pix_coloralpha",
         "pix_alpha",
-        "pix_coloralpha"
+        "pix_mask",
+        "pix_composite"
     ]
 }

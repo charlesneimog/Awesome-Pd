@@ -25,9 +25,9 @@
         "Filters"
     ],
     "similar": [
-        "reson~",
-        "bandstop~",
-        "eq~",
-        "lowpass~"
+        "bandpass",
+        "bandpass_2p~",
+        "lowpass~",
+        "highpass~"
     ]
 }

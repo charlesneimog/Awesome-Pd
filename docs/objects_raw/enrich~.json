@@ -34,9 +34,9 @@
         "Oscillators"
     ],
     "similar": [
+        "harmgen~",
         "blip~",
-        "pvtuner~",
-        "oscbank~",
-        "sine~"
+        "chimes~",
+        "sinebank"
     ]
 }

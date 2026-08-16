@@ -25,9 +25,9 @@
         "Filters"
     ],
     "similar": [
-        "lop.bw~",
-        "cross~",
-        "crossover~",
-        "hip.bw~"
+        "hp10_butt~",
+        "lp10_butt~",
+        "hp10_crit~",
+        "lp10_crit~"
     ]
 }

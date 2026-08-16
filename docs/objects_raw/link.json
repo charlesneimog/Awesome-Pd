@@ -35,8 +35,8 @@
     ],
     "similar": [
         "link2D",
-        "pmpd2d",
         "link3D",
-        "mass3D"
+        "tLink2D",
+        "pmpd2d"
     ]
 }

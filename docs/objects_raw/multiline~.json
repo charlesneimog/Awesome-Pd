@@ -26,9 +26,9 @@
         "Multichannel"
     ],
     "similar": [
-        "ceil~",
-        "sum~",
-        "fader~",
-        "db2lin~"
+        "matrix_mul_line~",
+        "matrix_diag_mul_line~",
+        "matrix_mul_line8~",
+        "ceil~"
     ]
 }

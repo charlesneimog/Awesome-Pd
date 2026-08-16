@@ -26,8 +26,8 @@
     ],
     "similar": [
         "pix_rtx",
-        "text2d",
-        "imageVert",
-        "pix_aging"
+        "pix_refraction",
+        "pix_roi",
+        "pix_lumaoffset"
     ]
 }

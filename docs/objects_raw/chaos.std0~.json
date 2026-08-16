@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "chaos.std0~",
+    "description": "`chaos.std0~` is a non-interpolating chaotic generator based on the standard map, producing successive x and y values from the given difference equations. Its two outlets map the x and y values to the range [-1, 1]; the first inlet sets generation frequency with a minimum of 0.001 Hz, while the second sets the k value.",
+    "categories": [
+        "Oscillators"
+    ],
+    "similar": [
+        "chaos.gbman0~",
+        "chaos.std0",
+        "fbsine2~",
+        "osc.sinfb~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/chaos.std0~-help.pd"
+}

@@ -33,9 +33,9 @@
         "Descriptors"
     ],
     "similar": [
+        "fluid.audiotransport~",
+        "fundfreq~",
         "centroid~",
-        "tID_fft",
-        "fluid.bufaudiotransport",
-        "fluid.audiotransport~"
+        "fluid.bufaudiotransport"
     ]
 }

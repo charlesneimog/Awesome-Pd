@@ -32,8 +32,8 @@
     ],
     "similar": [
         "fluid.bufampfeature",
-        "fluid.bufonsetfeature",
         "fluid.onsetfeature~",
-        "fluid.spectralshape~"
+        "fluid.bufonsetfeature",
+        "fluid.noveltyfeature~"
     ]
 }

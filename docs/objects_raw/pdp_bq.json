@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pdp",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pdp_bq",
+    "description": "`pdp_bq` is a spatial biquad filter with low-pass, high-pass, all-pass, and band-stop modes, plus selectable horizontal and vertical filtering directions. Its right inlet sets the number of passes; frequency is normalized between 0 and 1, with 0.5 representing Nyquist, and frequency or Q values outside sensible ranges can produce unstable behavior.",
+    "categories": [
+        "Filters"
+    ],
+    "similar": [
+        "pdp_bqt",
+        "pdp_conv",
+        "fd_butterworth",
+        "pp.ladder-st~"
+    ],
+    "source_archive": "pdp-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "pdp/pdp_bq-help.pd"
+}

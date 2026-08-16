@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "sfruit",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "quantize",
+    "description": "`quantize` rounds an input number to the next multiple of its argument. For example, `quantize 16` uses 16 as the quantization interval.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "quantize~",
+        "quantizer",
+        "_quantizer",
+        "quantizer~"
+    ],
+    "source_archive": "sfruit-v0.0.extended--externals.zip",
+    "source_member": "sfruit/quantize-help.pd"
+}

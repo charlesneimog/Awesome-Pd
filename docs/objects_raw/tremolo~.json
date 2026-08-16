@@ -25,9 +25,9 @@
         "Chorus/Flanger/Phaser"
     ],
     "similar": [
-        "chorus~",
         "vibrato~",
-        "phaser.m~",
-        "phaser~"
+        "chorus~",
+        "phaser~",
+        "chorus"
     ]
 }

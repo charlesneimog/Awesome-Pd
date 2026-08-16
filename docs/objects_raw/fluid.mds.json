@@ -32,9 +32,9 @@
         "Statistical Models"
     ],
     "similar": [
-        "fluid.knnregressor",
-        "fluid.kmeans",
         "fluid.umap",
-        "fluid.standardize"
+        "fluid.pca",
+        "fluid.knnregressor",
+        "fluid.kmeans"
     ]
 }

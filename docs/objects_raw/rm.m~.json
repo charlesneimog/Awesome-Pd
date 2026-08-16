@@ -25,9 +25,9 @@
         "Distortion"
     ],
     "similar": [
+        "crush.m~",
         "crusher~",
-        "digidistort",
-        "drive~",
-        "overdrive~"
+        "drive.m~",
+        "drive~"
     ]
 }

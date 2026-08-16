@@ -34,8 +34,8 @@
     ],
     "similar": [
         "iPlane3D",
-        "iSeg2D",
         "iCircle3D",
-        "iLine2D"
+        "iSeg2D",
+        "iAmbient3D"
     ]
 }

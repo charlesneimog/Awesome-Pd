@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "abs~",
-        "rint~",
+        "vpow",
+        "pow~",
         "interpolate",
-        "sgn~"
+        "mtx_pow"
     ]
 }

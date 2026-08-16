@@ -1,0 +1,28 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "acre-amb",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "n",
+    "description": "`amb/n` calculates an ambisonic channel count from a specified order. For example, `amb/n 2D 4` is initialized for 2D and order 4, while messages such as `2D 5` or `3D 9` can supply dimension and order values.",
+    "categories": [
+        "Ambisonics",
+        "Math"
+    ],
+    "similar": [
+        "ambi_encode",
+        "ambi_rot",
+        "ambi_decode3",
+        "hoa.2d.wider~"
+    ],
+    "source_archive": "acre-amb[v0.9].dek",
+    "source_member": "acre-amb/amb/n-help.pd"
+}

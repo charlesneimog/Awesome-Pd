@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "mapping",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pmrigid_open_string_2d",
+    "description": "`pmrigid_open_string_2d` implements a simple two-dimensional physical model of an open string, producing the positions of its moving masses as a list and supporting correlated outputs from few inputs. Its arguments set the number of moving masses, rigidity, and damping; its first two inputs position the first and last masses, while other inputs apply forces and adjust rigidity and damping.",
+    "categories": [
+        "Physical Modeling"
+    ],
+    "similar": [
+        "pmrigid_string_2d",
+        "pmstring_1d",
+        "pmopen_string_1d",
+        "pmmulti_stable_2d"
+    ],
+    "source_archive": "mapping-v0.0.extended--externals.zip",
+    "source_member": "mapping/pmrigid_open_string_2d-help.pd"
+}

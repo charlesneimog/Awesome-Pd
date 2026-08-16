@@ -25,9 +25,9 @@
         "Text"
     ],
     "similar": [
-        "spell",
         "fromsymbol",
-        "fluid.s2f",
-        "makesymbol"
+        "fd_nonpulmonic",
+        "stripfilename",
+        "strtok"
     ]
 }

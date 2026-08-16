@@ -25,9 +25,9 @@
         "MIDI"
     ],
     "similar": [
-        "panic",
         "flush",
+        "panic",
         "xnoteout",
-        "note.out"
+        "midiparse"
     ]
 }

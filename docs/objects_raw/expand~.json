@@ -25,9 +25,9 @@
         "Dynamics"
     ],
     "similar": [
+        "dyn.expand~",
         "compress~",
-        "duck~",
-        "noisegate~",
-        "pvcompand~"
+        "dyn.expand2~",
+        "duck~"
     ]
 }

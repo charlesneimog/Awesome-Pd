@@ -25,9 +25,9 @@
         "Filters"
     ],
     "similar": [
+        "lpreson~",
         "bandpass~",
         "lores~",
-        "svfilter~",
-        "eq~"
+        "resonator~"
     ]
 }

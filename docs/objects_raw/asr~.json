@@ -25,9 +25,9 @@
         "Envelopes"
     ],
     "similar": [
+        "env.asr~",
         "adsr~",
-        "smooth",
-        "adsr.m~",
-        "smooth2"
+        "env.adsr~",
+        "pp.adsr~"
     ]
 }

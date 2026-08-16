@@ -26,8 +26,8 @@
     ],
     "similar": [
         "part_source",
-        "part_damp",
-        "sphere3d",
-        "surface3d"
+        "part_velsphere",
+        "part_color",
+        "part_vertex"
     ]
 }

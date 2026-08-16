@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "flt.c_lpf",
+    "description": "`flt.c_lpf` calculates biquad-filter coefficients for a low-pass filter, outputting the list `b0 b1 b2 a1 a2`. Its center frequency is set in hertz with `@freq` (20–22050 Hz), while `@rad` selects angular frequency; the quality factor can be set with `@q`, or bandwidth in octaves with the `bw` message.",
+    "categories": [
+        "Filters"
+    ],
+    "similar": [
+        "flt.c_lpf~",
+        "flt.c_apf",
+        "flt.c_pole",
+        "flt.c_hpf"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/flt.c_lpf-help.pd"
+}

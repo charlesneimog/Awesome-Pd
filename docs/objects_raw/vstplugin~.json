@@ -42,9 +42,9 @@
         "charlesneimog"
     ],
     "similar": [
-        "pix_frei0r",
-        "pgm.out",
-        "gemmacoswindow",
-        "ctl.out"
+        "vstpluginbrowser",
+        "vstpresetbrowser",
+        "iempluginOSC",
+        "DEAPvst~"
     ]
 }

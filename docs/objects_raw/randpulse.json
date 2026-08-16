@@ -25,9 +25,9 @@
         "Oscillators"
     ],
     "similar": [
-        "pulse",
         "randpulse~",
-        "pulse~",
-        "impulse2~"
+        "pulse",
+        "randpulse2",
+        "impulse"
     ]
 }

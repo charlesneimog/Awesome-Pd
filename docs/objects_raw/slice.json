@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
-        "reverse",
         "slice~",
         "break",
-        "default"
+        "slew",
+        "lrshift~"
     ]
 }

@@ -27,7 +27,7 @@
     "similar": [
         "frac.mul",
         "frac.add",
-        "rint",
-        "cents2ratio"
+        "int_fract~",
+        "cents2frac"
     ]
 }

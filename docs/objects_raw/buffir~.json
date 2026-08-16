@@ -25,9 +25,9 @@
         "Filters"
     ],
     "similar": [
-        "mov.avg~",
-        "reson~",
-        "rampsmooth~",
-        "coeff2pz"
+        "FIR~",
+        "fir_filter",
+        "fir_hip_n",
+        "sparse_FIR~"
     ]
 }

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "conv.lin2lin~",
+    "description": "`conv.lin2lin~` converts an input signal from one linear range to another, with four float arguments specifying the input and output range endpoints. Its `@clip` property controls clipping, including `min`, `max`, `minmax`, and `noclip` modes.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "conv.lin2lin",
+        "conv.lin2exp",
+        "conv.lin2curve",
+        "conv.bits2int"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/conv.lin2lin~-help.pd"
+}

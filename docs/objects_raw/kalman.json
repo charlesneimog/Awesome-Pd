@@ -27,8 +27,8 @@
     ],
     "similar": [
         "commonality",
-        "gendyn~",
-        "fluid.normalize",
-        "average~"
+        "fd_cauchy",
+        "fd_miller-gauss",
+        "histo"
     ]
 }

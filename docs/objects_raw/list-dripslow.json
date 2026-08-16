@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "list-abs",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list-dripslow",
+    "description": "`list-dripslow` serializes a stored list on demand, outputting its elements one at a time. Set the list through the right inlet, then send a bang for each element; this can be used to drip multiple lists in sync.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "list-drip2",
+        "list-drip",
+        "list-partslow",
+        "list-dripv"
+    ],
+    "source_archive": "list-abs-v0.1-20150529iem--externals.zip",
+    "source_member": "list-abs/list-dripslow-help.pd"
+}

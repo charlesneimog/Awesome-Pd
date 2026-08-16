@@ -34,8 +34,8 @@
     ],
     "similar": [
         "tLine2D",
-        "tSphere3D",
-        "pol2sph",
-        "cart2pol"
+        "polar2cartesian",
+        "list-centroid",
+        "chair.distance"
     ]
 }

@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_equal",
         "pix_color",
-        "pix_sig2pix~",
-        "pix_mask"
+        "pix_equal",
+        "pix_coloralpha",
+        "pix_mean_color"
     ]
 }

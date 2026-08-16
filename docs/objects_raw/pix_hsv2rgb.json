@@ -26,8 +26,8 @@
     ],
     "similar": [
         "pix_rgb2hsv",
-        "pix_sig2pix~",
         "hsv2rgb",
-        "pix_blob"
+        "yuv2rgb",
+        "hsv"
     ]
 }

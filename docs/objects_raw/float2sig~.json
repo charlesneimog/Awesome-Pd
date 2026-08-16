@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
+        "sig2float~",
         "f2s~",
         "slew2~",
-        "sig2float~",
-        "lace~"
+        "bitnormal~"
     ]
 }

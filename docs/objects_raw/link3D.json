@@ -34,8 +34,8 @@
     ],
     "similar": [
         "link2D",
-        "tLink2D",
-        "pmpd2d~",
-        "link"
+        "tLink3D",
+        "link",
+        "tLink2D"
     ]
 }

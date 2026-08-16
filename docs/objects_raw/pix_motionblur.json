@@ -26,8 +26,8 @@
     ],
     "similar": [
         "pix_blur",
-        "pix_mask",
-        "pix_mix",
-        "pix_takealpha"
+        "pix_halftone",
+        "pix_movement2",
+        "pix_mean_color"
     ]
 }

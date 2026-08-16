@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "noise.colored~",
+    "description": "`noise.colored~` generates a colored-noise signal with an adjustable spectral roll-off, useful for producing white, pink, brown/red, blue, or velvet noise. Set its roll-off slope with a float or the `@alpha` property from -1 to 1, or use the corresponding named messages such as `pink` and `white`.",
+    "categories": [
+        "Stochastic"
+    ],
+    "similar": [
+        "ceammc.noise",
+        "noise.pink~",
+        "noise",
+        "hv.pinknoise~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/noise.colored~-help.pd"
+}

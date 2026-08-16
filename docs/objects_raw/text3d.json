@@ -28,8 +28,8 @@
     ],
     "similar": [
         "textextruded",
-        "textoutline",
         "text2d",
+        "textoutline",
         "model"
     ]
 }

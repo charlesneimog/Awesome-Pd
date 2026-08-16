@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
+        "gemwin+",
         "gemcocoawindow",
-        "gemglfw2window",
-        "gemglxwindow",
-        "gemglfw3window"
+        "Gem",
+        "gemglfw2window"
     ]
 }

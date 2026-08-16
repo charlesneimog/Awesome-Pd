@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "string.substr",
+    "description": "`string.substr` extracts a substring from an input string, starting at a configurable position and using a configurable length. The start position can be negative for relative addressing, and the default length of -1 extends the substring beyond the specified starting position.",
+    "categories": [
+        "Text"
+    ],
+    "similar": [
+        "substring",
+        "string.remove",
+        "string.replace",
+        "stringReplace"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/string.substr-help.pd"
+}

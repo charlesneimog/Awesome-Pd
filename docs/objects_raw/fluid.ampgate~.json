@@ -31,9 +31,9 @@
         "Envelopes"
     ],
     "similar": [
-        "asr~",
-        "gatehold~",
-        "smooth",
-        "glide2"
+        "follow~",
+        "env-follower",
+        "satk.util.adsr~",
+        "fd_cosline~"
     ]
 }

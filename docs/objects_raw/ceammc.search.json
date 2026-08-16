@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ceammc.search",
+    "description": "`ceammc.search` searches the ceammc library by object name, keyword, or description and outputs a list of matching object names. Use the `objects`/`o` and `keywords`/`k` methods for name and keyword searches, and set `@max` to limit the number of results.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "ceammc.base",
+        "ceammc.msg",
+        "ceammc.misc",
+        "ceammc"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/ceammc.search-help.pd"
+}

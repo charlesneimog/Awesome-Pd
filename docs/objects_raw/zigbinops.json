@@ -26,9 +26,9 @@
         "Math"
     ],
     "similar": [
+        "hotbinops3",
         "op",
         "lessthan~",
-        "absgn~",
-        "greaterthan~"
+        "hotbinops2"
     ]
 }

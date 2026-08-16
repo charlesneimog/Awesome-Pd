@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pdcontainer",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "h_deque",
+    "description": "`h_deque` implements a double-ended queue for storing Pd data, with operations to access, add, or remove elements at both the front and back. Containers sharing its namespace (given as an initialization argument or changed with `namespace`) access the same data.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "deque",
+        "h_list",
+        "h_map",
+        "h_priority_queue"
+    ],
+    "source_archive": "pdcontainer-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "pdcontainer/h_deque-help.pd"
+}

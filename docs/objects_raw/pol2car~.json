@@ -27,9 +27,9 @@
         "General Utilities"
     ],
     "similar": [
+        "pol2car",
         "car2pol~",
         "poltocar~",
-        "pol2car",
-        "car2pol"
+        "conv.pol2car"
     ]
 }

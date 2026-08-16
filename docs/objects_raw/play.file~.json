@@ -27,9 +27,9 @@
         "Networking"
     ],
     "similar": [
-        "sfload",
+        "player~",
         "gran.player~",
         "play~",
-        "buffer~"
+        "sample~"
     ]
 }

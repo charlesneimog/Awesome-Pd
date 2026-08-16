@@ -28,8 +28,8 @@
     ],
     "similar": [
         "pix_multiimage",
-        "pix_writer",
         "pix_imageInPlace",
-        "pix_buffer_filmopen"
+        "pix_writer",
+        "pofimage"
     ]
 }

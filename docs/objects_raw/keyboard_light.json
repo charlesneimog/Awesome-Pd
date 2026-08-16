@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "apple",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "keyboard_light",
+    "description": "`keyboard_light` queries and controls the keyboard light level, outputting the current level as a float. Send it a bang to query the current level, or a two-float list to set the light level and fade time.",
+    "categories": [
+        "Control I/O"
+    ],
+    "similar": [
+        "hw.kbd_light",
+        "iodisplay",
+        "pofkeyboard",
+        "gemkeyboard"
+    ],
+    "source_archive": "apple-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "apple/keyboard_light-help.pd"
+}

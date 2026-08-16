@@ -25,9 +25,9 @@
         "Descriptors"
     ],
     "similar": [
-        "vu~",
-        "meter4~",
         "meter8~",
-        "peakamp~"
+        "meter4~",
+        "ui.meter~",
+        "jp.sigtovu~"
     ]
 }

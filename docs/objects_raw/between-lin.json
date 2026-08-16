@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "rtc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "between-lin",
+    "description": "`between-lin` outputs a random number when it receives a bang—or any input—in its left inlet. Its minimum, maximum, and number of steps can be specified, as illustrated by `between-lin 0 90 10`.",
+    "categories": [
+        "Stochastic / Probabilistic"
+    ],
+    "similar": [
+        "between-log",
+        "between",
+        "between-variations",
+        "frand"
+    ],
+    "source_archive": "rtc-v0.0.extended--externals.zip",
+    "source_member": "rtc/between-lin-help.pd"
+}

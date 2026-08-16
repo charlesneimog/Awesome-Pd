@@ -27,8 +27,8 @@
     ],
     "similar": [
         "note.in",
-        "note.out",
         "xnoteout",
+        "mpe.in",
         "midi.in"
     ]
 }

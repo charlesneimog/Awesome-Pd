@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_snap2tex",
-        "pix_rectangle",
+        "pix_buf",
         "pix_buffer_write",
-        "pix_snap"
+        "pix_share_read",
+        "pix_buffer"
     ]
 }

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "jpcvisu",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ogvisu~",
+    "description": "`ogvisu~` is an oscillogram signal visualizer that sends its inputs to an external process for display. It accepts a title and a number-of-inputs argument, supporting up to four inputs with two by default, and its display window can be shown or hidden.",
+    "categories": [
+        "GUI"
+    ],
+    "similar": [
+        "wfvisu~",
+        "sgvisu~",
+        "visu~",
+        "c.number~"
+    ],
+    "source_archive": "jpcvisu-v0.1-(Sources)(Windows-i386-32)-externals.zip",
+    "source_member": "jpcvisu/ogvisu~-help.pd"
+}

@@ -26,8 +26,8 @@
     ],
     "similar": [
         "note.out",
+        "midi-note-duration",
         "xnoteout",
-        "borax",
-        "noteinfo"
+        "midi.event2note"
     ]
 }

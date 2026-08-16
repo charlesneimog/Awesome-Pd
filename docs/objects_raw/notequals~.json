@@ -25,9 +25,9 @@
         "Logic"
     ],
     "similar": [
-        "lessthaneq~",
         "equals~",
-        "greaterthaneq~",
-        "equal"
+        "lessthaneq~",
+        "equal",
+        "list.equal"
     ]
 }

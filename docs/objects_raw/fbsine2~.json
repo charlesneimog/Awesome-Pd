@@ -25,9 +25,9 @@
         "Oscillators"
     ],
     "similar": [
+        "chaos.gbman0~",
+        "chaos.std0~",
         "sig.m~",
-        "latoocarfian~",
-        "randpulse",
-        "xmod2~"
+        "latoocarfian~"
     ]
 }

@@ -27,8 +27,8 @@
     ],
     "similar": [
         "scale~",
-        "linedrive",
-        "clip",
-        "pong~"
+        "cents2scale",
+        "rescale",
+        "clip"
     ]
 }

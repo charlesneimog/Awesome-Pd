@@ -28,7 +28,7 @@
     "similar": [
         "resonbank~",
         "resonbank2~",
-        "lag~",
-        "glide2~"
+        "butter3~",
+        "flt.dcblock2~"
     ]
 }

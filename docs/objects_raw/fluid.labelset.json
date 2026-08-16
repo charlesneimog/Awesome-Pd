@@ -36,6 +36,6 @@
         "fluid.ls2text",
         "fluid.dataset",
         "fluid.knnclassifier",
-        "funbuff"
+        "fluid.bufflatten"
     ]
 }

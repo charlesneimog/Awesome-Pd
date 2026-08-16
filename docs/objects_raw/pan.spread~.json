@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pan.spread~",
+    "description": "`pan.spread~` spreads 2 to 16 input signal channels across a stereo field and outputs left and right channels. Set the input-channel count with the initialization-only `N` argument; the help patch also demonstrates controlling the distribution with `@spread`.",
+    "categories": [
+        "Routing",
+        "Multichannel"
+    ],
+    "similar": [
+        "spread~",
+        "pan.stereo~",
+        "pan2~",
+        "mix~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/pan.spread~-help.pd"
+}

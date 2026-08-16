@@ -29,7 +29,7 @@
     "similar": [
         "fwriteln",
         "freadln",
-        "text3d",
-        "list2symbol"
+        "textfile",
+        "ltextfile-drip"
     ]
 }

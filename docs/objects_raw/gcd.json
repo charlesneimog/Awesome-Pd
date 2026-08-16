@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "maximum",
+        "math.gcd",
         "lcm",
-        "rdiv~",
-        "minimum"
+        "vector0x2f",
+        "math.neg"
     ]
 }

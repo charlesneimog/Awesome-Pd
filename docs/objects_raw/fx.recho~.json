@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fx.recho~",
+    "description": "`fx.recho~` applies a reversed echo effect to an input signal and outputs the processed signal. Its first argument or `@delay` property sets the echo time in milliseconds from 0 to 4000; for example, `fx.recho~ 1000 @drywet 0.3` uses a 1000 ms delay and a 30% wet mix.",
+    "categories": [
+        "Delay"
+    ],
+    "similar": [
+        "fx.echo~",
+        "echo~",
+        "fx.echo2~",
+        "pp.echo~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/fx.recho~-help.pd"
+}

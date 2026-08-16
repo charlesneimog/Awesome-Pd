@@ -25,9 +25,9 @@
         "MIDI"
     ],
     "similar": [
-        "pgm.out",
-        "sysrt.in",
-        "note.out",
-        "ctl.out"
+        "ceammc.midi",
+        "proto.midi",
+        "DEAPmidiin",
+        "midi.clock"
     ]
 }

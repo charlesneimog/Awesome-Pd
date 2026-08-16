@@ -26,8 +26,8 @@
     ],
     "similar": [
         "textoutline",
-        "cuboid",
         "text2d",
-        "part_source"
+        "pix_opencv_contours_boundingrect",
+        "GEMgl"
     ]
 }

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_colortheme",
+    "description": "`fd_colortheme` applies a color theme to selected iemgui objects, identified by a list of up to 10 symbol selectors. A float selects the color theme, while a list supplies three Pd GUI colors.",
+    "categories": [
+        "GUI"
+    ],
+    "similar": [
+        "color.rgbset",
+        "rgb-color",
+        "colorSyntax",
+        "color.hashedcolor"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_colortheme-help.pd"
+}

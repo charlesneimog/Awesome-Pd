@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pdp",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pdp_zrot",
+    "description": "`pdp_zrot` applies zoom and rotation to PDP data. Its second inlet sets the zoom amount and its third inlet sets the rotation angle; `zoomx` and `zoomy` set per-axis zoom, while `centerx` and `centery` set the transformation center using normalized coordinates from (0, 0) at the top left to (1, 1) at the bottom right.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "pdp_rotate",
+        "pdp_zoom",
+        "pdp_chrot",
+        "pofrotate"
+    ],
+    "source_archive": "pdp-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "pdp/pdp_zrot-help.pd"
+}

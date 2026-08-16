@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "set.union",
+    "description": "`set.union` outputs the union of two given sets. Its inlets accept sets or lists, with lists converted to sets; the right-hand set elements can also be supplied as creation arguments.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "set.intersect",
+        "set.symdiff",
+        "set.diff",
+        "list-union-merge"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/set.union-help.pd"
+}

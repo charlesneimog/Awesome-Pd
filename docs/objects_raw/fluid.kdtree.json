@@ -33,7 +33,7 @@
     "similar": [
         "fluid.ds2text",
         "fluid.grid",
-        "index~",
+        "fluid.bufcompose",
         "fluid.bufselectevery"
     ]
 }

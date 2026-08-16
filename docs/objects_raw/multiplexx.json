@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "hid",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "multiplexx",
+    "description": "The available help-patch evidence is insufficient to determine what `multiplexxA` and `multiplexxB` do or their intended purpose. It only identifies the two objects and messages containing 7 and 12, without showing behavior or a key usage detail.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "multiple",
+        "_template_",
+        "multilib",
+        "multishared"
+    ],
+    "source_archive": "hid-0.7-1[v0.7-1](Darwin-arm64-32)(Sources).dek",
+    "source_member": "hid-0.7-1/src/pd-lib-builder/tests/multiplexx/multiplexx-help.pd"
+}

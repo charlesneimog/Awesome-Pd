@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "blsasqri~",
+    "description": "`blsasqri~` is a signal-generating object related to `blsqri~`, with an additional band-limited output. The help patch warns that modulating its phase can cause the signal to get out of hand, but the supplied text is insufficient to identify the exact waveform or the changed behavior mentioned.",
+    "categories": [
+        "Oscillators"
+    ],
+    "similar": [
+        "blsqri~",
+        "blsaw~",
+        "shotnoise~",
+        "blsqr~"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/blsasqri~-help.pd"
+}

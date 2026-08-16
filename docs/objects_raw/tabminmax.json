@@ -25,9 +25,9 @@
         "Data Structures"
     ],
     "similar": [
-        "buffer",
-        "tabset",
-        "pack",
-        "stack"
+        "tab_downsample_max",
+        "tabdump2",
+        "make-choice-list",
+        "mtx_tab"
     ]
 }

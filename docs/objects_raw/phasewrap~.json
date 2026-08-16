@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
+        "rewrap",
         "wrap2",
         "framedelta~",
-        "cartopol",
-        "abs~"
+        "wrap~~"
     ]
 }

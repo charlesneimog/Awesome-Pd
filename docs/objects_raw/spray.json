@@ -25,9 +25,9 @@
         "Routing"
     ],
     "similar": [
-        "demux",
-        "demultiplex",
+        "cycle",
+        "funnel",
         "demultiplex~",
-        "unjoin"
+        "demux"
     ]
 }

@@ -1,0 +1,18 @@
+{
+    "description": "bassemu~ is a Pure Data external that emulates a transistor-based analog bass synthesizer. It provides selectable saw, rectangular, triangular, and sine waveforms, resonant and high-pass filtering, and external-signal filtering.",
+    "issues": "https://sourceforge.net/p/pure-data/patches",
+    "link": "https://sourceforge.net/p/pure-data/svn/HEAD/tree/trunk",
+    "research": {
+        "status": "verified",
+        "confidence": "medium",
+        "sources": [
+            "https://deken.puredata.info/search.html",
+            "https://packages.debian.org/stable/sound/pd-bassemu",
+            "https://sourceforge.net/projects/pure-data",
+            "https://www.mail-archive.com/pd-cvs%40iem.at/msg00437.html",
+            "https://lists.iem.at/hyperkitty/list/pd-dev%40lists.iem.at/thread/5D5LPYVBO6A3AZABWTFZM3GVLOBTRSWX"
+        ],
+        "notes": "No standalone official GitHub or GitLab repository was verified. Version 0.3 was historically maintained under externals/bassemu~ in the official Pure Data community SVN; its tracker covered the wider Pure Data project.",
+        "checked_at": "2026-08-16T20:44:13+00:00"
+    }
+}

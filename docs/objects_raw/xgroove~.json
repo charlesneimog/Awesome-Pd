@@ -1,0 +1,31 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "xsample",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "xgroove~",
+    "description": "`xgroove~` is a variable-speed sample player that reads from a named buffer and supports loop playback with a crossfading loop zone. Its playback range, position, interpolation, units, direction, and loop/crossfade settings can be controlled by messages, while start and stop accept either floats or signals.",
+    "categories": [
+        "Samplers"
+    ],
+    "similar": [
+        "sample_play~",
+        "xplay~",
+        "pp.loop.play~",
+        "play~"
+    ],
+    "source_archive": "xsample[v0.3.3](Darwin-amd64-32)(Darwin-arm64-32)(Linux-amd64-32)(Linux-arm64-32)(Linux-armv7-32)(Windows-amd64-32).dek",
+    "source_member": "xsample/xgroove~-help.pd"
+}

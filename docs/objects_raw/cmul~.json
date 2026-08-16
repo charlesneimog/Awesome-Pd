@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "creb",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "cmul~",
+    "description": "`cmul~` performs complex multiplication on signals. It has four signal inlets and two signal outlets, consistent with accepting two complex-valued inputs and producing one complex-valued output.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "math.cmul~",
+        "cgmul~",
+        "csub~",
+        "cadd~"
+    ],
+    "source_archive": "creb[v0.9.2-3](Windows-amd64-32)(Sources).dek",
+    "source_member": "creb/cmul~-help.pd"
+}

@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "pol2car",
-        "car2pol",
         "mag~",
-        "poltocar"
+        "complex.imag",
+        "math.cexp~",
+        "math.cmul~"
     ]
 }

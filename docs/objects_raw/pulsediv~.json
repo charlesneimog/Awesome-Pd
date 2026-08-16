@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
-        "sah~",
         "bangdiv",
-        "trighold~",
-        "tempo~"
+        "tempo~",
+        "counter",
+        "sah~"
     ]
 }

@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iem_vanilla",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list_to_s",
+    "description": "`list_to_s` sends incoming Pd messages through a `pd~` intercom outlet for delivery to another Pd process, with `list_from_r` serving as its counterpart. It takes no creation arguments, and the selector symbol of each incoming message is used.",
+    "categories": [
+        "MultiThreading"
+    ],
+    "similar": [
+        "fluid.bufthreaddemo",
+        "pd~",
+        "pd~.abstraction",
+        "pdp_control"
+    ],
+    "source_archive": "iem_vanilla[v1.00].dek",
+    "source_member": "iem_vanilla/list_to_s-help.pd"
+}

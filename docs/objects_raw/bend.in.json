@@ -26,9 +26,9 @@
         "Control IO"
     ],
     "similar": [
-        "bend.out",
-        "touch.in",
         "mpe.in",
-        "pgm.in"
+        "pgm.in",
+        "touch.in",
+        "bend.out"
     ]
 }

@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "tdh.satk",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "satk.sigproc.mmfilt~",
+    "description": "`satk.sigproc.mmfilt~` is a multimode audio filter that can operate as a low-pass, high-pass, or band-pass filter, allowing selected portions of a signal’s spectrum to pass. Filter type is selected with values 0, 1, or 2, while cutoff frequency, band-pass Q/bandwidth, and dry/wet balance are adjustable; a dry/wet value of 0 outputs the original signal and 1 outputs only the filtered signal.",
+    "categories": [
+        "Filters"
+    ],
+    "similar": [
+        "tdh.sigproc.mmfilt.ui~",
+        "_filter",
+        "hp1~",
+        "pp.ladder-st~"
+    ],
+    "source_archive": "tdh.satk[v0.1.9].dek",
+    "source_member": "tdh.satk/satk.sigproc.mmfilt~-help.pd"
+}

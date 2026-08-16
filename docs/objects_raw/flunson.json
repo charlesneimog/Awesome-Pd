@@ -26,8 +26,8 @@
     ],
     "similar": [
         "pvcompand~",
+        "norm~",
         "compress~",
-        "expand~",
-        "norm~"
+        "fluid.bufthresh"
     ]
 }

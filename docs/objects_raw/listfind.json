@@ -25,9 +25,9 @@
         "Data Structures"
     ],
     "similar": [
-        "list2lists",
-        "l",
-        "l2i",
-        "remove"
+        "list-find",
+        "sublist",
+        "listfifo",
+        "list2lists"
     ]
 }

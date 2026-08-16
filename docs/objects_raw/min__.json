@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iem_dp",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "min__",
+    "description": "`min__` compares double-precision numbers and outputs the lesser value, with the help patch claiming 15-digit accuracy. Double-precision values are represented by symbols beginning with a double quote, and `min''` is shown as an alternate object name.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "mul__",
+        "max__",
+        "div~~",
+        "add__"
+    ],
+    "source_archive": "iem_dp[v0.2](Linux-amd64-32)(Linux-amd64-64)(Linux-arm64-32)(Linux-arm64-64)(Linux-armv7-32)(Linux-armv7-64)(Linux-i386-32)(Linux-i386-64).dek",
+    "source_member": "iem_dp/min__-help.pd"
+}

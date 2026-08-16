@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_guiDelta",
+    "description": "`fd_guiDelta` handles X/Y delta input for an IEM GUI object, using the GUI object's selector name as its argument. It has two float inlets for delta X and delta Y, produces no output, and the help patch notes that clicking causes a jump.",
+    "categories": [
+        "GUI"
+    ],
+    "similar": [
+        "fd_guiFont",
+        "ticker",
+        "uhr",
+        "sliderh"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_guiDelta-help.pd"
+}

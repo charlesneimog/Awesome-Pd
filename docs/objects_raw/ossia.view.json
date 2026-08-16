@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ossia",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ossia.view",
+    "description": "`ossia.view` connects a series of `ossia.remote` objects in a patch to a named `ossia.model`, and views can be nested to follow a model hierarchy. Give the target model name as an argument, or bind dynamically with an `address` message using a relative or absolute path; only one `ossia.view` may be used per patcher.",
+    "categories": [
+        "Routing"
+    ],
+    "similar": [
+        "j.send",
+        "remote",
+        "j.remote",
+        "flow.seqdelay"
+    ],
+    "source_archive": "ossia-v-(Windows-i386-32)-externals.zip",
+    "source_member": "ossia/helps/ossia.view-help.pd"
+}

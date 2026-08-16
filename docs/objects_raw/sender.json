@@ -27,7 +27,7 @@
     "similar": [
         "receiver",
         "forward",
-        "dispatch",
-        "unmerge"
+        "send13",
+        "j.send"
     ]
 }

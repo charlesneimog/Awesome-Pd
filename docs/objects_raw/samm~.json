@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "lyonpotpourri",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "samm~",
+    "description": "`samm~` is a sample-accurate multiple metronome that generates several synchronized metronome streams from a tempo and beat-subdivision arguments. Its intervals can be specified in beats, milliseconds, samples, or ratios, and messages such as `pause`, `resume`, and `arm` control its timer.",
+    "categories": [
+        "Sequencers"
+    ],
+    "similar": [
+        "t3_metro",
+        "fd_metro",
+        "ndmetro",
+        "metro~"
+    ],
+    "source_archive": "lyonpotpourri[v3.0.2](Linux-arm64-32)(Linux-armv7-32).dek",
+    "source_member": "lyonpotpourri/samm~-help.pd"
+}

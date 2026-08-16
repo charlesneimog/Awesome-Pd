@@ -27,7 +27,7 @@
     "similar": [
         "fragment_program",
         "glsl_program",
-        "glsl",
-        "mesh_square"
+        "gemvertexbuffer",
+        "fd_shader"
     ]
 }

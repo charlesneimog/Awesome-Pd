@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "hoa.2d.recomposer~",
+    "description": "`hoa.2d.recomposer~` recomposes a 2D plane-wave decomposition into a circular harmonic representation, providing harmonic inputs and plane-wave outputs. Its initialization arguments specify the decomposition order, number of plane-wave channels (`0` selects automatic calculation), and recomposition mode; channel angles are set in radians with the `angles` message.",
+    "categories": [
+        "Ambisonics",
+        "Multichannel"
+    ],
+    "similar": [
+        "hoa.2d.projector~",
+        "hoa.2d.exchanger~",
+        "hoa.2d.rotate~",
+        "hoa.2d.wider~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/hoa.2d.recomposer~-help.pd"
+}

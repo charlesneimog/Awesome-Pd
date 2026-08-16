@@ -25,9 +25,9 @@
         "Logic"
     ],
     "similar": [
+        "togedge",
         "thresh~",
-        "notequals~",
-        "lessthaneq~",
-        "equals~"
+        "above~",
+        "above"
     ]
 }

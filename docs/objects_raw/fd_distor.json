@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_distor",
+    "description": "`fd_distor` provides simple biquad-based distortion for an incoming audio signal. It takes no creation arguments; the help patch demonstrates processing an `osc~ 180` signal and includes a `clear` message for its control inlet.",
+    "categories": [
+        "Distortion"
+    ],
+    "similar": [
+        "dist~",
+        "distortion~",
+        "distortion2~",
+        "fx.distortion~"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_distor-help.pd"
+}

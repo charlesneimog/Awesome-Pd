@@ -25,9 +25,9 @@
         "Filters"
     ],
     "similar": [
-        "highshelf~",
-        "lowshelf~",
-        "coeff2pz",
-        "crossover~"
+        "biquadseries~",
+        "flt.biquad~",
+        "bandpass~",
+        "lowshelf~"
     ]
 }

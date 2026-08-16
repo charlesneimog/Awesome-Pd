@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "conv.samp2ms",
+    "description": "`conv.samp2ms` converts a number of samples to time in milliseconds according to the sample rate. It accepts either an integer sample count or a list of sample counts and outputs the converted value as a float or list.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "conv.samp2sec",
+        "conv.samp2ms~",
+        "conv.sec2samp",
+        "conv.ms2samp"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/conv.samp2ms-help.pd"
+}

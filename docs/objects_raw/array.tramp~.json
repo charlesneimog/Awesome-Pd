@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "array.tramp~",
+    "description": "`array.tramp~` is a triggered ramp generator for traversing an array, intended to provide a ramp signal suitable for driving an array reader such as `tabread4~`. Send a bang to start the ramp; its normalized start and end default to 0 and 1, its speed defaults to 1, and the second outlet bangs when the ramp finishes.",
+    "categories": [
+        "Envelopes"
+    ],
+    "similar": [
+        "upp.ramp~",
+        "switchnramp~",
+        "rexpline",
+        "fd_cosline~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/array.tramp~-help.pd"
+}

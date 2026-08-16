@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pdp",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pdp_metro~",
+    "description": "`pdp_metro~` is an audio/video synchronization object that outputs bangs at a desired frame rate. Set the rate with an `fps` message, such as `fps 25` for PAL or `fps 2997 100` for NTSC.",
+    "categories": [
+        "Sequencers"
+    ],
+    "similar": [
+        "metro~",
+        "fd_metro",
+        "metro",
+        "t3_metro"
+    ],
+    "source_archive": "pdp-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "pdp/pdp_metro~-help.pd"
+}

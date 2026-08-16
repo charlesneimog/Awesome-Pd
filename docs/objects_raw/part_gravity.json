@@ -27,7 +27,7 @@
     "similar": [
         "part_damp",
         "part_follow",
-        "part_head",
+        "part_orbitpoint",
         "part_vertex"
     ]
 }

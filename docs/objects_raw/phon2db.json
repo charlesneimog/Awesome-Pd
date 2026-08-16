@@ -26,8 +26,8 @@
     ],
     "similar": [
         "phon2sone",
-        "db2phon",
         "sone2phon",
+        "db2phon",
         "hz2bark"
     ]
 }

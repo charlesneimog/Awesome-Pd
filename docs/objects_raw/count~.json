@@ -26,6 +26,6 @@
         "count",
         "counter",
         "pulsecount~",
-        "pulsediv~"
+        "counter~"
     ]
 }

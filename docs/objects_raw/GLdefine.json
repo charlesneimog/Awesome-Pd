@@ -27,7 +27,7 @@
     "similar": [
         "GEMgl",
         "gemglutwindow",
-        "gemcubeframebuffer",
+        "glsl_program",
         "cylinder"
     ]
 }

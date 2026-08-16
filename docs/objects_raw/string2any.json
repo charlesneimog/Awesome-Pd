@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "moocow",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "string2any",
+    "description": "The supplied patch documents `bytes2any`, which converts lists of byte-valued floats into Pd messages and sends them from the left outlet. It does not provide sufficient evidence to describe a distinct `string2any` object; for `bytes2any`, the second inlet sets the end-of-string separator and the right outlet bangs after all input is processed.",
+    "categories": [
+        "Text"
+    ],
+    "similar": [
+        "bytes2any",
+        "wchars2any",
+        "any2bytes",
+        "string"
+    ],
+    "source_archive": "moocow[v0.0.extended-not-all-objects](Windows-amd64-32)(Sources).dek",
+    "source_member": "moocow/string2any-help.pd"
+}

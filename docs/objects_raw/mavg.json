@@ -26,9 +26,9 @@
         "Math"
     ],
     "similar": [
+        "maverage~",
         "mov.avg",
-        "average~",
         "bicoeff2",
-        "mov.avg~"
+        "mtx_conv"
     ]
 }

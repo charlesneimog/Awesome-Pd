@@ -25,9 +25,9 @@
         "Granular"
     ],
     "similar": [
-        "stretch.shift~",
+        "grainflow.live~",
         "pitch.shift~",
-        "gran.player~",
-        "grain.live~"
+        "stretch.shift~",
+        "timepitch"
     ]
 }

@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
+        "math.lcm",
         "gcd",
-        "sinh",
-        "asinh",
-        "acosh"
+        "frac2dec",
+        "rint"
     ]
 }

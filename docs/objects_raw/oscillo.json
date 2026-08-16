@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "mapping",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "oscillo",
+    "description": "`oscillo` is a control-rate GUI abstraction that returns the amplitude covered by the last values, displayed on a scale from 0 to 1. It accepts float input, and the help patch demonstrates feeding it values through `resample 30`.",
+    "categories": [
+        "GUI"
+    ],
+    "similar": [
+        "oscillo~",
+        "hid_graph",
+        "multi_slider",
+        "sliderh"
+    ],
+    "source_archive": "mapping-v0.0.extended--externals.zip",
+    "source_member": "mapping/oscillo-help.pd"
+}

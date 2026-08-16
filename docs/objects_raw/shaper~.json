@@ -26,9 +26,9 @@
         "Distortion"
     ],
     "similar": [
-        "tanh~",
-        "polyfun",
-        "drive~",
+        "shape~",
+        "distortion~",
+        "waveshape~",
         "lookup~"
     ]
 }

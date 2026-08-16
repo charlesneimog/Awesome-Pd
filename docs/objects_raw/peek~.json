@@ -28,7 +28,7 @@
     "similar": [
         "poke~",
         "batch.write~",
-        "fluid.multiarray",
-        "tabwriter~"
+        "mtx_pack~",
+        "fluid.multiarray"
     ]
 }

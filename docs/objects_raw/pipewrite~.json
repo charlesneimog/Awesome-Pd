@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ext13",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pipewrite~",
+    "description": "`pipewrite~` is used with `piperead~` to write audio through a pipe, as demonstrated with an opened WAV path. Its argument specifies the number of channels; the patch uses `pipewrite~ 2` for two channels.",
+    "categories": [
+        "File I/O",
+        "Audio I/O"
+    ],
+    "similar": [
+        "piperead~",
+        "oggwrite~",
+        "sfwrite~",
+        "pp.out~"
+    ],
+    "source_archive": "ext13[v0.17.1-4](Windows-amd64-32)(Sources).dek",
+    "source_member": "ext13/pipewrite~-help.pd"
+}

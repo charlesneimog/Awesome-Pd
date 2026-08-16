@@ -25,9 +25,9 @@
         "Statistical Models"
     ],
     "similar": [
-        "anal",
-        "kalman",
-        "fluid.kmeans",
-        "fluid.skmeans"
+        "fd_logistic",
+        "smooth_triple",
+        "fd_poisson",
+        "fd_poisson~"
     ]
 }

@@ -31,9 +31,9 @@
     "description": "`centerring~` performs frequency-independent amplitude modulation, allowing for unique timbral effects. It provides controls for oscillator phases, including options to zero or randomize them, and parameters for base frequency, bandwidth, and frequency constant.",
     "categories": [],
     "similar": [
-        "fm~",
         "xmod2~",
-        "xmod~",
-        "bandpass~"
+        "feedfm~",
+        "cents2ratio~",
+        "center_point"
     ]
 }

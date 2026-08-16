@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "set.intersect",
+    "description": "`set.intersect` outputs the intersection of two sets. Its first and second inlets accept sets or lists (with lists converted to sets), and the right-hand set elements can also be supplied as creation arguments.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "set.union",
+        "set.symdiff",
+        "set.diff",
+        "listIntersection"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/set.intersect-help.pd"
+}

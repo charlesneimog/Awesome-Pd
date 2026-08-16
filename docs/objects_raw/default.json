@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
-        "speedlim",
-        "bangbang",
-        "merge",
-        "pipe2"
+        "delay",
+        "flow.prepend",
+        "ascseq",
+        "group"
     ]
 }

@@ -27,9 +27,9 @@
         "General Utilities"
     ],
     "similar": [
-        "avg",
         "mov.avg~",
-        "mean",
-        "mavg"
+        "avg",
+        "mavg",
+        "mean"
     ]
 }

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "windowing",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "welch~",
+    "description": "`welch~` generates a Welch window for each DSP block, with the window size determined by the DSP block size. It is intended for use with FFTs, and its signal inlet controls the window’s height (amplitude).",
+    "categories": [
+        "FFT"
+    ],
+    "similar": [
+        "connes~",
+        "lanczos~",
+        "bartlett~",
+        "hamming~"
+    ],
+    "source_archive": "windowing[v0.2.0](Linux-amd64-32)(Sources).dek",
+    "source_member": "windowing/welch~-help.pd"
+}

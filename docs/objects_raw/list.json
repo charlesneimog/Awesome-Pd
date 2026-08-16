@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "vanilla",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list",
+    "description": "`list` is the short form of `list append` and supports building and using variable-length messages by concatenating a stored second list onto an incoming first list. Creation arguments initialize the list to append; the help patch also shows `list` storing a remaining list for later output.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "list.append",
+        "list.last",
+        "list-idx-list",
+        "list-splat"
+    ],
+    "source_archive": "vanilla-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "vanilla/list-help.pd"
+}

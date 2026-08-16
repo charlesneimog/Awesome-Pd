@@ -27,8 +27,8 @@
     ],
     "similar": [
         "note",
-        "display",
-        "text3d",
-        "knob"
+        "entry",
+        "ui.label",
+        "display"
     ]
 }

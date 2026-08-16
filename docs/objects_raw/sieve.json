@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ekext",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "sieve",
+    "description": "`sieve` maps integer inputs to floating-point values stored at selected indices. Entries can be added with `set <location> <value>` or supplied as a `map`, and its modes select exact, nearest, shunt-up, or shunt-down lookup.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "list-sieve",
+        "iem_sel_any",
+        "list.map",
+        "tabindex~"
+    ],
+    "source_archive": "ekext-v0.0.extended-(Windows-i386-32)-externals.zip",
+    "source_member": "ekext/sieve-help.pd"
+}

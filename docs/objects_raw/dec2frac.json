@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
-        "frac2cents",
         "dec2hex",
-        "minmax",
-        "trunc"
+        "frac2cents",
+        "cents2frac",
+        "float2bits"
     ]
 }

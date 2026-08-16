@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "cuadratic",
+    "description": "`cuadratic` iterates the quadratic recurrence x1 = x² + c, outputting the current y value for a step or N iterations as a list of (y, n). Send `bang` to advance one step, or `reset` to restore its default internal state; its output is not normalized.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "quadratic",
+        "simplified_quadratic",
+        "parabola",
+        "list.inc"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/cuadratic-help.pd"
+}

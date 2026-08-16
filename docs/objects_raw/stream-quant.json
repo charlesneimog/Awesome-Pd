@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "stream-quant",
+    "description": "`stream-quant` quantizes a stream to a timing grid whose multiple can be set by an argument, as shown by `stream-quant 500`. Its first inlet is hot and accepts a stream or bang, while its second inlet accepts a stream; the fourth inlet or second argument selects the rounding mode, with 0 meaning round.",
+    "categories": [
+        "Sequencers"
+    ],
+    "similar": [
+        "stream-drip",
+        "streamread",
+        "streamread-slow",
+        "streamwrite-slow"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/stream-quant-help.pd"
+}

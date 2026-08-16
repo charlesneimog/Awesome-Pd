@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list.resize",
+    "description": "`list.resize` changes the size of an input list and outputs the resized list. Set the desired size with the creation argument or an integer in the second inlet; the size must be a nonnegative integer.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "matrix.resize",
+        "list.stretch",
+        "list.resample",
+        "list.reject"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/list.resize-help.pd"
+}

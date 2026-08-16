@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "mrpeach",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "cd4072",
+    "description": "`cd4072` emulates half of a CMOS quad OR gate, providing OR-gate functionality for logic signals. The help patch shows five toggle inputs connected to `cd4072`, with float inputs supported and the first inlet also accepting a bang.",
+    "categories": [
+        "Logic"
+    ],
+    "similar": [
+        "cd4002",
+        "cd4012",
+        "cd4082",
+        "cd4071"
+    ],
+    "source_archive": "mrpeach[v0.0.20260218](Darwin-amd64-32)(Darwin-amd64-64)(Darwin-arm64-32)(Darwin-arm64-64).dek",
+    "source_member": "mrpeach/cd4072-help.pd"
+}

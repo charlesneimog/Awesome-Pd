@@ -33,7 +33,7 @@
     "similar": [
         "fluid.audiotransport~",
         "fluid.buftransientslice",
-        "specBrightness",
-        "fluid.spectralshape~"
+        "fluid.bufonsetslice",
+        "fluid.bufpitch"
     ]
 }

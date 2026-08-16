@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "quilt",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "cupq",
+    "description": "The help patch does not provide enough information to determine what `cupq` does or its intended purpose. It shows `cupq` instantiated with arguments `42 2` and receiving numeric, bang, and `set 24` messages, but the fragmentary inlet note is insufficient to establish their behavior.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "cupqb",
+        "zhzxh~",
+        "valve",
+        "oct~"
+    ],
+    "source_archive": "quilt[v0.8.3](Linux-amd64-32).dek",
+    "source_member": "quilt/cupq-help.pd"
+}

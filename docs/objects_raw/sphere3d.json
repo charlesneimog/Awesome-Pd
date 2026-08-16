@@ -28,6 +28,6 @@
         "sphere",
         "surface3d",
         "curve3d",
-        "curve"
+        "part_velsphere"
     ]
 }

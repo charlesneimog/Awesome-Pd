@@ -33,7 +33,7 @@
     "similar": [
         "fluid.bufloudness",
         "fluid.noveltyfeature~",
-        "vu~",
-        "tonalness"
+        "fluid.ampfeature~",
+        "fluid.bufnoveltyfeature"
     ]
 }

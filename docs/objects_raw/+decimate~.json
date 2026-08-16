@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "soundhack",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "+decimate~",
+    "description": "`+decimate~` processes audio by adjusting its bit depth and sample-rate folding, providing a decimation effect. Use the help patch’s Bit Depth and Folds controls to set these two aspects of the processing.",
+    "categories": [
+        "Distortion"
+    ],
+    "similar": [
+        "decimate~",
+        "pdp_bitdepth",
+        "degrade~",
+        "crusher~"
+    ],
+    "source_archive": "soundhack[v0.0.10](Darwin-arm64-32)(Sources).dek",
+    "source_member": "soundhack/+decimate~-help.pd"
+}

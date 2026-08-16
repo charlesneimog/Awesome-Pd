@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iem16",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "tab16play~",
+    "description": "`tab16play~` plays a 16-bit table as a non-transposing sample and is described as equivalent to `tabplay~`. Its creation argument initializes the array name, while a `set` message switches arrays; a bang or 0 plays the whole sample, and numeric messages can specify a start position and sample count.",
+    "categories": [
+        "Samplers"
+    ],
+    "similar": [
+        "tab16read4~",
+        "tab16write~",
+        "sample_play~",
+        "xplay~"
+    ],
+    "source_archive": "iem16[v1.2.1](Windows-amd64-32)(Windows-amd64-64)(Windows-i386-32).dek",
+    "source_member": "iem16/tab16play~-help.pd"
+}

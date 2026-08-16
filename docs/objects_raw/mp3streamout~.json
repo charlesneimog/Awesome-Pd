@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "unauthorized",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "mp3streamout~",
+    "description": "`mp3streamout~` sends audio as a peer-to-peer MP3 stream to a connected host. Connect it with a message such as `connect localhost 5000`, and configure encoding with `mpeg bitrate mode quality`; resampling is not supported.",
+    "categories": [
+        "Networking",
+        "Audio I/O"
+    ],
+    "similar": [
+        "mp3streamin~",
+        "streamout~",
+        "mp3cast~",
+        "p2p~"
+    ],
+    "source_archive": "unauthorized[v0.1](Windows-amd64-32)(Sources).dek",
+    "source_member": "unauthorized/mp3streamout~-help.pd"
+}

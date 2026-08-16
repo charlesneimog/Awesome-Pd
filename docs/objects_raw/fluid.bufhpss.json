@@ -31,9 +31,9 @@
         "Descriptors"
     ],
     "similar": [
+        "fluid.bufpitch",
         "fluid.buftransientslice",
         "fluid.bufaudiotransport",
-        "fluid.hpss~",
-        "harmonicRatio"
+        "fluid.bufselect"
     ]
 }

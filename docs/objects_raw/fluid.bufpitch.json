@@ -32,8 +32,8 @@
     ],
     "similar": [
         "fluid.pitch~",
-        "fluid.bufaudiotransport",
         "fluid.bufampfeature",
-        "fluid.spectralshape~"
+        "fluid.bufselect",
+        "fluid.bufloudness"
     ]
 }

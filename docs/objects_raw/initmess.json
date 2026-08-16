@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
-        "merge",
+        "toggle_mess",
+        "comma",
         "pipe2",
-        "speedlim",
-        "rawprint"
+        "messages"
     ]
 }

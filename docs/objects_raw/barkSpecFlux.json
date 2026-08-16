@@ -28,6 +28,6 @@
         "barkSpecFlux~",
         "specFlux",
         "specFlux~",
-        "bark~"
+        "barkSpecFlatness~"
     ]
 }

@@ -26,9 +26,9 @@
         "Math"
     ],
     "similar": [
+        "henon",
         "gbman~",
-        "standard~",
-        "quad~",
+        "pickover",
         "cusp~"
     ]
 }

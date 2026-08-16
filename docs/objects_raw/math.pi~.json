@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "math.pi~",
+    "description": "`math.pi~` outputs the mathematical constant π as a signal, optionally multiplied by a factor. Set the multiplier with the initialization-only `K` argument or `@k` property; its default is 1.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "math.pi",
+        "math.e",
+        "pi",
+        "constant"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/math.pi~-help.pd"
+}

@@ -27,8 +27,8 @@
     ],
     "similar": [
         "list2symbol",
-        "s2l",
         "symbol2list",
-        "pack"
+        "s2l",
+        "dripchar"
     ]
 }

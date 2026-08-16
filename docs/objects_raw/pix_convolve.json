@@ -27,8 +27,8 @@
     ],
     "similar": [
         "pix_tIIR",
-        "pix_motionblur",
-        "pix_crop",
-        "pix_set"
+        "pix_convert",
+        "c.convolve~",
+        "pix_curve"
     ]
 }

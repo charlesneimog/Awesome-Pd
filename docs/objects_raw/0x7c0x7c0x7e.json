@@ -25,9 +25,9 @@
         "Logic"
     ],
     "similar": [
+        "0x3c0x7e",
         "0x3e0x7e",
-        "status~",
-        "schmitt~",
-        "0x3c0x7e"
+        "&&~",
+        "not~"
     ]
 }

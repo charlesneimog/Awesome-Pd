@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iem_tab",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "tab_carth2polar",
+    "description": "`tab_carth2polar` converts Cartesian complex data from real and imaginary source arrays into magnitude and phase-argument destination arrays. A bang processes up to the minimum length of the four arrays, while a five-float list specifies the two source offsets, two destination offsets, and number of samples to convert.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "tab_complex_inv",
+        "tab_complex_mul",
+        "tab_sub",
+        "tab_min"
+    ],
+    "source_archive": "iem_tab[v1.21-1](Darwin-amd64-32)(Darwin-amd64-64)(Darwin-arm64-32)(Darwin-arm64-64).dek",
+    "source_member": "iem_tab/tab_carth2polar-help.pd"
+}

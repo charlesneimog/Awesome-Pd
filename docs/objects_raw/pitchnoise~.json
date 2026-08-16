@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pitchnoise~",
+    "description": "`pitchnoise~` generates pitched noise, based on a technique from Computer Music by Dodge and Jerse. Its inlets control pitch and noisiness; an argument of 0 or no argument selects linear interpolation, while the help patch only indicates that a nonzero argument selects a different, unspecified mode.",
+    "categories": [
+        "Stochastic"
+    ],
+    "similar": [
+        "shnoise~",
+        "linnoise~",
+        "trinoise~",
+        "fd_noise~"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/pitchnoise~-help.pd"
+}

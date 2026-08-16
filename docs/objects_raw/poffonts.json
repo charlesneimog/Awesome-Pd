@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pof",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "poffonts",
+    "description": "`poffonts` loads and declares a font using ofxFontStash so it can be referenced by objects such as `poftexts`. Create it with a font name, filename, and optional scale, and use its inlet with a `set` message to change the font file.",
+    "categories": [
+        "Graphics",
+        "Text"
+    ],
+    "similar": [
+        "poffont",
+        "poftexts",
+        "poftext",
+        "textextruded"
+    ],
+    "source_archive": "pof[v0.7-19-g155a](Linux-amd64-32).dek",
+    "source_member": "pof/poffonts-help.pd"
+}

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "array.s2p",
+    "description": "`array.s2p` converts sample positions into relative positions for a named array, nominally in the phase range 0–1. It accepts a float sample number or a list of sample numbers, and its output is non-clipped; the array name can be supplied as a symbol and retrieved or changed with `@array`.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "array.p2s",
+        "array.sum2",
+        "array.sum",
+        "array.stddev"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/array.s2p-help.pd"
+}

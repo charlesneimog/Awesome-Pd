@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "accumrotate",
         "translateXYZ",
-        "shearXZ",
-        "shearZX"
+        "accumrotate",
+        "scaleXYZ",
+        "shearXZ"
     ]
 }

@@ -25,9 +25,9 @@
         "Routing"
     ],
     "similar": [
-        "mux~",
+        "selector~",
         "mux",
-        "multiplex~",
-        "router"
+        "clean_selector~",
+        "mux~"
     ]
 }

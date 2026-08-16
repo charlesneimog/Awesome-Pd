@@ -26,8 +26,8 @@
     ],
     "similar": [
         "rectangle",
-        "pix_buffer_read",
-        "pix_color",
-        "pix_set"
+        "colorRGB",
+        "color",
+        "triangle"
     ]
 }

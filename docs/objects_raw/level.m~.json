@@ -25,9 +25,9 @@
         "Multichannel"
     ],
     "similar": [
+        "level~",
         "nchs~",
         "slew~",
-        "sigs~",
-        "smooth~"
+        "lag2~"
     ]
 }

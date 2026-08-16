@@ -1,0 +1,31 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iemgui",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "room_sim_3d",
+    "description": "`room_sim_3d` is a graphical control for representing a rectangular room containing one listener, shown as a circle with directivity, and a configurable number of numbered source objects in three dimensions. Shift-drag changes the listener’s rotation angle, while Alt-drag changes every object’s height and visually resizes the objects to indicate depth.",
+    "categories": [
+        "GUI"
+    ],
+    "similar": [
+        "room_sim_2d",
+        "ui.slider",
+        "c.number",
+        "vslider"
+    ],
+    "source_archive": "iemgui[v1.21-3](Darwin-amd64-32)(Darwin-arm64-32)(Linux-amd64-32)(Linux-arm64-32)(Linux-armv7-32)(Linux-i386-32)(Windows-amd64-32)(Windows-i386-32).dek",
+    "source_member": "iemgui/room_sim_3d-help.pd"
+}

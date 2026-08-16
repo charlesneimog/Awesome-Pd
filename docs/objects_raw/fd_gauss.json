@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_gauss",
+    "description": "`fd_gauss` calculates the value of a Gaussian distribution for a given x value, using a mean and standard deviation supplied as its two creation arguments. Its output is not normalized, so applications that require normalized values must normalize the resulting data separately.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "fd_gauss~",
+        "mtx_gauss",
+        "curve_gaussian",
+        "gaussian"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_gauss-help.pd"
+}

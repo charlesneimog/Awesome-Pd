@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "osc.pulse~",
+    "description": "`osc.pulse~` is a band-limited pulse-train oscillator that outputs a signal at a specified frequency in Hz. Its duty cycle is adjustable from 0 to 1 and defaults to 0.5; send a bang to the second inlet to reset the phase.",
+    "categories": [
+        "Oscillators"
+    ],
+    "similar": [
+        "osc.sin~",
+        "osc.impulse~",
+        "bl.pulse~",
+        "osc.tri~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/osc.pulse~-help.pd"
+}

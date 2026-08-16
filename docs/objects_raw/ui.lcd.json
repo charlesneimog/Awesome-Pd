@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ui.lcd",
+    "description": "`ui.lcd` is a black-and-white bitmap display for presenting and manipulating pixel-based content in a Pd interface. It can set the whole display, individual rows, columns, or pixels, and supports cursor-based drawing; pixel values use 1 for black and 0 for white.",
+    "categories": [
+        "GUI",
+        "Graphics"
+    ],
+    "similar": [
+        "ui.canvas",
+        "ui.aview",
+        "ui.icon",
+        "ui.plot~.ln"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/ui.lcd-help.pd"
+}

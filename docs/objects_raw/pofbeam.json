@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pofbeam",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pofbeam",
+    "description": "`pofbeam` builds and renders a beam from points supplied with `add x y width` messages, with controls for width, color, quality, and clearing the beam. When the source texture size changes, inform `pofbeam` using an `imsize` message.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "poffill",
+        "pofblend",
+        "pofbang",
+        "pofcirc"
+    ],
+    "source_archive": "pofbeam[v0.1.0-0-gcc2c](Darwin-amd64-32).dek",
+    "source_member": "pofbeam/pofbeam-help.pd"
+}

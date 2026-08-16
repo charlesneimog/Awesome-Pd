@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "creb",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "qmult~",
+    "description": "`qmult~` multiplies two quaternion signals, providing a form of “quaternion ring modulation.” It accepts each quaternion through four signal inlets arranged as one real component followed by three imaginary components, and outputs the resulting quaternion as four signals.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "qnorm~",
+        "cmplxmult~",
+        "math.cmul~",
+        "cmplxsub~"
+    ],
+    "source_archive": "creb[v0.9.2-3](Windows-amd64-32)(Sources).dek",
+    "source_member": "creb/qmult~-help.pd"
+}

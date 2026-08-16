@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_dataMorph",
+    "description": "`fd_dataMorph` morphs between two `fd_data` datasets by cloning an instance for each array element and creating a line for each source/target value pair. It takes three arguments—data ID, data-array size, and clone instance index—and its single inlet accepts a list containing source ID, target ID, and transition time in milliseconds; it has no outlets.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "fd_dataMorphArray",
+        "fd_arraymorph",
+        "fd_data",
+        "fd_dataMorphWidth"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_dataMorph-help.pd"
+}

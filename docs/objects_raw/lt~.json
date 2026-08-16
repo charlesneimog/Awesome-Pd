@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "Pd_Spectral_Toolkit",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "lt~",
+    "description": "`lt~` performs a logical less-than comparison of two signals, comparing value a at the first inlet with value b at the second inlet and outputting the result. The comparison’s value b can also be supplied as an argument, as shown by `lt~ 1`.",
+    "categories": [
+        "Logic"
+    ],
+    "similar": [
+        "or~",
+        "matrix.lt",
+        "and~",
+        "hv.lt"
+    ],
+    "source_archive": "Pd_Spectral_Toolkit[v1.1](Windows-amd64-32).dek",
+    "source_member": "Pd_Spectral_Toolkit/lt~-help.pd"
+}

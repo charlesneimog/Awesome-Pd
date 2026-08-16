@@ -27,9 +27,9 @@
         "Audio IO"
     ],
     "similar": [
-        "out4~",
         "out8~",
         "out~",
-        "mix2~"
+        "out4~",
+        "mtx.mc~"
     ]
 }

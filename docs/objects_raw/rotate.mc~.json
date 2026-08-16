@@ -26,8 +26,8 @@
     ],
     "similar": [
         "rotate~",
-        "pan4~",
         "spread.mc~",
-        "pan.mc~"
+        "pan.mc~",
+        "xgate.mc~"
     ]
 }

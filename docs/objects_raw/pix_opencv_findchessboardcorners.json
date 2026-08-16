@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pix_opencv",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pix_opencv_findchessboardcorners",
+    "description": "`pix_opencv_findchessboardcorners` searches an image for the inner corners of a chessboard pattern, which is useful for calibrating several cameras together. Set the number of inner corners in each direction with the `patternSize` message; the help patch also demonstrates gray/color switching and printing raw corner coordinates.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "pix_opencv_calibration",
+        "pix_opencv_lk",
+        "pix_opencv_colorfilt",
+        "pix_opencv_floodfill"
+    ],
+    "source_archive": "pix_opencv-v0.4-(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "pix_opencv/help/pix_opencv_findchessboardcorners-help.pd"
+}

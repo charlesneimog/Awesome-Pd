@@ -27,9 +27,9 @@
         "Control IO"
     ],
     "similar": [
-        "note.in",
-        "xnotein",
+        "ui.keyboard",
         "keymap",
-        "midi.in"
+        "note.in",
+        "xnotein"
     ]
 }

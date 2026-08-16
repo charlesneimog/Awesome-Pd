@@ -26,8 +26,8 @@
     ],
     "similar": [
         "smooth~",
-        "glide2",
+        "slew~",
         "glide",
-        "slew~"
+        "lag2~"
     ]
 }

@@ -28,7 +28,7 @@
     "similar": [
         "pix_multiimage",
         "pix_writer",
-        "pix_movie",
-        "pix_texture"
+        "pix_image",
+        "pix_movie"
     ]
 }

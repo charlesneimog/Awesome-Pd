@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
+        "fd_floor",
         "floor~",
-        "ceil",
-        "round",
-        "rint"
+        "math.floor",
+        "array-floor"
     ]
 }

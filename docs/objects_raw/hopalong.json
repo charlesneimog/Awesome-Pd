@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "chaos",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "hopalong",
+    "description": "`hopalong` generates X and Y values for a Hopalong attractor, which the help patch notes is not continuous. Its initial conditions can be restored with a `reset` message, while a `param` message modifies the attractor’s three parameters.",
+    "categories": [
+        "Algorithmic",
+        "Math"
+    ],
+    "similar": [
+        "dejong",
+        "latoomutbeta",
+        "latoomutgamma",
+        "base3"
+    ],
+    "source_archive": "chaos-v0.0.extended-(Linux-i386-32)(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "chaos/hopalong-help.pd"
+}

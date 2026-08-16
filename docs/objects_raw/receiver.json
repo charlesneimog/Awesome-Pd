@@ -25,9 +25,9 @@
         "Routing"
     ],
     "similar": [
+        "oreceive",
+        "fd_receive",
         "sender",
-        "multireceive",
-        "forward",
-        "gate"
+        "j.receive"
     ]
 }

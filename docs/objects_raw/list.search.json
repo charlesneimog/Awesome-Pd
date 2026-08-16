@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list.search",
+    "description": "`list.search` searches an input list or mlist for specified items and outputs each item's position, or -1 when it is not found. Set the searched items through the second inlet; when several items are specified, it outputs a list of their positions.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "list.^search",
+        "list.set",
+        "listSearch",
+        "listSearchIterator"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/list.search-help.pd"
+}

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "mjlib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "metroplus",
+    "description": "`metroplus` is a multi-interval variation of `metro` that outputs a bang at each interval in a sequence of millisecond durations. Start or stop it through the left inlet, and supply a single interval or a list of intervals through the second inlet; an initial interval list may also be given as arguments.",
+    "categories": [
+        "Sequencers"
+    ],
+    "similar": [
+        "metro",
+        "metro.pattern",
+        "metro.seq",
+        "metro~"
+    ],
+    "source_archive": "mjlib[v0.1.3](Linux-i386-32)(Sources).dek",
+    "source_member": "mjlib/metroplus-help.pd"
+}

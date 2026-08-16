@@ -26,8 +26,8 @@
     ],
     "similar": [
         "gaterelease~",
-        "gatedelay",
         "gate2imp~",
-        "onebang"
+        "gatedelay",
+        "debounce_b"
     ]
 }

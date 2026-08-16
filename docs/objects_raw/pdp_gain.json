@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pdp",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pdp_gain",
+    "description": "`pdp_gain` applies overall gain to selected channels and clips when overdriven. Its creation argument sets the initial gain (default 1), while the right inlet sets the gain during use. The `chanmask` message selects processed channels using a binary mask with the least significant bit representing channel 0; any negative value selects all channels by default.",
+    "categories": [
+        "Dynamics"
+    ],
+    "similar": [
+        "fd_gain~",
+        "chair.gain~",
+        "chair.stereogain~",
+        "blocknorm~"
+    ],
+    "source_archive": "pdp-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "pdp/pdp_gain-help.pd"
+}

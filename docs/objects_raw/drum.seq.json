@@ -26,9 +26,9 @@
         "GUI"
     ],
     "similar": [
-        "mtx.ctl",
-        "sequencer~",
-        "seq8.m~",
-        "pattern"
+        "tdh.seq.stepSeq.ui",
+        "pianoroll",
+        "mtxstep",
+        "metro.seq"
     ]
 }

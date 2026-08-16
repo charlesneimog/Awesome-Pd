@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_GEMbuffsize",
+    "description": "`fd_GEMbuffsize` helps determine a suitable size for a `gemvertexbuffer`, with power-of-two sizes recommended. Its outlet should be connected to `gemvertexbuffer`, and its first argument specifies the buffer size.",
+    "categories": [
+        "Graphics",
+        "General Utilities"
+    ],
+    "similar": [
+        "fd_gembuf",
+        "fd_bangem",
+        "gemvertexbuffer",
+        "fd_gemsphere"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_GEMbuffsize-help.pd"
+}

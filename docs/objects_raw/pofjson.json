@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pof",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pofjson",
+    "description": "`pofjson` provides read-only JSON file utilities, loading JSON data and retrieving element sizes, strings with `gets`, or numbers with `getf`. Give it a reference-name argument so other `pofjson` objects can refer to the same data; `load` also supports `@[alias]` substitutions.",
+    "categories": [
+        "File I/O",
+        "Data Structures"
+    ],
+    "similar": [
+        "pofxmlp",
+        "pofxml",
+        "local.dict",
+        "json"
+    ],
+    "source_archive": "pof[v0.7-19-g155a](Linux-amd64-32).dek",
+    "source_member": "pof/pofjson-help.pd"
+}

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iemxmlrpc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "xmlrpc",
+    "description": "`xmlrpc` is an XML-RPC external for Pd that creates a network socket using a port number, as demonstrated by `xmlrpc 8000`. On Windows, a dummy `netreceive` object must be present.",
+    "categories": [
+        "Networking"
+    ],
+    "similar": [
+        "netreceive",
+        "tcpreceive",
+        "udpclient",
+        "udpserver"
+    ],
+    "source_archive": "iemxmlrpc-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "iemxmlrpc/examples/xmlrpc-help.pd"
+}

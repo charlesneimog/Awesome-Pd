@@ -31,9 +31,9 @@
         "Descriptors"
     ],
     "similar": [
-        "fluid.bufonsetslice",
+        "fluid.bufpitch",
+        "fluid.bufloudness",
         "fluid.buftransientslice",
-        "fluid.chroma~",
-        "fluid.bufpitch"
+        "fluid.bufaudiotransport"
     ]
 }

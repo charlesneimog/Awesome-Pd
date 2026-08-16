@@ -27,8 +27,8 @@
     ],
     "similar": [
         "get~",
+        "xselect.mc~",
         "xgate.mc~",
-        "unmerge~",
-        "xgate2.mc~"
+        "mtx.mc~"
     ]
 }

@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iem_spec2",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "spec2_1p1z_freq~",
+    "description": "`spec2_1p1z_freq~` filters a spectrum with a one-pole, one-zero IIR filter, first from left to right and then from right to left. Like other `iem_spec2` processing, it operates on only block size / 2 + 1 spectral samples; the help patch demonstrates coefficient triplets such as `0.5 0 0.5`.",
+    "categories": [
+        "Spectral Processing",
+        "Filters"
+    ],
+    "similar": [
+        "spec2_1p1z_time~",
+        "spec2_tab_conv~",
+        "spec2_clip_min~",
+        "spec2_dbtorms~"
+    ],
+    "source_archive": "iem_spec2[v1.21.1](Windows-amd64-32)(Windows-amd64-64)(Windows-i386-32).dek",
+    "source_member": "iem_spec2/spec2_1p1z_freq~-help.pd"
+}

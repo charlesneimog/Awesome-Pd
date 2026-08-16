@@ -28,7 +28,7 @@
     "similar": [
         "floor",
         "ceil~",
-        "trunc~",
-        "quantizer~"
+        "fader~",
+        "math.floor~"
     ]
 }

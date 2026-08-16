@@ -27,8 +27,8 @@
     ],
     "similar": [
         "comment",
+        "entry",
         "display",
-        "knob",
-        "text3d"
+        "ui.label"
     ]
 }

@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "automatonism",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "mixer2",
+    "description": "`mixer2` is a dual-channel summing mixer that combines the signals received at CH1 and CH2 into one OUT signal. Its CHANNEL1 and CHANNEL2 controls independently set the level of each input channel.",
+    "categories": [
+        "Routing"
+    ],
+    "similar": [
+        "mixer4",
+        "mixer~",
+        "toggle-matrix",
+        "mix~"
+    ],
+    "source_archive": "automatonism[v0.4.2.4].dek",
+    "source_member": "automatonism/patch_editor_abs/mixer2-help.pd"
+}

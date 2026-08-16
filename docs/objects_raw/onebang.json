@@ -25,9 +25,9 @@
         "Logic"
     ],
     "similar": [
+        "is_bang",
         "next",
-        "lessthaneq~",
-        "togedge",
-        "match~"
+        "count-bang",
+        "debounce_b"
     ]
 }

@@ -27,7 +27,7 @@
     "similar": [
         "pix_bitmask",
         "pix_takealpha",
-        "pix_multiply",
-        "pix_colorclassify"
+        "pix_mix",
+        "pix_multiply"
     ]
 }

@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "polygon",
         "curve3d",
-        "surface3d",
-        "mesh_line"
+        "polygon",
+        "pix_curve",
+        "cube"
     ]
 }

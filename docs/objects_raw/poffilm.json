@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pof",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "poffilm",
+    "description": "`poffilm` is a video player that loads a movie file and displays it at an optional width and height. Messages can start playback, change its speed, or go to a frame; alternatively, `poffilm texture_name` selects the video as a texture instead of drawing it.",
+    "categories": [
+        "Graphics",
+        "File I/O"
+    ],
+    "similar": [
+        "pix_film+",
+        "pofimage",
+        "pix_movie",
+        "pix_buffer_filmopen"
+    ],
+    "source_archive": "pof[v0.7-19-g155a](Linux-amd64-32).dek",
+    "source_member": "pof/poffilm-help.pd"
+}

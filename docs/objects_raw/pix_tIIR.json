@@ -26,9 +26,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_convolve",
         "pix_biquad",
-        "pix_motionblur",
-        "pix_blur"
+        "pix_convolve",
+        "iir",
+        "pix_motionblur"
     ]
 }

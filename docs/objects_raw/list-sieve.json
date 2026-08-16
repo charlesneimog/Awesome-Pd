@@ -1,0 +1,28 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "list-abs",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list-sieve",
+    "description": "`list-sieve` looks up whether an incoming float occurs in a stored list, providing separate outputs for found and missed values. Send floats to its left inlet and the lookup list to its right inlet; the help patch warns to be careful of stack overflows.",
+    "categories": [
+        "Data Structures",
+        "Logic"
+    ],
+    "similar": [
+        "sieve",
+        "list-in",
+        "list-filter",
+        "list-compare"
+    ],
+    "source_archive": "list-abs-v0.1-20150529iem--externals.zip",
+    "source_member": "list-abs/list-sieve-help.pd"
+}

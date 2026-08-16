@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "rtc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "brownian",
+    "description": "`brownian` is a random generator based on Brownian movement, with minimum, maximum, and Brownian-factor parameters. It operates in integer or floating-point mode; use `f` or `float` as the final argument to explicitly select floating-point output, or `int` to select integer output.",
+    "categories": [
+        "Stochastic / Probabilistic"
+    ],
+    "similar": [
+        "brown-rhythm",
+        "between-variations",
+        "brown-melody",
+        "crand"
+    ],
+    "source_archive": "rtc-v0.0.extended--externals.zip",
+    "source_member": "rtc/brownian-help.pd"
+}

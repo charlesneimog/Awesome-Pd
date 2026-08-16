@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "easyflow",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "for",
+    "description": "`for` iterates over every integer in a range, similarly to a for loop in a textual language. A single number counts from 1 to that number, while a pair sets the starting index and supports backward counting; the rightmost outlet outputs each index and the leftmost outlet bangs when finished. Interrupting the count with a bang on the right does not produce the finished bang.",
+    "categories": [
+        "Procedural"
+    ],
+    "similar": [
+        "forloop",
+        "for++",
+        "lol",
+        "repeat"
+    ],
+    "source_archive": "easyflow[v0.3.0].dek",
+    "source_member": "easyflow/for-help.pd"
+}

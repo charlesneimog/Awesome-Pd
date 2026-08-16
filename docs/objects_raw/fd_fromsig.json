@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_fromsig",
+    "description": "`fd_fromsig` accepts `sigmund~` “peaks” output and produces lists containing frequency in Hz, magnitude, and phase. A float sets the output interval in milliseconds (10 ms is noted), while 1 or 0 enables or disables output.",
+    "categories": [
+        "Partial Tracking"
+    ],
+    "similar": [
+        "pique",
+        "bmt~",
+        "an.pitchtrack~",
+        "tracks"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_fromsig-help.pd"
+}

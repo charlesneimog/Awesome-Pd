@@ -25,7 +25,7 @@
     "similar": [
         "count~",
         "pulsediv~",
-        "plusequals~",
-        "zerox~"
+        "count",
+        "pulse"
     ]
 }

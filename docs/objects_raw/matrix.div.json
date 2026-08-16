@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "matrix.div",
+    "description": "`matrix.div` performs element-wise division of a matrix by either a divisor matrix or a float, outputting the resulting Matrix. Provide matrix data as a list beginning with the row and column counts; a float divisor divides every element.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "matrix.det",
+        "matrix.max",
+        "math.div",
+        "matrix.sign"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/matrix.div-help.pd"
+}

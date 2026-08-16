@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "automatonism",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "formant",
+    "description": "`formant` processes its `IN` signal through multiple band-pass filters to produce vowel-like formant filtering at `OUT`. Use `VOWELS` to scan through different vowels or provide CV control over the formants, and use `Q` to control resonance.",
+    "categories": [
+        "Filters"
+    ],
+    "similar": [
+        "vowel~",
+        "filterbank",
+        "bp-filter",
+        "hp-filter"
+    ],
+    "source_archive": "automatonism[v0.4.2.4].dek",
+    "source_member": "automatonism/patch_editor_abs/formant-help.pd"
+}

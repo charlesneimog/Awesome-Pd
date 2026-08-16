@@ -29,6 +29,6 @@
         "bl.square~",
         "pulse~",
         "saw2~",
-        "tri~"
+        "cosine~"
     ]
 }

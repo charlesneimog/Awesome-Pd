@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "mesh_line",
+        "colorSquare",
         "mesh_square",
-        "cube",
-        "colorSquare"
+        "slideSquares",
+        "teapot"
     ]
 }

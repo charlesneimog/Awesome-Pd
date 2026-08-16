@@ -26,9 +26,9 @@
         "Stochastic"
     ],
     "similar": [
-        "stepnoise",
-        "rand.f",
+        "pp.lfnoise~",
         "lfnoise~",
-        "rand.f~"
+        "stepnoise",
+        "rampnoise"
     ]
 }

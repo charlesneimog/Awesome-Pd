@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "minimum",
-        "rdiv~",
-        "plusequals~",
-        "taint~"
+        "complex.pow",
+        "rational.pow",
+        "array-pow",
+        "log~"
     ]
 }

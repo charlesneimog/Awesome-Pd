@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "Pd_Spectral_Toolkit",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "cmplxsub~",
+    "description": "`cmplxsub~` subtracts one complex number from another, outputting the real and imaginary parts of the difference through separate outlets. Its four inlets accept the real and imaginary minuend followed by the real and imaginary subtrahend; creation arguments can set the subtrahend’s real and imaginary components.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "cmplxdiv~",
+        "cmplxsqrt~",
+        "cmplxadd~",
+        "cmplxabs~"
+    ],
+    "source_archive": "Pd_Spectral_Toolkit[v1.1](Windows-amd64-32).dek",
+    "source_member": "Pd_Spectral_Toolkit/cmplxsub~-help.pd"
+}

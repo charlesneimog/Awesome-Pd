@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "part_source",
         "part_killslow",
         "part_damp",
+        "part_follow",
         "part_color"
     ]
 }

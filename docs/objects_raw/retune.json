@@ -26,8 +26,8 @@
     ],
     "similar": [
         "autotune",
-        "note.out",
-        "bend.out",
-        "pgm.out"
+        "midi.modus",
+        "midi.tuning",
+        "conv.midi2freq"
     ]
 }

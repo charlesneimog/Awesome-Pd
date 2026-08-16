@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "wscauchy~",
+    "description": "`wscauchy~` is a waveshaping object that applies the formula 1 / (1 + a²(x + 1)) to an input signal x, where a is an index. The help patch uses `line~` and `smoother~`, suggesting that the index can be ramped or smoothed when changed.",
+    "categories": [
+        "Distortion"
+    ],
+    "similar": [
+        "wsexp~",
+        "wssincos~",
+        "tcheb~",
+        "softclip~"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/wscauchy~-help.pd"
+}

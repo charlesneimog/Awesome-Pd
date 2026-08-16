@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "matrix.atan",
+    "description": "`matrix.atan` computes the element-wise arctangent of a matrix, producing a new matrix. It accepts either matrix data or a list in the matrix-constructor form “NROWS NCOLS …”.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "matrix.atanh",
+        "matrix.acos",
+        "matrix.acosh",
+        "matrix.abs"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/matrix.atan-help.pd"
+}

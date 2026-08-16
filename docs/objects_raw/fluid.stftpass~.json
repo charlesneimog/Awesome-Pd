@@ -30,8 +30,8 @@
     "categories": [],
     "similar": [
         "fluid.bufstft",
-        "part_velcone",
-        "burrow~",
-        "tID_fft"
+        "fluid.stats",
+        "fluid.gain~",
+        "fluid.ampslice~"
     ]
 }

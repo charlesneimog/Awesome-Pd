@@ -27,8 +27,8 @@
     ],
     "similar": [
         "rand.u",
-        "urn",
-        "drunk",
-        "decide"
+        "rand.dist",
+        "rand.f~",
+        "rand.list"
     ]
 }

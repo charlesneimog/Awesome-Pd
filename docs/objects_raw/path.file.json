@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "path.file",
+    "description": "`path.file` provides file input/output operations around a symbol-valued file path, including opening, closing, reading, writing, seeking, removing, and renaming files. Opening a file updates its `@path` property; for example, `read_bytes` outputs byte values as a list of integers and sends a bang when EOF is reached.",
+    "categories": [
+        "File I/O"
+    ],
+    "similar": [
+        "path.normalize",
+        "path.split",
+        "path.monitor",
+        "getFile"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/path.file-help.pd"
+}

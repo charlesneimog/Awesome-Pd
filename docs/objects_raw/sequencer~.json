@@ -25,9 +25,9 @@
         "Sequencers"
     ],
     "similar": [
-        "impseq~",
         "sequencer",
-        "phaseseq~",
-        "list.seq"
+        "mega-sequencer",
+        "impseq~",
+        "seq.bangs"
     ]
 }

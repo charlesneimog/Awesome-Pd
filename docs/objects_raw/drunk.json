@@ -25,9 +25,9 @@
         "Stochastic"
     ],
     "similar": [
-        "decide",
         "drunkard~",
-        "rand.u",
-        "stepnoise"
+        "drunkard",
+        "decide",
+        "random_fl~"
     ]
 }

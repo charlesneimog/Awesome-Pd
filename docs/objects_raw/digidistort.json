@@ -25,9 +25,9 @@
         "Distortion"
     ],
     "similar": [
-        "overdrive~",
-        "crusher~",
-        "degrade~",
-        "drive~"
+        "distortion~",
+        "fd_distor",
+        "fx.distortion~",
+        "distortion2~"
     ]
 }

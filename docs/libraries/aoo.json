@@ -1,0 +1,17 @@
+{
+    "description": "AOO (Audio over OSC) is a lightweight peer-to-peer library for streaming audio and messages in real time over local networks or the public internet. It includes a Pure Data external and an embeddable C/C++ library.",
+    "issues": "https://git.iem.at/aoo/aoo/-/issues",
+    "link": "https://git.iem.at/aoo/aoo",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://git.iem.at/aoo/aoo",
+            "https://deken.puredata.info/search.html",
+            "https://forum.pdpatchrepo.info/topic/14900/aoo-2-0-pre4-released",
+            "https://soundingfuture.com/en/article/aoo-low-latency-peer-peer-audio-streaming-and-messaging"
+        ],
+        "notes": "The project was previously hosted at https://git.iem.at/cm/aoo; the maintainer’s 2.0-pre4 announcement identifies the current issue tracker under the aoo/aoo namespace.",
+        "checked_at": "2026-08-16T20:35:07+00:00"
+    }
+}

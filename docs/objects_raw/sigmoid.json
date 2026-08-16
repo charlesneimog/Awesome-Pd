@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "vabs",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "sigmoid",
+    "description": "`sigmoid` applies a sigmoid weighting curve to a list of numbers and outputs the weighted list. A float sets the sigmoid factor, and another list output provides sigmoid-shape pairs suitable for filling a table.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "sigmoide",
+        "curve_sigmoide",
+        "circular_sigmoid",
+        "elliptic_sigmoid"
+    ],
+    "source_archive": "vabs-v0.1--externals.zip",
+    "source_member": "vabs/sigmoid-help.pd"
+}

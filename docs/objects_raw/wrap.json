@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
+        "wrap~~",
+        "pwrap",
         "pong",
-        "pong~",
-        "count",
-        "fold"
+        "pong~"
     ]
 }

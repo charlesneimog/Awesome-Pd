@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list.normalize",
+    "description": "`list.normalize` normalizes a list of floats either by scaling the values so their sum is 1.0 or by mapping their value range to 0–1. Select the normalization mode with `@by`, using the `@sum` or `@range` aliases; non-float values are rejected.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "list-normalize",
+        "list.sum",
+        "list.distribution",
+        "list-centroid"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/list.normalize-help.pd"
+}

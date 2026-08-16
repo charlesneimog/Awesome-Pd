@@ -27,8 +27,8 @@
     ],
     "similar": [
         "button",
+        "pmenu",
         "slider2d",
-        "pad",
-        "numbox~"
+        "pad"
     ]
 }

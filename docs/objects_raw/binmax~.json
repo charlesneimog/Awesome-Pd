@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "Pd_Spectral_Toolkit",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "binmax~",
+    "description": "`binmax~` finds the maximum sample value in signal block A and outputs that value, the corresponding value from signal block B, and their shared index. Feed signal blocks A and B into its first and second inlets, respectively.",
+    "categories": [
+        "Spectral Processing"
+    ],
+    "similar": [
+        "binmin~",
+        "binmix~",
+        "binindex~",
+        "binmonitor~"
+    ],
+    "source_archive": "Pd_Spectral_Toolkit[v1.1](Windows-amd64-32).dek",
+    "source_member": "Pd_Spectral_Toolkit/binmax~-help.pd"
+}

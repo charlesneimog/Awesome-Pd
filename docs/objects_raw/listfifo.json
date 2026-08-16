@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "maxlib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "listfifo",
+    "description": "`listfifo` is a first-in, first-out buffer for storing lists. Sending a list inserts it into the buffer, while a bang outputs the next stored list; its size argument has a minimum value of 10.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "fifo",
+        "lifo",
+        "list-fifo",
+        "list-lifo"
+    ],
+    "source_archive": "maxlib[v1.5.8](Linux-arm-32)(Sources).dek",
+    "source_member": "maxlib/listfifo-help.pd"
+}

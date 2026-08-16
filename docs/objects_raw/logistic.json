@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "chaos",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "logistic",
+    "description": "The `logistic` object is included in the chaos package, but the provided help patch contains no information about what it does or how to use it. The available text is insufficient to describe its purpose or behavior without inventing details.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "mlogistic",
+        "rtout",
+        "sfwrite13~",
+        "._grainflow.waveform"
+    ],
+    "source_archive": "chaos-v0.0.extended-(Linux-i386-32)(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "chaos/logistic-help.pd"
+}

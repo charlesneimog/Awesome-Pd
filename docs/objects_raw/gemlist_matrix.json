@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "shearYX",
+        "gemlist_info",
+        "shearZX",
         "translate",
-        "shearZY",
-        "shearZX"
+        "shearYX"
     ]
 }

@@ -31,9 +31,9 @@
         "Descriptors"
     ],
     "similar": [
-        "fluid.noveltyslice~",
         "fluid.bufnoveltyfeature",
         "fluid.bufnoveltyslice",
+        "fluid.noveltyslice~",
         "fluid.onsetfeature~"
     ]
 }

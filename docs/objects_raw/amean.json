@@ -27,8 +27,8 @@
     ],
     "similar": [
         "gmean",
+        "array-series",
         "eqdiv",
-        "list.inc",
-        "henon~"
+        "list.gen"
     ]
 }

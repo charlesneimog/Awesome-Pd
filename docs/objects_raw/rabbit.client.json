@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "RabbitControl",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "rabbit.client",
+    "description": "`rabbit.client` connects to an RCP server to receive and control parameters exposed by a remote system. Send it `connect ws://localhost:10000` to connect (or `disconnect` to disconnect); it provides outlets for client data, parameter IDs, connection status, and parameter information.",
+    "categories": [
+        "Networking"
+    ],
+    "similar": [
+        "rabbit.server",
+        "rabbit.format",
+        "rabbit.parse",
+        "wsclient"
+    ],
+    "source_archive": "RabbitControl[v2.0.0](Windows-amd64-32).dek",
+    "source_member": "RabbitControl/rabbit.client-help.pd"
+}

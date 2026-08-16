@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "easyflow",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "numberSymbol",
+    "description": "`numberSymbol` converts numbers to symbols, allowing numeric values and symbols to be mixed in the same data stream. It accepts bangs, floats, symbols, and lists; for a list, only the first element is used, while messages with other selectors are treated like symbols.",
+    "categories": [
+        "Text"
+    ],
+    "similar": [
+        "symbolize",
+        "symbolToFloat",
+        "fromsymbol",
+        "symbolSplit"
+    ],
+    "source_archive": "easyflow[v0.3.0].dek",
+    "source_member": "easyflow/numberSymbol-help.pd"
+}

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "midi.sustain",
+    "description": "`midi.sustain` emulates a sustain pedal for MIDI note/velocity lists: while the pedal is on, it suppresses note-offs, then outputs all sustained note-offs when the pedal is turned off. Set the pedal state through the second inlet with 1 or 0, or configure it to listen for MIDI controller 64 using `@ctlin`.",
+    "categories": [
+        "MIDI"
+    ],
+    "similar": [
+        "sustain",
+        "midi.event2note",
+        "midi.tuning",
+        "midi-in"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/midi.sustain-help.pd"
+}

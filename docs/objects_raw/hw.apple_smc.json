@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "hw.apple_smc",
+    "description": "`hw.apple_smc` queries Apple System Management Control (SMC) keys, for example to obtain CPU temperature. Send `read KEY` with an SMC key symbol to output that key’s value; the read-only `@keys?` property lists all discovered SMC keys.",
+    "categories": [
+        "Control I/O"
+    ],
+    "similar": [
+        "smc",
+        "hw.apple_sms",
+        "hw.cpu_temp",
+        "hw.display"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/hw.apple_smc-help.pd"
+}

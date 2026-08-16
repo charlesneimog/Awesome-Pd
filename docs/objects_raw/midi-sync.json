@@ -1,0 +1,28 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pdmus",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "midi-sync",
+    "description": "`midi-sync` receives transport information from an external MIDI source, outputting play/stop state, an approximate tempo in BPM, and bangs on rhythmic steps for use instead of `metro`. Its step resolution can be set with integer messages such as `resolution 4`, `resolution 8`, `resolution 16`, or `resolution 32`.",
+    "categories": [
+        "MIDI",
+        "Sequencers"
+    ],
+    "similar": [
+        "midi-quantizer",
+        "midi.track",
+        "midi-player",
+        "seq8.m~"
+    ],
+    "source_archive": "pdmus-v0.1--externals.zip",
+    "source_member": "pdmus/midi-sync-help.pd"
+}

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_nonpulmonic",
+    "description": "`fd_nonpulmonic` wraps a Pd text object that stores symbols associated with non-pulmonic IPA characters. Send a float index to its single inlet to retrieve the corresponding IPA character as a symbol from its outlet.",
+    "categories": [
+        "Text"
+    ],
+    "similar": [
+        "symbol.split",
+        "f2char",
+        "dripchar",
+        "fd_toroman"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_nonpulmonic-help.pd"
+}

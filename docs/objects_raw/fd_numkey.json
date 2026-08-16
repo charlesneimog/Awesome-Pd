@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_numkey",
+    "description": "`fd_numkey` turns number-key presses into their corresponding float values. It provides separate outlets for key-down and key-up events and takes no arguments or inlets.",
+    "categories": [
+        "Control I/O"
+    ],
+    "similar": [
+        "key",
+        "keylist",
+        "fd_key",
+        "gemkeyname"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_numkey-help.pd"
+}

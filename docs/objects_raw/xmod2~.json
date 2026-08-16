@@ -26,8 +26,8 @@
     ],
     "similar": [
         "xmod~",
-        "fm~",
-        "gaussian~",
-        "bl.wavetable~"
+        "fd_fm",
+        "phasemod~",
+        "modulator~"
     ]
 }

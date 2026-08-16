@@ -26,8 +26,8 @@
     ],
     "similar": [
         "lifop",
-        "stack",
-        "stream",
-        "pack~"
+        "fifo",
+        "list-fifo",
+        "data.fifo"
     ]
 }

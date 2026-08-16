@@ -31,9 +31,9 @@
         "Text"
     ],
     "similar": [
+        "s2f",
         "atof",
-        "spell",
-        "fromsymbol",
-        "makesymbol"
+        "char2f",
+        "bytes2float"
     ]
 }

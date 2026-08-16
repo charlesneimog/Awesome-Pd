@@ -26,9 +26,9 @@
         "File IO"
     ],
     "similar": [
+        "capture~",
         "funbuff",
-        "fluid.dataset",
         "table",
-        "rec"
+        "fluid.dataset"
     ]
 }

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "markex",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "randomF",
+    "description": "`randomF` is a floating-point random number generator for control-rate use. Send a bang to its left inlet to output a random float; the help patch also indicates a float inlet and demonstrates `randomF 0.5`, but does not clearly document how these values set its range.",
+    "categories": [
+        "Stochastic / Probabilistic"
+    ],
+    "similar": [
+        "random_tw",
+        "random.float",
+        "random1",
+        "random"
+    ],
+    "source_archive": "markex[v0.0.extended](Windows-amd64-32)(Sources).dek",
+    "source_member": "markex/randomF-help.pd"
+}

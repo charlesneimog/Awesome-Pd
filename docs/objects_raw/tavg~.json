@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "average~",
-        "abs~",
         "avg~",
-        "rint~"
+        "absgn~",
+        "prime",
+        "sgn~"
     ]
 }

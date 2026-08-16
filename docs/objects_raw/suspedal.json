@@ -28,7 +28,7 @@
     "similar": [
         "sustain",
         "mono",
-        "ptouch.out",
-        "note.in"
+        "keymap",
+        "mpe.in"
     ]
 }

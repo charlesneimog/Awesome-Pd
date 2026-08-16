@@ -26,9 +26,9 @@
         "Multichannel"
     ],
     "similar": [
-        "poke~",
         "tabwriter~",
         "peek~",
-        "record~"
+        "batch.rec~",
+        "poke~"
     ]
 }

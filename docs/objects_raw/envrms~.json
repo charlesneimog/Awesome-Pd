@@ -26,9 +26,9 @@
         "Descriptors"
     ],
     "similar": [
-        "peak~",
         "rms~",
-        "vu~",
-        "mov.rms~"
+        "peak~",
+        "an.rms~",
+        "env-"
     ]
 }

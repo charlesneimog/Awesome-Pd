@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "net.host2ip",
+    "description": "`net.host2ip` resolves a DNS host name, received as a symbol or any message, to a list of IP addresses. Use `@type` to select `ipv4` or `ipv6`, with `@ipv4` and `@ipv6` provided as shortcuts.",
+    "categories": [
+        "Networking"
+    ],
+    "similar": [
+        "net.http.send",
+        "artnetudp",
+        "client",
+        "server"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/net.host2ip-help.pd"
+}

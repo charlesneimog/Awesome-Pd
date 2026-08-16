@@ -26,8 +26,8 @@
     ],
     "similar": [
         "lfo",
-        "vco.m~",
-        "oscnoise~",
-        "sine~"
+        "lfo.mosc~",
+        "basic-lfo",
+        "lfo.saw~"
     ]
 }

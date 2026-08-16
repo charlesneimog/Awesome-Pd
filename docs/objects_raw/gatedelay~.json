@@ -29,6 +29,6 @@
         "trig.delay~",
         "trig.delay2~",
         "delay~",
-        "gatedelay"
+        "n_delay1p_line~"
     ]
 }

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "sigpack",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "vowel~",
+    "description": "`vowel~` is a simple formant filter that processes an input signal to produce vowel-like filtering. Its float control selects vowel 0–4 (`a`, `e`, `i`, `o`, `u`), with vowel 1 (`e`) as the default.",
+    "categories": [
+        "Filters"
+    ],
+    "similar": [
+        "formant",
+        "hp1~",
+        "vcf_rbp6~",
+        "flt.resonhp~"
+    ],
+    "source_archive": "sigpack[v0.0.45](Darwin-amd64-32)(Darwin-i386-32)(Sources).dek",
+    "source_member": "sigpack/vowel~-help.pd"
+}

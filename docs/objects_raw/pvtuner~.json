@@ -33,9 +33,9 @@
         "Oscillators"
     ],
     "similar": [
-        "gaussian~",
-        "saw~",
-        "randpulse",
-        "function~"
+        "feedfm~",
+        "oscil~",
+        "bl.rsaw~",
+        "pulser~"
     ]
 }

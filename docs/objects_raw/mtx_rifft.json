@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iemmatrix",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "mtx_rifft",
+    "description": "`mtx_rifft` computes a real-valued inverse FFT independently for each matrix row. The input matrix must have 2^(k-1)+1 columns, and the resulting matrix has 2^k columns; column-direction transforms can be calculated separately.",
+    "categories": [
+        "FFT"
+    ],
+    "similar": [
+        "mtx_ifft",
+        "mtx_rfft",
+        "mtx_fft",
+        "tab_rifft"
+    ],
+    "source_archive": "iemmatrix[v0.6.0](Irix-mipsn32-32)(Irix-mipsn32-64).dek",
+    "source_member": "iemmatrix/mtx_rifft-help.pd"
+}

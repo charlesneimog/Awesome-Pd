@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_texture",
-        "pix_coordinate",
         "pix_multitexture",
-        "pix_mask"
+        "pix_snap",
+        "pix_texture",
+        "pqtorusknots"
     ]
 }

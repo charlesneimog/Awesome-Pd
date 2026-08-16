@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "minimum",
-        "cosh",
-        "frac.add",
-        "dbtoa"
+        "ihisto",
+        "track_min",
+        "rminus~",
+        "minimum"
     ]
 }

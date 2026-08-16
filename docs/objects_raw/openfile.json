@@ -30,6 +30,6 @@
         "dir",
         "fluid.concataudiofiles",
         "pic",
-        "initmess"
+        "capture~"
     ]
 }

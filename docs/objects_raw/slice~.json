@@ -26,9 +26,9 @@
         "Multichannel"
     ],
     "similar": [
+        "mc.slice",
+        "slice",
         "unmerge~",
-        "xselect.mc~",
-        "pan2~",
-        "xgate.mc~"
+        "get~"
     ]
 }

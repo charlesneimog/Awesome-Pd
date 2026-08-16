@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iem_dp",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "tabread4~~",
+    "description": "`tabread4~~` performs 4-point-interpolating table lookup and is intended for building samplers and other table-based applications. The help patch shows that its source table can be changed at runtime with a `set` message, such as `set array98` or `set array99`.",
+    "categories": [
+        "Samplers"
+    ],
+    "similar": [
+        "tabread4__",
+        "tabread__",
+        "tabread~~",
+        "tab16read4~"
+    ],
+    "source_archive": "iem_dp[v0.2](Linux-amd64-32)(Linux-amd64-64)(Linux-arm64-32)(Linux-arm64-64)(Linux-armv7-32)(Linux-armv7-64)(Linux-i386-32)(Linux-i386-64).dek",
+    "source_member": "iem_dp/tabread4~~-help.pd"
+}

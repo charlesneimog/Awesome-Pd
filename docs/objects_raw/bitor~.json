@@ -25,9 +25,9 @@
         "Logic"
     ],
     "similar": [
-        "bitxor~",
         "bitand~",
+        "bitxor~",
         "bitnot~",
-        "0x7c0x7c0x7e"
+        "pdp_not"
     ]
 }

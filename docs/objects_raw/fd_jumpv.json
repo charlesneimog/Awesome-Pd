@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_jumpv",
+    "description": "`fd_jumpv` calculates the absolute difference between the extreme values in an incoming sequence, producing its “jump value.” For example, values reflecting between -10 and 10 produce a difference of 20.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "fd_reflect",
+        "halton",
+        "hid_rel2abs",
+        "cmplxabs~"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_jumpv-help.pd"
+}

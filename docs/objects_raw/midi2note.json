@@ -28,8 +28,8 @@
     ],
     "similar": [
         "note2midi",
-        "notedur2ratio",
-        "xnoteout",
-        "note.out"
+        "midi.ctl2str",
+        "midi2pc",
+        "notedur2ratio"
     ]
 }

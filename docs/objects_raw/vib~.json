@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "quilt",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "vib~",
+    "description": "`vib~` creates a vibrato modulation signal intended to be multiplied by a pitch signal, as shown with `*~ 440`. The example `vib~ 6 0.01` indicates rate and depth settings, and the patch provides a message to reset its phase.",
+    "categories": [
+        "LFOs"
+    ],
+    "similar": [
+        "fd_vibrato",
+        "satk.synth.LFOscil~",
+        "lfo.+square~",
+        "pwm"
+    ],
+    "source_archive": "quilt[v0.8.3](Linux-amd64-32).dek",
+    "source_member": "quilt/vib~-help.pd"
+}

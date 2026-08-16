@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
-        "default",
+        "bang~",
+        "banger",
         "bangdiv",
-        "reverse",
-        "merge"
+        "pb_now"
     ]
 }

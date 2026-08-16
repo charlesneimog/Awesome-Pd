@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "tl.cue",
+    "description": "`tl.cue` represents a cue or section marker in a timeline, intended for use with timeline objects such as `tl.bang`, `tl.toggle`, and `tl.transport`. A cue can be selected with a `cue $1` message, and the element can be pinned to the lowest layer using its `@pinned` property.",
+    "categories": [
+        "Score-based"
+    ],
+    "similar": [
+        "tl.toggle",
+        "tl.bang",
+        "tl.transport",
+        "ceammc.tl"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/tl.cue-help.pd"
+}

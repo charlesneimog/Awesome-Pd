@@ -1,0 +1,32 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "openscofo~",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "openscofo~",
+    "description": "`openscofo~` is an open-source score follower for contemporary music that tracks microphone or recorded audio against a required score file, including pitched, chordal, trill, rest, and extended/percussive events. It reports the current score-event index and predicted BPM, and can optionally output audio descriptors or trigger actions when events are detected.",
+    "categories": [
+        "Score Follower",
+        "Descriptors"
+    ],
+    "similar": [
+        "framescore~",
+        "beat",
+        "fluid.buftransientslice",
+        "harmonicRatio~"
+    ],
+    "source_archive": "openscofo~[v0.2.10b1](Darwin-amd64-32)(Darwin-arm64-32)(Linux-amd64-32)(Windows-amd64-32)(Sources).dek",
+    "source_member": "openscofo~/OpenScofo/openscofo~-help.pd"
+}

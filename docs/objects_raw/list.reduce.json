@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list.reduce",
+    "description": "`list.reduce` cumulatively applies a binary function to the elements of an input list or mlist, producing one reduced value. Its second outlet sends each pair to the binary function, whose result must be returned to the second inlet.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "list-reduce",
+        "list.remove",
+        "list.separate",
+        "list.resample"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/list.reduce-help.pd"
+}

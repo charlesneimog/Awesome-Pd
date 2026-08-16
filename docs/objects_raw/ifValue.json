@@ -1,0 +1,28 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "easyflow",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ifValue",
+    "description": "`ifValue` conditionally passes incoming data through its left side according to a value. Any nonzero value is treated as true, as shown by the patch’s clarification.",
+    "categories": [
+        "Logic",
+        "Routing"
+    ],
+    "similar": [
+        "passif",
+        "flow.reject_if",
+        "flow.pass_if",
+        "if"
+    ],
+    "source_archive": "easyflow[v0.3.0].dek",
+    "source_member": "easyflow/ifValue-help.pd"
+}

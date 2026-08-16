@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "automatonism",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "stereo-delay",
+    "description": "`stereo-delay` is a mono-input, stereo-output delay with independent left and right delay rates, feedback, output low-pass filtering, and dry/wet balance. Each channel’s delay time ranges from 10–500 ms; connecting a `clock` to the TAP input activates tap-delay mode, in which feedback alternates between the outputs for a ping-pong effect.",
+    "categories": [
+        "Delay"
+    ],
+    "similar": [
+        "+delay~",
+        "ping.pong~",
+        "fx.tapiir~",
+        "trigger-delay"
+    ],
+    "source_archive": "automatonism[v0.4.2.4].dek",
+    "source_member": "automatonism/patch_editor_abs/stereo-delay-help.pd"
+}

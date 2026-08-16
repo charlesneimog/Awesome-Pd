@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "flt.fbank5x1~",
+    "description": "`flt.fbank5x1~` is a five-band, one-octave Butterworth filter bank for splitting an input signal into parallel low-pass (250 Hz), band-pass (500, 1000, and 2000 Hz), and high-pass (4000 Hz) bands. Its five band gains can be set in dB using a five-element list or the corresponding frequency properties, and `reset` clears the filter state.",
+    "categories": [
+        "Filters"
+    ],
+    "similar": [
+        "flt.eq10~",
+        "flt.speaker~",
+        "flt.bpf72e~",
+        "flt.bpf12~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/flt.fbank5x1~-help.pd"
+}

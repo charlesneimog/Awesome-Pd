@@ -33,9 +33,9 @@
         "Filters"
     ],
     "similar": [
-        "lores~",
+        "bq_list~",
+        "svfilter~",
         "hip.bw~",
-        "crossover~",
-        "bandstop~"
+        "crossover~"
     ]
 }

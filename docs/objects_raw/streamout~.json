@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ggee",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "streamout~",
+    "description": "`streamout~` transmits an incoming Pd signal over a network connection to a specified host and port, for use with a receiver such as `streamin~`. Use a `connect` message with a hostname and port, and select the transmission representation with `format float`, `format 16bit`, or `format 8bit`; send `disconnect` or `0` to disconnect.",
+    "categories": [
+        "Networking",
+        "Audio I/O"
+    ],
+    "similar": [
+        "streamout13~",
+        "mp3streamout~",
+        "streamin~",
+        "udpsend~"
+    ],
+    "source_archive": "ggee[v0.28](Darwin-arm64-32).dek",
+    "source_member": "ggee/streamout~-help.pd"
+}

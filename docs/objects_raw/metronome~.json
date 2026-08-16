@@ -25,9 +25,9 @@
         "Oscillators"
     ],
     "similar": [
-        "pimp",
         "saw~",
-        "impulse",
-        "pvtuner~"
+        "fd_note",
+        "pulse",
+        "pimp"
     ]
 }

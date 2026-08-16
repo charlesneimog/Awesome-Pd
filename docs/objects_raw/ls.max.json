@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "planifolia",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ls.max",
+    "description": "`ls.max` finds the greatest element in a list. Send a list such as `10 9 8 23 7 6 5` to obtain its maximum element.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "ls.mean",
+        "ls.min",
+        "ls.mode",
+        "list.max"
+    ],
+    "source_archive": "planifolia[v0.32].dek",
+    "source_member": "planifolia/ls.max-help.pd"
+}

@@ -25,9 +25,9 @@
         "MIDI"
     ],
     "similar": [
+        "xbendout2",
         "xbendin",
-        "bend.out",
-        "midiparse",
-        "xbendin2"
+        "xbendin2",
+        "bend.out"
     ]
 }

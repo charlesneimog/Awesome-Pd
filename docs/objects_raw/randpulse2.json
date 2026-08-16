@@ -27,8 +27,8 @@
     ],
     "similar": [
         "randpulse2~",
-        "rand~",
         "randpulse~",
-        "dust2~"
+        "randpulse",
+        "rand~"
     ]
 }

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "lyonpotpourri",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "expflam~",
+    "description": "`expflam~` replaces a click trigger with a sequence of nonlinearly spaced, attenuated click attacks, creating a flam pattern. Flams can be applied to every trigger or restricted by a gate signal, and parameters include start/end delay, attack count, slope, and attenuation.",
+    "categories": [
+        "Sequencers"
+    ],
+    "similar": [
+        "trigger-train",
+        "dmach~",
+        "vc-counter",
+        "ratchet-seq"
+    ],
+    "source_archive": "lyonpotpourri[v3.0.2](Linux-arm64-32)(Linux-armv7-32).dek",
+    "source_member": "lyonpotpourri/expflam~-help.pd"
+}

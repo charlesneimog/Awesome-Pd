@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "matrix.sub",
+    "description": "`matrix.sub` performs element-wise subtraction on matrices, taking the minuend matrix in its first inlet and a subtrahend matrix or float in its second inlet. Matrix inputs use the `Matrix NROWS NCOLS ...` form (or constructor data `NROWS NCOLS ...`), and the result is output as a Matrix.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "matrix.atan",
+        "matrix.sinh",
+        "matrix.abs",
+        "matrix.conv2"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/matrix.sub-help.pd"
+}

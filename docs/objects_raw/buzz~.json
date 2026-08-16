@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "buzz~",
+    "description": "`buzz~` is a band-limited impulse generator driven by a fundamental frequency, with another frequency specifying how far its harmonics extend. Harmonics are crossfaded to avoid clicking, and its second outlet provides a half-frequency `phasor~`; when present, an argument is interpreted as the lowest frequency with “accurate” harmonics.",
+    "categories": [
+        "Oscillators"
+    ],
+    "similar": [
+        "bpbuzz~",
+        "osc.blit~",
+        "pulser~",
+        "osc.impulse~"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/buzz~-help.pd"
+}

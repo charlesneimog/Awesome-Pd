@@ -28,8 +28,8 @@
     ],
     "similar": [
         "mix2~",
-        "gain~",
-        "out8~",
-        "mtx.mc~"
+        "mix~",
+        "mtx.mc~",
+        "mixer~"
     ]
 }

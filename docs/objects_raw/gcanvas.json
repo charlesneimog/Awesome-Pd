@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ggee",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "gcanvas",
+    "description": "`gcanvas` is a GUI rectangle that detects mouse position, outputting X and Y pixel values when you click and drag inside it, along with a click indication. It also accepts messages to set its size or color and to draw, move, reset, or delete canvas elements such as lines and rectangles.",
+    "categories": [
+        "GUI",
+        "Graphics"
+    ],
+    "similar": [
+        "ui.canvas",
+        "my_canvas",
+        "c.blackboard",
+        "ui.aview"
+    ],
+    "source_archive": "ggee[v0.28](Darwin-arm64-32).dek",
+    "source_member": "ggee/gcanvas-help.pd"
+}

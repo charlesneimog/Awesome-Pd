@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "context",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "psave",
+    "description": "`psave` provides the core auto-saving mechanism for state-saving abstractions and can save parameters for objects such as `contour`. It takes over the containing abstraction’s creation and is typically instantiated as `psave $1`.",
+    "categories": [
+        "Patching"
+    ],
+    "similar": [
+        "savebangs",
+        "initbang",
+        "savebang",
+        "pgrid"
+    ],
+    "source_archive": "context-v4.0-(Darwin-i386-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "context/psave-help.pd"
+}

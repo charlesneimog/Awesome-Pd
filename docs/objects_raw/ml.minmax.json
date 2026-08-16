@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ml.lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ml.minmax",
+    "description": "`ml.minmax` detects minimum and maximum peaks in a list of floats, outputting two lists of peak values preceded by their positions in the input list. Use the `delta` message to set the minimum amount by which a value must exceed its previous and next values to be considered a peak.",
+    "categories": [
+        "Descriptors"
+    ],
+    "similar": [
+        "ml.zerox",
+        "tab_find_peaks",
+        "tab_find_exact_peaks",
+        "siginfo"
+    ],
+    "source_archive": "ml.lib[v1.0.3](Darwin-amd64-32).dek",
+    "source_member": "ml.lib/ml.minmax-help.pd"
+}

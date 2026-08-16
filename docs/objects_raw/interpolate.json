@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "list.inc",
-        "maximum",
-        "rescale",
+        "cosinterp~",
+        "linterp~",
+        "list-inter",
         "power~"
     ]
 }

@@ -27,9 +27,9 @@
         "Additive"
     ],
     "similar": [
-        "saw~",
-        "tri~",
+        "cosine~",
         "oscnoise~",
-        "cosine~"
+        "tri~",
+        "saw~"
     ]
 }

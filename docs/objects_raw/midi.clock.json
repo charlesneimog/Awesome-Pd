@@ -25,9 +25,9 @@
         "MIDI"
     ],
     "similar": [
-        "sysrt.in",
-        "sysrt.out",
-        "ptouch.in",
-        "note.out"
+        "midi.cc",
+        "ceammc.midi",
+        "midi.oct",
+        "sysrt.in"
     ]
 }

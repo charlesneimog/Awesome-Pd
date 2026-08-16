@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "Pd_Spectral_Toolkit",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "bintrim~",
+    "description": "`bintrim~` zeroes spectral data outside a specified range of bins, producing trimmed versions of two spectral inputs at its two outlets. Set the lower and upper bin numbers through inlets 3 and 4, or provide them as creation arguments, as in `bintrim~ 16 48`.",
+    "categories": [
+        "Spectral Processing"
+    ],
+    "similar": [
+        "magtrim~",
+        "binmonitor~",
+        "binsort~",
+        "valleys~"
+    ],
+    "source_archive": "Pd_Spectral_Toolkit[v1.1](Windows-amd64-32).dek",
+    "source_member": "Pd_Spectral_Toolkit/bintrim~-help.pd"
+}

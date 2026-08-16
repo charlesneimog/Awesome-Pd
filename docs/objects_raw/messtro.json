@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "messtro",
+    "description": "`messtro` sequences messages according to a tempo set by two arguments or a `tempo` message, with its right outlet indicating downbeats. Send 1 to start, 0 to stop, or `once` to run one cycle with repeat disabled; a `done` message creates a delay without producing output.",
+    "categories": [
+        "Sequencers"
+    ],
+    "similar": [
+        "ndmetro",
+        "metorate",
+        "metro",
+        "metro.pattern"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/messtro-help.pd"
+}

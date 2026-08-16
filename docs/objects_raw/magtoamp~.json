@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "Pd_Spectral_Toolkit",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "magtoamp~",
+    "description": "`magtoamp~` converts magnitude values at its first inlet into amplitude values at its outlet. Its overlap factor can be supplied as an argument or through the second inlet.",
+    "categories": [
+        "Spectral Processing"
+    ],
+    "similar": [
+        "cartoamp~",
+        "magtodb~",
+        "amptomag~",
+        "phasetofreq~"
+    ],
+    "source_archive": "Pd_Spectral_Toolkit[v1.1](Windows-amd64-32).dek",
+    "source_member": "Pd_Spectral_Toolkit/magtoamp~-help.pd"
+}

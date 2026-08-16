@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
-        "default",
-        "slew",
+        "fractal-tools",
+        "search-tools",
         "any2symbol",
-        "bangbang"
+        "multiple"
     ]
 }

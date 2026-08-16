@@ -27,8 +27,8 @@
     ],
     "similar": [
         "frac2cents",
-        "autotune2",
-        "cents2ratio",
+        "scale",
+        "cents2frac",
         "scale2cents"
     ]
 }

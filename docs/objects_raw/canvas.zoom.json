@@ -26,8 +26,8 @@
     ],
     "similar": [
         "canvas.edit",
-        "canvas.bounds",
+        "canvas.setname",
         "canvas.active",
-        "canvas.setname"
+        "canvas.name"
     ]
 }

@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "world_light",
         "light",
-        "cone",
-        "ambientRGB"
+        "world_light",
+        "pix_backlight",
+        "depth"
     ]
 }

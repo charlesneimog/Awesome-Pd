@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "easyflow",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "listMax",
+    "description": "`listMax` outputs the maximum numeric value in a list. Symbols are ignored by default; use the `-s` flag to allow symbols, while a list containing no numbers results in an error.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "listMin",
+        "vnmax",
+        "list-minmax",
+        "list.max"
+    ],
+    "source_archive": "easyflow[v0.3.0].dek",
+    "source_member": "easyflow/listMax-help.pd"
+}

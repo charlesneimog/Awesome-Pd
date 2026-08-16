@@ -27,9 +27,9 @@
         "Oscillators"
     ],
     "similar": [
-        "envelope~",
-        "curve~",
-        "latoocarfian~",
-        "tanh"
+        "tdh.synth.beep~",
+        "polyfm",
+        "satk.synth.beep~",
+        "polysynth"
     ]
 }

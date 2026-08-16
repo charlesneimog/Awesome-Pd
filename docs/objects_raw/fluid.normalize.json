@@ -33,9 +33,9 @@
         "Math"
     ],
     "similar": [
-        "fluid.pca",
         "fluid.standardize",
-        "fluid.nmfmorph~",
+        "fluid.pca",
+        "fluid.mds",
         "fluid.knnregressor"
     ]
 }

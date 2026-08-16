@@ -10,14 +10,11 @@ from pathlib import Path
 from typing import Union, Dict, List, Optional, TypeAlias
 from urllib.parse import parse_qs, urlparse
 
+import numpy as np
 import requests
 import tomli_w
-
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-from sklearn.feature_extraction import text
-import re
-import numpy as np
 
 NavItem: TypeAlias = Union[str, Dict[str, object]]
 
@@ -211,9 +208,17 @@ class AwesomePd:
 
     OWNER = "charlesneimog"
     REPO = "Awesome-Pd"
-    CUSTOM_STOPWORDS = set(text.ENGLISH_STOP_WORDS).union(
-        {"object", "outputs", "used", "primarily", "library", "feature"}
-    )
+    UNCATEGORIZED_CATEGORY = "Uncategorized"
+
+    @classmethod
+    def _categories_for(cls, item: dict) -> List[str]:
+        """Return usable page categories without changing the source JSON."""
+        categories = [
+            str(category).strip()
+            for category in item.get("categories", [])
+            if str(category).strip()
+        ]
+        return categories or [cls.UNCATEGORIZED_CATEGORY]
 
     def __init__(self, update_docs: bool = False) -> None:
         self.paths = Paths.from_base()
@@ -249,8 +254,6 @@ class AwesomePd:
         (self.paths.docs / "all_articles.json").write_text(
             json.dumps(self.articles, indent=4), encoding="utf-8"
         )
-
-        self.update_similarity()
 
     # --------------------------
     # GitHub Issues Integration
@@ -489,7 +492,7 @@ class AwesomePd:
 
             # Write one file per category (first is canonical, others hidden from search)
             effective_json_name = json_file
-            categories: List[str] = project.get("categories", []) or ["Uncategorized"]
+            categories = self._categories_for(project)
 
             first = True
             for c in categories:
@@ -572,7 +575,7 @@ class AwesomePd:
             )
 
             first = True
-            for c in project["categories"]:
+            for c in self._categories_for(project):
                 final_md = md
                 if not first:
                     final_md = f"---\nsearch:\n    exclude: true\n---\n\n{md}"
@@ -689,7 +692,7 @@ class AwesomePd:
 
             name = data["title"]
             description = data["description"].split(". ")[0] + "."
-            for category in data["categories"]:
+            for category in self._categories_for(data):
                 categories.setdefault(category, []).append([name, description])
         return categories
 
@@ -705,7 +708,7 @@ class AwesomePd:
             if name == "index":
                 name = data["library_name"] + "_" + name
             description = data["description"].split(". ")[0] + "."
-            for category in data["categories"]:
+            for category in self._categories_for(data):
                 categories.setdefault(category, []).append([name, description])
         return categories
 
@@ -774,13 +777,14 @@ class AwesomePd:
         Lê os JSONs em docs/objects_raw e monta uma estrutura temporária.
         """
         temp = copy.deepcopy(d)
+        temp.setdefault(self.UNCATEGORIZED_CATEGORY, [])
         for j in os.listdir(self.paths.pieces_raw):
             if not j.endswith(".json"):
                 continue
             with open(self.paths.pieces_raw / j, "r", encoding="utf-8") as f:
                 obj = json.load(f)
             piecename = obj["title"]
-            for c in obj["categories"]:
+            for c in self._categories_for(obj):
                 c_key = slugify(c)
                 value = f"pieces/{c_key}/{slugify(piecename)}.md"
                 piecename = f"{obj["title"]} ({obj["year"]})"
@@ -801,22 +805,33 @@ class AwesomePd:
 
     def obj_dict_to_nav(self, d: dict) -> list:
         """
-        Constrói a nav SEM mutar self.objects.
-        Lê os JSONs em docs/objects_raw e monta uma estrutura temporária.
+        Build compact object navigation without mutating ``self.objects``.
+
+        Object pages are already linked from their category indexes and found
+        through search. Adding every object to the global navigation duplicates
+        thousands of links in every generated HTML page, so only populated
+        category indexes belong in the sidebar.
         """
         temp = copy.deepcopy(d)
+        temp.setdefault(self.UNCATEGORIZED_CATEGORY, [])
+
+        def add_category_index(x: dict, category: str) -> bool:
+            for key, value in x.items():
+                if key == category and isinstance(value, list):
+                    if not value:
+                        value.append(f"objects/{slugify(category)}/index.md")
+                    return True
+                if isinstance(value, dict) and add_category_index(value, category):
+                    return True
+            return False
+
         for j in os.listdir(self.paths.objects_raw):
             if not j.endswith(".json"):
                 continue
             with open(self.paths.objects_raw / j, "r", encoding="utf-8") as f:
                 obj = json.load(f)
-            objname = obj["title"]
-            if objname == "index":
-                objname = obj["library_name"] + "_" + objname
-            for c in obj["categories"]:
-                c_key = slugify(c)
-                value = f"objects/{c_key}/{objname}.md"
-                self.objects_add_md_to_category(temp, objname, c, value)
+            for c in self._categories_for(obj):
+                add_category_index(temp, c)
 
         def recurse(x):
             nav_list = []
@@ -829,7 +844,7 @@ class AwesomePd:
             return nav_list
 
         data = ["objects/index.md"] + recurse(temp)
-        return [self.sort_section(sec) for sec in data]
+        return data
 
     def dict_to_nav(self, d: dict) -> list:
         """
@@ -908,17 +923,34 @@ class AwesomePd:
         parts.append("---\nsearch:\n    exclude: true\n---\n\n")
         parts.append(f"# {libname}\n")
         parts.append(lib_data.get("description", ""))
+
+        repository_url = str(lib_data.get("link", "")).strip()
+        issues_url = str(lib_data.get("issues", "")).strip()
+        if repository_url or issues_url:
+            parts.append('\n\n<div class="grid cards" markdown>\n')
+            if repository_url:
+                parts.append(
+                    f"- :material-source-repository: __Repository__ "
+                    f"[Source code]({repository_url})\n"
+                )
+            if issues_url:
+                parts.append(
+                    f"- :material-bug: __Issues__ [Report or browse issues]({issues_url})\n"
+                )
+            parts.append("</div>\n")
         parts.append(LIB_CONTRIBUTORS_HEADER)
 
-        url = lib_data["link"]
-        parts_ = url.rstrip("/").split("/")
-        repo_owner = parts_[-2]
-        repo_name = parts_[-1]
-        parts.append(
-            LIB_CONTRIBUTORS_SCRIPT_TEMPLATE.format(
-                repo_owner=repo_owner, repo_name=repo_name
-            )
+        url = repository_url
+        match = re.fullmatch(
+            r"https?://github\.com/([^/]+)/([^/]+)/?", url, flags=re.IGNORECASE
         )
+        if match:
+            repo_owner, repo_name = match.groups()
+            parts.append(
+                LIB_CONTRIBUTORS_SCRIPT_TEMPLATE.format(
+                    repo_owner=repo_owner, repo_name=repo_name
+                )
+            )
         parts.append("\n")
 
         parts.append('<h2>Objects</h2>\n\n<div class="grid cards" markdown>\n')
@@ -944,6 +976,10 @@ class AwesomePd:
         issues = self._get_open_issues()
         for issue in issues:
             self.check_new_issues(issue)
+
+        # Similarity is derived from the raw object data and must be refreshed
+        # before rendering Markdown so pages never contain stale recommendations.
+        self.update_similarity()
 
         # Regenerate Markdown pages
         self.create_pieces_markdowns()
@@ -991,9 +1027,7 @@ class AwesomePd:
                             description = (
                                 object_json["description"].split(". ")[0] + "."
                             )
-                            c = ""
-                            if len(object_json["categories"]) > 0:
-                                c = slugify(object_json["categories"][0])
+                            c = slugify(self._categories_for(object_json)[0])
 
                             libraries.setdefault(libname, []).append(
                                 [objname, description, f"../objects/{c}/{objname}.md"]
@@ -1064,65 +1098,128 @@ class AwesomePd:
     # --------------------------
     # Full Similarity Update
     # --------------------------
-    def clear_text(self, txt: str) -> str:
-        """Normaliza texto: minúsculas e remove caracteres especiais."""
-        tokens = re.sub(r"[^a-z0-9 ]", " ", txt.lower()).split()
-        return " ".join([t for t in tokens if t not in self.CUSTOM_STOPWORDS])
+    @staticmethod
+    def _cosine_or_zeros(vectorizer, documents, size: int) -> np.ndarray:
+        """Vectorize documents and return a safe pairwise cosine matrix."""
+        try:
+            matrix = vectorizer.fit_transform(documents)
+        except ValueError as exc:
+            if "empty vocabulary" not in str(exc):
+                raise
+            return np.zeros((size, size), dtype=np.float32)
+        return cosine_similarity(matrix, dense_output=True)
 
-    def jaccard(self, a, b):
-        """Similaridade de Jaccard entre duas listas de categorias."""
-        sa, sb = set(a), set(b)
-        return len(sa & sb) / len(sa | sb) if sa | sb else 0
+    def similarity_recommendations(
+        self, objects: List[dict], limit: int = 4
+    ) -> List[List[str]]:
+        """Rank related Pd objects with text, name, category, and library signals.
+
+        Descriptions use word unigrams and bigrams, while titles use character
+        n-grams to recognize Pd naming families such as ``glide~`` and
+        ``glide2~``. Categories are treated as IDF-weighted tokens so a match in
+        a rare, specific category matters more than a match in a broad category.
+        """
+        size = len(objects)
+        if size < 2:
+            return [[] for _ in objects]
+
+        titles = [str(obj.get("title", "")).strip() for obj in objects]
+        descriptions = [str(obj.get("description", "")).strip() for obj in objects]
+        text_documents = [
+            f"{title} {title} {description}"
+            for title, description in zip(titles, descriptions)
+        ]
+
+        text_similarity = self._cosine_or_zeros(
+            TfidfVectorizer(
+                strip_accents="unicode",
+                stop_words="english",
+                ngram_range=(1, 2),
+                min_df=2,
+                max_df=0.98,
+                sublinear_tf=True,
+            ),
+            text_documents,
+            size,
+        )
+        title_similarity = self._cosine_or_zeros(
+            TfidfVectorizer(
+                analyzer="char_wb",
+                ngram_range=(2, 5),
+                lowercase=True,
+                sublinear_tf=True,
+            ),
+            titles,
+            size,
+        )
+
+        category_documents = [
+            [str(category) for category in obj.get("categories", []) if category]
+            for obj in objects
+        ]
+        category_similarity = self._cosine_or_zeros(
+            TfidfVectorizer(
+                analyzer=lambda categories: categories,
+                lowercase=False,
+                use_idf=True,
+                sublinear_tf=True,
+            ),
+            category_documents,
+            size,
+        )
+
+        libraries = np.asarray(
+            [str(obj.get("library_name", "")).strip().casefold() for obj in objects]
+        )
+        same_library = (
+            (libraries[:, None] == libraries[None, :])
+            & (libraries[:, None] != "")
+        ).astype(np.float32)
+
+        combined = (
+            0.45 * text_similarity
+            + 0.32 * category_similarity
+            + 0.22 * title_similarity
+            + 0.01 * same_library
+        )
+
+        recommendations: List[List[str]] = []
+        for index, scores in enumerate(combined):
+            candidates = [candidate for candidate in range(size) if candidate != index]
+            candidates.sort(
+                key=lambda candidate: (
+                    -float(scores[candidate]),
+                    titles[candidate].casefold(),
+                )
+            )
+            recommendations.append(
+                [titles[candidate] for candidate in candidates[:limit]]
+            )
+        return recommendations
 
     def update_similarity(self):
         print("Updating similarity...")
-        objetos = []
-        arquivos = [
-            f for f in os.listdir(self.paths.objects_raw) if f.endswith(".json")
-        ]
-        for file in arquivos:
-            json_file = os.path.join(self.paths.objects_raw, file)
-            with open(json_file, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                data["__file__"] = file
-                data["desc_limpa"] = self.clear_text(data.get("description", ""))
-                objetos.append(data)
+        objects = []
+        files = sorted(
+            file
+            for file in os.listdir(self.paths.objects_raw)
+            if file.endswith(".json")
+        )
+        for filename in files:
+            json_file = self.paths.objects_raw / filename
+            with json_file.open("r", encoding="utf-8") as handle:
+                objects.append(json.load(handle))
 
-        if not objetos:
+        if not objects:
             print("No JSON found.")
             return
 
-        # 2. TF-IDF nas descrições
-        docs = [o["desc_limpa"] for o in objetos]
-        vectorizer = TfidfVectorizer(stop_words="english")
-        tfidf_matrix = vectorizer.fit_transform(docs)
-
-        # 3. Similaridade de descrições (cosine)
-        sim_descricoes = cosine_similarity(tfidf_matrix)
-
-        # 4. Similaridade de categorias (jaccard)
-        sim_categorias = np.zeros((len(objetos), len(objetos)))
-        for i in range(len(objetos)):
-            for j in range(len(objetos)):
-                sim_categorias[i, j] = self.jaccard(
-                    objetos[i].get("categories", []), objetos[j].get("categories", [])
-                )
-
-        # 5. Combinar scores
-        alpha, beta = 0.7, 0.3
-        sim_total = alpha * sim_descricoes + beta * sim_categorias
-
-        # 6. Gerar arquivos na pasta "related"
-        for i, obj in enumerate(objetos):
-            scores = sim_total[i]
-            indices = scores.argsort()[::-1]
-            recomendados = [j for j in indices if j != i][:4]
-            obj["similar"] = [objetos[j]["title"] for j in recomendados]
-            out_file = os.path.join(self.paths.objects_raw, obj["__file__"])
-            obj.pop("__file__", None)
-            obj.pop("desc_limpa", None)
-            with open(out_file, "w", encoding="utf-8") as f:
-                json.dump(obj, f, indent=4, ensure_ascii=False)
+        recommendations = self.similarity_recommendations(objects)
+        for filename, obj, similar in zip(files, objects, recommendations):
+            obj["similar"] = similar
+            out_file = self.paths.objects_raw / filename
+            with out_file.open("w", encoding="utf-8") as handle:
+                json.dump(obj, handle, indent=4, ensure_ascii=False)
 
 
 if __name__ == "__main__":

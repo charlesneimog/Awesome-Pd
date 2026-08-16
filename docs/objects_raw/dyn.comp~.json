@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "dyn.comp~",
+    "description": "`dyn.comp~` is a mono dynamic-range compressor that reduces a signal above a configurable threshold and outputs the compressed signal. Its ratio, threshold, attack, and release can be set as creation arguments, and its second outlet reports the current compression level in the range 0–1.",
+    "categories": [
+        "Dynamics"
+    ],
+    "similar": [
+        "dyn.comp2~",
+        "dyn.comp_peak~",
+        "dyn.comp_up~",
+        "dyn.comp_up2~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/dyn.comp~-help.pd"
+}

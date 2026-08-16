@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_multiply",
         "pix_rds",
-        "pix_invert",
-        "pix_subtract"
+        "pix_multiply",
+        "pix_texture",
+        "pix_deinterlace"
     ]
 }

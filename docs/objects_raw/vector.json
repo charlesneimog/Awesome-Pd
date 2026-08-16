@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "mapping",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "vector",
+    "description": "`vector` converts Cartesian coordinates (x, y) to polar coordinates. It accepts x and y through two float inlets and outputs the radius and angle through two float outlets.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "vector-",
+        "vector+",
+        "polar",
+        "polar2cartesian"
+    ],
+    "source_archive": "mapping-v0.0.extended--externals.zip",
+    "source_member": "mapping/vector-help.pd"
+}

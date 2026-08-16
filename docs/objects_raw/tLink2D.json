@@ -33,9 +33,9 @@
         "Physical Modeling"
     ],
     "similar": [
-        "link3D",
         "link2D",
         "tLink3D",
-        "pmpd2d~"
+        "link3D",
+        "link"
     ]
 }

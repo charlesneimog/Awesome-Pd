@@ -26,9 +26,9 @@
         "Audio IO"
     ],
     "similar": [
+        "noise.pink~",
+        "hv.pinknoise~",
         "brown~",
-        "lfnoise~",
-        "stepnoise",
-        "perlin~"
+        "noise.colored~"
     ]
 }

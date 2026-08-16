@@ -32,8 +32,8 @@
     "categories": [],
     "similar": [
         "leaker~",
-        "fluid.bufaudiotransport",
-        "morph~",
-        "vacancy~"
+        "vacancy~",
+        "smoother~",
+        "fluid.audiotransport~"
     ]
 }

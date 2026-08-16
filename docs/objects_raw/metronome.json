@@ -26,9 +26,9 @@
         "Sequencers"
     ],
     "similar": [
-        "score",
-        "phaseseq~",
-        "counter",
-        "tempo~"
+        "metro",
+        "fd_metro",
+        "metro~",
+        "metro.seq"
     ]
 }

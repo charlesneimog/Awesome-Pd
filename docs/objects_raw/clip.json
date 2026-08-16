@@ -27,8 +27,8 @@
     ],
     "similar": [
         "scale",
-        "scale~",
-        "pong~",
-        "fold"
+        "matrix.clip",
+        "clip~",
+        "scale~"
     ]
 }

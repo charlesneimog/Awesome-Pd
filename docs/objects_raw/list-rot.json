@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "list-abs",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list-rot",
+    "description": "`list-rot` rotates the elements of a list by moving a specified number of elements from the front to the back. Set the rotation amount with a float in the right inlet; negative values rotate elements from the back to the front.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "list-rotate",
+        "list_rotate",
+        "list-remove",
+        "list-rev"
+    ],
+    "source_archive": "list-abs-v0.1-20150529iem--externals.zip",
+    "source_member": "list-abs/list-rot-help.pd"
+}

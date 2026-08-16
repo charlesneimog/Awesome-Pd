@@ -26,8 +26,8 @@
     ],
     "similar": [
         "part_velocity",
-        "part_head",
-        "part_killold",
-        "part_killslow"
+        "part_size",
+        "part_killslow",
+        "part_head"
     ]
 }

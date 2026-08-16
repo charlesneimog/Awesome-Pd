@@ -25,9 +25,9 @@
         "MIDI"
     ],
     "similar": [
-        "note.out",
-        "xnoteout",
-        "borax",
-        "mono"
+        "mono",
+        "piano~",
+        "makenote2",
+        "note.out"
     ]
 }

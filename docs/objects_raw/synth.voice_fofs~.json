@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "synth.voice_fofs~",
+    "description": "`synth.voice_fofs~` is a simple formant/vocal synthesizer based on a source/filter design with a smooth FOF filter bank. It provides selectable voice types and vowels (`a`, `e`, `i`, `o`, `u`), with linearly interpolated formant parameters and configurable vowel-smoothing time.",
+    "categories": [
+        "Subtractive"
+    ],
+    "similar": [
+        "synth.voice_fofc~",
+        "synth.dubdub~",
+        "bassemu~",
+        "flt.moog_vcf~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/synth.voice_fofs~-help.pd"
+}

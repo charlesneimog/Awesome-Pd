@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "flt.lpf12~",
+    "description": "`flt.lpf12~` is a second-order Butterworth low-pass filter that outputs a filtered input signal. Set its cutoff frequency in hertz with the first argument, a float in the second inlet, or the `@freq` property; the documented range is 20–20000 Hz.",
+    "categories": [
+        "Filters"
+    ],
+    "similar": [
+        "flt.lpf24~",
+        "flt.hpf12~",
+        "flt.hpf24~",
+        "flt.bpf12~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/flt.lpf12~-help.pd"
+}

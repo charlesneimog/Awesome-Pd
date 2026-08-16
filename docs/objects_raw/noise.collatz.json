@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "noise.collatz",
+    "description": "`noise.collatz` outputs values based on the Collatz conjecture and can operate in Collatz mode (0) or Terras mode (1). A bang produces an output value, while the float `offset` argument sets an offset; enabling `om` makes the object output when its cut or fold value changes.",
+    "categories": [
+        "Stochastic"
+    ],
+    "similar": [
+        "noise.baker",
+        "noise.colored~",
+        "noise",
+        "noise.chua~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/noise.collatz-help.pd"
+}

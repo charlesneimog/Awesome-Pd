@@ -27,8 +27,8 @@
     ],
     "similar": [
         "mov.rms~",
+        "an.rms~",
         "vu~",
-        "meter8~",
-        "hann~"
+        "fluid.loudness~"
     ]
 }

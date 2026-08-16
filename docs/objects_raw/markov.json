@@ -27,9 +27,9 @@
         "Stochastic"
     ],
     "similar": [
-        "prob",
         "anal",
         "rand.hist",
-        "brown"
+        "markov~",
+        "prob"
     ]
 }

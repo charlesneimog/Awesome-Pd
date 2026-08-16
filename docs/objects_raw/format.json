@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
+        "string.format",
         "sprintf",
         "unite",
-        "tosymbol",
-        "separate"
+        "tosymbol"
     ]
 }

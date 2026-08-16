@@ -25,9 +25,9 @@
         "Stochastic"
     ],
     "similar": [
+        "rampnoise~",
         "stepnoise",
-        "decide",
-        "brown~",
-        "rand.dist"
+        "noise",
+        "ceammc.noise"
     ]
 }

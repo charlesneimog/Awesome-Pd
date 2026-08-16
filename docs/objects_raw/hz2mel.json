@@ -27,7 +27,7 @@
     "similar": [
         "mel2hz",
         "hz2bark",
-        "bark2hz",
-        "atodb"
+        "hz2rad",
+        "bark2hz"
     ]
 }

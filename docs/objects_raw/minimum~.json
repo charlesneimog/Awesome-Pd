@@ -27,7 +27,7 @@
     "similar": [
         "maximum~",
         "minimum",
-        "mag",
-        "tavg~"
+        "minimax",
+        "fd_minimax"
     ]
 }

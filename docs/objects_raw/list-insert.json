@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "list-abs",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list-insert",
+    "description": "`list-insert` inserts a list or element into an original list before the element at position POS, producing the new list. POS is zero-based, negative values count from the end, and the creation argument sets the default POS.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "list.insert",
+        "array-insert",
+        "insert",
+        "ls.splice"
+    ],
+    "source_archive": "list-abs-v0.1-20150529iem--externals.zip",
+    "source_member": "list-abs/list-insert-help.pd"
+}

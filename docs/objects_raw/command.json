@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "command",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "command",
+    "description": "`command` executes external commands or scripts from Pd, reporting the exit code, stdout, and stderr through its three outlets. It runs non-blockingly by default and accepts only one command at a time, so wait for the exit code before invoking another; commands are executed directly without shell expansion.",
+    "categories": [
+        "Control I/O"
+    ],
+    "similar": [
+        "keycommand",
+        "terminal",
+        "ifeel",
+        "ofExit"
+    ],
+    "source_archive": "command[v0.4](Darwin-amd64-32).dek",
+    "source_member": "command/command-help.pd"
+}

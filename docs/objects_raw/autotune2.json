@@ -27,7 +27,7 @@
     "similar": [
         "cents2frac",
         "cents2ratio",
-        "ratio2cents",
-        "scale2freq"
+        "scale2freq",
+        "conv.hex2int"
     ]
 }

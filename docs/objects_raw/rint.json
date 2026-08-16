@@ -26,8 +26,8 @@
     ],
     "similar": [
         "rint~",
-        "ceil",
-        "round",
-        "floor"
+        "nearest",
+        "mtx_int",
+        "roundIfVeryClose"
     ]
 }

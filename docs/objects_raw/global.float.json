@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "global.float",
+    "description": "`global.float` defines a globally scoped floating-point variable accessed by a symbolic ID, allowing multiple instances with the same ID to share its value. A float sets the variable and outputs the new value, while `bang` outputs the current value; `set` and arithmetic methods modify it without output.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "global.list",
+        "global.int",
+        "local.float",
+        "global.set"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/global.float-help.pd"
+}

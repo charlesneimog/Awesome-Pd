@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "minimax",
+    "description": "`minimax` tracks the minimum and maximum values observed over time in a stream of floats whose range is unknown, while passing the input stream through its first outlet. Its other outlets report the running maximum and minimum, and the `normalize 1/0` message controls normalization.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "fd_minimax",
+        "streamMinMax",
+        "mtx_minmax",
+        "minimum"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/minimax-help.pd"
+}

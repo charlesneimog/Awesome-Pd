@@ -1,0 +1,15 @@
+{
+    "description": "acre-wg is a Pure Data abstractions library for building waveguide-based physical models of real or imaginary sounding objects. It is designed as a waveguide library for the acre environment.",
+    "issues": "",
+    "link": "https://git.iem.at/pd/acre-wg",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://git.iem.at/pd/acre-wg",
+            "https://deken.puredata.info/search.html"
+        ],
+        "notes": "The official IEM GitLab project and the acre-wg 1.3 Deken package verify the project identity. No dedicated issue tracker could be verified.",
+        "checked_at": "2026-08-16T20:25:00+00:00"
+    }
+}

@@ -26,9 +26,9 @@
         "Data Structures"
     ],
     "similar": [
-        "repack",
-        "glue",
-        "pack2",
-        "repeat"
+        "repeat",
+        "drip",
+        "noise.navier_stokes",
+        "quadruptwo"
     ]
 }

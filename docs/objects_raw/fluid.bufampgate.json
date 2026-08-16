@@ -30,8 +30,8 @@
     "categories": [],
     "similar": [
         "fluid.ampgate~",
-        "beat~",
-        "fluid.bufflatten",
-        "fluid.bufampfeature"
+        "fluid.bufampfeature",
+        "fluid.bufampslice",
+        "fluid.bufflatten"
     ]
 }

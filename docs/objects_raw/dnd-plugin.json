@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "dnd-plugin",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "dnd-plugin",
+    "description": "`dnd-plugin` adds drag-and-drop support to Pd windows: dropping a `.pd` file on the console opens it, while dropping one on a window adds it there, and dropped text is also accepted. For arbitrary files and detailed metadata—such as coordinates, window name, path, filename, and extension—use `dnd-fileinfo`, which receives drop information via `dnd-dropped`.",
+    "categories": [
+        "GUI",
+        "Patching"
+    ],
+    "similar": [
+        "dnd_parent",
+        "dnd-target",
+        "ui.faust~",
+        "fd_guiTemplate"
+    ],
+    "source_archive": "dnd-plugin[v0.3.0](Linux-i386-32).dek",
+    "source_member": "dnd-plugin/dnd-plugin-help.pd"
+}

@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "mjlib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pin~",
+    "description": "`pin~` is a random signal router that sends a single input signal to one of two outputs, while the other output is zero. Its probability is specified from 0 to 1, and its switching interval is specified in milliseconds; no panning or envelopes are applied.",
+    "categories": [
+        "Routing",
+        "Stochastic"
+    ],
+    "similar": [
+        "chance~",
+        "rojo~",
+        "disarrain~",
+        "random1~"
+    ],
+    "source_archive": "mjlib[v0.1.3](Linux-i386-32)(Sources).dek",
+    "source_member": "mjlib/pin~-help.pd"
+}

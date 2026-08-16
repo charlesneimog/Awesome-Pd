@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_markfour",
+    "description": "`fd_markfour` implements a fourth-order Markov chain, calculating and outputting the next state as a list when its first inlet receives a bang. Its second inlet accepts a list of new probabilities, and its single creation argument specifies the instance number.",
+    "categories": [
+        "Stochastic / Probabilistic"
+    ],
+    "similar": [
+        "fd_markov5",
+        "fd_mark",
+        "fd_markov",
+        "fd_markov3"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_markfour-help.pd"
+}

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "Jamoma",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "j.out",
+    "description": "`j.out mySignal` provides a named output for `mySignal`, sending its value to an outlet and making it available through `j.receive data/out.mySignal`. The help patch shows `mute $1` and `bypass $1` controls, but also states “this doesn't work,” so their behavior is not established by the patch.",
+    "categories": [
+        "Routing"
+    ],
+    "similar": [
+        "j.in",
+        "j.receive",
+        "j.send",
+        "j.remote"
+    ],
+    "source_archive": "Jamoma-v1.0-beta3-(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "Jamoma/helps/j.out-help.pd"
+}

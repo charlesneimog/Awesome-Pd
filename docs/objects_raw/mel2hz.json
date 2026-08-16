@@ -27,7 +27,7 @@
     "similar": [
         "hz2mel",
         "bark2hz",
-        "hz2bark",
-        "db2lin"
+        "rad2hz",
+        "hz2bark"
     ]
 }

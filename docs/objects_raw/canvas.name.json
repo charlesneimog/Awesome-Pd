@@ -25,9 +25,9 @@
         "Patching"
     ],
     "similar": [
-        "canvas.active",
-        "canvas.bounds",
         "canvas.setname",
-        "properties"
+        "canvas.active",
+        "canvas.top",
+        "canvas_name"
     ]
 }

@@ -26,9 +26,9 @@
         "Multichannel"
     ],
     "similar": [
-        "cosine~",
         "bl.square~",
-        "bl.vsaw~",
-        "wt2d~"
+        "bl.imp2~",
+        "bl.imp~",
+        "cosine~"
     ]
 }

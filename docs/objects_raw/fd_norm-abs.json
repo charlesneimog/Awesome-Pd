@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_norm-abs",
+    "description": "`fd_norm-abs` normalizes an input range over time, mapping values from -1…1 to 0…1. It may take time to converge completely; the help patch compares its output with `int`, and equality indicates convergence.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "fd_norm",
+        "matrix.abs",
+        "norm",
+        "complex.abs"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_norm-abs-help.pd"
+}

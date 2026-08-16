@@ -26,8 +26,8 @@
     ],
     "similar": [
         "xmod~",
-        "cycle~",
-        "damp.osc~",
-        "saw~"
+        "bl.wavetable~",
+        "gaussian~",
+        "impulse2~"
     ]
 }

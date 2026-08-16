@@ -27,7 +27,7 @@
     "similar": [
         "specBrightness",
         "barkSpecBrightness~",
-        "specRolloff~",
-        "specCentroid"
+        "barkSpecBrightness",
+        "specRolloff~"
     ]
 }

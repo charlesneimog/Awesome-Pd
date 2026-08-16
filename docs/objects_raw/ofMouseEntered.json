@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ofelia",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ofMouseEntered",
+    "description": "`ofMouseEntered` listens for the mouse cursor entering the window area and outputs the event as a list. The listener is enabled by default and can be disabled or enabled with `setEnabled` using 0 or 1; its listening order defaults to 50 and can be changed with `setOrder`.",
+    "categories": [
+        "Control I/O"
+    ],
+    "similar": [
+        "ofMouseExited",
+        "ofMousePressed",
+        "ofTouchDoubleTap",
+        "ofMouseDragged"
+    ],
+    "source_archive": "ofelia-v4.0.0-(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "ofelia/abs/ofMouseEntered-help.pd"
+}

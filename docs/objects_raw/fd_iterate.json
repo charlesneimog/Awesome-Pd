@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_iterate",
+    "description": "`fd_iterate` is an iterative counter that produces a specified number of iterations, intended for repeated counting. Set the iteration count with its first argument or inlet; the default is 100, and a `bang` starts the iteration.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "counter",
+        "iterate",
+        "flow.count",
+        "satk.util.counter"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_iterate-help.pd"
+}

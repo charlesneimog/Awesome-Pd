@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "unauthorized",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "disto~",
+    "description": "`disto~` applies distortion with high-pass and low-pass filtering, providing dry and wet mixes for blending the normal and distorted signals. It supports presets and controls for drive, volume, feedback, filter frequencies, and filter Q; setting an individual parameter overrides the presets.",
+    "categories": [
+        "Distortion"
+    ],
+    "similar": [
+        "distortion~",
+        "fx.distortion3~",
+        "distortion2~",
+        "fx.distortion2~"
+    ],
+    "source_archive": "unauthorized[v0.1](Windows-amd64-32)(Sources).dek",
+    "source_member": "unauthorized/disto~-help.pd"
+}

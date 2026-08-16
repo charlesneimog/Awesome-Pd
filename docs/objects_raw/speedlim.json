@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
+        "speedlimit",
+        "flow.speedlim",
         "limit",
-        "pipe2",
-        "default",
-        "slew"
+        "flow.delay"
     ]
 }

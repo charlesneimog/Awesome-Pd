@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "context",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "coord-index",
+    "description": "The help patch does not document the behavior or purpose of `coord-index`; it only uses `else/openfile` to open `coord-help.pd`. Therefore, no key usage detail for `coord-index` can be established from the provided evidence.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "filesize",
+        "j.minuit_device",
+        "grambi",
+        "methodOutput"
+    ],
+    "source_archive": "context-v4.0-(Darwin-i386-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "context/coord-index-help.pd"
+}

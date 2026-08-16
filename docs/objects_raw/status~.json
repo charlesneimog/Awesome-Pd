@@ -27,7 +27,7 @@
     "similar": [
         "togedge",
         "trig2bang",
-        "0x7c0x7c0x7e",
-        "edge~"
+        "gate2imp~",
+        "status"
     ]
 }

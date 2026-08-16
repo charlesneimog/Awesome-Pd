@@ -25,9 +25,9 @@
         "Stochastic"
     ],
     "similar": [
-        "rand.f~",
-        "brown~",
-        "drunkard~",
-        "rampnoise"
+        "stepnoise~",
+        "rampnoise",
+        "noise",
+        "rand.f~"
     ]
 }

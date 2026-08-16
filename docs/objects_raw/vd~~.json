@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iem_dp",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "vd~~",
+    "description": "`vd~~` reads from the delay line named by its argument, here `abc`, which is written by `delwrite~~`. It is intended for variable-delay access, with the delay time supplied as a signal; the reader and writer must use the same delay-line name.",
+    "categories": [
+        "Delay"
+    ],
+    "similar": [
+        "delread~~",
+        "delwrite~~",
+        "vd16~",
+        "fd_octaver"
+    ],
+    "source_archive": "iem_dp[v0.2](Linux-amd64-32)(Linux-amd64-64)(Linux-arm64-32)(Linux-arm64-64)(Linux-armv7-32)(Linux-armv7-64)(Linux-i386-32)(Linux-i386-64).dek",
+    "source_member": "iem_dp/vd~~-help.pd"
+}

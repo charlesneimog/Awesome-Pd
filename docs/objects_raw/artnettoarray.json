@@ -1,0 +1,31 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "artnetlib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "artnettoarray",
+    "description": "`artnettoarray` converts lists of 8-bit integers from 0–255 into floating-point values from 0–1 for use as an array-style list. The converted list is output from the first outlet, while the number of items is output from the second outlet.",
+    "categories": [
+        "Control I/O"
+    ],
+    "similar": [
+        "artnetfromarray",
+        "send",
+        "artnetsend",
+        "ifeel"
+    ],
+    "source_archive": "artnetlib[v0.1.0](Darwin-amd64-32)(Darwin-arm64-32)(Linux-amd64-32)(Linux-arm64-32)(Linux-armv7-32)(Linux-i386-32)(Windows-amd64-32)(Windows-i386-32).dek",
+    "source_member": "artnetlib/artnettoarray-help.pd"
+}

@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ceammc.hw",
+    "description": "`ceammc.hw` is a collection of hardware-related objects for tasks such as querying Apple sensors, reading CPU temperature, controlling display or keyboard-light properties, communicating with Arduino and serial devices, and controlling MOTU AVB devices over HTTP. Use the specific `hw.*` object that matches the hardware or system feature you need.",
+    "categories": [
+        "Control I/O",
+        "Networking"
+    ],
+    "similar": [
+        "hw.motu.avb",
+        "hw.kbd_light",
+        "hw.cpu_temp",
+        "ossia.remote"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/ceammc.hw-help.pd"
+}

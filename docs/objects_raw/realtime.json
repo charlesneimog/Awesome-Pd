@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "vanilla",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "realtime",
+    "description": "`realtime` measures elapsed real time, as reported by the operating system, and outputs the result in milliseconds. Send a `bang` to one inlet to reset the measurement and a `bang` to the other to obtain the elapsed time.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "timer",
+        "time",
+        "ISOtime",
+        "utime"
+    ],
+    "source_archive": "vanilla-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "vanilla/realtime-help.pd"
+}

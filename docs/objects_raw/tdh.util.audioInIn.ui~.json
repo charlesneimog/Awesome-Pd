@@ -1,0 +1,28 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "tdh.lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "tdh.util.audioInIn.ui~",
+    "description": "`tdh.util.audioInIn.ui~` provides access to two ADC input channels through a simple audio-input interface, with separate signal outlets for channels 1 and 2. It includes DSP control, input gain, post-fader metering, and per-channel mute toggles, where enabling a mute toggle silences that channel.",
+    "categories": [
+        "Audio I/O",
+        "GUI"
+    ],
+    "similar": [
+        "satk.util.audioIn~",
+        "tdh.util.audioInUtility.ui~",
+        "tdh.util.audioOut.ui~",
+        "tdh.util.audioOutSm~"
+    ],
+    "source_archive": "tdh.lib[v0.1.9].dek",
+    "source_member": "tdh.lib/tdh.util.audioInIn.ui~-help.pd"
+}

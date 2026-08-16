@@ -26,9 +26,9 @@
         "Text"
     ],
     "similar": [
-        "unite",
-        "separate",
+        "listToSymbol",
         "fromsymbol",
-        "sprintf"
+        "unite",
+        "symbol2any"
     ]
 }

@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "preset.storage",
+    "description": "`preset.storage` controls shared preset storage for preset-aware objects such as `preset.float`, `preset.symbol`, and `preset.list`, supporting storing, loading, clearing, duplicating, updating, and interpolating presets, as well as file read/write operations. Presets are addressed by index, and `load` defaults to index 0 when no index is supplied.",
+    "categories": [
+        "Data Structures",
+        "File I/O"
+    ],
+    "similar": [
+        "ceammc.preset",
+        "plist",
+        "_mtx_preset",
+        "preset.symbol"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/preset.storage-help.pd"
+}

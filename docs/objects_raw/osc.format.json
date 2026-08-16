@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
-        "osc.send",
         "osc.parse",
-        "osc.receive",
-        "osc.route"
+        "osc.route",
+        "slash.oscformat",
+        "osc.send"
     ]
 }

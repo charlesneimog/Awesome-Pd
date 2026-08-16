@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_2bit",
+    "description": "`fd_2bit` converts an incoming float into a binary list through one outlet. It takes no arguments, and the help patch warns that the conversion might take a while.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "list2bytes",
+        "fd_getid",
+        "fd_dataRead",
+        "fd_dataLine"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_2bit-help.pd"
+}

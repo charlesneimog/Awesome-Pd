@@ -34,8 +34,8 @@
     ],
     "similar": [
         "fluid.standardize",
-        "fluid.mds",
         "fluid.knnregressor",
+        "fluid.mds",
         "fluid.kmeans"
     ]
 }

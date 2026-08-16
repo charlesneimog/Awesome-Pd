@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
+        "dsp~",
         "time",
-        "accum",
-        "operating_system",
-        "pipe2"
+        "method",
+        "dsp"
     ]
 }

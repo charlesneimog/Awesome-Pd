@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "maxlib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "unroute",
+    "description": "`unroute` merges messages from all of its inlets into one list outlet, prepending the creation argument that corresponds to the inlet where each message arrived. Each creation argument adds an inlet; single floats received on inlets other than the first are additionally marked with `float`.",
+    "categories": [
+        "Routing"
+    ],
+    "similar": [
+        "nroute",
+        "dynroute",
+        "pdp_route",
+        "sroute"
+    ],
+    "source_archive": "maxlib[v1.5.8](Linux-arm-32)(Sources).dek",
+    "source_member": "maxlib/unroute-help.pd"
+}

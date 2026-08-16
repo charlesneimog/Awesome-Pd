@@ -26,8 +26,8 @@
     ],
     "similar": [
         "e",
-        "asin~",
-        "atanh",
-        "maximum"
+        "math.pi",
+        "constant",
+        "math.pi~"
     ]
 }

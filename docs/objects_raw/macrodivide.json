@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "macrodivide",
+    "description": "`macrodivide` is designed to synchronize a stepped sequence at zero by multiplying the number of steps by a subdivision, with alignment based on the last step. Its arguments are step size, multiple, input mode, and favor; sending `set 0` to the second inlet sets the current position as zero.",
+    "categories": [
+        "Sequencers"
+    ],
+    "similar": [
+        "subdivide",
+        "clock-divider-odd",
+        "clock-divider-even",
+        "seq.matrix"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/macrodivide-help.pd"
+}

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list.insert",
+    "description": "`list.insert` inserts an atom or list at a specified position in an input list, producing the resulting list or mlist. The insertion value can be set through the second inlet, while the position can be set through the third inlet or the `@index` property.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "list-insert",
+        "insert",
+        "array-insert",
+        "matrix.insert_col"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/list.insert-help.pd"
+}

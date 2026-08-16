@@ -27,8 +27,8 @@
     ],
     "similar": [
         "resonator~",
-        "bandpass~",
-        "bicoeff2",
-        "reson~"
+        "reson~",
+        "resonator2~",
+        "resonant_bandpass_2p~"
     ]
 }

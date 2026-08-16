@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pix_opencv",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pix_opencv_dft",
+    "description": "`pix_opencv_dft` calculates the discrete Fourier transform of an image pattern and can be used for pattern matching. Because the object is too computationally demanding to process every frame, the help patch triggers it with a bang so that it processes only on demand.",
+    "categories": [
+        "FFT",
+        "Graphics"
+    ],
+    "similar": [
+        "tab_ifft",
+        "pix_opencv_distrans",
+        "tab_fft",
+        "winifft~"
+    ],
+    "source_archive": "pix_opencv-v0.4-(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "pix_opencv/help/pix_opencv_dft-help.pd"
+}

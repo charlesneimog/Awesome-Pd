@@ -33,7 +33,7 @@
     "similar": [
         "fluid.bufonsetslice",
         "fluid.onsetfeature~",
-        "attackTime",
+        "fluid.ampslice~",
         "fluid.transientslice~"
     ]
 }

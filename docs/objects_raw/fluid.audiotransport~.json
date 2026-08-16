@@ -32,8 +32,8 @@
     ],
     "similar": [
         "fluid.bufaudiotransport",
+        "fluid.ampslice~",
         "fluid.spectralshape~",
-        "specBrightness~",
-        "morphine~"
+        "fluid.bufhpss"
     ]
 }

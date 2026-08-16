@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "context",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "marker",
+    "description": "`marker` directs the playback of embedded `context` content. Markers can also store messages and can be moved using `mover`.",
+    "categories": [
+        "Score-based"
+    ],
+    "similar": [
+        "tl.cue",
+        "music.dur2time",
+        "normalize-row",
+        "conv.note2guido"
+    ],
+    "source_archive": "context-v4.0-(Darwin-i386-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "context/marker-help.pd"
+}

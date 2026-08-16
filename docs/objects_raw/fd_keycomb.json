@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_keycomb",
+    "description": "`fd_keycomb` detects pairs of meta-key combinations, identifying each combination with a number and providing cooked predefined pairs, learned positions, and raw lists. Send `learn 1` to begin learning positions; the optional `-k` argument keeps learned positions between creations.",
+    "categories": [
+        "Control I/O",
+        "Logic"
+    ],
+    "similar": [
+        "fd_key",
+        "keygate",
+        "buttongate",
+        "keycommand"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_keycomb-help.pd"
+}

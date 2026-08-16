@@ -26,8 +26,8 @@
     ],
     "similar": [
         "curve3d",
-        "curve",
         "sphere3d",
-        "polygon"
+        "curve",
+        "teapot"
     ]
 }

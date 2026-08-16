@@ -1,0 +1,28 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "audiolab",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pp.parameq-st~",
+    "description": "`pp.parameq-st~` is a stereo parametric equalizer using biquad filters, with signal inputs and filtered-signal outputs plus message control. Click it to open its GUI and move the colored rectangles; messages can set each filter’s frequency, Q, gain, and type, and save or recall up to 20 presets.",
+    "categories": [
+        "Filters",
+        "GUI"
+    ],
+    "similar": [
+        "pp.parameq~",
+        "pp.clop-st~",
+        "ui.filter~",
+        "ui.filter"
+    ],
+    "source_archive": "audiolab[v0.80].dek",
+    "source_member": "audiolab/pp.parameq-st~-help.pd"
+}

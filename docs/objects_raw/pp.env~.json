@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "audiolab",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pp.env~",
+    "description": "`pp.env~` is a simple envelope follower that detects the amplitude of an input signal and outputs an envelope signal, with a second outlet for messages. Its creation arguments set responsiveness and select the `abs` or `rms` detection method (default: `rms`), and it can save and recall up to 20 presets.",
+    "categories": [
+        "Envelopes"
+    ],
+    "similar": [
+        "pp.env-st~",
+        "env-follower",
+        "peakenv~",
+        "chair.peak-env~"
+    ],
+    "source_archive": "audiolab[v0.80].dek",
+    "source_member": "audiolab/pp.env~-help.pd"
+}

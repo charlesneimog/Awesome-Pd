@@ -1,0 +1,16 @@
+{
+    "description": "AutoPreset is a collection of Pure Data abstractions for saving and recalling parameter states. It can interpolate floating-point parameters between presets for parameter morphing.",
+    "issues": "https://github.com/MetaluNet/AutoPreset/issues",
+    "link": "https://github.com/MetaluNet/AutoPreset",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://github.com/MetaluNet/AutoPreset",
+            "https://deken.puredata.info/search.html",
+            "https://packages.debian.org/testing/sound/pd-autopreset"
+        ],
+        "notes": "The official repository identifies Antoine Rousseau as the author and links to itself as the location of the latest version; Deken lists matching AutoPreset releases uploaded by his ant1r account.",
+        "checked_at": "2026-08-16T20:41:44+00:00"
+    }
+}

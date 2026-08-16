@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "cicmtools",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "vbapan~",
+    "description": "`vbapan~` spatializes a mono sound in a 2D plane using Vector Base Amplitude Panning, producing one audio outlet per loudspeaker. Its first creation argument sets the number of loudspeakers/outlets, and the source position can be controlled with Cartesian or polar coordinates.",
+    "categories": [
+        "VBAP"
+    ],
+    "similar": [
+        "vbap",
+        "ssr_vbap~",
+        "rvbap",
+        "pan~"
+    ],
+    "source_archive": "cicmtools[v1.5](Windows-amd64-32).dek",
+    "source_member": "cicmtools/vbapan~-help.pd"
+}

@@ -26,9 +26,9 @@
         "Logic"
     ],
     "similar": [
-        "switch",
-        "relay",
-        "decode",
-        "spray"
+        "route.any",
+        "routetype",
+        "route2",
+        "route.symbol"
     ]
 }

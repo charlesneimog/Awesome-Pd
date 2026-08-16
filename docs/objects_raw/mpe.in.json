@@ -27,8 +27,8 @@
     ],
     "similar": [
         "bend.in",
+        "note.in",
         "ctl.in",
-        "midi.in",
-        "note.in"
+        "touch.in"
     ]
 }

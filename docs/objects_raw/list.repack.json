@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list.repack",
+    "description": "`list.repack` repacks an input list into output lists of a specified size, making it useful for dividing list data into fixed-size groups. Set the output size with its integer argument or `@size` property (range 1–1024, default 1); its second outlet sends a bang after the last element is output.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "repack",
+        "list.repeat",
+        "list.resize",
+        "list.reduce"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/list.repack-help.pd"
+}

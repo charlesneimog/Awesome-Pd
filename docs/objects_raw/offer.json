@@ -25,9 +25,9 @@
         "Data Structures"
     ],
     "similar": [
-        "pack2",
-        "remove",
-        "var",
-        "lifop"
+        "buffer",
+        "list-union-merge",
+        "vectorpack",
+        "fsdict"
     ]
 }

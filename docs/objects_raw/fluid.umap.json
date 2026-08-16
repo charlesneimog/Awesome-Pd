@@ -32,8 +32,8 @@
     ],
     "similar": [
         "fluid.mds",
-        "onnx",
         "fluid.bufflatten",
-        "fluid.knnregressor"
+        "fluid.knnclassifier",
+        "fluid.pca"
     ]
 }

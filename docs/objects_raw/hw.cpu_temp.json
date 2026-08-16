@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "hw.cpu_temp",
+    "description": "`hw.cpu_temp` reports the current CPU temperature and, at the time of this help patch, supports only macOS. Send it a bang to output the temperature as a float in degrees Celsius; a `metro` can be used to poll it periodically.",
+    "categories": [
+        "Control I/O"
+    ],
+    "similar": [
+        "cpu_temperature",
+        "hw.display",
+        "hw.apple_smc",
+        "hw.kbd_light"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/hw.cpu_temp-help.pd"
+}

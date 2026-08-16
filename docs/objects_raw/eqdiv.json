@@ -27,8 +27,8 @@
     ],
     "similar": [
         "amean",
-        "cents2frac",
         "henon~",
-        "cents2ratio"
+        "array-seq",
+        "pickover"
     ]
 }

@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
+        "list-geometric-mean",
+        "fd_geomean",
         "amean",
-        "quantize~",
-        "maximum",
-        "pdf~"
+        "ls.mean"
     ]
 }

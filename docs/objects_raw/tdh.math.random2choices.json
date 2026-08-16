@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "tdh.lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "tdh.math.random2choices",
+    "description": "`tdh.math.random2choices` randomly outputs one of two values, providing a simple way to make a two-option random selection. The choice can be uniform or weighted toward either option.",
+    "categories": [
+        "Stochastic / Probabilistic"
+    ],
+    "similar": [
+        "tdh.math.random2choices.ui",
+        "satk.math.random2choices",
+        "list.choice",
+        "ceammc.random"
+    ],
+    "source_archive": "tdh.lib[v0.1.9].dek",
+    "source_member": "tdh.lib/tdh.math.random2choices-help.pd"
+}

@@ -1,0 +1,16 @@
+{
+    "description": "apple is a macOS-specific Pure Data external library formerly distributed with Pd-extended. It provides objects for accessing Mac hardware features, including the ambient-light sensor, keyboard backlight, System Management Controller, and sudden-motion sensor.",
+    "issues": "",
+    "link": "https://sourceforge.net/p/pure-data/svn",
+    "research": {
+        "status": "verified",
+        "confidence": "medium",
+        "sources": [
+            "https://deken.puredata.info/search.html",
+            "https://lists.puredata.info/pipermail/pd-cvs/2011-11/021486.html",
+            "https://sourceforge.net/p/pure-data/svn"
+        ],
+        "notes": "The verified source lived under trunk/externals/apple in Pure Data's official SourceForge SVN repository. No dedicated repository or issue tracker for the apple library could be verified.",
+        "checked_at": "2026-08-16T20:36:34+00:00"
+    }
+}

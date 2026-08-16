@@ -28,8 +28,8 @@
     ],
     "similar": [
         "standard~",
-        "henon~",
         "logistic~",
-        "latoocarfian~"
+        "lfnoise~",
+        "rand~"
     ]
 }

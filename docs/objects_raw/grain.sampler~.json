@@ -29,7 +29,7 @@
     "similar": [
         "grain.synth~",
         "grain.live~",
-        "pvgrain~",
-        "gran.player~"
+        "pp.grainer~",
+        "grainflow~"
     ]
 }

@@ -36,6 +36,6 @@
         "fluid.bufnmfseed",
         "fluid.nmfmatch~",
         "fluid.bufflatten",
-        "fluid.nmfmorph~"
+        "fluid.bufnmfcross"
     ]
 }

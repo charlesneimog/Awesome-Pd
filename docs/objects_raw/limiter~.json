@@ -26,9 +26,9 @@
         "Multichannel"
     ],
     "similar": [
-        "level~",
-        "dbgain~",
-        "vca.m~",
-        "duck~"
+        "pulquilimiter~",
+        "pulquilimiter_b~",
+        "hardlimit~",
+        "level~"
     ]
 }

@@ -28,8 +28,8 @@
     ],
     "similar": [
         "midi2note",
-        "cents2scale",
         "format",
-        "samps2ms"
+        "atoi",
+        "atof"
     ]
 }

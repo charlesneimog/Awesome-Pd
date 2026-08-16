@@ -26,9 +26,9 @@
         "Math"
     ],
     "similar": [
+        "group~",
         "wrap2~",
-        "trunc~",
-        "plusequals~",
-        "quantizer~"
+        "a.sum",
+        "floor~"
     ]
 }

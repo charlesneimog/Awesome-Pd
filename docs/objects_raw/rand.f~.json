@@ -26,8 +26,8 @@
     ],
     "similar": [
         "rand.f",
-        "stepnoise",
-        "rand.dist",
-        "decide"
+        "rand.i",
+        "rand.u",
+        "rand.dist"
     ]
 }

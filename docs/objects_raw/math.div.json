@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "math.div",
+    "description": "`math.div` divides a float or each valid float in a list by a configurable divisor, providing division for both scalar and list data. Set the divisor with the optional creation argument, the second inlet, or the `@div` property; its default value is 1, and non-float list elements are ignored.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "complex.div",
+        "matrix.div",
+        "rational.div",
+        "math.mul"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/math.div-help.pd"
+}

@@ -25,9 +25,9 @@
         "GUI"
     ],
     "similar": [
-        "meter8~",
-        "meter4~",
-        "number~",
-        "grab"
+        "vu",
+        "c.meter~",
+        "iem_vu",
+        "meter8~"
     ]
 }

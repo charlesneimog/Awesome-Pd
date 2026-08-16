@@ -25,9 +25,9 @@
         "Data Structures"
     ],
     "similar": [
-        "replace",
-        "delete",
-        "remove",
-        "insert"
+        "pack",
+        "pack~",
+        "pack2",
+        "arrayList"
     ]
 }

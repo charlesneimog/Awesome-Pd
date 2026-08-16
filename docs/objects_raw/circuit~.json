@@ -27,9 +27,9 @@
         "Filters"
     ],
     "similar": [
-        "comb~",
+        "chorus~",
+        "phaser.m~",
         "drive~",
-        "overdrive~",
-        "xsyn~"
+        "chorus.m~"
     ]
 }

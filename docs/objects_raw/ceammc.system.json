@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ceammc.system",
+    "description": "`ceammc.system` is a help index for ceammc objects that interact with the operating system. It links to objects for executing external commands, quitting Pure Data, reading environment and host information, reporting memory and screen size, showing a color panel, and handling cursor events.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "ceammc",
+        "ceammc.misc",
+        "ceammc.msg",
+        "ceammc.search"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/ceammc.system-help.pd"
+}

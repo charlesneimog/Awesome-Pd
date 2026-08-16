@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pdcontainer",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "h_multimap",
+    "description": "`h_multimap` stores key–value pairs like `h_map`, but allows a key to have multiple values. It uses a namespace, supplied as an initialization argument or changed with the `namespace` message, to share or separate data between containers. Use `add` to store data and `get` or `remove` to retrieve or delete values for a key.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "h_multiset",
+        "h_map",
+        "h_deque",
+        "h_priority_queue"
+    ],
+    "source_archive": "pdcontainer-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "pdcontainer/h_multimap-help.pd"
+}

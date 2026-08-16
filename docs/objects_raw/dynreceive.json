@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "tclpd",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "dynreceive",
+    "description": "`dynreceive` works like Pd’s `receive` object but allows its receive symbol to be changed dynamically. Give it an initial symbol as an argument, and use a `set` message such as `set xyz` to retarget it to another symbol.",
+    "categories": [
+        "Routing"
+    ],
+    "similar": [
+        "oreceive",
+        "iem_receive",
+        "multireceive",
+        "j.receive"
+    ],
+    "source_archive": "tclpd-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "tclpd/examples/dynreceive-help.pd"
+}

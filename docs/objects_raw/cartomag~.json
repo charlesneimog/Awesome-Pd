@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "Pd_Spectral_Toolkit",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "cartomag~",
+    "description": "`cartomag~` converts Cartesian coordinates into magnitude values. Supply the real component to the first inlet and the imaginary component to the second inlet; the outlet provides the resulting magnitudes.",
+    "categories": [
+        "Spectral Processing"
+    ],
+    "similar": [
+        "cartophase~",
+        "cartopolar~",
+        "cartoamp~",
+        "amptomag~"
+    ],
+    "source_archive": "Pd_Spectral_Toolkit[v1.1](Windows-amd64-32).dek",
+    "source_member": "Pd_Spectral_Toolkit/cartomag~-help.pd"
+}

@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pof",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pofxmlp",
+    "description": "`pofxmlp` provides XML file utilities based on pugixml, supporting loading, querying, editing, printing, and saving XML through a named reference. Its argument specifies the reference name, and relative paths can be used after `setto` to select a current node; save/load operations are not multithreaded.",
+    "categories": [
+        "File I/O",
+        "Data Structures"
+    ],
+    "similar": [
+        "pofxml",
+        "pofjson",
+        "preset.storage",
+        "msg_pbank"
+    ],
+    "source_archive": "pof[v0.7-19-g155a](Linux-amd64-32).dek",
+    "source_member": "pof/pofxmlp-help.pd"
+}

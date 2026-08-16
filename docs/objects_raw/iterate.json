@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
+        "fd_iterate",
+        "iterator",
         "sort",
-        "reverse",
-        "l2s",
         "prepend"
     ]
 }

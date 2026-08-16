@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "is_float",
+    "description": "`is_float` checks whether incoming data has the float type, outputting 1 from its first outlet for a float and 0 otherwise. Float messages are also passed through, providing the original value for downstream use.",
+    "categories": [
+        "Logic"
+    ],
+    "similar": [
+        "is_any",
+        "is_pointer",
+        "is_list",
+        "is_bang"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/is_float-help.pd"
+}

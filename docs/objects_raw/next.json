@@ -26,8 +26,8 @@
     ],
     "similar": [
         "onebang",
-        "match~",
         "changed",
-        "trig2bang"
+        "b_AND_b",
+        "is_prop"
     ]
 }

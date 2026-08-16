@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list.remove_if",
+    "description": "`list.remove_if` removes elements from an input list or mlist according to a predicate. It sends each atom to the predicate through its second outlet and accepts the predicate’s float result through its second inlet, with 0 leaving the element in the output.",
+    "categories": [
+        "Data Structures",
+        "Logic"
+    ],
+    "similar": [
+        "list.pass_if",
+        "list.none_of",
+        "list.count_if",
+        "list.all_of"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/list.remove_if-help.pd"
+}

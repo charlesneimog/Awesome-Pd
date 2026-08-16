@@ -28,7 +28,7 @@
     "similar": [
         "tri~",
         "sine~",
-        "phasor",
-        "saw2~"
+        "LFO_noise~",
+        "phasor"
     ]
 }

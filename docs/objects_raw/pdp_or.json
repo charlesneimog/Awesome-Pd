@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pdp",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pdp_or",
+    "description": "`pdp_or` performs a bitwise OR operation on PDP data. The help patch suggests it is used in a PDP processing chain between `pdp_help_input` and `pdp_help_output`, with a second input supplied through `pdp_reg`.",
+    "categories": [
+        "Logic"
+    ],
+    "similar": [
+        "pdp_and",
+        "pdp_not",
+        "pdp_xor",
+        "pdp_bitmask"
+    ],
+    "source_archive": "pdp-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "pdp/pdp_or-help.pd"
+}

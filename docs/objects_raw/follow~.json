@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "else",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "follow~",
+    "description": "`follow~` is an envelope follower that tracks the absolute amplitude of an input signal using configurable attack and release times in milliseconds. It outputs an audio signal by default; the `-f` flag instead produces one float per audio block, or a list for multichannel input.",
+    "categories": [
+        "Envelopes"
+    ],
+    "similar": [
+        "env.follow~",
+        "env-follower",
+        "asr~",
+        "env.ar~"
+    ],
+    "source_archive": "else[v1.0-0_rc14-with_live_electronics_tutorial](Linux-arm64-32).dek",
+    "source_member": "else/follow~-help.pd"
+}

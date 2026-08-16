@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pdp",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pdp_cheby",
+    "description": "`pdp_cheby` approximates a mapping function over the range −1 to 1 using Chebyshev coefficients. Its creation argument sets the order—and therefore the number of coefficients to order + 1—with a minimum default order of 2; coefficients can be set individually with `coef` messages or cleared with `reset`, while the right inlet sets the number of iterations.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "ffpoly",
+        "pdp_mix2",
+        "pdp_mul",
+        "pdp_add"
+    ],
+    "source_archive": "pdp-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "pdp/pdp_cheby-help.pd"
+}

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list.apply_to",
+    "description": "`list.apply_to` modifies a list by passing the element at each specified zero-based index to an applied object and inserting the returned value into the list. Set the target index or indexes via the second inlet or the `@indexes` property; the modified list is output from the first outlet.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "list.at",
+        "list.set",
+        "list.append",
+        "list.^at"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/list.apply_to-help.pd"
+}

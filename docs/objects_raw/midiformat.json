@@ -26,8 +26,8 @@
     ],
     "similar": [
         "midiparse",
-        "bend.out",
+        "xbendin",
         "xbendout",
-        "xbendin"
+        "midiflush"
     ]
 }

@@ -26,9 +26,9 @@
         "Envelopes"
     ],
     "similar": [
-        "autofade~",
         "autofade2~",
         "autofade.mc~",
-        "envgen~"
+        "autofade~",
+        "fade~"
     ]
 }

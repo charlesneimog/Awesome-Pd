@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "mkmr",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "str~",
+    "description": "`str~` appears to produce a string-like resonant sound for use in a polyphonic instrument. Its first inlet accepts an impulse/noise excitation signal, while its second inlet accepts frequency, with MIDI notes converted by `mtof` before being sent to it.",
+    "categories": [
+        "Physical Modeling"
+    ],
+    "similar": [
+        "mct~",
+        "harp~",
+        "cmbcym~",
+        "strong~"
+    ],
+    "source_archive": "mkmr[v0.1].dek",
+    "source_member": "mkmr/06-Instruments/str~-help.pd"
+}

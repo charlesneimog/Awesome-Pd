@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "system.colorpanel",
+    "description": "`system.colorpanel` opens the system color chooser and outputs the selected color, with a default output mode of floating-point RGB values in the 0–1 range. Send it a bang to open the panel, or provide a `#RRGGBB` symbol or RGB triplet to open it with a selected color; its mode can also produce integer RGB, hexadecimal, or Color datatype output.",
+    "categories": [
+        "GUI"
+    ],
+    "similar": [
+        "colorpanel",
+        "c.colorpanel",
+        "ui.colorpanel",
+        "color.rgbset"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/system.colorpanel-help.pd"
+}

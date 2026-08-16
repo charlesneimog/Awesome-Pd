@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "noise.verhulst",
+    "description": "`noise.verhulst` generates values from a Verhulst distribution, with each bang producing a value at its main outlet. It accepts optional `a`, `b`, `x`, and `y` creation arguments, and its state can be restarted with the `reset` message.",
+    "categories": [
+        "Stochastic"
+    ],
+    "similar": [
+        "noise.stein",
+        "noise.torus",
+        "noise.duffing",
+        "noise.henon"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/noise.verhulst-help.pd"
+}

@@ -33,9 +33,9 @@
         "Samplers"
     ],
     "similar": [
-        "residency~",
-        "buffir~",
-        "sample~",
-        "buffer~"
+        "kbuffer~",
+        "looper",
+        "xplay~",
+        "xrecord~"
     ]
 }

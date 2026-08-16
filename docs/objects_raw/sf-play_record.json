@@ -26,9 +26,9 @@
         "Multichannel"
     ],
     "similar": [
-        "batch.write~",
-        "record~",
-        "tabwriter~",
-        "play~"
+        "multitrack-recorder",
+        "fd_write5",
+        "mtx_sfread",
+        "mtx_sndfileread"
     ]
 }

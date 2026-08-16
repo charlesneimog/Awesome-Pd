@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "flt.ff_comb~",
+    "description": "`flt.ff_comb~` is a feed-forward comb filter that processes an input signal and produces a filtered signal with a comb-shaped frequency response. Its second inlet sets the filter notch frequency, while the `@a` property controls the scaling factor of the delayed signal in the range -1 to 1.",
+    "categories": [
+        "Filters",
+        "Delay"
+    ],
+    "similar": [
+        "flt.fb_comb~",
+        "comb.filt~",
+        "teeth~",
+        "rcombf~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/flt.ff_comb~-help.pd"
+}

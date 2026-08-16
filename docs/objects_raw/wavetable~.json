@@ -27,8 +27,8 @@
     ],
     "similar": [
         "wt2d~",
-        "square~",
         "bl.wavetable~",
-        "saw2~"
+        "wave~",
+        "square~"
     ]
 }

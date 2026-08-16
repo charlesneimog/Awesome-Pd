@@ -26,8 +26,8 @@
     ],
     "similar": [
         "pix_lumaoffset",
-        "pix_subtract",
-        "pix_movement2",
+        "pix_blur",
+        "pix_dump",
         "pix_mask"
     ]
 }

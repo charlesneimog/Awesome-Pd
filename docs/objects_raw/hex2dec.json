@@ -26,9 +26,9 @@
         "Text"
     ],
     "similar": [
-        "dec2hex",
-        "atoi",
+        "upperCase",
+        "spell",
         "fluid.s2f",
-        "notedur2ratio"
+        "atoi"
     ]
 }

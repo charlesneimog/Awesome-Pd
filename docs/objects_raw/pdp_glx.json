@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pdp",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pdp_glx",
+    "description": "`pdp_glx` outputs video in a window using the OpenGL extension and sends mouse event messages from its output. Use `create` and `destroy` to explicitly manage the window; messages also control its dimensions, position, fullscreen mode, cursor, display, tiling, and interpolation.",
+    "categories": [
+        "Graphics",
+        "GUI"
+    ],
+    "similar": [
+        "pdp_xv",
+        "ofWindow",
+        "pofwin",
+        "gemwin+"
+    ],
+    "source_archive": "pdp-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "pdp/pdp_glx-help.pd"
+}

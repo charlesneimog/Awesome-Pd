@@ -28,7 +28,7 @@
     "similar": [
         "op~",
         "zigbinops",
-        "bitnot~",
-        "greaterthan~"
+        "hotbinops3",
+        "negation"
     ]
 }

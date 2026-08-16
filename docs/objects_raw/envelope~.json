@@ -26,9 +26,9 @@
         "Math"
     ],
     "similar": [
+        "envelope",
         "curve~",
-        "adsr~",
-        "asr~",
-        "tabgen"
+        "aenv~",
+        "slope"
     ]
 }

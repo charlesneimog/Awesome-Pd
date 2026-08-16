@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "sfruit",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "storebang",
+    "description": "`storebang` takes two arguments: a value and a receiver, and sends the value to that receiver. For example, `storebang cheese $0.receiver` sends “cheese” to `$0.receiver`; the help patch does not indicate what triggers the send.",
+    "categories": [
+        "Routing"
+    ],
+    "similar": [
+        "fd_receive",
+        "fd_send",
+        "fd_bang",
+        "receiver"
+    ],
+    "source_archive": "sfruit-v0.0.extended--externals.zip",
+    "source_member": "sfruit/storebang-help.pd"
+}

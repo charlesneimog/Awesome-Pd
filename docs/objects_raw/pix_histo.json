@@ -26,9 +26,9 @@
         "Descriptors"
     ],
     "similar": [
+        "pdp_histo",
         "pix_drum",
-        "pix_multiblob",
-        "pix_blobtracker",
-        "pix_curve"
+        "pix_opencv_hist_compare",
+        "pix_multiblob"
     ]
 }

@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "hid",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "buttongate",
+    "description": "`buttongate` is a simple gate controlled by a HID button, passing incoming bangs when the gate is controlled by button presses and releases. It can also be controlled with keyboard keys; the example `buttongate 0 btn_0` uses the first button on the first HID device.",
+    "categories": [
+        "Logic",
+        "Control I/O"
+    ],
+    "similar": [
+        "keygate",
+        "ui.button",
+        "fd_keycomb",
+        "ofCancelPressed"
+    ],
+    "source_archive": "hid-0.7-1[v0.7-1](Darwin-arm64-32)(Sources).dek",
+    "source_member": "hid-0.7-1/buttongate-help.pd"
+}

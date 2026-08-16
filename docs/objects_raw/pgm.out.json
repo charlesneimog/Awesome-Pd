@@ -26,8 +26,8 @@
     ],
     "similar": [
         "ctl.out",
-        "touch.out",
+        "pgm.in",
         "note.out",
-        "pgm.in"
+        "bend.out"
     ]
 }

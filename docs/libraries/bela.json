@@ -1,0 +1,16 @@
+{
+    "description": "bela is a collection of Pure Data abstractions for working with Bela hardware, providing convenient objects for audio, analog and digital I/O, audio-file playback, and oscilloscope access.",
+    "issues": "https://github.com/BelaPlatform/bela-pd-abstractions/issues",
+    "link": "https://github.com/BelaPlatform/bela-pd-abstractions",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://github.com/BelaPlatform/bela-pd-abstractions",
+            "https://forum.bela.io/d/7714-bela-gem-stereo-pure-data-adc-analog-input-issues-and-workflow-problems",
+            "https://github.com/BelaPlatform/bela-pd-abstractions/issues"
+        ],
+        "notes": "An official Bela maintainer identifies this repository as the source of the Deken-installable abstractions used with the bela/ namespace. This distinguishes it from the separate older Bela.pd library at jarmitage/bela.pd.",
+        "checked_at": "2026-08-16T20:45:38+00:00"
+    }
+}

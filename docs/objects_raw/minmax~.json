@@ -27,8 +27,8 @@
     ],
     "similar": [
         "minmax",
+        "list-minmax",
         "clip",
-        "pong~",
-        "ramp~"
+        "array.minmax"
     ]
 }

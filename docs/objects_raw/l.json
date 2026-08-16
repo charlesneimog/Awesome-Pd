@@ -26,8 +26,8 @@
     ],
     "similar": [
         "lister",
-        "pak",
-        "lace",
-        "remove"
+        "list.append",
+        "list-dripslow",
+        "list"
     ]
 }

@@ -25,9 +25,9 @@
         "Data Structures"
     ],
     "similar": [
+        "pack~",
         "pack2",
         "repack",
-        "any2list",
-        "pak"
+        "flow.pack"
     ]
 }

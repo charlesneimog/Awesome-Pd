@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list.remove",
+    "description": "`list.remove` removes one or more elements from an input list at specified indexes and outputs the resulting list. The removal indexes can be supplied as an argument or set through the second inlet; negative indexes are supported.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "list-remove",
+        "remove",
+        "list.set",
+        "list.at"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/list.remove-help.pd"
+}

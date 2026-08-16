@@ -36,6 +36,6 @@
         "burrow~",
         "vocoder~",
         "mindwarp~",
-        "cross~"
+        "vcf.m~"
     ]
 }

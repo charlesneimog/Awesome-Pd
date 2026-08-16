@@ -27,8 +27,8 @@
     ],
     "similar": [
         "clip",
-        "rescale~",
-        "maximum~",
-        "rescale"
+        "dyn.softclip~",
+        "fd_comp~",
+        "chop~"
     ]
 }

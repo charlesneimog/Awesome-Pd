@@ -25,9 +25,9 @@
         "Routing"
     ],
     "similar": [
-        "gate~",
-        "gate",
-        "mtx~",
-        "routetype"
+        "route.any",
+        "route.prop",
+        "route.float",
+        "route.symbol"
     ]
 }

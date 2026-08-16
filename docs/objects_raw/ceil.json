@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "rint",
-        "floor",
         "ceil~",
-        "round"
+        "math.ceil",
+        "floor",
+        "fd_ceil"
     ]
 }

@@ -27,8 +27,8 @@
     ],
     "similar": [
         "presets",
+        "preset",
         "gemargs",
-        "uzi",
-        "properties"
+        "openHelp"
     ]
 }

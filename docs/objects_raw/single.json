@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "hid",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "single",
+    "description": "The supplied help-patch evidence is insufficient to determine what `single` does or its purpose. It only identifies a message containing 7, without showing how `single` processes it.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "_template_",
+        "multiplexx",
+        "subdir",
+        "qread"
+    ],
+    "source_archive": "hid-0.7-1[v0.7-1](Darwin-arm64-32)(Sources).dek",
+    "source_member": "hid-0.7-1/src/pd-lib-builder/tests/single/single-help.pd"
+}

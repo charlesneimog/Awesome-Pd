@@ -36,6 +36,6 @@
         "link3D",
         "tLink2D",
         "link",
-        "mass"
+        "iPlane3D"
     ]
 }

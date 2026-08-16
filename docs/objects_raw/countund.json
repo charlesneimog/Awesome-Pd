@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "unauthorized",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "countund",
+    "description": "`countund` counts upward to a specified upper limit and then downward to zero. Set the upper limit via its argument (for example, `countund 100`) and trigger counting with bangs, such as those produced by `metro`.",
+    "categories": [
+        "Sequencers"
+    ],
+    "similar": [
+        "countwrap",
+        "countseq",
+        "count_n",
+        "cyclecount"
+    ],
+    "source_archive": "unauthorized[v0.1](Windows-amd64-32)(Sources).dek",
+    "source_member": "unauthorized/countund-help.pd"
+}

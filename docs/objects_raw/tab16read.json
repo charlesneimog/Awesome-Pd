@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iem16",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "tab16read",
+    "description": "`tab16read` reads a number from a 16-bit `table16` at a specified index, outputting the table value at that index. Its creation argument names the array to read, and the `set array99` message changes the array name.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "tab16write",
+        "tab16receive~",
+        "table16",
+        "tabread2"
+    ],
+    "source_archive": "iem16[v1.2.1](Windows-amd64-32)(Windows-amd64-64)(Windows-i386-32).dek",
+    "source_member": "iem16/tab16read-help.pd"
+}

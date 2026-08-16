@@ -32,8 +32,8 @@
         "File IO"
     ],
     "similar": [
-        "funbuff",
         "fluid.labelset",
+        "funbuff",
         "table",
         "capture"
     ]

@@ -26,9 +26,9 @@
         "Control I/O"
     ],
     "similar": [
-        "gemglutwindow",
         "gemw32window",
-        "gemcocoawindow",
-        "gemglxwindow"
+        "gemglutwindow",
+        "gemsdlwindow",
+        "gemglfw2window"
     ]
 }

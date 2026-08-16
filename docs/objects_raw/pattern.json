@@ -27,9 +27,9 @@
         "Math"
     ],
     "similar": [
-        "score2",
+        "metro.pattern",
         "sequencer",
-        "sequencer~",
-        "notedur2ratio"
+        "score2",
+        "t3_pan_pattern"
     ]
 }

@@ -33,7 +33,7 @@
     "similar": [
         "tSeg2D",
         "tLine2D",
-        "tCube3D",
+        "square",
         "tSphere3D"
     ]
 }

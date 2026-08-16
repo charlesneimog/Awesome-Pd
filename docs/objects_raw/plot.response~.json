@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "plot.response~",
+    "description": "`plot.response~` calculates a signal’s amplitude/frequency and phase responses to an impulse, with outputs suitable for `array.plot~` or `ui.plot~`. Send it a `bang` to start the calculation; its `@n` property controls the number of processed samples from 32 to 8192.",
+    "categories": [
+        "Spectral Processing"
+    ],
+    "similar": [
+        "convolver~",
+        "freqshifter~",
+        "partconv~",
+        "array.window"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/plot.response~-help.pd"
+}

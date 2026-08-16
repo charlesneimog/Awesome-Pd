@@ -25,9 +25,9 @@
         "GUI"
     ],
     "similar": [
+        "c.knob",
+        "ui.knob",
         "range.hsl",
-        "messbox",
-        "mtx.ctl",
-        "number~"
+        "mknob"
     ]
 }

@@ -26,8 +26,8 @@
     ],
     "similar": [
         "pix_colorclassify",
-        "pix_mask",
-        "pix_takealpha",
-        "pix_set"
+        "pix_mean_color",
+        "pix_a_2grey",
+        "pix_alpha"
     ]
 }

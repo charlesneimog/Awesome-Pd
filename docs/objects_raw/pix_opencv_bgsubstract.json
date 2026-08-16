@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pix_opencv",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pix_opencv_bgsubstract",
+    "description": "`pix_opencv_bgsubstract` performs simple background subtraction by comparing an image’s color values with a background reference, making it useful for detecting dynamic objects against a static background. Use the `set` message to capture the background; its threshold defaults to 13.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "pix_opencv_bgstats",
+        "pix_opencv_backgroundsubtractor",
+        "pix_opencv_contours_convexity",
+        "pix_opencv_threshold"
+    ],
+    "source_archive": "pix_opencv-v0.4-(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "pix_opencv/help/pix_opencv_bgsubstract-help.pd"
+}

@@ -34,7 +34,7 @@
     "similar": [
         "fluid.kmeans",
         "fluid.mds",
-        "fluid.skmeans",
-        "fluid.standardize"
+        "fluid.pca",
+        "fluid.skmeans"
     ]
 }

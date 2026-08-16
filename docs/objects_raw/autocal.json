@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "la-kitchen",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "autocal",
+    "description": "`autocal` is an abstraction for calibrating sensor input values by learning their minimum, maximum, and center, then producing a calibrated output over a configurable range. Its calibration can be saved automatically with the Pd patch, and its last argument selects the transfer-function shape: 0 for linear, 1 for square, -1 for square root, or another float for other shapes.",
+    "categories": [
+        "Control I/O"
+    ],
+    "similar": [
+        "sudden_motion_sensor",
+        "ambient_light_sensor",
+        "chair.rotary-limit-range",
+        "control"
+    ],
+    "source_archive": "la-kitchen-v0.0.extended--externals.zip",
+    "source_member": "la-kitchen/autocal-help.pd"
+}

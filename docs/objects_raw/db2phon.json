@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
+        "sone2phon",
         "phon2sone",
-        "iso226",
         "phon2db",
-        "sone2phon"
+        "iso226"
     ]
 }

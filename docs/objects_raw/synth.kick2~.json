@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "synth.kick2~",
+    "description": "`synth.kick2~` is a low-kick synthesizer from the Faust libraries, providing a synth audio output and a bang when the release finishes. Trigger it with a bang for the default duration at full gain, a float for the default duration at that gain, or a `GAIN DUR` list with gain from 0 to 1 and duration in milliseconds.",
+    "categories": [
+        "Oscillators"
+    ],
+    "similar": [
+        "synth.kick~",
+        "synth.dx7~",
+        "synth.bee3~",
+        "synth.wurley~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/synth.kick2~-help.pd"
+}

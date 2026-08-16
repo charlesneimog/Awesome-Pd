@@ -26,8 +26,8 @@
     ],
     "similar": [
         "rint",
-        "ceil",
-        "abs~",
-        "tavg~"
+        "rounder~",
+        "taint~",
+        "int_fract~"
     ]
 }

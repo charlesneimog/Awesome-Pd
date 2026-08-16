@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "flow.ring",
+    "description": "`flow.ring` is a dataflow ring buffer with a configurable length from 1 to 24. A `bang` outputs all buffered values, while `get IDX` retrieves the value at a specified index and `fill ARGS...` fills the buffer with given values.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "flow.pack",
+        "flow.mem",
+        "flow.stack",
+        "flow.group"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/flow.ring-help.pd"
+}

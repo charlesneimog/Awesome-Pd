@@ -25,9 +25,9 @@
         "Stochastic"
     ],
     "similar": [
-        "disarrain~",
         "decide",
-        "stepnoise",
-        "rand.f~"
+        "rand.i",
+        "disarrain~",
+        "crackle~"
     ]
 }

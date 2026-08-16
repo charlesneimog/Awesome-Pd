@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pof",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pofaccel",
+    "description": "`pofaccel` is a Pof object associated with acceleration, but this help patch does not explain its output or purpose sufficiently. It takes no arguments and supports the messages `getforce` and `getorient`, with its output demonstrated through `print`.",
+    "categories": [
+        "Control I/O"
+    ],
+    "similar": [
+        "keynamedown",
+        "pofkeyboard",
+        "poftouchable",
+        "poftouch"
+    ],
+    "source_archive": "pof[v0.7-19-g155a](Linux-amd64-32).dek",
+    "source_member": "pof/pofaccel-help.pd"
+}

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "chaos",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "latoocarfian",
+    "description": "`latoocarfian` generates values from the non-continuous Latoocarfian attractor described by Cliff Pickover. Bang it periodically, such as with `metro`, and use `reset` to restore the initial conditions or `param` to modify its four parameters.",
+    "categories": [
+        "Algorithmic"
+    ],
+    "similar": [
+        "latoomutalpha",
+        "latoomutbeta",
+        "latoomutgamma",
+        "ikeda"
+    ],
+    "source_archive": "chaos-v0.0.extended-(Linux-i386-32)(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "chaos/latoocarfian-help.pd"
+}

@@ -29,6 +29,6 @@
         "s2l",
         "list2symbol",
         "symbol2any",
-        "l2s"
+        "symbol2intlist"
     ]
 }

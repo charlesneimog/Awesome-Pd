@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "GLdefine",
-        "gemglutwindow",
         "Gem",
-        "gemhead"
+        "gemglfw3window",
+        "gemglutwindow",
+        "gemglxwindow"
     ]
 }

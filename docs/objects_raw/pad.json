@@ -26,9 +26,9 @@
         "Control IO"
     ],
     "similar": [
-        "canvas.mouse",
-        "circle",
         "button",
-        "slider2d"
+        "slider2d",
+        "canvas.mouse",
+        "popmenu"
     ]
 }

@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_midiread",
+    "description": "`fd_midiread` is a wrapper for `mrpeach/midifile` that loads and plays a MIDI file, though the help patch notes it is still a work in progress. Send `read` with a file path to load a MIDI file and a bang to advance to the next tick; its three outlets correspond to those of `mrpeach/midifile`.",
+    "categories": [
+        "MIDI",
+        "File I/O"
+    ],
+    "similar": [
+        "midi.file",
+        "midi-player",
+        "midifile",
+        "ceammc.midi"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_midiread-help.pd"
+}

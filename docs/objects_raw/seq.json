@@ -27,9 +27,9 @@
         "File IO"
     ],
     "similar": [
-        "midi",
         "mtr",
-        "sysrt.in",
-        "sysrt.out"
+        "midi",
+        "seq8.m~",
+        "gate-seq"
     ]
 }

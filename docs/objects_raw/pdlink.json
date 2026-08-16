@@ -27,8 +27,8 @@
     ],
     "similar": [
         "pdlink~",
-        "osc.send",
-        "osc.receive",
-        "multireceive"
+        "DEAPlink",
+        "pre_netsend",
+        "artnetroute"
     ]
 }

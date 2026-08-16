@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "creb",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "sbosc~",
+    "description": "`sbosc~` is a smallband periodic complex oscillator that produces two signal outputs. It accepts signal inputs for phase and pitch, plus a float input for bandwidth, and the help patch demonstrates controlling its center frequency with a slider.",
+    "categories": [
+        "Oscillators"
+    ],
+    "similar": [
+        "cosc~",
+        "dsfosc~",
+        "sqosc~",
+        "fmop~"
+    ],
+    "source_archive": "creb[v0.9.2-3](Windows-amd64-32)(Sources).dek",
+    "source_member": "creb/sbosc~-help.pd"
+}

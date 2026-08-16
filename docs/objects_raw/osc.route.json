@@ -26,9 +26,9 @@
         "OSC"
     ],
     "similar": [
-        "osc.send",
-        "osc.parse",
-        "osc.format",
-        "osc.receive"
+        "OSCroute",
+        "routeOSC",
+        "osc.match",
+        "osc.parse"
     ]
 }

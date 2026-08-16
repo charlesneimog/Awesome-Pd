@@ -26,9 +26,9 @@
         "Multichannel"
     ],
     "similar": [
-        "synth~",
-        "noteinfo",
+        "voices",
         "gain2~",
-        "note.out"
+        "synth~",
+        "makenote2"
     ]
 }

@@ -1,0 +1,31 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iemgui",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "iem_vu",
+    "description": "`iem_vu` is a VU-meter GUI with the same inputs and outputs as `vu`, intended to display RMS and peak levels in dB. Its height cannot be changed through its properties.",
+    "categories": [
+        "GUI"
+    ],
+    "similar": [
+        "vu",
+        "c.meter~",
+        "meter2~",
+        "fd_vu"
+    ],
+    "source_archive": "iemgui[v1.21-3](Darwin-amd64-32)(Darwin-arm64-32)(Linux-amd64-32)(Linux-arm64-32)(Linux-armv7-32)(Linux-i386-32)(Windows-amd64-32)(Windows-i386-32).dek",
+    "source_member": "iemgui/iem_vu-help.pd"
+}

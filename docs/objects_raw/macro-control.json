@@ -1,0 +1,28 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "automatonism",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "macro-control",
+    "description": "`macro-control` is a no-input virtual MIDI controller whose four sliders output their positions as V1–V4 voltages in the 0–1 range, allowing control of parameters in Automatonism modules. Use its map button to map other modules’ parameters; it can also listen to mapped MIDI notes and control signals, and in PlugData DAW-plugin use, checking the purple-column boxes links parameters to macro numbers.",
+    "categories": [
+        "GUI",
+        "MIDI"
+    ],
+    "similar": [
+        "macro-xy-control",
+        "mk",
+        "ui.midi",
+        "sliders"
+    ],
+    "source_archive": "automatonism[v0.4.2.4].dek",
+    "source_member": "automatonism/patch_editor_abs/macro-control-help.pd"
+}

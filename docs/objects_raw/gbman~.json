@@ -30,6 +30,6 @@
         "cusp~",
         "henon~",
         "latoocarfian~",
-        "logistic~"
+        "pickover"
     ]
 }

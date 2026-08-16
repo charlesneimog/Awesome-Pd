@@ -25,9 +25,9 @@
         "GUI"
     ],
     "similar": [
+        "fd_range",
         "knob",
-        "mtx.ctl",
-        "number~",
-        "messbox"
+        "hslider",
+        "c.slider"
     ]
 }

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "lyonpotpourri",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "sarec~",
+    "description": "`sarec~` provides sample-accurate recording of an input signal into a named array, with record, overdub, punch, and track-lock modes. You can record the entire array by default or select a region in milliseconds with a `region` message; `punchfade` sets the taper duration for punch mode.",
+    "categories": [
+        "Samplers"
+    ],
+    "similar": [
+        "grainflow.record~",
+        "sample_record~",
+        "pp.loop.rec~",
+        "stutter~"
+    ],
+    "source_archive": "lyonpotpourri[v3.0.2](Linux-arm64-32)(Linux-armv7-32).dek",
+    "source_member": "lyonpotpourri/sarec~-help.pd"
+}

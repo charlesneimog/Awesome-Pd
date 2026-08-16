@@ -26,8 +26,8 @@
     ],
     "similar": [
         "gemmacoswindow",
+        "gemsdlwindow",
         "gemcocoawindow",
-        "gemglfw2window",
         "gemglfw3window"
     ]
 }

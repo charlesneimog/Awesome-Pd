@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "tdh.lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "tdh.util.ad~",
+    "description": "`tdh.util.ad~` generates a three-stage envelope at both data and signal rates, suitable for controlling values such as oscillator amplitude or MIDI pitch. A gate value above 0 ramps from 0 to the sustain level over the attack time, and a subsequent 0 ramps back to 0 over the decay time; alternatively, a bang triggers a fixed-duration envelope.",
+    "categories": [
+        "Envelopes"
+    ],
+    "similar": [
+        "tdh.util.ad.ui~",
+        "satk.util.ad~",
+        "tdh.util.adsr~",
+        "tdh.util.curve"
+    ],
+    "source_archive": "tdh.lib[v0.1.9].dek",
+    "source_member": "tdh.lib/tdh.util.ad~-help.pd"
+}

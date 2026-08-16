@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "creb",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "cinv~",
+    "description": "`cinv~` computes the complex inverse of a pair of input signals, producing a pair of output signals. It is intended for signal-rate complex-number inversion and uses two signal inlets and two signal outlets.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "cadd~",
+        "ucnorm~",
+        "csub~",
+        "clog~"
+    ],
+    "source_archive": "creb[v0.9.2-3](Windows-amd64-32)(Sources).dek",
+    "source_member": "creb/cinv~-help.pd"
+}

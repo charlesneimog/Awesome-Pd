@@ -28,8 +28,8 @@
     ],
     "similar": [
         "comb.rev~",
-        "allpass~",
-        "teeth~",
-        "comb.filt~"
+        "comb.filt~",
+        "flt.ff_comb~",
+        "flt.fb_comb~"
     ]
 }

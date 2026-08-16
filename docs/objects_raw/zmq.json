@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pd-zmq",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "zmq",
+    "description": "The `zmq` object provides access to the ZeroMQ API, with messages for creating socket types, binding or connecting endpoints, and sending or receiving messages. Use `start_receive` and `stop_receive` to control the receive loop, or `receive` to request a single message.",
+    "categories": [
+        "Networking"
+    ],
+    "similar": [
+        "netreceive",
+        "udpsndrcv",
+        "udpclient",
+        "httpreq"
+    ],
+    "source_archive": "pd-zmq[v0.0.3](Linux-amd64-32)(Sources).dek",
+    "source_member": "pd-zmq/zmq-help.pd"
+}

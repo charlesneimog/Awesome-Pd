@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "hoa.2d.projector~",
+    "description": "`hoa.2d.projector~` decomposes a 2D ambisonic sound field from the circular-harmonics domain into a set of plane-wave output channels. Its order and number of plane waves are set at initialization, for example `hoa.2d.projector~ 3 7` uses order 3 and produces seven plane-wave channels (with `@n` limited to 1–63).",
+    "categories": [
+        "Ambisonics",
+        "Multichannel"
+    ],
+    "similar": [
+        "hoa.2d.recomposer~",
+        "hoa.2d.process~",
+        "hoa.2d.rotate~",
+        "hoa.2d.exchanger~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/hoa.2d.projector~-help.pd"
+}

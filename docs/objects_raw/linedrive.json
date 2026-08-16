@@ -28,7 +28,7 @@
     "similar": [
         "scale",
         "scale~",
-        "clip",
-        "minmax"
+        "sampstoms~",
+        "clip"
     ]
 }

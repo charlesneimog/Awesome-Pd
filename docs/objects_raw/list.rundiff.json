@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list.rundiff",
+    "description": "`list.rundiff` computes the adjacent differences of an input list, producing a result list whose first element equals the first input element and whose subsequent elements are each the current input minus the preceding input. It is intended for calculating a running difference from list data.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "list.runsum",
+        "list.delta",
+        "list.range",
+        "mtx_diff"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/list.rundiff-help.pd"
+}

@@ -27,8 +27,8 @@
     ],
     "similar": [
         "note.in",
+        "midi.out",
         "touch.in",
-        "ctl.in",
-        "pgm.in"
+        "midi.learn"
     ]
 }

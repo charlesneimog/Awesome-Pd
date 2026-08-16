@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "sigpack",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "wavewrap~",
+    "description": "`wavewrap~` is a signal-rate sinus wave wrapper that processes an input signal and outputs the wrapped signal. Its wrap factor is set through the float inlet or an optional creation argument, with a default value of 1.",
+    "categories": [
+        "Distortion"
+    ],
+    "similar": [
+        "shape~",
+        "saturate~",
+        "wavefold",
+        "freqdiv~"
+    ],
+    "source_archive": "sigpack[v0.0.45](Darwin-amd64-32)(Darwin-i386-32)(Sources).dek",
+    "source_member": "sigpack/wavewrap~-help.pd"
+}

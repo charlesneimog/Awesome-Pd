@@ -26,9 +26,9 @@
         "Math"
     ],
     "similar": [
-        "distance",
+        "fd_cauchy",
         "kalman",
-        "median",
-        "fluid.pca"
+        "fd_poisson",
+        "median"
     ]
 }

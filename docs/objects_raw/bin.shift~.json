@@ -25,8 +25,8 @@
         "Audio IO"
     ],
     "similar": [
-        "nyquist~",
         "stretch.shift~",
+        "nyquist~",
         "rm~",
         "setdsp~"
     ]

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "snd.file.gain",
+    "description": "The help patch does not provide enough information to determine what `snd.file.gain` does or its purpose. It only states that gain values may be specified in decibels, such as `+6.02db` or `-3db`.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "zhzxh~",
+        "throw13~",
+        "serial_mt",
+        "split_n"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/snd.file.gain-help.pd"
+}

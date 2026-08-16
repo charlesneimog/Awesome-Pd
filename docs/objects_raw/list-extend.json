@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "context",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list-extend",
+    "description": "`list-extend` builds and stores a list from incoming elements or lists, outputting the stored list as items are added. A `bang` outputs the stored list, while its secondary inlet can set the complete stored list or reset it to an empty list.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "list-extendq",
+        "list-value-extend",
+        "list-extract",
+        "list-lifo"
+    ],
+    "source_archive": "context-v4.0-(Darwin-i386-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "context/list-abs/list-extend-help.pd"
+}

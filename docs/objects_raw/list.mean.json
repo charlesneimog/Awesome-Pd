@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list.mean",
+    "description": "`list.mean` calculates the arithmetic average of a list of floats and outputs the result as a float. Non-float values in an input list are ignored, and `data:mlist` input is handled the same way as a list.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "list-mean",
+        "list-harmonic-mean",
+        "list-geometric-mean",
+        "ls.mean"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/list.mean-help.pd"
+}

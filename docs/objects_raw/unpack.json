@@ -26,9 +26,9 @@
         "Routing"
     ],
     "similar": [
-        "iterate",
-        "pack",
-        "repack",
-        "unpack~"
+        "unpack~",
+        "list.unpack",
+        "list-unpack",
+        "pack"
     ]
 }

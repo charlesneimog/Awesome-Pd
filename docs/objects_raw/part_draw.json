@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "part_render",
+        "part_info",
         "part_head",
-        "part_information",
-        "part_info"
+        "part_render",
+        "part_information"
     ]
 }

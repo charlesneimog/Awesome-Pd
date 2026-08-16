@@ -1,0 +1,28 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "planifolia",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "array.binop",
+    "description": "`array.binop` applies a two-input operation element by element to two input arrays and stores the results in a third array, while also outputting the iterated result values. Its arguments specify the two input arrays, the output array, and an operation such as `+`, `pow`, `expr`, or an arbitrary compatible abstraction.",
+    "categories": [
+        "Math",
+        "Data Structures"
+    ],
+    "similar": [
+        "ls.binop",
+        "array.unop",
+        "array-clip",
+        "array-differentiate"
+    ],
+    "source_archive": "planifolia[v0.32].dek",
+    "source_member": "planifolia/array.binop-help.pd"
+}

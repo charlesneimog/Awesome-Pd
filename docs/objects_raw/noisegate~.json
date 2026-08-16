@@ -25,9 +25,9 @@
         "Dynamics"
     ],
     "similar": [
+        "dyn.gate~",
         "compress~",
-        "duck~",
-        "expand~",
-        "norm~"
+        "norm~",
+        "duck~"
     ]
 }

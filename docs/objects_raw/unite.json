@@ -28,7 +28,7 @@
     "similar": [
         "tosymbol",
         "separate",
-        "atof",
-        "sprintf"
+        "sprintf",
+        "format"
     ]
 }

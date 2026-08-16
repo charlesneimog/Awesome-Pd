@@ -1,0 +1,31 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iemnet",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "tcpclient",
+    "description": "`tcpclient` opens a TCP socket to connect to a server by IP address or hostname and port, then sends and receives bytes. Received messages are output as a byte stream; the `send` prefix is optional, and `timeout` sets the connection timeout in milliseconds.",
+    "categories": [
+        "Networking"
+    ],
+    "similar": [
+        "udpclient",
+        "tcpsend",
+        "client",
+        "tcpreceive"
+    ],
+    "source_archive": "iemnet[v0.3.0](Darwin-amd64-32)(Darwin-arm64-32)(Linux-amd64-32)(Linux-arm64-32)(Linux-armv7-32)(Linux-i386-32)(Windows-amd64-32)(Windows-i386-32).dek",
+    "source_member": "iemnet/tcpclient-help.pd"
+}

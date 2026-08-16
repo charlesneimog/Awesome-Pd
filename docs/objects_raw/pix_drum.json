@@ -27,8 +27,8 @@
     ],
     "similar": [
         "pix_multiblob",
-        "pix_histo",
         "pix_blobtracker",
-        "pix_multiply"
+        "pix_histo",
+        "pix_opencv_surf"
     ]
 }

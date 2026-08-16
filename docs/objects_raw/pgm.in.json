@@ -27,8 +27,8 @@
     ],
     "similar": [
         "ctl.in",
+        "bend.in",
         "touch.in",
-        "midi.out",
-        "midi.in"
+        "pgm.out"
     ]
 }

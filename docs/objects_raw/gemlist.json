@@ -26,9 +26,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_buffer_write",
         "gemlist_matrix",
-        "translate",
-        "primTri"
+        "fd_any2list",
+        "gemlist_info",
+        "pix_buffer_write"
     ]
 }

@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "snd.play~",
+    "description": "`snd.play~` is a multichannel sound-file player that supports variable-speed playback, pausing, seeking, looping, and optional time-stretching with pitch-shift correction. Specify 1–32 output channels as the first argument and an absolute or patch-relative sound-file name as the second; a float at the inlet starts playback with 1 and stops it with 0.",
+    "categories": [
+        "Samplers",
+        "Multichannel"
+    ],
+    "similar": [
+        "play~",
+        "array.play~",
+        "tabplayer~",
+        "pp.loop.play~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/snd.play~-help.pd"
+}

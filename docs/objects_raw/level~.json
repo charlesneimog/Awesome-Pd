@@ -27,8 +27,8 @@
     ],
     "similar": [
         "dbgain~",
-        "limiter~",
-        "vca.m~",
-        "gain~"
+        "level.m~",
+        "vca2.m~",
+        "vca.m~"
     ]
 }

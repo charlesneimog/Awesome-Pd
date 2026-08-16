@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pof",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pofcolor",
+    "description": "`pofcolor` changes the color and alpha of subsequent Pof rendering by multiplying incoming red, green, blue, and alpha values by its own values. It accepts initial RGBA arguments and separate 0–1 inlet values for each component; its effect is cumulative, so each `pofcolor` depends on preceding color changes.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "color",
+        "conv.color2rgba",
+        "pix_color",
+        "specularRGB"
+    ],
+    "source_archive": "pof[v0.7-19-g155a](Linux-amd64-32).dek",
+    "source_member": "pof/pofcolor-help.pd"
+}

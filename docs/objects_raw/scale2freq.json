@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
+        "scale2cents",
         "autotune2",
-        "cents2ratio",
-        "mel2hz",
-        "cents2frac"
+        "scaler",
+        "scale7"
     ]
 }

@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "bela",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "digital-in~",
+    "description": "`digital-in~` is a signal-rate abstraction for reading Bela digital channels, producing signals containing only 0 and 1 to represent each pin’s state. Its channel arguments correspond to the board’s D labels and must be between 0 and 15; the resulting signal can be filtered to analyze PWM input or reduce high-frequency content.",
+    "categories": [
+        "Control I/O"
+    ],
+    "similar": [
+        "digital-in",
+        "digital-out~",
+        "digital-out",
+        "analog-in~"
+    ],
+    "source_archive": "bela[v0-20260216].dek",
+    "source_member": "bela/digital-in~-help.pd"
+}

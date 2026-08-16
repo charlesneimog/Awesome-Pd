@@ -27,7 +27,7 @@
     "similar": [
         "sgn~",
         "abs~",
-        "avg~",
-        "tavg~"
+        "tavg~",
+        "cmplxabs~"
     ]
 }

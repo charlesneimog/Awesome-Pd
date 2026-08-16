@@ -23,9 +23,9 @@
     "description": "The `downsamp~` object samples and holds an input signal at a specified rate, expressed in samples, without interpolation. It effectively reduces the sample rate of a signal, holding the last sampled value until the next sample is taken. The sampling rate can be controlled by a float or signal, and `mstosamps~` can be used to convert milliseconds to samples for rate control.",
     "categories": [],
     "similar": [
-        "mstosamps~",
-        "sampstoms~",
-        "pack~",
-        "degrade~"
+        "downsample~",
+        "downsample",
+        "tab_downsample",
+        "mstosamps~"
     ]
 }

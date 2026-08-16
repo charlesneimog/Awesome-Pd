@@ -28,8 +28,8 @@
     ],
     "similar": [
         "mtr",
+        "rec.file~",
         "funbuff",
-        "table",
-        "fluid.dataset"
+        "capture"
     ]
 }

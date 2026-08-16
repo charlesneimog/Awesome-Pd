@@ -1,0 +1,28 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "sfruit",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "if",
+    "description": "`if` evaluates its input with a predicate object that outputs 0 or 1, such as `<` or `==`, and sends values satisfying that predicate from its left outlet. It can be used to recreate float-only routing objects such as `moses`; examples include `if < 5` and `if == 11`.",
+    "categories": [
+        "Logic",
+        "Routing"
+    ],
+    "similar": [
+        "flow.reject_if",
+        "passif",
+        "flow.pass_if",
+        "flow.split"
+    ],
+    "source_archive": "sfruit-v0.0.extended--externals.zip",
+    "source_member": "sfruit/if-help.pd"
+}

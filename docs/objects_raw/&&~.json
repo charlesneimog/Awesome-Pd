@@ -25,9 +25,9 @@
         "Logic"
     ],
     "similar": [
-        "0x3c0x7e",
         "0x7c0x7c0x7e",
-        "==~",
-        "equals~"
+        "not~",
+        "0x3c0x7e",
+        "==~"
     ]
 }

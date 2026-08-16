@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "stream-totext",
+    "description": "`stream-totext` writes an incoming message stream into a named `text define` object, here `stream-totext-help`. The example feeds it list-like messages and `bang`; the patch does not provide enough evidence to describe the exact conversion or storage behavior.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "stream-fromtext",
+        "stream-map",
+        "stream",
+        "state"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/stream-totext-help.pd"
+}

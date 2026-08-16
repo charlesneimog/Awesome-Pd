@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ext13",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ossmixer",
+    "description": "`ossmixer` is a simple stereo mixer for OSS `/dev/mixerX` devices, providing access to mixer channel values and the recording source. Use `get <channel>` or `set <channel> <value>` to read or change a channel, and `set_device 1` to select `/dev/mixer1`; separate left/right control is not supported.",
+    "categories": [
+        "Audio I/O"
+    ],
+    "similar": [
+        "satk.util.audioIn~",
+        "audio-in~",
+        "satk.util.audioOut~",
+        "pp.in~"
+    ],
+    "source_archive": "ext13[v0.17.1-4](Windows-amd64-32)(Sources).dek",
+    "source_member": "ext13/ossmixer-help.pd"
+}

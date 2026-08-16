@@ -28,7 +28,7 @@
     "similar": [
         "multiconvolve~",
         "convolve~",
-        "burrow~",
-        "comb.rev~"
+        "comb.rev~",
+        "free.rev~"
     ]
 }

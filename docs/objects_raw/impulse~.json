@@ -27,9 +27,9 @@
         "Multichannel"
     ],
     "similar": [
-        "pimp~",
         "pulse~",
-        "saw2~",
-        "square~"
+        "impulse",
+        "impulse2~",
+        "pimp~"
     ]
 }

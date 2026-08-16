@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pof",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pofscale",
+    "description": "`pofscale` scales the following Pof tree along the x and y axes, with optional z-axis scaling for a 3D initial vector. Its arguments set the initial `(x, y)` or `(x, y, z)` scale vector, while inlets 2, 3, and 4 control x, y, and z respectively.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "poftranslate",
+        "pofrotate",
+        "poffbo",
+        "scaleXYZ"
+    ],
+    "source_archive": "pof[v0.7-19-g155a](Linux-amd64-32).dek",
+    "source_member": "pof/pofscale-help.pd"
+}

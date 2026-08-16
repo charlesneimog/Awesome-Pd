@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "sfruit",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "hotpack",
+    "description": "`hotpack` is described as working like Pd’s `pack` object. However, the help-patch text is truncated after “except that it all,” so its distinguishing behavior and key usage details cannot be established from the supplied evidence.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "pack",
+        "pack~",
+        "flow.pack",
+        "msg.pack"
+    ],
+    "source_archive": "sfruit-v0.0.extended--externals.zip",
+    "source_member": "sfruit/hotpack-help.pd"
+}

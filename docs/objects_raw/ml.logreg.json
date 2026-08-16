@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ml.lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ml.logreg",
+    "description": "`ml.logreg` implements logistic regression for classifying feature vectors. Add labeled training examples as lists containing a class ID followed by features, train with `train`, then classify an input feature vector using `map`; training data and/or the model can also be read from or written to a file.",
+    "categories": [
+        "Machine Learning",
+        "Statistical Models"
+    ],
+    "similar": [
+        "ml.svm",
+        "ml.randforest",
+        "ml.linreg",
+        "ml.knn"
+    ],
+    "source_archive": "ml.lib[v1.0.3](Darwin-amd64-32).dek",
+    "source_member": "ml.lib/ml.logreg-help.pd"
+}

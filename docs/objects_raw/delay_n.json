@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "mapping",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "delay_n",
+    "description": "The help patch places `delay_n` after `resample`, suggesting that it is intended to delay a resampled control-value stream. However, the available patch evidence does not include connections or explanatory text, so the meaning of the argument `20` and the object’s precise behavior cannot be determined.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "delay",
+        "multiple",
+        "desegment",
+        "mutator"
+    ],
+    "source_archive": "mapping-v0.0.extended--externals.zip",
+    "source_member": "mapping/delay_n-help.pd"
+}

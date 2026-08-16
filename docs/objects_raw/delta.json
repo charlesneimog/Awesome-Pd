@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "maxlib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "delta",
+    "description": "`delta` calculates and outputs the first- or second-order difference between control values, making it useful for analyzing changes in a numeric stream. Its order can be set to 1 or 2; a `bang` calculates and outputs the result immediately, while `clear` resets the previous value to 0.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "delta~",
+        "doubledelta",
+        "list.delta",
+        "vdelta"
+    ],
+    "source_archive": "maxlib[v1.5.8](Linux-arm-32)(Sources).dek",
+    "source_member": "maxlib/delta-help.pd"
+}

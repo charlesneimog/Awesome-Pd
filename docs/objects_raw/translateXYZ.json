@@ -26,8 +26,8 @@
     ],
     "similar": [
         "translate",
-        "shearZX",
-        "shearXY",
-        "scaleXYZ"
+        "rotateXYZ",
+        "scaleXYZ",
+        "shearZX"
     ]
 }

@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_normalize",
-        "pix_levels",
-        "pix_indycam",
-        "pix_takealpha"
+        "pix_convert",
+        "pix_color",
+        "pix_curve",
+        "pix_normalize"
     ]
 }

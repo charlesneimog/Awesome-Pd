@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "vdhs~",
+    "description": "`vdhs~` is a variable-delay object based on `vd~` that uses Hermite spline interpolation, making it suitable for effects such as a simple flanger. Its first argument names the delay buffer, while its second inlet or second argument selects the interpolation type; the patch documents value 0 as Hermite.",
+    "categories": [
+        "Delay"
+    ],
+    "similar": [
+        "vd~~",
+        "vdp~",
+        "del16write~",
+        "delwrite~~"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/vdhs~-help.pd"
+}

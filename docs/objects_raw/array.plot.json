@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "array.plot",
+    "description": "`array.plot` plots data into a named Pd array. It accepts individual samples or a list; a list resizes the array to the list length and plots every value, while the y-axis range can be specified or calculated automatically.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "array.plot~",
+        "array.set",
+        "array.do",
+        "array.circular"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/array.plot-help.pd"
+}

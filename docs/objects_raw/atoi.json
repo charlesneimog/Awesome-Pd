@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
-        "separate",
         "atof",
         "symbol2any",
-        "unite"
+        "separate",
+        "tosymbol"
     ]
 }

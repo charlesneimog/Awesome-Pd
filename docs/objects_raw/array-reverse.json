@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "array-abs",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "array-reverse",
+    "description": "Upon receiving a bang, `array-reverse` reverses the order of elements in the currently referenced array. Use a `set` message followed by an array name to change which array it references.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "array-abs-val",
+        "array-ceil",
+        "list.reverse",
+        "tab_reverse"
+    ],
+    "source_archive": "array-abs[v0.1.0].dek",
+    "source_member": "array-abs/array-reverse-help.pd"
+}

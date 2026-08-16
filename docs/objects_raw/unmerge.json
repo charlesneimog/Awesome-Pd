@@ -25,9 +25,9 @@
         "Routing"
     ],
     "similar": [
-        "unjoin",
         "unmerge~",
-        "dispatch",
-        "route~"
+        "unjoin",
+        "unwonk",
+        "route2"
     ]
 }

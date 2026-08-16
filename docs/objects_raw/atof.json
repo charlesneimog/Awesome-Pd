@@ -27,8 +27,8 @@
     ],
     "similar": [
         "fluid.s2f",
-        "separate",
         "atoi",
-        "unite"
+        "separate",
+        "tosymbol"
     ]
 }

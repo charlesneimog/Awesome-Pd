@@ -25,9 +25,9 @@
         "Delay"
     ],
     "similar": [
-        "delay~",
-        "ping.pong~",
-        "delay.m~",
-        "echo.rev~"
+        "echo~",
+        "fx.echo~",
+        "pp.echo~",
+        "fx.recho~"
     ]
 }

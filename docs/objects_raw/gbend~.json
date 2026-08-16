@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "jl",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "gbend~",
+    "description": "`gbend~` is a sample player—short for “grain (pitch) bender”—that plays a selected region of a table with constant and signal-controlled detuning, optional looping, and reverse playback. It includes fade-in, fade-out, and interrupt fades to help avoid clicks; trigger playback with `bang`, and use `set` to change the source table and optionally specify its sample rate.",
+    "categories": [
+        "Samplers"
+    ],
+    "similar": [
+        "samp10~",
+        "array.vplay",
+        "play-samp~",
+        "xgroove~"
+    ],
+    "source_archive": "jl[v0.1.3](Windows-amd64-32).dek",
+    "source_member": "jl/gbend~-help.pd"
+}

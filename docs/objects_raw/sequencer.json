@@ -27,8 +27,8 @@
     ],
     "similar": [
         "sequencer~",
-        "impseq~",
+        "mega-sequencer",
         "pattern",
-        "score2"
+        "for++"
     ]
 }

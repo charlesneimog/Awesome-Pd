@@ -26,9 +26,9 @@
         "Math"
     ],
     "similar": [
-        "fluid.mfcc~",
-        "commonality",
-        "rms~",
-        "mov.rms~"
+        "chair.distance",
+        "mtx_distance",
+        "tonalness",
+        "salience"
     ]
 }

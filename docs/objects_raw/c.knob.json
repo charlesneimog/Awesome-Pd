@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "Cream",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "c.knob",
+    "description": "`c.knob` is a knob control that supports vertical or horizontal tracking. The help patch also demonstrates circular and endless tracking modes, including reversed or custom boundary values.",
+    "categories": [
+        "GUI"
+    ],
+    "similar": [
+        "knob",
+        "mknob",
+        "ui.knob",
+        "c.slider"
+    ],
+    "source_archive": "Cream-v0.4-beta-(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "Cream/helps/c.knob-help.pd"
+}

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "zconf",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "zconf",
+    "description": "This help patch does not document a standalone `zconf` object; it presents a family of Zeroconf networking objects: `zconf.domains`, `zconf.meta`, `zconf.service`, `zconf.browse`, and `zconf.resolve`. They support browsing domains and services, registering services, and resolving services to networking parameters, but the behavior of `zconf` itself cannot be determined from this patch.",
+    "categories": [
+        "Networking"
+    ],
+    "similar": [
+        "rest",
+        "tcpsocket.FUDI",
+        "client",
+        "zmq"
+    ],
+    "source_archive": "zconf[v0.2.1](Linux-armv6-32).dek",
+    "source_member": "zconf/zconf-help.pd"
+}

@@ -25,9 +25,9 @@
         "Stochastic"
     ],
     "similar": [
-        "crackle~",
-        "stepnoise",
-        "rampnoise",
-        "drunkard~"
+        "noise.ikeda",
+        "standard~",
+        "noise.ginger",
+        "crackle~"
     ]
 }

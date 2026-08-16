@@ -33,7 +33,7 @@
     "similar": [
         "fluid.chroma~",
         "chroma",
-        "fluid.bufnoveltyfeature",
-        "fluid.noveltyfeature~"
+        "fluid.bufloudness",
+        "fluid.bufpitch"
     ]
 }

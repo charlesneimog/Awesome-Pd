@@ -32,8 +32,8 @@
     ],
     "similar": [
         "fluid.bufcompose",
-        "packel",
-        "buffer",
-        "fluid.grid"
+        "fluid.grid",
+        "fluid.ds2text",
+        "fluid.kdtree"
     ]
 }

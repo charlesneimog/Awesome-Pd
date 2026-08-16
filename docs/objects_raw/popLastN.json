@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "easyflow",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "popLastN",
+    "description": "`popLastN` passes a list without its last N elements, providing a way to remove elements from the end of a list. Its argument sets the initial number of elements to remove, as in `popLastN 5`.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "list-remove",
+        "remove",
+        "deleteScalar",
+        "list-pak"
+    ],
+    "source_archive": "easyflow[v0.3.0].dek",
+    "source_member": "easyflow/popLastN-help.pd"
+}

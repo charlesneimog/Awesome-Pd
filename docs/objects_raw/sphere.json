@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "cube",
-        "cuboid",
         "sphere3d",
-        "colorSquare"
+        "cube",
+        "pofsphere",
+        "part_velsphere"
     ]
 }

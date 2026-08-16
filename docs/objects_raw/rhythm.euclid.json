@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "rhythm.euclid",
+    "description": "`rhythm.euclid` generates Euclidean rhythm patterns as lists using a fast Bresenham algorithm. Set the number of beats, sequence length (1–8192), and sequence offset through its three integer inlets or creation arguments, then send a bang to output the generated sequence.",
+    "categories": [
+        "Algorithmic"
+    ],
+    "similar": [
+        "rhythm.lsystem",
+        "grid-rhythm",
+        "group-rhythm",
+        "serial-rhythm"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/rhythm.euclid-help.pd"
+}

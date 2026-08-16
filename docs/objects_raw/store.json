@@ -26,9 +26,9 @@
         "GUI"
     ],
     "similar": [
+        "fd_dataStoreGui",
         "colors",
-        "multi.vsl",
-        "l",
-        "stack"
+        "c.preset",
+        "sradio"
     ]
 }

@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "easyflow",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "symbolSplit",
+    "description": "`symbolSplit` splits a symbol at a specified character. In the help patch, `/` is supplied as the split character, with path-like symbols such as `C:/Vst/Samples` and `a/b/c/1/2/3` used as input.",
+    "categories": [
+        "Text"
+    ],
+    "similar": [
+        "symbol.split",
+        "symbol_split",
+        "strchr",
+        "splitfilename"
+    ],
+    "source_archive": "easyflow[v0.3.0].dek",
+    "source_member": "easyflow/symbolSplit-help.pd"
+}

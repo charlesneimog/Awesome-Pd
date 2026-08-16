@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
-        "sort",
-        "iterate",
-        "pv",
-        "l2s"
+        "index~",
+        "coord-index",
+        "mtx_index",
+        "sort"
     ]
 }

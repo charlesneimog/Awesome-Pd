@@ -1,0 +1,17 @@
+{
+    "description": "asdf is a Pure Data library providing the asdf~ external, which loads dynamic 3D audio scenes described in the XML-based Audio Scene Description Format and supplies their source signals and control messages. Its implementation is part of the official Rust ASDF reference implementation.",
+    "issues": "https://github.com/AudioSceneDescriptionFormat/asdf-rust/issues",
+    "link": "https://github.com/AudioSceneDescriptionFormat/asdf-rust",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://github.com/AudioSceneDescriptionFormat/asdf-rust",
+            "https://audioscenedescriptionformat.readthedocs.io/en/latest",
+            "https://deken.puredata.info/search.html",
+            "https://lists.iem.at/hyperkitty/list/pd-announce%40lists.iem.at/latest?count=200&page=1"
+        ],
+        "notes": "The official Pd announcement identifies asdf~ as the Deken external and directs bug reports and suggestions to the asdf-rust issue tracker; the repository contains a pure-data directory and releases corresponding to the Deken package versions.",
+        "checked_at": "2026-08-16T20:40:08+00:00"
+    }
+}

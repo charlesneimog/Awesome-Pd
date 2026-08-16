@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "unauthorized",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "exciter",
+    "description": "`exciter` controls a list of scheduled bang events, with configurable event count, looping, and time grain between events. DSP must be enabled, and the time grain cannot be shorter than one clock tick (noted as 10 ms in the help patch).",
+    "categories": [
+        "Sequencers"
+    ],
+    "similar": [
+        "satk.util.clock",
+        "finder",
+        "cxc_counter",
+        "time-clock"
+    ],
+    "source_archive": "unauthorized[v0.1](Windows-amd64-32)(Sources).dek",
+    "source_member": "unauthorized/exciter-help.pd"
+}

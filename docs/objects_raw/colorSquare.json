@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "sphere",
-        "cube",
         "square",
-        "triangle"
+        "triangle",
+        "color",
+        "cube"
     ]
 }

@@ -29,7 +29,7 @@
     "similar": [
         "grain.synth~",
         "grain.sampler~",
-        "stretch.shift~",
+        "grainflow.live~",
         "pvoc.live~"
     ]
 }

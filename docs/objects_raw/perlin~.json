@@ -26,9 +26,9 @@
         "Stochastic"
     ],
     "similar": [
-        "brown~",
-        "lfnoise~",
-        "stepnoise",
-        "noish~"
+        "perlinterp~",
+        "rampnoise~",
+        "velvet~",
+        "noise"
     ]
 }

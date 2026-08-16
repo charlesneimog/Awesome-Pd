@@ -1,0 +1,31 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pdjs",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "js",
+    "description": "`js` executes JavaScript loaded from a file and can call JavaScript functions in response to Pd messages, as well as set and get JavaScript properties. Supply the script filename followed by optional arguments, which are available in JavaScript through the `jsarguments` property; send `compile` to recompile the source.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "jsobj",
+        "cupqb",
+        "j.ui",
+        "j.score"
+    ],
+    "source_archive": "pdjs[v1.2.74](Darwin-amd64-32)(Linux-amd64-32)(Linux-arm64-32)(Linux-armv8-32)(Windows-amd64-32).dek",
+    "source_member": "pdjs/js-help.pd"
+}

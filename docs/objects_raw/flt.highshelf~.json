@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "flt.highshelf~",
+    "description": "`flt.highshelf~` filters an input signal by boosting or cutting frequencies above a specified starting frequency. Set the shelf frequency in hertz and the gain in decibels using its two float arguments or the `@freq` and `@gain` properties.",
+    "categories": [
+        "Filters"
+    ],
+    "similar": [
+        "flt.lowshelf~",
+        "highshelf~",
+        "flt.c_highshelf~",
+        "highshelf"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/flt.highshelf~-help.pd"
+}

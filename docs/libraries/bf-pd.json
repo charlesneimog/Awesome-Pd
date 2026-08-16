@@ -1,0 +1,17 @@
+{
+    "description": "bf-pd is a Pure Data library implementing the BOEUF framework to enable communication and cooperation between digital musical instruments, including sharing activity, controls, and other musical data.",
+    "issues": "",
+    "link": "https://gitlab.cristal.univ-lille.fr/boeuf/bf-pd",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://gitlab.cristal.univ-lille.fr/boeuf/bf-pd",
+            "https://deken.puredata.info/search.html",
+            "https://radar.inria.fr/rapportsactivite/RA2017/mint2/mint2.pdf",
+            "https://cv.hal.science/florent-berthaut"
+        ],
+        "notes": "The official project is hosted in the BOEUF group on CRIStAL's institutional GitLab. No project-specific issue tracker could be verified publicly.",
+        "checked_at": "2026-08-16T20:46:43+00:00"
+    }
+}

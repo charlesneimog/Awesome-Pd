@@ -26,9 +26,9 @@
         "Multichannel"
     ],
     "similar": [
-        "batch.write~",
         "peek~",
+        "batch.write~",
         "fluid.multiarray",
-        "index~"
+        "mtx_pack~"
     ]
 }

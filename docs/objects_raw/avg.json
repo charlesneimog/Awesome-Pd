@@ -28,7 +28,7 @@
     "similar": [
         "mean",
         "mov.avg",
-        "average~",
-        "avg~"
+        "avg~",
+        "sum"
     ]
 }

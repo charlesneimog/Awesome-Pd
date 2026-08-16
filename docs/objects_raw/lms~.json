@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "adaptive",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "lms~",
+    "description": "`lms~` is an adaptive FIR filter that uses the least mean square algorithm to adjust its coefficients so its output signal y[n] minimizes the error relative to a desired reference signal d[n]. Its creation arguments set the number of coefficients and the step-size parameter mu (learning rate); adaptation can be turned on or off, and the coefficients can be cleared to zero.",
+    "categories": [
+        "Filters"
+    ],
+    "similar": [
+        "nlms~",
+        "lms2~",
+        "nlms2~",
+        "fir"
+    ],
+    "source_archive": "adaptive[v0.0.extended](Windows-amd64-32)(Sources).dek",
+    "source_member": "adaptive/lms~-help.pd"
+}

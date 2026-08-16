@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
-        "minmax",
+        "dec2frac",
         "sum",
-        "trunc",
-        "dec2frac"
+        "frac2cents",
+        "trunc"
     ]
 }

@@ -25,9 +25,9 @@
         "Routing"
     ],
     "similar": [
-        "unjoin",
-        "unmerge",
-        "spray",
-        "forward"
+        "dispatch~",
+        "lispatch",
+        "dist",
+        "receiver"
     ]
 }

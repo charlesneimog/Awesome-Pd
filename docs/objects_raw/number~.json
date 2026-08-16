@@ -25,9 +25,9 @@
         "GUI"
     ],
     "similar": [
-        "numbox~",
-        "messbox",
-        "knob",
-        "meter2~"
+        "c.number~",
+        "ui.number~",
+        "c.number",
+        "numbox2"
     ]
 }

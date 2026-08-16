@@ -27,7 +27,7 @@
     "similar": [
         "status~",
         "trig2bang",
-        "status",
+        "edge",
         "changed~"
     ]
 }

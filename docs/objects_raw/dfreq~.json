@@ -25,9 +25,9 @@
         "Descriptors"
     ],
     "similar": [
+        "fundfreq~",
         "zerox~",
-        "tID_fft",
-        "tID_fft~",
-        "zeroCrossing"
+        "fd_zero-crossing~",
+        "sin_freq~"
     ]
 }

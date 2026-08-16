@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ml.lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ml.adaboost",
+    "description": "`ml.adaboost` performs classification using Adaptive Boosting, training a model from labeled feature vectors added with `add` and mapping input feature vectors to output values with `map`. Before mapping, send `train`; options configure details such as boosting iterations, prediction method, weak classifiers, scaling, probabilities, and NULL rejection.",
+    "categories": [
+        "Machine Learning",
+        "Statistical Models"
+    ],
+    "similar": [
+        "ml.randforest",
+        "ml.dtree",
+        "ml.linreg",
+        "ml.softmax"
+    ],
+    "source_archive": "ml.lib[v1.0.3](Darwin-amd64-32).dek",
+    "source_member": "ml.lib/ml.adaboost-help.pd"
+}

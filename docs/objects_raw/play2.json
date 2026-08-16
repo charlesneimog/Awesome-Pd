@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "rtc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "play2",
+    "description": "`play2` plays a note whenever a key number is sent to its left inlet. It provides controls for velocity, duration, and MIDI channel/`fluid~` operation; in Pd, the help patch advises using `fluid~` instead of QuickTime.",
+    "categories": [
+        "MIDI"
+    ],
+    "similar": [
+        "makenote2",
+        "midi-note-duration",
+        "midi-polyin",
+        "note2pitch"
+    ],
+    "source_archive": "rtc-v0.0.extended--externals.zip",
+    "source_member": "rtc/play2-help.pd"
+}

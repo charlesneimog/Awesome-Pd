@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "AutoPreset",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "apsarray",
+    "description": "`apsarray` is an AutoPreset helper for a `moonlib/sarray`, referenced by a preset reference, name, and SArray name; the SArray itself is not included. Use it as `apsarray Ref Name SArrayName [SArrayLength [pat_no_all]]`, signal array-length changes to `$3-len-snd`, and set `pat_no_all` to 1 to prevent receiving the `_all_` pattern.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "aptab",
+        "sarray",
+        "apsym",
+        "api"
+    ],
+    "source_archive": "AutoPreset-v0.10--externals.zip",
+    "source_member": "AutoPreset/apsarray-help.pd"
+}

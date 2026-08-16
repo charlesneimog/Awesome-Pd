@@ -1,0 +1,31 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iem_bin_ambi",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ambi_reduced_decode_fft2",
+    "description": "`ambi_reduced_decode_fft2` calculates a reduced set of HRTF spectra for Ambisonic binaural decoding by forming a decoder matrix from real and phantom loudspeaker positions, computing its pseudoinverse, and applying its columns to left-ear HRIRs followed by a real FFT. A key usage detail is that `calc_pinv` starts matrix encoding, while `calc_reduced` with an Ambisonic channel index generates that channel’s reduced decoder data.",
+    "categories": [
+        "Ambisonics",
+        "Binaural",
+        "FFT"
+    ],
+    "similar": [
+        "bin_ambi_reduced_decode_fft2",
+        "ambi_reduced_decode_fir2",
+        "bin_ambi_reduced_decode_fir2",
+        "ambi_decode3"
+    ],
+    "source_archive": "iem_bin_ambi-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "iem_bin_ambi/ambi_reduced_decode_fft2-help.pd"
+}

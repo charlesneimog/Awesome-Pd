@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pix_opencv",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pix_opencv_morphology",
+    "description": "`pix_opencv_morphology` applies a morphology filter to image data, with open/close and erode/dilate modes, to help focus on bright or dark zones. Its structuring element can be rectangular, cross-shaped, or elliptic, and the number of iterations can be adjusted from -10 to +10 with caution.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "pix_opencv_threshold",
+        "pix_opencv_distrans",
+        "pix_opencv_edge",
+        "pix_opencv_motempl"
+    ],
+    "source_archive": "pix_opencv-v0.4-(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "pix_opencv/help/pix_opencv_morphology-help.pd"
+}

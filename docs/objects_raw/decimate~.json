@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "sigpack",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "decimate~",
+    "description": "`decimate~` reduces a signal’s effective sample rate and bit resolution, producing a decimated signal for signal-chopping modulation. Its sample-rate control ranges from 1 (0% reduction) to 0 (100% reduction), while its bit-resolution control ranges from 1 bit to 32 bits.",
+    "categories": [
+        "Distortion"
+    ],
+    "similar": [
+        "+decimate~",
+        "degrade~",
+        "fx.bitdown~",
+        "crusher~"
+    ],
+    "source_archive": "sigpack[v0.0.45](Darwin-amd64-32)(Darwin-i386-32)(Sources).dek",
+    "source_member": "sigpack/decimate~-help.pd"
+}

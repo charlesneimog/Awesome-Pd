@@ -26,8 +26,8 @@
     ],
     "similar": [
         "pix_share_read",
-        "pix_data",
-        "rectangle",
-        "imageVert"
+        "pix_set",
+        "pix_snap",
+        "pix_roi"
     ]
 }

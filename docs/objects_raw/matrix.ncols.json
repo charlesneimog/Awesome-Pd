@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "matrix.ncols",
+    "description": "`matrix.ncols` returns the number of columns in a Matrix as an integer, making it useful for querying matrix dimensions. It accepts either Matrix data or a list in the Matrix constructor format `NROWS NCOLS ...`.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "matrix.nrows",
+        "matrix.size",
+        "matrix.zeros_like",
+        "matrix.swap_cols"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/matrix.ncols-help.pd"
+}

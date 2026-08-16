@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "nusmuk-audio",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "filter~",
+    "description": "`filter~` is an analog-style multimode audio filter supporting 24 dB/octave low-pass and 12 dB/octave low-pass, high-pass, and band-pass modes, with `LP24` as the default. Its audio input is clipped between -1 and 1, and the character control ranges from clean at 0 through Moog-like at 50% to dirty at 100%, especially with high resonance.",
+    "categories": [
+        "Filters",
+        "Distortion"
+    ],
+    "similar": [
+        "_filter",
+        "pp.ladder-st~",
+        "flt.speaker~",
+        "svfilter~"
+    ],
+    "source_archive": "nusmuk-audio[v2024.09.29](Windows-amd64-32)(Windows-amd64-64).dek",
+    "source_member": "nusmuk-audio/filter~-help.pd"
+}

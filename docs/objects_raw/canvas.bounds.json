@@ -26,8 +26,8 @@
     ],
     "similar": [
         "canvas.edit",
+        "canvas.name",
         "canvas.zoom",
-        "canvas.setname",
-        "canvas.name"
+        "canvas.setname"
     ]
 }

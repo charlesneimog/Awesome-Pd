@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "creb",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "bfft~",
+    "description": "`bfft~` is like `fft~`, but normalized, and outputs a spectrum ordered as (DC, NY), (R1, I1), …, (RN-1, IN-1). It is intended for block-oriented signal processing and can be paired with `ibfft~` for inverse transformation.",
+    "categories": [
+        "FFT"
+    ],
+    "similar": [
+        "pafft~",
+        "winifft~",
+        "paifft~",
+        "winfft~"
+    ],
+    "source_archive": "creb[v0.9.2-3](Windows-amd64-32)(Sources).dek",
+    "source_member": "creb/bfft~-help.pd"
+}

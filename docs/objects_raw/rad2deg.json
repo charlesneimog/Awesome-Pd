@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "car2pol",
-        "cart2pol",
-        "sph2cart",
-        "pol2cart"
+        "hid2deg",
+        "rad2hid",
+        "radtodeg~",
+        "rad2hz"
     ]
 }

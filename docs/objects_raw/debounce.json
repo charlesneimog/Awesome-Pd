@@ -1,0 +1,31 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "hcs",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "debounce",
+    "description": "`debounce` is a control filter for debouncing incoming events, and this help patch states that it currently handles floats and bangs. The examples use `debounce 900`, indicating that its argument sets the debounce interval, though the patch does not explicitly state the time unit.",
+    "categories": [
+        "Logic"
+    ],
+    "similar": [
+        "debounce_b",
+        "tdh.util.debounce",
+        "vthreshold",
+        "fd_once"
+    ],
+    "source_archive": "hcs[v0.2.1](Darwin-amd64-32)(Darwin-arm64-32)(Linux-amd64-32)(Linux-arm64-32)(Linux-armv7-32)(Linux-i386-32)(Windows-amd64-32)(Windows-i386-32).dek",
+    "source_member": "hcs/debounce-help.pd"
+}

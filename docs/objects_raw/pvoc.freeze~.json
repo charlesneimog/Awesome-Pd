@@ -24,8 +24,8 @@
     "categories": [],
     "similar": [
         "freeze~",
-        "status~",
-        "bucket",
-        "trig2bang"
+        "pp.fft-freeze~",
+        "pvoc.live~",
+        "pvoc.player~"
     ]
 }

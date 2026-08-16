@@ -32,9 +32,9 @@
         "Multichannel"
     ],
     "similar": [
-        "fluid.mfcc~",
         "fluid.bufmelbands",
+        "fluid.mfcc~",
         "mfcc",
-        "fluid.bufaudiotransport"
+        "fluid.bufpitch"
     ]
 }

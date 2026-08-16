@@ -26,9 +26,9 @@
         "Multichannel"
     ],
     "similar": [
-        "chorus.m~",
         "flanger~",
-        "plate.rev.m~",
-        "chorus~"
+        "fx.flanger~",
+        "chorus.m~",
+        "phaser.m~"
     ]
 }

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_netreceive",
+    "description": "`fd_netreceive` provides the `netreceive` side of a connection from another Pure Data instance using `fd_netsend`. Its colors turn green when connected, and it receives a `connected 1` message once the connection is established.",
+    "categories": [
+        "Networking"
+    ],
+    "similar": [
+        "fd_netsend",
+        "netreceive",
+        "tcpreceive",
+        "udpreceive"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_netreceive-help.pd"
+}

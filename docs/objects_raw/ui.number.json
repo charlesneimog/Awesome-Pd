@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ui.number",
+    "description": "`ui.number` is a graphical number widget and a counterpart to vanilla Pd’s `nbx`; it accepts floats (or the first element of a list) and outputs its current value when sent a bang. Double-click to enter a value, or use `-`/`+` in display mode to decrement or increment it.",
+    "categories": [
+        "GUI",
+        "Control I/O"
+    ],
+    "similar": [
+        "ui.number~",
+        "c.number",
+        "ui.knob",
+        "ui.radio"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/ui.number-help.pd"
+}

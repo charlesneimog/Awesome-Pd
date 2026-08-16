@@ -28,8 +28,8 @@
     ],
     "similar": [
         "op",
-        "zigbinops",
-        "car2pol~",
-        "ceil~"
+        "negation",
+        "gaterelease~",
+        "quantizer~"
     ]
 }

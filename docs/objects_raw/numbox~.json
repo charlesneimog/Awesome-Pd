@@ -26,9 +26,9 @@
         "Control IO"
     ],
     "similar": [
-        "pad",
-        "canvas.mouse",
+        "numbox2",
         "button",
-        "circle"
+        "canvas.mouse",
+        "pad"
     ]
 }

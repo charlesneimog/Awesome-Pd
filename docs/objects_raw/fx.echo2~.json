@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fx.echo2~",
+    "description": "`fx.echo2~` is a stereo echo effect that processes left and right input signals and produces corresponding stereo outputs. Its first two creation arguments set the echo delay in milliseconds (10–5000 ms) and the feedback coefficient, as shown by `fx.echo2~ 500 0.3`; properties also control dry/wet mix, stereo amount, bypass, and DSP activation.",
+    "categories": [
+        "Delay"
+    ],
+    "similar": [
+        "fx.echo~",
+        "fx.recho~",
+        "pp.echo~",
+        "fx.scramble~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/fx.echo2~-help.pd"
+}

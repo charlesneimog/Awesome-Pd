@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ceammc.midi",
+    "description": "`ceammc.midi` is the ceammc library’s MIDI toolbox, providing objects for arpeggiation, MIDI clock handling, controller and event conversion, note processing, tuning, SysEx, and Standard MIDI File operations. Use the specific object matching the task, such as `midi.arp` for arpeggiation, `midi.cc` as an enhanced version of vanilla `ctlin`, or `midi.file` to read and write SMF files.",
+    "categories": [
+        "MIDI"
+    ],
+    "similar": [
+        "midi.cc",
+        "proto.midi.cc",
+        "proto.midi",
+        "midi.clock"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/ceammc.midi-help.pd"
+}

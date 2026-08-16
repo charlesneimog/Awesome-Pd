@@ -25,9 +25,9 @@
         "Data Structures"
     ],
     "similar": [
-        "insert",
-        "packel",
-        "delete",
-        "replace"
+        "list.at",
+        "listReverse",
+        "list-drip2",
+        "listfind"
     ]
 }

@@ -26,8 +26,8 @@
     ],
     "similar": [
         "pix_movement",
-        "pix_threshold",
-        "pix_a_2grey",
-        "pix_motionblur"
+        "pix_motionblur",
+        "pix_opencv_motempl",
+        "pix_mix"
     ]
 }

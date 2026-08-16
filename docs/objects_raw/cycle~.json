@@ -25,9 +25,9 @@
         "Oscillators"
     ],
     "similar": [
-        "saw~",
-        "pimp",
-        "damp.osc~",
-        "gaussian~"
+        "circle~",
+        "tabosc2~",
+        "triangle~",
+        "sig.m~"
     ]
 }

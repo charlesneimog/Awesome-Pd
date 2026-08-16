@@ -34,9 +34,9 @@
         "charlesneimog"
     ],
     "similar": [
-        "fluid.mlpregressor",
-        "fluid.mlpclassifier",
-        "logistic~",
-        "fluid.knnregressor"
+        "neuralnet~",
+        "augment_data",
+        "ml.ann",
+        "pdnam+~"
     ]
 }

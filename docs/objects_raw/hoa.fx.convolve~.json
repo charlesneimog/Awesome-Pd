@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "hoa.fx.convolve~",
+    "description": "`hoa.fx.convolve~` provides HiFi-LoFi convolution reverberation for HOA signals, using a table name argument for the impulse response and wet, dry, and normalization attributes. It can use a different impulse response for each harmonic for decorrelation or operate in the plane-wave domain; avoid large impulse responses and high HOA orders because the convolution is not sufficiently optimized.",
+    "categories": [
+        "Reverb",
+        "Ambisonics"
+    ],
+    "similar": [
+        "hoa.fx.freeverb~",
+        "convolve~",
+        "hoa.fx.mirror~",
+        "hoa.fx.sum~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/hoa/hoa.fx.convolve~-help.pd"
+}

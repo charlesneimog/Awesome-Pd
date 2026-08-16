@@ -26,8 +26,8 @@
     ],
     "similar": [
         "dbtoa~",
+        "dbtoamp~",
         "db2lin",
-        "atodb",
-        "db2lin~"
+        "conv.dbfs2amp"
     ]
 }

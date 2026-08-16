@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "math.acosh",
+    "description": "`math.acosh` computes the principal value of the inverse hyperbolic cosine for an input value. It accepts a float or a list, applying the function to every numeric value in a list; documented special cases include `acosh(1)` returning +0 and `acosh(+infinity)` returning +infinity.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "math.acosh~",
+        "math.acos",
+        "matrix.acosh",
+        "math.acos~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/math.acosh-help.pd"
+}

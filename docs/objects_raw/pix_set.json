@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_convert",
         "pix_color",
-        "pix_dump",
-        "pix_takealpha"
+        "pix_takealpha",
+        "pix_convert",
+        "pix_rgba"
     ]
 }

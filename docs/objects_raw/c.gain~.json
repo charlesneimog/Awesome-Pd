@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "Cream",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "c.gain~",
+    "description": "`c.gain~` is a slider for controlling the volume of an audio signal, with amplitude and dB values displayed in the help patch. It supports absolute and relative mousing modes, and double-clicking resets it to 0 dB.",
+    "categories": [
+        "Dynamics",
+        "GUI"
+    ],
+    "similar": [
+        "ui.gain~",
+        "ui.gain2~",
+        "chair.gain~",
+        "fd_gain~"
+    ],
+    "source_archive": "Cream-v0.4-beta-(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "Cream/helps/c.gain~-help.pd"
+}

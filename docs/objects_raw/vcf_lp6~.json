@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iemlib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "vcf_lp6~",
+    "description": "`vcf_lp6~` is a sixth-order low-pass filter whose cutoff frequency and Q are controlled by signals. It takes a signal input and produces a filtered signal output; the help patch shows no creation arguments.",
+    "categories": [
+        "Filters"
+    ],
+    "similar": [
+        "vcf_rbp6~",
+        "vcf_bp6~",
+        "vcf_lp2~",
+        "vcf_lp8~"
+    ],
+    "source_archive": "iemlib[v1.22-3-3-gedb2890](Irix-mipsn32-32)(Irix-mipsn32-64).dek",
+    "source_member": "iemlib/vcf_lp6~-help.pd"
+}

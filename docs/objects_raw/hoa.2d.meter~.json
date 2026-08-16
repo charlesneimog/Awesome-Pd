@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "hoa.2d.meter~",
+    "description": "`hoa.2d.meter~` displays peak levels for a circular loudspeaker array and computes and displays its energy and velocity vectors. Its channel count, channel angles, offset, and clockwise or anticlockwise ordering can be configured to match the array.",
+    "categories": [
+        "Ambisonics",
+        "GUI"
+    ],
+    "similar": [
+        "hoa.3d.meter~",
+        "hoa.2d.scope~",
+        "hoa.2d.space",
+        "hoa.2d.map~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/hoa/hoa.2d.meter~-help.pd"
+}

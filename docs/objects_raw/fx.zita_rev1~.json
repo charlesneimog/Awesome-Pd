@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fx.zita_rev1~",
+    "description": "`fx.zita_rev1~` is a stereo reverb effect with left and right signal inputs and outputs. It provides controls for dry/wet balance, low- and mid-frequency decay times, crossover and high-frequency damping, predelay, bypass, and freezing the reverberation tail.",
+    "categories": [
+        "Reverb"
+    ],
+    "similar": [
+        "fx.infrev~",
+        "vintageverb",
+        "freeverb~",
+        "rev1~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/fx.zita_rev1~-help.pd"
+}

@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "synth.metro~",
+    "description": "`synth.metro~` is a ready-to-use metronome synthesizer that generates distinct downbeat, on-beat, and off-beat sounds, with a signal output and a second outlet reporting the current beat type. Start or stop it with 1 or 0, and set its tempo and time signature through arguments or properties such as `@tempo` and `@tsig`; individual beat sounds can also be played manually.",
+    "categories": [
+        "Sequencers",
+        "Oscillators"
+    ],
+    "similar": [
+        "metro~",
+        "chord-synth",
+        "metro.seq",
+        "metro"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/synth.metro~-help.pd"
+}

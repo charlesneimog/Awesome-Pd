@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "dispatchOSC",
+    "description": "`dispatchOSC 9000` uses mrpeach objects such as `udpreceive` to receive OSC messages on port 9000. It turns an OSC address into a list for routing, as illustrated by downstream `route more stuff` objects.",
+    "categories": [
+        "OSC"
+    ],
+    "similar": [
+        "OSC",
+        "net.osc.receive",
+        "oscD",
+        "osc.parse"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/dispatchOSC-help.pd"
+}

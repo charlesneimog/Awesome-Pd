@@ -8,13 +8,5 @@ In this section we list all the objects submit for the project. Note that, if th
 <h2 align="center"><b>Random Objects</b></h2>
 
 <div class="grid cards ">
-    <ul id="random-objects"></ul>
+    <ul id="random-objects" data-random-content="objects"></ul>
 </div>
-
-
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-    addObjects(false);
-});
-</script>
-

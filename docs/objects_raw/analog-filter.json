@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "automatonism",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "analog-filter",
+    "description": "`analog-filter` filters an incoming signal and provides an output, with controls for cutoff frequency and resonance (Q). Its cutoff and Q can be controlled by CV inputs, and the cutoff CV passes through an onboard bipolar FM attenuator.",
+    "categories": [
+        "Filters"
+    ],
+    "similar": [
+        "lp-filter",
+        "ladder-filter",
+        "bp-filter",
+        "hp-filter"
+    ],
+    "source_archive": "automatonism[v0.4.2.4].dek",
+    "source_member": "automatonism/patch_editor_abs/analog-filter-help.pd"
+}

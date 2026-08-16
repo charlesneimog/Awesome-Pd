@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_takealpha",
-        "pix_gain",
+        "pix_mask",
         "pix_composite",
-        "pix_mask"
+        "pix_multiply",
+        "pix_set"
     ]
 }

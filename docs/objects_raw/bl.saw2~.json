@@ -26,9 +26,9 @@
         "Subtractive"
     ],
     "similar": [
-        "bl.vsaw~",
         "bl.saw~",
+        "bl.vsaw~",
         "bl.osc~",
-        "vsaw~"
+        "saw2~"
     ]
 }

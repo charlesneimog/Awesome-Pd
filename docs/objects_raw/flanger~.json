@@ -26,9 +26,9 @@
         "Delay"
     ],
     "similar": [
-        "ffdelay~",
         "flanger.m~",
-        "comb~",
-        "tremolo~"
+        "fx.flanger~",
+        "flanjah~",
+        "ffdelay~"
     ]
 }

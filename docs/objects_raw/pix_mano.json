@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_movement2",
-        "world_light",
-        "pix_threshold",
-        "pix_a_2grey"
+        "pix_mask",
+        "pix_opencv_pgh_compare",
+        "pix_opencv_hu_compare",
+        "pix_mix"
     ]
 }

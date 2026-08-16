@@ -27,7 +27,7 @@
     "similar": [
         "salience",
         "fluid.bufloudness",
-        "sharpness~",
-        "fluid.bufampfeature"
+        "fluid.loudness~",
+        "roughness"
     ]
 }

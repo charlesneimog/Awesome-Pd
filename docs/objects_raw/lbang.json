@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "jmmmp",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "lbang",
+    "description": "`lbang` is a loadbang that can be triggered more often, intended for initializing and re-initializing patches. It accepts a bang and outputs a loadbang/bang.",
+    "categories": [
+        "Patching"
+    ],
+    "similar": [
+        "loadbang",
+        "lb",
+        "savebang",
+        "initbang"
+    ],
+    "source_archive": "jmmmp-v0.61--externals.zip",
+    "source_member": "jmmmp/lbang-help.pd"
+}

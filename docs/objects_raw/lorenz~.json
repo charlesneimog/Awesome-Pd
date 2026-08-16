@@ -27,9 +27,9 @@
         "Audio IO"
     ],
     "similar": [
+        "lorenz",
         "henon~",
         "gbman~",
-        "lincong~",
-        "cusp~"
+        "rm~"
     ]
 }

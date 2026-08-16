@@ -25,9 +25,9 @@
         "Filters"
     ],
     "similar": [
-        "phaseshift~",
         "allpass.filt~",
-        "bandstop~",
-        "bandpass~"
+        "phaseshift~",
+        "allpass_2p~",
+        "allpass_1p~"
     ]
 }

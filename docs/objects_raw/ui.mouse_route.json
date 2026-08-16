@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ui.mouse_route",
+    "description": "`ui.mouse_route` routes selected mouse-event messages from `ui.*` objects to outlets matching their event types. Enable the desired event types with arguments such as `@down`, `@up`, and `@drag`, or with the corresponding Boolean properties, which default to disabled.",
+    "categories": [
+        "Routing",
+        "GUI"
+    ],
+    "similar": [
+        "ui.mouse_filter",
+        "pdp_route",
+        "ceammc.ui",
+        "sguigot"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/ui.mouse_route-help.pd"
+}

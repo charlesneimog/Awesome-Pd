@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "seq.matrix",
+    "description": "`seq.matrix` is a sequencer controller for `ui.matrix`, stepping through matrix columns and outputting data suitable for the matrix. Set the number of steps with its first argument or second-inlet float, and set the step interval or BPM with the second argument; a bang starts from reset, while `tick` outputs the current element and advances.",
+    "categories": [
+        "Sequencers"
+    ],
+    "similar": [
+        "seq.counter",
+        "seq.toggles",
+        "seq.bangs",
+        "seq.nbangs"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/seq.matrix-help.pd"
+}

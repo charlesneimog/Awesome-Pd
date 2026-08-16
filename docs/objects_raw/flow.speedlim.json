@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "flow.speedlim",
+    "description": "`flow.speedlim` limits the rate of a control-data stream, passing messages no more often than the specified interval in milliseconds. Set the interval with the integer argument, the `@limit` property, or a float at the second inlet; a value of 0 stops the flow, while a bang or `reset` reopens it and resets its internal timer.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "speedlim",
+        "speedlimit",
+        "flow.space",
+        "flow.interval"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/flow.speedlim-help.pd"
+}

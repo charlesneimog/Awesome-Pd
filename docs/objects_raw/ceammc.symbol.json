@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ceammc.symbol",
+    "description": "`ceammc.symbol` is a help/index patch for the ceammc library’s symbol utilities. It links to objects for equality checking, Unicode-aware character counting, numeric symbol comparison, conversion of symbols or strings to messages, and conversion of symbols to lists of character codes.",
+    "categories": [
+        "Text"
+    ],
+    "similar": [
+        "ceammc.string",
+        "fromsymbol",
+        "symbol.length",
+        "symbol2intlist"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/ceammc.symbol-help.pd"
+}

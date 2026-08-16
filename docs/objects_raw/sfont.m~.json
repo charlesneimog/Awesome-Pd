@@ -26,9 +26,9 @@
         "GUI"
     ],
     "similar": [
-        "messbox",
         "sfont~",
-        "popmenu",
-        "button"
+        "cooled~",
+        "sfizz~",
+        "timestretch~"
     ]
 }

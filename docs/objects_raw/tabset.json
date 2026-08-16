@@ -27,8 +27,8 @@
     ],
     "similar": [
         "tabdump",
-        "histogram",
         "length",
-        "tabminmax"
+        "tabminmax",
+        "index"
     ]
 }

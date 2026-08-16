@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "synth.glass_harm~",
+    "description": "`synth.glass_harm~` is a nonlinear banded-waveguide model of a glass harmonica, intended for synthesizing the instrument with either strike or bow excitation. Trigger notes with `note NOTE VEL` (MIDI note and velocity from 0 to 127), and take its audio from the left and right outlets.",
+    "categories": [
+        "Physical Modeling"
+    ],
+    "similar": [
+        "synth.harpsichord~",
+        "synth.piano~",
+        "synth.marimba~",
+        "synth.sitar~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/synth.glass_harm~-help.pd"
+}

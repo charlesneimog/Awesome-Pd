@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "maximum",
-        "interpolate",
-        "quantizer",
-        "minimum"
+        "list.integrator",
+        "c.incdec",
+        "cuadratic",
+        "list.min"
     ]
 }

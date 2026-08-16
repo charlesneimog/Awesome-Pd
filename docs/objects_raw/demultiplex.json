@@ -25,9 +25,9 @@
         "Routing"
     ],
     "similar": [
-        "demux",
         "demultiplex~",
-        "router",
-        "demux~"
+        "demux",
+        "flow.demultiplex",
+        "multiplex"
     ]
 }

@@ -26,9 +26,9 @@
         "Graphics"
     ],
     "similar": [
+        "fd_pixrecord",
         "pix_movie",
         "pix_write",
-        "pix_writer",
-        "pix_film"
+        "pix_writer"
     ]
 }

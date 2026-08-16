@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
+        "torus",
         "square",
-        "curve",
-        "cube",
-        "cylinder"
+        "cylinder",
+        "sphere3d"
     ]
 }

@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
+        "fd_background",
         "pix_chroma_key",
-        "pix_equal",
-        "pix_multiply",
-        "pix_colorclassify"
+        "pix_opencv_backgroundsubtractor",
+        "pix_opencv_bgsubstract"
     ]
 }

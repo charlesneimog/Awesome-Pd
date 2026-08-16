@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "conv.cc2amp",
+    "description": "`conv.cc2amp` converts a MIDI Control Change value in the 0–127 range to a configurable output range, defaulting to 0–1. Set the output range with the `FROM` and `TO` arguments or the `@from` and `@to` properties; for example, `conv.cc2amp @from 1 @to -1` maps into a descending range.",
+    "categories": [
+        "MIDI"
+    ],
+    "similar": [
+        "conv.midi2freq",
+        "conv.pitch2midi",
+        "conv.degree2key",
+        "conv.bits2note"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/conv.cc2amp-help.pd"
+}

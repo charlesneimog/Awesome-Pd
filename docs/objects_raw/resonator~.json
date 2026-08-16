@@ -25,9 +25,9 @@
         "Filters"
     ],
     "similar": [
-        "bandpass~",
         "resonator2~",
-        "svfilter~",
-        "svf~"
+        "resonant~",
+        "reson~",
+        "resonant_bandpass_2p~"
     ]
 }

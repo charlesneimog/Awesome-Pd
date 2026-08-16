@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ceammc.path",
+    "description": "The patch does not document a `ceammc.path` object; it serves as an index of `ceammc` filesystem and path utilities. It links to objects for tasks such as normalizing, splitting, searching, and checking paths, as well as listing directories and monitoring filesystem events.",
+    "categories": [
+        "File I/O"
+    ],
+    "similar": [
+        "path",
+        "path.normalize",
+        "path.monitor",
+        "path.search"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/ceammc.path-help.pd"
+}

@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_fftfilt",
+    "description": "`fd_fftfilt` is an FFT filter that processes the signal received at its signal inlet and outputs the filtered signal. Its two float arguments specify the block size and overlap, respectively, as illustrated by `fd_fftfilt 512 4`.",
+    "categories": [
+        "Filters",
+        "FFT"
+    ],
+    "similar": [
+        "pp.fft-split~",
+        "pp.fft-split-st~",
+        "pp.fft-block-st~",
+        "pp.fft-block~"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_fftfilt-help.pd"
+}

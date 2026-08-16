@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_triangle~",
+    "description": "`fd_triangle~` computes a triangle curve and loads it into an array, for use by `fd_windows`. Give the array name and size as its two arguments, then send a bang to load the table; DSP must be on.",
+    "categories": [
+        "Envelopes",
+        "Data Structures"
+    ],
+    "similar": [
+        "fd_trapezoid~",
+        "fd_expo~",
+        "fd_env",
+        "fd_sinh~"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_triangle~-help.pd"
+}

@@ -25,9 +25,9 @@
         "Patching"
     ],
     "similar": [
-        "canvas.name",
-        "properties",
-        "canvas.active",
-        "a2l"
+        "loadbang",
+        "lb",
+        "loadexpr",
+        "canvas.name"
     ]
 }

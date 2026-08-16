@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "flt.moog_vcf~",
+    "description": "`flt.moog_vcf~` is a Moog-style voltage-controlled filter that filters an input signal around a center frequency specified in Hz. Its corner resonance is controlled by the normalized `@res` property, which can also be supplied as the first argument.",
+    "categories": [
+        "Filters",
+        "Subtractive"
+    ],
+    "similar": [
+        "moog~",
+        "resofilt~",
+        "lop2~",
+        "flt.lowshelf~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/flt.moog_vcf~-help.pd"
+}

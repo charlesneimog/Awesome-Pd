@@ -30,8 +30,8 @@
     "categories": [],
     "similar": [
         "fluid.ampslice~",
-        "fluid.buftransientslice",
-        "fluid.ampgate~",
-        "fluid.bufstats"
+        "fluid.bufampfeature",
+        "fluid.bufnoveltyslice",
+        "fluid.bufampgate"
     ]
 }

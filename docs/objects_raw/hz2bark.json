@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "mel2hz",
         "bark2hz",
         "phon2db",
-        "hz2mel"
+        "hz2mel",
+        "hz2rad"
     ]
 }

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "matrix.zeros",
+    "description": "`matrix.zeros` creates a matrix filled with zeros. Its two integer arguments specify the number of rows and columns, respectively, with a minimum value of 0 for each.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "matrix.ones",
+        "matrix.zeros_like",
+        "matrix.full",
+        "mtx_zeros"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/matrix.zeros-help.pd"
+}

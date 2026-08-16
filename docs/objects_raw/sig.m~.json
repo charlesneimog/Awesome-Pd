@@ -25,9 +25,9 @@
         "Oscillators"
     ],
     "similar": [
-        "cycle~",
-        "fbsine2~",
-        "saw~",
-        "gaussian~"
+        "fd_xnote",
+        "fd_fk",
+        "synth.bee3~",
+        "fbsine2~"
     ]
 }

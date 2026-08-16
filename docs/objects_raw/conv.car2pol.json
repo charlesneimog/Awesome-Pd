@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "conv.car2pol",
+    "description": "`conv.car2pol` converts a list containing Cartesian x and y coordinates into a radius-and-angle pair, with the angle expressed in radians. Use the `@positive` property to get or set whether the output uses a positive range.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "car2pol",
+        "conv.pol2car",
+        "cart2pol",
+        "sph2pol"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/conv.car2pol-help.pd"
+}

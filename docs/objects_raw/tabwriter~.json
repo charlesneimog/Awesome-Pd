@@ -25,9 +25,9 @@
         "Multichannel"
     ],
     "similar": [
-        "record~",
         "batch.write~",
         "xfade~",
+        "nchs~",
         "spread.mc~"
     ]
 }

@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "mapping",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "one2four",
+    "description": "`one2four` is a control abstraction that performs a simple one-to-four mapping, producing four float outputs. It has four float inlets, and the help patch demonstrates optional creation arguments such as `one2four 0.1 0.2 0.3` for setting breakpoints.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "one2three",
+        "one2two",
+        "circular_seat",
+        "circular"
+    ],
+    "source_archive": "mapping-v0.0.extended--externals.zip",
+    "source_member": "mapping/one2four-help.pd"
+}

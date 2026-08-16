@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
-        "selector",
         "mux~",
-        "multiplex~",
-        "demux"
+        "selector",
+        "demux",
+        "relay"
     ]
 }

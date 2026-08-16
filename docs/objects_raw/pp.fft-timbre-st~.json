@@ -1,0 +1,28 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "audiolab",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pp.fft-timbre-st~",
+    "description": "`pp.fft-timbre-st~` is the stereo version of `pp.fft-timbre~`, processing left and right signals with a configurable FFT bin-reordering function. Its creation arguments set the FFT block size and overlap, defaulting to 1024 and 4 respectively, while a third inlet accepts control messages.",
+    "categories": [
+        "Spectral Processing",
+        "FFT"
+    ],
+    "similar": [
+        "pp.fft-timbre~",
+        "pp.fft-profile-st~",
+        "pp.fft-freeze-st~",
+        "pp.fft-pitchshift-st~"
+    ],
+    "source_archive": "audiolab[v0.80].dek",
+    "source_member": "audiolab/pp.fft-timbre-st~-help.pd"
+}

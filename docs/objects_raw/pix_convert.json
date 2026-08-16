@@ -26,8 +26,8 @@
     ],
     "similar": [
         "pix_rgba",
+        "pdp_convert",
         "pix_grey",
-        "pix_set",
         "pix_mean_color"
     ]
 }

@@ -29,7 +29,7 @@
     "similar": [
         "chance~",
         "rand.i",
-        "demultiplex",
-        "demux"
+        "rand.list",
+        "scramble"
     ]
 }

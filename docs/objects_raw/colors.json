@@ -26,9 +26,9 @@
         "Data Structures"
     ],
     "similar": [
-        "multi.vsl",
-        "store",
-        "function",
-        "range.hsl"
+        "fd_colorpicker",
+        "ds-color-sel",
+        "colorNames",
+        "color.rgbset"
     ]
 }

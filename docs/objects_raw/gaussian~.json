@@ -27,7 +27,7 @@
     "similar": [
         "saw~",
         "impulse2~",
-        "randpulse",
-        "bl.wavetable~"
+        "parabolic~",
+        "pulse~"
     ]
 }

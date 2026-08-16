@@ -32,8 +32,8 @@
     ],
     "similar": [
         "rescale",
-        "wrap2",
-        "atanh",
-        "acos~"
+        "fluid.gain~",
+        "autoscale",
+        "smap"
     ]
 }

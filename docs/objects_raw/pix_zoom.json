@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_multitexture",
-        "GEMgl",
-        "pix_draw",
-        "pix_compare"
+        "pdp_zoom",
+        "separator",
+        "pix_diff",
+        "pix_clearblock"
     ]
 }

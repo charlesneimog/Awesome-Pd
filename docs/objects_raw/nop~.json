@@ -25,9 +25,9 @@
         "Routing"
     ],
     "similar": [
-        "mux~",
-        "demultiplex~",
-        "multiplex~",
-        "mtx~"
+        "common~",
+        "mtx~",
+        "route2",
+        "sender"
     ]
 }

@@ -29,6 +29,6 @@
         "pong",
         "fold",
         "scale~",
-        "scale"
+        "wrap"
     ]
 }

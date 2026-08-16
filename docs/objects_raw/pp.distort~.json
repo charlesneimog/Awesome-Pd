@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "audiolab",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pp.distort~",
+    "description": "`pp.distort~` provides distortion/saturation using a tanh soft clipper: squeeze drives the clipper, while squash and squish add odd and even harmonics respectively. Its oversampling factor helps reduce aliasing, must be a power of two, and can be set with the first creation argument or an `oversample` message.",
+    "categories": [
+        "Distortion"
+    ],
+    "similar": [
+        "pp.distort-st~",
+        "pp.dystort~",
+        "pp.dystort-st~",
+        "fx.distortion~"
+    ],
+    "source_archive": "audiolab[v0.80].dek",
+    "source_member": "audiolab/pp.distort~-help.pd"
+}

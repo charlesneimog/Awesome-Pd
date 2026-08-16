@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pan.linsig~",
+    "description": "`pan.linsig~` is a two-channel linear panner with signal control. It routes an input signal to left and right output channels according to a pan-position signal in the range -1 to 1.",
+    "categories": [
+        "Routing"
+    ],
+    "similar": [
+        "pan.lin~",
+        "pan.cos~",
+        "pan.sqrt~",
+        "cp-pan~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/pan.linsig~-help.pd"
+}

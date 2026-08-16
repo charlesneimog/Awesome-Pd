@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pix_opencv",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pix_opencv_hough_lines",
+    "description": "`pix_opencv_hough_lines` applies a Hough line-detection algorithm to an image and reports each detected line as X1, Y1, X2, and Y2 coordinates. It supports standard, probabilistic, and multi-scale detection modes; the default is probabilistic, with configurable threshold, maximum line count, minimum length, and gap.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "pix_opencv_hough_circles",
+        "pix_opencv_of_bm",
+        "pix_opencv_lk",
+        "pix_opencv_hu_compare"
+    ],
+    "source_archive": "pix_opencv-v0.4-(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "pix_opencv/help/pix_opencv_hough_lines-help.pd"
+}

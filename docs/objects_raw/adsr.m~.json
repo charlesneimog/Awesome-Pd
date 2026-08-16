@@ -27,8 +27,8 @@
     ],
     "similar": [
         "adsr~",
-        "gatehold~",
-        "envgen~",
-        "asr~"
+        "adsr",
+        "tdh.util.adsr~",
+        "pp.adsr~"
     ]
 }

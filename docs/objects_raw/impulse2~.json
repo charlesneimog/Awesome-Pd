@@ -25,9 +25,9 @@
         "Oscillators"
     ],
     "similar": [
-        "saw~",
-        "gaussian~",
-        "randpulse",
-        "pulse"
+        "impulse",
+        "pulse~",
+        "impulse~",
+        "osc.impulse~"
     ]
 }

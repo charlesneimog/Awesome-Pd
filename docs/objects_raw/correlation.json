@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "mapping",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "correlation",
+    "description": "`correlation` measures the correlation between two float streams, with one stream supplied to each inlet. It outputs a float where 0 indicates no correlation and 1 or -1 indicates high correlation; the example uses `correlation 20`.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "list.correlate",
+        "fd_corr",
+        "distance-spearman",
+        "inv"
+    ],
+    "source_archive": "mapping-v0.0.extended--externals.zip",
+    "source_member": "mapping/correlation-help.pd"
+}

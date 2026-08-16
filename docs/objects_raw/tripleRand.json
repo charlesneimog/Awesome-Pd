@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "markex",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "tripleRand",
+    "description": "`tripleRand` generates three distinct random numbers and outputs them as a list. Send a bang to its left inlet to generate a new set; its second inlet accepts a float or list, though the patch does not explain their effect.",
+    "categories": [
+        "Stochastic / Probabilistic"
+    ],
+    "similar": [
+        "randy",
+        "expo",
+        "randomF",
+        "rand"
+    ],
+    "source_archive": "markex[v0.0.extended](Windows-amd64-32)(Sources).dek",
+    "source_member": "markex/tripleRand-help.pd"
+}

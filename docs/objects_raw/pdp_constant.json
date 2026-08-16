@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pdp",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pdp_constant",
+    "description": "`pdp_constant` creates an image filled with a constant, producing a colour image by default or a greyscale image when selected. Use `dim 320 240` to set the packet dimensions, `type grey` or `type yv12` to choose the image type, and a value message such as `5 0 0` to set the constant.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "pdp_scope~",
+        "pdp_noise",
+        "pdp_convert",
+        "pdp_plasma"
+    ],
+    "source_archive": "pdp-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "pdp/pdp_constant-help.pd"
+}

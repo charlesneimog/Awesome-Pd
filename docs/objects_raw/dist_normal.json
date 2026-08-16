@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "cxc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "dist_normal",
+    "description": "`dist_normal` generates control-rate random floats with a normal distribution centered at mean 0 and having standard deviation 1. Send a bang to its left inlet to produce a value; the help patch notes that it currently uses `random1` for its underlying random values.",
+    "categories": [
+        "Stochastic / Probabilistic"
+    ],
+    "similar": [
+        "weibull",
+        "random.gauss",
+        "triang",
+        "randomF"
+    ],
+    "source_archive": "cxc[v0.5.2-2](Windows-amd64-32)(Sources).dek",
+    "source_member": "cxc/dist_normal-help.pd"
+}

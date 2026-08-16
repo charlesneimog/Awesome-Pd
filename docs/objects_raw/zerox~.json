@@ -25,9 +25,9 @@
         "Descriptors"
     ],
     "similar": [
-        "dfreq~",
+        "ml.zerox",
         "zerocross~",
-        "fluid.transientslice~",
-        "barkSpecFlux~"
+        "zeroxpos~",
+        "dfreq~"
     ]
 }

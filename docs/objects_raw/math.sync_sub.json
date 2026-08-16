@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "math.sync_sub",
+    "description": "`math.sync_sub` performs synchronized subtraction, operating on integers only. A float in the left inlet sets the minuend and outputs the difference, while a float in the right inlet changes the subtrahend and also outputs the result; a two-item list sets both values and calculates.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "math.sync_div",
+        "math.sync_mod",
+        "math.sync_mul",
+        "math.sync_add"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/math.sync_sub-help.pd"
+}

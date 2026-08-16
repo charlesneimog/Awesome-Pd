@@ -1,0 +1,15 @@
+{
+    "description": "absattr is a Pure Data external by Thomas Grill for handling patcher arguments as Max/MSP/Jitter-style attributes in Pd abstractions.",
+    "issues": "",
+    "link": "https://svn.grrrr.org/ext/trunk",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://grrrr.org/research/software",
+            "https://deken.puredata.info/search.html"
+        ],
+        "notes": "The maintainer’s official site links to a shared Subversion source tree rather than a dedicated absattr repository. No official issue tracker was verified.",
+        "checked_at": "2026-08-16T20:21:49+00:00"
+    }
+}

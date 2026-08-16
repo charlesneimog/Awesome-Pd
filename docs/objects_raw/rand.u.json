@@ -25,9 +25,9 @@
         "Stochastic"
     ],
     "similar": [
-        "urn",
-        "drunk",
-        "decide",
-        "rand.f~"
+        "rand.f~",
+        "rand.f",
+        "rand.i",
+        "rand.dist"
     ]
 }

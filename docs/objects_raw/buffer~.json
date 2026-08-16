@@ -29,7 +29,7 @@
     "similar": [
         "sample~",
         "player~",
-        "tabplayer~",
-        "play~"
+        "kbuffer~",
+        "residency_buffer~"
     ]
 }

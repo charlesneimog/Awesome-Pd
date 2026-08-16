@@ -1,0 +1,17 @@
+{
+    "description": "acre-amb is a collection of high-level Pure Data abstractions for Ambisonics mixing and multichannel signal processing, including encoder, decoder, calibration, and loudspeaker-distribution workflows. It is developed at IEM and builds on the acre and iem_ambi libraries.",
+    "issues": "",
+    "link": "https://git.iem.at/pd/acre-amb",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://git.iem.at/pd/acre-amb",
+            "https://ambisonics.iem.at/kurse/projekte/aama1/ambisonics-mikrofones",
+            "https://deken.puredata.info/search.html",
+            "https://lac.linuxaudio.org/2017/lac2017/Proceedings.pdf"
+        ],
+        "notes": "The official IEM project page and conference proceedings identify this repository as the Pd library. A public issue tracker could not be independently verified.",
+        "checked_at": "2026-08-16T20:23:27+00:00"
+    }
+}

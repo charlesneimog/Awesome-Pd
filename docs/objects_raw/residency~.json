@@ -33,9 +33,9 @@
         "Partial Tracking"
     ],
     "similar": [
-        "reanimator~",
         "resent~",
-        "morph~",
-        "pvwarpb~"
+        "reanimator~",
+        "pvharm~",
+        "pvoc~"
     ]
 }

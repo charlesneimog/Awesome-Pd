@@ -26,8 +26,8 @@
     ],
     "similar": [
         "smooth2",
-        "glide2",
-        "asr~",
-        "line~"
+        "smooth-line",
+        "smoother~",
+        "fd_smooth"
     ]
 }

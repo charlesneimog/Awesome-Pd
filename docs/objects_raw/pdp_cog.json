@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pdp",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pdp_cog",
+    "description": "`pdp_cog` analyzes an input PDP packet by computing its average intensity, center-of-gravity coordinates, and standard deviations along the x and y axes. It reports five corresponding values: intensity, center-of-gravity x/y, and standard-deviation x/y.",
+    "categories": [
+        "Descriptors"
+    ],
+    "similar": [
+        "centroid~",
+        "pdp_histo",
+        "fluid.bufloudness",
+        "tID_std"
+    ],
+    "source_archive": "pdp-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "pdp/pdp_cog-help.pd"
+}

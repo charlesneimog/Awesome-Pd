@@ -26,8 +26,8 @@
     ],
     "similar": [
         "allpass.2nd~",
-        "allpass.filt~",
-        "cross~",
-        "eq~"
+        "ap2~",
+        "allpass_2p~",
+        "allpass_1p~"
     ]
 }

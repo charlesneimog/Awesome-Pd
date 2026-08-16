@@ -26,8 +26,8 @@
     ],
     "similar": [
         "part_velcone",
-        "part_render",
-        "part_head",
-        "part_vertex"
+        "sphere",
+        "part_vertex",
+        "pofsphere"
     ]
 }

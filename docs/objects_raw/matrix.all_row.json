@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "matrix.all_row",
+    "description": "`matrix.all_row` evaluates each matrix column across all rows and outputs a Matrix row vector whose elements are 1 when the corresponding column satisfies the all condition and 0 otherwise. Input uses the matrix-data form `NROWS NCOLS ...`.",
+    "categories": [
+        "Logic"
+    ],
+    "similar": [
+        "matrix.all_col",
+        "matrix.any_row",
+        "matrix.any_col",
+        "matrix.all"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/matrix.all_row-help.pd"
+}

@@ -26,8 +26,8 @@
     ],
     "similar": [
         "harmonicity",
-        "rint",
-        "ceil",
-        "rint~"
+        "hz2bark",
+        "factor",
+        "roundIfVeryClose"
     ]
 }

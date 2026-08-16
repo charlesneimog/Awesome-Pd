@@ -33,9 +33,9 @@
         "Math"
     ],
     "similar": [
-        "pow~",
-        "rescale",
-        "fluid.bufscale",
-        "scalarmult"
+        "rint~",
+        "fluid.gain~",
+        "cgmul~",
+        "tanx~"
     ]
 }

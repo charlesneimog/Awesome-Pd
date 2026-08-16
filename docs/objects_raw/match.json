@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
-        "regex",
-        "limit",
         "match~",
-        "retrieve"
+        "select-both",
+        "limit",
+        "matchbox"
     ]
 }

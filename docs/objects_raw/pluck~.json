@@ -27,9 +27,9 @@
         "Filters"
     ],
     "similar": [
+        "pluck.m~",
         "filterdelay~",
         "comb.filt~",
-        "pluck.m~",
         "allpass~"
     ]
 }

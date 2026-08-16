@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
+        "poltocar",
         "cartopol~",
         "cartopol",
-        "car2pol",
-        "poltocar"
+        "pol2car"
     ]
 }

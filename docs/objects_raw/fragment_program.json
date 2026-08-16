@@ -28,6 +28,6 @@
         "vertex_program",
         "glsl_fragment",
         "glsl_program",
-        "glsl"
+        "pix_freeframe"
     ]
 }

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "srepeater~",
+    "description": "`srepeater~` is a simple beat repeater for holding and repeating audio, with an argument such as 4000 shown in the help patch. It can be triggered with a list containing milliseconds, number of hits, and feedback; messages such as `hold 0` stop holding, while `fb 1, hold 400` sets feedback and starts a 400 ms repeat.",
+    "categories": [
+        "Delay"
+    ],
+    "similar": [
+        "repeater~",
+        "updel",
+        "vdb~",
+        "fx.recho~"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/srepeater~-help.pd"
+}

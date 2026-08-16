@@ -32,9 +32,9 @@
         "General Utilities"
     ],
     "similar": [
-        "tabdump",
-        "length",
-        "tabset",
-        "index"
+        "fluid.ds2text",
+        "fluid.bufselectevery",
+        "fluid.bufcompose",
+        "tabset"
     ]
 }

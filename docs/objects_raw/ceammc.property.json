@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ceammc.property",
+    "description": "`ceammc.property` is an overview of the ceammc library’s tools for declaring, managing, extracting, and randomizing properties. Its related objects can get or set named property values on subpatches or abstractions, and `prop.join` or `prop.split` can integrate properties with or separate them from the main data flow.",
+    "categories": [
+        "Patching"
+    ],
+    "similar": [
+        "ceammc.patch",
+        "properties",
+        "propertybang",
+        "prop"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/ceammc.property-help.pd"
+}

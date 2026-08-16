@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "shearYX",
         "translateXYZ",
-        "gemlist_matrix",
+        "shearYX",
+        "poftranslate",
         "shearZX"
     ]
 }

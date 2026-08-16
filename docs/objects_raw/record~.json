@@ -26,9 +26,9 @@
         "Audio IO"
     ],
     "similar": [
-        "tabwriter~",
-        "batch.write~",
+        "rec.file~",
         "batch.rec~",
-        "poke~"
+        "out8~",
+        "glide2~"
     ]
 }

@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iem_vanilla",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "polar_diagram_500r",
+    "description": "`polar_diagram_500r` displays a polar diagram whose list entries represent the amounts of the polar data points. It supports configuring the number of points, dB dynamic range, rotation in points, labels, colors, visibility, and curve width; the help patch describes its zero-degree axis direction as rightward.",
+    "categories": [
+        "GUI"
+    ],
+    "similar": [
+        "pp.xycurve",
+        "numbox2",
+        "hid_graph",
+        "room_sim_2d"
+    ],
+    "source_archive": "iem_vanilla[v1.00].dek",
+    "source_member": "iem_vanilla/polar_diagram_500r-help.pd"
+}

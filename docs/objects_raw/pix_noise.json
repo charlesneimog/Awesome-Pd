@@ -26,9 +26,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_set",
-        "pix_rgba",
-        "brown~",
-        "pix_takealpha"
+        "pdp_noise",
+        "noise",
+        "fd_noise~",
+        "stepnoise"
     ]
 }

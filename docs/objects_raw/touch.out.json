@@ -26,9 +26,9 @@
         "Control IO"
     ],
     "similar": [
-        "ptouch.out",
         "touch.in",
-        "pgm.out",
-        "midi.out"
+        "ptouch.out",
+        "midi.out",
+        "pgm.out"
     ]
 }

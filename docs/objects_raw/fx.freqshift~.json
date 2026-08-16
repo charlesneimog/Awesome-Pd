@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fx.freqshift~",
+    "description": "`fx.freqshift~` is a frequency shifter for single-sideband ring modulation. It accepts a frequency shift from -10000 to 10000 Hz and provides two signal outputs: the input frequency plus the shift and the input frequency minus the shift.",
+    "categories": [
+        "Spectral Processing"
+    ],
+    "similar": [
+        "pp.freqshift~",
+        "freqshift~",
+        "pp.freqshift-st~",
+        "freqshifter~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/fx.freqshift~-help.pd"
+}

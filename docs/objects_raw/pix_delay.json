@@ -26,9 +26,9 @@
         "Graphics"
     ],
     "similar": [
-        "fbdelay~",
-        "delay~",
-        "ping.pong~",
-        "revdelay~"
+        "t3_delay",
+        "pdp_del",
+        "ldelay",
+        "delay~"
     ]
 }

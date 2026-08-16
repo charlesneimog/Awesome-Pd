@@ -26,9 +26,9 @@
         "Math"
     ],
     "similar": [
-        "pix_add",
         "pix_threshold",
-        "pix_movement2",
-        "hsv2rgb"
+        "pix_add",
+        "pix_opencv_threshold",
+        "pix_opencv_athreshold"
     ]
 }

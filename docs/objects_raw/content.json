@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "context",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "content",
+    "description": "`content` stores arrays and plays them back as an embedded component of `context`. It can load a `.wav` file or Pd array with the `:lo` command, and it must be embedded inside `context` to operate.",
+    "categories": [
+        "Samplers"
+    ],
+    "similar": [
+        "array.play~",
+        "sampler",
+        "tab16play~",
+        "samp10~"
+    ],
+    "source_archive": "context-v4.0-(Darwin-i386-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "context/content-help.pd"
+}

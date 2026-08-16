@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "hid",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "hid_one2four",
+    "description": "`hid_one2four` is a control abstraction that accepts a float and provides four float outlets. Its help patch calls it a simple “one-to-three mapping object,” which conflicts with the demonstrated four outlets, so the exact mapping behavior and the meaning of the `0.3 0.6 0.9` arguments are not sufficiently documented.",
+    "categories": [
+        "Routing"
+    ],
+    "similar": [
+        "hid_one2three",
+        "hid_one2two",
+        "disjoin",
+        "j.receive"
+    ],
+    "source_archive": "hid-0.7-1[v0.7-1](Darwin-arm64-32)(Sources).dek",
+    "source_member": "hid-0.7-1/hid_one2four-help.pd"
+}

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "smlib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "vlrange",
+    "description": "`vlrange` computes a leaky maximum minus a leaky minimum for incoming floats or lists of floats, producing a float or list of range values. Its argument sets the half-decay, and the patch also shows that decay can be changed with a `decay` message, though the unit of half-decay is not fully specified.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "lrange",
+        "vlavg",
+        "vlmax",
+        "vlmin"
+    ],
+    "source_archive": "smlib-v0.12.3-(Linux-armv7l-32)(Sources)-externals.tgz",
+    "source_member": "smlib/vlrange-help.pd"
+}

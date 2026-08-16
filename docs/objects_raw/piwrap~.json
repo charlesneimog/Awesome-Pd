@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "Pd_Spectral_Toolkit",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "piwrap~",
+    "description": "`piwrap~` wraps an input phase signal into the range from -pi to pi. It is useful for constraining phase values, with the phase signal connected to its inlet and the wrapped phase produced at its outlet.",
+    "categories": [
+        "Spectral Processing"
+    ],
+    "similar": [
+        "freqtophase~",
+        "phasetofreq~",
+        "cartophase~",
+        "phaseaccum~"
+    ],
+    "source_archive": "Pd_Spectral_Toolkit[v1.1](Windows-amd64-32).dek",
+    "source_member": "Pd_Spectral_Toolkit/piwrap~-help.pd"
+}

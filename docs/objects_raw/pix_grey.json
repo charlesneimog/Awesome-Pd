@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_convert",
         "pix_rgba",
-        "pix_set",
-        "pix_mean_color"
+        "pix_convert",
+        "pix_a_2grey",
+        "pix_2grey"
     ]
 }

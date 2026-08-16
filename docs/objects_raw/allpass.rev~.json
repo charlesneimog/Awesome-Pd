@@ -29,7 +29,7 @@
     "similar": [
         "allpass~",
         "comb.rev~",
-        "fbdelay~",
-        "fdn.rev~"
+        "fdn.rev~",
+        "echo.rev~"
     ]
 }

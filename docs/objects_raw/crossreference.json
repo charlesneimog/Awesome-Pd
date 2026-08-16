@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "context",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "crossreference",
+    "description": "`crossreference` is an overlay abstraction used to connect Context instances, with each Context containing its own `crossreference` object. Its first argument selects the toggle; changing toggles and toggle floats demonstrates the effect.",
+    "categories": [
+        "Patching"
+    ],
+    "similar": [
+        "preset",
+        "ctx",
+        "fd_clarg",
+        "canvasindex"
+    ],
+    "source_archive": "context-v4.0-(Darwin-i386-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "context/crossreference-help.pd"
+}

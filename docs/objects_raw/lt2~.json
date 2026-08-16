@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "purepd",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "lt2~",
+    "description": "The help patch suggests that `lt2~` compares signal values, with a test signal checked against a `sig~ 1.5` reference and its output viewed through `snapshot~`. The patch does not provide enough information to establish its exact comparison semantics or how it differs from the referenced `lt~` object.",
+    "categories": [
+        "Logic"
+    ],
+    "similar": [
+        "gt2~",
+        "lt~",
+        "hv.lt",
+        "matrix.lt"
+    ],
+    "source_archive": "purepd-v0.0.extended--externals.zip",
+    "source_member": "purepd/lt2~-help.pd"
+}

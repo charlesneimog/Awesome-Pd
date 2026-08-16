@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pof",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pofplane",
+    "description": "`pofplane` draws a textured plane with configurable width and height, supplied as arguments or through inlets 2 and 3. If the height is 0, it uses the width, and the `res` message can set the plane’s resolution in both dimensions.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "pofcirc",
+        "pofrect",
+        "poffbo",
+        "pofpath"
+    ],
+    "source_archive": "pof[v0.7-19-g155a](Linux-amd64-32).dek",
+    "source_member": "pof/pofplane-help.pd"
+}

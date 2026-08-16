@@ -27,9 +27,9 @@
         "Audio IO"
     ],
     "similar": [
-        "saw2~",
+        "pm4~",
         "sine~",
-        "impulse~",
-        "pm4~"
+        "cosine~",
+        "saw2~"
     ]
 }

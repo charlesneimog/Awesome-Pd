@@ -28,7 +28,7 @@
     "similar": [
         "prepend",
         "index",
-        "var",
-        "join"
+        "join",
+        "VASP"
     ]
 }

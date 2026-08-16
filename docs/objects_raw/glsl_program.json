@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "glsl_fragment",
         "glsl",
-        "glsl_geometry",
-        "glsl_vertex"
+        "vertex_program",
+        "glsl_fragment",
+        "fragment_program"
     ]
 }

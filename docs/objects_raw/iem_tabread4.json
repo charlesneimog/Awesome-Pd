@@ -1,0 +1,31 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "dw_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "iem_tabread4",
+    "description": "`iem_tabread4` reads a table using four-point interpolation. Its first argument names the array, and its optional second argument selects `wrap` or `nowrap` mode, defaulting to `nowrap`; both the array name and wrap mode can also be changed.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "iem_tabread2",
+        "tabread2",
+        "tabreadl",
+        "tabreadb"
+    ],
+    "source_archive": "dw_lib[v1.18.1](Darwin-amd64-32)(Darwin-i386-32)(Linux-amd64-32)(Windows-amd64-32)(Windows-i386-32)(Sources).dek",
+    "source_member": "dw_lib/iem_tabread4-help.pd"
+}

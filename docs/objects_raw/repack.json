@@ -25,9 +25,9 @@
         "Data Structures"
     ],
     "similar": [
+        "list.repack",
         "pack",
-        "glue",
-        "pack2",
-        "unpack~"
+        "msg.pack",
+        "bytestruct"
     ]
 }

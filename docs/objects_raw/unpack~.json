@@ -26,8 +26,8 @@
     ],
     "similar": [
         "pack~",
-        "l2i",
-        "remove",
-        "l"
+        "unpack",
+        "complex.unpack",
+        "rational.unpack"
     ]
 }

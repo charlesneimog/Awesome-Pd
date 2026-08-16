@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
-        "substitute",
         "pipe2",
-        "initmess",
-        "any2symbol"
+        "substitute",
+        "flow.delay",
+        "nnrepeat"
     ]
 }

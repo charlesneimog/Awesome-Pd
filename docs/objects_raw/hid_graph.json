@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "hid",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "hid_graph",
+    "description": "`hid_graph` is a GUI abstraction for drawing an arbitrary curve, intended for control conversion. It contains 100 points, each one pixel, accepts float input, produces float output, and supports a `reset` message.",
+    "categories": [
+        "GUI"
+    ],
+    "similar": [
+        "curve_graph",
+        "oscillo",
+        "pp.xycurve",
+        "multi_slider"
+    ],
+    "source_archive": "hid-0.7-1[v0.7-1](Darwin-arm64-32)(Sources).dek",
+    "source_member": "hid-0.7-1/hid_graph-help.pd"
+}

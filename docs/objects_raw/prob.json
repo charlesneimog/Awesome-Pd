@@ -26,9 +26,9 @@
         "Stochastic"
     ],
     "similar": [
+        "gendyn~",
         "markov",
-        "rand.dist",
-        "rand.f~",
-        "brown"
+        "brown",
+        "drunk"
     ]
 }

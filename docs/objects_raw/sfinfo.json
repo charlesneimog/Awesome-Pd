@@ -26,8 +26,8 @@
     ],
     "similar": [
         "scala",
-        "sfload",
         "play.file~",
-        "fluid.concataudiofiles"
+        "fluid.concataudiofiles",
+        "fluid.dataset"
     ]
 }

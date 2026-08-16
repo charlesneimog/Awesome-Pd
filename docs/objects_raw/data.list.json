@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "data.list",
+    "description": "`data.list` is a list container for storing, retrieving, and manipulating a list through operations such as append, insert, remove, reverse, shuffle, and sort. A bang outputs the current list, while `set` replaces its contents without output; list input replaces the contents and outputs them.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "data.mlist",
+        "data.set",
+        "data.set2list",
+        "local.list"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/data.list-help.pd"
+}

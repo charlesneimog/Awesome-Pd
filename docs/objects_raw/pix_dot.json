@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_rds",
         "imageVert",
+        "pix_crop",
         "pix_takealpha",
-        "pix_mask"
+        "pix_rds"
     ]
 }

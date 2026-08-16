@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "an.tempo~",
+    "description": "`an.tempo~` is an aubio-based tempo detector that analyzes an input signal and outputs the estimated tempo in BPM along with a detection-confidence value. Its onset-detection method is selectable (default: `hfc`), with options including energy, complex-domain, phase-based, and spectral methods.",
+    "categories": [
+        "Descriptors"
+    ],
+    "similar": [
+        "an.onset~",
+        "an.onset",
+        "beat~",
+        "an.zero~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/an.tempo~-help.pd"
+}

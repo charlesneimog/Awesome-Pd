@@ -27,9 +27,9 @@
         "Text"
     ],
     "similar": [
-        "s2l",
         "symbol2list",
-        "atoi",
+        "tosymbol",
+        "fromsymbol",
         "list2symbol"
     ]
 }

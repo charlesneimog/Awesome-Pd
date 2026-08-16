@@ -1,0 +1,31 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "bandlimited",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "bl.sq~",
+    "description": "`bl.sq~` generates a band-limited square wave, limiting generated harmonics to reduce content above a chosen cutoff. Its creation parameters set frequency, maximum harmonics, cutoff frequency, and an approximate lower-CPU waveform mode; the `max` and `cutoff` messages adjust the corresponding limits, with a cutoff of 0 using the Nyquist limit.",
+    "categories": [
+        "Oscillators"
+    ],
+    "similar": [
+        "bl.sawtri~",
+        "bl.rsaw~",
+        "bl.pulse~",
+        "bandlimited~"
+    ],
+    "source_archive": "bandlimited-v1.0.0-(Darwin-i386-32)(Sources)(Darwin-x86_64-32)(Linux-amd64-64)(Windows-i386-32)-externals.zip",
+    "source_member": "bandlimited/bl.sq~-help.pd"
+}

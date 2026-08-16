@@ -26,9 +26,9 @@
         "Audio IO"
     ],
     "similar": [
-        "pvoc.live~",
         "pitch.shift~",
-        "gran.player~",
+        "pvoc.live~",
+        "bin.shift~",
         "grain.live~"
     ]
 }

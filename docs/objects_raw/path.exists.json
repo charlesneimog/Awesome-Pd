@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "path.exists",
+    "description": "`path.exists` checks whether a given path exists, accepting the path as either a symbol or string. It outputs 1 when the path exists and 0 when it does not.",
+    "categories": [
+        "File I/O"
+    ],
+    "similar": [
+        "path.is_dir",
+        "path.normalize",
+        "path.split",
+        "path.lsdir"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/path.exists-help.pd"
+}

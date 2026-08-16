@@ -1,0 +1,31 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "hcs",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "group_name2gid",
+    "description": "`group_name2gid` converts a filesystem group name to its numeric GID. Supply a group name as a symbol, either as a creation argument or through an inlet; it outputs a float when found and a bang from its second outlet when the group is not found.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "username2uid",
+        "gid2group_name",
+        "group",
+        "uid2username"
+    ],
+    "source_archive": "hcs[v0.2.1](Darwin-amd64-32)(Darwin-arm64-32)(Linux-amd64-32)(Linux-arm64-32)(Linux-armv7-32)(Linux-i386-32)(Windows-amd64-32)(Windows-i386-32).dek",
+    "source_member": "hcs/group_name2gid-help.pd"
+}

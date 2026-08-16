@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "moonlib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ssaw~",
+    "description": "`ssaw~` is a band-limited “sweet” sawtooth signal generator. It is intended to reduce aliasing below 10 kHz and provides a signal inlet, a float inlet, and a signal outlet.",
+    "categories": [
+        "Oscillators"
+    ],
+    "similar": [
+        "osc.saw~",
+        "osc.saw4~",
+        "blsaw~",
+        "saw~"
+    ],
+    "source_archive": "moonlib[v0.8.2](Linux-amd64-32).dek",
+    "source_member": "moonlib/ssaw~-help.pd"
+}

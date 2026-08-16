@@ -29,7 +29,7 @@
     "similar": [
         "gbman~",
         "henon~",
-        "lincong~",
-        "fader~"
+        "fd_spat",
+        "rampnoise~"
     ]
 }

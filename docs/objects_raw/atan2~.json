@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "cart2pol",
-        "sph2pol",
-        "pol2cart",
-        "pol2sph"
+        "atan~",
+        "atanh~",
+        "atanh",
+        "math.atan~"
     ]
 }

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "flow.less_eq",
+    "description": "`flow.less_eq` is a numeric stream router similar to multiple `moses` objects, sending each input float to an outlet according to an ascending list of comparison values. Each threshold outlet receives numbers less than or equal to its corresponding argument, while the final outlet receives numbers greater than the last argument; comparison values can be supplied as creation arguments or through the init-only `@values` property.",
+    "categories": [
+        "Routing"
+    ],
+    "similar": [
+        "flow.less",
+        "flow.greater",
+        "flow.greater_eq",
+        "flow.match"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/flow.less_eq-help.pd"
+}

@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "jmmmp",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "liner~",
+    "description": "`liner~` is a practical implementation of `line~` that converts an input float into a signal by creating a ramp. The ramp duration is set in milliseconds through the second inlet or an argument, with a standard value of 20 ms.",
+    "categories": [
+        "Envelopes"
+    ],
+    "similar": [
+        "liner+~",
+        "line",
+        "line~",
+        "line2"
+    ],
+    "source_archive": "jmmmp-v0.61--externals.zip",
+    "source_member": "jmmmp/liner~-help.pd"
+}

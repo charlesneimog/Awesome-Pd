@@ -26,8 +26,8 @@
     ],
     "similar": [
         "phaser.m~",
-        "chorus~",
-        "vibrato~",
-        "chorus.m~"
+        "pp.shepphaser~",
+        "pp.shepphaser-st~",
+        "chorus~"
     ]
 }

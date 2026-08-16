@@ -27,8 +27,8 @@
     ],
     "similar": [
         "pix_multiblob",
+        "fd_blobtracks",
         "pix_drum",
-        "pix_indycam",
-        "pix_histo"
+        "fd_blob"
     ]
 }

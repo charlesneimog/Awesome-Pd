@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pdp",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "pdp_control",
+    "description": "`pdp_control` fine-tunes PDP system settings for threads and memory, including switching threaded processing on or off and setting the packet-pool memory limit. It can also free all unused packets with `collectgarbage`, and outputs a `pdp_drop` message when a package is dropped.",
+    "categories": [
+        "MultiThreading",
+        "General Utilities"
+    ],
+    "similar": [
+        "fluid.bufthreaddemo",
+        "list_to_s",
+        "pdp_description",
+        "pix_image"
+    ],
+    "source_archive": "pdp-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "pdp/pdp_control-help.pd"
+}

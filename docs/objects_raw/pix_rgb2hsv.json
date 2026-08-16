@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_hsv2rgb",
         "rgb2hsv",
-        "pix_sig2pix~",
+        "pix_hsv2rgb",
+        "hsv",
         "hsv2rgb"
     ]
 }

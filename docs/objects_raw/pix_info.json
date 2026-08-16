@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "imageVert",
-        "pix_dump",
+        "pix_convert",
+        "pix_invert",
         "pix_set",
-        "pix_convert"
+        "part_info"
     ]
 }

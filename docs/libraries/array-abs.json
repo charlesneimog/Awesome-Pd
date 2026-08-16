@@ -1,0 +1,14 @@
+{
+    "description": "array-abs is a library of Pd Vanilla abstractions for searching and manipulating arrays, distributed through Deken.",
+    "issues": "",
+    "link": "https://github.com/wbrent/array-abs",
+    "research": {
+        "status": "verified",
+        "confidence": "medium",
+        "sources": [
+            "https://lists.iem.at/hyperkitty/list/pd-announce%40lists.iem.at/latest?page=15"
+        ],
+        "notes": "The maintainer’s 2022 Pd-announce post identifies this repository and Deken package. An older, separate project with the same name exists at brbrofsvl/array-abs, so the identification is not collision-free; no issue tracker for the selected repository could be independently verified.",
+        "checked_at": "2026-08-16T20:37:27+00:00"
+    }
+}

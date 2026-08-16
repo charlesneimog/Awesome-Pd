@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "cylinder",
-        "teapot",
-        "gemrepeat",
-        "primTri"
+        "pdp_scope~",
+        "scaleXYZ",
+        "rotateXYZ",
+        "pix_kaleidoscope"
     ]
 }

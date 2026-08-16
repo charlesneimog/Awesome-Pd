@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "path.basename",
+    "description": "`path.basename` outputs the filename portion of a pathname. It accepts a symbol or data string containing a path and outputs the resulting filename.",
+    "categories": [
+        "File I/O"
+    ],
+    "similar": [
+        "path.dirname",
+        "path.normalize",
+        "path.split",
+        "basedir"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/path.basename-help.pd"
+}

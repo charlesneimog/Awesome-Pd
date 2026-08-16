@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "cxc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "proc",
+    "description": "`proc` provides an interface to the Linux `/proc` filesystem for retrieving information such as CPU data, uptime, load averages, kernel version, and process statistics. Send messages such as `cpuinfo`, `uptime`, `loadavg`, `version`, or `stat` to select the requested information; its output can be separated with `route` and `unpack`.",
+    "categories": [
+        "Control I/O"
+    ],
+    "similar": [
+        "iem_event",
+        "smc",
+        "proto.firmata",
+        "proto.sp.alpaca"
+    ],
+    "source_archive": "cxc[v0.5.2-2](Windows-amd64-32)(Sources).dek",
+    "source_member": "cxc/proc-help.pd"
+}

@@ -27,8 +27,8 @@
     ],
     "similar": [
         "colors",
-        "store",
-        "slider2d",
-        "range.hsl"
+        "c.matrix",
+        "multi_slider",
+        "store"
     ]
 }

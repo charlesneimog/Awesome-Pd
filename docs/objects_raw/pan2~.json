@@ -26,9 +26,9 @@
         "Multichannel"
     ],
     "similar": [
+        "pan.stereo~",
         "pan4~",
-        "slice~",
-        "spread~",
-        "balance~"
+        "pan.spread~",
+        "spread~"
     ]
 }

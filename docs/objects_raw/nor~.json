@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "Pd_Spectral_Toolkit",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "nor~",
+    "description": "`nor~` performs a logical NOR comparison of two signals and outputs the result. Its second input can be supplied through the right inlet or set with an argument, as in `nor~ 1`.",
+    "categories": [
+        "Logic"
+    ],
+    "similar": [
+        "or~",
+        "and~",
+        "neq~",
+        "gt~"
+    ],
+    "source_archive": "Pd_Spectral_Toolkit[v1.1](Windows-amd64-32).dek",
+    "source_member": "Pd_Spectral_Toolkit/nor~-help.pd"
+}

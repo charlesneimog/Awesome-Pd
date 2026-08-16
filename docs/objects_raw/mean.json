@@ -27,8 +27,8 @@
     ],
     "similar": [
         "avg",
-        "mov.avg",
-        "sum",
-        "minmax"
+        "mean~",
+        "ls.mean",
+        "sum"
     ]
 }

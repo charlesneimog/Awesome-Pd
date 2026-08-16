@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "smlib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "SMLib",
+    "description": "`SMLib` (Signal processing for Mapping) is a collection of objects for analyzing and processing floats and vectors. It includes contextual stream operations, immediate vector operations, statistical analysis, filtering, histogram tools, unit conversions, and vector synthesis; use the listed individual objects, such as `lavg`, `vmax`, or `linspace`, for the desired operation.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "maxlib",
+        "fd_lib",
+        "multilib",
+        "sigpack"
+    ],
+    "source_archive": "smlib-v0.12.3-(Linux-armv7l-32)(Sources)-externals.tgz",
+    "source_member": "smlib/SMLib-help.pd"
+}

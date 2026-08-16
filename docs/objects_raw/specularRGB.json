@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
+        "specular",
         "emissionRGB",
-        "ambient",
         "ambientRGB",
-        "diffuse"
+        "ambient"
     ]
 }

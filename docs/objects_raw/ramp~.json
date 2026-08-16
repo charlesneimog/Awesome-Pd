@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
-        "clip",
-        "minmax~",
         "sampstoms~",
-        "pong"
+        "count",
+        "sh~",
+        "mstosamps~"
     ]
 }

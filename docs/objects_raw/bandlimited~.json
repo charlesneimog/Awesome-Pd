@@ -1,0 +1,31 @@
+{
+    "runs_on": [
+        "Mac",
+        "Linux",
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "bandlimited",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "bandlimited~",
+    "description": "`bandlimited~` generates band-limited waveforms, including square, pulse, triangle, saw, reverse saw, and saw-triangle types, using a series of wavetables with harmonic limits. Its third inlet accepts a signal from 0 to 1; a value of 0.5 produces a square wave much like `bl.sq~`.",
+    "categories": [
+        "Oscillators"
+    ],
+    "similar": [
+        "bl.pulse~",
+        "bl.sq~",
+        "bl.sawtri~",
+        "blosc~"
+    ],
+    "source_archive": "bandlimited-v1.0.0-(Darwin-i386-32)(Sources)(Darwin-x86_64-32)(Linux-amd64-64)(Windows-i386-32)-externals.zip",
+    "source_member": "bandlimited/bandlimited~-help.pd"
+}

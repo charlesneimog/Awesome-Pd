@@ -26,8 +26,8 @@
     ],
     "similar": [
         "keypress",
-        "mousestate",
         "keycode",
-        "mouse"
+        "mouse",
+        "mousestate"
     ]
 }

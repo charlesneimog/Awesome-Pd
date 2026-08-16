@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "streamStretch~",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "streamStretch~",
+    "description": "`streamStretch~` buffers incoming audio and generates playback streams whose duration, speed, transposition, amplitude, and envelope ranges can be controlled. Buffer recording must be enabled before output is heard, and streams can be triggered manually or automatically with polyphony hard-coded to 20.",
+    "categories": [
+        "Granular"
+    ],
+    "similar": [
+        "grainflow.live~",
+        "pvoc.live~",
+        "grainflow~",
+        "scramble~"
+    ],
+    "source_archive": "streamStretch~[v0.5.3].dek",
+    "source_member": "streamStretch~/streamStretch~-help.pd"
+}

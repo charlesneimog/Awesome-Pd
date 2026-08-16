@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "conv.color2rgba",
+    "description": "`conv.color2rgba` converts a supported named color, full hexadecimal color value (`#RRGGBB` or `#RRGGBBAA`), or color data into separate red, green, blue, and alpha channel values. Its output mode defaults to integer values in the 0–255 range; use `@float` for values in the 0–1 range, and `@pack` to output the channels as a list from the first outlet.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "conv.rgb2hex",
+        "conv.lab2rgb",
+        "conv.hsl2rgb",
+        "pofcolor"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/conv.color2rgba-help.pd"
+}

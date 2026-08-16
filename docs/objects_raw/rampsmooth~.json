@@ -26,8 +26,8 @@
     ],
     "similar": [
         "slide~",
+        "hid_smooth",
         "lowpass~",
-        "svfilter~",
-        "lop.bw~"
+        "lores~"
     ]
 }

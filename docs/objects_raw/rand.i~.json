@@ -27,9 +27,9 @@
         "General Utilities"
     ],
     "similar": [
-        "rand.f",
         "rand.i",
+        "rand.f",
         "rescale~",
-        "wrap2~"
+        "rand.list"
     ]
 }

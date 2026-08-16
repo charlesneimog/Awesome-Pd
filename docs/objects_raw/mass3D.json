@@ -36,7 +36,7 @@
     "similar": [
         "mass2D",
         "mass",
-        "link",
-        "iCircle2D"
+        "iCircle2D",
+        "iCircle3D"
     ]
 }

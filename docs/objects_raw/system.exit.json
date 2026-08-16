@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "system.exit",
+    "description": "`system.exit` quits Pure Data, optionally after a delay, and is intended for programmatically closing the application. Use the `exit` message with an optional return code; if omitted, the `@rc` property is used (default 0), while `@delay` sets the delay in milliseconds.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "system.exec",
+        "system",
+        "system.getenv",
+        "system.memsize"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/system.exit-help.pd"
+}

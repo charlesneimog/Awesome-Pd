@@ -28,7 +28,7 @@
     "similar": [
         "bitxor~",
         "bitor~",
-        "greaterthan~",
-        "greaterthaneq~"
+        "bitand~",
+        "not~"
     ]
 }

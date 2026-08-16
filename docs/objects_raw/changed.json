@@ -25,9 +25,9 @@
         "Logic"
     ],
     "similar": [
-        "trig2bang",
         "changed~",
-        "next",
-        "buddy"
+        "change-symbol",
+        "change-any",
+        "flow.change"
     ]
 }

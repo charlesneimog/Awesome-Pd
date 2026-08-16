@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "list-abs",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list-inter",
+    "description": "`list-inter` performs elementwise linear interpolation between two lists, using a float from 0 to 1 as the distance (factor) between them. Send the factor to the first inlet and the two lists to the second and third inlets; non-float elements in the first list are preserved.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "list-inter-many",
+        "list-unitvec",
+        "list-invint",
+        "linterp~"
+    ],
+    "source_archive": "list-abs-v0.1-20150529iem--externals.zip",
+    "source_member": "list-abs/list-inter-help.pd"
+}

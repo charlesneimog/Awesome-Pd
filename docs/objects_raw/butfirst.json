@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "rtc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "butfirst",
+    "description": "`butfirst` outputs an input list without its first element. It is useful for removing the leading item from lists such as `1 2 3 4 5` or `a b c d e f g h i`.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "first",
+        "butlast",
+        "list.first",
+        "list-popfirst"
+    ],
+    "source_archive": "rtc-v0.0.extended--externals.zip",
+    "source_member": "rtc/butfirst-help.pd"
+}

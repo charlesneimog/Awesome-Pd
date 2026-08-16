@@ -26,9 +26,9 @@
         "Math"
     ],
     "similar": [
+        "lessthaneq~",
         "greaterthan~",
         "greaterthaneq~",
-        "zigbinops",
-        "equals~"
+        "zigbinops"
     ]
 }

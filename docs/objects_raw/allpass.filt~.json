@@ -26,8 +26,8 @@
     ],
     "similar": [
         "allpass.2nd~",
-        "eq~",
-        "phaseshift~",
+        "allpass_1p~",
+        "allpass_2p~",
         "lowpass~"
     ]
 }

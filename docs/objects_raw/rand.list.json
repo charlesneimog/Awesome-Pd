@@ -27,8 +27,8 @@
     ],
     "similar": [
         "rand.i",
-        "urn",
+        "rand.dist",
         "rand.f",
-        "decide"
+        "rand.f~"
     ]
 }

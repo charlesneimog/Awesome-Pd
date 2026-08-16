@@ -25,9 +25,9 @@
         "Descriptors"
     ],
     "similar": [
-        "range~",
+        "pqpeak~",
+        "peak~",
         "peakamp~",
-        "range",
-        "fluid.bufloudness"
+        "tab_find_exact_peaks"
     ]
 }

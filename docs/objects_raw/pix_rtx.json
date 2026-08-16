@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
+        "pix_roll",
+        "pix_refraction",
         "pix_frei0r",
-        "pix_indycam",
-        "translate",
-        "pix_movement2"
+        "pix_grey"
     ]
 }

@@ -27,8 +27,8 @@
     ],
     "similar": [
         "wrap2",
-        "trunc~",
-        "cents2ratio~",
-        "sum~"
+        "floor~",
+        "ceil~",
+        "cents2ratio~"
     ]
 }

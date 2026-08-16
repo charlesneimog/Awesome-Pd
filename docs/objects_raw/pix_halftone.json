@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_kaleidoscope",
         "pix_motionblur",
         "pix_blur",
-        "gemrepeat"
+        "pix_kaleidoscope",
+        "pix_roll"
     ]
 }

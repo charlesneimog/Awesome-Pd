@@ -27,7 +27,7 @@
     "similar": [
         "specCentroid~",
         "barkSpecCentroid~",
-        "specSpread",
-        "specCentroid"
+        "specCentroid",
+        "barkSpecCentroid"
     ]
 }

@@ -27,8 +27,8 @@
     ],
     "similar": [
         "regex-help",
-        "match",
-        "makesymbol",
-        "matchbox"
+        "string.match",
+        "strcmp",
+        "symbol-s2l"
     ]
 }

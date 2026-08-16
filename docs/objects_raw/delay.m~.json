@@ -26,8 +26,8 @@
     ],
     "similar": [
         "delay~",
-        "ping.pong~",
-        "revdelay~",
-        "z~"
+        "+delay~",
+        "fx.delay~",
+        "ldelay"
     ]
 }

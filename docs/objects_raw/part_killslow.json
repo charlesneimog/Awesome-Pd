@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "part_vertex",
+        "part_killold",
         "part_damp",
-        "part_head",
-        "part_source"
+        "part_follow",
+        "part_vertex"
     ]
 }

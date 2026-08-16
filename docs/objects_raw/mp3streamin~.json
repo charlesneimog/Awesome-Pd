@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "unauthorized",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "mp3streamin~",
+    "description": "`mp3streamin~` receives audio in a peer-to-peer MP3 streaming setup, working with `mp3streamout~`. The help patch demonstrates it as `mp3streamin~ 5000 1` and notes that resampling is not currently supported.",
+    "categories": [
+        "Networking",
+        "Audio I/O"
+    ],
+    "similar": [
+        "mp3streamout~",
+        "p2p~",
+        "streamin~",
+        "streamin13~"
+    ],
+    "source_archive": "unauthorized[v0.1](Windows-amd64-32)(Sources).dek",
+    "source_member": "unauthorized/mp3streamin~-help.pd"
+}

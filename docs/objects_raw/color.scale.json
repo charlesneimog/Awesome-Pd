@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "color.scale",
+    "description": "`color.scale` creates a color scale by interpolating through a list of colors. Send it a float in the range 0–1 to calculate and output the corresponding color; output can be configured as `data:color`, RGB, or hexadecimal.",
+    "categories": [
+        "Graphics"
+    ],
+    "similar": [
+        "color.mix",
+        "color",
+        "part_targetcolor",
+        "conv.color2rgba"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/color.scale-help.pd"
+}

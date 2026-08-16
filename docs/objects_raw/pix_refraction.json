@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_crop",
-        "pix_mask",
-        "pix_takealpha",
-        "pix_sig2pix~"
+        "pix_roll",
+        "pix_rtx",
+        "pix_metaimage",
+        "pix_rds"
     ]
 }

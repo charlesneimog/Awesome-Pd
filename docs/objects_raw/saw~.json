@@ -25,9 +25,9 @@
         "Oscillators"
     ],
     "similar": [
-        "cosine~",
-        "bl.wavetable~",
-        "gaussian~",
-        "sine~"
+        "osc.saw~",
+        "pb.saw~",
+        "bl.saw~",
+        "blsaw~"
     ]
 }

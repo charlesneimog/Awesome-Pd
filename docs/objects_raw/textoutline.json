@@ -26,8 +26,8 @@
     ],
     "similar": [
         "text2d",
-        "_textbbox",
         "textextruded",
-        "text3d"
+        "_textbbox",
+        "pqtorusknots"
     ]
 }

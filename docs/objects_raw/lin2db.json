@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
+        "lin2db~",
         "atodb",
-        "dbtoa~",
-        "db2lin",
-        "atodb~"
+        "tdh.math.lin2dbfs",
+        "phon2db"
     ]
 }

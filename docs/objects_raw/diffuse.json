@@ -26,8 +26,8 @@
     ],
     "similar": [
         "diffuseRGB",
+        "emissionRGB",
         "ambient",
-        "specularRGB",
-        "emissionRGB"
+        "specular"
     ]
 }

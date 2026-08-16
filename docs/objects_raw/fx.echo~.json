@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fx.echo~",
+    "description": "`fx.echo~` is an enhanced echo effect that processes an input signal with adjustable echo time and feedback. Its first two creation arguments set delay time in milliseconds (10–10000 ms) and the feedback coefficient, and a float sent to its second inlet changes the delay time.",
+    "categories": [
+        "Delay"
+    ],
+    "similar": [
+        "fx.echo2~",
+        "fx.recho~",
+        "echo~",
+        "pp.echo~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/fx.echo~-help.pd"
+}

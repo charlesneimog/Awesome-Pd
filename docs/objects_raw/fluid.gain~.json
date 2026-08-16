@@ -31,9 +31,9 @@
         "Math"
     ],
     "similar": [
-        "sinh~",
+        "fluid.bufscale",
+        "taint~",
         "lin2db",
-        "pz2coeff",
-        "quantize~"
+        "atodb~"
     ]
 }

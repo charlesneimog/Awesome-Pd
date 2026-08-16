@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "hid",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "hid_square",
+    "description": "`hid_square` maps a float input in the `hid` output range of 0 to 1 onto a square curve. It is a control abstraction with one float inlet and one float outlet.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "hid_squareroot",
+        "hid_cube",
+        "hid_exp",
+        "hid_log"
+    ],
+    "source_archive": "hid-0.7-1[v0.7-1](Darwin-arm64-32)(Sources).dek",
+    "source_member": "hid-0.7-1/hid_square-help.pd"
+}

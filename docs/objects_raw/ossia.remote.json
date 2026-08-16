@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ossia",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ossia.remote",
+    "description": "`ossia.remote` monitors and remote-controls parameters declared with `ossia.param` and `ossia.model`, including parameters on other OSSIA devices. Its name or address binds it to the corresponding parameter, and it can use pattern matching to bind multiple addresses or perform unit conversion when units are declared.",
+    "categories": [
+        "Control I/O",
+        "Networking"
+    ],
+    "similar": [
+        "ossia.param",
+        "ossia",
+        "ossia.attribute",
+        "ossia.client"
+    ],
+    "source_archive": "ossia-v-(Windows-i386-32)-externals.zip",
+    "source_member": "ossia/helps/ossia.remote-help.pd"
+}

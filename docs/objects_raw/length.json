@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
+        "list.length",
+        "tabset",
         "l2s",
-        "sort",
-        "tabdump",
-        "tabset"
+        "rawprint"
     ]
 }

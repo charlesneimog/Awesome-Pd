@@ -25,9 +25,9 @@
         "General Utilities"
     ],
     "similar": [
-        "merge",
-        "reverse",
-        "break",
-        "slice"
+        "rawprint",
+        "b2f",
+        "time",
+        "operating_system"
     ]
 }

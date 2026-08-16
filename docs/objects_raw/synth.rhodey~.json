@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "synth.rhodey~",
+    "description": "`synth.rhodey~` is an STK Fender Rhodes electric-piano instrument that synthesizes sound by summing two simple FM pairs. Play it with `note NOTE VEL` messages (MIDI note and velocity from 0 to 127); its outlet provides the synthesized signal.",
+    "categories": [
+        "Oscillators"
+    ],
+    "similar": [
+        "synth.wurley~",
+        "synth.tube_bell~",
+        "synth.dx7~",
+        "synth.bee3~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/synth.rhodey~-help.pd"
+}

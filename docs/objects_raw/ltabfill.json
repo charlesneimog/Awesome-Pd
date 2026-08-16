@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "pdlua",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ltabfill",
+    "description": "`ltabfill` is a clone of `lexpr` that writes the result of a function into a named table; the table name is supplied as its first argument and inlet, followed by the usual `lexpr` expression setup. Its implicit expression parameter `x` ranges from 0 inclusive to 1 exclusive regardless of the table size, and table displays may need to be closed and reopened to refresh correctly.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "tabsize",
+        "ltabdump",
+        "tabfind",
+        "matrix.fill"
+    ],
+    "source_archive": "pdlua[v0.12.24.1-beta](Darwin-amd64-32)(Darwin-amd64-64)(Darwin-arm64-32)(Darwin-arm64-64).dek",
+    "source_member": "pdlua/pdlua/examples/ltabfill-help.pd"
+}

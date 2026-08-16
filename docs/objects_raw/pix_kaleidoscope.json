@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_crop",
-        "pix_motionblur",
-        "imageVert",
-        "gemrepeat"
+        "pix_clearblock",
+        "pix_multiply",
+        "pix_halftone",
+        "pix_multitexture"
     ]
 }

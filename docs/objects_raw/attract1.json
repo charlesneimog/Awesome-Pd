@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "chaos",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "attract1",
+    "description": "`attract1` generates points for a non-continuous attractor and is intended for finding a random attractor set. It accepts a `param` message with five parameter values, while `search` and `show` messages are used in the demonstrated search workflow.",
+    "categories": [
+        "Algorithmic"
+    ],
+    "similar": [
+        "dejong",
+        "latoomutgamma",
+        "latoomutbeta",
+        "latoomutalpha"
+    ],
+    "source_archive": "chaos-v0.0.extended-(Linux-i386-32)(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "chaos/attract1-help.pd"
+}

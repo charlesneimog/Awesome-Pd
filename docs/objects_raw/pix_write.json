@@ -27,8 +27,8 @@
     ],
     "similar": [
         "pix_writer",
-        "pix_record",
-        "pix_buffer_filmopen",
-        "pix_multiimage"
+        "pix_multiimage",
+        "pix_snap2tex",
+        "pix_record"
     ]
 }

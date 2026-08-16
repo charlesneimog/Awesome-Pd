@@ -25,9 +25,9 @@
         "Envelopes"
     ],
     "similar": [
-        "smooth",
-        "glide2",
         "smooth2~",
-        "asr~"
+        "smooth",
+        "smoother~",
+        "smooth-line"
     ]
 }

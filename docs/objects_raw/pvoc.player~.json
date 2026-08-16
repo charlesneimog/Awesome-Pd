@@ -30,6 +30,6 @@
         "player~",
         "gran.player~",
         "batch.rec~",
-        "stretch.shift~"
+        "rec.file~"
     ]
 }

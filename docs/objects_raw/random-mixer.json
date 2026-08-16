@@ -1,0 +1,28 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "automatonism",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "random-mixer",
+    "description": "`random-mixer` is a four-input mixer with per-channel gain and on/off controls, stereo left/right outputs, and individual outputs for channels 1–4. It provides controls and trigger/gate inputs for randomly soloing or muting channels and swapping FX routing; its FX send amount can also be set by a control-voltage input.",
+    "categories": [
+        "Routing",
+        "Stochastic / Probabilistic"
+    ],
+    "similar": [
+        "route.random",
+        "random-gates",
+        "random",
+        "probability"
+    ],
+    "source_archive": "automatonism[v0.4.2.4].dek",
+    "source_member": "automatonism/patch_editor_abs/random-mixer-help.pd"
+}

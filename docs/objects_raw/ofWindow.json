@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ofelia",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ofWindow",
+    "description": "`ofWindow` is a graphics-window handler used to create or destroy a window and change properties such as its position, size, title, window mode, and OpenGL/OpenGL ES version. Send `create` or `destroy` to manage the window; sending a bang outputs a pointer to the class.",
+    "categories": [
+        "Graphics",
+        "GUI"
+    ],
+    "similar": [
+        "pdp_glx",
+        "pofwin",
+        "pdp_xv",
+        "gemwin+"
+    ],
+    "source_archive": "ofelia-v4.0.0-(Linux-amd64-64)-externals.tar.gz",
+    "source_member": "ofelia/abs/ofWindow-help.pd"
+}

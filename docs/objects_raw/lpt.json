@@ -26,8 +26,8 @@
     ],
     "similar": [
         "gemtablet",
-        "gemkeyboard",
-        "gemkeyname",
-        "pix_video"
+        "system.serial",
+        "pii2c",
+        "digital-out~"
     ]
 }

@@ -27,9 +27,9 @@
         "Graphics"
     ],
     "similar": [
-        "scope~",
         "graph~",
-        "fluid.waveform",
-        "tID_fft"
+        "scope~",
+        "biplot",
+        "zbiplot"
     ]
 }

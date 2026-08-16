@@ -25,9 +25,9 @@
         "Filters"
     ],
     "similar": [
-        "svfilter~",
         "reson~",
-        "hip.bw~",
-        "lop.bw~"
+        "lowpass~",
+        "svfilter~",
+        "lp-filter"
     ]
 }

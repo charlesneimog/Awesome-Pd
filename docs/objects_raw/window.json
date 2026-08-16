@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "window",
+    "description": "`window` returns a sample value for a specified position in a selected window function, such as Hann, Hamming, Gauss, or Blackman, and is intended for generating window data. Send a float index from 0 to SIZE−1 to output one value, or a bang to output all window values as a list; the window size has a minimum of 16 samples.",
+    "categories": [
+        "FFT"
+    ],
+    "similar": [
+        "array-window",
+        "windowing",
+        "windower",
+        "windowvec~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/window-help.pd"
+}

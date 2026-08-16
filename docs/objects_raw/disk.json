@@ -26,8 +26,8 @@
     ],
     "similar": [
         "cone",
-        "trapezoid",
-        "cuboid",
-        "cylinder"
+        "cylinder",
+        "rectangle",
+        "rotateXYZ"
     ]
 }

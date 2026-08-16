@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "path.pattern",
+    "description": "`path.pattern` generates a new filename from a symbol pattern, expanding `###` sequences to numbers and variables such as `%DATE%`, `%TIME%`, or `%NOW%` to the current date and time. Send a symbol to set the pattern and immediately generate a filename, or send a bang to generate one from the current pattern.",
+    "categories": [
+        "File I/O"
+    ],
+    "similar": [
+        "snd.file.pattern",
+        "path.split",
+        "path.lsdir",
+        "path.basename"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/path.pattern-help.pd"
+}

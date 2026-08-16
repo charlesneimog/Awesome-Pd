@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "mapping",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "resample",
+    "description": "`resample` is a control abstraction with an anything inlet, a float inlet, and a list outlet. The help patch shows instances such as `resample 10` and `resample 100`, but it does not provide enough information to explain the object’s behavior or purpose.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "split_n",
+        "upsample",
+        "pmrepulsor_2d",
+        "j.return_array"
+    ],
+    "source_archive": "mapping-v0.0.extended--externals.zip",
+    "source_member": "mapping/resample-help.pd"
+}

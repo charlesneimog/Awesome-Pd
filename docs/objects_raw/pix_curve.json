@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_gain",
-        "pix_color",
+        "pix_convert",
         "pix_mean_color",
-        "pix_takealpha"
+        "pix_color",
+        "curve"
     ]
 }

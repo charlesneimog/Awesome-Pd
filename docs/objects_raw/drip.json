@@ -25,9 +25,9 @@
         "Procedural"
     ],
     "similar": [
-        "l.attrfilter",
-        "l.readsvg",
-        "polymetro~",
+        "forloop",
+        "boids3d",
+        "synth.glitch~",
         "repeat"
     ]
 }

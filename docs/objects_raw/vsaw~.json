@@ -28,8 +28,8 @@
     ],
     "similar": [
         "bl.vsaw~",
-        "saw2~",
-        "square~",
-        "tri~"
+        "bl.saw2~",
+        "bl.saw~",
+        "saw~"
     ]
 }

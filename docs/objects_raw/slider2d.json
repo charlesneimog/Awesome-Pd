@@ -26,9 +26,9 @@
         "Control IO"
     ],
     "similar": [
-        "circle",
-        "popmenu",
         "pad",
+        "ui.slider2d",
+        "popmenu",
         "button"
     ]
 }

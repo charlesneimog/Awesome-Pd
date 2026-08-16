@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "fd_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fd_next",
+    "description": "`fd_next` sends a bang to the next adjacent (`+1`) instance, supporting communication between numbered instances such as those created with `clone`. It takes a selector name and instance number as arguments; its inlet accepts an arbitrary value to pass to the next selector.",
+    "categories": [
+        "Routing"
+    ],
+    "similar": [
+        "fd_bang",
+        "fd_send",
+        "fd_seltab",
+        "fd_receive"
+    ],
+    "source_archive": "fd_lib-macos[v0.4.0](Darwin-arm64-32)(Sources).dek",
+    "source_member": "fd_lib-macos/fd_next-help.pd"
+}

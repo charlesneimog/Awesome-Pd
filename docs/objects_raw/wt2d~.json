@@ -28,7 +28,7 @@
     "similar": [
         "wavetable~",
         "cosine~",
-        "bl.tri~",
-        "parabolic~"
+        "parabolic~",
+        "bl.tri~"
     ]
 }

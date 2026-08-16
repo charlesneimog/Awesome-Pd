@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "tclpd",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "slider2",
+    "description": "`slider2` is a configurable slider-style GUI object demonstrated in vertical and horizontal layouts. Its orientation can be changed with `config -orient vertical` or `config -orient horizontal`, and the patch also shows configurable dimensions, head size, range bottom, and background color.",
+    "categories": [
+        "GUI"
+    ],
+    "similar": [
+        "slider",
+        "c.rslider",
+        "c.slider",
+        "sliderh"
+    ],
+    "source_archive": "tclpd-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "tclpd/examples/slider2-help.pd"
+}

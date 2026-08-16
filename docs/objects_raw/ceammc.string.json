@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ceammc.string",
+    "description": "`ceammc.string` is the ceammc library’s collection of objects for constructing, inspecting, formatting, joining, splitting, and modifying strings. Use `string` as the string constructor, while specialized objects such as `string.contains`, `string.match`, and `string2symbol` perform specific string operations, including Unicode-aware character counting with `string.length`.",
+    "categories": [
+        "Text"
+    ],
+    "similar": [
+        "ceammc.symbol",
+        "string",
+        "string.length",
+        "string.contains"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/ceammc.string-help.pd"
+}

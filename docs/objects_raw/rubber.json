@@ -27,8 +27,8 @@
     ],
     "similar": [
         "ripple",
-        "mesh_square",
-        "vertex_program",
-        "part_follow"
+        "fx.distortion3~",
+        "distortion2~",
+        "crusher~"
     ]
 }

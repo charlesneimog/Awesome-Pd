@@ -27,7 +27,7 @@
     "similar": [
         "pix_convert",
         "pix_grey",
-        "pix_posterize",
-        "pix_color"
+        "pix_rgb2hsv",
+        "pix_posterize"
     ]
 }

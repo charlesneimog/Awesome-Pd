@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "jmmmp",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "uhr",
+    "description": "`uhr` is a GUI object that shows the time in hours, minutes, and seconds (H/M/S). It is intended for displaying the current time in a Pure Data patch.",
+    "categories": [
+        "GUI"
+    ],
+    "similar": [
+        "fd_stopwatch",
+        "fd_guiDelta",
+        "rgb-color",
+        "radix"
+    ],
+    "source_archive": "jmmmp-v0.61--externals.zip",
+    "source_member": "jmmmp/uhr-help.pd"
+}

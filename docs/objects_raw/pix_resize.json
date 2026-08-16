@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "pix_sig2pix~",
-        "pix_crop",
-        "pix_mix",
-        "gemmanager"
+        "pix_refraction",
+        "pix_roi",
+        "gemmanager",
+        "pix_rectangle"
     ]
 }

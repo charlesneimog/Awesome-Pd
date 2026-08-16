@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
-        "gemlist_matrix",
-        "color",
-        "pix_alpha",
-        "pix_2grey"
+        "pix_color",
+        "pix_coloralpha",
+        "pix_convert",
+        "color"
     ]
 }

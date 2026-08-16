@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
+        "pix_color",
+        "pix_backlight",
         "pix_duotone",
-        "primTri",
-        "pix_normalize",
-        "gemlist_matrix"
+        "primTri"
     ]
 }

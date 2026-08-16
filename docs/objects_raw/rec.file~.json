@@ -27,8 +27,8 @@
     ],
     "similar": [
         "batch.rec~",
-        "record~",
         "pvoc.player~",
-        "scala"
+        "record~",
+        "play.file~"
     ]
 }

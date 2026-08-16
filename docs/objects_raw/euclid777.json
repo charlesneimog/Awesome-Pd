@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "automatonism",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "euclid777",
+    "description": "The help patch identifies `euclid777` and provides headings for inputs, controls, and outputs, but contains no details about its behavior or purpose. The available evidence is therefore insufficient to describe how `euclid777` works or provide a usage detail.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "hid_menu",
+        "rtout",
+        "throw13~",
+        "catch13~"
+    ],
+    "source_archive": "automatonism[v0.4.2.4].dek",
+    "source_member": "automatonism/patch_editor_abs/euclid777-help.pd"
+}

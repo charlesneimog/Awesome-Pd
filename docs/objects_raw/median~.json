@@ -25,9 +25,9 @@
         "Math"
     ],
     "similar": [
-        "median",
-        "tavg~",
-        "delta~",
-        "abs~"
+        "median_3",
+        "median_5",
+        "median_7",
+        "array-median"
     ]
 }

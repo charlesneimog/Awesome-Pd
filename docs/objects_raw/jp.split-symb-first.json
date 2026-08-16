@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "jmmmp",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "jp.split-symb-first",
+    "description": "`jp.split-symb-first` splits a symbol at the first occurrence of a separator, providing the parts before and after the split. The separator can be supplied as a single-letter symbol or a single-digit float.",
+    "categories": [
+        "Text"
+    ],
+    "similar": [
+        "jp.split-symb-last",
+        "symbol.split",
+        "jp.symbol-expand",
+        "string.split"
+    ],
+    "source_archive": "jmmmp-v0.61--externals.zip",
+    "source_member": "jmmmp/jp.split-symb-first-help.pd"
+}

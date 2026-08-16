@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "iemmatrix",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "mtx_window",
+    "description": "`mtx_window` creates a matrix row vector containing a window function, specified by a window type and length. It supports types demonstrated in the help patch such as rectangular, Bartlett, sine, Hamming, Hanning, Blackman, Gaussian, and Kaiser; for Gaussian windows, a third parameter specifies attenuation at the borders.",
+    "categories": [
+        "Spectral Processing"
+    ],
+    "similar": [
+        "array.window",
+        "fd_blackman~",
+        "pol2rec~",
+        "fd_bark~"
+    ],
+    "source_archive": "iemmatrix[v0.6.0](Irix-mipsn32-32)(Irix-mipsn32-64).dek",
+    "source_member": "iemmatrix/mtx_window-help.pd"
+}

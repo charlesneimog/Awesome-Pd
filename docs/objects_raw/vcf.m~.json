@@ -25,9 +25,9 @@
         "Filters"
     ],
     "similar": [
-        "lores~",
-        "svf~",
-        "svfilter~",
-        "lop.bw~"
+        "vcf_hp2~",
+        "lp-filter",
+        "bp-filter",
+        "svf~"
     ]
 }

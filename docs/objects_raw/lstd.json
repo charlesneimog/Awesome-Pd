@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Linux"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "smlib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "lstd",
+    "description": "`lstd` calculates a leaky standard deviation from incoming floats, using a decaying accumulator for control-rate filtering. Its creation argument sets the initial half-decay time in number of activations, and the `decay` input updates that half-decay time; send `clear` to reset the accumulator.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "lrange",
+        "lavg",
+        "vstd",
+        "vlrange"
+    ],
+    "source_archive": "smlib-v0.12.3-(Linux-armv7l-32)(Sources)-externals.tgz",
+    "source_member": "smlib/lstd-help.pd"
+}

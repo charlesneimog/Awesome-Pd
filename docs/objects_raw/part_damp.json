@@ -26,8 +26,8 @@
     ],
     "similar": [
         "part_killslow",
-        "part_head",
-        "part_vertex",
-        "part_size"
+        "part_move",
+        "part_killold",
+        "part_follow"
     ]
 }

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ad",
+    "description": "`ad` is an attack–decay envelope object based on Miller’s `adsr`. It accepts numeric triggers whose values correspond to envelope stages; the help patch demonstrates `ad 1 250 850`, but does not explain the arguments further.",
+    "categories": [
+        "Envelopes"
+    ],
+    "similar": [
+        "ar",
+        "adsr",
+        "satk.util.ad~",
+        "tdh.util.ad~"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/ad-help.pd"
+}

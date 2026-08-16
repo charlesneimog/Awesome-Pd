@@ -26,8 +26,8 @@
     ],
     "similar": [
         "gemhead",
-        "pqtorusknots",
-        "pix_multitexture",
-        "part_draw"
+        "GEMgl",
+        "gemwin",
+        "gemcocoawindow"
     ]
 }

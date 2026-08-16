@@ -27,9 +27,9 @@
         "Multichannel"
     ],
     "similar": [
-        "fluid.waveform",
         "lua",
+        "hello",
         "scope~",
-        "scopeXYZ~"
+        "cyclone"
     ]
 }

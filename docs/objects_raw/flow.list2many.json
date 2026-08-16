@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "flow.list2many",
+    "description": "`flow.list2many` routes each element of an incoming list to the corresponding outlet, prepending the selector assigned to that position. Provide the selectors as creation arguments; for example, `flow.list2many @a @b @c` turns `1 2 3` into the messages `@a 1`, `@b 2`, and `@c 3` at its respective outlets.",
+    "categories": [
+        "Routing"
+    ],
+    "similar": [
+        "flow.less",
+        "flow.match",
+        "flow.select",
+        "flow.float"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/flow.list2many-help.pd"
+}

@@ -25,9 +25,9 @@
         "Graphics"
     ],
     "similar": [
+        "pix_a_2grey",
+        "pix_grey",
         "pix_rgba",
-        "pix_convert",
-        "pix_yuv",
-        "pix_colormatrix"
+        "pix_convert"
     ]
 }

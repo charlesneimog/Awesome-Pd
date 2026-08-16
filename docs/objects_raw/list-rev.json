@@ -1,0 +1,27 @@
+{
+    "runs_on": [],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "list-abs",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "list-rev",
+    "description": "`list-rev` reverses the order of elements in a list and outputs the reversed list. Applying `list-rev` a second time restores the original order.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "list_reverse",
+        "list.reverse",
+        "list-reorder",
+        "list-rot"
+    ],
+    "source_archive": "list-abs-v0.1-20150529iem--externals.zip",
+    "source_member": "list-abs/list-rev-help.pd"
+}

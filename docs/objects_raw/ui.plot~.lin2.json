@@ -1,0 +1,30 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ui.plot~.lin2",
+    "description": "`ui.plot~.lin2` is a help-patch example for plotting two signals with `ui.plot~`, using `math.sin~` and `math.cos~` alongside a `plot.linspace~` range from 0 to 10 with 300 points. The available patch evidence does not establish any behavior specific to an object actually named `ui.plot~.lin2`.",
+    "categories": [
+        "GUI",
+        "Graphics"
+    ],
+    "similar": [
+        "ui.plot~.lin3",
+        "ui.plot~.lin1",
+        "ui.plot~.ln",
+        "ui.plot~.log2"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/ui.plot~.lin2-help.pd"
+}

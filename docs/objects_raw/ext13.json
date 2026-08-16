@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Windows"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ext13",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "ext13",
+    "description": "The patch does not document an `ext13` object; it presents `ext13` as a collection of externals written for the author’s own needs. It briefly identifies components such as non-blocking `piperead~` and `pipewrite~`, while warning that most are not well tested and need more work.",
+    "categories": [
+        "General Utilities"
+    ],
+    "similar": [
+        "sigpack",
+        "filesize",
+        "receive13",
+        "serial_mt"
+    ],
+    "source_archive": "ext13[v0.17.1-4](Windows-amd64-32)(Sources).dek",
+    "source_member": "ext13/ext13-help.pd"
+}

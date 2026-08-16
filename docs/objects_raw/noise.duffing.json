@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "noise.duffing",
+    "description": "`noise.duffing` generates values from a numerical solution of the Duffing attractor equations, providing the system’s dx and dy values through two outlets. Send it a bang—commonly from a `metro`—to output the next values; its optional creation arguments set a, b, w, and the time step dt, with defaults of 0.25, 0.3, 1.0, and 0.01.",
+    "categories": [
+        "Stochastic"
+    ],
+    "similar": [
+        "noise.henon_heilles",
+        "noise.lyapunov",
+        "noise.rossler",
+        "noise.lorenz"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/noise.duffing-help.pd"
+}

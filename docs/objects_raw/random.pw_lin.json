@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "random.pw_lin",
+    "description": "`random.pw_lin` generates random floating-point values from a piecewise linear distribution defined by interleaved interval boundaries and boundary probabilities. Send a bang to generate a value, or a list to set new distribution values; use `@seed` to obtain reproducible sequences.",
+    "categories": [
+        "Stochastic / Probabilistic"
+    ],
+    "similar": [
+        "random.pw_const",
+        "random.linear",
+        "random.gauss",
+        "random.int"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/random.pw_lin-help.pd"
+}

@@ -25,9 +25,9 @@
         "Routing"
     ],
     "similar": [
-        "router",
-        "demultiplex",
-        "gate",
-        "mux~"
+        "split3",
+        "prop.split",
+        "split_my_msgs",
+        "midi.split"
     ]
 }

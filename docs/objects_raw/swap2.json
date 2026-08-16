@@ -26,9 +26,9 @@
         "General Utilities"
     ],
     "similar": [
-        "bondo",
+        "swap~",
         "reverse",
-        "universal",
-        "relay"
+        "swap-any",
+        "hot"
     ]
 }

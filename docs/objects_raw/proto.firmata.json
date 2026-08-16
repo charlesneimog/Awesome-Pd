@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "proto.firmata",
+    "description": "`proto.firmata` provides basic Firmata protocol support for communicating with an Arduino, converting raw serial bytes and producing tagged protocol output. It can query firmware, protocol version, pin capabilities and state, configure pin modes and reporting, and write digital or PWM values; for example, `write_dpin` should target a pin configured as OUTPUT.",
+    "categories": [
+        "Control I/O"
+    ],
+    "similar": [
+        "proto.sp.alpaca",
+        "arduino",
+        "proto.moppy",
+        "ceammc.proto"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/proto.firmata-help.pd"
+}

@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "jasch_lib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "memchr",
+    "description": "`memchr` searches a symbol for a specified character, with inputs converted by `tosymbol`. The character can be changed using messages such as `set :`, `set _`, or `set !`; the patch does not clearly establish the exact output format.",
+    "categories": [
+        "Text"
+    ],
+    "similar": [
+        "strchr",
+        "symbolSplit",
+        "strlen",
+        "symbol.split"
+    ],
+    "source_archive": "jasch_lib-v0-0extended-(Darwin-i386-32)(Darwin-PowerPC-32)(Darwin-x86_64-32)-externals.tar.gz",
+    "source_member": "jasch_lib/memchr-help.pd"
+}

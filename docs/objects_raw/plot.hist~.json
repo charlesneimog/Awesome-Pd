@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "plot.hist~",
+    "description": "`plot.hist~` calculates a histogram from an input signal and outputs a signal intended for `array.plot~` or `ui.plot~`. Send it a bang to start the calculation; properties configure the sample count, number of bins, input range, and optional clipping to that range.",
+    "categories": [
+        "Descriptors"
+    ],
+    "similar": [
+        "hist",
+        "array.bpm",
+        "pdp_histo",
+        "an.zero~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/plot.hist~-help.pd"
+}

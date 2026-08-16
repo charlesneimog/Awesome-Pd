@@ -25,9 +25,9 @@
         "Stochastic"
     ],
     "similar": [
+        "brown",
         "stepnoise",
-        "lfnoise~",
-        "drunk",
-        "rand.f~"
+        "noise.colored~",
+        "noise.white~"
     ]
 }

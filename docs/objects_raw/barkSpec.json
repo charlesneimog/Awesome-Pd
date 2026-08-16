@@ -25,9 +25,9 @@
     "title": "barkSpec",
     "description": "The `barkSpec` object calculates the Bark spectrum of an audio sample or a specified segment within a sample array. It allows configuration of analysis parameters such as window function and filterbank spacing. This object is useful for psychoacoustically informed audio analysis, particularly for timbre description.",
     "similar": [
+        "barkSpec~",
         "barkSpecSlope",
-        "barkSpecCentroid",
-        "barkSpecBrightness",
-        "barkSpecRolloff~"
+        "barkSpecRolloff~",
+        "barkSpecCentroid"
     ]
 }

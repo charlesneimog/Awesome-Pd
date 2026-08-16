@@ -27,7 +27,7 @@
     "similar": [
         "barkSpecRolloff",
         "specRolloff~",
-        "barkSpecCentroid~",
+        "specRolloff",
         "barkSpecFlatness~"
     ]
 }

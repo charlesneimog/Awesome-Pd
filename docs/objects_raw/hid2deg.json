@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "hid",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "hid2deg",
+    "description": "`hid2deg` converts floating-point numbers from the normalized `hid` range into degrees. Send a float in the 0–1 `hid` range to its inlet to obtain the corresponding degree value from its outlet.",
+    "categories": [
+        "Math"
+    ],
+    "similar": [
+        "hid2rad",
+        "rad2deg",
+        "hid_squareroot",
+        "deg2hid"
+    ],
+    "source_archive": "hid-0.7-1[v0.7-1](Darwin-arm64-32)(Sources).dek",
+    "source_member": "hid-0.7-1/hid2deg-help.pd"
+}

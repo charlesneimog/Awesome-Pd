@@ -26,9 +26,9 @@
         "Text"
     ],
     "similar": [
-        "atoi",
+        "tosymbol",
         "separate",
-        "sprintf",
-        "tosymbol"
+        "format",
+        "unite"
     ]
 }

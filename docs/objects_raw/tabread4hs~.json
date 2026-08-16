@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "shadylib",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "tabread4hs~",
+    "description": "`tabread4hs~` is presented as an updated version of nusmuk-audio’s `tabread4c~` with an audio-rate capability. The available help-patch text does not specify what that capability is, the object’s precise purpose, or how to use it.",
+    "categories": [
+        "Data Structures"
+    ],
+    "similar": [
+        "tabreadb",
+        "tabread2",
+        "tabreadl",
+        "iem_tabread4"
+    ],
+    "source_archive": "shadylib[v2.3.0](Darwin-amd64-32).dek",
+    "source_member": "shadylib/tabread4hs~-help.pd"
+}

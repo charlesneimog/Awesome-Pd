@@ -26,8 +26,8 @@
     ],
     "similar": [
         "sysrt.out",
-        "pgm.out",
         "midi.clock",
-        "note.out"
+        "ptouch.in",
+        "bend.out"
     ]
 }

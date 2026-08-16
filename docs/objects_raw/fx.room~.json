@@ -1,0 +1,29 @@
+{
+    "runs_on": [
+        "Mac"
+    ],
+    "download_link": "",
+    "available_on_deken": true,
+    "bug_reports": "",
+    "developers": [],
+    "part_of_library": true,
+    "library_name": "ceammc",
+    "articles": [],
+    "videos": [],
+    "musics": [],
+    "contributors": [],
+    "ai": true,
+    "title": "fx.room~",
+    "description": "`fx.room~` emulates Gardner’s room-reverberation algorithms, processing an input signal to create a room effect. Set its room size through the second inlet or the `@size` property, using values from 0 to 3.",
+    "categories": [
+        "Reverb"
+    ],
+    "similar": [
+        "fx.satrev~",
+        "fx.freeverb2~",
+        "fx.freeverb~",
+        "fx.infrev~"
+    ],
+    "source_archive": "ceammc[v0.9.7](Darwin-arm64-32).dek",
+    "source_member": "ceammc/fx.room~-help.pd"
+}

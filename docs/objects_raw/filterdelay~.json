@@ -26,9 +26,9 @@
         "Filters"
     ],
     "similar": [
-        "allpass~",
-        "teeth~",
-        "comb.filt~",
-        "comb~"
+        "combfilter",
+        "+delay~",
+        "delay~",
+        "comb.filt~"
     ]
 }
