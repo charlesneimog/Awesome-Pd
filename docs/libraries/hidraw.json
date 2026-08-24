@@ -1,5 +1,15 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "A Pure Data external that provides read access to raw HID data by wrapping the hidapi library. It is distributed through Deken for multiple operating systems.",
+    "issues": "https://github.com/Lucarda/pd-hidraw/issues",
+    "link": "https://github.com/Lucarda/pd-hidraw",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://github.com/Lucarda/pd-hidraw",
+            "https://lists.iem.at/hyperkitty/list/pd-announce%40lists.iem.at/latest?count=200&page=1"
+        ],
+        "notes": "The repository README calls itself the home of pd-hidraw, and the author's release announcement links the same source repository and Deken package.",
+        "checked_at": "2026-08-24T21:21:21+00:00"
+    }
 }

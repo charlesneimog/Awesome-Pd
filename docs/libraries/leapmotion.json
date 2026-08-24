@@ -1,5 +1,15 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "A flext-based Pure Data external that connects to the Leap Motion service and exposes controller tracking data inside Pd.",
+    "issues": "https://github.com/chikashimiyama/Pd_leapmotion/issues",
+    "link": "https://github.com/chikashimiyama/Pd_leapmotion",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://forum.pdpatchrepo.info/topic/6376/leap-any-dev-interrested-in-early-pd-handling-investigations",
+            "https://forum.pdpatchrepo.info/topic/14063/leapmotion-external-on-windows-64bit"
+        ],
+        "notes": "The Pd forum explicitly identifies this repository as the leapmotion external and links one of its issues. A separate Windows fork exists, but the evidence points to chikashimiyama/Pd_leapmotion as the original project.",
+        "checked_at": "2026-08-24T21:27:38+00:00"
+    }
 }

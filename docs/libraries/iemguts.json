@@ -1,5 +1,16 @@
 {
-    "description": "",
+    "description": "A collection of Pd externals that exposes aspects of Pd's internal patch and canvas machinery. It is commonly used for dynamic patching and related introspection operations.",
     "issues": "",
-    "link": ""
+    "link": "https://git.iem.at/pd/iemguts",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://git.iem.at/pd/iemguts",
+            "https://forum.puredata.info/topic/14535/instance-specific-dynamic-patching-documentation-assistance/1",
+            "https://github.com/pure-data/pd-lib-builder"
+        ],
+        "notes": "The official project describes itself as working with the “intestines of Pd.” No issue-tracker URL was independently verified.",
+        "checked_at": "2026-08-24T21:24:21+00:00"
+    }
 }

@@ -1,5 +1,16 @@
 {
-    "description": "",
+    "description": "A Pd library/package named bytestruct is independently listed in a Pd-library catalog, but the available public evidence did not establish its functionality, maintainer, or canonical source repository. Unrelated Racket and Rust projects with the same name were excluded as name collisions.",
     "issues": "",
-    "link": ""
+    "link": "",
+    "research": {
+        "status": "partial",
+        "confidence": "low",
+        "sources": [
+            "https://github.com/charlesneimog/Awesome-Pd/blob/main/TODO.md",
+            "https://pkgs.racket-lang.org/package/bytestruct",
+            "https://docs.rs/bytestruct/latest/bytestruct"
+        ],
+        "notes": "Pd identity is weakly supported; no repository or issue tracker was verified.",
+        "checked_at": "2026-08-24T21:15:34+00:00"
+    }
 }

@@ -1,5 +1,16 @@
 {
-    "description": "",
+    "description": "Eric Lyon's collection of computer-music externals, begun for Max/MSP in 1999 and later ported to Pure Data. It includes array processing, sample playback, filtering, modulation, delay, reverberation, and other DSP tools.",
     "issues": "",
-    "link": ""
+    "link": "",
+    "research": {
+        "status": "partial",
+        "confidence": "high",
+        "sources": [
+            "https://disis.music.vt.edu/eric/main/lyonpotpourri",
+            "https://disis.music.vt.edu/eric/main/wp-content/uploads/2023/01/FFTease-and-LyonPotpourri.pdf",
+            "https://charlesneimog.github.io/Awesome-Pd/libraries/lyonpotpourri"
+        ],
+        "notes": "The official author site clearly verifies the project and its Pd edition. It references Eric Lyon's GitHub presence, but the exact canonical repository and tracker were not verified, so those fields are empty.",
+        "checked_at": "2026-08-24T21:27:38+00:00"
+    }
 }

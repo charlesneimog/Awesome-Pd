@@ -1,5 +1,17 @@
 {
-    "description": "",
+    "description": "A cross-platform HID object for Pure Data and Max/MSP intended to provide standardized input and output access to devices such as joysticks, tablets, and other USB controllers. It was developed as the next generation of Pd's HID API.",
     "issues": "",
-    "link": ""
+    "link": "",
+    "research": {
+        "status": "partial",
+        "confidence": "high",
+        "sources": [
+            "https://nime.org/proc/steiner2007",
+            "https://lists.puredata.info/pipermail/pd-cvs/2007-01/009808.html",
+            "https://www.mail-archive.com/pd-list%40iem.at/msg31707.html",
+            "https://github.com/rbeesley/pd-hidio"
+        ],
+        "notes": "The historical project is clearly identified, but its canonical source lived in the former Pure Data SourceForge CVS/SVN tree. The current rbeesley repository explicitly describes itself as a newer fork and says no upstream repository could be found, so it is not reported as canonical.",
+        "checked_at": "2026-08-24T21:21:21+00:00"
+    }
 }

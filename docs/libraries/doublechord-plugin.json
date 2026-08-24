@@ -1,5 +1,16 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "A Pure Data GUI plugin that lets users duplicate patch-cord connections in the same manner as duplicating objects. It is distributed as part of IEM's general-purpose pd-iemutils collection.",
+    "issues": "https://git.iem.at/pd/iem_utils/-/issues",
+    "link": "https://git.iem.at/pd/iem_utils",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://packages.debian.org/sid/sound/pd-iemutils",
+            "https://packages.debian.org/sid/m68k/pd-iemutils/filelist",
+            "https://blends.debian.org/multimedia/tasks/puredata.pl.html"
+        ],
+        "notes": "Debian identifies the IEM homepage and confirms that the package installs doublechord-plugin files.",
+        "checked_at": "2026-08-24T21:17:15+00:00"
+    }
 }

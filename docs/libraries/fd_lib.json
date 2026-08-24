@@ -1,5 +1,16 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "Federico Camara Halac’s multipurpose suite of Pure Data externals and abstractions for audio, visual, and algorithmic patching. Its announced 0.4.0 release contains more than 200 abstractions and roughly 30 compiled objects.",
+    "issues": "https://github.com/fdch/fd_lib/issues",
+    "link": "https://github.com/fdch/fd_lib",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://www.mail-archive.com/pd-list%40lists.iem.at/msg27023.html",
+            "https://charlesneimog.github.io/Awesome-Pd/libraries/fd_lib",
+            "https://fdch.ar/database_music/output/main.pdf"
+        ],
+        "notes": "The maintainer’s Pd-list announcement and authored project material both identify the same repository.",
+        "checked_at": "2026-08-24T21:18:34+00:00"
+    }
 }

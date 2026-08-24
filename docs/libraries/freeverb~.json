@@ -1,5 +1,15 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "freeverb~ is a Pure Data reverberation external based on Jezar's public-domain Freeverb algorithm. The identified repository is a maintained fork of the historical Pd source and uses pd-lib-builder for Deken packaging.",
+    "issues": "https://github.com/electrickery/pd-freeverb/issues",
+    "link": "https://github.com/electrickery/pd-freeverb",
+    "research": {
+        "status": "verified",
+        "confidence": "medium",
+        "sources": [
+            "https://github.com/electrickery/pd-freeverb",
+            "https://github.com/pure-data/deken/blob/main/developer/README.md"
+        ],
+        "notes": "This is a maintainer fork rather than the historical upstream repository; its README explicitly documents that lineage and requests bug reports for this version.",
+        "checked_at": "2026-08-24T21:19:56+00:00"
+    }
 }

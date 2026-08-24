@@ -1,5 +1,14 @@
 {
-    "description": "",
+    "description": "A Pd library name listed in the Awesome-Pd catalog. The available public evidence did not verify its purpose, canonical source repository, or issue tracker.",
     "issues": "",
-    "link": ""
+    "link": "",
+    "research": {
+        "status": "partial",
+        "confidence": "low",
+        "sources": [
+            "https://github.com/charlesneimog/Awesome-Pd/blob/main/TODO.md"
+        ],
+        "notes": "Exact-name searches found only a catalog entry; URLs were left empty rather than inferred.",
+        "checked_at": "2026-08-24T21:24:21+00:00"
+    }
 }

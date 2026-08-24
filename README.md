@@ -112,10 +112,12 @@ python scripts/enrich_libraries.py --library fd_lib --library ossia
 python scripts/enrich_libraries.py
 ```
 
-Each library is researched separately using only its name. The JSON receives a
-`research` block containing confidence, evidence URLs, and notes. Completed
-records are skipped on later runs; use `--retry-partial` or `--overwrite` when a
-result needs another pass.
+Libraries are researched in batches of eight with low reasoning effort to avoid
+repeating the same agent instructions and startup cost. Use `--batch-size 1` for
+the old one-request-per-library behavior, or `--effort medium` for difficult
+identifications. The JSON receives a `research` block containing confidence,
+evidence URLs, and notes. Completed records are skipped on later runs; use
+`--retry-partial` or `--overwrite` when a result needs another pass.
 
 ## Contributing
 

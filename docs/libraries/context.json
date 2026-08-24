@@ -1,5 +1,16 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "Context is Liam Goodacre’s modular sequencer for Pd, in which individual step-sequencer/selector units can be interconnected into specialized sequencing networks. It is implemented primarily as Pd abstractions and bundles or relies on several external libraries.",
+    "issues": "https://github.com/LGoodacre/context-sequencer/issues",
+    "link": "https://github.com/LGoodacre/context-sequencer",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://github.com/LGoodacre/context-sequencer",
+            "https://forum.pdpatchrepo.info/topic/10687/context-sequencer-v3-0-1",
+            "https://musicalmetacreation.org/mume2017/proceedings/Goodacre.pdf"
+        ],
+        "notes": "The author’s forum announcement, research paper, and repository consistently identify this project; it is distinct from generic uses of “context.”",
+        "checked_at": "2026-08-24T21:15:34+00:00"
+    }
 }

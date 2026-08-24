@@ -1,5 +1,15 @@
 {
     "description": "",
     "issues": "",
-    "link": ""
+    "link": "",
+    "research": {
+        "status": "not_found",
+        "confidence": "low",
+        "sources": [
+            "https://github.com/defaultxr/xr-abstractions",
+            "https://github.com/charlesneimog/Awesome-Pd/blob/main/TODO.md"
+        ],
+        "notes": "Search results used “guis” generically or as a directory heading; no evidence identified a distinct canonical Pd library with this exact name.",
+        "checked_at": "2026-08-24T21:21:21+00:00"
+    }
 }

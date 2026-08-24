@@ -1,5 +1,16 @@
 {
-    "description": "",
+    "description": "A collection of platform-independent Pure Data abstractions for processing lists. Its objects include operations for dripping, indexing, inserting, deleting, replacing, reversing, and comparing list elements.",
     "issues": "",
-    "link": ""
+    "link": "https://sourceforge.net/projects/pure-data/files/libraries/list-abs",
+    "research": {
+        "status": "verified",
+        "confidence": "medium",
+        "sources": [
+            "https://sourceforge.net/projects/pure-data/files/libraries/list-abs",
+            "https://github.com/pure-data/deken/blob/main/developer/README.md",
+            "https://forum.pdpatchrepo.info/topic/15101/list-random-object-lost"
+        ],
+        "notes": "The official historical Pure Data SourceForge project hosts the maintained release and README, while Deken documentation confirms the package identity. No distinct source-code repository or library-specific tracker was verified, so the official project release location is supplied.",
+        "checked_at": "2026-08-24T21:27:38+00:00"
+    }
 }

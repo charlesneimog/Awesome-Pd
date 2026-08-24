@@ -1,5 +1,17 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "boids is a Pure Data external library that provides 2D and 3D flocking simulation objects ([boids2d] and [boids3d]) based on Craig Reynolds' flocking algorithm. It simulates the collective flight and herding dynamics of birds and other animals for algorithmic composition, visual animation, and spatialization.",
+    "issues": "https://github.com/pd-externals/boids/issues",
+    "link": "https://github.com/pd-externals/boids",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://github.com/pd-externals/boids",
+            "https://puredata.info/downloads/boids",
+            "https://salsa.debian.org/multimedia-team/pd/pd-boids",
+            "https://tracker.debian.org/pkg/pd-boids"
+        ],
+        "notes": "Originally created by Eric L. Singer for Max and adapted for Pure Data by André Sier and jasch (with pd-lib-builder support maintained in pd-externals), the library includes [boids2d] and [boids3d] objects. It is also packaged for Debian/Ubuntu under the source package pd-boids (https://salsa.debian.org/multimedia-team/pd/pd-boids) and available on puredata.info (https://puredata.info/downloads/boids).",
+        "checked_at": "2026-08-18T23:51:18+00:00"
+    }
 }

@@ -1,5 +1,16 @@
 {
-    "description": "",
+    "description": "gem2pdp is a historical Pure Data bridge between Gem image data and the Pure Data Packet (PDP) video-processing system. Its source supplies conversion objects in both directions, including gem2pdp and pdp2gem.",
     "issues": "",
-    "link": ""
+    "link": "https://sourceforge.net/p/pure-data/svn/17183/tree/trunk/externals/gem2pdp",
+    "research": {
+        "status": "verified",
+        "confidence": "medium",
+        "sources": [
+            "https://blends.debian.org/multimedia/tasks/graphics.ko.html",
+            "https://lists.iem.at/hyperkitty/list/pd-list%40lists.iem.at/2006/1/?count=25&page=2",
+            "https://lists.puredata.info/pipermail/pd-cvs/2005-04/002966.html"
+        ],
+        "notes": "Public Debian and Pd project records identify the historical SourceForge SVN path. No dedicated issue tracker was verified.",
+        "checked_at": "2026-08-24T21:19:56+00:00"
+    }
 }

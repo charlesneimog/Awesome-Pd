@@ -1,5 +1,16 @@
 {
-    "description": "",
+    "description": "An older Pd object used to receive data from Human Interface Devices; contemporary community references place it alongside hid and pduino for sensor input.",
     "issues": "",
-    "link": ""
+    "link": "",
+    "research": {
+        "status": "partial",
+        "confidence": "low",
+        "sources": [
+            "https://lists.puredata.info/pipermail/pd-announce/2009-03/001403.html",
+            "https://github.com/charlesneimog/Awesome-Pd/blob/main/TODO.md",
+            "https://forum.puredata.info/user/knabel/posts"
+        ],
+        "notes": "The exact Pd object is evidenced, but searches did not establish its author, canonical distribution, repository, or issue tracker. Results for ChucK's HidIn were rejected as a name collision.",
+        "checked_at": "2026-08-24T21:21:21+00:00"
+    }
 }

@@ -1,5 +1,16 @@
 {
-    "description": "",
+    "description": "An older Pure Data library developed by Ben Bogart that includes GUI objects such as entry, popup, and a knob. It was distributed with or used by Pd Extended and is also referenced as a Deken dependency, but no canonical standalone repository was verified.",
     "issues": "",
-    "link": ""
+    "link": "",
+    "research": {
+        "status": "partial",
+        "confidence": "medium",
+        "sources": [
+            "https://www.musinfo.fr/images/recherche/JIM2014_Actes_maquette_006.pdf",
+            "https://forum.pdpatchrepo.info/topic/12408/knobs-objects",
+            "https://github.com/macumbista/benjolin"
+        ],
+        "notes": "Resolved away from the unrelated Qt project named FlatGUI and from a catalog entry incorrectly describing flatgui as a drum machine.",
+        "checked_at": "2026-08-24T21:18:34+00:00"
+    }
 }

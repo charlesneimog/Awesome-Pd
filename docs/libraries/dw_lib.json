@@ -1,5 +1,14 @@
 {
-    "description": "",
+    "description": "The name appears in a Pd-library catalog, but the available public evidence did not reveal its objects, purpose, maintainer, or authoritative project page.",
     "issues": "",
-    "link": ""
+    "link": "",
+    "research": {
+        "status": "partial",
+        "confidence": "low",
+        "sources": [
+            "https://github.com/charlesneimog/Awesome-Pd/blob/main/TODO.md"
+        ],
+        "notes": "Search results were dominated by unrelated uses of dw_lib; identity and URLs remain unverified.",
+        "checked_at": "2026-08-24T21:17:15+00:00"
+    }
 }

@@ -1,5 +1,15 @@
 {
-    "description": "",
+    "description": "Fraise is an open hardware and software framework for connecting programmable microcontroller boards, sensors, and actuators to a host computer. Its host-side software is implemented in Pure Data.",
     "issues": "",
-    "link": ""
+    "link": "",
+    "research": {
+        "status": "partial",
+        "confidence": "medium",
+        "sources": [
+            "https://metalunet.github.io/Fraise-doc/hx711_8h_source.html",
+            "https://linuxfr.org/news/fraise-framework-for-interfacing-software-electronics"
+        ],
+        "notes": "Official-looking MetaluNet documentation verifies the project and Pd relationship, but the canonical source repository and issue tracker were not conclusively verified.",
+        "checked_at": "2026-08-24T21:19:56+00:00"
+    }
 }

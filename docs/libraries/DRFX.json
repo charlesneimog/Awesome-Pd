@@ -1,5 +1,15 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "William Brent's Pd-vanilla abstraction implements a dynamic routing system for DSP effects. It creates signal routing and associated routing-matrix controls from user-specified inputs and effect modules.",
+    "issues": "https://github.com/wbrent/DRFX/issues",
+    "link": "https://github.com/wbrent/DRFX",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://lists.iem.at/hyperkitty/list/pd-announce%40lists.iem.at/latest?page=41",
+            "https://forum.pdpatchrepo.info/topic/12238/how-can-you-reorder-signal-processing-on-the-fly"
+        ],
+        "notes": "The maintainer's release announcement and an independent Pd discussion both identify the same repository.",
+        "checked_at": "2026-08-24T21:17:15+00:00"
+    }
 }

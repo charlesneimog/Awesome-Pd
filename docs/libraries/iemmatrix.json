@@ -1,5 +1,15 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "A collection of Pure Data objects for manipulating simple matrices. Its functionality includes matrix arithmetic and optional higher-mathematics, FFT, and sound-file operations when supporting libraries are available.",
+    "issues": "https://git.iem.at/pd/iemmatrix/-/issues",
+    "link": "https://git.iem.at/pd/iemmatrix",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://github.com/iem-projects/pd-iemmatrix",
+            "https://lists.iem.at/hyperkitty/list/pd-announce%40lists.iem.at/latest?page=9"
+        ],
+        "notes": "The GitHub mirror explicitly identifies the IEM GitLab project as its homepage and explicitly names the GitLab issue tracker.",
+        "checked_at": "2026-08-24T21:24:21+00:00"
+    }
 }

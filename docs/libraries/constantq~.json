@@ -1,5 +1,15 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "constantq~ analyzes an incoming audio stream in arbitrarily defined frequency bands using a constant-Q transform, producing results as message lists or in arrays. It supports Pure Data and Max and depends on flext, Blitz++, and FFTW3 when built from source.",
+    "issues": "https://github.com/grrrr/constantq/issues",
+    "link": "https://github.com/grrrr/constantq",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://grrrr.org/research/software/constantq",
+            "https://github.com/grrrr/constantq"
+        ],
+        "notes": "The maintainer’s official project page directly links the GitHub source repository.",
+        "checked_at": "2026-08-24T21:15:34+00:00"
+    }
 }

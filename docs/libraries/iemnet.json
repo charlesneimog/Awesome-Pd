@@ -1,5 +1,16 @@
 {
-    "description": "",
+    "description": "An IEM Pure Data library providing low-level networking objects. Historical Pd distribution records also identify iemnet as a separately packaged library.",
     "issues": "",
-    "link": ""
+    "link": "https://git.iem.at/pd/iemnet",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://git.iem.at/pd/iemnet",
+            "https://github.com/pure-data/pd-lib-builder",
+            "https://sourceforge.net/projects/pure-data/files/libraries"
+        ],
+        "notes": "The repository is under IEM's official “Pure Data libraries” GitLab namespace. No issue-tracker URL was independently verified.",
+        "checked_at": "2026-08-24T21:24:21+00:00"
+    }
 }

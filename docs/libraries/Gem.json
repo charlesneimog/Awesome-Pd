@@ -1,5 +1,15 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "Gem, the Graphics Environment for Multimedia, is a Pure Data library providing real-time OpenGL graphics and multimedia functionality. Its repository explicitly identifies itself as official and directs users to the Gem bug tracker.",
+    "issues": "https://bugs.gem.iem.at",
+    "link": "https://github.com/umlaeute/Gem",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://github.com/umlaeute/Gem",
+            "https://msp.ucsd.edu/Pd_documentation/4.externals.htm"
+        ],
+        "notes": "The official repository warns that Gem-specific bugs should use its dedicated tracker rather than the general Pure Data tracker.",
+        "checked_at": "2026-08-24T21:19:56+00:00"
+    }
 }

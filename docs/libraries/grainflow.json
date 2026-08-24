@@ -1,5 +1,15 @@
 {
-    "description": "",
+    "description": "No authoritative Pure Data project matching the exact name grainflow was verified. Search results instead described unrelated networking hardware, an Australian grain-storage business, and generic granular-synthesis projects, so none was attributed to this library.",
     "issues": "",
-    "link": ""
+    "link": "",
+    "research": {
+        "status": "partial",
+        "confidence": "low",
+        "sources": [
+            "https://www.sciencedirect.com/science/article/abs/pii/S1389128614001832",
+            "https://www.grainflow.com.au/doc/1451372343488/gfpricebook-qld-nsw-vic_300925.pdf"
+        ],
+        "notes": "The cited sources establish prominent non-Pd name collisions. No trustworthy Pd repository, issue tracker, or project description was found.",
+        "checked_at": "2026-08-24T21:19:56+00:00"
+    }
 }

@@ -1,5 +1,14 @@
 {
-    "description": "",
+    "description": "A package named filemtime is listed in a current Pure Data ecosystem catalog. Search results did not provide reliable public documentation establishing what it does or identifying an official repository or tracker.",
     "issues": "",
-    "link": ""
+    "link": "",
+    "research": {
+        "status": "partial",
+        "confidence": "low",
+        "sources": [
+            "https://github.com/charlesneimog/Awesome-Pd/blob/main/TODO.md"
+        ],
+        "notes": "Unrelated PHP and web-development projects dominate exact-name searches, so no identity or URL was inferred from the generic name.",
+        "checked_at": "2026-08-24T21:18:34+00:00"
+    }
 }

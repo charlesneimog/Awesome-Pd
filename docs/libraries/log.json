@@ -1,5 +1,15 @@
 {
-    "description": "",
+    "description": "A small Pure Data logging library whose objects can replace Pd's standard print object, adding verbosity filtering and colored output.",
     "issues": "",
-    "link": ""
+    "link": "",
+    "research": {
+        "status": "partial",
+        "confidence": "medium",
+        "sources": [
+            "https://packages.debian.org/sid/sound/pd-log",
+            "https://packages.debian.org/fr/source/sid/pd-log"
+        ],
+        "notes": "Debian's package and source records clearly identify the Pd library and its purpose, but the searches did not verify a canonical upstream repository or issue tracker.",
+        "checked_at": "2026-08-24T21:27:38+00:00"
+    }
 }

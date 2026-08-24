@@ -1,5 +1,16 @@
 {
-    "description": "",
+    "description": "A miscellaneous collection of Pure Data externals by Mark Danks, including objects such as average and randomF.",
     "issues": "",
-    "link": ""
+    "link": "https://github.com/pure-data/externals/tree/master/markex",
+    "research": {
+        "status": "verified",
+        "confidence": "medium",
+        "sources": [
+            "https://lists.puredata.info/pipermail/pd-cvs/2007-10/012953.html",
+            "https://github.com/charlesneimog/Awesome-Pd/blob/main/TODO.md",
+            "https://github.com/defaultxr/xr-abstractions"
+        ],
+        "notes": "Historical Pd CVS records directly verify the externals/markex project, while later Pd catalogs identify its author and representative objects. The repository is archival and no library-specific issue tracker was verified.",
+        "checked_at": "2026-08-24T21:27:38+00:00"
+    }
 }

@@ -1,5 +1,17 @@
 {
-    "description": "",
+    "description": "A collection of miscellaneous Pure Data externals by dieb13, particularly file, message, and audio-networking objects. Documented members include wavinfo, dynamically addressable send/receive objects, and streamin13~.",
     "issues": "",
-    "link": ""
+    "link": "",
+    "research": {
+        "status": "partial",
+        "confidence": "medium",
+        "sources": [
+            "https://blends.debian.org/multimedia/tasks/puredata.pl.html",
+            "https://pure-data.sourceforge.net/old/documentation.php",
+            "https://sourceforge.net/projects/pure-data/files/libraries",
+            "https://lists.puredata.info/pipermail/pd-cvs/2012-12/025301.html"
+        ],
+        "notes": "Official historical Pd and Debian sources verify the library, but live search did not establish a current canonical standalone repository or issue tracker.",
+        "checked_at": "2026-08-24T21:17:15+00:00"
+    }
 }

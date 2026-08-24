@@ -1,5 +1,15 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "The Pure Data implementation of Jamoma, a modular framework for structuring and controlling real-time media-processing systems. It ports the Jamoma library to Pd and includes data, audio, communication, automation, and signal-processing facilities.",
+    "issues": "https://github.com/jamoma/JamomaPureData/issues",
+    "link": "https://github.com/jamoma/JamomaPureData",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://www.jamoma.org",
+            "https://github.com/jamoma/JamomaPureData"
+        ],
+        "notes": "The official Jamoma site explicitly offers Jamoma for Pure Data, and the repository is under the official Jamoma GitHub organization.",
+        "checked_at": "2026-08-24T21:26:03+00:00"
+    }
 }

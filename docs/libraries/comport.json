@@ -1,5 +1,17 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "comport is a cross-platform Pd external for communicating with serial ports, originally developed at the Institute of Electronic Music and Acoustics in Graz. Public Pd projects explicitly point to IEM’s repository as the source of the [comport] object.",
+    "issues": "https://git.iem.at/pd/comport/-/issues",
+    "link": "https://git.iem.at/pd/comport",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://git.iem.at/pd/comport",
+            "https://github.com/yannseznec/ys.granular",
+            "https://lists.puredata.info/pipermail/pd-cvs/2005-04/003040.html",
+            "https://sources.debian.org/src/pd-comport/1.2-2"
+        ],
+        "notes": "The IEM GitLab project matches the historical IEM authorship and the serial-port functionality.",
+        "checked_at": "2026-08-24T21:15:34+00:00"
+    }
 }

@@ -1,5 +1,15 @@
 {
-    "description": "",
+    "description": "A Pure Data library providing 16-bit tables and delay lines. It is distributed as part of IEM's `pd-iemutils` collection.",
     "issues": "",
-    "link": ""
+    "link": "https://git.iem.at/pd/iemutils",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://packages.debian.org/stable/sound/pd-iemutils",
+            "https://blends.debian.org/multimedia/tasks/puredata.pl.html"
+        ],
+        "notes": "Debian identifies the IEM GitLab homepage for the collection, but the library-specific issue tracker could not be independently verified.",
+        "checked_at": "2026-08-24T21:22:52+00:00"
+    }
 }

@@ -1,5 +1,16 @@
 {
-    "description": "",
+    "description": "A Pd external for reading USB Human Interface Devices such as keyboards, mice, joysticks, gamepads, keypads, touchscreens, and specialized controllers. It translates native input events into a cross-platform Pd message scheme.",
     "issues": "",
-    "link": ""
+    "link": "",
+    "research": {
+        "status": "partial",
+        "confidence": "high",
+        "sources": [
+            "https://puredata.info/downloads/hid",
+            "https://sourceforge.net/projects/pure-data/files/libraries/hid",
+            "https://guitarextended.wordpress.com/2011/12/13/gamepad-based-pedal-hid"
+        ],
+        "notes": "The official Pd download page and historical SourceForge distribution verify the project, but no current standalone canonical source repository or issue tracker was verified.",
+        "checked_at": "2026-08-24T21:21:21+00:00"
+    }
 }

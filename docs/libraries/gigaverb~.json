@@ -1,5 +1,15 @@
 {
-    "description": "",
+    "description": "gigaverb~ is listed in a Pd-library catalog as a Pure Data package, but the searches did not uncover authoritative Pd documentation sufficient to characterize its particular implementation beyond its apparent reverb role. A similarly named GitHub project is for Max/MSP and was excluded as a name collision.",
     "issues": "",
-    "link": ""
+    "link": "",
+    "research": {
+        "status": "partial",
+        "confidence": "low",
+        "sources": [
+            "https://github.com/charlesneimog/Awesome-Pd/blob/main/TODO.md",
+            "https://cycling74.com/forums/%C2%ABshare%C2%BB-gigaverb~-64-bit-version"
+        ],
+        "notes": "No canonical Pd repository or Pd-specific issue tracker was verified. The v7b1/gigaverb repository found in search evidence concerns Max/MSP, so it was not assigned.",
+        "checked_at": "2026-08-24T21:19:56+00:00"
+    }
 }

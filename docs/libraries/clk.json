@@ -1,5 +1,18 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "clk is a Pure Data external library by Thomas Grill that provides a collection of syncable clocking and timing objects (including master/client clocks, metro, delay, tap, and sync) designed for high precision and stability in complex time-based processes and sound installations.",
+    "issues": "https://github.com/grrrr/clk/issues",
+    "link": "https://github.com/grrrr/clk",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://github.com/grrrr/clk",
+            "https://github.com/grrrr/clk/issues",
+            "https://raw.githubusercontent.com/grrrr/clk/master/clk.h",
+            "https://raw.githubusercontent.com/grrrr/clk/master/package.txt",
+            "https://grrrr.org/research/software"
+        ],
+        "notes": "clk was developed by Thomas Grill using the flext C++ layer and pd-lib-builder, and is hosted on GitHub under the grrrr organization.",
+        "checked_at": "2026-08-19T00:14:32+00:00"
+    }
 }

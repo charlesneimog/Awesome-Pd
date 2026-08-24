@@ -1,5 +1,16 @@
 {
-    "description": "",
+    "description": "An IEM Pure Data library whose primary purpose is manipulating table contents. Its documented release contains dozens of table-processing objects and associated help patches.",
     "issues": "",
-    "link": ""
+    "link": "https://git.iem.at/pd/iem_tab",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://github.com/pure-data/pd-lib-builder",
+            "https://sources.debian.org/src/pd-iemutils/0.0.20210927-2/iem_tab/READ_ME.txt",
+            "https://packages.debian.org/stable/sound/pd-iemutils"
+        ],
+        "notes": "The repository is explicitly listed by the official pd-lib-builder project and corroborated by IEM/Debian source packaging. No independently verified issue URL was found.",
+        "checked_at": "2026-08-24T21:22:52+00:00"
+    }
 }

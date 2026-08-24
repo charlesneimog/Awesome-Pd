@@ -1,5 +1,16 @@
 {
-    "description": "",
+    "description": "An IEM Pure Data library optimized for frequency-domain processing. Its objects operate on spectra and provide operations including arithmetic, conversion, shifting, stretching, convolution, and table access.",
     "issues": "",
-    "link": ""
+    "link": "https://git.iem.at/pd/iem_spec2",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://github.com/pure-data/pd-lib-builder",
+            "https://packages.debian.org/stable/sound/pd-iemutils",
+            "https://charlesneimog.github.io/Awesome-Pd/libraries/iem_spec2"
+        ],
+        "notes": "The repository is explicitly listed by the official pd-lib-builder project and corroborated by Debian packaging. No independently verified issue URL was found.",
+        "checked_at": "2026-08-24T21:22:52+00:00"
+    }
 }

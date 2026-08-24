@@ -1,5 +1,16 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "A Pure Data GUI plugin that adds file drag-and-drop support to Pd windows and canvases. Public Pd discussions identify megrimm/pd-dnd-plugin as the original project and distinguish it from a later fork.",
+    "issues": "https://github.com/megrimm/pd-dnd-plugin/issues",
+    "link": "https://github.com/megrimm/pd-dnd-plugin",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://forum.pdpatchrepo.info/topic/13922/drag-and-drop-using-vanilla-objects-is-it-possible",
+            "https://forum.pdpatchrepo.info/topic/14598/drag-and-drop-object-for-audio-samples",
+            "https://www.mail-archive.com/pd-list%40lists.iem.at/msg19763.html"
+        ],
+        "notes": "The repository is named pd-dnd-plugin, while the Deken/install directory is commonly dnd-plugin.",
+        "checked_at": "2026-08-24T21:17:15+00:00"
+    }
 }

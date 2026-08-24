@@ -1,5 +1,15 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "A Pd library providing just-in-time-compiled clones of expr, expr~, and fexpr~. It uses LLVM to compile expressions and exposes the objects with the jit/ prefix after loading jit_expr.",
+    "issues": "https://github.com/x37v/jit-expr/issues",
+    "link": "https://github.com/x37v/jit-expr",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://github.com/x37v/jit-expr",
+            "https://www.mail-archive.com/search?f=1&l=pd-list%40lists.iem.at&o=newest&q=subject%3A%22Re%5C%3A+%5C%5BPD%5C%5D+%5C%5BPD%5C-announce%5C%5D+jit_expr+0.1%5C%3A+Just+in+time+compiled+expr%5C%2Fexpr%5C~%5C%2Ffexpr%5C~%22"
+        ],
+        "notes": "The maintainer's Pd-list announcement links the same repository issue tracker and explains installation through Deken.",
+        "checked_at": "2026-08-24T21:26:03+00:00"
+    }
 }

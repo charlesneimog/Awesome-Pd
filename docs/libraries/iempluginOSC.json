@@ -1,5 +1,15 @@
 {
-    "description": "",
+    "description": "An extension to the Pd/SuperCollider vstplugin project for the IEM Plug-in Suite. It makes the suite's OSC control interface available without requiring an actual OSC socket connection.",
     "issues": "",
-    "link": ""
+    "link": "https://git.iem.at/ressi/iempluginosc",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://git.iem.at/ressi/iempluginosc",
+            "https://github.com/tu-studio/IEMPluginSuite"
+        ],
+        "notes": "The official IEM GitLab project and the IEM Plug-in Suite repository cross-reference this project. The repository spells its slug in lowercase, while the requested library name is preserved exactly. No issue tracker was verified.",
+        "checked_at": "2026-08-24T21:24:21+00:00"
+    }
 }

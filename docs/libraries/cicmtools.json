@@ -1,5 +1,16 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "cicmtools is a collection of external objects for Pure Data designed for 2D and 3D sound spatialization across multiphonic speaker layouts. It includes objects for Ambisonic B-format spatialization ([ambipan~], [ambicube~]) and Vector Base Amplitude Panning ([vbapan~]).",
+    "issues": "https://github.com/porres/pd-cicm-tools/issues",
+    "link": "https://github.com/porres/pd-cicm-tools",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://github.com/porres/pd-cicm-tools",
+            "https://raw.githubusercontent.com/porres/pd-cicm-tools/master/README.md",
+            "https://github.com/CICM/CicmTools"
+        ],
+        "notes": "Originally developed in 2003–2004 by Rémi Mignot and colleagues at CICM (Centre de recherche Informatique et Création Musicale) / MSH Paris Nord / Paris 8 University, the project was later abandoned. The Pure Data version was subsequently updated and packaged for Deken with 64-bit support and vanilla-compatible help files by Alexandre Torres Porres.",
+        "checked_at": "2026-08-19T00:12:28+00:00"
+    }
 }

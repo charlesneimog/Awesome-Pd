@@ -1,5 +1,14 @@
 {
     "description": "",
     "issues": "",
-    "link": ""
+    "link": "",
+    "research": {
+        "status": "not_found",
+        "confidence": "low",
+        "sources": [
+            "https://github.com/charlesneimog/Awesome-Pd/blob/main/TODO.md"
+        ],
+        "notes": "The exact name appears in a Pd-library research list, but searches were dominated by unrelated programming uses of “jsobj”; no reliable Pd project identity, repository, issue tracker, or description was verified.",
+        "checked_at": "2026-08-24T21:26:03+00:00"
+    }
 }

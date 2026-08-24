@@ -1,5 +1,17 @@
 {
-    "description": "",
+    "description": "creb is Tom Schouten’s collection of Pd externals providing building blocks for music DSP, including synthesis-oriented objects that were missing from Pd or derived from his audio-synthesis research. Historical Pure Data repository documentation describes it as his personal collection of Pd externals.",
     "issues": "",
-    "link": ""
+    "link": "http://zwizwa.be/darcs/creb",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "http://zwizwa.be/darcs/creb",
+            "https://zwizwa.be/tom/cv.pdf",
+            "https://pure-data.sourceforge.net/old/documentation.php",
+            "https://forum.pdpatchrepo.info/topic/13242/benjolin-on-rpi"
+        ],
+        "notes": "The maintainer’s CV identifies the zwizwa.be project and repository; no dedicated issue tracker was verified.",
+        "checked_at": "2026-08-24T21:15:34+00:00"
+    }
 }

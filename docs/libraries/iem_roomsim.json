@@ -1,5 +1,16 @@
 {
-    "description": "",
+    "description": "An IEM Pure Data library for room simulation, principally calculating first- and second-order early reflections with a geometrical image-source model. It outputs parameters such as delays, distance damping, and arrival angles for rectangular rooms.",
     "issues": "",
-    "link": ""
+    "link": "https://git.iem.at/pd/iem_roomsim",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://www.dafx.de/paper-archive/2005/P_167.pdf",
+            "https://github.com/pure-data/pd-lib-builder",
+            "https://sources.debian.org/src/pd-iemutils/0.0.20240903-2/iem_roomsim"
+        ],
+        "notes": "The official IEM repository is explicitly listed among pd-lib-builder projects and the library is present in current Debian sources. No independently verified issue URL was found.",
+        "checked_at": "2026-08-24T21:22:52+00:00"
+    }
 }

@@ -1,5 +1,16 @@
 {
-    "description": "",
+    "description": "An IEM library providing additional graphical user-interface objects for Pure Data, including meters, image displays, event controls, and spatial-control widgets.",
     "issues": "",
-    "link": ""
+    "link": "https://git.iem.at/pd/iemgui",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://git.iem.at/pd/iemgui",
+            "https://charlesneimog.github.io/Awesome-Pd/libraries/iemgui",
+            "https://github.com/pure-data/pd-lib-builder"
+        ],
+        "notes": "The repository is under IEM's official “Pure Data libraries” GitLab namespace. No issue-tracker URL was independently verified.",
+        "checked_at": "2026-08-24T21:24:21+00:00"
+    }
 }

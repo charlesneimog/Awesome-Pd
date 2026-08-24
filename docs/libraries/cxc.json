@@ -1,5 +1,16 @@
 {
-    "description": "",
+    "description": "cxc is a collection of assorted utility externals for Pd. Its documented objects include console output without a prefix, binary shifts, and other data-processing utilities; the last published SourceForge library release shown is 0.5.2 from 2013.",
     "issues": "",
-    "link": ""
+    "link": "https://sourceforge.net/p/pure-data/svn/HEAD/tree/trunk/externals/cxc",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://pure-data.sourceforge.net/old/documentation.php",
+            "https://sourceforge.net/projects/pure-data/files/libraries/cxc",
+            "https://lists.puredata.info/pipermail/pd-cvs/2013-01/025633.html"
+        ],
+        "notes": "The official historical Pure Data external repository and its SVN commit record verify the identity. No cxc-specific issue tracker was verified.",
+        "checked_at": "2026-08-24T21:15:34+00:00"
+    }
 }

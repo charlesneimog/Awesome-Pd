@@ -1,5 +1,16 @@
 {
-    "description": "",
+    "description": "A Pure Data library for binaural Ambisonics decoding, including calculation of products between an Ambisonic decoder matrix and binaural HRIR data in the time or frequency domain. Its objects have subsequently been incorporated into the maintained `iem_ambi` package.",
     "issues": "",
-    "link": ""
+    "link": "https://git.iem.at/pd/iem_ambi",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://www.dafx.de/paper-archive/2005/P_167.pdf",
+            "https://lists.puredata.info/pipermail/pd-cvs/2008-12/015614.html",
+            "https://packages.debian.org/sid/m68k/pd-iemambi/filelist"
+        ],
+        "notes": "Historical evidence establishes `iem_bin_ambi` as a separate IEM library; the current Debian `iem_ambi` file list contains its `bin_ambi_*` objects, resolving the modern repository identity. No independently verified issue URL was found.",
+        "checked_at": "2026-08-24T21:22:52+00:00"
+    }
 }

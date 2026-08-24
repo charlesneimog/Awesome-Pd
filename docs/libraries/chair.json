@@ -1,5 +1,18 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "chair is a Pure Data library containing abstractions and utilities for audio processing, synthesis, and sensor/parameter mapping developed by CHAIR (Center for Haptic Audio Interaction Research) for use with interactive audio and haptic hardware like the Tickle.",
+    "issues": "https://github.com/chairaudio/CHAIR-Pd-library/issues",
+    "link": "https://github.com/chairaudio/CHAIR-Pd-library",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://github.com/chairaudio/CHAIR-Pd-library",
+            "https://raw.githubusercontent.com/chairaudio/CHAIR-Pd-library/master/chair-meta.pd",
+            "https://raw.githubusercontent.com/chairaudio/CHAIR-Pd-library/master/README.md",
+            "https://deken.puredata.info/search?name=chair",
+            "https://chair.audio"
+        ],
+        "notes": "The library is published on Deken under the package name 'chair' by CHAIR (Center for Haptic Audio Interaction Research) and maintained in the official GitHub repository chairaudio/CHAIR-Pd-library.",
+        "checked_at": "2026-08-19T00:07:57+00:00"
+    }
 }

@@ -1,5 +1,16 @@
 {
-    "description": "",
+    "description": "The Pd [command] external executes shell commands or scripts from a patch. Pd community evidence says it is distributed through Deken, but the search did not establish an authoritative source repository or maintainer.",
     "issues": "",
-    "link": ""
+    "link": "",
+    "research": {
+        "status": "partial",
+        "confidence": "medium",
+        "sources": [
+            "https://forum.pdpatchrepo.info/search/inteface-shell-scripts",
+            "https://github.com/charlesneimog/Awesome-Pd/blob/main/TODO.md",
+            "https://deken.puredata.info"
+        ],
+        "notes": "The common word “command” creates substantial search noise; repository and issue URLs are intentionally blank.",
+        "checked_at": "2026-08-24T21:15:34+00:00"
+    }
 }

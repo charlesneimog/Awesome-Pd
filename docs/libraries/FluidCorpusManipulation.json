@@ -1,5 +1,16 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "The Pure Data distribution of FluCoMa, a toolbox of Fluid Corpus Manipulation objects for decomposing, analyzing, and organizing sound corpora. Its official Pd installation documentation points to releases from flucoma/flucoma-pd.",
+    "issues": "https://github.com/flucoma/flucoma-pd/issues",
+    "link": "https://github.com/flucoma/flucoma-pd",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://github.com/flucoma",
+            "https://learn.flucoma.org/installation/pd",
+            "https://github.com/flucoma/flucoma-pd/releases/latest"
+        ],
+        "notes": "The package folder is named FluidCorpusManipulation, while the official implementation repository is flucoma-pd; this distinguishes it from the separate Max and SuperCollider repositories.",
+        "checked_at": "2026-08-24T21:18:34+00:00"
+    }
 }

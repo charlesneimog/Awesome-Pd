@@ -1,5 +1,20 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "chaos is a Pure Data library of external objects for calculating and generating various chaotic attractors and dynamical systems, such as Lorenz, Rössler, Hénon, Ikeda, and Latoocarfian.",
+    "issues": "https://sourceforge.net/p/pure-data/bugs",
+    "link": "https://sourceforge.net/p/pure-data/svn/HEAD/tree/trunk/externals/chaos",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://sourceforge.net/p/pure-data/svn/HEAD/tree/trunk/externals/chaos",
+            "https://sourceforge.net/projects/pure-data/files/libraries/chaos",
+            "https://download.puredata.info/chaos",
+            "https://salsa.debian.org/multimedia-team/pd/pd-chaos",
+            "https://salsa.debian.org/multimedia-team/pd/pd-chaos/-/raw/debian/latest/debian/copyright",
+            "https://salsa.debian.org/multimedia-team/pd/pd-chaos/-/raw/debian/latest/debian/control",
+            "https://salsa.debian.org/multimedia-team/pd/pd-chaos/-/raw/debian/latest/README.txt"
+        ],
+        "notes": "The 'chaos' external library was originally authored by Ben Bogart (2002) and Michael McGonagle (2003). Upstream source code was historically maintained in the Pure Data SVN repository on SourceForge under trunk/externals/chaos and distributed via puredata.info downloads and Deken. Active Debian/Ubuntu packaging and maintenance are hosted on Debian's Salsa GitLab at https://salsa.debian.org/multimedia-team/pd/pd-chaos.",
+        "checked_at": "2026-08-19T00:11:05+00:00"
+    }
 }

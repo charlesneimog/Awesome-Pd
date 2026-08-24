@@ -1,5 +1,16 @@
 {
-    "description": "",
+    "description": "Ed Kelly's collection of Pure Data externals includes counters, LPC and resonator objects, a transistor-ladder filter emulation, and wavefolding/wave-stretching tools for synthesis. Historical Pd infrastructure records it as an external library maintained in the Pd-extended source collection.",
     "issues": "",
-    "link": ""
+    "link": "",
+    "research": {
+        "status": "partial",
+        "confidence": "medium",
+        "sources": [
+            "https://lists.iem.at/hyperkitty/list/pd-announce%40lists.iem.at/2012/9/?count=200",
+            "https://lists.puredata.info/pipermail/pd-cvs/2010-09/021232.html",
+            "https://forum.pdpatchrepo.info/topic/10725/help-getting-externals-to-work"
+        ],
+        "notes": "The project identity and maintainer are supported, but no current authoritative standalone repository or issue tracker was verified.",
+        "checked_at": "2026-08-24T21:17:15+00:00"
+    }
 }

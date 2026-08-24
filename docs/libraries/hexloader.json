@@ -1,5 +1,17 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "A Pd loader that enables external object names containing characters which cannot normally be mapped directly to C setup-function names. It converts such names to an alternative hexadecimal representation while loading the external.",
+    "issues": "https://git.iem.at/pd/hexloader/-/issues",
+    "link": "https://git.iem.at/pd/hexloader",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://git.iem.at/pd/hexloader",
+            "https://github.com/pure-data/pd-lib-builder",
+            "https://packages.debian.org/sid/sound/pd-hexloader",
+            "https://lists.puredata.info/pipermail/pd-cvs/2007-04/010841.html"
+        ],
+        "notes": "The IEM GitLab project is linked by both pd-lib-builder and Debian as the project homepage.",
+        "checked_at": "2026-08-24T21:21:21+00:00"
+    }
 }

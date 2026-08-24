@@ -1,5 +1,14 @@
 {
-    "description": "",
+    "description": "A Pd collection containing musical and audio-processing objects such as granular delay and synthesis, filtering, side-chain processing, sample playback, stereo mid/side conversion, pitch mapping, and sequencing utilities.",
     "issues": "",
-    "link": ""
+    "link": "",
+    "research": {
+        "status": "partial",
+        "confidence": "medium",
+        "sources": [
+            "https://charlesneimog.github.io/Awesome-Pd/libraries/jl"
+        ],
+        "notes": "The exact Pd package and its objects were verified in a Pd ecosystem index, but no canonical repository or issue tracker could be verified.",
+        "checked_at": "2026-08-24T21:26:03+00:00"
+    }
 }

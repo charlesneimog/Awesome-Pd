@@ -1,5 +1,15 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "bsaylor is a collection of Pure Data (Pd) external objects developed by Benjamin Saylor for audio processing and synthesis, featuring tools such as partconv~ for partitioned fast convolution, pvoc~ for phase vocoding, and svf~ for state variable filtering.",
+    "issues": "https://github.com/pd-externals/bsaylor/issues",
+    "link": "https://github.com/pd-externals/bsaylor",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://github.com/pd-externals/bsaylor",
+            "https://salsa.debian.org/multimedia-team/pd/pd-bsaylor"
+        ],
+        "notes": "Originally created by Benjamin Saylor and distributed via the Pure Data CVS/SVN externals repository and Pd-extended, bsaylor is maintained under the pd-externals organization on GitHub using pd-lib-builder, and is distributable via Pure Data's Deken package manager and Debian packages (pd-bsaylor).",
+        "checked_at": "2026-08-18T23:53:58+00:00"
+    }
 }

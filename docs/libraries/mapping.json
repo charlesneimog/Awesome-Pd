@@ -1,5 +1,16 @@
 {
-    "description": "",
+    "description": "A Pure Data abstraction library for conditioning and mapping control or sensor data, with tools for range conversion, nonlinear response curves, coordinate conversion, filtering, and related transformations.",
     "issues": "",
-    "link": ""
+    "link": "https://github.com/pure-data/externals/tree/master/mapping",
+    "research": {
+        "status": "verified",
+        "confidence": "medium",
+        "sources": [
+            "https://charlesneimog.github.io/Awesome-Pd/libraries/mapping",
+            "https://chnry.net/ch/rubrique_publications.html",
+            "https://blazicek.net/stuff/pd/list_of_pure_data_objects.html"
+        ],
+        "notes": "Cyrille Henry's publication list confirms the Mapping Library for Pd, and the object catalog distinguishes it from generic uses of “mapping.” The supplied URL is its archived location in Pd's shared externals tree; no dedicated tracker was verified.",
+        "checked_at": "2026-08-24T21:27:38+00:00"
+    }
 }

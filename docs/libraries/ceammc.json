@@ -1,5 +1,17 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "ceammc is a Pure Data library and distribution providing an extensive suite of C++ external objects for audio signal processing, synthesis, GUI elements, and data/list manipulation. Developed at the Moscow Conservatory Centre for Electroacoustic Music, its objects are structured by function to facilitate music composition, live performance, and education.",
+    "issues": "https://github.com/uliss/pd-ceammc/issues",
+    "link": "https://github.com/uliss/pd-ceammc",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://github.com/uliss/pd-ceammc",
+            "https://github.com/uliss/pd-ceammc/issues",
+            "https://ceammc.github.io",
+            "https://github.com/ceammc/pd-help"
+        ],
+        "notes": "The library is maintained primarily by Serge Poltavski (@uliss) and Alex Nadzharov. It is available both as a standalone Pure Data distribution (Pd-ceammc) and as an external library installable via Pd's built-in Deken package manager. The repository at https://github.com/uliss/pure-data redirects to https://github.com/uliss/pd-ceammc.",
+        "checked_at": "2026-08-19T00:02:10+00:00"
+    }
 }

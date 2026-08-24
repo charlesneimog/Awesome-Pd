@@ -1,5 +1,15 @@
 {
     "description": "",
     "issues": "",
-    "link": ""
+    "link": "",
+    "research": {
+        "status": "not_found",
+        "confidence": "low",
+        "sources": [
+            "https://github.com/charlesneimog/Awesome-Pd/blob/main/TODO.md",
+            "https://github.com/pd-externals/earplug"
+        ],
+        "notes": "The exact name appears in a Pd-library research list, but no authoritative project page or source repository was found. The well-documented earplug~ HRTF external was not treated as the same library because the names differ and no evidence established equivalence.",
+        "checked_at": "2026-08-24T21:21:21+00:00"
+    }
 }

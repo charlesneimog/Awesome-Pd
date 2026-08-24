@@ -1,5 +1,16 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "Cream is Pierre Guillot/CICM’s collection of graphical and signal-processing externals intended to extend Pd Vanilla and improve user interaction. It uses CICM Wrapper and supports graphical-interface as well as DSP objects; the repository was archived in 2020.",
+    "issues": "https://github.com/CICM/CreamLibrary/issues",
+    "link": "https://github.com/CICM/CreamLibrary",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://github.com/CICM/CreamLibrary",
+            "https://musidanse.univ-paris8.fr/IMG/pdf/musidanse_dossier_d_autoevaluation_ur-2.pdf",
+            "https://forum.pdpatchrepo.info/topic/10715/having-trouble-finding-some-object-in-pd"
+        ],
+        "notes": "Institutional documentation explicitly identifies CreamLibrary as the Cream graphical/DSP library for Pure Data.",
+        "checked_at": "2026-08-24T21:15:34+00:00"
+    }
 }

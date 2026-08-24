@@ -1,5 +1,16 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "A Pure Data external embedding the FAUST just-in-time compiler, allowing FAUST DSP files to be loaded, compiled, and played inside Pd. Public announcements identify CICM/pd-faustgen as its project repository.",
+    "issues": "https://github.com/CICM/pd-faustgen/issues",
+    "link": "https://github.com/CICM/pd-faustgen",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://forum.puredata.info/topic/11519/faustgen-the-faust-compiler-embedded-in-a-pure-data-external/2",
+            "https://github.com/CICM/pd-faustgen/releases",
+            "https://jim2019.sciencesconf.org/data/pages/GuillotParisBonardi.pdf"
+        ],
+        "notes": "Resolved against similarly named Faust integrations using the Pd announcement and academic references that explicitly identify CICM/pd-faustgen.",
+        "checked_at": "2026-08-24T21:18:34+00:00"
+    }
 }

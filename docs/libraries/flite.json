@@ -1,5 +1,16 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "A Pure Data external providing a high-level English text-to-speech interface based on the libflite synthesis library. The pd-externals repository documents the external, while Debian also identifies that repository as the upstream source for pd-flite.",
+    "issues": "https://github.com/pd-externals/flite/issues",
+    "link": "https://github.com/pd-externals/flite",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://github.com/pd-externals/flite",
+            "https://blends.debian.org/multimedia/tasks/puredata.da.html",
+            "https://forum.pdpatchrepo.info/topic/1977/speech-synthesis"
+        ],
+        "notes": "The repository history incorporates the maintained 0.3.3 line; searches also found an earlier/update repository under Lucarda, but current upstream and Debian evidence favor pd-externals/flite.",
+        "checked_at": "2026-08-24T21:18:34+00:00"
+    }
 }

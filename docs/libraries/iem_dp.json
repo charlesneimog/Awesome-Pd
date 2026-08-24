@@ -1,5 +1,15 @@
 {
-    "description": "",
+    "description": "A legacy IEM Pure Data external library for which public evidence includes historical compilation discussions. The available sources did not provide an authoritative description of its functionality.",
     "issues": "",
-    "link": ""
+    "link": "",
+    "research": {
+        "status": "partial",
+        "confidence": "low",
+        "sources": [
+            "https://forum.pdpatchrepo.info/topic/10439/trying-to-compile-iem_dp-on-mac-makefile-errors",
+            "https://github.com/charlesneimog/Awesome-Pd/blob/main/TODO.md"
+        ],
+        "notes": "No canonical repository or issue tracker was verified, and the abbreviation was not expanded by inference.",
+        "checked_at": "2026-08-24T21:22:52+00:00"
+    }
 }

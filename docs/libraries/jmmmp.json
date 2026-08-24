@@ -1,5 +1,17 @@
 {
-    "description": "",
+    "description": "A historical Pd abstraction library containing control, GUI, and audio conveniences. Public evidence identifies objects including f+, matrixctrl, maat~, mat~, and dacm~.",
     "issues": "",
-    "link": ""
+    "link": "",
+    "research": {
+        "status": "partial",
+        "confidence": "medium",
+        "sources": [
+            "https://sourceforge.net/projects/pure-data/files/libraries",
+            "https://lists.puredata.info/pipermail/pd-cvs/2009-01/016017.html",
+            "https://forum.pdpatchrepo.info/topic/9631/matrixctrl-or-how-to-make",
+            "https://blazicek.net/stuff/pd/list_of_pure_data_objects.html"
+        ],
+        "notes": "The library is verified in the historical Pure Data SourceForge distribution and SVN records, but a current standalone canonical repository and issue tracker were not verified.",
+        "checked_at": "2026-08-24T21:26:03+00:00"
+    }
 }

@@ -1,5 +1,14 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "A Pd external for managing connections between JACK clients. It can query clients and ports, connect or disconnect them, and match port subsets with regular expressions.",
+    "issues": "https://github.com/pd-externals/jackpatch/issues",
+    "link": "https://github.com/pd-externals/jackpatch",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://github.com/pd-externals/jackpatch"
+        ],
+        "notes": "The repository belongs to the Pd Externals organization, identifies itself as a Pure Data external, and exposes GitHub Issues.",
+        "checked_at": "2026-08-24T21:26:03+00:00"
+    }
 }

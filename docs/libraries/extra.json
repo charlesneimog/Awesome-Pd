@@ -1,5 +1,16 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "The bundled “extra” collection shipped with Pd Vanilla, containing included externals such as fiddle~, sigmund~, and bob~. It is maintained as the extra directory of the main Pure Data source repository.",
+    "issues": "https://github.com/pure-data/pure-data/issues",
+    "link": "https://github.com/pure-data/pure-data",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://msp.ucsd.edu/Pd_documentation/4.externals.htm",
+            "https://github.com/pure-data/pure-data",
+            "https://github.com/libpd/libpd"
+        ],
+        "notes": "This is Pd Vanilla’s bundled extra collection, not a third-party project merely using “extra” in its name.",
+        "checked_at": "2026-08-24T21:18:34+00:00"
+    }
 }

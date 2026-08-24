@@ -1,5 +1,14 @@
 {
     "description": "",
     "issues": "",
-    "link": ""
+    "link": "",
+    "research": {
+        "status": "not_found",
+        "confidence": "low",
+        "sources": [
+            "https://github.com/charlesneimog/Awesome-Pd/blob/main/TODO.md"
+        ],
+        "notes": "The exact name appears in a Pd-library research list, but live searches did not produce enough public evidence to establish its identity, purpose, repository, or issue tracker without guessing.",
+        "checked_at": "2026-08-24T21:26:03+00:00"
+    }
 }

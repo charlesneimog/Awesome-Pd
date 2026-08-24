@@ -1,5 +1,16 @@
 {
-    "description": "",
+    "description": "An IEM library for calculating Ambisonics encoder, rotation, and decoder matrices in Pure Data. Current packaging supports higher-order 2D and 3D Ambisonics and identifies the IEM GitLab project as its homepage.",
     "issues": "",
-    "link": ""
+    "link": "https://git.iem.at/pd/iem_ambi",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://git.iem.at/pd/iem_ambi",
+            "https://blends.debian.org/multimedia/tasks/puredata.pl.html",
+            "https://www.dafx.de/paper-archive/2005/P_167.pdf"
+        ],
+        "notes": "The official GitLab project is independently corroborated by Debian and pd-lib-builder. No issue-tracker URL was returned by search, so it is left empty.",
+        "checked_at": "2026-08-24T21:22:52+00:00"
+    }
 }

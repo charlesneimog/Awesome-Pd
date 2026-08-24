@@ -1,5 +1,14 @@
 {
-    "description": "",
+    "description": "A collection of Pure Data abstractions for performance and production, including a WAV player, live looper, MIDI tools, channel strips, multichannel reverb, Ableton Link integration, and a GUI for vstplugin~.",
     "issues": "",
-    "link": ""
+    "link": "",
+    "research": {
+        "status": "partial",
+        "confidence": "medium",
+        "sources": [
+            "https://charlesneimog.github.io/Awesome-Pd/libraries/DEAPd"
+        ],
+        "notes": "The exact Pd package is documented, but live search did not verify a canonical source repository or issue tracker.",
+        "checked_at": "2026-08-24T21:17:15+00:00"
+    }
 }

@@ -1,5 +1,16 @@
 {
-    "description": "",
+    "description": "A historical collection of Pure Data abstractions from La Kitchen, including sensor-data utilities such as automatic calibration, extrema detection, and retaining recent input values.",
     "issues": "",
-    "link": ""
+    "link": "https://github.com/pure-data/externals/tree/master/La-kitchen",
+    "research": {
+        "status": "verified",
+        "confidence": "medium",
+        "sources": [
+            "https://www.mail-archive.com/pd-dev%40iem.at/msg02156.html",
+            "https://blazicek.net/stuff/pd/list_of_pure_data_objects.html",
+            "https://forum.pdpatchrepo.info/topic/50/neural-network-in-pd"
+        ],
+        "notes": "Public Pd project history identifies La-kitchen as a directory maintained by nusmuk/Cyrille Henry in the former shared externals repository. No library-specific issue tracker was verified.",
+        "checked_at": "2026-08-24T21:27:38+00:00"
+    }
 }

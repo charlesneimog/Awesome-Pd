@@ -1,5 +1,16 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "A tiny domain-specific language for Pure Data intended to reduce repetitive patching, particularly for list and table manipulation.",
+    "issues": "https://github.com/chr15m/lolpd/issues",
+    "link": "https://github.com/chr15m/lolpd",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://awesome.ecosyste.ms/projects?owner=chr15m",
+            "https://lists.iem.at/hyperkitty/list/pd-list%40lists.iem.at/thread/XV4SQKMQT35YXZ4FJ34QHWPLI6W6UF6C",
+            "https://mccormickit.com/resume"
+        ],
+        "notes": "The maintainer's Pd mailing-list message and personal résumé both connect lolPd to Chris McCormick, resolving collisions with the unrelated LOPD acronym.",
+        "checked_at": "2026-08-24T21:27:38+00:00"
+    }
 }

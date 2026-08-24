@@ -1,5 +1,14 @@
 {
-    "description": "",
+    "description": "A package named ezaoo is listed in a current catalog of the Pure Data ecosystem. The available public evidence did not establish its contents, maintainer, canonical repository, or issue tracker.",
     "issues": "",
-    "link": ""
+    "link": "",
+    "research": {
+        "status": "partial",
+        "confidence": "low",
+        "sources": [
+            "https://github.com/charlesneimog/Awesome-Pd/blob/main/TODO.md"
+        ],
+        "notes": "Exact-name searches produced no sufficiently authoritative project evidence; URLs and functionality were therefore left unverified.",
+        "checked_at": "2026-08-24T21:18:34+00:00"
+    }
 }

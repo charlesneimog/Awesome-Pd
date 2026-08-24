@@ -1,5 +1,16 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "A miscellaneous collection of Pd externals and abstractions originally associated with Hans-Christoph Steiner. It includes utilities for GUI interaction, filesystem and system information, sensor-data processing, and objects such as autoscale and cursor.",
+    "issues": "https://github.com/pd-externals/hcs/issues",
+    "link": "https://github.com/pd-externals/hcs",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://github.com/pd-externals/hcs",
+            "https://lists.puredata.info/pipermail/pd-cvs/2009-01/015965.html",
+            "https://puredata.info/downloads/hcs"
+        ],
+        "notes": "The repository identifies itself as the maintenance repository for hcs and contains the historically documented objects.",
+        "checked_at": "2026-08-24T21:21:21+00:00"
+    }
 }

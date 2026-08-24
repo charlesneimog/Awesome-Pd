@@ -1,5 +1,14 @@
 {
-    "description": "",
+    "description": "A legacy IEM Pure Data external library. Search results establish the exact library name in Pd ecosystem indexes, but did not provide authoritative documentation of its objects or function.",
     "issues": "",
-    "link": ""
+    "link": "",
+    "research": {
+        "status": "partial",
+        "confidence": "low",
+        "sources": [
+            "https://github.com/charlesneimog/Awesome-Pd/blob/main/TODO.md"
+        ],
+        "notes": "No canonical repository, issue tracker, or sufficiently authoritative functional description was verified; fields are intentionally left empty rather than inferred.",
+        "checked_at": "2026-08-24T21:22:52+00:00"
+    }
 }

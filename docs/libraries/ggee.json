@@ -1,5 +1,16 @@
 {
-    "description": "",
-    "issues": "",
-    "link": ""
+    "description": "ggee is Guenter Geiger's Pure Data library organized into control, experimental, filter, GUI, and signal-processing sections. It includes objects ranging from filter-coefficient generators and GUI widgets to synths and signal streaming tools.",
+    "issues": "https://github.com/pd-externals/ggee/issues",
+    "link": "https://github.com/pd-externals/ggee",
+    "research": {
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+            "https://github.com/pd-externals/ggee",
+            "https://sourceforge.net/projects/pure-data/files/libraries/ggee",
+            "https://blends.debian.org/multimedia/tasks/puredata.da.html"
+        ],
+        "notes": "The pd-externals repository calls itself the maintenance repository, and its contents and description match both the historical Pd distribution and Debian metadata.",
+        "checked_at": "2026-08-24T21:19:56+00:00"
+    }
 }

@@ -1,5 +1,15 @@
 {
-    "description": "",
+    "description": "gpmotion appears by exact name in a third-party inventory of Pure Data libraries. Searches were dominated by unrelated mobile-device APIs and did not produce authoritative Pd documentation from which its function could be safely described.",
     "issues": "",
-    "link": ""
+    "link": "",
+    "research": {
+        "status": "partial",
+        "confidence": "low",
+        "sources": [
+            "https://github.com/charlesneimog/Awesome-Pd/blob/main/TODO.md",
+            "https://docs.midtrans.com/reference/frontend-v2"
+        ],
+        "notes": "The second source documents an unrelated product using the same name and was used to resolve that collision, not to describe the Pd library. Repository, tracker, and functional identity remain unverified.",
+        "checked_at": "2026-08-24T21:19:56+00:00"
+    }
 }

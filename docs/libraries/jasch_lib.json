@@ -1,5 +1,16 @@
 {
-    "description": "",
+    "description": "A historical collection of Pd externals developed by Jan Schacher, partially ported from his Max/MSP objects. Public documentation identifies objects for string processing and XML-tag parsing, including strlen, strtok, strcut, and detox.",
     "issues": "",
-    "link": ""
+    "link": "http://pure-data.cvs.sourceforge.net/pure-data",
+    "research": {
+        "status": "verified",
+        "confidence": "medium",
+        "sources": [
+            "https://www.jasch.ch/pub/NIME07_Gesture_Jasch.pdf",
+            "https://blazicek.net/stuff/pd/list_of_pure_data_objects.html",
+            "https://forum.pdpatchrepo.info/topic/11524/xml-parsing-in-pd"
+        ],
+        "notes": "A maintainer-authored paper identifies the historical Pure Data CVS repository, but no current standalone canonical repository or issue tracker was verified.",
+        "checked_at": "2026-08-24T21:26:03+00:00"
+    }
 }
