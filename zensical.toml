@@ -20,6 +20,9 @@ head = [
     "<link rel=\"preload\" href=\"../submit-external/index.html\" as=\"document\">",
 ]
 
+[project.plugins.minify]
+minify_html = true
+
 [project.theme]
 logo = "assets/icon.svg"
 language = "en"
